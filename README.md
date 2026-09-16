@@ -8,9 +8,9 @@
 
 | Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 |---|---|---|---|
-| Trần Trọng Chinh | 2A202602720 | Leader | |
+| Trần Trọng Chinh | 2A202602720 | Member | |
 | Đinh Thị Minh Tâm | 2A202602433 | Member | |
-| Chu Minh Quân | 2A202602709 | Member | |
+| Chu Minh Quân | 2A202602709 | Leader | |
 | Nguyễn Văn Ước | 2A202602445 | Member | |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.

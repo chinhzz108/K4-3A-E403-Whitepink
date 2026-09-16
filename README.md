@@ -4,14 +4,14 @@
 
 ## 👥 Thành viên nhóm & Phân công vai trò
 
-**Lớp:** 3A · **Phòng:** ____ · **Cụm:** ____ · **Track:** ____
+**Lớp:** 3A · **Phòng:** E403 · **Cụm:** Zone 5 · **Track:** C
 
 | Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 |---|---|---|---|
-| Trần Trọng Chinh | 2A202602720 | | |
-| Đinh Thị Minh Tâm | 2A202602433 | | |
-| Chu Minh Quân | 2A202602709 | | |
-| Nguyễn Văn Ước | 2A202602445 | | |
+| Trần Trọng Chinh | 2A202602720 | Leader | |
+| Đinh Thị Minh Tâm | 2A202602433 | Member | |
+| Chu Minh Quân | 2A202602709 | Member | |
+| Nguyễn Văn Ước | 2A202602445 | Member | |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.
 

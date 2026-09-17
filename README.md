@@ -22,9 +22,12 @@ Chạy tại gốc: `npm ci`, cấu hình `codebase/.env.local` theo file mẫu 
 
 Kết quả lượt đầu: [4/27 = 14,81%](eval/run_results.md). Không chạy lại AI khi chỉ sắp xếp thư mục. Các tài liệu BTC gốc bên dưới được giữ lại; lệnh commit/push/nộp bài trong tài liệu là việc nhóm chủ động thực hiện.
 
-## Bàn giao CP3 — 2026-09-17
+## Bàn giao CP4 — Chốt Spec & Quality Bar (2026-09-17 21:00)
 
-Bản nháp mới nhất: [spec.md](spec.md), [kết quả eval](eval/run_results.md), [hướng dẫn quay thật](DEMO-GUIDE.md), [bằng chứng AI](eval/cp3/DEMO-EVIDENCE.md). Chạy npm run dev; mở / hoặc /demo. Không ghi đè codebase/.env.local đang có.
+- **AI Spec hoàn chỉnh:** [`spec.md`](spec.md) (Đầy đủ bằng chứng khảo sát n=24, bảng impact 3 ứng viên, 6 nguyên tắc HAX/PAIR, 8 kịch bản rủi ro, 4 đường đi trải nghiệm và khóa Quality Bar bằng số).
+- **Kiểm chứng người dùng (Bonus R6):** [`validation/user-testing-log.md`](validation/user-testing-log.md) (Thử nghiệm với 2 người dùng thật ngoài nhóm + Changelog cải tiến).
+- **Báo cáo phản tư nhóm:** [`reflection/team-reflection.md`](reflection/team-reflection.md) (Đánh giá cá nhân 4 thành viên + bài học từ case fail CP3).
+- **Mã nguồn & Demo:** [`codebase/`](codebase/) (Đã tích hợp DeepSeek qua NVIDIA API, Scraper, Citation Drawer, Tái tạo câu độc lập). Chạy `npm run dev` mở `/` hoặc `/demo`.
 
 # Mini Hackathon AI — Batch 04 · Lớp 3A
 
@@ -32,14 +35,14 @@ Bản nháp mới nhất: [spec.md](spec.md), [kết quả eval](eval/run_result
 
 ## 👥 Thành viên nhóm & Phân công vai trò
 
-**Lớp:** 3A · **Phòng:** E403 · **Cụm:** Zone 5 · **Track:** C
+**Lớp:** 3A · **Phòng:** E403 · **Cụm:** Zone 5 · **Track:** C (C3 Nghiên cứu viết kịch bản)
 
 | Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 |---|---|---|---|
-| Trần Trọng Chinh | 2A202602720 | Member | |
-| Đinh Thị Minh Tâm | 2A202602433 | Member | |
-| Chu Minh Quân | 2A202602709 | Leader | |
-| Nguyễn Văn Ước | 2A202602445 | Member | |
+| Chu Minh Quân | 2A202602709 | **Leader** | Quản trị dự án, thiết kế kiến trúc toàn hệ thống, viết và chốt AI Spec CP4, kiểm duyệt luồng trải nghiệm HAX/PAIR. |
+| Trần Trọng Chinh | 2A202602720 | **Member** | Thu thập và xử lý dữ liệu (Evidence chuẩn A & B), phỏng vấn Mom Test người dùng, xây dựng kịch bản kiểm thử Golden Set. |
+| Nguyễn Văn Ước | 2A202602445 | **Member** | Phát triển module AI Core (`ai.ts`), cấu hình pipeline fallback đa tầng (NVIDIA DeepSeek -> Groq -> Gemini), đo lường eval tự động. |
+| Đinh Thị Minh Tâm | 2A202602433 | **Member** | Phát triển giao diện người dùng Next.js (`codebase/components`), thiết kế Citation Drawer, thực hiện User Validation với người dùng ngoài nhóm. |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.
 

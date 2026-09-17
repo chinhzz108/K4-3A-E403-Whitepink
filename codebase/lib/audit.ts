@@ -1,7 +1,14 @@
 import { mkdir, writeFile, appendFile } from 'fs/promises';
-import path from 'path';
+import * as fsSync from 'fs';
+import * as path from 'path';
 
-const dir = path.resolve(process.cwd(), '..', 'eval', 'traces');
+function getTracesDir() {
+  if (fsSync.existsSync(path.resolve(process.cwd(), 'eval'))) {
+    return path.resolve(process.cwd(), 'eval', 'traces');
+  }
+  return path.resolve(process.cwd(), '..', 'eval', 'traces');
+}
+const dir = getTracesDir();
 // Serverless functions cannot persist files beside the deployed application.
 // The API responses already include the trace for the current request.
 function canWriteLocalTraces() {

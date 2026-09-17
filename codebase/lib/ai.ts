@@ -96,21 +96,24 @@ function getEnv(name: string): string {
   try {
     const fs = require('fs');
     const path = require('path');
-    for (const f of ['.env.local', '.env']) {
+    for (const f of ['.env.local', '.env', 'codebase/.env.local', 'codebase/.env', path.join(__dirname, '..', '.env.local')]) {
       const p = path.resolve(process.cwd(), f);
       if (fs.existsSync(p)) {
         const lines = fs.readFileSync(p, 'utf-8').split('\n');
         for (const line of lines) {
           const [k, ...v] = line.trim().split('=');
           if (k === name && v.length) {
-            const val = v.join('=').trim();
+            let val = v.join('=').trim();
+            if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+              val = val.slice(1, -1);
+            }
             process.env[name] = val;
             return val;
           }
         }
       }
     }
-  } catch {}
+  } catch { }
   return '';
 }
 
@@ -149,15 +152,17 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
 
   const deepseekKey = getEnv('NVIDIA_API_KEY');
   if (deepseekKey) {
-    const model = getEnv('DEEPSEEK_MODEL') || 'deepseek-ai/deepseek-v4-flash-0731';
+    const model = getEnv('DEEPSEEK_MODEL');
     try {
       const res = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
         method: 'POST',
         headers: { Authorization: 'Bearer ' + deepseekKey, 'Content-Type': 'application/json' },
-        body: JSON.stringify({ model, messages: [
-          ...(options.systemPrompt ? [{ role: 'system', content: options.systemPrompt }] : []),
-          { role: 'user', content: options.prompt },
-        ], temperature: options.temperature ?? 0.2, response_format: { type: 'json_object' }, max_tokens: 4096 }),
+        body: JSON.stringify({
+          model, messages: [
+            ...(options.systemPrompt ? [{ role: 'system', content: options.systemPrompt }] : []),
+            { role: 'user', content: options.prompt },
+          ], temperature: options.temperature ?? 0.2, response_format: { type: 'json_object' }, max_tokens: 4096
+        }),
         signal: AbortSignal.timeout(35000),
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -165,8 +170,10 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
       const content = data.choices?.[0]?.message?.content;
       if (typeof content !== 'string' || !content.trim()) throw new Error('Empty response');
       parseJSONSafely(content);
-      await recordCall({ provider: 'deepseek', model, requestId: data.id, usage: data.usage,
-        calledAt: new Date().toISOString(), systemPrompt: options.systemPrompt, input: options.prompt, output: content });
+      await recordCall({
+        provider: 'deepseek', model, requestId: data.id, usage: data.usage,
+        calledAt: new Date().toISOString(), systemPrompt: options.systemPrompt, input: options.prompt, output: content
+      });
       return { text: content, provider: 'deepseek', model };
     } catch (err) {
       const reason = safeError(err);
@@ -608,7 +615,7 @@ Trả về JSON:
   "loi": "...",
   "chuTrenManHinh": "...",
   "yDoHinh": "...",
-  "nguon": ${JSON.stringify(usableFacts(remainingThongTin, remainingSources).slice(0,1).map(t => t.id))}
+  "nguon": ${JSON.stringify(usableFacts(remainingThongTin, remainingSources).slice(0, 1).map(t => t.id))}
 }`;
 
   try {

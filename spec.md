@@ -11,62 +11,357 @@
 | Đinh Thị Minh Tâm | Discovery/Eval · survey, evidence, golden set, spec |
 | Nguyễn Văn Ước | Frontend/Demo · UX flow, prototype, validation/demo |
 
-## §1. Vấn đề
+## Phân công nhóm
 
-Khi làm video bài giảng, giảng viên cần tìm tài liệu đáng tin, trích dẫn chính xác, và viết kịch bản dạng văn nói. Giả thuyết cần phỏng vấn xác nhận: quy trình thủ công mất nhiều thời gian; chưa có số đo thời gian của nhóm.
-
-## §2. Giải pháp
-
-ScriptScout là agent nhận chủ đề, mục tiêu bài học, đối tượng người học và thời lượng → tự tìm tài liệu trên web → đánh giá độ tin cậy → viết kịch bản có dẫn nguồn.
-
-### Lát cắt CP3
-
-Người dùng nhập 4 thông tin → hệ thống tìm ~3 nguồn thật → hiển thị hồ sơ nguồn → AI viết 5 câu mở đầu → bấm vào câu xem URL + đoạn trích.
-
-## §3. Kiến trúc
-
-```
-[Frontend Next.js] → /api/research → [Serper / Wikipedia Search động] → [HTML Scraper] → [Groq/Gemini Evaluate]
-                   → /api/generate-script → [Groq/Gemini Write Script]
-                   → /api/regenerate-sentence → [Groq/Gemini Rewrite]
-```
-
-## §4. Thiết kế chi tiết
-
-### Input
-- Chủ đề (text)
-- Mục tiêu bài học (text)
-- Đối tượng người học (select)
-- Thời lượng (select)
-
-### Output
-1. **Hồ sơ nguồn** (JSON theo schema hackathon-ho-so-nguon/1): URL, tiêu đề, tác giả, tổ chức, ngày đăng, ngày truy cập, đoạn trích, lý do chọn/loại, cảnh báo
-2. **Kịch bản** (JSON theo schema hackathon-kich-ban/1): loi, chuTrenManHinh, yDoHinh, kieu, nguon
-3. **Trace** (JSON): input, search results, pages read, sources evaluated, AI output, sentence→source mapping
-
-### Quyết định trung tâm bằng AI
-- **Đánh giá độ tin cậy nguồn**: Gemini phân tích nội dung trang, metadata, xác định loại tài liệu, cho điểm và giải thích
-- **Phát hiện prompt injection**: scraper quét hidden elements + regex patterns
-- **Viết kịch bản**: Gemini viết 5 câu theo mau-kich-ban.md (văn nói, không số, thuật ngữ Anh kèm Việt)
-
-## §5. Chỗ khó đã xử lý
-
-| Chỗ khó | Cách xử lý |
+| Thành viên | Vai trò và trách nhiệm |
 |---|---|
-| Prompt injection trên trang web | Scraper quét hidden elements + regex 8 patterns; AI được nhắc loại trang có injection |
-| Hai nguồn nói số liệu khác nhau | AI ghi moTaMauThuan; hiện cảnh báo trên UI; không im lặng chọn một |
-| Nguồn cũ | Đọc ngày trong HTML; nguồn >1 năm có cảnh báo theo ngày chạy |
-| Link hỏng / trang bị chặn | Scraper đánh dấu status: error/blocked/timeout; không coi như đã đọc |
-| Chủ đề ít nguồn tiếng Việt | Có tìm tiếng Anh qua query AI; chưa bảo đảm phát hiện đầy đủ thiếu nguồn tiếng Việt |
+| Chu Minh Quân | Leader · quản lý repo, tích hợp và nộp checkpoint |
+| Trần Trọng Chinh | Backend/AI · research API, model integration, debugging |
+| Đinh Thị Minh Tâm | Discovery/Eval · survey, evidence, golden set, spec |
+| Nguyễn Văn Ước | Frontend/Demo · UX flow, prototype, validation/demo |
 
-## §6. Kịch bản rủi ro
+> **CP4 FREEZE — 17/09/2026**
+>
+> Quality Bar tại §7 được chốt tại CP4.
+> Sau thời điểm nộp CP4, nhóm có thể tiếp tục sửa code, prompt và chạy lại eval,
+> nhưng không hạ hoặc thay đổi chuẩn "đạt" dựa trên kết quả mới.
+>
+> Các phần chưa hoàn thiện được khai báo rõ trong mục
+> **Known limitations at CP4 freeze**.
 
-| Rủi ro | Khả năng | Xử lý |
+---
+
+## §1. User & Job
+
+### 1.1 Job executor
+
+**Người trực tiếp viết kịch bản video bài giảng có sử dụng thông tin,
+số liệu, ví dụ hoặc luận điểm từ các tài liệu bên ngoài.**
+
+Giảng viên/người duyệt là stakeholder quan trọng trong bước review,
+nhưng job executor chính của lát cắt này là người viết kịch bản.
+
+### 1.2 Current workflow
+
+Qua khảo sát, workflow hiện tại thường gồm:
+
+**Nhận chủ đề/mục tiêu**
+→ tìm tài liệu trên web
+→ mở và đọc nhiều nguồn
+→ đánh giá nguồn nào đủ đáng tin
+→ đối chiếu thông tin giữa các nguồn
+→ ghi chú dữ kiện
+→ viết lại thành nội dung/kịch bản
+→ ghi nguồn
+→ gửi người khác duyệt
+→ mở lại nguồn khi cần kiểm chứng
+→ sửa bản nháp.
+
+Người dùng hiện có thể sử dụng Google Search, ChatGPT, Claude,
+Gemini, Perplexity, NotebookLM hoặc tài liệu nội bộ,
+nhưng nhiều bước đối chiếu và truy lại bằng chứng vẫn phải làm thủ công.
+
+### 1.3 Core JTBD
+
+> **Hoàn thiện một đoạn kịch bản bài giảng có thông tin đáng tin cậy
+> và có thể truy lại bằng chứng trước khi chuyển cho người duyệt.**
+
+JTBD này không chứa tên ScriptScout, AI, chatbot hay một công nghệ cụ thể.
+
+### 1.4 Problem statement
+
+> **Khi viết kịch bản bài giảng có thông tin thực chứng, người viết
+> phải tự mở lại và đối chiếu nhiều tài liệu để xác định từng câu
+> dựa trên bằng chứng nào, khiến quá trình kiểm tra và duyệt mất thêm
+> thời gian và dễ phát sinh việc tìm lại nguồn hoặc sửa nội dung.**
+
+### 1.5 Evidence ban đầu
+
+Nhóm đã khảo sát **11 người** từng trực tiếp viết, nghiên cứu hoặc
+duyệt nội dung bài giảng.
+
+Kết quả chính:
+
+- **11/11** từng gặp tình trạng có nguồn nhưng không nhớ rõ câu nào
+  được lấy từ nguồn nào.
+- **10/11** đánh giá việc truy ngược câu/số liệu về đúng nguồn ở mức
+  khó **4–5/5**.
+- **7/11** cho biết lần gần nhất mất **hơn 1 giờ** để tìm lại đúng
+  nguồn hoặc đoạn chứng minh.
+- **7/11** phải đọc từ **11 nguồn trở lên** trong lần gần nhất.
+- **8/11** đánh giá việc lựa chọn nguồn đủ đáng tin ở mức khó 4–5/5.
+- **10/11** đánh giá việc chuyển research thành lời thoại ở mức khó
+  4–5/5.
+- **9/11** cần ít nhất 3 lượt sửa bản nháp.
+- Khi buộc chọn đúng một pain tốn công nhất,
+  **“truy ngược câu → nguồn”** và **“đối chiếu nhiều nguồn”**
+  cùng có **4/11 lựa chọn**.
+- **6/11** đồng ý thử prototype; **5 người** để lại thông tin liên hệ.
+
+### 1.6 Quote nguyên văn tiêu biểu
+
+> “Tự tay click vào từng link do Perplexity hay LLM đưa ra để đọc xem
+> đoạn văn gốc có thực sự chứa con số đó không… việc gắn nhãn
+> footnote/citation từng câu… vẫn phải copy-paste hoàn toàn bằng tay.”
+
+> “Không có công cụ nào tự động highlight xem câu trong bài viết
+> khớp với dòng nào trong văn bản gốc. Toàn bộ việc mở tab, đọc từng
+> đoạn chứng minh… vẫn phải làm thủ công 100% bằng mắt.”
+
+**Evidence gap:** khảo sát hiện tại có **n=11**, chưa đạt chuẩn survey
+A ≥20 của rubric chung. Nhóm không khai n=11 là survey đạt chuẩn A.
+
+Nhóm cũng chưa thu được số liệu tần suất thực hiện công việc theo tháng,
+vì vậy không tự suy đoán frequency để làm đẹp impact.
+
+---
+
+## §2. Impact & quyết định chọn
+
+Nhóm so sánh ba candidate pain trước khi khóa lát cắt.
+
+| Candidate | Evidence hiện có | Cost / hậu quả | Buildability | Quyết định |
+|---|---|---|---|---|
+| **A. Truy ngược claim → evidence** | 11/11 từng gặp mất mapping; 10/11 chấm khó 4–5; 7/11 mất >1 giờ ở lần gần nhất | Phải tìm lại nguồn, kiểm lại claim, làm reviewer mất thêm thời gian | Cao; có thể đo rõ bằng sentence → evidence mapping | **CHỌN** |
+| **B. Đối chiếu nhiều nguồn** | 4/11 chọn là pain lớn nhất; nhiều câu trả lời cho thấy vẫn phải fact-check thủ công | Phải mở và so nhiều nguồn trước khi dùng | Trung bình; phụ thuộc mạnh vào search và web coverage | Không chọn làm core |
+| **C. Research → văn nói** | 10/11 chấm khó 4–5; 9/11 cần ≥3 lượt sửa | Rework nhiều vòng trước khi dùng được | Cao nhưng naturalness khó chấm khách quan hơn grounding | Giữ làm quality dimension phụ |
+
+### 2.1 Vì sao chọn Candidate A
+
+A và B cùng có **4/11 lựa chọn** ở câu hỏi “pain tốn công nhất”,
+nên nhóm **không kết luận rằng A phổ biến hơn B**.
+
+A được chọn vì có thêm các bằng chứng trực tiếp:
+
+- 11/11 từng gặp mất mapping câu–nguồn;
+- 10/11 đánh giá việc truy nguồn khó;
+- 7/11 mất hơn một giờ trong lần gần nhất;
+- pain này khớp với một lát cắt nhỏ, đo được và build được trong Hackathon.
+
+### 2.2 Candidate đã loại
+
+**Đối chiếu toàn bộ nhiều nguồn:** vẫn là pain thật nhưng rộng hơn lát
+cắt và phụ thuộc nhiều vào chất lượng search.
+
+**Tự động viết toàn bộ bài giảng/video:** ngoài scope Hackathon hiện tại
+và không giải trực tiếp pain traceability đã đo được.
+
+### 2.3 Impact gap
+
+Rubric yêu cầu bảng impact có yếu tố tần suất.
+Khảo sát hiện tại chưa có aggregate frequency đủ tin cậy.
+
+Vì vậy nhóm ghi rõ:
+
+> **Frequency chưa đo — không tự tạo số để tính impact.**
+
+---
+
+## §3. Giải pháp tương tự đã nghiên cứu
+
+### 3.1 Perplexity
+
+**Flow quan sát:** nhập câu hỏi → hệ thống tìm web → tạo nội dung có
+citation → người dùng có thể mở source.
+
+**Điểm đáng học:**
+- citation nằm gần nội dung;
+- giảm bước tự tìm link;
+- user có thể mở nguồn nhanh.
+
+**Điểm cần tránh:**
+- có citation chưa đồng nghĩa đoạn được cite hỗ trợ chính xác toàn bộ claim;
+- user vẫn phải mở nguồn để kiểm meaning;
+- citation có thể ở mức source thay vì evidence passage.
+
+**ScriptScout khác ở điểm:**
+
+> lưu quan hệ **Sentence → Fact → Evidence → Source**
+> và đưa source review vào workflow trước khi coi draft là sẵn sàng.
+
+### 3.2 Deep Research / công cụ nghiên cứu dài
+
+**Flow quan sát:** nhận câu hỏi/chủ đề → tìm nhiều nguồn →
+tổng hợp thành báo cáo dài có citation.
+
+**Điểm đáng học:**
+- research nhiều nguồn;
+- tổng hợp nội dung tốt;
+- có provenance/source list.
+
+**Điểm cần tránh:**
+- output thường giống research report hơn script văn nói;
+- chưa tập trung vào correction ở mức từng câu khi một nguồn bị loại.
+
+**ScriptScout khác ở điểm:**
+
+> đầu ra là một lát cắt script 5 câu,
+> có evidence traceability và reviewer control.
+
+---
+
+## §4. Thiết kế
+
+### 4.1 Lát cắt MỘT CÂU
+
+> **Một người viết kịch bản cần tạo 5 câu cho một đoạn bài giảng;
+> AI đánh giá nguồn và bằng chứng cho factual information để tạo một
+> bản nháp mà từng thông tin có thể truy ngược về đúng nguồn,
+> và khi reviewer loại một nguồn chỉ phần phụ thuộc nguồn đó cần sửa.**
+
+- **1 user:** người viết kịch bản.
+- **1 job:** tạo một đoạn script 5 câu có căn cứ.
+- **1 quyết định AI trung tâm:** quyết định source/evidence nào đủ
+  điều kiện để dùng cho factual information.
+- **1 result:** script có traceability để reviewer kiểm chứng.
+
+### 4.2 Non-goals
+
+Trong lát cắt Hackathon này, nhóm không:
+
+1. tạo video hoàn chỉnh;
+2. tự phê duyệt hoặc tự xuất bản bài giảng thay giảng viên;
+3. tạo toàn bộ bài giảng dài nhiều section;
+4. tuyên bố xác minh “sự thật tuyệt đối” trên Internet;
+5. coi search snippet hoặc trang chưa đọc được là evidence thật;
+6. hỗ trợ đầy đủ PDF, paywall hoặc trang cần đăng nhập;
+7. xây hệ thống production có authentication và multi-user storage.
+
+### 4.3 Prototype level
+
+**Working prototype**
+
+Phần chạy thật:
+
+- Next.js frontend;
+- `/api/research`;
+- search web / fallback;
+- HTML scraper;
+- AI source evaluation;
+- AI script generation;
+- `/api/regenerate-sentence`;
+- trace và source/evidence mapping.
+
+Phần fixture/mô phỏng:
+
+- fixture localhost dùng trong adversarial evaluation;
+- animation timeline;
+- một số biểu diễn trust trên UI mang tính heuristic,
+  chưa phải calibrated probability.
+
+### 4.4 Input
+
+Bốn input bắt buộc:
+
+- Chủ đề.
+- Mục tiêu bài học.
+- Đối tượng người học.
+- Thời lượng.
+
+Nếu input thiếu hoặc quá mơ hồ, hệ thống phải yêu cầu làm rõ
+thay vì tự suy đoán.
+
+### 4.5 Output
+
+#### Hồ sơ nguồn
+
+- URL;
+- tiêu đề;
+- tác giả/tổ chức nếu đọc được;
+- ngày đăng nếu đọc được;
+- ngày truy cập;
+- loại nguồn;
+- độ tin cậy;
+- lý do dùng/loại;
+- cảnh báo;
+- đoạn trích;
+- scrape status;
+- prompt-injection flag.
+
+#### Fact / thông tin
+
+- nội dung;
+- loại thông tin;
+- evidence;
+- source ID;
+- số nguồn xác nhận;
+- trạng thái xác minh;
+- mô tả mâu thuẫn nếu có.
+
+#### Kịch bản
+
+- 5 câu trong lát cắt demo;
+- lời đọc;
+- chữ trên màn hình;
+- ý đồ hình;
+- fact/source linkage.
+
+#### Trace
+
+- input;
+- search results;
+- pages read;
+- raw AI response;
+- model;
+- source decision;
+- sentence → fact/source mapping.
+
+### 4.6 Quyết định AI trung tâm
+
+**Quyết định trung tâm:**
+
+> **Source/evidence có đủ điều kiện để factual information được đưa
+> vào script hay không.**
+
+AI xem xét:
+
+- nội dung page đã scrape;
+- metadata đọc được;
+- độ mới;
+- loại nguồn;
+- evidence passage;
+- số nguồn xác nhận;
+- mâu thuẫn giữa nguồn;
+- dấu hiệu prompt injection.
+
+Prompt-injection detection bằng rule/scraper là guardrail hỗ trợ,
+không phải quyết định trung tâm của lát cắt.
+
+Script generation là bước downstream sau source/evidence decision.
+
+### 4.7 Automation
+
+**AUGMENT**
+
+AI có thể:
+
+- lên query;
+- tìm candidate source;
+- đánh giá source;
+- trích evidence;
+- phát hiện dấu hiệu mâu thuẫn;
+- tạo draft;
+- đề xuất câu viết lại.
+
+Con người giữ quyền:
+
+- chấp nhận/loại nguồn;
+- kiểm evidence;
+- xử lý uncertainty;
+- duyệt nội dung cuối.
+
+**Lý do theo cost-of-error:** factual error trong nội dung giáo dục
+có thể đi đến người học, nên AI không có quyền phê duyệt cuối.
+
+### 4.8 HAX / PAIR
+
+| Nguyên tắc | Chỗ áp dụng trong prototype | Cách kiểm |
 |---|---|---|
-| Serper hết quota | Trung bình | Fallback: tìm động bằng Wikipedia Search; ghi rõ nguồn thứ cấp |
-| Gemini API lỗi | Thấp | Hiện lỗi rõ ràng, không trả nội dung mock |
-| Trang web chặn scraper | Cao | Đánh dấu "không đọc được", không coi như đã đọc |
-| AI bịa trích dẫn | Trung bình | So khớp đoạn trích với snapshot tự động; ý nghĩa cần người kiểm tra |
+| **G2 — Làm rõ AI làm tốt đến đâu** | Source profile hiển thị cảnh báo, độ tin cậy và trạng thái | Nguồn cũ / nguồn thiếu metadata |
+| **G9 — Sửa dễ dàng** | Reviewer có thể loại source và regenerate phần liên quan | Correction flow |
+| **G10 — Thu hẹp khi nghi ngờ** | Topic mơ hồ hoặc input thiếu → hỏi lại, không sinh script | N11, N12 |
+| **G11 — Giải thích vì sao** | Source profile có reason + evidence; sentence truy được về source | Source/evidence cases |
+| **PAIR Feedback & Control / G17** | Human giữ quyết định cuối về source và draft | N25 / correction flow |
 
 ## §7. Kiểm thử — quality bar đã chốt
 

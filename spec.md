@@ -5,6 +5,15 @@
 **Prototype:** Working prototype  
 **Automation:** Augment
 
+## Phân công nhóm
+
+| Thành viên | Vai trò và trách nhiệm |
+|---|---|
+| Chu Minh Quân | Leader · quản lý repo, tích hợp và nộp checkpoint |
+| Trần Trọng Chinh | Backend/AI · research API, model integration, debugging |
+| Đinh Thị Minh Tâm | Discovery/Eval · survey, evidence, golden set, spec |
+| Nguyễn Văn Ước | Frontend/Demo · UX flow, prototype, validation/demo |
+
 > **CP4 FREEZE — 17/09/2026**
 >
 > Quality Bar tại §7 được chốt tại CP4.

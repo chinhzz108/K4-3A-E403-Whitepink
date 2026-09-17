@@ -1,0 +1,175 @@
+{
+  "id": "trace-script-1789633653548",
+  "timestamp": "2026-09-17T08:27:33.548Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Fine-tuning so với prompt engineering",
+    "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+      "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+      "tacGia": "Ivan Belcic, Cole Stryker",
+      "ngayDang": "2025-02-07",
+      "ngayLayVe": "2026-09-17T08:26:14.371Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Official IBM publication with identified authors and recent date, reputable organization.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Prompt engineering optimizes input prompts to steer a model toward better outputs.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Prompt engineering optimizes input prompts to steer a model toward better outputs.",
+          "viTri": "..."
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.",
+          "viTri": "..."
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Fine-tuning so với prompt engineering",
+    "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+    "thoiLuong": "bốn phút",
+    "nguoiHoc": "Quản lý sản phẩm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn, hôm nay chúng ta sẽ khám phá cách lựa chọn giữa kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, và tinh chỉnh mô hình.",
+        "chuTrenManHinh": "Chào mừng đến video",
+        "yDoHinh": "Biểu tượng chào",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Kỹ thuật gợi ý lệnh tối ưu hoá các câu hỏi đầu vào để hướng mô hình tạo ra kết quả tốt hơn.",
+        "chuTrenManHinh": "Kỹ thuật gợi ý lệnh",
+        "yDoHinh": "Biểu tượng prompt",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Tinh chỉnh mô hình đào tạo lại với dữ liệu chuyên ngành giúp nâng cao hiệu suất trong các nhiệm vụ tiếp theo.",
+        "chuTrenManHinh": "Tinh chỉnh mô hình",
+        "yDoHinh": "Biểu tượng fine‑tune",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Vậy khi nào chúng ta nên chỉ cải thiện câu hỏi, và khi nào cần đào tạo lại mô hình?",
+        "chuTrenManHinh": "Khi nào dùng gì?",
+        "yDoHinh": "Biểu tượng câu hỏi",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng tìm hiểu để đưa ra quyết định phù hợp cho sản phẩm của bạn.",
+        "chuTrenManHinh": "Đưa ra quyết định",
+        "yDoHinh": "Biểu tượng quyết định",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn, hôm nay chúng ta sẽ khám phá cách lựa chọn giữa kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, và tinh chỉnh mô hình.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Kỹ thuật gợi ý lệnh tối ưu hoá các câu hỏi đầu vào để hướng mô hình tạo ra kết quả tốt hơn.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Prompt engineering optimizes input prompts to steer a model toward better outputs."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Tinh chỉnh mô hình đào tạo lại với dữ liệu chuyên ngành giúp nâng cao hiệu suất trong các nhiệm vụ tiếp theo.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Vậy khi nào chúng ta nên chỉ cải thiện câu hỏi, và khi nào cần đào tạo lại mô hình?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng tìm hiểu để đưa ra quyết định phù hợp cho sản phẩm của bạn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Fine-tuning so với prompt engineering\",\"mucTieu\":\"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Quản lý sản phẩm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn, hôm nay chúng ta sẽ khám phá cách lựa chọn giữa kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, và tinh chỉnh mô hình.\",\"chuTrenManHinh\":\"Chào mừng đến video\",\"yDoHinh\":\"Biểu tượng chào\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Kỹ thuật gợi ý lệnh tối ưu hoá các câu hỏi đầu vào để hướng mô hình tạo ra kết quả tốt hơn.\",\"chuTrenManHinh\":\"Kỹ thuật gợi ý lệnh\",\"yDoHinh\":\"Biểu tượng prompt\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Tinh chỉnh mô hình đào tạo lại với dữ liệu chuyên ngành giúp nâng cao hiệu suất trong các nhiệm vụ tiếp theo.\",\"chuTrenManHinh\":\"Tinh chỉnh mô hình\",\"yDoHinh\":\"Biểu tượng fine‑tune\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy khi nào chúng ta nên chỉ cải thiện câu hỏi, và khi nào cần đào tạo lại mô hình?\",\"chuTrenManHinh\":\"Khi nào dùng gì?\",\"yDoHinh\":\"Biểu tượng câu hỏi\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng tìm hiểu để đưa ra quyết định phù hợp cho sản phẩm của bạn.\",\"chuTrenManHinh\":\"Đưa ra quyết định\",\"yDoHinh\":\"Biểu tượng quyết định\",\"nguon\":[]}]}",
+  "isDemo": false,
+  "durationMs": 39530
+}

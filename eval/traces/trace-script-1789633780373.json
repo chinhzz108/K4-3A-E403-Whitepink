@@ -1,0 +1,197 @@
+{
+  "id": "trace-script-1789633780373",
+  "timestamp": "2026-09-17T08:29:40.373Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.llm-prices.com/",
+      "tieuDe": "LLM pricing calculator",
+      "ngayLayVe": "2026-09-17T08:28:11.220Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Trang web cung cấp công cụ tính giá dựa trên token nhưng không có thông tin về tác giả, tổ chức hay ngày xuất bản, nên độ tin cậy ở mức trung bình.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không có thông tin về tác giả, tổ chức và ngày đăng, có thể là nguồn cũ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+      "tieuDe": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+      "tacGia": "YourGPT",
+      "toChuc": "YourGPT",
+      "ngayLayVe": "2026-09-17T08:28:11.222Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Công cụ tính giá do một công ty cung cấp, nhưng không có ngày xuất bản và không phải tài liệu học thuật, nên độ tin cậy ở mức trung bình.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không có ngày đăng, có thể là thông tin đã cũ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Chi phí sử dụng mô hình ngôn ngữ được tính theo số token, với mức giá khác nhau cho token đầu vào, token đầu ra và token đã cache, tùy thuộc vào mô hình.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.",
+          "viTri": "section 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal",
+          "viTri": "section 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Chi phí khi dùng mô hình ngôn ngữ",
+    "mucTieu": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+    "thoiLuong": "bốn phút",
+    "nguoiHoc": "Quản lý sản phẩm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn, hôm nay chúng ta sẽ khám phá cách ước tính chi phí khi sử dụng mô hình ngôn ngữ lớn.",
+        "chuTrenManHinh": "Khám phá chi phí LLM",
+        "yDoHinh": "Hình minh hoạ biểu đồ chi phí",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Bạn có thể nhập số lượng đơn vị token đầu vào và đầu ra vào công cụ tính giá mô hình ngôn ngữ lớn, viết tắt là LLM, để nhận chi phí mỗi triệu token và tổng chi phí.",
+        "chuTrenManHinh": "Nhập token để tính chi phí",
+        "yDoHinh": "Màn hình nhập dữ liệu",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Công cụ còn cho phép bạn tính token đã được lưu trữ trước, gọi là token đầu vào đã lưu, giúp phản ánh chi phí thực tế hơn.",
+        "chuTrenManHinh": "Token đã lưu và chi phí",
+        "yDoHinh": "Biểu đồ token lưu trữ",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Lưu ý rằng các mô hình sử dụng bộ mã hoá token khác nhau, vì vậy so sánh giá dựa trên token có thể không hoàn toàn chính xác.",
+        "chuTrenManHinh": "Khác biệt bộ mã hoá token",
+        "yDoHinh": "Biểu tượng bộ mã hoá",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Bạn cũng có thể dùng công cụ ước tính chi phí giao diện lập trình ứng dụng, viết tắt là API, để so sánh các nhà cung cấp và tối ưu chi phí dựa trên số token, lời gọi và các tham số khác.",
+        "chuTrenManHinh": "So sánh chi phí API",
+        "yDoHinh": "Bảng so sánh nhà cung cấp",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn, hôm nay chúng ta sẽ khám phá cách ước tính chi phí khi sử dụng mô hình ngôn ngữ lớn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Bạn có thể nhập số lượng đơn vị token đầu vào và đầu ra vào công cụ tính giá mô hình ngôn ngữ lớn, viết tắt là LLM, để nhận chi phí mỗi triệu token và tổng chi phí.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.; [n02] Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal"
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Công cụ còn cho phép bạn tính token đã được lưu trữ trước, gọi là token đầu vào đã lưu, giúp phản ánh chi phí thực tế hơn.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.; [n02] Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Lưu ý rằng các mô hình sử dụng bộ mã hoá token khác nhau, vì vậy so sánh giá dựa trên token có thể không hoàn toàn chính xác.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.; [n02] Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Bạn cũng có thể dùng công cụ ước tính chi phí giao diện lập trình ứng dụng, viết tắt là API, để so sánh các nhà cung cấp và tối ưu chi phí dựa trên số token, lời gọi và các tham số khác.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.; [n02] Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal"
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Chi phí khi dùng mô hình ngôn ngữ\",\n  \"mucTieu\": \"Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí\",\n  \"thoiLuong\": \"bốn phút\",\n  \"nguoiHoc\": \"Quản lý sản phẩm\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các bạn, hôm nay chúng ta sẽ khám phá cách ước tính chi phí khi sử dụng mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\": \"Khám phá chi phí LLM\",\n      \"yDoHinh\": \"Hình minh hoạ biểu đồ chi phí\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Bạn có thể nhập số lượng đơn vị token đầu vào và đầu ra vào công cụ tính giá mô hình ngôn ngữ lớn, viết tắt là LLM, để nhận chi phí mỗi triệu token và tổng chi phí.\",\n      \"chuTrenManHinh\": \"Nhập token để tính chi phí\",\n      \"yDoHinh\": \"Màn hình nhập dữ liệu\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Công cụ còn cho phép bạn tính token đã được lưu trữ trước, gọi là token đầu vào đã lưu, giúp phản ánh chi phí thực tế hơn.\",\n      \"chuTrenManHinh\": \"Token đã lưu và chi phí\",\n      \"yDoHinh\": \"Biểu đồ token lưu trữ\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Lưu ý rằng các mô hình sử dụng bộ mã hoá token khác nhau, vì vậy so sánh giá dựa trên token có thể không hoàn toàn chính xác.\",\n      \"chuTrenManHinh\": \"Khác biệt bộ mã hoá token\",\n      \"yDoHinh\": \"Biểu tượng bộ mã hoá\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Bạn cũng có thể dùng công cụ ước tính chi phí giao diện lập trình ứng dụng, viết tắt là API, để so sánh các nhà cung cấp và tối ưu chi phí dựa trên số token, lời gọi và các tham số khác.\",\n      \"chuTrenManHinh\": \"So sánh chi phí API\",\n      \"yDoHinh\": \"Bảng so sánh nhà cung cấp\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 40160
+}

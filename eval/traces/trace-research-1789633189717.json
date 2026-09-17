@@ -1,0 +1,213 @@
+{
+  "id": "trace-research-1789633189717",
+  "timestamp": "2026-09-17T08:19:49.717Z",
+  "phase": "research",
+  "input": {
+    "topic": "Cách một mô hình học từ ví dụ",
+    "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "targetAudience": "Học sinh cấp ba",
+    "videoDuration": "3 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Rule Based System Vs Machine Learning System",
+          "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+          "snippet": "Choosing between a rule-based system and a machine learning system involves considering the nature of the problem and the available data. Rule- ...",
+          "position": 1
+        },
+        {
+          "title": "Machine learning vs. rule-based methods for document ...",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "snippet": "viết bởi E Rijcken · 2025 · Trích dẫn 30 bài viết — Unlike RB methods, which require extensive manual effort to define and maintain rules, ML models learn directly from data. This makes them more efficient and ...",
+          "position": 2
+        },
+        {
+          "title": "Rule-based AI vs machine learning: How we choose the ...",
+          "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "snippet": "Contrasting Approaches: Rule-based AI operates on predefined rules, while machine learning evolves its rules from data analysis.",
+          "position": 3
+        },
+        {
+          "title": "Choosing between a rule-based vs. machine learning system",
+          "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "snippet": "Machine learning can handle complex and intensive issues in relatively variable environments, whereas rule-based AI systems are easier to ...",
+          "position": 4
+        },
+        {
+          "title": "Rule-based machine learning",
+          "url": "https://en.wikipedia.org/wiki/Rule-based_machine_learning",
+          "snippet": "Rule-based machine learning (RBML) is a term in computer science intended to encompass any machine learning method that identifies, learns, or evolves 'rules' ...",
+          "position": 5
+        }
+      ],
+      "query": "machine learning vs rule-based",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "Learning from Data - Yaser Abu Mostafa - Caltech",
+          "url": "https://www.youtube.com/playlist?list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08",
+          "snippet": "Learning from Data - Yaser Abu Mostafa - Caltech · Lecture 01 - The Learning Problem · Lecture 02 - Is Learning Feasible? · Lecture 03 -The Linear Model I · Lecture ...",
+          "position": 1
+        },
+        {
+          "title": "Learning From Data - Online Course (MOOC)",
+          "url": "https://home.work.caltech.edu/telecourse.html",
+          "snippet": "This is an introductory course in machine learning (ML) that covers the basic theory, algorithms, and applications. ML is a key technology in Big Data, and in ...",
+          "position": 2
+        },
+        {
+          "title": "How machine learning enables machines to learn from data",
+          "url": "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296",
+          "snippet": "Learning paradigms · Supervised Learning: Algorithms are trained using labeled data, meaning each learning example includes its answer.",
+          "position": 3
+        },
+        {
+          "title": "Abu-Mostafa Yaser S., Malik Magdon-Ismail, Hsuan-Tien ...",
+          "url": "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+          "snippet": "In this chapter, we present examples of learning from data and formalize the learning problem. We also discuss the main concepts associated with learning ...",
+          "position": 4
+        },
+        {
+          "title": "Introduction to Data in Machine Learning",
+          "url": "https://www.geeksforgeeks.org/machine-learning/ml-introduction-data-machine-learning/",
+          "snippet": "Structured Data · Examples: Sales records, customer details, financial transactions. ; 2. Unstructured Data · Examples: Text files, pictures, ...",
+          "position": 5
+        }
+      ],
+      "query": "learning from data examples",
+      "engine": "serper"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+      "content": "There are two main approaches in Artificial intelligence they are rule-based systems and machine-learning systems. Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths. On the other hand, machine learning systems learn from data instead of following explicit rules. They use patterns found in large sets of information to make decisions. These systems can adapt and improve over time as they see more data. In this article, we are going to cover the Rule-based system and machine learning system in detail and also compare them in specific conditions. What is a Rule-Based System?A rule-based system is a computational framework that relies on a predefined set of explicit rules to make decisions or draw conclusions within a specific domain. In technical terms, these rules are typically formulated as \"if-then\" statements, where specific conditions trigger corresponding actions. The strength of rule-based systems lies in their transparency and ease of interpretation. However, their drawback is the need for explicit rules, making them less adaptable to complex scenarios or situations where patterns are not easily expressible in rule form. Despite these limitations, rule-based systems remain valuable in various applications, especially when dealing with well-defined problems and clear decision logic. For example, in cybersecurity, a rule-based system might be employed to detect malicious activities on a network. A rule could be defined as follows: \"If a system receives more than a specified number of connection requests within a short time frame (indicating a potential cyberattack), then block that IP address.\" In this scenario, the rule acts as a security measure to protect the network from potential threats. Advantages of Rule-based systemIt provides a clear and understandable way to express logical relationships, enhancing transparency in decision-making.The explicit nature of rules enables users to trace the decision-making process, creating transparency in system actions.Rule-based systems facilitate easy maintenance and debugging in the process.They are scalable and adaptable to changing requirements.Limitation of Rule-based systemRule-based systems lack the ability to learn from experience, restricting their capacity to adapt and improve over time.Rule-based systems may struggle with uncertain or ambiguous information, leading to potential inaccuracies in decision-making.Managing a large number of rules can become complex, posing challenges in organization.What is a Machine Learning System?A machine learning system is a computational framework that leverages algorithms and statistical models to…[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T08:19:10.369Z",
+      "title": "Rule Based System Vs Machine Learning System - GeeksforGeeks",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+      "content": "",
+      "fetchedAt": "2026-09-17T08:19:10.371Z",
+      "title": "",
+      "status": "blocked",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+      "content": "",
+      "fetchedAt": "2026-09-17T08:19:10.372Z",
+      "title": "",
+      "status": "blocked",
+      "contentLength": 0,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+      "tieuDe": "Rule Based System Vs Machine Learning System - GeeksforGeeks",
+      "toChuc": "GeeksforGeeks",
+      "ngayDang": "2023-12-14 17:40:44+00:00",
+      "ngayLayVe": "2026-09-17T08:19:10.369Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Trang thuộc nền tảng giáo dục công nghệ uy tín nhưng không có thông tin tác giả và không qua thẩm định học thuật.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã cũ hơn 1 năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+      "tieuDe": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+      "ngayLayVe": "2026-09-17T08:19:10.371Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "blocked",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    },
+    {
+      "id": "n03",
+      "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+      "tieuDe": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+      "ngayLayVe": "2026-09-17T08:19:10.372Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "blocked",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "sourcesRejected": [
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Hệ thống dựa trên quy tắc (rule‑based) hoạt động dựa trên các quy tắc \"if‑then\" được con người thiết kế, cung cấp tính minh bạch và dễ hiểu nhưng không tự học từ kinh nghiệm.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Hệ thống học máy (machine‑learning) học từ dữ liệu thay vì dựa vào quy tắc tĩnh, sử dụng các mẫu trong tập dữ liệu lớn để đưa ra quyết định và có khả năng cải thiện theo thời gian.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "On the other hand, machine learning systems learn from data instead of following explicit rules. They use patterns found in large sets of information to make decisions. These systems can adapt and improve over time as they see more data.",
+          "viTri": "đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/\",\n      \"tieuDe\": \"Rule Based System Vs Machine Learning System - GeeksforGeeks\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"GeeksforGeeks\",\n      \"ngayDang\": \"2023-12-14\",\n      \"ngayLayVe\": \"2026-09-17T08:19:10.369Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Trang thuộc nền tảng giáo dục công nghệ uy tín nhưng không có thông tin tác giả và không qua thẩm định học thuật.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn đã cũ hơn 1 năm\"],\n      \"doanTrich\": \"Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Hệ thống dựa trên quy tắc (rule‑based) hoạt động dựa trên các quy tắc \\\"if‑then\\\" được con người thiết kế, cung cấp tính minh bạch và dễ hiểu nhưng không tự học từ kinh nghiệm.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths.\",\n          \"viTri\": \"đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Hệ thống học máy (machine‑learning) học từ dữ liệu thay vì dựa vào quy tắc tĩnh, sử dụng các mẫu trong tập dữ liệu lớn để đưa ra quyết định và có khả năng cải thiện theo thời gian.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"On the other hand, machine learning systems learn from data instead of following explicit rules. They use patterns found in large sets of information to make decisions. These systems can adapt and improve over time as they see more data.\",\n          \"viTri\": \"đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 51612
+}

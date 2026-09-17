@@ -1,0 +1,56 @@
+{
+  "id": "trace-script-1789634799291",
+  "timestamp": "2026-09-17T08:46:39.291Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+    "learningObjective": "Biết thực trạng và thách thức",
+    "targetAudience": "Nhà nghiên cứu",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://arxiv.org/abs/2311.13165",
+      "tieuDe": "[2311.13165] Multimodal Large Language Models: A Survey",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T08:45:15.730Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Preprint trên arXiv, có danh sách tác giả, nội dung chi tiết và trích dẫn, được cộng đồng nghiên cứu công nhận.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn không tập trung vào tiếng dân tộc thiểu số Việt Nam",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The exploration of multimodal language models integrates multiple data types, such as images, text, language, audio, and other heterogeneity. While the latest large language models excel in text-based tasks, they often struggle to understand and process other data types. Multimodal models address this limitation by combining various modalities, enabling a more comprehensive understanding of diverse data.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+    "mucTieu": "Biết thực trạng và thách thức",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Nhà nghiên cứu",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=15, mã=[\"n01\"])",
+  "isDemo": false,
+  "durationMs": 39160
+}

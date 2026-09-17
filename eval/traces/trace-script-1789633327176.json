@@ -1,0 +1,159 @@
+{
+  "id": "trace-script-1789633327176",
+  "timestamp": "2026-09-17T08:22:07.176Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "targetAudience": "Sinh viên công nghệ thông tin",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/",
+      "tieuDe": "Build Semantic Search with LLM Embeddings - MachineLearningMastery.com",
+      "tacGia": "Iván Palomares Carrascosa",
+      "toChuc": "MachineLearningMastery.com",
+      "ngayDang": "2026-03-02T13:37:01+00:00",
+      "ngayLayVe": "2026-09-17T08:20:46.927Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog chuyên ngành AI có tác giả rõ ràng và nội dung cập nhật, nhưng không phải tài liệu học thuật được bình duyệt.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Semantic search focuses on meaning rather than exact wording; embeddings encode semantic information so that sentences with similar meaning produce similar vectors, allowing the system to retrieve near‑synonymous sentences even when the words differ.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.",
+          "viTri": "paragraph 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên công nghệ thông tin",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn sinh viên công nghệ thông tin, chào mừng đến với buổi học về nhúng văn bản và tìm kiếm theo ngữ nghĩa.",
+        "chuTrenManHinh": "Chào mừng các bạn",
+        "yDoHinh": "Giới thiệu giảng viên",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Các công cụ tìm kiếm truyền thống đã dựa vào việc so khớp từ khóa để truy xuất tài liệu.",
+        "chuTrenManHinh": "Tìm kiếm truyền thống",
+        "yDoHinh": "Biểu đồ quá trình",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Ví dụ, truy vấn về các ngôi đền và đền thờ ở Fukuoka sẽ trả về các tài liệu chứa các từ như đền, đền thờ và Fukuoka dựa trên sự xuất hiện chung.",
+        "chuTrenManHinh": "Ví dụ truy vấn",
+        "yDoHinh": "Màn hình kết quả",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Vậy nếu không có các từ khóa chung, máy có thể tìm được câu gần nghĩa như thế nào?",
+        "chuTrenManHinh": "Câu hỏi mở",
+        "yDoHinh": "Biểu tượng câu hỏi",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Tiếp theo, chúng ta sẽ khám phá cách nhúng văn bản giúp máy hiểu ý nghĩa mà không cần trùng từ.",
+        "chuTrenManHinh": "Khám phá nhúng văn bản",
+        "yDoHinh": "Mô hình embedding",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn sinh viên công nghệ thông tin, chào mừng đến với buổi học về nhúng văn bản và tìm kiếm theo ngữ nghĩa.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Các công cụ tìm kiếm truyền thống đã dựa vào việc so khớp từ khóa để truy xuất tài liệu.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Ví dụ, truy vấn về các ngôi đền và đền thờ ở Fukuoka sẽ trả về các tài liệu chứa các từ như đền, đền thờ và Fukuoka dựa trên sự xuất hiện chung.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Vậy nếu không có các từ khóa chung, máy có thể tìm được câu gần nghĩa như thế nào?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Tiếp theo, chúng ta sẽ khám phá cách nhúng văn bản giúp máy hiểu ý nghĩa mà không cần trùng từ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn sinh viên công nghệ thông tin, chào mừng đến với buổi học về nhúng văn bản và tìm kiếm theo ngữ nghĩa.\",\"chuTrenManHinh\":\"Chào mừng các bạn\",\"yDoHinh\":\"Giới thiệu giảng viên\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Các công cụ tìm kiếm truyền thống đã dựa vào việc so khớp từ khóa để truy xuất tài liệu.\",\"chuTrenManHinh\":\"Tìm kiếm truyền thống\",\"yDoHinh\":\"Biểu đồ quá trình\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ví dụ, truy vấn về các ngôi đền và đền thờ ở Fukuoka sẽ trả về các tài liệu chứa các từ như đền, đền thờ và Fukuoka dựa trên sự xuất hiện chung.\",\"chuTrenManHinh\":\"Ví dụ truy vấn\",\"yDoHinh\":\"Màn hình kết quả\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy nếu không có các từ khóa chung, máy có thể tìm được câu gần nghĩa như thế nào?\",\"chuTrenManHinh\":\"Câu hỏi mở\",\"yDoHinh\":\"Biểu tượng câu hỏi\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Tiếp theo, chúng ta sẽ khám phá cách nhúng văn bản giúp máy hiểu ý nghĩa mà không cần trùng từ.\",\"chuTrenManHinh\":\"Khám phá nhúng văn bản\",\"yDoHinh\":\"Mô hình embedding\",\"nguon\":[]}]}",
+  "isDemo": false,
+  "durationMs": 40049
+}

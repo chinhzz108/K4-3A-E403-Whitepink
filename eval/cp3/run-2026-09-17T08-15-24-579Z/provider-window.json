@@ -1,0 +1,719 @@
+{
+  "start": "2026-09-17T08:15:24.579Z",
+  "end": "2026-09-17T08:51:28.785Z",
+  "scope": "Audit records within run time window; concurrent UI calls, if any, cannot be excluded because call-level case IDs are not recorded.",
+  "counts": {
+    "deepseek:response": 15,
+    "deepseek:failed": 43,
+    "groq:response": 43
+  },
+  "calls": [
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-60ba0c6c-4c77-4fd1-a0c5-779781d7175f",
+      "calledAt": "2026-09-17T08:15:50.349Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:16:34.844Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-f7c4b947-96c4-4c2a-a06f-d25e90408dcb",
+      "calledAt": "2026-09-17T08:16:38.446Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:17:13.776Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-992e28c6-ee83-471c-b8a8-27a40b104083",
+      "calledAt": "2026-09-17T08:17:17.823Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-28de1543-b7ec-45c8-a8fe-baa9e6d30ca8",
+      "calledAt": "2026-09-17T08:17:35.277Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:18:13.970Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-d7b49c4f-7a82-4177-9a75-36ce3c1a11dc",
+      "calledAt": "2026-09-17T08:18:18.968Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:18:54.009Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-eda52a5f-7abe-45dd-9db6-39d66a7b0c68",
+      "calledAt": "2026-09-17T08:18:58.075Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-537cebc6-ecc4-4221-96f7-85da5df33ef5",
+      "calledAt": "2026-09-17T08:19:08.849Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:19:46.206Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-843e1d1f-b997-468a-9ea3-f68ac98042d9",
+      "calledAt": "2026-09-17T08:19:49.714Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:20:24.741Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-7d6b8471-c5f7-4b6f-bbd2-184eb498628f",
+      "calledAt": "2026-09-17T08:20:28.499Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-ac72afde-d1f7-4976-b58c-637d9569dfb5",
+      "calledAt": "2026-09-17T08:20:44.696Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:21:23.733Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-bb581f04-f403-45f7-9160-0dd01ae98732",
+      "calledAt": "2026-09-17T08:21:27.106Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:22:02.139Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-69cd8dfd-7177-4266-8711-be39b5445bd4",
+      "calledAt": "2026-09-17T08:22:07.174Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-3169f45c-0ca0-4c12-8f7d-8e5f295c2658",
+      "calledAt": "2026-09-17T08:22:20.391Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:22:59.710Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-8a1b7087-877a-4a6f-8c87-b03835a7fc29",
+      "calledAt": "2026-09-17T08:23:06.970Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:23:41.994Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-9f856d88-19e2-42b3-9f6a-62c1f904cf1f",
+      "calledAt": "2026-09-17T08:23:46.766Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:24:21.811Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-10e064a3-b601-4c11-8f4a-6e49fd1d2af0",
+      "calledAt": "2026-09-17T08:24:22.926Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:25:01.314Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-c8b13cb6-97ca-4ac6-aa83-8b625e184175",
+      "calledAt": "2026-09-17T08:25:09.565Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:25:31.283Z",
+      "status": "failed",
+      "error": "fetch failed"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-eb08a6fa-8a2a-4e84-b9f5-b91672c49e15",
+      "calledAt": "2026-09-17T08:25:36.969Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:26:11.997Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-efc3e4b6-ffa3-4bee-8fb3-952e6a7d4824",
+      "calledAt": "2026-09-17T08:26:12.976Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:26:50.151Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-3fe78375-0ad6-4c7c-9124-35c6a232d8d2",
+      "calledAt": "2026-09-17T08:26:53.994Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:27:29.024Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-c1b4354a-6fdd-4850-a751-a0b121e08520",
+      "calledAt": "2026-09-17T08:27:33.547Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-daf2dc66-80c1-49a4-b62a-c1b473be6eb5",
+      "calledAt": "2026-09-17T08:27:52.939Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-acf86e58-ad3a-46a6-92b0-95c1ddf942d5",
+      "calledAt": "2026-09-17T08:28:09.358Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:28:54.377Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-40b20796-0b19-4a30-a956-e14d92b5fb8e",
+      "calledAt": "2026-09-17T08:29:00.190Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:29:35.230Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-8c4fcf9f-ec07-44a4-995b-7dbfaa27efb3",
+      "calledAt": "2026-09-17T08:29:40.372Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:30:15.399Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-5e3e347f-2fc0-4152-bb22-bd98af387cfd",
+      "calledAt": "2026-09-17T08:30:16.359Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:30:56.295Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-c82a4277-ebf9-4152-b089-63001e901985",
+      "calledAt": "2026-09-17T08:31:02.131Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:31:37.168Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-b5cda1a6-5c03-4728-80b7-044cbd93b968",
+      "calledAt": "2026-09-17T08:31:43.745Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-247d2601-0eb4-4649-9c36-d897d8d73e05",
+      "calledAt": "2026-09-17T08:32:00.021Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:32:40.388Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-d479470e-7eda-45a6-b629-0450a1651ee3",
+      "calledAt": "2026-09-17T08:32:44.861Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:33:19.894Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-35de0c2d-3598-443f-b56c-a758c44a74b0",
+      "calledAt": "2026-09-17T08:33:22.840Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-50b41337-d9a4-487c-a4d4-61f6b95632fa",
+      "calledAt": "2026-09-17T08:33:43.935Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:34:21.260Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-e868948e-7052-4144-9a44-3e879174dc89",
+      "calledAt": "2026-09-17T08:34:23.458Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:34:58.493Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-f5d351bd-ea22-4f12-a175-ee77e80d6c03",
+      "calledAt": "2026-09-17T08:35:02.290Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:35:37.321Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-b95bd461-4b7c-43e2-9fec-bbe8f8a6e2b0",
+      "calledAt": "2026-09-17T08:35:38.538Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:36:17.254Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-4d71ba46-a653-498f-9016-34020f4d5281",
+      "calledAt": "2026-09-17T08:36:22.297Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:36:57.329Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-6e752ef6-0187-47e2-93a4-bba588124efe",
+      "calledAt": "2026-09-17T08:37:01.803Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:37:36.847Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-001db7ac-974f-4ace-b586-2a4c7d28bf2c",
+      "calledAt": "2026-09-17T08:37:42.367Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-d7fdaaaf-0919-4c1d-a687-c09c1e135c86",
+      "calledAt": "2026-09-17T08:38:14.410Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:38:52.189Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-314fbe6f-eea9-4ae0-95e5-3b9602fe4dc8",
+      "calledAt": "2026-09-17T08:38:59.423Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:39:34.459Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-6613e658-1e7f-46a7-b2f2-c52570b17bae",
+      "calledAt": "2026-09-17T08:39:38.610Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-de2ee14a-85e9-4f11-90ba-0bfe66a0842c",
+      "calledAt": "2026-09-17T08:40:08.922Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:40:47.098Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-bd117990-aac3-4370-a7a7-81cbccff5ce7",
+      "calledAt": "2026-09-17T08:40:52.447Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-d3a144a9-0c5a-495b-bb09-e3ca3a04151e",
+      "calledAt": "2026-09-17T08:41:17.838Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:41:58.286Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-a649ca9f-8090-47f2-9a5b-11c049d71668",
+      "calledAt": "2026-09-17T08:42:09.135Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:42:44.171Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-12f27978-6416-433b-8013-89d17057f671",
+      "calledAt": "2026-09-17T08:42:48.105Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-f67107d5-ec78-4513-b0ca-360a27fe3dd4",
+      "calledAt": "2026-09-17T08:43:10.048Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:43:51.947Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-8826f062-3b47-45da-8902-b49b0485424f",
+      "calledAt": "2026-09-17T08:43:57.464Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:44:32.490Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-8d9da4e4-c89a-4a7b-8e03-5d641013eda1",
+      "calledAt": "2026-09-17T08:44:37.383Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:45:12.408Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-09701be0-790e-4703-9712-f52e5b71e0a0",
+      "calledAt": "2026-09-17T08:45:13.541Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:45:52.566Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-87adad93-4cc6-46f4-b2a1-6e0263297ed4",
+      "calledAt": "2026-09-17T08:46:00.114Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:46:35.136Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-a4850d17-77be-4cc1-ae6c-a5857c1bdc6b",
+      "calledAt": "2026-09-17T08:46:39.289Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-51c00ee3-d92c-47ce-8feb-3b49ca20d9c0",
+      "calledAt": "2026-09-17T08:47:02.513Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:47:40.191Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-484a3bf6-0449-4c31-88ca-7145aec694b7",
+      "calledAt": "2026-09-17T08:47:46.453Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:48:21.486Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-8c9ba304-1854-4887-87e1-8e4d97dc98e1",
+      "calledAt": "2026-09-17T08:48:26.769Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "requestId": "chatcmpl-4f68ca4f-6e3f-4665-88e6-e1474ad7b5df",
+      "calledAt": "2026-09-17T08:48:42.834Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:49:23.303Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-45e35bf9-46d1-4473-8f5b-ad59d16779d4",
+      "calledAt": "2026-09-17T08:49:29.215Z",
+      "status": "response"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "calledAt": "2026-09-17T08:50:04.241Z",
+      "status": "failed",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-49292eee-aa53-4a32-821e-5f9fa1c88827",
+      "calledAt": "2026-09-17T08:50:08.937Z",
+      "status": "response"
+    }
+  ]
+}

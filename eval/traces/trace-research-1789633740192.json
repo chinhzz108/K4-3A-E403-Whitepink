@@ -1,0 +1,204 @@
+{
+  "id": "trace-research-1789633740192",
+  "timestamp": "2026-09-17T08:29:00.192Z",
+  "phase": "research",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "LLM pricing calculator",
+          "url": "https://www.llm-prices.com/",
+          "snippet": "Cost per million input tokens. Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.",
+          "position": 1
+        },
+        {
+          "title": "LLM API Pricing Calculator | Compare OpenAI, Claude ...",
+          "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+          "snippet": "LLM API Pricing Calculator. Calculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses.",
+          "position": 2
+        },
+        {
+          "title": "LLM Cost Estimation Guide: From Token Usage to Total ...",
+          "url": "https://medium.com/@alphaiterations/llm-cost-estimation-guide-from-token-usage-to-total-spend-fba348d62824",
+          "snippet": "This article provides a practical guide on how to estimate LLM costs without actually running the model, helping you make informed decisions ...",
+          "position": 3
+        },
+        {
+          "title": "Free LLM Pricing Calculator - Compare AI Model Costs & ...",
+          "url": "https://artificialanalysis.ai/tools/llm-price-calculator",
+          "snippet": "Free online LLM pricing calculator to compare costs across ChatGPT, Claude, Gemini, and 100+ AI models. Calculate token-based pricing, estimate API costs, ...",
+          "position": 4
+        },
+        {
+          "title": "Pricing Calculator (Cost Estimation)",
+          "url": "https://docs.litellm.ai/docs/proxy/pricing_calculator",
+          "snippet": "Estimate LLM costs based on expected token usage and request volume. This tool helps developers and platform teams forecast spending before deploying models ...",
+          "position": 5
+        }
+      ],
+      "query": "LLM cost estimation",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "LLM Cost Reduction: 12 Strategies to Cut AI Inference Costs",
+          "url": "https://neuraltrust.ai/blog/llm-cost-reduction-guide",
+          "snippet": "Quick Answer: How do I reduce LLM API costs? Route simple queries to smaller models, enable prompt caching for repeated context, ...",
+          "position": 1
+        },
+        {
+          "title": "10 Effective Strategies to Lower LLM Inference Costs",
+          "url": "https://pub.towardsai.net/10-effective-strategies-to-lower-llm-inference-costs-35c340391bde",
+          "snippet": "10 Effective Strategies to Lower LLM Inference Costs · 1. Quantization · 2. Pruning · 3. Knowledge Distillation · 4. Batching · 5. Model ...",
+          "position": 2
+        },
+        {
+          "title": "How to Reduce LLM Inference Costs | Karthik Chakravarthy",
+          "url": "https://www.linkedin.com/posts/karthikchakravarthy_how-to-reduce-llm-inference-costs-activity-7505597906838745088-qTo6",
+          "snippet": "Efficiency often comes from removing work rather than making every component faster. Eliminating redundant calls, context, and processing can ...",
+          "position": 3
+        },
+        {
+          "title": "LLM Inference Optimization: Reduce Latency and Cost",
+          "url": "https://www.runpod.io/blog/llm-inference-optimization-techniques-reduce-latency-cost",
+          "snippet": "Learn how to reduce LLM inference costs and latency using quantization, vLLM, SGLang, and speculative decoding without upgrading your ...",
+          "position": 4
+        },
+        {
+          "title": "Optimizing Inference Costs: The Complete Guide",
+          "url": "https://www.mirantis.com/blog/inference-costs/",
+          "snippet": "Apply quantization where accuracy allows. · Use smaller or distilled models for simpler tasks. · Match model size to latency and quality targets.",
+          "position": 5
+        }
+      ],
+      "query": "reduce LLM inference cost",
+      "engine": "serper"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://www.llm-prices.com/",
+      "content": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate. Model prices (per million tokens) Show just selected Clear selection Model Input cost (Cached) ↑ Output cost Compare Prices last updated: Loading... View source on GitHub",
+      "fetchedAt": "2026-09-17T08:28:11.220Z",
+      "title": "LLM pricing calculator",
+      "status": "ok",
+      "contentLength": 558,
+      "promptInjection": false
+    },
+    {
+      "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+      "content": "Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotalChatKimiKimi K2.6256k$0.95$4.00$$KimiKimi K31M$3.00$15.00$$KimiKimi K2.7 Code256k$0.95$4.00$$KimiKimi K2.5Deprecated256k$0.60$3.00$$OpenAIGPT-5 nano400k$0.05$0.40$$OpenAIGPT-5 pro400k$15.00$120.00$$OpenAIGPT-5 mini400k$0.25$2.00$$OpenAIGPT-5400k$1.25$10.00$$OpenAIGPT-5.1400k$1.25$10.00$$OpenAIGPT-5.2400k$1.75$14.00$$OpenAIGPT-5.2 pro400k$21.00$168.00$$OpenAIgpt-oss-120b128k$0.15$0.60$$OpenAIgpt-oss-20b128k$0.05$0.20$$OpenAIGPT-5.41.05M$2.50$15.00$$OpenAIGPT-5.4 pro1.05M$30.00$180.00$$OpenAIGPT-5.4 mini400k$0.75$4.50$$OpenAIGPT-5.4 nano400k$0.20$1.25$$OpenAIGPT-5.51.05M$5.00$30.00$$OpenAIGPT-5.5 pro1.05M$30.00$180.00$$OpenAIGPT-5.6 Sol1.05M$5.00$30.00$$OpenAIGPT-5.6 Terra1.05M$2.00$12.00$$OpenAIGPT-5.6 Luna1.05M$0.20$1.20$$AnthropicClaude Sonnet 4.5200k$3.00$15.00$$AnthropicClaude Haiku 4.5200k$1.00$5.00$$AnthropicClaude Opus 4.1Deprecated200k$15.00$75.00$$AnthropicClaude Sonnet 4.61M$3.00$15.00$$AnthropicClaude Opus 4.61M$5.00$25.00$$AnthropicClaude Opus 4.5200k$5.00$25.00$$AnthropicClaude Opus 4.71M$5.00$25.00$$AnthropicClaude Opus 4.81M$5.00$25.00$$AnthropicClaude Fable 51M$10.00$50.00$$AnthropicClaude Opus 51M$5.00$25.00$$AnthropicClaude Sonnet 51M$2.00$10.00$$xAIGrok 4.31M$1.25$2.50$$xAIGrok 4.6500k$2.00$6.00$$xAIGrok 4.5500k$2.00$6.00$$xAIGrok 4.201M$1.25$2.50$$xAIGrok Build 0.1256k$1.00$2.00$$xAIGrok-4Deprecated256k$3.00$15.00$$xAIGrok-code-fast-1Deprecated256k$0.20$1.50$$xAIGrok-4-0709Deprecated256k$3.00$15.00$$xAIGrok-3-miniDeprecated131k$0.30$0.50$$xAIGrok-4-fast-reasoningDeprecated256k$0.20$0.50$$xAIGrok-4-fast-non-reasoningDeprecated256k$0.20$0.50$$GoogleGemini 3.5 Flash1M$1.50$9.00$$GoogleGemini 3.7 Flash1M$1.50$7.50$$GoogleGemini 3.6 Flash1M$1.50$7.50$$GoogleGemini 3.5 Flash-Lite1M$0.30$2.50$$GoogleGemini 3.1 Pro Preview1M$2.00$12.00$$GoogleGemini 3 Flash Preview1M$0.50$3.00$$GoogleGemini 3.1 Flash Lite Preview1M$0.25$1.50$$GoogleGemini 2.5 Flash1M$0.30$2.50$$CohereCommand-a256k$2.50$10.00$$Coherecommand-r-plusDeprecated128k$2.50$10.00$$Coherecommand-a-vision128k$2.50$10.00$$Coherecommand-a-reasoning256k$2.50$32.00$$Coherecommand-a-translate8k$2.50$10.00$$Coherecommand-r7b128k$0.04$0.15$$AnthropicClaude Opus 4 Deprecated200k$15.00$75.00$$AnthropicClaude Sonnet 4 Deprecated200k$3.00$15.00$$OpenAIo3-pro200k$20.00$80.00$$OpenAIo3200k$2.00$8.00$$OpenAIo4-mini200k$1.10$4.40$$OpenAIGPT-4.11M$2.00$8.00$$OpenAIGPT-4.1 mini1M$0.40$1.60$$Op…[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T08:28:11.222Z",
+      "title": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://medium.com/@alphaiterations/llm-cost-estimation-guide-from-token-usage-to-total-spend-fba348d62824",
+      "content": "",
+      "fetchedAt": "2026-09-17T08:28:11.223Z",
+      "title": "",
+      "status": "error",
+      "contentLength": 0,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.llm-prices.com/",
+      "tieuDe": "LLM pricing calculator",
+      "ngayLayVe": "2026-09-17T08:28:11.220Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Trang web cung cấp công cụ tính giá dựa trên token nhưng không có thông tin về tác giả, tổ chức hay ngày xuất bản, nên độ tin cậy ở mức trung bình.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không có thông tin về tác giả, tổ chức và ngày đăng, có thể là nguồn cũ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+      "tieuDe": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+      "tacGia": "YourGPT",
+      "toChuc": "YourGPT",
+      "ngayLayVe": "2026-09-17T08:28:11.222Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Công cụ tính giá do một công ty cung cấp, nhưng không có ngày xuất bản và không phải tài liệu học thuật, nên độ tin cậy ở mức trung bình.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không có ngày đăng, có thể là thông tin đã cũ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://medium.com/@alphaiterations/llm-cost-estimation-guide-from-token-usage-to-total-spend-fba348d62824",
+      "tieuDe": "https://medium.com/@alphaiterations/llm-cost-estimation-guide-from-token-usage-to-total-spend-fba348d62824",
+      "ngayLayVe": "2026-09-17T08:28:11.223Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "error",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "sourcesRejected": [
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Chi phí sử dụng mô hình ngôn ngữ được tính theo số token, với mức giá khác nhau cho token đầu vào, token đầu ra và token đã cache, tùy thuộc vào mô hình.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.",
+          "viTri": "section 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal",
+          "viTri": "section 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.llm-prices.com/\",\"tieuDe\":\"LLM pricing calculator\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"Không rõ\",\"ngayLayVe\":\"2026-09-17T08:28:11.220Z\",\"loai\":\"khong-xac-dinh\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Trang web cung cấp công cụ tính giá dựa trên token nhưng không có thông tin về tác giả, tổ chức hay ngày xuất bản, nên độ tin cậy ở mức trung bình.\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Không có thông tin về tác giả, tổ chức và ngày đăng, có thể là nguồn cũ.\"],\"doanTrich\":\"LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.\"},{\"id\":\"n02\",\"url\":\"https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator\",\"tieuDe\":\"LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini\",\"tacGia\":\"YourGPT\",\"toChuc\":\"YourGPT\",\"ngayDang\":\"Không rõ\",\"ngayLayVe\":\"2026-09-17T08:28:11.222Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Công cụ tính giá do một công ty cung cấp, nhưng không có ngày xuất bản và không phải tài liệu học thuật, nên độ tin cậy ở mức trung bình.\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Không có ngày đăng, có thể là thông tin đã cũ.\"],\"doanTrich\":\"Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Chi phí sử dụng mô hình ngôn ngữ được tính theo số token, với mức giá khác nhau cho token đầu vào, token đầu ra và token đã cache, tùy thuộc vào mô hình.\",\"loai\":\"so-lieu\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.\",\"viTri\":\"section 1\"},{\"nguonId\":\"n02\",\"doanTrich\":\"Cost EstimatorLLM API Pricing CalculatorCalculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses. Share: X LinkedInCopy LinkUsage ParametersEnter your estimated usage metrics to calculate API costs.Input tokensOutput tokensAPI CallsCalculate byTokensWordsCharactersChatFine-tuningEmbeddingProviderModelContextInput $/MOutput $/MPer CallTotal\",\"viTri\":\"section 1\"}],\"soNguonXacNhan\":2,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}",
+  "isDemo": false,
+  "durationMs": 64290
+}

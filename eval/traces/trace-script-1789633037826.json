@@ -1,0 +1,173 @@
+{
+  "id": "trace-script-1789633037826",
+  "timestamp": "2026-09-17T08:17:17.826Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T08:15:52.097Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Trang web chính thức của IBM, nội dung do chuyên gia nội bộ viết, cung cấp mô tả kỹ thuật chi tiết.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm so với ngày truy cập",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Context window là lượng văn bản (được đo bằng token) mà mô hình ngôn ngữ lớn có thể xem xét hoặc “nhớ” tại một thời điểm; một cửa sổ ngữ cảnh lớn hơn cho phép mô hình xử lý đầu vào dài hơn và đưa vào nhiều thông tin hơn trong mỗi phản hồi.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "bốn phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh của mô hình ngôn ngữ.",
+        "chuTrenManHinh": "Giới thiệu chủ đề",
+        "yDoHinh": "Hình minh họa 1",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Cửa sổ ngữ cảnh, hay còn gọi là độ dài ngữ cảnh, là lượng văn bản mà mô hình có thể xem xét hoặc nhớ tại một thời điểm.",
+        "chuTrenManHinh": "Định nghĩa cửa sổ ngữ cảnh",
+        "yDoHinh": "Hình minh họa 2",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Khi cuộc trò chuyện kéo dài, lượng token cần nhớ có thể vượt quá khả năng của cửa sổ này.",
+        "chuTrenManHinh": "Giới hạn khi trò chuyện dài",
+        "yDoHinh": "Hình minh họa 3",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn có thắc mắc tại sao phần đầu của cuộc nói chuyện có thể bị bỏ qua?",
+        "chuTrenManHinh": "Câu hỏi về quên phần đầu",
+        "yDoHinh": "Hình minh họa 4",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì mô hình chỉ nhớ trong phạm vi cửa sổ ngữ cảnh, nên những đoạn cũ hơn sẽ không còn được tính vào đầu ra.",
+        "chuTrenManHinh": "Giải thích nguyên nhân quên",
+        "yDoHinh": "Hình minh họa 5",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh của mô hình ngôn ngữ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Cửa sổ ngữ cảnh, hay còn gọi là độ dài ngữ cảnh, là lượng văn bản mà mô hình có thể xem xét hoặc nhớ tại một thời điểm.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Khi cuộc trò chuyện kéo dài, lượng token cần nhớ có thể vượt quá khả năng của cửa sổ này.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn có thắc mắc tại sao phần đầu của cuộc nói chuyện có thể bị bỏ qua?",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì mô hình chỉ nhớ trong phạm vi cửa sổ ngữ cảnh, nên những đoạn cũ hơn sẽ không còn được tính vào đầu ra.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh của mô hình ngôn ngữ.\",\n      \"chuTrenManHinh\":\"Giới thiệu chủ đề\",\n      \"yDoHinh\":\"Hình minh họa 1\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Cửa sổ ngữ cảnh, hay còn gọi là độ dài ngữ cảnh, là lượng văn bản mà mô hình có thể xem xét hoặc nhớ tại một thời điểm.\",\n      \"chuTrenManHinh\":\"Định nghĩa cửa sổ ngữ cảnh\",\n      \"yDoHinh\":\"Hình minh họa 2\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Khi cuộc trò chuyện kéo dài, lượng token cần nhớ có thể vượt quá khả năng của cửa sổ này.\",\n      \"chuTrenManHinh\":\"Giới hạn khi trò chuyện dài\",\n      \"yDoHinh\":\"Hình minh họa 3\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Bạn có thắc mắc tại sao phần đầu của cuộc nói chuyện có thể bị bỏ qua?\",\n      \"chuTrenManHinh\":\"Câu hỏi về quên phần đầu\",\n      \"yDoHinh\":\"Hình minh họa 4\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Vì mô hình chỉ nhớ trong phạm vi cửa sổ ngữ cảnh, nên những đoạn cũ hơn sẽ không còn được tính vào đầu ra.\",\n      \"chuTrenManHinh\":\"Giải thích nguyên nhân quên\",\n      \"yDoHinh\":\"Hình minh họa 5\",\n      \"nguon\":[\"t01\"]\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 39058
+}

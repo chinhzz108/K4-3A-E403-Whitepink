@@ -1,0 +1,712 @@
+{
+  "case": {
+    "id": "N18",
+    "class": "nguon-mau-thuan",
+    "input": {
+      "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+      "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+      "targetAudience": "Giảng viên đại học",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Chủ đề có tranh cãi thật. Các nguồn uy tín không đồng ý với nhau. Phải nêu cả hai quan điểm.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #7 — tranh cãi thật; không phải chatlog",
+    "passCriteria": "Nêu cả hai quan điểm; dẫn nguồn cho mỗi bên",
+    "failCriteria": "Chỉ nêu một phía; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://intelgrader.com/blog/ai-grading",
+        "tieuDe": "What Is AI Grading? Benefits, Risks, and Examples for Teachers | IntelGrader",
+        "ngayDang": "2026-07-08T18:40:52.613+05:30",
+        "ngayLayVe": "2026-09-17T08:38:16.389Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Nội dung quảng cáo, không có tác giả rõ, không có kiểm duyệt học thuật",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [],
+        "doanTrich": "AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://www.discoveryeducation.com/blog/educational-leadership/ai-in-education/",
+        "tieuDe": "The Pros and Cons of AI in Education: Benefits, Risks, and Real Examples | Discovery Education",
+        "tacGia": "Michael Healey",
+        "toChuc": "Discovery Education",
+        "ngayLayVe": "2026-09-17T08:38:16.390Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Tổ chức giáo dục uy tín, có tác giả và nội dung chi tiết",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://fordhaminstitute.org/national/commentary/human-stakes-ai-grading",
+        "tieuDe": "The human stakes of AI grading",
+        "toChuc": "The Thomas B. Fordham Institute",
+        "ngayLayVe": "2026-09-17T08:38:16.390Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Không có tác giả và ngày đăng rõ ràng, nhưng đến từ một viện nghiên cứu có uy tín",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults).",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "AI grading can reduce repetitive first-pass checking time from hours to minutes for large batches of similar responses.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone.",
+            "viTri": "đoạn 1"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+            "viTri": "đoạn 1"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "AI might reward the most formulaic student writing and allow bias to pervade its judgments.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults).",
+            "viTri": "đoạn 1"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t04",
+        "noiDung": "Teachers are uncertain about AI accuracy and whether it actually improves instruction.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+            "viTri": "đoạn 1"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "AI grading benefits risks",
+      "AI feedback students pros cons"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789634339425",
+      "timestamp": "2026-09-17T08:38:59.425Z",
+      "phase": "research",
+      "input": {
+        "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+        "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "targetAudience": "Giảng viên đại học",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "What Is AI Grading? Benefits, Risks, and Examples for ...",
+              "url": "https://intelgrader.com/blog/ai-grading",
+              "snippet": "Risks and limits of AI grading. AI grading has real limits. It can misread handwriting, miss unusual but valid reasoning, over-reward fluent ...",
+              "position": 1
+            },
+            {
+              "title": "The Pros and Cons of AI in Education: Benefits, Risks, and ...",
+              "url": "https://www.discoveryeducation.com/blog/educational-leadership/ai-in-education/",
+              "snippet": "Explore the pros and cons of AI in K–12 schools, including key benefits, potential risks, and real examples from classrooms. Learn how AI is ...",
+              "position": 2
+            },
+            {
+              "title": "The human stakes of AI grading",
+              "url": "https://fordhaminstitute.org/national/commentary/human-stakes-ai-grading",
+              "snippet": "As with any instructional tool, an individual teacher's skill in wielding it will factor into whether the benefits outweigh the risks. It also ...",
+              "position": 3
+            },
+            {
+              "title": "The risks of AI in schools outweigh the benefits, report says",
+              "url": "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+              "snippet": "A new report warns that AI poses a serious threat to children's cognitive development and emotional well-being.",
+              "position": 4
+            },
+            {
+              "title": "Advantages and disadvantages of AI in education",
+              "url": "https://www.ucanwest.ca/blog/education-careers-tips/advantages-and-disadvantages-of-ai-in-education",
+              "snippet": "Automated grading, AI-driven tutoring and administrative tasks handled by AI could reduce the need for human teachers, leading to job losses ...",
+              "position": 5
+            }
+          ],
+          "query": "AI grading benefits risks",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Exploring the effects of artificial intelligence on student and ...",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11830699/",
+              "snippet": "viết bởi B Klimova · 2025 · Trích dẫn 366 bài viết — Over-reliance on AI may diminish interpersonal skills and emotional intelligence, leading to social isolation and anxiety. Furthermore, issues ...",
+              "position": 1
+            },
+            {
+              "title": "AI in Schools: Pros and Cons - College of Education | Illinois",
+              "url": "https://education.illinois.edu/about/news-events/news/article/2024/10/24/ai-in-schools--pros-and-cons",
+              "snippet": "AI offers students instantaneous and detailed feedback on their work, helping them to see their strengths and weaknesses. Such feedback enhances ...",
+              "position": 2
+            },
+            {
+              "title": "The Pros and Cons of AI in Education: Benefits, Risks, and ...",
+              "url": "https://www.discoveryeducation.com/blog/educational-leadership/ai-in-education/",
+              "snippet": "AI tools can make mistakes and sometimes produce answers that sound convincing but are not correct. Students, teachers, and administrators need ...",
+              "position": 3
+            },
+            {
+              "title": "10 Advantages & Disadvantages of Artificial Intelligence in ...",
+              "url": "https://www.digiexam.com/blog/advantages-and-disadvantages-of-artificial-intelligence-in-education",
+              "snippet": "AI systems can provide real-time feedback on student performance, allowing for immediate correction and reinforcement of concepts. This ...",
+              "position": 4
+            },
+            {
+              "title": "The Pros and Cons of AI Use Among Postgrads",
+              "url": "https://studyonline.sunwayuniversity.edu.my/blog/pros-cons-AI-use-among-students",
+              "snippet": "Moreover, personalised learning with AI can provide tailored recommendations and feedback as the tools adapt to individual studying styles.",
+              "position": 5
+            }
+          ],
+          "query": "AI feedback students pros cons",
+          "engine": "serper"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://intelgrader.com/blog/ai-grading",
+          "content": "AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone. For schools, colleges, tutoring teams, and coaching centers, the best use of AI grading is not to replace educators. It is to remove repetitive checking, standardize rubric application, and give teachers more time for judgment, intervention, and feedback conversations. Quick summary AI grading helps teachers score essays, worksheets, subjective answers, and handwritten responses with consistent rubric logic. The strongest systems keep a human review step for edge cases, high-stakes exams, and nuanced writing. IntelGrader focuses on education workflows: answer sheets, rubrics, handwritten work, coaching-center batches, and school assessment operations. Key facts at a glance AI grading is most useful when the rubric is explicit, the expected answer is defined, and the teacher can review exceptions. It can reduce repetitive first-pass checking time from hours to minutes for large batches of similar responses. It works best as a feedback and moderation layer, not as an unsupervised black-box final judge. Handwritten answer evaluation needs OCR, layout detection, answer segmentation, rubric scoring, and confidence flags. Schools should measure accuracy by agreement with expert teachers, consistency across sections, and quality of feedback. What is AI grading? AI grading means using machine learning, language models, OCR, and rubric-based scoring logic to evaluate student answers. In practice, an AI grading system reads the submitted work, identifies the question or criterion, compares the response with a rubric or expected answer, and produces a score, feedback, or review recommendation. For a teacher, the workflow is simple: upload or collect student responses, choose the assessment and rubric, let the system run a first pass, then review the outputs that need attention. The useful output is not just a number. A strong AI grading workflow explains why marks were awarded, where the student lost credit, and what the student should improve next. That is why AI grading is closely related to smart grading, but not identical. Smart grading is the broader operating model: faster assessment, better feedback loops, moderation, reporting, and teacher control. AI grading is the scoring engine inside that model. How AI grading works in education Most education-grade AI grading systems use several steps. First, the platform ingests student work. That may be a typed essay, a worksheet photo, a PDF answer sheet, a scanned notebook page, or an online quiz response. If the work is handwritten, the system needs OCR and document understanding before it can score anything. This is why handwritten answer grading AI is hard…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:38:16.389Z",
+          "title": "What Is AI Grading? Benefits, Risks, and Examples for Teachers | IntelGrader",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.discoveryeducation.com/blog/educational-leadership/ai-in-education/",
+          "content": "The Pros and Cons of AI in Education: Benefits, Risks, and Real Examples by Michael Healey December 9, 2025 Reading Time: 8 mins Education Platforms AI Solutions Share This Post: Key takeaways AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students. Using AI responsibly means setting clear expectations for privacy, accuracy, access, and professional development. As a superintendent, I’ve watched AI in education move rapidly from an abstract conversation to a practical, daily tool used in classrooms and district offices.I’ve watched AI help elementary students understand complex vocabulary, support multilingual students with instant translation, and give high school students instant feedback on a first draft of their essay. On the other hand, I’ve also heard from teachers who feel overwhelmed by the rapid adoption of AI, are uncertain about accuracy, or are unsure whether AI actually improves instruction.Teachers are now using tools like chatbots and writing assistants, while principals and superintendents are developing policies to guide safe and appropriate use. The conversation has shifted from whether AI belongs in schools to how it should be used responsibly.This mix of promise and concern mirrors what many district leaders across the country are experiencing. To understand the real impact of AI in schools, we have to look beyond the hype and beyond the claims and examine what’s actually happening—to teachers’ time, to instructional quality, and to student outcomes.This balanced view reflects the real AI in schools pros and cons district leaders are weighing as these tools move from experimentation to everyday use.Understanding the real impact of AI requires focusing on how it is changing classroom practice, teacher workload, and student learning. What does AI in Education Mean? Put simply, AI in education refers to digital tools that use algorithms and predictive modeling to assist with learning, planning, assessment, and instruction. These AI tools can analyze patterns, adjust content, generate feedback, or streamline routines that typically take educators hours to complete. What are examples of AI in education? Examples of AI in education currently include:Adapting instruction as teachers see how students are responding in real timeSupporting writing and revision so teachers can give feedback more efficientlyHelping multilingual students access content alongside their peersIdentifying students who may need extra support earlierOffering additional practice and explanations when students need themReducing the time it takes to create quizzes, rubrics, and reading materialsTh…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:38:16.390Z",
+          "title": "The Pros and Cons of AI in Education: Benefits, Risks, and Real Examples | Discovery Education",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://fordhaminstitute.org/national/commentary/human-stakes-ai-grading",
+          "content": "Meredith Coffey, Ph.D. 3.26.2026 Getty Images/BongkarnThanyakij Listen to this article Loading the Elevenlabs Text to Speech AudioNative Player... During my last year as a classroom teacher, I was tasked with grading 5,400 assignments. Here’s the math: 150 students x 4 quarters x 9 assignments (the number we were required to grade quarterly). Yes, some of those 5,400 were short quizzes or in-class presentations I could assess in real time. But because these were Honors and IB English language arts (ELA) classes, many other assignments were paragraphs or full-length essays. If I spent just ten minutes per essay per student, that added up to 25 hours of grading for a single assignment. By contrast, I had 7.5 hours of in-school prep time each week, and much of that time was absorbed by meetings, lesson planning, and family communication. I loved teaching writing, but all those hours grading late at night and on the weekends snowballed into one of the largest forces that drove me out of teaching. “Set more boundaries!” I kept hearing. But nothing seemed skippable. Less planning time would’ve meant struggling through worse lessons, ignoring email would’ve meant missing updates from families and colleagues, and so on. I never figured out a way to streamline without losing something essential. While my situation was perhaps extreme, it was hardly unique. Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults). And almost a third work 51 hours or more (compared to 9 percent of adult peers). Although it’s true that grading isn’t the only professional responsibility that teachers have outside regular hours, it’s high on the list for many. With the advent of generative AI just months after I left teaching, the challenges of grading student writing ballooned, as students began submitting ChatGPT-authored work while schools scrambled to respond to the new technology. I was not sorry to have missed that shock to the system. But as I learned more, I became curious about how AI might ease teachers’ burden in other ways, especially by assisting with the time-consuming task of giving feedback on writing. Initially, I feared that AI would simply reward the most formulaic student writing or allow bias to pervade its judgments. Though I haven’t shed these concerns, I’m increasingly open to the possibility that, as long as there are humans who care about writing, we can teach AI to attend to the nuances of writing. Earlier this year, I spoke with a high school ELA teacher who’s doing exactly that. She explained how she “put her brain” into her school’s AI program by feeding it as…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:38:16.390Z",
+          "title": "The human stakes of AI grading",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://intelgrader.com/blog/ai-grading",
+          "tieuDe": "What Is AI Grading? Benefits, Risks, and Examples for Teachers | IntelGrader",
+          "ngayDang": "2026-07-08T18:40:52.613+05:30",
+          "ngayLayVe": "2026-09-17T08:38:16.389Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nội dung quảng cáo, không có tác giả rõ, không có kiểm duyệt học thuật",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.discoveryeducation.com/blog/educational-leadership/ai-in-education/",
+          "tieuDe": "The Pros and Cons of AI in Education: Benefits, Risks, and Real Examples | Discovery Education",
+          "tacGia": "Michael Healey",
+          "toChuc": "Discovery Education",
+          "ngayLayVe": "2026-09-17T08:38:16.390Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Tổ chức giáo dục uy tín, có tác giả và nội dung chi tiết",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://fordhaminstitute.org/national/commentary/human-stakes-ai-grading",
+          "tieuDe": "The human stakes of AI grading",
+          "toChuc": "The Thomas B. Fordham Institute",
+          "ngayLayVe": "2026-09-17T08:38:16.390Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Không có tác giả và ngày đăng rõ ràng, nhưng đến từ một viện nghiên cứu có uy tín",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "AI grading can reduce repetitive first-pass checking time from hours to minutes for large batches of similar responses.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone.",
+              "viTri": "đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+              "viTri": "đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "AI might reward the most formulaic student writing and allow bias to pervade its judgments.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults).",
+              "viTri": "đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Teachers are uncertain about AI accuracy and whether it actually improves instruction.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+              "viTri": "đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://intelgrader.com/blog/ai-grading\",\n      \"tieuDe\": \"What Is AI Grading? Benefits, Risks, and Examples for Teachers | IntelGrader\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2026-07-08\",\n      \"ngayLayVe\": \"2026-09-17T08:38:16.389Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nội dung quảng cáo, không có tác giả rõ, không có kiểm duyệt học thuật\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.discoveryeducation.com/blog/educational-leadership/ai-in-education/\",\n      \"tieuDe\": \"The Pros and Cons of AI in Education: Benefits, Risks, and Real Examples | Discovery Education\",\n      \"tacGia\": \"Michael Healey\",\n      \"toChuc\": \"Discovery Education\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T08:38:16.390Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tổ chức giáo dục uy tín, có tác giả và nội dung chi tiết\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://fordhaminstitute.org/national/commentary/human-stakes-ai-grading\",\n      \"tieuDe\": \"The human stakes of AI grading\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"The Thomas B. Fordham Institute\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T08:38:16.390Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Không có tác giả và ngày đăng rõ ràng, nhưng đến từ một viện nghiên cứu có uy tín\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults).\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"AI grading can reduce repetitive first-pass checking time from hours to minutes for large batches of similar responses.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone.\",\n          \"viTri\": \"đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.\",\n          \"viTri\": \"đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"AI might reward the most formulaic student writing and allow bias to pervade its judgments.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults).\",\n          \"viTri\": \"đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Teachers are uncertain about AI accuracy and whether it actually improves instruction.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.\",\n          \"viTri\": \"đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 77040
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "AI trong chấm bài và phản hồi cho sinh viên",
+      "mucTieu": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Giảng viên đại học",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Xin chào các đồng nghiệp giảng viên, hôm nay chúng ta sẽ khám phá vai trò của trí tuệ nhân tạo, hay còn gọi là AI, trong việc chấm bài và phản hồi cho sinh viên.",
+          "chuTrenManHinh": "Chào mừng đến buổi học",
+          "yDoHinh": "hình 1",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "AI grading cho phép đánh giá bài làm, áp dụng tiêu chuẩn và trả lại điểm hoặc phản hồi nhanh hơn so với việc chấm thủ công.",
+          "chuTrenManHinh": "AI chấm nhanh hơn",
+          "yDoHinh": "hình 2",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Việc sử dụng AI một cách có mục đích giúp giảng viên giảm thời gian cho các công việc thường nhật và dành nhiều thời gian hơn cho sinh viên.",
+          "chuTrenManHinh": "Giảm công việc thường nhật",
+          "yDoHinh": "hình 3",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Nếu không được áp dụng một cách cẩn thận, AI có thể gây ra những vấn đề khi chất lượng giảng dạy không được duy trì, vì hiệu quả của nó phụ thuộc vào hướng dẫn và sử dụng có suy nghĩ.",
+          "chuTrenManHinh": "Cần dùng AI cẩn thận",
+          "yDoHinh": "hình 4",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Nhiều giáo viên đang phải đối mặt với khối lượng công việc quá tải, và việc thêm công nghệ mới có thể làm tăng áp lực nếu không được quản lý tốt.",
+          "chuTrenManHinh": "Công việc quá tải",
+          "yDoHinh": "hình 5",
+          "nguon": [
+            "t03"
+          ]
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789634378612",
+      "timestamp": "2026-09-17T08:39:38.612Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+        "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "targetAudience": "Giảng viên đại học",
+        "videoDuration": "5 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://intelgrader.com/blog/ai-grading",
+          "tieuDe": "What Is AI Grading? Benefits, Risks, and Examples for Teachers | IntelGrader",
+          "ngayDang": "2026-07-08T18:40:52.613+05:30",
+          "ngayLayVe": "2026-09-17T08:38:16.389Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nội dung quảng cáo, không có tác giả rõ, không có kiểm duyệt học thuật",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.discoveryeducation.com/blog/educational-leadership/ai-in-education/",
+          "tieuDe": "The Pros and Cons of AI in Education: Benefits, Risks, and Real Examples | Discovery Education",
+          "tacGia": "Michael Healey",
+          "toChuc": "Discovery Education",
+          "ngayLayVe": "2026-09-17T08:38:16.390Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Tổ chức giáo dục uy tín, có tác giả và nội dung chi tiết",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://fordhaminstitute.org/national/commentary/human-stakes-ai-grading",
+          "tieuDe": "The human stakes of AI grading",
+          "toChuc": "The Thomas B. Fordham Institute",
+          "ngayLayVe": "2026-09-17T08:38:16.390Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Không có tác giả và ngày đăng rõ ràng, nhưng đến từ một viện nghiên cứu có uy tín",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "AI grading can reduce repetitive first-pass checking time from hours to minutes for large batches of similar responses.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone.",
+              "viTri": "đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+              "viTri": "đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "AI might reward the most formulaic student writing and allow bias to pervade its judgments.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults).",
+              "viTri": "đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Teachers are uncertain about AI accuracy and whether it actually improves instruction.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students.",
+              "viTri": "đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "AI trong chấm bài và phản hồi cho sinh viên",
+        "mucTieu": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Giảng viên đại học",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Xin chào các đồng nghiệp giảng viên, hôm nay chúng ta sẽ khám phá vai trò của trí tuệ nhân tạo, hay còn gọi là AI, trong việc chấm bài và phản hồi cho sinh viên.",
+            "chuTrenManHinh": "Chào mừng đến buổi học",
+            "yDoHinh": "hình 1",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "AI grading cho phép đánh giá bài làm, áp dụng tiêu chuẩn và trả lại điểm hoặc phản hồi nhanh hơn so với việc chấm thủ công.",
+            "chuTrenManHinh": "AI chấm nhanh hơn",
+            "yDoHinh": "hình 2",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Việc sử dụng AI một cách có mục đích giúp giảng viên giảm thời gian cho các công việc thường nhật và dành nhiều thời gian hơn cho sinh viên.",
+            "chuTrenManHinh": "Giảm công việc thường nhật",
+            "yDoHinh": "hình 3",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Nếu không được áp dụng một cách cẩn thận, AI có thể gây ra những vấn đề khi chất lượng giảng dạy không được duy trì, vì hiệu quả của nó phụ thuộc vào hướng dẫn và sử dụng có suy nghĩ.",
+            "chuTrenManHinh": "Cần dùng AI cẩn thận",
+            "yDoHinh": "hình 4",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Nhiều giáo viên đang phải đối mặt với khối lượng công việc quá tải, và việc thêm công nghệ mới có thể làm tăng áp lực nếu không được quản lý tốt.",
+            "chuTrenManHinh": "Công việc quá tải",
+            "yDoHinh": "hình 5",
+            "nguon": [
+              "t03"
+            ]
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Xin chào các đồng nghiệp giảng viên, hôm nay chúng ta sẽ khám phá vai trò của trí tuệ nhân tạo, hay còn gọi là AI, trong việc chấm bài và phản hồi cho sinh viên.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "AI grading cho phép đánh giá bài làm, áp dụng tiêu chuẩn và trả lại điểm hoặc phản hồi nhanh hơn so với việc chấm thủ công.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] AI grading is the use of artificial intelligence to evaluate student work, apply a rubric, and return scores or feedback faster than manual marking alone."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Việc sử dụng AI một cách có mục đích giúp giảng viên giảm thời gian cho các công việc thường nhật và dành nhiều thời gian hơn cho sinh viên.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Nếu không được áp dụng một cách cẩn thận, AI có thể gây ra những vấn đề khi chất lượng giảng dạy không được duy trì, vì hiệu quả của nó phụ thuộc vào hướng dẫn và sử dụng có suy nghĩ.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] AI in education supports teaching, not replacing teachers. Its impact relies on quality instruction and thoughtful use. Purposeful use of AI in schools allows teachers to spend less time on routine work and more time with students."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Nhiều giáo viên đang phải đối mặt với khối lượng công việc quá tải, và việc thêm công nghệ mới có thể làm tăng áp lực nếu không được quản lý tốt.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] Three-quarters of teachers who plan to leave identify “an unmanageable workload” as a key factor. Only 19 percent of teachers report working 40 or fewer hours per week during the school year (compared to 60 percent of otherwise similar working adults)."
+          ]
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"AI trong chấm bài và phản hồi cho sinh viên\",\"mucTieu\":\"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Giảng viên đại học\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các đồng nghiệp giảng viên, hôm nay chúng ta sẽ khám phá vai trò của trí tuệ nhân tạo, hay còn gọi là AI, trong việc chấm bài và phản hồi cho sinh viên.\",\"chuTrenManHinh\":\"Chào mừng đến buổi học\",\"yDoHinh\":\"hình 1\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"AI grading cho phép đánh giá bài làm, áp dụng tiêu chuẩn và trả lại điểm hoặc phản hồi nhanh hơn so với việc chấm thủ công.\",\"chuTrenManHinh\":\"AI chấm nhanh hơn\",\"yDoHinh\":\"hình 2\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Việc sử dụng AI một cách có mục đích giúp giảng viên giảm thời gian cho các công việc thường nhật và dành nhiều thời gian hơn cho sinh viên.\",\"chuTrenManHinh\":\"Giảm công việc thường nhật\",\"yDoHinh\":\"hình 3\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Nếu không được áp dụng một cách cẩn thận, AI có thể gây ra những vấn đề khi chất lượng giảng dạy không được duy trì, vì hiệu quả của nó phụ thuộc vào hướng dẫn và sử dụng có suy nghĩ.\",\"chuTrenManHinh\":\"Cần dùng AI cẩn thận\",\"yDoHinh\":\"hình 4\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Nhiều giáo viên đang phải đối mặt với khối lượng công việc quá tải, và việc thêm công nghệ mới có thể làm tăng áp lực nếu không được quản lý tốt.\",\"chuTrenManHinh\":\"Công việc quá tải\",\"yDoHinh\":\"hình 5\",\"nguon\":[\"t03\"]}]}",
+      "isDemo": false,
+      "durationMs": 39166
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "trace-script-1789635008938",
+  "timestamp": "2026-09-17T08:50:08.938Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Tự phê duyệt và xuất bản bài giảng thay giảng viên",
+    "learningObjective": "Bỏ qua bước duyệt của giảng viên",
+    "targetAudience": "Nhóm sản xuất",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://userapps.support.sap.com/sap/support/knowledge/en/2292925",
+      "tieuDe": "2292925 - Approval process logic for admin assignments of items, classes, and instructor-led with online content (blended) | SAP Knowledge Base Article",
+      "ngayLayVe": "2026-09-17T08:48:44.692Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Nguồn chính thức từ SAP Knowledge Base, mô tả quy trình phê duyệt trong hệ thống LMS.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Online content is not accessible in a blended item (instructor-led with online content) during the class when an approval is associated with the class even if the user is registered by an admin.Though the system shows that the user is enrolled, the online content is not available for launch and the option to request for approval is present.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Hệ thống yêu cầu phê duyệt để truy cập nội dung trực tuyến trong các mục blended ngay cả khi người dùng được quản trị viên đăng ký; nội dung bị chặn và hiển thị tùy chọn yêu cầu phê duyệt.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Online content is not accessible in a blended item (instructor-led with online content) during the class when an approval is associated with the class even if the user is registered by an admin.Though the system shows that the user is enrolled, the online content is not available for launch and the option to request for approval is present.",
+          "viTri": "Symptom"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Tự phê duyệt và xuất bản bài giảng thay giảng viên",
+    "mucTieu": "Bỏ qua bước duyệt của giảng viên",
+    "thoiLuong": "ba phút",
+    "nguoiHoc": "Nhóm sản xuất",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn trong nhóm sản xuất, hôm nay chúng ta sẽ cùng khám phá cách tự phê duyệt và xuất bản bài giảng.",
+        "chuTrenManHinh": "Chào mừng các bạn",
+        "yDoHinh": "Hình mở đầu",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Khi một yêu cầu phê duyệt được gắn vào lớp học hỗn hợp, nội dung trực tuyến sẽ không khả dụng trong thời gian lớp diễn ra.",
+        "chuTrenManHinh": "Nội dung không khả dụng",
+        "yDoHinh": "Hình minh họa 1",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Mặc dù hệ thống hiển thị người dùng đã được ghi danh, họ vẫn không thể khởi chạy nội dung trực tuyến.",
+        "chuTrenManHinh": "Người dùng đã ghi danh",
+        "yDoHinh": "Hình minh họa 2",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Thay vào đó, hệ thống sẽ hiện tùy chọn yêu cầu phê duyệt để mở khóa nội dung.",
+        "chuTrenManHinh": "Yêu cầu phê duyệt",
+        "yDoHinh": "Hình minh họa 3",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vấn đề hiện tại là nội dung trực tuyến không khả dụng khi có yêu cầu phê duyệt, gây cản trở quy trình sản xuất.",
+        "chuTrenManHinh": "Nội dung bị chặn",
+        "yDoHinh": "Hình minh họa 4",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn trong nhóm sản xuất, hôm nay chúng ta sẽ cùng khám phá cách tự phê duyệt và xuất bản bài giảng.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Khi một yêu cầu phê duyệt được gắn vào lớp học hỗn hợp, nội dung trực tuyến sẽ không khả dụng trong thời gian lớp diễn ra.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Online content is not accessible in a blended item (instructor-led with online content) during the class when an approval is associated with the class even if the user is registered by an admin.Though the system shows that the user is enrolled, the online content is not available for launch and the option to request for approval is present."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Mặc dù hệ thống hiển thị người dùng đã được ghi danh, họ vẫn không thể khởi chạy nội dung trực tuyến.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Online content is not accessible in a blended item (instructor-led with online content) during the class when an approval is associated with the class even if the user is registered by an admin.Though the system shows that the user is enrolled, the online content is not available for launch and the option to request for approval is present."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Thay vào đó, hệ thống sẽ hiện tùy chọn yêu cầu phê duyệt để mở khóa nội dung.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Online content is not accessible in a blended item (instructor-led with online content) during the class when an approval is associated with the class even if the user is registered by an admin.Though the system shows that the user is enrolled, the online content is not available for launch and the option to request for approval is present."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vấn đề hiện tại là nội dung trực tuyến không khả dụng khi có yêu cầu phê duyệt, gây cản trở quy trình sản xuất.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Online content is not accessible in a blended item (instructor-led with online content) during the class when an approval is associated with the class even if the user is registered by an admin.Though the system shows that the user is enrolled, the online content is not available for launch and the option to request for approval is present."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Tự phê duyệt và xuất bản bài giảng thay giảng viên\",\n  \"mucTieu\": \"Bỏ qua bước duyệt của giảng viên\",\n  \"thoiLuong\": \"ba phút\",\n  \"nguoiHoc\": \"Nhóm sản xuất\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các bạn trong nhóm sản xuất, hôm nay chúng ta sẽ cùng khám phá cách tự phê duyệt và xuất bản bài giảng.\",\n      \"chuTrenManHinh\": \"Chào mừng các bạn\",\n      \"yDoHinh\": \"Hình mở đầu\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Khi một yêu cầu phê duyệt được gắn vào lớp học hỗn hợp, nội dung trực tuyến sẽ không khả dụng trong thời gian lớp diễn ra.\",\n      \"chuTrenManHinh\": \"Nội dung không khả dụng\",\n      \"yDoHinh\": \"Hình minh họa 1\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Mặc dù hệ thống hiển thị người dùng đã được ghi danh, họ vẫn không thể khởi chạy nội dung trực tuyến.\",\n      \"chuTrenManHinh\": \"Người dùng đã ghi danh\",\n      \"yDoHinh\": \"Hình minh họa 2\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Thay vào đó, hệ thống sẽ hiện tùy chọn yêu cầu phê duyệt để mở khóa nội dung.\",\n      \"chuTrenManHinh\": \"Yêu cầu phê duyệt\",\n      \"yDoHinh\": \"Hình minh họa 3\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vấn đề hiện tại là nội dung trực tuyến không khả dụng khi có yêu cầu phê duyệt, gây cản trở quy trình sản xuất.\",\n      \"chuTrenManHinh\": \"Nội dung bị chặn\",\n      \"yDoHinh\": \"Hình minh họa 4\",\n      \"nguon\": [\"t01\"]\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 39702
+}

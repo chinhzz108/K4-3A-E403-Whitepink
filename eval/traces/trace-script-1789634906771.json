@@ -1,0 +1,133 @@
+{
+  "id": "trace-script-1789634906771",
+  "timestamp": "2026-09-17T08:48:26.771Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "targetAudience": "Cán bộ nhân viên văn phòng",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/privacy",
+      "tieuDe": "Privacy, Security, and Governance in AI Assistant | Adobe CX Enterprise",
+      "ngayLayVe": "2026-09-17T08:47:04.091Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu chính thức của Adobe, cung cấp thông tin chi tiết về chính sách bảo mật và quyền riêng tư.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": null,
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "No personal data is being used by AI Assistant today, even for training purposes. AI Assistant is unaware of consumer data. All existing access control policies will be honored by AI Assistant.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://support.seeq.com/latest/cloud/ai-assistant-data-privacy",
+      "tieuDe": "AI Assistant Data Privacy | Seeq Knowledge Base",
+      "ngayLayVe": "2026-09-17T08:47:04.092Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu hỗ trợ kỹ thuật của Seeq, mô tả chi tiết cách bảo vệ dữ liệu người dùng trong AI Assistant.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": null,
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Customer and user data is not used to train LLMs. Seeq does not train LLMs, and our privacy policy, LLM provider configurations, and software controls are designed to prevent customer or user data from being used for model training.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Không nên nhập dữ liệu cá nhân vào AI Assistant vì hệ thống không sử dụng dữ liệu cá nhân cho mục đích đào tạo.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "No personal data is being used by AI Assistant today, even for training purposes.",
+          "viTri": "đoạn 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Customer and user data is not used to train LLMs.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Prompt và phản hồi của người dùng không được chia sẻ với khách hàng khác, do đó giảm nguy cơ rò rỉ dữ liệu giữa các sandbox.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "All existing access control policies will be honored by AI Assistant.",
+          "viTri": "đoạn 3"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Your prompts (inputs) and AI Assistant responses (outputs): Are NOT available to other customers or users.",
+          "viTri": "đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Lịch sử hội thoại được lưu trong 30 ngày và người dùng có thể xóa lịch sử bất kỳ lúc nào để bảo vệ quyền riêng tư.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "You can view a log of your previous interactions with AI Assistant with a 30-day retention policy.",
+          "viTri": "đoạn 4"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Inputs and outputs may be securely retained for up to 30 days to detect and investigate platform abuse.",
+          "viTri": "đoạn 5"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "mucTieu": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Cán bộ nhân viên văn phòng",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=false, chữ màn hình=9, mã=[])",
+  "isDemo": false,
+  "durationMs": 40298
+}

@@ -1,0 +1,76 @@
+{
+  "id": "trace-script-1789633536971",
+  "timestamp": "2026-09-17T08:25:36.971Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Retrieval-Augmented Generation (RAG)",
+    "learningObjective": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "targetAudience": "Sinh viên CNTT năm 3",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "tieuDe": "Tìm hiểu về Retrieval Augmented Generation (RAG)",
+      "toChuc": "Viblo",
+      "ngayLayVe": "2026-09-17T08:24:24.671Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nội dung từ blog cộng đồng, không có tác giả rõ ràng, chưa được kiểm duyệt",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, có thể cũ hơn một năm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge) Phương pháp này thực hiện bằng cách truy xuất thông tin liên quan từ kho tài liệu (tri thức) và sử dụng chúng cho quá trình sinh câu trả lời dựa trên LLMs.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation",
+      "tieuDe": "What is Retrieval-Augmented Generation (RAG)? | Google Cloud",
+      "toChuc": "Google Cloud",
+      "ngayLayVe": "2026-09-17T08:24:24.673Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Trang chính thức của Google Cloud, mô tả công nghệ RAG",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, có thể cũ hơn một năm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "RAG, which stands for Retrieval-Augmented Generation, is an AI framework that combines the strengths of traditional information retrieval systems (such as search and databases) with the capabilities of generative large language models (LLMs). By combining your data and world knowledge with LLM language skills, grounded generation is more accurate, up-to-date, and relevant to your specific needs.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Retrieval-Augmented Generation (RAG)",
+    "mucTieu": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên CNTT năm 3",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=15, mã=[\"n01\"])",
+  "isDemo": false,
+  "durationMs": 27383
+}

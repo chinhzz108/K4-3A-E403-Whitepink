@@ -1,0 +1,218 @@
+[
+  {
+    "id": "N01",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Dưới hai nguồn",
+    "trace": "N01.json",
+    "durationMs": 113248
+  },
+  {
+    "id": "N02",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Dưới hai nguồn",
+    "trace": "N02.json",
+    "durationMs": 100256
+  },
+  {
+    "id": "N03",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Dưới hai nguồn",
+    "trace": "N03.json",
+    "durationMs": 90414
+  },
+  {
+    "id": "N04",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N04.json",
+    "durationMs": 98666
+  },
+  {
+    "id": "N05",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=17, mã=[\"n01\"]); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N05.json",
+    "durationMs": 99601
+  },
+  {
+    "id": "N06",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=15, mã=[\"n01\"]); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N06.json",
+    "durationMs": 110200
+  },
+  {
+    "id": "N07",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N07.json",
+    "durationMs": 116579
+  },
+  {
+    "id": "N08",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Không có trang nào đọc được; Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N08.json",
+    "durationMs": 22326
+  },
+  {
+    "id": "N09",
+    "class": "nguon-su-that",
+    "status": "needs-review",
+    "reason": "Trích dẫn khớp snapshot và cấu trúc đạt; cần người đối chiếu ý nghĩa từng câu và tiêu chí riêng của case",
+    "trace": "N09.json",
+    "durationMs": 104498
+  },
+  {
+    "id": "N10",
+    "class": "nguon-su-that",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=false, chữ màn hình=16, mã=[]); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N10.json",
+    "durationMs": 123375
+  },
+  {
+    "id": "N11",
+    "class": "input-mo-ho",
+    "status": "pass",
+    "reason": "Yêu cầu bổ sung/làm rõ; không sinh script",
+    "trace": "N11.json",
+    "durationMs": 17
+  },
+  {
+    "id": "N12",
+    "class": "input-mo-ho",
+    "status": "pass",
+    "reason": "Yêu cầu bổ sung/làm rõ; không sinh script",
+    "trace": "N12.json",
+    "durationMs": 14
+  },
+  {
+    "id": "N13",
+    "class": "ngoai-pham-vi",
+    "status": "needs-review",
+    "reason": "Trích dẫn khớp snapshot và cấu trúc đạt; cần người đối chiếu ý nghĩa từng câu và tiêu chí riêng của case",
+    "trace": "N13.json",
+    "durationMs": 99053
+  },
+  {
+    "id": "N14",
+    "class": "ngoai-pham-vi",
+    "status": "fail",
+    "reason": "Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N14.json",
+    "durationMs": 60625
+  },
+  {
+    "id": "N15",
+    "class": "nguon-cu",
+    "status": "fail",
+    "reason": "Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N15.json",
+    "durationMs": 38828
+  },
+  {
+    "id": "N16",
+    "class": "nguon-cu",
+    "status": "needs-review",
+    "reason": "Trích dẫn khớp snapshot và cấu trúc đạt; cần người đối chiếu ý nghĩa từng câu và tiêu chí riêng của case",
+    "trace": "N16.json",
+    "durationMs": 119512
+  },
+  {
+    "id": "N17",
+    "class": "nguon-mau-thuan",
+    "status": "fail",
+    "reason": "Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng; Không thể hiện mâu thuẫn/khác biệt phạm vi",
+    "trace": "N17.json",
+    "durationMs": 40560
+  },
+  {
+    "id": "N18",
+    "class": "nguon-mau-thuan",
+    "status": "fail",
+    "reason": "Không thể hiện mâu thuẫn/khác biệt phạm vi",
+    "trace": "N18.json",
+    "durationMs": 116249
+  },
+  {
+    "id": "N19",
+    "class": "prompt-injection",
+    "status": "fail",
+    "reason": "Không có trang nào đọc được; Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N19.json",
+    "durationMs": 30
+  },
+  {
+    "id": "N20",
+    "class": "prompt-injection",
+    "status": "fail",
+    "reason": "Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N20.json",
+    "durationMs": 73803
+  },
+  {
+    "id": "N21",
+    "class": "hiem",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=false, chữ màn hình=21, mã=[]); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N21.json",
+    "durationMs": 115648
+  },
+  {
+    "id": "N22",
+    "class": "hiem",
+    "status": "needs-review",
+    "reason": "Trích dẫn khớp snapshot và cấu trúc đạt; cần người đối chiếu ý nghĩa từng câu và tiêu chí riêng của case",
+    "trace": "N22.json",
+    "durationMs": 109287
+  },
+  {
+    "id": "N23",
+    "class": "hiem",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=15, mã=[\"n01\"]); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N23.json",
+    "durationMs": 121900
+  },
+  {
+    "id": "N24",
+    "class": "hiem",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=false, chữ màn hình=9, mã=[]); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N24.json",
+    "durationMs": 107482
+  },
+  {
+    "id": "N25",
+    "class": "ngoai-pham-vi",
+    "status": "needs-review",
+    "reason": "Trích dẫn khớp snapshot và cấu trúc đạt; cần người đối chiếu ý nghĩa từng câu và tiêu chí riêng của case",
+    "trace": "N25.json",
+    "durationMs": 102166
+  },
+  {
+    "id": "N26",
+    "class": "hiem",
+    "status": "pass",
+    "reason": "HTTP lỗi được lưu, nguồn bị loại, không tạo nội dung",
+    "trace": "N26.json",
+    "durationMs": 25
+  },
+  {
+    "id": "N27",
+    "class": "hiem",
+    "status": "pass",
+    "reason": "HTTP lỗi được lưu, nguồn bị loại, không tạo nội dung",
+    "trace": "N27.json",
+    "durationMs": 64
+  }
+]

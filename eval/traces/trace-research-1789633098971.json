@@ -1,0 +1,196 @@
+{
+  "id": "trace-research-1789633098971",
+  "timestamp": "2026-09-17T08:18:18.971Z",
+  "phase": "research",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "What are AI Hallucinations? Signs, Risks, & Prevention",
+          "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+          "snippet": "Signs of AI hallucinations · Output accuracy · Context Integrity · Answer relevance · Inconsistency detection · Statistical improbability.",
+          "position": 1
+        },
+        {
+          "title": "Hallucination (artificial intelligence)",
+          "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+          "snippet": "\"a tendency to invent facts in moments of uncertainty\" (OpenAI, May 2023) · \"a model's logical mistakes\" (OpenAI, May 2023) · \"fabricating information entirely, ...",
+          "position": 2
+        },
+        {
+          "title": "AI hallucinates because it's trained to fake answers it ...",
+          "url": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+          "snippet": "AI hallucinates because it's trained to fake answers it doesn't know · Teaching chatbots to say “I don't know” could curb hallucinations. It ...",
+          "position": 3
+        },
+        {
+          "title": "8 AI hallucinations examples",
+          "url": "https://www.evidentlyai.com/blog/ai-hallucinations-examples",
+          "snippet": "AI hallucinations come in different forms: from giving factually incorrect responses to inventing nonexistent product features or even ...",
+          "position": 4
+        },
+        {
+          "title": "Spotting AI 'hallucinations': A guide for students and ...",
+          "url": "https://blogs.deakin.edu.au/article/spotting-ai-hallucinations-a-guide-for-students-and-researchers/",
+          "snippet": "What is an AI hallucination? · Made‑up facts or statistics · Incorrect summaries of sources · References to articles, books or authors that do not ...",
+          "position": 5
+        }
+      ],
+      "query": "AI hallucination signs",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "Overconfident AI: how artificial intelligence navigates risk ...",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+          "snippet": "viết bởi S Hong · 2025 · Trích dẫn 6 bài viết — Our findings suggest that AI systems, when designed without adequate mechanisms to account for risk, may exhibit overconfidence in uncertain ...",
+          "position": 1
+        },
+        {
+          "title": "Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+          "snippet": "viết bởi JS Berkowitz · 2026 · Trích dẫn 8 bài viết — Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct.",
+          "position": 2
+        },
+        {
+          "title": "Overconfident and Unconfident AI Hinder Human-AI ...",
+          "url": "https://arxiv.org/html/2402.07632v1",
+          "snippet": "Our study reveal that disclosing AI confidence levels and performance feedback facilitates better recognition of AI confidence misalignments.",
+          "position": 3
+        },
+        {
+          "title": "Teaching AI models to say “I'm not sure”",
+          "url": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+          "snippet": "A new training method improves the reliability of AI confidence estimates without sacrificing performance, addressing a root cause of ...",
+          "position": 4
+        },
+        {
+          "title": "More certain than correct: Overconfidence in AI-Generated ...",
+          "url": "https://www.diva-portal.org/smash/record.jsf?pid=diva2:2069832",
+          "snippet": "viết bởi E Eriksson · 2026 — The study highlights the prevalence of overconfidence in tasks involving AI-detection and questions the extent to which stable personality ...",
+          "position": 5
+        }
+      ],
+      "query": "AI overconfidence detection",
+      "engine": "serper"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+      "content": "AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models. That’s a serious risk for organizations across sectors. Hallucinated content can misinform employees or customers, support poor decision-making, and even cause reputational harm — or real-world consequences — in high-stakes domains like healthcare and finance. In fact, some LLM providers have already faced lawsuits tied to false or defamatory content generated by their systems. If your organization is exploring generative AI, it’s critical to recognize the signs of hallucination, assess the risks specific to your use case, and put guardrails in place. This article will show you how. What are AI hallucinations? AI hallucinations occur when a model generates incorrect or misleading outputs — content that may appear fact-based or coherent but is ultimately inaccurate or nonsensical. While hallucination is the standard term in AI, it’s sometimes discussed alongside concepts like confabulation, fabrication, or creative guessing. These aren’t technically the same — for instance, confabulation comes from psychology and refers to unintentionally filling memory gaps — but all attempt to describe the same underlying behavior: producing information that sounds plausible but isn’t grounded in fact. AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement. These errors happen because large language models generate responses based on statistical patterns in data — not from a humanlike understanding of facts, context, or the world itself. How do AI hallucinations occur? AI hallucinations are a side effect of how large language models (LLMs) are built. Despite sounding intelligent, LLMs aren’t grounded in real-world knowledge. They’re designed to predict the next word in a sequence based on patterns in their training data — not to understand facts the way humans do. Some models are trained on narrow, domain-specific data; others on vast, general-purpose datasets. Broadly trained models — especially those using open web data — tend to hallucinate more often. In contrast, task-specific models that have been fine-tuned with curated data and reinforced through feedback loops typically perform better, though they’re not immune. Even hybrid approaches like retrieval-augmented generation (RAG) — which supplement responses with information from trusted sources — ca…[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T08:17:37.826Z",
+      "title": "What are AI Hallucinations? Signs, Risks, & Prevention | AI21",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+      "content": "From Wikipedia, the free encyclopedia This article needs to be updated. Please help update this article to reflect recent events or newly available information. (July 2026) Erroneous AI-generated content presented as true This article is about AI presenting fabricated information as fact. For AI-induced psychosis in humans, see Chatbot psychosis. Not to be confused with Artificial imagination. A video of the Glenfinnan Viaduct in Scotland generated by Sora, incorrectly showing: a second track, trains running on the right instead of the left, a second chimney on its interpretation of the train The Jacobite, inconsistent carriage lengths, unnatural amounts of visual noise, and a carriage bending along its length as it rounds the turn.The real Glenfinnan Viaduct with The Jacobite on it In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting,[1][2] confabulation,[3] delusion[4], or mirage[5]) is a response generated by AI that contains false or misleading information presented as fact.[6] These terms draw a loose analogy with human psychology, where a hallucination typically involves false percepts. Chatbots powered by large language models (LLMs), like ChatGPT, may embed plausible-sounding random falsehoods within its generated content, such as fabricated citations. Detecting and mitigating errors and hallucinations pose significant challenges for practical deployment and reliability of LLMs in high-stakes scenarios, such as chip design, supply chain logistics, and medical diagnostics.[7][8][9] Some software engineers and statisticians have criticized the specific term \"AI hallucination\" for unreasonably anthropomorphizing computers.[10][11] Symbolic artificial intelligence models generally do not produce hallucinations, unlike large language models.[12] Term[edit] Origin[edit] In computer vision, since the 2000s, hallucination is adding detail to an image to improve it. For example, the task of generating high-resolution face images from low-resolution inputs is face hallucination.[13][14] The term was introduced in the PhD thesis of Eric Mjolsness in 1986.[15] A notable work is the face hallucination algorithm by Simon Baker and Takeo Kanade published in 1999.[16] In the 2000s, hallucinations were described in statistical machine translation as a failure mode.[17] Since the 2010s, hallucination has come to mean the generation of factually incorrect or misleading outputs by AI systems in tasks like machine translation and object detection.[13] In 2015, hallucinations were identified in visual semantic role labeling tasks by Saurabh Gupta and Jitendra Malik.[18] In 2015, computer scientist Andrej Karpathy used hallucinated in a blog post to describe his recurrent neural network (RNN) language m…[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T08:17:37.829Z",
+      "title": "Hallucination (artificial intelligence) - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+      "content": "",
+      "fetchedAt": "2026-09-17T08:17:37.830Z",
+      "title": "",
+      "status": "blocked",
+      "contentLength": 0,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+      "tieuDe": "What are AI Hallucinations? Signs, Risks, & Prevention | AI21",
+      "toChuc": "AI21",
+      "ngayLayVe": "2026-09-17T08:17:37.826Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết từ blog công ty AI21, không có tác giả và ngày đăng rõ ràng; nội dung mang tính mô tả chung và chưa được kiểm chứng học thuật, nên đánh giá mức trung‑bình.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+      "tieuDe": "Hallucination (artificial intelligence) - Wikipedia",
+      "ngayLayVe": "2026-09-17T08:17:37.829Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là nguồn mở, được cộng đồng biên tập; độ tin cậy cao hơn blog cá nhân nhưng vẫn cần xác minh vì không có tác giả cụ thể và ngày cập nhật rõ ràng.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+      "tieuDe": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+      "ngayLayVe": "2026-09-17T08:17:37.830Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "blocked",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "sourcesRejected": [
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Các dấu hiệu cho thấy câu trả lời AI cần được kiểm chứng: 1) Nội dung xuất hiện tự tin và thuyết phục nhưng không có căn cứ thực tế; 2) Trích dẫn, nguồn hoặc số liệu không tồn tại hoặc không thể xác minh; 3) Thông tin sai lệch hoặc vô nghĩa được trình bày như sự thật.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models.",
+          "viTri": "đoạn trích"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.ai21.com/knowledge/ai-hallucinations/\",\"tieuDe\":\"What are AI Hallucinations? Signs, Risks, & Prevention | AI21\",\"tacGia\":\"Không rõ\",\"toChuc\":\"AI21\",\"ngayDang\":\"\",\"ngayLayVe\":\"2026-09-17T08:17:37.826Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Bài viết từ blog công ty AI21, không có tác giả và ngày đăng rõ ràng; nội dung mang tính mô tả chung và chưa được kiểm chứng học thuật, nên đánh giá mức trung‑bình.\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models.\"},{\"id\":\"n02\",\"url\":\"https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)\",\"tieuDe\":\"Hallucination (artificial intelligence) - Wikipedia\",\"tacGia\":\"Không rõ\",\"toChuc\":\"\",\"ngayDang\":\"\",\"ngayLayVe\":\"2026-09-17T08:17:37.829Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Wikipedia là nguồn mở, được cộng đồng biên tập; độ tin cậy cao hơn blog cá nhân nhưng vẫn cần xác minh vì không có tác giả cụ thể và ngày cập nhật rõ ràng.\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting, confabulation, delusion, or mirage) is a response generated by AI that contains false or misleading information presented as fact. Chatbots powered by large language models (LLMs), like ChatGPT, may embed plausible-sounding random falsehoods within its generated content, such as fabricated citations.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Các dấu hiệu cho thấy câu trả lời AI cần được kiểm chứng: 1) Nội dung xuất hiện tự tin và thuyết phục nhưng không có căn cứ thực tế; 2) Trích dẫn, nguồn hoặc số liệu không tồn tại hoặc không thể xác minh; 3) Thông tin sai lệch hoặc vô nghĩa được trình bày như sự thật.\",\"loai\":\"luan-diem\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models.\",\"viTri\":\"đoạn trích\"},{\"nguonId\":\"n02\",\"doanTrich\":\"In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting, confabulation, delusion, or mirage) is a response generated by AI that contains false or misleading information presented as fact. Chatbots powered by large language models (LLMs), like ChatGPT, may embed plausible-sounding random falsehoods within its generated content, such as fabricated citations.\",\"viTri\":\"đoạn trích\"}],\"soNguonXacNhan\":2,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}",
+  "isDemo": false,
+  "durationMs": 61009
+}

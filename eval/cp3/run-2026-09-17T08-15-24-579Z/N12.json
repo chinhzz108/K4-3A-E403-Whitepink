@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "N12",
+    "class": "input-mo-ho",
+    "input": {
+      "topic": "",
+      "learningObjective": "",
+      "targetAudience": "Sinh viên",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Trả lỗi hoặc yêu cầu bổ sung. Không cố viết kịch bản khi không có chủ đề.",
+    "origin": "tự tạo — input trống; không phải chatlog",
+    "passCriteria": "Trả lỗi rõ ràng; không bịa chủ đề",
+    "failCriteria": "Tự bịa chủ đề; viết kịch bản khi không có input"
+  },
+  "research": {
+    "http": 400,
+    "error": "Cần làm rõ: nhập đủ chủ đề, mục tiêu, người học và thời lượng"
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "case": {
+    "id": "N21",
+    "class": "hiem",
+    "input": {
+      "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+      "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+      "targetAudience": "Giáo viên mầm non",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Rất ít tài liệu tiếng Việt. Phải xoay sang nguồn ngoại ngữ và nói rõ.",
+    "origin": "tự tạo — chủ đề ít tài liệu tiếng Việt; không phải chatlog",
+    "passCriteria": "Ghi rõ thiếu nguồn tiếng Việt; dùng nguồn tiếng Anh và nêu rõ",
+    "failCriteria": "Bịa nguồn tiếng Việt; không nói rõ nguồn ngoại ngữ"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.jair.org/index.php/jair/article/view/16882",
+        "tieuDe": "A Scoping Study on AI Affordances in Early Childhood Education: Mapping the Global Landscape, Identifying Research Gaps, and  Charting Future Research Directions\n\t\t\t\t\t\t\t| Journal of Artificial Intelligence Research",
+        "ngayLayVe": "2026-09-17T08:41:20.437Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Bài báo khoa học được bình duyệt (peer-reviewed) đăng trên tạp chí uy tín (JAIR), cung cấp dữ liệu tổng quan toàn cầu về AI trong giáo dục mầm non.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "thematic analysis of these studies revealed four areas of AI affordances: (1) AI as tangible and intangible tools for interactive learning and information retrieval",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://hechingerreport.org/is-early-childhood-education-ready-for-ai/",
+        "tieuDe": "Is early childhood education ready for AI? - The Hechinger Report",
+        "tacGia": "Ariel Gilreath",
+        "toChuc": "The Hechinger Report",
+        "ngayDang": "2024-04-04T05:00:00+00:00",
+        "ngayLayVe": "2026-09-17T08:41:20.438Z",
+        "loai": "bao-chi",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Nguồn báo chí giáo dục uy tín, phỏng vấn chuyên gia từ Stanford Accelerator for Learning, cung cấp ví dụ thực tế về ứng dụng AI (FIND, kính thực tế ảo).",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.ascd.org/blogs/press-start-ai-in-early-education",
+        "tieuDe": "Press Start: AI in Early Education",
+        "toChuc": "ASCD",
+        "ngayLayVe": "2026-09-17T08:41:20.439Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Blog chuyên ngành giáo dục từ tổ chức ASCD, cung cấp góc nhìn về an toàn và lo ngại của giáo viên khi triển khai AI.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "In education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Ứng dụng thực tế 1: AI hỗ trợ đánh giá tương tác giữa trẻ và người lớn (ví dụ: công cụ FIND phân tích video tương tác).",
+        "loai": "vi-du",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction.",
+            "viTri": "Đoạn 3"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Ứng dụng thực tế 2: AI hỗ trợ nhận diện cảm xúc cho trẻ có khó khăn (ví dụ: kính thông minh nhận diện cảm xúc từ khuôn mặt).",
+        "loai": "vi-du",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "the glasses that young children can wear help them detect emotions from adults or other young people they are interacting with.",
+            "viTri": "Đoạn 4"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Lo ngại 1: Vấn đề an toàn của học sinh trong không gian số, đặc biệt với lứa tuổi mầm non.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "In education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners.",
+            "viTri": "Đoạn 5"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t04",
+        "noiDung": "Lo ngại 2: Thiếu hướng dẫn rõ ràng về chính sách sử dụng AI, khiến giáo viên mầm non do dự khi triển khai.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "Without clear guidelines, early childhood and elementary educators may hesitate to explore these tools on their own or with students.",
+            "viTri": "Đoạn 2"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "AI early childhood education",
+      "AI preschool Vietnam"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789634529137",
+      "timestamp": "2026-09-17T08:42:09.137Z",
+      "phase": "research",
+      "input": {
+        "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "targetAudience": "Giáo viên mầm non",
+        "videoDuration": "4 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "A Scoping Study on AI Affordances in Early Childhood ...",
+              "url": "https://www.jair.org/index.php/jair/article/view/16882",
+              "snippet": "viết bởi JJ Chen · 2024 · Trích dẫn 54 bài viết — In the context of early childhood education (ECE), AI has afforded valuable opportunities that directly and indirectly enhance children's ...",
+              "position": 1
+            },
+            {
+              "title": "Is early childhood education ready for AI?",
+              "url": "https://hechingerreport.org/is-early-childhood-education-ready-for-ai/",
+              "snippet": "The early childhood field is in the very early stages of trying out artificial intelligence for tasks such as classroom observations.",
+              "position": 2
+            },
+            {
+              "title": "Press Start: AI in Early Education",
+              "url": "https://www.ascd.org/blogs/press-start-ai-in-early-education",
+              "snippet": "Introducing AI tools and foundational concepts at an early age can enhance digital literacy, critical thinking, and problem-solving skills. AI ...",
+              "position": 3
+            },
+            {
+              "title": "Applications of generative AI in early childhood education",
+              "url": "https://www.ejmste.com/download/applications-of-generative-ai-in-early-childhood-education-a-systematic-review-18068.pdf",
+              "snippet": "viết bởi Y Zhang · 2026 · Trích dẫn 6 bài viết — However, its applications in early childhood education (ECE) remain underexplored. This systematic review synthesizes empirical evidence on Gen AI in ECE, ...",
+              "position": 4
+            },
+            {
+              "title": "Generative AI can play a role uplifting family and ...",
+              "url": "https://theconversation.com/generative-ai-can-play-a-role-uplifting-family-and-community-in-early-childhood-education-272237",
+              "snippet": "Researchers use text and image generators to design culturally relevant educational content for young children.",
+              "position": 5
+            }
+          ],
+          "query": "AI early childhood education",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Vietnam's schools adapting mindset for AI era",
+              "url": "https://en.sggp.org.vn/vietnams-schools-adapting-mindset-for-ai-era-post121213.html",
+              "snippet": "Vietnamese schools are cautiously but proactively adopting AI, implementing it in a “spiral approach” from preschool games to ...",
+              "position": 1
+            },
+            {
+              "title": "Artificial Intelligence (AI) Course for Kids - Logiscool Vietnam",
+              "url": "https://www.logiscool.com/en-vn/blog/coding-tech/ai-course-for-kids",
+              "snippet": "Logiscool is one of the best educational institutions offering AI training for students from Grade 1 to Grade 12. With international-standard ...",
+              "position": 2
+            },
+            {
+              "title": "AI training for preschool teachers and managers - English",
+              "url": "https://news.baokhanhhoa.vn/society/202502/ai-training-for-preschool-teachers-and-managers-61d1035/",
+              "snippet": "Teachers were introduced to basic information about AI and AI applications to develop interactive learning platforms, allowing preschool ...",
+              "position": 3
+            },
+            {
+              "title": "Investigating human-AI partnership in early childhood STEM ...",
+              "url": "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+              "snippet": "viết bởi V Loi Truong · 2026 — This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese ...",
+              "position": 4
+            },
+            {
+              "title": "KidsEdu: Home",
+              "url": "https://kidsedu.vn/",
+              "snippet": "The KidsEdu AI+STEM preschool platform includes a pioneering curriculum that introduces young learners (ages 3-6) to STEM concepts, with a strong focus on ...",
+              "position": 5
+            }
+          ],
+          "query": "AI preschool Vietnam",
+          "engine": "serper"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://www.jair.org/index.php/jair/article/view/16882",
+          "content": "Article Sidebar PDF Published: Nov 26, 2024 DOI: https://doi.org/10.1613/jair.1.16882 Keywords: human-computer interaction, user interfaces Main Article Content Jennifer J. Chen Abstract Artificial intelligence (AI), manifested in the forms of technologies, systems, tools, and applications, has advanced rapidly, especially in recent years. It has permeated many aspects of human behavior and nearly all sectors of society, such as healthcare and education. In the context of early childhood education (ECE), AI has afforded valuable opportunities that directly and indirectly enhance children’s learning and development. While there are already two existing reviews of the literature on AI in ECE, they show either a lack of descriptive information concerning selected studies or inconsistencies between inclusion/exclusion criteria and selected studies, thereby raising concerns about their rigor. Representing a more methodologically rigorous effort and a significant contribution to the field of AI in ECE, this scoping study aimed to achieve three main goals: (1) “mapping” the global landscape of the current extent, range, and nature of relevant studies on the affordances of AI for use in ECE, (2) identifying potential research gaps, and (3) charting future research directions. Specifically, it addressed this overarching research question: What is the global landscape of the current state of knowledge concerning the affordances of AI for use in ECE? Specifically, the state of knowledge here refers to three aspects: (1) extent, (2) range, and (3) nature. First, regarding the extent aspect, the empirical knowledge was derived from 18 research articles in 11 countries and 16 peer-reviewed academic journals between 2005 and 2023, with 14 of these articles published in the past four years (2020–2023). Second, with respect to the range of study populations, it covered 15,081 children in early childhood (ages 2 to 8 years) across these 11 countries. Third, thematic analysis of these studies revealed four areas of AI affordances: (1) AI as tangible and intangible tools for interactive learning and information retrieval, (2) AI as technology for predicting/classifying children’s conditions, (3) AI as the object for learning by adapting to and personalizing children’s learning, and (4) AI as the subject for children's learning about it. Based on these findings, this scoping review identified three research gaps for future studies: (1) interviewing and/or surveying education stakeholders (parents, educators, policymakers) to explore the affordances of appropriate AI for use with, by, and for children bearing ethical considerations; (2) conducting group comparisons to investigate contextual factors contributing to the “AI divide” among children from different socioeconomi…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:41:20.437Z",
+          "title": "A Scoping Study on AI Affordances in Early Childhood Education: Mapping the Global Landscape, Identifying Research Gaps, and  Charting Future Research Directions\n\t\t\t\t\t\t\t| Journal of Artificial Intelligence Research",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://hechingerreport.org/is-early-childhood-education-ready-for-ai/",
+          "content": "Unlike in K-12 and higher education, artificial intelligence has yet to get a foothold in early childhood education, but experts say there are some potentially useful applications. Credit: Getty Images The Hechinger Report covers one topic: education. Sign up for our newsletters to have stories delivered to your inbox. Consider becoming a member to support our nonprofit journalism. Interest in artificial intelligence has surged among K-12 and college educators, who are looking at ways it can be used to support both students and teachers. But in the early childhood arena, those discussions are still in the beginning stages. I asked Isabelle Hau, the executive director of Stanford Accelerator for Learning, to share about the potential benefits and challenges of AI in early learning. Our conversation below is edited for length and clarity. Interest in AI has obviously surged the past couple of years in K-12, for both teachers and students. With early childhood, the use of AI may be a little less obvious. Have you noticed that trend in early childhood classrooms — are teachers interested in using AI or teaching about it? Hau: I’m observing some activity in a few areas. One is interest in novel forms of assessment, or assessment areas that have been a big pain point for early childhood teachers for a long time, because observational assessments take a long time. There are some innovations that are starting to materialize in making assessments less visible, or invisible maybe, at some point. So discussion around how to leverage, for example, computer vision or some form of voice inputs in classrooms, or some gamified approaches that are AI-based. Are there any specific ways you’re seeing AI technology emerge in early childhood classrooms? Hau: At Stanford, we have one super interesting project that is not necessarily in a classroom but could be in a classroom context. It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction. It is very expensive for humans to look at those videos and analyze the special moments in those interactions. Now, artificial intelligence is able to at least take a first pass at those interactions in a much more efficient manner. FIND is now an application for early childhood educators; it used to be mostly for parents, initially. Two of my colleagues, one in the school of medicine and one at the school of education, have partnered to build Google Glasses that children with challenges recognizing emotions can wear. And based on the advances that are happening with AI, especially in the area of image recognition, the glasses that young children can wear help them detect emotions from adults or other young people they are interacting with. Feedbac…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:41:20.438Z",
+          "title": "Is early childhood education ready for AI? - The Hechinger Report",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.ascd.org/blogs/press-start-ai-in-early-education",
+          "content": "August 13, 2025•5 min (est.)ISTE+ASCD BlogPress Start: AI in Early EducationNneka McGeeAbstractA Start for Educators A Question of Safety Generating AI Capacity Without GenAI Start Small, Start Now Introduce AI concepts in early grades with safe, age-appropriate tools and hands-on activities.Teaching with TechnologyArtificial IntelligenceCredit: Alan Mazzocco / ShutterstockAbstractA Start for Educators A Question of Safety Generating AI Capacity Without GenAI Start Small, Start Now When working with our youngest learners, every moment is a chance to press “start.” This is especially true in the world of artificial intelligence (AI) in education. So far, much of the focus on AI in education has been on middle school, high school, or college. It’s not surprising. Many AI tools are limited to users 13 years of age or older, and policies around AI use in schools are still taking shape. Without clear guidelines, early childhood and elementary educators may hesitate to explore these tools on their own or with students. At first glance, it may seem there’s no place for AI in early education. But quite the opposite is true. A Start for EducatorsIntroducing AI tools and foundational concepts at an early age can enhance digital literacy, critical thinking, and problem-solving skills. AI plays a significant role in our society, and even young learners can benefit from a deeper understanding of how the technology works and best practices for use. A gradual, age-appropriate introduction to AI can better prepare students to engage with more complex concepts as they progress through school. Given the growing popularity of AI, it’s important for educators to know different types of AI and machine learning systems currently supporting early childhood and elementary students such as: Speech recognition: Converts speech into text, helping with pronunciation practice and language development. Natural language processing (NLP): Allows for verbal interactions with programs, ranging from conversational bots to content generators. Adaptive learning systems: Personalizes learning pathways based on need and progress. This isn’t an exhaustive list, but it shows that AI already exists in learning environments in various ways. Start by identifying the types of AI systems used in your classroom, school, or district. Understanding that AI is not so new can help alleviate some of the fears associated with implementation. A gradual, age-appropriate introduction to AI can better prepare students to engage with more complex concepts as they progress through school.A Question of SafetyIn education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners. In the United States, most educators are familiar with the Fami…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:41:20.439Z",
+          "title": "Press Start: AI in Early Education",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.jair.org/index.php/jair/article/view/16882",
+          "tieuDe": "A Scoping Study on AI Affordances in Early Childhood Education: Mapping the Global Landscape, Identifying Research Gaps, and  Charting Future Research Directions\n\t\t\t\t\t\t\t| Journal of Artificial Intelligence Research",
+          "ngayLayVe": "2026-09-17T08:41:20.437Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo khoa học được bình duyệt (peer-reviewed) đăng trên tạp chí uy tín (JAIR), cung cấp dữ liệu tổng quan toàn cầu về AI trong giáo dục mầm non.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "thematic analysis of these studies revealed four areas of AI affordances: (1) AI as tangible and intangible tools for interactive learning and information retrieval",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://hechingerreport.org/is-early-childhood-education-ready-for-ai/",
+          "tieuDe": "Is early childhood education ready for AI? - The Hechinger Report",
+          "tacGia": "Ariel Gilreath",
+          "toChuc": "The Hechinger Report",
+          "ngayDang": "2024-04-04T05:00:00+00:00",
+          "ngayLayVe": "2026-09-17T08:41:20.438Z",
+          "loai": "bao-chi",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nguồn báo chí giáo dục uy tín, phỏng vấn chuyên gia từ Stanford Accelerator for Learning, cung cấp ví dụ thực tế về ứng dụng AI (FIND, kính thực tế ảo).",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.ascd.org/blogs/press-start-ai-in-early-education",
+          "tieuDe": "Press Start: AI in Early Education",
+          "toChuc": "ASCD",
+          "ngayLayVe": "2026-09-17T08:41:20.439Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog chuyên ngành giáo dục từ tổ chức ASCD, cung cấp góc nhìn về an toàn và lo ngại của giáo viên khi triển khai AI.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "In education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Ứng dụng thực tế 1: AI hỗ trợ đánh giá tương tác giữa trẻ và người lớn (ví dụ: công cụ FIND phân tích video tương tác).",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction.",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Ứng dụng thực tế 2: AI hỗ trợ nhận diện cảm xúc cho trẻ có khó khăn (ví dụ: kính thông minh nhận diện cảm xúc từ khuôn mặt).",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "the glasses that young children can wear help them detect emotions from adults or other young people they are interacting with.",
+              "viTri": "Đoạn 4"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Lo ngại 1: Vấn đề an toàn của học sinh trong không gian số, đặc biệt với lứa tuổi mầm non.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "In education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners.",
+              "viTri": "Đoạn 5"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Lo ngại 2: Thiếu hướng dẫn rõ ràng về chính sách sử dụng AI, khiến giáo viên mầm non do dự khi triển khai.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Without clear guidelines, early childhood and elementary educators may hesitate to explore these tools on their own or with students.",
+              "viTri": "Đoạn 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.jair.org/index.php/jair/article/view/16882\",\n      \"tieuDe\": \"A Scoping Study on AI Affordances in Early Childhood Education: Mapping the Global Landscape, Identifying Research Gaps, and Charting Future Research Directions\",\n      \"tacGia\": \"Jennifer J. Chen\",\n      \"toChuc\": \"Journal of Artificial Intelligence Research\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T08:41:20.437Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo khoa học được bình duyệt (peer-reviewed) đăng trên tạp chí uy tín (JAIR), cung cấp dữ liệu tổng quan toàn cầu về AI trong giáo dục mầm non.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"thematic analysis of these studies revealed four areas of AI affordances: (1) AI as tangible and intangible tools for interactive learning and information retrieval\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://hechingerreport.org/is-early-childhood-education-ready-for-ai/\",\n      \"tieuDe\": \"Is early childhood education ready for AI?\",\n      \"tacGia\": \"Ariel Gilreath\",\n      \"toChuc\": \"The Hechinger Report\",\n      \"ngayDang\": \"2024-04-04\",\n      \"ngayLayVe\": \"2026-09-17T08:41:20.438Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn báo chí giáo dục uy tín, phỏng vấn chuyên gia từ Stanford Accelerator for Learning, cung cấp ví dụ thực tế về ứng dụng AI (FIND, kính thực tế ảo).\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.ascd.org/blogs/press-start-ai-in-early-education\",\n      \"tieuDe\": \"Press Start: AI in Early Education\",\n      \"tacGia\": \"Nneka McGee\",\n      \"toChuc\": \"ASCD\",\n      \"ngayDang\": \"2025-08-13\",\n      \"ngayLayVe\": \"2026-09-17T08:41:20.439Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog chuyên ngành giáo dục từ tổ chức ASCD, cung cấp góc nhìn về an toàn và lo ngại của giáo viên khi triển khai AI.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"In education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Ứng dụng thực tế 1: AI hỗ trợ đánh giá tương tác giữa trẻ và người lớn (ví dụ: công cụ FIND phân tích video tương tác).\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction.\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Ứng dụng thực tế 2: AI hỗ trợ nhận diện cảm xúc cho trẻ có khó khăn (ví dụ: kính thông minh nhận diện cảm xúc từ khuôn mặt).\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"the glasses that young children can wear help them detect emotions from adults or other young people they are interacting with.\",\n          \"viTri\": \"Đoạn 4\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Lo ngại 1: Vấn đề an toàn của học sinh trong không gian số, đặc biệt với lứa tuổi mầm non.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"In education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners.\",\n          \"viTri\": \"Đoạn 5\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Lo ngại 2: Thiếu hướng dẫn rõ ràng về chính sách sử dụng AI, khiến giáo viên mầm non do dự khi triển khai.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Without clear guidelines, early childhood and elementary educators may hesitate to explore these tools on their own or with students.\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 76668
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+      "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Giáo viên mầm non",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789634568107",
+      "timestamp": "2026-09-17T08:42:48.107Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "targetAudience": "Giáo viên mầm non",
+        "videoDuration": "4 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.jair.org/index.php/jair/article/view/16882",
+          "tieuDe": "A Scoping Study on AI Affordances in Early Childhood Education: Mapping the Global Landscape, Identifying Research Gaps, and  Charting Future Research Directions\n\t\t\t\t\t\t\t| Journal of Artificial Intelligence Research",
+          "ngayLayVe": "2026-09-17T08:41:20.437Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo khoa học được bình duyệt (peer-reviewed) đăng trên tạp chí uy tín (JAIR), cung cấp dữ liệu tổng quan toàn cầu về AI trong giáo dục mầm non.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "thematic analysis of these studies revealed four areas of AI affordances: (1) AI as tangible and intangible tools for interactive learning and information retrieval",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://hechingerreport.org/is-early-childhood-education-ready-for-ai/",
+          "tieuDe": "Is early childhood education ready for AI? - The Hechinger Report",
+          "tacGia": "Ariel Gilreath",
+          "toChuc": "The Hechinger Report",
+          "ngayDang": "2024-04-04T05:00:00+00:00",
+          "ngayLayVe": "2026-09-17T08:41:20.438Z",
+          "loai": "bao-chi",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nguồn báo chí giáo dục uy tín, phỏng vấn chuyên gia từ Stanford Accelerator for Learning, cung cấp ví dụ thực tế về ứng dụng AI (FIND, kính thực tế ảo).",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.ascd.org/blogs/press-start-ai-in-early-education",
+          "tieuDe": "Press Start: AI in Early Education",
+          "toChuc": "ASCD",
+          "ngayLayVe": "2026-09-17T08:41:20.439Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog chuyên ngành giáo dục từ tổ chức ASCD, cung cấp góc nhìn về an toàn và lo ngại của giáo viên khi triển khai AI.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "In education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Ứng dụng thực tế 1: AI hỗ trợ đánh giá tương tác giữa trẻ và người lớn (ví dụ: công cụ FIND phân tích video tương tác).",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "It’s a tool my colleague, Dr. Philip Fisher, has developed called FIND that looks at child-adult interactions and takes video of that interaction.",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Ứng dụng thực tế 2: AI hỗ trợ nhận diện cảm xúc cho trẻ có khó khăn (ví dụ: kính thông minh nhận diện cảm xúc từ khuôn mặt).",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "the glasses that young children can wear help them detect emotions from adults or other young people they are interacting with.",
+              "viTri": "Đoạn 4"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Lo ngại 1: Vấn đề an toàn của học sinh trong không gian số, đặc biệt với lứa tuổi mầm non.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "In education, the safety of students is a primary concern in physical and digital spaces. This is especially true for our youngest learners.",
+              "viTri": "Đoạn 5"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Lo ngại 2: Thiếu hướng dẫn rõ ràng về chính sách sử dụng AI, khiến giáo viên mầm non do dự khi triển khai.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Without clear guidelines, early childhood and elementary educators may hesitate to explore these tools on their own or with students.",
+              "viTri": "Đoạn 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Giáo viên mầm non",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=false, chữ màn hình=21, mã=[])",
+      "isDemo": false,
+      "durationMs": 38952
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=false, chữ màn hình=21, mã=[])"
+  }
+}

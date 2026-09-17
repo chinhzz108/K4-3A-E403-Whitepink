@@ -1,0 +1,360 @@
+{
+  "case": {
+    "id": "N05",
+    "class": "thuong",
+    "input": {
+      "topic": "Bản quyền và nội dung do AI tạo ra",
+      "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+      "targetAudience": "Sinh viên làm đồ án",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Tìm nguồn pháp lý về bản quyền AI. Nêu rõ khác biệt theo quốc gia.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #8; không phải chatlog",
+    "passCriteria": "Nguồn thật và đoạn trích khớp; nêu phạm vi pháp lý theo quốc gia và thời điểm, không suy đoán có hay không quy định Việt Nam",
+    "failCriteria": "Khẳng định chắc chắn về pháp lý khi chưa có; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://guides.library.utoronto.ca/image-gen-ai/citations",
+        "tieuDe": "Copyright + Citations - Artificial Intelligence for Image Research - Research Guides at University of Toronto",
+        "ngayLayVe": "2026-09-17T08:22:22.154Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Official university library guide, recent update (Aug 2025) and detailed citation formats.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn đã được cập nhật lần cuối vào Aug 2025, hơn 1 năm so với ngày truy cập.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "MLA Style: MLA Guide to citing generative AI Following the guidelines in section 1.7 of the MLA Handbook, the format is as follows: Title of source (describe what was generated) AI tool Version Publisher Date created Location (general URL) For example: Fabric print of farm animals, Midjourney ver 5.2, Midjourney Inc., 18/07/2023, https://www.midjourney.com/home",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://guides.lib.uci.edu/research_ai/copyright",
+        "tieuDe": "Copyright, Citation & AI - AI in Research - Research Guides at University of California Irvine",
+        "ngayLayVe": "2026-09-17T08:22:22.156Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "University guide but không có ngày cập nhật rõ ràng; nội dung chung về đạo đức và quyền sở hữu trí tuệ.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không có thông tin ngày đăng, có thể đã cũ hơn một năm.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Note Use of AI is fraught with complications involving accuracy, bias, academic integrity, and intellectual property and may not be appropriate in all academic settings. This guide is meant more for academic researchers looking to utilize AI tools in their research. Students are strongly advised to consult with their instructor before using AI-generated content in their research or coursework.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.copyright.gov/ai/",
+        "tieuDe": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+        "ngayLayVe": "2026-09-17T08:22:22.157Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "AI không chọn nguồn này",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok",
+        "tacGia": "U.S. Copyright Office",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [],
+    "searchQueries": [
+      "AI copyright citation",
+      "AI content fair use"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789633386973",
+      "timestamp": "2026-09-17T08:23:06.973Z",
+      "phase": "research",
+      "input": {
+        "topic": "Bản quyền và nội dung do AI tạo ra",
+        "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+        "targetAudience": "Sinh viên làm đồ án",
+        "videoDuration": "4 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Copyright + Citations - Artificial Intelligence for Image Research",
+              "url": "https://guides.library.utoronto.ca/image-gen-ai/citations",
+              "snippet": "MLA, and Chicago Manual of Style have released guidelines on citing generative AI in your work. Do note that these citation styles may be ...",
+              "position": 1
+            },
+            {
+              "title": "Copyright, Citation & AI - AI in Research",
+              "url": "https://guides.lib.uci.edu/research_ai/copyright",
+              "snippet": "How to Cite · Cite it in the text and references of your work · Describe your use as part of your methodology · Include an appendix with ...",
+              "position": 2
+            },
+            {
+              "title": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+              "url": "https://www.copyright.gov/ai/",
+              "snippet": "Copyright and Artificial Intelligence analyzes copyright law and policy issues raised by artificial intelligence (AI). This Report is being issued in ...",
+              "position": 3
+            },
+            {
+              "title": "Citing generative AI in APA Style: Part 3—Is AI “allowed” in ...",
+              "url": "https://apastyle.apa.org/blog/cite-generative-ai-allowed",
+              "snippet": "viết bởi T McAdoo · Trích dẫn 2 bài viết — And of course, it is possible to cite AI tools without using them, such as if you are writing a paper about AI. Because there are many issues to ...",
+              "position": 4
+            },
+            {
+              "title": "Citing and referencing guidelines for AI tools",
+              "url": "https://rmit.libguides.com/referencing_AI_tools/referencing",
+              "snippet": "AI-generated images don't need to include a footnote. Include the image in your work with a figure number and caption stating that the image was ...",
+              "position": 5
+            }
+          ],
+          "query": "AI copyright citation",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Two Courts Rule On Generative AI and Fair Use",
+              "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+              "snippet": "Gen-AI does raise a host of other serious concerns about fair labor practices and misinformation, but copyright wasn't designed to address those ...",
+              "position": 1
+            },
+            {
+              "title": "Fair Use and the Origin of AI Training",
+              "url": "https://houstonlawreview.org/article/147422-fair-use-and-the-origin-of-ai-training",
+              "snippet": "viết bởi E Lee · 2025 · Trích dẫn 28 bài viết — Under Warhol, courts can find that uses in AI training serve a fair purpose but uses in AI outputs that are “regurgitated” or substantially ...",
+              "position": 2
+            },
+            {
+              "title": "Fair Use and AI Training Data - Research Guides",
+              "url": "https://lib.guides.umd.edu/ai-scholarly-communications/fair-use",
+              "snippet": "This guide is intended to highlight the ways in which AI can be integrated into various aspects of the research and publishing process and ...",
+              "position": 3
+            },
+            {
+              "title": "Federal judge rules copyrighted books are fair use for AI ...",
+              "url": "https://www.reddit.com/r/gamedev/comments/1lk7qx2/federal_judge_rules_copyrighted_books_are_fair/",
+              "snippet": "The lawsuit that was just ruled on is about AI companies using copyrighted material to train their AI. The judge ruled that is fair use. The ...",
+              "position": 4
+            },
+            {
+              "title": "Does the Use of Copyrighted Works to Train AI Qualify as a ...",
+              "url": "https://copyrightalliance.org/copyrighted-works-training-ai-fair-use/",
+              "snippet": "As discussed, fair use cases involving generative AI training on copyrighted works will be highly fact dependent. While some AI-related uses may ...",
+              "position": 5
+            }
+          ],
+          "query": "AI content fair use",
+          "engine": "serper"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://guides.library.utoronto.ca/image-gen-ai/citations",
+          "content": "Skip to Main Content Search this Guide Search Artificial Intelligence for Image Research A guide on how to use Generative AI for image generation, editing, concept creation and development. Visit Generative AI Tools and Copyright Considerations for more information from the University of Toronto Libraries. Citing Generative AI MLA, and Chicago Manual of Style have released guidelines on citing generative AI in your work. Do note that these citation styles may be subject to change in the future. MLA Style: MLA Guide to citing generative AI Following the guidelines in section 1.7 of the MLA Handbook, the format is as follows: Title of source (describe what was generated) AI tool Version Publisher Date created Location (general URL) For example: Fabric print of farm animals, Midjourney ver 5.2, Midjourney Inc., 18/07/2023, https://www.midjourney.com/home Chicago-Style Chicago-Style recommends including the following information: The creator of the content (e.g. DALL-E 2, Deep Dream Generator) The text prompt you used to generate the content in quotation marks (If you included the prompt in the body of your text, you are not required to repeat it in the footnote) The organization or developer that created the tool (e.g. OpenAI, Stability AI) The date the content was generated BIBLIOGRAPHY FORMAT Name of AI Tool. Response to \"Text prompt used.\" AI-generated image. Developer's Name, Date generated. BIBLIOGRAPHY EXAMPLE Midjourney v 5.2. Response to \"Cat with a mustache in the style of Lord of the Rings\" AI-generated image. Midjourney Inc, July 18th, 2023. FOOTNOTE FORM 6. Image generated by DALL·E 2, June 9, 2023, Open AI. 7. Midjourney v 5.2. Response to \"Cat with a mustache in the style of Lord of the Rings\", July 18th, 2023, Midjourney Inc. 8. Deep Dream Generator, image generated in response to “A cluttered kitchen rendered as an impressionist painting,” June 10, 2023, Aifnet Ltd. IN TEXT EXAMPLE \"Cat with a mustache in the style of Lord of the Rings\", image generated by Midjourney Inc's Midjourney v 5.2, June 18th, 2023. “A messy kitchen in the style of Unreal Engine 5” image generated by Stability AI's Stable Diffusion, June 10, 2023. from: https://camosun.libguides.com/Chicago-17thEd/images ChatGPT For citations regarding ChatGPT and Large Language Models (LLMs), refer to: https://guides.library.utoronto.ca/c.php?g=251103&p=5296636 << Previous: Art, Artists, and Copyright Next: Links to Image Generation AI Models >> Last Updated: Aug 21, 2025 9:39 AM URL: https://guides.library.utoronto.ca/image-gen-ai Print Page Login to LibApps Report a problem Subjects: ArchitectureArtComputer ScienceImagesLandscape Architecture Tags: AIArtificial IntelligenceConcept CreationImage GenerationMidjourneyPrompt EngineeringPromptsStable Diffusion chat loading...",
+          "fetchedAt": "2026-09-17T08:22:22.154Z",
+          "title": "Copyright + Citations - Artificial Intelligence for Image Research - Research Guides at University of Toronto",
+          "status": "ok",
+          "contentLength": 2794,
+          "promptInjection": false
+        },
+        {
+          "url": "https://guides.lib.uci.edu/research_ai/copyright",
+          "content": "Skip to Main Content MENU Locations Langson Library Science Library Grunigen Medical Library Law Library Connect From Off-Campus Hours Accessibility Accounts Giving Locations Langson Library Science Library Grunigen Medical Library Law Library Gateway Study Center Connect From Off-Campus Hours Accessibility Accounts Giving Search the text of this guide Search x Email this link Recipient's email: Send AI in Research This guide offers advice on AI-powered tools and functionality created for or used in academic research. Email this link: Email this link Home Assessing AI Tools Research Tools Scholarly Communication & AI Copyright, Citation & AI Ethics Systematic Review Writing Code Working with Data Working with Literature Toggle Dropdown Mapping Literature Searching Literature Summarizing Literature Data, Publishing and Digital Scholarship DPDS fosters the use of digital content and transformative technology in scholarship and academic activities. We provide consultative and technical support for a wide range of tools and platforms. We work with the campus community to publish, promote, and preserve the digital products of research through consultation, teaching, and systems administration. Our areas of expertise include data curation, research data management, computational research, digital humanities, and scholarly communication. Note Use of AI is fraught with complications involving accuracy, bias, academic integrity, and intellectual property and may not be appropriate in all academic settings. This guide is meant more for academic researchers looking to utilize AI tools in their research. Students are strongly advised to consult with their instructor before using AI-generated content in their research or coursework. For information on Generative AI take a look at the Generative AI and Information Literacy guide. AI & UC Irvine-Licensed Resources In most cases you cannot use AI with Licensed Resources due to copyright and licensing agreements between the library and vendor that govern these resources. For example, the International Association of Scientific, Technical & Medical Publishers (STM) was quite clear in their position on copyright and AI: \"The collection of our members' content and its use in AI training without authorization, compensation, or attribution, amounts to infringement.\" For more general information about use of UC Irvine-Licensed Resources see: Conditions of Use and Licensing Restrictions for Electronic Resources. Copyright Copyright and Artificial Intelligence – U.S. Copyright Office \"The Copyright Office has launched an initiative to examine the copyright law and policy issues raised by artificial intelligence (AI) technology, including the scope of copyright in works generated using AI tools and the use of copyrighted mate…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:22:22.156Z",
+          "title": "Copyright, Citation & AI - AI in Research - Research Guides at University of California Irvine",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.copyright.gov/ai/",
+          "content": "Copyright and Artificial Intelligence Since launching an initiative in early 2023, the Copyright Office has been examining the copyright law and policy issues raised by artificial intelligence (AI), including the scope of copyright in AI-generated works and the use of copyrighted materials in AI training. After hosting public listening sessions and webinars, the Office published a notice of inquiry in the Federal Register in August 2023, which received over 10,000 comments by December 2023. The Office is issuing a Report in several Parts analyzing the issues, which will be published as they are completed and linked below. Report on Copyright and Artificial Intelligence Copyright and Artificial Intelligence analyzes copyright law and policy issues raised by artificial intelligence (AI). This Report is being issued in several Parts. Part 1 was published on July 31, 2024, and addresses the topic of digital replicas. Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI. On May 9, 2025, the Office released a pre-publication version of Part 3 in response to congressional inquiries and expressions of interest from stakeholders. A final version of Part 3 will be published in the future, without any substantive changes expected in the analysis or conclusions. Part 1: Digital Replicas Part 2: Copyrightability Part 3: Generative AI Training (Pre-publication) Announcements January 29, 2025 - Copyright Office Releases Part 2 of Artificial Intelligence Report July 31, 2024 - Copyright Office Releases Part 1 of Artificial Intelligence Report, Recommends Federal Digital Replica Law November 15, 2023 - U.S. Copyright Office Extends Deadline for Reply Comments on Artificial Intelligence Notice of Inquiry August 30, 2023 - Copyright Office Issues Notice of Inquiry on Copyright and Artificial Intelligence March 16, 2023 - Copyright Office Launches New Artificial Intelligence Initiative Past Events July 26, 2023 – International Copyright Issues and Artificial Intelligence (recording available) June 28, 2023 – Registration Guidance for Works Containing AI-Generated Content (recording available) May 31, 2023 – Music and Sound Recordings Listening Session (recording available) May 17, 2023 – Audiovisual Works Listening Session (recording available) May 2, 2023 – Visual Arts Listening Session (recording available) April 19, 2023 – Literary Works, Including Software Listening Session (recording available) Fall 2021 – Copyright Law and Machine Learning for AI: Where Are We and Where Are We Going? Winter 2020 – Copyright in the Age of Artificial Intelligence Blog Posts Winter 2025 – Inside the Copyright Office's Report, Copyright and Artificial Intelligence, Part 2: Copyrightability Summer 2024 – Inside the Copyrigh…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:22:22.157Z",
+          "title": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://guides.library.utoronto.ca/image-gen-ai/citations",
+          "tieuDe": "Copyright + Citations - Artificial Intelligence for Image Research - Research Guides at University of Toronto",
+          "ngayLayVe": "2026-09-17T08:22:22.154Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Official university library guide, recent update (Aug 2025) and detailed citation formats.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã được cập nhật lần cuối vào Aug 2025, hơn 1 năm so với ngày truy cập.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "MLA Style: MLA Guide to citing generative AI Following the guidelines in section 1.7 of the MLA Handbook, the format is as follows: Title of source (describe what was generated) AI tool Version Publisher Date created Location (general URL) For example: Fabric print of farm animals, Midjourney ver 5.2, Midjourney Inc., 18/07/2023, https://www.midjourney.com/home",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://guides.lib.uci.edu/research_ai/copyright",
+          "tieuDe": "Copyright, Citation & AI - AI in Research - Research Guides at University of California Irvine",
+          "ngayLayVe": "2026-09-17T08:22:22.156Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "University guide but không có ngày cập nhật rõ ràng; nội dung chung về đạo đức và quyền sở hữu trí tuệ.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không có thông tin ngày đăng, có thể đã cũ hơn một năm.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Note Use of AI is fraught with complications involving accuracy, bias, academic integrity, and intellectual property and may not be appropriate in all academic settings. This guide is meant more for academic researchers looking to utilize AI tools in their research. Students are strongly advised to consult with their instructor before using AI-generated content in their research or coursework.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.copyright.gov/ai/",
+          "tieuDe": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+          "ngayLayVe": "2026-09-17T08:22:22.157Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "AI không chọn nguồn này",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok",
+          "tacGia": "U.S. Copyright Office",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "sourcesRejected": [
+        "n03"
+      ],
+      "thongTin": [],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://guides.library.utoronto.ca/image-gen-ai/citations\",\n      \"tieuDe\": \"Copyright + Citations - Artificial Intelligence for Image Research - Research Guides at University of Toronto\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"University of Toronto Libraries\",\n      \"ngayDang\": null,\n      \"ngayLayVe\": \"2026-09-17T08:22:22.154Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Official university library guide, recent update (Aug 2025) and detailed citation formats.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn đã được cập nhật lần cuối vào Aug 2025, hơn 1 năm so với ngày truy cập.\"],\n      \"doanTrich\": \"MLA Style: MLA Guide to citing generative AI Following the guidelines in section 1.7 of the MLA Handbook, the format is as follows: Title of source (describe what was generated) AI tool Version Publisher Date created Location (general URL) For example: Fabric print of farm animals, Midjourney ver 5.2, Midjourney Inc., 18/07/2023, https://www.midjourney.com/home\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://guides.lib.uci.edu/research_ai/copyright\",\n      \"tieuDe\": \"Copyright, Citation & AI - AI in Research - Research Guides at University of California Irvine\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"University of California Irvine Libraries\",\n      \"ngayDang\": null,\n      \"ngayLayVe\": \"2026-09-17T08:22:22.156Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"University guide but không có ngày cập nhật rõ ràng; nội dung chung về đạo đức và quyền sở hữu trí tuệ.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Không có thông tin ngày đăng, có thể đã cũ hơn một năm.\"],\n      \"doanTrich\": \"Note Use of AI is fraught with complications involving accuracy, bias, academic integrity, and intellectual property and may not be appropriate in all academic settings. This guide is meant more for academic researchers looking to utilize AI tools in their research. Students are strongly advised to consult with their instructor before using AI-generated content in their research or coursework.\"\n    }]}",
+      "isDemo": false,
+      "durationMs": 59775
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+      "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Sinh viên làm đồ án",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789633426768",
+      "timestamp": "2026-09-17T08:23:46.768Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Bản quyền và nội dung do AI tạo ra",
+        "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+        "targetAudience": "Sinh viên làm đồ án",
+        "videoDuration": "4 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://guides.library.utoronto.ca/image-gen-ai/citations",
+          "tieuDe": "Copyright + Citations - Artificial Intelligence for Image Research - Research Guides at University of Toronto",
+          "ngayLayVe": "2026-09-17T08:22:22.154Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Official university library guide, recent update (Aug 2025) and detailed citation formats.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã được cập nhật lần cuối vào Aug 2025, hơn 1 năm so với ngày truy cập.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "MLA Style: MLA Guide to citing generative AI Following the guidelines in section 1.7 of the MLA Handbook, the format is as follows: Title of source (describe what was generated) AI tool Version Publisher Date created Location (general URL) For example: Fabric print of farm animals, Midjourney ver 5.2, Midjourney Inc., 18/07/2023, https://www.midjourney.com/home",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://guides.lib.uci.edu/research_ai/copyright",
+          "tieuDe": "Copyright, Citation & AI - AI in Research - Research Guides at University of California Irvine",
+          "ngayLayVe": "2026-09-17T08:22:22.156Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "University guide but không có ngày cập nhật rõ ràng; nội dung chung về đạo đức và quyền sở hữu trí tuệ.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không có thông tin ngày đăng, có thể đã cũ hơn một năm.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Note Use of AI is fraught with complications involving accuracy, bias, academic integrity, and intellectual property and may not be appropriate in all academic settings. This guide is meant more for academic researchers looking to utilize AI tools in their research. Students are strongly advised to consult with their instructor before using AI-generated content in their research or coursework.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "thongTin": [],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+        "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Sinh viên làm đồ án",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=17, mã=[\"n01\"])",
+      "isDemo": false,
+      "durationMs": 39776
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=17, mã=[\"n01\"])"
+  }
+}

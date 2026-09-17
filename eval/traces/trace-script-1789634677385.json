@@ -1,0 +1,190 @@
+{
+  "id": "trace-script-1789634677385",
+  "timestamp": "2026-09-17T08:44:37.385Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+    "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+    "targetAudience": "Sinh viên luật",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.rajahtannasia.com/viewpoints/expanded-asean-guide-on-ai-governance-and-ethics/",
+      "tieuDe": "Expanded ASEAN Guide on AI Governance and Ethics | Rajah & Tann Asia",
+      "toChuc": "Rajah & Tann Asia",
+      "ngayLayVe": "2026-09-17T08:43:12.855Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu chính thức của một công ty luật khu vực, trích dẫn trực tiếp từ hướng dẫn ASEAN về AI, có nội dung chi tiết và được cập nhật năm 2025.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã được công bố hơn một năm trước ngày truy cập, cần xác nhận lại tính cập nhật.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The rapid development of artificial intelligence (“AI“) shows no sign of slowing down, and with its increased proliferation, governments have been seeking to establish national frameworks to ensure the controlled and secure development and deployment of AI.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.lowyinstitute.org/the-interpreter/which-way-asean-s-ai-governance-approach",
+      "tieuDe": "Which way for ASEAN’s AI governance approach? | Lowy Institute",
+      "toChuc": "The Lowy Institute",
+      "ngayDang": "2026-09-09",
+      "ngayLayVe": "2026-09-17T08:43:12.856Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nguồn từ một viện nghiên cứu uy tín nhưng đoạn trích chỉ là mô tả ngắn gọn, không cung cấp thông tin chi tiết về nội dung đạo đức AI.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "|ASEAN, explained.A visitor tries AI-enabled glasses during the China-ASEAN Expo at Nanning International Convention and Exhibition Centre, 18 September 2025 (Yu Xiangquan/VCG via Getty Images)Which way for ASEAN’s AI governance approach?Three possible futures as other emerging regions watch on.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Guiding principles for trustworthy AI in ASEAN include Transparency and Explainability, Fairness and Equity, Security and Safety, Robustness and Reliability, Human-centricity, Privacy and Data Governance, Accountability and Integrity.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The rapid development of artificial intelligence (“AI“) shows no sign of slowing down, and with its increased proliferation, governments have been seeking to establish national frameworks to ensure the controlled and secure development and deployment of AI.",
+          "viTri": "phần giới thiệu"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+    "mucTieu": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+    "thoiLuong": "năm phút",
+    "nguoiHoc": "Sinh viên luật",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn sinh viên luật, chào mừng đến với buổi học về đạo đức trí tuệ nhân tạo trong bối cảnh Đông Nam Á.",
+        "chuTrenManHinh": "Chào mừng buổi học",
+        "yDoHinh": "Bản đồ ASEAN",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Sự phát triển nhanh chóng của trí tuệ nhân tạo, viết tắt là AI, đang không có dấu hiệu chậm lại, theo báo cáo mới nhất.",
+        "chuTrenManHinh": "AI đang phát triển mạnh",
+        "yDoHinh": "Bản đồ ASEAN",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Với sự lan rộng ngày càng tăng, các chính phủ ASEAN đang tìm cách xây dựng khung pháp lý quốc gia để kiểm soát việc phát triển và triển khai trí tuệ nhân tạo, viết tắt là AI.",
+        "chuTrenManHinh": "Khung pháp lý AI ASEAN",
+        "yDoHinh": "Bản đồ ASEAN",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn có nghĩ rằng việc thiết lập các khung pháp lý này sẽ giúp bảo đảm tính an toàn và đạo đức trong việc sử dụng trí tuệ nhân tạo, viết tắt là AI, ở khu vực Đông Nam Á không?",
+        "chuTrenManHinh": "AI và đạo đức ASEAN?",
+        "yDoHinh": "Bản đồ ASEAN",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Chúng ta sẽ cùng khám phá cách các quốc gia ASEAN đang nỗ lực tạo ra các quy chuẩn đạo đức cho trí tuệ nhân tạo, viết tắt là AI, nhằm bảo vệ lợi ích xã hội.",
+        "chuTrenManHinh": "Tiêu chuẩn đạo đức AI",
+        "yDoHinh": "Bản đồ ASEAN",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn sinh viên luật, chào mừng đến với buổi học về đạo đức trí tuệ nhân tạo trong bối cảnh Đông Nam Á.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Sự phát triển nhanh chóng của trí tuệ nhân tạo, viết tắt là AI, đang không có dấu hiệu chậm lại, theo báo cáo mới nhất.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The rapid development of artificial intelligence (“AI“) shows no sign of slowing down, and with its increased proliferation, governments have been seeking to establish national frameworks to ensure the controlled and secure development and deployment of AI."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Với sự lan rộng ngày càng tăng, các chính phủ ASEAN đang tìm cách xây dựng khung pháp lý quốc gia để kiểm soát việc phát triển và triển khai trí tuệ nhân tạo, viết tắt là AI.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The rapid development of artificial intelligence (“AI“) shows no sign of slowing down, and with its increased proliferation, governments have been seeking to establish national frameworks to ensure the controlled and secure development and deployment of AI."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn có nghĩ rằng việc thiết lập các khung pháp lý này sẽ giúp bảo đảm tính an toàn và đạo đức trong việc sử dụng trí tuệ nhân tạo, viết tắt là AI, ở khu vực Đông Nam Á không?",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The rapid development of artificial intelligence (“AI“) shows no sign of slowing down, and with its increased proliferation, governments have been seeking to establish national frameworks to ensure the controlled and secure development and deployment of AI."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Chúng ta sẽ cùng khám phá cách các quốc gia ASEAN đang nỗ lực tạo ra các quy chuẩn đạo đức cho trí tuệ nhân tạo, viết tắt là AI, nhằm bảo vệ lợi ích xã hội.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The rapid development of artificial intelligence (“AI“) shows no sign of slowing down, and with its increased proliferation, governments have been seeking to establish national frameworks to ensure the controlled and secure development and deployment of AI."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Đạo đức AI trong bối cảnh văn hóa Đông Nam Á\",\n  \"mucTieu\":\"So sánh được quan điểm đạo đức AI giữa các nước ASEAN\",\n  \"thoiLuong\":\"năm phút\",\n  \"nguoiHoc\":\"Sinh viên luật\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Xin chào các bạn sinh viên luật, chào mừng đến với buổi học về đạo đức trí tuệ nhân tạo trong bối cảnh Đông Nam Á.\",\n      \"chuTrenManHinh\":\"Chào mừng buổi học\",\n      \"yDoHinh\":\"Bản đồ ASEAN\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Sự phát triển nhanh chóng của trí tuệ nhân tạo, viết tắt là AI, đang không có dấu hiệu chậm lại, theo báo cáo mới nhất.\",\n      \"chuTrenManHinh\":\"AI đang phát triển mạnh\",\n      \"yDoHinh\":\"Bản đồ ASEAN\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Với sự lan rộng ngày càng tăng, các chính phủ ASEAN đang tìm cách xây dựng khung pháp lý quốc gia để kiểm soát việc phát triển và triển khai trí tuệ nhân tạo, viết tắt là AI.\",\n      \"chuTrenManHinh\":\"Khung pháp lý AI ASEAN\",\n      \"yDoHinh\":\"Bản đồ ASEAN\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Bạn có nghĩ rằng việc thiết lập các khung pháp lý này sẽ giúp bảo đảm tính an toàn và đạo đức trong việc sử dụng trí tuệ nhân tạo, viết tắt là AI, ở khu vực Đông Nam Á không?\",\n      \"chuTrenManHinh\":\"AI và đạo đức ASEAN?\",\n      \"yDoHinh\":\"Bản đồ ASEAN\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Chúng ta sẽ cùng khám phá cách các quốc gia ASEAN đang nỗ lực tạo ra các quy chuẩn đạo đức cho trí tuệ nhân tạo, viết tắt là AI, nhằm bảo vệ lợi ích xã hội.\",\n      \"chuTrenManHinh\":\"Tiêu chuẩn đạo đức AI\",\n      \"yDoHinh\":\"Bản đồ ASEAN\",\n      \"nguon\":[\"t01\"]\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 39902
+}

@@ -1,0 +1,171 @@
+{
+  "id": "trace-script-1789633138077",
+  "timestamp": "2026-09-17T08:18:58.078Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+      "tieuDe": "What are AI Hallucinations? Signs, Risks, & Prevention | AI21",
+      "toChuc": "AI21",
+      "ngayLayVe": "2026-09-17T08:17:37.826Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết từ blog công ty AI21, không có tác giả và ngày đăng rõ ràng; nội dung mang tính mô tả chung và chưa được kiểm chứng học thuật, nên đánh giá mức trung‑bình.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Các dấu hiệu cho thấy câu trả lời AI cần được kiểm chứng: 1) Nội dung xuất hiện tự tin và thuyết phục nhưng không có căn cứ thực tế; 2) Trích dẫn, nguồn hoặc số liệu không tồn tại hoặc không thể xác minh; 3) Thông tin sai lệch hoặc vô nghĩa được trình bày như sự thật.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models.",
+          "viTri": "đoạn trích"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn đã đến với buổi học hôm nay!",
+        "chuTrenManHinh": "Chào mừng các bạn!",
+        "yDoHinh": "Hình chào mở đầu",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Nghiên cứu cho thấy tỷ lệ hallucination của AI dao động từ sáu mươi chín phần trăm đến tám mươi tám phần trăm, nhưng con số này chưa được kiểm chứng.",
+        "chuTrenManHinh": "AI tự tin nhưng sai?",
+        "yDoHinh": "Biểu đồ tỷ lệ hallucination",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Hiện tượng này đang trở thành thách thức ngày càng lớn cho các đội ngũ doanh nghiệp khi khám phá AI sinh tạo.",
+        "chuTrenManHinh": "Thách thức cho doanh nghiệp",
+        "yDoHinh": "Hình minh hoạ môi trường doanh nghiệp",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Những lỗi này có thể đưa vào thông tin sai lệch hoặc gây hiểu lầm, nhưng thường được trình bày một cách thuyết phục.",
+        "chuTrenManHinh": "Thông tin sai lệch, thuyết phục",
+        "yDoHinh": "Ví dụ câu trả lời AI",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, chúng ta cần nhận ra ba dấu hiệu để kiểm chứng mỗi câu trả lời của AI.",
+        "chuTrenManHinh": "Ba dấu hiệu cần kiểm chứng",
+        "yDoHinh": "Biểu tượng kiểm chứng",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn đã đến với buổi học hôm nay!",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Nghiên cứu cho thấy tỷ lệ hallucination của AI dao động từ sáu mươi chín phần trăm đến tám mươi tám phần trăm, nhưng con số này chưa được kiểm chứng.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Hiện tượng này đang trở thành thách thức ngày càng lớn cho các đội ngũ doanh nghiệp khi khám phá AI sinh tạo.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Những lỗi này có thể đưa vào thông tin sai lệch hoặc gây hiểu lầm, nhưng thường được trình bày một cách thuyết phục.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, chúng ta cần nhận ra ba dấu hiệu để kiểm chứng mỗi câu trả lời của AI.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing. In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các bạn đã đến với buổi học hôm nay!\",\n      \"chuTrenManHinh\": \"Chào mừng các bạn!\",\n      \"yDoHinh\": \"Hình chào mở đầu\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Nghiên cứu cho thấy tỷ lệ hallucination của AI dao động từ sáu mươi chín phần trăm đến tám mươi tám phần trăm, nhưng con số này chưa được kiểm chứng.\",\n      \"chuTrenManHinh\": \"AI tự tin nhưng sai?\",\n      \"yDoHinh\": \"Biểu đồ tỷ lệ hallucination\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hiện tượng này đang trở thành thách thức ngày càng lớn cho các đội ngũ doanh nghiệp khi khám phá AI sinh tạo.\",\n      \"chuTrenManHinh\": \"Thách thức cho doanh nghiệp\",\n      \"yDoHinh\": \"Hình minh hoạ môi trường doanh nghiệp\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Những lỗi này có thể đưa vào thông tin sai lệch hoặc gây hiểu lầm, nhưng thường được trình bày một cách thuyết phục.\",\n      \"chuTrenManHinh\": \"Thông tin sai lệch, thuyết phục\",\n      \"yDoHinh\": \"Ví dụ câu trả lời AI\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, chúng ta cần nhận ra ba dấu hiệu để kiểm chứng mỗi câu trả lời của AI.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Biểu tượng kiểm chứng\",\n      \"nguon\": [\"t01\"]\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 39072
+}

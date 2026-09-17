@@ -1,0 +1,67 @@
+{
+  "id": "trace-research-1789634102291",
+  "timestamp": "2026-09-17T08:35:02.291Z",
+  "phase": "research",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "fixtureMode": true,
+    "fixtureUrls": [
+      "http://localhost:3000/fixtures/old-source.html"
+    ]
+  },
+  "searchResults": [
+    {
+      "results": [],
+      "query": "fixture-only"
+    },
+    {
+      "results": [],
+      "query": "fixture-only"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "http://localhost:3000/fixtures/old-source.html",
+      "content": "Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+      "fetchedAt": "2026-09-17T08:34:23.483Z",
+      "title": "Fixture tự dựng — bảng giá cũ",
+      "status": "ok",
+      "contentLength": 207,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/old-source.html",
+      "tieuDe": "Fixture tự dựng — bảng giá cũ",
+      "tacGia": "Nhóm kiểm thử ScriptScout (hư cấu)",
+      "ngayDang": "2023-01-01",
+      "ngayLayVe": "2026-09-17T08:34:23.483Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Nguồn là fixture tự dựng, không phải dữ liệu thực tế, tác giả hư cấu, không có tổ chức xác thực",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Nguồn không đáng tin, dữ liệu không thực tế",
+      "canhBao": [
+        "Dữ liệu cũ (2023) và không phản ánh giá hiện tại",
+        "Nguồn là mô phỏng, không phải dữ liệu thực tế",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [],
+  "sourcesRejected": [
+    "n01"
+  ],
+  "thongTin": [],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/old-source.html\",\n      \"tieuDe\": \"Fixture tự dựng — bảng giá cũ\",\n      \"tacGia\": \"Nhóm kiểm thử ScriptScout (hư cấu)\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2023-01-01\",\n      \"ngayLayVe\": \"2026-09-17T08:34:23.483Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nguồn là fixture tự dựng, không phải dữ liệu thực tế, tác giả hư cấu, không có tổ chức xác thực\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn không đáng tin, dữ liệu không thực tế\",\n      \"canhBao\": [\n        \"Dữ liệu cũ (2023) và không phản ánh giá hiện tại\",\n        \"Nguồn là mô phỏng, không phải dữ liệu thực tế\"\n      ],\n      \"doanTrich\": \"Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.\"\n    }\n  ],\n  \"thongTin\": []\n}",
+  "isDemo": false,
+  "durationMs": 38808
+}

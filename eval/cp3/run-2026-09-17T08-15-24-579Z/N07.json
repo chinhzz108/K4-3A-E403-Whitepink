@@ -1,0 +1,571 @@
+{
+  "case": {
+    "id": "N07",
+    "class": "thuong",
+    "input": {
+      "topic": "Fine-tuning so với prompt engineering",
+      "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+      "targetAudience": "Quản lý sản phẩm",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "So sánh hai phương pháp với ưu nhược điểm. Không quá kỹ thuật.",
+    "origin": "tự tạo — quyết định kỹ thuật phổ biến; không phải chatlog",
+    "passCriteria": "≥2 nguồn; so sánh rõ; phù hợp đối tượng quản lý",
+    "failCriteria": "Quá kỹ thuật; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+        "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+        "tacGia": "Ivan Belcic, Cole Stryker",
+        "ngayDang": "2025-02-07",
+        "ngayLayVe": "2026-09-17T08:26:14.371Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Official IBM publication with identified authors and recent date, reputable organization.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+        "tieuDe": "Reddit",
+        "ngayLayVe": "2026-09-17T08:26:14.373Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n03",
+        "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+        "tieuDe": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+        "ngayLayVe": "2026-09-17T08:26:14.374Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Prompt engineering optimizes input prompts to steer a model toward better outputs.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Prompt engineering optimizes input prompts to steer a model toward better outputs.",
+            "viTri": "..."
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.",
+            "viTri": "..."
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "fine-tuning vs prompt engineering",
+      "when to fine-tune model"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 1,
+    "trace": {
+      "id": "trace-research-1789633613997",
+      "timestamp": "2026-09-17T08:26:53.997Z",
+      "phase": "research",
+      "input": {
+        "topic": "Fine-tuning so với prompt engineering",
+        "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "RAG vs fine-tuning vs. prompt engineering",
+              "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+              "snippet": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase ...",
+              "position": 1
+            },
+            {
+              "title": "When is it best to use prompt engineering vs fine-tuning?",
+              "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+              "snippet": "As somebody who has been experimenting with GPT (both closed-source and open-source), I have been doing both of prompt engineering and fine-tuning. But ...",
+              "position": 2
+            },
+            {
+              "title": "Prompt Engineering vs. Fine-Tuning—Key Considerations ...",
+              "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+              "snippet": "Unlike fine-tuning, prompt engineering does not directly adjust the model's internal parameters. Instead, the process focuses on crafting and refining the input ...",
+              "position": 3
+            },
+            {
+              "title": "Prompt engineering vs fine-tuning: Understanding the pros ...",
+              "url": "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+              "snippet": "In short, while prompt engineering offers a quicker, cost-effective solution, fine-tuning provides deeper customization at the expense of resources and ...",
+              "position": 4
+            },
+            {
+              "title": "Prompt Engineering vs Fine-Tuning: Best LLM Choice",
+              "url": "https://factory.fpt.ai/ai-insights/prompt-engineering-vs-fine-tuning",
+              "snippet": "Prompt engineering changes the input given to the model, while fine-tuning changes how the model behaves after additional training. In practical ...",
+              "position": 5
+            }
+          ],
+          "query": "fine-tuning vs prompt engineering",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "When to Fine-Tune LLMs (and When Not To)",
+              "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+              "snippet": "TL;DR: Fine-tuning can solve specific, measurable problems: inconsistent outputs, bloated inference costs, prompts that are too complex, and ...",
+              "position": 1
+            },
+            {
+              "title": "To fine-tune or not to fine-tune - Meta AI",
+              "url": "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+              "snippet": "Increasing accuracy and handling edge cases: Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through ...",
+              "position": 2
+            },
+            {
+              "title": "Fine-tuning LLMs: overview and guide",
+              "url": "https://cloud.google.com/use-cases/fine-tuning-ai-models",
+              "snippet": "Fine-tuning is the process of optimizing pre-trained AI models for specific tasks. Learn use cases, and how to fine-tune LLMs with Google Cloud.",
+              "position": 3
+            },
+            {
+              "title": "Model fine-tuning concepts - AI",
+              "url": "https://learn.microsoft.com/en-us/windows/ai/fine-tuning",
+              "snippet": "When to fine-tune. Fine-tuning works well when you have a small amount of data and want to improve your model's performance. By starting with a ...",
+              "position": 4
+            },
+            {
+              "title": "A Practical Guide to LLM Fine Tuning",
+              "url": "https://www.databricks.com/blog/llm-fine-tuning",
+              "snippet": "Fine tuning is the better choice when the target task requires the model to learn a new linguistic style, follow domain-specific conventions, or produce outputs ...",
+              "position": 5
+            }
+          ],
+          "query": "when to fine-tune model",
+          "engine": "serper"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "content": "RAG vs. fine-tuning vs. prompt engineering Authors Ivan Belcic Staff writer Cole Stryker Staff Editor, AI Models IBM Think RAG vs. fine-tuning vs. prompt engineering Prompt engineering, fine-tuning and retrieval augmented generation (RAG) are three optimization methods that enterprises can use to get more value out of large language models (LLMs). All three optimize model behavior, but which one to use depends on the target use case and available resources. Generative AI models are trained on massive pools of data, much of which is gleaned from the internet. Artificial intelligence developers do not typically have access to niche data, such as an enterprise’s proprietary and internal data. When organizations want to apply large language models (LLMs) to for specific needs, they need to tweak the way that the gen AI model works to produce the desired outputs and behavior. Prompt engineering, RAG and fine-tuning all help optimize an LLM’s outputs for target use cases. With them, data scientists can get better downstream performance, greater domain-specific accuracy and output that meets relevant formatting, language or regulatory requirements. Think beyond the prompts and get the full context Stay ahead of the latest in industry news, AI tools and emerging trends in prompt engineering with the Think Newsletter. Plus, get access to new explainers, tutorials and expert insights—delivered straight to your inbox, twice weekly. Thank you! You are subscribed. What’s the difference between RAG, fine-tuning and prompt engineering? The difference between prompt engineering, RAG and fine-tuning covers four primary areas of distinction: Approach Goals Resource requirements Applications Approach Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy. Goals RAG, prompt engineering and fine-tuning have the same broad outcome: enhancing a model’s performance to maximize value for the enterprise that uses it. But more specifically, prompt engineering should lead a model to deliver the results the user wants. RAG aims to guide a model toward giving more relevant and accurate outputs. Meanwhile, a fine-tuned model is retrained on a focused set of external data to improve performance in specific use cases. The three methods are not mutually exclusive and are often combined for optimal outcomes. Resource requirements Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute. RAG r…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:26:14.371Z",
+          "title": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "content": "",
+          "fetchedAt": "2026-09-17T08:26:14.373Z",
+          "title": "Reddit",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "content": "",
+          "fetchedAt": "2026-09-17T08:26:14.374Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "tacGia": "Ivan Belcic, Cole Stryker",
+          "ngayDang": "2025-02-07",
+          "ngayLayVe": "2026-09-17T08:26:14.371Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Official IBM publication with identified authors and recent date, reputable organization.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "tieuDe": "Reddit",
+          "ngayLayVe": "2026-09-17T08:26:14.373Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n03",
+          "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "tieuDe": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "ngayLayVe": "2026-09-17T08:26:14.374Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "sourcesRejected": [
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Prompt engineering optimizes input prompts to steer a model toward better outputs.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Prompt engineering optimizes input prompts to steer a model toward better outputs.",
+              "viTri": "..."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.",
+              "viTri": "..."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering\",\"tieuDe\":\"RAG vs fine-tuning vs. prompt engineering | IBM\",\"tacGia\":\"Ivan Belcic, Cole Stryker\",\"toChuc\":\"IBM\",\"ngayDang\":\"2025-02-07\",\"ngayLayVe\":\"2026-09-17T08:26:14.371Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Official IBM publication with identified authors and recent date, reputable organization.\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Prompt engineering optimizes input prompts to steer a model toward better outputs.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"Prompt engineering optimizes input prompts to steer a model toward better outputs.\",\"viTri\":\"...\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t02\",\"noiDung\":\"Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.\",\"viTri\":\"...\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}",
+      "isDemo": false,
+      "durationMs": 77005
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Fine-tuning so với prompt engineering",
+      "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+      "thoiLuong": "bốn phút",
+      "nguoiHoc": "Quản lý sản phẩm",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Xin chào các bạn, hôm nay chúng ta sẽ khám phá cách lựa chọn giữa kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, và tinh chỉnh mô hình.",
+          "chuTrenManHinh": "Chào mừng đến video",
+          "yDoHinh": "Biểu tượng chào",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Kỹ thuật gợi ý lệnh tối ưu hoá các câu hỏi đầu vào để hướng mô hình tạo ra kết quả tốt hơn.",
+          "chuTrenManHinh": "Kỹ thuật gợi ý lệnh",
+          "yDoHinh": "Biểu tượng prompt",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Tinh chỉnh mô hình đào tạo lại với dữ liệu chuyên ngành giúp nâng cao hiệu suất trong các nhiệm vụ tiếp theo.",
+          "chuTrenManHinh": "Tinh chỉnh mô hình",
+          "yDoHinh": "Biểu tượng fine‑tune",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Vậy khi nào chúng ta nên chỉ cải thiện câu hỏi, và khi nào cần đào tạo lại mô hình?",
+          "chuTrenManHinh": "Khi nào dùng gì?",
+          "yDoHinh": "Biểu tượng câu hỏi",
+          "nguon": []
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Hãy cùng tìm hiểu để đưa ra quyết định phù hợp cho sản phẩm của bạn.",
+          "chuTrenManHinh": "Đưa ra quyết định",
+          "yDoHinh": "Biểu tượng quyết định",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789633653548",
+      "timestamp": "2026-09-17T08:27:33.548Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Fine-tuning so với prompt engineering",
+        "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "tacGia": "Ivan Belcic, Cole Stryker",
+          "ngayDang": "2025-02-07",
+          "ngayLayVe": "2026-09-17T08:26:14.371Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Official IBM publication with identified authors and recent date, reputable organization.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Prompt engineering optimizes input prompts to steer a model toward better outputs.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Prompt engineering optimizes input prompts to steer a model toward better outputs.",
+              "viTri": "..."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks.",
+              "viTri": "..."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Fine-tuning so với prompt engineering",
+        "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "thoiLuong": "bốn phút",
+        "nguoiHoc": "Quản lý sản phẩm",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Xin chào các bạn, hôm nay chúng ta sẽ khám phá cách lựa chọn giữa kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, và tinh chỉnh mô hình.",
+            "chuTrenManHinh": "Chào mừng đến video",
+            "yDoHinh": "Biểu tượng chào",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Kỹ thuật gợi ý lệnh tối ưu hoá các câu hỏi đầu vào để hướng mô hình tạo ra kết quả tốt hơn.",
+            "chuTrenManHinh": "Kỹ thuật gợi ý lệnh",
+            "yDoHinh": "Biểu tượng prompt",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Tinh chỉnh mô hình đào tạo lại với dữ liệu chuyên ngành giúp nâng cao hiệu suất trong các nhiệm vụ tiếp theo.",
+            "chuTrenManHinh": "Tinh chỉnh mô hình",
+            "yDoHinh": "Biểu tượng fine‑tune",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Vậy khi nào chúng ta nên chỉ cải thiện câu hỏi, và khi nào cần đào tạo lại mô hình?",
+            "chuTrenManHinh": "Khi nào dùng gì?",
+            "yDoHinh": "Biểu tượng câu hỏi",
+            "nguon": []
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Hãy cùng tìm hiểu để đưa ra quyết định phù hợp cho sản phẩm của bạn.",
+            "chuTrenManHinh": "Đưa ra quyết định",
+            "yDoHinh": "Biểu tượng quyết định",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Xin chào các bạn, hôm nay chúng ta sẽ khám phá cách lựa chọn giữa kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, và tinh chỉnh mô hình.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Kỹ thuật gợi ý lệnh tối ưu hoá các câu hỏi đầu vào để hướng mô hình tạo ra kết quả tốt hơn.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Prompt engineering optimizes input prompts to steer a model toward better outputs."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Tinh chỉnh mô hình đào tạo lại với dữ liệu chuyên ngành giúp nâng cao hiệu suất trong các nhiệm vụ tiếp theo.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Vậy khi nào chúng ta nên chỉ cải thiện câu hỏi, và khi nào cần đào tạo lại mô hình?",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Hãy cùng tìm hiểu để đưa ra quyết định phù hợp cho sản phẩm của bạn.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Fine-tuning so với prompt engineering\",\"mucTieu\":\"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Quản lý sản phẩm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn, hôm nay chúng ta sẽ khám phá cách lựa chọn giữa kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, và tinh chỉnh mô hình.\",\"chuTrenManHinh\":\"Chào mừng đến video\",\"yDoHinh\":\"Biểu tượng chào\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Kỹ thuật gợi ý lệnh tối ưu hoá các câu hỏi đầu vào để hướng mô hình tạo ra kết quả tốt hơn.\",\"chuTrenManHinh\":\"Kỹ thuật gợi ý lệnh\",\"yDoHinh\":\"Biểu tượng prompt\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Tinh chỉnh mô hình đào tạo lại với dữ liệu chuyên ngành giúp nâng cao hiệu suất trong các nhiệm vụ tiếp theo.\",\"chuTrenManHinh\":\"Tinh chỉnh mô hình\",\"yDoHinh\":\"Biểu tượng fine‑tune\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy khi nào chúng ta nên chỉ cải thiện câu hỏi, và khi nào cần đào tạo lại mô hình?\",\"chuTrenManHinh\":\"Khi nào dùng gì?\",\"yDoHinh\":\"Biểu tượng câu hỏi\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng tìm hiểu để đưa ra quyết định phù hợp cho sản phẩm của bạn.\",\"chuTrenManHinh\":\"Đưa ra quyết định\",\"yDoHinh\":\"Biểu tượng quyết định\",\"nguon\":[]}]}",
+      "isDemo": false,
+      "durationMs": 39530
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

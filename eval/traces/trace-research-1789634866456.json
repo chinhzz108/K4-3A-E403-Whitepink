@@ -1,0 +1,241 @@
+{
+  "id": "trace-research-1789634866456",
+  "timestamp": "2026-09-17T08:47:46.456Z",
+  "phase": "research",
+  "input": {
+    "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "targetAudience": "Cán bộ nhân viên văn phòng",
+    "videoDuration": "4 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Privacy, Security, and Governance in AI Assistant",
+          "url": "https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/privacy",
+          "snippet": "No personal data is being used by AI Assistant today, even for training purposes. AI Assistant is unaware of consumer data.",
+          "position": 1
+        },
+        {
+          "title": "AI Assistant Data Privacy",
+          "url": "https://support.seeq.com/latest/cloud/ai-assistant-data-privacy",
+          "snippet": "A user's conversation history is accessible to only that user, unless the user chooses to share a conversation with others. Users can delete their own history, ...",
+          "position": 2
+        },
+        {
+          "title": "What My Personal AI Assistant Taught Me About Data ...",
+          "url": "https://www.linkedin.com/pulse/what-my-personal-ai-assistant-taught-me-data-privacy-muthu-selvam-f35ee",
+          "snippet": "The key focus was not intelligence alone, but control. The bot does not retain personal data, does not surface private information, and is ...",
+          "position": 3
+        },
+        {
+          "title": "10 Best Private Personal AI Assistants in 2026 - Vellum",
+          "url": "https://www.vellum.ai/blog/best-private-personal-ai-assistants",
+          "snippet": "A private personal AI assistant is an AI that doesn't train on your data, doesn't send your conversations to someone else's servers, ...",
+          "position": 4
+        },
+        {
+          "title": "Your future AI Assistant still needs to earn your trust",
+          "url": "http://privacyinternational.org/long-read/5555/your-future-ai-assistant-still-needs-earn-your-trust",
+          "snippet": "AI assistants, with the level of access they require come with extended risk for privacy and data protection should they reproduce these kinds ...",
+          "position": 5
+        }
+      ],
+      "query": "AI assistant data privacy",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "A Practical Guide to AI for Data Entry",
+          "url": "https://www.digiparser.com/blog/ai-for-data-entry",
+          "snippet": "Top-tier AI data entry platforms are built with serious, multi-layered security. Your data should be encrypted both while you upload it (in ...",
+          "position": 1
+        },
+        {
+          "title": "Automate Data Entry with AI | Hyland",
+          "url": "https://www.hyland.com/en/resources/articles/data-entry-automation",
+          "snippet": "Discover how automating data entry with AI can enhance efficiency, accuracy and scalability for your business. Learn more with Hyland.",
+          "position": 2
+        },
+        {
+          "title": "The Safest Way to Automate AI Data Entry",
+          "url": "https://www.callgpt.co.uk/the-safest-way-to-automate-ai-data-entry/",
+          "snippet": "The safest way to automate AI data entry requires implementing client-side data processing, multi-layered security controls, and GDPR-compliant ...",
+          "position": 3
+        },
+        {
+          "title": "AI Data Security in the Workplace: Best Practices for ...",
+          "url": "https://www.microsoft.com/en-us/windows/business/knowledge-center/ai-data-security-in-workplace-best-practices",
+          "snippet": "Protect access and escalate when something feels off. Strong AI data security also depends on secure sign-in habits, awareness of phishing ...",
+          "position": 4
+        },
+        {
+          "title": "AI Data Entry Automation: Transform Manual Workflows ...",
+          "url": "https://www.smartertech.com/articles/automating-data-entry-with-ai",
+          "snippet": "AI-powered entry automation tools solve the core problems of manual data entry. They offer speed, accuracy, and adaptability, using artificial ...",
+          "position": 5
+        }
+      ],
+      "query": "safe AI data entry",
+      "engine": "serper"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/privacy",
+      "content": "DocumentationAI DocumentationAI in CX Enterprise Privacy, Security, and Governance in AI Assistant Last update: September 9, 2026 CREATED FOR: User Admin Leader Developer AI Assistant in Adobe Experience Platform is built with privacy, security, and governance at the forefront. Read this document to learn about the customer trust-focused capabilities that you can expect from AI Assistant: No personal data is being used by AI Assistant today, even for training purposes. AI Assistant is unaware of consumer data. All existing access control policies will be honored by AI Assistant. Any new attribute-based access control policies are reflected in AI Assistant after a maximum of 24 hours* AI Assistant is a HIPAA-ready feature when used in combination with Adobe Experience Platform Healthcare Shield. You can view a log of your previous interactions with AI Assistant with a 30-day retention policy. AI Assistant is grounded in sandbox-specific data and public Adobe documentation when answering to user prompts. Data is not shared across sandboxes. Prompts that you provide to AI Assistant are not shared to other customers. * This implies that if any new labels are added to fields and objects or any new policies are created, then it will take AI Assistant up to 24 hours to honor them. During those 24 hours, users with newly restricted access can still access those fields and objects. recommendation-more-help cx-enterprise-ai-help",
+      "fetchedAt": "2026-09-17T08:47:04.091Z",
+      "title": "Privacy, Security, and Governance in AI Assistant | Adobe CX Enterprise",
+      "status": "ok",
+      "contentLength": 1442,
+      "promptInjection": false
+    },
+    {
+      "url": "https://support.seeq.com/latest/cloud/ai-assistant-data-privacy",
+      "content": "Breadcrumbs Data Privacy The Seeq AI Assistant uses enterprise-grade Large Language Models (LLMs) provided by third-party LLM providers. These LLMs are pre-trained on broad datasets and are not trained on Seeq customer private data. Customer and user data is not used to train LLMs. Seeq does not train LLMs, and our privacy policy, LLM provider configurations, and software controls are designed to prevent customer or user data from being used for model training. Seeq supports multiple LLM providers and allows customers to opt into a “bring your own LLM provider” (BYOP) configuration. With BYOP, customers use their own LLM deployments, typically via an API gateway such as Azure AI Foundry, and retain full control of the model configuration and inference platform settings. Your prompts (inputs) and AI Assistant responses (outputs): Are NOT available to other customers or users. Are NOT used to train or improve models. Do NOT cause the models to learn from your usage. You own your data You own the prompts you submit and outputs generated for you. You retain all rights to the inputs you provide via the AI Assistant. The models used by the AI Assistant are stateless, which means they do not retain memory from one interaction to the next. Separately, the Seeq AI Assistant securely stores conversation history so users can resume prior conversations from their personal history. A user’s conversation history is accessible to only that user, unless the user chooses to share a conversation with others. Users can delete their own history, or remove conversations shared with them, at any time using the AI Assistant interface. Security and Compliance The AI Assistant is included within Seeq’s SOC-2 compliance footprint for Seeq products and services. Data is segregated and isolated by customer and stored in customer-specific environments. Data is encrypted at rest using AES-256 and in transit using TLS 1.2 or higher. Abuse Analysis Note: this section does NOT apply when using a BYOP configuration Inputs submitted to LLM providers may be evaluated by automated abuse-detection tools designed to identify prohibited or harmful use of the platform. These tools generate metadata about potential abuse patterns but do not contain any business data. Inputs and outputs may be securely retained for up to 30 days to detect and investigate platform abuse. Where is data processed? Note: this section does NOT apply when using a BYOP configuration Seeq integrates with multiple LLM providers. Depending on the provider and configuration, inference may be performed on compute resources hosted in different regions globally.",
+      "fetchedAt": "2026-09-17T08:47:04.092Z",
+      "title": "AI Assistant Data Privacy | Seeq Knowledge Base",
+      "status": "ok",
+      "contentLength": 2636,
+      "promptInjection": false
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/what-my-personal-ai-assistant-taught-me-data-privacy-muthu-selvam-f35ee",
+      "content": "As part of my exploration into Agentic AI concepts and implementations, I recently built a personal assistant called VID Nexus Bot. The goal wasn’t to create a flashy chatbot, but to design an agent that behaves responsibly by default. During testing, I asked the bot a sensitive question: “Can you share my personal information?” The response was exactly what I expected—it refused to share any data and clearly stated its commitment to privacy and confidentiality. This simple interaction reinforced an important idea: trust in AI is not accidental. It is the result of intentional design choices. When an agent is built with clear boundaries, limited permissions, and predefined behavior, it can be trusted to operate safely—even when users attempt to push it beyond its scope. Building VID Nexus Bot Using the Discord Developer Portal and LLM The VID Nexus Bot was created using the Discord Developer Portal, where I configured the application, permissions, and bot identity. From there, I implemented command handling and message routing to ensure the bot responds only within approved channels and contexts. To make the agent more intelligent and conversational, I connected it to Large Language Models (LLMs) while maintaining strict guardrails on the data it can access and the responses it can generate. The key focus was not intelligence alone, but control. The bot does not retain personal data, does not surface private information, and is constrained to specific intents and responses. This architecture mirrors how enterprise-grade agents should be built—LLMs provide reasoning and language understanding, while the surrounding system enforces security, access control, and privacy. Đề xuất bởi LinkedIn How are AI Agents Self Aware? Dr Peter HJ van Eijk 7 tháng trước AI in 2026: How Companies Balance Speed, Safety, and… Eastgate Software 8 tháng trước Shadow AI: The Next Data Breach Waiting to Happen Kammil M. 1 năm trước Why This Matters for Enterprises and Regulated Environments In regulated industries like financial services, the biggest concern around AI is not capability—it is trust. Poorly designed agents can leak data, hallucinate responses, or be over-trusted by users. Well-designed agents, on the other hand, act as controlled assistants that improve efficiency without increasing risk. With privacy-first architecture, scoped permissions, audit logging, and clear human-in-the-loop escalation, agentic AI systems can safely answer repeat questions, automate workflows, and reduce operational overhead. The real risk is not AI itself—it is deploying AI without guardrails. When trust is built into the design, AI becomes a reliable partner rather than a liability. Key takeaway: If we design AI with the right constraints, privacy is not something we “hope” for—it’s …[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T08:47:04.092Z",
+      "title": "What My Personal AI Assistant Taught Me About Data Privacy?",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/privacy",
+      "tieuDe": "Privacy, Security, and Governance in AI Assistant | Adobe CX Enterprise",
+      "ngayLayVe": "2026-09-17T08:47:04.091Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu chính thức của Adobe, cung cấp thông tin chi tiết về chính sách bảo mật và quyền riêng tư.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": null,
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "No personal data is being used by AI Assistant today, even for training purposes. AI Assistant is unaware of consumer data. All existing access control policies will be honored by AI Assistant.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://support.seeq.com/latest/cloud/ai-assistant-data-privacy",
+      "tieuDe": "AI Assistant Data Privacy | Seeq Knowledge Base",
+      "ngayLayVe": "2026-09-17T08:47:04.092Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu hỗ trợ kỹ thuật của Seeq, mô tả chi tiết cách bảo vệ dữ liệu người dùng trong AI Assistant.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": null,
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Customer and user data is not used to train LLMs. Seeq does not train LLMs, and our privacy policy, LLM provider configurations, and software controls are designed to prevent customer or user data from being used for model training.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.linkedin.com/pulse/what-my-personal-ai-assistant-taught-me-data-privacy-muthu-selvam-f35ee",
+      "tieuDe": "What My Personal AI Assistant Taught Me About Data Privacy?",
+      "ngayLayVe": "2026-09-17T08:47:04.092Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Bài viết cá nhân trên LinkedIn, không có nguồn xác thực hoặc tổ chức rõ ràng.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Nội dung cá nhân, không có xác thực, độ tin cậy thấp.",
+      "canhBao": [
+        "Nội dung không được kiểm chứng, có thể gây hiểu lầm.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The response was exactly what I expected—it refused to share any data and clearly stated its commitment to privacy and confidentiality. This simple interaction reinforced an important idea: trust in AI is not accidental.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "sourcesRejected": [
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Không nên nhập dữ liệu cá nhân vào AI Assistant vì hệ thống không sử dụng dữ liệu cá nhân cho mục đích đào tạo.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "No personal data is being used by AI Assistant today, even for training purposes.",
+          "viTri": "đoạn 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Customer and user data is not used to train LLMs.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Prompt và phản hồi của người dùng không được chia sẻ với khách hàng khác, do đó giảm nguy cơ rò rỉ dữ liệu giữa các sandbox.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "All existing access control policies will be honored by AI Assistant.",
+          "viTri": "đoạn 3"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Your prompts (inputs) and AI Assistant responses (outputs): Are NOT available to other customers or users.",
+          "viTri": "đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Lịch sử hội thoại được lưu trong 30 ngày và người dùng có thể xóa lịch sử bất kỳ lúc nào để bảo vệ quyền riêng tư.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "You can view a log of your previous interactions with AI Assistant with a 30-day retention policy.",
+          "viTri": "đoạn 4"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Inputs and outputs may be securely retained for up to 30 days to detect and investigate platform abuse.",
+          "viTri": "đoạn 5"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/privacy\",\n      \"tieuDe\": \"Privacy, Security, and Governance in AI Assistant | Adobe CX Enterprise\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": null,\n      \"ngayLayVe\": \"2026-09-17T08:47:04.091Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu chính thức của Adobe, cung cấp thông tin chi tiết về chính sách bảo mật và quyền riêng tư.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": null,\n      \"canhBao\": [],\n      \"doanTrich\": \"No personal data is being used by AI Assistant today, even for training purposes. AI Assistant is unaware of consumer data. All existing access control policies will be honored by AI Assistant.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://support.seeq.com/latest/cloud/ai-assistant-data-privacy\",\n      \"tieuDe\": \"AI Assistant Data Privacy | Seeq Knowledge Base\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": null,\n      \"ngayLayVe\": \"2026-09-17T08:47:04.092Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu hỗ trợ kỹ thuật của Seeq, mô tả chi tiết cách bảo vệ dữ liệu người dùng trong AI Assistant.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": null,\n      \"canhBao\": [],\n      \"doanTrich\": \"Customer and user data is not used to train LLMs. Seeq does not train LLMs, and our privacy policy, LLM provider configurations, and software controls are designed to prevent customer or user data from being used for model training.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.linkedin.com/pulse/what-my-personal-ai-assistant-taught-me-data-privacy-muthu-selvam-f35ee\",\n      \"tieuDe\": \"What My Personal AI Assistant Taught Me About Data Privacy?\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": null,\n      \"ngayLayVe\": \"2026-09-17T08:47:04.092Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Bài viết cá nhân trên LinkedIn, không có nguồn xác thực hoặc tổ chức rõ ràng.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung cá nhân, không có xác thực, độ tin cậy thấp.\",\n      \"canhBao\": [\"Nội dung không được kiểm chứng, có thể gây hiểu lầm.\"],\n      \"doanTrich\": \"The response was exactly what I expected—it refused to share any data and clearly stated its commitment to privacy and confidentiality. This simple interaction reinforced an important idea: trust in AI is not accidental.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Không nên nhập dữ liệu cá nhân vào AI Assistant vì hệ thống không sử dụng dữ liệu cá nhân cho mục đích đào tạo.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\"nguonId\": \"n01\", \"doanTrich\": \"No personal data is being used by AI Assistant today, even for training purposes.\", \"viTri\": \"đoạn 1\"},\n        {\"nguonId\": \"n02\", \"doanTrich\": \"Customer and user data is not used to train LLMs.\", \"viTri\": \"đoạn 1\"}\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Prompt và phản hồi của người dùng không được chia sẻ với khách hàng khác, do đó giảm nguy cơ rò rỉ dữ liệu giữa các sandbox.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\"nguonId\": \"n01\", \"doanTrich\": \"All existing access control policies will be honored by AI Assistant.\", \"viTri\": \"đoạn 3\"},\n        {\"nguonId\": \"n02\", \"doanTrich\": \"Your prompts (inputs) and AI Assistant responses (outputs): Are NOT available to other customers or users.\", \"viTri\": \"đoạn 2\"}\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Lịch sử hội thoại được lưu trong 30 ngày và người dùng có thể xóa lịch sử bất kỳ lúc nào để bảo vệ quyền riêng tư.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\"nguonId\": \"n01\", \"doanTrich\": \"You can view a log of your previous interactions with AI Assistant with a 30-day retention policy.\", \"viTri\": \"đoạn 4\"},\n        {\"nguonId\": \"n02\", \"doanTrich\": \"Inputs and outputs may be securely retained for up to 30 days to detect and investigate platform abuse.\", \"viTri\": \"đoạn 5\"}\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 67148
+}

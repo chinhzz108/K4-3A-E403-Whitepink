@@ -1,0 +1,523 @@
+{
+  "case": {
+    "id": "N04",
+    "class": "thuong",
+    "input": {
+      "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+      "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+      "targetAudience": "Sinh viên công nghệ thông tin",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Nguồn về embeddings, semantic search. Kịch bản giải thích rõ ràng.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #5; không phải chatlog",
+    "passCriteria": "≥2 nguồn kỹ thuật; giải thích embedding bằng ví dụ; dẫn nguồn",
+    "failCriteria": "Bịa nguồn; không có ví dụ; viết như báo cáo thay vì văn nói"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/",
+        "tieuDe": "Build Semantic Search with LLM Embeddings - MachineLearningMastery.com",
+        "tacGia": "Iván Palomares Carrascosa",
+        "toChuc": "MachineLearningMastery.com",
+        "ngayDang": "2026-03-02T13:37:01+00:00",
+        "ngayLayVe": "2026-09-17T08:20:46.927Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Blog chuyên ngành AI có tác giả rõ ràng và nội dung cập nhật, nhưng không phải tài liệu học thuật được bình duyệt.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [],
+        "doanTrich": "Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://medium.com/@toimrank/understanding-vector-embeddings-semantic-search-and-its-implementation-d51e76c09a80",
+        "tieuDe": "https://medium.com/@toimrank/understanding-vector-embeddings-semantic-search-and-its-implementation-d51e76c09a80",
+        "ngayLayVe": "2026-09-17T08:20:46.926Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n03",
+        "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+        "tieuDe": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+        "ngayLayVe": "2026-09-17T08:20:46.928Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Content-Type không phải HTML: text/markdown; charset=UTF-8",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Semantic search focuses on meaning rather than exact wording; embeddings encode semantic information so that sentences with similar meaning produce similar vectors, allowing the system to retrieve near‑synonymous sentences even when the words differ.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.",
+            "viTri": "paragraph 2"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "semantic search embeddings",
+      "text embedding similarity"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 1,
+    "trace": {
+      "id": "trace-research-1789633287108",
+      "timestamp": "2026-09-17T08:21:27.108Z",
+      "phase": "research",
+      "input": {
+        "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+        "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+        "targetAudience": "Sinh viên công nghệ thông tin",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Understanding Vector Embeddings, Semantic Search and ...",
+              "url": "https://medium.com/@toimrank/understanding-vector-embeddings-semantic-search-and-its-implementation-d51e76c09a80",
+              "snippet": "A vector embedding converts data — such as text, images, or audio — into a numerical representation (a high-dimensional vector, e.g., a 1,256- ...",
+              "position": 1
+            },
+            {
+              "title": "Build Semantic Search with LLM Embeddings",
+              "url": "https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/",
+              "snippet": "In this article, you will learn how to build a simple semantic search engine using sentence embeddings and nearest neighbors.",
+              "position": 2
+            },
+            {
+              "title": "Text embedding and semantic search | Elastic Docs",
+              "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+              "snippet": "It enables you to generate vector representations of text and perform vector similarity search on the generated vectors. The model that is used in the example ...",
+              "position": 3
+            },
+            {
+              "title": "How to choose the best embedding model for semantic ...",
+              "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+              "snippet": "Semantic embeddings capture the meaning and relationships between words, which is helpful for tasks like document classification, recommendation ...",
+              "position": 4
+            },
+            {
+              "title": "Semantic search | Supabase Docs",
+              "url": "https://supabase.com/docs/guides/ai/semantic-search",
+              "snippet": "Semantic search uses an intermediate representation called an “embedding vector” to link database records with search queries. A vector, in the context of ...",
+              "position": 5
+            }
+          ],
+          "query": "semantic search embeddings",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Embedding Similarity Explained: How to Measure Text ...",
+              "url": "https://medium.com/thinking-sand/embedding-similarity-explained-how-to-measure-text-semantics-2932a0d899c9",
+              "snippet": "Embedding similarity is the backbone of modern AI applications that understand meaning rather than just matching words. By representing text ...",
+              "position": 1
+            },
+            {
+              "title": "What is Sentence Similarity?",
+              "url": "https://huggingface.co/tasks/sentence-similarity",
+              "snippet": "Sentence Similarity is the task of determining how similar two texts are. Sentence similarity models convert input texts into vectors (embeddings) that ...",
+              "position": 2
+            },
+            {
+              "title": "[2502.14862] Interpretable Text Embeddings and ...",
+              "url": "https://arxiv.org/abs/2502.14862",
+              "snippet": "viết bởi J Opitz · 2025 · Trích dẫn 19 bài viết — In this work, we provide a structured overview of methods specializing in inherently interpretable text embeddings and text similarity ...",
+              "position": 3
+            },
+            {
+              "title": "Ultimate Guide To Text Similarity With Python",
+              "url": "https://www.newscatcherapi.com/blog-posts/ultimate-guide-to-text-similarity-with-python",
+              "snippet": "Learn the different similarity measures and text embedding techniques. Play around with code examples and develop a general intuition.",
+              "position": 4
+            },
+            {
+              "title": "Models: Embedding vs Similarity vs Search Models - API",
+              "url": "https://community.openai.com/t/models-embedding-vs-similarity-vs-search-models/291265",
+              "snippet": "Similarity models are specifically designed for finding the similarity between two pieces of text. They are typically trained on a dataset of ...",
+              "position": 5
+            }
+          ],
+          "query": "text embedding similarity",
+          "engine": "serper"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://medium.com/@toimrank/understanding-vector-embeddings-semantic-search-and-its-implementation-d51e76c09a80",
+          "content": "",
+          "fetchedAt": "2026-09-17T08:20:46.926Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/",
+          "content": "By Iván Palomares Carrascosa on March 3, 2026 in Language Models 12 Share Post Share In this article, you will learn how to build a simple semantic search engine using sentence embeddings and nearest neighbors. Topics we will cover include: Understanding the limitations of keyword-based search. Generating text embeddings with a sentence transformer model. Implementing a nearest-neighbor semantic search pipeline in Python. Let’s get started. Build Semantic Search with LLM Embeddings Image by Editor Introduction Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant. However, this classical approach is notoriously rigid, as it largely relies on exact word matches and misses other important semantic nuances such as synonyms or alternative phrasing — for example, “young dog” instead of “puppy”. As a result, highly relevant documents may be inadvertently omitted. Semantic search addresses this limitation by focusing on meaning rather than exact wording. Large language models (LLMs) play a key role here, as some of them are trained to translate text into numerical vector representations called embeddings, which encode the semantic information behind the text. When two texts like “small dogs are very curious by nature” and “puppies are inquisitive by nature” are converted into embedding vectors, those vectors will be highly similar due to their shared meaning. Meanwhile, the embedding vectors for “puppies are inquisitive by nature” and “Dazaifu is a signature shrine in Fukuoka” will be very different, as they represent unrelated concepts. Following this principle — which you can explore in more depth here — the remainder of this article guides you through the full process of building a compact yet efficient semantic search engine. While minimalistic, it performs effectively and serves as a starting point for understanding how modern search and retrieval systems, such as retrieval augmented generation (RAG) architectures, are built. The code explained below can be run seamlessly in a Google Colab or Jupyter Notebook instance. Step-by-Step Guide First, we make the necessary imports for this practical example: import pandas as pd import json from pydantic import BaseModel, Field from openai import OpenAI from google.colab import userdata from sklearn.ensemble import RandomForestClassifier from sklearn.model_selection import train_test_split from sklearn.metrics import classification_report from sklearn.preprocessing import StandardScaler 123456789 import pandas as pdimport jsonfrom pyda…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T08:20:46.927Z",
+          "title": "Build Semantic Search with LLM Embeddings - MachineLearningMastery.com",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "content": "",
+          "fetchedAt": "2026-09-17T08:20:46.928Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/",
+          "tieuDe": "Build Semantic Search with LLM Embeddings - MachineLearningMastery.com",
+          "tacGia": "Iván Palomares Carrascosa",
+          "toChuc": "MachineLearningMastery.com",
+          "ngayDang": "2026-03-02T13:37:01+00:00",
+          "ngayLayVe": "2026-09-17T08:20:46.927Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog chuyên ngành AI có tác giả rõ ràng và nội dung cập nhật, nhưng không phải tài liệu học thuật được bình duyệt.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://medium.com/@toimrank/understanding-vector-embeddings-semantic-search-and-its-implementation-d51e76c09a80",
+          "tieuDe": "https://medium.com/@toimrank/understanding-vector-embeddings-semantic-search-and-its-implementation-d51e76c09a80",
+          "ngayLayVe": "2026-09-17T08:20:46.926Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n03",
+          "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "tieuDe": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "ngayLayVe": "2026-09-17T08:20:46.928Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Content-Type không phải HTML: text/markdown; charset=UTF-8",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "sourcesRejected": [
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Semantic search focuses on meaning rather than exact wording; embeddings encode semantic information so that sentences with similar meaning produce similar vectors, allowing the system to retrieve near‑synonymous sentences even when the words differ.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.",
+              "viTri": "paragraph 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/\",\n      \"tieuDe\": \"Build Semantic Search with LLM Embeddings - MachineLearningMastery.com\",\n      \"tacGia\": \"Iván Palomares Carrascosa\",\n      \"toChuc\": \"MachineLearningMastery.com\",\n      \"ngayDang\": \"2026-03-02\",\n      \"ngayLayVe\": \"2026-09-17T08:20:46.927Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog chuyên ngành AI có tác giả rõ ràng và nội dung cập nhật, nhưng không phải tài liệu học thuật được bình duyệt.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Semantic search focuses on meaning rather than exact wording; embeddings encode semantic information so that sentences with similar meaning produce similar vectors, allowing the system to retrieve near‑synonymous sentences even when the words differ.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.\",\n          \"viTri\": \"paragraph 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 58586
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+      "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Sinh viên công nghệ thông tin",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các bạn sinh viên công nghệ thông tin, chào mừng đến với buổi học về nhúng văn bản và tìm kiếm theo ngữ nghĩa.",
+          "chuTrenManHinh": "Chào mừng các bạn",
+          "yDoHinh": "Giới thiệu giảng viên",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Các công cụ tìm kiếm truyền thống đã dựa vào việc so khớp từ khóa để truy xuất tài liệu.",
+          "chuTrenManHinh": "Tìm kiếm truyền thống",
+          "yDoHinh": "Biểu đồ quá trình",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Ví dụ, truy vấn về các ngôi đền và đền thờ ở Fukuoka sẽ trả về các tài liệu chứa các từ như đền, đền thờ và Fukuoka dựa trên sự xuất hiện chung.",
+          "chuTrenManHinh": "Ví dụ truy vấn",
+          "yDoHinh": "Màn hình kết quả",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Vậy nếu không có các từ khóa chung, máy có thể tìm được câu gần nghĩa như thế nào?",
+          "chuTrenManHinh": "Câu hỏi mở",
+          "yDoHinh": "Biểu tượng câu hỏi",
+          "nguon": []
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Tiếp theo, chúng ta sẽ khám phá cách nhúng văn bản giúp máy hiểu ý nghĩa mà không cần trùng từ.",
+          "chuTrenManHinh": "Khám phá nhúng văn bản",
+          "yDoHinh": "Mô hình embedding",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789633327176",
+      "timestamp": "2026-09-17T08:22:07.176Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+        "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+        "targetAudience": "Sinh viên công nghệ thông tin",
+        "videoDuration": "5 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/",
+          "tieuDe": "Build Semantic Search with LLM Embeddings - MachineLearningMastery.com",
+          "tacGia": "Iván Palomares Carrascosa",
+          "toChuc": "MachineLearningMastery.com",
+          "ngayDang": "2026-03-02T13:37:01+00:00",
+          "ngayLayVe": "2026-09-17T08:20:46.927Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog chuyên ngành AI có tác giả rõ ràng và nội dung cập nhật, nhưng không phải tài liệu học thuật được bình duyệt.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Semantic search focuses on meaning rather than exact wording; embeddings encode semantic information so that sentences with similar meaning produce similar vectors, allowing the system to retrieve near‑synonymous sentences even when the words differ.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant.",
+              "viTri": "paragraph 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+        "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Sinh viên công nghệ thông tin",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các bạn sinh viên công nghệ thông tin, chào mừng đến với buổi học về nhúng văn bản và tìm kiếm theo ngữ nghĩa.",
+            "chuTrenManHinh": "Chào mừng các bạn",
+            "yDoHinh": "Giới thiệu giảng viên",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Các công cụ tìm kiếm truyền thống đã dựa vào việc so khớp từ khóa để truy xuất tài liệu.",
+            "chuTrenManHinh": "Tìm kiếm truyền thống",
+            "yDoHinh": "Biểu đồ quá trình",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Ví dụ, truy vấn về các ngôi đền và đền thờ ở Fukuoka sẽ trả về các tài liệu chứa các từ như đền, đền thờ và Fukuoka dựa trên sự xuất hiện chung.",
+            "chuTrenManHinh": "Ví dụ truy vấn",
+            "yDoHinh": "Màn hình kết quả",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Vậy nếu không có các từ khóa chung, máy có thể tìm được câu gần nghĩa như thế nào?",
+            "chuTrenManHinh": "Câu hỏi mở",
+            "yDoHinh": "Biểu tượng câu hỏi",
+            "nguon": []
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Tiếp theo, chúng ta sẽ khám phá cách nhúng văn bản giúp máy hiểu ý nghĩa mà không cần trùng từ.",
+            "chuTrenManHinh": "Khám phá nhúng văn bản",
+            "yDoHinh": "Mô hình embedding",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các bạn sinh viên công nghệ thông tin, chào mừng đến với buổi học về nhúng văn bản và tìm kiếm theo ngữ nghĩa.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Các công cụ tìm kiếm truyền thống đã dựa vào việc so khớp từ khóa để truy xuất tài liệu.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Ví dụ, truy vấn về các ngôi đền và đền thờ ở Fukuoka sẽ trả về các tài liệu chứa các từ như đền, đền thờ và Fukuoka dựa trên sự xuất hiện chung.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Traditional search engines have historically relied on keyword search. In other words, given a query like “best temples and shrines to visit in Fukuoka, Japan”, results are retrieved based on keyword matching, such that text documents containing co-occurrences of words like “temple”, “shrine”, and “Fukuoka” are deemed most relevant."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Vậy nếu không có các từ khóa chung, máy có thể tìm được câu gần nghĩa như thế nào?",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Tiếp theo, chúng ta sẽ khám phá cách nhúng văn bản giúp máy hiểu ý nghĩa mà không cần trùng từ.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn sinh viên công nghệ thông tin, chào mừng đến với buổi học về nhúng văn bản và tìm kiếm theo ngữ nghĩa.\",\"chuTrenManHinh\":\"Chào mừng các bạn\",\"yDoHinh\":\"Giới thiệu giảng viên\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Các công cụ tìm kiếm truyền thống đã dựa vào việc so khớp từ khóa để truy xuất tài liệu.\",\"chuTrenManHinh\":\"Tìm kiếm truyền thống\",\"yDoHinh\":\"Biểu đồ quá trình\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ví dụ, truy vấn về các ngôi đền và đền thờ ở Fukuoka sẽ trả về các tài liệu chứa các từ như đền, đền thờ và Fukuoka dựa trên sự xuất hiện chung.\",\"chuTrenManHinh\":\"Ví dụ truy vấn\",\"yDoHinh\":\"Màn hình kết quả\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy nếu không có các từ khóa chung, máy có thể tìm được câu gần nghĩa như thế nào?\",\"chuTrenManHinh\":\"Câu hỏi mở\",\"yDoHinh\":\"Biểu tượng câu hỏi\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Tiếp theo, chúng ta sẽ khám phá cách nhúng văn bản giúp máy hiểu ý nghĩa mà không cần trùng từ.\",\"chuTrenManHinh\":\"Khám phá nhúng văn bản\",\"yDoHinh\":\"Mô hình embedding\",\"nguon\":[]}]}",
+      "isDemo": false,
+      "durationMs": 40049
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

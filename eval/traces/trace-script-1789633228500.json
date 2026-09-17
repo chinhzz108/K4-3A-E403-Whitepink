@@ -1,0 +1,188 @@
+{
+  "id": "trace-script-1789633228500",
+  "timestamp": "2026-09-17T08:20:28.500Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách một mô hình học từ ví dụ",
+    "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "targetAudience": "Học sinh cấp ba",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+      "tieuDe": "Rule Based System Vs Machine Learning System - GeeksforGeeks",
+      "toChuc": "GeeksforGeeks",
+      "ngayDang": "2023-12-14 17:40:44+00:00",
+      "ngayLayVe": "2026-09-17T08:19:10.369Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Trang thuộc nền tảng giáo dục công nghệ uy tín nhưng không có thông tin tác giả và không qua thẩm định học thuật.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã cũ hơn 1 năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Hệ thống dựa trên quy tắc (rule‑based) hoạt động dựa trên các quy tắc \"if‑then\" được con người thiết kế, cung cấp tính minh bạch và dễ hiểu nhưng không tự học từ kinh nghiệm.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Hệ thống học máy (machine‑learning) học từ dữ liệu thay vì dựa vào quy tắc tĩnh, sử dụng các mẫu trong tập dữ liệu lớn để đưa ra quyết định và có khả năng cải thiện theo thời gian.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "On the other hand, machine learning systems learn from data instead of following explicit rules. They use patterns found in large sets of information to make decisions. These systems can adapt and improve over time as they see more data.",
+          "viTri": "đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách một mô hình học từ ví dụ",
+    "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "thoiLuong": "ba phút",
+    "nguoiHoc": "Học sinh cấp ba",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các em, hôm nay chúng ta sẽ khám phá cách máy học từ ví dụ.",
+        "chuTrenManHinh": "Chào các em! Khám phá máy học",
+        "yDoHinh": "Giáo viên mỉm cười chào lớp",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Hệ thống dựa trên quy tắc tuân theo các chỉ dẫn do con người tạo ra.",
+        "chuTrenManHinh": "Hệ thống dựa trên quy tắc",
+        "yDoHinh": "Biểu tượng quy tắc và máy tính",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Ngược lại, hệ thống học máy học từ dữ liệu, tìm mẫu trong thông tin lớn.",
+        "chuTrenManHinh": "Hệ thống học máy từ dữ liệu",
+        "yDoHinh": "Mạng nơ-ron với dữ liệu đầu vào",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Những vấn đề có quy tắc rõ ràng thường phù hợp với hệ thống dựa trên quy tắc.",
+        "chuTrenManHinh": "Vấn đề rõ quy tắc",
+        "yDoHinh": "Sơ đồ quyết định dựa trên quy tắc",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Khi nhận thêm dữ liệu, hệ thống học máy có thể tự cải thiện và thích nghi.",
+        "chuTrenManHinh": "Học máy tự cải thiện",
+        "yDoHinh": "Đồ thị tiến bộ của mô hình học máy",
+        "nguon": [
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các em, hôm nay chúng ta sẽ khám phá cách máy học từ ví dụ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Hệ thống dựa trên quy tắc tuân theo các chỉ dẫn do con người tạo ra.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Ngược lại, hệ thống học máy học từ dữ liệu, tìm mẫu trong thông tin lớn.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] On the other hand, machine learning systems learn from data instead of following explicit rules. They use patterns found in large sets of information to make decisions. These systems can adapt and improve over time as they see more data."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Những vấn đề có quy tắc rõ ràng thường phù hợp với hệ thống dựa trên quy tắc.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Rule-based systems follow explicit rules created by human experts. They're like a set of instructions given to a computer that follows to make decisions. These systems are good for problems with clear rules and paths."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Khi nhận thêm dữ liệu, hệ thống học máy có thể tự cải thiện và thích nghi.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] On the other hand, machine learning systems learn from data instead of following explicit rules. They use patterns found in large sets of information to make decisions. These systems can adapt and improve over time as they see more data."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cách một mô hình học từ ví dụ\",\n  \"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\n  \"thoiLuong\":\"ba phút\",\n  \"nguoiHoc\":\"Học sinh cấp ba\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các em, hôm nay chúng ta sẽ khám phá cách máy học từ ví dụ.\",\"chuTrenManHinh\":\"Chào các em! Khám phá máy học\",\"yDoHinh\":\"Giáo viên mỉm cười chào lớp\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Hệ thống dựa trên quy tắc tuân theo các chỉ dẫn do con người tạo ra.\",\"chuTrenManHinh\":\"Hệ thống dựa trên quy tắc\",\"yDoHinh\":\"Biểu tượng quy tắc và máy tính\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ngược lại, hệ thống học máy học từ dữ liệu, tìm mẫu trong thông tin lớn.\",\"chuTrenManHinh\":\"Hệ thống học máy từ dữ liệu\",\"yDoHinh\":\"Mạng nơ-ron với dữ liệu đầu vào\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Những vấn đề có quy tắc rõ ràng thường phù hợp với hệ thống dựa trên quy tắc.\",\"chuTrenManHinh\":\"Vấn đề rõ quy tắc\",\"yDoHinh\":\"Sơ đồ quyết định dựa trên quy tắc\",\"nguon\":[\"t01\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Khi nhận thêm dữ liệu, hệ thống học máy có thể tự cải thiện và thích nghi.\",\"chuTrenManHinh\":\"Học máy tự cải thiện\",\"yDoHinh\":\"Đồ thị tiến bộ của mô hình học máy\",\"nguon\":[\"t02\"]}\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 38763
+}

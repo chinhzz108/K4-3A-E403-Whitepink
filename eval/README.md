@@ -1,5 +1,7 @@
 # Eval CP3 — bản nháp để nhóm duyệt
 
+Lượt chạy lại với DeepSeek → Groq → Gemini: [27 case](cp3/run-2026-09-17T08-15-24-579Z/RESULTS.md), [rà soát và lỗi](cp3/run-2026-09-17T08-15-24-579Z/REVIEW.md). **4/27 = 14,81%**, 18 fail, 5 needs-review; chưa tính needs-review là pass. Giữ nguyên báo cáo lượt đầu bên dưới.
+
 Bảng lượt đầu theo tên BTC: [run_results.md](run_results.md). Kiểm tra sau chuyển mã vào `codebase/`: [REORGANIZATION-CHECK.md](REORGANIZATION-CHECK.md).
 
 `golden_set.json`: 27 case, gồm 8 thường; 2 nguồn sự thật; 2 mơ hồ; 3 ngoài phạm vi/thẩm quyền; 2 nguồn cũ; 2 mâu thuẫn; 2 injection; 6 hiếm. Có input, kỳ vọng, nguồn gốc và điều kiện đạt/trượt từng case. Các case do nhóm/agent tự soạn, một số lấy cảm hứng từ chủ đề BTC; **không phải case từ chatlog**. Nhóm cần hỏi TA liệu nguồn gốc này phù hợp C3 hay cần bổ sung chatlog thật.

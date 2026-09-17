@@ -1,0 +1,74 @@
+{
+  "id": "trace-script-1789633426768",
+  "timestamp": "2026-09-17T08:23:46.768Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Bản quyền và nội dung do AI tạo ra",
+    "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "targetAudience": "Sinh viên làm đồ án",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://guides.library.utoronto.ca/image-gen-ai/citations",
+      "tieuDe": "Copyright + Citations - Artificial Intelligence for Image Research - Research Guides at University of Toronto",
+      "ngayLayVe": "2026-09-17T08:22:22.154Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Official university library guide, recent update (Aug 2025) and detailed citation formats.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã được cập nhật lần cuối vào Aug 2025, hơn 1 năm so với ngày truy cập.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "MLA Style: MLA Guide to citing generative AI Following the guidelines in section 1.7 of the MLA Handbook, the format is as follows: Title of source (describe what was generated) AI tool Version Publisher Date created Location (general URL) For example: Fabric print of farm animals, Midjourney ver 5.2, Midjourney Inc., 18/07/2023, https://www.midjourney.com/home",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://guides.lib.uci.edu/research_ai/copyright",
+      "tieuDe": "Copyright, Citation & AI - AI in Research - Research Guides at University of California Irvine",
+      "ngayLayVe": "2026-09-17T08:22:22.156Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "University guide but không có ngày cập nhật rõ ràng; nội dung chung về đạo đức và quyền sở hữu trí tuệ.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không có thông tin ngày đăng, có thể đã cũ hơn một năm.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Note Use of AI is fraught with complications involving accuracy, bias, academic integrity, and intellectual property and may not be appropriate in all academic settings. This guide is meant more for academic researchers looking to utilize AI tools in their research. Students are strongly advised to consult with their instructor before using AI-generated content in their research or coursework.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+    "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên làm đồ án",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=17, mã=[\"n01\"])",
+  "isDemo": false,
+  "durationMs": 39776
+}

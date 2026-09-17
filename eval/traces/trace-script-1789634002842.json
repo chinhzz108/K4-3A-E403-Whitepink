@@ -1,0 +1,174 @@
+{
+  "id": "trace-script-1789634002842",
+  "timestamp": "2026-09-17T08:33:22.842Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách nấu phở Hà Nội",
+    "learningObjective": "Nấu được một tô phở chuẩn vị",
+    "targetAudience": "Nội trợ",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n02",
+      "url": "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+      "tieuDe": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham",
+      "tacGia": "Vicky Pham",
+      "toChuc": "Vicky Pham",
+      "ngayDang": "2019-04-22T21:44:00+00:00",
+      "ngayLayVe": "2026-09-17T08:32:01.875Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog cá nhân, không có kiểm duyệt chuyên môn nhưng mô tả chi tiết quy trình nấu.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn cũ hơn 1 năm, thông tin có thể không cập nhật.",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Pho Tai Lan là một loại phở Bắc với thịt bò thái mỏng và tỏi được xào trong mỡ bò, thay vì lát thịt bò sống, tạo hương vị đậm đà.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách nấu phở Hà Nội",
+    "mucTieu": "Nấu được một tô phở chuẩn vị",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Nội trợ",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn, hôm nay chúng ta sẽ cùng khám phá cách nấu phở Hà Nội.",
+        "chuTrenManHinh": "Chào mừng đến bếp",
+        "yDoHinh": "Hình bếp và nồi phở",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Phở Tai Lan là một loại phở bò kiểu Bắc, nổi tiếng với hương vị đậm đà.",
+        "chuTrenManHinh": "Phở Tai Lan - Bắc",
+        "yDoHinh": "Hình tô phở Tai Lan",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Thay vì lát bò sống, món này dùng những lát bò mỏng được chiên nhanh trong mỡ bò.",
+        "chuTrenManHinh": "Bò mỏng chiên",
+        "yDoHinh": "Hình bò mỏng trong chảo",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn có biết rằng tỏi được xào trong mỡ bò tạo nên hương thơm đặc trưng cho phở Tai Lan không?",
+        "chuTrenManHinh": "Tỏi xào mỡ bò",
+        "yDoHinh": "Hình tỏi vàng trong chảo",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng tôi thực hiện từng bước để có một tô phở chuẩn vị Bắc ngay tại nhà.",
+        "chuTrenManHinh": "Bắt đầu nấu phở",
+        "yDoHinh": "Hình nồi sôi và nguyên liệu",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn, hôm nay chúng ta sẽ cùng khám phá cách nấu phở Hà Nội.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Phở Tai Lan là một loại phở bò kiểu Bắc, nổi tiếng với hương vị đậm đà.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow)."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Thay vì lát bò sống, món này dùng những lát bò mỏng được chiên nhanh trong mỡ bò.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow)."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn có biết rằng tỏi được xào trong mỡ bò tạo nên hương thơm đặc trưng cho phở Tai Lan không?",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow)."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng tôi thực hiện từng bước để có một tô phở chuẩn vị Bắc ngay tại nhà.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow)."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cách nấu phở Hà Nội\",\n  \"mucTieu\": \"Nấu được một tô phở chuẩn vị\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Nội trợ\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các bạn, hôm nay chúng ta sẽ cùng khám phá cách nấu phở Hà Nội.\",\n      \"chuTrenManHinh\": \"Chào mừng đến bếp\",\n      \"yDoHinh\": \"Hình bếp và nồi phở\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Phở Tai Lan là một loại phở bò kiểu Bắc, nổi tiếng với hương vị đậm đà.\",\n      \"chuTrenManHinh\": \"Phở Tai Lan - Bắc\",\n      \"yDoHinh\": \"Hình tô phở Tai Lan\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Thay vì lát bò sống, món này dùng những lát bò mỏng được chiên nhanh trong mỡ bò.\",\n      \"chuTrenManHinh\": \"Bò mỏng chiên\",\n      \"yDoHinh\": \"Hình bò mỏng trong chảo\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn có biết rằng tỏi được xào trong mỡ bò tạo nên hương thơm đặc trưng cho phở Tai Lan không?\",\n      \"chuTrenManHinh\": \"Tỏi xào mỡ bò\",\n      \"yDoHinh\": \"Hình tỏi vàng trong chảo\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy cùng tôi thực hiện từng bước để có một tô phở chuẩn vị Bắc ngay tại nhà.\",\n      \"chuTrenManHinh\": \"Bắt đầu nấu phở\",\n      \"yDoHinh\": \"Hình nồi sôi và nguyên liệu\",\n      \"nguon\": [\"t01\"]\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 37959
+}

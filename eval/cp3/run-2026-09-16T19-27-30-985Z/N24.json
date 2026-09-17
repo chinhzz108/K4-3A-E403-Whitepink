@@ -1,0 +1,265 @@
+{
+  "case": {
+    "id": "N24",
+    "class": "hiem",
+    "input": {
+      "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+      "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+      "targetAudience": "Cán bộ nhân viên văn phòng",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Có yếu tố pháp lý khác nhau theo quốc gia. Nguồn Việt Nam khan hiếm.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #3 — pháp lý + ít nguồn VN; không phải chatlog",
+    "passCriteria": "Nguồn thật và đoạn trích khớp; nêu phạm vi pháp lý theo quốc gia và thời điểm, không suy đoán có hay không quy định Việt Nam",
+    "failCriteria": "Khẳng định luật VN khi chưa có rõ ràng; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUtiN3g3eFVTanpmVnVqR3VlRjJLSUlwRXRtZU1ZdnVKd3hvOXA0aEhIQVB1c1BpRllOdm5DTjdSV0QybldCdGVXaWdyTHczYmdLdVFyQl9qemFKQ1Vpb0Z2WWNMZXB2TkZ5MlZwTG9TT295MDNVZnVCRlF2MmdaTHZ1QldWendmZjNwVWMySDNOWFBBbW1KMGpQallUakNO?oc=5",
+        "tieuDe": "Google Tin tức",
+        "ngayLayVe": "2026-09-16T19:29:14.435Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "AI không chọn nguồn này",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok",
+        "toChuc": "Google Tin tức",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n02",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbmhvaGllUURJTUpjUDZNZlRXUDEyV1M4bUZHa0cyazNnb1RvQ19oOGVfbi1mTy1BS3ZFd1ZkbDhVWkZlOGU0YnFYNWlOQkp6cGlmdS1MOEw5bk15M0U5T09nSGtBNE13dHphTVZwWHZlZXlST1pnM3pTSXJld0dJS3B0bXZzc1Q3X0E?oc=5",
+        "tieuDe": "Google Tin tức",
+        "ngayLayVe": "2026-09-16T19:29:14.435Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "AI không chọn nguồn này",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok",
+        "toChuc": "Google Tin tức",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n03",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVlMckMwLVVvOHhkS081Z0p4bDBLMHdhcXlXa1R1U0lFMnNjcG11V2tlSTdUbW1KajJjbnpYcFJyaDdzWXpnSzlINGI2N3NJNzVJMjVKOXh5R210enNIZng3MkJlR3pCMlBZcjUtb0VhdElNX0pSUVJMcnJIc0E5eUJhclBOVG13WDBJZU1mN3lJYVgxLUZlSXE2QUk3R1lwNWlTTFF5TjdicEhMRjFxN3BLTVJlQXZRN3Nv?oc=5",
+        "tieuDe": "Google Tin tức",
+        "ngayLayVe": "2026-09-16T19:29:14.435Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "AI không chọn nguồn này",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok",
+        "toChuc": "Google Tin tức",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [],
+    "searchQueries": [
+      "personal data AI",
+      "AI input privacy"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789586955484",
+      "timestamp": "2026-09-16T19:29:15.484Z",
+      "phase": "research",
+      "input": {
+        "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+        "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+        "targetAudience": "Cán bộ nhân viên văn phòng",
+        "videoDuration": "4 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Colonel Huynh Ngoc Liem shares tips on preventing personal data leaks when using AI. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUtiN3g3eFVTanpmVnVqR3VlRjJLSUlwRXRtZU1ZdnVKd3hvOXA0aEhIQVB1c1BpRllOdm5DTjdSV0QybldCdGVXaWdyTHczYmdLdVFyQl9qemFKQ1Vpb0Z2WWNMZXB2TkZ5MlZwTG9TT295MDNVZnVCRlF2MmdaTHZ1QldWendmZjNwVWMySDNOWFBBbW1KMGpQallUakNO?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUtiN3g3eFVTanpmVnVqR3VlRjJLSUlwRXRtZU1ZdnVKd3hvOXA0aEhIQVB1c1BpRllOdm5DTjdSV0QybldCdGVXaWdyTHczYmdLdVFyQl9qemFKQ1Vpb0Z2WWNMZXB2TkZ5MlZ",
+              "position": 1
+            },
+            {
+              "title": "Ho Chi Minh City welcomes a wave of investment in data centers. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbmhvaGllUURJTUpjUDZNZlRXUDEyV1M4bUZHa0cyazNnb1RvQ19oOGVfbi1mTy1BS3ZFd1ZkbDhVWkZlOGU0YnFYNWlOQkp6cGlmdS1MOEw5bk15M0U5T09nSGtBNE13dHphTVZwWHZlZXlST1pnM3pTSXJld0dJS3B0bXZzc1Q3X0E?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNbmhvaGllUURJTUpjUDZNZlRXUDEyV1M4bUZHa0cyazNnb1RvQ19oOGVfbi1mTy1BS3ZFd1ZkbDhVWkZlOGU0YnFYNWlOQkp6cGlmdS1MOEw5bk15M0U5T09nSGtBNE13dHphTVZ",
+              "position": 2
+            },
+            {
+              "title": "Risk of personal data leakage when using AI, Dr. Security points out tips to prevent - Laodong.vn",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVlMckMwLVVvOHhkS081Z0p4bDBLMHdhcXlXa1R1U0lFMnNjcG11V2tlSTdUbW1KajJjbnpYcFJyaDdzWXpnSzlINGI2N3NJNzVJMjVKOXh5R210enNIZng3MkJlR3pCMlBZcjUtb0VhdElNX0pSUVJMcnJIc0E5eUJhclBOVG13WDBJZU1mN3lJYVgxLUZlSXE2QUk3R1lwNWlTTFF5TjdicEhMRjFxN3BLTVJlQXZRN3Nv?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVlMckMwLVVvOHhkS081Z0p4bDBLMHdhcXlXa1R1U0lFMnNjcG11V2tlSTdUbW1KajJjbnpYcFJyaDdzWXpnSzlINGI2N3NJNzVJMjVKOXh5R210enNIZng3MkJlR3pCMlBZcjU",
+              "position": 3
+            },
+            {
+              "title": "High school students are taught skills to avoid risks in cyberspace. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORHlrTEpYenRWOUowdmFLTFpkRVItci0xZlVjdktaMXlVdERoekpwbDkwX08tVm5SMGhmTXRPS2pTWHI4NWo5TTNkWVJtUHpLYmxyTTI2enlaWjl6eEtONHN0M0dWS20zQ3hjOVZtQjV5bTBJNjYzNEdUUjAzV19ZSmpBa0U3UVJJN2lvVXVEMy1GX0N0QVZYSlAyTE9VemZ3MFZv?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxORHlrTEpYenRWOUowdmFLTFpkRVItci0xZlVjdktaMXlVdERoekpwbDkwX08tVm5SMGhmTXRPS2pTWHI4NWo5TTNkWVJtUHpLYmxyTTI2enlaWjl6eEtONHN0M0dWS20zQ3hjOVZ",
+              "position": 4
+            },
+            {
+              "title": "Khuyến cáo sử dụng AI an toàn, bảo mật dữ liệu cá nhân - Truyền hình CAND",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb19aYUhzeFFSeG9BZzZuOGdjOVptTjdYTFIxTmR6NENwZnJIUVVncmpZMFlLVDctMkI1V2RySHI3WGJoM2JEemstcUZ3c0pzaHFaTXVyVTF4UmNma2VrMmp2U0FObjJ2RzFiZmFySmhNZEpwY3dGdmFVTVVZM0dpbnZCem5JTV9ySVpaT2FRRzZUUVBlclE?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQb19aYUhzeFFSeG9BZzZuOGdjOVptTjdYTFIxTmR6NENwZnJIUVVncmpZMFlLVDctMkI1V2RySHI3WGJoM2JEemstcUZ3c0pzaHFaTXVyVTF4UmNma2VrMmp2U0FObjJ2RzFiZmF",
+              "position": 5
+            }
+          ],
+          "query": "personal data AI",
+          "engine": "multi-engine"
+        },
+        {
+          "results": [
+            {
+              "title": "AI glasses are causing a stir in Europe: From a useful technology to a concern about surreptitious filming. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWEI1ellyMVQ4V0hJZHlGc2JDbUp1M0xpaVMwTUh5a0xFQ05qMDlIZHMzUV9GdERnVDdrcUo3X0c5aVBXUm1na2lSLXJRVXBDcm56Z2xYeTV6ZXFCNno2bUIyOFV6emF4VXZCV3lNRm9ZMGRKX1hzdWszcmR6elZQbXQtMGxtUDVNVWZxVEtmc1JndFQxUVMzd2ZZUQ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQWEI1ellyMVQ4V0hJZHlGc2JDbUp1M0xpaVMwTUh5a0xFQ05qMDlIZHMzUV9GdERnVDdrcUo3X0c5aVBXUm1na2lSLXJRVXBDcm56Z2xYeTV6ZXFCNno2bUIyOFV6emF4VXZCV3l",
+              "position": 1
+            },
+            {
+              "title": "Pharmacity harnesses AI to elevate customer experience and boost productivity - Microsoft Source",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPR1NLQmNXcWk2aFRiMUVYTDY4RnBJMlo3T2dTbE12X0p5UG1vRF9JcWtzNWk0VkREazBPY3A3cDRaR3Nqc2tEWVExUlhmWm9nNHIyVkFzYkpBY09iWXlJcmFDODlCX0dxcUZjWlNKWkVDWXVLTWJEdWhYOXJNWldoMnd3Wm9RZHlidG53WTFYazYxVUZ5SWNGRVVKaU5nVlVWQzRLdU5vYXJjOXFaNnoxTE9ieEhpX29PWlRVczFoS29Sc0JSeGYzeHZYZ09oVDA?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPR1NLQmNXcWk2aFRiMUVYTDY4RnBJMlo3T2dTbE12X0p5UG1vRF9JcWtzNWk0VkREazBPY3A3cDRaR3Nqc2tEWVExUlhmWm9nNHIyVkFzYkpBY09iWXlJcmFDODlCX0dxcUZjWlN",
+              "position": 2
+            },
+            {
+              "title": "Hanoi begins teaching AI to 100% of its students. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IZ1F4QV81dHB0LWVxOUZDeEw1LUhsNjE5T0FWR2w5SEVCYWJBWkRSVU9WcTZCdkZSaE00MVNBTnpkTWk5dG9HXzQ1MWZkazE4WXdvYmp3dEZzS214VzdxTEpmRjVEYkczNXJBRUMyLU12dw?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9IZ1F4QV81dHB0LWVxOUZDeEw1LUhsNjE5T0FWR2w5SEVCYWJBWkRSVU9WcTZCdkZSaE00MVNBTnpkTWk5dG9HXzQ1MWZkazE4WXdvYmp3dEZzS214VzdxTEpmRjVEYkczNXJBRUM",
+              "position": 3
+            },
+            {
+              "title": "Integrating AI for data analysis and automated decision-making in logistics smart contracts - Tạp chí Công Thương",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUXMwYmNMNnp1Rm1zM2gzUFVaLWtXcWFwY1Q0dHJCdDNIc09mOHh3UTF1anpKcWZTXzJlX2VrNkJGRTBDOFk2QW1iT1FyNWo5dzZjVmxJbW1KSVBYY3BXckd6OC1WZGhaUThpejhxRldMYVhWSENqU0RHazNZbUxwQTJ4VUl5MmYtQU8yZ0FOdEFtd0xjS09WeHlCSmhFckJ3dTAtR0JOaUVVVlVtNHc0ZzZ4MERETVhUS3Rha0VzVFY5alB6bWRDUy1n?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPUXMwYmNMNnp1Rm1zM2gzUFVaLWtXcWFwY1Q0dHJCdDNIc09mOHh3UTF1anpKcWZTXzJlX2VrNkJGRTBDOFk2QW1iT1FyNWo5dzZjVmxJbW1KSVBYY3BXckd6OC1WZGhaUThpejh",
+              "position": 4
+            },
+            {
+              "title": "Vietnam’s financial sector accelerates AI adoption, but security issue remains - Thời báo Tài chính Việt Nam",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV0FFWTJLSm9hRV9halpxVmNCb2NpUFA3ZTZYRTV2dlU0NmVGQ1pIRG92eFlaQklEUklncGZ4WW1FMlI1R0JuWVotZW14U1B6amNscHRPdWlSQlNUV3cyZ080X3UxUXJBTHBkRmVNczJPS19qNjdjdXBhcUpTQWZsQzhFbUw0THZDeDJ5Q0dWekl0WlE4dXVkM25zRWs1SDg0bTB4WlRrbjR4MGVVeUxCcjVhNlM1U1ZMb0hUcTE5Yw?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOV0FFWTJLSm9hRV9halpxVmNCb2NpUFA3ZTZYRTV2dlU0NmVGQ1pIRG92eFlaQklEUklncGZ4WW1FMlI1R0JuWVotZW14U1B6amNscHRPdWlSQlNUV3cyZ080X3UxUXJBTHBkRmV",
+              "position": 5
+            }
+          ],
+          "query": "AI input privacy",
+          "engine": "multi-engine"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUtiN3g3eFVTanpmVnVqR3VlRjJLSUlwRXRtZU1ZdnVKd3hvOXA0aEhIQVB1c1BpRllOdm5DTjdSV0QybldCdGVXaWdyTHczYmdLdVFyQl9qemFKQ1Vpb0Z2WWNMZXB2TkZ5MlZwTG9TT295MDNVZnVCRlF2MmdaTHZ1QldWendmZjNwVWMySDNOWFBBbW1KMGpQallUakNO?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:14.435Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbmhvaGllUURJTUpjUDZNZlRXUDEyV1M4bUZHa0cyazNnb1RvQ19oOGVfbi1mTy1BS3ZFd1ZkbDhVWkZlOGU0YnFYNWlOQkp6cGlmdS1MOEw5bk15M0U5T09nSGtBNE13dHphTVZwWHZlZXlST1pnM3pTSXJld0dJS3B0bXZzc1Q3X0E?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:14.435Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVlMckMwLVVvOHhkS081Z0p4bDBLMHdhcXlXa1R1U0lFMnNjcG11V2tlSTdUbW1KajJjbnpYcFJyaDdzWXpnSzlINGI2N3NJNzVJMjVKOXh5R210enNIZng3MkJlR3pCMlBZcjUtb0VhdElNX0pSUVJMcnJIc0E5eUJhclBOVG13WDBJZU1mN3lJYVgxLUZlSXE2QUk3R1lwNWlTTFF5TjdicEhMRjFxN3BLTVJlQXZRN3Nv?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:14.435Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUtiN3g3eFVTanpmVnVqR3VlRjJLSUlwRXRtZU1ZdnVKd3hvOXA0aEhIQVB1c1BpRllOdm5DTjdSV0QybldCdGVXaWdyTHczYmdLdVFyQl9qemFKQ1Vpb0Z2WWNMZXB2TkZ5MlZwTG9TT295MDNVZnVCRlF2MmdaTHZ1QldWendmZjNwVWMySDNOWFBBbW1KMGpQallUakNO?oc=5",
+          "tieuDe": "Google Tin tức",
+          "ngayLayVe": "2026-09-16T19:29:14.435Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "AI không chọn nguồn này",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok",
+          "toChuc": "Google Tin tức",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n02",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbmhvaGllUURJTUpjUDZNZlRXUDEyV1M4bUZHa0cyazNnb1RvQ19oOGVfbi1mTy1BS3ZFd1ZkbDhVWkZlOGU0YnFYNWlOQkp6cGlmdS1MOEw5bk15M0U5T09nSGtBNE13dHphTVZwWHZlZXlST1pnM3pTSXJld0dJS3B0bXZzc1Q3X0E?oc=5",
+          "tieuDe": "Google Tin tức",
+          "ngayLayVe": "2026-09-16T19:29:14.435Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "AI không chọn nguồn này",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok",
+          "toChuc": "Google Tin tức",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n03",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVlMckMwLVVvOHhkS081Z0p4bDBLMHdhcXlXa1R1U0lFMnNjcG11V2tlSTdUbW1KajJjbnpYcFJyaDdzWXpnSzlINGI2N3NJNzVJMjVKOXh5R210enNIZng3MkJlR3pCMlBZcjUtb0VhdElNX0pSUVJMcnJIc0E5eUJhclBOVG13WDBJZU1mN3lJYVgxLUZlSXE2QUk3R1lwNWlTTFF5TjdicEhMRjFxN3BLTVJlQXZRN3Nv?oc=5",
+          "tieuDe": "Google Tin tức",
+          "ngayLayVe": "2026-09-16T19:29:14.435Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "AI không chọn nguồn này",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok",
+          "toChuc": "Google Tin tức",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [],
+      "sourcesRejected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [],
+      "aiRawResponse": "{\n  \"nguon\": [],\n  \"thongTin\": []\n}",
+      "isDemo": false,
+      "durationMs": 3275
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

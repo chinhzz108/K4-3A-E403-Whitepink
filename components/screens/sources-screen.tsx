@@ -26,6 +26,7 @@ interface SourcesScreenProps {
   onApprove: (id: string) => void;
   onRemove: (id: string) => void;
   onGenerate: () => void;
+  conflicts?: string[];
 }
 
 export function SourcesScreen({
@@ -33,6 +34,7 @@ export function SourcesScreen({
   onApprove,
   onRemove,
   onGenerate,
+  conflicts = [],
 }: SourcesScreenProps) {
   const [drawerSource, setDrawerSource] = useState<Source | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -44,10 +46,10 @@ export function SourcesScreen({
   ).length;
 
   const metrics = [
-    { label: 'Nguồn tìm thấy', value: '12', icon: FileText },
-    { label: 'Được chọn lọc', value: '5', icon: CheckCircle2 },
+    { label: 'Nguồn tìm thấy', value: String(sources.length), icon: FileText },
+    { label: 'Được chọn lọc', value: String(approvedCount), icon: CheckCircle2 },
     { label: 'Độ tin cậy cao', value: String(highConfidenceCount), icon: ShieldCheck },
-    { label: 'Luận điểm xung đột', value: '1', icon: AlertTriangle },
+    { label: 'Luận điểm xung đột', value: String(conflicts.length), icon: AlertTriangle },
   ];
 
   const handleApprove = (id: string) => {
@@ -109,43 +111,8 @@ export function SourcesScreen({
         ))}
       </div>
 
-      {/* Conflicting info card */}
-      <Card className="mb-6 border-amber-200 bg-amber-50/50 p-5">
-        <div className="flex items-start gap-3">
-          <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-amber-100">
-            <AlertTriangle className="h-5 w-5 text-amber-600" />
-          </div>
-          <div className="flex-1">
-            <h3 className="text-sm font-semibold text-amber-800">
-              Phát hiện thông tin xung đột
-            </h3>
-            <p className="mt-1 text-sm text-amber-700">
-              Một số nguồn sử dụng định nghĩa khác nhau về agent tự chủ.
-            </p>
-            <div className="mt-3 grid gap-3 sm:grid-cols-2">
-              <div className="rounded-lg border border-amber-200 bg-background p-3">
-                <p className="text-xs font-medium text-amber-700">Nguồn S1 (Anthropic)</p>
-                <p className="mt-1 text-xs text-muted-foreground">
-                  &ldquo;Agents are systems where LLMs dynamically direct their own
-                  processes and tool usage.&rdquo;
-                </p>
-              </div>
-              <div className="rounded-lg border border-amber-200 bg-background p-3">
-                <p className="text-xs font-medium text-amber-700">Nguồn S2 (ReAct)</p>
-                <p className="mt-1 text-xs text-muted-foreground">
-                  &ldquo;ReAct interleaves reasoning traces and task-specific
-                  actions.&rdquo;
-                </p>
-              </div>
-            </div>
-            <div className="mt-3 flex items-center gap-2 text-xs font-medium text-amber-700">
-              <AlertOctagon className="h-3.5 w-3.5" />
-              Cần quyết định của con người
-            </div>
-          </div>
-        </div>
-      </Card>
-
+      {conflicts.map((text, i) => <Card key={i} className="mb-4 p-4 border-amber-300">Cần người duyệt: {text}</Card>)}
+      <p className="mb-4 text-sm text-muted-foreground">Tiêu chí: nguồn gốc/tác giả, tài liệu gốc, ngày đăng, bằng chứng trực tiếp và đối chiếu độc lập. Điểm số chỉ là quy đổi mức AI đánh giá; chưa phải xác suất đúng.</p>
       {/* Source cards */}
       <div className="space-y-4">
         {sources.map((source) => (
@@ -160,28 +127,6 @@ export function SourcesScreen({
             onCancelRemove={() => setConfirmRemoveId(null)}
           />
         ))}
-      </div>
-
-      {/* Error state examples */}
-      <div className="mt-8 grid gap-4 lg:grid-cols-3">
-        <ErrorStateCard
-          icon={Search}
-          title="Không có nguồn đáng tin cậy"
-          message="Không tìm thấy đủ bằng chứng đáng tin cậy."
-          actions={['Tìm lại', 'Mở rộng tìm kiếm']}
-        />
-        <ErrorStateCard
-          icon={AlertTriangle}
-          title="Bằng chứng xung đột"
-          message="Hai nguồn đáng tin cậy bất đồng quan điểm."
-          actions={['Giữ nguồn A', 'Giữ nguồn B', 'Giữ cả hai góc nhìn']}
-        />
-        <ErrorStateCard
-          icon={Unlink}
-          title="Nguồn bị hỏng"
-          message="Không thể truy cập trang này."
-          badge="Đã loại khỏi bằng chứng"
-        />
       </div>
 
       {/* Sticky action bar */}

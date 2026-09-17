@@ -1,0 +1,152 @@
+{
+  "case": {
+    "id": "N21",
+    "class": "hiem",
+    "input": {
+      "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+      "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+      "targetAudience": "Giáo viên mầm non",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Rất ít tài liệu tiếng Việt. Phải xoay sang nguồn ngoại ngữ và nói rõ.",
+    "origin": "tự tạo — chủ đề ít tài liệu tiếng Việt; không phải chatlog",
+    "passCriteria": "Ghi rõ thiếu nguồn tiếng Việt; dùng nguồn tiếng Anh và nêu rõ",
+    "failCriteria": "Bịa nguồn tiếng Việt; không nói rõ nguồn ngoại ngữ"
+  },
+  "research": {
+    "http": 200,
+    "sources": [],
+    "thongTin": [],
+    "searchQueries": [
+      "AI preschool Vietnam",
+      "AI education concerns"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789586946319",
+      "timestamp": "2026-09-16T19:29:06.319Z",
+      "phase": "research",
+      "input": {
+        "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "targetAudience": "Giáo viên mầm non",
+        "videoDuration": "4 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Nearly 96% of Vietnamese students use AI, the highest rate in the world. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnBmd3p1YnBpTWlob1I1UmRrVFRZMm1FOGNKRi1wbDhMZXlzcTM3Q3VxVVRMOTI5TTZxZWhHRmxwSWwxcE9kLUc2SlpLcTNocmpmbzh1VTkydGNXMDAwQjBPMjJmN08yMFFWbm1GMk45Q1BGdzRBRHVqZTFDTm9ZS3hpSDk?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnBmd3p1YnBpTWlob1I1UmRrVFRZMm1FOGNKRi1wbDhMZXlzcTM3Q3VxVVRMOTI5TTZxZWhHRmxwSWwxcE9kLUc2SlpLcTNocmpmbzh1VTkydGNXMDAwQjBPMjJmN08yMFFWbm1",
+              "position": 1
+            },
+            {
+              "title": "Khanh Hoa: Preschool children from ethnic minority groups and particularly disadvantaged areas will receive free milk 5 times a week. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeGhieExfdHBfcy1UVWdXcVZ5UkhXWGQ1eVJuWVpCQ1ZpLVNIUXZGQWtxMzFlSWJGQXlYNHJYekhRd3VXTXpVS3h2M0pPV2k5X1ZLX3RWZmxqRTdKZFQzclRWN0NpeHlfRFBqZjBwa0p6YkZ3ZkljVEljOTVGbHZZT2hLUnNFdVNuc1QwNE1oeHozTERibTNTZlZPdUIwR1lic0JvcmVPTWRKMVNOS2w2b0JzVFNZUGlEeHJEUXpSMXVWUnI4LUE?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOeGhieExfdHBfcy1UVWdXcVZ5UkhXWGQ1eVJuWVpCQ1ZpLVNIUXZGQWtxMzFlSWJGQXlYNHJYekhRd3VXTXpVS3h2M0pPV2k5X1ZLX3RWZmxqRTdKZFQzclRWN0NpeHlfRFBqZjB",
+              "position": 2
+            },
+            {
+              "title": "Coach Cristiano Roland: Vietnamese youth football needs more synchronous investment - Laodong.vn",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbUdtUmxlM1gyc3ZVTmlNeXNHLTlXTW5OVEhQU0hNZXJRMU1DRjZRaklRN2ZVVWl3aXQzb3BNX2pRTXcwaTJpRDF3NUpNYnNRSlduVnFzUExrZHUzMk1OLW0zMWtoUEdfVGhOd09rR21GUFpaUTA4c1NHMXpjVUJod0gtSHVBc3EwM2lUa0tUTWZ1aEpMYWQ4LXNrcDRoVW11Rldwdk15ekYtMmR6a2xEbHlnOA?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPbUdtUmxlM1gyc3ZVTmlNeXNHLTlXTW5OVEhQU0hNZXJRMU1DRjZRaklRN2ZVVWl3aXQzb3BNX2pRTXcwaTJpRDF3NUpNYnNRSlduVnFzUExrZHUzMk1OLW0zMWtoUEdfVGhOd09",
+              "position": 3
+            },
+            {
+              "title": "Investing in smart classrooms and promoting the application of AI. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82a2FmUkRmQTlUS3gxZll6SXhpYnJTazRjRmJqUVJjTHp5UVFVSldjbzhwMHVreTl1VXA4NmM1a2FEYVJ5TU1VZC1yOWxmVDB1VGFOR0x6TFpTT0hBSXgwY1VYWUZ5LTN0Nl9KM1NlR001YU1OY0JvM3g2MHhHNUk?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE82a2FmUkRmQTlUS3gxZll6SXhpYnJTazRjRmJqUVJjTHp5UVFVSldjbzhwMHVreTl1VXA4NmM1a2FEYVJ5TU1VZC1yOWxmVDB1VGFOR0x6TFpTT0hBSXgwY1VYWUZ5LTN0Nl9KM1N",
+              "position": 4
+            },
+            {
+              "title": "Opening of two training classes for Lao trade union officials in Quang Ninh - Laodong.vn",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNm1Fd3BRbTBVZkFDR0UtR0RVdEN3cUtzcTZjMHpzeEtqWTZWam5XamRkc2h3dkZLdU8zLW9hSDVJcmdMSkxrbWd1VkFNSVJjeEQ2YVJLVjlaVDRYZjlsSlpmQklfOWxMTVJZbDkzbW9JMzVoNWEzbXNhOUl0eHR3NWpHdjRSNm82R3pXZks3TURoa3hGQmdXNF9RRjFjR1ZScUFtTzhhNXZfcjExVlYtUw?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNm1Fd3BRbTBVZkFDR0UtR0RVdEN3cUtzcTZjMHpzeEtqWTZWam5XamRkc2h3dkZLdU8zLW9hSDVJcmdMSkxrbWd1VkFNSVJjeEQ2YVJLVjlaVDRYZjlsSlpmQklfOWxMTVJZbDk",
+              "position": 5
+            }
+          ],
+          "query": "AI preschool Vietnam",
+          "engine": "multi-engine"
+        },
+        {
+          "results": [
+            {
+              "title": "Artificial intelligence education for high school students: Teaching students to master it. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUm9qZE85d052T2h5WWs1QlJrNVpUbVpreUFDU1dVUG95T1JMVGs3aWFfLWRjZUx2UTFER041NXhBckNPVUdZd1MwQWVsa0lxS0U1TVZ5ZFFEeXBucVVyXzBfdlV2SVpJY2JyVjhtMTlRZlJOWEFRcUlWazVIS0wtREhmUW5HZEs0MGc1ZmF6TWl5VlFjVUQ4MlJ6SQ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOUm9qZE85d052T2h5WWs1QlJrNVpUbVpreUFDU1dVUG95T1JMVGs3aWFfLWRjZUx2UTFER041NXhBckNPVUdZd1MwQWVsa0lxS0U1TVZ5ZFFEeXBucVVyXzBfdlV2SVpJY2JyVjh",
+              "position": 1
+            },
+            {
+              "title": "The new generation of graduates facing the whirlwind of artificial intelligence. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZzFiTHFOTi1RZVZGVnFrSDdXZkdfWFZjMjIzVTczY1l4R1RzanpQMVBFZV9NS1lRRHlvV0JtOWowd0RHOHV1eXVRRkhHclNxcXNqRUhVMzJDYkFEbU5NVmVYNDlPSk5aOGtZMVBTN1FKd0lMZ0JhbTNsOG1ZOEhvYQ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQZzFiTHFOTi1RZVZGVnFrSDdXZkdfWFZjMjIzVTczY1l4R1RzanpQMVBFZV9NS1lRRHlvV0JtOWowd0RHOHV1eXVRRkhHclNxcXNqRUhVMzJDYkFEbU5NVmVYNDlPSk5aOGtZMVB",
+              "position": 2
+            },
+            {
+              "title": "Ministry of Education and Training answers concerns about teachers tutoring other subjects for students - Laodong.vn",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3hPeXh1a0JRbGRacDhIMGx1QkM1bWppS3NGNHA5MVh4Z3FVV0Y0alBMdXRlMXVPeWowVHRMMVNOcWN5Z2pQb1dFdmdGYzJTUGcwWmtreEpRTjFmd01rR2Q0UnZzQnJIRVBsbkIyeUozOTE1YS1HZ3hDV2t0N09KRkxjNjVZcmdGZUdzUnRYbzNadnlpT092REIyaFpUaWNPdWw5VW1MTXlMV1dxbktFZEt1TWJFZXNJ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3hPeXh1a0JRbGRacDhIMGx1QkM1bWppS3NGNHA5MVh4Z3FVV0Y0alBMdXRlMXVPeWowVHRMMVNOcWN5Z2pQb1dFdmdGYzJTUGcwWmtreEpRTjFmd01rR2Q0UnZzQnJIRVBsbkI",
+              "position": 3
+            },
+            {
+              "title": "Việt Nam launches AI Olympiad as it prepares to host global competition - vietnamnews.vn",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVFFJNWVjMHBFcUtxZkRWYnRmaDA3NEpmVkd4VkJpLW1oWG1MNEwzMXhhT1hxaDlGOTB5M2t3RkhBX1ljS1c0Tk1PdkVIYlBTQWdPbkxkVkFaYzJKd3NLN0xtbWE4Q2oyODJGV0xfUzJJYkc2NWIzS2p3ZXpLYzk4VDkxSkVMQ2tYVjZGeTd0QXMtb1MyMk92c0dXWl95Z2tkR3RRQVAwVTRTSmN1WXh0MzZGLUtUQQ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPVFFJNWVjMHBFcUtxZkRWYnRmaDA3NEpmVkd4VkJpLW1oWG1MNEwzMXhhT1hxaDlGOTB5M2t3RkhBX1ljS1c0Tk1PdkVIYlBTQWdPbkxkVkFaYzJKd3NLN0xtbWE4Q2oyODJGV0x",
+              "position": 4
+            },
+            {
+              "title": "High school students are taught skills to avoid risks in cyberspace. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORHlrTEpYenRWOUowdmFLTFpkRVItci0xZlVjdktaMXlVdERoekpwbDkwX08tVm5SMGhmTXRPS2pTWHI4NWo5TTNkWVJtUHpLYmxyTTI2enlaWjl6eEtONHN0M0dWS20zQ3hjOVZtQjV5bTBJNjYzNEdUUjAzV19ZSmpBa0U3UVJJN2lvVXVEMy1GX0N0QVZYSlAyTE9VemZ3MFZv?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxORHlrTEpYenRWOUowdmFLTFpkRVItci0xZlVjdktaMXlVdERoekpwbDkwX08tVm5SMGhmTXRPS2pTWHI4NWo5TTNkWVJtUHpLYmxyTTI2enlaWjl6eEtONHN0M0dWS20zQ3hjOVZ",
+              "position": 5
+            }
+          ],
+          "query": "AI education concerns",
+          "engine": "multi-engine"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnBmd3p1YnBpTWlob1I1UmRrVFRZMm1FOGNKRi1wbDhMZXlzcTM3Q3VxVVRMOTI5TTZxZWhHRmxwSWwxcE9kLUc2SlpLcTNocmpmbzh1VTkydGNXMDAwQjBPMjJmN08yMFFWbm1GMk45Q1BGdzRBRHVqZTFDTm9ZS3hpSDk?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:05.239Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeGhieExfdHBfcy1UVWdXcVZ5UkhXWGQ1eVJuWVpCQ1ZpLVNIUXZGQWtxMzFlSWJGQXlYNHJYekhRd3VXTXpVS3h2M0pPV2k5X1ZLX3RWZmxqRTdKZFQzclRWN0NpeHlfRFBqZjBwa0p6YkZ3ZkljVEljOTVGbHZZT2hLUnNFdVNuc1QwNE1oeHozTERibTNTZlZPdUIwR1lic0JvcmVPTWRKMVNOS2w2b0JzVFNZUGlEeHJEUXpSMXVWUnI4LUE?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:05.240Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbUdtUmxlM1gyc3ZVTmlNeXNHLTlXTW5OVEhQU0hNZXJRMU1DRjZRaklRN2ZVVWl3aXQzb3BNX2pRTXcwaTJpRDF3NUpNYnNRSlduVnFzUExrZHUzMk1OLW0zMWtoUEdfVGhOd09rR21GUFpaUTA4c1NHMXpjVUJod0gtSHVBc3EwM2lUa0tUTWZ1aEpMYWQ4LXNrcDRoVW11Rldwdk15ekYtMmR6a2xEbHlnOA?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:05.240Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [],
+      "sourcesSelected": [],
+      "sourcesRejected": [],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
+      "isDemo": false,
+      "durationMs": 3628
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API."
+  }
+}

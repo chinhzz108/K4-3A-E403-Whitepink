@@ -1,0 +1,57 @@
+{
+  "id": "trace-research-1789586935280",
+  "timestamp": "2026-09-16T19:28:55.280Z",
+  "phase": "research",
+  "input": {
+    "topic": "So sánh GPT-4 và Claude 3",
+    "learningObjective": "Biết ưu nhược điểm của từng mô hình",
+    "targetAudience": "Sinh viên CNTT",
+    "videoDuration": "5 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Transformer (deep learning)",
+          "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)",
+          "snippet": "large language models such as GPT-2, GPT-3, GPT-4, Gemini, AlbertAGPT, Claude, BERT, Grok, XLNet, RoBERTa and ChatGPT demonstrate the ability of transformers",
+          "position": 1
+        }
+      ],
+      "query": "So sánh GPT-4 và Claude 3",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    },
+    {
+      "results": [
+        {
+          "title": "Transformer (deep learning)",
+          "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)",
+          "snippet": "large language models such as GPT-2, GPT-3, GPT-4, Gemini, AlbertAGPT, Claude, BERT, Grok, XLNet, RoBERTa and ChatGPT demonstrate the ability of transformers",
+          "position": 1
+        }
+      ],
+      "query": "So sánh GPT-4 và Claude 3 documentation",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)",
+      "content": "From Wikipedia, the free encyclopedia Algorithm for modelling sequential data This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these messages) This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Transformer\" deep learning – news · newspapers · books · scholar · JSTOR (June 2026) (Learn how and when to remove this message)Some of this article's listed sources may not be reliable. Please help improve this article by looking for better, more reliable sources. Unreliable citations may be challenged and removed. (June 2026) (Learn how and when to remove this message) (Learn how and when to remove this message) A standard transformer architecture, showing on the left an encoder, and on the right a decoder. Note: this uses the pre-LN convention, which is different from the post-LN convention used in the original 2017 transformer. In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which input data such as text, images, or audio, is converted to a sequence of numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table.[1] At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.[1] Transformers have the advantage of having no recurrent units, therefore requiring less training time than earlier recurrent neural architectures (RNNs) such as long short-term memory (LSTM).[2] Later variations have been widely adopted for training large language models (LLMs) on large (language) datasets.[3] Modern transformer designs are commonly grouped into encoder-only, decoder-only, and encoder-decoder variants, depending on whether they are optimized for representation learning, autoregressive generation, or conditional sequence-to-sequence tasks.[4] The original version of the transformer architecture was proposed in the 2017 paper \"Attention Is All You Need\" by researchers at Google.[1] The predecessors of transformers were developed as an improvement over previous architectures for machine translation,[5][6] but have found many applications since. They are used in large-scale natural language processing, computer vision (visi…[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:54.207Z",
+      "title": "Transformer (deep learning) - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [],
+  "sourcesSelected": [],
+  "sourcesRejected": [],
+  "thongTin": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
+  "isDemo": false,
+  "durationMs": 2381
+}

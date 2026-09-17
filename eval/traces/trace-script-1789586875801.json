@@ -1,0 +1,54 @@
+{
+  "id": "trace-script-1789586875801",
+  "timestamp": "2026-09-16T19:27:55.801Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách một mô hình học từ ví dụ",
+    "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "targetAudience": "Học sinh cấp ba",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+      "tieuDe": "Data-driven learning - Wikipedia",
+      "ngayLayVe": "2026-09-16T19:27:47.899Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia is a tertiary source with community editing, providing general information but not peer-reviewed.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Wikipedia article",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Cách một mô hình học từ ví dụ",
+    "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Học sinh cấp ba",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: AI output không đúng mẫu hoặc tham chiếu nguồn không hợp lệ",
+  "isDemo": false,
+  "durationMs": 3880
+}

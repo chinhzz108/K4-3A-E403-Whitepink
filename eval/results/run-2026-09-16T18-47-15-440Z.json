@@ -1,0 +1,171 @@
+{
+  "runAt": "2026-09-16T18:47:15.441Z",
+  "server": "http://localhost:3000",
+  "summary": {
+    "total": 1,
+    "pass": 0,
+    "fail": 0,
+    "error": 1,
+    "passRate": "0%"
+  },
+  "results": [
+    {
+      "id": "N01",
+      "class": "thuong",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút"
+      },
+      "status": "error",
+      "reason": "Lỗi gọi AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "details": {
+        "sourcesFound": 0,
+        "sourcesApproved": 0,
+        "pagesRead": 0,
+        "scriptSentences": 0,
+        "sentencesWithSource": 0,
+        "isDemo": false,
+        "promptInjectionDetected": false,
+        "contradictionsFound": false,
+        "hasNumbersInLoi": false,
+        "errors": [
+          "Lỗi gọi AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        ]
+      },
+      "trace": {
+        "id": "trace-research-1789584433433",
+        "timestamp": "2026-09-16T18:47:13.433Z",
+        "phase": "research",
+        "input": {
+          "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+          "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+          "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+          "videoDuration": "4 phút"
+        },
+        "searchResults": [
+          {
+            "results": [
+              {
+                "title": "Hiểu cửa sổ ngữ cảnh của các mô hình ngôn ngữ lớn",
+                "url": "https://vn.linkedin.com/pulse/understanding-context-window-large-language-models-llms-yeshwanth-mklac?tl=vi",
+                "snippet": "Hãy khám phá điều này có nghĩa là gì và những ưu điểm và nhược điểm của việc có một cửa sổ ngữ cảnh dài. Cửa sổ ngữ cảnh là gì? Cửa sổ ngữ cảnh về cơ bản là \"bộ nhớ\" của...",
+                "position": 1
+              },
+              {
+                "title": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+                "url": "https://vnptai.io/vi/blog/detail/context-window",
+                "snippet": "Context Window (cửa sổ ngữ cảnh) là thuật ngữ dùng chỉ lượng thông tin mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại một thời điểm.",
+                "position": 2
+              },
+              {
+                "title": "Context Window là gì? Sức mạnh của cửa sổ ngữ cảnh trong AI",
+                "url": "https://starttrain.edu.vn/context-window/",
+                "snippet": "Context Window (Cửa sổ ngữ cảnh) là lượng dữ liệu tối đa (văn bản, mã code, hình ảnh, …) mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại một thời điểm nhất định trong một phiên làm việc. Bạn có thể hình dung Context Window giống như bộ nhớ ngắn hạn của con người.",
+                "position": 3
+              },
+              {
+                "title": "Context Window là gì? Hiểu về cửa sổ ngữ cảnh trong AI & LLM",
+                "url": "https://bizfly.vn/techblog/context-window.html",
+                "snippet": "Context window hay cửa sổ ngữ cảnh là giới hạn bộ nhớ làm việc của mô hình ngôn ngữ lớn, thường gọi là LLM. Giới hạn này cho biết AI có thể \"nhìn thấy\" và xử lý tối đa bao nhiêu thông tin trong một lần tương tác. Context window được đo bằng token, không phải số từ hay số ký tự.",
+                "position": 4
+              },
+              {
+                "title": "Cửa sổ ngữ cảnh là gì? Hướng dẫn dễ hiểu dành cho bạn (2026)",
+                "url": "https://findskill.ai/vi/learn/cua-so-ngu-canh/",
+                "snippet": "Cửa sổ ngữ cảnh (context window) là lượng văn bản tối đa mà một mô hình AI có thể đọc và xử lý cùng lúc — được đo bằng token. Nó bao gồm câu hỏi của bạn, tài liệu bạn dán vào, và toàn bộ lịch sử trò chuyện cho đến nay. Vào năm 2026, giới hạn này dao động từ khoảng 200.000 token (Claude) lên tới 1-2 triệu token (GPT-5.x, Gemini).",
+                "position": 5
+              }
+            ],
+            "query": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ bài giảng",
+            "engine": "duckduckgo"
+          },
+          {
+            "results": [
+              {
+                "title": "Context Window là gì? Hiểu về cửa sổ ngữ cảnh trong AI & LLM",
+                "url": "https://bizfly.vn/techblog/context-window.html",
+                "snippet": "Context window hay cửa sổ ngữ cảnh là giới hạn bộ nhớ làm việc của mô hình ngôn ngữ lớn, thường gọi là LLM. Giới hạn này cho biết AI có thể \"nhìn thấy\" và xử lý tối đa bao nhiêu thông tin trong một lần tương tác. Context window được đo bằng token, không phải số từ hay số ký tự.",
+                "position": 1
+              },
+              {
+                "title": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+                "url": "https://vnptai.io/vi/blog/detail/context-window",
+                "snippet": "Context Window (cửa sổ ngữ cảnh) là thuật ngữ dùng chỉ lượng thông tin mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại một thời điểm.",
+                "position": 2
+              },
+              {
+                "title": "Cửa sổ ngữ cảnh là gì? Hướng dẫn dễ hiểu dành cho bạn (2026)",
+                "url": "https://findskill.ai/vi/learn/cua-so-ngu-canh/",
+                "snippet": "Đó là lý do kích thước cửa sổ ngữ cảnh, chứ không chỉ độ thông minh thô của mô hình, trở thành thông số nổi bật nhất cho các công cụ hỗ trợ coding vào năm 2026.",
+                "position": 3
+              },
+              {
+                "title": "Context Window là gì? Sức mạnh của cửa sổ ngữ cảnh trong AI",
+                "url": "https://starttrain.edu.vn/context-window/",
+                "snippet": "Context Window (Cửa sổ ngữ cảnh) là lượng dữ liệu tối đa (văn bản, mã code, hình ảnh, …) mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại một thời điểm nhất định trong một phiên làm việc. Bạn có thể hình dung Context Window giống như bộ nhớ ngắn hạn của con người.",
+                "position": 4
+              },
+              {
+                "title": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+                "url": "https://camnangai.com/kien-thuc-ai/context-window",
+                "snippet": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm. Nó lưu toàn bộ chỉ dẫn, lịch sử hội thoại và dữ liệu đính kèm để mô hình \"nhìn thấy\" khi tạo phản hồi.",
+                "position": 5
+              }
+            ],
+            "query": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ hướng dẫn",
+            "engine": "duckduckgo"
+          }
+        ],
+        "pagesRead": [
+          {
+            "url": "https://vn.linkedin.com/pulse/understanding-context-window-large-language-models-llms-yeshwanth-mklac?tl=vi",
+            "status": "ok",
+            "contentLength": 5013,
+            "promptInjection": false
+          },
+          {
+            "url": "https://vnptai.io/vi/blog/detail/context-window",
+            "status": "ok",
+            "contentLength": 5013,
+            "promptInjection": false
+          },
+          {
+            "url": "https://starttrain.edu.vn/context-window/",
+            "status": "ok",
+            "contentLength": 5013,
+            "promptInjection": false
+          },
+          {
+            "url": "https://bizfly.vn/techblog/context-window.html",
+            "status": "ok",
+            "contentLength": 5013,
+            "promptInjection": false
+          },
+          {
+            "url": "https://findskill.ai/vi/learn/cua-so-ngu-canh/",
+            "status": "ok",
+            "contentLength": 5013,
+            "promptInjection": false
+          },
+          {
+            "url": "https://camnangai.com/kien-thuc-ai/context-window",
+            "status": "ok",
+            "contentLength": 5013,
+            "promptInjection": false
+          }
+        ],
+        "sourcesEvaluated": [],
+        "sourcesSelected": [],
+        "sourcesRejected": [],
+        "thongTin": [],
+        "aiRawResponse": "",
+        "error": "Lỗi gọi AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+        "isDemo": false,
+        "durationMs": 7247
+      },
+      "durationMs": 7299
+    }
+  ]
+}

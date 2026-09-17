@@ -1,0 +1,72 @@
+{
+  "id": "trace-research-1789586634024",
+  "timestamp": "2026-09-16T19:23:54.024Z",
+  "phase": "research",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [],
+      "query": "language model context window size and limitations",
+      "error": "Không tìm thấy kết quả từ các công cụ tìm kiếm web."
+    },
+    {
+      "results": [
+        {
+          "title": "iOS 27 Public Beta: Experience Siri AI and an 80% performance leap. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEN4dlBhdG9XMkxjMUpNdE5Fb3YtN1A3dU1HamlPa3BFemRiU3o1bDI3dmJoSVdrU1VuU2VDWHljWEJvSkhCaE5vbndKUjkwNmxXU0p6ZWJldWwybFhjN2gtNkJnVUZVNUplRV90UXFSR1lYcE1lajVsTFFYc1ByeXhDcWYxYTFad294VmZkajdGMV8wWVBtOUdR?oc=5",
+          "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEN4dlBhdG9XMkxjMUpNdE5Fb3YtN1A3dU1HamlPa3BFemRiU3o1bDI3dmJoSVdrU1VuU2VDWHljWEJvSkhCaE5vbndKUjkwNmxXU0p6ZWJldWwybFhjN2gtNkJnVUZVNUplRV9",
+          "position": 1
+        }
+      ],
+      "query": "why large language models lose early conversation context",
+      "engine": "multi-engine"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEN4dlBhdG9XMkxjMUpNdE5Fb3YtN1A3dU1HamlPa3BFemRiU3o1bDI3dmJoSVdrU1VuU2VDWHljWEJvSkhCaE5vbndKUjkwNmxXU0p6ZWJldWwybFhjN2gtNkJnVUZVNUplRV90UXFSR1lYcE1lajVsTFFYc1ByeXhDcWYxYTFad294VmZkajdGMV8wWVBtOUdR?oc=5",
+      "content": "",
+      "fetchedAt": "2026-09-16T19:23:51.589Z",
+      "title": "Google Tin tức",
+      "status": "ok",
+      "contentLength": 0,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEN4dlBhdG9XMkxjMUpNdE5Fb3YtN1A3dU1HamlPa3BFemRiU3o1bDI3dmJoSVdrU1VuU2VDWHljWEJvSkhCaE5vbndKUjkwNmxXU0p6ZWJldWwybFhjN2gtNkJnVUZVNUplRV90UXFSR1lYcE1lajVsTFFYc1ByeXhDcWYxYTFad294VmZkajdGMV8wWVBtOUdR?oc=5",
+      "tieuDe": "Google Tin tức",
+      "toChuc": "Google Tin tức",
+      "ngayLayVe": "2026-09-16T19:23:51.589Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không có thông tin tác giả, ngày đăng, nội dung chi tiết; không thể xác thực nguồn.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng",
+        "Nội dung không có",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [],
+  "sourcesRejected": [
+    "n01"
+  ],
+  "thongTin": [],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEN4dlBhdG9XMkxjMUpNdE5Fb3YtN1A3dU1HamlPa3BFemRiU3o1bDI3dmJoSVdrU1VuU2VDWHljWEJvSkhCaE5vbndKUjkwNmxXU0p6ZWJldWwybFhjN2gtNkJnVUZVNUplRV90UXFSR1lYcE1lajVsTFFYc1ByeXhDcWYxYTFad294VmZkajdGMV8wWVBtOUdR?oc=5\",\n      \"tieuDe\": \"Google Tin tức\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Google Tin tức\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-16T19:23:51.589Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Không có thông tin tác giả, ngày đăng, nội dung chi tiết; không thể xác thực nguồn.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Thiếu thông tin cơ bản, không có nội dung để trích xuất.\",\n      \"canhBao\": [\n        \"Thiếu thông tin tác giả và ngày đăng\",\n        \"Nội dung không có\"\n      ],\n      \"doanTrich\": \"\"\n    }\n  ],\n  \"thongTin\": []\n}",
+  "isDemo": false,
+  "durationMs": 4944
+}

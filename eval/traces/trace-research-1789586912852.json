@@ -1,0 +1,123 @@
+{
+  "id": "trace-research-1789586912852",
+  "timestamp": "2026-09-16T19:28:32.852Z",
+  "phase": "research",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Leveraging Large Language Models for Predicting Cost and Duration in ...",
+          "url": "https://arxiv.org/html/2409.09617v1",
+          "snippet": "We explore the efficacy of LLMs against traditional methods and contemporary machine learning techniques, focusing on their potential to simplify the estimation process and provide higher accuracy.",
+          "position": 1
+        },
+        {
+          "title": "PDF Towards a Fast Cost Estimation Supported by Large Language Models",
+          "url": "https://cosmic-sizing.org/wp-content/uploads/2024/01/mNews-Okt23-final.pdf",
+          "snippet": "This elaboration describes the conceptual identification of the capabilities of large language models for cost estimation. For this purpose, the possibilities of the models for size estimation according to COSMIC Function Point are explained and examined prototypically.",
+          "position": 2
+        },
+        {
+          "title": "[2409.09617] Leveraging Large Language Models for Predicting Cost and ...",
+          "url": "https://arxiv.org/abs/2409.09617",
+          "snippet": "We explore the efficacy of LLMs against traditional methods and contemporary machine learning techniques, focusing on their potential to simplify the estimation process and provide higher accuracy.",
+          "position": 3
+        },
+        {
+          "title": "Leveraging Large Language Models for Predicting Cost and Duration in ...",
+          "url": "https://www.researchgate.net/publication/384074868_Leveraging_Large_Language_Models_for_Predicting_Cost_and_Duration_in_Software_Engineering_Projects",
+          "snippet": "This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost predictions.",
+          "position": 4
+        },
+        {
+          "title": "AI-Driven Automation of Construction Cost Estimation ... - MDPI",
+          "url": "https://www.mdpi.com/2075-5309/16/3/485",
+          "snippet": "This research presented, implemented, and validated a novel framework for the fully automated estimation of construction costs by integrating Building Information Modeling with large language models through the Model Context Protocol.",
+          "position": 5
+        }
+      ],
+      "query": "language model cost estimation",
+      "engine": "duckduckgo"
+    },
+    {
+      "results": [
+        {
+          "title": "4 strategies to optimize costs of large language model deployment",
+          "url": "https://blogs.sas.com/content/sascom/2024/03/12/4-strategies-to-optimize-costs-of-large-language-model-deployment/",
+          "snippet": "Learn how to save costs with AI by combining traditional natural language processing and large language models in business.",
+          "position": 1
+        },
+        {
+          "title": "Large Language Models: Performance vs. Cost - MentorCruise",
+          "url": "https://mentorcruise.com/blog/how-does-the-quality-of-large-language-models-compare-with-their-costs/",
+          "snippet": "This image illustrates a significant trend in OpenAI's innovative work on large language models: the simultaneous reduction in costs and improvement in quality over time.",
+          "position": 2
+        },
+        {
+          "title": "Small Language Models for Cost-Efficient AI Workflows",
+          "url": "https://mljourney.com/small-language-models-for-cost-efficient-ai-workflows/",
+          "snippet": "Discover how small language models can reduce AI costs by 70-90% while maintaining performance. Learn strategic...",
+          "position": 3
+        },
+        {
+          "title": "How We Cut LLM Costs 80% - TALVINDER",
+          "url": "https://talvinder.com/build-logs/reduce-llm-inference-costs/",
+          "snippet": "A concrete framework for reducing large language model expenses by 80% without sacrificing output quality.",
+          "position": 4
+        },
+        {
+          "title": "The hidden cost of large language models | Red Hat Developer",
+          "url": "https://developers.redhat.com/articles/2025/06/24/hidden-cost-large-language-models",
+          "snippet": "Discover how model compression slashes LLM deployment costs for technical practitioners, covering quantization, pruning, distillation, and speculative decoding.",
+          "position": 5
+        }
+      ],
+      "query": "reducing language model expenses",
+      "engine": "duckduckgo"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://arxiv.org/html/2409.09617v1",
+      "content": "Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects Justin Carpenter Affiliation: Department of Computer Science Boise State University Boise, Idaho, USA Justincarpenter836@u.boisestate.edu Chia-Ying Wu Affiliation: Department of Computer Science Boise State University Boise, USA chiayingwu@u.boisestate.edu Nasir U. Eisty Affiliation: Department of Computer Science Boise State University Boise, Idaho, USA nasireisty@boisestate.edu Affiliation: Abstract Accurate estimation of project costs and durations remains a pivotal challenge in software engineering, directly impacting budgeting and resource management. Traditional estimation techniques, although widely utilized, often fall short due to their complexity and the dynamic nature of software development projects. This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost predictions. We explore the efficacy of LLMs against traditional methods and contemporary machine learning techniques, focusing on their potential to simplify the estimation process and provide higher accuracy. Our research is structured around critical inquiries into whether LLMs can outperform existing models, the ease of their integration into current practices, outperform traditional estimation, and why traditional methods still prevail in industry settings. By applying LLMs to a range of real-world datasets and comparing their performance to both state-of-the-art and conventional methods, this study aims to demonstrate that LLMs not only yield more accurate estimates but also offer a user-friendly alternative to complex predictive models, potentially transforming project management strategies within the software industry. Index Terms: LLM, Software Engineering, Cost, Duration I Introduction Effective software cost estimation has always been a focal point for most companies in the field of software engineering. However, despite the existence of many traditional methods for cost estimation, the diversity and complexity of software development often render these traditional approaches inaccurate and time-consuming. For software development organizations, accurate cost estimation is paramount. It not only helps businesses avoid exceeding budgets but also facilitates effective resource allocation and utilization, ultimately enhancing product quality. However, many current methods of cost estimation suffer from various limitations, such as applicability constraints and low accuracy. Therefore, the core question of this study is: How can we leverage Large Language Models (LLMs) to improve the accuracy and reliability of software project cost estimation? Through addressing this question, we aim to provide software de…[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:31.077Z",
+      "title": "Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://cosmic-sizing.org/wp-content/uploads/2024/01/mNews-Okt23-final.pdf",
+      "content": "",
+      "fetchedAt": "2026-09-16T19:28:31.078Z",
+      "title": "",
+      "status": "error",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.09617",
+      "content": "Computer Science > Software Engineering arXiv:2409.09617 (cs) [Submitted on 15 Sep 2024] Title:Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects Authors:Justin Carpenter, Chia-Ying Wu, Nasir U. Eisty View a PDF of the paper titled Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects, by Justin Carpenter and 2 other authors View PDF HTML (experimental) Abstract:Accurate estimation of project costs and durations remains a pivotal challenge in software engineering, directly impacting budgeting and resource management. Traditional estimation techniques, although widely utilized, often fall short due to their complexity and the dynamic nature of software development projects. This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost predictions. We explore the efficacy of LLMs against traditional methods and contemporary machine learning techniques, focusing on their potential to simplify the estimation process and provide higher accuracy. Our research is structured around critical inquiries into whether LLMs can outperform existing models, the ease of their integration into current practices, outperform traditional estimation, and why traditional methods still prevail in industry settings. By applying LLMs to a range of real-world datasets and comparing their performance to both state-of-the-art and conventional methods, this study aims to demonstrate that LLMs not only yield more accurate estimates but also offer a user-friendly alternative to complex predictive models, potentially transforming project management strategies within the software industry. Subjects: Software Engineering (cs.SE) Cite as: arXiv:2409.09617 [cs.SE] (or arXiv:2409.09617v1 [cs.SE] for this version) https://doi.org/10.48550/arXiv.2409.09617 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Nasir Eisty [view email] [v1] Sun, 15 Sep 2024 05:35:52 UTC (499 KB) Full-text links: Access Paper: View a PDF of the paper titled Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects, by Justin Carpenter and 2 other authorsView PDFHTML (experimental)TeX Source view license Current browse context: cs.SE < prev | next > new | recent | 2024-09 Change to browse by: cs References & Citations NASA ADSGoogle Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer (What is the Explorer?) Connected Papers Toggle Connected Papers (What is Connected Papers?) Litmaps Toggle Litmaps (What is Litma…[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:31.079Z",
+      "title": "[2409.09617] Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [],
+  "sourcesSelected": [],
+  "sourcesRejected": [],
+  "thongTin": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
+  "isDemo": false,
+  "durationMs": 3626
+}

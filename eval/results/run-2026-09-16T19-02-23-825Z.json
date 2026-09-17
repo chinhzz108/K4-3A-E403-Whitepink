@@ -1,0 +1,669 @@
+{
+  "runAt": "2026-09-16T19:02:23.826Z",
+  "server": "http://localhost:3000",
+  "summary": {
+    "total": 1,
+    "pass": 1,
+    "fail": 0,
+    "error": 0,
+    "passRate": "100%"
+  },
+  "results": [
+    {
+      "id": "N01",
+      "class": "thuong",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút"
+      },
+      "status": "pass",
+      "reason": "Đạt các tiêu chí cơ bản",
+      "details": {
+        "sourcesFound": 7,
+        "sourcesApproved": 3,
+        "pagesRead": 7,
+        "scriptSentences": 5,
+        "sentencesWithSource": 4,
+        "isDemo": false,
+        "promptInjectionDetected": false,
+        "contradictionsFound": true,
+        "hasNumbersInLoi": false,
+        "errors": []
+      },
+      "trace": {
+        "researchTrace": {
+          "id": "trace-research-1789585338258",
+          "timestamp": "2026-09-16T19:02:18.258Z",
+          "phase": "research",
+          "input": {
+            "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+            "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+            "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+            "videoDuration": "4 phút"
+          },
+          "searchResults": [
+            {
+              "results": [
+                {
+                  "title": "Hiểu cửa sổ ngữ cảnh của các mô hình ngôn ngữ lớn",
+                  "url": "https://vn.linkedin.com/pulse/understanding-context-window-large-language-models-llms-yeshwanth-mklac?tl=vi",
+                  "snippet": "Hãy khám phá điều này có nghĩa là gì và những ưu điểm và nhược điểm của việc có một cửa sổ ngữ cảnh dài. Cửa sổ ngữ cảnh là gì? Cửa sổ ngữ cảnh về cơ bản là \"bộ nhớ\" của...",
+                  "position": 1
+                },
+                {
+                  "title": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+                  "url": "https://vnptai.io/vi/blog/detail/context-window",
+                  "snippet": "Context Window (cửa sổ ngữ cảnh) là thuật ngữ dùng chỉ lượng thông tin mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại một thời điểm.",
+                  "position": 2
+                },
+                {
+                  "title": "Context Window là gì? Sức mạnh của cửa sổ ngữ cảnh trong AI",
+                  "url": "https://starttrain.edu.vn/context-window/",
+                  "snippet": "Context Window (Cửa sổ ngữ cảnh) là lượng dữ liệu tối đa (văn bản, mã code, hình ảnh, …) mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại một thời điểm nhất định trong một phiên làm việc. Bạn có thể hình dung Context Window giống như bộ nhớ ngắn hạn của con người.",
+                  "position": 3
+                },
+                {
+                  "title": "Cửa sổ ngữ cảnh là gì? Hướng dẫn dễ hiểu dành cho bạn (2026)",
+                  "url": "https://findskill.ai/vi/learn/cua-so-ngu-canh/",
+                  "snippet": "Cửa sổ ngữ cảnh (context window) là lượng văn bản tối đa mà một mô hình AI có thể đọc và xử lý cùng lúc — được đo bằng token. Nó bao gồm câu hỏi của bạn, tài liệu bạn dán vào, và toàn bộ lịch sử trò chuyện cho đến nay. Vào năm 2026, giới hạn này dao động từ khoảng 200.000 token (Claude) lên tới 1-2 triệu token (GPT-5.x, Gemini).",
+                  "position": 4
+                },
+                {
+                  "title": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+                  "url": "https://camnangai.com/kien-thuc-ai/context-window",
+                  "snippet": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm. Nó lưu toàn bộ chỉ dẫn, lịch sử hội thoại và dữ liệu đính kèm để mô hình \"nhìn thấy\" khi tạo phản hồi.",
+                  "position": 5
+                }
+              ],
+              "query": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ bài giảng",
+              "engine": "duckduckgo"
+            },
+            {
+              "results": [
+                {
+                  "title": "Context Window là gì? Hiểu về cửa sổ ngữ cảnh trong AI & LLM",
+                  "url": "https://bizfly.vn/techblog/context-window.html",
+                  "snippet": "Context window hay cửa sổ ngữ cảnh là giới hạn bộ nhớ làm việc của mô hình ngôn ngữ lớn, thường gọi là LLM. Giới hạn này cho biết AI có thể \"nhìn thấy\" và xử lý tối đa bao nhiêu thông tin trong một lần tương tác. Context window được đo bằng token, không phải số từ hay số ký tự.",
+                  "position": 1
+                },
+                {
+                  "title": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+                  "url": "https://vnptai.io/vi/blog/detail/context-window",
+                  "snippet": "Context Window (cửa sổ ngữ cảnh) là thuật ngữ dùng chỉ lượng thông tin mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại một thời điểm.",
+                  "position": 2
+                },
+                {
+                  "title": "Hiểu cửa sổ ngữ cảnh của các mô hình ngôn ngữ lớn",
+                  "url": "https://vn.linkedin.com/pulse/understanding-context-window-large-language-models-llms-yeshwanth-mklac?tl=vi",
+                  "snippet": "Hãy khám phá điều này có nghĩa là gì và những ưu điểm và nhược điểm của việc có một cửa sổ ngữ cảnh dài. Cửa sổ ngữ cảnh là gì? Cửa sổ ngữ cảnh về cơ bản là \"bộ nhớ\" của...",
+                  "position": 3
+                },
+                {
+                  "title": "AI Agent Roadmap: Hướng dẫn về Cửa sổ Ngữ cảnh và Độ dài Tối đa trong ...",
+                  "url": "https://tuyendung.evotek.vn/ai-agent-roadmap-huong-dan-ve-cua-so-ngu-canh-va-do-dai-toi-da-trong-llm/",
+                  "snippet": "Hôm nay, chúng ta sẽ tập trung vào một khía cạnh kỹ thuật cực kỳ quan trọng quyết định khả năng \"ghi nhớ\" và xử lý thông tin dài của các Mô hình Ngôn ngữ Lớn (LLM): Cửa sổ Ngữ cảnh (Context Window) và Độ dài Tối đa (Max Length).",
+                  "position": 4
+                },
+                {
+                  "title": "Context Window là gì? Sức mạnh của cửa sổ ngữ cảnh trong AI",
+                  "url": "https://starttrain.edu.vn/context-window/",
+                  "snippet": "Context Window (Cửa sổ ngữ cảnh) là lượng dữ liệu tối đa (văn bản, mã code, hình ảnh, …) mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại một thời điểm nhất định trong một phiên làm việc. Bạn có thể hình dung Context Window giống như bộ nhớ ngắn hạn của con người.",
+                  "position": 5
+                }
+              ],
+              "query": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ hướng dẫn",
+              "engine": "duckduckgo"
+            }
+          ],
+          "pagesRead": [
+            {
+              "url": "https://vn.linkedin.com/pulse/understanding-context-window-large-language-models-llms-yeshwanth-mklac?tl=vi",
+              "status": "ok",
+              "contentLength": 5013,
+              "promptInjection": false
+            },
+            {
+              "url": "https://vnptai.io/vi/blog/detail/context-window",
+              "status": "ok",
+              "contentLength": 5013,
+              "promptInjection": false
+            },
+            {
+              "url": "https://starttrain.edu.vn/context-window/",
+              "status": "ok",
+              "contentLength": 5013,
+              "promptInjection": false
+            },
+            {
+              "url": "https://findskill.ai/vi/learn/cua-so-ngu-canh/",
+              "status": "ok",
+              "contentLength": 5013,
+              "promptInjection": false
+            },
+            {
+              "url": "https://camnangai.com/kien-thuc-ai/context-window",
+              "status": "ok",
+              "contentLength": 5013,
+              "promptInjection": false
+            },
+            {
+              "url": "https://bizfly.vn/techblog/context-window.html",
+              "status": "ok",
+              "contentLength": 5013,
+              "promptInjection": false
+            },
+            {
+              "url": "https://tuyendung.evotek.vn/ai-agent-roadmap-huong-dan-ve-cua-so-ngu-canh-va-do-dai-toi-da-trong-llm/",
+              "status": "ok",
+              "contentLength": 5013,
+              "promptInjection": false
+            }
+          ],
+          "sourcesEvaluated": [
+            {
+              "id": "n01",
+              "url": "https://vn.linkedin.com/pulse/understanding-context-window-large-language-models-llms-yeshwanth-mklac?tl=vi",
+              "tieuDe": "Hiểu cửa sổ ngữ cảnh của các mô hình ngôn ngữ lớn",
+              "tacGia": "Không rõ",
+              "toChuc": "Không rõ",
+              "ngayDang": "Không rõ",
+              "ngayLayVe": "2026-09-16T19:01:35.825Z",
+              "loai": "blog-ca-nhan",
+              "doTinCay": "thap",
+              "lyDoTinCay": "Bài viết dịch tự động bằng máy từ LinkedIn Pulse, thiếu thông tin tác giả và ngày đăng rõ ràng, văn phong chuyển ngữ có thể kém chính xác.",
+              "trangThai": "bi-loai",
+              "lyDoLoai": "Nguồn dịch tự động không đảm bảo tính chính xác kỹ thuật; thông tin tác giả và ngày xuất bản bị thiếu.",
+              "canhBao": [
+                "Nội dung do máy dịch tự động"
+              ],
+              "doanTrich": "Bài viết này được tự động dịch bằng máy từ tiếng Anh và có thể có những điểm không chính xác.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            },
+            {
+              "id": "n02",
+              "url": "https://vnptai.io/vi/blog/detail/context-window",
+              "tieuDe": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+              "tacGia": "Nguyễn Minh Hải",
+              "toChuc": "VNPT AI",
+              "ngayDang": "2025-10-22",
+              "ngayLayVe": "2026-09-16T19:01:35.827Z",
+              "loai": "tai-lieu-chinh-thuc",
+              "doTinCay": "cao",
+              "lyDoTinCay": "Bài viết kỹ thuật từ tổ chức công nghệ uy tín VNPT AI, có tên tác giả và ngày đăng minh bạch.",
+              "trangThai": "bi-loai",
+              "lyDoLoai": "Giới hạn số lượng nguồn chọn (đã ưu tiên 3 nguồn n03, n04, n05 giải thích trực tiếp và chi tiết hơn về cơ chế loại bỏ dữ liệu làm quên đầu cuộc trò chuyện).",
+              "canhBao": [],
+              "doanTrich": "Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            },
+            {
+              "id": "n03",
+              "url": "https://starttrain.edu.vn/context-window/",
+              "tieuDe": "Context Window là gì? Sức mạnh của cửa sổ ngữ cảnh trong AI",
+              "tacGia": "Không rõ",
+              "toChuc": "Starttrain",
+              "ngayDang": "2026-03-31",
+              "ngayLayVe": "2026-09-16T19:01:35.828Z",
+              "loai": "tai-lieu-chinh-thuc",
+              "doTinCay": "trung-binh",
+              "lyDoTinCay": "Tài liệu đào tạo giáo dục giải thích sâu về cơ chế Attention, nguyên tắc FIFO và quy trình nạp lại lịch sử hội thoại.",
+              "trangThai": "dang-dung",
+              "lyDoLoai": "",
+              "canhBao": [],
+              "doanTrich": "Tại thời điểm đó, để tiếp tục hội thoại, hệ thống buộc phải loại bỏ các phần dữ liệu cũ nhất (thường là theo nguyên tắc First-In, First-Out) hoặc áp dụng các kỹ thuật nén ngữ cảnh để giữ lại những thông tin quan trọng nhất.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            },
+            {
+              "id": "n04",
+              "url": "https://findskill.ai/vi/learn/cua-so-ngu-canh/",
+              "tieuDe": "Cửa sổ ngữ cảnh là gì? Hướng dẫn dễ hiểu dành cho bạn (2026) | FindSkill.ai — Học AI cho Công Việc Của Bạn",
+              "tacGia": "Đội ngũ FindSkill",
+              "toChuc": "FindSkill.ai — Học AI cho Công Việc Của Bạn",
+              "ngayDang": "2026-07-06",
+              "ngayLayVe": "2026-09-16T19:01:36.930Z",
+              "loai": "tai-lieu-chinh-thuc",
+              "doTinCay": "cao",
+              "lyDoTinCay": "Bài viết phân tích rất dễ hiểu, cập nhật năm 2026, cung cấp ẩn dụ trực quan (mặt bàn làm việc) giải thích lý do AI 'quên' phần đầu hội thoại và phân tích yếu tố đặc thù tiếng Việt.",
+              "trangThai": "dang-dung",
+              "lyDoLoai": "",
+              "canhBao": [],
+              "doanTrich": "Khi bàn đầy, bạn nhét thêm vào, những trang cũ nhất sẽ bị trượt khỏi mép bàn. Chính khoảnh khắc ấy — trang giấy bị trượt khỏi bàn — là lý do chính xác khiến chatbot “quên” những gì bạn đã nói trước đó.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            },
+            {
+              "id": "n05",
+              "url": "https://camnangai.com/kien-thuc-ai/context-window",
+              "tieuDe": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+              "tacGia": "Tuan Tran Van",
+              "toChuc": "Không rõ",
+              "ngayDang": "2026-06-03",
+              "ngayLayVe": "2026-09-16T19:01:36.932Z",
+              "loai": "blog-ca-nhan",
+              "doTinCay": "trung-binh",
+              "lyDoTinCay": "Tác giả có chuyên môn kỹ thuật, phân tích kỹ tính chất stateless của API và cách tích tụ token qua các lượt hội thoại.",
+              "trangThai": "dang-dung",
+              "lyDoLoai": "",
+              "canhBao": [],
+              "doanTrich": "Mỗi tương tác API là một trạng thái mới (stateless), nên để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử... Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            },
+            {
+              "id": "n06",
+              "url": "https://bizfly.vn/techblog/context-window.html",
+              "tieuDe": "Context Window là gì? Hiểu về cửa sổ ngữ cảnh trong AI & LLM",
+              "tacGia": "Đỗ Minh Đức",
+              "toChuc": "Bizfly",
+              "ngayDang": "2025-10-23",
+              "ngayLayVe": "2026-09-16T19:01:36.934Z",
+              "loai": "tai-lieu-chinh-thuc",
+              "doTinCay": "trung-binh",
+              "lyDoTinCay": "Bài viết tổng quan tốt nhưng dính nhiều mã định dạng HTML chưa qua làm sạch.",
+              "trangThai": "bi-loai",
+              "lyDoLoai": "Nguồn dư thừa so với giới hạn chọn 3 nguồn tốt nhất.",
+              "canhBao": [],
+              "doanTrich": "Context window hay cửa sổ ngữ cảnh là giới hạn bộ nhớ làm việc của mô hình ngôn ngữ lớn, thường gọi là LLM.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            },
+            {
+              "id": "n07",
+              "url": "https://tuyendung.evotek.vn/ai-agent-roadmap-huong-dan-ve-cua-so-ngu-canh-va-do-dai-toi-da-trong-llm/",
+              "tieuDe": "AI Agent Roadmap: Hướng dẫn về Cửa sổ Ngữ cảnh và Độ dài Tối đa trong LLM – Evotek Careers",
+              "tacGia": "ngocvy",
+              "toChuc": "Evotek",
+              "ngayDang": "2025-05-14",
+              "ngayLayVe": "2026-09-16T19:01:38.496Z",
+              "loai": "blog-ca-nhan",
+              "doTinCay": "trung-binh",
+              "lyDoTinCay": "Nội dung nằm trong chuyên mục tuyển dụng/blog của công ty Evotek, mang tính tổng hợp.",
+              "trangThai": "bi-loai",
+              "lyDoLoai": "Nguồn dư thừa so với giới hạn chọn 3 nguồn tốt nhất.",
+              "canhBao": [],
+              "doanTrich": "Một cửa sổ ngữ cảnh nhỏ có thể khiến agent “quên” những chi tiết quan trọng từ đầu cuộc trò chuyện",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            }
+          ],
+          "sourcesSelected": [
+            "n03",
+            "n04",
+            "n05"
+          ],
+          "sourcesRejected": [
+            "n01",
+            "n02",
+            "n06",
+            "n07"
+          ],
+          "thongTin": [
+            {
+              "id": "t01",
+              "noiDung": "LLM hoạt động theo cơ chế phi trạng thái (stateless); để duy trì mạch trò chuyện, hệ thống phải liên tục gửi lại toàn bộ lịch sử tin nhắn cùng với câu hỏi mới trong mỗi lượt gọi API.",
+              "loai": "dinh-nghia",
+              "bangChung": [
+                {
+                  "nguonId": "n03",
+                  "doanTrich": "Mỗi khi bạn tương tác với một mô hình ngôn ngữ lớn, hệ thống không chỉ đọc tin nhắn hiện tại mà còn nạp lại toàn bộ lịch sử hội thoại liên quan vào mô hình.",
+                  "viTri": "Đoạn 1, phần 'Context Window hoạt động như thế nào?'"
+                },
+                {
+                  "nguonId": "n05",
+                  "doanTrich": "Mỗi tương tác API là một trạng thái mới (stateless), nên để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử",
+                  "viTri": "Phần 'Chu trình input-output'"
+                }
+              ],
+              "soNguonXacNhan": 2,
+              "trangThai": "da-xac-minh",
+              "moTaMauThuan": ""
+            },
+            {
+              "id": "t02",
+              "noiDung": "Nguyên nhân chính khiến trợ lý quên phần đầu cuộc trò chuyện dài là do dung lượng Context Window bị giới hạn. Khi tổng số token vượt quá mức cho phép, hệ thống buộc phải cắt bỏ dữ liệu cũ nhất (theo cơ chế trượt cửa sổ hoặc FIFO) để nhường chỗ cho dữ liệu mới.",
+              "loai": "luan-diem",
+              "bangChung": [
+                {
+                  "nguonId": "n03",
+                  "doanTrich": "Tại thời điểm đó, để tiếp tục hội thoại, hệ thống buộc phải loại bỏ các phần dữ liệu cũ nhất (thường là theo nguyên tắc First-In, First-Out) hoặc áp dụng các kỹ thuật nén ngữ cảnh để giữ lại những thông tin quan trọng nhất.",
+                  "viTri": "Đoạn 4, phần 'Context Window hoạt động như thế nào?'"
+                },
+                {
+                  "nguonId": "n04",
+                  "doanTrich": "Chừng nào trang giấy còn trên bàn, AI có thể đọc nó. Khi bàn đầy, bạn nhét thêm vào, những trang cũ nhất sẽ bị trượt khỏi mép bàn. Chính khoảnh khắc ấy — trang giấy bị trượt khỏi bàn — là lý do chính xác khiến chatbot “quên” những gì bạn đã nói trước đó.",
+                  "viTri": "Đoạn 1, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'"
+                },
+                {
+                  "nguonId": "n05",
+                  "doanTrich": "Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh? Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất.",
+                  "viTri": "Phần 'Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh?'"
+                }
+              ],
+              "soNguonXacNhan": 3,
+              "trangThai": "da-xac-minh",
+              "moTaMauThuan": ""
+            },
+            {
+              "id": "t03",
+              "noiDung": "Cửa sổ ngữ cảnh sử dụng ngân sách token dùng chung cho cả dữ liệu đầu vào (prompt + lịch sử) lẫn dữ liệu đầu ra (phản hồi của AI). Lịch sử trao đổi càng dài càng chiếm hết không gian tạo câu trả lời mới.",
+              "loai": "luan-diem",
+              "bangChung": [
+                {
+                  "nguonId": "n04",
+                  "doanTrich": "Cửa sổ ngữ cảnh không chỉ dành cho đầu vào của bạn. Nó là đầu vào cộng với đầu ra — câu trả lời của mô hình cũng được tính vào cùng ngân sách token đó.",
+                  "viTri": "Đoạn 3, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'"
+                },
+                {
+                  "nguonId": "n05",
+                  "doanTrich": "Giai đoạn Input: Chứa toàn bộ lịch sử trước đó cùng tin nhắn hiện tại. Giai đoạn Output: Phản hồi mới được tạo ra và sẽ cộng dồn vào Input của lượt tiếp theo.",
+                  "viTri": "Phần 'Chu trình input-output'"
+                }
+              ],
+              "soNguonXacNhan": 2,
+              "trangThai": "da-xac-minh",
+              "moTaMauThuan": ""
+            },
+            {
+              "id": "t04",
+              "noiDung": "Tiếng Việt bị tiêu tốn nhiều token hơn so với tiếng Anh trên cùng một nội dung tương đương (gấp khoảng 1.5 đến 2.5 lần), dẫn đến việc cửa sổ ngữ cảnh bị lấp đầy nhanh hơn khi trò chuyện bằng tiếng Việt.",
+              "loai": "so-lieu",
+              "bangChung": [
+                {
+                  "nguonId": "n04",
+                  "doanTrich": "Tiếng Việt được chia token kém hiệu quả hơn tiếng Anh... cùng một nội dung sẽ tốn nhiều token hơn đáng kể khi dùng tiếng Việt — các nguồn trong nước ước tính khoảng gấp 1,5 đến 2,5 lần so với bản dịch tiếng Anh tương đương.",
+                  "viTri": "Đoạn 2, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'"
+                }
+              ],
+              "soNguonXacNhan": 1,
+              "trangThai": "da-xac-minh",
+              "moTaMauThuan": "Có sự khác biệt nhỏ về cách ước tính tỷ lệ chuyển đổi token tiếng Anh giữa các nguồn (n03 và n05 ước tính khoảng 1.5 token/từ tiếng Anh, trong khi n04 ước tính khoảng 1.33 token/từ tức 3/4 từ mỗi token). Tuy nhiên, các nguồn đều thống nhất rằng ngôn ngữ không thuộc hệ Latin gốc như tiếng Việt tiêu tốn nhiều token hơn tiếng Anh."
+            }
+          ],
+          "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://vn.linkedin.com/pulse/understanding-context-window-large-language-models-llms-yeshwanth-mklac?tl=vi\",\n      \"tieuDe\": \"Hiểu cửa sổ ngữ cảnh của các mô hình ngôn ngữ lớn\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-16T19:01:35.825Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Bài viết dịch tự động bằng máy từ LinkedIn Pulse, thiếu thông tin tác giả và ngày đăng rõ ràng, văn phong chuyển ngữ có thể kém chính xác.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn dịch tự động không đảm bảo tính chính xác kỹ thuật; thông tin tác giả và ngày xuất bản bị thiếu.\",\n      \"canhBao\": [\n        \"Nội dung do máy dịch tự động\"\n      ],\n      \"doanTrich\": \"Bài viết này được tự động dịch bằng máy từ tiếng Anh và có thể có những điểm không chính xác.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://vnptai.io/vi/blog/detail/context-window\",\n      \"tieuDe\": \"Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn\",\n      \"tacGia\": \"Nguyễn Minh Hải\",\n      \"toChuc\": \"VNPT AI\",\n      \"ngayDang\": \"2025-10-22\",\n      \"ngayLayVe\": \"2026-09-16T19:01:35.827Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài viết kỹ thuật từ tổ chức công nghệ uy tín VNPT AI, có tên tác giả và ngày đăng minh bạch.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Giới hạn số lượng nguồn chọn (đã ưu tiên 3 nguồn n03, n04, n05 giải thích trực tiếp và chi tiết hơn về cơ chế loại bỏ dữ liệu làm quên đầu cuộc trò chuyện).\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://starttrain.edu.vn/context-window/\",\n      \"tieuDe\": \"Context Window là gì? Sức mạnh của cửa sổ ngữ cảnh trong AI\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Starttrain\",\n      \"ngayDang\": \"2026-03-31\",\n      \"ngayLayVe\": \"2026-09-16T19:01:35.828Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Tài liệu đào tạo giáo dục giải thích sâu về cơ chế Attention, nguyên tắc FIFO và quy trình nạp lại lịch sử hội thoại.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Tại thời điểm đó, để tiếp tục hội thoại, hệ thống buộc phải loại bỏ các phần dữ liệu cũ nhất (thường là theo nguyên tắc First-In, First-Out) hoặc áp dụng các kỹ thuật nén ngữ cảnh để giữ lại những thông tin quan trọng nhất.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://findskill.ai/vi/learn/cua-so-ngu-canh/\",\n      \"tieuDe\": \"Cửa sổ ngữ cảnh là gì? Hướng dẫn dễ hiểu dành cho bạn (2026) | FindSkill.ai — Học AI cho Công Việc Của Bạn\",\n      \"tacGia\": \"Đội ngũ FindSkill\",\n      \"toChuc\": \"FindSkill.ai — Học AI cho Công Việc Của Bạn\",\n      \"ngayDang\": \"2026-07-06\",\n      \"ngayLayVe\": \"2026-09-16T19:01:36.930Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài viết phân tích rất dễ hiểu, cập nhật năm 2026, cung cấp ẩn dụ trực quan (mặt bàn làm việc) giải thích lý do AI 'quên' phần đầu hội thoại và phân tích yếu tố đặc thù tiếng Việt.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Khi bàn đầy, bạn nhét thêm vào, những trang cũ nhất sẽ bị trượt khỏi mép bàn. Chính khoảnh khắc ấy — trang giấy bị trượt khỏi bàn — là lý do chính xác khiến chatbot “quên” những gì bạn đã nói trước đó.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"url\": \"https://camnangai.com/kien-thuc-ai/context-window\",\n      \"tieuDe\": \"Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?\",\n      \"tacGia\": \"Tuan Tran Van\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2026-06-03\",\n      \"ngayLayVe\": \"2026-09-16T19:01:36.932Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Tác giả có chuyên môn kỹ thuật, phân tích kỹ tính chất stateless của API và cách tích tụ token qua các lượt hội thoại.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Mỗi tương tác API là một trạng thái mới (stateless), nên để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử... Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất.\"\n    },\n    {\n      \"id\": \"n06\",\n      \"url\": \"https://bizfly.vn/techblog/context-window.html\",\n      \"tieuDe\": \"Context Window là gì? Hiểu về cửa sổ ngữ cảnh trong AI & LLM\",\n      \"tacGia\": \"Đỗ Minh Đức\",\n      \"toChuc\": \"Bizfly\",\n      \"ngayDang\": \"2025-10-23\",\n      \"ngayLayVe\": \"2026-09-16T19:01:36.934Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết tổng quan tốt nhưng dính nhiều mã định dạng HTML chưa qua làm sạch.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn dư thừa so với giới hạn chọn 3 nguồn tốt nhất.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Context window hay cửa sổ ngữ cảnh là giới hạn bộ nhớ làm việc của mô hình ngôn ngữ lớn, thường gọi là LLM.\"\n    },\n    {\n      \"id\": \"n07\",\n      \"url\": \"https://tuyendung.evotek.vn/ai-agent-roadmap-huong-dan-ve-cua-so-ngu-canh-va-do-dai-toi-da-trong-llm/\",\n      \"tieuDe\": \"AI Agent Roadmap: Hướng dẫn về Cửa sổ Ngữ cảnh và Độ dài Tối đa trong LLM – Evotek Careers\",\n      \"tacGia\": \"ngocvy\",\n      \"toChuc\": \"Evotek\",\n      \"ngayDang\": \"2025-05-14\",\n      \"ngayLayVe\": \"2026-09-16T19:01:38.496Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nội dung nằm trong chuyên mục tuyển dụng/blog của công ty Evotek, mang tính tổng hợp.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn dư thừa so với giới hạn chọn 3 nguồn tốt nhất.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Một cửa sổ ngữ cảnh nhỏ có thể khiến agent “quên” những chi tiết quan trọng từ đầu cuộc trò chuyện\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"LLM hoạt động theo cơ chế phi trạng thái (stateless); để duy trì mạch trò chuyện, hệ thống phải liên tục gửi lại toàn bộ lịch sử tin nhắn cùng với câu hỏi mới trong mỗi lượt gọi API.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Mỗi khi bạn tương tác với một mô hình ngôn ngữ lớn, hệ thống không chỉ đọc tin nhắn hiện tại mà còn nạp lại toàn bộ lịch sử hội thoại liên quan vào mô hình.\",\n          \"viTri\": \"Đoạn 1, phần 'Context Window hoạt động như thế nào?'\"\n        },\n        {\n          \"nguonId\": \"n05\",\n          \"doanTrich\": \"Mỗi tương tác API là một trạng thái mới (stateless), nên để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử\",\n          \"viTri\": \"Phần 'Chu trình input-output'\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Nguyên nhân chính khiến trợ lý quên phần đầu cuộc trò chuyện dài là do dung lượng Context Window bị giới hạn. Khi tổng số token vượt quá mức cho phép, hệ thống buộc phải cắt bỏ dữ liệu cũ nhất (theo cơ chế trượt cửa sổ hoặc FIFO) để nhường chỗ cho dữ liệu mới.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Tại thời điểm đó, để tiếp tục hội thoại, hệ thống buộc phải loại bỏ các phần dữ liệu cũ nhất (thường là theo nguyên tắc First-In, First-Out) hoặc áp dụng các kỹ thuật nén ngữ cảnh để giữ lại những thông tin quan trọng nhất.\",\n          \"viTri\": \"Đoạn 4, phần 'Context Window hoạt động như thế nào?'\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Chừng nào trang giấy còn trên bàn, AI có thể đọc nó. Khi bàn đầy, bạn nhét thêm vào, những trang cũ nhất sẽ bị trượt khỏi mép bàn. Chính khoảnh khắc ấy — trang giấy bị trượt khỏi bàn — là lý do chính xác khiến chatbot “quên” những gì bạn đã nói trước đó.\",\n          \"viTri\": \"Đoạn 1, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'\"\n        },\n        {\n          \"nguonId\": \"n05\",\n          \"doanTrich\": \"Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh? Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất.\",\n          \"viTri\": \"Phần 'Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh?'\"\n        }\n      ],\n      \"soNguonXacNhan\": 3,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Cửa sổ ngữ cảnh sử dụng ngân sách token dùng chung cho cả dữ liệu đầu vào (prompt + lịch sử) lẫn dữ liệu đầu ra (phản hồi của AI). Lịch sử trao đổi càng dài càng chiếm hết không gian tạo câu trả lời mới.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Cửa sổ ngữ cảnh không chỉ dành cho đầu vào của bạn. Nó là đầu vào cộng với đầu ra — câu trả lời của mô hình cũng được tính vào cùng ngân sách token đó.\",\n          \"viTri\": \"Đoạn 3, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'\"\n        },\n        {\n          \"nguonId\": \"n05\",\n          \"doanTrich\": \"Giai đoạn Input: Chứa toàn bộ lịch sử trước đó cùng tin nhắn hiện tại. Giai đoạn Output: Phản hồi mới được tạo ra và sẽ cộng dồn vào Input của lượt tiếp theo.\",\n          \"viTri\": \"Phần 'Chu trình input-output'\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Tiếng Việt bị tiêu tốn nhiều token hơn so với tiếng Anh trên cùng một nội dung tương đương (gấp khoảng 1.5 đến 2.5 lần), dẫn đến việc cửa sổ ngữ cảnh bị lấp đầy nhanh hơn khi trò chuyện bằng tiếng Việt.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Tiếng Việt được chia token kém hiệu quả hơn tiếng Anh... cùng một nội dung sẽ tốn nhiều token hơn đáng kể khi dùng tiếng Việt — các nguồn trong nước ước tính khoảng gấp 1,5 đến 2,5 lần so với bản dịch tiếng Anh tương đương.\",\n          \"viTri\": \"Đoạn 2, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"Có sự khác biệt nhỏ về cách ước tính tỷ lệ chuyển đổi token tiếng Anh giữa các nguồn (n03 và n05 ước tính khoảng 1.5 token/từ tiếng Anh, trong khi n04 ước tính khoảng 1.33 token/từ tức 3/4 từ mỗi token). Tuy nhiên, các nguồn đều thống nhất rằng ngôn ngữ không thuộc hệ Latin gốc như tiếng Việt tiêu tốn nhiều token hơn tiếng Anh.\"\n    }\n  ]\n}",
+          "isDemo": false,
+          "durationMs": 43386
+        },
+        "scriptTrace": {
+          "id": "trace-script-1789585341806",
+          "timestamp": "2026-09-16T19:02:21.806Z",
+          "phase": "generate-script",
+          "input": {
+            "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+            "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+            "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+            "videoDuration": "4 phút"
+          },
+          "sourcesEvaluated": [
+            {
+              "id": "n03",
+              "url": "https://starttrain.edu.vn/context-window/",
+              "tieuDe": "Context Window là gì? Sức mạnh của cửa sổ ngữ cảnh trong AI",
+              "tacGia": "Không rõ",
+              "toChuc": "Starttrain",
+              "ngayDang": "2026-03-31",
+              "ngayLayVe": "2026-09-16T19:01:35.828Z",
+              "loai": "tai-lieu-chinh-thuc",
+              "doTinCay": "trung-binh",
+              "lyDoTinCay": "Tài liệu đào tạo giáo dục giải thích sâu về cơ chế Attention, nguyên tắc FIFO và quy trình nạp lại lịch sử hội thoại.",
+              "trangThai": "dang-dung",
+              "lyDoLoai": "",
+              "canhBao": [],
+              "doanTrich": "Tại thời điểm đó, để tiếp tục hội thoại, hệ thống buộc phải loại bỏ các phần dữ liệu cũ nhất (thường là theo nguyên tắc First-In, First-Out) hoặc áp dụng các kỹ thuật nén ngữ cảnh để giữ lại những thông tin quan trọng nhất.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            },
+            {
+              "id": "n04",
+              "url": "https://findskill.ai/vi/learn/cua-so-ngu-canh/",
+              "tieuDe": "Cửa sổ ngữ cảnh là gì? Hướng dẫn dễ hiểu dành cho bạn (2026) | FindSkill.ai — Học AI cho Công Việc Của Bạn",
+              "tacGia": "Đội ngũ FindSkill",
+              "toChuc": "FindSkill.ai — Học AI cho Công Việc Của Bạn",
+              "ngayDang": "2026-07-06",
+              "ngayLayVe": "2026-09-16T19:01:36.930Z",
+              "loai": "tai-lieu-chinh-thuc",
+              "doTinCay": "cao",
+              "lyDoTinCay": "Bài viết phân tích rất dễ hiểu, cập nhật năm 2026, cung cấp ẩn dụ trực quan (mặt bàn làm việc) giải thích lý do AI 'quên' phần đầu hội thoại và phân tích yếu tố đặc thù tiếng Việt.",
+              "trangThai": "dang-dung",
+              "lyDoLoai": "",
+              "canhBao": [],
+              "doanTrich": "Khi bàn đầy, bạn nhét thêm vào, những trang cũ nhất sẽ bị trượt khỏi mép bàn. Chính khoảnh khắc ấy — trang giấy bị trượt khỏi bàn — là lý do chính xác khiến chatbot “quên” những gì bạn đã nói trước đó.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            },
+            {
+              "id": "n05",
+              "url": "https://camnangai.com/kien-thuc-ai/context-window",
+              "tieuDe": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+              "tacGia": "Tuan Tran Van",
+              "toChuc": "Không rõ",
+              "ngayDang": "2026-06-03",
+              "ngayLayVe": "2026-09-16T19:01:36.932Z",
+              "loai": "blog-ca-nhan",
+              "doTinCay": "trung-binh",
+              "lyDoTinCay": "Tác giả có chuyên môn kỹ thuật, phân tích kỹ tính chất stateless của API và cách tích tụ token qua các lượt hội thoại.",
+              "trangThai": "dang-dung",
+              "lyDoLoai": "",
+              "canhBao": [],
+              "doanTrich": "Mỗi tương tác API là một trạng thái mới (stateless), nên để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử... Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất.",
+              "promptInjectionDetected": false,
+              "scrapeStatus": "ok"
+            }
+          ],
+          "sourcesSelected": [
+            "n03",
+            "n04",
+            "n05"
+          ],
+          "thongTin": [
+            {
+              "id": "t01",
+              "noiDung": "LLM hoạt động theo cơ chế phi trạng thái (stateless); để duy trì mạch trò chuyện, hệ thống phải liên tục gửi lại toàn bộ lịch sử tin nhắn cùng với câu hỏi mới trong mỗi lượt gọi API.",
+              "loai": "dinh-nghia",
+              "bangChung": [
+                {
+                  "nguonId": "n03",
+                  "doanTrich": "Mỗi khi bạn tương tác với một mô hình ngôn ngữ lớn, hệ thống không chỉ đọc tin nhắn hiện tại mà còn nạp lại toàn bộ lịch sử hội thoại liên quan vào mô hình.",
+                  "viTri": "Đoạn 1, phần 'Context Window hoạt động như thế nào?'"
+                },
+                {
+                  "nguonId": "n05",
+                  "doanTrich": "Mỗi tương tác API là một trạng thái mới (stateless), nên để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử",
+                  "viTri": "Phần 'Chu trình input-output'"
+                }
+              ],
+              "soNguonXacNhan": 2,
+              "trangThai": "da-xac-minh",
+              "moTaMauThuan": ""
+            },
+            {
+              "id": "t02",
+              "noiDung": "Nguyên nhân chính khiến trợ lý quên phần đầu cuộc trò chuyện dài là do dung lượng Context Window bị giới hạn. Khi tổng số token vượt quá mức cho phép, hệ thống buộc phải cắt bỏ dữ liệu cũ nhất (theo cơ chế trượt cửa sổ hoặc FIFO) để nhường chỗ cho dữ liệu mới.",
+              "loai": "luan-diem",
+              "bangChung": [
+                {
+                  "nguonId": "n03",
+                  "doanTrich": "Tại thời điểm đó, để tiếp tục hội thoại, hệ thống buộc phải loại bỏ các phần dữ liệu cũ nhất (thường là theo nguyên tắc First-In, First-Out) hoặc áp dụng các kỹ thuật nén ngữ cảnh để giữ lại những thông tin quan trọng nhất.",
+                  "viTri": "Đoạn 4, phần 'Context Window hoạt động như thế nào?'"
+                },
+                {
+                  "nguonId": "n04",
+                  "doanTrich": "Chừng nào trang giấy còn trên bàn, AI có thể đọc nó. Khi bàn đầy, bạn nhét thêm vào, những trang cũ nhất sẽ bị trượt khỏi mép bàn. Chính khoảnh khắc ấy — trang giấy bị trượt khỏi bàn — là lý do chính xác khiến chatbot “quên” những gì bạn đã nói trước đó.",
+                  "viTri": "Đoạn 1, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'"
+                },
+                {
+                  "nguonId": "n05",
+                  "doanTrich": "Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh? Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất.",
+                  "viTri": "Phần 'Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh?'"
+                }
+              ],
+              "soNguonXacNhan": 3,
+              "trangThai": "da-xac-minh",
+              "moTaMauThuan": ""
+            },
+            {
+              "id": "t03",
+              "noiDung": "Cửa sổ ngữ cảnh sử dụng ngân sách token dùng chung cho cả dữ liệu đầu vào (prompt + lịch sử) lẫn dữ liệu đầu ra (phản hồi của AI). Lịch sử trao đổi càng dài càng chiếm hết không gian tạo câu trả lời mới.",
+              "loai": "luan-diem",
+              "bangChung": [
+                {
+                  "nguonId": "n04",
+                  "doanTrich": "Cửa sổ ngữ cảnh không chỉ dành cho đầu vào của bạn. Nó là đầu vào cộng với đầu ra — câu trả lời của mô hình cũng được tính vào cùng ngân sách token đó.",
+                  "viTri": "Đoạn 3, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'"
+                },
+                {
+                  "nguonId": "n05",
+                  "doanTrich": "Giai đoạn Input: Chứa toàn bộ lịch sử trước đó cùng tin nhắn hiện tại. Giai đoạn Output: Phản hồi mới được tạo ra và sẽ cộng dồn vào Input của lượt tiếp theo.",
+                  "viTri": "Phần 'Chu trình input-output'"
+                }
+              ],
+              "soNguonXacNhan": 2,
+              "trangThai": "da-xac-minh",
+              "moTaMauThuan": ""
+            },
+            {
+              "id": "t04",
+              "noiDung": "Tiếng Việt bị tiêu tốn nhiều token hơn so với tiếng Anh trên cùng một nội dung tương đương (gấp khoảng 1.5 đến 2.5 lần), dẫn đến việc cửa sổ ngữ cảnh bị lấp đầy nhanh hơn khi trò chuyện bằng tiếng Việt.",
+              "loai": "so-lieu",
+              "bangChung": [
+                {
+                  "nguonId": "n04",
+                  "doanTrich": "Tiếng Việt được chia token kém hiệu quả hơn tiếng Anh... cùng một nội dung sẽ tốn nhiều token hơn đáng kể khi dùng tiếng Việt — các nguồn trong nước ước tính khoảng gấp 1,5 đến 2,5 lần so với bản dịch tiếng Anh tương đương.",
+                  "viTri": "Đoạn 2, phần 'Cửa sổ ngữ cảnh thực sự là gì, nói cho dễ hiểu'"
+                }
+              ],
+              "soNguonXacNhan": 1,
+              "trangThai": "da-xac-minh",
+              "moTaMauThuan": "Có sự khác biệt nhỏ về cách ước tính tỷ lệ chuyển đổi token tiếng Anh giữa các nguồn (n03 và n05 ước tính khoảng 1.5 token/từ tiếng Anh, trong khi n04 ước tính khoảng 1.33 token/từ tức 3/4 từ mỗi token). Tuy nhiên, các nguồn đều thống nhất rằng ngôn ngữ không thuộc hệ Latin gốc như tiếng Việt tiêu tốn nhiều token hơn tiếng Anh."
+            }
+          ],
+          "scriptOutput": {
+            "schema": "hackathon-kich-ban/1",
+            "id": "scriptscout-output",
+            "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+            "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+            "thoiLuong": "bốn phút",
+            "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+            "phan": [
+              {
+                "so": 1,
+                "ten": "Mở đầu"
+              }
+            ],
+            "cau": [
+              {
+                "n": 1,
+                "phan": 1,
+                "kieu": "ke",
+                "loi": "Xin chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh trong mô hình ngôn ngữ.",
+                "chuTrenManHinh": "Chào mừng các bạn",
+                "yDoHinh": "Giới thiệu logo kênh",
+                "nguon": []
+              },
+              {
+                "n": 2,
+                "phan": 1,
+                "kieu": "giang",
+                "loi": "Mô hình ngôn ngữ lớn hoạt động không lưu trạng thái, vì vậy mỗi lượt trả lời cần gửi lại toàn bộ lịch sử hội thoại.",
+                "chuTrenManHinh": "LLM không lưu trạng thái",
+                "yDoHinh": "Biểu đồ luồng dữ liệu",
+                "nguon": [
+                  "t01"
+                ]
+              },
+              {
+                "n": 3,
+                "phan": 1,
+                "kieu": "nhe",
+                "loi": "Khi tổng số token vượt quá giới hạn của cửa sổ ngữ cảnh, hệ thống sẽ loại bỏ các đoạn cũ nhất để nhường chỗ cho thông tin mới.",
+                "chuTrenManHinh": "Giới hạn token và cắt bớt",
+                "yDoHinh": "Hình ảnh bàn đầy giấy trượt",
+                "nguon": [
+                  "t02"
+                ]
+              },
+              {
+                "n": 4,
+                "phan": 1,
+                "kieu": "hoi",
+                "loi": "Ngân sách token được dùng chung cho phần nhập, bao gồm câu hỏi và lịch sử, và phần xuất, tức là câu trả lời, nên mỗi phản hồi lại chiếm thêm không gian trong cửa sổ.",
+                "chuTrenManHinh": "Token cho nhập và xuất",
+                "yDoHinh": "Biểu tượng token vào ra",
+                "nguon": [
+                  "t03"
+                ]
+              },
+              {
+                "n": 5,
+                "phan": 1,
+                "kieu": "nhan",
+                "loi": "Tiếng Việt tiêu tốn nhiều token hơn tiếng Anh, vì vậy khi trò chuyện bằng tiếng Việt cửa sổ ngữ cảnh sẽ bị lấp đầy nhanh hơn và dẫn đến việc quên thông tin đầu.",
+                "chuTrenManHinh": "Tiếng Việt tốn nhiều token",
+                "yDoHinh": "So sánh token tiếng Việt‑Anh",
+                "nguon": [
+                  "t04"
+                ]
+              }
+            ]
+          },
+          "sentenceSourceMap": [
+            {
+              "sentenceN": 1,
+              "loi": "Xin chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh trong mô hình ngôn ngữ.",
+              "nguon": [],
+              "doanTrichLienQuan": []
+            },
+            {
+              "sentenceN": 2,
+              "loi": "Mô hình ngôn ngữ lớn hoạt động không lưu trạng thái, vì vậy mỗi lượt trả lời cần gửi lại toàn bộ lịch sử hội thoại.",
+              "nguon": [
+                "t01"
+              ],
+              "doanTrichLienQuan": [
+                "[n03] Mỗi khi bạn tương tác với một mô hình ngôn ngữ lớn, hệ thống không chỉ đọc tin nhắn hiện tại mà còn nạp lại toàn bộ lịch sử hội thoại liên quan vào mô hình.; [n05] Mỗi tương tác API là một trạng thái mới (stateless), nên để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử"
+              ]
+            },
+            {
+              "sentenceN": 3,
+              "loi": "Khi tổng số token vượt quá giới hạn của cửa sổ ngữ cảnh, hệ thống sẽ loại bỏ các đoạn cũ nhất để nhường chỗ cho thông tin mới.",
+              "nguon": [
+                "t02"
+              ],
+              "doanTrichLienQuan": [
+                "[n03] Tại thời điểm đó, để tiếp tục hội thoại, hệ thống buộc phải loại bỏ các phần dữ liệu cũ nhất (thường là theo nguyên tắc First-In, First-Out) hoặc áp dụng các kỹ thuật nén ngữ cảnh để giữ lại những thông tin quan trọng nhất.; [n04] Chừng nào trang giấy còn trên bàn, AI có thể đọc nó. Khi bàn đầy, bạn nhét thêm vào, những trang cũ nhất sẽ bị trượt khỏi mép bàn. Chính khoảnh khắc ấy — trang giấy bị trượt khỏi bàn — là lý do chính xác khiến chatbot “quên” những gì bạn đã nói trước đó.; [n05] Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh? Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất."
+              ]
+            },
+            {
+              "sentenceN": 4,
+              "loi": "Ngân sách token được dùng chung cho phần nhập, bao gồm câu hỏi và lịch sử, và phần xuất, tức là câu trả lời, nên mỗi phản hồi lại chiếm thêm không gian trong cửa sổ.",
+              "nguon": [
+                "t03"
+              ],
+              "doanTrichLienQuan": [
+                "[n04] Cửa sổ ngữ cảnh không chỉ dành cho đầu vào của bạn. Nó là đầu vào cộng với đầu ra — câu trả lời của mô hình cũng được tính vào cùng ngân sách token đó.; [n05] Giai đoạn Input: Chứa toàn bộ lịch sử trước đó cùng tin nhắn hiện tại. Giai đoạn Output: Phản hồi mới được tạo ra và sẽ cộng dồn vào Input của lượt tiếp theo."
+              ]
+            },
+            {
+              "sentenceN": 5,
+              "loi": "Tiếng Việt tiêu tốn nhiều token hơn tiếng Anh, vì vậy khi trò chuyện bằng tiếng Việt cửa sổ ngữ cảnh sẽ bị lấp đầy nhanh hơn và dẫn đến việc quên thông tin đầu.",
+              "nguon": [
+                "t04"
+              ],
+              "doanTrichLienQuan": [
+                "[n04] Tiếng Việt được chia token kém hiệu quả hơn tiếng Anh... cùng một nội dung sẽ tốn nhiều token hơn đáng kể khi dùng tiếng Việt — các nguồn trong nước ước tính khoảng gấp 1,5 đến 2,5 lần so với bản dịch tiếng Anh tương đương."
+              ]
+            }
+          ],
+          "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh trong mô hình ngôn ngữ.\",\"chuTrenManHinh\":\"Chào mừng các bạn\",\"yDoHinh\":\"Giới thiệu logo kênh\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Mô hình ngôn ngữ lớn hoạt động không lưu trạng thái, vì vậy mỗi lượt trả lời cần gửi lại toàn bộ lịch sử hội thoại.\",\"chuTrenManHinh\":\"LLM không lưu trạng thái\",\"yDoHinh\":\"Biểu đồ luồng dữ liệu\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Khi tổng số token vượt quá giới hạn của cửa sổ ngữ cảnh, hệ thống sẽ loại bỏ các đoạn cũ nhất để nhường chỗ cho thông tin mới.\",\"chuTrenManHinh\":\"Giới hạn token và cắt bớt\",\"yDoHinh\":\"Hình ảnh bàn đầy giấy trượt\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Ngân sách token được dùng chung cho phần nhập, bao gồm câu hỏi và lịch sử, và phần xuất, tức là câu trả lời, nên mỗi phản hồi lại chiếm thêm không gian trong cửa sổ.\",\"chuTrenManHinh\":\"Token cho nhập và xuất\",\"yDoHinh\":\"Biểu tượng token vào ra\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Tiếng Việt tiêu tốn nhiều token hơn tiếng Anh, vì vậy khi trò chuyện bằng tiếng Việt cửa sổ ngữ cảnh sẽ bị lấp đầy nhanh hơn và dẫn đến việc quên thông tin đầu.\",\"chuTrenManHinh\":\"Tiếng Việt tốn nhiều token\",\"yDoHinh\":\"So sánh token tiếng Việt‑Anh\",\"nguon\":[\"t04\"]}]}",
+          "isDemo": false,
+          "durationMs": 3532
+        }
+      },
+      "durationMs": 46980
+    }
+  ]
+}

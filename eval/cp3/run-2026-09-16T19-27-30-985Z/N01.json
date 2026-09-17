@@ -1,0 +1,403 @@
+{
+  "case": {
+    "id": "N01",
+    "class": "thuong",
+    "input": {
+      "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+      "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Tìm được ≥2 nguồn đáng tin về context window. Kịch bản viết bằng văn nói, không số, có dẫn nguồn.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #1; không phải chatlog",
+    "passCriteria": "≥2 nguồn thật có URL hợp lệ; ≥3 câu có nguồn; loi không chứa chữ số",
+    "failCriteria": "Bịa nguồn; URL .test; có chữ số trong loi; không có doanTrich"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://en.wikipedia.org/wiki/Context_window",
+        "tieuDe": "Context window - Wikipedia",
+        "ngayLayVe": "2026-09-16T19:27:32.701Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Wikipedia là bách khoa toàn thư mở uy tín, nội dung có trích dẫn tài liệu học thuật (ACL, arXiv) và phù hợp trực tiếp với chủ đề 'Cửa sổ ngữ cảnh'.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://en.wikipedia.org/wiki/Large_language_model",
+        "tieuDe": "Large language model - Wikipedia",
+        "ngayLayVe": "2026-09-16T19:27:32.702Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Nguồn tham khảo chung về LLM, cung cấp bối cảnh kiến trúc transformer nhưng ít tập trung vào cơ chế quên ngữ cảnh cụ thể so với n01.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Nội dung quá chung chung về lịch sử và định nghĩa LLM, không cung cấp thông tin cụ thể về giới hạn cửa sổ ngữ cảnh gây ra việc quên thông tin đầu cuộc trò chuyện như mục tiêu bài học yêu cầu.",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+        "tieuDe": "Gemini (language model) - Wikipedia",
+        "ngayLayVe": "2026-09-16T19:27:32.702Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Nguồn về một mô hình cụ thể, không phải tài liệu giải thích khái niệm tổng quát về cửa sổ ngữ cảnh.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Tập trung vào lịch sử phát triển và tính năng của Gemini, không giải thích nguyên lý hoạt động của cửa sổ ngữ cảnh chung cho các LLM.",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Gemini is a family of multimodal large language models (LLMs) developed by Google DeepMind, and the successor to LaMDA and PaLM 2.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Cửa sổ ngữ cảnh là lượng văn bản tối đa mà mô hình có thể xử lý cùng lúc; thông tin nằm ngoài giới hạn này sẽ không khả dụng trực tiếp.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+            "viTri": "Đoạn mở đầu bài viết"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Hiệu suất của mô hình trên các tác vụ ngữ cảnh dài thường kém hơn khi thông tin liên quan nằm ở giữa đầu vào so với khi nằm ở đầu hoặc cuối.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.",
+            "viTri": "Đoạn thảo luận về hạn chế của cửa sổ ngữ cảnh dài"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "context window language model",
+      "long conversation memory loss"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789586856357",
+      "timestamp": "2026-09-16T19:27:36.357Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Context window",
+              "url": "https://en.wikipedia.org/wiki/Context_window",
+              "snippet": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating",
+              "position": 1
+            },
+            {
+              "title": "Large language model",
+              "url": "https://en.wikipedia.org/wiki/Large_language_model",
+              "snippet": "A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially",
+              "position": 2
+            },
+            {
+              "title": "Gemini (language model)",
+              "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+              "snippet": "capable model than 1.0 Ultra. Changes include a new architecture, a mixture-of-experts approach, and a larger one-million-token context window. The same",
+              "position": 3
+            }
+          ],
+          "query": "context window language model",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "Memory disorder",
+              "url": "https://en.wikipedia.org/wiki/Memory_disorder",
+              "snippet": "Memory loss is the loss of memory, the faculty of the mind by which data or information is encoded, stored, and retrieved when needed. Memory loss is usually",
+              "position": 1
+            },
+            {
+              "title": "Anterograde amnesia",
+              "url": "https://en.wikipedia.org/wiki/Anterograde_amnesia",
+              "snippet": "new memories after an event that caused amnesia, leading to a partial or complete inability to recall the recent past, while long-term memories from",
+              "position": 2
+            },
+            {
+              "title": "Transient epileptic amnesia",
+              "url": "https://en.wikipedia.org/wiki/Transient_epileptic_amnesia",
+              "snippet": "persistent problems with memory: accelerated long term forgetting remote memory loss topographical amnesia Importantly, these types of memory difficulty are not",
+              "position": 3
+            }
+          ],
+          "query": "long conversation memory loss",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Context_window",
+          "content": "From Wikipedia, the free encyclopedia Token limit for LLM context The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters. In practical terms, the context window is the material the model can \"see\" while producing response; anything outside that window is not directly available unless it is summarized, retrieved, or provided again. A longer context window can allow a model to work with longer prompts, conversations, documents, codebases, or retrieved passages without first compressing or discarding as much information.[1] The practical size of context windows has increased rapidly as LLM systems have developed. Some models are limited by the sequence lengths used during training, while attention variants and positional-encoding methods can allow models to operate on longer sequences than those seen during training.[2] By the mid-2020s, long-context systems had reported context windows ranging from hundreds of thousands to millions of tokens; Google researchers reported Gemini 1.5 evaluations on retrieval tasks at up to 10 million tokens.[3] A larger context window does not necessarily mean that a model can use the entire context equally well. In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.[4] Other benchmarks have assessed long- context capability using tasks that go beyond simple retrieval, including multi-document question answering, long-dialogue understanding, code repository understanding, and structured-data reasoning.[5][6] References[edit] ↑ Nir Ratner et al., \"Parallel Context Windows for Large Language Models\", Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, 2023, pp. 6383-6402, doi:10.18653/v1/2023.acl-long.352. ↑ Ofir Press et al., \"Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation\", arXiv:2108.12409, 2021. ↑ Machel Reid et al., \"Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context\", arXiv:2403.05530, 2024. ↑ Nelson F. Liu et al., \"Lost in the Middle: How Language Models Use Long Contexts\", Transactions of the Association for Computational Linguistics, 2024, vol. 12, pp. 157-173, doi:10.1162/tacl_a_00638. ↑ Cheng-Ping Hsieh et al., \"RULER: What's the Real Context Size of Your Long- Context Language Models?\", arXiv:2404.06654, 2024. ↑ Yushi Bai et al., \"LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks\", Proceedings of th…[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:32.701Z",
+          "title": "Context window - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Large_language_model",
+          "content": "From Wikipedia, the free encyclopedia Type of machine learning model \"LLM\" redirects here. For other uses, see LLM (disambiguation). A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can typically generate, summarize, translate, and analyze text in many contexts.[1] They are the basis for many modern chatbots, such as ChatGPT, Claude, Gemini, Grok, and DeepSeek. LLMs are typically based on transformer architecture.[2] Generative pre-trained transformers (GPTs) are a type of LLM that is pre-trained to predict the next word.[3] GPTs are then often fine-tuned to follow instructions and to behave as assistants.[4] Biased or inaccurate training data can make an LLM's output less reliable. Benchmark evaluations for LLMs attempt to measure model reasoning, factual accuracy, alignment, and safety. History[edit] The number of publications about large language models by year grouped by publication types The training compute of notable large models in FLOPs vs publication date over the period 2010–2024. For overall notable models (top left), frontier models (top right), top language models (bottom left) and top models within leading companies (bottom right). The majority of these models are language models. The training compute of notable large AI models in FLOPs vs publication date over the period 2017–2024. The majority of large models are language models or multimodal models with language capacity. Before the emergence of transformer-based models in 2017, some language models were considered large relative to the computational and data constraints of their time. In the early 1990s, IBM's statistical models pioneered word alignment techniques for machine translation, laying the groundwork for corpus-based language modeling. In 2001, a smoothed n-gram model, such as those employing Kneser–Ney smoothing, trained on 300 million words, achieved state-of-the-art perplexity on benchmark tests.[5] During the 2000s, with the rise of widespread internet access, researchers began compiling massive text datasets from the web (\"web as corpus\"[6]) to train statistical language models.[7][8] Moving beyond n-gram models, researchers started in 2000 to use neural networks as language models.[9] Following the breakthrough of deep neural networks in image classification around 2012,[10] similar architectures were adapted for language tasks. This shift was marked by the development of word embeddings (e.g., Word2Vec by Mikolov in 2013) and sequence-to-sequence (seq2seq) models using LSTM. In 2016, Google transitioned its translation service to neural machine translation (NMT), replacing statistical phrase-based models with deep recurrent neural net…[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:32.702Z",
+          "title": "Large language model - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+          "content": "From Wikipedia, the free encyclopedia Large language model developed by Google This article is about the language model. For the chatbot, see Google Gemini.GeminiDevelopersGoogle AI Google DeepMindReleaseDecember 6, 2023; 2 years ago (2023-12-06) (beta version) February 8, 2024; 2 years ago (2024-02-08) (official rollout)Stable release3.1 Pro, 3 Deep Think, 3.8 Flash, 3.5 Flash-Lite [1][2] / September 2, 2026; 14 days ago (2026-09-02) (3.8 Flash) PredecessorPaLMAvailable inEnglish and 70+ other languagesWebsitedeepmind.google/models/gemini/ Gemini is a family of multimodal large language models (LLMs) developed by Google DeepMind, and the successor to LaMDA and PaLM 2. Comprising Gemini Pro, Gemini Deep Think, Gemini Flash, and Gemini Flash Lite,[1] it was announced on December 6, 2023. It powers the Gemini chatbot, and was named after the Gemini zodiac sign. History[edit] Development[edit] Google announced Gemini, a large language model (LLM) developed by subsidiary Google DeepMind, during the Google I/O keynote on May 10, 2023. It was positioned as a more powerful successor to PaLM 2, which was also unveiled at the event, with Google CEO Sundar Pichai stating that Gemini was still in its early developmental stages.[3][4] Unlike other LLMs, Gemini was said to be unique in that it was not trained on a text corpus alone and was designed to be multimodal, meaning it could process multiple types of data simultaneously, including text, images, audio, video, and computer code.[5] It had been developed as a collaboration between DeepMind and Google Brain, two branches of Google that had been merged as Google DeepMind.[6] In an interview with Wired, DeepMind CEO Demis Hassabis touted Gemini's advanced capabilities, which he believed would allow the algorithm to trump OpenAI's ChatGPT, which runs on GPT-4 and whose growing popularity had been aggressively challenged by Google with LaMDA and Bard. Hassabis highlighted the strengths of DeepMind's AlphaGo program, which gained worldwide attention in 2016 when it defeated Go champion Lee Sedol, saying that Gemini would combine the power of AlphaGo and other Google–DeepMind LLMs.[7] In August 2023, The Information published a report outlining Google's roadmap for Gemini, revealing that the company was targeting a launch date of late 2023. According to the report, Google hoped to surpass OpenAI and other competitors by combining conversational text capabilities present in most LLMs with artificial intelligence–powered image generation, allowing it to create contextual images and be adapted for a wider range of use cases.[8] Like Bard,[9] Google co-founder Sergey Brin was summoned out of retirement to assist in the development of Gemini, along with hundreds of other engineers from Google Brain and DeepMind;[8][10] …[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:32.702Z",
+          "title": "Gemini (language model) - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/Context_window",
+          "tieuDe": "Context window - Wikipedia",
+          "ngayLayVe": "2026-09-16T19:27:32.701Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Wikipedia là bách khoa toàn thư mở uy tín, nội dung có trích dẫn tài liệu học thuật (ACL, arXiv) và phù hợp trực tiếp với chủ đề 'Cửa sổ ngữ cảnh'.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/Large_language_model",
+          "tieuDe": "Large language model - Wikipedia",
+          "ngayLayVe": "2026-09-16T19:27:32.702Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nguồn tham khảo chung về LLM, cung cấp bối cảnh kiến trúc transformer nhưng ít tập trung vào cơ chế quên ngữ cảnh cụ thể so với n01.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Nội dung quá chung chung về lịch sử và định nghĩa LLM, không cung cấp thông tin cụ thể về giới hạn cửa sổ ngữ cảnh gây ra việc quên thông tin đầu cuộc trò chuyện như mục tiêu bài học yêu cầu.",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+          "tieuDe": "Gemini (language model) - Wikipedia",
+          "ngayLayVe": "2026-09-16T19:27:32.702Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nguồn về một mô hình cụ thể, không phải tài liệu giải thích khái niệm tổng quát về cửa sổ ngữ cảnh.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Tập trung vào lịch sử phát triển và tính năng của Gemini, không giải thích nguyên lý hoạt động của cửa sổ ngữ cảnh chung cho các LLM.",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Gemini is a family of multimodal large language models (LLMs) developed by Google DeepMind, and the successor to LaMDA and PaLM 2.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "sourcesRejected": [
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Cửa sổ ngữ cảnh là lượng văn bản tối đa mà mô hình có thể xử lý cùng lúc; thông tin nằm ngoài giới hạn này sẽ không khả dụng trực tiếp.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+              "viTri": "Đoạn mở đầu bài viết"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Hiệu suất của mô hình trên các tác vụ ngữ cảnh dài thường kém hơn khi thông tin liên quan nằm ở giữa đầu vào so với khi nằm ở đầu hoặc cuối.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.",
+              "viTri": "Đoạn thảo luận về hạn chế của cửa sổ ngữ cảnh dài"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://en.wikipedia.org/wiki/Context_window\",\n      \"tieuDe\": \"Context window - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-16T19:27:32.701Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Wikipedia là bách khoa toàn thư mở uy tín, nội dung có trích dẫn tài liệu học thuật (ACL, arXiv) và phù hợp trực tiếp với chủ đề 'Cửa sổ ngữ cảnh'.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/Large_language_model\",\n      \"tieuDe\": \"Large language model - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-16T19:27:32.702Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn tham khảo chung về LLM, cung cấp bối cảnh kiến trúc transformer nhưng ít tập trung vào cơ chế quên ngữ cảnh cụ thể so với n01.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung quá chung chung về lịch sử và định nghĩa LLM, không cung cấp thông tin cụ thể về giới hạn cửa sổ ngữ cảnh gây ra việc quên thông tin đầu cuộc trò chuyện như mục tiêu bài học yêu cầu.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Gemini_(language_model)\",\n      \"tieuDe\": \"Gemini (language model) - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-16T19:27:32.702Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn về một mô hình cụ thể, không phải tài liệu giải thích khái niệm tổng quát về cửa sổ ngữ cảnh.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Tập trung vào lịch sử phát triển và tính năng của Gemini, không giải thích nguyên lý hoạt động của cửa sổ ngữ cảnh chung cho các LLM.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Gemini is a family of multimodal large language models (LLMs) developed by Google DeepMind, and the successor to LaMDA and PaLM 2.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Cửa sổ ngữ cảnh là lượng văn bản tối đa mà mô hình có thể xử lý cùng lúc; thông tin nằm ngoài giới hạn này sẽ không khả dụng trực tiếp.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\",\n          \"viTri\": \"Đoạn mở đầu bài viết\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Hiệu suất của mô hình trên các tác vụ ngữ cảnh dài thường kém hơn khi thông tin liên quan nằm ở giữa đầu vào so với khi nằm ở đầu hoặc cuối.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"In \\\"Lost in the Middle\\\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.\",\n          \"viTri\": \"Đoạn thảo luận về hạn chế của cửa sổ ngữ cảnh dài\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 5275
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789586859765",
+      "timestamp": "2026-09-16T19:27:39.765Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/Context_window",
+          "tieuDe": "Context window - Wikipedia",
+          "ngayLayVe": "2026-09-16T19:27:32.701Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Wikipedia là bách khoa toàn thư mở uy tín, nội dung có trích dẫn tài liệu học thuật (ACL, arXiv) và phù hợp trực tiếp với chủ đề 'Cửa sổ ngữ cảnh'.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Cửa sổ ngữ cảnh là lượng văn bản tối đa mà mô hình có thể xử lý cùng lúc; thông tin nằm ngoài giới hạn này sẽ không khả dụng trực tiếp.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+              "viTri": "Đoạn mở đầu bài viết"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Hiệu suất của mô hình trên các tác vụ ngữ cảnh dài thường kém hơn khi thông tin liên quan nằm ở giữa đầu vào so với khi nằm ở đầu hoặc cuối.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.",
+              "viTri": "Đoạn thảo luận về hạn chế của cửa sổ ngữ cảnh dài"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: AI output không đúng mẫu hoặc tham chiếu nguồn không hợp lệ",
+      "isDemo": false,
+      "durationMs": 3376
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: AI output không đúng mẫu hoặc tham chiếu nguồn không hợp lệ"
+  }
+}

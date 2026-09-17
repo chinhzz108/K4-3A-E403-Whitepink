@@ -1,0 +1,61 @@
+{
+  "id": "trace-research-1789586960838",
+  "timestamp": "2026-09-16T19:29:20.838Z",
+  "phase": "research",
+  "input": {
+    "topic": "Kiểm tra nguồn không đọc được",
+    "learningObjective": "Không sử dụng trang chưa đọc",
+    "targetAudience": "Giảng viên",
+    "videoDuration": "3 phút",
+    "fixtureMode": true,
+    "fixtureUrls": [
+      "http://localhost:3000/fixtures/missing.html"
+    ]
+  },
+  "searchResults": [
+    {
+      "results": [],
+      "query": "fixture-only"
+    },
+    {
+      "results": [],
+      "query": "fixture-only"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "http://localhost:3000/fixtures/missing.html",
+      "content": "",
+      "fetchedAt": "2026-09-16T19:29:19.138Z",
+      "title": "",
+      "status": "not-found",
+      "contentLength": 0,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/missing.html",
+      "tieuDe": "http://localhost:3000/fixtures/missing.html",
+      "ngayLayVe": "2026-09-16T19:29:19.138Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 404 — Trang không tồn tại",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Trang không truy cập được (not-found)",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "not-found"
+    }
+  ],
+  "sourcesSelected": [],
+  "sourcesRejected": [
+    "n01"
+  ],
+  "thongTin": [],
+  "aiRawResponse": "",
+  "error": "Không có trang nào đọc được",
+  "isDemo": false,
+  "durationMs": 1701
+}

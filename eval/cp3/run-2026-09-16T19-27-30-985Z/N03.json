@@ -1,0 +1,310 @@
+{
+  "case": {
+    "id": "N03",
+    "class": "thuong",
+    "input": {
+      "topic": "Cách một mô hình học từ ví dụ",
+      "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+      "targetAudience": "Học sinh cấp ba",
+      "videoDuration": "3 phút"
+    },
+    "expectedBehavior": "Giải thích supervised learning bằng ví dụ đơn giản. Thuật ngữ Anh kèm nghĩa Việt.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #4; không phải chatlog",
+    "passCriteria": "Thuật ngữ Anh kèm nghĩa Việt trước; ví dụ cụ thể; ≥2 nguồn",
+    "failCriteria": "Thuật ngữ Anh không giải thích; viết quá học thuật cho cấp ba"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+        "tieuDe": "Data-driven learning - Wikipedia",
+        "ngayLayVe": "2026-09-16T19:27:47.899Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Wikipedia is a tertiary source with community editing, providing general information but not peer-reviewed.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "Wikipedia article",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://en.wikipedia.org/wiki/Data",
+        "tieuDe": "Data - Wikipedia",
+        "ngayLayVe": "2026-09-16T19:27:47.900Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "AI không chọn nguồn này",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n03",
+        "url": "https://en.wikipedia.org/wiki/Data-driven_model",
+        "tieuDe": "Data-driven model - Wikipedia",
+        "ngayLayVe": "2026-09-16T19:27:47.900Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "AI không chọn nguồn này",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [],
+    "searchQueries": [
+      "data driven learning",
+      "rule based learning"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789586871899",
+      "timestamp": "2026-09-16T19:27:51.899Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cách một mô hình học từ ví dụ",
+        "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "targetAudience": "Học sinh cấp ba",
+        "videoDuration": "3 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Data-driven learning",
+              "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+              "snippet": "Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven",
+              "position": 1
+            },
+            {
+              "title": "Data",
+              "url": "https://en.wikipedia.org/wiki/Data",
+              "snippet": "journalism Data-driven testing Data-driven learning Data-driven science Data-driven control system Data-driven marketing Digital privacy Environmental data rescue",
+              "position": 2
+            },
+            {
+              "title": "Data-driven model",
+              "url": "https://en.wikipedia.org/wiki/Data-driven_model",
+              "snippet": "Data-driven models are a class of computational models that primarily rely on historical data collected throughout a system's or process' lifetime to",
+              "position": 3
+            }
+          ],
+          "query": "data driven learning",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "Rule-based machine learning",
+              "url": "https://en.wikipedia.org/wiki/Rule-based_machine_learning",
+              "snippet": "Rule-based machine learning (RBML) is a term in computer science intended to encompass any machine learning method that identifies, learns, or evolves",
+              "position": 1
+            },
+            {
+              "title": "Learning rule",
+              "url": "https://en.wikipedia.org/wiki/Learning_rule",
+              "snippet": "An artificial neural network's learning rule or learning process is a method, mathematical logic or algorithm which improves the network's performance",
+              "position": 2
+            },
+            {
+              "title": "Association rule learning",
+              "url": "https://en.wikipedia.org/wiki/Association_rule_learning",
+              "snippet": "Association rule learning is a rule-based machine learning method for discovering interesting relations between variables in large databases. It is intended",
+              "position": 3
+            }
+          ],
+          "query": "rule based learning",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "content": "From Wikipedia, the free encyclopedia Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks. Underpinning this pedagogical approach is the data - information - knowledge paradigm (see DIKW pyramid). It is informed by a pattern-based approach to grammar and vocabulary, and a lexicogrammatical approach to language in general. Thus the basic task in DDL is to identify patterns at all levels of language. From their findings, foreign language students can see how an aspect of language is typically used, which in turn informs how they can use it in their own speaking and writing. Learning how to frame language questions and use the resources to obtain data and interpret it is fundamental to learner autonomy. When students arrive at their own conclusions through such procedures, they use their higher order thinking skills (see Bloom's taxonomy) and are creating knowledge (see Vygotsky). In DDL, students use the same types of tools that professional linguists use, namely a corpus of texts that have been sampled and stored electronically, and a concordancer, which is a search engine designed for linguistic analysis. Some tools have been specifically created for data-driven learning, such as SkELL, WriteBetter, and Micro-concord. Micro-concord was the first significant software designed for classroom use. It was developed for the MS-DOS microcomputers by Tim Johns and Mike Scott and published for DOS computers in 1993 by OUP. It evolved into the widely-used WordSmith Tools. Johns (1936 – 2009) pioneered data-driven learning and coined the term. It first appeared in an article, Should you be persuaded: Two examples of data-driven learning (1991).[1] His paper, From Printout to Handout,[2] is reprinted and discussed at length in Volume 2 of Hubbard's Computer-Assisted Language Learning.[3] Thomas' task-based Discovering English with Sketch Engine[4] exemplifies DDL and acknowledges Johns throughout. Other recent books on DDL which credit Johns as the originator of the approach include those by Anderson and Corbett (2009),[5] Reppen (2010),[6] Bennett (2010),[7] Flowerdew (2012),[8] Boulton and Tyne (2014),[9] and Friginal (2018).[10] Johns worked at the English for Overseas Students Unit of Birmingham University from 1971 till the end of his career. This was while John Sinclair led a large team of linguists at Birmingham University working on the COBUILD project which delivered the first major corpus-based dictionaries and grammars of English for foreign students. COBUILD however, never tasked students with exploring language data themselves. Johns' referred to his specif…[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:47.899Z",
+          "title": "Data-driven learning - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Data",
+          "content": "From Wikipedia, the free encyclopedia Unit of information \"Scientific data\" redirects here. For the journal, see Scientific Data (journal). For data in computer science, see Data (computer science). For other uses, see Data (disambiguation) and Datum (disambiguation). These are some of the different types of data: Geographical, Cultural, Scientific, Financial, Statistical, Meteorological, Natural, Transport Data (/ˈdeɪtə/ DAY-tə, US also /ˈdætə/ DAT-ə) is a collection of discrete or continuous values that conveys information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally. A datum, data value or data point[a] is an individual value in a collection of data. Data is usually organized into structures such as tables that provide additional context and meaning, and may itself be used as data in larger structures. Data may be used as variables in a computational process.[1][2] Data may represent abstract ideas or concrete measurements.[3] Data is commonly used in scientific research, economics, and virtually every other form of human organizational activity. Examples of data sets include price indices (such as the consumer price index), unemployment rates, literacy rates, and census data. In this context, data represents the raw facts and figures from which useful information can be extracted. Data is collected using techniques such as measurement, observation, query, or analysis, and is typically represented as numbers or characters that may be further processed. Field data is data that is collected in an uncontrolled, in-situ environment. Experimental data is data that is generated in the course of a controlled scientific experiment. Data is analyzed using techniques such as calculation, reasoning, discussion, presentation, visualization, or other forms of post-analysis. Prior to analysis, raw data (or unprocessed data) is typically cleaned: Outliers are removed, and obvious instrument or data entry errors are corrected. Data can be seen as the smallest unit of factual information that can be used as a basis for calculation, reasoning, or discussion. Data can range from abstract ideas to concrete measurements, including, but not limited to, statistics. Thematically connected data presented in some relevant context can be viewed as information. Contextually connected pieces of information can then be described as data insights or intelligence. The stock of insights and intelligence that accumulate over time, resulting from the synthesis of data into information, can then be described as knowledge. Data has been described as \"the new oil of the digital economy\".[4][5] Data, as a general concept, refers to the fact that some existing information or kno…[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:47.900Z",
+          "title": "Data - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Data-driven_model",
+          "content": "From Wikipedia, the free encyclopedia Class of computational model Data-driven models are a class of computational models that primarily rely on historical data collected throughout a system's or process' lifetime to establish relationships between input, internal, and output variables. Commonly found in numerous articles and publications, data-driven models have evolved from earlier statistical models, overcoming limitations posed by strict assumptions about probability distributions. These models have gained prominence across various fields, particularly in the era of big data, artificial intelligence, and machine learning, where they offer valuable insights and predictions based on the available data. Background[edit] These models have evolved from earlier statistical models, which were based on certain assumptions about probability distributions that often proved to be overly restrictive.[1] The emergence of data-driven models in the 1950s and 1960s coincided with the development of digital computers, advancements in artificial intelligence research, and the introduction of new approaches in non-behavioural modelling, such as pattern recognition and automatic classification.[2] Key Concepts[edit] Data-driven models encompass a wide range of techniques and methodologies that aim to intelligently process and analyse large datasets. Examples include fuzzy logic, fuzzy and rough sets for handling uncertainty,[3] neural networks for approximating functions,[4] global optimization and evolutionary computing,[5] statistical learning theory,[6] and Bayesian methods.[7] These models have found applications in various fields, including economics, customer relations management, financial services, medicine, and the military, among others.[8] Machine learning, a subfield of artificial intelligence, is closely related to data-driven modelling as it also focuses on using historical data to create models that can make predictions and identify patterns.[9] In fact, many data-driven models incorporate machine learning techniques, such as regression, classification, and clustering algorithms, to process and analyse data.[10] In recent years, the concept of data-driven models has gained considerable attention in the field of water resources, with numerous applications, academic courses, and scientific publications using the term as a generalization for models that rely on data rather than physics.[11] This classification has been featured in various publications and has even spurred the development of hybrid models in the past decade. Hybrid models attempt to quantify the degree of physically based information used in hydrological models and determine whether the process of building the model is primarily driven by physics or purely data-based. As a result, data-dr…[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:47.900Z",
+          "title": "Data-driven model - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "tieuDe": "Data-driven learning - Wikipedia",
+          "ngayLayVe": "2026-09-16T19:27:47.899Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Wikipedia is a tertiary source with community editing, providing general information but not peer-reviewed.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "Wikipedia article",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/Data",
+          "tieuDe": "Data - Wikipedia",
+          "ngayLayVe": "2026-09-16T19:27:47.900Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "AI không chọn nguồn này",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n03",
+          "url": "https://en.wikipedia.org/wiki/Data-driven_model",
+          "tieuDe": "Data-driven model - Wikipedia",
+          "ngayLayVe": "2026-09-16T19:27:47.900Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "AI không chọn nguồn này",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "sourcesRejected": [
+        "n02",
+        "n03"
+      ],
+      "thongTin": [],
+      "aiRawResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://en.wikipedia.org/wiki/Data-driven_learning\",\"tieuDe\":\"Data-driven learning - Wikipedia\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"Không rõ\",\"ngayLayVe\":\"2026-09-16T19:27:47.899Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Wikipedia is a tertiary source with community editing, providing general information but not peer-reviewed.\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Wikipedia article\",\"canhBao\":[],\"doanTrich\":\"Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks.\"}]}",
+      "isDemo": false,
+      "durationMs": 5742
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-20b"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Cách một mô hình học từ ví dụ",
+      "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+      "thoiLuong": "3 phút",
+      "nguoiHoc": "Học sinh cấp ba",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789586875801",
+      "timestamp": "2026-09-16T19:27:55.801Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Cách một mô hình học từ ví dụ",
+        "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "targetAudience": "Học sinh cấp ba",
+        "videoDuration": "3 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "tieuDe": "Data-driven learning - Wikipedia",
+          "ngayLayVe": "2026-09-16T19:27:47.899Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Wikipedia is a tertiary source with community editing, providing general information but not peer-reviewed.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "Wikipedia article",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "thongTin": [],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Cách một mô hình học từ ví dụ",
+        "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "thoiLuong": "3 phút",
+        "nguoiHoc": "Học sinh cấp ba",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: AI output không đúng mẫu hoặc tham chiếu nguồn không hợp lệ",
+      "isDemo": false,
+      "durationMs": 3880
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: AI output không đúng mẫu hoặc tham chiếu nguồn không hợp lệ"
+  }
+}

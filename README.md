@@ -1,3 +1,7 @@
+## Bàn giao CP3 — 2026-09-17
+
+Bản nháp mới nhất: [spec.md](spec.md), [kết quả eval](eval/README.md), [hướng dẫn quay thật](DEMO-GUIDE.md), [bằng chứng AI](eval/cp3/DEMO-EVIDENCE.md). Chạy npm run dev; mở / hoặc /demo. Không ghi đè .env.local đang có.
+
 # Mini Hackathon AI — Batch 04 · Lớp 3A
 
 **SPEC → Prototype → Demo.** Đây không phải cuộc thi code — đây là cuộc thi **tư duy sản phẩm AI**.

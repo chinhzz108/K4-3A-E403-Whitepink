@@ -1,0 +1,99 @@
+{
+  "id": "trace-research-1789586891120",
+  "timestamp": "2026-09-16T19:28:11.120Z",
+  "phase": "research",
+  "input": {
+    "topic": "Retrieval-Augmented Generation (RAG)",
+    "learningObjective": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "targetAudience": "Sinh viên CNTT năm 3",
+    "videoDuration": "5 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Retrieval-augmented generation",
+          "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "snippet": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external",
+          "position": 1
+        },
+        {
+          "title": "Vector database",
+          "url": "https://en.wikipedia.org/wiki/Vector_database",
+          "snippet": "detection, and retrieval-augmented generation. An especially common use-case for vector databases is in retrieval-augmented generation (RAG), a method",
+          "position": 2
+        },
+        {
+          "title": "Prompt engineering",
+          "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+          "snippet": "assigning roles to the model. Automated prompt generation methods, such as retrieval-augmented generation (RAG), provide for greater accuracy and a wider",
+          "position": 3
+        }
+      ],
+      "query": "retrieval augmented generation",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    },
+    {
+      "results": [
+        {
+          "title": "Retrieval-augmented generation",
+          "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "snippet": "generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources. With RAG, LLMs",
+          "position": 1
+        },
+        {
+          "title": "Knowledge cutoff",
+          "url": "https://en.wikipedia.org/wiki/Knowledge_cutoff",
+          "snippet": "external database. Knowledge cutoffs can introduce limitations like hallucinations, where the model generates confident (but false) statements, information",
+          "position": 2
+        },
+        {
+          "title": "Large language model",
+          "url": "https://en.wikipedia.org/wiki/Large_language_model",
+          "snippet": "Efforts to reduce or compensate for hallucinations have employed automated reasoning, retrieval-augmented generation (RAG), fine-tuning, and other methods",
+          "position": 3
+        }
+      ],
+      "query": "hallucination mitigation RAG",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "content": "From Wikipedia, the free encyclopedia Type of information retrieval using LLMs Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.[1][2] With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data.[3] This allows LLMs to use domain-specific and/or updated information that is not available in the training data.[3] For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems. RAG improves LLMs by incorporating information retrieval before generating responses.[4] Unlike LLMs that rely on static training data, RAG pulls relevant text from databases, uploaded documents, or web sources.[1] According to Ars Technica, \"RAG is a way of improving LLM performance, in essence by blending the LLM process with a web search or other document look-up process to help LLMs stick to the facts.\" This method helps reduce AI hallucinations,[4] which have caused chatbots to describe policies that don't exist, or recommend nonexistent legal cases to lawyers that are looking for citations to support their arguments.[5] RAG also reduces the need to retrain LLMs with new data, saving on computational and financial costs.[1] Beyond efficiency gains, RAG also allows LLMs to include sources in their responses, so users can verify the cited sources. This provides greater transparency, as users can cross-check retrieved content to ensure accuracy and relevance. The term retrieval-augmented generation (RAG) was introduced in a 2020 paper that described combining a parametric language model with a non-parametric external memory accessed through retrieval at inference time.[4] RAG and LLM limitations[edit] LLMs can provide incorrect information. For example, when Google first demonstrated its LLM tool \"Google Bard\" (later re-branded to Gemini), the LLM provided incorrect information about the James Webb Space Telescope. This error contributed to a $100 billion decline in Google's stock value.[5] RAG is used to prevent these errors, but it does not solve all the problems. For example, LLMs can generate misinformation even when pulling from factually correct sources if they misinterpret the context. MIT Technology Review gives the example of an AI-generated response stating, \"The United States has had one Muslim president, Barack Hussein Obama.\" The model retrieved this from the rhetorical chapter title \"Barack Hussein Obama: America's First Muslim President?\" in the book Faith in the New …[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:09.355Z",
+      "title": "Retrieval-augmented generation - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vector_database",
+      "content": "From Wikipedia, the free encyclopedia Type of database that uses vectors to represent other data A vector database, vector store or vector search engine is a database that stores and retrieves embeddings of data in vector space.[1] Vector databases typically implement approximate nearest neighbor algorithms so users can search for records semantically similar to a given input, unlike traditional databases which primarily look up records by exact match.[2][3] Use-cases for vector databases include similarity search, semantic search, multi-modal search, recommendations engines, object detection, and retrieval-augmented generation (RAG).[1] Vector embeddings are mathematical representations of data in a high-dimensional space. In this space, each dimension corresponds to a feature of the data, with the number of dimensions ranging from a few hundred to tens of thousands, depending on the complexity of the data being represented. Each data item is represented by one vector in this space. Words, phrases, or entire documents, as well as images, audio, and other types of data, can all be vectorized.[1] These feature vectors may be computed from the raw data using machine learning methods such as feature extraction algorithms, word embeddings[4] or deep learning networks. The goal is that semantically similar data items receive feature vectors close to each other. Vector retrieval can be combined with metadata filtering, lexical or sparse retrieval, graph-based retrieval, and multimodal retrieval to support a range of filtered and hybrid retrieval workflows.[5][6] Techniques[edit] Common techniques for similarity search on high-dimensional vectors include: Hierarchical Navigable Small World (HNSW) graphs Locality-sensitive hashing (LSH) and sketching Product quantization (PQ) Inverted files These techniques may also be combined in vector search systems.[7] In recent benchmarks, HNSW-based implementations have been among the best performers.[8][9] Conferences such as the International Conference on Similarity Search and Applications (SISAP)[10] and the Conference on Neural Information Processing Systems (NeurIPS)[11] have hosted competitions on vector search in large databases. Applications[edit] Vector databases are used in a wide range of machine learning applications including similarity search, semantic search, multi-modal search, recommendations engines, object detection, and retrieval-augmented generation.[1] Retrieval-augmented generation[edit] Main article: Retrieval-augmented generation An especially common use-case for vector databases is in retrieval-augmented generation (RAG), a method to improve domain-specific responses of large language models. The retrieval component of a RAG can be any search system, but is most often implemented as a vector …[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:09.356Z",
+      "title": "Vector database - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+      "content": "From Wikipedia, the free encyclopedia Structuring text as input to generative artificial intelligence Prompt engineering is the process of structuring natural language inputs (known as prompts) to produce specified outputs from a generative AI model. Context engineering is the related area of software engineering that focuses on the management of non-prompt and prompt contexts supplied to the GenAI model, such as system instructions, metadata, API tools and tokens.[1] It can also be defined as the practice of designing and refining input instructions given to a generative AI model to produce more accurate, relevant, or useful outputs. Effective prompt engineering involves understanding how a model interprets language, and may include techniques such as few-shot prompting, chain-of-thought prompting, and role assignment. During the 2020s AI boom, prompt engineering became regarded as a business capability across corporations and industries. Employees with the title prompt engineer were hired to create prompts that would increase productivity and efficacy, although the individual title has since become less common amid AI models that produce better prompts than humans and corporate training in prompting for general employees.[2] Common prompting techniques include multi-shot, chain-of-thought, and tree-of-thought prompting, as well as assigning roles to the model. Automated prompt generation methods, such as retrieval-augmented generation (RAG), provide for greater accuracy and a wider scope of functions for prompt engineers. Prompt injection is a type of cybersecurity attack that targets machine learning models through malicious prompts.[3][4] Terminology[edit] The Oxford English Dictionary defines prompt engineering as \"The action or process of formulating and refining prompts for an artificial intelligence program, algorithm, etc., in order to optimize its output or to achieve a desired outcome; the discipline or profession concerned with this.\"[5] In 2023, prompt (\"an instruction given to an artificial intelligence program, algorithm, etc., which determines or influences the content it generates\") was the runner-up to Oxford's word of the year.[6] Prompt[edit] A prompt is some natural language text that describes and prescribes the task that an artificial intelligence (AI) should perform.[7] A prompt for a text-to-text language model can be a query, a command, or a longer statement referencing context, instructions, and conversation history. The process of prompt engineering may involve designing clear queries, refining wording, providing relevant context, specifying the style of output, and assigning a character for the AI to mimic in order to guide the model toward more accurate, useful, and consistent responses.[8][9] When communicating with a t…[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:09.357Z",
+      "title": "Prompt engineering - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [],
+  "sourcesSelected": [],
+  "sourcesRejected": [],
+  "thongTin": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
+  "isDemo": false,
+  "durationMs": 3344
+}

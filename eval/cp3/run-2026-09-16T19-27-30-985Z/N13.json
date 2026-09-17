@@ -1,0 +1,265 @@
+{
+  "case": {
+    "id": "N13",
+    "class": "ngoai-pham-vi",
+    "input": {
+      "topic": "Cách nấu phở Hà Nội",
+      "learningObjective": "Nấu được một tô phở chuẩn vị",
+      "targetAudience": "Nội trợ",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Hệ thống vẫn tìm nguồn và viết kịch bản — bài giảng có thể về bất kỳ chủ đề nào. Nhưng nguồn phải đáng tin (trang ẩm thực uy tín).",
+    "origin": "tự tạo — ngoài phạm vi AI/tech; không phải chatlog",
+    "passCriteria": "Tìm được nguồn ẩm thực thật; kịch bản đúng format",
+    "failCriteria": "Từ chối hoàn toàn; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHp5S09FMXlhaDdkN3BqOGlNaW1LUmZ1WGJrNWpxU1hxeHliMjdXeEM1ZmhCYUV2OHZyN0NXQy1JQS1vTGJvenRURFBaUmtKcE9hLVpKclFjd0ZvdXZrVE5IVUZHc3JFNV96SFQtSEJaNWFVSjhSR2U3OUVhUG83OGVTa3dOV3hQR3hTek1xcw?oc=5",
+        "tieuDe": "Google Tin tức",
+        "toChuc": "Google Tin tức",
+        "ngayLayVe": "2026-09-16T19:28:41.961Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblZidWhSZUwzYmxRQkFXd0RYNFRlNmRpS3pjNVdTYXZXZkFtbU5GNGVsQnFpZHAwUk93M0NOSGFvenhfRVRzbDJtUjUwZnRIbXM1Tm5wSTE2MnFOLTY2NmRhUnl3bk1RWU1JVUJlNmo3Sndvdzg2aXVUVFNWOUgyLQ?oc=5",
+        "tieuDe": "Google Tin tức",
+        "toChuc": "Google Tin tức",
+        "ngayLayVe": "2026-09-16T19:28:41.962Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVF9sMlBwNnJBVnEwV0RqbU9rbFdveS1xeS1JWVpYUm44M0ZjamhBblhlLXBCRlZnVzlvWFlnd3ZaZjhHTk5ydVlWOFhNVFJRdHBYM1B0RFJ5V2xmSk5XN0R4ZENCVzZORTJMYmZsaHgwaW5Cc3V6ZnBXWTV3NzRjZThQNmFSOC1BVm9iNTRodWI?oc=5",
+        "tieuDe": "Google Tin tức",
+        "toChuc": "Google Tin tức",
+        "ngayLayVe": "2026-09-16T19:28:41.962Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [],
+    "searchQueries": [
+      "Hanoi pho recipe",
+      "pho broth preparation"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789586925116",
+      "timestamp": "2026-09-16T19:28:45.116Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cách nấu phở Hà Nội",
+        "learningObjective": "Nấu được một tô phở chuẩn vị",
+        "targetAudience": "Nội trợ",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "8 delicious and popular noodle and pho restaurants open at night in Hoan Kiem ward. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHp5S09FMXlhaDdkN3BqOGlNaW1LUmZ1WGJrNWpxU1hxeHliMjdXeEM1ZmhCYUV2OHZyN0NXQy1JQS1vTGJvenRURFBaUmtKcE9hLVpKclFjd0ZvdXZrVE5IVUZHc3JFNV96SFQtSEJaNWFVSjhSR2U3OUVhUG83OGVTa3dOV3hQR3hTek1xcw?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHp5S09FMXlhaDdkN3BqOGlNaW1LUmZ1WGJrNWpxU1hxeHliMjdXeEM1ZmhCYUV2OHZyN0NXQy1JQS1vTGJvenRURFBaUmtKcE9hLVpKclFjd0ZvdXZrVE5IVUZHc3JFNV96SFQ",
+              "position": 1
+            },
+            {
+              "title": "Elevating pho to heritage status and spreading Vietnamese culinary culture. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblZidWhSZUwzYmxRQkFXd0RYNFRlNmRpS3pjNVdTYXZXZkFtbU5GNGVsQnFpZHAwUk93M0NOSGFvenhfRVRzbDJtUjUwZnRIbXM1Tm5wSTE2MnFOLTY2NmRhUnl3bk1RWU1JVUJlNmo3Sndvdzg2aXVUVFNWOUgyLQ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQblZidWhSZUwzYmxRQkFXd0RYNFRlNmRpS3pjNVdTYXZXZkFtbU5GNGVsQnFpZHAwUk93M0NOSGFvenhfRVRzbDJtUjUwZnRIbXM1Tm5wSTE2MnFOLTY2NmRhUnl3bk1RWU1JVUJ",
+              "position": 2
+            },
+            {
+              "title": "The two most famous Pho Thin restaurants in Hanoi - Báo VietNamNet",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVF9sMlBwNnJBVnEwV0RqbU9rbFdveS1xeS1JWVpYUm44M0ZjamhBblhlLXBCRlZnVzlvWFlnd3ZaZjhHTk5ydVlWOFhNVFJRdHBYM1B0RFJ5V2xmSk5XN0R4ZENCVzZORTJMYmZsaHgwaW5Cc3V6ZnBXWTV3NzRjZThQNmFSOC1BVm9iNTRodWI?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQVF9sMlBwNnJBVnEwV0RqbU9rbFdveS1xeS1JWVpYUm44M0ZjamhBblhlLXBCRlZnVzlvWFlnd3ZaZjhHTk5ydVlWOFhNVFJRdHBYM1B0RFJ5V2xmSk5XN0R4ZENCVzZORTJMYmZ",
+              "position": 3
+            },
+            {
+              "title": "5 delicious chicken pho restaurants in Hanoi's Old Quarter - Laodong.vn",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSGh2VUJjNnJZNWsybTJVM2VLc2tnX2RJNXpreGNRVm5EN1VzUVJvWFpCT3BZTlZvT19reWYwUzFXN2xvU2lvWFBsczJKOV9xUXA2UGNPS0xsdEtIUThGM0htUWF3YWVoRzlkTmNsV3RaNEp4LUY3UDJaNktfM182UTM0b1RjTExEX2RWc3NXVEg?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPSGh2VUJjNnJZNWsybTJVM2VLc2tnX2RJNXpreGNRVm5EN1VzUVJvWFpCT3BZTlZvT19reWYwUzFXN2xvU2lvWFBsczJKOV9xUXA2UGNPS0xsdEtIUThGM0htUWF3YWVoRzlkTmN",
+              "position": 4
+            },
+            {
+              "title": "5 pho restaurants in Hanoi's Old Quarter praised by Michelin for their delicious food and good prices - Laodong.vn",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBtZzF3UTRjR2NwWlJCT2Y0WTcxTEhhYUpsdmRFWGtRQU1TdGVfdlFlSW95RTJuSURRckFMNkFVbWhydGxkWmZuXzI2Z2NYSlJlV3Bka1dGZFQ3QmNyU05NR3dENW9uaWVZVzQwRkh6Z2hYMWpjZElvRlo1ckNiaXdIM2wwV1h2SXlHekdhek84VDllNFg4eXJiMHFfSFFPMnVwS0lLZUpyYjM0c01BNQ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOWlBtZzF3UTRjR2NwWlJCT2Y0WTcxTEhhYUpsdmRFWGtRQU1TdGVfdlFlSW95RTJuSURRckFMNkFVbWhydGxkWmZuXzI2Z2NYSlJlV3Bka1dGZFQ3QmNyU05NR3dENW9uaWVZVzQ",
+              "position": 5
+            }
+          ],
+          "query": "Hanoi pho recipe",
+          "engine": "multi-engine"
+        },
+        {
+          "results": [
+            {
+              "title": "Something few people notice when they finish the broth of pho or beef noodle soup. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxR1lfejdHdkxESUdZbkF5Q3M0RjZGQzU5bFprVVU4cEVzS0QzUmVtQ0V0QzlsNlRPcldEeFd1Q2RTQWdxZ0IxbzllR1pkOHBpcjBJdHc0YzVwMzRqNGFzSU9USDlDU1E5eHl4OHdsd1poNGFsTkIxejJPQ2Y?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBxR1lfejdHdkxESUdZbkF5Q3M0RjZGQzU5bFprVVU4cEVzS0QzUmVtQ0V0QzlsNlRPcldEeFd1Q2RTQWdxZ0IxbzllR1pkOHBpcjBJdHc0YzVwMzRqNGFzSU9USDlDU1E5eHl4OHd",
+              "position": 1
+            },
+            {
+              "title": "A summer ’phở’ crisis in heart of Hà Nội - vietnamnews.vn",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjFhc25SVXJFd2JRX1RNaTJfZWRWMG9nVUpWMXY0LTFQVXlkTGl6VE53OHg2TzFVWUNqUU9Ha0FDbmpVNkZVZTBXSVJJQzN0YVhFT1hkTkNsdnc5NTFyZHI4X3lpTEVuOFhESXJFMG9qbFBiMktfMUU4cEppN3hQRXJGeEU1VGFGNkpZby10YjVFRFppTmc?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjFhc25SVXJFd2JRX1RNaTJfZWRWMG9nVUpWMXY0LTFQVXlkTGl6VE53OHg2TzFVWUNqUU9Ha0FDbmpVNkZVZTBXSVJJQzN0YVhFT1hkTkNsdnc5NTFyZHI4X3lpTEVuOFhESXJ",
+              "position": 2
+            },
+            {
+              "title": "Pho Festival 2026 spreads the value of Vietnamese cuisine - Laodong.vn",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON2hTbmkyNWxSd2p5NEh0bkJNZ0F5dnlYUENhdTFkeTFUSW5zc2txdVhtNjRidGxQNFBnTXVsNlNwYWdKWDAySEVWUzZSUWh4Z01lTW0zX1dXM1VHOFVtcnVpbjNlSzI5dWVFUW1yTEJJMzQ4dmJjYlZ3OXlpWXhPY1JUM3BGVmpqVUNTWmk5aWtYcnhaYV9lU1plZVV3NjBP?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxON2hTbmkyNWxSd2p5NEh0bkJNZ0F5dnlYUENhdTFkeTFUSW5zc2txdVhtNjRidGxQNFBnTXVsNlNwYWdKWDAySEVWUzZSUWh4Z01lTW0zX1dXM1VHOFVtcnVpbjNlSzI5dWVFUW1",
+              "position": 3
+            },
+            {
+              "title": "Pho Festival 2026 to take place in Ninh Binh from March 19 - 22 - Báo VietNamNet",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGN1amtUUFIwMFJ5MTNtQlV2OHU2N1ZYcXBYRmN1ZVB6RG5zeDROSm00MEhRZi1KVUl1SmtpNEI3c2NxaXFHWlI3d1U0Rk1vVVlsY0NiT2pQNm1wWlFZaUg4aG95NWVpaDdYci1fZGFGa0FWeTI4OWhKcTlpdUszbkZPU1RRZzdaN3pFV0dYcnYwUjVaYlhnQXBiSHVnZW9S?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGN1amtUUFIwMFJ5MTNtQlV2OHU2N1ZYcXBYRmN1ZVB6RG5zeDROSm00MEhRZi1KVUl1SmtpNEI3c2NxaXFHWlI3d1U0Rk1vVVlsY0NiT2pQNm1wWlFZaUg4aG95NWVpaDdYci1",
+              "position": 4
+            },
+            {
+              "title": "Ho Chi Minh City set to welcome first Phở Museum - english.vov.vn",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPanJfMHNnd1VvbU9VTDBwS1JkTERUeElaZE9ybXF1Tjd0VkRXM3ZjdXIyZXoxMkg5SGtIOWVJd2Z0SkZETWJfVVhoWk9DQjItb0UzU1JnMW5aZTVOUmhlVXRrSDl5bkZrWF9nTGMySUthbGhGUTJucUJuRjJlQ3ZuaW1kekpQNGNMZTVfdEhSNmtZTE1JajI5bi1vMUx1c3M?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPanJfMHNnd1VvbU9VTDBwS1JkTERUeElaZE9ybXF1Tjd0VkRXM3ZjdXIyZXoxMkg5SGtIOWVJd2Z0SkZETWJfVVhoWk9DQjItb0UzU1JnMW5aZTVOUmhlVXRrSDl5bkZrWF9nTGM",
+              "position": 5
+            }
+          ],
+          "query": "pho broth preparation",
+          "engine": "multi-engine"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHp5S09FMXlhaDdkN3BqOGlNaW1LUmZ1WGJrNWpxU1hxeHliMjdXeEM1ZmhCYUV2OHZyN0NXQy1JQS1vTGJvenRURFBaUmtKcE9hLVpKclFjd0ZvdXZrVE5IVUZHc3JFNV96SFQtSEJaNWFVSjhSR2U3OUVhUG83OGVTa3dOV3hQR3hTek1xcw?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:28:41.961Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblZidWhSZUwzYmxRQkFXd0RYNFRlNmRpS3pjNVdTYXZXZkFtbU5GNGVsQnFpZHAwUk93M0NOSGFvenhfRVRzbDJtUjUwZnRIbXM1Tm5wSTE2MnFOLTY2NmRhUnl3bk1RWU1JVUJlNmo3Sndvdzg2aXVUVFNWOUgyLQ?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:28:41.962Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVF9sMlBwNnJBVnEwV0RqbU9rbFdveS1xeS1JWVpYUm44M0ZjamhBblhlLXBCRlZnVzlvWFlnd3ZaZjhHTk5ydVlWOFhNVFJRdHBYM1B0RFJ5V2xmSk5XN0R4ZENCVzZORTJMYmZsaHgwaW5Cc3V6ZnBXWTV3NzRjZThQNmFSOC1BVm9iNTRodWI?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:28:41.962Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHp5S09FMXlhaDdkN3BqOGlNaW1LUmZ1WGJrNWpxU1hxeHliMjdXeEM1ZmhCYUV2OHZyN0NXQy1JQS1vTGJvenRURFBaUmtKcE9hLVpKclFjd0ZvdXZrVE5IVUZHc3JFNV96SFQtSEJaNWFVSjhSR2U3OUVhUG83OGVTa3dOV3hQR3hTek1xcw?oc=5",
+          "tieuDe": "Google Tin tức",
+          "toChuc": "Google Tin tức",
+          "ngayLayVe": "2026-09-16T19:28:41.961Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblZidWhSZUwzYmxRQkFXd0RYNFRlNmRpS3pjNVdTYXZXZkFtbU5GNGVsQnFpZHAwUk93M0NOSGFvenhfRVRzbDJtUjUwZnRIbXM1Tm5wSTE2MnFOLTY2NmRhUnl3bk1RWU1JVUJlNmo3Sndvdzg2aXVUVFNWOUgyLQ?oc=5",
+          "tieuDe": "Google Tin tức",
+          "toChuc": "Google Tin tức",
+          "ngayLayVe": "2026-09-16T19:28:41.962Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVF9sMlBwNnJBVnEwV0RqbU9rbFdveS1xeS1JWVpYUm44M0ZjamhBblhlLXBCRlZnVzlvWFlnd3ZaZjhHTk5ydVlWOFhNVFJRdHBYM1B0RFJ5V2xmSk5XN0R4ZENCVzZORTJMYmZsaHgwaW5Cc3V6ZnBXWTV3NzRjZThQNmFSOC1BVm9iNTRodWI?oc=5",
+          "tieuDe": "Google Tin tức",
+          "toChuc": "Google Tin tức",
+          "ngayLayVe": "2026-09-16T19:28:41.962Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [],
+      "sourcesRejected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHp5S09FMXlhaDdkN3BqOGlNaW1LUmZ1WGJrNWpxU1hxeHliMjdXeEM1ZmhCYUV2OHZyN0NXQy1JQS1vTGJvenRURFBaUmtKcE9hLVpKclFjd0ZvdXZrVE5IVUZHc3JFNV96SFQtSEJaNWFVSjhSR2U3OUVhUG83OGVTa3dOV3hQR3hTek1xcw?oc=5\",\n      \"tieuDe\": \"Google Tin tức\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Google Tin tức\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-16T19:28:41.961Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không có nội dung hữu ích, không thể trích dẫn.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://news.google.com/rss/articles/CBMigAFBVV95cUxQblZidWhSZUwzYmxRQkFXd0RYNFRlNmRpS3pjNVdTYXZXZkFtbU5GNGVsQnFpZHAwUk93M0NOSGFvenhfRVRzbDJtUjUwZnRIbXM1Tm5wSTE2MnFOLTY2NmRhUnl3bk1RWU1JVUJlNmo3Sndvdzg2aXVUVFNWOUgyLQ?oc=5\",\n      \"tieuDe\": \"Google Tin tức\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Google Tin tức\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-16T19:28:41.962Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không có nội dung hữu ích, không thể trích dẫn.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://news.google.com/rss/articles/CBMikAFBVV95cUxQVF9sMlBwNnJBVnEwV0RqbU9rbFdveS1xeS1JWVpYUm44M0ZjamhBblhlLXBCRlZnVzlvWFlnd3ZaZjhHTk5ydVlWOFhNVFJRdHBYM1B0RFJ5V2xmSk5XN0R4ZENCVzZORTJMYmZsaHgwaW5Cc3V6ZnBXWTV3NzRjZThQNmFSOC1BVm9iNTRodWI?oc=5\",\n      \"tieuDe\": \"Google Tin tức\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Google Tin tức\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-16T19:28:41.962Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web không chứa nội dung bài viết, chỉ là liên kết trung gian của Google News. Không có dữ liệu để thẩm định.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không có nội dung hữu ích, không thể trích dẫn.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    }\n  ],\n  \"thongTin\": []\n}",
+      "isDemo": false,
+      "durationMs": 5260
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b"
+  }
+}

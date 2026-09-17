@@ -1,9 +1,2 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  images: { unoptimized: true },
-};
-
-module.exports = nextConfig;
+/** Server secrets are loaded by Next.js, never exposed through config.env. */
+module.exports = { images: { unoptimized: true } };

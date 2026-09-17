@@ -1,0 +1,10 @@
+[
+  {
+    "id": "N01",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (413): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.; Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N01.json",
+    "durationMs": 5599
+  }
+]

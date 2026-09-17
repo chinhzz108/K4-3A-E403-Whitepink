@@ -1,0 +1,215 @@
+{
+  "id": "trace-script-1789587066172",
+  "timestamp": "2026-09-16T19:31:06.172Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Context_window",
+      "tieuDe": "Context window - Wikipedia",
+      "ngayLayVe": "2026-09-16T19:30:31.611Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia is a widely used encyclopedia with community review and citations, providing generally reliable factual information.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model",
+      "tieuDe": "Large language model - Wikipedia",
+      "ngayLayVe": "2026-09-16T19:30:31.613Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia entry summarises peer‑reviewed literature on LLMs and is regularly updated by contributors.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can typically generate, summarize, translate, and analyze text in many contexts.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+      "tieuDe": "Gemini (language model) - Wikipedia",
+      "ngayLayVe": "2026-09-16T19:30:31.613Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia article cites official Google announcements and reputable tech reporting.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Unlike other LLMs, Gemini was said to be unique in that it was not trained on a text corpus alone and was designed to be multimodal, meaning it could process multiple types of data simultaneously, including text, images, audio, video, and computer code.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Assistant forgets earlier parts of a conversation because the context window limits the number of tokens the model can attend to at once; any text outside that window is not directly available unless it is summarized, retrieved, or provided again.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters.",
+          "viTri": "Paragraph 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "LLMs operate on a fixed‑size token window, so when a conversation becomes longer than that window, information from the beginning is dropped or must be re‑introduced, leading to the assistant appearing to forget earlier content.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can typically generate, summarize, translate, and analyze text in many contexts.",
+          "viTri": "Paragraph 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Chào các bạn, đã bao giờ bạn trò chuyện rất lâu với một trợ lý ảo và nhận ra nó bắt đầu quên những gì bạn đã nói ở đầu cuộc hội thoại chưa?",
+        "chuTrenManHinh": "Trợ lý ảo có bị quên?",
+        "yDoHinh": "Hình ảnh minh họa đoạn trò chuyện dài với phần đầu tin nhắn bị mờ dần.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo các thông tin chưa xác minh, trợ lý ảo quên đoạn đầu trò chuyện vì giới hạn của cửa sổ ngữ cảnh, hay còn gọi là context window.",
+        "chuTrenManHinh": "Cửa sổ ngữ cảnh (Context window)",
+        "yDoHinh": "Chữ Cửa sổ ngữ cảnh xuất hiện nổi bật ở trung tâm màn hình.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Bạn có thể hình dung đây như một giới hạn về số lượng đơn vị từ ngữ mà mô hình có thể xử lý cùng một lúc.",
+        "chuTrenManHinh": "Giới hạn số đơn vị xử lý",
+        "yDoHinh": "Mô phỏng một chiếc hộp chứa từ ngữ có dung lượng tối đa cố định.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Cũng theo nguồn chưa kiểm chứng, khi cuộc trò chuyện vượt quá dung lượng này, các thông tin cũ ở phần đầu sẽ bị loại bỏ để nhường chỗ cho nội dung mới.",
+        "chuTrenManHinh": "Thông tin cũ bị đẩy ra ngoài",
+        "yDoHinh": "Hoạt họa các tin nhắn cũ bị đẩy rơi ra khỏi khung cửa sổ ngữ cảnh.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Hôm nay, chúng ta sẽ cùng tìm hiểu kỹ hơn xem cơ chế này hoạt động ra sao và làm thế nào để giao tiếp hiệu quả hơn với trí tuệ nhân tạo nhé.",
+        "chuTrenManHinh": "Cùng tìm hiểu cơ chế hoạt động!",
+        "yDoHinh": "Màn hình chuyển sang tiêu đề chính của bài giảng với biểu tượng trí tuệ nhân tạo.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, đã bao giờ bạn trò chuyện rất lâu với một trợ lý ảo và nhận ra nó bắt đầu quên những gì bạn đã nói ở đầu cuộc hội thoại chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo các thông tin chưa xác minh, trợ lý ảo quên đoạn đầu trò chuyện vì giới hạn của cửa sổ ngữ cảnh, hay còn gọi là context window.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Bạn có thể hình dung đây như một giới hạn về số lượng đơn vị từ ngữ mà mô hình có thể xử lý cùng một lúc.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Cũng theo nguồn chưa kiểm chứng, khi cuộc trò chuyện vượt quá dung lượng này, các thông tin cũ ở phần đầu sẽ bị loại bỏ để nhường chỗ cho nội dung mới.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can typically generate, summarize, translate, and analyze text in many contexts."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hôm nay, chúng ta sẽ cùng tìm hiểu kỹ hơn xem cơ chế này hoạt động ra sao và làm thế nào để giao tiếp hiệu quả hơn với trí tuệ nhân tạo nhé.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "```json\n{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn, đã bao giờ bạn trò chuyện rất lâu với một trợ lý ảo và nhận ra nó bắt đầu quên những gì bạn đã nói ở đầu cuộc hội thoại chưa?\",\n      \"chuTrenManHinh\": \"Trợ lý ảo có bị quên?\",\n      \"yDoHinh\": \"Hình ảnh minh họa đoạn trò chuyện dài với phần đầu tin nhắn bị mờ dần.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo các thông tin chưa xác minh, trợ lý ảo quên đoạn đầu trò chuyện vì giới hạn của cửa sổ ngữ cảnh, hay còn gọi là context window.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh (Context window)\",\n      \"yDoHinh\": \"Chữ Cửa sổ ngữ cảnh xuất hiện nổi bật ở trung tâm màn hình.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bạn có thể hình dung đây như một giới hạn về số lượng đơn vị từ ngữ mà mô hình có thể xử lý cùng một lúc.\",\n      \"chuTrenManHinh\": \"Giới hạn số đơn vị xử lý\",\n      \"yDoHinh\": \"Mô phỏng một chiếc hộp chứa từ ngữ có dung lượng tối đa cố định.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Cũng theo nguồn chưa kiểm chứng, khi cuộc trò chuyện vượt quá dung lượng này, các thông tin cũ ở phần đầu sẽ bị loại bỏ để nhường chỗ cho nội dung mới.\",\n      \"chuTrenManHinh\": \"Thông tin cũ bị đẩy ra ngoài\",\n      \"yDoHinh\": \"Hoạt họa các tin nhắn cũ bị đẩy rơi ra khỏi khung cửa sổ ngữ cảnh.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng tìm hiểu kỹ hơn xem cơ chế này hoạt động ra sao và làm thế nào để giao tiếp hiệu quả hơn với trí tuệ nhân tạo nhé.\",\n      \"chuTrenManHinh\": \"Cùng tìm hiểu cơ chế hoạt động!\",\n      \"yDoHinh\": \"Màn hình chuyển sang tiêu đề chính của bài giảng với biểu tượng trí tuệ nhân tạo.\",\n      \"nguon\": []\n    }\n  ]\n}\n```",
+  "isDemo": false,
+  "durationMs": 25433
+}

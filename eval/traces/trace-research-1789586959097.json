@@ -1,0 +1,61 @@
+{
+  "id": "trace-research-1789586959097",
+  "timestamp": "2026-09-16T19:29:19.097Z",
+  "phase": "research",
+  "input": {
+    "topic": "Kiểm tra nguồn không đọc được",
+    "learningObjective": "Không sử dụng trang chưa đọc",
+    "targetAudience": "Giảng viên",
+    "videoDuration": "3 phút",
+    "fixtureMode": true,
+    "fixtureUrls": [
+      "http://localhost:3000/fixtures/unreadable.html"
+    ]
+  },
+  "searchResults": [
+    {
+      "results": [],
+      "query": "fixture-only"
+    },
+    {
+      "results": [],
+      "query": "fixture-only"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "http://localhost:3000/fixtures/unreadable.html",
+      "content": "",
+      "fetchedAt": "2026-09-16T19:29:18.908Z",
+      "title": "",
+      "status": "blocked",
+      "contentLength": 0,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/unreadable.html",
+      "tieuDe": "http://localhost:3000/fixtures/unreadable.html",
+      "ngayLayVe": "2026-09-16T19:29:18.908Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Trang không truy cập được (blocked)",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "blocked"
+    }
+  ],
+  "sourcesSelected": [],
+  "sourcesRejected": [
+    "n01"
+  ],
+  "thongTin": [],
+  "aiRawResponse": "",
+  "error": "Không có trang nào đọc được",
+  "isDemo": false,
+  "durationMs": 189
+}

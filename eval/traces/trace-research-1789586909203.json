@@ -1,0 +1,99 @@
+{
+  "id": "trace-research-1789586909203",
+  "timestamp": "2026-09-16T19:28:29.203Z",
+  "phase": "research",
+  "input": {
+    "topic": "Token là gì và vì sao quan trọng",
+    "learningObjective": "Giải thích được token và cách tính chi phí dựa trên token",
+    "targetAudience": "Người mới học AI",
+    "videoDuration": "3 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Tokenism",
+          "url": "https://en.wikipedia.org/wiki/Tokenism",
+          "snippet": "less than 15% of the total employee population of the workplace. By definition, token employees in a workplace are known to be few; hence, their alleged",
+          "position": 1
+        },
+        {
+          "title": "Security token",
+          "url": "https://en.wikipedia.org/wiki/Security_token",
+          "snippet": "A security token is a peripheral device used to gain access to an electronically restricted resource. The token is used in addition to, or in place of",
+          "position": 2
+        },
+        {
+          "title": "Lexical analysis",
+          "url": "https://en.wikipedia.org/wiki/Lexical_analysis",
+          "snippet": "Lexical tokenization is conversion of a text into (semantically or syntactically) meaningful lexical tokens belonging to categories defined by a \"lexer\"",
+          "position": 3
+        }
+      ],
+      "query": "token definition",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    },
+    {
+      "results": [
+        {
+          "title": "Token Ring",
+          "url": "https://en.wikipedia.org/wiki/Token_Ring",
+          "snippet": "included both the (simpler) firmware and the lower licensing cost in the MAC chip. The cost of a Token Ring interface using the Texas Instruments TMS380C16 MAC",
+          "position": 1
+        },
+        {
+          "title": "Large language model",
+          "url": "https://en.wikipedia.org/wiki/Large_language_model",
+          "snippet": "train on one token. Note that training cost is much higher than inference cost, where it costs 1 to 2 FLOPs per parameter to infer on one token. α = 0.34",
+          "position": 2
+        },
+        {
+          "title": "Ethereum",
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "snippet": "Ethereum allows users to create fungible (e.g. ERC-20) and non-fungible tokens (NFTs) with a variety of properties, and to create smart contracts that",
+          "position": 3
+        }
+      ],
+      "query": "token cost calculation",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tokenism",
+      "content": "From Wikipedia, the free encyclopedia Making a perfunctory or symbolic effort towards including minority groups In sociology, tokenism is the social practice of making a perfunctory and symbolic effort towards the equitable inclusion of members of a minority group, especially by recruiting people from under-represented social-minority groups in order for the organization to give the public appearance of racial and gender equality, usually within a workplace, government, or a school.[1][2][3] The sociological purpose of tokenism is to give the appearance of inclusivity to a workplace or a school that is not as culturally diverse (racial, religious, sexual, etc.) as the rest of society.[4] History[edit] The social concept and the employment practice of tokenism became understood in the popular culture of the United States in the late 1950s.[5] In the face of racial segregation, tokenism emerged as a solution that though earnest in effort, only acknowledged an issue without actually solving it.[6] In the book Why We Can't Wait (1964), civil rights activist Martin Luther King Jr. discussed the subject of tokenism, and how it constitutes a minimal acceptance of black people to the mainstream of U.S. society.[7] When asked about the gains of the Civil Rights Movement in 1963, human rights activist Malcolm X answered:[8] Tokenism is hypocrisy. One little student in the University of Mississippi, that's hypocrisy. A handful of students in Little Rock, Arkansas, is hypocrisy. A couple of students going to school in Georgia is hypocrisy. Integration in America is hypocrisy in the rawest form. And the whole world can see it. All this little tokenism that is dangled in front of the Negro and then he's told, \"See what we're doing for you, Tom.\" Why the whole world can see that this is nothing but hypocrisy? All you do is make your image worse; you don't make it better. Malcolm X highlights that tokenism is used as a tool by the United States to improve its image but fails in its attempts. For instance, in 1954, the United States ruled segregation in public schools unconstitutional through the Brown v. Board of Education case. Malcolm X references Little Rock, Arkansas, where nine students sought to fight for their rights to attend school. On September 4, 1957, Arkansas National Guard troops were sent around Central High School to prevent the entry of nine African American students into an all-white school, defying federal law.[9] President Eisenhower federalized the Arkansas National Guard and used federal troops to uphold the law.[9] While this marked the day that ignited change within Arkansas' school system for African-American children, desegregation did not constitute equality. All nine of the students were brutally bullied by white students and this behavio…[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:24.859Z",
+      "title": "Tokenism - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Security_token",
+      "content": "From Wikipedia, the free encyclopedia Device used to gain access to restricted resource This article's factual accuracy is disputed. Review the definitions of \"Security Token\" and \"Security Token Generator\". Relevant discussion may be found on the talk page. Please help to ensure that disputed statements are reliably sourced. (November 2024) (Learn how and when to remove this message) A radio-frequency identification card used to open a door A security token is a peripheral device used to gain access to an electronically restricted resource. The token is used in addition to, or in place of, a password.[1] Examples of security tokens include wireless key cards used to open locked doors, a banking token used as a digital authenticator for signing in to online banking, or signing transactions such as wire transfers. Security tokens can be used to store information such as passwords, cryptographic keys used to generate digital signatures, or biometric data (such as fingerprints). Some designs incorporate tamper resistant packaging, while others may include small keypads to allow entry of a PIN or a simple button to start a generation routine with some display capability to show a generated key number. Connected tokens utilize a variety of interfaces including USB, near-field communication (NFC), radio-frequency identification (RFID), or Bluetooth. Some tokens have audio capabilities designed for those who are vision-impaired. Password types[edit] Example of keypad issued by a bank All tokens contain some secret information used to prove identity. There are four different ways in which this information can be used: Static password tokenThe device contains a password that is physically hidden (not visible to the possessor), but is transmitted for each authentication. This type is vulnerable to replay attacks. Synchronous dynamic password tokenA timer is used to rotate through various combinations produced by a cryptographic algorithm. The token and the authentication server must have synchronized clocks. Asynchronous password tokenA one-time password is generated without the use of a clock, either from a one-time pad or cryptographic algorithm. Challenge–response tokenUsing public key cryptography, it is possible to prove possession of a private key without revealing that key. The authentication server encrypts a challenge (typically a random number, or at least data with some random parts) with a public key; the device proves it possesses a copy of the matching private key by providing the decrypted challenge. Time-synchronized, one-time passwords change constantly at a set time interval; e.g., once per minute. To do this, some sort of synchronization must exist between the client's token and the authentication server. For disconnected tokens, this time-s…[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:24.860Z",
+      "title": "Security token - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lexical_analysis",
+      "content": "From Wikipedia, the free encyclopedia \"Lexer\" redirects here. For people with this name, see Lexer (surname).\"Lexing\" redirects here. For the Chinese guerrilla leader, see Zhang Lexing. For the mathematician, see Lexing Ying.Conversion of character sequences into token sequences in computer science Lexical tokenization is conversion of a text into (semantically or syntactically) meaningful lexical tokens belonging to categories defined by a \"lexer\" program. In case of a natural language, those categories include nouns, verbs, adjectives, punctuations etc. In case of a programming language, the categories include identifiers, operators, grouping symbols, data types and language keywords. Lexical tokenization is related to the type of tokenization used in large language models (LLMs) but with two differences. First, lexical tokenization is usually based on a lexical grammar, whereas LLM tokenizers are usually probability-based. Second, LLM tokenizers perform a second step that converts the tokens into numerical values. Rule-based programs[edit] A rule-based program, performing lexical tokenization, is called tokenizer,[1] lexer or scanner, although scanner is also a term for the first stage of a lexer. A lexer forms the first phase of a compiler frontend in processing. Analysis generally occurs in one pass. Lexers and parsers are most often used for compilers, but can be used for other computer language tools, such as prettyprinters or linters. Lexing can be divided into two stages: the scanning, which segments the input string into syntactic units called lexemes and categorizes these into token classes, and the evaluating, which converts lexemes into processed values. Lexers are generally quite simple, with most of the complexity deferred to the syntactic analysis or semantic analysis phases, and can often be generated by a lexer generator, notably lex or derivatives. However, lexers can sometimes include some complexity, such as phrase structure processing to make input easier and simplify the parser, and may be written partly or fully by hand, either to support more features or for performance. Disambiguation of \"lexeme\"[edit] See also: Word boundary (linguistics) and Word boundary (computing) What is called \"lexeme\" in rule-based natural language processing is not equal to what is called lexeme in linguistics. What is called \"lexeme\" in rule-based natural language processing can be equal to the linguistic equivalent only in analytic languages, such as English, but not in highly synthetic languages, such as fusional languages. What is called a lexeme in rule-based natural language processing is more similar to what is called a word in linguistics (not to be confused with a word in computer architecture), although in some cases it may be more similar…[đã cắt bớt]",
+      "fetchedAt": "2026-09-16T19:28:24.860Z",
+      "title": "Lexical analysis - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [],
+  "sourcesSelected": [],
+  "sourcesRejected": [],
+  "thongTin": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (400): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
+  "isDemo": false,
+  "durationMs": 5655
+}

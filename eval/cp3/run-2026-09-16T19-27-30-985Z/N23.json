@@ -1,0 +1,115 @@
+{
+  "case": {
+    "id": "N23",
+    "class": "hiem",
+    "input": {
+      "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+      "learningObjective": "Biết thực trạng và thách thức",
+      "targetAudience": "Nhà nghiên cứu",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Gần như không có tài liệu chuyên sâu. Cần nêu rõ giới hạn.",
+    "origin": "tự tạo — chủ đề cực kỳ hiếm; không phải chatlog",
+    "passCriteria": "Ghi rõ không đủ nguồn; không bịa; gợi ý chủ đề liên quan",
+    "failCriteria": "Bịa nghiên cứu không tồn tại"
+  },
+  "research": {
+    "http": 200,
+    "sources": [],
+    "thongTin": [],
+    "searchQueries": [
+      "multimodal language models",
+      "Vietnamese minority NLP"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789586952188",
+      "timestamp": "2026-09-16T19:29:12.188Z",
+      "phase": "research",
+      "input": {
+        "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+        "learningObjective": "Biết thực trạng và thách thức",
+        "targetAudience": "Nhà nghiên cứu",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "China launches AI app to combat online fraud. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcnFfa2dJVVJVVVgxa1pYUGZwSl9OdE42UmhJWVJucWI4UE9vODZvdW9WLUVlQ01IczFQV2ZJQTVFdS0xVWlLUTlSOF9jbUh2dXZoZExYOWZPcXFCV0xILTBtQVRROXppbGlxR2hZYUJENXJCY0dldHpTN3hfRE5ESTB3M1dPcGM?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOcnFfa2dJVVJVVVgxa1pYUGZwSl9OdE42UmhJWVJucWI4UE9vODZvdW9WLUVlQ01IczFQV2ZJQTVFdS0xVWlLUTlSOF9jbUh2dXZoZExYOWZPcXFCV0xILTBtQVRROXppbGlxR2h",
+              "position": 1
+            },
+            {
+              "title": "VTV builds AI Factory: 'Digitalization' to drive media transformation in the 2026-2030 period. - baonghean.vn",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU3JLcXlnT2o5NmFhcFJPdUFISms5d0dVU184NEhkaUlwcnhTR19RQ0lqUThUaVdNWnFGaDlXMXlYNDNwOElLUzdMTWQ4bmg3TDlFTGtEazVOT2tzclluejJBejl4eEd2THp6UXJPNFdELUE0Um42TG5fWUNadTNLeXFUREZmNzlVU1BnLVM0MzlYWk04aTk5bVg2LWJ4X2ptNzBhS2JJTGN2S2hSYzBjOXNHckJndDlIZXg4Ym9ReWhVUQ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU3JLcXlnT2o5NmFhcFJPdUFISms5d0dVU184NEhkaUlwcnhTR19RQ0lqUThUaVdNWnFGaDlXMXlYNDNwOElLUzdMTWQ4bmg3TDlFTGtEazVOT2tzclluejJBejl4eEd2THp6UXJ",
+              "position": 2
+            },
+            {
+              "title": "Ho Chi Minh City National University allocates 1.875 billion VND to compete in AI, chips, robotics, and quantum technology. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSU9qamU2akw0em0tYUVuTzZ3NVl6bFdCUEtmdlluXzFJRmJlVHduVkJ5VF92b0ZDdUxITVBpU1R1b3E2Ny1XMndVdmV0WnJxQmVvVjJXV1R5SXJfVFlROEtFbENQYUt6Uml3YmFYS2E4V3gyRmt0NWpzVWt6ZGtJa1ppekVldFFCU3NUMEFWOFRVM3hhREhnNGVKcndsMXBHNlRmYm5sY2YwLXAwVkF3?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNSU9qamU2akw0em0tYUVuTzZ3NVl6bFdCUEtmdlluXzFJRmJlVHduVkJ5VF92b0ZDdUxITVBpU1R1b3E2Ny1XMndVdmV0WnJxQmVvVjJXV1R5SXJfVFlROEtFbENQYUt6Uml3YmF",
+              "position": 3
+            },
+            {
+              "title": "0,02638 | PHAUSDT Biểu đồ hợp đồng vĩnh cửu ký quỹ bằng USDⓈ | Binance Futures - Binance",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1td3gzQm9CaDdPQjE1c0cxemhpdEZBMWtId0Rkd1ZMaTNvSjlCRmk4ZjJEbTV1ZmlIYkF1a3NtUWs0ekFybUdyRkFKV2k0Y0lGcUlWY0hR?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1td3gzQm9CaDdPQjE1c0cxemhpdEZBMWtId0Rkd1ZMaTNvSjlCRmk4ZjJEbTV1ZmlIYkF1a3NtUWs0ekFybUdyRkFKV2k0Y0lGcUlWY0hR?oc=5\" target=\"_blank\"&gt;0,026",
+              "position": 4
+            }
+          ],
+          "query": "multimodal language models",
+          "engine": "multi-engine"
+        },
+        {
+          "results": [],
+          "query": "Vietnamese minority NLP",
+          "error": "Không tìm thấy kết quả từ các công cụ tìm kiếm web."
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcnFfa2dJVVJVVVgxa1pYUGZwSl9OdE42UmhJWVJucWI4UE9vODZvdW9WLUVlQ01IczFQV2ZJQTVFdS0xVWlLUTlSOF9jbUh2dXZoZExYOWZPcXFCV0xILTBtQVRROXppbGlxR2hZYUJENXJCY0dldHpTN3hfRE5ESTB3M1dPcGM?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:11.328Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU3JLcXlnT2o5NmFhcFJPdUFISms5d0dVU184NEhkaUlwcnhTR19RQ0lqUThUaVdNWnFGaDlXMXlYNDNwOElLUzdMTWQ4bmg3TDlFTGtEazVOT2tzclluejJBejl4eEd2THp6UXJPNFdELUE0Um42TG5fWUNadTNLeXFUREZmNzlVU1BnLVM0MzlYWk04aTk5bVg2LWJ4X2ptNzBhS2JJTGN2S2hSYzBjOXNHckJndDlIZXg4Ym9ReWhVUQ?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:11.329Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSU9qamU2akw0em0tYUVuTzZ3NVl6bFdCUEtmdlluXzFJRmJlVHduVkJ5VF92b0ZDdUxITVBpU1R1b3E2Ny1XMndVdmV0WnJxQmVvVjJXV1R5SXJfVFlROEtFbENQYUt6Uml3YmFYS2E4V3gyRmt0NWpzVWt6ZGtJa1ppekVldFFCU3NUMEFWOFRVM3hhREhnNGVKcndsMXBHNlRmYm5sY2YwLXAwVkF3?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:11.329Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [],
+      "sourcesSelected": [],
+      "sourcesRejected": [],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
+      "isDemo": false,
+      "durationMs": 2813
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API."
+  }
+}

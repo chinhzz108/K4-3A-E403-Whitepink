@@ -1,0 +1,140 @@
+{
+  "case": {
+    "id": "N22",
+    "class": "hiem",
+    "input": {
+      "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+      "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+      "targetAudience": "Sinh viên luật",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Chủ đề rất hẹp. Có thể không tìm đủ nguồn. Phải ghi rõ giới hạn.",
+    "origin": "tự tạo — chủ đề hẹp, hiếm nguồn; không phải chatlog",
+    "passCriteria": "Ghi rõ giới hạn nguồn; không bịa; dùng nguồn liên quan gần nhất",
+    "failCriteria": "Bịa nguồn; viết như có đủ tài liệu khi thực tế không có"
+  },
+  "research": {
+    "http": 200,
+    "sources": [],
+    "thongTin": [],
+    "searchQueries": [
+      "AI ethics ASEAN",
+      "AI moral standards ASEAN"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789586949355",
+      "timestamp": "2026-09-16T19:29:09.355Z",
+      "phase": "research",
+      "input": {
+        "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+        "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+        "targetAudience": "Sinh viên luật",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Make Vietnam and Singapore a leading strategic technology partner in Southeast Asia - Laodong.vn",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQelRCazkxcXlMR2VyRy0ydjRyemRJUG9GRkc1Wnp5em9xYzdMSnBQQzJZbDRNQnhucHVDRUhudXlqUFRYWE5odFRjUjFjTDlwVHVNTGN5enh6eURLWkNjUmF0TXBKRFJETVQ0U0RIb1l4c19FaUxwY2tkNllPOXFhYTBtOWdPNW9Id3VqZmdpOVZpYmtJM1J3eF84cTVrcHJGM3MwYmh6Qkd2V292SDlWTlJYTHdjRlN5V3lCblg5NTNBWFhHNDNMcnB3?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQelRCazkxcXlMR2VyRy0ydjRyemRJUG9GRkc1Wnp5em9xYzdMSnBQQzJZbDRNQnhucHVDRUhudXlqUFRYWE5odFRjUjFjTDlwVHVNTGN5enh6eURLWkNjUmF0TXBKRFJETVQ0U0R",
+              "position": 1
+            },
+            {
+              "title": "Vietnam aims to be among the top 3 in Southeast Asia in AI. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSzUwaDRZdHdBRnJRM0R6eDdCVERnYkY3d1dIamRqdkVWc2FMVnZuNkVoOWhUaHNKVXdrWTg1cU1sdkJVNzR3UUNGZnFRNUxGbldVb2MzYUlKR1k3MUJBU1R2TlVhd2RBQmg5WU1yTUZ3UDRuUXZRblNnYWJSalVsVQ?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPSzUwaDRZdHdBRnJRM0R6eDdCVERnYkY3d1dIamRqdkVWc2FMVnZuNkVoOWhUaHNKVXdrWTg1cU1sdkJVNzR3UUNGZnFRNUxGbldVb2MzYUlKR1k3MUJBU1R2TlVhd2RBQmg5WU1",
+              "position": 2
+            },
+            {
+              "title": "Lãnh đạo, chuyên gia 14 quốc gia bàn tương lai giáo dục đại học thời AI - Người Đô Thị",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnFzTUFmQXZ5ZGQwblRBVHJYbFpwNC11NkZ1Y0c4Z1o5RV9pVEtzU0V5R0RTLWZac3hQSjBjdjc5bkRRZUJWR3BGZThyMnk5RWZsa1hpaXNVamNXYmtKNHM1NWtUMEwySnJFUUt4QUZIQVI0WEhMckg3NmszTi1vWW94Wkc0R2RpeVdyWWoxWkFnMlQ0Y096dmk3WUtFVFVUeXU2d0hHSmluVG8?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnFzTUFmQXZ5ZGQwblRBVHJYbFpwNC11NkZ1Y0c4Z1o5RV9pVEtzU0V5R0RTLWZac3hQSjBjdjc5bkRRZUJWR3BGZThyMnk5RWZsa1hpaXNVamNXYmtKNHM1NWtUMEwySnJFUUt",
+              "position": 3
+            },
+            {
+              "title": "Tạp chí Thể thao: Việt Nam hạ Thái Lan 2-0 lượt đi trên sân khách, mở rộng cửa vô địch ASEAN CUP 2026 - SBS",
+              "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVTFCVEl0VjRJaFRKMGlkYzJ0LWtfanVoNDZ2ZDN3VGhKZnRHeURXNlE3NkxIZ2RGSUZ2QWNPaUZjQ0hVN0VKel9fdUZPOThKUUt5QUVUMXVaTW9UdWE4VkllV1JPOV9FX1loclpQQmpmakU3SENrLVFfVnFhRE5yblB1T1dTYXJQWUJFZzJPWFBadUNmYlF4dTl5bUhYTmdWVkxaTXh5M1hQZkpYZ2luWG85U3lmUkttSVlXc19pR1dMaDd6TERUdHVjR2I4SGJIdGRBNFFEUzRjcEUtX1ViZzBvbWw4bHg5WG85aXJ4ZzdwQUhPMTNpVjBOaHZwZmhO?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxOVTFCVEl0VjRJaFRKMGlkYzJ0LWtfanVoNDZ2ZDN3VGhKZnRHeURXNlE3NkxIZ2RGSUZ2QWNPaUZjQ0hVN0VKel9fdUZPOThKUUt5QUVUMXVaTW9UdWE4VkllV1JPOV9FX1loclp",
+              "position": 4
+            },
+            {
+              "title": "Affirming Vietnam's position on the map of international legal cooperation. - Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQmtCRjA5dXQ5S18wVldrUHFuTVd2WEZhbkhVZkJxS29OVjBoNFc2eFBlVk02TktZeUhpMWd6T3VrTlZUeE0weGlybDhKUVE4N3UyTll4cFFkQnhqRHlQcHgwRS03bGNlWDFocVRmZmlvY0J6bXhPX2gzeVEzUTBnWVlYT0pIOHQwazZrQ2xDNUVaa3Fk?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPQmtCRjA5dXQ5S18wVldrUHFuTVd2WEZhbkhVZkJxS29OVjBoNFc2eFBlVk02TktZeUhpMWd6T3VrTlZUeE0weGlybDhKUVE4N3UyTll4cFFkQnhqRHlQcHgwRS03bGNlWDFocVR",
+              "position": 5
+            }
+          ],
+          "query": "AI ethics ASEAN",
+          "engine": "multi-engine"
+        },
+        {
+          "results": [
+            {
+              "title": "Ảnh hưởng của văn hóa Việt Nam đến tính minh bạch trí tuệ nhân tạo trong quan hệ công chúng - Học viện Chính trị Quốc gia",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWW50WHlETlR0ZGdFWno2alVIclBnMHpVNHBlTFpIZjA0YVFsb3N5Slg2RFhGUlZSbE50c0tGMGhLR3UzUnZCY1d6UWZSaVZmY205eHdKQkJKN1ZiVEpUZlN2cEt4UVl2WVVpZzlKZ1dXSTRKaElqbmF2RWE2bTV2WWhUSkFQR3pQZDVNMFlpeElCMjhFNlVyV1hNX1I0OEhjLVhCcGlzVUtPaWNGby1Jd25MQXZaRVVvRnpaNw?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPWW50WHlETlR0ZGdFWno2alVIclBnMHpVNHBlTFpIZjA0YVFsb3N5Slg2RFhGUlZSbE50c0tGMGhLR3UzUnZCY1d6UWZSaVZmY205eHdKQkJKN1ZiVEpUZlN2cEt4UVl2WVVpZzl",
+              "position": 1
+            },
+            {
+              "title": "Việt Nam to remain responsible, active member of ASEAN digital cooperation - vietnamnews.vn",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWEFNTkNRRlRmMUhhN21XcGlHMGRuX0NOTjhGVDNGQ1RQOWxDZkI2WVRnRmF2dGpuRDl3QmQxV2tXdEl6U1ZPaEpfajZKYkRuV0YxR290Y3JpQTE0bnJpLUtvUERhYWl1cmpuZFNjZG4wbHVOTE1Edks1bTVvX0Q2em1oSVVLV2hscm9iSHJhM0gzU05CUlB0X0xWXzZpc3dFVW9uRVVXdGdSZ2FUM09iNzF4SzJHUUtBWVZEZEo0a24?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWEFNTkNRRlRmMUhhN21XcGlHMGRuX0NOTjhGVDNGQ1RQOWxDZkI2WVRnRmF2dGpuRDl3QmQxV2tXdEl6U1ZPaEpfajZKYkRuV0YxR290Y3JpQTE0bnJpLUtvUERhYWl1cmpuZFN",
+              "position": 2
+            },
+            {
+              "title": "Minister Vu Hai Quan proposed three directions to promote cooperation on AI between ASEAN and the United States - Tạp chí KH&amp;CN Việt Nam",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQVlkZEZXbXJnVlhlTHRDd3UyTWNyMFVPZmxDcTdtc3l2R05sMWJuYmNscS1GOUkxTDFLbndFdVFqY1dPMXlmdlFMZGNMVWZmWjlOSGliNXFYT01DTHpzVk5NT2Q2YUtla3pzci1jNDh3a003LU5adkFJR2RBaGpQX21xRHdHYlFKbFJzZHN4elhMMXhGbnlCZ0trVUx1R3REeFJwZWpEODVveWdKcWF0UWNqbklIZFNybVVkaWFhSUF2VkI2Q3BKbGFNRmVNcWd2eTFLRw?oc=5",
+              "snippet": "&lt;a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQVlkZEZXbXJnVlhlTHRDd3UyTWNyMFVPZmxDcTdtc3l2R05sMWJuYmNscS1GOUkxTDFLbndFdVFqY1dPMXlmdlFMZGNMVWZmWjlOSGliNXFYT01DTHpzVk5NT2Q2YUtla3pzci1",
+              "position": 3
+            }
+          ],
+          "query": "AI moral standards ASEAN",
+          "engine": "multi-engine"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQelRCazkxcXlMR2VyRy0ydjRyemRJUG9GRkc1Wnp5em9xYzdMSnBQQzJZbDRNQnhucHVDRUhudXlqUFRYWE5odFRjUjFjTDlwVHVNTGN5enh6eURLWkNjUmF0TXBKRFJETVQ0U0RIb1l4c19FaUxwY2tkNllPOXFhYTBtOWdPNW9Id3VqZmdpOVZpYmtJM1J3eF84cTVrcHJGM3MwYmh6Qkd2V292SDlWTlJYTHdjRlN5V3lCblg5NTNBWFhHNDNMcnB3?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:08.393Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSzUwaDRZdHdBRnJRM0R6eDdCVERnYkY3d1dIamRqdkVWc2FMVnZuNkVoOWhUaHNKVXdrWTg1cU1sdkJVNzR3UUNGZnFRNUxGbldVb2MzYUlKR1k3MUJBU1R2TlVhd2RBQmg5WU1yTUZ3UDRuUXZRblNnYWJSalVsVQ?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:08.394Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnFzTUFmQXZ5ZGQwblRBVHJYbFpwNC11NkZ1Y0c4Z1o5RV9pVEtzU0V5R0RTLWZac3hQSjBjdjc5bkRRZUJWR3BGZThyMnk5RWZsa1hpaXNVamNXYmtKNHM1NWtUMEwySnJFUUt4QUZIQVI0WEhMckg3NmszTi1vWW94Wkc0R2RpeVdyWWoxWkFnMlQ0Y096dmk3WUtFVFVUeXU2d0hHSmluVG8?oc=5",
+          "content": "",
+          "fetchedAt": "2026-09-16T19:29:08.394Z",
+          "title": "Google Tin tức",
+          "status": "ok",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [],
+      "sourcesSelected": [],
+      "sourcesRejected": [],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
+      "isDemo": false,
+      "durationMs": 3018
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API."
+  }
+}

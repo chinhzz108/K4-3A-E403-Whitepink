@@ -1,0 +1,128 @@
+{
+  "case": {
+    "id": "N04",
+    "class": "thuong",
+    "input": {
+      "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+      "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+      "targetAudience": "Sinh viên công nghệ thông tin",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Nguồn về embeddings, semantic search. Kịch bản giải thích rõ ràng.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #5; không phải chatlog",
+    "passCriteria": "≥2 nguồn kỹ thuật; giải thích embedding bằng ví dụ; dẫn nguồn",
+    "failCriteria": "Bịa nguồn; không có ví dụ; viết như báo cáo thay vì văn nói"
+  },
+  "research": {
+    "http": 200,
+    "sources": [],
+    "thongTin": [],
+    "searchQueries": [
+      "semantic text embedding",
+      "semantic similarity search"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789586879206",
+      "timestamp": "2026-09-16T19:27:59.206Z",
+      "phase": "research",
+      "input": {
+        "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+        "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+        "targetAudience": "Sinh viên công nghệ thông tin",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Word embedding",
+              "url": "https://en.wikipedia.org/wiki/Word_embedding",
+              "snippet": "In natural language processing, a word embedding is a representation of a word. The embedding is used in text analysis. Typically, the representation is",
+              "position": 1
+            },
+            {
+              "title": "Sentence embedding",
+              "url": "https://en.wikipedia.org/wiki/Sentence_embedding",
+              "snippet": "sentence embedding (or document embedding) is a representation of a natural language text as a vector of numbers which encodes meaningful semantic information",
+              "position": 2
+            },
+            {
+              "title": "Semantic search",
+              "url": "https://en.wikipedia.org/wiki/Semantic_search",
+              "snippet": "search engine Semantic query Vector database Word embeddings Bast, Hannah; Buchhold, Björn; Haussmann, Elmar (2016). \"Semantic search on text and knowledge",
+              "position": 3
+            }
+          ],
+          "query": "semantic text embedding",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "Semantic similarity",
+              "url": "https://en.wikipedia.org/wiki/Semantic_similarity",
+              "snippet": "Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning",
+              "position": 1
+            },
+            {
+              "title": "Semantic search",
+              "url": "https://en.wikipedia.org/wiki/Semantic_search",
+              "snippet": "Semantic search denotes search with meaning, as distinguished from lexical search where the search engine looks for literal matches of the query words",
+              "position": 2
+            },
+            {
+              "title": "Similarity search",
+              "url": "https://en.wikipedia.org/wiki/Similarity_search",
+              "snippet": "Similarity learning Latent semantic analysis Pei Lee, Laks V. S. Lakshmanan, Jeffrey Xu Yu: On Top-k Structural Similarity Search. ICDE 2012:774-785 Zezula",
+              "position": 3
+            }
+          ],
+          "query": "semantic similarity search",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Word_embedding",
+          "content": "From Wikipedia, the free encyclopedia Method in natural language processing Illustration of word embedding. Each word is a point in some space. Word embedding enables a processor to perform semantic operations like obtaining the capital of a given country. In natural language processing, a word embedding is a representation of a word. The embedding is used in text analysis. Typically, the representation is a real-valued vector that encodes the meaning of the word in such a way that the words that are closer in the vector space are expected to be similar in meaning.[1] Word embeddings can be obtained using language modeling and feature learning techniques, where words or phrases from the vocabulary are mapped to vectors of real numbers. Methods to generate this mapping include neural networks,[2] dimensionality reduction on the word co-occurrence matrix,[3][4][5] probabilistic models,[6] explainable knowledge base method,[7] and explicit representation in terms of the context in which words appear.[8] Word and phrase embeddings, when used as the underlying input representation, have been shown to boost the performance in NLP tasks such as syntactic parsing[9] and sentiment analysis.[10] Development and history of the approach[edit] In distributional semantics, a quantitative methodological approach for understanding meaning in observed language, word embeddings or semantic feature space models have been used as a knowledge representation for some time.[11] Such models aim to quantify and categorize semantic similarities between linguistic items based on their distributional properties in large samples of language data. The underlying idea that \"a word is characterized by the company it keeps\" was proposed in a 1957 article by John Rupert Firth,[12] but also has roots in the contemporaneous work on search systems[13] and in cognitive psychology.[14] The notion of a semantic space with lexical items (words or multi-word terms) represented as vectors or embeddings is based on the computational challenges of capturing distributional characteristics and using them for practical application to measure similarity between words, phrases, or entire documents. The first generation of semantic space models is the vector space model for information retrieval.[15][16][17] Such vector space models for words and their distributional data implemented in their simplest form results in a very sparse vector space of high dimensionality (cf. curse of dimensionality). Reducing the number of dimensions using linear algebraic methods such as singular value decomposition then led to the introduction of latent semantic analysis in the late 1980s and the random indexing approach for collecting word co-occurrence contexts.[18][19][20][21] In 2000, Bengio et al. provided in a se…[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:57.798Z",
+          "title": "Word embedding - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sentence_embedding",
+          "content": "From Wikipedia, the free encyclopedia Representation in natural language processing In natural language processing, a sentence embedding (or document embedding) is a representation of a natural language text as a vector of numbers which encodes meaningful semantic information[1][2][3][4][5][6][7]. The name stems from the initially limitations of the approach to embed sequences of text longer than a sentence, but this is no longer a limitation. State of the art embeddings are based on the learned hidden layer representation of dedicated sentence transformer models. BERT pioneered an approach involving the use of a dedicated [CLS] token prepended to the beginning of each sentence inputted into the model; the final hidden state vector of this token encodes information about the sentence and can be fine-tuned for use in sentence classification tasks. In practice however, BERT's sentence embedding with the [CLS] token achieves poor performance, often worse than simply averaging non-contextual word embeddings[8]. SBERT later achieved superior sentence embedding performance[8] by fine tuning BERT's [CLS] token embeddings through the usage of a siamese neural network architecture on the SNLI dataset. Other approaches are loosely based on the idea of distributional semantics applied to sentences. Skip-Thought trains an encoder-decoder structure for the task of neighboring sentences predictions; this has been shown to achieve worse performance than approaches such as InferSent or SBERT. An alternative direction is to aggregate word embeddings, such as those returned by Word2vec, into sentence embeddings. The most straightforward approach is to simply compute the average of word vectors, known as continuous bag-of-words (CBOW).[9] However, more elaborate solutions based on word vector quantization have also been proposed. One such approach is the vector of locally aggregated word embeddings (VLAWE),[10] which demonstrated performance improvements in downstream text classification tasks. Applications[edit] In recent years, sentence embedding has seen a growing level of interest due to its applications in natural language queryable knowledge bases through the usage of vector indexing for semantic search. LangChain for instance utilizes sentence transformers for purposes of indexing documents. In particular, an indexing is generated by generating embeddings for chunks of documents and storing (document chunk, embedding) tuples. Then given a query in natural language, the embedding for the query can be generated. A top k similarity search algorithm is then used between the query embedding and the document chunk embeddings to retrieve the most relevant document chunks as context information for question answering tasks. This approach is also known formally as retrie…[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:57.799Z",
+          "title": "Sentence embedding - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Semantic_search",
+          "content": "From Wikipedia, the free encyclopedia Contextual queries Semantic search denotes search with meaning, as distinguished from lexical search where the search engine looks for literal matches of the query words or variants of them, without understanding the overall meaning of the query.[1] Semantic search is an approach to information retrieval that seeks to improve search accuracy by understanding the searcher's intent and the contextual meaning of terms as they appear in the searchable dataspace, whether on the Web or within a closed system, to generate more relevant results. Modern semantic search systems use vector embeddings which convert words, phrases, or documents into numerical vectors. This allows the engine to find results based on meaning, not just exact keyword matches.[2][3] Some authors regard semantic search as a set of techniques for retrieving knowledge from richly structured data sources like ontologies and XML as found on the Semantic Web.[4] Such technologies enable the formal articulation of domain knowledge at a high level of expressiveness and could enable the user to specify their intent in more detail at query time.[5] The articulation enhances content relevance and depth by including specific places, people, or concepts relevant to the query. Models and tools[edit] Tools like Google's Knowledge Graph provide structured relationships between entities to enrich query interpretation.[6] Models like BERT and Sentence-BERT convert words or sentences into dense vectors for similarity comparison.[7] Semantic ontologies like Web Ontology Language, Resource Description Framework, and Schema.org organize concepts and relationships, allowing systems to infer related terms and deeper meanings.[8] Hybrid search models combine lexical retrieval (e.g., BM25) with semantic ranking using pretrained transformer models for optimal performance.[9] See also[edit] List of search engines Semantic web Semantic unification Resource Description Framework Natural language search engine Semantic query Vector database Word embeddings References[edit] ↑ Bast, Hannah; Buchhold, Björn; Haussmann, Elmar (2016). \"Semantic search on text and knowledge bases\". Foundations and Trends in Information Retrieval. 10 (2–3): 119–271. doi:10.1561/1500000032. Retrieved 1 December 2018. ↑ Klampanos, Iraklis A. (2009-06-02). \"Manning Christopher, Prabhakar Raghavan, Hinrich Schütze: Introduction to information retrieval\". Information Retrieval. 12 (5): 609–612. doi:10.1007/s10791-009-9096-x. ISSN 1386-4564. ↑ Kim, Bosung; Hong, Taesuk; Ko, Youngjoong; Seo, Jungyun (2020). \"Multi-Task Learning for Knowledge Graph Completion with Pre-trained Language Models\". Proceedings of the 28th International Conference on Computational Linguistics. Stroudsburg, PA, USA: International Co…[đã cắt bớt]",
+          "fetchedAt": "2026-09-16T19:27:57.799Z",
+          "title": "Semantic search - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [],
+      "sourcesSelected": [],
+      "sourcesRejected": [],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.",
+      "isDemo": false,
+      "durationMs": 3384
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (429): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [404 Not Found] This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API."
+  }
+}

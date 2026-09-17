@@ -1,0 +1,233 @@
+{
+  "id": "trace-script-1789586887755",
+  "timestamp": "2026-09-16T19:28:07.755Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Bản quyền và nội dung do AI tạo ra",
+    "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "targetAudience": "Sinh viên làm đồ án",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_and_copyright",
+      "tieuDe": "Artificial intelligence and copyright - Wikipedia",
+      "ngayLayVe": "2026-09-16T19:28:00.038Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là bách khoa toàn thư mở, nội dung có trích dẫn nguồn thứ cấp nhưng không phải tài liệu học thuật chính thống. Phù hợp để tổng quan nhưng cần kiểm chứng thêm.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn không có ngày đăng cụ thể, nội dung có thể thay đổi theo thời gian.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The United States Copyright Office has declared that works not created by a human author, like this \"selfie\" portrait taken by a monkey, are not eligible for copyright protection.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Generative_AI",
+      "tieuDe": "Generative AI - Wikipedia",
+      "ngayLayVe": "2026-09-16T19:28:00.039Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Tương tự n01, là nguồn tổng hợp từ Wikipedia. Cung cấp bối cảnh về cách AI tạo sinh hoạt động và các vấn đề liên quan đến bản quyền.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn không có ngày đăng cụ thể.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Generative AI models have been trained on copyrighted works without the rightholders' permission.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Copyright_and_artificial_intelligence_in_the_United_Kingdom",
+      "tieuDe": "Copyright and artificial intelligence in the United Kingdom - Wikipedia",
+      "ngayLayVe": "2026-09-16T19:28:00.039Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Cung cấp góc nhìn về tranh chấp pháp lý cụ thể tại Anh, bổ sung cho bối cảnh quốc tế. Tuy nhiên, vẫn là nguồn thứ cấp từ Wikipedia.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nội dung đề cập đến sự kiện năm 2026, cần xác minh tính cập nhật của thông tin pháp lý.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "In 2024, the UK government proposed a broad text and data mining (TDM) exception to copyright that would have allowed AI companies to use publicly available copyrighted material for training",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Tại Hoa Kỳ, các tác phẩm do AI tạo ra mà không có sự can thiệp sáng tạo của con người thường không đủ điều kiện được bảo hộ bản quyền.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The United States Copyright Office has declared that works not created by a human author, like this \"selfie\" portrait taken by a monkey, are not eligible for copyright protection.",
+          "viTri": "Mục Copyright status of AI-generated works"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Không có mâu thuẫn, nhưng chỉ có một nguồn xác nhận trực tiếp về quan điểm của Văn phòng Bản quyền Hoa Kỳ."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Các mô hình AI tạo sinh thường được huấn luyện trên dữ liệu có bản quyền mà không có sự cho phép của chủ sở hữu bản quyền.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Generative AI models have been trained on copyrighted works without the rightholders' permission.",
+          "viTri": "Đoạn mở đầu"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Thông tin này là một thực tế phổ biến nhưng cần lưu ý rằng việc sử dụng dữ liệu này có thể bị xem là 'fair use' (sử dụng hợp lý) trong một số trường hợp, như được đề cập ở nguồn n01."
+    },
+    {
+      "id": "t03",
+      "noiDung": "Tại Vương quốc Anh, có tranh chấp lớn về việc cho phép các công ty AI sử dụng tài liệu có bản quyền để huấn luyện mô hình mà không cần sự đồng ý rõ ràng.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "In 2024, the UK government proposed a broad text and data mining (TDM) exception to copyright that would have allowed AI companies to use publicly available copyrighted material for training",
+          "viTri": "Đoạn mở đầu"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Không có mâu thuẫn với các nguồn khác, nhưng đây là thông tin cụ thể về một khu vực pháp lý (Anh) và một thời điểm cụ thể (2024-2026)."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+    "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "thoiLuong": "bốn phút",
+    "nguoiHoc": "Sinh viên làm đồ án",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn, hôm nay chúng ta sẽ cùng khám phá vấn đề bản quyền và nội dung do trí tuệ nhân tạo tạo ra.",
+        "chuTrenManHinh": "Chào mừng các bạn đến buổi học",
+        "yDoHinh": "Hình minh hoạ AI và bản quyền",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo Văn phòng Bản quyền Hoa Kỳ, các tác phẩm do trí tuệ nhân tạo tạo ra mà không có sự can thiệp sáng tạo của con người không đủ điều kiện được bảo hộ bản quyền.",
+        "chuTrenManHinh": "AI không đủ điều kiện bản quyền",
+        "yDoHinh": "Biểu tượng không có bản quyền",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Các mô hình AI sinh nội dung thường được huấn luyện trên dữ liệu có bản quyền mà không có sự cho phép của chủ sở hữu, một thực tế được ghi nhận trong các nghiên cứu.",
+        "chuTrenManHinh": "AI học từ dữ liệu có bản quyền",
+        "yDoHinh": "Dữ liệu huấn luyện AI",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Tại Vương quốc Anh, chính phủ đã đề xuất một ngoại lệ cho phép khai thác dữ liệu văn bản và dữ liệu để huấn luyện AI mà không cần sự đồng ý rõ ràng, theo đề xuất năm hai không bốn.",
+        "chuTrenManHinh": "Anh đề xuất ngoại lệ TDM cho AI",
+        "yDoHinh": "Bản đồ pháp lý Anh",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, khi sử dụng nội dung do AI tạo ra, sinh viên cần kiểm tra xem có nguồn gốc từ tác phẩm có bản quyền hay không và ghi nguồn khi cần thiết, tránh việc sử dụng trái phép.",
+        "chuTrenManHinh": "Khi nào cần ghi nguồn, khi nào không",
+        "yDoHinh": "Hướng dẫn ghi nguồn",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn, hôm nay chúng ta sẽ cùng khám phá vấn đề bản quyền và nội dung do trí tuệ nhân tạo tạo ra.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo Văn phòng Bản quyền Hoa Kỳ, các tác phẩm do trí tuệ nhân tạo tạo ra mà không có sự can thiệp sáng tạo của con người không đủ điều kiện được bảo hộ bản quyền.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The United States Copyright Office has declared that works not created by a human author, like this \"selfie\" portrait taken by a monkey, are not eligible for copyright protection."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Các mô hình AI sinh nội dung thường được huấn luyện trên dữ liệu có bản quyền mà không có sự cho phép của chủ sở hữu, một thực tế được ghi nhận trong các nghiên cứu.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Generative AI models have been trained on copyrighted works without the rightholders' permission."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Tại Vương quốc Anh, chính phủ đã đề xuất một ngoại lệ cho phép khai thác dữ liệu văn bản và dữ liệu để huấn luyện AI mà không cần sự đồng ý rõ ràng, theo đề xuất năm hai không bốn.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] In 2024, the UK government proposed a broad text and data mining (TDM) exception to copyright that would have allowed AI companies to use publicly available copyrighted material for training"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, khi sử dụng nội dung do AI tạo ra, sinh viên cần kiểm tra xem có nguồn gốc từ tác phẩm có bản quyền hay không và ghi nguồn khi cần thiết, tránh việc sử dụng trái phép.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Bản quyền và nội dung do AI tạo ra\",\n  \"mucTieu\":\"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Sinh viên làm đồ án\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Xin chào các bạn, hôm nay chúng ta sẽ cùng khám phá vấn đề bản quyền và nội dung do trí tuệ nhân tạo tạo ra.\",\n      \"chuTrenManHinh\":\"Chào mừng các bạn đến buổi học\",\n      \"yDoHinh\":\"Hình minh hoạ AI và bản quyền\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Theo Văn phòng Bản quyền Hoa Kỳ, các tác phẩm do trí tuệ nhân tạo tạo ra mà không có sự can thiệp sáng tạo của con người không đủ điều kiện được bảo hộ bản quyền.\",\n      \"chuTrenManHinh\":\"AI không đủ điều kiện bản quyền\",\n      \"yDoHinh\":\"Biểu tượng không có bản quyền\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Các mô hình AI sinh nội dung thường được huấn luyện trên dữ liệu có bản quyền mà không có sự cho phép của chủ sở hữu, một thực tế được ghi nhận trong các nghiên cứu.\",\n      \"chuTrenManHinh\":\"AI học từ dữ liệu có bản quyền\",\n      \"yDoHinh\":\"Dữ liệu huấn luyện AI\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Tại Vương quốc Anh, chính phủ đã đề xuất một ngoại lệ cho phép khai thác dữ liệu văn bản và dữ liệu để huấn luyện AI mà không cần sự đồng ý rõ ràng, theo đề xuất năm hai không bốn.\",\n      \"chuTrenManHinh\":\"Anh đề xuất ngoại lệ TDM cho AI\",\n      \"yDoHinh\":\"Bản đồ pháp lý Anh\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Vì vậy, khi sử dụng nội dung do AI tạo ra, sinh viên cần kiểm tra xem có nguồn gốc từ tác phẩm có bản quyền hay không và ghi nguồn khi cần thiết, tránh việc sử dụng trái phép.\",\n      \"chuTrenManHinh\":\"Khi nào cần ghi nguồn, khi nào không\",\n      \"yDoHinh\":\"Hướng dẫn ghi nguồn\",\n      \"nguon\":[]\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 3908
+}

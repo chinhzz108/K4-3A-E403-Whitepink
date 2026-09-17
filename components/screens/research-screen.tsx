@@ -10,59 +10,68 @@ import {
   Search,
   FileSearch,
   ArrowRight,
+  AlertCircle,
 } from 'lucide-react';
-import { researchSteps, searchQueries } from '@/lib/mock-data';
 
 interface ResearchScreenProps {
   onComplete: () => void;
+  isLoading?: boolean;
+  progress?: string;
+  sourcesFound?: number;
 }
 
-export function ResearchScreen({ onComplete }: ResearchScreenProps) {
+const researchSteps = [
+  'Đang hiểu mục tiêu học tập',
+  'Đang tạo câu hỏi nghiên cứu',
+  'Đang tìm kiếm nguồn trên web',
+  'Đang đọc nội dung trang',
+  'Đang đánh giá độ tin cậy nguồn',
+  'Đang trích xuất bằng chứng',
+];
+
+export function ResearchScreen({
+  onComplete,
+  isLoading = false,
+  progress = '',
+  sourcesFound = 0,
+}: ResearchScreenProps) {
   const [activeStep, setActiveStep] = useState(0);
   const [completedSteps, setCompletedSteps] = useState<number[]>([]);
-  const [visibleSearches, setVisibleSearches] = useState(0);
-  const [showResults, setShowResults] = useState(false);
-  const [showCta, setShowCta] = useState(false);
 
+  // Animate steps based on loading state
   useEffect(() => {
-    const stepTimers: ReturnType<typeof setTimeout>[] = [];
-    researchSteps.forEach((_, idx) => {
-      const startTimer = setTimeout(() => {
-        setActiveStep(idx);
-      }, idx * 700);
-      stepTimers.push(startTimer);
+    if (!isLoading) {
+      // All done — mark all complete
+      if (sourcesFound > 0) {
+        setCompletedSteps([0, 1, 2, 3, 4, 5]);
+        setActiveStep(6);
+      }
+      return;
+    }
 
-      const completeTimer = setTimeout(() => {
-        setCompletedSteps((prev) => [...prev, idx]);
-      }, idx * 700 + 500);
-      stepTimers.push(completeTimer);
-    });
+    // Animate through steps while loading
+    const interval = setInterval(() => {
+      setActiveStep((prev) => {
+        if (prev < researchSteps.length - 1) {
+          setCompletedSteps((c) => [...c, prev]);
+          return prev + 1;
+        }
+        return prev;
+      });
+    }, 3000);
 
-    const searchTimers: ReturnType<typeof setTimeout>[] = [];
-    searchQueries.forEach((_, idx) => {
-      const t = setTimeout(() => {
-        setVisibleSearches(idx + 1);
-      }, 800 + idx * 600);
-      searchTimers.push(t);
-    });
+    return () => clearInterval(interval);
+  }, [isLoading, sourcesFound]);
 
-    const resultsTimer = setTimeout(() => setShowResults(true), 3500);
-    const ctaTimer = setTimeout(() => setShowCta(true), 4200);
-
-    return () => {
-      stepTimers.forEach(clearTimeout);
-      searchTimers.forEach(clearTimeout);
-      clearTimeout(resultsTimer);
-      clearTimeout(ctaTimer);
-    };
-  }, []);
+  const isError = !isLoading && sourcesFound === 0 && progress.includes('Lỗi');
+  const isDone = !isLoading && sourcesFound > 0;
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-12">
       <div className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight">Đang nghiên cứu chủ đề</h1>
         <p className="mt-2 text-muted-foreground">
-          ScriptScout đang xây dựng hồ sơ nguồn trước khi viết kịch bản.
+          ScriptScout đang tìm kiếm và đánh giá nguồn tài liệu thật trên web.
         </p>
       </div>
 
@@ -70,8 +79,10 @@ export function ResearchScreen({ onComplete }: ResearchScreenProps) {
         {/* Left: Agent Activity Timeline */}
         <div>
           <h2 className="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
-            <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse-soft" />
-            Hoạt động Agent
+            {isLoading && (
+              <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse" />
+            )}
+            Các bước dự kiến (minh họa, không phải log trực tiếp)
           </h2>
           <Card className="p-6">
             <div className="space-y-1">
@@ -130,62 +141,74 @@ export function ResearchScreen({ onComplete }: ResearchScreenProps) {
           </Card>
         </div>
 
-        {/* Right: Live Search Cards */}
+        {/* Right: Live Progress */}
         <div>
           <h2 className="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
             <Search className="h-4 w-4" />
-            Tìm kiếm trực tiếp
+            Tiến trình
           </h2>
           <div className="space-y-3">
-            {searchQueries.map((query, idx) => (
-              <div
-                key={query}
+            {/* Progress message */}
+            {progress && (
+              <Card
                 className={cn(
-                  'transition-all duration-500',
-                  idx < visibleSearches
-                    ? 'opacity-100 translate-y-0'
-                    : 'opacity-0 translate-y-4 pointer-events-none h-0'
+                  'p-4',
+                  isError
+                    ? 'border-red-200 bg-red-50'
+                    : isDone
+                    ? 'border-emerald-200 bg-emerald-50'
+                    : 'border-primary/20 bg-primary/5'
                 )}
               >
-                <Card className="flex items-center gap-3 p-4 animate-fade-in">
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent">
-                    <FileSearch className="h-4 w-4 text-primary" />
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <p className="truncate text-sm font-medium">{query}</p>
-                    <p className="text-xs text-muted-foreground">
-                      Đang tìm kiếm trên web...
-                    </p>
-                  </div>
-                  <Loader2 className="h-4 w-4 animate-spin text-primary" />
-                </Card>
-              </div>
-            ))}
+                <div className="flex items-center gap-2">
+                  {isLoading ? (
+                    <Loader2 className="h-5 w-5 animate-spin text-primary" />
+                  ) : isError ? (
+                    <AlertCircle className="h-5 w-5 text-red-600" />
+                  ) : (
+                    <CheckCircle2 className="h-5 w-5 text-emerald-600" />
+                  )}
+                  <span
+                    className={cn(
+                      'text-sm font-medium',
+                      isError ? 'text-red-700' : isDone ? 'text-emerald-700' : ''
+                    )}
+                  >
+                    {progress}
+                  </span>
+                </div>
+              </Card>
+            )}
 
-            {/* Results summary */}
-            {showResults && (
+            {/* Loading indicator */}
+            {isLoading && (
+              <Card className="flex items-center gap-3 p-4 animate-pulse">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent">
+                  <FileSearch className="h-4 w-4 text-primary" />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="text-sm font-medium">Đang xử lý yêu cầu; kết quả dịch vụ sẽ được ghi trong trace.</p>
+                  <p className="text-xs text-muted-foreground">
+                    Quá trình có thể mất 15–30 giây
+                  </p>
+                </div>
+                <Loader2 className="h-4 w-4 animate-spin text-primary" />
+              </Card>
+            )}
+
+            {/* Result summary */}
+            {isDone && (
               <div className="space-y-3 animate-fade-in">
-                <Card className="border-primary/20 bg-primary/5 p-4">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <CheckCircle2 className="h-5 w-5 text-primary" />
-                      <span className="text-sm font-medium">Tìm thấy 12 kết quả</span>
-                    </div>
-                    <span className="text-xs text-muted-foreground">
-                      qua 4 truy vấn
-                    </span>
-                  </div>
-                </Card>
                 <Card className="border-emerald-200 bg-emerald-50 p-4">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
                       <CheckCircle2 className="h-5 w-5 text-emerald-600" />
                       <span className="text-sm font-medium text-emerald-700">
-                        5 nguồn chất lượng cao được chọn lọc
+                        {sourcesFound} nguồn đã đánh giá
                       </span>
                     </div>
                     <span className="text-xs text-emerald-600">
-                      sau khi sàng lọc độ tin cậy
+                      Lời gọi AI thật
                     </span>
                   </div>
                 </Card>
@@ -194,7 +217,7 @@ export function ResearchScreen({ onComplete }: ResearchScreenProps) {
           </div>
 
           {/* CTA */}
-          {showCta && (
+          {isDone && (
             <div className="mt-6 animate-fade-in">
               <Button size="lg" className="w-full gap-2" onClick={onComplete}>
                 Duyệt nguồn

@@ -70,6 +70,8 @@ export function SourceDetailDrawer({ source, open, onOpenChange }: SourceDetailD
             </div>
           </div>
 
+          <p className="text-sm">Truy cập: {source.ngayLayVe} · Trạng thái đọc: {source.scrapeStatus}</p>
+          <p className="text-sm">{source.lyDoLoai} {(source.canhBao || []).join(" · ")}</p>
           {/* Prompt injection warning */}
           {source.promptInjectionDetected && (
             <div className="rounded-xl border border-red-200 bg-red-50 p-4">
@@ -95,7 +97,7 @@ export function SourceDetailDrawer({ source, open, onOpenChange }: SourceDetailD
           {/* Reliability score */}
           <div className="rounded-xl border border-border p-4">
             <div className="mb-4 flex items-center justify-between">
-              <h3 className="text-sm font-semibold">Điểm tin cậy</h3>
+              <h3 className="text-sm font-semibold">Điểm quy đổi minh họa, chưa hiệu chuẩn</h3>
               <span className={`text-2xl font-bold tabular-nums ${config.accentText}`}>
                 {source.reliabilityScore}
                 <span className="text-sm font-normal text-muted-foreground">/100</span>
@@ -140,7 +142,7 @@ export function SourceDetailDrawer({ source, open, onOpenChange }: SourceDetailD
           )}
 
           {/* Open original source */}
-          <Button variant="outline" className="w-full gap-2" onClick={() => {}}>
+          <Button variant="outline" className="w-full gap-2" onClick={() => window.open(source.url, '_blank', 'noopener,noreferrer')}>
             <ExternalLink className="h-4 w-4" />
             Mở nguồn gốc
           </Button>

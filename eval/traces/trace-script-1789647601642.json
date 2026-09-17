@@ -1,0 +1,265 @@
+{
+  "id": "trace-script-1789647601642",
+  "timestamp": "2026-09-17T12:20:01.642Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Retrieval-Augmented Generation (RAG)",
+    "learningObjective": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "targetAudience": "Sinh viên CNTT năm 3",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T12-12-13-353Z",
+    "evalCaseId": "N06"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "tieuDe": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+      "toChuc": "Amazon Web Services",
+      "ngayDang": "2025-05-16T08:44:40-08:00",
+      "ngayLayVe": "2026-09-17T12:19:10.667Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Nguồn từ AWS, một tổ chức công nghệ lớn, cung cấp hướng dẫn kỹ thuật chi tiết và cập nhật về phát hiện hallucination trong RAG.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "tieuDe": "Tìm hiểu về Retrieval Augmented Generation (RAG)",
+      "toChuc": "Viblo",
+      "ngayLayVe": "2026-09-17T12:19:10.668Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Viblo là nền tảng chia sẻ kiến thức kỹ thuật phổ biến tại Việt Nam, nội dung giải thích kỹ thuật về Sentence Transformers trong RAG khá chi tiết nhưng thiếu thông tin tác giả và ngày đăng cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.mindee.com/blog/rag-hallucinations-explained",
+      "tieuDe": "RAG hallucinations explained: Causes, risks, and fixes",
+      "ngayLayVe": "2026-09-17T12:19:10.670Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Mindee là công ty cung cấp giải pháp OCR/AI, bài viết cung cấp cái nhìn tổng quan về nguyên nhân và cách giảm hallucination, tuy nhiên là blog thương mại nên độ khách quan có thể bị ảnh hưởng bởi mục đích marketing.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp tìm kiếm thông tin bên ngoài với mô hình ngôn ngữ lớn để cải thiện độ chính xác và giảm thiểu hallucination.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).",
+          "viTri": "Đoạn mở đầu"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)",
+          "viTri": "Đoạn mở đầu"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Hallucination trong RAG xảy ra khi mô hình tạo ra thông tin sai lệch hoặc bịa đặt mặc dù đã truy xuất tài liệu từ kho dữ liệu, do các vấn đề như chất lượng truy xuất kém hoặc sự phụ thuộc quá mức vào khả năng sinh văn bản.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus. This can happen due to:Poor relevance of retrieved documentsOver-reliance on generative capabilities rather than source grounding",
+          "viTri": "Mục 'What is a RAG hallucination?'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Các chiến lược thực tiễn để giảm hallucination trong RAG bao gồm cải thiện chất lượng dữ liệu, sử dụng bộ truy xuất dense với bộ lọc, tích hợp mô hình hóa sự không chắc chắn, và đánh giá bằng các chỉ số sự thật.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Practical strategies for developersImprove data quality: Ensure that your retrieval corpus is clean, up-to-date, and relevant. Garbage in, garbage out.Use dense retrievers with filters: Combine semantic retrievers (like DPR or ColBERT) with metadata filters",
+          "viTri": "Mục 'Practical strategies for developers'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Sentence Transformers được ưu tiên sử dụng trong RAG vì khả năng tạo embedding ở cấp độ câu, giúp tìm kiếm ngữ nghĩa hiệu quả hơn so với các mô hình token-level như BERT.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Có thể nói rằng, Sentence Transformers là lựa chọn số 1 cho mô hình embedding cho RAG. RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu.",
+          "viTri": "Mục 'Áp dụng Sentence Transformers cho RAG'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Retrieval-Augmented Generation (RAG)",
+    "mucTieu": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên CNTT năm 3",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Chào các bạn sinh viên, bạn đã bao giờ thắc mắc làm sao để mô hình ngôn ngữ hạn chế đưa ra câu trả lời sai lệch chưa?",
+        "chuTrenManHinh": "Chào mừng bạn đến với bài học",
+        "yDoHinh": "Hình ảnh minh họa một sinh viên đang thắc mắc trước màn hình máy tính với các câu trả lời từ máy tính",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Hôm nay chúng ta sẽ tìm hiểu về kỹ thuật tạo sinh tăng cường truy xuất, hay còn gọi là RAG, giúp kết hợp tìm kiếm tri thức bên ngoài với mô hình ngôn ngữ lớn nhằm giảm thiểu hiện tượng bịa đặt thông tin, hay còn gọi là hallucination.",
+        "chuTrenManHinh": "Kỹ thuật RAG kết hợp truy xuất",
+        "yDoHinh": "Sơ đồ khối thể hiện sự kết hợp giữa kho tri thức bên ngoài và mô hình ngôn ngữ lớn",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Tuy nhiên, hiện tượng bịa đặt thông tin, hay còn gọi là hallucination, vẫn có thể xảy ra khi mô hình tạo ra thông tin sai lệch mặc dù đã truy xuất được tài liệu từ kho dữ liệu.",
+        "chuTrenManHinh": "Hiện tượng hallucination trong RAG",
+        "yDoHinh": "Biểu tượng cảnh báo lỗi xuất hiện khi mô hình truy xuất dữ liệu nhưng tạo ra kết quả sai",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Để khắc phục điều này, các lập trình viên có thể cải thiện chất lượng dữ liệu đầu vào và sử dụng bộ truy xuất mật độ cao, hay còn gọi là dense retriever, đi kèm các bộ lọc.",
+        "chuTrenManHinh": "Giải pháp giảm hallucination",
+        "yDoHinh": "Hình ảnh các bước làm sạch dữ liệu và áp dụng bộ lọc dữ liệu vào bộ truy xuất",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Hãy cùng nhau bắt đầu bài học để nắm vững các nguyên lý cơ bản này ngay bây giờ nhé.",
+        "chuTrenManHinh": "Bắt đầu bài học RAG",
+        "yDoHinh": "Màn hình chuyển cảnh sang giao diện bài giảng chính với tiêu đề khóa học",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn sinh viên, bạn đã bao giờ thắc mắc làm sao để mô hình ngôn ngữ hạn chế đưa ra câu trả lời sai lệch chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Hôm nay chúng ta sẽ tìm hiểu về kỹ thuật tạo sinh tăng cường truy xuất, hay còn gọi là RAG, giúp kết hợp tìm kiếm tri thức bên ngoài với mô hình ngôn ngữ lớn nhằm giảm thiểu hiện tượng bịa đặt thông tin, hay còn gọi là hallucination.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).; [n02] Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)"
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Tuy nhiên, hiện tượng bịa đặt thông tin, hay còn gọi là hallucination, vẫn có thể xảy ra khi mô hình tạo ra thông tin sai lệch mặc dù đã truy xuất được tài liệu từ kho dữ liệu.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus. This can happen due to:Poor relevance of retrieved documentsOver-reliance on generative capabilities rather than source grounding"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Để khắc phục điều này, các lập trình viên có thể cải thiện chất lượng dữ liệu đầu vào và sử dụng bộ truy xuất mật độ cao, hay còn gọi là dense retriever, đi kèm các bộ lọc.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Practical strategies for developersImprove data quality: Ensure that your retrieval corpus is clean, up-to-date, and relevant. Garbage in, garbage out.Use dense retrievers with filters: Combine semantic retrievers (like DPR or ColBERT) with metadata filters"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng nhau bắt đầu bài học để nắm vững các nguyên lý cơ bản này ngay bây giờ nhé.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Retrieval-Augmented Generation (RAG)\",\n  \"mucTieu\": \"Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Sinh viên CNTT năm 3\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn sinh viên, bạn đã bao giờ thắc mắc làm sao để mô hình ngôn ngữ hạn chế đưa ra câu trả lời sai lệch chưa?\",\n      \"chuTrenManHinh\": \"Chào mừng bạn đến với bài học\",\n      \"yDoHinh\": \"Hình ảnh minh họa một sinh viên đang thắc mắc trước màn hình máy tính với các câu trả lời từ máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Hôm nay chúng ta sẽ tìm hiểu về kỹ thuật tạo sinh tăng cường truy xuất, hay còn gọi là RAG, giúp kết hợp tìm kiếm tri thức bên ngoài với mô hình ngôn ngữ lớn nhằm giảm thiểu hiện tượng bịa đặt thông tin, hay còn gọi là hallucination.\",\n      \"chuTrenManHinh\": \"Kỹ thuật RAG kết hợp truy xuất\",\n      \"yDoHinh\": \"Sơ đồ khối thể hiện sự kết hợp giữa kho tri thức bên ngoài và mô hình ngôn ngữ lớn\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Tuy nhiên, hiện tượng bịa đặt thông tin, hay còn gọi là hallucination, vẫn có thể xảy ra khi mô hình tạo ra thông tin sai lệch mặc dù đã truy xuất được tài liệu từ kho dữ liệu.\",\n      \"chuTrenManHinh\": \"Hiện tượng hallucination trong RAG\",\n      \"yDoHinh\": \"Biểu tượng cảnh báo lỗi xuất hiện khi mô hình truy xuất dữ liệu nhưng tạo ra kết quả sai\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Để khắc phục điều này, các lập trình viên có thể cải thiện chất lượng dữ liệu đầu vào và sử dụng bộ truy xuất mật độ cao, hay còn gọi là dense retriever, đi kèm các bộ lọc.\",\n      \"chuTrenManHinh\": \"Giải pháp giảm hallucination\",\n      \"yDoHinh\": \"Hình ảnh các bước làm sạch dữ liệu và áp dụng bộ lọc dữ liệu vào bộ truy xuất\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hãy cùng nhau bắt đầu bài học để nắm vững các nguyên lý cơ bản này ngay bây giờ nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học RAG\",\n      \"yDoHinh\": \"Màn hình chuyển cảnh sang giao diện bài giảng chính với tiêu đề khóa học\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.6-flash",
+      "durationMs": 18066,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Retrieval-Augmented Generation (RAG)\",\n  \"mucTieu\": \"Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Sinh viên CNTT năm 3\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn sinh viên, bạn đã bao giờ thắc mắc làm sao để mô hình ngôn ngữ hạn chế đưa ra câu trả lời sai lệch chưa?\",\n      \"chuTrenManHinh\": \"Chào mừng bạn đến với bài học\",\n      \"yDoHinh\": \"Hình ảnh minh họa một sinh viên đang thắc mắc trước màn hình máy tính với các câu trả lời từ máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Hôm nay chúng ta sẽ tìm hiểu về kỹ thuật tạo sinh tăng cường truy xuất, hay còn gọi là RAG, giúp kết hợp tìm kiếm tri thức bên ngoài với mô hình ngôn ngữ lớn nhằm giảm thiểu hiện tượng bịa đặt thông tin, hay còn gọi là hallucination.\",\n      \"chuTrenManHinh\": \"Kỹ thuật RAG kết hợp truy xuất\",\n      \"yDoHinh\": \"Sơ đồ khối thể hiện sự kết hợp giữa kho tri thức bên ngoài và mô hình ngôn ngữ lớn\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Tuy nhiên, hiện tượng bịa đặt thông tin, hay còn gọi là hallucination, vẫn có thể xảy ra khi mô hình tạo ra thông tin sai lệch mặc dù đã truy xuất được tài liệu từ kho dữ liệu.\",\n      \"chuTrenManHinh\": \"Hiện tượng hallucination trong RAG\",\n      \"yDoHinh\": \"Biểu tượng cảnh báo lỗi xuất hiện khi mô hình truy xuất dữ liệu nhưng tạo ra kết quả sai\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Để khắc phục điều này, các lập trình viên có thể cải thiện chất lượng dữ liệu đầu vào và sử dụng bộ truy xuất mật độ cao, hay còn gọi là dense retriever, đi kèm các bộ lọc.\",\n      \"chuTrenManHinh\": \"Giải pháp giảm hallucination\",\n      \"yDoHinh\": \"Hình ảnh các bước làm sạch dữ liệu và áp dụng bộ lọc dữ liệu vào bộ truy xuất\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hãy cùng nhau bắt đầu bài học để nắm vững các nguyên lý cơ bản này ngay bây giờ nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học RAG\",\n      \"yDoHinh\": \"Màn hình chuyển cảnh sang giao diện bài giảng chính với tiêu đề khóa học\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 33303
+}

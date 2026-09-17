@@ -1,0 +1,253 @@
+{
+  "id": "trace-script-1789651829729",
+  "timestamp": "2026-09-17T13:30:29.729Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-29-39-310Z",
+    "evalCaseId": "N02"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.chapman.edu/ai/bias-in-ai.aspx",
+      "tieuDe": "Bias in AI | Chapman University",
+      "ngayLayVe": "2026-09-17T13:29:44.509Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "trang của trường đại học, nội dung giáo dục và nghiên cứu",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://gptzero.me/hallucination-detector",
+      "tieuDe": "AI Source Finder - Check Citations From Text, Essays & More",
+      "toChuc": "GPTZero",
+      "ngayLayVe": "2026-09-17T13:29:44.511Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "công cụ thương mại, không có quy trình đánh giá học thuật độc lập",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "tieuDe": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+      "toChuc": "Amazon Web Services",
+      "ngayDang": "2025-05-16T08:44:40-08:00",
+      "ngayLayVe": "2026-09-17T13:29:46.171Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "blog kỹ thuật của nhà cung cấp dịch vụ đám mây, có đội ngũ kỹ sư và quy trình kiểm duyệt nội dung",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Set the float to 1 if you are confident that the sentence is not based on the context.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Một câu trả lời có thể mang bias nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch, do dữ liệu huấn luyện không đa dạng.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.",
+          "viTri": "đoạn trích"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Công cụ phát hiện hallucination có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+          "viTri": "đoạn trích"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Nếu điểm confidence cao (gần 1) cho thấy câu không dựa trên ngữ cảnh, đây là dấu hiệu câu trả lời có khả năng hallucinate.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Set the float to 1 if you are confident that the sentence is not based on the context.",
+          "viTri": "đoạn trích"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?",
+        "chuTrenManHinh": "Vì sao trí tuệ nhân tạo luôn tự tin?",
+        "yDoHinh": "Một người đi làm đang nhìn màn hình máy tính với vẻ mặt bối rối hoài nghi.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.",
+        "chuTrenManHinh": "Thiên lệch do dữ liệu huấn luyện",
+        "yDoHinh": "Sơ đồ dữ liệu huấn luyện một chiều dẫn đến kết quả đầu ra lệch hẳn sang một bên.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+        "chuTrenManHinh": "Tự động phát hiện ảo giác",
+        "yDoHinh": "Giao diện phần mềm quét văn bản và khoanh đỏ các phần thông tin không có nguồn dẫn.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.",
+        "chuTrenManHinh": "Cảnh báo ảo giác từ điểm tin cậy",
+        "yDoHinh": "Biểu đồ cột hiển thị mức độ tin cậy chạm mốc tối đa kèm theo tín hiệu cảnh báo màu đỏ.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.",
+        "chuTrenManHinh": "Ba dấu hiệu cần kiểm chứng",
+        "yDoHinh": "Người nhân viên văn phòng mỉm cười tự tin, sẵn sàng làm chủ công nghệ.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Set the float to 1 if you are confident that the sentence is not based on the context."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?\",\n      \"chuTrenManHinh\": \"Vì sao trí tuệ nhân tạo luôn tự tin?\",\n      \"yDoHinh\": \"Một người đi làm đang nhìn màn hình máy tính với vẻ mặt bối rối hoài nghi.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.\",\n      \"chuTrenManHinh\": \"Thiên lệch do dữ liệu huấn luyện\",\n      \"yDoHinh\": \"Sơ đồ dữ liệu huấn luyện một chiều dẫn đến kết quả đầu ra lệch hẳn sang một bên.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.\",\n      \"chuTrenManHinh\": \"Tự động phát hiện ảo giác\",\n      \"yDoHinh\": \"Giao diện phần mềm quét văn bản và khoanh đỏ các phần thông tin không có nguồn dẫn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.\",\n      \"chuTrenManHinh\": \"Cảnh báo ảo giác từ điểm tin cậy\",\n      \"yDoHinh\": \"Biểu đồ cột hiển thị mức độ tin cậy chạm mốc tối đa kèm theo tín hiệu cảnh báo màu đỏ.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Người nhân viên văn phòng mỉm cười tự tin, sẵn sàng làm chủ công nghệ.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-14c3c8b2-f753-447d-9bc9-dce9b6d37fa9",
+      "durationMs": 1841,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bạn có bao giờ nhận ra rằng các mô hình tạo sinh có thể tạo ra những đầu ra thiên lệch do các liên kết tiềm thức trong dữ liệu huấn luyện?\",\n      \"chuTrenManHinh\": \"AI thiên lệch\",\n      \"yDoHinh\": \"Biểu tượng não bộ với các đường kết nối mờ ảo, một phần bị che khuất bởi bóng tối.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời mà không kiểm tra nguồn gốc của nó chưa?\",\n      \"chuTrenManHinh\": \"Kiểm tra nguồn?\",\n      \"yDoHinh\": \"Một người đang nhìn chằm chằm vào màn hình máy tính với biểu cảm nghi ngờ, phía sau là các biểu tượng dấu hỏi lơ lửng.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và tuyên bố thiếu cơ sở.\",\n      \"chuTrenManHinh\": \"Phát hiện ảo giác\",\n      \"yDoHinh\": \"Một chiếc kính lúp đang soi vào một đoạn văn bản, nơi các từ ngữ sai lệch phát sáng đỏ và bị khoanh tròn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Điểm tin cậy gần bằng một cho thấy câu đó không dựa trên ngữ cảnh, đây là dấu hiệu cần cảnh giác.\",\n      \"chuTrenManHinh\": \"Điểm tin cậy cao\",\n      \"yDoHinh\": \"Một thanh đo lường tiến gần đến vạch đỏ tối đa, với biểu tượng cảnh báo nhấp nháy bên cạnh.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy nhớ rằng sự tự tin của máy tính không đồng nghĩa với sự chính xác, bạn cần chủ động kiểm chứng thông tin.\",\n      \"chuTrenManHinh\": \"Tự tin không là đúng\",\n      \"yDoHinh\": \"Một robot đang mỉm cười tự tin nhưng phía sau lưng nó là một mớ bòng bong các sợi dây rối rắm và sai lệch.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "durationMs": 19874,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?\",\n      \"chuTrenManHinh\": \"Vì sao trí tuệ nhân tạo luôn tự tin?\",\n      \"yDoHinh\": \"Một người đi làm đang nhìn màn hình máy tính với vẻ mặt bối rối hoài nghi.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.\",\n      \"chuTrenManHinh\": \"Thiên lệch do dữ liệu huấn luyện\",\n      \"yDoHinh\": \"Sơ đồ dữ liệu huấn luyện một chiều dẫn đến kết quả đầu ra lệch hẳn sang một bên.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.\",\n      \"chuTrenManHinh\": \"Tự động phát hiện ảo giác\",\n      \"yDoHinh\": \"Giao diện phần mềm quét văn bản và khoanh đỏ các phần thông tin không có nguồn dẫn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.\",\n      \"chuTrenManHinh\": \"Cảnh báo ảo giác từ điểm tin cậy\",\n      \"yDoHinh\": \"Biểu đồ cột hiển thị mức độ tin cậy chạm mốc tối đa kèm theo tín hiệu cảnh báo màu đỏ.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Người nhân viên văn phòng mỉm cười tự tin, sẵn sàng làm chủ công nghệ.\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 27542
+}

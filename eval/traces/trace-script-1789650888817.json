@@ -1,0 +1,280 @@
+{
+  "id": "trace-script-1789650888817",
+  "timestamp": "2026-09-17T13:14:48.817Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Fine-tuning so với prompt engineering",
+    "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N07"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+      "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+      "tacGia": "Ivan Belcic, Cole Stryker",
+      "ngayDang": "2025-02-07",
+      "ngayLayVe": "2026-09-17T13:14:17.782Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, so sánh khách quan các phương pháp.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+      "tieuDe": "To fine-tune or not to fine-tune",
+      "ngayLayVe": "2026-09-17T13:14:19.222Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Meta AI là nhà phát triển LLM lớn, cung cấp dữ liệu thực nghiệm cụ thể (số liệu độ chính xác) và phân tích kỹ thuật chi tiết về chi phí và hiệu quả.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, cần kiểm tra thêm thời điểm công bố để đảm bảo tính cập nhật của số liệu.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://cloud.google.com/use-cases/fine-tuning-ai-models",
+      "tieuDe": "Fine-tuning LLMs: overview and guide | Google Cloud",
+      "toChuc": "Google Cloud",
+      "ngayLayVe": "2026-09-17T13:14:19.224Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu chính thức từ Google Cloud, cung cấp hướng dẫn thực hành và tiêu chí kỹ thuật rõ ràng cho việc lựa chọn phương pháp.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Prompt engineering là phương pháp ít tốn kém và nhanh nhất, phù hợp cho các tác vụ mở hoặc khi cần linh hoạt, không yêu cầu đầu tư phần cứng tính toán thêm.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+          "viTri": "Đoạn 5"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có một nguồn xác nhận trực tiếp về khía cạnh chi phí/tài nguyên thấp nhất so với 2 phương pháp còn lại."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Fine-tuning nên được cân nhắc khi cần sửa các lỗi mà prompt engineering không thể khắc phục, đặc biệt là các trường hợp biên (edge cases) hoặc khi cần độ chính xác cao trên các nhiệm vụ cụ thể.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+          "viTri": "Đoạn 4"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Fine-tuning có thể cải thiện đáng kể độ chính xác của mô hình trên các nhiệm vụ cụ thể, ví dụ: tăng độ chính xác phân tích cảm xúc từ 34% lên 85% hoặc từ 48% lên 73%.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%. ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples.",
+          "viTri": "Đoạn 4"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Số liệu cụ thể chỉ được cung cấp bởi Meta AI, chưa có nguồn độc lập thứ hai xác nhận các con số này."
+    },
+    {
+      "id": "t04",
+      "noiDung": "Fine-tuning giúp giảm chi phí và độ trễ (latency) bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, đồng thời giảm nhu cầu về prompt dài.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality.",
+          "viTri": "Đoạn 5"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Fine-tuning so với prompt engineering",
+    "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Quản lý sản phẩm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?",
+        "chuTrenManHinh": "Khi nào dùng prompt hay fine‑tuning?",
+        "yDoHinh": "Quản lý sản phẩm đứng trước bảng lựa chọn hai con đường: viết câu lệnh và tinh chỉnh mô hình.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.",
+        "chuTrenManHinh": "Prompt engineering ít tốn kém",
+        "yDoHinh": "Màn hình máy tính hiển thị câu lệnh ngắn gọn cùng biểu tượng đồng tiền không hao hụt.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.",
+        "chuTrenManHinh": "Fine‑tuning xử lý lỗi",
+        "yDoHinh": "Đồ họa mạng nơ‑ron tự điều chỉnh các nút lỗi dưới biểu tượng cờ lê.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.",
+        "chuTrenManHinh": "Giảm chi phí, độ trễ",
+        "yDoHinh": "Hai robot, một lớn truyền ánh sáng tri thức sang robot nhỏ, bên cạnh biểu đồ chi phí giảm.",
+        "nguon": [
+          "t04"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.",
+        "chuTrenManHinh": "So sánh nhanh",
+        "yDoHinh": "Bảng so sánh hai phương pháp với các dấu tích xanh và đỏ.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.; [n03] Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.",
+      "nguon": [
+        "t04"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality.; [n03] Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Fine-tuning so với prompt engineering\",\"mucTieu\":\"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Quản lý sản phẩm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?\",\"chuTrenManHinh\":\"Khi nào dùng prompt hay fine‑tuning?\",\"yDoHinh\":\"Quản lý sản phẩm đứng trước bảng lựa chọn hai con đường: viết câu lệnh và tinh chỉnh mô hình.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.\",\"chuTrenManHinh\":\"Prompt engineering ít tốn kém\",\"yDoHinh\":\"Màn hình máy tính hiển thị câu lệnh ngắn gọn cùng biểu tượng đồng tiền không hao hụt.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.\",\"chuTrenManHinh\":\"Fine‑tuning xử lý lỗi\",\"yDoHinh\":\"Đồ họa mạng nơ‑ron tự điều chỉnh các nút lỗi dưới biểu tượng cờ lê.\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.\",\"chuTrenManHinh\":\"Giảm chi phí, độ trễ\",\"yDoHinh\":\"Hai robot, một lớn truyền ánh sáng tri thức sang robot nhỏ, bên cạnh biểu đồ chi phí giảm.\",\"nguon\":[\"t04\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.\",\"chuTrenManHinh\":\"So sánh nhanh\",\"yDoHinh\":\"Bảng so sánh hai phương pháp với các dấu tích xanh và đỏ.\",\"nguon\":[]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "durationMs": 18310,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Fine-tuning so với prompt engineering\",\n  \"mucTieu\": \"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Quản lý sản phẩm\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Là một nhà quản lý sản phẩm, có bao giờ bạn băn khoăn liệu nên tối ưu hóa mô hình bằng cách viết câu lệnh hay phải tốn công sức thiết lập lại hệ thống dữ liệu phức tạp?\",\n      \"chuTrenManHinh\": \"Lựa chọn tối ưu hóa mô hình AI?\",\n      \"yDoHinh\": \"Một quản lý sản phẩm đứng trước hai con đường có biển chỉ dẫn ghi chữ Viết câu lệnh và Tinh chỉnh mô hình.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Theo một báo cáo chưa được xác minh độc lập, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất vì không đòi hỏi đầu tư thêm phần cứng tính toán.\",\n      \"chuTrenManHinh\": \"Prompt engineering ít tốn kém nhất\",\n      \"yDoHinh\": \"Hình ảnh màn hình máy tính đang gõ các dòng lệnh đơn giản kèm theo một biểu tượng ví tiền không bị hao hụt.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Ngược lại, đối với các trường hợp biên hoặc lỗi khó sửa bằng câu lệnh, tài liệu chuyên môn chưa xác minh chỉ ra rằng tinh chỉnh mô hình, hay còn gọi là fine-tuning, sẽ giúp sửa chữa các lỗi sai này hiệu quả hơn.\",\n      \"chuTrenManHinh\": \"Fine-tuning xử lý trường hợp biên\",\n      \"yDoHinh\": \"Đồ họa mô tả một mạng lưới nơ-ron phức tạp đang tự động điều chỉnh các nút thắt bị lỗi dưới biểu tượng một chiếc cờ lê.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy lưu ý rằng, phương pháp tinh chỉnh này còn có thể giúp giảm chi phí vận hành và độ trễ bằng cách chuyển giao tri thức từ mô hình lớn sang mô hình nhỏ hơn, dù nhận định này vẫn cần thêm dữ liệu để kiểm chứng thêm.\",\n      \"chuTrenManHinh\": \"Giảm chi phí và độ trễ vận hành\",\n      \"yDoHinh\": \"Hình ảnh minh họa một chú rô-bốt lớn đang truyền ánh sáng tri thức sang một chú rô-bốt nhỏ hơn, bên cạnh là biểu đồ cột chi phí đi xuống.\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học ngắn ngày hôm nay, chúng ta sẽ cùng phân tích sâu hơn để bạn có thể tự tin đưa ra quyết định phù hợp nhất cho ngân sách và dự án của mình.\",\n      \"chuTrenManHinh\": \"Lựa chọn giải pháp phù hợp dự án\",\n      \"yDoHinh\": \"Nhân vật quản lý sản phẩm mỉm cười tự tin, cầm trên tay bảng so sánh chi tiết hai phương pháp với các dấu tích xanh.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 1: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-09146cde-70b7-456e-aab2-0db26a423c65",
+      "durationMs": 4875,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Fine-tuning so với prompt engineering\",\"mucTieu\":\"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Quản lý sản phẩm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?\",\"chuTrenManHinh\":\"Khi nào dùng prompt hay fine‑tuning?\",\"yDoHinh\":\"Quản lý sản phẩm đứng trước bảng lựa chọn hai con đường: viết câu lệnh và tinh chỉnh mô hình.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.\",\"chuTrenManHinh\":\"Prompt engineering ít tốn kém\",\"yDoHinh\":\"Màn hình máy tính hiển thị câu lệnh ngắn gọn cùng biểu tượng đồng tiền không hao hụt.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.\",\"chuTrenManHinh\":\"Fine‑tuning xử lý lỗi\",\"yDoHinh\":\"Đồ họa mạng nơ‑ron tự điều chỉnh các nút lỗi dưới biểu tượng cờ lê.\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.\",\"chuTrenManHinh\":\"Giảm chi phí, độ trễ\",\"yDoHinh\":\"Hai robot, một lớn truyền ánh sáng tri thức sang robot nhỏ, bên cạnh biểu đồ chi phí giảm.\",\"nguon\":[\"t04\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.\",\"chuTrenManHinh\":\"So sánh nhanh\",\"yDoHinh\":\"Bảng so sánh hai phương pháp với các dấu tích xanh và đỏ.\",\"nguon\":[]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 23592
+}

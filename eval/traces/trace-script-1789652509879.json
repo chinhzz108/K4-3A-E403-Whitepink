@@ -1,0 +1,234 @@
+{
+  "id": "trace-script-1789652509879",
+  "timestamp": "2026-09-17T13:41:49.879Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N09"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n02",
+      "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+      "tieuDe": "The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]",
+      "tacGia": "[at] Editorial Team",
+      "ngayDang": "2025-12-01T13:36:09+01:00",
+      "ngayLayVe": "2026-09-17T13:41:32.934Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài viết cung cấp hướng dẫn chuyên sâu, có cấu trúc tốt, nêu rõ các phương pháp và chiến lược tối ưu hóa chi phí LLM thực tế.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn là bài viết blog, cần đối chiếu thêm số liệu cụ thể về giá cả."
+      ],
+      "doanTrich": "Forward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+      "tieuDe": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+      "tacGia": "YourGPT",
+      "toChuc": "YourGPT",
+      "ngayLayVe": "2026-09-17T13:41:32.935Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Cung cấp định nghĩa rõ ràng về token đầu vào, đầu ra và ví dụ tính toán, nhưng thiếu ngày đăng cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn thiếu ngày đăng chính xác, cần lưu ý tính cập nhật của giá.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Input Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Chi phí sử dụng mô hình ngôn ngữ lớn (LLM) phụ thuộc chủ yếu vào tổng số lượng token được xử lý, bao gồm token đầu vào và token đầu ra.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed.",
+          "viTri": "Đoạn 4"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.",
+          "viTri": "Đoạn cuối"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Token đầu ra thường có giá đắt hơn nhiều so với token đầu vào trong các mô hình ngôn ngữ lớn.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Another important point is that output tokens are almost always much more expensive than input tokens.",
+          "viTri": "Đoạn 5"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có một nguồn (n02) đề cập chi tiết về chênh lệch giá giữa token đầu vào và đầu ra mà chưa có nguồn thứ hai độc lập xác nhận mức giá cụ thể của từng phiên bản mô hình giả định."
+    },
+    {
+      "id": "t03",
+      "noiDung": "Sử dụng chế độ hàng loạt (Batch mode) giúp gộp nhiều yêu cầu lại với nhau và xử lý một lần để giảm mạnh chi phí cho mỗi yêu cầu.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.",
+          "viTri": "Đoạn 10"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có một nguồn (n02) đề xuất phương pháp tối ưu hóa chi phí này."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Chi phí khi dùng mô hình ngôn ngữ",
+    "mucTieu": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Quản lý sản phẩm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.",
+        "chuTrenManHinh": "Khám phá chi phí LLM",
+        "yDoHinh": "Hình ảnh người dẫn chương trình chào khán giả",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.",
+        "chuTrenManHinh": "Chi phí dựa trên token",
+        "yDoHinh": "Biểu đồ thanh hiển thị số token đầu vào và đầu ra",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.",
+        "chuTrenManHinh": "Token đầu ra đắt hơn",
+        "yDoHinh": "Biểu tượng đồng tiền so sánh giá token đầu vào và đầu ra",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?",
+        "chuTrenManHinh": "Batch mode giảm chi phí",
+        "yDoHinh": "Mô phỏng nhóm yêu cầu được gom lại thành một lô",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.",
+        "chuTrenManHinh": "Ba cách tối ưu chi phí",
+        "yDoHinh": "Danh sách ba mẹo tối ưu chi phí với biểu tượng công cụ",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed.; [n03] Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Another important point is that output tokens are almost always much more expensive than input tokens."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Chi phí khi dùng mô hình ngôn ngữ\",\n  \"mucTieu\":\"Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí\",\n  \"thoiLuong\":\"4 phút\",\n  \"nguoiHoc\":\"Quản lý sản phẩm\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.\",\"chuTrenManHinh\":\"Khám phá chi phí LLM\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình chào khán giả\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.\",\"chuTrenManHinh\":\"Chi phí dựa trên token\",\"yDoHinh\":\"Biểu đồ thanh hiển thị số token đầu vào và đầu ra\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.\",\"chuTrenManHinh\":\"Token đầu ra đắt hơn\",\"yDoHinh\":\"Biểu tượng đồng tiền so sánh giá token đầu vào và đầu ra\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?\",\"chuTrenManHinh\":\"Batch mode giảm chi phí\",\"yDoHinh\":\"Mô phỏng nhóm yêu cầu được gom lại thành một lô\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.\",\"chuTrenManHinh\":\"Ba cách tối ưu chi phí\",\"yDoHinh\":\"Danh sách ba mẹo tối ưu chi phí với biểu tượng công cụ\",\"nguon\":[]}\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-1fd69657-74c2-4084-b864-6b6dae0b3227",
+      "durationMs": 4511,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Chi phí khi dùng mô hình ngôn ngữ\",\n  \"mucTieu\":\"Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí\",\n  \"thoiLuong\":\"4 phút\",\n  \"nguoiHoc\":\"Quản lý sản phẩm\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.\",\"chuTrenManHinh\":\"Khám phá chi phí LLM\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình chào khán giả\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.\",\"chuTrenManHinh\":\"Chi phí dựa trên token\",\"yDoHinh\":\"Biểu đồ thanh hiển thị số token đầu vào và đầu ra\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.\",\"chuTrenManHinh\":\"Token đầu ra đắt hơn\",\"yDoHinh\":\"Biểu tượng đồng tiền so sánh giá token đầu vào và đầu ra\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?\",\"chuTrenManHinh\":\"Batch mode giảm chi phí\",\"yDoHinh\":\"Mô phỏng nhóm yêu cầu được gom lại thành một lô\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.\",\"chuTrenManHinh\":\"Ba cách tối ưu chi phí\",\"yDoHinh\":\"Danh sách ba mẹo tối ưu chi phí với biểu tượng công cụ\",\"nguon\":[]}\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 4514
+}

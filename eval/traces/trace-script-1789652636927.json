@@ -1,0 +1,227 @@
+{
+  "id": "trace-script-1789652636927",
+  "timestamp": "2026-09-17T13:43:56.927Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "So sánh GPT-4 và Claude 3",
+    "learningObjective": "Biết ưu nhược điểm của từng mô hình",
+    "targetAudience": "Sinh viên CNTT",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N16"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+      "tieuDe": "GPT-4 vs Claude 3 for AI Development: Which to Build On? | SFAI Labs",
+      "ngayDang": "2026-01-31T00:00:00.000Z",
+      "ngayLayVe": "2026-09-17T13:43:42.390Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết kỹ thuật chi tiết có bảng so sánh giá và tính năng rõ ràng, nhưng tác giả và tổ chức không minh bạch.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm (xuất bản năm 2026)"
+      ],
+      "doanTrich": "GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/",
+      "tieuDe": "Claude 3 vs GPT-4: Best Enterprise LLM in 2026?",
+      "toChuc": "Dextra Labs",
+      "ngayDang": "2026-02-19T04:01:08+05:30",
+      "ngayLayVe": "2026-09-17T13:43:42.392Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài phân tích chuyên sâu về doanh nghiệp từ một tổ chức công nghệ, có trích dẫn nghiên cứu nhưng thiếu tên tác giả cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm (xuất bản năm 2026)"
+      ],
+      "doanTrich": "Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "GPT-4 phù hợp cho nhà phát triển cần hệ sinh thái trưởng thành và nhiều công cụ, trong khi Claude 3 nổi trội ở cửa sổ ngữ cảnh dài và chi phí tối ưu.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.",
+          "viTri": "Đoạn mở đầu"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Claude 3 sở hữu cửa sổ ngữ cảnh 200K token trong khi GPT-4 Turbo có cửa sổ ngữ cảnh 128K token.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Context window 128K (GPT-4 Turbo) 200K (Claude 3)",
+          "viTri": "Bảng so sánh kỹ thuật"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Cả Claude 3 và GPT-4 đều là các mô hình ngôn ngữ lớn cấp độ doanh nghiệp hỗ trợ lập luận nâng cao, sử dụng công cụ và tích hợp API.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.",
+          "viTri": "Phần mở đầu bài viết"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "So sánh GPT-4 và Claude 3",
+    "mucTieu": "Biết ưu nhược điểm của từng mô hình",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên CNTT",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.",
+        "chuTrenManHinh": "Tiêu đề video và logo",
+        "yDoHinh": "Nền xanh với tiêu đề và biểu tượng trí tuệ nhân tạo",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.",
+        "chuTrenManHinh": "Bảng so sánh GPT bốn vs Claude ba",
+        "yDoHinh": "Bảng chi tiết tính năng, màu xanh cho GPT, màu cam cho Claude",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.",
+        "chuTrenManHinh": "Đồ thị cửa sổ ngữ cảnh token",
+        "yDoHinh": "Cột so sánh kích thước ngữ cảnh, nhãn token",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.",
+        "chuTrenManHinh": "Biểu tượng lập luận và API",
+        "yDoHinh": "Biểu tượng não máy tính và giao diện lập trình, mũi tên chỉ khác biệt",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.",
+        "chuTrenManHinh": "Kết thúc với lời mời theo dõi",
+        "yDoHinh": "Màn hình cuối với lời cảm ơn và biểu tượng đăng ký",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Context window 128K (GPT-4 Turbo) 200K (Claude 3)"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"So sánh GPT-4 và Claude 3\",\n  \"mucTieu\":\"Biết ưu nhược điểm của từng mô hình\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Sinh viên CNTT\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.\",\"chuTrenManHinh\":\"Tiêu đề video và logo\",\"yDoHinh\":\"Nền xanh với tiêu đề và biểu tượng trí tuệ nhân tạo\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.\",\"chuTrenManHinh\":\"Bảng so sánh GPT bốn vs Claude ba\",\"yDoHinh\":\"Bảng chi tiết tính năng, màu xanh cho GPT, màu cam cho Claude\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.\",\"chuTrenManHinh\":\"Đồ thị cửa sổ ngữ cảnh token\",\"yDoHinh\":\"Cột so sánh kích thước ngữ cảnh, nhãn token\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.\",\"chuTrenManHinh\":\"Biểu tượng lập luận và API\",\"yDoHinh\":\"Biểu tượng não máy tính và giao diện lập trình, mũi tên chỉ khác biệt\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.\",\"chuTrenManHinh\":\"Kết thúc với lời mời theo dõi\",\"yDoHinh\":\"Màn hình cuối với lời cảm ơn và biểu tượng đăng ký\",\"nguon\":[]}\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-0f19684a-333e-4460-aec0-f31a86052e97",
+      "durationMs": 5567,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"So sánh GPT-4 và Claude 3\",\n  \"mucTieu\":\"Biết ưu nhược điểm của từng mô hình\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Sinh viên CNTT\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.\",\"chuTrenManHinh\":\"Tiêu đề video và logo\",\"yDoHinh\":\"Nền xanh với tiêu đề và biểu tượng trí tuệ nhân tạo\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.\",\"chuTrenManHinh\":\"Bảng so sánh GPT bốn vs Claude ba\",\"yDoHinh\":\"Bảng chi tiết tính năng, màu xanh cho GPT, màu cam cho Claude\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.\",\"chuTrenManHinh\":\"Đồ thị cửa sổ ngữ cảnh token\",\"yDoHinh\":\"Cột so sánh kích thước ngữ cảnh, nhãn token\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.\",\"chuTrenManHinh\":\"Biểu tượng lập luận và API\",\"yDoHinh\":\"Biểu tượng não máy tính và giao diện lập trình, mũi tên chỉ khác biệt\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.\",\"chuTrenManHinh\":\"Kết thúc với lời mời theo dõi\",\"yDoHinh\":\"Màn hình cuối với lời cảm ơn và biểu tượng đăng ký\",\"nguon\":[]}\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 5569
+}

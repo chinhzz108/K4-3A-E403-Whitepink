@@ -1,0 +1,254 @@
+{
+  "id": "trace-script-1789651951973",
+  "timestamp": "2026-09-17T13:32:31.973Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "targetAudience": "Cán bộ nhân viên văn phòng",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-32-03-309Z",
+    "evalCaseId": "N24"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.grantthornton.ie/insights/factsheets/7-data-privacy-considerations-in-ai-adoption/",
+      "tieuDe": "7 data privacy considerations in AI adoption | Grant Thornton",
+      "toChuc": "Grant Thornton Ireland",
+      "ngayLayVe": "2026-09-17T13:32:07.071Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu phân tích chuyên sâu được công bố bởi Grant Thornton, một trong những mạng lưới dịch vụ kiểm toán và tư vấn uy tín toàn cầu.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Tài liệu được xuất bản vào cuối năm 2023, đã cũ hơn 1 năm tính đến mốc thời gian hiện tại.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "One of the most pressing concerns is the potential exposure of sensitive information that end users input into AI systems.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://www.activemind.legal/guides/artificial-intelligence/",
+      "tieuDe": "Artificial intelligence (AI) and personal data | activeMind.legal",
+      "tacGia": "Martin Röleke",
+      "toChuc": "activeMind.legal",
+      "ngayDang": "2023-06-22T07:34:48+00:00",
+      "ngayLayVe": "2026-09-17T13:32:08.435Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Được viết bởi chuyên gia tư vấn luật bảo mật dữ liệu Martin Röleke và được phát hành bởi tổ chức tư vấn pháp lý chuyên nghiệp tại châu Âu.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Bài viết đã được đăng tải từ giữa năm 2023, cũ hơn 1 năm so với mốc thời gian hiện tại.",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Companies are well advised not to give such consent or to make use of a possible opt-out option",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://witness.ai/blog/ai-privacy/",
+      "tieuDe": "AI Privacy: Protecting Data in the Age of Artificial Intelligence - WitnessAI",
+      "tacGia": "WitnessAI",
+      "toChuc": "WitnessAI",
+      "ngayDang": "2025-10-15T18:40:58+00:00",
+      "ngayLayVe": "2026-09-17T13:32:08.437Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nguồn từ doanh nghiệp bảo mật AI chuyên sâu, cung cấp các sự cố thực tế rõ ràng và có độ cập nhật thông tin rất mới.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "In one instance, an enterprise user’s proprietary information was unintentionally retained in a chatbot’s training dataset, posing significant intellectual property and privacy risks.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n04",
+    "n05"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Không nên nhập các dữ liệu cá nhân nhạy cảm, thông tin bí mật thương mại hoặc sở hữu trí tuệ vào công cụ AI công cộng vì dữ liệu có thể bị lưu trữ trong tập dữ liệu huấn luyện và vô tình rò rỉ cho người dùng khác.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "One of the most pressing concerns is the potential exposure of sensitive information that end users input into AI systems.",
+          "viTri": "Mục '1. Loss of sensitive information' của bài viết"
+        },
+        {
+          "nguonId": "n05",
+          "doanTrich": "In one instance, an enterprise user’s proprietary information was unintentionally retained in a chatbot’s training dataset, posing significant intellectual property and privacy risks.",
+          "viTri": "Phần 'Real-World Examples of AI Privacy Issues'"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Nên chủ động sử dụng quyền và tính năng từ chối (opt-out) do nhà phát hành trợ lý AI cung cấp để không đồng ý cho phép họ sử dụng dữ liệu hội thoại của mình vào mục đích huấn luyện mô hình.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Companies are well advised not to give such consent or to make use of a possible opt-out option",
+          "viTri": "Phần thảo luận về nghĩa vụ của người kiểm soát dữ liệu khi dùng ChatGPT"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Nên nâng cao nhận thức, sự cảnh giác và áp dụng nguyên tắc tối thiểu hóa dữ liệu (chỉ nhập những thông tin thực sự cần thiết) khi tương tác với bất kỳ công cụ AI nào.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "These risks can be minimised by adopting ethical AI development principles, introducing strict testing, promoting transparency, and improving user awareness and vigilance.",
+          "viTri": "Đoạn cuối của mục '2. Ability to explain the AI model'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "mucTieu": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "thoiLuong": "bốn phút",
+    "nguoiHoc": "Cán bộ nhân viên văn phòng",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Không nên nhập dữ liệu cá nhân nhạy cảm hay thông tin bí mật vào công cụ AI công cộng vì có nguy cơ bị lộ.",
+        "chuTrenManHinh": "Cảnh báo dữ liệu nhạy cảm",
+        "yDoHinh": "Màn hình máy tính hiện cảnh báo màu đỏ khi người dùng nhập thông tin cá nhân",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Bạn nên sử dụng tính năng từ chối (opt‑out) do nhà cung cấp AI cung cấp để ngăn dữ liệu hội thoại của mình được dùng cho việc huấn luyện mô hình.",
+        "chuTrenManHinh": "Chọn tùy chọn từ chối",
+        "yDoHinh": "Giao diện cài đặt AI hiển thị nút ‘opt‑out’ bên cạnh mục quyền riêng tư",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Hãy luôn áp dụng nguyên tắc tối thiểu hoá dữ liệu, chỉ nhập những thông tin thực sự cần thiết khi tương tác với trợ lý AI.",
+        "chuTrenManHinh": "Nguyên tắc tối thiểu hoá dữ liệu",
+        "yDoHinh": "Biểu tượng dấu chấm hỏi và hộp nhập liệu chỉ chứa các trường cần thiết",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã bao giờ tự hỏi dữ liệu mình chia sẻ có thể bị lưu trữ ở đâu?",
+        "chuTrenManHinh": "Câu hỏi về lưu trữ dữ liệu",
+        "yDoHinh": "Hình ảnh người dùng ngồi trước laptop, suy nghĩ về dữ liệu đang nhập",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng nhau bảo vệ thông tin cá nhân để làm việc hiệu quả và an toàn hơn.",
+        "chuTrenManHinh": "Bảo vệ thông tin cá nhân",
+        "yDoHinh": "Biểu tượng khiên bảo vệ bao quanh biểu tượng người dùng và dữ liệu",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Không nên nhập dữ liệu cá nhân nhạy cảm hay thông tin bí mật vào công cụ AI công cộng vì có nguy cơ bị lộ.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] One of the most pressing concerns is the potential exposure of sensitive information that end users input into AI systems.; [n05] In one instance, an enterprise user’s proprietary information was unintentionally retained in a chatbot’s training dataset, posing significant intellectual property and privacy risks."
+      ]
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Bạn nên sử dụng tính năng từ chối (opt‑out) do nhà cung cấp AI cung cấp để ngăn dữ liệu hội thoại của mình được dùng cho việc huấn luyện mô hình.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Companies are well advised not to give such consent or to make use of a possible opt-out option"
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Hãy luôn áp dụng nguyên tắc tối thiểu hoá dữ liệu, chỉ nhập những thông tin thực sự cần thiết khi tương tác với trợ lý AI.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] These risks can be minimised by adopting ethical AI development principles, introducing strict testing, promoting transparency, and improving user awareness and vigilance."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn đã bao giờ tự hỏi dữ liệu mình chia sẻ có thể bị lưu trữ ở đâu?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng nhau bảo vệ thông tin cá nhân để làm việc hiệu quả và an toàn hơn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Dữ liệu cá nhân khi dùng trợ lý AI\",\"mucTieu\":\"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Cán bộ nhân viên văn phòng\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Không nên nhập dữ liệu cá nhân nhạy cảm hay thông tin bí mật vào công cụ AI công cộng vì có nguy cơ bị lộ.\",\"chuTrenManHinh\":\"Cảnh báo dữ liệu nhạy cảm\",\"yDoHinh\":\"Màn hình máy tính hiện cảnh báo màu đỏ khi người dùng nhập thông tin cá nhân\",\"nguon\":[\"t01\"]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Bạn nên sử dụng tính năng từ chối (opt‑out) do nhà cung cấp AI cung cấp để ngăn dữ liệu hội thoại của mình được dùng cho việc huấn luyện mô hình.\",\"chuTrenManHinh\":\"Chọn tùy chọn từ chối\",\"yDoHinh\":\"Giao diện cài đặt AI hiển thị nút ‘opt‑out’ bên cạnh mục quyền riêng tư\",\"nguon\":[\"t02\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Hãy luôn áp dụng nguyên tắc tối thiểu hoá dữ liệu, chỉ nhập những thông tin thực sự cần thiết khi tương tác với trợ lý AI.\",\"chuTrenManHinh\":\"Nguyên tắc tối thiểu hoá dữ liệu\",\"yDoHinh\":\"Biểu tượng dấu chấm hỏi và hộp nhập liệu chỉ chứa các trường cần thiết\",\"nguon\":[\"t03\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã bao giờ tự hỏi dữ liệu mình chia sẻ có thể bị lưu trữ ở đâu?\",\"chuTrenManHinh\":\"Câu hỏi về lưu trữ dữ liệu\",\"yDoHinh\":\"Hình ảnh người dùng ngồi trước laptop, suy nghĩ về dữ liệu đang nhập\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng nhau bảo vệ thông tin cá nhân để làm việc hiệu quả và an toàn hơn.\",\"chuTrenManHinh\":\"Bảo vệ thông tin cá nhân\",\"yDoHinh\":\"Biểu tượng khiên bảo vệ bao quanh biểu tượng người dùng và dữ liệu\",\"nguon\":[]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-2c71e903-7622-4d80-ae51-98b1ee8f0f9f",
+      "durationMs": 3794,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Dữ liệu cá nhân khi dùng trợ lý AI\",\"mucTieu\":\"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Cán bộ nhân viên văn phòng\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Không nên nhập dữ liệu cá nhân nhạy cảm hay thông tin bí mật vào công cụ AI công cộng vì có nguy cơ bị lộ.\",\"chuTrenManHinh\":\"Cảnh báo dữ liệu nhạy cảm\",\"yDoHinh\":\"Màn hình máy tính hiện cảnh báo màu đỏ khi người dùng nhập thông tin cá nhân\",\"nguon\":[\"t01\"]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Bạn nên sử dụng tính năng từ chối (opt‑out) do nhà cung cấp AI cung cấp để ngăn dữ liệu hội thoại của mình được dùng cho việc huấn luyện mô hình.\",\"chuTrenManHinh\":\"Chọn tùy chọn từ chối\",\"yDoHinh\":\"Giao diện cài đặt AI hiển thị nút ‘opt‑out’ bên cạnh mục quyền riêng tư\",\"nguon\":[\"t02\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Hãy luôn áp dụng nguyên tắc tối thiểu hoá dữ liệu, chỉ nhập những thông tin thực sự cần thiết khi tương tác với trợ lý AI.\",\"chuTrenManHinh\":\"Nguyên tắc tối thiểu hoá dữ liệu\",\"yDoHinh\":\"Biểu tượng dấu chấm hỏi và hộp nhập liệu chỉ chứa các trường cần thiết\",\"nguon\":[\"t03\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã bao giờ tự hỏi dữ liệu mình chia sẻ có thể bị lưu trữ ở đâu?\",\"chuTrenManHinh\":\"Câu hỏi về lưu trữ dữ liệu\",\"yDoHinh\":\"Hình ảnh người dùng ngồi trước laptop, suy nghĩ về dữ liệu đang nhập\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng nhau bảo vệ thông tin cá nhân để làm việc hiệu quả và an toàn hơn.\",\"chuTrenManHinh\":\"Bảo vệ thông tin cá nhân\",\"yDoHinh\":\"Biểu tượng khiên bảo vệ bao quanh biểu tượng người dùng và dữ liệu\",\"nguon\":[]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 3798
+}

@@ -1,0 +1,1174 @@
+{
+  "case": {
+    "id": "N21",
+    "class": "hiem",
+    "input": {
+      "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+      "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+      "targetAudience": "Giáo viên mầm non",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Rất ít tài liệu tiếng Việt. Phải xoay sang nguồn ngoại ngữ và nói rõ.",
+    "origin": "tự tạo — chủ đề ít tài liệu tiếng Việt; không phải chatlog",
+    "passCriteria": "Ghi rõ thiếu nguồn tiếng Việt; dùng nguồn tiếng Anh và nêu rõ",
+    "failCriteria": "Bịa nguồn tiếng Việt; không nói rõ nguồn ngoại ngữ"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://hnuejs.edu.vn/es/article/view/842",
+        "tieuDe": "DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM\n\t\t\t\t\t\t\t| HNUE Journal of Science: Journal of Educational Science",
+        "ngayLayVe": "2026-09-17T13:21:53.766Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Đăng tải trên tạp chí khoa học của Đại học Sư phạm Hà Nội, có quy trình bình duyệt rõ ràng.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nghiên cứu tập trung vào cấp tiểu học hơn là mầm non.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these recommendations carefully adapted and grounded in the specific findings of the comparative analysis and Vietnamese contextual factors.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html",
+        "tieuDe": "Vietnam to pilot AI teaching across grades 1-12 - VnExpress International",
+        "tacGia": "VnExpress",
+        "toChuc": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
+        "ngayLayVe": "2026-09-17T13:21:53.768Z",
+        "loai": "bao-chi",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Báo điện tử uy tín tại Việt Nam, trích dẫn phát biểu trực tiếp của Viện trưởng Viện Khoa học Giáo dục Việt Nam.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Đề cập đến chương trình từ lớp 1-12, không đi sâu vào mầm non.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+        "tieuDe": "Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers | AI & SOCIETY | Springer Nature Link",
+        "toChuc": "SpringerLink",
+        "ngayDang": "2026-08-25",
+        "ngayLayVe": "2026-09-17T13:22:03.781Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Nghiên cứu khoa học đăng trên hệ thống Springer Nature uy tín, trực tiếp nghiên cứu về giáo viên mầm non Việt Nam.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [],
+        "doanTrich": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+        "tieuDe": "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+        "ngayLayVe": "2026-09-17T13:21:53.767Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "timeout",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n05",
+        "url": "https://post.parliament.uk/artificial-intelligence-education-and-impacts-on-children-and-young-people/",
+        "tieuDe": "https://post.parliament.uk/artificial-intelligence-education-and-impacts-on-children-and-young-people/",
+        "ngayLayVe": "2026-09-17T13:22:03.778Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector",
+        "tieuDe": "https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector",
+        "ngayLayVe": "2026-09-17T13:22:03.782Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Ứng dụng AI (Eduaide.Ai) hỗ trợ giáo viên mầm non Việt Nam thiết kế bài học STEM.",
+        "loai": "vi-du",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.",
+            "viTri": "Phần tóm tắt nghiên cứu"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Giáo viên lo ngại về tính chính xác, bảo mật và an toàn dữ liệu khi ứng dụng AI.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+            "viTri": "Đoạn 4 trong bài báo"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t04",
+        "noiDung": "Lo ngại về việc ứng dụng AI làm giảm đi sự tương tác trực tiếp giữa người với người trong môi trường giáo dục.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+            "viTri": "Đoạn 4 trong bài báo"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "AI preschool Vietnam",
+      "AI education concerns"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789651358553",
+      "timestamp": "2026-09-17T13:22:38.553Z",
+      "phase": "research",
+      "input": {
+        "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "targetAudience": "Giáo viên mầm non",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-11-19-300Z",
+        "evalCaseId": "N21"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "DEVELOPING AI LITERACY FOR PRIMARY SCHOOL ...",
+              "url": "https://hnuejs.edu.vn/es/article/view/842",
+              "snippet": "viết bởi L Lin · 2025 · Trích dẫn 1 bài viết — On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these ...",
+              "position": 1
+            },
+            {
+              "title": "Vietnam to pilot AI teaching across grades 1-12",
+              "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html",
+              "snippet": "The Ministry of Education plans to add artificial intelligence to the school syllabus in February. - VnExpress International.",
+              "position": 2
+            },
+            {
+              "title": "Investigating human-AI partnership in early childhood STEM ...",
+              "url": "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+              "snippet": "viết bởi V Loi Truong · 2026 — This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese ...",
+              "position": 3
+            },
+            {
+              "title": "Vietnam's schools adapting mindset for AI era",
+              "url": "https://en.sggp.org.vn/vietnams-schools-adapting-mindset-for-ai-era-post121213.html",
+              "snippet": "Vietnamese schools are cautiously but proactively adopting AI, implementing it in a “spiral approach” from preschool games to ...",
+              "position": 4
+            },
+            {
+              "title": "KidsEdu: Home",
+              "url": "https://kidsedu.vn/",
+              "snippet": "The KidsEdu AI+STEM preschool platform includes a pioneering curriculum that introduces young learners (ages 3-6) to STEM concepts, with a strong focus on ...",
+              "position": 5
+            }
+          ],
+          "query": "AI preschool Vietnam",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "The risks of AI in schools outweigh the benefits, report says",
+              "url": "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+              "snippet": "A new report warns that AI poses a serious threat to children's cognitive development and emotional well-being.",
+              "position": 1
+            },
+            {
+              "title": "Artificial intelligence: education and impacts on children and ...",
+              "url": "https://post.parliament.uk/artificial-intelligence-education-and-impacts-on-children-and-young-people/",
+              "snippet": "AI tools have various limitations, such as some models being liable to generate inappropriate, politically and culturally biased or factually ...",
+              "position": 2
+            },
+            {
+              "title": "5 Pros and Cons of AI in the Education Sector",
+              "url": "https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector",
+              "snippet": "Key drawbacks to AI in education include bias in grading, misinformation, cheating, and the potential for student isolation. AI tools can help personalize ...",
+              "position": 3
+            },
+            {
+              "title": "How AI quietly undermines the joy and effort of learning - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12333830/",
+              "snippet": "viết bởi MK Hasan · 2025 · Trích dẫn 31 bài viết — For example, overuse of AI in early education may hinder foundational cognitive and emotional development due to decreased active engagement[2].",
+              "position": 4
+            },
+            {
+              "title": "Reporting the potential risk of using AI in higher Education",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2451958825001083",
+              "snippet": "viết bởi M Pikhart · 2025 · Trích dẫn 117 bài viết — The findings reveal significant concerns about privacy risks, academic integrity, and the validity of AI-generated data. Respondents expressed fears over data ...",
+              "position": 5
+            }
+          ],
+          "query": "AI education concerns",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://hnuejs.edu.vn/es/article/view/842",
+          "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+          "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html",
+          "https://post.parliament.uk/artificial-intelligence-education-and-impacts-on-children-and-young-people/",
+          "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+          "https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector",
+          "https://en.sggp.org.vn/vietnams-schools-adapting-mindset-for-ai-era-post121213.html",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12333830/"
+        ],
+        "pagesRead": [
+          "https://hnuejs.edu.vn/es/article/view/842",
+          "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+          "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html",
+          "https://post.parliament.uk/artificial-intelligence-education-and-impacts-on-children-and-young-people/",
+          "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+          "https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://hnuejs.edu.vn/es/article/view/842",
+          "content": "DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM\n\nLi Lin Faculty of Oriental Studies, VNU University of Social Sciences and Humanities, Hanoi city, Vietnam\n\nMinh Yunnan Vocational College of Mechanical and Electrical Technology, Kunming city, China\n\nChina stands as a prominent leader in the development and application of artificial intelligence across diverse sectors, including significant advancements in educational AI integration. This research was undertaken to address this vital need by investigating the current state of AI literacy among primary teachers in Yunnan, China. Despite contextual differences, Yunnan's experiences offer pertinent insights for Vietnam due to its socio-economic parallels with certain Vietnamese regions and shared challenges in educational technology integration. This quantitative data was complemented by a qualitative review of Chinese AI educational practices and a comparative analysis with the Vietnamese educational context, considering policy, infrastructure, and teacher capabilities. The study, underpinned by Bloom's taxonomy, examines how these dimensions interrelate and influence the overall AI literacy of teachers, providing an evidence-based foundation for policy recommendations. On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these recommendations carefully adapted and grounded in the specific findings of the comparative analysis and Vietnamese contextual factors.\n\n[1] Appova, A., Lee, H. J., & Bucci, T. (2022). Technology in the classroom: Banking education or opportunities to learn? Theory Into Practice, 61(3), 254–264. https://doi.org/10.1080/00405841.2022.2096372\n\n[2] Bjola, C. (2022). AI for development: Implications for theory and practice. Oxford Development Studies, 50(1), 78–90. https://doi.org/10.1080/13600818.2021.1960960\n\n[3] Chassignol, M., Khoroshavin, A., Klimova, A., & Bilyatdinova, A. (2018). Artificial intelligence trends in education: A narrative overview. Procedia Computer Science, 136, 16–24. https://doi.org/10.1016/j.procs.2018.08.233\n\n[4] Criado Pacheco, N., Ferrer Aran, X., & Such, J. (2021). Attesting digital discrimination using norms. International Journal of Interactive Multimedia and Artificial Intelligence, 6(5), 16–23. https://doi.org/10.9781/ijimai.2021.02.008\n\n[5] Gallardo-Montes, C. P., Rodríguez Fuentes, A., Caurcel Cara, M. J., & Capperucci, D. (2022). Functionality of apps for people with autism: Comparison between educators from Florence and Granada. International Journal of Environmental Research and Public Health, 19(12), Article 7019. https://doi.org/10.3390/ijerph19127019\n\n[6] Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1–16). https://doi.org/10.1145/3313831.3376727\n\n[7] Raisch, S., & Krakowski, S. (2021). Artificial intelligence and management: The automation–augmentation paradox. Academy of Management Review, 46(1), 192–210. https://doi.org/10.5465/amr.2018.0072\n\n[8] Shi, R. (2024). Research on the current situation of artificial intelligence literacy of teacher trainees and strategies to improve it. Advances in Educational Technology and Psychology, 8(1). https://doi.org/10.23977/aetp.2024.080116\n\n[9] Zhao, L., Wu, X., & Luo, H. (2022). Developing AI literacy for primary and middle school teachers in China: Based on a structural equation modeling analysis. Sustainability, 14, 14549. https://doi.org/10.3390/su142114549\n\n[10] Zhao, L., Wu, X., & Luo, H. (2022). Developing AI literacy for primary and middle school teachers in China: Based on a structural equation modeling analysis. Sustainability, 14, 14549. https://doi.org/10.3390/su142114549\n\n[11] Appova, A., Lee, H. J., & Bucci, T. (2022). Technology in the classroom: Banking education or opportunities to learn? Theory Into Practice, 61(3), 254–264. https://doi.org/10.1080/00405841.2022.2096372\n\n[12] Bjola, C. (2022). AI for development: Implications for theory and practice. Oxford Development Studies, 50(1), 78–90. https://doi.org/10.1080/13600818.2021.1960960\n\n[13] Appova, A., Lee, H. J., & Bucci, T. (2022). Technology in the classroom: Banking education or opportunities to learn? Theory Into Practice, 61(3), 254–264. https://doi.org/10.1080/00405841.2022.2096372\n\n[14] Ng, D. T. K., Luo, W., Chan, H. M. Y., & Chu, S. K. W. (2022). Using digital story writing as a pedagogy to develop AI literacy among primary students. Computers and Education: Artificial Intelligence, 3, Article 100054. https://doi.org/10.1016/j.caeai.2022.100054\n\n[15] China’s Ministry of Education. (2024). China to enhance AI education in primary, secondary schools. https://english.news.cn/20241203/58ab82064c194714984a9a898ab7881d/c.html\n\n[16] Yang, Y., & Kong, S. C. (2025). Professional development for teachers in AI literacy education: Teaching machine learning to senior primary and junior secondary students. In Proceedings of the 17th International Conference on Computer Supported Education (CSEDU 2025) (Vol. 2, pp. 35–42). https://doi.org/10.5220/0013200300003932\n\n[17] Communist Party of Vietnam. (2013). Resolution No. 29‑NQ/TW dated November 4, 2013. https://moet.gov.vn/tintuc/Pages/chi-tiet.aspx?ItemID=3928\n\n[18] Prime Minister. (2022). Decision No. 131/QĐ-TTg dated January 25, 2022. https://vanban.chinhphu.vn/?pageid=27160&docid=205236&classid=0\n\n[19] Prime Minister. (2021). Decision No. 127/QĐ-TTg dated January 21, 2021.\n\n[21] Hieu, H. H., & Thao, L. T. (2024). Exploring the impact of AI in language education: Vietnamese EFL teachers’ views on using ChatGPT for fairy tale retelling tasks. International Journal of Learning, Teaching and Educational Research, 23(3), 486–503. https://doi.org/10.26803/ijlter.23.3.24\n\n[22] Nguyen, T. X. (2023). Some issues concerning the digital competency framework for upper secondary school students in the 2018 General Education Program. Journal of Education, 23(2). https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/626/382\n\n[23] Communist Party of Vietnam. (2013). Resolution No. 29‑NQ/TW dated November 4, 2013. https://moet.gov.vn/tintuc/Pages/chi-tiet.aspx?ItemID=3928\n\nPham Viet Quynh, FACTORS INFLUENCING PRE-SERVICE PRIMARY TEACHERS’ READINESS TO USE ARTIFICIAL INTELLIGENCE IN LESSON PLANNING , HNUE Journal of Science: Journal of Educational Science: Tập 70, Số 5, 2025: Khoa học Giáo dục\n\nPham Viet Quynh, Ngo Thi Kim Hoan, A BIBLIOMETRIC ANALYSIS OF THE USE OF ARTIFICIAL INTELLIGENCE IN TEACHER EDUCATION BASED ON THE SCOPUS DATABASE , HNUE Journal of Science: Journal of Educational Science: Tập 69, Số 5, 2024: Khoa học Giáo dục\n\nNguyen Thi Hien, APPLICATION OF GENERATIVE ARTIFICIAL INTELLIGENCE (GENAI) IN SUPPORTING DIGITAL LEARNING MATERIAL DESIGN FOR GEOGRAPHY TEACHING: CONCEPTS AND IMPLEMENTATION PROCEDURES , HNUE Journal of Science: Journal of Educational Science: Tập 71, Số 3, 2026: Khoa học Giáo dục\n\nNguyen Thi Dung, Nguyen Thi Hien, INTEGRATING DIGITAL TECHNOLOGY INTO LITERATURE TEACHING TO FOSTER CRITICAL AND CREATIVE THINKING IN HIGH SCHOOL STUDENTS , HNUE Journal of Science: Journal of Educational Science: Tập 71, Số 1, 2026: Khoa học Giáo dục\n\nNguyen Thi Hong, EXPLORING RESEARCH ON SELF-REGULATED LEARNING IN HIGHER EDUCATION: A BIBLIOMETRIC ANALYSIS OF THE SCOPUS DATABASE (2006 - 2026) , HNUE Journal of Science: Journal of Educational Science: Volume 71, Issue 5, 2026: Journal of Educational Science\n\nNgo Thi Khanh Chi, Nguyen Thi Bich, Nguyen Thi Tuyet Mai, Nguyen Thi Cam Huong, DEVELOPING AN ASSESSMENT TOOLKIT TO EVALUATE PRE-SERVICE TEACHERS’ ARTIFICIAL INTELLIGENCE ACCEPTANCE BASED ON THE TECHNOLOGY ACCEPTANCE MODEL (TAM) , HNUE Journal of Science: Journal of Educational Science: Tập 70, Số 7, 2025: Khoa học Giáo dục\n\nNguyen Thi Xiem, Bui Minh Tuyen, DEVELOPING HUMAN RIGHTS EDUCATION IN VIETNAM'S DIGITAL ERA: IMPLICATIONS FROM THE WORLD PROGRAMME FOR HUMAN RIGHTS EDUCATION, PHASE V , HNUE Journal of Science: Journal of Educational Science: Tập 70, Số 7, 2025: Khoa học Giáo dục\n\nTran Trung, Dao Thai Lai, Trinh Thanh Hai, Nguyen Ngoc Giang, HARNESSING SMART E-LEARNING MATERIALS IN MATHEMATICAL EDUCATION IN GENERAL SCHOOLS , HNUE Journal of Science: Journal of Educational Science: Volume 69, Issue 5B, 2024: Educational Sciences\n\nDinh Thanh Tuyen, Pham Minh Hoa, FACTORS INFLUENCING PRESCHOOL TEACHERS' BEHAVIORAL INTENTIONS TO USE AI FOR SUPPORTING CHILDREN WITH SPEECH DELAYS: A STRUCTURAL EQUATION MODELING APPROACH , HNUE Journal of Science: Journal of Educational Science: Tập 70, Số 5, 2025: Khoa học Giáo dục\n\nGia Minh Vo, Nils Pancratz, INTRODUCING AI EDUCATION ACROSS SUBJECTS IN PRE-SERVICE TEACHER EDUCATION: INSIGHTS FROM A QUALITATIVE STUDY AND COURSE IMPLEMENTATION , HNUE Journal of Science: Journal of Educational Science: Volume 71, Issue 4, 2026: Journal of Educational Science",
+          "fetchedAt": "2026-09-17T13:21:53.766Z",
+          "title": "DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM\n\t\t\t\t\t\t\t| HNUE Journal of Science: Journal of Educational Science",
+          "status": "ok",
+          "contentLength": 10112,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM"
+            },
+            {
+              "blockIndex": 2,
+              "text": "Li Lin Faculty of Oriental Studies, VNU University of Social Sciences and Humanities, Hanoi city, Vietnam"
+            },
+            {
+              "blockIndex": 3,
+              "text": "Minh Yunnan Vocational College of Mechanical and Electrical Technology, Kunming city, China"
+            },
+            {
+              "blockIndex": 7,
+              "text": "China stands as a prominent leader in the development and application of artificial intelligence across diverse sectors, including significant advancements in educational AI integration. This research was undertaken to address this vital need by investigating the current state of AI literacy among primary teachers in Yunnan, China. Despite contextual differences, Yunnan's experiences offer pertinent insights for Vietnam due to its socio-economic parallels with certain Vietnamese regions and shared challenges in educational technology integration. This quantitative data was complemented by a qualitative review of Chinese AI educational practices and a comparative analysis with the Vietnamese educational context, considering policy, infrastructure, and teacher capabilities. The study, underpinned by Bloom's taxonomy, examines how these dimensions interrelate and influence the overall AI literacy of teachers, providing an evidence-based foundation for policy recommendations. On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these recommendations carefully adapted and grounded in the specific findings of the comparative analysis and Vietnamese contextual factors."
+            },
+            {
+              "blockIndex": 11,
+              "text": "[1] Appova, A., Lee, H. J., & Bucci, T. (2022). Technology in the classroom: Banking education or opportunities to learn? Theory Into Practice, 61(3), 254–264. https://doi.org/10.1080/00405841.2022.2096372"
+            },
+            {
+              "blockIndex": 13,
+              "text": "[2] Bjola, C. (2022). AI for development: Implications for theory and practice. Oxford Development Studies, 50(1), 78–90. https://doi.org/10.1080/13600818.2021.1960960"
+            },
+            {
+              "blockIndex": 15,
+              "text": "[3] Chassignol, M., Khoroshavin, A., Klimova, A., & Bilyatdinova, A. (2018). Artificial intelligence trends in education: A narrative overview. Procedia Computer Science, 136, 16–24. https://doi.org/10.1016/j.procs.2018.08.233"
+            },
+            {
+              "blockIndex": 17,
+              "text": "[4] Criado Pacheco, N., Ferrer Aran, X., & Such, J. (2021). Attesting digital discrimination using norms. International Journal of Interactive Multimedia and Artificial Intelligence, 6(5), 16–23. https://doi.org/10.9781/ijimai.2021.02.008"
+            },
+            {
+              "blockIndex": 19,
+              "text": "[5] Gallardo-Montes, C. P., Rodríguez Fuentes, A., Caurcel Cara, M. J., & Capperucci, D. (2022). Functionality of apps for people with autism: Comparison between educators from Florence and Granada. International Journal of Environmental Research and Public Health, 19(12), Article 7019. https://doi.org/10.3390/ijerph19127019"
+            },
+            {
+              "blockIndex": 21,
+              "text": "[6] Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1–16). https://doi.org/10.1145/3313831.3376727"
+            },
+            {
+              "blockIndex": 23,
+              "text": "[7] Raisch, S., & Krakowski, S. (2021). Artificial intelligence and management: The automation–augmentation paradox. Academy of Management Review, 46(1), 192–210. https://doi.org/10.5465/amr.2018.0072"
+            },
+            {
+              "blockIndex": 25,
+              "text": "[8] Shi, R. (2024). Research on the current situation of artificial intelligence literacy of teacher trainees and strategies to improve it. Advances in Educational Technology and Psychology, 8(1). https://doi.org/10.23977/aetp.2024.080116"
+            },
+            {
+              "blockIndex": 27,
+              "text": "[9] Zhao, L., Wu, X., & Luo, H. (2022). Developing AI literacy for primary and middle school teachers in China: Based on a structural equation modeling analysis. Sustainability, 14, 14549. https://doi.org/10.3390/su142114549"
+            },
+            {
+              "blockIndex": 29,
+              "text": "[10] Zhao, L., Wu, X., & Luo, H. (2022). Developing AI literacy for primary and middle school teachers in China: Based on a structural equation modeling analysis. Sustainability, 14, 14549. https://doi.org/10.3390/su142114549"
+            },
+            {
+              "blockIndex": 31,
+              "text": "[11] Appova, A., Lee, H. J., & Bucci, T. (2022). Technology in the classroom: Banking education or opportunities to learn? Theory Into Practice, 61(3), 254–264. https://doi.org/10.1080/00405841.2022.2096372"
+            },
+            {
+              "blockIndex": 33,
+              "text": "[12] Bjola, C. (2022). AI for development: Implications for theory and practice. Oxford Development Studies, 50(1), 78–90. https://doi.org/10.1080/13600818.2021.1960960"
+            },
+            {
+              "blockIndex": 35,
+              "text": "[13] Appova, A., Lee, H. J., & Bucci, T. (2022). Technology in the classroom: Banking education or opportunities to learn? Theory Into Practice, 61(3), 254–264. https://doi.org/10.1080/00405841.2022.2096372"
+            },
+            {
+              "blockIndex": 37,
+              "text": "[14] Ng, D. T. K., Luo, W., Chan, H. M. Y., & Chu, S. K. W. (2022). Using digital story writing as a pedagogy to develop AI literacy among primary students. Computers and Education: Artificial Intelligence, 3, Article 100054. https://doi.org/10.1016/j.caeai.2022.100054"
+            },
+            {
+              "blockIndex": 39,
+              "text": "[15] China’s Ministry of Education. (2024). China to enhance AI education in primary, secondary schools. https://english.news.cn/20241203/58ab82064c194714984a9a898ab7881d/c.html"
+            },
+            {
+              "blockIndex": 41,
+              "text": "[16] Yang, Y., & Kong, S. C. (2025). Professional development for teachers in AI literacy education: Teaching machine learning to senior primary and junior secondary students. In Proceedings of the 17th International Conference on Computer Supported Education (CSEDU 2025) (Vol. 2, pp. 35–42). https://doi.org/10.5220/0013200300003932"
+            },
+            {
+              "blockIndex": 43,
+              "text": "[17] Communist Party of Vietnam. (2013). Resolution No. 29‑NQ/TW dated November 4, 2013. https://moet.gov.vn/tintuc/Pages/chi-tiet.aspx?ItemID=3928"
+            },
+            {
+              "blockIndex": 45,
+              "text": "[18] Prime Minister. (2022). Decision No. 131/QĐ-TTg dated January 25, 2022. https://vanban.chinhphu.vn/?pageid=27160&docid=205236&classid=0"
+            },
+            {
+              "blockIndex": 47,
+              "text": "[19] Prime Minister. (2021). Decision No. 127/QĐ-TTg dated January 21, 2021."
+            },
+            {
+              "blockIndex": 51,
+              "text": "[21] Hieu, H. H., & Thao, L. T. (2024). Exploring the impact of AI in language education: Vietnamese EFL teachers’ views on using ChatGPT for fairy tale retelling tasks. International Journal of Learning, Teaching and Educational Research, 23(3), 486–503. https://doi.org/10.26803/ijlter.23.3.24"
+            },
+            {
+              "blockIndex": 53,
+              "text": "[22] Nguyen, T. X. (2023). Some issues concerning the digital competency framework for upper secondary school students in the 2018 General Education Program. Journal of Education, 23(2). https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/626/382"
+            },
+            {
+              "blockIndex": 55,
+              "text": "[23] Communist Party of Vietnam. (2013). Resolution No. 29‑NQ/TW dated November 4, 2013. https://moet.gov.vn/tintuc/Pages/chi-tiet.aspx?ItemID=3928"
+            },
+            {
+              "blockIndex": 78,
+              "text": "Pham Viet Quynh, FACTORS INFLUENCING PRE-SERVICE PRIMARY TEACHERS’ READINESS TO USE ARTIFICIAL INTELLIGENCE IN LESSON PLANNING , HNUE Journal of Science: Journal of Educational Science: Tập 70, Số 5, 2025: Khoa học Giáo dục"
+            },
+            {
+              "blockIndex": 79,
+              "text": "Pham Viet Quynh, Ngo Thi Kim Hoan, A BIBLIOMETRIC ANALYSIS OF THE USE OF ARTIFICIAL INTELLIGENCE IN TEACHER EDUCATION BASED ON THE SCOPUS DATABASE , HNUE Journal of Science: Journal of Educational Science: Tập 69, Số 5, 2024: Khoa học Giáo dục"
+            },
+            {
+              "blockIndex": 80,
+              "text": "Nguyen Thi Hien, APPLICATION OF GENERATIVE ARTIFICIAL INTELLIGENCE (GENAI) IN SUPPORTING DIGITAL LEARNING MATERIAL DESIGN FOR GEOGRAPHY TEACHING: CONCEPTS AND IMPLEMENTATION PROCEDURES , HNUE Journal of Science: Journal of Educational Science: Tập 71, Số 3, 2026: Khoa học Giáo dục"
+            },
+            {
+              "blockIndex": 81,
+              "text": "Nguyen Thi Dung, Nguyen Thi Hien, INTEGRATING DIGITAL TECHNOLOGY INTO LITERATURE TEACHING TO FOSTER CRITICAL AND CREATIVE THINKING IN HIGH SCHOOL STUDENTS , HNUE Journal of Science: Journal of Educational Science: Tập 71, Số 1, 2026: Khoa học Giáo dục"
+            },
+            {
+              "blockIndex": 82,
+              "text": "Nguyen Thi Hong, EXPLORING RESEARCH ON SELF-REGULATED LEARNING IN HIGHER EDUCATION: A BIBLIOMETRIC ANALYSIS OF THE SCOPUS DATABASE (2006 - 2026) , HNUE Journal of Science: Journal of Educational Science: Volume 71, Issue 5, 2026: Journal of Educational Science"
+            },
+            {
+              "blockIndex": 83,
+              "text": "Ngo Thi Khanh Chi, Nguyen Thi Bich, Nguyen Thi Tuyet Mai, Nguyen Thi Cam Huong, DEVELOPING AN ASSESSMENT TOOLKIT TO EVALUATE PRE-SERVICE TEACHERS’ ARTIFICIAL INTELLIGENCE ACCEPTANCE BASED ON THE TECHNOLOGY ACCEPTANCE MODEL (TAM) , HNUE Journal of Science: Journal of Educational Science: Tập 70, Số 7, 2025: Khoa học Giáo dục"
+            },
+            {
+              "blockIndex": 84,
+              "text": "Nguyen Thi Xiem, Bui Minh Tuyen, DEVELOPING HUMAN RIGHTS EDUCATION IN VIETNAM'S DIGITAL ERA: IMPLICATIONS FROM THE WORLD PROGRAMME FOR HUMAN RIGHTS EDUCATION, PHASE V , HNUE Journal of Science: Journal of Educational Science: Tập 70, Số 7, 2025: Khoa học Giáo dục"
+            },
+            {
+              "blockIndex": 85,
+              "text": "Tran Trung, Dao Thai Lai, Trinh Thanh Hai, Nguyen Ngoc Giang, HARNESSING SMART E-LEARNING MATERIALS IN MATHEMATICAL EDUCATION IN GENERAL SCHOOLS , HNUE Journal of Science: Journal of Educational Science: Volume 69, Issue 5B, 2024: Educational Sciences"
+            },
+            {
+              "blockIndex": 86,
+              "text": "Dinh Thanh Tuyen, Pham Minh Hoa, FACTORS INFLUENCING PRESCHOOL TEACHERS' BEHAVIORAL INTENTIONS TO USE AI FOR SUPPORTING CHILDREN WITH SPEECH DELAYS: A STRUCTURAL EQUATION MODELING APPROACH , HNUE Journal of Science: Journal of Educational Science: Tập 70, Số 5, 2025: Khoa học Giáo dục"
+            },
+            {
+              "blockIndex": 87,
+              "text": "Gia Minh Vo, Nils Pancratz, INTRODUCING AI EDUCATION ACROSS SUBJECTS IN PRE-SERVICE TEACHER EDUCATION: INSIGHTS FROM A QUALITATIVE STUDY AND COURSE IMPLEMENTATION , HNUE Journal of Science: Journal of Educational Science: Volume 71, Issue 4, 2026: Journal of Educational Science"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:21:53.767Z",
+          "title": "",
+          "status": "timeout",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html",
+          "content": "The most read Vietnamese newspaper Follow us on Edition: International | Vietnamese Home News Business Tech Tech news Enterprises Personalities Vietnam innovation Challenge hub Travel Life Sports World Perspectives Contact Us © Copyright 1997 VnExpress.net. All rights reserved. Tech Tech news Enterprises Personalities Vietnam innovation Challenge hub Most Read 1. Luxury goods billionaire Bernard Arnault, once world's richest man, drops out of top 10 after $65B wealth decline 2. Vietnam's youngest female Doctor of Science leaves lasting legacy following lifelong pursuit of mathematics 3. World's longest flight forced to turn back to Changi after nearly 9 hours in the air 4. World's second most visited city receives 36 million tourists in 8 months 5. Coal billionaire Low Tuck Kwong loses spot as Indonesia's richest person after wealth drops $2.5B 6. How Thai King Rama X and Queen Suthida qualify to fly their own jet 7. Thai king and queen pray for peace at Hanoi pagoda as state visit ends 8. Widespread flooding disrupts traffic, business in Hanoi after heavy rain overnight 9. Southeast Asian city ranks as world's most welcoming 10. Metro construction triggers 3-km traffic jam at HCMC airport gateway Vietnam to pilot AI teaching across grades 1-12 By Khanh Linh January 19, 2026 | 11:43 am GMT+7 Get VnExpress first in Google Search See more of the news you trust. Make VnExpress a preferred source to prioritise our updates in your Google search results The Ministry of Education plans to add artificial intelligence to the school syllabus in February. Prof. Le Anh Vinh, director of the Ministry of Education and Training’s Vietnam Institute of Educational Science, said the AI competency framework for students was developed based on a 2024 survey of 11,000 students in 44 provinces, which found that 87% of students have been using AI in learning.Some challenges were identified, including lack of knowledge, insufficient technology and inadequate teacher guidance. Vinh presented these findings at the \"Open STEM Day 2025\" at FPT School Bac Giang in Bac Ninh Province on Sunday.Another survey, this one in early 2025 of nearly 35,000 teachers, found that 76% had already used AI in their classrooms. Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction. Vinh said the findings underlined the urgency of teaching AI in schools, emphasizing that students need early instruction to use it effectively. An IT class at Tran Binh Trong Primary School, HCMC, in 2021. Photo courtesy of the school The ministry plans to start AI training for teachers in February, he said. Three teaching models will be tested: integrating AI into existing subjects, teaching standalone AI topics and organizing experiential activities and clubs. The results will decide the nationwide rollout of AI education across grades 1 to 12.Although the ministry has not set specific lesson hours, AI would primarily be integrated into existing subjects and there would be standalone lessons in critical content, Vinh said. The AI curriculum will focus on four main areas: human-centered thinking, AI ethics, AI techniques and applications, and AI system design.It will be divided into Level 1 for primary school students, focusing on basic AI concepts, Level 2 for secondary school students and covering AI ethics, techniques, applications, and social impacts, and Level 3 for high school students, emphasizing practical use, simple AI design and critical analysis of social and civic issues.Vinh said AI could also help mitigate the high student-to-teacher ratio in schools. \"Integrating AI allows students to engage with learning materials more frequently. They can seek information to expand their thinking and optimize learning outcomes.\" Get VnExpress first in Google Search See more of the news you trust. Make VnExpress a preferred source to prioritise our updates in your Google search results",
+          "fetchedAt": "2026-09-17T13:21:53.768Z",
+          "title": "Vietnam to pilot AI teaching across grades 1-12 - VnExpress International",
+          "status": "ok",
+          "contentLength": 3979,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "The most read Vietnamese newspaper Follow us on Edition: International | Vietnamese Home News Business Tech Tech news Enterprises Personalities Vietnam innovation Challenge hub Travel Life Sports World Perspectives Contact Us © Copyright 1997 VnExpress.net. All rights reserved. Tech Tech news Enterprises Personalities Vietnam innovation Challenge hub Most Read 1. Luxury goods billionaire Bernard Arnault, once world's richest man, drops out of top 10 after $65B wealth decline 2. Vietnam's youngest female Doctor of Science leaves lasting legacy following lifelong pursuit of mathematics 3. World's longest flight forced to turn back to Changi after nearly 9 hours in the air 4. World's second most visited city receives 36 million tourists in 8 months 5. Coal billionaire Low Tuck Kwong loses spot as Indonesia's richest person after wealth drops $2.5B 6. How Thai King Rama X and Queen Suthida qualify to fly their own jet 7. Thai king and queen pray for peace at Hanoi pagoda as state visit ends 8. Widespread flooding disrupts traffic, business in Hanoi after heavy rain overnight 9. Southeast Asian city ranks as world's most welcoming 10. Metro construction triggers 3-km traffic jam at HCMC airport gateway Vietnam to pilot AI teaching across grades 1-12 By Khanh Linh January 19, 2026 | 11:43 am GMT+7 Get VnExpress first in Google Search See more of the news you trust. Make VnExpress a preferred source to prioritise our updates in your Google search results The Ministry of Education plans to add artificial intelligence to the school syllabus in February. Prof. Le Anh Vinh, director of the Ministry of Education and Training’s Vietnam Institute of Educational Science, said the AI competency framework for students was developed based on a 2024 survey of 11,000 students in 44 provinces, which found that 87% of students have been using AI in learning.Some challenges were identified, including lack of knowledge, insufficient technology and inadequate teacher guidance. Vinh presented these findings at the \"Open STEM Day 2025\" at FPT School Bac Giang in Bac Ninh Province on Sunday.Another survey, this one in early 2025 of nearly 35,000 teachers, found that 76% had already used AI in their classrooms. Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction. Vinh said the findings underlined the urgency of teaching AI in schools, emphasizing that students need early instruction to use it effectively. An IT class at Tran Binh Trong Primary School, HCMC, in 2021. Photo courtesy of the school The ministry plans to start AI training for teachers in February, he said. Three teaching models will be tested: integrating AI into existing subjects, teaching standalone AI topics and organizing experiential activities and clubs. The results will decide the nationwide rollout of AI education across grades 1 to 12.Although the ministry has not set specific lesson hours, AI would primarily be integrated into existing subjects and there would be standalone lessons in critical content, Vinh said. The AI curriculum will focus on four main areas: human-centered thinking, AI ethics, AI techniques and applications, and AI system design.It will be divided into Level 1 for primary school students, focusing on basic AI concepts, Level 2 for secondary school students and covering AI ethics, techniques, applications, and social impacts, and Level 3 for high school students, emphasizing practical use, simple AI design and critical analysis of social and civic issues.Vinh said AI could also help mitigate the high student-to-teacher ratio in schools. \"Integrating AI allows students to engage with learning materials more frequently. They can seek information to expand their thinking and optimize learning outcomes.\" Get VnExpress first in Google Search See more of the news you trust. Make VnExpress a preferred source to prioritise our updates in your Google search results"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://post.parliament.uk/artificial-intelligence-education-and-impacts-on-children-and-young-people/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:22:03.778Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+          "content": "Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers\n\nThis study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design. Drawing on survey data from 120 in-service preschool teachers, the study examines the relationships among AI-supported STEM lesson design (ASLD), teaching engagement (TE), teacher collaboration (TC), and instructional problem-solving skills (IPSS) using partial least squares structural equation modeling (PLS-SEM). The findings indicate that AI-supported lesson design is significantly and positively associated with TE and TC, while its direct relationship with IPSS is not statistically significant. Significant indirect relationships between AI-supported lesson design and IPSS are observed through TE and TC, suggesting that these constructs may serve as relevant intermediary factors within the proposed model. These findings highlight the relevance of human-centered processes in understanding artificial intelligence (AI) integration in early childhood STEM education, particularly teachers’ engagement and collaborative professional practices. The study contributes to the emerging literature on human-centered AI in education by providing empirical evidence from an underexplored context in early childhood education in Vietnam. Practical implications are discussed for teacher professional development, curriculum design, and the integration of human-centered AI in early education.\n\nTechnology and Design education\n\nEngineering and Technology Education\n\nTeacher Professional Development and Educational Practices\n\nAdeoye MA, Sabela W (2024) Navigating the future of education: integrating AI and collaborative learning in teacher professional development. Int J Technol Educ Soc Humanit 2(2):41–60. https://journal.bengkuluinstitute.com/index.php/IJoTES/article/view/1100\n\nAdeoye MA, Sabela W (2024) Navigating the future of education: integrating AI and collaborative learning in teacher professional development. Int J Technol Educ Soc Humanit 2(2):41–60. https://journal.bengkuluinstitute.com/index.php/IJoTES/article/view/1100\n\nAlam A, Mohanty A (2023) Educational technology: exploring the convergence of technology and pedagogy through mobility, interactivity, AI, and learning tools. Cogent Eng 10(2):2283282. https://doi.org/10.1080/23311916.2023.2283282Article Google Scholar\n\nAlam A, Mohanty A (2023) Educational technology: exploring the convergence of technology and pedagogy through mobility, interactivity, AI, and learning tools. Cogent Eng 10(2):2283282. https://doi.org/10.1080/23311916.2023.2283282\n\nChen L, Chen P, Lin Z (2020) Artificial intelligence in education: a review. IEEE Access 8:75264–75278. https://doi.org/10.1109/access.2020.2988510Article Google Scholar\n\nChen L, Chen P, Lin Z (2020) Artificial intelligence in education: a review. IEEE Access 8:75264–75278. https://doi.org/10.1109/access.2020.2988510\n\nChoi S, Jang Y, Kim H (2023) Influence of pedagogical beliefs and perceived trust on teachers’ acceptance of educational artificial intelligence tools. Int J Hum-Comput Interact 39(4):910–922. https://doi.org/10.1080/10447318.2022.2049145Article Google Scholar\n\nChoi S, Jang Y, Kim H (2023) Influence of pedagogical beliefs and perceived trust on teachers’ acceptance of educational artificial intelligence tools. Int J Hum-Comput Interact 39(4):910–922. https://doi.org/10.1080/10447318.2022.2049145\n\nDurrani R, Iqbal A, Akram H (2024) Artificial intelligence (AI) in early childhood education, exploring challenges, opportunities and future directions: a scoping review. QJSS 5(2):411–423. https://doi.org/10.55737/qjss.135537445Article Google Scholar\n\nDurrani R, Iqbal A, Akram H (2024) Artificial intelligence (AI) in early childhood education, exploring challenges, opportunities and future directions: a scoping review. QJSS 5(2):411–423. https://doi.org/10.55737/qjss.135537445\n\nGiovanola B, Granata P (2024) Ethics for human-centered education in the age of AI. Ebooks. Edward Elgar Publishing, pp 96–109 Google Scholar\n\nGiovanola B, Granata P (2024) Ethics for human-centered education in the age of AI. Ebooks. Edward Elgar Publishing, pp 96–109\n\nHo LH (2024) Implementing education reforms: a multiple case study of Vietnamese primary schools. Univ Glasg. https://doi.org/10.5525/GLA.THESIS.84275Article Google Scholar\n\nHo LH (2024) Implementing education reforms: a multiple case study of Vietnamese primary schools. Univ Glasg. https://doi.org/10.5525/GLA.THESIS.84275\n\nHolmes W, Bialik M, Fadel C (2019) Artificial intelligence in education: promises and implications for teaching and learning. Center for Curriculum Redesign, Boston Google Scholar\n\nHolmes W, Bialik M, Fadel C (2019) Artificial intelligence in education: promises and implications for teaching and learning. Center for Curriculum Redesign, Boston\n\nKim J (2024) Leading teachers’ perspective on teacher-AI collaboration in education. Educ Inf Technol 29:8693–8724. https://doi.org/10.1007/s10639-023-12109-5Article Google Scholar\n\nKim J (2024) Leading teachers’ perspective on teacher-AI collaboration in education. Educ Inf Technol 29:8693–8724. https://doi.org/10.1007/s10639-023-12109-5\n\nKim J, Lee H, Cho YH (2022) Learning design to support student-AI collaboration: perspectives of leading teachers for AI in education. Educ Inf Technol 27:6069–6104. https://doi.org/10.1007/s10639-021-10831-6Article Google Scholar\n\nKim J, Lee H, Cho YH (2022) Learning design to support student-AI collaboration: perspectives of leading teachers for AI in education. Educ Inf Technol 27:6069–6104. https://doi.org/10.1007/s10639-021-10831-6\n\nKolb DA (2014) Experiential learning: experience as the source of learning and development, 2nd ed. Pearson Education, Upper Saddle River Google Scholar\n\nKolb DA (2014) Experiential learning: experience as the source of learning and development, 2nd ed. Pearson Education, Upper Saddle River\n\nLuckin R (2018) Machine learning and human intelligence: the future of education for the 21st century. Institute of Education Press, London Google Scholar\n\nLuckin R (2018) Machine learning and human intelligence: the future of education for the 21st century. Institute of Education Press, London\n\nMetaxoudis ET (2025) Integrating AI into early childhood education: theory to practice. In: Kalogiannakis M, Papadakis S (eds) Empowering Early Education With Computational Thinking, AI, and STEM. IGI Global, pp 35–64 Google Scholar\n\nMetaxoudis ET (2025) Integrating AI into early childhood education: theory to practice. In: Kalogiannakis M, Papadakis S (eds) Empowering Early Education With Computational Thinking, AI, and STEM. IGI Global, pp 35–64\n\nPischetola M, Møller JK, Malmborg L (2023) Enhancing teacher collaboration in higher education: the potential of activity-oriented design for professional development. Educ Inf Technol 28:7571–7600. https://doi.org/10.1007/s10639-022-11490-xArticle Google Scholar\n\nPischetola M, Møller JK, Malmborg L (2023) Enhancing teacher collaboration in higher education: the potential of activity-oriented design for professional development. Educ Inf Technol 28:7571–7600. https://doi.org/10.1007/s10639-022-11490-x\n\nStrielkowski W, Grebennikova V, Lisovskiy A, Rakhimova G, Vasileva T (2025) AI-driven adaptive learning for sustainable educational transformation. Sustain Dev 33(2):1921–1947. https://doi.org/10.1002/sd.3221Article Google Scholar\n\nStrielkowski W, Grebennikova V, Lisovskiy A, Rakhimova G, Vasileva T (2025) AI-driven adaptive learning for sustainable educational transformation. Sustain Dev 33(2):1921–1947. https://doi.org/10.1002/sd.3221\n\nU.S. Department of Education, Office of Educational Technology (2023) Artificial intelligence and the future of teaching and learning: insights and recommendations. Washington, DC. https://tech.ed.gov. Accessed 12 April 2026\n\nU.S. Department of Education, Office of Educational Technology (2023) Artificial intelligence and the future of teaching and learning: insights and recommendations. Washington, DC. https://tech.ed.gov. Accessed 12 April 2026\n\nVelander J, Taiye MA, Otero N, Milrad M (2024) Artificial intelligence in K-12 education: eliciting and reflecting on Swedish teachers’ understanding of AI and its implications for teaching & learning. Educ Inf Technol 29:4085–4105. https://doi.org/10.1007/s10639-023-11990-4Article Google Scholar\n\nVelander J, Taiye MA, Otero N, Milrad M (2024) Artificial intelligence in K-12 education: eliciting and reflecting on Swedish teachers’ understanding of AI and its implications for teaching & learning. Educ Inf Technol 29:4085–4105.\n\nLoi Truong, V., Thi Hong Nguyen, T. Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers. AI & Soc (2026). https://doi.org/10.1007/s00146-026-03306-0",
+          "fetchedAt": "2026-09-17T13:22:03.781Z",
+          "title": "Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers | AI & SOCIETY | Springer Nature Link",
+          "status": "ok",
+          "contentLength": 15982,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers"
+            },
+            {
+              "blockIndex": 6,
+              "text": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design. Drawing on survey data from 120 in-service preschool teachers, the study examines the relationships among AI-supported STEM lesson design (ASLD), teaching engagement (TE), teacher collaboration (TC), and instructional problem-solving skills (IPSS) using partial least squares structural equation modeling (PLS-SEM). The findings indicate that AI-supported lesson design is significantly and positively associated with TE and TC, while its direct relationship with IPSS is not statistically significant. Significant indirect relationships between AI-supported lesson design and IPSS are observed through TE and TC, suggesting that these constructs may serve as relevant intermediary factors within the proposed model. These findings highlight the relevance of human-centered processes in understanding artificial intelligence (AI) integration in early childhood STEM education, particularly teachers’ engagement and collaborative professional practices. The study contributes to the emerging literature on human-centered AI in education by providing empirical evidence from an underexplored context in early childhood education in Vietnam. Practical implications are discussed for teacher professional development, curriculum design, and the integration of human-centered AI in early education."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Technology and Design education"
+            },
+            {
+              "blockIndex": 20,
+              "text": "Engineering and Technology Education"
+            },
+            {
+              "blockIndex": 24,
+              "text": "Teacher Professional Development and Educational Practices"
+            },
+            {
+              "blockIndex": 31,
+              "text": "Adeoye MA, Sabela W (2024) Navigating the future of education: integrating AI and collaborative learning in teacher professional development. Int J Technol Educ Soc Humanit 2(2):41–60. https://journal.bengkuluinstitute.com/index.php/IJoTES/article/view/1100"
+            },
+            {
+              "blockIndex": 32,
+              "text": "Adeoye MA, Sabela W (2024) Navigating the future of education: integrating AI and collaborative learning in teacher professional development. Int J Technol Educ Soc Humanit 2(2):41–60. https://journal.bengkuluinstitute.com/index.php/IJoTES/article/view/1100"
+            },
+            {
+              "blockIndex": 33,
+              "text": "Alam A, Mohanty A (2023) Educational technology: exploring the convergence of technology and pedagogy through mobility, interactivity, AI, and learning tools. Cogent Eng 10(2):2283282. https://doi.org/10.1080/23311916.2023.2283282Article Google Scholar"
+            },
+            {
+              "blockIndex": 34,
+              "text": "Alam A, Mohanty A (2023) Educational technology: exploring the convergence of technology and pedagogy through mobility, interactivity, AI, and learning tools. Cogent Eng 10(2):2283282. https://doi.org/10.1080/23311916.2023.2283282"
+            },
+            {
+              "blockIndex": 48,
+              "text": "Chen L, Chen P, Lin Z (2020) Artificial intelligence in education: a review. IEEE Access 8:75264–75278. https://doi.org/10.1109/access.2020.2988510Article Google Scholar"
+            },
+            {
+              "blockIndex": 49,
+              "text": "Chen L, Chen P, Lin Z (2020) Artificial intelligence in education: a review. IEEE Access 8:75264–75278. https://doi.org/10.1109/access.2020.2988510"
+            },
+            {
+              "blockIndex": 51,
+              "text": "Choi S, Jang Y, Kim H (2023) Influence of pedagogical beliefs and perceived trust on teachers’ acceptance of educational artificial intelligence tools. Int J Hum-Comput Interact 39(4):910–922. https://doi.org/10.1080/10447318.2022.2049145Article Google Scholar"
+            },
+            {
+              "blockIndex": 52,
+              "text": "Choi S, Jang Y, Kim H (2023) Influence of pedagogical beliefs and perceived trust on teachers’ acceptance of educational artificial intelligence tools. Int J Hum-Comput Interact 39(4):910–922. https://doi.org/10.1080/10447318.2022.2049145"
+            },
+            {
+              "blockIndex": 57,
+              "text": "Durrani R, Iqbal A, Akram H (2024) Artificial intelligence (AI) in early childhood education, exploring challenges, opportunities and future directions: a scoping review. QJSS 5(2):411–423. https://doi.org/10.55737/qjss.135537445Article Google Scholar"
+            },
+            {
+              "blockIndex": 58,
+              "text": "Durrani R, Iqbal A, Akram H (2024) Artificial intelligence (AI) in early childhood education, exploring challenges, opportunities and future directions: a scoping review. QJSS 5(2):411–423. https://doi.org/10.55737/qjss.135537445"
+            },
+            {
+              "blockIndex": 72,
+              "text": "Giovanola B, Granata P (2024) Ethics for human-centered education in the age of AI. Ebooks. Edward Elgar Publishing, pp 96–109 Google Scholar"
+            },
+            {
+              "blockIndex": 73,
+              "text": "Giovanola B, Granata P (2024) Ethics for human-centered education in the age of AI. Ebooks. Edward Elgar Publishing, pp 96–109"
+            },
+            {
+              "blockIndex": 84,
+              "text": "Ho LH (2024) Implementing education reforms: a multiple case study of Vietnamese primary schools. Univ Glasg. https://doi.org/10.5525/GLA.THESIS.84275Article Google Scholar"
+            },
+            {
+              "blockIndex": 85,
+              "text": "Ho LH (2024) Implementing education reforms: a multiple case study of Vietnamese primary schools. Univ Glasg. https://doi.org/10.5525/GLA.THESIS.84275"
+            },
+            {
+              "blockIndex": 87,
+              "text": "Holmes W, Bialik M, Fadel C (2019) Artificial intelligence in education: promises and implications for teaching and learning. Center for Curriculum Redesign, Boston Google Scholar"
+            },
+            {
+              "blockIndex": 88,
+              "text": "Holmes W, Bialik M, Fadel C (2019) Artificial intelligence in education: promises and implications for teaching and learning. Center for Curriculum Redesign, Boston"
+            },
+            {
+              "blockIndex": 96,
+              "text": "Kim J (2024) Leading teachers’ perspective on teacher-AI collaboration in education. Educ Inf Technol 29:8693–8724. https://doi.org/10.1007/s10639-023-12109-5Article Google Scholar"
+            },
+            {
+              "blockIndex": 97,
+              "text": "Kim J (2024) Leading teachers’ perspective on teacher-AI collaboration in education. Educ Inf Technol 29:8693–8724. https://doi.org/10.1007/s10639-023-12109-5"
+            },
+            {
+              "blockIndex": 99,
+              "text": "Kim J, Lee H, Cho YH (2022) Learning design to support student-AI collaboration: perspectives of leading teachers for AI in education. Educ Inf Technol 27:6069–6104. https://doi.org/10.1007/s10639-021-10831-6Article Google Scholar"
+            },
+            {
+              "blockIndex": 100,
+              "text": "Kim J, Lee H, Cho YH (2022) Learning design to support student-AI collaboration: perspectives of leading teachers for AI in education. Educ Inf Technol 27:6069–6104. https://doi.org/10.1007/s10639-021-10831-6"
+            },
+            {
+              "blockIndex": 105,
+              "text": "Kolb DA (2014) Experiential learning: experience as the source of learning and development, 2nd ed. Pearson Education, Upper Saddle River Google Scholar"
+            },
+            {
+              "blockIndex": 106,
+              "text": "Kolb DA (2014) Experiential learning: experience as the source of learning and development, 2nd ed. Pearson Education, Upper Saddle River"
+            },
+            {
+              "blockIndex": 108,
+              "text": "Luckin R (2018) Machine learning and human intelligence: the future of education for the 21st century. Institute of Education Press, London Google Scholar"
+            },
+            {
+              "blockIndex": 109,
+              "text": "Luckin R (2018) Machine learning and human intelligence: the future of education for the 21st century. Institute of Education Press, London"
+            },
+            {
+              "blockIndex": 111,
+              "text": "Metaxoudis ET (2025) Integrating AI into early childhood education: theory to practice. In: Kalogiannakis M, Papadakis S (eds) Empowering Early Education With Computational Thinking, AI, and STEM. IGI Global, pp 35–64 Google Scholar"
+            },
+            {
+              "blockIndex": 112,
+              "text": "Metaxoudis ET (2025) Integrating AI into early childhood education: theory to practice. In: Kalogiannakis M, Papadakis S (eds) Empowering Early Education With Computational Thinking, AI, and STEM. IGI Global, pp 35–64"
+            },
+            {
+              "blockIndex": 123,
+              "text": "Pischetola M, Møller JK, Malmborg L (2023) Enhancing teacher collaboration in higher education: the potential of activity-oriented design for professional development. Educ Inf Technol 28:7571–7600. https://doi.org/10.1007/s10639-022-11490-xArticle Google Scholar"
+            },
+            {
+              "blockIndex": 124,
+              "text": "Pischetola M, Møller JK, Malmborg L (2023) Enhancing teacher collaboration in higher education: the potential of activity-oriented design for professional development. Educ Inf Technol 28:7571–7600. https://doi.org/10.1007/s10639-022-11490-x"
+            },
+            {
+              "blockIndex": 131,
+              "text": "Strielkowski W, Grebennikova V, Lisovskiy A, Rakhimova G, Vasileva T (2025) AI-driven adaptive learning for sustainable educational transformation. Sustain Dev 33(2):1921–1947. https://doi.org/10.1002/sd.3221Article Google Scholar"
+            },
+            {
+              "blockIndex": 132,
+              "text": "Strielkowski W, Grebennikova V, Lisovskiy A, Rakhimova G, Vasileva T (2025) AI-driven adaptive learning for sustainable educational transformation. Sustain Dev 33(2):1921–1947. https://doi.org/10.1002/sd.3221"
+            },
+            {
+              "blockIndex": 134,
+              "text": "U.S. Department of Education, Office of Educational Technology (2023) Artificial intelligence and the future of teaching and learning: insights and recommendations. Washington, DC. https://tech.ed.gov. Accessed 12 April 2026"
+            },
+            {
+              "blockIndex": 135,
+              "text": "U.S. Department of Education, Office of Educational Technology (2023) Artificial intelligence and the future of teaching and learning: insights and recommendations. Washington, DC. https://tech.ed.gov. Accessed 12 April 2026"
+            },
+            {
+              "blockIndex": 139,
+              "text": "Velander J, Taiye MA, Otero N, Milrad M (2024) Artificial intelligence in K-12 education: eliciting and reflecting on Swedish teachers’ understanding of AI and its implications for teaching & learning. Educ Inf Technol 29:4085–4105. https://doi.org/10.1007/s10639-023-11990-4Article Google Scholar"
+            },
+            {
+              "blockIndex": 140,
+              "text": "Velander J, Taiye MA, Otero N, Milrad M (2024) Artificial intelligence in K-12 education: eliciting and reflecting on Swedish teachers’ understanding of AI and its implications for teaching & learning. Educ Inf Technol 29:4085–4105."
+            },
+            {
+              "blockIndex": 233,
+              "text": "Loi Truong, V., Thi Hong Nguyen, T. Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers. AI & Soc (2026). https://doi.org/10.1007/s00146-026-03306-0"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:22:03.782Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://hnuejs.edu.vn/es/article/view/842",
+          "tieuDe": "DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM\n\t\t\t\t\t\t\t| HNUE Journal of Science: Journal of Educational Science",
+          "ngayLayVe": "2026-09-17T13:21:53.766Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Đăng tải trên tạp chí khoa học của Đại học Sư phạm Hà Nội, có quy trình bình duyệt rõ ràng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nghiên cứu tập trung vào cấp tiểu học hơn là mầm non.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these recommendations carefully adapted and grounded in the specific findings of the comparative analysis and Vietnamese contextual factors.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html",
+          "tieuDe": "Vietnam to pilot AI teaching across grades 1-12 - VnExpress International",
+          "tacGia": "VnExpress",
+          "toChuc": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
+          "ngayLayVe": "2026-09-17T13:21:53.768Z",
+          "loai": "bao-chi",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Báo điện tử uy tín tại Việt Nam, trích dẫn phát biểu trực tiếp của Viện trưởng Viện Khoa học Giáo dục Việt Nam.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Đề cập đến chương trình từ lớp 1-12, không đi sâu vào mầm non.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+          "tieuDe": "Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers | AI & SOCIETY | Springer Nature Link",
+          "toChuc": "SpringerLink",
+          "ngayDang": "2026-08-25",
+          "ngayLayVe": "2026-09-17T13:22:03.781Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nghiên cứu khoa học đăng trên hệ thống Springer Nature uy tín, trực tiếp nghiên cứu về giáo viên mầm non Việt Nam.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+          "tieuDe": "https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education",
+          "ngayLayVe": "2026-09-17T13:21:53.767Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "timeout",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n05",
+          "url": "https://post.parliament.uk/artificial-intelligence-education-and-impacts-on-children-and-young-people/",
+          "tieuDe": "https://post.parliament.uk/artificial-intelligence-education-and-impacts-on-children-and-young-people/",
+          "ngayLayVe": "2026-09-17T13:22:03.778Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector",
+          "tieuDe": "https://www.waldenu.edu/programs/education/resource/five-pros-and-cons-of-ai-in-the-education-sector",
+          "ngayLayVe": "2026-09-17T13:22:03.782Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n04",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Ứng dụng AI (Eduaide.Ai) hỗ trợ giáo viên mầm non Việt Nam thiết kế bài học STEM.",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.",
+              "viTri": "Phần tóm tắt nghiên cứu"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Giáo viên lo ngại về tính chính xác, bảo mật và an toàn dữ liệu khi ứng dụng AI.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+              "viTri": "Đoạn 4 trong bài báo"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Lo ngại về việc ứng dụng AI làm giảm đi sự tương tác trực tiếp giữa người với người trong môi trường giáo dục.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+              "viTri": "Đoạn 4 trong bài báo"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://hnuejs.edu.vn/es/article/view/842\",\n      \"tieuDe\": \"DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM | HNUE Journal of Science: Journal of Educational Science\",\n      \"tacGia\": \"Li Lin, Minh\",\n      \"toChuc\": \"HNUE Journal of Science\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:21:53.766Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Đăng tải trên tạp chí khoa học của Đại học Sư phạm Hà Nội, có quy trình bình duyệt rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nghiên cứu tập trung vào cấp tiểu học hơn là mầm non.\"\n      ],\n      \"doanTrich\": \"On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these recommendations carefully adapted and grounded in the specific findings of the comparative analysis and Vietnamese contextual factors.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html\",\n      \"tieuDe\": \"Vietnam to pilot AI teaching across grades 1-12 - VnExpress International\",\n      \"tacGia\": \"Khanh Linh\",\n      \"toChuc\": \"VnExpress International\",\n      \"ngayDang\": \"2026-01-19\",\n      \"ngayLayVe\": \"2026-09-17T13:21:53.768Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Báo điện tử uy tín tại Việt Nam, trích dẫn phát biểu trực tiếp của Viện trưởng Viện Khoa học Giáo dục Việt Nam.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Đề cập đến chương trình từ lớp 1-12, không đi sâu vào mầm non.\"\n      ],\n      \"doanTrich\": \"Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://link.springer.com/article/10.1007/s00146-026-03306-0\",\n      \"tieuDe\": \"Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers | AI & SOCIETY | Springer Nature Link\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"SpringerLink\",\n      \"ngayDang\": \"2026-08-25\",\n      \"ngayLayVe\": \"2026-09-17T13:22:03.781Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nghiên cứu khoa học đăng trên hệ thống Springer Nature uy tín, trực tiếp nghiên cứu về giáo viên mầm non Việt Nam.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Ứng dụng AI (Eduaide.Ai) hỗ trợ giáo viên mầm non Việt Nam thiết kế bài học STEM.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.\",\n          \"viTri\": \"Phần tóm tắt nghiên cứu\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Ứng dụng tích hợp AI vào tài liệu học tập giúp học sinh tương tác thường xuyên hơn và giảm tải áp lực do tỷ lệ học sinh/giáo viên cao.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Vinh said AI could also help mitigate the high student-to-teacher ratio in schools. \\\"Integrating AI allows students to engage with learning materials more frequently.\\\"\",\n          \"viTri\": \"Đoạn cuối bài báo\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Giáo viên lo ngại về tính chính xác, bảo mật và an toàn dữ liệu khi ứng dụng AI.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.\",\n          \"viTri\": \"Đoạn 4 trong bài báo\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Lo ngại về việc ứng dụng AI làm giảm đi sự tương tác trực tiếp giữa người với người trong môi trường giáo dục.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.\",\n          \"viTri\": \"Đoạn 4 trong bài báo\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash",
+          "durationMs": 31705,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://hnuejs.edu.vn/es/article/view/842\",\n      \"tieuDe\": \"DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM | HNUE Journal of Science: Journal of Educational Science\",\n      \"tacGia\": \"Li Lin, Minh\",\n      \"toChuc\": \"HNUE Journal of Science\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:21:53.766Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Đăng tải trên tạp chí khoa học của Đại học Sư phạm Hà Nội, có quy trình bình duyệt rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nghiên cứu tập trung vào cấp tiểu học hơn là mầm non.\"\n      ],\n      \"doanTrich\": \"On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these recommendations carefully adapted and grounded in the specific findings of the comparative analysis and Vietnamese contextual factors.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html\",\n      \"tieuDe\": \"Vietnam to pilot AI teaching across grades 1-12 - VnExpress International\",\n      \"tacGia\": \"Khanh Linh\",\n      \"toChuc\": \"VnExpress International\",\n      \"ngayDang\": \"2026-01-19\",\n      \"ngayLayVe\": \"2026-09-17T13:21:53.768Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Báo điện tử uy tín tại Việt Nam, trích dẫn phát biểu trực tiếp của Viện trưởng Viện Khoa học Giáo dục Việt Nam.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Đề cập đến chương trình từ lớp 1-12, không đi sâu vào mầm non.\"\n      ],\n      \"doanTrich\": \"Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://link.springer.com/article/10.1007/s00146-026-03306-0\",\n      \"tieuDe\": \"Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers | AI & SOCIETY | Springer Nature Link\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"SpringerLink\",\n      \"ngayDang\": \"2026-08-25\",\n      \"ngayLayVe\": \"2026-09-17T13:22:03.781Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nghiên cứu khoa học đăng trên hệ thống Springer Nature uy tín, trực tiếp nghiên cứu về giáo viên mầm non Việt Nam.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Ứng dụng AI (Eduaide.Ai) hỗ trợ giáo viên mầm non Việt Nam thiết kế bài học STEM.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.\",\n          \"viTri\": \"Phần tóm tắt nghiên cứu\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Ứng dụng tích hợp AI vào tài liệu học tập giúp học sinh tương tác thường xuyên hơn và giảm tải áp lực do tỷ lệ học sinh/giáo viên cao.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Vinh said AI could also help mitigate the high student-to-teacher ratio in schools. \\\"Integrating AI allows students to engage with learning materials more frequently.\\\"\",\n          \"viTri\": \"Đoạn cuối bài báo\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Giáo viên lo ngại về tính chính xác, bảo mật và an toàn dữ liệu khi ứng dụng AI.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.\",\n          \"viTri\": \"Đoạn 4 trong bài báo\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Lo ngại về việc ứng dụng AI làm giảm đi sự tương tác trực tiếp giữa người với người trong môi trường giáo dục.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.\",\n          \"viTri\": \"Đoạn 4 trong bài báo\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 47761
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+      "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Giáo viên mầm non",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.",
+          "chuTrenManHinh": "Chào mừng",
+          "yDoHinh": "Hình ảnh giáo viên mỉm cười trước bảng",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.",
+          "chuTrenManHinh": "Eduaide.Ai trên máy tính",
+          "yDoHinh": "Màn hình máy tính hiện giao diện phần mềm thiết kế bài học",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.",
+          "chuTrenManHinh": "Lo ngại về dữ liệu",
+          "yDoHinh": "Biểu tượng khóa và dấu chấm hỏi nổi lên",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?",
+          "chuTrenManHinh": "Tương tác trực tiếp",
+          "yDoHinh": "Giáo viên và trẻ em nhìn nhau, phía sau là màn hình mờ",
+          "nguon": [
+            "t04"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.",
+          "chuTrenManHinh": "Lộ trình học tập",
+          "yDoHinh": "Bốn ô vuông đại diện cho hai ứng dụng và hai lo ngại",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789651365254",
+      "timestamp": "2026-09-17T13:22:45.254Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "targetAudience": "Giáo viên mầm non",
+        "videoDuration": "4 phút",
+        "evalRunId": "2026-09-17T13-11-19-300Z",
+        "evalCaseId": "N21"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://hnuejs.edu.vn/es/article/view/842",
+          "tieuDe": "DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM\n\t\t\t\t\t\t\t| HNUE Journal of Science: Journal of Educational Science",
+          "ngayLayVe": "2026-09-17T13:21:53.766Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Đăng tải trên tạp chí khoa học của Đại học Sư phạm Hà Nội, có quy trình bình duyệt rõ ràng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nghiên cứu tập trung vào cấp tiểu học hơn là mầm non.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these recommendations carefully adapted and grounded in the specific findings of the comparative analysis and Vietnamese contextual factors.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html",
+          "tieuDe": "Vietnam to pilot AI teaching across grades 1-12 - VnExpress International",
+          "tacGia": "VnExpress",
+          "toChuc": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
+          "ngayLayVe": "2026-09-17T13:21:53.768Z",
+          "loai": "bao-chi",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Báo điện tử uy tín tại Việt Nam, trích dẫn phát biểu trực tiếp của Viện trưởng Viện Khoa học Giáo dục Việt Nam.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Đề cập đến chương trình từ lớp 1-12, không đi sâu vào mầm non.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+          "tieuDe": "Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers | AI & SOCIETY | Springer Nature Link",
+          "toChuc": "SpringerLink",
+          "ngayDang": "2026-08-25",
+          "ngayLayVe": "2026-09-17T13:22:03.781Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nghiên cứu khoa học đăng trên hệ thống Springer Nature uy tín, trực tiếp nghiên cứu về giáo viên mầm non Việt Nam.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Ứng dụng AI (Eduaide.Ai) hỗ trợ giáo viên mầm non Việt Nam thiết kế bài học STEM.",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.",
+              "viTri": "Phần tóm tắt nghiên cứu"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Giáo viên lo ngại về tính chính xác, bảo mật và an toàn dữ liệu khi ứng dụng AI.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+              "viTri": "Đoạn 4 trong bài báo"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Lo ngại về việc ứng dụng AI làm giảm đi sự tương tác trực tiếp giữa người với người trong môi trường giáo dục.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+              "viTri": "Đoạn 4 trong bài báo"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Giáo viên mầm non",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.",
+            "chuTrenManHinh": "Chào mừng",
+            "yDoHinh": "Hình ảnh giáo viên mỉm cười trước bảng",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.",
+            "chuTrenManHinh": "Eduaide.Ai trên máy tính",
+            "yDoHinh": "Màn hình máy tính hiện giao diện phần mềm thiết kế bài học",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.",
+            "chuTrenManHinh": "Lo ngại về dữ liệu",
+            "yDoHinh": "Biểu tượng khóa và dấu chấm hỏi nổi lên",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?",
+            "chuTrenManHinh": "Tương tác trực tiếp",
+            "yDoHinh": "Giáo viên và trẻ em nhìn nhau, phía sau là màn hình mờ",
+            "nguon": [
+              "t04"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.",
+            "chuTrenManHinh": "Lộ trình học tập",
+            "yDoHinh": "Bốn ô vuông đại diện cho hai ứng dụng và hai lo ngại",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?",
+          "nguon": [
+            "t04"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\",\n  \"mucTieu\": \"Nêu được hai ứng dụng thực tế và hai lo ngại\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Giáo viên mầm non\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.\",\n      \"chuTrenManHinh\": \"Chào mừng\",\n      \"yDoHinh\": \"Hình ảnh giáo viên mỉm cười trước bảng\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.\",\n      \"chuTrenManHinh\": \"Eduaide.Ai trên máy tính\",\n      \"yDoHinh\": \"Màn hình máy tính hiện giao diện phần mềm thiết kế bài học\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.\",\n      \"chuTrenManHinh\": \"Lo ngại về dữ liệu\",\n      \"yDoHinh\": \"Biểu tượng khóa và dấu chấm hỏi nổi lên\",\n      \"nguon\": [\"t03\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?\",\n      \"chuTrenManHinh\": \"Tương tác trực tiếp\",\n      \"yDoHinh\": \"Giáo viên và trẻ em nhìn nhau, phía sau là màn hình mờ\",\n      \"nguon\": [\"t04\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.\",\n      \"chuTrenManHinh\": \"Lộ trình học tập\",\n      \"yDoHinh\": \"Bốn ô vuông đại diện cho hai ứng dụng và hai lo ngại\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-98658577-5001-48ee-a7d4-c67d57b19086",
+          "durationMs": 4663,
+          "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\",\n  \"mucTieu\":\"Nêu được hai ứng dụng thực tế và hai lo ngại\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Giáo viên mầm non\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Xin chào các thầy cô giáo mầm non, chào mừng đến với buổi chia sẻ về trí tuệ nhân tạo trong lớp học.\",\n      \"chuTrenManHinh\":\"Chào mừng\",\n      \"yDoHinh\":\"Hình ảnh giáo viên mỉm cười trước bảng\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.\",\n      \"chuTrenManHinh\":\"Eduaide.Ai trên máy tính\",\n      \"yDoHinh\":\"Màn hình máy tính hiện giao diện phần mềm thiết kế bài học\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Hiện nay, AI đang được thử nghiệm trong nhiều lớp học ở Việt Nam, mở ra cơ hội áp dụng cho mầm non.\",\n      \"chuTrenManHinh\":\"AI trong lớp học\",\n      \"yDoHinh\":\"Giáo viên sử dụng máy tính bảng để hỗ trợ học sinh\",\n      \"nguon\":[\"n02\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Các thầy cô có lo ngại về độ chính xác và bảo mật dữ liệu khi sử dụng AI trong giảng dạy.\",\n      \"chuTrenManHinh\":\"Cảnh giáo viên suy nghĩ\",\n      \"yDoHinh\":\"Biểu tượng dấu chấm hỏi và biểu tượng khóa\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Một lo ngại khác là AI có thể làm giảm sự tương tác trực tiếp giữa giáo viên và trẻ em.\",\n      \"chuTrenManHinh\":\"Cảnh giáo viên và trẻ em giao tiếp\",\n      \"yDoHinh\":\"Hai người đang trò chuyện, phía sau là màn hình AI\",\n      \"nguon\":[\"t04\"]\n    }\n  ]\n}",
+          "validationError": "Câu 3: mẫu không hợp lệ (nguon không phải mã thongTin: [\"n02\"])"
+        },
+        {
+          "stage": "repair",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-db041cca-826a-4299-b1b4-d2f59f59165c",
+          "durationMs": 1879,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\",\n  \"mucTieu\": \"Nêu được hai ứng dụng thực tế và hai lo ngại\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Giáo viên mầm non\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.\",\n      \"chuTrenManHinh\": \"Chào mừng\",\n      \"yDoHinh\": \"Hình ảnh giáo viên mỉm cười trước bảng\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.\",\n      \"chuTrenManHinh\": \"Eduaide.Ai trên máy tính\",\n      \"yDoHinh\": \"Màn hình máy tính hiện giao diện phần mềm thiết kế bài học\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.\",\n      \"chuTrenManHinh\": \"Lo ngại về dữ liệu\",\n      \"yDoHinh\": \"Biểu tượng khóa và dấu chấm hỏi nổi lên\",\n      \"nguon\": [\"t03\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?\",\n      \"chuTrenManHinh\": \"Tương tác trực tiếp\",\n      \"yDoHinh\": \"Giáo viên và trẻ em nhìn nhau, phía sau là màn hình mờ\",\n      \"nguon\": [\"t04\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.\",\n      \"chuTrenManHinh\": \"Lộ trình học tập\",\n      \"yDoHinh\": \"Bốn ô vuông đại diện cho hai ứng dụng và hai lo ngại\",\n      \"nguon\": []\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 6680
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "id": "trace-script-1789652577105",
+  "timestamp": "2026-09-17T13:42:57.105Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách nấu phở Hà Nội",
+    "learningObjective": "Nấu được một tô phở chuẩn vị",
+    "targetAudience": "Nội trợ",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N13"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+      "tieuDe": "Pho Recipe (Vietnamese Noodle Soup) - The Woks of Life",
+      "tacGia": "Sarah",
+      "toChuc": "The Woks of Life",
+      "ngayDang": "2023-09-05T14:05:00+00:00",
+      "ngayLayVe": "2026-09-17T13:42:33.748Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết blog cá nhân có công thức nấu ăn chi tiết nhưng cần lưu ý vì là kinh nghiệm cá nhân.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã cũ hơn một năm",
+        "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "There is a bit of prep involved to get the broth going, but after that, it’s just a long, slow simmer until you’re ready to assemble the dish.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+      "tieuDe": "Vietnamese Pho recipe - RecipeTin Eats",
+      "tacGia": "Nagi",
+      "toChuc": "RecipeTin Eats",
+      "ngayDang": "2020-01-19T17:00:06+00:00",
+      "ngayLayVe": "2026-09-17T13:42:34.974Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Công thức nấu ăn chi tiết từ blogger ẩm thực uy tín nhưng mang tính chủ quan.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã cũ hơn một năm",
+        "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe!",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+      "tieuDe": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham",
+      "tacGia": "Vicky Pham",
+      "toChuc": "Vicky Pham",
+      "ngayDang": "2019-04-22T21:44:00+00:00",
+      "ngayLayVe": "2026-09-17T13:42:34.975Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog ẩm thực cá nhân hướng dẫn chi tiết món phở tái lăn kiểu Hà Nội.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã cũ hơn một năm",
+        "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Phở tái lăn là một biến thể phở kiểu miền Bắc trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô phở.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Không có mâu thuẫn trực tiếp với các nguồn khác do các nguồn khác tập trung vào phở truyền thống nấu nước dùng xương."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất và cặn bẩn để nước dùng được trong hơn.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "This process removes any impurities/scum, and will give you a much cleaner broth.",
+          "viTri": "Đoạn 17"
+        },
+        {
+          "nguonId": "n04",
+          "doanTrich": "Cleaning the bones will rid of all the impurities and ensure a clear broth.",
+          "viTri": "Đoạn hướng dẫn"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách nấu phở Hà Nội",
+    "mucTieu": "Nấu được một tô phở chuẩn vị",
+    "thoiLuong": "năm phút",
+    "nguoiHoc": "Nội trợ",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.",
+        "chuTrenManHinh": "Chào mừng đến bếp",
+        "yDoHinh": "Bàn bếp sáng, nồi và nguyên liệu sắp sẵn",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.",
+        "chuTrenManHinh": "Xương bò đang luộc",
+        "yDoHinh": "Nước sôi quanh xương, bọt nổi lên",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.",
+        "chuTrenManHinh": "Thịt bò xào tỏi",
+        "yDoHinh": "Thịt bò mỏng được xào với tỏi trong chảo",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?",
+        "chuTrenManHinh": "Bạn chuẩn bị chưa?",
+        "yDoHinh": "Nội trợ cầm bát, mỉm cười",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.",
+        "chuTrenManHinh": "Bát phở hoàn thiện",
+        "yDoHinh": "Bát phở nóng, hương thơm bốc lên",
+        "nguon": [
+          "t01",
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] This process removes any impurities/scum, and will give you a much cleaner broth.; [n04] Cleaning the bones will rid of all the impurities and ensure a clear broth."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow)."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.",
+      "nguon": [
+        "t01",
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+        "[n01] This process removes any impurities/scum, and will give you a much cleaner broth.; [n04] Cleaning the bones will rid of all the impurities and ensure a clear broth."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách nấu phở Hà Nội\",\"mucTieu\":\"Nấu được một tô phở chuẩn vị\",\"thoiLuong\":\"năm phút\",\"nguoiHoc\":\"Nội trợ\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.\",\"chuTrenManHinh\":\"Chào mừng đến bếp\",\"yDoHinh\":\"Bàn bếp sáng, nồi và nguyên liệu sắp sẵn\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.\",\"chuTrenManHinh\":\"Xương bò đang luộc\",\"yDoHinh\":\"Nước sôi quanh xương, bọt nổi lên\",\"nguon\":[\"t02\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.\",\"chuTrenManHinh\":\"Thịt bò xào tỏi\",\"yDoHinh\":\"Thịt bò mỏng được xào với tỏi trong chảo\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?\",\"chuTrenManHinh\":\"Bạn chuẩn bị chưa?\",\"yDoHinh\":\"Nội trợ cầm bát, mỉm cười\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.\",\"chuTrenManHinh\":\"Bát phở hoàn thiện\",\"yDoHinh\":\"Bát phở nóng, hương thơm bốc lên\",\"nguon\":[\"t01\",\"t02\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-54b0bae3-765a-4bd1-b3f0-da1544c7edbc",
+      "durationMs": 5401,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách nấu phở Hà Nội\",\"mucTieu\":\"Nấu được một tô phở chuẩn vị\",\"thoiLuong\":\"năm phút\",\"nguoiHoc\":\"Nội trợ\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.\",\"chuTrenManHinh\":\"Chào mừng đến bếp\",\"yDoHinh\":\"Bàn bếp sáng, nồi và nguyên liệu sắp sẵn\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.\",\"chuTrenManHinh\":\"Xương bò đang luộc\",\"yDoHinh\":\"Nước sôi quanh xương, bọt nổi lên\",\"nguon\":[\"t02\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.\",\"chuTrenManHinh\":\"Thịt bò xào tỏi\",\"yDoHinh\":\"Thịt bò mỏng được xào với tỏi trong chảo\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?\",\"chuTrenManHinh\":\"Bạn chuẩn bị chưa?\",\"yDoHinh\":\"Nội trợ cầm bát, mỉm cười\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.\",\"chuTrenManHinh\":\"Bát phở hoàn thiện\",\"yDoHinh\":\"Bát phở nóng, hương thơm bốc lên\",\"nguon\":[\"t01\",\"t02\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 5404
+}

@@ -1,0 +1,243 @@
+{
+  "id": "trace-script-1789652746068",
+  "timestamp": "2026-09-17T13:45:46.068Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+    "learningObjective": "Biết thực trạng và thách thức",
+    "targetAudience": "Nhà nghiên cứu",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N23"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://arxiv.org/html/2403.02715v1",
+      "tieuDe": "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models",
+      "ngayLayVe": "2026-09-17T13:45:35.532Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài báo khoa học từ arXiv có độ tin cậy về học thuật nhưng thiếu thông tin chi tiết về tác giả và tổ chức trong bản trích xuất.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn thiếu thông tin tác giả và tổ chức cụ thể.",
+        "Thiếu ngày đăng chính thức.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://aclanthology.org/2024.acl-long.479/",
+      "tieuDe": "MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China - ACL Anthology",
+      "toChuc": "ACL Anthology",
+      "ngayLayVe": "2026-09-17T13:45:35.533Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo hội nghị khoa học uy tín thuộc ACL Anthology với tác giả và tổ chức rõ ràng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã cũ hơn một năm (xuất bản tháng 08 năm 2024).",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese",
+      "tieuDe": "Ultimate Guide - Best Open Source LLM For Vietnamese In 2026 - SiliconFlow",
+      "ngayLayVe": "2026-09-17T13:45:35.534Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết hướng dẫn tổng hợp từ tổ chức thương mại, cung cấp góc nhìn thực tế về mô hình ngôn ngữ lớn cho tiếng Việt.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn từ blog thương mại, thiếu thông tin tác giả và ngày đăng cụ thể.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Open source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high accuracy.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Các mô hình ngôn ngữ lớn hiện nay gặp hạn chế trong việc xử lý và hiểu các ngôn ngữ có nguồn tài nguyên thấp, bao gồm tiếng Việt và các ngôn ngữ thiểu số, do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets",
+          "viTri": "Đoạn 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.",
+          "viTri": "Đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Không có mâu thuẫn trực tiếp giữa các nguồn; cả hai đều đồng thuận về việc thiếu dữ liệu huấn luyện là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Các mô hình ngôn ngữ lớn mã nguồn mở cho tiếng Việt được tối ưu hóa để hiểu các đặc điểm ngôn ngữ đặc thù như dấu câu, biến thể thanh điệu và cấu trúc ngữ pháp.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures.",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+    "mucTieu": "Biết thực trạng và thách thức",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Nhà nghiên cứu",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.",
+        "chuTrenManHinh": "Chào mừng nhà nghiên cứu",
+        "yDoHinh": "Hình ảnh một hội trường học thuật hiện đại với các biểu tượng công nghệ AI nổi bật trên màn hình lớn phía sau.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+        "chuTrenManHinh": "Hạn chế xử lý tiếng Việt",
+        "yDoHinh": "Biểu đồ cột so sánh độ chính xác thấp của mô hình AI khi xử lý văn bản tiếng Việt so với tiếng Anh, kèm biểu tượng cảnh báo dữ liệu thiếu.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.",
+        "chuTrenManHinh": "Thiếu dữ liệu huấn luyện",
+        "yDoHinh": "Hình ảnh một kho dữ liệu rỗng hoặc một ổ cứng đang báo lỗi đầy đủ, tượng trưng cho sự khan hiếm dữ liệu huấn luyện.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?",
+        "chuTrenManHinh": "Thách thức đặc thù ngôn ngữ",
+        "yDoHinh": "Một câu hỏi lớn nổi bật trên nền hình ảnh các ký tự tiếng Việt có dấu và các đường cong biểu diễn thanh điệu phức tạp.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.",
+        "chuTrenManHinh": "Phân tích giải pháp tối ưu",
+        "yDoHinh": "Hình ảnh một bộ não nhân tạo đang kết nối với các khối dữ liệu ngôn ngữ, thể hiện quá trình tối ưu hóa kiến trúc mô hình.",
+        "nguon": [
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets; [n02] Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets; [n02] Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam\",\n  \"mucTieu\": \"Biết thực trạng và thách thức\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Nhà nghiên cứu\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.\",\n      \"chuTrenManHinh\": \"Chào mừng nhà nghiên cứu\",\n      \"yDoHinh\": \"Hình ảnh một hội trường học thuật hiện đại với các biểu tượng công nghệ AI nổi bật trên màn hình lớn phía sau.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.\",\n      \"chuTrenManHinh\": \"Hạn chế xử lý tiếng Việt\",\n      \"yDoHinh\": \"Biểu đồ cột so sánh độ chính xác thấp của mô hình AI khi xử lý văn bản tiếng Việt so với tiếng Anh, kèm biểu tượng cảnh báo dữ liệu thiếu.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.\",\n      \"chuTrenManHinh\": \"Thiếu dữ liệu huấn luyện\",\n      \"yDoHinh\": \"Hình ảnh một kho dữ liệu rỗng hoặc một ổ cứng đang báo lỗi đầy đủ, tượng trưng cho sự khan hiếm dữ liệu huấn luyện.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?\",\n      \"chuTrenManHinh\": \"Thách thức đặc thù ngôn ngữ\",\n      \"yDoHinh\": \"Một câu hỏi lớn nổi bật trên nền hình ảnh các ký tự tiếng Việt có dấu và các đường cong biểu diễn thanh điệu phức tạp.\",\n      \"nguon\": [\"t02\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.\",\n      \"chuTrenManHinh\": \"Phân tích giải pháp tối ưu\",\n      \"yDoHinh\": \"Hình ảnh một bộ não nhân tạo đang kết nối với các khối dữ liệu ngôn ngữ, thể hiện quá trình tối ưu hóa kiến trúc mô hình.\",\n      \"nguon\": [\"t02\"]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-c0572223-7a7e-4836-8c5e-4263b5b5e936",
+      "durationMs": 1797,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam\",\n  \"mucTieu\": \"Biết thực trạng và thách thức\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Nhà nghiên cứu\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.\",\n      \"chuTrenManHinh\": \"Chào mừng nhà nghiên cứu\",\n      \"yDoHinh\": \"Hình ảnh một hội trường học thuật hiện đại với các biểu tượng công nghệ AI nổi bật trên màn hình lớn phía sau.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.\",\n      \"chuTrenManHinh\": \"Hạn chế xử lý tiếng Việt\",\n      \"yDoHinh\": \"Biểu đồ cột so sánh độ chính xác thấp của mô hình AI khi xử lý văn bản tiếng Việt so với tiếng Anh, kèm biểu tượng cảnh báo dữ liệu thiếu.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.\",\n      \"chuTrenManHinh\": \"Thiếu dữ liệu huấn luyện\",\n      \"yDoHinh\": \"Hình ảnh một kho dữ liệu rỗng hoặc một ổ cứng đang báo lỗi đầy đủ, tượng trưng cho sự khan hiếm dữ liệu huấn luyện.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?\",\n      \"chuTrenManHinh\": \"Thách thức đặc thù ngôn ngữ\",\n      \"yDoHinh\": \"Một câu hỏi lớn nổi bật trên nền hình ảnh các ký tự tiếng Việt có dấu và các đường cong biểu diễn thanh điệu phức tạp.\",\n      \"nguon\": [\"t02\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.\",\n      \"chuTrenManHinh\": \"Phân tích giải pháp tối ưu\",\n      \"yDoHinh\": \"Hình ảnh một bộ não nhân tạo đang kết nối với các khối dữ liệu ngôn ngữ, thể hiện quá trình tối ưu hóa kiến trúc mô hình.\",\n      \"nguon\": [\"t02\"]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 2038
+}

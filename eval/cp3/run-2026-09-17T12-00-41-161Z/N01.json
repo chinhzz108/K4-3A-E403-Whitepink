@@ -1,0 +1,1065 @@
+{
+  "case": {
+    "id": "N01",
+    "class": "thuong",
+    "input": {
+      "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+      "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Tìm được ≥2 nguồn đáng tin về context window. Kịch bản viết bằng văn nói, không số, có dẫn nguồn.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #1; không phải chatlog",
+    "passCriteria": "≥2 nguồn thật có URL hợp lệ; ≥3 câu có nguồn; loi không chứa chữ số",
+    "failCriteria": "Bịa nguồn; URL .test; có chữ số trong loi; không có doanTrich"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.ibm.com/think/topics/context-window",
+        "tieuDe": "What is a context window? | IBM",
+        "tacGia": "Dave Bergmann",
+        "ngayDang": "2024-11-26",
+        "ngayLayVe": "2026-09-17T12:01:08.503Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Official IBM page with named author and recent publication",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn quá một năm",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model",
+        "tieuDe": "How in-context learning improves large language models - IBM Research",
+        "toChuc": "IBM Research",
+        "ngayDang": "2024-07-25T13:30:00.000Z",
+        "ngayLayVe": "2026-09-17T12:01:08.504Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Research blog from IBM Research without specified author",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn quá một năm",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+        "tieuDe": "Context windows - Claude Platform Docs",
+        "toChuc": "Claude Platform Docs",
+        "ngayLayVe": "2026-09-17T12:01:08.505Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Official product documentation, no author or date",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không có ngày đăng, nguồn quá một năm",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "As token count grows, accuracy and recall degrade, a phenomenon known as context rot.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Cửa sổ ngữ cảnh là bộ nhớ làm việc của mô hình, giới hạn số token mà mô hình có thể “nhớ” trong một lượt xử lý.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+            "viTri": "para1"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn cải thiện chất lượng dự đoán; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.",
+            "viTri": "para1"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Khi số token trong cửa sổ ngữ cảnh tăng, độ chính xác và khả năng nhớ giảm (hiện tượng “context rot”).",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "As token count grows, accuracy and recall degrade, a phenomenon known as context rot.",
+            "viTri": "para1"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "context window limit",
+      "language model context"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789646552865",
+      "timestamp": "2026-09-17T12:02:32.865Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T12-00-41-161Z",
+        "evalCaseId": "N01"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "What is a context window?",
+              "url": "https://www.ibm.com/think/topics/context-window",
+              "snippet": "The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time. It's worth noting that the ...",
+              "position": 1
+            },
+            {
+              "title": "Context windows - Claude Platform Docs",
+              "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+              "snippet": "A single request can include up to 600 images or PDF pages (100 for models with a 200k-token context window). If you send many images or large documents, you ...",
+              "position": 2
+            },
+            {
+              "title": "ELI5: What limits a model's context window?",
+              "url": "https://www.reddit.com/r/explainlikeimfive/comments/1qpzocr/eli5_what_limits_a_models_context_window/",
+              "snippet": "When a company develops a new LLM, it obviously has a token context window. Why are they limited to 500k tokens, 1 million tokens, etc. What’s stopping ...",
+              "position": 3
+            },
+            {
+              "title": "How a context window works - Decagon",
+              "url": "https://decagon.ai/glossary/what-is-a-context-window",
+              "snippet": "A context window is the maximum amount of input plus output, measured in tokens, that an AI model can process in a single request. How is the context window ...",
+              "position": 4
+            },
+            {
+              "title": "The Maximum Effective Context Window for Real World ...",
+              "url": "https://arxiv.org/pdf/2509.21361",
+              "snippet": "viết bởi N Paulsen · 2025 · Trích dẫn 24 bài viết — To test the real-world use of context windows, we 1) define a concept of maximum effective context window, 2) formulate a testing method of a context window's.",
+              "position": 5
+            }
+          ],
+          "query": "context window limit",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "How in-context learning improves large language models",
+              "url": "https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model",
+              "snippet": "In-context learning makes predictions more accurate, but it doesn't add nearly as much extra computing cost or human labor as retraining a model ...",
+              "position": 1
+            },
+            {
+              "title": "Can Large Language Models Understand Context?",
+              "url": "https://arxiv.org/abs/2402.00858",
+              "snippet": "viết bởi Y Zhu · 2024 · Trích dẫn 89 bài viết — This paper introduces a context understanding benchmark by adapting existing datasets to suit the evaluation of generative models. This ...",
+              "position": 2
+            },
+            {
+              "title": "Large language model",
+              "url": "https://en.wikipedia.org/wiki/Large_language_model",
+              "snippet": "LLMs can typically generate, summarize, translate, and analyze text in many contexts. They are the basis for many modern chatbots, such as ChatGPT, Claude, ...",
+              "position": 3
+            },
+            {
+              "title": "How Does Large Language Models Use Long Contexts?",
+              "url": "https://cobusgreyling.medium.com/how-does-large-language-models-use-long-contexts-da9472bbb278",
+              "snippet": "I'm currently the Chief Evangelist @ HumanFirst. I explore & write about all things at the intersection of AI & language; ranging from LLMs, ...",
+              "position": 4
+            },
+            {
+              "title": "What is a context window for Large Language Models?",
+              "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-context-window",
+              "snippet": "A context window is how information is entered into a large language model (LLM). The larger the context window, the more information the ...",
+              "position": 5
+            }
+          ],
+          "query": "language model context",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.ibm.com/think/topics/context-window",
+          "https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model",
+          "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+          "https://arxiv.org/abs/2402.00858",
+          "https://www.reddit.com/r/explainlikeimfive/comments/1qpzocr/eli5_what_limits_a_models_context_window/",
+          "https://en.wikipedia.org/wiki/Large_language_model",
+          "https://decagon.ai/glossary/what-is-a-context-window",
+          "https://cobusgreyling.medium.com/how-does-large-language-models-use-long-contexts-da9472bbb278"
+        ],
+        "pagesRead": [
+          "https://www.ibm.com/think/topics/context-window",
+          "https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model",
+          "https://platform.claude.com/docs/en/build-with-claude/context-windows"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.ibm.com/think/topics/context-window",
+          "content": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.\n\nAn LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\n\nGenerally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks.\n\nContext windows and tokenization\n\nIn real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work.\n\nThe way LLMs process language is fundamentally different from the way humans do. Whereas the smallest unit of information we use to represent language is a single character—such as a letter, number or punctuation mark—the smallest unit of language that AI models use is a token. To train a model to understand language, each token is assigned an ID number; these ID numbers, rather than the words or even the tokens themselves, are used to train the model. This tokenization of language significantly reduces the computational power needed to process and learn from the text.\n\nThere is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs.\n\nVariations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context.\n\nWhy do models have a maximum context length?\n\nThough context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs.\n\nTransformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time.\n\nIt's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context.\n\nIt’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once.\n\nContext windows and computing resources\n\nEquipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it.\n\nSimilarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time.\n\nRecent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022.\n\nEven when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications.\n\nA longer context window might also have the unintended effect of presenting a longer attack surface for adversarial prompts. Recent research from Anthropic demonstrated that increasing a model’s context length also increases its vulnerability to “jailbreaking” and (subsequently) being provoked to produce harmful responses.2\n\nThe average context window of a large language model has grown exponentially since the original generative pretrained transformers (GPTs) were released. To date, each successive generation of LLMs has typically entailed significantly longer context lengths. At present, the largest context window offered by a prominent commercial model is over 1 million tokens. It remains to be seen whether context windows will continue to expand or if we’re already approaching the upper limit of practical necessity.\n\nThe new o1 model family likewise offers a context window of 128,000 tokens, though they offer greater output context length.\n\nThe original Llama models had a maximum context length of 2,048 tokens, which was doubled to 4,096 tokens for Llama 2. During their launch in April 2024, Llama 3 models offered a context window of roughly 8,000 tokens.\n\nLlama’s context length was significantly increased with the launch of Llama 3.1 models, which offered 128,000-token long context windows. Llama 3.2 models likewise have a maximum context length of 128,000 tokens.\n\nMistral Large 2, the flagship model offered by Mistral AI, has a context window of 128,000 tokens.\n\nGoogle’s Gemini series of models offers what is currently the largest context window amongst commercial language models. Gemini 1.5 Pro, Google’s flagship model, offers a context length of up to 2 million tokens. Other Gemini 1.5 models, such as Gemini 1.5 Flash, have a context window of 1 million tokens.\n\nAnthropic’s latest Claude models, such as the Claude 3.5 Sonnet, offer a standard context window of about 200,000 tokens. In early September 2024, Anthropic announced that the models accessed through its new “Claude Enterprise” plan would offer an expanded 500,000 token context window.\n\n1. \"Lost in the Middle: How Language Models Use Long Contexts,\" arXiv, 6 July 2023 2 \"Many-shot jailbreaking,\" Anthropic, 2 April 2024",
+          "fetchedAt": "2026-09-17T12:01:08.503Z",
+          "title": "What is a context window? | IBM",
+          "status": "ok",
+          "contentLength": 14693,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 2,
+              "text": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+            },
+            {
+              "blockIndex": 3,
+              "text": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+            },
+            {
+              "blockIndex": 4,
+              "text": "Generally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Context windows and tokenization"
+            },
+            {
+              "blockIndex": 9,
+              "text": "In real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work."
+            },
+            {
+              "blockIndex": 10,
+              "text": "The way LLMs process language is fundamentally different from the way humans do. Whereas the smallest unit of information we use to represent language is a single character—such as a letter, number or punctuation mark—the smallest unit of language that AI models use is a token. To train a model to understand language, each token is assigned an ID number; these ID numbers, rather than the words or even the tokens themselves, are used to train the model. This tokenization of language significantly reduces the computational power needed to process and learn from the text."
+            },
+            {
+              "blockIndex": 18,
+              "text": "There is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs."
+            },
+            {
+              "blockIndex": 19,
+              "text": "Variations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context."
+            },
+            {
+              "blockIndex": 22,
+              "text": "Why do models have a maximum context length?"
+            },
+            {
+              "blockIndex": 23,
+              "text": "Though context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs."
+            },
+            {
+              "blockIndex": 24,
+              "text": "Transformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time."
+            },
+            {
+              "blockIndex": 25,
+              "text": "It's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context."
+            },
+            {
+              "blockIndex": 26,
+              "text": "It’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once."
+            },
+            {
+              "blockIndex": 27,
+              "text": "Context windows and computing resources"
+            },
+            {
+              "blockIndex": 28,
+              "text": "Equipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Similarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time."
+            },
+            {
+              "blockIndex": 30,
+              "text": "Recent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Even when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications."
+            },
+            {
+              "blockIndex": 38,
+              "text": "A longer context window might also have the unintended effect of presenting a longer attack surface for adversarial prompts. Recent research from Anthropic demonstrated that increasing a model’s context length also increases its vulnerability to “jailbreaking” and (subsequently) being provoked to produce harmful responses.2"
+            },
+            {
+              "blockIndex": 40,
+              "text": "The average context window of a large language model has grown exponentially since the original generative pretrained transformers (GPTs) were released. To date, each successive generation of LLMs has typically entailed significantly longer context lengths. At present, the largest context window offered by a prominent commercial model is over 1 million tokens. It remains to be seen whether context windows will continue to expand or if we’re already approaching the upper limit of practical necessity."
+            },
+            {
+              "blockIndex": 46,
+              "text": "The new o1 model family likewise offers a context window of 128,000 tokens, though they offer greater output context length."
+            },
+            {
+              "blockIndex": 48,
+              "text": "The original Llama models had a maximum context length of 2,048 tokens, which was doubled to 4,096 tokens for Llama 2. During their launch in April 2024, Llama 3 models offered a context window of roughly 8,000 tokens."
+            },
+            {
+              "blockIndex": 49,
+              "text": "Llama’s context length was significantly increased with the launch of Llama 3.1 models, which offered 128,000-token long context windows. Llama 3.2 models likewise have a maximum context length of 128,000 tokens."
+            },
+            {
+              "blockIndex": 51,
+              "text": "Mistral Large 2, the flagship model offered by Mistral AI, has a context window of 128,000 tokens."
+            },
+            {
+              "blockIndex": 53,
+              "text": "Google’s Gemini series of models offers what is currently the largest context window amongst commercial language models. Gemini 1.5 Pro, Google’s flagship model, offers a context length of up to 2 million tokens. Other Gemini 1.5 models, such as Gemini 1.5 Flash, have a context window of 1 million tokens."
+            },
+            {
+              "blockIndex": 55,
+              "text": "Anthropic’s latest Claude models, such as the Claude 3.5 Sonnet, offer a standard context window of about 200,000 tokens. In early September 2024, Anthropic announced that the models accessed through its new “Claude Enterprise” plan would offer an expanded 500,000 token context window."
+            },
+            {
+              "blockIndex": 73,
+              "text": "1. \"Lost in the Middle: How Language Models Use Long Contexts,\" arXiv, 6 July 2023 2 \"Many-shot jailbreaking,\" Anthropic, 2 April 2024"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model",
+          "content": "Transformer models are in the spotlight these days, underlying large language models (LLMs) like GPT-4 and IBM Granite. One powerful ability is at least partly responsible for their growing popularity: in-context learning, which enriches a model with examples without having to retrain it. It’s a technique that allows a model to extract information from a prompt a user inputs, helping the model answer the question.\n\nIn-context learning makes predictions more accurate, but it doesn’t add nearly as much extra computing cost or human labor as retraining a model would. But even with real-world evidence that in-context learning works, the details of why it works have been foggy — until now.\n\nThe key to in-context learning lies in how a transformer’s self-attention layer processes in-context examples. That’s according to new research from a team of scientists at IBM Research and Rensselaer Polytechnic Institute (RPI), working together through the Rensselaer-IBM AI Research Collaboration. The self-attention layer, which sets the architecture of a transformer apart from that of other models, prizes in-context examples when they’re similar to the model’s training data. This helps explain why more context isn’t always better, says the team behind the work. Rather, the added context needs to be relevant to the model.\n\nFor example, when asking a transformer-based LLM to translate text from English to French, relevant context would include pairs of English-to-French translations, says study co-author Hongkang Li, a Ph.D. student at RPI specializing in deep learning theory and machine learning.\n\nIn a series of classification task experiments with transformers, he and his IBM collaborators tried feeding them various types of in-context learning and quantified how much each one improved a given model’s performance on a set of examples it hadn’t seen before.\n\nA longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study. The quality of predictions will depend on how good the tutorial is. It’s what people intuitively assumed, but this is the first time it was shown in detail. Their theoretical result also characterizes how the number of relevant in-context examples can improve the model prediction.\n\n“It is quite surprising that a transformer structure is able to predict correct answers for unseen context inputs,” says Songtao Lu, the principal investigator of this IBM-RPI project, from the IBM Math and Theoretical Computer Science group. “Going beyond the classic supervised learning theory, our work rigorously and mathematically reveals, for the first time, self-attention’s out-of-domain generalization ability.”\n\nTheir findings, which go into greater detail about how they performed these experiments, are being presented at the 2024 International Conference on Machine Learning (ICML), happening from July 21 to 27 in Vienna.\n\nThe team behind the work wants to pin down theoretical explanations for what’s being observed in LLMs and generative AI. Part of building trustworthy AI, as they see it, is looking into the underlying working mechanisms of these complicated systems, understanding them bit by bit and component by component, to glean how they work or when they will succeed or fail. In this sense, their work has promising implications for how we can train a better model, prevent misuse, and avoid bias.\n\n“We’re adding transparency to this dark magic, says senior researcher Pin-Yu Chen of the Trusted AI group at IBM Research. “People use it a lot but don’t understand how it works.” In-context learning has gotten popular because it’s done without updating the model weights, a process that could take hours to months depending on the model’s size.\n\nThe team’s long-term goal is to extend this analysis to other types of AI tasks, including text and video generation, as well as the kinds of inference performed by generative models like GPT-4 and Sora.\n\nIn another time- and money-saving result, their method also points to ways large models can be pruned down to speed up the inference process. In most cases, some neurons, or parameters, will end up being redundant for the final inferencing. Based on the theory identified in their study, a technique called magnitude-based pruning could be used to only keep the high-impact neurons.\n\n“Magnitude-based pruning means that model parameters with smaller absolute values also have smaller effects on the final prediction,” RPI’s Li says. The final accuracy of the prediction is almost the same compared to the model without pruning, and theoretically it can prune almost 20% without really affecting the final results. In practice, with more careful pruning, they say they can shave even more off.\n\nPeople have done this with convolutional networks (CNNs) and in LLMs, but there was no theoretical justification, Li says. “Our work is the first to provide a pruning rate that is tolerable for in-context learning.”\n\nAfter the AI field switched from CNNs to transformers (the architecture that underpins generative models), the intuitive understanding was that transformers just work better. But there wasn’t a formal explanation for why. The IBM-RPI team released a paper last year proving that transformers learn and generalize better than CNNs, giving theoretical justification to the shift in the field. Now they have a better idea why that is, and the new study takes that transparency a step further.\n\n“We believe theories and experiments should work together, so our theory is motivated by empirical observations,” Li says. “And we hope that later our theory will guide empirical experiments.”\n\nDemonstrating a theoretical separation between quantum computers and large language models<img loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" sizes=\"(min-width: 99rem) calc((min(99rem, 100vw) - 33rem) * 0.25 + 6rem), (min-width: 82rem) calc((100vw - 32rem) * 0.25 + 6rem), (min-width: 66rem) calc((100vw - 32rem) * 0.5 + 14rem), (min-width: 42rem) calc((100vw - 16rem) * 0.5 + 6rem), calc((max(20rem, 100vw) - 6rem) * 1 + 6rem)\" srcSet=\"https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=640&q=85 640w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=750&q=85 750w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=828&q=85 828w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=1080&q=85 1080w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=1200&q=85 1200w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=1920&q=85 1920w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=2048&q=85 2048w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=3840&q=85 3840w\" src=\"https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=3840&q=85\"/>ResearchSrinivasan Arunachalam, Arkopal Dutt, Hari Krovi, Rik Sengupta, and Ryan Mandelbaum15 Sep 2026AIComputer ScienceQuantum\n\nDemonstrating a theoretical separation between quantum computers and large language models\n\nA rough guide for going back to the Moon <img loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" sizes=\"(min-width: 99rem) calc((min(99rem, 100vw) - 33rem) * 0.25 + 6rem), (min-width: 82rem) calc((100vw - 32rem) * 0.25 + 6rem), (min-width: 66rem) calc((100vw - 32rem) * 0.5 + 14rem), (min-width: 42rem) calc((100vw - 16rem) * 0.5 + 6rem), calc((max(20rem, 100vw) - 6rem) * 1 + 6rem)\" srcSet=\"https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fblog_Art_lunar_FM_1920x1080_still_Image_90a71c95d6.jpg&w=640&q=75",
+          "fetchedAt": "2026-09-17T12:01:08.504Z",
+          "title": "How in-context learning improves large language models - IBM Research",
+          "status": "ok",
+          "contentLength": 15658,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Transformer models are in the spotlight these days, underlying large language models (LLMs) like GPT-4 and IBM Granite. One powerful ability is at least partly responsible for their growing popularity: in-context learning, which enriches a model with examples without having to retrain it. It’s a technique that allows a model to extract information from a prompt a user inputs, helping the model answer the question."
+            },
+            {
+              "blockIndex": 1,
+              "text": "In-context learning makes predictions more accurate, but it doesn’t add nearly as much extra computing cost or human labor as retraining a model would. But even with real-world evidence that in-context learning works, the details of why it works have been foggy — until now."
+            },
+            {
+              "blockIndex": 2,
+              "text": "The key to in-context learning lies in how a transformer’s self-attention layer processes in-context examples. That’s according to new research from a team of scientists at IBM Research and Rensselaer Polytechnic Institute (RPI), working together through the Rensselaer-IBM AI Research Collaboration. The self-attention layer, which sets the architecture of a transformer apart from that of other models, prizes in-context examples when they’re similar to the model’s training data. This helps explain why more context isn’t always better, says the team behind the work. Rather, the added context needs to be relevant to the model."
+            },
+            {
+              "blockIndex": 3,
+              "text": "For example, when asking a transformer-based LLM to translate text from English to French, relevant context would include pairs of English-to-French translations, says study co-author Hongkang Li, a Ph.D. student at RPI specializing in deep learning theory and machine learning."
+            },
+            {
+              "blockIndex": 4,
+              "text": "In a series of classification task experiments with transformers, he and his IBM collaborators tried feeding them various types of in-context learning and quantified how much each one improved a given model’s performance on a set of examples it hadn’t seen before."
+            },
+            {
+              "blockIndex": 5,
+              "text": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study. The quality of predictions will depend on how good the tutorial is. It’s what people intuitively assumed, but this is the first time it was shown in detail. Their theoretical result also characterizes how the number of relevant in-context examples can improve the model prediction."
+            },
+            {
+              "blockIndex": 6,
+              "text": "“It is quite surprising that a transformer structure is able to predict correct answers for unseen context inputs,” says Songtao Lu, the principal investigator of this IBM-RPI project, from the IBM Math and Theoretical Computer Science group. “Going beyond the classic supervised learning theory, our work rigorously and mathematically reveals, for the first time, self-attention’s out-of-domain generalization ability.”"
+            },
+            {
+              "blockIndex": 7,
+              "text": "Their findings, which go into greater detail about how they performed these experiments, are being presented at the 2024 International Conference on Machine Learning (ICML), happening from July 21 to 27 in Vienna."
+            },
+            {
+              "blockIndex": 8,
+              "text": "The team behind the work wants to pin down theoretical explanations for what’s being observed in LLMs and generative AI. Part of building trustworthy AI, as they see it, is looking into the underlying working mechanisms of these complicated systems, understanding them bit by bit and component by component, to glean how they work or when they will succeed or fail. In this sense, their work has promising implications for how we can train a better model, prevent misuse, and avoid bias."
+            },
+            {
+              "blockIndex": 9,
+              "text": "“We’re adding transparency to this dark magic, says senior researcher Pin-Yu Chen of the Trusted AI group at IBM Research. “People use it a lot but don’t understand how it works.” In-context learning has gotten popular because it’s done without updating the model weights, a process that could take hours to months depending on the model’s size."
+            },
+            {
+              "blockIndex": 10,
+              "text": "The team’s long-term goal is to extend this analysis to other types of AI tasks, including text and video generation, as well as the kinds of inference performed by generative models like GPT-4 and Sora."
+            },
+            {
+              "blockIndex": 11,
+              "text": "In another time- and money-saving result, their method also points to ways large models can be pruned down to speed up the inference process. In most cases, some neurons, or parameters, will end up being redundant for the final inferencing. Based on the theory identified in their study, a technique called magnitude-based pruning could be used to only keep the high-impact neurons."
+            },
+            {
+              "blockIndex": 12,
+              "text": "“Magnitude-based pruning means that model parameters with smaller absolute values also have smaller effects on the final prediction,” RPI’s Li says. The final accuracy of the prediction is almost the same compared to the model without pruning, and theoretically it can prune almost 20% without really affecting the final results. In practice, with more careful pruning, they say they can shave even more off."
+            },
+            {
+              "blockIndex": 13,
+              "text": "People have done this with convolutional networks (CNNs) and in LLMs, but there was no theoretical justification, Li says. “Our work is the first to provide a pruning rate that is tolerable for in-context learning.”"
+            },
+            {
+              "blockIndex": 14,
+              "text": "After the AI field switched from CNNs to transformers (the architecture that underpins generative models), the intuitive understanding was that transformers just work better. But there wasn’t a formal explanation for why. The IBM-RPI team released a paper last year proving that transformers learn and generalize better than CNNs, giving theoretical justification to the shift in the field. Now they have a better idea why that is, and the new study takes that transparency a step further."
+            },
+            {
+              "blockIndex": 15,
+              "text": "“We believe theories and experiments should work together, so our theory is motivated by empirical observations,” Li says. “And we hope that later our theory will guide empirical experiments.”"
+            },
+            {
+              "blockIndex": 17,
+              "text": "Demonstrating a theoretical separation between quantum computers and large language models<img loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" sizes=\"(min-width: 99rem) calc((min(99rem, 100vw) - 33rem) * 0.25 + 6rem), (min-width: 82rem) calc((100vw - 32rem) * 0.25 + 6rem), (min-width: 66rem) calc((100vw - 32rem) * 0.5 + 14rem), (min-width: 42rem) calc((100vw - 16rem) * 0.5 + 6rem), calc((max(20rem, 100vw) - 6rem) * 1 + 6rem)\" srcSet=\"https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=640&q=85 640w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=750&q=85 750w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=828&q=85 828w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=1080&q=85 1080w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=1200&q=85 1200w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=1920&q=85 1920w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=2048&q=85 2048w, https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=3840&q=85 3840w\" src=\"https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fquantum_vs_llms_d2f959534c.png&w=3840&q=85\"/>ResearchSrinivasan Arunachalam, Arkopal Dutt, Hari Krovi, Rik Sengupta, and Ryan Mandelbaum15 Sep 2026AIComputer ScienceQuantum"
+            },
+            {
+              "blockIndex": 18,
+              "text": "Demonstrating a theoretical separation between quantum computers and large language models"
+            },
+            {
+              "blockIndex": 22,
+              "text": "A rough guide for going back to the Moon <img loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\" sizes=\"(min-width: 99rem) calc((min(99rem, 100vw) - 33rem) * 0.25 + 6rem), (min-width: 82rem) calc((100vw - 32rem) * 0.25 + 6rem), (min-width: 66rem) calc((100vw - 32rem) * 0.5 + 14rem), (min-width: 42rem) calc((100vw - 16rem) * 0.5 + 6rem), calc((max(20rem, 100vw) - 6rem) * 1 + 6rem)\" srcSet=\"https://research.ibm.com/_next/image?url=https%3A%2F%2Fresearch-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud%2Fblog_Art_lunar_FM_1920x1080_still_Image_90a71c95d6.jpg&w=640&q=75"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+          "content": "As conversations grow, you'll eventually approach context window limits. For long-running conversations and agentic workflows, server-side compaction is the primary strategy for context management.\n\nThe \"context window\" refers to all the text a language model can reference when generating a response, including the response itself. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. A larger context window allows the model to handle more complex and lengthy prompts, but more context isn't automatically better. As token count grows, accuracy and recall degrade, a phenomenon known as context rot. This makes curating what's in context just as important as how much space is available.\n\nThe following diagram illustrates the standard context window behavior for API requests1:\n\n1 Chat interfaces such as claude.ai can also manage the context window on a rolling \"first in, first out\" basis.\n\nProgressive token accumulation: As the conversation advances through turns, each user message and assistant response accumulates within the context window, and previous turns are preserved completely.\n\nContext window capacity: The context window (up to 1M tokens, depending on the model) holds the conversation history plus the new output Claude generates.\n\nEverything in the request counts toward the context window: the system prompt, every message in messages (including tool results, images, and documents), and your tool definitions. The output Claude generates for the turn, including its extended thinking, counts too. Every response reports what the request consumed in its usage field. If you use prompt caching, the input count is split across input_tokens, cache_read_input_tokens, and cache_creation_input_tokens, and all three count toward the window. To estimate a request before you send it, use the token counting API.\n\nContext window sizes by model\n\nClaude Fable 5.1, Claude Mythos 5.1, Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Opus 4.8, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 5, Claude Sonnet 4.6, and Claude Mythos Preview have a 1M-token context window. A single request to any of them can generate up to 128k output tokens (max_tokens). Other Claude models, including Claude Sonnet 4.5, have a 200k-token context window.\n\nFor every model with a 1M-token context window, 1M is the default: you don't need a beta header, and long-context requests are billed at standard pricing.\n\nA single request can include up to 600 images or PDF pages (100 for models with a 200k-token context window). If you send many images or large documents, you might reach request size limits before the token limit.\n\nSee the model comparison table for a list of context window sizes by model.\n\nThe context window with thinking\n\nWith thinking, all input and output tokens, including thinking tokens, count toward the context window limit, with a few nuances in multi-turn situations.\n\nThinking tokens are a subset of your max_tokens parameter, are billed as output tokens, and count toward rate limits. With adaptive thinking, Claude determines its thinking allocation dynamically, so thinking token usage\n\nWhether thinking blocks from previous assistant turns stay in the context window depends on the model. On Claude Opus 4.5 and later Opus models, Claude Sonnet 4.6 and later Sonnet models, Claude Fable 5.1, Claude Mythos 5.1, Claude Fable 5, Claude Mythos 5, and Claude Mythos Preview, the API keeps previous thinking blocks by default, and they count toward the context window like any other input tokens. On earlier Opus and Sonnet models and all Haiku models, the API automatically strips previous thinking blocks from the conversation history when you pass them back, which preserves token capacity for conversation content. For the per-model defaults, see thinking block preservation by model. To override the default in either direction, use thinking block clearing.\n\nThe context window with thinking and tool use\n\n1First turn architecture Input components: Tools configuration and user message Output components: Thinking + text response + tool use request Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens.\n\nToken calculation: All input and output components count toward the context window, and all output components are billed as output tokens.\n\n2Tool result handling (turn 2) Input components: Every block in the first turn and the tool_result. You must return the thinking block with the corresponding tool results. This is the only case where you have to return thinking blocks. Output components: After tool results have been passed back to Claude, Claude responds with only text (no additional thinking until the next user message, unless interleaved thinking is enabled). Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens.\n\nToken calculation: All input and output components count toward the context window, and all output components are billed as output tokens.\n\n3New user turn (turn 3) Input components: All inputs and the output from the previous turn are carried forward. The thinking block from the completed tool use cycle no longer has to stay in context: on models that strip previous thinking blocks, the API drops it automatically when you pass it back, and on models that keep previous thinking blocks, it stays unless you clear it with thinking block clearing. This is also where you add the next user turn. Output components: Because there is a new user turn outside the tool use cycle, Claude generates a new thinking block and continues from there. Token calculation: On models that strip previous thinking blocks, the previous thinking tokens no longer count toward the context window. All other previous blocks still count toward the context window, as does the thinking block in the current assistant turn.\n\nInput components: All inputs and the output from the previous turn are carried forward. The thinking block from the completed tool use cycle no longer has to stay in context: on models that strip previous thinking blocks, the API drops it automatically when you pass it back, and on models that keep previous thinking blocks, it stays unless you clear it with thinking block clearing. This is also where you add the next user turn.\n\nToken calculation: On models that strip previous thinking blocks, the previous thinking tokens no longer count toward the context window. All other previous blocks still count toward the context window, as does the thinking block in the current assistant turn.\n\nClaude Sonnet 5, Claude Sonnet 4.6, Claude Sonnet 4.5, and Claude Haiku 4.5 have context awareness: these models track their remaining context window (their \"token budget\") throughout a conversation. This lets the model manage long-running tasks against the space that remains rather than guess how many tokens are left. Context awareness is automatic: there is nothing for you to enable, and you never send the tags shown in this section yourself. The API injects them.\n\nIn the system prompt of every request, the API gives Claude its total context window:\n\nThe budget matches the context window available to your request: 1M tokens for Claude Sonnet 5 and Claude Sonnet 4.6, and 200k tokens for Claude Sonnet 4.5 and Claude Haiku 4.5. The examples in this section show a model with a 200k-token context window.\n\nIf your conversations regularly approach context window limits, use server-side compaction. Compaction automatically summarizes earlier parts of the conversation on the server, so the conversation can continue past the context window limit. It is available in beta for Claude 4.6 and later models and Claude Mythos Preview.\n\nCached prompt prefixes still occupy the context window: prompt caching changes what you pay for those tokens, not whether they count.\n\nContext window overflow behavior\n\nIf the input alone already exceeds the model's context window, the API returns a 400 invalid_request_error (\"prompt is too long\") on every model.\n\nOn Claude 4.5 models and newer, if input tokens plus max_tokens exceeds the context window size, the API accepts the request. If generation then reaches the context window limit, it stops with stop_reason: \"model_context_window_exceeded\". On earlier models, the API returns a validation error instead. To opt in to the model_context_window_exceeded behavior on those models, use the model-context-window-exceeded-2025-08-26 beta header. See Stop reasons and fallback for details.\n\nTo stay within context window limits, use the token counting API to estimate token usage before sending messages to Claude.\n\nServer-side context compaction for managing long conversations that approach context window limits.\n\nSee the model comparison table for a list of context window sizes and input/output token pricing by model.",
+          "fetchedAt": "2026-09-17T12:01:08.505Z",
+          "title": "Context windows - Claude Platform Docs",
+          "status": "ok",
+          "contentLength": 11717,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "As conversations grow, you'll eventually approach context window limits. For long-running conversations and agentic workflows, server-side compaction is the primary strategy for context management."
+            },
+            {
+              "blockIndex": 2,
+              "text": "The \"context window\" refers to all the text a language model can reference when generating a response, including the response itself. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. A larger context window allows the model to handle more complex and lengthy prompts, but more context isn't automatically better. As token count grows, accuracy and recall degrade, a phenomenon known as context rot. This makes curating what's in context just as important as how much space is available."
+            },
+            {
+              "blockIndex": 3,
+              "text": "The following diagram illustrates the standard context window behavior for API requests1:"
+            },
+            {
+              "blockIndex": 5,
+              "text": "1 Chat interfaces such as claude.ai can also manage the context window on a rolling \"first in, first out\" basis."
+            },
+            {
+              "blockIndex": 6,
+              "text": "Progressive token accumulation: As the conversation advances through turns, each user message and assistant response accumulates within the context window, and previous turns are preserved completely."
+            },
+            {
+              "blockIndex": 7,
+              "text": "Context window capacity: The context window (up to 1M tokens, depending on the model) holds the conversation history plus the new output Claude generates."
+            },
+            {
+              "blockIndex": 11,
+              "text": "Everything in the request counts toward the context window: the system prompt, every message in messages (including tool results, images, and documents), and your tool definitions. The output Claude generates for the turn, including its extended thinking, counts too. Every response reports what the request consumed in its usage field. If you use prompt caching, the input count is split across input_tokens, cache_read_input_tokens, and cache_creation_input_tokens, and all three count toward the window. To estimate a request before you send it, use the token counting API."
+            },
+            {
+              "blockIndex": 12,
+              "text": "Context window sizes by model"
+            },
+            {
+              "blockIndex": 13,
+              "text": "Claude Fable 5.1, Claude Mythos 5.1, Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Opus 4.8, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 5, Claude Sonnet 4.6, and Claude Mythos Preview have a 1M-token context window. A single request to any of them can generate up to 128k output tokens (max_tokens). Other Claude models, including Claude Sonnet 4.5, have a 200k-token context window."
+            },
+            {
+              "blockIndex": 14,
+              "text": "For every model with a 1M-token context window, 1M is the default: you don't need a beta header, and long-context requests are billed at standard pricing."
+            },
+            {
+              "blockIndex": 15,
+              "text": "A single request can include up to 600 images or PDF pages (100 for models with a 200k-token context window). If you send many images or large documents, you might reach request size limits before the token limit."
+            },
+            {
+              "blockIndex": 16,
+              "text": "See the model comparison table for a list of context window sizes by model."
+            },
+            {
+              "blockIndex": 17,
+              "text": "The context window with thinking"
+            },
+            {
+              "blockIndex": 18,
+              "text": "With thinking, all input and output tokens, including thinking tokens, count toward the context window limit, with a few nuances in multi-turn situations."
+            },
+            {
+              "blockIndex": 19,
+              "text": "Thinking tokens are a subset of your max_tokens parameter, are billed as output tokens, and count toward rate limits. With adaptive thinking, Claude determines its thinking allocation dynamically, so thinking token usage"
+            },
+            {
+              "blockIndex": 20,
+              "text": "Whether thinking blocks from previous assistant turns stay in the context window depends on the model. On Claude Opus 4.5 and later Opus models, Claude Sonnet 4.6 and later Sonnet models, Claude Fable 5.1, Claude Mythos 5.1, Claude Fable 5, Claude Mythos 5, and Claude Mythos Preview, the API keeps previous thinking blocks by default, and they count toward the context window like any other input tokens. On earlier Opus and Sonnet models and all Haiku models, the API automatically strips previous thinking blocks from the conversation history when you pass them back, which preserves token capacity for conversation content. For the per-model defaults, see thinking block preservation by model. To override the default in either direction, use thinking block clearing."
+            },
+            {
+              "blockIndex": 25,
+              "text": "The context window with thinking and tool use"
+            },
+            {
+              "blockIndex": 28,
+              "text": "1First turn architecture Input components: Tools configuration and user message Output components: Thinking + text response + tool use request Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens."
+            },
+            {
+              "blockIndex": 33,
+              "text": "2Tool result handling (turn 2) Input components: Every block in the first turn and the tool_result. You must return the thinking block with the corresponding tool results. This is the only case where you have to return thinking blocks. Output components: After tool results have been passed back to Claude, Claude responds with only text (no additional thinking until the next user message, unless interleaved thinking is enabled). Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens."
+            },
+            {
+              "blockIndex": 37,
+              "text": "Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens."
+            },
+            {
+              "blockIndex": 38,
+              "text": "3New user turn (turn 3) Input components: All inputs and the output from the previous turn are carried forward. The thinking block from the completed tool use cycle no longer has to stay in context: on models that strip previous thinking blocks, the API drops it automatically when you pass it back, and on models that keep previous thinking blocks, it stays unless you clear it with thinking block clearing. This is also where you add the next user turn. Output components: Because there is a new user turn outside the tool use cycle, Claude generates a new thinking block and continues from there. Token calculation: On models that strip previous thinking blocks, the previous thinking tokens no longer count toward the context window. All other previous blocks still count toward the context window, as does the thinking block in the current assistant turn."
+            },
+            {
+              "blockIndex": 40,
+              "text": "Input components: All inputs and the output from the previous turn are carried forward. The thinking block from the completed tool use cycle no longer has to stay in context: on models that strip previous thinking blocks, the API drops it automatically when you pass it back, and on models that keep previous thinking blocks, it stays unless you clear it with thinking block clearing. This is also where you add the next user turn."
+            },
+            {
+              "blockIndex": 42,
+              "text": "Token calculation: On models that strip previous thinking blocks, the previous thinking tokens no longer count toward the context window. All other previous blocks still count toward the context window, as does the thinking block in the current assistant turn."
+            },
+            {
+              "blockIndex": 48,
+              "text": "Claude Sonnet 5, Claude Sonnet 4.6, Claude Sonnet 4.5, and Claude Haiku 4.5 have context awareness: these models track their remaining context window (their \"token budget\") throughout a conversation. This lets the model manage long-running tasks against the space that remains rather than guess how many tokens are left. Context awareness is automatic: there is nothing for you to enable, and you never send the tags shown in this section yourself. The API injects them."
+            },
+            {
+              "blockIndex": 50,
+              "text": "In the system prompt of every request, the API gives Claude its total context window:"
+            },
+            {
+              "blockIndex": 52,
+              "text": "The budget matches the context window available to your request: 1M tokens for Claude Sonnet 5 and Claude Sonnet 4.6, and 200k tokens for Claude Sonnet 4.5 and Claude Haiku 4.5. The examples in this section show a model with a 200k-token context window."
+            },
+            {
+              "blockIndex": 59,
+              "text": "If your conversations regularly approach context window limits, use server-side compaction. Compaction automatically summarizes earlier parts of the conversation on the server, so the conversation can continue past the context window limit. It is available in beta for Claude 4.6 and later models and Claude Mythos Preview."
+            },
+            {
+              "blockIndex": 63,
+              "text": "Cached prompt prefixes still occupy the context window: prompt caching changes what you pay for those tokens, not whether they count."
+            },
+            {
+              "blockIndex": 64,
+              "text": "Context window overflow behavior"
+            },
+            {
+              "blockIndex": 65,
+              "text": "If the input alone already exceeds the model's context window, the API returns a 400 invalid_request_error (\"prompt is too long\") on every model."
+            },
+            {
+              "blockIndex": 66,
+              "text": "On Claude 4.5 models and newer, if input tokens plus max_tokens exceeds the context window size, the API accepts the request. If generation then reaches the context window limit, it stops with stop_reason: \"model_context_window_exceeded\". On earlier models, the API returns a validation error instead. To opt in to the model_context_window_exceeded behavior on those models, use the model-context-window-exceeded-2025-08-26 beta header. See Stop reasons and fallback for details."
+            },
+            {
+              "blockIndex": 67,
+              "text": "To stay within context window limits, use the token counting API to estimate token usage before sending messages to Claude."
+            },
+            {
+              "blockIndex": 69,
+              "text": "Server-side context compaction for managing long conversations that approach context window limits."
+            },
+            {
+              "blockIndex": 71,
+              "text": "See the model comparison table for a list of context window sizes and input/output token pricing by model."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ibm.com/think/topics/context-window",
+          "tieuDe": "What is a context window? | IBM",
+          "tacGia": "Dave Bergmann",
+          "ngayDang": "2024-11-26",
+          "ngayLayVe": "2026-09-17T12:01:08.503Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Official IBM page with named author and recent publication",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model",
+          "tieuDe": "How in-context learning improves large language models - IBM Research",
+          "toChuc": "IBM Research",
+          "ngayDang": "2024-07-25T13:30:00.000Z",
+          "ngayLayVe": "2026-09-17T12:01:08.504Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Research blog from IBM Research without specified author",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+          "tieuDe": "Context windows - Claude Platform Docs",
+          "toChuc": "Claude Platform Docs",
+          "ngayLayVe": "2026-09-17T12:01:08.505Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Official product documentation, no author or date",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không có ngày đăng, nguồn quá một năm",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "As token count grows, accuracy and recall degrade, a phenomenon known as context rot.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Cửa sổ ngữ cảnh là bộ nhớ làm việc của mô hình, giới hạn số token mà mô hình có thể “nhớ” trong một lượt xử lý.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+              "viTri": "para1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn cải thiện chất lượng dự đoán; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.",
+              "viTri": "para1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Khi số token trong cửa sổ ngữ cảnh tăng, độ chính xác và khả năng nhớ giảm (hiện tượng “context rot”).",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "As token count grows, accuracy and recall degrade, a phenomenon known as context rot.",
+              "viTri": "para1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.ibm.com/think/topics/context-window\",\"tieuDe\":\"What is a context window? | IBM\",\"tacGia\":\"Dave Bergmann\",\"toChuc\":\"IBM\",\"ngayDang\":\"2024-11-26\",\"ngayLayVe\":\"2026-09-17T12:01:08.503Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Official IBM page with named author and recent publication\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Nguồn quá một năm\"],\"doanTrich\":\"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"},{\"id\":\"n02\",\"url\":\"https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model\",\"tieuDe\":\"How in-context learning improves large language models - IBM Research\",\"tacGia\":\"Không rõ\",\"toChuc\":\"IBM Research\",\"ngayDang\":\"2024-07-25\",\"ngayLayVe\":\"2026-09-17T12:01:08.504Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Research blog from IBM Research without specified author\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Nguồn quá một năm\"],\"doanTrich\":\"A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.\"},{\"id\":\"n03\",\"url\":\"https://platform.claude.com/docs/en/build-with-claude/context-windows\",\"tieuDe\":\"Context windows - Claude Platform Docs\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Claude Platform Docs\",\"ngayDang\":null,\"ngayLayVe\":\"2026-09-17T12:01:08.505Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Official product documentation, no author or date\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Không có ngày đăng, nguồn quá một năm\"],\"doanTrich\":\"As token count grows, accuracy and recall degrade, a phenomenon known as context rot.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Cửa sổ ngữ cảnh là bộ nhớ làm việc của mô hình, giới hạn số token mà mô hình có thể “nhớ” trong một lượt xử lý.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t02\",\"noiDung\":\"Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn cải thiện chất lượng dự đoán; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.\",\"loai\":\"luan-diem\",\"bangChung\":[{\"nguonId\":\"n02\",\"doanTrich\":\"A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t03\",\"noiDung\":\"Khi số token trong cửa sổ ngữ cảnh tăng, độ chính xác và khả năng nhớ giảm (hiện tượng “context rot”).\",\"loai\":\"luan-diem\",\"bangChung\":[{\"nguonId\":\"n03\",\"doanTrich\":\"As token count grows, accuracy and recall degrade, a phenomenon known as context rot.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-093eee5d-9624-4f71-b276-15b9285545b0",
+          "durationMs": 4903,
+          "rawAiResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.ibm.com/think/topics/context-window\",\"tieuDe\":\"What is a context window? | IBM\",\"tacGia\":\"Dave Bergmann\",\"toChuc\":\"IBM\",\"ngayDang\":\"2024-11-26\",\"ngayLayVe\":\"2026-09-17T12:01:08.503Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Official IBM site with named author and recent date\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Nguồn quá một năm\"],\"doanTrich\":\"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"},{\"id\":\"n02\",\"url\":\"httpshttps://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model\",\"tieuDe\":\"How in-context learning improves large language models - IBM Research\",\"tacGia\":\"Không rõ\",\"toChuc\":\"IBM Research\",\"ngayDang\":\"2024-07-25\",\"ngayLayVe\":\"2026-09-17T12:01:08.504Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Research blog from IBM Research, author not specified\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Nguồn quá một năm\"],\"doanTrich\":\"A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.\"},{\"id\":\"n03\",\"url\":\"https://platform.claude.com/docs/en/build-with-claude/context-windows\",\"tieuDe\":\"Context windows - Claude Platform Docs\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Claude Platform Docs\",\"ngayDang\":\"Không rõ\",\"ngayLayVe\":\"2026-09-17T12:01:08.505Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Official product documentation, but no author or date\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Không có ngày đăng, nguồn quá một năm\"],\"doanTrich\":\"As token count grows, accuracy and recall degrade, a phenomenon known as context rot.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Cửa sổ ngữ cảnh là bộ nhớ làm việc của mô hình, giới hạn số token mà mô hình có thể “nhớ” trong một lượt xử lý.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t02\",\"noiDung\":\"Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn cải thiện chất lượng dự đoán; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.\",\"loai\":\"luan-diem\",\"bangChung\":[{\"nguonId\":\"n02\",\"doanTrich\":\"A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t03\",\"noiDung\":\"Khi số token trong cửa sổ ngữ cảnh tăng, độ chính xác và khả năng nhớ giảm (hiện tượng “context rot”).\",\"loai\":\"luan-diem\",\"bangChung\":[{\"nguonId\":\"n03\",\"doanTrich\":\"As token count grows, accuracy and recall degrade, a phenomenon known as context rot.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}",
+          "validationError": "nguon[1].url không thuộc trang đã đọc"
+        },
+        {
+          "stage": "repair",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-b79225c4-793d-44e8-a5c6-182016e60f7b",
+          "durationMs": 6825,
+          "rawAiResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.ibm.com/think/topics/context-window\",\"tieuDe\":\"What is a context window? | IBM\",\"tacGia\":\"Dave Bergmann\",\"toChuc\":\"IBM\",\"ngayDang\":\"2024-11-26\",\"ngayLayVe\":\"2026-09-17T12:01:08.503Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Official IBM page with named author and recent publication\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Nguồn quá một năm\"],\"doanTrich\":\"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"},{\"id\":\"n02\",\"url\":\"https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model\",\"tieuDe\":\"How in-context learning improves large language models - IBM Research\",\"tacGia\":\"Không rõ\",\"toChuc\":\"IBM Research\",\"ngayDang\":\"2024-07-25\",\"ngayLayVe\":\"2026-09-17T12:01:08.504Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Research blog from IBM Research without specified author\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Nguồn quá một năm\"],\"doanTrich\":\"A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.\"},{\"id\":\"n03\",\"url\":\"https://platform.claude.com/docs/en/build-with-claude/context-windows\",\"tieuDe\":\"Context windows - Claude Platform Docs\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Claude Platform Docs\",\"ngayDang\":null,\"ngayLayVe\":\"2026-09-17T12:01:08.505Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Official product documentation, no author or date\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[\"Không có ngày đăng, nguồn quá một năm\"],\"doanTrich\":\"As token count grows, accuracy and recall degrade, a phenomenon known as context rot.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Cửa sổ ngữ cảnh là bộ nhớ làm việc của mô hình, giới hạn số token mà mô hình có thể “nhớ” trong một lượt xử lý.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t02\",\"noiDung\":\"Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn cải thiện chất lượng dự đoán; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.\",\"loai\":\"luan-diem\",\"bangChung\":[{\"nguonId\":\"n02\",\"doanTrich\":\"A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t03\",\"noiDung\":\"Khi số token trong cửa sổ ngữ cảnh tăng, độ chính xác và khả năng nhớ giảm (hiện tượng “context rot”).\",\"loai\":\"luan-diem\",\"bangChung\":[{\"nguonId\":\"n03\",\"doanTrich\":\"As token count grows, accuracy and recall degrade, a phenomenon known as context rot.\",\"viTri\":\"para1\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 111418
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+      "thoiLuong": "bốn phút",
+      "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.",
+          "chuTrenManHinh": "Giới thiệu chủ đề",
+          "yDoHinh": "Hình minh hoạ một chatbot đang trò chuyện với người dùng, với một phần văn bản phía trên mờ dần.",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.",
+          "chuTrenManHinh": "Cửa sổ ngữ cảnh là gì",
+          "yDoHinh": "Biểu đồ hộp hiển thị giới hạn số token mà mô hình có thể xử lý đồng thời.",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.",
+          "chuTrenManHinh": "Hiện tượng context rot",
+          "yDoHinh": "Đồ thị đường biểu diễn độ chính xác giảm dần khi số token tăng.",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+          "chuTrenManHinh": "Không phải nhiều hơn tốt hơn",
+          "yDoHinh": "So sánh hai khung ngữ cảnh, một có nhiều ví dụ nhưng kém liên quan, một có ít nhưng chất lượng cao.",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.",
+          "chuTrenManHinh": "Kết luận",
+          "yDoHinh": "Mô hình với một thanh tiến trình, phần đầu của cuộc trò chuyện biến mất khỏi khung.",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789646594207",
+      "timestamp": "2026-09-17T12:03:14.207Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút",
+        "evalRunId": "2026-09-17T12-00-41-161Z",
+        "evalCaseId": "N01"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ibm.com/think/topics/context-window",
+          "tieuDe": "What is a context window? | IBM",
+          "tacGia": "Dave Bergmann",
+          "ngayDang": "2024-11-26",
+          "ngayLayVe": "2026-09-17T12:01:08.503Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Official IBM page with named author and recent publication",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model",
+          "tieuDe": "How in-context learning improves large language models - IBM Research",
+          "toChuc": "IBM Research",
+          "ngayDang": "2024-07-25T13:30:00.000Z",
+          "ngayLayVe": "2026-09-17T12:01:08.504Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Research blog from IBM Research without specified author",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+          "tieuDe": "Context windows - Claude Platform Docs",
+          "toChuc": "Claude Platform Docs",
+          "ngayLayVe": "2026-09-17T12:01:08.505Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Official product documentation, no author or date",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không có ngày đăng, nguồn quá một năm",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "As token count grows, accuracy and recall degrade, a phenomenon known as context rot.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Cửa sổ ngữ cảnh là bộ nhớ làm việc của mô hình, giới hạn số token mà mô hình có thể “nhớ” trong một lượt xử lý.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+              "viTri": "para1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn cải thiện chất lượng dự đoán; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.",
+              "viTri": "para1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Khi số token trong cửa sổ ngữ cảnh tăng, độ chính xác và khả năng nhớ giảm (hiện tượng “context rot”).",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "As token count grows, accuracy and recall degrade, a phenomenon known as context rot.",
+              "viTri": "para1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "thoiLuong": "bốn phút",
+        "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.",
+            "chuTrenManHinh": "Giới thiệu chủ đề",
+            "yDoHinh": "Hình minh hoạ một chatbot đang trò chuyện với người dùng, với một phần văn bản phía trên mờ dần.",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.",
+            "chuTrenManHinh": "Cửa sổ ngữ cảnh là gì",
+            "yDoHinh": "Biểu đồ hộp hiển thị giới hạn số token mà mô hình có thể xử lý đồng thời.",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.",
+            "chuTrenManHinh": "Hiện tượng context rot",
+            "yDoHinh": "Đồ thị đường biểu diễn độ chính xác giảm dần khi số token tăng.",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+            "chuTrenManHinh": "Không phải nhiều hơn tốt hơn",
+            "yDoHinh": "So sánh hai khung ngữ cảnh, một có nhiều ví dụ nhưng kém liên quan, một có ít nhưng chất lượng cao.",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.",
+            "chuTrenManHinh": "Kết luận",
+            "yDoHinh": "Mô hình với một thanh tiến trình, phần đầu của cuộc trò chuyện biến mất khỏi khung.",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] As token count grows, accuracy and recall degrade, a phenomenon known as context rot."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.\",\n      \"chuTrenManHinh\":\"Giới thiệu chủ đề\",\n      \"yDoHinh\":\"Hình minh hoạ một chatbot đang trò chuyện với người dùng, với một phần văn bản phía trên mờ dần.\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.\",\n      \"chuTrenManHinh\":\"Cửa sổ ngữ cảnh là gì\",\n      \"yDoHinh\":\"Biểu đồ hộp hiển thị giới hạn số token mà mô hình có thể xử lý đồng thời.\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.\",\n      \"chuTrenManHinh\":\"Hiện tượng context rot\",\n      \"yDoHinh\":\"Đồ thị đường biểu diễn độ chính xác giảm dần khi số token tăng.\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.\",\n      \"chuTrenManHinh\":\"Không phải nhiều hơn tốt hơn\",\n      \"yDoHinh\":\"So sánh hai khung ngữ cảnh, một có nhiều ví dụ nhưng kém liên quan, một có ít nhưng chất lượng cao.\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.\",\n      \"chuTrenManHinh\":\"Kết luận\",\n      \"yDoHinh\":\"Mô hình với một thanh tiến trình, phần đầu của cuộc trò chuyện biến mất khỏi khung.\",\n      \"nguon\":[]\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-df9f493d-400c-4f53-8ce1-8e90607b143f",
+          "durationMs": 6171,
+          "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.\",\n      \"chuTrenManHinh\":\"Giới thiệu chủ đề\",\n      \"yDoHinh\":\"Hình minh hoạ một chatbot đang trò chuyện với người dùng, với một phần văn bản phía trên mờ dần.\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.\",\n      \"chuTrenManHinh\":\"Cửa sổ ngữ cảnh là gì\",\n      \"yDoHinh\":\"Biểu đồ hộp hiển thị giới hạn số token mà mô hình có thể xử lý đồng thời.\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.\",\n      \"chuTrenManHinh\":\"Hiện tượng context rot\",\n      \"yDoHinh\":\"Đồ thị đường biểu diễn độ chính xác giảm dần khi số token tăng.\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.\",\n      \"chuTrenManHinh\":\"Không phải nhiều hơn tốt hơn\",\n      \"yDoHinh\":\"So sánh hai khung ngữ cảnh, một có nhiều ví dụ nhưng kém liên quan, một có ít nhưng chất lượng cao.\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.\",\n      \"chuTrenManHinh\":\"Kết luận\",\n      \"yDoHinh\":\"Mô hình với một thanh tiến trình, phần đầu của cuộc trò chuyện biến mất khỏi khung.\",\n      \"nguon\":[]\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 41187
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

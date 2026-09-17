@@ -1,0 +1,1078 @@
+{
+  "case": {
+    "id": "N03",
+    "class": "thuong",
+    "input": {
+      "topic": "Cách một mô hình học từ ví dụ",
+      "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+      "targetAudience": "Học sinh cấp ba",
+      "videoDuration": "3 phút"
+    },
+    "expectedBehavior": "Giải thích supervised learning bằng ví dụ đơn giản. Thuật ngữ Anh kèm nghĩa Việt.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #4; không phải chatlog",
+    "passCriteria": "Thuật ngữ Anh kèm nghĩa Việt trước; ví dụ cụ thể; ≥2 nguồn",
+    "failCriteria": "Thuật ngữ Anh không giải thích; viết quá học thuật cho cấp ba"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://work.caltech.edu/telecourse",
+        "tieuDe": "Learning From Data - Online Course (MOOC)",
+        "ngayLayVe": "2026-09-17T12:15:04.940Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Đây là trang chính thức của khóa học Machine Learning nổi tiếng do Giáo sư Yaser Abu-Mostafa tại Caltech giảng dạy. Nội dung mang tính học thuật cao, mô tả rõ ràng các khái niệm cốt lõi của việc học từ dữ liệu (learning from data) và sự khác biệt giữa lý thuyết và thực hành.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn là khóa học trực tuyến, không phải bài báo khoa học peer-reviewed, nhưng độ tin cậy về mặt khái niệm rất cao do xuất xứ từ Caltech.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+        "tieuDe": "Choosing between a rule-based vs. machine learning system | TechTarget",
+        "toChuc": "AI & Emerging Tech",
+        "ngayLayVe": "2026-09-17T12:15:06.954Z",
+        "loai": "bao-chi",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "TechTarget là một nguồn tin công nghệ uy tín, cung cấp thông tin thực tế về sự khác biệt giữa hệ thống dựa trên quy tắc và học máy. Tuy nhiên, đây là bài viết hướng dẫn thực hành (tip) hơn là tài liệu học thuật chuyên sâu, và ngày đăng không rõ ràng.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Ngày đăng không rõ, cần kiểm tra thêm nếu cần số liệu thời gian cụ thể.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+        "tieuDe": "Rule Based System Vs Machine Learning System - GeeksforGeeks",
+        "ngayLayVe": "2026-09-17T12:15:04.400Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "toChuc": "GeeksforGeeks",
+        "ngayDang": "2023-12-14 17:40:44+00:00",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ]
+      },
+      {
+        "id": "n04",
+        "url": "https://www.youtube.com/playlist?list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08",
+        "tieuDe": "Learning from Data - Yaser Abu Mostafa - Caltech - YouTube",
+        "ngayLayVe": "2026-09-17T12:15:04.401Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "toChuc": "YouTube",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n05",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+        "tieuDe": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+        "ngayLayVe": "2026-09-17T12:15:04.403Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+        "tieuDe": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+        "ngayLayVe": "2026-09-17T12:15:04.942Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n07",
+        "url": "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+        "tieuDe": "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+        "ngayLayVe": "2026-09-17T12:15:04.943Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Content-Type không phải HTML: application/pdf",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n08",
+        "url": "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296",
+        "tieuDe": "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296",
+        "ngayLayVe": "2026-09-17T12:15:06.956Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "timeout",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Học máy (Machine Learning) là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.",
+            "viTri": "Đoạn mô tả tổng quan về Machine Learning trong phần giới thiệu khóa học."
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Không có mâu thuẫn, nhưng chỉ có một nguồn chính xác định rõ cơ chế 'tích lũy kinh nghiệm từ dữ liệu' trong ngữ cảnh học thuật."
+      },
+      {
+        "id": "t02",
+        "noiDung": "Hệ thống dựa trên quy tắc (Rule-based systems) sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.",
+            "viTri": "Phần đầu bài viết, định nghĩa về hệ thống dựa trên quy tắc."
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Không có mâu thuẫn. Nguồn n01 tập trung vào ML nên không định nghĩa rõ hệ thống rule-based, nhưng n02 cung cấp định nghĩa rõ ràng cho mục tiêu phân biệt."
+      },
+      {
+        "id": "t03",
+        "noiDung": "Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction.",
+            "viTri": "Phần 'Choosing between rule-based vs. machine learning systems'."
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Không có mâu thuẫn. Đây là điểm mấu chốt để đạt mục tiêu bài học: phân biệt 'làm theo quy tắc viết sẵn' và 'học từ dữ liệu'."
+      }
+    ],
+    "searchQueries": [
+      "machine learning vs rule-based",
+      "learning from data examples"
+    ],
+    "pagesRead": 8,
+    "pagesOk": 2,
+    "trace": {
+      "id": "trace-research-1789647332674",
+      "timestamp": "2026-09-17T12:15:32.674Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cách một mô hình học từ ví dụ",
+        "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "targetAudience": "Học sinh cấp ba",
+        "videoDuration": "3 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T12-12-13-353Z",
+        "evalCaseId": "N03"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Rule Based System Vs Machine Learning System",
+              "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+              "snippet": "Choosing between a rule-based system and a machine learning system involves considering the nature of the problem and the available data. Rule- ...",
+              "position": 1
+            },
+            {
+              "title": "Machine learning vs. rule-based methods for document ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+              "snippet": "viết bởi E Rijcken · 2025 · Trích dẫn 30 bài viết — Unlike RB methods, which require extensive manual effort to define and maintain rules, ML models learn directly from data. This makes them more efficient and ...",
+              "position": 2
+            },
+            {
+              "title": "Rule-based AI vs machine learning: How we choose the ...",
+              "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+              "snippet": "Contrasting Approaches: Rule-based AI operates on predefined rules, while machine learning evolves its rules from data analysis.",
+              "position": 3
+            },
+            {
+              "title": "Choosing between a rule-based vs. machine learning system",
+              "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+              "snippet": "Machine learning can handle complex and intensive issues in relatively variable environments, whereas rule-based AI systems are easier to ...",
+              "position": 4
+            },
+            {
+              "title": "Rule-based machine learning",
+              "url": "https://en.wikipedia.org/wiki/Rule-based_machine_learning",
+              "snippet": "While rule-based machine learning is conceptually a type of rule-based system, it is distinct from traditional rule-based systems, which are often hand-crafted, ...",
+              "position": 5
+            }
+          ],
+          "query": "machine learning vs rule-based",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Learning from Data - Yaser Abu Mostafa - Caltech",
+              "url": "https://www.youtube.com/playlist?list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08",
+              "snippet": "Learning from Data - Yaser Abu Mostafa - Caltech · Lecture 01 - The Learning Problem · Lecture 02 - Is Learning Feasible? · Lecture 03 -The Linear Model I · Lecture ...",
+              "position": 1
+            },
+            {
+              "title": "Learning From Data - Online Course (MOOC)",
+              "url": "https://work.caltech.edu/telecourse",
+              "snippet": "This is an introductory course in machine learning (ML) that covers the basic theory, algorithms, and applications. ML is a key technology in Big Data, and in ...",
+              "position": 2
+            },
+            {
+              "title": "Abu-Mostafa Yaser S., Malik Magdon-Ismail, Hsuan-Tien ...",
+              "url": "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+              "snippet": "In this chapter, we present examples of learning from data and formalize the learning problem. We also discuss the main concepts associated with learning ...",
+              "position": 3
+            },
+            {
+              "title": "How machine learning enables machines to learn from data",
+              "url": "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296",
+              "snippet": "Learning paradigms · Supervised Learning: Algorithms are trained using labeled data, meaning each learning example includes its answer.",
+              "position": 4
+            },
+            {
+              "title": "(PDF) 7 Learning from data",
+              "url": "https://www.researchgate.net/publication/382532184_7_Learning_from_data",
+              "snippet": "detectors are learned from data in a supervised manner: we provide examples of nor-. mal and anomalous cases, and the algorithm needs to learn from this a ...",
+              "position": 5
+            }
+          ],
+          "query": "learning from data examples",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+          "https://www.youtube.com/playlist?list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08",
+          "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "https://work.caltech.edu/telecourse",
+          "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+          "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296"
+        ],
+        "pagesRead": [
+          "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+          "https://www.youtube.com/playlist?list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08",
+          "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "https://work.caltech.edu/telecourse",
+          "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+          "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp",
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:15:04.400Z",
+          "title": "Rule Based System Vs Machine Learning System - GeeksforGeeks",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": ""
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08",
+          "content": "Learning from Data - Yaser Abu Mostafa - Caltech - YouTube",
+          "fetchedAt": "2026-09-17T12:15:04.401Z",
+          "title": "Learning from Data - Yaser Abu Mostafa - Caltech - YouTube",
+          "status": "blocked",
+          "contentLength": 58,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Learning from Data - Yaser Abu Mostafa - Caltech - YouTube"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:15:04.403Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://work.caltech.edu/telecourse",
+          "content": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> Learning From Data - Online Course (MOOC) Machine Learning course - recorded at a live broadcast from Caltech H I G H L I G H T S A real Caltech course, not a watered-down version 8 Million Views on YouTube & other servers Article about the course in Free, introductory Machine Learning online course (MOOC) Taught by Caltech Professor Yaser Abu-Mostafa [article] Lectures recorded from a live broadcast, including Q&A Prerequisites: Basic probability, matrices, and calculus 8 homework sets and a final exam Topic-by-topic video library for easy review Take the course at your own pace Lectures -- Homework Outline This is an introductory course in machine learning (ML) that covers the basic theory, algorithms, and applications. ML is a key technology in Big Data, and in many financial, medical, commercial, and scientific applications. It enables computational systems to adaptively improve their performance with experience accumulated from the observed data. ML has become one of the hottest fields of study today, taken up by undergraduate and graduate students from more than 20 different majors at Caltech. This course balances theory and practice, and covers the mathematical as well as the heuristic aspects. The lectures below follow each other in a story-like fashion: What is learning? Can a machine learn? How to do it? How to do it well? Take-home lessons. The 18 lectures are about 60 minutes each plus Q&A. The content of each lecture is color coded: theory; mathematical technique; practical analysis; conceptual Place the mouse on a lecture title for a short description Lecture 1: The Learning Problem Lecture 2: Is Learning Feasible? Lecture 3: The Linear Model I Lecture 4: Error and Noise Lecture 5: Training versus Testing Lecture 6: Theory of Generalization Lecture 7: The VC Dimension Lecture 8: Bias-Variance Tradeoff Lecture 9: The Linear Model II Lecture 10: Neural Networks Lecture 11: Overfitting Lecture 12: Regularization Lecture 13: Validation Lecture 14: Support Vector Machines Lecture 15: Kernel Methods Lecture 16: Radial Basis Functions Lecture 17: Three Learning Principles Lecture 18: Epilogue The Learning Problem - Introduction; supervised, unsupervised, and reinforcement learning. Components of the learning problem. Is Learning Feasible? - Can we generalize from a limited sample to the entire space? Relationship between in-sample and out-of-sample. The Linear Model I - Linear classification and linear regression. Extending linear models through nonlinear transforms. Error and Noise - The principled choice of error measures. What happens when the target we want to learn is noisy. Training versus Testing - The difference between training and testing in mathematical terms. What makes a learning model able to generalize? Theory of Generalization - How an infinite model can learn from a finite sample. The most important theoretical result in machine learning. The VC Dimension - A measure of what it takes a model to learn. Relationship to the number of parameters and degrees of freedom. Bias-Variance Tradeoff - Breaking down the learning performance into competing quantities. The learning curves. The Linear Model II - More about linear models. Logistic regression, maximum likelihood, and gradient descent. Neural Networks - A biologically inspired model. The efficient backpropagation learning algorithm. Hidden layers. Overfitting - Fitting the data too well; fitting the noise. Deterministic noise versus stochastic noise. Regularization - Putting the brakes on fitting the noise. Hard and soft constraints. Augmented error and weight decay. Validation - Taking a peek out of sample. Model selection and data contamination. Cross validation. Support Vector Machines - One of the most successful learning algorithms; getting a complex model at the price of a simple one. Kernel Methods - Extending SVM to infinite-dimensional spaces using the kernel trick, and to non-separable data using soft margins. Radial Basis Functions - An important learning model that connects several machine learning models and techniques. Three Learning Principles - Major pitfalls for machine learning practitioners; Occam's razor, sampling bias, and data snooping. Epilogue - The map of machine learning. Brief views of Bayesian learning and aggregation methods. You can also look for a particular topic within the lectures in the Machine Learning Video Library. Live Lectures This course was broadcast live from the lecture hall at Caltech in April and May 2012. There was no 'Take 2' for the recorded videos. The lectures included live Q&A sessions with online audience participation. [Home] The lectures Homework Textbook Video Segments The instructor Contact terms and conditions 2023Watson Lecture California Institute of Technology. All rights reserved.",
+          "fetchedAt": "2026-09-17T12:15:04.940Z",
+          "title": "Learning From Data - Online Course (MOOC)",
+          "status": "ok",
+          "contentLength": 4924,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> Learning From Data - Online Course (MOOC) Machine Learning course - recorded at a live broadcast from Caltech H I G H L I G H T S A real Caltech course, not a watered-down version 8 Million Views on YouTube & other servers Article about the course in Free, introductory Machine Learning online course (MOOC) Taught by Caltech Professor Yaser Abu-Mostafa [article] Lectures recorded from a live broadcast, including Q&A Prerequisites: Basic probability, matrices, and calculus 8 homework sets and a final exam Topic-by-topic video library for easy review Take the course at your own pace Lectures -- Homework Outline This is an introductory course in machine learning (ML) that covers the basic theory, algorithms, and applications. ML is a key technology in Big Data, and in many financial, medical, commercial, and scientific applications. It enables computational systems to adaptively improve their performance with experience accumulated from the observed data. ML has become one of the hottest fields of study today, taken up by undergraduate and graduate students from more than 20 different majors at Caltech. This course balances theory and practice, and covers the mathematical as well as the heuristic aspects. The lectures below follow each other in a story-like fashion: What is learning? Can a machine learn? How to do it? How to do it well? Take-home lessons. The 18 lectures are about 60 minutes each plus Q&A. The content of each lecture is color coded: theory; mathematical technique; practical analysis; conceptual Place the mouse on a lecture title for a short description Lecture 1: The Learning Problem Lecture 2: Is Learning Feasible? Lecture 3: The Linear Model I Lecture 4: Error and Noise Lecture 5: Training versus Testing Lecture 6: Theory of Generalization Lecture 7: The VC Dimension Lecture 8: Bias-Variance Tradeoff Lecture 9: The Linear Model II Lecture 10: Neural Networks Lecture 11: Overfitting Lecture 12: Regularization Lecture 13: Validation Lecture 14: Support Vector Machines Lecture 15: Kernel Methods Lecture 16: Radial Basis Functions Lecture 17: Three Learning Principles Lecture 18: Epilogue The Learning Problem - Introduction; supervised, unsupervised, and reinforcement learning. Components of the learning problem. Is Learning Feasible? - Can we generalize from a limited sample to the entire space? Relationship between in-sample and out-of-sample. The Linear Model I - Linear classification and linear regression. Extending linear models through nonlinear transforms. Error and Noise - The principled choice of error measures. What happens when the target we want to learn is noisy. Training versus Testing - The difference between training and testing in mathematical terms. What makes a learning model able to generalize? Theory of Generalization - How an infinite model can learn from a finite sample. The most important theoretical result in machine learning. The VC Dimension - A measure of what it takes a model to learn. Relationship to the number of parameters and degrees of freedom. Bias-Variance Tradeoff - Breaking down the learning performance into competing quantities. The learning curves. The Linear Model II - More about linear models. Logistic regression, maximum likelihood, and gradient descent. Neural Networks - A biologically inspired model. The efficient backpropagation learning algorithm. Hidden layers. Overfitting - Fitting the data too well; fitting the noise. Deterministic noise versus stochastic noise. Regularization - Putting the brakes on fitting the noise. Hard and soft constraints. Augmented error and weight decay. Validation - Taking a peek out of sample. Model selection and data contamination. Cross validation. Support Vector Machines - One of the most successful learning algorithms; getting a complex model at the price of a simple one. Kernel Methods - Extending SVM to infinite-dimensional spaces using the kernel trick, and to non-separable data using soft margins. Radial Basis Functions - An important learning model that connects several machine learning models and techniques. Three Learning Principles - Major pitfalls for machine learning practitioners; Occam's razor, sampling bias, and data snooping. Epilogue - The map of machine learning. Brief views of Bayesian learning and aggregation methods. You can also look for a particular topic within the lectures in the Machine Learning Video Library. Live Lectures This course was broadcast live from the lecture hall at Caltech in April and May 2012. There was no 'Take 2' for the recorded videos. The lectures included live Q&A sessions with online audience participation. [Home] The lectures Homework Textbook Video Segments The instructor Contact terms and conditions 2023Watson Lecture California Institute of Technology. All rights reserved."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:15:04.942Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:15:04.943Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "content": "Machine learning is a branch of AI focused on building computer systems that learn from data. TechTarget's guide to machine learning serves as a primer on this important field, explaining what machine learning is, how to implement it and its business applications. You'll find information on the various types of ML algorithms, challenges and best practices associated with developing and deploying ML models, and what the future holds for machine learning. Throughout the guide, there are hyperlinks to related articles that cover these topics in greater depth.\n\nWhen implementing AI systems, choosing between a rule-based vs. machine learning architecture is critical to an application's usability, compatibility and efficiency.\n\nGetting output from a rule-based AI system can be simple and nearly immediate, but machine learning systems can handle more complex tasks with greater adaptability. Enterprises should understand the core differences between rule-based and machine learning systems, including their benefits and limitations, before taking advantage of either.\n\nRule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems. Developers create rules based on human expert knowledge, which then enable the system to process input data and produce a result.\n\nWhat is machine learning? Guide, definition and examples\n\nEase of use. Rule-based systems require only small amounts of simple data to perform tasks and repetitive processes. This makes them easy for developers to create, use and debug.\n\nLimited scope. Rule-based systems are exact and do not have learning capabilities, which limits them to working only within the confines of their original programming. Including too many rules can slow down a system and introduce complexity.\n\nMachine learning is a type of AI that enables applications to predict outcomes without being explicitly programmed to do so. Machine learning algorithms independently detect and analyze data patterns and modify their behavior accordingly to produce new output.\n\nTo create a machine learning system, developers select an appropriate AI model and present it with a large data set. The chosen algorithm analyzes the data set and determines relationships within that data.\n\nThe logic within machine learning systems is embedded in the algorithm, not coded by a human. As the name suggests, a machine learning model autonomously \"learns\" from its training data, creating a direct relationship between data inferences and future data outputs.\n\nAdaptability. Machine learning systems adjust without human intervention as new data is presented to make informed decisions and predictions through continuous learning. This makes them well suited to addressing dynamic problems in fast-changing environments.\n\nSelf-learning. Machine learning systems adapt in response to the patterns and relationships in their input data, enabling models to define their own rules that take into account a wide range of variables. This capability makes machine learning a good choice for tackling complex processes that include multiple factors, rules and patterns that change over time.\n\nScalability. As projects and environments grow, machine learning systems can scale and adapt accordingly with new data, infrastructure resources and algorithms. For example, an organization could upgrade a simple classifier to a neural network by expanding its training data set and underlying infrastructure.\n\nDependence on quality of training data. Because data quality directly affects model quality, machine learning systems must be thoroughly trained on historical and\n\nComplexity. Although machine learning systems can handle larger, more complex tasks and environments than rule-based systems, they also require greater technical expertise from teams to develop effective applications. Tasks such as writing machine learning algorithms, identifying useful data and monitoring models in production warrant a data science team and require properly trained employees.\n\nChoosing between rule-based vs. machine learning systems\n\nRule-based AI and machine learning differ in both the type of logic they use to operate and the level of human intervention they require. For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction.\n\nGiven these differences in learning methods, the question of whether to use a rule-based or machine learning system comes down to organizational needs. Different types of AI can take different types of actions and produce different analyses or insights.\n\nApplying machine learning and rule-based systems\n\nThe choice between a rule-based vs. machine learning system depends on how strict parameters must be, requirements around efficiency and training costs, and whether a data science team or an algorithm will create the rules.\n\nMachine learning can handle complex and intensive issues in relatively variable environments, whereas rule-based AI systems are easier to interpret and promote precision. In addition, the adaptability and speed of machine learning systems comes at a cost. There is an advanced level of commitment with machine learning, as algorithms require large amounts of data to be effective.\n\nMachine learning systems are often viewed as unequivocally better than rule-based AI, as they are capable of more complex analysis and can continuously learn from and adapt to changing data. Machine learning capabilities such as predictive analytics, anomaly detection and computer vision can achieve more comprehensive and nuanced results compared with rule-based systems. Consequently, if a business can support the cost and time required to build a machine learning model, doing so will often be the better choice.\n\nHowever, rule-based systems still have a time and place. For one, they can be helpful for more rudimentary use cases, and they are often more cost-effective compared with machine learning. They also have a much narrower window for error than machine learning systems. Rule-based systems can thus prove more successful in scenarios with clear-cut rules where accuracy and speed are paramount -- for instance, simple medical diagnostics or online grading systems.\n\nThough rule-based systems are typically not complex by nature, adding more rules and mitigating factors can introduce contradictions and overlap. While machine learning systems can account for greater complexity, it can come at the cost of accuracy. Consider, for example, the following real-world use cases and the variety of limitations they can present depending on what type of system is used.\n\nTurning to machine learning models makes sense when the modifications in a rule-based system become burdensome. Machine learning excels in constantly changing environments, as it is scalable and mutable.\n\nIn a home loan approval system, a machine learning system could use backpropagation for optimization to find the rule for approval as it learns from data. Thus, the model could ultimately arrive at a more nuanced rule that accounts for an applicant's income, credit history and location.\n\nIn the case of e-commerce chatbots, a rule-based system could be sufficient for rudimentary chatbot services. For example, consider a small business that wants to employ a chatbot that can provide preset answers regarding services, hours and products. A rule-based system can be programmed with predetermined answers for customers when specific words are used. Developing such a system would be more cost-effective and less time-consuming than programming a machine learning system.\n\nHowever, customer questions are often complex, and the rules can change based on external circumstances. For more dynamic chatbots, using a machine learning system could create more complex question-answering, overall enhancing the user experience. However, businesses might need to devote more time and funds to the machine learning system and monitor it for issues of inaccuracy or bias.\n\nIf an AI model is attempting to discover new or rare events -- as is the case in fraud protection -- the field from which examples can be harvested will be limited to start. Not having enough labeled data will hinder the model's performance, making banking and fraud protection use cases often best suited for a machine learning system.\n\nFor instance, a machine learning system can evaluate a credit card user's past purchasing tendencies to detect potential fraud. A rule-based system, on the other hand, would struggle to identify nuance in purchasing habits. It might automatically suspend a credit card if certain rules are met, such as when an international purchase is made. Instead, a machine learning system would be able to identify that a given U.S. customer often crosses the Canadian border and thus would not flag purchases made in Canada as suspicious behavior.",
+          "fetchedAt": "2026-09-17T12:15:06.954Z",
+          "title": "Choosing between a rule-based vs. machine learning system | TechTarget",
+          "status": "ok",
+          "contentLength": 15531,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Machine learning is a branch of AI focused on building computer systems that learn from data. TechTarget's guide to machine learning serves as a primer on this important field, explaining what machine learning is, how to implement it and its business applications. You'll find information on the various types of ML algorithms, challenges and best practices associated with developing and deploying ML models, and what the future holds for machine learning. Throughout the guide, there are hyperlinks to related articles that cover these topics in greater depth."
+            },
+            {
+              "blockIndex": 7,
+              "text": "When implementing AI systems, choosing between a rule-based vs. machine learning architecture is critical to an application's usability, compatibility and efficiency."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Getting output from a rule-based AI system can be simple and nearly immediate, but machine learning systems can handle more complex tasks with greater adaptability. Enterprises should understand the core differences between rule-based and machine learning systems, including their benefits and limitations, before taking advantage of either."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems. Developers create rules based on human expert knowledge, which then enable the system to process input data and produce a result."
+            },
+            {
+              "blockIndex": 13,
+              "text": "What is machine learning? Guide, definition and examples"
+            },
+            {
+              "blockIndex": 22,
+              "text": "Ease of use. Rule-based systems require only small amounts of simple data to perform tasks and repetitive processes. This makes them easy for developers to create, use and debug."
+            },
+            {
+              "blockIndex": 25,
+              "text": "Limited scope. Rule-based systems are exact and do not have learning capabilities, which limits them to working only within the confines of their original programming. Including too many rules can slow down a system and introduce complexity."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Machine learning is a type of AI that enables applications to predict outcomes without being explicitly programmed to do so. Machine learning algorithms independently detect and analyze data patterns and modify their behavior accordingly to produce new output."
+            },
+            {
+              "blockIndex": 30,
+              "text": "To create a machine learning system, developers select an appropriate AI model and present it with a large data set. The chosen algorithm analyzes the data set and determines relationships within that data."
+            },
+            {
+              "blockIndex": 31,
+              "text": "The logic within machine learning systems is embedded in the algorithm, not coded by a human. As the name suggests, a machine learning model autonomously \"learns\" from its training data, creating a direct relationship between data inferences and future data outputs."
+            },
+            {
+              "blockIndex": 34,
+              "text": "Adaptability. Machine learning systems adjust without human intervention as new data is presented to make informed decisions and predictions through continuous learning. This makes them well suited to addressing dynamic problems in fast-changing environments."
+            },
+            {
+              "blockIndex": 35,
+              "text": "Self-learning. Machine learning systems adapt in response to the patterns and relationships in their input data, enabling models to define their own rules that take into account a wide range of variables. This capability makes machine learning a good choice for tackling complex processes that include multiple factors, rules and patterns that change over time."
+            },
+            {
+              "blockIndex": 36,
+              "text": "Scalability. As projects and environments grow, machine learning systems can scale and adapt accordingly with new data, infrastructure resources and algorithms. For example, an organization could upgrade a simple classifier to a neural network by expanding its training data set and underlying infrastructure."
+            },
+            {
+              "blockIndex": 38,
+              "text": "Dependence on quality of training data. Because data quality directly affects model quality, machine learning systems must be thoroughly trained on historical and"
+            },
+            {
+              "blockIndex": 39,
+              "text": "Complexity. Although machine learning systems can handle larger, more complex tasks and environments than rule-based systems, they also require greater technical expertise from teams to develop effective applications. Tasks such as writing machine learning algorithms, identifying useful data and monitoring models in production warrant a data science team and require properly trained employees."
+            },
+            {
+              "blockIndex": 41,
+              "text": "Choosing between rule-based vs. machine learning systems"
+            },
+            {
+              "blockIndex": 42,
+              "text": "Rule-based AI and machine learning differ in both the type of logic they use to operate and the level of human intervention they require. For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction."
+            },
+            {
+              "blockIndex": 43,
+              "text": "Given these differences in learning methods, the question of whether to use a rule-based or machine learning system comes down to organizational needs. Different types of AI can take different types of actions and produce different analyses or insights."
+            },
+            {
+              "blockIndex": 44,
+              "text": "Applying machine learning and rule-based systems"
+            },
+            {
+              "blockIndex": 45,
+              "text": "The choice between a rule-based vs. machine learning system depends on how strict parameters must be, requirements around efficiency and training costs, and whether a data science team or an algorithm will create the rules."
+            },
+            {
+              "blockIndex": 46,
+              "text": "Machine learning can handle complex and intensive issues in relatively variable environments, whereas rule-based AI systems are easier to interpret and promote precision. In addition, the adaptability and speed of machine learning systems comes at a cost. There is an advanced level of commitment with machine learning, as algorithms require large amounts of data to be effective."
+            },
+            {
+              "blockIndex": 49,
+              "text": "Machine learning systems are often viewed as unequivocally better than rule-based AI, as they are capable of more complex analysis and can continuously learn from and adapt to changing data. Machine learning capabilities such as predictive analytics, anomaly detection and computer vision can achieve more comprehensive and nuanced results compared with rule-based systems. Consequently, if a business can support the cost and time required to build a machine learning model, doing so will often be the better choice."
+            },
+            {
+              "blockIndex": 50,
+              "text": "However, rule-based systems still have a time and place. For one, they can be helpful for more rudimentary use cases, and they are often more cost-effective compared with machine learning. They also have a much narrower window for error than machine learning systems. Rule-based systems can thus prove more successful in scenarios with clear-cut rules where accuracy and speed are paramount -- for instance, simple medical diagnostics or online grading systems."
+            },
+            {
+              "blockIndex": 52,
+              "text": "Though rule-based systems are typically not complex by nature, adding more rules and mitigating factors can introduce contradictions and overlap. While machine learning systems can account for greater complexity, it can come at the cost of accuracy. Consider, for example, the following real-world use cases and the variety of limitations they can present depending on what type of system is used."
+            },
+            {
+              "blockIndex": 56,
+              "text": "Turning to machine learning models makes sense when the modifications in a rule-based system become burdensome. Machine learning excels in constantly changing environments, as it is scalable and mutable."
+            },
+            {
+              "blockIndex": 58,
+              "text": "In a home loan approval system, a machine learning system could use backpropagation for optimization to find the rule for approval as it learns from data. Thus, the model could ultimately arrive at a more nuanced rule that accounts for an applicant's income, credit history and location."
+            },
+            {
+              "blockIndex": 60,
+              "text": "In the case of e-commerce chatbots, a rule-based system could be sufficient for rudimentary chatbot services. For example, consider a small business that wants to employ a chatbot that can provide preset answers regarding services, hours and products. A rule-based system can be programmed with predetermined answers for customers when specific words are used. Developing such a system would be more cost-effective and less time-consuming than programming a machine learning system."
+            },
+            {
+              "blockIndex": 61,
+              "text": "However, customer questions are often complex, and the rules can change based on external circumstances. For more dynamic chatbots, using a machine learning system could create more complex question-answering, overall enhancing the user experience. However, businesses might need to devote more time and funds to the machine learning system and monitor it for issues of inaccuracy or bias."
+            },
+            {
+              "blockIndex": 66,
+              "text": "If an AI model is attempting to discover new or rare events -- as is the case in fraud protection -- the field from which examples can be harvested will be limited to start. Not having enough labeled data will hinder the model's performance, making banking and fraud protection use cases often best suited for a machine learning system."
+            },
+            {
+              "blockIndex": 67,
+              "text": "For instance, a machine learning system can evaluate a credit card user's past purchasing tendencies to detect potential fraud. A rule-based system, on the other hand, would struggle to identify nuance in purchasing habits. It might automatically suspend a credit card if certain rules are met, such as when an international purchase is made. Instead, a machine learning system would be able to identify that a given U.S. customer often crosses the Canadian border and thus would not flag purchases made in Canada as suspicious behavior."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:15:06.956Z",
+          "title": "",
+          "status": "timeout",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://work.caltech.edu/telecourse",
+          "tieuDe": "Learning From Data - Online Course (MOOC)",
+          "ngayLayVe": "2026-09-17T12:15:04.940Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Đây là trang chính thức của khóa học Machine Learning nổi tiếng do Giáo sư Yaser Abu-Mostafa tại Caltech giảng dạy. Nội dung mang tính học thuật cao, mô tả rõ ràng các khái niệm cốt lõi của việc học từ dữ liệu (learning from data) và sự khác biệt giữa lý thuyết và thực hành.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn là khóa học trực tuyến, không phải bài báo khoa học peer-reviewed, nhưng độ tin cậy về mặt khái niệm rất cao do xuất xứ từ Caltech.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "tieuDe": "Choosing between a rule-based vs. machine learning system | TechTarget",
+          "toChuc": "AI & Emerging Tech",
+          "ngayLayVe": "2026-09-17T12:15:06.954Z",
+          "loai": "bao-chi",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "TechTarget là một nguồn tin công nghệ uy tín, cung cấp thông tin thực tế về sự khác biệt giữa hệ thống dựa trên quy tắc và học máy. Tuy nhiên, đây là bài viết hướng dẫn thực hành (tip) hơn là tài liệu học thuật chuyên sâu, và ngày đăng không rõ ràng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ, cần kiểm tra thêm nếu cần số liệu thời gian cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+          "tieuDe": "Rule Based System Vs Machine Learning System - GeeksforGeeks",
+          "ngayLayVe": "2026-09-17T12:15:04.400Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "toChuc": "GeeksforGeeks",
+          "ngayDang": "2023-12-14 17:40:44+00:00",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ]
+        },
+        {
+          "id": "n04",
+          "url": "https://www.youtube.com/playlist?list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08",
+          "tieuDe": "Learning from Data - Yaser Abu Mostafa - Caltech - YouTube",
+          "ngayLayVe": "2026-09-17T12:15:04.401Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "toChuc": "YouTube",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n05",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "tieuDe": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "ngayLayVe": "2026-09-17T12:15:04.403Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "tieuDe": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "ngayLayVe": "2026-09-17T12:15:04.942Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n07",
+          "url": "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+          "tieuDe": "https://openeclass.panteion.gr/modules/document/file.php/PMS152/LEARNING/Abu-Mostafa%20Yaser%20S.%2C%20Malik%20Magdon-Ismail%2C%20Hsuan-Tien%20Lin%20%282012%29%20--%20Learning%20From%20Data_%20A%20short%20course.pdf",
+          "ngayLayVe": "2026-09-17T12:15:04.943Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Content-Type không phải HTML: application/pdf",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n08",
+          "url": "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296",
+          "tieuDe": "https://medium.com/@philippe-buschini/how-machine-learning-enables-machines-to-learn-from-data-13cc32479296",
+          "ngayLayVe": "2026-09-17T12:15:06.956Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "timeout",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "sourcesRejected": [
+        "n03",
+        "n04",
+        "n05",
+        "n06",
+        "n07",
+        "n08"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Học máy (Machine Learning) là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.",
+              "viTri": "Đoạn mô tả tổng quan về Machine Learning trong phần giới thiệu khóa học."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn, nhưng chỉ có một nguồn chính xác định rõ cơ chế 'tích lũy kinh nghiệm từ dữ liệu' trong ngữ cảnh học thuật."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Hệ thống dựa trên quy tắc (Rule-based systems) sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.",
+              "viTri": "Phần đầu bài viết, định nghĩa về hệ thống dựa trên quy tắc."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn. Nguồn n01 tập trung vào ML nên không định nghĩa rõ hệ thống rule-based, nhưng n02 cung cấp định nghĩa rõ ràng cho mục tiêu phân biệt."
+        },
+        {
+          "id": "t03",
+          "noiDung": "Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction.",
+              "viTri": "Phần 'Choosing between rule-based vs. machine learning systems'."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn. Đây là điểm mấu chốt để đạt mục tiêu bài học: phân biệt 'làm theo quy tắc viết sẵn' và 'học từ dữ liệu'."
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://work.caltech.edu/telecourse\",\n      \"tieuDe\": \"Learning From Data - Online Course (MOOC)\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"California Institute of Technology (Caltech)\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:15:04.940Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Đây là trang chính thức của khóa học Machine Learning nổi tiếng do Giáo sư Yaser Abu-Mostafa tại Caltech giảng dạy. Nội dung mang tính học thuật cao, mô tả rõ ràng các khái niệm cốt lõi của việc học từ dữ liệu (learning from data) và sự khác biệt giữa lý thuyết và thực hành.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn là khóa học trực tuyến, không phải bài báo khoa học peer-reviewed, nhưng độ tin cậy về mặt khái niệm rất cao do xuất xứ từ Caltech.\"\n      ],\n      \"doanTrich\": \"It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system\",\n      \"tieuDe\": \"Choosing between a rule-based vs. machine learning system | TechTarget\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"TechTarget\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:15:06.954Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"TechTarget là một nguồn tin công nghệ uy tín, cung cấp thông tin thực tế về sự khác biệt giữa hệ thống dựa trên quy tắc và học máy. Tuy nhiên, đây là bài viết hướng dẫn thực hành (tip) hơn là tài liệu học thuật chuyên sâu, và ngày đăng không rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng không rõ, cần kiểm tra thêm nếu cần số liệu thời gian cụ thể.\"\n      ],\n      \"doanTrich\": \"Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Học máy (Machine Learning) là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.\",\n          \"viTri\": \"Đoạn mô tả tổng quan về Machine Learning trong phần giới thiệu khóa học.\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn, nhưng chỉ có một nguồn chính xác định rõ cơ chế 'tích lũy kinh nghiệm từ dữ liệu' trong ngữ cảnh học thuật.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Hệ thống dựa trên quy tắc (Rule-based systems) sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.\",\n          \"viTri\": \"Phần đầu bài viết, định nghĩa về hệ thống dựa trên quy tắc.\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn. Nguồn n01 tập trung vào ML nên không định nghĩa rõ hệ thống rule-based, nhưng n02 cung cấp định nghĩa rõ ràng cho mục tiêu phân biệt.\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction.\",\n          \"viTri\": \"Phần 'Choosing between rule-based vs. machine learning systems'.\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn. Đây là điểm mấu chốt để đạt mục tiêu bài học: phân biệt 'làm theo quy tắc viết sẵn' và 'học từ dữ liệu'.\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-26047922-e2af-4a6f-98ce-1869f0fa3907",
+          "durationMs": 3427,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://work.caltech.edu/telecourse\",\n      \"tieuDe\": \"Learning From Data - Online Course (MOOC)\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"California Institute of Technology (Caltech)\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:15:04.940Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Đây là trang chính thức của khóa học Machine Learning nổi tiếng do Giáo sư Yaser Abu-Mostafa tại Caltech giảng dạy. Nội dung mang tính học thuật cao, mô tả rõ ràng các khái niệm cốt lõi của việc học từ dữ liệu (learning from data) và sự khác biệt giữa lý thuyết và thực hành.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn là khóa học trực tuyến, không phải bài báo khoa học peer-reviewed, nhưng độ tin cậy về mặt khái niệm rất cao do xuất xứ từ Caltech.\"\n      ],\n      \"doanTrich\": \"It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system\",\n      \"tieuDe\": \"Choosing between a rule-based vs. machine learning system | TechTarget\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"TechTarget\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:15:06.954Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"TechTarget là một nguồn tin công nghệ uy tín, cung cấp thông tin thực tế về sự khác biệt giữa hệ thống dựa trên quy tắc và học máy. Tuy nhiên, đây là bài viết hướng dẫn thực hành (tip) hơn là tài liệu học thuật chuyên sâu, và ngày đăng không rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng không rõ, cần kiểm tra thêm nếu cần số liệu thời gian cụ thể.\"\n      ],\n      \"doanTrich\": \"Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Học máy (Machine Learning) là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.\",\n          \"viTri\": \"Đoạn mô tả tổng quan về Machine Learning trong phần giới thiệu khóa học.\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn, nhưng chỉ có một nguồn chính xác định rõ cơ chế 'tích lũy kinh nghiệm từ dữ liệu' trong ngữ cảnh học thuật.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Hệ thống dựa trên quy tắc (Rule-based systems) sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.\",\n          \"viTri\": \"Phần đầu bài viết, định nghĩa về hệ thống dựa trên quy tắc.\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn. Nguồn n01 tập trung vào ML nên không định nghĩa rõ hệ thống rule-based, nhưng n02 cung cấp định nghĩa rõ ràng cho mục tiêu phân biệt.\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction.\",\n          \"viTri\": \"Phần 'Choosing between rule-based vs. machine learning systems'.\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn. Đây là điểm mấu chốt để đạt mục tiêu bài học: phân biệt 'làm theo quy tắc viết sẵn' và 'học từ dữ liệu'.\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 60061
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Cách một mô hình học từ ví dụ",
+      "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+      "thoiLuong": "3 phút",
+      "nguoiHoc": "Học sinh cấp ba",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.",
+          "chuTrenManHinh": "Chào các bạn",
+          "yDoHinh": "Hình ảnh một lớp học với học sinh ngồi trước màn hình máy tính",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Học máy là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.",
+          "chuTrenManHinh": "Mô hình học máy",
+          "yDoHinh": "Biểu đồ dữ liệu chảy vào mô hình",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Hệ thống dựa trên quy tắc sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.",
+          "chuTrenManHinh": "Hệ thống quy tắc",
+          "yDoHinh": "Hình ảnh một quy tắc viết sẵn",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.",
+          "chuTrenManHinh": "So sánh linh hoạt",
+          "yDoHinh": "Biểu đồ so sánh linh hoạt vs cứng nhắc",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Như vậy, khi một mô hình học từ dữ liệu, nó sẽ liên tục cập nhật kiến thức mới dựa trên dữ liệu mới mà không cần thay đổi quy tắc thủ công.",
+          "chuTrenManHinh": "Mô hình học máy",
+          "yDoHinh": "Hình ảnh mô hình học máy đang cập nhật",
+          "nguon": [
+            "t01"
+          ]
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789647347773",
+      "timestamp": "2026-09-17T12:15:47.773Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Cách một mô hình học từ ví dụ",
+        "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "targetAudience": "Học sinh cấp ba",
+        "videoDuration": "3 phút",
+        "evalRunId": "2026-09-17T12-12-13-353Z",
+        "evalCaseId": "N03"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://work.caltech.edu/telecourse",
+          "tieuDe": "Learning From Data - Online Course (MOOC)",
+          "ngayLayVe": "2026-09-17T12:15:04.940Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Đây là trang chính thức của khóa học Machine Learning nổi tiếng do Giáo sư Yaser Abu-Mostafa tại Caltech giảng dạy. Nội dung mang tính học thuật cao, mô tả rõ ràng các khái niệm cốt lõi của việc học từ dữ liệu (learning from data) và sự khác biệt giữa lý thuyết và thực hành.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn là khóa học trực tuyến, không phải bài báo khoa học peer-reviewed, nhưng độ tin cậy về mặt khái niệm rất cao do xuất xứ từ Caltech.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "tieuDe": "Choosing between a rule-based vs. machine learning system | TechTarget",
+          "toChuc": "AI & Emerging Tech",
+          "ngayLayVe": "2026-09-17T12:15:06.954Z",
+          "loai": "bao-chi",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "TechTarget là một nguồn tin công nghệ uy tín, cung cấp thông tin thực tế về sự khác biệt giữa hệ thống dựa trên quy tắc và học máy. Tuy nhiên, đây là bài viết hướng dẫn thực hành (tip) hơn là tài liệu học thuật chuyên sâu, và ngày đăng không rõ ràng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ, cần kiểm tra thêm nếu cần số liệu thời gian cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Học máy (Machine Learning) là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.",
+              "viTri": "Đoạn mô tả tổng quan về Machine Learning trong phần giới thiệu khóa học."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn, nhưng chỉ có một nguồn chính xác định rõ cơ chế 'tích lũy kinh nghiệm từ dữ liệu' trong ngữ cảnh học thuật."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Hệ thống dựa trên quy tắc (Rule-based systems) sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.",
+              "viTri": "Phần đầu bài viết, định nghĩa về hệ thống dựa trên quy tắc."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn. Nguồn n01 tập trung vào ML nên không định nghĩa rõ hệ thống rule-based, nhưng n02 cung cấp định nghĩa rõ ràng cho mục tiêu phân biệt."
+        },
+        {
+          "id": "t03",
+          "noiDung": "Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction.",
+              "viTri": "Phần 'Choosing between rule-based vs. machine learning systems'."
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn. Đây là điểm mấu chốt để đạt mục tiêu bài học: phân biệt 'làm theo quy tắc viết sẵn' và 'học từ dữ liệu'."
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Cách một mô hình học từ ví dụ",
+        "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "thoiLuong": "3 phút",
+        "nguoiHoc": "Học sinh cấp ba",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.",
+            "chuTrenManHinh": "Chào các bạn",
+            "yDoHinh": "Hình ảnh một lớp học với học sinh ngồi trước màn hình máy tính",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Học máy là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.",
+            "chuTrenManHinh": "Mô hình học máy",
+            "yDoHinh": "Biểu đồ dữ liệu chảy vào mô hình",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Hệ thống dựa trên quy tắc sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.",
+            "chuTrenManHinh": "Hệ thống quy tắc",
+            "yDoHinh": "Hình ảnh một quy tắc viết sẵn",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.",
+            "chuTrenManHinh": "So sánh linh hoạt",
+            "yDoHinh": "Biểu đồ so sánh linh hoạt vs cứng nhắc",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Như vậy, khi một mô hình học từ dữ liệu, nó sẽ liên tục cập nhật kiến thức mới dựa trên dữ liệu mới mà không cần thay đổi quy tắc thủ công.",
+            "chuTrenManHinh": "Mô hình học máy",
+            "yDoHinh": "Hình ảnh mô hình học máy đang cập nhật",
+            "nguon": [
+              "t01"
+            ]
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Học máy là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] It enables computational systems to adaptively improve their performance with experience accumulated from the observed data."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Hệ thống dựa trên quy tắc sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Như vậy, khi một mô hình học từ dữ liệu, nó sẽ liên tục cập nhật kiến thức mới dựa trên dữ liệu mới mà không cần thay đổi quy tắc thủ công.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] It enables computational systems to adaptively improve their performance with experience accumulated from the observed data."
+          ]
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách một mô hình học từ ví dụ\",\"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Học sinh cấp ba\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.\",\"chuTrenManHinh\":\"Chào các bạn\",\"yDoHinh\":\"Hình ảnh một lớp học với học sinh ngồi trước màn hình máy tính\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Học máy là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.\",\"chuTrenManHinh\":\"Mô hình học máy\",\"yDoHinh\":\"Biểu đồ dữ liệu chảy vào mô hình\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Hệ thống dựa trên quy tắc sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.\",\"chuTrenManHinh\":\"Hệ thống quy tắc\",\"yDoHinh\":\"Hình ảnh một quy tắc viết sẵn\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.\",\"chuTrenManHinh\":\"So sánh linh hoạt\",\"yDoHinh\":\"Biểu đồ so sánh linh hoạt vs cứng nhắc\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Như vậy, khi một mô hình học từ dữ liệu, nó sẽ liên tục cập nhật kiến thức mới dựa trên dữ liệu mới mà không cần thay đổi quy tắc thủ công.\",\"chuTrenManHinh\":\"Mô hình học máy\",\"yDoHinh\":\"Hình ảnh mô hình học máy đang cập nhật\",\"nguon\":[\"t01\"]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-20b",
+          "requestId": "chatcmpl-7bcbf373-54be-4015-b911-2630a8b1c585",
+          "durationMs": 2665,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách một mô hình học từ ví dụ\",\"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Học sinh cấp ba\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.\",\"chuTrenManHinh\":\"Chào các bạn\",\"yDoHinh\":\"Hình ảnh một lớp học với học sinh ngồi trước màn hình máy tính\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Học máy là quá trình cho phép các hệ thống máy tính tự thích ứng và cải thiện hiệu suất dựa trên kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình cứng nhắc.\",\"chuTrenManHinh\":\"Mô hình học máy\",\"yDoHinh\":\"Biểu đồ dữ liệu chảy vào mô hình\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Hệ thống dựa trên quy tắc sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định và giải quyết vấn đề, không có khả năng tự học.\",\"chuTrenManHinh\":\"Hệ thống quy tắc\",\"yDoHinh\":\"Hình ảnh một quy tắc viết sẵn\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Sự khác biệt cốt lõi: Hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.\",\"chuTrenManHinh\":\"So sánh linh hoạt\",\"yDoHinh\":\"Biểu đồ so sánh linh hoạt vs cứng nhắc\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Như vậy, khi một mô hình học từ dữ liệu, nó sẽ liên tục cập nhật kiến thức mới dựa trên dữ liệu mới mà không cần thay đổi quy tắc thủ công.\",\"chuTrenManHinh\":\"Mô hình học máy\",\"yDoHinh\":\"Hình ảnh mô hình học máy đang cập nhật\",\"nguon\":[\"t01\"]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 15075
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-20b"
+  }
+}

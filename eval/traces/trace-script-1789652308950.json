@@ -1,0 +1,259 @@
+{
+  "id": "trace-script-1789652308950",
+  "timestamp": "2026-09-17T13:38:28.950Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N02"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "tieuDe": "AI agent - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:37:57.714Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia article with citations, widely used as secondary source",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Wikipedia article",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "An AI agent, also known as agentic AI, is an artificial intelligence program that can pursue goals, use software or other tools, and take actions with some level of autonomy.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model",
+      "tieuDe": "Large language model - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:37:57.715Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia article with citations",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Wikipedia article",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "tieuDe": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+      "toChuc": "Amazon Web Services",
+      "ngayDang": "2025-05-16T08:44:40-08:00",
+      "ngayLayVe": "2026-09-17T13:38:03.125Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "AWS technical blog, peer-reviewed by AWS engineers",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Technical blog",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Detect hallucinations for RAG-based systems As AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "tieuDe": "Artificial intelligence - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:38:03.126Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia article with citations",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Wikipedia article",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04",
+    "n05"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "AI may confidently assert facts that are not supported by its training data, leading to hallucinations.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.",
+          "viTri": "paragraph 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Current GPT models are prone to generating falsehoods called hallucinations, and the issue has worsened for reasoning systems.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n05",
+          "doanTrich": "Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems.",
+          "viTri": "paragraph 4"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn, hôm nay chúng ta cùng khám phá vì sao trí tuệ nhân tạo (AI) có thể trả lời sai nhưng vẫn nói rất tự tin.",
+        "chuTrenManHinh": "Chào mừng đến lớp",
+        "yDoHinh": "Người dẫn chương trình mỉm cười trước màn hình nền công nghệ",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Các mô hình trí tuệ nhân tạo (AI) có thể tự tin khẳng định thông tin mà dữ liệu huấn luyện không hỗ trợ, hiện tượng này được gọi là ảo giác.",
+        "chuTrenManHinh": "AI tự tin nhưng sai",
+        "yDoHinh": "Màn hình hiển thị câu trả lời AI kèm biểu tượng cảnh báo màu đỏ",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Các mô hình sinh ngôn ngữ lớn GPT hiện nay dễ sinh ra những sai lầm gọi là ảo giác, và vấn đề này đang trở nên trầm trọng hơn trong các hệ thống suy luận.",
+        "chuTrenManHinh": "GPT sinh ảo giác",
+        "yDoHinh": "Biểu đồ so sánh tần suất lỗi giữa các phiên bản GPT trên màn hình",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Vậy ba dấu hiệu nào cho thấy một câu trả lời của AI cần được kiểm chứng?",
+        "chuTrenManHinh": "Ba dấu hiệu cần kiểm chứng",
+        "yDoHinh": "Biểu tượng câu hỏi với ba chấm lửng và biểu tượng kiểm tra xuất hiện",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, khi trí tuệ nhân tạo (AI) trả lời một cách tự tin, chúng ta nên dựa vào các dấu hiệu này và luôn kiểm tra lại thông tin, như các nghiên cứu đã chỉ ra.",
+        "chuTrenManHinh": "Kiểm tra lại thông tin",
+        "yDoHinh": "Người dùng xem lại câu trả lời AI trên máy tính với kính lúp",
+        "nguon": [
+          "t01",
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn, hôm nay chúng ta cùng khám phá vì sao trí tuệ nhân tạo (AI) có thể trả lời sai nhưng vẫn nói rất tự tin.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Các mô hình trí tuệ nhân tạo (AI) có thể tự tin khẳng định thông tin mà dữ liệu huấn luyện không hỗ trợ, hiện tượng này được gọi là ảo giác.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Các mô hình sinh ngôn ngữ lớn GPT hiện nay dễ sinh ra những sai lầm gọi là ảo giác, và vấn đề này đang trở nên trầm trọng hơn trong các hệ thống suy luận.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n05] Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Vậy ba dấu hiệu nào cho thấy một câu trả lời của AI cần được kiểm chứng?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, khi trí tuệ nhân tạo (AI) trả lời một cách tự tin, chúng ta nên dựa vào các dấu hiệu này và luôn kiểm tra lại thông tin, như các nghiên cứu đã chỉ ra.",
+      "nguon": [
+        "t01",
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.",
+        "[n05] Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các bạn, hôm nay chúng ta cùng khám phá vì sao trí tuệ nhân tạo (AI) có thể trả lời sai nhưng vẫn nói rất tự tin.\",\n      \"chuTrenManHinh\": \"Chào mừng đến lớp\",\n      \"yDoHinh\": \"Người dẫn chương trình mỉm cười trước màn hình nền công nghệ\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Các mô hình trí tuệ nhân tạo (AI) có thể tự tin khẳng định thông tin mà dữ liệu huấn luyện không hỗ trợ, hiện tượng này được gọi là ảo giác.\",\n      \"chuTrenManHinh\": \"AI tự tin nhưng sai\",\n      \"yDoHinh\": \"Màn hình hiển thị câu trả lời AI kèm biểu tượng cảnh báo màu đỏ\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Các mô hình sinh ngôn ngữ lớn GPT hiện nay dễ sinh ra những sai lầm gọi là ảo giác, và vấn đề này đang trở nên trầm trọng hơn trong các hệ thống suy luận.\",\n      \"chuTrenManHinh\": \"GPT sinh ảo giác\",\n      \"yDoHinh\": \"Biểu đồ so sánh tần suất lỗi giữa các phiên bản GPT trên màn hình\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy ba dấu hiệu nào cho thấy một câu trả lời của AI cần được kiểm chứng?\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Biểu tượng câu hỏi với ba chấm lửng và biểu tượng kiểm tra xuất hiện\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, khi trí tuệ nhân tạo (AI) trả lời một cách tự tin, chúng ta nên dựa vào các dấu hiệu này và luôn kiểm tra lại thông tin, như các nghiên cứu đã chỉ ra.\",\n      \"chuTrenManHinh\": \"Kiểm tra lại thông tin\",\n      \"yDoHinh\": \"Người dùng xem lại câu trả lời AI trên máy tính với kính lúp\",\n      \"nguon\": [\n        \"t01\",\n        \"t02\"\n      ]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-ba9afecf-0622-4ead-ad94-ec03499d2639",
+      "durationMs": 4394,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\":\"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Người đi làm, dùng AI hàng ngày\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Xin chào các bạn, hôm nay chúng ta sẽ khám phá vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n      \"chuTrenManHinh\":\"Chào mừng đến lớp\",\n      \"yDoHinh\":\"Hình ảnh người dẫn chương trình mỉm cười trước màn hình\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Các mô hình ngôn ngữ lớn có thể tự tin khẳng định thông tin mà thực tế không được hỗ trợ bởi dữ liệu huấn luyện, hiện tượng này gọi là ảo giác\",\n      \"chuTrenManHinh\":\"AI nói tự tin nhưng sai\",\n      \"yDoHinh\":\"Màn hình hiển thị câu trả lời AI với dấu chấm than và biểu tượng cảnh báo\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Các mô hình GPT hiện tại dễ sinh ra những sai lầm gọi là ảo giác, và vấn đề này đang trở nên trầm trọng hơn trong các hệ thống suy luận\",\n      \"chuTrenManHinh\":\"GPT sinh sai lầm\",\n      \"yDoHinh\":\"Biểu đồ so sánh tần suất lỗi giữa các phiên bản GPT\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Vậy ba dấu hiệu nào cho thấy một câu trả lời cần được kiểm chứng\",\n      \"chuTrenManHinh\":\"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\":\"Biểu tượng câu hỏi với ba dấu chấm lửng và biểu tượng kiểm tra\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Vì vậy, khi AI trả lời một cách tự tin, chúng ta nên dựa vào các dấu hiệu này và luôn kiểm tra lại thông tin, như các nghiên cứu đã chỉ ra\",\n      \"chuTrenManHinh\":\"Kiểm tra lại thông tin\",\n      \"yDoHinh\":\"Người dùng đang xem lại câu trả lời trên máy tính với kính lúp\",\n      \"nguon\":[\"t01\",\"t02\"]\n    }\n  ]\n}",
+      "validationError": "Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-ce26444d-4e74-48f0-a9d0-52a4d6d42fd5",
+      "durationMs": 5593,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các bạn, hôm nay chúng ta cùng khám phá vì sao trí tuệ nhân tạo (AI) có thể trả lời sai nhưng vẫn nói rất tự tin.\",\n      \"chuTrenManHinh\": \"Chào mừng đến lớp\",\n      \"yDoHinh\": \"Người dẫn chương trình mỉm cười trước màn hình nền công nghệ\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Các mô hình trí tuệ nhân tạo (AI) có thể tự tin khẳng định thông tin mà dữ liệu huấn luyện không hỗ trợ, hiện tượng này được gọi là ảo giác.\",\n      \"chuTrenManHinh\": \"AI tự tin nhưng sai\",\n      \"yDoHinh\": \"Màn hình hiển thị câu trả lời AI kèm biểu tượng cảnh báo màu đỏ\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Các mô hình sinh ngôn ngữ lớn GPT hiện nay dễ sinh ra những sai lầm gọi là ảo giác, và vấn đề này đang trở nên trầm trọng hơn trong các hệ thống suy luận.\",\n      \"chuTrenManHinh\": \"GPT sinh ảo giác\",\n      \"yDoHinh\": \"Biểu đồ so sánh tần suất lỗi giữa các phiên bản GPT trên màn hình\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy ba dấu hiệu nào cho thấy một câu trả lời của AI cần được kiểm chứng?\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Biểu tượng câu hỏi với ba chấm lửng và biểu tượng kiểm tra xuất hiện\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, khi trí tuệ nhân tạo (AI) trả lời một cách tự tin, chúng ta nên dựa vào các dấu hiệu này và luôn kiểm tra lại thông tin, như các nghiên cứu đã chỉ ra.\",\n      \"chuTrenManHinh\": \"Kiểm tra lại thông tin\",\n      \"yDoHinh\": \"Người dùng xem lại câu trả lời AI trên máy tính với kính lúp\",\n      \"nguon\": [\n        \"t01\",\n        \"t02\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 9993
+}

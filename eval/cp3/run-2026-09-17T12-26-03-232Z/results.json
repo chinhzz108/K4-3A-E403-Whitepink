@@ -1,0 +1,42 @@
+[
+  {
+    "id": "N01",
+    "class": "thuong",
+    "automatedStatus": "needs-review",
+    "reviewStatus": "not-reviewed",
+    "finalStatus": "needs-review",
+    "status": "needs-review",
+    "reason": "Trích dẫn khớp snapshot và cấu trúc đạt; cần người đối chiếu ý nghĩa từng câu và tiêu chí riêng của case",
+    "metrics": {
+      "readablePages": 4,
+      "selectedSources": 3,
+      "factsWithEvidence": 3,
+      "scriptSentences": 5,
+      "sourcedSentences": 4,
+      "researchAiAttempts": 1,
+      "scriptAiAttempts": 2
+    },
+    "trace": "N01.json",
+    "durationMs": 186523
+  },
+  {
+    "id": "N02",
+    "class": "thuong",
+    "automatedStatus": "not-met",
+    "reviewStatus": "not-required",
+    "finalStatus": "not-met",
+    "status": "not-met",
+    "reason": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "metrics": {
+      "readablePages": 5,
+      "selectedSources": 3,
+      "factsWithEvidence": 2,
+      "scriptSentences": 0,
+      "sourcedSentences": 0,
+      "researchAiAttempts": 1,
+      "scriptAiAttempts": 2
+    },
+    "trace": "N02.json",
+    "durationMs": 196731
+  }
+]

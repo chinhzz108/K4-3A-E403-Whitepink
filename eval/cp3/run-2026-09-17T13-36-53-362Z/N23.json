@@ -1,0 +1,848 @@
+{
+  "case": {
+    "id": "N23",
+    "class": "hiem",
+    "input": {
+      "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+      "learningObjective": "Biết thực trạng và thách thức",
+      "targetAudience": "Nhà nghiên cứu",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Gần như không có tài liệu chuyên sâu. Cần nêu rõ giới hạn.",
+    "origin": "tự tạo — chủ đề cực kỳ hiếm; không phải chatlog",
+    "passCriteria": "Ghi rõ không đủ nguồn; không bịa; gợi ý chủ đề liên quan",
+    "failCriteria": "Bịa nghiên cứu không tồn tại"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://arxiv.org/html/2403.02715v1",
+        "tieuDe": "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models",
+        "ngayLayVe": "2026-09-17T13:45:35.532Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Bài báo khoa học từ arXiv có độ tin cậy về học thuật nhưng thiếu thông tin chi tiết về tác giả và tổ chức trong bản trích xuất.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn thiếu thông tin tác giả và tổ chức cụ thể.",
+          "Thiếu ngày đăng chính thức.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://aclanthology.org/2024.acl-long.479/",
+        "tieuDe": "MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China - ACL Anthology",
+        "toChuc": "ACL Anthology",
+        "ngayLayVe": "2026-09-17T13:45:35.533Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Bài báo hội nghị khoa học uy tín thuộc ACL Anthology với tác giả và tổ chức rõ ràng.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn đã cũ hơn một năm (xuất bản tháng 08 năm 2024).",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese",
+        "tieuDe": "Ultimate Guide - Best Open Source LLM For Vietnamese In 2026 - SiliconFlow",
+        "ngayLayVe": "2026-09-17T13:45:35.534Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Bài viết hướng dẫn tổng hợp từ tổ chức thương mại, cung cấp góc nhìn thực tế về mô hình ngôn ngữ lớn cho tiếng Việt.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn từ blog thương mại, thiếu thông tin tác giả và ngày đăng cụ thể.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Open source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high accuracy.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Các mô hình ngôn ngữ lớn hiện nay gặp hạn chế trong việc xử lý và hiểu các ngôn ngữ có nguồn tài nguyên thấp, bao gồm tiếng Việt và các ngôn ngữ thiểu số, do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets",
+            "viTri": "Đoạn 1"
+          },
+          {
+            "nguonId": "n02",
+            "doanTrich": "Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.",
+            "viTri": "Đoạn 1"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Không có mâu thuẫn trực tiếp giữa các nguồn; cả hai đều đồng thuận về việc thiếu dữ liệu huấn luyện là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp."
+      },
+      {
+        "id": "t02",
+        "noiDung": "Các mô hình ngôn ngữ lớn mã nguồn mở cho tiếng Việt được tối ưu hóa để hiểu các đặc điểm ngôn ngữ đặc thù như dấu câu, biến thể thanh điệu và cấu trúc ngữ pháp.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures.",
+            "viTri": "Đoạn 2"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "multilingual LLM Vietnamese",
+      "minority language NLP"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789652744010",
+      "timestamp": "2026-09-17T13:45:44.010Z",
+      "phase": "research",
+      "input": {
+        "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+        "learningObjective": "Biết thực trạng và thách thức",
+        "targetAudience": "Nhà nghiên cứu",
+        "videoDuration": "5 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N23"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Finetuning and Comprehensive Evaluation of Vietnamese ...",
+              "url": "https://arxiv.org/html/2403.02715v1",
+              "snippet": "To mitigate these issues, we have finetuned LLMs specifically for Vietnamese and developed a comprehensive evaluation framework encompassing 10 ...",
+              "position": 1
+            },
+            {
+              "title": "Best Open Source LLM For Vietnamese In 2026",
+              "url": "https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese",
+              "snippet": "Open source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high ...",
+              "position": 2
+            },
+            {
+              "title": "A comprehensive benchmark toolkit for Vietnamese LLMs",
+              "url": "https://aclanthology.org/2025.acl-long.563.pdf",
+              "snippet": "viết bởi CT Bui · 2025 · Trích dẫn 6 bài viết — It is a cutting-edge LLM optimized for multilingual tasks, with specific fine-tuning for Vietnamese language data. These models currently ...",
+              "position": 3
+            },
+            {
+              "title": "Multilingual LLM Prompting Strategies for Medical English- ...",
+              "url": "https://www.researchgate.net/publication/395709277_Multilingual_LLM_Prompting_Strategies_for_Medical_English-Vietnamese_Machine_Translation",
+              "snippet": "Medical English-Vietnamese machine translation (En-Vi MT) is essential for healthcare access and communication in Vietnam, yet Vietnamese ...",
+              "position": 4
+            },
+            {
+              "title": "A collection of Vietnamese Natural Language Processing ...",
+              "url": "https://github.com/vndee/awsome-vietnamese-nlp",
+              "snippet": "Llama2_vietnamese: A fine-tuned Large Language Model (LLM) for the Vietnamese language based on the Llama 2 model. Vietnamese_LLMs: This project aims to create ...",
+              "position": 5
+            }
+          ],
+          "query": "multilingual LLM Vietnamese",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "MC2: Towards Transparent and Culturally-Aware NLP for ...",
+              "url": "https://aclanthology.org/2024.acl-long.479/",
+              "snippet": "viết bởi C Zhang · 2024 · Trích dẫn 33 bài viết — Abstract. Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China.",
+              "position": 1
+            },
+            {
+              "title": "Enhancing Low-Resource Minority Language Translation with ...",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-032-00071-2_12",
+              "snippet": "viết bởi CC Chang · 2025 · Trích dẫn 12 bài viết — This study investigates the challenges of translating low-resource languages by integrating Large Language Models (LLMs) with ...",
+              "position": 2
+            },
+            {
+              "title": "AI and minority languages",
+              "url": "https://thoughtbot.com/blog/ai-and-minority-languages",
+              "snippet": "How AI creates both opportunities and existential risks for minority languages, and what we can do to protect them.",
+              "position": 3
+            },
+            {
+              "title": "(PDF) Minority Languages",
+              "url": "https://www.researchgate.net/publication/309852241_Minority_languages",
+              "snippet": "Particular areas of focus include issues such as language use in international arenas,. globalization, and multilingualism. Ethnic Identity and ...",
+              "position": 4
+            },
+            {
+              "title": "Winning the Language Divide with AI - Imminent - Translated's",
+              "url": "https://imminent.translated.com/winning-the-language-divide-with-ai",
+              "snippet": "The sine qua non for developing Natural Language Processing (NLP) solutions for any language is the accessibility of linguistic data.",
+              "position": 5
+            }
+          ],
+          "query": "minority language NLP",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://arxiv.org/html/2403.02715v1",
+          "https://aclanthology.org/2024.acl-long.479/",
+          "https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese",
+          "https://link.springer.com/chapter/10.1007/978-3-032-00071-2_12",
+          "https://aclanthology.org/2025.acl-long.563.pdf",
+          "https://thoughtbot.com/blog/ai-and-minority-languages",
+          "https://www.researchgate.net/publication/395709277_Multilingual_LLM_Prompting_Strategies_for_Medical_English-Vietnamese_Machine_Translation",
+          "https://www.researchgate.net/publication/309852241_Minority_languages"
+        ],
+        "pagesRead": [
+          "https://arxiv.org/html/2403.02715v1",
+          "https://aclanthology.org/2024.acl-long.479/",
+          "https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "https://arxiv.org/html/2403.02715v1",
+          "content": "Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets and metrics tailored for Vietnamese LLM evaluation. To mitigate these issues, we have finetuned LLMs specifically for Vietnamese and developed a comprehensive evaluation framework encompassing 10 common tasks and 31 metrics. Our evaluation results reveal that the fine-tuned LLMs exhibit enhanced comprehension and generative capabilities in Vietnamese. Moreover, our analysis indicates that models with more parameters can introduce more biases and uncalibrated outputs and the key factor influencing LLM performance is the quality of the training or fine-tuning datasets. These insights underscore the significance of meticulous fine-tuning with high-quality datasets in enhancing LLM performance.\n\nFuture research should aim to extend the finetuning process to other low-resource languages, thereby enhancing the multilingual capabilities of LLMs. Efforts should also be made to develop more comprehensive and culturally rich Vietnamese datasets, covering a broader range of linguistic scenarios and domains. Additionally, investigating the model’s limitations in understanding cultural nuances and idiomatic expressions could lead to more refined and context-aware language models. Finally, there is a need for more efficient training and fine-tuning methodologies that reduce computational costs while maintaining\n\nMedium prompt: Vietnamese: “[INST] <<SYS>>↩\\hookleftarrow Hãy trả lời câu hỏi bên dưới bằng tiếng Việt với các thông tin được cung cấp trong phần ngữ cảnh. Nếu trong ngữ cảnh không có đủ thông tin, hãy trả lời \"Tôi không biết\".↩\\hookleftarrow <</SYS>>↩\\hookleftarrow ↩\\hookleftarrow Ngữ cảnh: {context}↩\\hookleftarrow Câu hỏi: {question}↩\\hookleftarrowTrả lời: [/INST] ”\n\nNormal prompt: Vietnamese: “[INST] <<SYS>>↩\\hookleftarrow Bạn là một trợ lý hữu dụng sử dụng tiếng Việt, biết tôn trọng và thành thật. Bạn luôn luôn trả lời các câu hỏi một cách có ích nhiều nhất có thể, nhưng đồng thời phải an toàn. Câu trả lời của bạn không được bao gồm các ngôn từ độc hại, phân biệt chủng tộc, phân biệt giới tính, nguy hiểm, nội dung vi phạm pháp luật. Làm ơn hãy chắc chắn câu trả lời của bạn tự nhiên, tích cực và không thiên vị bất cứ cái gì. Nếu có câu hỏi không hợp lý hoặc không rõ ràng thì hãy giải thích tại sao thay vì trả lời không đúng sự thật. Nếu bạn không biết câu trả lời thì đừng chia sẻ thông tin sai sự thật.↩\\hookleftarrow <</SYS>>↩\\hookleftarrow ↩\\hookleftarrow Nhiệm vụ của bạn là dựa vào đoạn văn nằm trong dấu triple backtick, hãy trả lời câu hỏi sau bằng tiếng Việt: {question}↩\\hookleftarrow Đoạn văn: “‘{context}“‘ [/INST] ”\n\nNormal prompt: Vietnamese: “[INST] <<SYS>>↩\\hookleftarrow Bạn là một trợ lý hữu dụng, biết tôn trọng và thành thật. Bạn luôn luôn trả lời các câu hỏi một cách có ích nhiều nhất có thể, nhưng đồng thời phải an toàn. Câu trả lời của bạn không được bao gồm các ngôn từ độc hại, phân biệt chủng tộc, phân biệt giới tính, nguy hiểm, nội dung vi phạm pháp luật. Nhiệm vụ của bạn là tóm tắt đoạn văn bản nằm trong triple backtick. Bài tóm tắt phải đầy đủ các thông tin quan trọng, ngắn gọn và thu hút người đọc. Ngôn ngữ bạn phải sử dụng để tóm tắt là tiếng Việt.↩\\hookleftarrow <</SYS>>↩\\hookleftarrow ↩\\hookleftarrow “‘{document}“‘ [/INST] ”\n\nDocument: Bác sĩ phụ khoa/sản khoa hoặc bác sĩ kiểm tra nội tiết sinh sản có thể thực hiện các kỹ thuật kiểm tra có tính chính xác cao hơn so với các phương pháp thực hiện tại nhà. Bác sĩ có thể thử máu để đo nồng độ progesterone và các hormone khác, hoặc kiểm tra để xem có sự bất thường trong chức năng tuyến giám hay nồng độ prolactin không. Những bất thường về cấu trúc của hệ thống sinh sản có thể được phát hiện nhờ phương pháp siêu âm, mà đây cũng là một trong những yếu tố ảnh hưởng đến sự rụng trứng. Đàn ông cũng có thể bị vô sinh. Đối với đàn ông, việc đầu tiên là kiểm tra chu kỳ tinh trùng, sau đó thể làm siêu âm để xem xét các vấn đề (nếu có) trong hệ thống sinh sản của họ. Nếu bác sĩ nghi ngờ rằng bạn không có khả năng mang thai do không có sự rụng trứng, họ có thể khuyến nghị bạn sử dụng một vài loại thuốc tùy thuộc vào tình trạng của bạn. Nếu chưa có chấn đoán chính thức, bạn không nên đánh đồng việc khó mang thai là do trứng không rụng bởi còn có rất nhiều nguyên nhân khác có thể dẫn đến tình trạng này. Bác sĩ có thể kiểm tra xem ống dẫn trứng của bạn có bị tắc hay không, tinh trùng có vấn đề gì không, có vấn đề ở tử cung hay buồng trứng không, và sự liên quan giữa chất lượng trứng với tuổi tác.\n\n• Vietcuna-7B-v3: Thông qua công tác tuyên truyền, vận động này phụ huynh sẽ hiểu rõ hơn tầm quan trọng của việc giáo dục ý thức bảo vệ môi trường cho trẻ không chỉ ở phía nhà trường mà còn ở gia đình , góp phần vào việc gìn giữ môi trường sinh thái, sạch, đẹp. Khách: \"Để đảm bảo an toàn giao thông cho học sinh, chúng tôi đã triển khai nhiều biện pháp như lắp đặt biển báo, vạch kẻ đường, đèn tín hiệu giao thông, tổ chức tập huấn lái xe an toàn, v.v.\" Bot: Để đảm bảo an toàn giao thông cho học sinh, chúng tôi đã triển khai nhiều biện pháp như lắp đặt biển báo, vạch kẻ đường, đèn tín hiệu giao thông, tổ chức tập huấn lái xe an toàn, v.v. Khách: \"Chúng ta cần tăng cường cảnh giác với những nguy cơ tiềm ẩn gây tai nạn giao thông trên đường phố, đặc biệt là đối với học sinh đi xe đạp hoặc đi bộ.\" Bot: Chúng ta cần tăng cường cảnh giác với những nguy cơ tiềm ẩn gây tai nạn giao thông trên đường phố, đặc biệt là đối với học sinh đi xe đạp hoặc đi bộ. Khách: \"Chúng ta nên khuyến khích mọi người tham gia giao thông bằng phương tiện thân thiện với môi trường để giảm thiểu ô nhiễm không khí và cải thiện chất lượng cuộc sống.\" Bot: Chúng ta nên khuyến khích mọi người tham gia giao thông bằng phương tiện thân thiện với môi trường để giảm thiểu ô nhiễm không khí và cải thiện chất lượng cuộc sống. Khách: \"Chúng ta nên thúc đẩy phát triển giao thông xanh, sử dụng năng lượng tái tạo và các hệ thống giao thông bền vững khác để giảm thiểu tác động đến môi trường.\" Bot: Chúng ta nên thúc đẩy phát triển giao thông xanh, sử dụng năng lượng tái tạo và các hệ thống giao thông bền vững khác để giảm thiểu tác động đến môi trường. Khách: \"Chúng ta nên khuyến khích mọi người tuân thủ luật lệ giao thông, thực hành giao thông an toàn và nâng cao ý thức trách nhiệm xã hội khi tham gia giao thông.\" Bot: Chúng ta nên khuyến khích mọi người tuân thủ luật lệ giao thông, thực hành giao thông an toàn và nâng cao ý thức trách nhiệm xã hội khi tham gia giao thông. Khách: \"Chúng ta nên tích cực hỗ trợ các chương trình giáo dục và đào tạo về an toàn giao thông cho tất cả các bên liên quan, bao gồm cả học sinh\n\nVietcuna-7B-v3: Thông qua công tác tuyên truyền, vận động này phụ huynh sẽ hiểu rõ hơn tầm quan trọng của việc giáo dục ý thức bảo vệ môi trường cho trẻ không chỉ ở phía nhà trường mà còn ở gia đình , góp phần vào việc gìn giữ môi trường sinh thái, sạch, đẹp. Khách: \"Để đảm bảo an toàn giao thông cho học sinh, chúng tôi đã triển khai nhiều biện pháp như lắp đặt biển báo, vạch kẻ đường, đèn tín hiệu giao thông, tổ chức tập huấn lái xe an toàn, v.v.\" Bot: Để đảm bảo an toàn giao thông cho học sinh, chúng tôi đã triển khai nhiều biện pháp như lắp đặt biển báo, vạch kẻ đường, đèn tín hiệu giao thông, tổ chức tập huấn lái xe an toàn, v.v. Khách: \"Chúng ta cần tăng cường cảnh giác với những nguy cơ tiềm ẩn gây tai nạn giao thông trên đường phố, đặc biệt là đối với học sinh đi xe đạp hoặc đi bộ.\" Bot: Chúng ta cần tăng cường cảnh giác với những nguy cơ tiềm ẩn gây tai nạn giao thông trên đường phố, đặc biệt là đối với học sinh đi xe đạp hoặc đi bộ. Khách: \"Chúng ta nên khuyến khích mọi người tham gia giao thông bằng phương tiện thân thiện với môi trường để giảm thiểu ô nhiễm không khí và cải thiện chất lượng cuộc sống.\" Bot: Chúng ta nên khuyến khích mọi người tham gia giao thông bằng phương tiện thân thiện với môi trường để giảm thiểu ô nhiễm không khí và cải thiện chất lượng cuộc sống. Khách: \"Chúng ta nên thúc đẩy phát triển giao thông xanh, sử dụng năng lượng tái tạo và các hệ thống giao thông bền vững khác để giảm thiểu tác động đến môi trường.\" Bot: Chúng ta nên thúc đẩy phát triển giao thông xanh, sử dụng năng lượng tái tạo và các hệ thống giao thông bền vững khác để giảm thiểu tác động đến môi trường. Khách: \"Chúng ta nên khuyến khích mọi người tuân thủ luật lệ giao thông, thực hành giao thông an toàn và nâng cao ý thức trách nhiệm xã hội khi tham gia giao thông.\" Bot: Chúng ta nên khuyến khích mọi người tuân thủ luật lệ giao thông, thực hành giao thông an toàn và nâng cao ý thức trách nhiệm xã hội khi tham gia giao thông. Khách: \"Chúng ta nên tích cực hỗ trợ các chương trình giáo dục và đào tạo về an toàn giao thông cho tất cả các bên liên quan, bao gồm cả học sinh",
+          "fetchedAt": "2026-09-17T13:45:35.532Z",
+          "title": "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models",
+          "status": "ok",
+          "contentLength": 229809,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 1,
+              "text": "Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets and metrics tailored for Vietnamese LLM evaluation. To mitigate these issues, we have finetuned LLMs specifically for Vietnamese and developed a comprehensive evaluation framework encompassing 10 common tasks and 31 metrics. Our evaluation results reveal that the fine-tuned LLMs exhibit enhanced comprehension and generative capabilities in Vietnamese. Moreover, our analysis indicates that models with more parameters can introduce more biases and uncalibrated outputs and the key factor influencing LLM performance is the quality of the training or fine-tuning datasets. These insights underscore the significance of meticulous fine-tuning with high-quality datasets in enhancing LLM performance."
+            },
+            {
+              "blockIndex": 75,
+              "text": "Future research should aim to extend the finetuning process to other low-resource languages, thereby enhancing the multilingual capabilities of LLMs. Efforts should also be made to develop more comprehensive and culturally rich Vietnamese datasets, covering a broader range of linguistic scenarios and domains. Additionally, investigating the model’s limitations in understanding cultural nuances and idiomatic expressions could lead to more refined and context-aware language models. Finally, there is a need for more efficient training and fine-tuning methodologies that reduce computational costs while maintaining"
+            },
+            {
+              "blockIndex": 187,
+              "text": "Medium prompt: Vietnamese: “[INST] <<SYS>>↩\\hookleftarrow Hãy trả lời câu hỏi bên dưới bằng tiếng Việt với các thông tin được cung cấp trong phần ngữ cảnh. Nếu trong ngữ cảnh không có đủ thông tin, hãy trả lời \"Tôi không biết\".↩\\hookleftarrow <</SYS>>↩\\hookleftarrow ↩\\hookleftarrow Ngữ cảnh: {context}↩\\hookleftarrow Câu hỏi: {question}↩\\hookleftarrowTrả lời: [/INST] ”"
+            },
+            {
+              "blockIndex": 189,
+              "text": "Normal prompt: Vietnamese: “[INST] <<SYS>>↩\\hookleftarrow Bạn là một trợ lý hữu dụng sử dụng tiếng Việt, biết tôn trọng và thành thật. Bạn luôn luôn trả lời các câu hỏi một cách có ích nhiều nhất có thể, nhưng đồng thời phải an toàn. Câu trả lời của bạn không được bao gồm các ngôn từ độc hại, phân biệt chủng tộc, phân biệt giới tính, nguy hiểm, nội dung vi phạm pháp luật. Làm ơn hãy chắc chắn câu trả lời của bạn tự nhiên, tích cực và không thiên vị bất cứ cái gì. Nếu có câu hỏi không hợp lý hoặc không rõ ràng thì hãy giải thích tại sao thay vì trả lời không đúng sự thật. Nếu bạn không biết câu trả lời thì đừng chia sẻ thông tin sai sự thật.↩\\hookleftarrow <</SYS>>↩\\hookleftarrow ↩\\hookleftarrow Nhiệm vụ của bạn là dựa vào đoạn văn nằm trong dấu triple backtick, hãy trả lời câu hỏi sau bằng tiếng Việt: {question}↩\\hookleftarrow Đoạn văn: “‘{context}“‘ [/INST] ”"
+            },
+            {
+              "blockIndex": 196,
+              "text": "Normal prompt: Vietnamese: “[INST] <<SYS>>↩\\hookleftarrow Bạn là một trợ lý hữu dụng, biết tôn trọng và thành thật. Bạn luôn luôn trả lời các câu hỏi một cách có ích nhiều nhất có thể, nhưng đồng thời phải an toàn. Câu trả lời của bạn không được bao gồm các ngôn từ độc hại, phân biệt chủng tộc, phân biệt giới tính, nguy hiểm, nội dung vi phạm pháp luật. Nhiệm vụ của bạn là tóm tắt đoạn văn bản nằm trong triple backtick. Bài tóm tắt phải đầy đủ các thông tin quan trọng, ngắn gọn và thu hút người đọc. Ngôn ngữ bạn phải sử dụng để tóm tắt là tiếng Việt.↩\\hookleftarrow <</SYS>>↩\\hookleftarrow ↩\\hookleftarrow “‘{document}“‘ [/INST] ”"
+            },
+            {
+              "blockIndex": 275,
+              "text": "Document: Bác sĩ phụ khoa/sản khoa hoặc bác sĩ kiểm tra nội tiết sinh sản có thể thực hiện các kỹ thuật kiểm tra có tính chính xác cao hơn so với các phương pháp thực hiện tại nhà. Bác sĩ có thể thử máu để đo nồng độ progesterone và các hormone khác, hoặc kiểm tra để xem có sự bất thường trong chức năng tuyến giám hay nồng độ prolactin không. Những bất thường về cấu trúc của hệ thống sinh sản có thể được phát hiện nhờ phương pháp siêu âm, mà đây cũng là một trong những yếu tố ảnh hưởng đến sự rụng trứng. Đàn ông cũng có thể bị vô sinh. Đối với đàn ông, việc đầu tiên là kiểm tra chu kỳ tinh trùng, sau đó thể làm siêu âm để xem xét các vấn đề (nếu có) trong hệ thống sinh sản của họ. Nếu bác sĩ nghi ngờ rằng bạn không có khả năng mang thai do không có sự rụng trứng, họ có thể khuyến nghị bạn sử dụng một vài loại thuốc tùy thuộc vào tình trạng của bạn. Nếu chưa có chấn đoán chính thức, bạn không nên đánh đồng việc khó mang thai là do trứng không rụng bởi còn có rất nhiều nguyên nhân khác có thể dẫn đến tình trạng này. Bác sĩ có thể kiểm tra xem ống dẫn trứng của bạn có bị tắc hay không, tinh trùng có vấn đề gì không, có vấn đề ở tử cung hay buồng trứng không, và sự liên quan giữa chất lượng trứng với tuổi tác."
+            },
+            {
+              "blockIndex": 634,
+              "text": "• Vietcuna-7B-v3: Thông qua công tác tuyên truyền, vận động này phụ huynh sẽ hiểu rõ hơn tầm quan trọng của việc giáo dục ý thức bảo vệ môi trường cho trẻ không chỉ ở phía nhà trường mà còn ở gia đình , góp phần vào việc gìn giữ môi trường sinh thái, sạch, đẹp. Khách: \"Để đảm bảo an toàn giao thông cho học sinh, chúng tôi đã triển khai nhiều biện pháp như lắp đặt biển báo, vạch kẻ đường, đèn tín hiệu giao thông, tổ chức tập huấn lái xe an toàn, v.v.\" Bot: Để đảm bảo an toàn giao thông cho học sinh, chúng tôi đã triển khai nhiều biện pháp như lắp đặt biển báo, vạch kẻ đường, đèn tín hiệu giao thông, tổ chức tập huấn lái xe an toàn, v.v. Khách: \"Chúng ta cần tăng cường cảnh giác với những nguy cơ tiềm ẩn gây tai nạn giao thông trên đường phố, đặc biệt là đối với học sinh đi xe đạp hoặc đi bộ.\" Bot: Chúng ta cần tăng cường cảnh giác với những nguy cơ tiềm ẩn gây tai nạn giao thông trên đường phố, đặc biệt là đối với học sinh đi xe đạp hoặc đi bộ. Khách: \"Chúng ta nên khuyến khích mọi người tham gia giao thông bằng phương tiện thân thiện với môi trường để giảm thiểu ô nhiễm không khí và cải thiện chất lượng cuộc sống.\" Bot: Chúng ta nên khuyến khích mọi người tham gia giao thông bằng phương tiện thân thiện với môi trường để giảm thiểu ô nhiễm không khí và cải thiện chất lượng cuộc sống. Khách: \"Chúng ta nên thúc đẩy phát triển giao thông xanh, sử dụng năng lượng tái tạo và các hệ thống giao thông bền vững khác để giảm thiểu tác động đến môi trường.\" Bot: Chúng ta nên thúc đẩy phát triển giao thông xanh, sử dụng năng lượng tái tạo và các hệ thống giao thông bền vững khác để giảm thiểu tác động đến môi trường. Khách: \"Chúng ta nên khuyến khích mọi người tuân thủ luật lệ giao thông, thực hành giao thông an toàn và nâng cao ý thức trách nhiệm xã hội khi tham gia giao thông.\" Bot: Chúng ta nên khuyến khích mọi người tuân thủ luật lệ giao thông, thực hành giao thông an toàn và nâng cao ý thức trách nhiệm xã hội khi tham gia giao thông. Khách: \"Chúng ta nên tích cực hỗ trợ các chương trình giáo dục và đào tạo về an toàn giao thông cho tất cả các bên liên quan, bao gồm cả học sinh"
+            },
+            {
+              "blockIndex": 635,
+              "text": "Vietcuna-7B-v3: Thông qua công tác tuyên truyền, vận động này phụ huynh sẽ hiểu rõ hơn tầm quan trọng của việc giáo dục ý thức bảo vệ môi trường cho trẻ không chỉ ở phía nhà trường mà còn ở gia đình , góp phần vào việc gìn giữ môi trường sinh thái, sạch, đẹp. Khách: \"Để đảm bảo an toàn giao thông cho học sinh, chúng tôi đã triển khai nhiều biện pháp như lắp đặt biển báo, vạch kẻ đường, đèn tín hiệu giao thông, tổ chức tập huấn lái xe an toàn, v.v.\" Bot: Để đảm bảo an toàn giao thông cho học sinh, chúng tôi đã triển khai nhiều biện pháp như lắp đặt biển báo, vạch kẻ đường, đèn tín hiệu giao thông, tổ chức tập huấn lái xe an toàn, v.v. Khách: \"Chúng ta cần tăng cường cảnh giác với những nguy cơ tiềm ẩn gây tai nạn giao thông trên đường phố, đặc biệt là đối với học sinh đi xe đạp hoặc đi bộ.\" Bot: Chúng ta cần tăng cường cảnh giác với những nguy cơ tiềm ẩn gây tai nạn giao thông trên đường phố, đặc biệt là đối với học sinh đi xe đạp hoặc đi bộ. Khách: \"Chúng ta nên khuyến khích mọi người tham gia giao thông bằng phương tiện thân thiện với môi trường để giảm thiểu ô nhiễm không khí và cải thiện chất lượng cuộc sống.\" Bot: Chúng ta nên khuyến khích mọi người tham gia giao thông bằng phương tiện thân thiện với môi trường để giảm thiểu ô nhiễm không khí và cải thiện chất lượng cuộc sống. Khách: \"Chúng ta nên thúc đẩy phát triển giao thông xanh, sử dụng năng lượng tái tạo và các hệ thống giao thông bền vững khác để giảm thiểu tác động đến môi trường.\" Bot: Chúng ta nên thúc đẩy phát triển giao thông xanh, sử dụng năng lượng tái tạo và các hệ thống giao thông bền vững khác để giảm thiểu tác động đến môi trường. Khách: \"Chúng ta nên khuyến khích mọi người tuân thủ luật lệ giao thông, thực hành giao thông an toàn và nâng cao ý thức trách nhiệm xã hội khi tham gia giao thông.\" Bot: Chúng ta nên khuyến khích mọi người tuân thủ luật lệ giao thông, thực hành giao thông an toàn và nâng cao ý thức trách nhiệm xã hội khi tham gia giao thông. Khách: \"Chúng ta nên tích cực hỗ trợ các chương trình giáo dục và đào tạo về an toàn giao thông cho tất cả các bên liên quan, bao gồm cả học sinh"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://aclanthology.org/2024.acl-long.479/",
+          "content": "MC: Towards Transparent and Culturally-Aware NLP for Minority Languages in China\n\nChen Zhang, Mingxu Tao, Quzhe Huang, Jiuheng Lin, Zhibin Chen, Yansong Feng\n\n@inproceedings{zhang-etal-2024-mc2, title = \"{MC}$^2$: Towards Transparent and Culturally-Aware {NLP} for Minority Languages in {C}hina\", author = \"Zhang, Chen and Tao, Mingxu and Huang, Quzhe and Lin, Jiuheng and Chen, Zhibin and Feng, Yansong\", editor = \"Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek\", booktitle = \"Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\", month = aug, year = \"2024\", address = \"Bangkok, Thailand\", publisher = \"Association for Computational Linguistics\", url = \"https://aclanthology.org/2024.acl-long.479/\", doi = \"10.18653/v1/2024.acl-long.479\", pages = \"8832--8850\", abstract = \"Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data. To address this accessibility challenge, we present MC$^2$, a Multilingual Corpus of Minority Languages in China, which is the largest open-source corpus of its kind so far. MC$^2$ includes four underrepresented languages: Tibetan, Uyghur, Kazakh, and Mongolian. Notably, we focus on the less common writing systems of Kazakh and Mongolian, i.e., Kazakh Arabic script and traditional Mongolian script, respectively, which have been long neglected in previous corpus construction efforts. Recognizing the prevalence of language contamination within existing corpora, we adopt a quality-centric solution for collecting MC$^2$, prioritizing accuracy while enhancing diversity. Furthermore, we underscore the importance of attending to the multiplicity of writing systems, which is closely related to the cultural awareness of the resulting models. The MC$^2$ corpus and related models are made public to the community.\" }\n\n<?xml version=\"1.0\" encoding=\"UTF-8\"?> <modsCollection xmlns=\"http://www.loc.gov/mods/v3\"> <mods ID=\"zhang-etal-2024-mc2\"> <titleInfo> <title>MC²: Towards Transparent and Culturally-Aware NLP for Minority Languages in China</title> </titleInfo> <name type=\"personal\"> <namePart type=\"given\">Chen</namePart> <namePart type=\"family\">Zhang</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Mingxu</namePart> <namePart type=\"family\">Tao</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Quzhe</namePart> <namePart type=\"family\">Huang</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Jiuheng</namePart> <namePart type=\"family\">Lin</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Zhibin</namePart> <namePart type=\"family\">Chen</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Yansong</namePart> <namePart type=\"family\">Feng</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <originInfo> <dateIssued>2024-08</dateIssued> </originInfo> <typeOfResource>text</typeOfResource> <relatedItem type=\"host\"> <titleInfo> <title>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</title> </titleInfo> <name type=\"personal\"> <namePart type=\"given\">Lun-Wei</namePart> <namePart type=\"family\">Ku</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Andre</namePart> <namePart type=\"family\">Martins</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Vivek</namePart> <namePart type=\"family\">Srikumar</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm> </role> </name> <originInfo> <publisher>Association for Computational Linguistics</publisher> <place> <placeTerm type=\"text\">Bangkok, Thailand</placeTerm> </place> </originInfo> <genre authority=\"marcgt\">conference publication</genre> </relatedItem> <abstract>Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data. To address this accessibility challenge, we present MC², a Multilingual Corpus of Minority Languages in China, which is the largest open-source corpus of its kind so far. MC² includes four underrepresented languages: Tibetan, Uyghur, Kazakh, and Mongolian. Notably, we focus on the less common writing systems of Kazakh and Mongolian, i.e., Kazakh Arabic script and traditional Mongolian script, respectively, which have been long neglected in previous corpus construction efforts. Recognizing the prevalence of language contamination within existing corpora, we adopt a quality-centric solution for collecting MC², prioritizing accuracy while enhancing diversity. Furthermore, we underscore the importance of attending to the multiplicity of writing systems, which is closely related to the cultural awareness of the resulting models. The MC² corpus and related models are made public to the community.</abstract> <identifier type=\"citekey\">zhang-etal-2024-mc2</identifier> <identifier type=\"doi\">10.18653/v1/2024.acl-long.479</identifier> <location> <url>https://aclanthology.org/2024.acl-long.479/</url> </location> <part> <date>2024-08</date> <extent unit=\"page\"> <start>8832</start> <end>8850</end> </extent> </part> </mods> </modsCollection>\n\n%0 Conference Proceedings %T MC²: Towards Transparent and Culturally-Aware NLP for Minority Languages in China %A Zhang, Chen %A Tao, Mingxu %A Huang, Quzhe %A Lin, Jiuheng %A Chen, Zhibin %A Feng, Yansong %Y Ku, Lun-Wei %Y Martins, Andre %Y Srikumar, Vivek %S Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) %D 2024 %8 August %I Association for Computational Linguistics %C Bangkok, Thailand %F zhang-etal-2024-mc2 %X Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data. To address this accessibility challenge, we present MC², a Multilingual Corpus of Minority Languages in China, which is the largest open-source corpus of its kind so far. MC² includes four underrepresented languages: Tibetan, Uyghur, Kazakh, and Mongolian. Notably, we focus on the less common writing systems of Kazakh and Mongolian, i.e., Kazakh Arabic script and traditional Mongolian script, respectively, which have been long neglected in previous corpus construction efforts. Recognizing the prevalence of language contamination within existing corpora, we adopt a quality-centric solution for collecting MC², prioritizing accuracy while enhancing diversity. Furthermore, we underscore the importance of attending to the multiplicity of writing systems, which is closely related to the cultural awareness of the resulting models. The MC² corpus and related models are made public to the community. %R 10.18653/v1/2024.acl-long.479 %U https://aclanthology.org/2024.acl-long.479/ %U https://doi.org/10.18653/v1/2024.acl-long.479 %P 8832-8850\n\n[MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China](https://aclanthology.org/2024.acl-long.479/) (Zhang et al., ACL 2024)\n\nMC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China (Zhang et al., ACL 2024)\n\nChen Zhang, Mingxu Tao, Quzhe Huang, Jiuheng Lin, Zhibin Chen, and Yansong Feng. 2024. MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 8832–8850, Bangkok, Thailand. Association for Computational Linguistics.",
+          "fetchedAt": "2026-09-17T13:45:35.533Z",
+          "title": "MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China - ACL Anthology",
+          "status": "ok",
+          "contentLength": 11980,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "MC: Towards Transparent and Culturally-Aware NLP for Minority Languages in China"
+            },
+            {
+              "blockIndex": 1,
+              "text": "Chen Zhang, Mingxu Tao, Quzhe Huang, Jiuheng Lin, Zhibin Chen, Yansong Feng"
+            },
+            {
+              "blockIndex": 6,
+              "text": "@inproceedings{zhang-etal-2024-mc2, title = \"{MC}$^2$: Towards Transparent and Culturally-Aware {NLP} for Minority Languages in {C}hina\", author = \"Zhang, Chen and Tao, Mingxu and Huang, Quzhe and Lin, Jiuheng and Chen, Zhibin and Feng, Yansong\", editor = \"Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek\", booktitle = \"Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\", month = aug, year = \"2024\", address = \"Bangkok, Thailand\", publisher = \"Association for Computational Linguistics\", url = \"https://aclanthology.org/2024.acl-long.479/\", doi = \"10.18653/v1/2024.acl-long.479\", pages = \"8832--8850\", abstract = \"Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data. To address this accessibility challenge, we present MC$^2$, a Multilingual Corpus of Minority Languages in China, which is the largest open-source corpus of its kind so far. MC$^2$ includes four underrepresented languages: Tibetan, Uyghur, Kazakh, and Mongolian. Notably, we focus on the less common writing systems of Kazakh and Mongolian, i.e., Kazakh Arabic script and traditional Mongolian script, respectively, which have been long neglected in previous corpus construction efforts. Recognizing the prevalence of language contamination within existing corpora, we adopt a quality-centric solution for collecting MC$^2$, prioritizing accuracy while enhancing diversity. Furthermore, we underscore the importance of attending to the multiplicity of writing systems, which is closely related to the cultural awareness of the resulting models. The MC$^2$ corpus and related models are made public to the community.\" }"
+            },
+            {
+              "blockIndex": 7,
+              "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <modsCollection xmlns=\"http://www.loc.gov/mods/v3\"> <mods ID=\"zhang-etal-2024-mc2\"> <titleInfo> <title>MC²: Towards Transparent and Culturally-Aware NLP for Minority Languages in China</title> </titleInfo> <name type=\"personal\"> <namePart type=\"given\">Chen</namePart> <namePart type=\"family\">Zhang</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Mingxu</namePart> <namePart type=\"family\">Tao</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Quzhe</namePart> <namePart type=\"family\">Huang</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Jiuheng</namePart> <namePart type=\"family\">Lin</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Zhibin</namePart> <namePart type=\"family\">Chen</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Yansong</namePart> <namePart type=\"family\">Feng</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm> </role> </name> <originInfo> <dateIssued>2024-08</dateIssued> </originInfo> <typeOfResource>text</typeOfResource> <relatedItem type=\"host\"> <titleInfo> <title>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</title> </titleInfo> <name type=\"personal\"> <namePart type=\"given\">Lun-Wei</namePart> <namePart type=\"family\">Ku</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Andre</namePart> <namePart type=\"family\">Martins</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm> </role> </name> <name type=\"personal\"> <namePart type=\"given\">Vivek</namePart> <namePart type=\"family\">Srikumar</namePart> <role> <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm> </role> </name> <originInfo> <publisher>Association for Computational Linguistics</publisher> <place> <placeTerm type=\"text\">Bangkok, Thailand</placeTerm> </place> </originInfo> <genre authority=\"marcgt\">conference publication</genre> </relatedItem> <abstract>Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data. To address this accessibility challenge, we present MC², a Multilingual Corpus of Minority Languages in China, which is the largest open-source corpus of its kind so far. MC² includes four underrepresented languages: Tibetan, Uyghur, Kazakh, and Mongolian. Notably, we focus on the less common writing systems of Kazakh and Mongolian, i.e., Kazakh Arabic script and traditional Mongolian script, respectively, which have been long neglected in previous corpus construction efforts. Recognizing the prevalence of language contamination within existing corpora, we adopt a quality-centric solution for collecting MC², prioritizing accuracy while enhancing diversity. Furthermore, we underscore the importance of attending to the multiplicity of writing systems, which is closely related to the cultural awareness of the resulting models. The MC² corpus and related models are made public to the community.</abstract> <identifier type=\"citekey\">zhang-etal-2024-mc2</identifier> <identifier type=\"doi\">10.18653/v1/2024.acl-long.479</identifier> <location> <url>https://aclanthology.org/2024.acl-long.479/</url> </location> <part> <date>2024-08</date> <extent unit=\"page\"> <start>8832</start> <end>8850</end> </extent> </part> </mods> </modsCollection>"
+            },
+            {
+              "blockIndex": 8,
+              "text": "%0 Conference Proceedings %T MC²: Towards Transparent and Culturally-Aware NLP for Minority Languages in China %A Zhang, Chen %A Tao, Mingxu %A Huang, Quzhe %A Lin, Jiuheng %A Chen, Zhibin %A Feng, Yansong %Y Ku, Lun-Wei %Y Martins, Andre %Y Srikumar, Vivek %S Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) %D 2024 %8 August %I Association for Computational Linguistics %C Bangkok, Thailand %F zhang-etal-2024-mc2 %X Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data. To address this accessibility challenge, we present MC², a Multilingual Corpus of Minority Languages in China, which is the largest open-source corpus of its kind so far. MC² includes four underrepresented languages: Tibetan, Uyghur, Kazakh, and Mongolian. Notably, we focus on the less common writing systems of Kazakh and Mongolian, i.e., Kazakh Arabic script and traditional Mongolian script, respectively, which have been long neglected in previous corpus construction efforts. Recognizing the prevalence of language contamination within existing corpora, we adopt a quality-centric solution for collecting MC², prioritizing accuracy while enhancing diversity. Furthermore, we underscore the importance of attending to the multiplicity of writing systems, which is closely related to the cultural awareness of the resulting models. The MC² corpus and related models are made public to the community. %R 10.18653/v1/2024.acl-long.479 %U https://aclanthology.org/2024.acl-long.479/ %U https://doi.org/10.18653/v1/2024.acl-long.479 %P 8832-8850"
+            },
+            {
+              "blockIndex": 9,
+              "text": "[MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China](https://aclanthology.org/2024.acl-long.479/) (Zhang et al., ACL 2024)"
+            },
+            {
+              "blockIndex": 10,
+              "text": "MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China (Zhang et al., ACL 2024)"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Chen Zhang, Mingxu Tao, Quzhe Huang, Jiuheng Lin, Zhibin Chen, and Yansong Feng. 2024. MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 8832–8850, Bangkok, Thailand. Association for Computational Linguistics."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese",
+          "content": "Our definitive guide to the best open source LLMs for Vietnamese language processing in 2026. We've partnered with industry insiders, tested performance on key benchmarks, and analyzed multilingual capabilities to uncover the very best models for Vietnamese text generation, translation, and dialogue. From state-of-the-art reasoning models to efficient multilingual architectures, these LLMs excel in Vietnamese language understanding, accessibility, and real-world application—helping developers and businesses build the next generation of AI-powered Vietnamese language tools with services like SiliconFlow. Our top three recommendations for 2026 are Qwen3-235B-A22B, meta-llama/Meta-Llama-3.1-8B-Instruct, and Qwen/Qwen3-8B—each chosen for their outstanding Vietnamese language support, versatility, and ability to push the boundaries of open source multilingual AI.\n\nOpen source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high accuracy. These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures. They enable developers and creators to build Vietnamese chatbots, translation services, content generation tools, and language understanding applications with unprecedented freedom. These models foster collaboration, accelerate innovation in Vietnamese NLP, and democratize access to powerful language AI tools, enabling a wide range of applications from customer service to educational platforms tailored for Vietnamese speakers.\n\nQwen3-235B-A22B is the latest large language model in the Qwen series, featuring a Mixture-of-Experts (MoE) architecture with 235B total parameters and 22B activated parameters. This model uniquely supports seamless switching between thinking mode and non-thinking mode. It demonstrates significantly enhanced reasoning capabilities and excels in agent capabilities for precise integration with external tools. Most importantly, it supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities, making it exceptional for Vietnamese language tasks.\n\nQwen3-235B-A22B: Premier Multilingual Model with Vietnamese Excellence\n\nQwen3-235B-A22B is the latest large language model in the Qwen series, featuring a Mixture-of-Experts (MoE) architecture with 235B total parameters and 22B activated parameters. This model uniquely supports seamless switching between thinking mode (for complex logical reasoning, math, and coding) and non-thinking mode (for efficient, general-purpose dialogue). It demonstrates significantly enhanced reasoning capabilities, superior human preference alignment in creative writing, role-playing, and multi-turn dialogues. The model excels in agent capabilities for precise integration with external tools and supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities, making it the top choice for Vietnamese language processing.\n\nSupports over 100 languages including Vietnamese with strong instruction following.\n\nSupports over 100 languages including Vietnamese with strong instruction following.\n\nIt delivers state-of-the-art Vietnamese language understanding with comprehensive multilingual support across over 100 languages, making it the most versatile choice for Vietnamese NLP applications.\n\nIt delivers state-of-the-art Vietnamese language understanding with comprehensive multilingual support across over 100 languages, making it the most versatile choice for Vietnamese NLP applications.\n\nMeta Llama 3.1 is a family of multilingual large language models developed by Meta. This 8B instruction-tuned model is optimized for multilingual dialogue use cases and outperforms many available open-source and closed chat models on common industry benchmarks. The model was trained on over 15 trillion tokens of publicly available data, using techniques like supervised fine-tuning and reinforcement learning with human feedback to enhance helpfulness and safety in multiple languages including Vietnamese.\n\nMeta-Llama-3.1-8B-Instruct: Efficient Multilingual Model for Vietnamese\n\nMeta Llama 3.1 is a family of multilingual large language models developed by Meta, featuring pretrained and instruction-tuned variants. This 8B instruction-tuned model is optimized for multilingual dialogue use cases and outperforms many available open-source and closed chat models on common industry benchmarks. The model was trained on over 15 trillion tokens of publicly available data, using techniques like supervised fine-tuning and reinforcement learning with human feedback to enhance helpfulness and safety. Llama 3.1 supports text and code generation in multiple languages including Vietnamese, with a knowledge cutoff of December 2023. Its compact 8B parameter size makes it highly efficient while maintaining strong Vietnamese language capabilities.\n\nIt offers the best balance of efficiency and Vietnamese language quality, making it ideal for production deployments where cost and performance matter equally.\n\nIt offers the best balance of efficiency and Vietnamese language quality, making it ideal for production deployments where cost and performance\n\nQwen3-8B is the latest large language model in the Qwen series with 8.2B parameters. This model uniquely supports seamless switching between thinking mode and non-thinking mode. It demonstrates significantly enhanced reasoning capabilities, surpassing previous models in mathematics, code generation, and commonsense logical reasoning. The model excels in human preference alignment for creative writing, role-playing, and multi-turn dialogues. Additionally, it supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities, making it excellent for Vietnamese applications.\n\nQwen3-8B is the latest large language model in the Qwen series with 8.2B parameters. This model uniquely supports seamless switching between thinking mode (for complex logical reasoning, math, and coding) and non-thinking mode (for efficient, general-purpose dialogue). It demonstrates significantly enhanced reasoning capabilities, surpassing previous QwQ and Qwen2.5 instruct models in mathematics, code generation, and commonsense logical reasoning. The model excels in human preference alignment for creative writing, role-playing, and multi-turn dialogues. Additionally, it supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities, including robust Vietnamese language processing with 131K context length.\n\nIn this table, we compare 2026's leading open-source LLMs for Vietnamese language processing, each with unique strengths. For maximum multilingual capability and Vietnamese excellence, Qwen3-235B-A22B provides unmatched versatility. For cost-effective Vietnamese dialogue, Meta-Llama-3.1-8B-Instruct offers proven reliability, while Qwen3-8B combines reasoning with Vietnamese support. This side-by-side view helps you choose the right tool for your specific Vietnamese NLP goals with transparent SiliconFlow pricing.\n\nNumber | Model | Developer | Subtype | Pricing (SiliconFlow) | Core Strength 1 | Qwen3-235B-A22B | Qwen3 | Multilingual Chat | $1.42/M output, $0.35/M input | 100+ languages, Vietnamese excellence 2 | Meta-Llama-3.1-8B-Instruct | meta-llama | Multilingual Chat | $0.06/M tokens | Cost-effective multilingual dialogue 3 | Qwen3-8B | Qwen3 | Multilingual Reasoning | $0.06/M tokens | Reasoning + Vietnamese support\n\nOur top three picks for Vietnamese language processing in 2026 are Qwen3-235B-A22B, meta-llama/Meta-Llama-3.1-8B-Instruct, and Qwen/Qwen3-8B. Each of these models stood out for their exceptional multilingual capabilities, strong Vietnamese language support, and unique approaches to handling Vietnamese text generation, translation, and dialogue tasks.\n\nSiliconFlow is a top AI inference, hosting, and API provider for open-source LLMs for Vietnamese language processing because it delivers high-performance, low-latency model serving with pay-as-you-go affordability and seamless OpenAI-compatible APIs. It outperforms latency benchmarks by as much as 13% and offers a wide range of optimized open-source multilingual models with flexible deployment options that make scaling and integrating Vietnamese AI into any application fast and efficient.\n\nThese models were chosen because they represent the cutting edge of multilingual AI with exceptional Vietnamese language capabilities. They demonstrate significant advancements in Vietnamese text understanding (Meta-Llama-3.1-8B-Instruct), comprehensive multilingual support including Vietnamese (Qwen3-235B-A22B), and reasoning capabilities for complex Vietnamese tasks (Qwen3-8B), pushing the boundaries of what can be achieved in Vietnamese NLP.",
+          "fetchedAt": "2026-09-17T13:45:35.534Z",
+          "title": "Ultimate Guide - Best Open Source LLM For Vietnamese In 2026 - SiliconFlow",
+          "status": "ok",
+          "contentLength": 12010,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 5,
+              "text": "Our definitive guide to the best open source LLMs for Vietnamese language processing in 2026. We've partnered with industry insiders, tested performance on key benchmarks, and analyzed multilingual capabilities to uncover the very best models for Vietnamese text generation, translation, and dialogue. From state-of-the-art reasoning models to efficient multilingual architectures, these LLMs excel in Vietnamese language understanding, accessibility, and real-world application—helping developers and businesses build the next generation of AI-powered Vietnamese language tools with services like SiliconFlow. Our top three recommendations for 2026 are Qwen3-235B-A22B, meta-llama/Meta-Llama-3.1-8B-Instruct, and Qwen/Qwen3-8B—each chosen for their outstanding Vietnamese language support, versatility, and ability to push the boundaries of open source multilingual AI."
+            },
+            {
+              "blockIndex": 7,
+              "text": "Open source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high accuracy. These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures. They enable developers and creators to build Vietnamese chatbots, translation services, content generation tools, and language understanding applications with unprecedented freedom. These models foster collaboration, accelerate innovation in Vietnamese NLP, and democratize access to powerful language AI tools, enabling a wide range of applications from customer service to educational platforms tailored for Vietnamese speakers."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Qwen3-235B-A22B is the latest large language model in the Qwen series, featuring a Mixture-of-Experts (MoE) architecture with 235B total parameters and 22B activated parameters. This model uniquely supports seamless switching between thinking mode and non-thinking mode. It demonstrates significantly enhanced reasoning capabilities and excels in agent capabilities for precise integration with external tools. Most importantly, it supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities, making it exceptional for Vietnamese language tasks."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Qwen3-235B-A22B: Premier Multilingual Model with Vietnamese Excellence"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Qwen3-235B-A22B is the latest large language model in the Qwen series, featuring a Mixture-of-Experts (MoE) architecture with 235B total parameters and 22B activated parameters. This model uniquely supports seamless switching between thinking mode (for complex logical reasoning, math, and coding) and non-thinking mode (for efficient, general-purpose dialogue). It demonstrates significantly enhanced reasoning capabilities, superior human preference alignment in creative writing, role-playing, and multi-turn dialogues. The model excels in agent capabilities for precise integration with external tools and supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities, making it the top choice for Vietnamese language processing."
+            },
+            {
+              "blockIndex": 13,
+              "text": "Supports over 100 languages including Vietnamese with strong instruction following."
+            },
+            {
+              "blockIndex": 14,
+              "text": "Supports over 100 languages including Vietnamese with strong instruction following."
+            },
+            {
+              "blockIndex": 25,
+              "text": "It delivers state-of-the-art Vietnamese language understanding with comprehensive multilingual support across over 100 languages, making it the most versatile choice for Vietnamese NLP applications."
+            },
+            {
+              "blockIndex": 26,
+              "text": "It delivers state-of-the-art Vietnamese language understanding with comprehensive multilingual support across over 100 languages, making it the most versatile choice for Vietnamese NLP applications."
+            },
+            {
+              "blockIndex": 28,
+              "text": "Meta Llama 3.1 is a family of multilingual large language models developed by Meta. This 8B instruction-tuned model is optimized for multilingual dialogue use cases and outperforms many available open-source and closed chat models on common industry benchmarks. The model was trained on over 15 trillion tokens of publicly available data, using techniques like supervised fine-tuning and reinforcement learning with human feedback to enhance helpfulness and safety in multiple languages including Vietnamese."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Meta-Llama-3.1-8B-Instruct: Efficient Multilingual Model for Vietnamese"
+            },
+            {
+              "blockIndex": 30,
+              "text": "Meta Llama 3.1 is a family of multilingual large language models developed by Meta, featuring pretrained and instruction-tuned variants. This 8B instruction-tuned model is optimized for multilingual dialogue use cases and outperforms many available open-source and closed chat models on common industry benchmarks. The model was trained on over 15 trillion tokens of publicly available data, using techniques like supervised fine-tuning and reinforcement learning with human feedback to enhance helpfulness and safety. Llama 3.1 supports text and code generation in multiple languages including Vietnamese, with a knowledge cutoff of December 2023. Its compact 8B parameter size makes it highly efficient while maintaining strong Vietnamese language capabilities."
+            },
+            {
+              "blockIndex": 44,
+              "text": "It offers the best balance of efficiency and Vietnamese language quality, making it ideal for production deployments where cost and performance matter equally."
+            },
+            {
+              "blockIndex": 45,
+              "text": "It offers the best balance of efficiency and Vietnamese language quality, making it ideal for production deployments where cost and performance"
+            },
+            {
+              "blockIndex": 47,
+              "text": "Qwen3-8B is the latest large language model in the Qwen series with 8.2B parameters. This model uniquely supports seamless switching between thinking mode and non-thinking mode. It demonstrates significantly enhanced reasoning capabilities, surpassing previous models in mathematics, code generation, and commonsense logical reasoning. The model excels in human preference alignment for creative writing, role-playing, and multi-turn dialogues. Additionally, it supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities, making it excellent for Vietnamese applications."
+            },
+            {
+              "blockIndex": 49,
+              "text": "Qwen3-8B is the latest large language model in the Qwen series with 8.2B parameters. This model uniquely supports seamless switching between thinking mode (for complex logical reasoning, math, and coding) and non-thinking mode (for efficient, general-purpose dialogue). It demonstrates significantly enhanced reasoning capabilities, surpassing previous QwQ and Qwen2.5 instruct models in mathematics, code generation, and commonsense logical reasoning. The model excels in human preference alignment for creative writing, role-playing, and multi-turn dialogues. Additionally, it supports over 100 languages and dialects with strong multilingual instruction following and translation capabilities, including robust Vietnamese language processing with 131K context length."
+            },
+            {
+              "blockIndex": 66,
+              "text": "In this table, we compare 2026's leading open-source LLMs for Vietnamese language processing, each with unique strengths. For maximum multilingual capability and Vietnamese excellence, Qwen3-235B-A22B provides unmatched versatility. For cost-effective Vietnamese dialogue, Meta-Llama-3.1-8B-Instruct offers proven reliability, while Qwen3-8B combines reasoning with Vietnamese support. This side-by-side view helps you choose the right tool for your specific Vietnamese NLP goals with transparent SiliconFlow pricing."
+            },
+            {
+              "blockIndex": 67,
+              "text": "Number | Model | Developer | Subtype | Pricing (SiliconFlow) | Core Strength 1 | Qwen3-235B-A22B | Qwen3 | Multilingual Chat | $1.42/M output, $0.35/M input | 100+ languages, Vietnamese excellence 2 | Meta-Llama-3.1-8B-Instruct | meta-llama | Multilingual Chat | $0.06/M tokens | Cost-effective multilingual dialogue 3 | Qwen3-8B | Qwen3 | Multilingual Reasoning | $0.06/M tokens | Reasoning + Vietnamese support"
+            },
+            {
+              "blockIndex": 70,
+              "text": "Our top three picks for Vietnamese language processing in 2026 are Qwen3-235B-A22B, meta-llama/Meta-Llama-3.1-8B-Instruct, and Qwen/Qwen3-8B. Each of these models stood out for their exceptional multilingual capabilities, strong Vietnamese language support, and unique approaches to handling Vietnamese text generation, translation, and dialogue tasks."
+            },
+            {
+              "blockIndex": 72,
+              "text": "SiliconFlow is a top AI inference, hosting, and API provider for open-source LLMs for Vietnamese language processing because it delivers high-performance, low-latency model serving with pay-as-you-go affordability and seamless OpenAI-compatible APIs. It outperforms latency benchmarks by as much as 13% and offers a wide range of optimized open-source multilingual models with flexible deployment options that make scaling and integrating Vietnamese AI into any application fast and efficient."
+            },
+            {
+              "blockIndex": 74,
+              "text": "These models were chosen because they represent the cutting edge of multilingual AI with exceptional Vietnamese language capabilities. They demonstrate significant advancements in Vietnamese text understanding (Meta-Llama-3.1-8B-Instruct), comprehensive multilingual support including Vietnamese (Qwen3-235B-A22B), and reasoning capabilities for complex Vietnamese tasks (Qwen3-8B), pushing the boundaries of what can be achieved in Vietnamese NLP."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://arxiv.org/html/2403.02715v1",
+          "tieuDe": "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models",
+          "ngayLayVe": "2026-09-17T13:45:35.532Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài báo khoa học từ arXiv có độ tin cậy về học thuật nhưng thiếu thông tin chi tiết về tác giả và tổ chức trong bản trích xuất.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn thiếu thông tin tác giả và tổ chức cụ thể.",
+            "Thiếu ngày đăng chính thức.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://aclanthology.org/2024.acl-long.479/",
+          "tieuDe": "MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China - ACL Anthology",
+          "toChuc": "ACL Anthology",
+          "ngayLayVe": "2026-09-17T13:45:35.533Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo hội nghị khoa học uy tín thuộc ACL Anthology với tác giả và tổ chức rõ ràng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã cũ hơn một năm (xuất bản tháng 08 năm 2024).",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese",
+          "tieuDe": "Ultimate Guide - Best Open Source LLM For Vietnamese In 2026 - SiliconFlow",
+          "ngayLayVe": "2026-09-17T13:45:35.534Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết hướng dẫn tổng hợp từ tổ chức thương mại, cung cấp góc nhìn thực tế về mô hình ngôn ngữ lớn cho tiếng Việt.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn từ blog thương mại, thiếu thông tin tác giả và ngày đăng cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Open source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high accuracy.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Các mô hình ngôn ngữ lớn hiện nay gặp hạn chế trong việc xử lý và hiểu các ngôn ngữ có nguồn tài nguyên thấp, bao gồm tiếng Việt và các ngôn ngữ thiểu số, do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets",
+              "viTri": "Đoạn 1"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.",
+              "viTri": "Đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn trực tiếp giữa các nguồn; cả hai đều đồng thuận về việc thiếu dữ liệu huấn luyện là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Các mô hình ngôn ngữ lớn mã nguồn mở cho tiếng Việt được tối ưu hóa để hiểu các đặc điểm ngôn ngữ đặc thù như dấu câu, biến thể thanh điệu và cấu trúc ngữ pháp.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures.",
+              "viTri": "Đoạn 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://arxiv.org/html/2403.02715v1\",\n      \"tieuDe\": \"Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:45:35.532Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài báo khoa học từ arXiv có độ tin cậy về học thuật nhưng thiếu thông tin chi tiết về tác giả và tổ chức trong bản trích xuất.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn thiếu thông tin tác giả và tổ chức cụ thể.\",\n        \"Thiếu ngày đăng chính thức.\"\n      ],\n      \"doanTrich\": \"Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://aclanthology.org/2024.acl-long.479/\",\n      \"tieuDe\": \"MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China - ACL Anthology\",\n      \"tacGia\": \"Chen Zhang, Mingxu Tao, Quzhe Huang, Jiuheng Lin, Zhibin Chen, Yansong Feng\",\n      \"toChuc\": \"Association for Computational Linguistics\",\n      \"ngayDang\": \"2024-08-11\",\n      \"ngayLayVe\": \"2026-09-17T13:45:35.533Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo hội nghị khoa học uy tín thuộc ACL Anthology với tác giả và tổ chức rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã cũ hơn một năm (xuất bản tháng 08 năm 2024).\"\n      ],\n      \"doanTrich\": \"Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese\",\n      \"tieuDe\": \"Ultimate Guide - Best Open Source LLM For Vietnamese In 2026 - SiliconFlow\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:45:35.534Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết hướng dẫn tổng hợp từ tổ chức thương mại, cung cấp góc nhìn thực tế về mô hình ngôn ngữ lớn cho tiếng Việt.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn từ blog thương mại, thiếu thông tin tác giả và ngày đăng cụ thể.\"\n      ],\n      \"doanTrich\": \"Open source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high accuracy.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Các mô hình ngôn ngữ lớn hiện nay gặp hạn chế trong việc xử lý và hiểu các ngôn ngữ có nguồn tài nguyên thấp, bao gồm tiếng Việt và các ngôn ngữ thiểu số, do thiếu hụt dữ liệu huấn luyện sơ bộ.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets\",\n          \"viTri\": \"Đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.\",\n          \"viTri\": \"Đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn trực tiếp giữa các nguồn; cả hai đều đồng thuận về việc thiếu dữ liệu huấn luyện là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Các mô hình ngôn ngữ lớn mã nguồn mở cho tiếng Việt được tối ưu hóa để hiểu các đặc điểm ngôn ngữ đặc thù như dấu câu, biến thể thanh điệu và cấu trúc ngữ pháp.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures.\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 4756,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://arxiv.org/html/2403.02715v1\",\n      \"tieuDe\": \"Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:45:35.532Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài báo khoa học từ arXiv có độ tin cậy về học thuật nhưng thiếu thông tin chi tiết về tác giả và tổ chức trong bản trích xuất.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn thiếu thông tin tác giả và tổ chức cụ thể.\",\n        \"Thiếu ngày đăng chính thức.\"\n      ],\n      \"doanTrich\": \"Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://aclanthology.org/2024.acl-long.479/\",\n      \"tieuDe\": \"MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China - ACL Anthology\",\n      \"tacGia\": \"Chen Zhang, Mingxu Tao, Quzhe Huang, Jiuheng Lin, Zhibin Chen, Yansong Feng\",\n      \"toChuc\": \"Association for Computational Linguistics\",\n      \"ngayDang\": \"2024-08-11\",\n      \"ngayLayVe\": \"2026-09-17T13:45:35.533Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo hội nghị khoa học uy tín thuộc ACL Anthology với tác giả và tổ chức rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã cũ hơn một năm (xuất bản tháng 08 năm 2024).\"\n      ],\n      \"doanTrich\": \"Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese\",\n      \"tieuDe\": \"Ultimate Guide - Best Open Source LLM For Vietnamese In 2026 - SiliconFlow\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:45:35.534Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết hướng dẫn tổng hợp từ tổ chức thương mại, cung cấp góc nhìn thực tế về mô hình ngôn ngữ lớn cho tiếng Việt.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn từ blog thương mại, thiếu thông tin tác giả và ngày đăng cụ thể.\"\n      ],\n      \"doanTrich\": \"Open source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high accuracy.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Các mô hình ngôn ngữ lớn hiện nay gặp hạn chế trong việc xử lý và hiểu các ngôn ngữ có nguồn tài nguyên thấp, bao gồm tiếng Việt và các ngôn ngữ thiểu số, do thiếu hụt dữ liệu huấn luyện sơ bộ.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets\",\n          \"viTri\": \"Đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.\",\n          \"viTri\": \"Đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn trực tiếp giữa các nguồn; cả hai đều đồng thuận về việc thiếu dữ liệu huấn luyện là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Các mô hình ngôn ngữ lớn mã nguồn mở cho tiếng Việt được tối ưu hóa để hiểu các đặc điểm ngôn ngữ đặc thù như dấu câu, biến thể thanh điệu và cấu trúc ngữ pháp.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures.\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 10686
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash-lite",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+      "mucTieu": "Biết thực trạng và thách thức",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Nhà nghiên cứu",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.",
+          "chuTrenManHinh": "Chào mừng nhà nghiên cứu",
+          "yDoHinh": "Hình ảnh một hội trường học thuật hiện đại với các biểu tượng công nghệ AI nổi bật trên màn hình lớn phía sau.",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+          "chuTrenManHinh": "Hạn chế xử lý tiếng Việt",
+          "yDoHinh": "Biểu đồ cột so sánh độ chính xác thấp của mô hình AI khi xử lý văn bản tiếng Việt so với tiếng Anh, kèm biểu tượng cảnh báo dữ liệu thiếu.",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.",
+          "chuTrenManHinh": "Thiếu dữ liệu huấn luyện",
+          "yDoHinh": "Hình ảnh một kho dữ liệu rỗng hoặc một ổ cứng đang báo lỗi đầy đủ, tượng trưng cho sự khan hiếm dữ liệu huấn luyện.",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?",
+          "chuTrenManHinh": "Thách thức đặc thù ngôn ngữ",
+          "yDoHinh": "Một câu hỏi lớn nổi bật trên nền hình ảnh các ký tự tiếng Việt có dấu và các đường cong biểu diễn thanh điệu phức tạp.",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.",
+          "chuTrenManHinh": "Phân tích giải pháp tối ưu",
+          "yDoHinh": "Hình ảnh một bộ não nhân tạo đang kết nối với các khối dữ liệu ngôn ngữ, thể hiện quá trình tối ưu hóa kiến trúc mô hình.",
+          "nguon": [
+            "t02"
+          ]
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789652746068",
+      "timestamp": "2026-09-17T13:45:46.068Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+        "learningObjective": "Biết thực trạng và thách thức",
+        "targetAudience": "Nhà nghiên cứu",
+        "videoDuration": "5 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N23"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://arxiv.org/html/2403.02715v1",
+          "tieuDe": "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models",
+          "ngayLayVe": "2026-09-17T13:45:35.532Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài báo khoa học từ arXiv có độ tin cậy về học thuật nhưng thiếu thông tin chi tiết về tác giả và tổ chức trong bản trích xuất.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn thiếu thông tin tác giả và tổ chức cụ thể.",
+            "Thiếu ngày đăng chính thức.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://aclanthology.org/2024.acl-long.479/",
+          "tieuDe": "MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China - ACL Anthology",
+          "toChuc": "ACL Anthology",
+          "ngayLayVe": "2026-09-17T13:45:35.533Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo hội nghị khoa học uy tín thuộc ACL Anthology với tác giả và tổ chức rõ ràng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã cũ hơn một năm (xuất bản tháng 08 năm 2024).",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.siliconflow.com/articles/best-open-source-llm-for-vietnamese",
+          "tieuDe": "Ultimate Guide - Best Open Source LLM For Vietnamese In 2026 - SiliconFlow",
+          "ngayLayVe": "2026-09-17T13:45:35.534Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết hướng dẫn tổng hợp từ tổ chức thương mại, cung cấp góc nhìn thực tế về mô hình ngôn ngữ lớn cho tiếng Việt.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn từ blog thương mại, thiếu thông tin tác giả và ngày đăng cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Open source LLMs for Vietnamese are large language models specifically trained or optimized to understand, generate, and process Vietnamese text with high accuracy.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Các mô hình ngôn ngữ lớn hiện nay gặp hạn chế trong việc xử lý và hiểu các ngôn ngữ có nguồn tài nguyên thấp, bao gồm tiếng Việt và các ngôn ngữ thiểu số, do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets",
+              "viTri": "Đoạn 1"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data.",
+              "viTri": "Đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn trực tiếp giữa các nguồn; cả hai đều đồng thuận về việc thiếu dữ liệu huấn luyện là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Các mô hình ngôn ngữ lớn mã nguồn mở cho tiếng Việt được tối ưu hóa để hiểu các đặc điểm ngôn ngữ đặc thù như dấu câu, biến thể thanh điệu và cấu trúc ngữ pháp.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures.",
+              "viTri": "Đoạn 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+        "mucTieu": "Biết thực trạng và thách thức",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Nhà nghiên cứu",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.",
+            "chuTrenManHinh": "Chào mừng nhà nghiên cứu",
+            "yDoHinh": "Hình ảnh một hội trường học thuật hiện đại với các biểu tượng công nghệ AI nổi bật trên màn hình lớn phía sau.",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+            "chuTrenManHinh": "Hạn chế xử lý tiếng Việt",
+            "yDoHinh": "Biểu đồ cột so sánh độ chính xác thấp của mô hình AI khi xử lý văn bản tiếng Việt so với tiếng Anh, kèm biểu tượng cảnh báo dữ liệu thiếu.",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.",
+            "chuTrenManHinh": "Thiếu dữ liệu huấn luyện",
+            "yDoHinh": "Hình ảnh một kho dữ liệu rỗng hoặc một ổ cứng đang báo lỗi đầy đủ, tượng trưng cho sự khan hiếm dữ liệu huấn luyện.",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?",
+            "chuTrenManHinh": "Thách thức đặc thù ngôn ngữ",
+            "yDoHinh": "Một câu hỏi lớn nổi bật trên nền hình ảnh các ký tự tiếng Việt có dấu và các đường cong biểu diễn thanh điệu phức tạp.",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.",
+            "chuTrenManHinh": "Phân tích giải pháp tối ưu",
+            "yDoHinh": "Hình ảnh một bộ não nhân tạo đang kết nối với các khối dữ liệu ngôn ngữ, thể hiện quá trình tối ưu hóa kiến trúc mô hình.",
+            "nguon": [
+              "t02"
+            ]
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets; [n02] Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets; [n02] Current large language models demonstrate deficiencies in understanding low-resource languages, particularly the minority languages in China. This limitation stems from the scarcity of available pre-training data."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] These models leverage deep learning architectures and multilingual training data to handle Vietnamese's unique linguistic characteristics, including diacritics, tonal variations, and grammar structures."
+          ]
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam\",\n  \"mucTieu\": \"Biết thực trạng và thách thức\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Nhà nghiên cứu\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.\",\n      \"chuTrenManHinh\": \"Chào mừng nhà nghiên cứu\",\n      \"yDoHinh\": \"Hình ảnh một hội trường học thuật hiện đại với các biểu tượng công nghệ AI nổi bật trên màn hình lớn phía sau.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.\",\n      \"chuTrenManHinh\": \"Hạn chế xử lý tiếng Việt\",\n      \"yDoHinh\": \"Biểu đồ cột so sánh độ chính xác thấp của mô hình AI khi xử lý văn bản tiếng Việt so với tiếng Anh, kèm biểu tượng cảnh báo dữ liệu thiếu.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.\",\n      \"chuTrenManHinh\": \"Thiếu dữ liệu huấn luyện\",\n      \"yDoHinh\": \"Hình ảnh một kho dữ liệu rỗng hoặc một ổ cứng đang báo lỗi đầy đủ, tượng trưng cho sự khan hiếm dữ liệu huấn luyện.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?\",\n      \"chuTrenManHinh\": \"Thách thức đặc thù ngôn ngữ\",\n      \"yDoHinh\": \"Một câu hỏi lớn nổi bật trên nền hình ảnh các ký tự tiếng Việt có dấu và các đường cong biểu diễn thanh điệu phức tạp.\",\n      \"nguon\": [\"t02\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.\",\n      \"chuTrenManHinh\": \"Phân tích giải pháp tối ưu\",\n      \"yDoHinh\": \"Hình ảnh một bộ não nhân tạo đang kết nối với các khối dữ liệu ngôn ngữ, thể hiện quá trình tối ưu hóa kiến trúc mô hình.\",\n      \"nguon\": [\"t02\"]\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-c0572223-7a7e-4836-8c5e-4263b5b5e936",
+          "durationMs": 1797,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam\",\n  \"mucTieu\": \"Biết thực trạng và thách thức\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Nhà nghiên cứu\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các nhà nghiên cứu đến với buổi thảo luận về thực trạng của các mô hình ngôn ngữ lớn mã nguồn mở.\",\n      \"chuTrenManHinh\": \"Chào mừng nhà nghiên cứu\",\n      \"yDoHinh\": \"Hình ảnh một hội trường học thuật hiện đại với các biểu tượng công nghệ AI nổi bật trên màn hình lớn phía sau.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Các mô hình ngôn ngữ lớn hiện nay đang gặp hạn chế trong việc xử lý tiếng Việt do thiếu hụt dữ liệu huấn luyện sơ bộ.\",\n      \"chuTrenManHinh\": \"Hạn chế xử lý tiếng Việt\",\n      \"yDoHinh\": \"Biểu đồ cột so sánh độ chính xác thấp của mô hình AI khi xử lý văn bản tiếng Việt so với tiếng Anh, kèm biểu tượng cảnh báo dữ liệu thiếu.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Sự thiếu hụt dữ liệu này cũng là nguyên nhân chính gây ra hạn chế ở các ngôn ngữ tài nguyên thấp nói chung.\",\n      \"chuTrenManHinh\": \"Thiếu dữ liệu huấn luyện\",\n      \"yDoHinh\": \"Hình ảnh một kho dữ liệu rỗng hoặc một ổ cứng đang báo lỗi đầy đủ, tượng trưng cho sự khan hiếm dữ liệu huấn luyện.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để các mô hình này có thể hiểu được các đặc điểm ngôn ngữ đặc thù như dấu câu và thanh điệu?\",\n      \"chuTrenManHinh\": \"Thách thức đặc thù ngôn ngữ\",\n      \"yDoHinh\": \"Một câu hỏi lớn nổi bật trên nền hình ảnh các ký tự tiếng Việt có dấu và các đường cong biểu diễn thanh điệu phức tạp.\",\n      \"nguon\": [\"t02\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chúng ta sẽ cùng phân tích cách các mô hình mã nguồn mở tối ưu hóa để xử lý các cấu trúc ngữ pháp và biến thể thanh điệu này.\",\n      \"chuTrenManHinh\": \"Phân tích giải pháp tối ưu\",\n      \"yDoHinh\": \"Hình ảnh một bộ não nhân tạo đang kết nối với các khối dữ liệu ngôn ngữ, thể hiện quá trình tối ưu hóa kiến trúc mô hình.\",\n      \"nguon\": [\"t02\"]\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 2038
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b"
+  }
+}

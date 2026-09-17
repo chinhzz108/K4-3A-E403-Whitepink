@@ -1,0 +1,237 @@
+{
+  "id": "trace-script-1789651225709",
+  "timestamp": "2026-09-17T13:20:25.709Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "So sánh GPT-4 và Claude 3",
+    "learningObjective": "Biết ưu nhược điểm của từng mô hình",
+    "targetAudience": "Sinh viên CNTT",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N16"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+      "tieuDe": "GPT-4 vs Claude 3 for AI Development: Which to Build On? | SFAI Labs",
+      "ngayDang": "2026-01-31T00:00:00.000Z",
+      "ngayLayVe": "2026-09-17T13:19:40.346Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Là blog kỹ thuật từ một công ty AI, cung cấp bảng so sánh chi tiết về giá và tính năng. Tuy nhiên, thiếu tác giả cụ thể và là nguồn thứ cấp.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn có ngày đăng trong tương lai (2026) so với thời điểm hiện tại thực tế, cần kiểm tra tính nhất quán dữ liệu."
+      ],
+      "doanTrich": "GPT-4 (OpenAI) Claude 3 (Anthropic) Best for Mature ecosystem, function calling Long context, cost efficiency Context window 128K (GPT-4 Turbo) 200K (Claude 3)",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/",
+      "tieuDe": "Claude 3 vs GPT-4: Best Enterprise LLM in 2026?",
+      "toChuc": "Dextra Labs",
+      "ngayDang": "2026-02-19T04:01:08+05:30",
+      "ngayLayVe": "2026-09-17T13:19:40.348Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết từ công ty tư vấn AI, có trích dẫn các nghiên cứu bên thứ ba (Stanford, JMIR). Tuy nhiên, nội dung bị cắt cụt và thiếu tác giả cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nội dung bị cắt cụt ở cuối, có thể thiếu thông tin quan trọng.",
+        "Ngày đăng trong tương lai (2026)."
+      ],
+      "doanTrich": "Claude 3’s defining characteristic is its 200,000-token context window, which allows it to process entire codebases, lengthy legal contracts, or large research documents in a single pass.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Claude 3 có cửa sổ ngữ cảnh (context window) lớn hơn GPT-4, cụ thể là 200K tokens so với 128K tokens của GPT-4 Turbo.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Context window 128K (GPT-4 Turbo) 200K (Claude 3)",
+          "viTri": "Bảng so sánh kỹ thuật"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Claude 3’s defining characteristic is its 200,000-token context window, which allows it to process entire codebases, lengthy legal contracts, or large research documents in a single pass.",
+          "viTri": "Đoạn mô tả đặc điểm Claude 3"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Claude 3 Sonnet có chi phí đầu vào thấp hơn đáng kể so với GPT-4 Turbo, cụ thể là $3/1M tokens so với $10/1M tokens.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Input cost $10/1M tokens (GPT-4 Turbo) $3/1M tokens (Claude 3 Sonnet)",
+          "viTri": "Bảng so sánh chi phí"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có một nguồn xác nhận số liệu giá này. Giá API có thể thay đổi theo thời gian và khu vực."
+    },
+    {
+      "id": "t03",
+      "noiDung": "GPT-4 có hệ sinh thái công cụ và tài nguyên cộng đồng trưởng thành hơn so với Claude 3, đặc biệt là về khả năng fine-tuning và tích hợp bên thứ ba.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "GPT-4 (via OpenAI API) has been the default choice for AI development since 2023. It offers multiple model variants (GPT-4, GPT-4 Turbo, GPT-4o), mature function calling, fine-tuning capabilities, and extensive third-party integrations.",
+          "viTri": "Đoạn tổng quan GPT-4"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Best ecosystem and plugin maturity: GPT-4",
+          "viTri": "Phần Quick Answer"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "So sánh GPT-4 và Claude 3",
+    "mucTieu": "Biết ưu nhược điểm của từng mô hình",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên CNTT",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Chào các bạn sinh viên công nghệ thông tin, các bạn đã bao giờ phân vân nên lựa chọn mô hình ngôn ngữ lớn nào cho dự án trí tuệ nhân tạo của mình chưa?",
+        "chuTrenManHinh": "Lựa chọn mô hình cho dự án AI?",
+        "yDoHinh": "Một sinh viên công nghệ thông tin đang ngồi trước màn hình máy tính đắn đo lựa chọn giữa hai biểu tượng mô hình trí tuệ nhân tạo.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Dù chưa được kiểm chứng hoàn toàn, nhưng một số tài liệu cho thấy mô hình Gi-pi-ti bốn đang sở hữu một hệ sinh thái công cụ cùng tài nguyên cộng đồng trưởng thành hơn, nổi bật với khả năng tinh chỉnh mô hình, hay còn gọi là fine-tuning.",
+        "chuTrenManHinh": "Hệ sinh thái GPT-4 trưởng thành hơn",
+        "yDoHinh": "Hình ảnh đồ họa động mô tả hệ sinh thái phong phú với các nhánh kết nối công cụ lập trình bên thứ ba xung quanh biểu tượng Gi-pi-ti bốn.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Ở chiều ngược lại, theo thông tin chưa xác minh, mô hình Cờ-lốt ba lại sở hữu cửa sổ ngữ cảnh, hay còn gọi là context window, lên tới hai trăm nghìn thẻ mã hóa, hay còn gọi là tokens, vượt trội hơn mức một trăm hai mươi tám nghìn tokens của đối thủ.",
+        "chuTrenManHinh": "Cửa sổ ngữ cảnh Claude 3 vượt trội",
+        "yDoHinh": "Biểu đồ cột so sánh trực quan dung lượng lưu trữ văn bản giữa hai trăm nghìn tokens và một trăm hai mươi tám nghìn tokens.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Về khía cạnh kinh tế, các nguồn tin có sự mâu thuẫn và chưa được kiểm chứng cho rằng chi phí đầu vào, hay còn gọi là input cost, của phiên bản Cờ-lốt ba Sôn-nét chỉ khoảng ba đô-la cho một triệu thẻ mã hóa tokens, rẻ hơn đáng kể so với mức mười đô-la của đối thủ.",
+        "chuTrenManHinh": "Chi phí đầu vào có sự chênh lệch",
+        "yDoHinh": "Hình minh họa hai cán cân tài chính, một bên là ba đô-la và một bên là mười đô-la tương ứng với lượng tokens xử lý.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Hôm nay chúng ta sẽ cùng phân tích chi tiết để xem đâu mới là lựa chọn tối ưu cho các đồ án lập trình sắp tới của bạn nhé.",
+        "chuTrenManHinh": "Phân tích lựa chọn tối ưu cho lập trình",
+        "yDoHinh": "Dòng chữ tiêu đề bài học xuất hiện mượt mà cùng hiệu ứng ánh sáng quét qua.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn sinh viên công nghệ thông tin, các bạn đã bao giờ phân vân nên lựa chọn mô hình ngôn ngữ lớn nào cho dự án trí tuệ nhân tạo của mình chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Dù chưa được kiểm chứng hoàn toàn, nhưng một số tài liệu cho thấy mô hình Gi-pi-ti bốn đang sở hữu một hệ sinh thái công cụ cùng tài nguyên cộng đồng trưởng thành hơn, nổi bật với khả năng tinh chỉnh mô hình, hay còn gọi là fine-tuning.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] GPT-4 (via OpenAI API) has been the default choice for AI development since 2023. It offers multiple model variants (GPT-4, GPT-4 Turbo, GPT-4o), mature function calling, fine-tuning capabilities, and extensive third-party integrations.; [n03] Best ecosystem and plugin maturity: GPT-4"
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Ở chiều ngược lại, theo thông tin chưa xác minh, mô hình Cờ-lốt ba lại sở hữu cửa sổ ngữ cảnh, hay còn gọi là context window, lên tới hai trăm nghìn thẻ mã hóa, hay còn gọi là tokens, vượt trội hơn mức một trăm hai mươi tám nghìn tokens của đối thủ.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Context window 128K (GPT-4 Turbo) 200K (Claude 3); [n03] Claude 3’s defining characteristic is its 200,000-token context window, which allows it to process entire codebases, lengthy legal contracts, or large research documents in a single pass."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Về khía cạnh kinh tế, các nguồn tin có sự mâu thuẫn và chưa được kiểm chứng cho rằng chi phí đầu vào, hay còn gọi là input cost, của phiên bản Cờ-lốt ba Sôn-nét chỉ khoảng ba đô-la cho một triệu thẻ mã hóa tokens, rẻ hơn đáng kể so với mức mười đô-la của đối thủ.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Input cost $10/1M tokens (GPT-4 Turbo) $3/1M tokens (Claude 3 Sonnet)"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hôm nay chúng ta sẽ cùng phân tích chi tiết để xem đâu mới là lựa chọn tối ưu cho các đồ án lập trình sắp tới của bạn nhé.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"So sánh GPT-4 và Claude 3\",\n  \"mucTieu\": \"Biết ưu nhược điểm của từng mô hình\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Sinh viên CNTT\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn sinh viên công nghệ thông tin, các bạn đã bao giờ phân vân nên lựa chọn mô hình ngôn ngữ lớn nào cho dự án trí tuệ nhân tạo của mình chưa?\",\n      \"chuTrenManHinh\": \"Lựa chọn mô hình cho dự án AI?\",\n      \"yDoHinh\": \"Một sinh viên công nghệ thông tin đang ngồi trước màn hình máy tính đắn đo lựa chọn giữa hai biểu tượng mô hình trí tuệ nhân tạo.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Dù chưa được kiểm chứng hoàn toàn, nhưng một số tài liệu cho thấy mô hình Gi-pi-ti bốn đang sở hữu một hệ sinh thái công cụ cùng tài nguyên cộng đồng trưởng thành hơn, nổi bật với khả năng tinh chỉnh mô hình, hay còn gọi là fine-tuning.\",\n      \"chuTrenManHinh\": \"Hệ sinh thái GPT-4 trưởng thành hơn\",\n      \"yDoHinh\": \"Hình ảnh đồ họa động mô tả hệ sinh thái phong phú với các nhánh kết nối công cụ lập trình bên thứ ba xung quanh biểu tượng Gi-pi-ti bốn.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Ở chiều ngược lại, theo thông tin chưa xác minh, mô hình Cờ-lốt ba lại sở hữu cửa sổ ngữ cảnh, hay còn gọi là context window, lên tới hai trăm nghìn thẻ mã hóa, hay còn gọi là tokens, vượt trội hơn mức một trăm hai mươi tám nghìn tokens của đối thủ.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh Claude 3 vượt trội\",\n      \"yDoHinh\": \"Biểu đồ cột so sánh trực quan dung lượng lưu trữ văn bản giữa hai trăm nghìn tokens và một trăm hai mươi tám nghìn tokens.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Về khía cạnh kinh tế, các nguồn tin có sự mâu thuẫn và chưa được kiểm chứng cho rằng chi phí đầu vào, hay còn gọi là input cost, của phiên bản Cờ-lốt ba Sôn-nét chỉ khoảng ba đô-la cho một triệu thẻ mã hóa tokens, rẻ hơn đáng kể so với mức mười đô-la của đối thủ.\",\n      \"chuTrenManHinh\": \"Chi phí đầu vào có sự chênh lệch\",\n      \"yDoHinh\": \"Hình minh họa hai cán cân tài chính, một bên là ba đô-la và một bên là mười đô-la tương ứng với lượng tokens xử lý.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hôm nay chúng ta sẽ cùng phân tích chi tiết để xem đâu mới là lựa chọn tối ưu cho các đồ án lập trình sắp tới của bạn nhé.\",\n      \"chuTrenManHinh\": \"Phân tích lựa chọn tối ưu cho lập trình\",\n      \"yDoHinh\": \"Dòng chữ tiêu đề bài học xuất hiện mượt mà cùng hiệu ứng ánh sáng quét qua.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "durationMs": 32895,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"So sánh GPT-4 và Claude 3\",\n  \"mucTieu\": \"Biết ưu nhược điểm của từng mô hình\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Sinh viên CNTT\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn sinh viên công nghệ thông tin, các bạn đã bao giờ phân vân nên lựa chọn mô hình ngôn ngữ lớn nào cho dự án trí tuệ nhân tạo của mình chưa?\",\n      \"chuTrenManHinh\": \"Lựa chọn mô hình cho dự án AI?\",\n      \"yDoHinh\": \"Một sinh viên công nghệ thông tin đang ngồi trước màn hình máy tính đắn đo lựa chọn giữa hai biểu tượng mô hình trí tuệ nhân tạo.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Dù chưa được kiểm chứng hoàn toàn, nhưng một số tài liệu cho thấy mô hình Gi-pi-ti bốn đang sở hữu một hệ sinh thái công cụ cùng tài nguyên cộng đồng trưởng thành hơn, nổi bật với khả năng tinh chỉnh mô hình, hay còn gọi là fine-tuning.\",\n      \"chuTrenManHinh\": \"Hệ sinh thái GPT-4 trưởng thành hơn\",\n      \"yDoHinh\": \"Hình ảnh đồ họa động mô tả hệ sinh thái phong phú với các nhánh kết nối công cụ lập trình bên thứ ba xung quanh biểu tượng Gi-pi-ti bốn.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Ở chiều ngược lại, theo thông tin chưa xác minh, mô hình Cờ-lốt ba lại sở hữu cửa sổ ngữ cảnh, hay còn gọi là context window, lên tới hai trăm nghìn thẻ mã hóa, hay còn gọi là tokens, vượt trội hơn mức một trăm hai mươi tám nghìn tokens của đối thủ.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh Claude 3 vượt trội\",\n      \"yDoHinh\": \"Biểu đồ cột so sánh trực quan dung lượng lưu trữ văn bản giữa hai trăm nghìn tokens và một trăm hai mươi tám nghìn tokens.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Về khía cạnh kinh tế, các nguồn tin có sự mâu thuẫn và chưa được kiểm chứng cho rằng chi phí đầu vào, hay còn gọi là input cost, của phiên bản Cờ-lốt ba Sôn-nét chỉ khoảng ba đô-la cho một triệu thẻ mã hóa tokens, rẻ hơn đáng kể so với mức mười đô-la của đối thủ.\",\n      \"chuTrenManHinh\": \"Chi phí đầu vào có sự chênh lệch\",\n      \"yDoHinh\": \"Hình minh họa hai cán cân tài chính, một bên là ba đô-la và một bên là mười đô-la tương ứng với lượng tokens xử lý.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hôm nay chúng ta sẽ cùng phân tích chi tiết để xem đâu mới là lựa chọn tối ưu cho các đồ án lập trình sắp tới của bạn nhé.\",\n      \"chuTrenManHinh\": \"Phân tích lựa chọn tối ưu cho lập trình\",\n      \"yDoHinh\": \"Dòng chữ tiêu đề bài học xuất hiện mượt mà cùng hiệu ứng ánh sáng quét qua.\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 38468
+}

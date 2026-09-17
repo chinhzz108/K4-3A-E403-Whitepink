@@ -1,0 +1,265 @@
+{
+  "id": "trace-script-1789651463547",
+  "timestamp": "2026-09-17T13:24:23.547Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+    "learningObjective": "Biết thực trạng và thách thức",
+    "targetAudience": "Nhà nghiên cứu",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N23"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n03",
+      "url": "https://www.ibm.com/think/topics/multimodal-llm",
+      "tieuDe": "What is a Multimodal LLM (MLLM)? | IBM",
+      "tacGia": "Jobit Varughese",
+      "ngayDang": "2025-07-30",
+      "ngayLayVe": "2026-09-17T13:23:14.389Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu kỹ thuật chính thức từ tập đoàn công nghệ uy tín IBM, thông tin cập nhật mới nhất năm 2025.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://link.springer.com/chapter/10.1057/9781137455536_12",
+      "tieuDe": "Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities | Springer Nature Link",
+      "toChuc": "SpringerLink",
+      "ngayLayVe": "2026-09-17T13:23:14.391Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Chương sách nghiên cứu khoa học xuất bản bởi Springer Nature, cung cấp số liệu nhân khẩu học và chính sách ngôn ngữ dân tộc thiểu số tại Việt Nam.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không rõ ngày xuất bản chính xác từ siêu dữ liệu cào, thông tin có thể đã cũ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+      "tieuDe": "Multimodality and Large Multimodal Models (LMMs)",
+      "tacGia": "Chip Huyen",
+      "toChuc": "Chip Huyen",
+      "ngayDang": "2023-10-10T00:00:00+00:00",
+      "ngayLayVe": "2026-09-17T13:23:21.296Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Blog cá nhân của chuyên gia kỹ sư AI nổi tiếng (Chip Huyen), nội dung phân tích mang tính thực tiễn và chuyên sâu về hệ thống đa phương thức.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã xuất bản hơn một năm.",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n03",
+    "n04",
+    "n05"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Việt Nam có sự đa dạng ngôn ngữ lớn với khoảng 100 ngôn ngữ được nói bởi 54 dân tộc thiểu số (chiếm khoảng 11 triệu dân). Tuy nhiên, rào cản lớn nhất đối với việc xây dựng dữ liệu số hóa là nhiều ngôn ngữ trong số này vẫn chưa có hệ thống chữ viết chính thức cho đến gần đây.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people",
+          "viTri": "Dòng 1, Đoạn 1"
+        },
+        {
+          "nguonId": "n04",
+          "doanTrich": "Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently.",
+          "viTri": "Dòng 6, Đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Mô hình ngôn ngữ đa phương thức (MLLM) đánh dấu bước chuyển dịch từ xử lý dữ liệu đơn phương thức (chỉ văn bản, chỉ âm thanh hoặc chỉ hình ảnh) sang việc xử lý và suy luận đồng thời trên nhiều dạng dữ liệu khác nhau, giúp máy tính tương tác gần giống với cách con người cảm nhận thế giới.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.",
+          "viTri": "Dòng 1, Đoạn 1"
+        },
+        {
+          "nguonId": "n05",
+          "doanTrich": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).",
+          "viTri": "Dòng 1, Đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Thách thức kỹ thuật hàng đầu của MLLM là việc mã hóa và căn chỉnh các dạng dữ liệu có cấu trúc khác nhau (lưới điểm ảnh của hình ảnh, dạng sóng của âm thanh và chuỗi từ của văn bản) vào một không gian biểu diễn chung. Ngoài ra, việc xử lý video hiện nay phần lớn vẫn bỏ qua âm thanh, đây là một hạn chế nghiêm trọng vì âm thanh là nhân tố quan trọng cung cấp ngữ cảnh.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram.",
+          "viTri": "Dòng 1, Đoạn 3"
+        },
+        {
+          "nguonId": "n05",
+          "doanTrich": "ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos.",
+          "viTri": "Dòng 16, Đoạn 'Understanding Multimodal'"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+    "mucTieu": "Biết thực trạng và thách thức",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Nhà nghiên cứu",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các nhà nghiên cứu, chào mừng đến với video.",
+        "chuTrenManHinh": "Chào mừng các nhà nghiên cứu",
+        "yDoHinh": "Hình ảnh người dẫn chương trình mỉm cười",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.",
+        "chuTrenManHinh": "Đa dạng ngôn ngữ dân tộc Việt Nam",
+        "yDoHinh": "Bản đồ Việt Nam với các nhóm dân tộc",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.",
+        "chuTrenManHinh": "Mô hình đa phương thức (MLLM)",
+        "yDoHinh": "Biểu tượng MLLM với biểu đồ văn bản‑hình‑âm thanh",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.",
+        "chuTrenManHinh": "Thách thức mã hoá đa dạng dữ liệu",
+        "yDoHinh": "Sơ đồ cấu trúc dữ liệu ảnh, âm thanh, văn bản",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.",
+        "chuTrenManHinh": "Cùng khám phá giải pháp mới",
+        "yDoHinh": "Hình ảnh nhóm nghiên cứu thảo luận",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các nhà nghiên cứu, chào mừng đến với video.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people; [n04] Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.; [n05] For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition)."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram.; [n05] ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam\",\"mucTieu\":\"Biết thực trạng và thách thức\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Nhà nghiên cứu\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các nhà nghiên cứu, chào mừng đến với video.\",\"chuTrenManHinh\":\"Chào mừng các nhà nghiên cứu\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình mỉm cười\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.\",\"chuTrenManHinh\":\"Đa dạng ngôn ngữ dân tộc Việt Nam\",\"yDoHinh\":\"Bản đồ Việt Nam với các nhóm dân tộc\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.\",\"chuTrenManHinh\":\"Mô hình đa phương thức (MLLM)\",\"yDoHinh\":\"Biểu tượng MLLM với biểu đồ văn bản‑hình‑âm thanh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.\",\"chuTrenManHinh\":\"Thách thức mã hoá đa dạng dữ liệu\",\"yDoHinh\":\"Sơ đồ cấu trúc dữ liệu ảnh, âm thanh, văn bản\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.\",\"chuTrenManHinh\":\"Cùng khám phá giải pháp mới\",\"yDoHinh\":\"Hình ảnh nhóm nghiên cứu thảo luận\",\"nguon\":[]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-93fcd54e-2a7d-466a-b5af-e3a0930042eb",
+      "durationMs": 4334,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam\",\"mucTieu\":\"Biết thực trạng và thách thức\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Nhà nghiên cứu\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các nhà nghiên cứu, chào mừng đến với video.\",\"chuTrenManHinh\":\"Chào mừng các nhà nghiên cứu\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình mỉm cười\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.\",\"chuTrenManHinh\":\"Đa dạng ngôn ngữ dân tộc Việt Nam\",\"yDoHinh\":\"Bản đồ Việt Nam với các nhóm dân tộc\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.\",\"chuTrenManHinh\":\"Mô hình đa phương thức (MLLM)\",\"yDoHinh\":\"Biểu tượng MLLM với biểu đồ văn bản‑hình‑âm thanh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.\",\"chuTrenManHinh\":\"Thách thức mã hoá đa dạng dữ liệu\",\"yDoHinh\":\"Sơ đồ cấu trúc dữ liệu ảnh, âm thanh, văn bản\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.\",\"chuTrenManHinh\":\"Cùng khám phá giải pháp mới\",\"yDoHinh\":\"Hình ảnh nhóm nghiên cứu thảo luận\",\"nguon\":[]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 4337
+}

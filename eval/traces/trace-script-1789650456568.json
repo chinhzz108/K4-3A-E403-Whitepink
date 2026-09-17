@@ -1,0 +1,148 @@
+{
+  "id": "trace-script-1789650456568",
+  "timestamp": "2026-09-17T13:07:36.568Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-06-32-734Z",
+    "evalCaseId": "N01"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T13:06:36.165Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là công ty công nghệ uy tín, nội dung được viết bởi chuyên gia nội bộ, ngày đăng rõ ràng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã hơn 1 năm so với ngày truy cập, cần kiểm tra tính cập nhật.",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://memgraph.com/blog/llm-limitations-query-enterprise-data",
+      "tieuDe": "LLM Limitations: Why Can’t You Query Your Enterprise Knowledge with Just an LLM?",
+      "ngayLayVe": "2026-09-17T13:06:36.167Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog công nghệ của công ty Memgraph, không có tác giả cụ thể nhưng nội dung được kiểm duyệt và có ngày đăng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã hơn 1 năm so với ngày truy cập, cần kiểm tra tính cập nhật.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Context_window",
+      "tieuDe": "Context window - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:06:37.959Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là bách khoa toàn thư mở, thông tin được cộng đồng kiểm duyệt, tuy không có tác giả cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Định nghĩa cửa sổ ngữ cảnh: là lượng văn bản (token) mà mô hình có thể xem và “nhớ” trong một lần xử lý.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "đoạn đầu"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+          "viTri": "đoạn đầu"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Khi đoạn hội thoại vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt ngắn hoặc tóm tắt, dẫn đến việc quên thông tin phía đầu.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+          "viTri": "đoạn giữa"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words).",
+          "viTri": "đoạn đầu"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá khái niệm cửa sổ ngữ cảnh trong mô hình ngôn ngữ.\",\"chuTrenManHinh\":\"Tiêu đề video: Cửa sổ ngữ cảnh\",\"yDoHinh\":\"Hình minh hoạ tiêu đề video\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Cửa sổ ngữ cảnh (context window) là lượng văn bản dưới dạng token mà mô hình có thể xem và nhớ trong một lần xử lý.\",\"chuTrenManHinh\":\"Định nghĩa cửa sổ ngữ cảnh\",\"yDoHinh\":\"Biểu đồ mô tả token trong cửa sổ ngữ cảnh\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Khi một cuộc trò chuyện vượt quá kích thước của cửa sổ ngữ cảnh, mô hình phải cắt ngắn hoặc tóm tắt, dẫn đến việc quên thông tin phía đầu.\",\"chuTrenManHinh\":\"Cắt ngắn khi vượt quá giới hạn\",\"yDoHinh\":\"Hình ảnh minh hoạ quá tải token\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vì vậy, nếu bạn trò chuyện lâu và nội dung quá dài, trợ lý sẽ không còn nhớ những câu đầu vì chúng đã ra ngoài giới hạn của cửa sổ ngữ cảnh (context window).\",\"chuTrenManHinh\":\"Giải thích quên phần đầu vì vượt giới hạn\",\"yDoHinh\":\"Biểu tượng trí tuệ nhân tạo với lời nhắc\",\"nguon\":[\"t01\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn hiểu tại sao mô hình có thể quên phần đầu của cuộc trò chuyện và sẽ áp dụng cách chia nhỏ nội dung để tránh tình trạng này.\",\"chuTrenManHinh\":\"Kết luận và lời khuyên\",\"yDoHinh\":\"Bảng tóm tắt mẹo chia nhỏ nội dung\",\"nguon\":[]}\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-9c00cfb9-a794-430a-b81e-5f8dea27bf2f",
+      "durationMs": 5943,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá khái niệm cửa sổ ngữ cảnh trong mô hình ngôn ngữ.\",\"chuTrenManHinh\":\"Tiêu đề video: Cửa sổ ngữ cảnh\",\"yDoHinh\":\"Hình minh hoạ tiêu đề video\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Cửa sổ ngữ cảnh (context window) là lượng văn bản dưới dạng token mà mô hình có thể xem và nhớ trong một lần xử lý.\",\"chuTrenManHinh\":\"Định nghĩa cửa sổ ngữ cảnh\",\"yDoHinh\":\"Biểu đồ mô tả token trong cửa sổ ngữ cảnh\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Khi một cuộc trò chuyện vượt quá kích thước của cửa sổ ngữ cảnh, mô hình phải cắt ngắn hoặc tóm tắt, dẫn đến việc quên thông tin phía đầu.\",\"chuTrenManHinh\":\"Cắt ngắn khi vượt quá giới hạn\",\"yDoHinh\":\"Hình ảnh minh hoạ quá tải token\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vì vậy, nếu bạn trò chuyện lâu và nội dung quá dài, trợ lý sẽ không còn nhớ những câu đầu vì chúng đã ra ngoài giới hạn của cửa sổ ngữ cảnh (context window).\",\"chuTrenManHinh\":\"Giải thích quên phần đầu vì vượt giới hạn\",\"yDoHinh\":\"Biểu tượng trí tuệ nhân tạo với lời nhắc\",\"nguon\":[\"t01\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn hiểu tại sao mô hình có thể quên phần đầu của cuộc trò chuyện và sẽ áp dụng cách chia nhỏ nội dung để tránh tình trạng này.\",\"chuTrenManHinh\":\"Kết luận và lời khuyên\",\"yDoHinh\":\"Bảng tóm tắt mẹo chia nhỏ nội dung\",\"nguon\":[]}\n  ]\n}",
+      "validationError": "Câu 4: mẫu không hợp lệ (chuTrenManHinh quá 40 ký tự)"
+    }
+  ],
+  "error": "Lỗi tạo kịch bản: Kịch bản AI không hợp lệ; lượt sửa không gọi được: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5nec28f6gv854q78me2tam` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7981, Requested 5923. Please try again in 44.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings | Groq openai/gpt-oss-120b (429): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5nec28f6gv854q78me2tam` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5951, Requested 4671. Please try again in 19.665s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/setting | Groq qwen/qwen3.6-27b (404): The model `qwen/qwen3.6-27b` does not exist or you do not have access to it. | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+  "isDemo": false,
+  "durationMs": 49140
+}

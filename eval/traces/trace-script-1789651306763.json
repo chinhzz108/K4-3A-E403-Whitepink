@@ -1,0 +1,226 @@
+{
+  "id": "trace-script-1789651306763",
+  "timestamp": "2026-09-17T13:21:46.763Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách phòng chống prompt injection",
+    "learningObjective": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "targetAudience": "Lập trình viên",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N20"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+      "tieuDe": "LLM Prompt Injection Prevention - OWASP Cheat Sheet Series",
+      "ngayLayVe": "2026-09-17T13:21:26.250Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "OWASP là tổ chức uy tín trong lĩnh vực bảo mật, tài liệu cung cấp kiến thức chi tiết và được cộng đồng an ninh tin dùng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Nguồn chính thống, nội dung chi tiết, không có dấu hiệu sai lệch.",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Prompt injection is a vulnerability in Large Language Model (LLM) applications that allows attackers to manipulate the model's behavior by injecting malicious input that changes its intended output.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://github.com/tldrsec/prompt-injection-defenses",
+      "tieuDe": "GitHub - tldrsec/prompt-injection-defenses: Every practical and proposed defense against prompt injection. · GitHub",
+      "toChuc": "GitHub",
+      "ngayLayVe": "2026-09-17T13:21:26.251Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Repository do cộng đồng duy trì, không có tác giả rõ ràng, nhưng tổng hợp nhiều phương pháp được nghiên cứu rộng rãi.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Nguồn cộng đồng, chưa được kiểm chứng bởi tổ chức chính thống.",
+      "canhBao": [
+        "Nguồn không có tác giả xác thực, có thể chứa thông tin chưa được đánh giá độc lập.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Input Pre-processing (Paraphrasing, Retokenization) Transform the input to make creating an adversarial prompt more difficult.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Sử dụng danh sách các mẫu nguy hiểm (dangerous_patterns) để phát hiện các câu lệnh cố gắng bỏ qua hoặc ghi đè hướng dẫn.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Prompt injection is a vulnerability in Large Language Model (LLM) applications that allows attackers to manipulate the model's behavior by injecting malicious input that changes its intended output.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Tiền xử lý đầu vào bằng paraphrasing hoặc retokenization làm cho việc tạo prompt độc hại khó khăn hơn.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Input Pre-processing (Paraphrasing, Retokenization) Transform the input to make creating an adversarial prompt more difficult.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Triển khai guardrails, firewalls và bộ giám sát để theo dõi đầu vào/đầu ra và phát hiện rò rỉ prompt hoặc jailbreak.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Guardrails & Overseers, Firewalls & Filters Monitor the inputs and outputs, using traditional and LLM specific mechanisms to detect prompt injection or it's impacts (prompt leakage, jailbreaks).",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách phòng chống prompt injection",
+    "mucTieu": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Lập trình viên",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các lập trình viên, hôm nay chúng ta sẽ tìm hiểu cách bảo vệ hệ thống trí tuệ nhân tạo của mình.",
+        "chuTrenManHinh": "Chào mừng đến với buổi học",
+        "yDoHinh": "Một lập trình viên đang mỉm cười vẫy tay chào trước màn hình máy tính có hiển thị logo AI.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Kỹ thuật tiêm nhiễm lệnh, hay còn gọi là prompt injection, là lỗ hổng cho phép kẻ tấn công thao túng hành vi của mô hình ngôn ngữ lớn.",
+        "chuTrenManHinh": "Định nghĩa Prompt Injection",
+        "yDoHinh": "Sơ đồ minh họa dòng dữ liệu độc hại xâm nhập vào một khối đại diện cho mô hình ngôn ngữ lớn.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Một trong những biện pháp phòng thủ là tiền xử lý đầu vào bằng cách diễn đạt lại hoặc mã hóa lại để làm khó việc tạo ra lệnh độc hại.",
+        "chuTrenManHinh": "Tiền xử lý đầu vào",
+        "yDoHinh": "Quá trình chuyển đổi chuỗi ký tự hỗn loạn thành chuỗi ký tự có cấu trúc rõ ràng trước khi vào hệ thống.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã bao giờ nghĩ đến việc sử dụng các rào chắn và bộ lọc để giám sát cả đầu vào lẫn đầu ra của hệ thống chưa?",
+        "chuTrenManHinh": "Giám sát đầu vào và đầu ra",
+        "yDoHinh": "Một hệ thống camera an ninh ảo đang quét các gói tin dữ liệu đi vào và đi ra khỏi một tòa nhà đại diện cho AI.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Trong năm phút tới, chúng ta sẽ cùng nhau khám phá chi tiết ba phương pháp bảo vệ này để hệ thống của bạn an toàn hơn.",
+        "chuTrenManHinh": "Ba cách bảo vệ hệ thống",
+        "yDoHinh": "Ba chiếc khiên bảo vệ đang xếp hàng, mỗi chiếc có một biểu tượng khác nhau đại diện cho một lớp bảo vệ.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các lập trình viên, hôm nay chúng ta sẽ tìm hiểu cách bảo vệ hệ thống trí tuệ nhân tạo của mình.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Kỹ thuật tiêm nhiễm lệnh, hay còn gọi là prompt injection, là lỗ hổng cho phép kẻ tấn công thao túng hành vi của mô hình ngôn ngữ lớn.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Prompt injection is a vulnerability in Large Language Model (LLM) applications that allows attackers to manipulate the model's behavior by injecting malicious input that changes its intended output."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Một trong những biện pháp phòng thủ là tiền xử lý đầu vào bằng cách diễn đạt lại hoặc mã hóa lại để làm khó việc tạo ra lệnh độc hại.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Input Pre-processing (Paraphrasing, Retokenization) Transform the input to make creating an adversarial prompt more difficult."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn đã bao giờ nghĩ đến việc sử dụng các rào chắn và bộ lọc để giám sát cả đầu vào lẫn đầu ra của hệ thống chưa?",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Guardrails & Overseers, Firewalls & Filters Monitor the inputs and outputs, using traditional and LLM specific mechanisms to detect prompt injection or it's impacts (prompt leakage, jailbreaks)."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Trong năm phút tới, chúng ta sẽ cùng nhau khám phá chi tiết ba phương pháp bảo vệ này để hệ thống của bạn an toàn hơn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cách phòng chống prompt injection\",\n  \"mucTieu\": \"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Lập trình viên\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các lập trình viên, hôm nay chúng ta sẽ tìm hiểu cách bảo vệ hệ thống trí tuệ nhân tạo của mình.\",\n      \"chuTrenManHinh\": \"Chào mừng đến với buổi học\",\n      \"yDoHinh\": \"Một lập trình viên đang mỉm cười vẫy tay chào trước màn hình máy tính có hiển thị logo AI.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Kỹ thuật tiêm nhiễm lệnh, hay còn gọi là prompt injection, là lỗ hổng cho phép kẻ tấn công thao túng hành vi của mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\": \"Định nghĩa Prompt Injection\",\n      \"yDoHinh\": \"Sơ đồ minh họa dòng dữ liệu độc hại xâm nhập vào một khối đại diện cho mô hình ngôn ngữ lớn.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Một trong những biện pháp phòng thủ là tiền xử lý đầu vào bằng cách diễn đạt lại hoặc mã hóa lại để làm khó việc tạo ra lệnh độc hại.\",\n      \"chuTrenManHinh\": \"Tiền xử lý đầu vào\",\n      \"yDoHinh\": \"Quá trình chuyển đổi chuỗi ký tự hỗn loạn thành chuỗi ký tự có cấu trúc rõ ràng trước khi vào hệ thống.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ nghĩ đến việc sử dụng các rào chắn và bộ lọc để giám sát cả đầu vào lẫn đầu ra của hệ thống chưa?\",\n      \"chuTrenManHinh\": \"Giám sát đầu vào và đầu ra\",\n      \"yDoHinh\": \"Một hệ thống camera an ninh ảo đang quét các gói tin dữ liệu đi vào và đi ra khỏi một tòa nhà đại diện cho AI.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Trong năm phút tới, chúng ta sẽ cùng nhau khám phá chi tiết ba phương pháp bảo vệ này để hệ thống của bạn an toàn hơn.\",\n      \"chuTrenManHinh\": \"Ba cách bảo vệ hệ thống\",\n      \"yDoHinh\": \"Ba chiếc khiên bảo vệ đang xếp hàng, mỗi chiếc có một biểu tượng khác nhau đại diện cho một lớp bảo vệ.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-f6ebe5c2-c711-4840-aea1-e8d2cb313789",
+      "durationMs": 1845,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cách phòng chống prompt injection\",\n  \"mucTieu\": \"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Lập trình viên\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các lập trình viên, hôm nay chúng ta sẽ tìm hiểu cách bảo vệ hệ thống trí tuệ nhân tạo của mình.\",\n      \"chuTrenManHinh\": \"Chào mừng đến với buổi học\",\n      \"yDoHinh\": \"Một lập trình viên đang mỉm cười vẫy tay chào trước màn hình máy tính có hiển thị logo AI.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Kỹ thuật tiêm nhiễm lệnh, hay còn gọi là prompt injection, là lỗ hổng cho phép kẻ tấn công thao túng hành vi của mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\": \"Định nghĩa Prompt Injection\",\n      \"yDoHinh\": \"Sơ đồ minh họa dòng dữ liệu độc hại xâm nhập vào một khối đại diện cho mô hình ngôn ngữ lớn.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Một trong những biện pháp phòng thủ là tiền xử lý đầu vào bằng cách diễn đạt lại hoặc mã hóa lại để làm khó việc tạo ra lệnh độc hại.\",\n      \"chuTrenManHinh\": \"Tiền xử lý đầu vào\",\n      \"yDoHinh\": \"Quá trình chuyển đổi chuỗi ký tự hỗn loạn thành chuỗi ký tự có cấu trúc rõ ràng trước khi vào hệ thống.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ nghĩ đến việc sử dụng các rào chắn và bộ lọc để giám sát cả đầu vào lẫn đầu ra của hệ thống chưa?\",\n      \"chuTrenManHinh\": \"Giám sát đầu vào và đầu ra\",\n      \"yDoHinh\": \"Một hệ thống camera an ninh ảo đang quét các gói tin dữ liệu đi vào và đi ra khỏi một tòa nhà đại diện cho AI.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Trong năm phút tới, chúng ta sẽ cùng nhau khám phá chi tiết ba phương pháp bảo vệ này để hệ thống của bạn an toàn hơn.\",\n      \"chuTrenManHinh\": \"Ba cách bảo vệ hệ thống\",\n      \"yDoHinh\": \"Ba chiếc khiên bảo vệ đang xếp hàng, mỗi chiếc có một biểu tượng khác nhau đại diện cho một lớp bảo vệ.\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 1974
+}

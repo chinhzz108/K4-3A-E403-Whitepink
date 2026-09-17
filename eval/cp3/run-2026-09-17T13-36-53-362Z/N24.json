@@ -1,0 +1,815 @@
+{
+  "case": {
+    "id": "N24",
+    "class": "hiem",
+    "input": {
+      "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+      "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+      "targetAudience": "Cán bộ nhân viên văn phòng",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Có yếu tố pháp lý khác nhau theo quốc gia. Nguồn Việt Nam khan hiếm.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #3 — pháp lý + ít nguồn VN; không phải chatlog",
+    "passCriteria": "Nguồn thật và đoạn trích khớp; nêu phạm vi pháp lý theo quốc gia và thời điểm, không suy đoán có hay không quy định Việt Nam",
+    "failCriteria": "Khẳng định luật VN khi chưa có rõ ràng; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+        "tieuDe": "Both ends of artificial intelligence impacting privacy: a review of violation and protection - PMC",
+        "ngayLayVe": "2026-09-17T13:45:53.521Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Bài báo khoa học đánh giá chuyên sâu về quyền riêng tư và trí tuệ nhân tạo.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn không rõ ngày đăng cụ thể.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Privacy is a multifaceted concept spanning personal, social, and technological dimensions (Mulligan et al., 2016).",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/",
+        "tieuDe": "The growing data privacy concerns with AI: What you need to know",
+        "ngayLayVe": "2026-09-17T13:46:03.527Z",
+        "loai": "bao-chi",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Bài viết blog từ tổ chức chuyên về bảo mật dữ liệu nhưng thiếu chi tiết tác giả cụ thể.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn không rõ ngày đăng cụ thể.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai",
+        "tieuDe": "Data Protection and AI",
+        "ngayLayVe": "2026-09-17T13:46:03.527Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Tài liệu chính thức từ trường đại học về bảo vệ dữ liệu và AI, đưa ra các hướng dẫn rõ ràng.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn không rõ ngày đăng cụ thể.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/",
+        "tieuDe": "https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/",
+        "ngayLayVe": "2026-09-17T13:45:53.519Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "timeout",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n05",
+        "url": "https://tietosuoja.fi/en/ai-systems-and-data-protection",
+        "tieuDe": "https://tietosuoja.fi/en/ai-systems-and-data-protection",
+        "ngayLayVe": "2026-09-17T13:45:53.521Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://elnevents.com/the-future-of-ai-privacy-what-you-need-to-know",
+        "tieuDe": "https://elnevents.com/the-future-of-ai-privacy-what-you-need-to-know",
+        "ngayLayVe": "2026-09-17T13:46:03.526Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Không nên gửi thông tin được phân loại là hạn chế hoặc rất hạn chế vào các công cụ AI tạo sinh để tuân thủ luật bảo vệ dữ liệu.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools",
+            "viTri": "Nội dung trang 3"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Công nghệ AI phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.",
+            "viTri": "Nội dung trang 2"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "AI data privacy",
+      "Personal data protection AI"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789652770702",
+      "timestamp": "2026-09-17T13:46:10.702Z",
+      "phase": "research",
+      "input": {
+        "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+        "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+        "targetAudience": "Cán bộ nhân viên văn phòng",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N24"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Artificial Intelligence and Privacy – Issues and Challenges",
+              "url": "https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/",
+              "snippet": "AI technology is not confined to one state or jurisdiction, making it difficult to create and maintain good privacy practices and governance across borders.",
+              "position": 1
+            },
+            {
+              "title": "Both ends of artificial intelligence impacting privacy: a review ...",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+              "snippet": "viết bởi N Voloch · 2026 · Trích dẫn 9 bài viết — Key findings indicate that AI can be both a potential threat to privacy, for example due to inference risks and data exploitation, as well as a tool for ...",
+              "position": 2
+            },
+            {
+              "title": "data privacy concerns - with AI: What you need to know",
+              "url": "https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/",
+              "snippet": "AI poses various privacy challenges, including unauthorized data use, biometric data concerns, covert data collection, and algorithmic bias.",
+              "position": 3
+            },
+            {
+              "title": "AI, data governance and privacy",
+              "url": "https://www.oecd.org/en/publications/ai-data-governance-and-privacy_2476b1a4-en.html",
+              "snippet": "This report focuses on the privacy risks and opportunities stemming from recent AI developments. It maps the principles set in the OECD Privacy ...",
+              "position": 4
+            },
+            {
+              "title": "AI and Data Privacy: Protecting Personal Information",
+              "url": "https://www.blackfog.com/ai-and-data-privacy-protecting-personal-information/",
+              "snippet": "Firms must design AI processes that limit data exposure by using techniques such as data anonymization and access controls. Regular risk assessments and ...",
+              "position": 5
+            }
+          ],
+          "query": "AI data privacy",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Data protection in the development and use of AI systems",
+              "url": "https://tietosuoja.fi/en/ai-systems-and-data-protection",
+              "snippet": "Personal data must be processed transparently and in a manner appropriate for the purpose for which the data was collected. Data subjects must be informed ...",
+              "position": 1
+            },
+            {
+              "title": "AI Privacy: The Future of Personal Data Protection (AP ...",
+              "url": "https://elnevents.com/the-future-of-ai-privacy-what-you-need-to-know",
+              "snippet": "AI privacy involves ensuring that individuals have control over their personal data and that it is used in a responsible and ethical manner. The importance of ...",
+              "position": 2
+            },
+            {
+              "title": "Data Protection and AI",
+              "url": "https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai",
+              "snippet": "AI can pose considerable issues when it comes to accuracy of data. When this poses risks to information concerning individuals being inaccurate this principle ...",
+              "position": 3
+            },
+            {
+              "title": "AI Privacy: Protecting Data in the Age of Artificial Intelligence",
+              "url": "https://witness.ai/blog/ai-privacy/",
+              "snippet": "Safeguard sensitive data in AI systems by exploring privacy risks, protection strategies, and key laws like GDPR and the EU AI Act.",
+              "position": 4
+            },
+            {
+              "title": "Both ends of artificial intelligence impacting privacy: a review ...",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+              "snippet": "viết bởi N Voloch · 2026 · Trích dẫn 9 bài viết — AI systems can collect and process massive amounts of personal data, often without explicit user consent. For instance, facial recognition technology used in ...",
+              "position": 5
+            }
+          ],
+          "query": "Personal data protection AI",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/",
+          "https://tietosuoja.fi/en/ai-systems-and-data-protection",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+          "https://elnevents.com/the-future-of-ai-privacy-what-you-need-to-know",
+          "https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/",
+          "https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai",
+          "https://www.oecd.org/en/publications/ai-data-governance-and-privacy_2476b1a4-en.html",
+          "https://witness.ai/blog/ai-privacy/"
+        ],
+        "pagesRead": [
+          "https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/",
+          "https://tietosuoja.fi/en/ai-systems-and-data-protection",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+          "https://elnevents.com/the-future-of-ai-privacy-what-you-need-to-know",
+          "https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/",
+          "https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:45:53.519Z",
+          "title": "",
+          "status": "timeout",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://tietosuoja.fi/en/ai-systems-and-data-protection",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:45:53.521Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+          "content": "Privacy is a multifaceted concept spanning personal, social, and technological dimensions (Mulligan et al., 2016). It usually revolves around the right of individuals to control information about themselves and to decide how and to what extent this information is communicated to others (Solove, 2004). In the digital era, privacy challenges stem mainly from the collection, use, and dissemination of personal data by various entities, including governments, corporations, and other individuals. Effective privacy protection measures must navigate the delicate balance between individual rights and technological benefits.\n\nPrivacy is perceived as a human right in Western countries; therefore, privacy regulations have been strengthened globally to address the increasing concerns vis-à-vis personal data protection. These regulations aim to provide individuals with greater control over their personal information and impose stricter requirements on organizations regarding data handling practices (Greenleaf, 2019). The most prominent example is the General Data Protection Regulation (GDPR) (Regulation (EU) 2016). The GDPR is a regulation for data protection and privacy, initiated by the European Union (EU), and affects most of the commercial companies, government institutions, and other sectors that process personal information of individuals. This regulation applies by virtue of public international law, thus it has a deep meaningful effect on many aspects that involve the handling of private data.\n\nThe integration of AI into various sectors has raised significant concerns regarding privacy, particularly in terms of data collection, processing, and the potential misuse (Binns, 2018). As AI systems become more sophisticated, the challenge of ensuring that privacy is indeed maintained while harnessing AI’s capabilities becomes increasingly complex (Wachter et al., 2017). Privacy issues in AI involve legal, technological, and ethical aspects. Legally, there are concerns about data protection laws not keeping pace with AI’s capabilities, leading to potential violations of privacy rights as AI systems increasingly use personal data for training and decision-making (Schwartz and Solove, 2014). Technologically, AI models often require large datasets that can inadvertently expose sensitive information, highlighting the need for robust privacy-preserving techniques (Shokri and Shmatikov, 2015). Ethically, there is an ongoing debate about the moral implications of AI’s ability to infer private information from seemingly innocuous data, raising questions about consent and autonomy in digital spaces (Mittelstadt, 2019). AI may be perceived as the ability to slide the curtain that hides private data without breaching or violating any existing law, a source of significant concern.\n\nPrivacy and AI are inherently interconnected, simply due to the fact that AI systems often rely on vast amounts of personal data to function effectively; and the collection, processing, and storage of this data raise concerns about individuals’ privacy. These concerns particularly deal with how data is used, shared, and protected. AI models, especially in areas such as facial recognition, user profiling, and predictive analytics, can pose risks of unauthorized data access, misuse, or even surveillance. As AI continues to evolve, balancing innovation with privacy protection is crucial to maintain trust and adhere to ethical standards in data handling.\n\nOseni et al. (2021) reviewed security and privacy challenges in AI, including secure development, adversarial threats, and defense methods. Dilmaghani et al. (2019) surveyed and discussed the impact of big data on privacy and security in the context of ML and AI systems. Ma et al. (2023) surveyed privacy and security issues that can arise in distributed ML systems. Perino et al. (2022) examined vulnerabilities of AI models in telecom, exploring privacy-preserving techniques like Federated Learning (FL), differential privacy, and trusted execution environments. Thuraisingham (2020) discusses the potential of AI to benefit humanity while also acknowledging the challenges of cyber-attacks and privacy violations. Zhang et al. (2022) proposed a taxonomy of explainable AI (XAI) for cybersecurity across domains such as phishing and malware. Khalid et al. (2023) surveyed privacy-preserving machine learning (PPML) in healthcare, detailing attack types and defense techniques. Meurisch et al. (2020) introduced PrivAI, a privacy-by-design platform using divisible AI and confidential data stores. Gupta et al. (2020) investigated AI-enhanced smart contract privacy and identified unresolved challenges in security and scalability. Villegas-Ch and Garcia-Ortiz (2023) proposed a framework to address AI privacy gaps, emphasizing policy and risk mitigation. Gulmezoglu et al. (2019) investigated attacks on mobile devices that exploit the microarchitecture of modern processors and compromise user privacy. Cheng et al. (2020) demonstrated FL in finance and edge computing through real-world deployments. Zhu et al. (2020) analyzed the benefits of differential privacy in ML, Deep Learning (DL), and multi-agent systems. Qiu et al. (2019) surveyed recent progress in adversarial attacks and defense technologies, mainly in DL. Zhou et al. (2022) surveyed current research on adversarial attacks and defenses in DL. Rodriguez-Barroso et al. (2020) introduced Sherpa.ai, combining FL and differential privacy in a unified framework. Jain and Ghanavati (2020) explored privacy risks from large AI training datasets and reviewed emerging solutions. Murdoch (2021) discussed AI in the field of healthcare. Mahmud et al. (2022) addressed autism care using explainable and privacy-preserving AI. Bai et al. (2021) developed a FL framework for COVID-19 diagnosis using chest CT data to preserve privacy without central data sharing. Kaissis et al. (2020) reviewed secure AI techniques in medical imaging, including homomorphic encryption and multi-party computation. Roy (2022) examined data protection methods like anonymization and encryption in healthcare AI under HIPAA and GDPR. Tom et al. (2020) evaluated privacy challenges in AI-driven ophthalmology, covering consent and data protection models. Bak et al. (2022) discussed balancing privacy with access to health data for AI research across the EU. Fritchman et al. (2018) presented a secure multiparty computation (SMC) framework for encrypted AI predictions in clinical settings. Kirienko et al. (2021) compared distributed learning to centralized ML for privacy-sensitive medical applications. Puiu et al. (2021) applied homomorphic encryption to cardiovascular imaging and emphasized explainability in clinical AI. Ishii (2019) compared privacy laws across countries in relation to AI-powered robots and proposed policy suggestions. Willems et al. (2023) found that usefulness of AI services increases adoption despite privacy concerns, supporting the privacy paradox. Zhdanov et al. (2022) proposed integrating fairness, accountability, and transparency (FAT) with privacy in business AI decision-making. Wang et al. (2019) applied differential privacy to aggregate public moral preferences in autonomous vehicle ethics. Tucker et al. (2018) analyzed AI and privacy economics, focusing on data persistence, repurposing, and spillovers. Toch and Birman (2018) introduced a behavioral privacy framework to address AI’s predictive capabilities. Rahman et al. (2020) proposed a privacy-preserving AI framework for edge computing using Fully Homomorphic Encryption (FHE) to protect quality-of-service data. McStay (2020)reviewed emotional AI practices and called for regulation to safeguard dignity and non-identifying data. Roemmich et al. (2023) studied U.S. workers’ reactions to emotion AI and found it raised significant concerns about emotional privacy. Zhang et al. (2021) surveyed AI from the perspective of ethics and privacy. Saura et al. (2022) explored governmental use of AI for behavior analysis and its privacy implications, recommending ethical data practices. Bendechache et al. (2021) described a project designed to engage 500 Dublin teenagers in workshops to explore AI, ethics, and privacy. Chen (2020) explored personal privacy protection techniques from the standpoint of social engineering. Kelley et al. (2023) surveyed global public concerns around AI, such as state surveillance and unauthorized data use. Kronemann et al. (2023) examined how AI personalization and anthropomorphism impact user willingness to disclose data under privacy concerns. Kerry et al. (2020) emphasized the urgency of privacy legislation in response to AI’s transformative data use. Hu et al. (2023) argued for national data infrastructure as a cybersecurity imperative in AI governance. Mazurek and Malagocka (2019) discussed evolving attitudes toward AI, privacy, and regulation, emphasizing ethical alignment. Holzinger et al. (2021) linked AI to the UN Sustainable",
+          "fetchedAt": "2026-09-17T13:45:53.521Z",
+          "title": "Both ends of artificial intelligence impacting privacy: a review of violation and protection - PMC",
+          "status": "ok",
+          "contentLength": 136313,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 8,
+              "text": "Privacy is a multifaceted concept spanning personal, social, and technological dimensions (Mulligan et al., 2016). It usually revolves around the right of individuals to control information about themselves and to decide how and to what extent this information is communicated to others (Solove, 2004). In the digital era, privacy challenges stem mainly from the collection, use, and dissemination of personal data by various entities, including governments, corporations, and other individuals. Effective privacy protection measures must navigate the delicate balance between individual rights and technological benefits."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Privacy is perceived as a human right in Western countries; therefore, privacy regulations have been strengthened globally to address the increasing concerns vis-à-vis personal data protection. These regulations aim to provide individuals with greater control over their personal information and impose stricter requirements on organizations regarding data handling practices (Greenleaf, 2019). The most prominent example is the General Data Protection Regulation (GDPR) (Regulation (EU) 2016). The GDPR is a regulation for data protection and privacy, initiated by the European Union (EU), and affects most of the commercial companies, government institutions, and other sectors that process personal information of individuals. This regulation applies by virtue of public international law, thus it has a deep meaningful effect on many aspects that involve the handling of private data."
+            },
+            {
+              "blockIndex": 18,
+              "text": "The integration of AI into various sectors has raised significant concerns regarding privacy, particularly in terms of data collection, processing, and the potential misuse (Binns, 2018). As AI systems become more sophisticated, the challenge of ensuring that privacy is indeed maintained while harnessing AI’s capabilities becomes increasingly complex (Wachter et al., 2017). Privacy issues in AI involve legal, technological, and ethical aspects. Legally, there are concerns about data protection laws not keeping pace with AI’s capabilities, leading to potential violations of privacy rights as AI systems increasingly use personal data for training and decision-making (Schwartz and Solove, 2014). Technologically, AI models often require large datasets that can inadvertently expose sensitive information, highlighting the need for robust privacy-preserving techniques (Shokri and Shmatikov, 2015). Ethically, there is an ongoing debate about the moral implications of AI’s ability to infer private information from seemingly innocuous data, raising questions about consent and autonomy in digital spaces (Mittelstadt, 2019). AI may be perceived as the ability to slide the curtain that hides private data without breaching or violating any existing law, a source of significant concern."
+            },
+            {
+              "blockIndex": 20,
+              "text": "Privacy and AI are inherently interconnected, simply due to the fact that AI systems often rely on vast amounts of personal data to function effectively; and the collection, processing, and storage of this data raise concerns about individuals’ privacy. These concerns particularly deal with how data is used, shared, and protected. AI models, especially in areas such as facial recognition, user profiling, and predictive analytics, can pose risks of unauthorized data access, misuse, or even surveillance. As AI continues to evolve, balancing innovation with privacy protection is crucial to maintain trust and adhere to ethical standards in data handling."
+            },
+            {
+              "blockIndex": 159,
+              "text": "Oseni et al. (2021) reviewed security and privacy challenges in AI, including secure development, adversarial threats, and defense methods. Dilmaghani et al. (2019) surveyed and discussed the impact of big data on privacy and security in the context of ML and AI systems. Ma et al. (2023) surveyed privacy and security issues that can arise in distributed ML systems. Perino et al. (2022) examined vulnerabilities of AI models in telecom, exploring privacy-preserving techniques like Federated Learning (FL), differential privacy, and trusted execution environments. Thuraisingham (2020) discusses the potential of AI to benefit humanity while also acknowledging the challenges of cyber-attacks and privacy violations. Zhang et al. (2022) proposed a taxonomy of explainable AI (XAI) for cybersecurity across domains such as phishing and malware. Khalid et al. (2023) surveyed privacy-preserving machine learning (PPML) in healthcare, detailing attack types and defense techniques. Meurisch et al. (2020) introduced PrivAI, a privacy-by-design platform using divisible AI and confidential data stores. Gupta et al. (2020) investigated AI-enhanced smart contract privacy and identified unresolved challenges in security and scalability. Villegas-Ch and Garcia-Ortiz (2023) proposed a framework to address AI privacy gaps, emphasizing policy and risk mitigation. Gulmezoglu et al. (2019) investigated attacks on mobile devices that exploit the microarchitecture of modern processors and compromise user privacy. Cheng et al. (2020) demonstrated FL in finance and edge computing through real-world deployments. Zhu et al. (2020) analyzed the benefits of differential privacy in ML, Deep Learning (DL), and multi-agent systems. Qiu et al. (2019) surveyed recent progress in adversarial attacks and defense technologies, mainly in DL. Zhou et al. (2022) surveyed current research on adversarial attacks and defenses in DL. Rodriguez-Barroso et al. (2020) introduced Sherpa.ai, combining FL and differential privacy in a unified framework. Jain and Ghanavati (2020) explored privacy risks from large AI training datasets and reviewed emerging solutions. Murdoch (2021) discussed AI in the field of healthcare. Mahmud et al. (2022) addressed autism care using explainable and privacy-preserving AI. Bai et al. (2021) developed a FL framework for COVID-19 diagnosis using chest CT data to preserve privacy without central data sharing. Kaissis et al. (2020) reviewed secure AI techniques in medical imaging, including homomorphic encryption and multi-party computation. Roy (2022) examined data protection methods like anonymization and encryption in healthcare AI under HIPAA and GDPR. Tom et al. (2020) evaluated privacy challenges in AI-driven ophthalmology, covering consent and data protection models. Bak et al. (2022) discussed balancing privacy with access to health data for AI research across the EU. Fritchman et al. (2018) presented a secure multiparty computation (SMC) framework for encrypted AI predictions in clinical settings. Kirienko et al. (2021) compared distributed learning to centralized ML for privacy-sensitive medical applications. Puiu et al. (2021) applied homomorphic encryption to cardiovascular imaging and emphasized explainability in clinical AI. Ishii (2019) compared privacy laws across countries in relation to AI-powered robots and proposed policy suggestions. Willems et al. (2023) found that usefulness of AI services increases adoption despite privacy concerns, supporting the privacy paradox. Zhdanov et al. (2022) proposed integrating fairness, accountability, and transparency (FAT) with privacy in business AI decision-making. Wang et al. (2019) applied differential privacy to aggregate public moral preferences in autonomous vehicle ethics. Tucker et al. (2018) analyzed AI and privacy economics, focusing on data persistence, repurposing, and spillovers. Toch and Birman (2018) introduced a behavioral privacy framework to address AI’s predictive capabilities. Rahman et al. (2020) proposed a privacy-preserving AI framework for edge computing using Fully Homomorphic Encryption (FHE) to protect quality-of-service data. McStay (2020)reviewed emotional AI practices and called for regulation to safeguard dignity and non-identifying data. Roemmich et al. (2023) studied U.S. workers’ reactions to emotion AI and found it raised significant concerns about emotional privacy. Zhang et al. (2021) surveyed AI from the perspective of ethics and privacy. Saura et al. (2022) explored governmental use of AI for behavior analysis and its privacy implications, recommending ethical data practices. Bendechache et al. (2021) described a project designed to engage 500 Dublin teenagers in workshops to explore AI, ethics, and privacy. Chen (2020) explored personal privacy protection techniques from the standpoint of social engineering. Kelley et al. (2023) surveyed global public concerns around AI, such as state surveillance and unauthorized data use. Kronemann et al. (2023) examined how AI personalization and anthropomorphism impact user willingness to disclose data under privacy concerns. Kerry et al. (2020) emphasized the urgency of privacy legislation in response to AI’s transformative data use. Hu et al. (2023) argued for national data infrastructure as a cybersecurity imperative in AI governance. Mazurek and Malagocka (2019) discussed evolving attitudes toward AI, privacy, and regulation, emphasizing ethical alignment. Holzinger et al. (2021) linked AI to the UN Sustainable"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://elnevents.com/the-future-of-ai-privacy-what-you-need-to-know",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:46:03.526Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/",
+          "content": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era. Understanding the significance of data privacy is crucial for individuals and organizations.\n\nAI technologies rely heavily on personal data, making data privacy an essential concern in the digital era. Understanding the significance of data privacy is crucial for individuals and organizations.\n\nAI poses various privacy challenges, including unauthorized data use, biometric data concerns, covert data collection, and algorithmic bias. These issues can have significant consequences for individuals and society.\n\nAI poses various privacy challenges, including unauthorized data use, biometric\n\nThis is particularly important under frameworks like the General Data Protection Regulation (GDPR) in Europe and other privacy laws worldwide.\n\nData privacy is essential in our increasingly digital world. It protects personal information, fosters trust between individuals and organizations and empowers individuals to control their data.\n\nAI technologies rely heavily on personal data, using it to power processes like data collection, machine learning, and predictive algorithms. These systems can analyze patterns and make decisions that impact everything from personalized recommendations to financial assessments. However, this extensive data use also raises important ethical questions—like how our data is being used, who has access to it, and what the long-term implications might be for our privacy and autonomy.\n\nWith this significant power comes a critical necessity to balance innovation with ethical considerations. The potential for misuse of personal data requires industry leaders to establish robust privacy frameworks. This ensures that as technology advances, individual rights are safeguarded, fostering a more trustworthy relationship between users and AI. Additionally, transparency in data usage and addressing misinformation are key to maintaining public trust.\n\nWhen data is used or collected without permission, it raises serious privacy concerns. Many AI technologies tap into personal information without individuals fully understanding or consenting to how their data will be used. This can lead to significant privacy violations, where personal details are exploited or shared without the knowledge or approval of the people involved.\n\nTo tackle these pressing issues, it is essential to enhance existing privacy policies by implementing stricter regulations on data usage and ensuring that users are fully informed about how their information is managed. Providing clearer opt-in mechanisms and robust data deletion processes can give the power to individuals and restore their control over personal information. This is particularly crucial in the context of Big Tech companies that handle vast amounts of personal data.\n\nOrganizations also face the risk of legal repercussions as regulations like GDPR become increasingly stringent regarding data protection. Therefore, they must reassess their data collection practices to ensure alignment with both ethical standards and legal requirements. Ensuring transparency and adhering to privacy safeguards can help mitigate these ethical concerns.\n\nHigh-profile cases, from data breaches to invasive surveillance, have revealed just how vulnerable personal information can be when misused by AI technologies. Real-world instances of AI privacy issues highlight the critical necessity for enhanced data protection measures.\n\nRecent high-profile data breaches involving AI have brought serious privacy concerns to the forefront. These incidents have exposed gaps in cybersecurity, leaving personal information vulnerable to theft and misuse. Instances like these underscore the importance of robust data protection measures and the need to address the privacy implications of AI technologies.\n\nThese incidents underscore the urgent need for robust data protection measures, as countless individuals find their sensitive information compromised. A notable example is the 2021 breach involving a prominent AI-driven healthcare organization, where unauthorized access to personal health records of millions occurred. This breach not only jeopardized patient privacy but also eroded trust in digital health services.\n\nThe legal and regulatory environment for AI and privacy is in a state of constant change. Frameworks such as the General Data Protection Regulation (GDPR) significantly influence how organizations should approach data protection and ensure regulatory compliance in their use of AI technologies.\n\nRegulations like the GDPR are setting high standards for how AI systems handle personal data, with a strong focus on protecting individual privacy rights. These laws require organizations to follow strict guidelines, ensuring that personal information is used responsibly and transparently.\n\nThese regulations require organizations to implement robust data protection measures while also necessitating a thorough understanding of how artificial intelligence interacts with personal data. For instance, compliance entails ensuring transparency in AI algorithms and providing individuals with control over their information, which introduces additional layers of complexity.\n\nFuture trends in data privacy laws are likely to focus on enhancing regulatory compliance as AI technologies evolve. This will necessitate stronger data protection measures and more robust frameworks to govern data usage.\n\nAs artificial intelligence continues to integrate into various aspects of daily life, you will likely see a growing recognition of the need for comprehensive privacy regulations. Stakeholders, including governments and tech companies, may increasingly collaborate on standardized protocols to establish clear boundaries for data collection and usage. International cooperation is expected to rise, fostering an environment where cross-border data transfers can occur with greater confidence in legal protections.\n\nStrong data governance policies ensure compliance with privacy laws and safeguard personal data against unauthorized access and misuse.\n\nImplementing privacy by design principles in AI applications serves as a proactive approach to data protection, ensuring that privacy concerns are integrated into the development lifecycle of technologies.\n\nYou play a crucial role in safeguarding your privacy in the digital era. Understanding how personal data is used, the mechanisms of consent, and your privacy rights give the power to you to take proactive steps to protect your digital privacy.\n\nTo protect your data effectively, regularly review the privacy settings on your social media platforms, exercise caution with consent agreements, and utilize privacy tools to safeguard your personal information.\n\nConsider using a virtual private network (VPN) to encrypt your internet connection, making it more challenging for third parties to track your online activities. It is also crucial to educate yourself on the latest privacy policies and data protection laws to fully understand your rights.\n\nBy advocating for stronger privacy rights and supporting legislation that reinforces these protections, you can play a vital role in the broader movement for consumer rights. Staying informed about potential risks and understanding the available tools will give the power to you to take control of your digital footprint and minimize your exposure to data breaches.\n\nAs these technologies become increasingly integrated into daily life, it is equally crucial for you as a consumer to understand your rights and responsibilities concerning personal data. Businesses must prioritize transparency in their data handling practices and implement robust security measures to safeguard information. Regulators play a vital role in creating frameworks that not only address current challenges but also anticipate future issues related to data privacy.\n\nBy fostering a culture of vigilance and collaboration among these groups, you can contribute to navigating the complex landscape of data protection and ensuring that individual privacy is respected in an ever-changing digital environment.\n\nAs AI continues to develop and become more integrated into our daily lives, data privacy laws and regulations will need to adapt to ensure the protection of personal data. This includes addressing issues such as data ownership, consent, and the right to be forgotten.\n\nOrganizations and individuals can take several steps to address data privacy concerns with AI, such as implementing strong data protection measures, increasing transparency around AI systems, and developing ethical guidelines for the use of AI.\n\nIndividuals can take steps to protect their data privacy by being aware of the data they share and being cautious about what apps and services they use. It is also important for individuals to advocate for stronger data privacy laws and hold organizations accountable for their use of AI and personal data.",
+          "fetchedAt": "2026-09-17T13:46:03.527Z",
+          "title": "The growing data privacy concerns with AI: What you need to know",
+          "status": "ok",
+          "contentLength": 24948,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 3,
+              "text": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era. Understanding the significance of data privacy is crucial for individuals and organizations."
+            },
+            {
+              "blockIndex": 4,
+              "text": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era. Understanding the significance of data privacy is crucial for individuals and organizations."
+            },
+            {
+              "blockIndex": 5,
+              "text": "AI poses various privacy challenges, including unauthorized data use, biometric data concerns, covert data collection, and algorithmic bias. These issues can have significant consequences for individuals and society."
+            },
+            {
+              "blockIndex": 6,
+              "text": "AI poses various privacy challenges, including unauthorized data use, biometric"
+            },
+            {
+              "blockIndex": 11,
+              "text": "This is particularly important under frameworks like the General Data Protection Regulation (GDPR) in Europe and other privacy laws worldwide."
+            },
+            {
+              "blockIndex": 13,
+              "text": "Data privacy is essential in our increasingly digital world. It protects personal information, fosters trust between individuals and organizations and empowers individuals to control their data."
+            },
+            {
+              "blockIndex": 17,
+              "text": "AI technologies rely heavily on personal data, using it to power processes like data collection, machine learning, and predictive algorithms. These systems can analyze patterns and make decisions that impact everything from personalized recommendations to financial assessments. However, this extensive data use also raises important ethical questions—like how our data is being used, who has access to it, and what the long-term implications might be for our privacy and autonomy."
+            },
+            {
+              "blockIndex": 19,
+              "text": "With this significant power comes a critical necessity to balance innovation with ethical considerations. The potential for misuse of personal data requires industry leaders to establish robust privacy frameworks. This ensures that as technology advances, individual rights are safeguarded, fostering a more trustworthy relationship between users and AI. Additionally, transparency in data usage and addressing misinformation are key to maintaining public trust."
+            },
+            {
+              "blockIndex": 26,
+              "text": "When data is used or collected without permission, it raises serious privacy concerns. Many AI technologies tap into personal information without individuals fully understanding or consenting to how their data will be used. This can lead to significant privacy violations, where personal details are exploited or shared without the knowledge or approval of the people involved."
+            },
+            {
+              "blockIndex": 28,
+              "text": "To tackle these pressing issues, it is essential to enhance existing privacy policies by implementing stricter regulations on data usage and ensuring that users are fully informed about how their information is managed. Providing clearer opt-in mechanisms and robust data deletion processes can give the power to individuals and restore their control over personal information. This is particularly crucial in the context of Big Tech companies that handle vast amounts of personal data."
+            },
+            {
+              "blockIndex": 38,
+              "text": "Organizations also face the risk of legal repercussions as regulations like GDPR become increasingly stringent regarding data protection. Therefore, they must reassess their data collection practices to ensure alignment with both ethical standards and legal requirements. Ensuring transparency and adhering to privacy safeguards can help mitigate these ethical concerns."
+            },
+            {
+              "blockIndex": 44,
+              "text": "High-profile cases, from data breaches to invasive surveillance, have revealed just how vulnerable personal information can be when misused by AI technologies. Real-world instances of AI privacy issues highlight the critical necessity for enhanced data protection measures."
+            },
+            {
+              "blockIndex": 47,
+              "text": "Recent high-profile data breaches involving AI have brought serious privacy concerns to the forefront. These incidents have exposed gaps in cybersecurity, leaving personal information vulnerable to theft and misuse. Instances like these underscore the importance of robust data protection measures and the need to address the privacy implications of AI technologies."
+            },
+            {
+              "blockIndex": 48,
+              "text": "These incidents underscore the urgent need for robust data protection measures, as countless individuals find their sensitive information compromised. A notable example is the 2021 breach involving a prominent AI-driven healthcare organization, where unauthorized access to personal health records of millions occurred. This breach not only jeopardized patient privacy but also eroded trust in digital health services."
+            },
+            {
+              "blockIndex": 60,
+              "text": "The legal and regulatory environment for AI and privacy is in a state of constant change. Frameworks such as the General Data Protection Regulation (GDPR) significantly influence how organizations should approach data protection and ensure regulatory compliance in their use of AI technologies."
+            },
+            {
+              "blockIndex": 63,
+              "text": "Regulations like the GDPR are setting high standards for how AI systems handle personal data, with a strong focus on protecting individual privacy rights. These laws require organizations to follow strict guidelines, ensuring that personal information is used responsibly and transparently."
+            },
+            {
+              "blockIndex": 65,
+              "text": "These regulations require organizations to implement robust data protection measures while also necessitating a thorough understanding of how artificial intelligence interacts with personal data. For instance, compliance entails ensuring transparency in AI algorithms and providing individuals with control over their information, which introduces additional layers of complexity."
+            },
+            {
+              "blockIndex": 71,
+              "text": "Future trends in data privacy laws are likely to focus on enhancing regulatory compliance as AI technologies evolve. This will necessitate stronger data protection measures and more robust frameworks to govern data usage."
+            },
+            {
+              "blockIndex": 72,
+              "text": "As artificial intelligence continues to integrate into various aspects of daily life, you will likely see a growing recognition of the need for comprehensive privacy regulations. Stakeholders, including governments and tech companies, may increasingly collaborate on standardized protocols to establish clear boundaries for data collection and usage. International cooperation is expected to rise, fostering an environment where cross-border data transfers can occur with greater confidence in legal protections."
+            },
+            {
+              "blockIndex": 77,
+              "text": "Strong data governance policies ensure compliance with privacy laws and safeguard personal data against unauthorized access and misuse."
+            },
+            {
+              "blockIndex": 81,
+              "text": "Implementing privacy by design principles in AI applications serves as a proactive approach to data protection, ensuring that privacy concerns are integrated into the development lifecycle of technologies."
+            },
+            {
+              "blockIndex": 89,
+              "text": "You play a crucial role in safeguarding your privacy in the digital era. Understanding how personal data is used, the mechanisms of consent, and your privacy rights give the power to you to take proactive steps to protect your digital privacy."
+            },
+            {
+              "blockIndex": 91,
+              "text": "To protect your data effectively, regularly review the privacy settings on your social media platforms, exercise caution with consent agreements, and utilize privacy tools to safeguard your personal information."
+            },
+            {
+              "blockIndex": 92,
+              "text": "Consider using a virtual private network (VPN) to encrypt your internet connection, making it more challenging for third parties to track your online activities. It is also crucial to educate yourself on the latest privacy policies and data protection laws to fully understand your rights."
+            },
+            {
+              "blockIndex": 93,
+              "text": "By advocating for stronger privacy rights and supporting legislation that reinforces these protections, you can play a vital role in the broader movement for consumer rights. Staying informed about potential risks and understanding the available tools will give the power to you to take control of your digital footprint and minimize your exposure to data breaches."
+            },
+            {
+              "blockIndex": 98,
+              "text": "As these technologies become increasingly integrated into daily life, it is equally crucial for you as a consumer to understand your rights and responsibilities concerning personal data. Businesses must prioritize transparency in their data handling practices and implement robust security measures to safeguard information. Regulators play a vital role in creating frameworks that not only address current challenges but also anticipate future issues related to data privacy."
+            },
+            {
+              "blockIndex": 99,
+              "text": "By fostering a culture of vigilance and collaboration among these groups, you can contribute to navigating the complex landscape of data protection and ensuring that individual privacy is respected in an ever-changing digital environment."
+            },
+            {
+              "blockIndex": 111,
+              "text": "As AI continues to develop and become more integrated into our daily lives, data privacy laws and regulations will need to adapt to ensure the protection of personal data. This includes addressing issues such as data ownership, consent, and the right to be forgotten."
+            },
+            {
+              "blockIndex": 113,
+              "text": "Organizations and individuals can take several steps to address data privacy concerns with AI, such as implementing strong data protection measures, increasing transparency around AI systems, and developing ethical guidelines for the use of AI."
+            },
+            {
+              "blockIndex": 117,
+              "text": "Individuals can take steps to protect their data privacy by being aware of the data they share and being cautious about what apps and services they use. It is also important for individuals to advocate for stronger data privacy laws and hold organizations accountable for their use of AI and personal data."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai",
+          "content": "Information Management and Policy Services Staff Student A-Z lists Search textbox label Search Data Protection and AI This page is subject to change and updates - please revisit this page when seeking advice and do not make local copies which may become out of date. Artificial Intelligence (AI) and Data Protection Use of Artificial Intelligence (AI) may have benefits to the University when it comes to finding new ways of working with these tools. We should always ask ‘what are we using it for?’, ‘does it do the job well?’ and ‘what problem does it solve?’. The University must also ensure it meets its legal obligations under data protection laws. Restrictions on use of AI Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools (such as ChatGPT). Detail on what Information falls into these classifications can be found within the University Classification Policy. This includes the personal data of our staff, students, visitors, research participants and others. This also includes sensitive non personal information, which includes commercially sensitive data. What are the risks of AI when it comes to personal data? Data protection laws require all organisations to comply with a set of principles. The most pertinent to uses of AI are summarised below, along with the issues presented. Personal data must be: processed lawfully, fairly and in a transparent manner People must be made aware of how their data is being used, for what purposes, and to who it is being disclosed. It can be difficult (and in some cases, may be impossible) to know or communicate how personal data will be processed within AI tools and who may have access to it. A disclosure of information to a third party will likely be made when submitting personal data to providers of these tools, even if the provider advises it will be deleted post query. Data protection laws also contain rights for individuals, including the right to know who is controlling their data, the right to access it, and the right to seek erasure and object to its use in some cases. Where personal data is processed within AI tools, these rights can become very difficult to exercise, particularly if a person has no way of knowing where or how their personal data is being used. This can be of particular concern where an individual is subject to bias or unfair outcomes as a result of use of their data in AI tools and where they have a lack of ability to challenge these, or a way to exercise these rights. collected for specified, explicit and legitimate purposes and not used for incompatible purposes. Those that trust the University with their personal data expect the University to use if for the purposes it was provided or collected and we are required to limit use to these purposes in many cases unless limited exemptions apply. Use of AI tools may involve a differing purpose and in many cases, this information will be used by the tool to further train AI which can be without the users knowledge or agreement. What further purposes it may be used for beyond our use may not be known, even to the user of the tool. accurate and kept up to date. AI can pose considerable issues when it comes to accuracy of data. When this poses risks to information concerning individuals being inaccurate this principle may not be met. AI can also run risks of machine learned bias that could have detrimental effects on individuals. This is particularly a concern where use of AI results in the generating of information that could be used to make decisions about individuals or provide them with advice where accuracy is important. Accountability is also a key requirement of data protection laws. Senior responsible owners should be in place for uses of AI who will be accountable for ensuring the security and governance of its use. Limited and qualified exemptions from some principles exist with the law, such as those connected to research in the public interest. How can these risks be addressed? What if I want to use AI? The below must be considered: Does the use of AI have a clear purpose? Do you need to use it? What do you expect it to achieve? Can the objectives be met without it? Are you aware of the restrictions on use for sensitive and personal data? How will you ensure these are met? How will you address risks of inaccuracy? Is it important that the outputs are accurate? What impacts could inaccurate data have? Could AI outputs lead to detrimental effects on individuals? How will you monitor, prevent and address this? How will you be alert to unexpected outcomes? Are there ethical considerations? Is it important whether the AI tool you wish to use was trained with data that was sourced ethically or in compliance with data protection laws? How will you ensure you are alert to inherent bias? How will you identify and address it? How will you know where your inputted data will end up? Will it be exposed to others? Does it matter? What else do I need to know and what actions should I take? If you are considering using AI for personal and sensitive data you must seek prior advice from IMPS or DTS. There must be a senior accountable owner for AI projects the University undertakes. You may be required to undertake a Data Protection Impact Assessment. These can take time so ensure that you factor this into the time and resources you need. Risks of non compliance may be referred to a senior risk owner who must be identified and accountable for the data and those risks. If using a generative AI account for personal use not connected to your role at the University, do not use your University email as your username. If using a generative AI account for work connected to your role do not use your University password. Choose strong and unique passwords. Where available, use settings within the tool to disable or opt out of the data you input being used for training or machine learning. This will sometimes be worded as 'help us make this better for others' or similar. Understand how it works. Read the user guidance. University training on the use of generative AI tools should not be taken to be authorisation to use the tools for any data that is restricted. Be aware that some of these tools have terms and conditions that restrict what they can be used for. In many cases, these terms will also require you have the authorisation of the University to accept those terms (bind the organisation to a legal contract). Read the terms and conditions and the small print so you fully understand what you are agreeing to. Should the University make available access to enterprise or organisational licensed AI tools, it is the expectation that these will be used as opposed to individual accounts. Where can I go for advice? For questions relating to personal data and AI you can contact imps@reading.ac.uk or call us on 0118 378 8981. DTS can be contacted at dts@reading.ac.uk or by calling 0118 378 6262. More information is available from CQSD. Additional Resources The UK regulatory authority for the protection of personal data (the ICO) has guidance available. More information on Data Protection Impact Assessments can be found at::Data Protection by Design The Government have produced guidance for the Civil Service which may also be helpful. Whilst the UK currently has no specific AI laws (or clear plans for such) there are plans for legislation within the European Union. Whilst the UK is no longer a member of the EU, the territorial reach of any EU Act passed may include the UK where involving the data of EU residents. See more information on the progress of the EU Artificial Intelligence Act.",
+          "fetchedAt": "2026-09-17T13:46:03.527Z",
+          "title": "Data Protection and AI",
+          "status": "ok",
+          "contentLength": 7721,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Information Management and Policy Services Staff Student A-Z lists Search textbox label Search Data Protection and AI This page is subject to change and updates - please revisit this page when seeking advice and do not make local copies which may become out of date. Artificial Intelligence (AI) and Data Protection Use of Artificial Intelligence (AI) may have benefits to the University when it comes to finding new ways of working with these tools. We should always ask ‘what are we using it for?’, ‘does it do the job well?’ and ‘what problem does it solve?’. The University must also ensure it meets its legal obligations under data protection laws. Restrictions on use of AI Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools (such as ChatGPT). Detail on what Information falls into these classifications can be found within the University Classification Policy. This includes the personal data of our staff, students, visitors, research participants and others. This also includes sensitive non personal information, which includes commercially sensitive data. What are the risks of AI when it comes to personal data? Data protection laws require all organisations to comply with a set of principles. The most pertinent to uses of AI are summarised below, along with the issues presented. Personal data must be: processed lawfully, fairly and in a transparent manner People must be made aware of how their data is being used, for what purposes, and to who it is being disclosed. It can be difficult (and in some cases, may be impossible) to know or communicate how personal data will be processed within AI tools and who may have access to it. A disclosure of information to a third party will likely be made when submitting personal data to providers of these tools, even if the provider advises it will be deleted post query. Data protection laws also contain rights for individuals, including the right to know who is controlling their data, the right to access it, and the right to seek erasure and object to its use in some cases. Where personal data is processed within AI tools, these rights can become very difficult to exercise, particularly if a person has no way of knowing where or how their personal data is being used. This can be of particular concern where an individual is subject to bias or unfair outcomes as a result of use of their data in AI tools and where they have a lack of ability to challenge these, or a way to exercise these rights. collected for specified, explicit and legitimate purposes and not used for incompatible purposes. Those that trust the University with their personal data expect the University to use if for the purposes it was provided or collected and we are required to limit use to these purposes in many cases unless limited exemptions apply. Use of AI tools may involve a differing purpose and in many cases, this information will be used by the tool to further train AI which can be without the users knowledge or agreement. What further purposes it may be used for beyond our use may not be known, even to the user of the tool. accurate and kept up to date. AI can pose considerable issues when it comes to accuracy of data. When this poses risks to information concerning individuals being inaccurate this principle may not be met. AI can also run risks of machine learned bias that could have detrimental effects on individuals. This is particularly a concern where use of AI results in the generating of information that could be used to make decisions about individuals or provide them with advice where accuracy is important. Accountability is also a key requirement of data protection laws. Senior responsible owners should be in place for uses of AI who will be accountable for ensuring the security and governance of its use. Limited and qualified exemptions from some principles exist with the law, such as those connected to research in the public interest. How can these risks be addressed? What if I want to use AI? The below must be considered: Does the use of AI have a clear purpose? Do you need to use it? What do you expect it to achieve? Can the objectives be met without it? Are you aware of the restrictions on use for sensitive and personal data? How will you ensure these are met? How will you address risks of inaccuracy? Is it important that the outputs are accurate? What impacts could inaccurate data have? Could AI outputs lead to detrimental effects on individuals? How will you monitor, prevent and address this? How will you be alert to unexpected outcomes? Are there ethical considerations? Is it important whether the AI tool you wish to use was trained with data that was sourced ethically or in compliance with data protection laws? How will you ensure you are alert to inherent bias? How will you identify and address it? How will you know where your inputted data will end up? Will it be exposed to others? Does it matter? What else do I need to know and what actions should I take? If you are considering using AI for personal and sensitive data you must seek prior advice from IMPS or DTS. There must be a senior accountable owner for AI projects the University undertakes. You may be required to undertake a Data Protection Impact Assessment. These can take time so ensure that you factor this into the time and resources you need. Risks of non compliance may be referred to a senior risk owner who must be identified and accountable for the data and those risks. If using a generative AI account for personal use not connected to your role at the University, do not use your University email as your username. If using a generative AI account for work connected to your role do not use your University password. Choose strong and unique passwords. Where available, use settings within the tool to disable or opt out of the data you input being used for training or machine learning. This will sometimes be worded as 'help us make this better for others' or similar. Understand how it works. Read the user guidance. University training on the use of generative AI tools should not be taken to be authorisation to use the tools for any data that is restricted. Be aware that some of these tools have terms and conditions that restrict what they can be used for. In many cases, these terms will also require you have the authorisation of the University to accept those terms (bind the organisation to a legal contract). Read the terms and conditions and the small print so you fully understand what you are agreeing to. Should the University make available access to enterprise or organisational licensed AI tools, it is the expectation that these will be used as opposed to individual accounts. Where can I go for advice? For questions relating to personal data and AI you can contact imps@reading.ac.uk or call us on 0118 378 8981. DTS can be contacted at dts@reading.ac.uk or by calling 0118 378 6262. More information is available from CQSD. Additional Resources The UK regulatory authority for the protection of personal data (the ICO) has guidance available. More information on Data Protection Impact Assessments can be found at::Data Protection by Design The Government have produced guidance for the Civil Service which may also be helpful. Whilst the UK currently has no specific AI laws (or clear plans for such) there are plans for legislation within the European Union. Whilst the UK is no longer a member of the EU, the territorial reach of any EU Act passed may include the UK where involving the data of EU residents. See more information on the progress of the EU Artificial Intelligence Act."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+          "tieuDe": "Both ends of artificial intelligence impacting privacy: a review of violation and protection - PMC",
+          "ngayLayVe": "2026-09-17T13:45:53.521Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo khoa học đánh giá chuyên sâu về quyền riêng tư và trí tuệ nhân tạo.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn không rõ ngày đăng cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Privacy is a multifaceted concept spanning personal, social, and technological dimensions (Mulligan et al., 2016).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/",
+          "tieuDe": "The growing data privacy concerns with AI: What you need to know",
+          "ngayLayVe": "2026-09-17T13:46:03.527Z",
+          "loai": "bao-chi",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết blog từ tổ chức chuyên về bảo mật dữ liệu nhưng thiếu chi tiết tác giả cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn không rõ ngày đăng cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai",
+          "tieuDe": "Data Protection and AI",
+          "ngayLayVe": "2026-09-17T13:46:03.527Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Tài liệu chính thức từ trường đại học về bảo vệ dữ liệu và AI, đưa ra các hướng dẫn rõ ràng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn không rõ ngày đăng cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/",
+          "tieuDe": "https://ovic.vic.gov.au/privacy/resources-for-organisations/artificial-intelligence-and-privacy-issues-and-challenges/",
+          "ngayLayVe": "2026-09-17T13:45:53.519Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "timeout",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n05",
+          "url": "https://tietosuoja.fi/en/ai-systems-and-data-protection",
+          "tieuDe": "https://tietosuoja.fi/en/ai-systems-and-data-protection",
+          "ngayLayVe": "2026-09-17T13:45:53.521Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://elnevents.com/the-future-of-ai-privacy-what-you-need-to-know",
+          "tieuDe": "https://elnevents.com/the-future-of-ai-privacy-what-you-need-to-know",
+          "ngayLayVe": "2026-09-17T13:46:03.526Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n04",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Không nên gửi thông tin được phân loại là hạn chế hoặc rất hạn chế vào các công cụ AI tạo sinh để tuân thủ luật bảo vệ dữ liệu.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools",
+              "viTri": "Nội dung trang 3"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Công nghệ AI phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.",
+              "viTri": "Nội dung trang 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/\",\n      \"tieuDe\": \"Both ends of artificial intelligence impacting privacy: a review of violation and protection - PMC\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"PMC\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:45:53.521Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo khoa học đánh giá chuyên sâu về quyền riêng tư và trí tuệ nhân tạo.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn không rõ ngày đăng cụ thể.\"],\n      \"doanTrich\": \"Privacy is a multifaceted concept spanning personal, social, and technological dimensions (Mulligan et al., 2016).\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/\",\n      \"tieuDe\": \"The growing data privacy concerns with AI: What you need to know\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"DataGuard\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:46:03.527Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết blog từ tổ chức chuyên về bảo mật dữ liệu nhưng thiếu chi tiết tác giả cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn không rõ ngày đăng cụ thể.\"],\n      \"doanTrich\": \"AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai\",\n      \"tieuDe\": \"Data Protection and AI\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"University of Reading\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:46:03.527Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu chính thức từ trường đại học về bảo vệ dữ liệu và AI, đưa ra các hướng dẫn rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn không rõ ngày đăng cụ thể.\"],\n      \"doanTrich\": \"Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Không nên gửi thông tin được phân loại là hạn chế hoặc rất hạn chế vào các công cụ AI tạo sinh để tuân thủ luật bảo vệ dữ liệu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools\",\n          \"viTri\": \"Nội dung trang 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Công nghệ AI phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.\",\n          \"viTri\": \"Nội dung trang 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 3601,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/\",\n      \"tieuDe\": \"Both ends of artificial intelligence impacting privacy: a review of violation and protection - PMC\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"PMC\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:45:53.521Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo khoa học đánh giá chuyên sâu về quyền riêng tư và trí tuệ nhân tạo.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn không rõ ngày đăng cụ thể.\"],\n      \"doanTrich\": \"Privacy is a multifaceted concept spanning personal, social, and technological dimensions (Mulligan et al., 2016).\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/\",\n      \"tieuDe\": \"The growing data privacy concerns with AI: What you need to know\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"DataGuard\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:46:03.527Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết blog từ tổ chức chuyên về bảo mật dữ liệu nhưng thiếu chi tiết tác giả cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn không rõ ngày đăng cụ thể.\"],\n      \"doanTrich\": \"AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai\",\n      \"tieuDe\": \"Data Protection and AI\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"University of Reading\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:46:03.527Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu chính thức từ trường đại học về bảo vệ dữ liệu và AI, đưa ra các hướng dẫn rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn không rõ ngày đăng cụ thể.\"],\n      \"doanTrich\": \"Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Không nên gửi thông tin được phân loại là hạn chế hoặc rất hạn chế vào các công cụ AI tạo sinh để tuân thủ luật bảo vệ dữ liệu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools\",\n          \"viTri\": \"Nội dung trang 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Công nghệ AI phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.\",\n          \"viTri\": \"Nội dung trang 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 20614
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash-lite",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Dữ liệu cá nhân khi dùng trợ lý AI",
+      "mucTieu": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Cán bộ nhân viên văn phòng",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789652783515",
+      "timestamp": "2026-09-17T13:46:23.515Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+        "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+        "targetAudience": "Cán bộ nhân viên văn phòng",
+        "videoDuration": "4 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N24"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+          "tieuDe": "Both ends of artificial intelligence impacting privacy: a review of violation and protection - PMC",
+          "ngayLayVe": "2026-09-17T13:45:53.521Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo khoa học đánh giá chuyên sâu về quyền riêng tư và trí tuệ nhân tạo.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn không rõ ngày đăng cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Privacy is a multifaceted concept spanning personal, social, and technological dimensions (Mulligan et al., 2016).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/",
+          "tieuDe": "The growing data privacy concerns with AI: What you need to know",
+          "ngayLayVe": "2026-09-17T13:46:03.527Z",
+          "loai": "bao-chi",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết blog từ tổ chức chuyên về bảo mật dữ liệu nhưng thiếu chi tiết tác giả cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn không rõ ngày đăng cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai",
+          "tieuDe": "Data Protection and AI",
+          "ngayLayVe": "2026-09-17T13:46:03.527Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Tài liệu chính thức từ trường đại học về bảo vệ dữ liệu và AI, đưa ra các hướng dẫn rõ ràng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn không rõ ngày đăng cụ thể.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Không nên gửi thông tin được phân loại là hạn chế hoặc rất hạn chế vào các công cụ AI tạo sinh để tuân thủ luật bảo vệ dữ liệu.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools",
+              "viTri": "Nội dung trang 3"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Công nghệ AI phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.",
+              "viTri": "Nội dung trang 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Dữ liệu cá nhân khi dùng trợ lý AI",
+        "mucTieu": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Cán bộ nhân viên văn phòng",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Dữ liệu cá nhân khi dùng trợ lý AI\",\n  \"mucTieu\": \"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Cán bộ nhân viên văn phòng\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Theo ghi nhận chưa kiểm chứng, công nghệ trí tuệ nhân tạo, hay còn gọi là artificial intelligence, phụ thuộc nhiều vào dữ liệu cá nhân khiến việc bảo mật trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"AI phụ thuộc vào dữ liệu\",\n      \"yDoHinh\": \"Hiển thị biểu tượng nhân viên văn phòng đang suy nghĩ trước màn hình máy tính có logo trí tuệ nhân tạo.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, công nghệ trí tuệ nhân tạo phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"Bảo mật dữ liệu thiết yếu\",\n      \"yDoHinh\": \"Sơ đồ trực quan thể hiện mối liên kết giữa dữ liệu cá nhân và các hệ thống công nghệ số.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Vì vậy, bất kỳ thông tin nào được phân loại là hạn chế hoặc rất hạn chế không được gửi vào các công cụ trí tuệ nhân tạo tạo sinh để tuân thủ luật bảo vệ dữ liệu, theo ghi nhận chưa kiểm chứng.\",\n      \"chuTrenManHinh\": \"Không gửi thông tin hạn chế\",\n      \"yDoHinh\": \"Cảnh báo dạng ô màu vàng xuất hiện trên giao diện nhập liệu của trợ lý ảo.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng nhau tìm hiểu ba việc nên và không nên làm khi nhập dữ liệu vào công cụ trợ lý ảo để bảo vệ an toàn thông tin.\",\n      \"chuTrenManHinh\": \"Ba việc nên và không nên làm\",\n      \"yDoHinh\": \"Danh sách tóm tắt xuất hiện trên màn hình với các biểu tượng đánh dấu rõ ràng.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin mời các anh chị cùng bắt đầu nội dung bài học ngay sau đây nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học\",\n      \"yDoHinh\": \"Mũi tên chuyển động hướng dẫn người học bước vào phần nội dung chính của video.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 3003,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Dữ liệu cá nhân khi dùng trợ lý AI\",\n  \"mucTieu\": \"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Cán bộ nhân viên văn phòng\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các anh chị có bao giờ tự hỏi công nghệ trí tuệ nhân tạo, hay còn gọi là artificial intelligence, ảnh hưởng thế nào đến thông tin riêng tư của chúng ta chưa?\",\n      \"chuTrenManHinh\": \"Bảo mật dữ liệu khi dùng AI?\",\n      \"yDoHinh\": \"Hiển thị biểu tượng nhân viên văn phòng đang suy nghĩ trước màn hình máy tính có logo trí tuệ nhân tạo.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, công nghệ trí tuệ nhân tạo phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"AI phụ thuộc vào dữ liệu\",\n      \"yDoHinh\": \"Sơ đồ trực quan thể hiện mối liên kết giữa dữ liệu cá nhân và các hệ thống công nghệ số.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Vì vậy, bất kỳ thông tin nào được phân loại là hạn chế hoặc rất hạn chế không được gửi vào các công cụ trí tuệ nhân tạo tạo sinh để tuân thủ luật bảo vệ dữ liệu, theo ghi nhận chưa kiểm chứng.\",\n      \"chuTrenManHinh\": \"Không gửi thông tin hạn chế\",\n      \"yDoHinh\": \"Cảnh báo dạng ô màu vàng xuất hiện trên giao diện nhập liệu của trợ lý ảo.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng nhau tìm hiểu ba việc nên và không nên làm khi nhập dữ liệu vào công cụ trợ lý ảo để bảo vệ an toàn thông tin.\",\n      \"chuTrenManHinh\": \"Ba việc nên và không nên làm\",\n      \"yDoHinh\": \"Danh sách tóm tắt xuất hiện trên màn hình với các biểu tượng đánh dấu rõ ràng.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin mời các anh chị cùng bắt đầu nội dung bài học ngay sau đây nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học\",\n      \"yDoHinh\": \"Mũi tên chuyển động hướng dẫn người học bước vào phần nội dung chính của video.\",\n      \"nguon\": []\n    }\n  ]\n}",
+          "validationError": "Câu 1: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+        },
+        {
+          "stage": "repair",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 2705,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Dữ liệu cá nhân khi dùng trợ lý AI\",\n  \"mucTieu\": \"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Cán bộ nhân viên văn phòng\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Theo ghi nhận chưa kiểm chứng, công nghệ trí tuệ nhân tạo, hay còn gọi là artificial intelligence, phụ thuộc nhiều vào dữ liệu cá nhân khiến việc bảo mật trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"AI phụ thuộc vào dữ liệu\",\n      \"yDoHinh\": \"Hiển thị biểu tượng nhân viên văn phòng đang suy nghĩ trước màn hình máy tính có logo trí tuệ nhân tạo.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, công nghệ trí tuệ nhân tạo phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"Bảo mật dữ liệu thiết yếu\",\n      \"yDoHinh\": \"Sơ đồ trực quan thể hiện mối liên kết giữa dữ liệu cá nhân và các hệ thống công nghệ số.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Vì vậy, bất kỳ thông tin nào được phân loại là hạn chế hoặc rất hạn chế không được gửi vào các công cụ trí tuệ nhân tạo tạo sinh để tuân thủ luật bảo vệ dữ liệu, theo ghi nhận chưa kiểm chứng.\",\n      \"chuTrenManHinh\": \"Không gửi thông tin hạn chế\",\n      \"yDoHinh\": \"Cảnh báo dạng ô màu vàng xuất hiện trên giao diện nhập liệu của trợ lý ảo.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng nhau tìm hiểu ba việc nên và không nên làm khi nhập dữ liệu vào công cụ trợ lý ảo để bảo vệ an toàn thông tin.\",\n      \"chuTrenManHinh\": \"Ba việc nên và không nên làm\",\n      \"yDoHinh\": \"Danh sách tóm tắt xuất hiện trên màn hình với các biểu tượng đánh dấu rõ ràng.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin mời các anh chị cùng bắt đầu nội dung bài học ngay sau đây nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học\",\n      \"yDoHinh\": \"Mũi tên chuyển động hướng dẫn người học bước vào phần nội dung chính của video.\",\n      \"nguon\": []\n    }\n  ]\n}",
+          "validationError": "Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+        }
+      ],
+      "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)",
+      "isDemo": false,
+      "durationMs": 12793
+    },
+    "isDemo": false,
+    "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+  }
+}

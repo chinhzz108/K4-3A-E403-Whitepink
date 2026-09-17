@@ -1,0 +1,244 @@
+{
+  "id": "trace-script-1789650779948",
+  "timestamp": "2026-09-17T13:12:59.948Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "targetAudience": "Sinh viên công nghệ thông tin",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N04"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://arxiv.org/html/2309.12697v2",
+      "tieuDe": "Semantic similarity prediction is better than other semantic similarity measures",
+      "ngayLayVe": "2026-09-17T13:12:47.564Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo trên arXiv, thảo luận chuyên sâu về các phương pháp đo lường độ tương đồng ngữ nghĩa (BERTScore, S-BERT, STSScore) và so sánh hiệu quả của chúng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+      "tieuDe": "An intuitive introduction to text embeddings - Stack Overflow",
+      "ngayDang": "2023-11-09T20:22:34.075Z",
+      "ngayLayVe": "2026-09-17T13:12:47.565Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog kỹ thuật từ Stack Overflow, giải thích trực quan về vector embedding và không gian tiềm ẩn, phù hợp cho mục đích giáo dục nhưng thiếu tính chính thức của học thuật.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn cũ hơn 1 năm (2023)",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://zilliz.com/glossary/semantic-similarity",
+      "tieuDe": "Semantic Similarity",
+      "ngayLayVe": "2026-09-17T13:12:48.234Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Từ điển kỹ thuật của công ty Zilliz (chuyên về vector database), cung cấp định nghĩa chuẩn và các phương pháp biểu diễn văn bản (BoW, Word embeddings, Contextual embeddings).",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Độ tương đồng ngữ nghĩa là mức độ trùng khớp hoặc giống nhau về ý nghĩa giữa hai đoạn văn bản, ngay cả khi chúng được diễn đạt khác nhau.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.",
+          "viTri": "Đoạn mở đầu trang 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Trong không gian vector (embedding space), các văn bản có ý nghĩa tương đồng sẽ được đặt gần nhau hơn so với các văn bản ít tương đồng.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items.",
+          "viTri": "Đoạn giữa trang 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Kiến trúc Transformer cho phép tính toán các vector embedding nhạy cảm với ngữ cảnh, từ đó cải thiện khả năng đo lường độ tương đồng ngữ nghĩa so với các phương pháp trước đó.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity.",
+          "viTri": "Đoạn thứ 4 trang 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "thoiLuong": "năm phút",
+    "nguoiHoc": "Sinh viên công nghệ thông tin",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, chào mừng đến với buổi học hôm nay.",
+        "chuTrenManHinh": "Tiêu đề: Nhúng văn bản",
+        "yDoHinh": "Giáo viên đứng trước lớp, nền xanh",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Kiến trúc Transformer, hay còn gọi là kiến trúc biến đổi, cho phép tính toán các vector nhúng nhạy cảm với ngữ cảnh, nâng cao độ tương đồng ngữ nghĩa.",
+        "chuTrenManHinh": "Transformer và embedding",
+        "yDoHinh": "Mô hình Transformer với các lớp attention",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trong không gian nhúng, các văn bản có ý nghĩa gần nhau sẽ được đặt gần nhau hơn.",
+        "chuTrenManHinh": "Không gian vector",
+        "yDoHinh": "Biểu đồ không gian vector với các điểm gần nhau",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Độ tương đồng ngữ nghĩa đo mức độ giống nhau về ý nghĩa dù cách diễn đạt khác nhau.",
+        "chuTrenManHinh": "Câu gần nghĩa",
+        "yDoHinh": "Hai câu được nối bằng mũi tên thể hiện sự tương đồng",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hy vọng các bạn sẽ áp dụng kiến thức này trong các dự án thực tế.",
+        "chuTrenManHinh": "Cảm ơn và hẹn gặp lại",
+        "yDoHinh": "Sinh viên làm việc trên laptop, biểu tượng thành công",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, chào mừng đến với buổi học hôm nay.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Kiến trúc Transformer, hay còn gọi là kiến trúc biến đổi, cho phép tính toán các vector nhúng nhạy cảm với ngữ cảnh, nâng cao độ tương đồng ngữ nghĩa.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Trong không gian nhúng, các văn bản có ý nghĩa gần nhau sẽ được đặt gần nhau hơn.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Độ tương đồng ngữ nghĩa đo mức độ giống nhau về ý nghĩa dù cách diễn đạt khác nhau.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hy vọng các bạn sẽ áp dụng kiến thức này trong các dự án thực tế.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\n  \"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\n  \"thoiLuong\":\"năm phút\",\n  \"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, chào mừng đến với buổi học hôm nay.\",\"chuTrenManHinh\":\"Tiêu đề: Nhúng văn bản\",\"yDoHinh\":\"Giáo viên đứng trước lớp, nền xanh\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Kiến trúc Transformer, hay còn gọi là kiến trúc biến đổi, cho phép tính toán các vector nhúng nhạy cảm với ngữ cảnh, nâng cao độ tương đồng ngữ nghĩa.\",\"chuTrenManHinh\":\"Transformer và embedding\",\"yDoHinh\":\"Mô hình Transformer với các lớp attention\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trong không gian nhúng, các văn bản có ý nghĩa gần nhau sẽ được đặt gần nhau hơn.\",\"chuTrenManHinh\":\"Không gian vector\",\"yDoHinh\":\"Biểu đồ không gian vector với các điểm gần nhau\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Độ tương đồng ngữ nghĩa đo mức độ giống nhau về ý nghĩa dù cách diễn đạt khác nhau.\",\"chuTrenManHinh\":\"Câu gần nghĩa\",\"yDoHinh\":\"Hai câu được nối bằng mũi tên thể hiện sự tương đồng\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn sẽ áp dụng kiến thức này trong các dự án thực tế.\",\"chuTrenManHinh\":\"Cảm ơn và hẹn gặp lại\",\"yDoHinh\":\"Sinh viên làm việc trên laptop, biểu tượng thành công\",\"nguon\":[]}\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-66025b41-c8a7-44d2-b6c7-95338b071a3d",
+      "durationMs": 3591,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\n  \"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\n  \"thoiLuong\":\"năm phút\",\n  \"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, chào mừng đến với buổi học hôm nay.\",\"chuTrenManHinh\":\"Tiêu đề: Nhúng văn bản\",\"yDoHinh\":\"Giáo viên đứng trước lớp, nền xanh\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Kiến trúc Transformer, hay còn gọi là kiến trúc biến đổi, cho phép tính toán các vector nhúng nhạy cảm với ngữ cảnh, nâng cao độ tương đồng ngữ nghĩa.\",\"chuTrenManHinh\":\"Transformer và embedding\",\"yDoHinh\":\"Mô hình Transformer với các lớp attention\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trong không gian nhúng, các văn bản có ý nghĩa gần nhau sẽ được đặt gần nhau hơn.\",\"chuTrenManHinh\":\"Không gian vector\",\"yDoHinh\":\"Biểu đồ không gian vector với các điểm gần nhau\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Độ tương đồng ngữ nghĩa đo mức độ giống nhau về ý nghĩa dù cách diễn đạt khác nhau.\",\"chuTrenManHinh\":\"Câu gần nghĩa\",\"yDoHinh\":\"Hai câu được nối bằng mũi tên thể hiện sự tương đồng\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn sẽ áp dụng kiến thức này trong các dự án thực tế.\",\"chuTrenManHinh\":\"Cảm ơn và hẹn gặp lại\",\"yDoHinh\":\"Sinh viên làm việc trên laptop, biểu tượng thành công\",\"nguon\":[]}\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 3596
+}

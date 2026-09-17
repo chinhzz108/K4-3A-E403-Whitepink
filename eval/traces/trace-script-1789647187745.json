@@ -1,0 +1,272 @@
+{
+  "id": "trace-script-1789647187745",
+  "timestamp": "2026-09-17T12:13:07.745Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T12-12-13-353Z",
+    "evalCaseId": "N01"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T12:12:30.479Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung kỹ thuật chính xác, phù hợp với mục tiêu giải thích khái niệm.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "tieuDe": "Context windows - Claude Platform Docs",
+      "toChuc": "Claude Platform Docs",
+      "ngayLayVe": "2026-09-17T12:12:30.482Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu chính thức từ nhà cung cấp mô hình (Anthropic), cung cấp thông tin kỹ thuật chi tiết về cách hoạt động của context window và các giới hạn cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, cần kiểm tra phiên bản tài liệu.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The \"context window\" refers to all the text a language model can reference when generating a response, including the response itself.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/",
+      "tieuDe": "Conversational Memory for LLMs with Langchain | Pinecone",
+      "ngayLayVe": "2026-09-17T12:12:31.453Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Pinecone là công ty công nghệ, bài viết có tính giáo dục cao, giải thích rõ về bộ nhớ hội thoại và giới hạn token, phù hợp với mục tiêu bài học.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cửa sổ ngữ cảnh (context window) là lượng văn bản (tính bằng token) mà mô hình ngôn ngữ lớn (LLM) có thể xem xét hoặc \"nhớ\" tại bất kỳ thời điểm nào.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "Đoạn đầu trang 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "The \"context window\" refers to all the text a language model can reference when generating a response, including the response itself.",
+          "viTri": "Đoạn đầu trang 2"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Khi cuộc trò chuyện hoặc tài liệu vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt bớt (truncate) hoặc tóm tắt (summarize) để tiếp tục xử lý, dẫn đến việc quên các chi tiết ở phần đầu.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+          "viTri": "Đoạn 2 trang 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Việc sử dụng bộ nhớ đệm hội thoại (ConversationBufferMemory) lưu trữ toàn bộ lịch sử có thể nhanh chóng vượt quá giới hạn cửa sổ ngữ cảnh của các LLM tiên tiến nhất.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.",
+          "viTri": "Đoạn giữa trang 4"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Cửa sổ ngữ cảnh hoạt động như bộ nhớ làm việc (working memory) của mô hình, quyết định độ dài cuộc trò chuyện mà nó có thể duy trì mà không quên chi tiết.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange.",
+          "viTri": "Đoạn 2 trang 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh"
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh (context window) của mô hình ngôn ngữ.",
+        "chuTrenManHinh": "Tiêu đề video: Cửa sổ ngữ cảnh",
+        "yDoHinh": "Hình minh hoạ logo kênh và tiêu đề",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Cửa sổ ngữ cảnh (context window) là lượng văn bản tính bằng token mà mô hình có thể xem xét hoặc nhớ tại một thời điểm.",
+        "chuTrenManHinh": "Đồ họa mô tả token",
+        "yDoHinh": "Biểu đồ token trong một khung",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Cửa sổ ngữ cảnh hoạt động như bộ nhớ làm việc, quyết định độ dài cuộc trò chuyện mà mô hình không quên chi tiết.",
+        "chuTrenManHinh": "Bộ nhớ làm việc",
+        "yDoHinh": "Hình ảnh não máy tính với luồng hội thoại",
+        "nguon": [
+          "t04"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Khi đoạn hội thoại vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt bớt hoặc tóm tắt, dẫn tới việc quên phần đầu.",
+        "chuTrenManHinh": "Cắt bớt đoạn văn",
+        "yDoHinh": "Mô phỏng cắt bớt token khi vượt giới hạn",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Việc dùng bộ nhớ đệm hội thoại (ConversationBufferMemory) lưu toàn bộ lịch sử nhanh chóng làm vượt giới hạn cửa sổ ngữ cảnh của các mô hình tiên tiến.",
+        "chuTrenManHinh": "Bộ nhớ đệm",
+        "yDoHinh": "Biểu đồ token tăng dần khi thêm tin nhắn",
+        "nguon": [
+          "t03"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh (context window) của mô hình ngôn ngữ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Cửa sổ ngữ cảnh (context window) là lượng văn bản tính bằng token mà mô hình có thể xem xét hoặc nhớ tại một thời điểm.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.; [n02] The \"context window\" refers to all the text a language model can reference when generating a response, including the response itself."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Cửa sổ ngữ cảnh hoạt động như bộ nhớ làm việc, quyết định độ dài cuộc trò chuyện mà mô hình không quên chi tiết.",
+      "nguon": [
+        "t04"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Khi đoạn hội thoại vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt bớt hoặc tóm tắt, dẫn tới việc quên phần đầu.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Việc dùng bộ nhớ đệm hội thoại (ConversationBufferMemory) lưu toàn bộ lịch sử nhanh chóng làm vượt giới hạn cửa sổ ngữ cảnh của các mô hình tiên tiến.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh (context window) của mô hình ngôn ngữ.\",\"chuTrenManHinh\":\"Tiêu đề video: Cửa sổ ngữ cảnh\",\"yDoHinh\":\"Hình minh hoạ logo kênh và tiêu đề\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Cửa sổ ngữ cảnh (context window) là lượng văn bản tính bằng token mà mô hình có thể xem xét hoặc nhớ tại một thời điểm.\",\"chuTrenManHinh\":\"Đồ họa mô tả token\",\"yDoHinh\":\"Biểu đồ token trong một khung\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Cửa sổ ngữ cảnh hoạt động như bộ nhớ làm việc, quyết định độ dài cuộc trò chuyện mà mô hình không quên chi tiết.\",\"chuTrenManHinh\":\"Bộ nhớ làm việc\",\"yDoHinh\":\"Hình ảnh não máy tính với luồng hội thoại\",\"nguon\":[\"t04\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi đoạn hội thoại vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt bớt hoặc tóm tắt, dẫn tới việc quên phần đầu.\",\"chuTrenManHinh\":\"Cắt bớt đoạn văn\",\"yDoHinh\":\"Mô phỏng cắt bớt token khi vượt giới hạn\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Việc dùng bộ nhớ đệm hội thoại (ConversationBufferMemory) lưu toàn bộ lịch sử nhanh chóng làm vượt giới hạn cửa sổ ngữ cảnh của các mô hình tiên tiến.\",\"chuTrenManHinh\":\"Bộ nhớ đệm\",\"yDoHinh\":\"Biểu đồ token tăng dần khi thêm tin nhắn\",\"nguon\":[\"t03\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-25a554e3-245c-43cf-8342-f182dd70c77c",
+      "durationMs": 5739,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cửa sổ ngữ cảnh (context window) của mô hình ngôn ngữ.\",\"chuTrenManHinh\":\"Tiêu đề video: Cửa sổ ngữ cảnh\",\"yDoHinh\":\"Hình minh hoạ logo kênh và tiêu đề\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Cửa sổ ngữ cảnh (context window) là lượng văn bản tính bằng token mà mô hình có thể xem xét hoặc nhớ tại một thời điểm.\",\"chuTrenManHinh\":\"Đồ họa mô tả token\",\"yDoHinh\":\"Biểu đồ token trong một khung\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Cửa sổ ngữ cảnh hoạt động như bộ nhớ làm việc, quyết định độ dài cuộc trò chuyện mà mô hình không quên chi tiết.\",\"chuTrenManHinh\":\"Bộ nhớ làm việc\",\"yDoHinh\":\"Hình ảnh não máy tính với luồng hội thoại\",\"nguon\":[\"t04\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi đoạn hội thoại vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt bớt hoặc tóm tắt, dẫn tới việc quên phần đầu.\",\"chuTrenManHinh\":\"Cắt bớt đoạn văn\",\"yDoHinh\":\"Mô phỏng cắt bớt token khi vượt giới hạn\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Việc dùng bộ nhớ đệm hội thoại (ConversationBufferMemory) lưu toàn bộ lịch sử nhanh chóng làm vượt giới hạn cửa sổ ngữ cảnh của các mô hình tiên tiến.\",\"chuTrenManHinh\":\"Bộ nhớ đệm\",\"yDoHinh\":\"Biểu đồ token tăng dần khi thêm tin nhắn\",\"nguon\":[\"t03\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 17761
+}

@@ -1,0 +1,97 @@
+{
+  "id": "trace-research-1789651172437",
+  "timestamp": "2026-09-17T13:19:32.437Z",
+  "phase": "research",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "fixtureMode": true,
+    "fixtureUrls": [
+      "http://localhost:3000/fixtures/old-source.html"
+    ],
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N15"
+  },
+  "searchResults": [
+    {
+      "results": [],
+      "query": "fixture-only"
+    },
+    {
+      "results": [],
+      "query": "fixture-only"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "http://localhost:3000/fixtures/old-source.html"
+    ],
+    "pagesRead": [
+      "http://localhost:3000/fixtures/old-source.html"
+    ],
+    "supplementReasons": []
+  },
+  "pagesRead": [
+    {
+      "url": "http://localhost:3000/fixtures/old-source.html",
+      "content": "Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+      "fetchedAt": "2026-09-17T13:19:29.718Z",
+      "title": "Fixture tự dựng — bảng giá cũ",
+      "status": "ok",
+      "contentLength": 207,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại."
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/old-source.html",
+      "tieuDe": "Fixture tự dựng — bảng giá cũ",
+      "tacGia": "Nhóm kiểm thử ScriptScout (hư cấu)",
+      "ngayDang": "2023-01-01",
+      "ngayLayVe": "2026-09-17T13:19:29.718Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Nguồn là dữ liệu giả lập, tác giả và tổ chức không xác thực, thông tin đã cũ và không phản ánh giá hiện tại.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Nguồn không đáng tin, dữ liệu chỉ là ví dụ nội bộ, không được dùng làm tham chiếu thực tế.",
+      "canhBao": [
+        "Nguồn là fixture tự dựng, không phải dữ liệu thực tế.",
+        "Ngày đăng 2023, quá một năm so với ngày truy cập.",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [],
+  "sourcesRejected": [
+    "n01"
+  ],
+  "thongTin": [],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/old-source.html\",\n      \"tieuDe\": \"Fixture tự dựng — bảng giá cũ\",\n      \"tacGia\": \"Nhóm kiểm thử ScriptScout (hư cấu)\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2023-01-01\",\n      \"ngayLayVe\": \"2026-09-17T13:19:29.718Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nguồn là dữ liệu giả lập, tác giả và tổ chức không xác thực, thông tin đã cũ và không phản ánh giá hiện tại.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn không đáng tin, dữ liệu chỉ là ví dụ nội bộ, không được dùng làm tham chiếu thực tế.\",\n      \"canhBao\": [\n        \"Nguồn là fixture tự dựng, không phải dữ liệu thực tế.\",\n        \"Ngày đăng 2023, quá một năm so với ngày truy cập.\"\n      ],\n      \"doanTrich\": \"Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản.\"\n    }\n  ],\n  \"thongTin\": []\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-4ecf5e68-0194-4042-9556-55bf173e0e05",
+      "durationMs": 2709,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/old-source.html\",\n      \"tieuDe\": \"Fixture tự dựng — bảng giá cũ\",\n      \"tacGia\": \"Nhóm kiểm thử ScriptScout (hư cấu)\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2023-01-01\",\n      \"ngayLayVe\": \"2026-09-17T13:19:29.718Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nguồn là dữ liệu giả lập, tác giả và tổ chức không xác thực, thông tin đã cũ và không phản ánh giá hiện tại.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn không đáng tin, dữ liệu chỉ là ví dụ nội bộ, không được dùng làm tham chiếu thực tế.\",\n      \"canhBao\": [\n        \"Nguồn là fixture tự dựng, không phải dữ liệu thực tế.\",\n        \"Ngày đăng 2023, quá một năm so với ngày truy cập.\"\n      ],\n      \"doanTrich\": \"Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản.\"\n    }\n  ],\n  \"thongTin\": []\n}"
+    }
+  ],
+  "error": "Không có thông tin có bằng chứng hợp lệ sau khi đối chiếu nguồn; chưa tạo kịch bản.",
+  "isDemo": false,
+  "durationMs": 2719
+}

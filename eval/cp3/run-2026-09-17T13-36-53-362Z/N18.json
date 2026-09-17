@@ -1,0 +1,1021 @@
+{
+  "case": {
+    "id": "N18",
+    "class": "nguon-mau-thuan",
+    "input": {
+      "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+      "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+      "targetAudience": "Giảng viên đại học",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Chủ đề có tranh cãi thật. Các nguồn uy tín không đồng ý với nhau. Phải nêu cả hai quan điểm.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #7 — tranh cãi thật; không phải chatlog",
+    "passCriteria": "Nêu cả hai quan điểm; dẫn nguồn cho mỗi bên",
+    "failCriteria": "Chỉ nêu một phía; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://teachingentrepreneurship.org/ai-grading-benefits-2/",
+        "tieuDe": "AI Grading in Higher Ed: Faster, Fairer, and More Helpful",
+        "tacGia": "Doan Winkel",
+        "toChuc": "Teaching Entrepreneurship",
+        "ngayDang": "2024-11-15T11:50:45+00:00",
+        "ngayLayVe": "2026-09-17T13:44:12.283Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Nội dung trang không khớp với tiêu đề. Nội dung thực tế là về 'Lean Canvas' và 'Ceres Case', không liên quan đến AI chấm bài. Có thể do lỗi scrape hoặc nội dung bị thay đổi.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Nội dung không liên quan đến chủ đề AI trong chấm bài và phản hồi cho sinh viên.",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "How to Test a Lean Canvas: Find the Riskiest Assumption (Ceres Case) How do you test a Lean Canvas?",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://securiti.ai/ai-risk-assessment/",
+        "tieuDe": "AI Risk Assessment: Strategies, Tools, and Best Practices - Securiti",
+        "toChuc": "Securiti",
+        "ngayLayVe": "2026-09-17T13:44:12.284Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Nguồn từ công ty tư vấn an ninh mạng, cung cấp thông tin tổng quan về rủi ro AI (điên, thiên kiến, bảo mật). Tuy nhiên, không tập trung cụ thể vào giáo dục/chấm bài mà mang tính tổng quát về doanh nghiệp.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Ngày đăng không rõ, cần xác minh tính cập nhật của thông tin.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading",
+        "tieuDe": "Benefits of AI Grading for Teachers | How Tools Simplify Grading",
+        "toChuc": "Quetext",
+        "ngayDang": "2025-11-19T08:05:39",
+        "ngayLayVe": "2026-09-17T13:44:12.285Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Nguồn từ nhà cung cấp công cụ kiểm tra đạo văn (Quetext), có thiên vị sản phẩm nhưng cung cấp các lợi ích cụ thể của AI trong chấm bài (tốc độ, nhất quán, phát hiện đạo văn).",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn có tính thương mại, cần thận trọng với các tuyên bố về hiệu quả tuyệt đối."
+        ],
+        "doanTrich": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Lợi ích: AI giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.",
+            "viTri": "Mục Top Benefits of AI Grading for Teachers"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Chỉ có một nguồn xác nhận trực tiếp về lợi ích này trong ngữ cảnh chấm bài."
+      },
+      {
+        "id": "t02",
+        "noiDung": "Lợi ích: AI hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản (đạo văn/AI-generated), từ đó hỗ trợ toàn vẹn học thuật.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment",
+            "viTri": "Mục Why Teachers Are Turning to AI Grading Tools"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Thông tin dựa trên quan điểm của nhà cung cấp công cụ."
+      },
+      {
+        "id": "t03",
+        "noiDung": "Rủi ro: Các mô hình AI có thể chứa thiên kiến (bias) trong dữ liệu huấn luyện, dẫn đến các kết quả phân biệt đối xử hoặc không công bằng.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs.",
+            "viTri": "Mục AI Risk Assessments & Global AI Regulations"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Nguồn nói về rủi ro chung của AI, không cụ thể hóa cho chấm bài, nhưng nguyên lý áp dụng được."
+      },
+      {
+        "id": "t04",
+        "noiDung": "Rủi ro: Vấn đề bảo mật dữ liệu và quyền riêng tư do AI cần dữ liệu cá nhân/nhạy cảm để huấn luyện, có thể dẫn đến rò rỉ thông tin.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse",
+            "viTri": "Mục AI Risk Assessments & Global AI Regulations"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Rủi ro chung về bảo mật dữ liệu trong hệ thống AI."
+      }
+    ],
+    "searchQueries": [
+      "AI grading benefits",
+      "AI assessment risks"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789652658203",
+      "timestamp": "2026-09-17T13:44:18.203Z",
+      "phase": "research",
+      "input": {
+        "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+        "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "targetAudience": "Giảng viên đại học",
+        "videoDuration": "5 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N18"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "AI Grading in Higher Ed: Faster, Fairer, and More Helpful",
+              "url": "https://teachingentrepreneurship.org/ai-grading-benefits-2/",
+              "snippet": "AI grading can provide students with more accurate and effective feedback faster than an instructor. Fast feedback means improved ...",
+              "position": 1
+            },
+            {
+              "title": "Benefits of AI Grading for Teachers | How Tools Simplify ...",
+              "url": "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading",
+              "snippet": "Top Benefits of AI Grading for Teachers · Saves Time & Decreases Workload · Creates Fairness and Uniformity · Provides Better Feedback More ...",
+              "position": 2
+            },
+            {
+              "title": "AI and Auto-Grading in Higher Education: Capabilities, Ethics ...",
+              "url": "https://ascode.osu.edu/news/ai-and-auto-grading-higher-education-capabilities-ethics-and-evolving-role-educators",
+              "snippet": "AI-assisted grading, on the other hand, offers promising potential for large-scale, subjective assessments. Still, it introduces ethical ...",
+              "position": 3
+            },
+            {
+              "title": "The human stakes of AI grading",
+              "url": "https://fordhaminstitute.org/national/commentary/human-stakes-ai-grading",
+              "snippet": "Yet, thinking back to that digital pile of 5,400 assignments, maybe AI grading can also support the most human elements of teaching. For example ...",
+              "position": 4
+            },
+            {
+              "title": "Can AI support human grading? Examining machine ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0360131525000120",
+              "snippet": "viết bởi Y Li · 2025 · Trích dẫn 30 bài viết — Large language models built upon artificial intelligence (AI) hold great promises to innovate automatic short answer scoring (ASAS) - significantly ...",
+              "position": 5
+            }
+          ],
+          "query": "AI grading benefits",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "AI Risk Assessment: Strategies, Tools, and Best Practices",
+              "url": "https://securiti.ai/ai-risk-assessment/",
+              "snippet": "An AI risk assessment will typically focus on AI and machine learning-related systems, such as bias, data quality, and ethical considerations. A ...",
+              "position": 1
+            },
+            {
+              "title": "AI Risk Assessments in Practice: Top 12 Templates and Toolkits",
+              "url": "https://oliverpatel.substack.com/p/ai-risk-assessments-in-practice-top",
+              "snippet": "Features: The AI Impact Assessment Tool provides a structured template for assessing and scoring the risk of AI use cases, as well as mapping ...",
+              "position": 2
+            },
+            {
+              "title": "Conducting an AI Risk Assessment",
+              "url": "https://www.bloomberglaw.com/external/document/X3D03D2K000000/data-collection-management-overview-conducting-an-ai-risk-assess",
+              "snippet": "The first step in an AI risk assessment is to identify and rank the risks as unacceptable (prohibited), high, limited, or minimal. If an organization identifies ...",
+              "position": 3
+            },
+            {
+              "title": "Steps to Initiate AI Risk Assessment",
+              "url": "https://www.linkedin.com/top-content/artificial-intelligence/navigating-ai-risks/steps-to-initiate-ai-risk-assessment/",
+              "snippet": "Initiating an AI risk assessment involves identifying potential dangers associated with using artificial intelligence in a business setting, such as privacy ...",
+              "position": 4
+            },
+            {
+              "title": "Risk Management in AI",
+              "url": "https://www.ibm.com/think/insights/ai-risk-management",
+              "snippet": "By conducting regular risk assessments and audits, organizations can identify potential risks and vulnerabilities throughout the AI lifecycle.",
+              "position": 5
+            }
+          ],
+          "query": "AI assessment risks",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://teachingentrepreneurship.org/ai-grading-benefits-2/",
+          "https://securiti.ai/ai-risk-assessment/",
+          "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading",
+          "https://oliverpatel.substack.com/p/ai-risk-assessments-in-practice-top",
+          "https://ascode.osu.edu/news/ai-and-auto-grading-higher-education-capabilities-ethics-and-evolving-role-educators",
+          "https://www.bloomberglaw.com/external/document/X3D03D2K000000/data-collection-management-overview-conducting-an-ai-risk-assess",
+          "https://fordhaminstitute.org/national/commentary/human-stakes-ai-grading",
+          "https://www.linkedin.com/top-content/artificial-intelligence/navigating-ai-risks/steps-to-initiate-ai-risk-assessment/"
+        ],
+        "pagesRead": [
+          "https://teachingentrepreneurship.org/ai-grading-benefits-2/",
+          "https://securiti.ai/ai-risk-assessment/",
+          "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "https://teachingentrepreneurship.org/ai-grading-benefits-2/",
+          "content": "How to Test a Lean Canvas: Find the Riskiest Assumption (Ceres Case) How do you test a Lean Canvas? A finished canvas is a wall of guesses, and the useful question is which guess to check first. The riskiest assumption is the one most likely to kill the business, and it is almost never the one students pick. This is the third of three...",
+          "fetchedAt": "2026-09-17T13:44:12.283Z",
+          "title": "AI Grading in Higher Ed: Faster, Fairer, and More Helpful",
+          "status": "ok",
+          "contentLength": 339,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "How to Test a Lean Canvas: Find the Riskiest Assumption (Ceres Case) How do you test a Lean Canvas? A finished canvas is a wall of guesses, and the useful question is which guess to check first. The riskiest assumption is the one most likely to kill the business, and it is almost never the one students pick. This is the third of three..."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://securiti.ai/ai-risk-assessment/",
+          "content": "AI Risk Assessment : Mitigating Risks in the Age of Generative AI\n\nAI Risk Assessments & Global AI Regulations\n\nChallenges of AI Risk Assessment\n\nHowever, the allure of AI potential shouldn’t lead to lapses in understanding the risks these capabilities pose. Doing so is not only a regulatory requirement but also makes for good organizational practices.\n\nLike any other technological leap, one key facet of challenges posed by AI is to understand and quantify the risks posed by AI. For businesses that hope to leverage the potential of AI, understanding any and all risks associated with AI is not simply a matter of regulatory compliance but of strategic importance. How they chart this course will have a lasting financial, operational, and reputational impact.\n\nWhether it’s Morgan Stanley cracking down on the use of ChatGPT by its staff citing possibilities of hallucination while generating convincing outputs that are factually incorrect, Samsung banning its staff from using any GenAI tools after reports of multiple sensitive IP code being uploaded to such platforms, or the Dutch “toeslagenaffaire” scandal, where thousands of Dutch citizens had incorrectly been penalized by the tax authorities for suspected child care benefits fraud using a self-learning algorithm, these episodes echo the aforementioned problems of both inexperience and lack of a clear framework for responsible usage.\n\nAn AI risk assessment is designed to be a highly comprehensive and dynamic exercise that evolves apropos to the AI landscape and the unique needs of the businesses themselves. It not only helps identify all relevant risks an organization may be subject to but aids in the development of the strategies best poised to mitigate these risks.\n\nAI poses significant risks and challenges for organizations hoping to implement it within their existing operations. The most significant and immediate risks of such an endeavor include:\n\nAI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse, which can result in privacy violations, corporate sabotage, and identity theft. Hence, it is critical for organizations to adequately encrypt and deploy appropriate access controls on all such data that is to be used as part of a training dataset.\n\nAI Risk Assessments & Global AI Regulations\n\nAs AI continues to expand in both capabilities and operations, it has become increasingly important for organizations to conduct regular and comprehensive risk assessments to ensure the safe use of such capabilities while ensuring adherence to global AI regulations to the best of their ability.\n\nWhile this is easier said than done owing to the diverse nature of global AI regulations in addition to their sheer number, these regulations serve as critical frameworks that allow organizations a foundation to build upon when addressing the unique risks posed by AI developments. Additionally, such assessments are vital in helping organizations balance innovation with affording appropriate protection for their customers’ digital rights.\n\nWhile different AI regulations will require organizations to undertake a variety of assessments and measures to ensure compliance, risk assessment provisions are one of the few cornerstones of each of these regulations.\n\nAn effective AI risk assessment constitutes a thorough and rigorous process where all AI models, systems, and capabilities deployed within an organization are evaluated to identify and mitigate any potential risks across different domains, such as security, privacy, fairness, and accountability.\n\nBias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs.\n\nAlgorithmic Impact Assessment - Focusing on the operational aspect of AI, specifically the generated outputs such as decision-making processes, data usage, and recommendations.\n\nAI Impact Assessment - Evaluating the broader implications of the use of specific AI systems and models while taking into account any and all social, ethical, and environmental factors that ought to be considered.\n\nAI Classification Assessment - Determining the categories of AI systems and models currently in use within the organization. These should be classified on a (low-medium-high) scale depending on their intended use and potential impact on the organization itself.\n\nChallenges of AI Risk Assessment\n\nWhile AI risk assessments are a critical tool that can be of tremendous help to organizations, they come with a host of challenges. These include the following:\n\nNot only does this vagueness affect the ability to address issues of effectiveness and efficiency appropriately, but it also leaves organizations relying on estimates when assessing the risks posed by these systems and models.\n\nLegal frameworks and risk assessment methodologies are being developed that can help organizations appropriately address the challenges that AI presents but these challenges are constantly evolving. The frameworks and methodologies are developed following a laborious and comprehensive process, highlighting how certain technologies and developments still need to be more regulated or sufficiently scrutinized.\n\nThis section elaborates on certain best practices an organization can rely on when carrying out an AI risk assessment:\n\nOnce an organization has appropriately classified all AI models, it can proceed to evaluate each model for the various risks it may be exposed to. Doing so is not only an effective way to comply with various global regulatory requirements but can help in identifying and mitigating the following risks:\n\nOnce an organization has an appropriate understanding of all AI models in-use as well as the unique risks associated with them, they can then proceed to connecting AI models to the relevant data sources, data processing paths, vendors, potential risks, and compliance obligations. Doing so not only helps create a foundation for AI risk management processes but also allows for continuous monitoring of all data flow.\n\nThis allows for a more in-depth context around the AI models in use within the organization while also establishing mechanisms that facilitate proactive measures to mitigate, or at the very least, minimize, any privacy, security, and ethical risks before they materialize.\n\nWith robust data and AI controls, organizations can thoroughly curate model inputs and outputs, ensuring they can identify and counter any of the aforementioned risks.\n\nAI Adoption and Risks: 2023 marked a significant advancement in AI technology, particularly in Generative AI, which has become increasingly adopted in the business world. While AI presents substantial economic\n\nAI Risks and Challenges: The main risks associated with AI include AI model risks (such as model poisoning, bias, and hallucination), prompt usage risks (prompt injection and DoS attacks), exfiltration risks, sensitive data risks, data leakage, and non-regulatory compliance. These risks necessitate comprehensive risk assessments to mitigate potential negative impacts on financial, operational, and reputational aspects of businesses.\n\nAI Risk Assessment Importance: Regular and comprehensive AI risk assessments are essential for identifying relevant risks and developing strategies to mitigate these risks. Understanding AI risks is crucial for regulatory compliance and strategic business planning.\n\nAI Risk Assessment Provisions: Effective AI risk assessments involve evaluating AI models, systems, and capabilities to identify and mitigate potential risks across security, privacy, fairness, and accountability domains. This includes bias assessment, algorithmic impact assessment, AI impact assessment, and AI classification assessment.\n\nBest Practices for AI Risk Mitigation: Organizations should conduct AI model discovery, risk assessment, data & AI mapping and flows, and establish robust data & AI controls to manage and mitigate risks associated with AI use. This includes classifying AI models, identifying potential risks, connecting AI models to relevant data sources, and establishing controls for model inputs and outputs.\n\nYes, one of the most direct and immediate benefits of an AI risk assessment is that it can promptly identify potential sources of bias within all datasets, processes, or algorithms in use within an organization. Corrective measures can then be implemented as deemed necessary.\n\nAn AI risk assessment will typically focus on AI and machine learning-related systems, such as bias, data quality, and ethical considerations. A traditional IT risk assessment focuses on the broader IT security and operational risks, such as network security and data breaches.",
+          "fetchedAt": "2026-09-17T13:44:12.284Z",
+          "title": "AI Risk Assessment: Strategies, Tools, and Best Practices - Securiti",
+          "status": "ok",
+          "contentLength": 75973,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "AI Risk Assessment : Mitigating Risks in the Age of Generative AI"
+            },
+            {
+              "blockIndex": 2,
+              "text": "AI Risk Assessments & Global AI Regulations"
+            },
+            {
+              "blockIndex": 3,
+              "text": "Challenges of AI Risk Assessment"
+            },
+            {
+              "blockIndex": 22,
+              "text": "However, the allure of AI potential shouldn’t lead to lapses in understanding the risks these capabilities pose. Doing so is not only a regulatory requirement but also makes for good organizational practices."
+            },
+            {
+              "blockIndex": 25,
+              "text": "Like any other technological leap, one key facet of challenges posed by AI is to understand and quantify the risks posed by AI. For businesses that hope to leverage the potential of AI, understanding any and all risks associated with AI is not simply a matter of regulatory compliance but of strategic importance. How they chart this course will have a lasting financial, operational, and reputational impact."
+            },
+            {
+              "blockIndex": 27,
+              "text": "Whether it’s Morgan Stanley cracking down on the use of ChatGPT by its staff citing possibilities of hallucination while generating convincing outputs that are factually incorrect, Samsung banning its staff from using any GenAI tools after reports of multiple sensitive IP code being uploaded to such platforms, or the Dutch “toeslagenaffaire” scandal, where thousands of Dutch citizens had incorrectly been penalized by the tax authorities for suspected child care benefits fraud using a self-learning algorithm, these episodes echo the aforementioned problems of both inexperience and lack of a clear framework for responsible usage."
+            },
+            {
+              "blockIndex": 30,
+              "text": "An AI risk assessment is designed to be a highly comprehensive and dynamic exercise that evolves apropos to the AI landscape and the unique needs of the businesses themselves. It not only helps identify all relevant risks an organization may be subject to but aids in the development of the strategies best poised to mitigate these risks."
+            },
+            {
+              "blockIndex": 32,
+              "text": "AI poses significant risks and challenges for organizations hoping to implement it within their existing operations. The most significant and immediate risks of such an endeavor include:"
+            },
+            {
+              "blockIndex": 42,
+              "text": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse, which can result in privacy violations, corporate sabotage, and identity theft. Hence, it is critical for organizations to adequately encrypt and deploy appropriate access controls on all such data that is to be used as part of a training dataset."
+            },
+            {
+              "blockIndex": 45,
+              "text": "AI Risk Assessments & Global AI Regulations"
+            },
+            {
+              "blockIndex": 46,
+              "text": "As AI continues to expand in both capabilities and operations, it has become increasingly important for organizations to conduct regular and comprehensive risk assessments to ensure the safe use of such capabilities while ensuring adherence to global AI regulations to the best of their ability."
+            },
+            {
+              "blockIndex": 47,
+              "text": "While this is easier said than done owing to the diverse nature of global AI regulations in addition to their sheer number, these regulations serve as critical frameworks that allow organizations a foundation to build upon when addressing the unique risks posed by AI developments. Additionally, such assessments are vital in helping organizations balance innovation with affording appropriate protection for their customers’ digital rights."
+            },
+            {
+              "blockIndex": 55,
+              "text": "While different AI regulations will require organizations to undertake a variety of assessments and measures to ensure compliance, risk assessment provisions are one of the few cornerstones of each of these regulations."
+            },
+            {
+              "blockIndex": 56,
+              "text": "An effective AI risk assessment constitutes a thorough and rigorous process where all AI models, systems, and capabilities deployed within an organization are evaluated to identify and mitigate any potential risks across different domains, such as security, privacy, fairness, and accountability."
+            },
+            {
+              "blockIndex": 57,
+              "text": "Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs."
+            },
+            {
+              "blockIndex": 58,
+              "text": "Algorithmic Impact Assessment - Focusing on the operational aspect of AI, specifically the generated outputs such as decision-making processes, data usage, and recommendations."
+            },
+            {
+              "blockIndex": 59,
+              "text": "AI Impact Assessment - Evaluating the broader implications of the use of specific AI systems and models while taking into account any and all social, ethical, and environmental factors that ought to be considered."
+            },
+            {
+              "blockIndex": 60,
+              "text": "AI Classification Assessment - Determining the categories of AI systems and models currently in use within the organization. These should be classified on a (low-medium-high) scale depending on their intended use and potential impact on the organization itself."
+            },
+            {
+              "blockIndex": 61,
+              "text": "Challenges of AI Risk Assessment"
+            },
+            {
+              "blockIndex": 62,
+              "text": "While AI risk assessments are a critical tool that can be of tremendous help to organizations, they come with a host of challenges. These include the following:"
+            },
+            {
+              "blockIndex": 65,
+              "text": "Not only does this vagueness affect the ability to address issues of effectiveness and efficiency appropriately, but it also leaves organizations relying on estimates when assessing the risks posed by these systems and models."
+            },
+            {
+              "blockIndex": 68,
+              "text": "Legal frameworks and risk assessment methodologies are being developed that can help organizations appropriately address the challenges that AI presents but these challenges are constantly evolving. The frameworks and methodologies are developed following a laborious and comprehensive process, highlighting how certain technologies and developments still need to be more regulated or sufficiently scrutinized."
+            },
+            {
+              "blockIndex": 76,
+              "text": "This section elaborates on certain best practices an organization can rely on when carrying out an AI risk assessment:"
+            },
+            {
+              "blockIndex": 81,
+              "text": "Once an organization has appropriately classified all AI models, it can proceed to evaluate each model for the various risks it may be exposed to. Doing so is not only an effective way to comply with various global regulatory requirements but can help in identifying and mitigating the following risks:"
+            },
+            {
+              "blockIndex": 87,
+              "text": "Once an organization has an appropriate understanding of all AI models in-use as well as the unique risks associated with them, they can then proceed to connecting AI models to the relevant data sources, data processing paths, vendors, potential risks, and compliance obligations. Doing so not only helps create a foundation for AI risk management processes but also allows for continuous monitoring of all data flow."
+            },
+            {
+              "blockIndex": 88,
+              "text": "This allows for a more in-depth context around the AI models in use within the organization while also establishing mechanisms that facilitate proactive measures to mitigate, or at the very least, minimize, any privacy, security, and ethical risks before they materialize."
+            },
+            {
+              "blockIndex": 90,
+              "text": "With robust data and AI controls, organizations can thoroughly curate model inputs and outputs, ensuring they can identify and counter any of the aforementioned risks."
+            },
+            {
+              "blockIndex": 101,
+              "text": "AI Adoption and Risks: 2023 marked a significant advancement in AI technology, particularly in Generative AI, which has become increasingly adopted in the business world. While AI presents substantial economic"
+            },
+            {
+              "blockIndex": 102,
+              "text": "AI Risks and Challenges: The main risks associated with AI include AI model risks (such as model poisoning, bias, and hallucination), prompt usage risks (prompt injection and DoS attacks), exfiltration risks, sensitive data risks, data leakage, and non-regulatory compliance. These risks necessitate comprehensive risk assessments to mitigate potential negative impacts on financial, operational, and reputational aspects of businesses."
+            },
+            {
+              "blockIndex": 103,
+              "text": "AI Risk Assessment Importance: Regular and comprehensive AI risk assessments are essential for identifying relevant risks and developing strategies to mitigate these risks. Understanding AI risks is crucial for regulatory compliance and strategic business planning."
+            },
+            {
+              "blockIndex": 105,
+              "text": "AI Risk Assessment Provisions: Effective AI risk assessments involve evaluating AI models, systems, and capabilities to identify and mitigate potential risks across security, privacy, fairness, and accountability domains. This includes bias assessment, algorithmic impact assessment, AI impact assessment, and AI classification assessment."
+            },
+            {
+              "blockIndex": 107,
+              "text": "Best Practices for AI Risk Mitigation: Organizations should conduct AI model discovery, risk assessment, data & AI mapping and flows, and establish robust data & AI controls to manage and mitigate risks associated with AI use. This includes classifying AI models, identifying potential risks, connecting AI models to relevant data sources, and establishing controls for model inputs and outputs."
+            },
+            {
+              "blockIndex": 113,
+              "text": "Yes, one of the most direct and immediate benefits of an AI risk assessment is that it can promptly identify potential sources of bias within all datasets, processes, or algorithms in use within an organization. Corrective measures can then be implemented as deemed necessary."
+            },
+            {
+              "blockIndex": 114,
+              "text": "An AI risk assessment will typically focus on AI and machine learning-related systems, such as bias, data quality, and ethical considerations. A traditional IT risk assessment focuses on the broader IT security and operational risks, such as network security and data breaches."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading",
+          "content": "What Is AI Grading? (And How It Works)\n\nWhy Teachers Are Turning to AI Grading Tools\n\nTop Benefits of AI Grading for Teachers\n\nHow AI Grading Tools Work (Step-by-Step)\n\nChallenges & Ethical Considerations of AI Grading\n\nBest AI Grading Tools for Teachers (2025)\n\nWhy Quetext Is a Must-Have for AI Grading\n\nThe Future of AI Grading: Human + Machine Partnership\n\nConclusion: Grading Made Smarter with Quetext\n\nConsider a standard week of schooling: teachers are buried in essays, research papers, homework, and whatever else students turn in, waiting for the teacher’s careful reading and considered helpful feedback, about their essays, research papers, and other assignments. Grading takes place after lesson planning, family outreach, and administrative work, often extending deep into the evening. This is a fairly common dilemma and one that has many teachers searching for smarter, faster methods to help alleviate grading burdens and fatigue The AI grading tools available today, for teachers, help teachers navigate their significant workload, provide consistency in grading, promote academic integrity, and simply provide an experience while giving feedback that offers a balance between human teacher grading and AI support. Rather than teachers spending precious hours of time searching for errors or anomalies in text submitted by their students, technology can be the first layer of analysis for the teacher. This makes AI grading for teachers important.\n\nQuetext’s AI Detector and Plagiarism checker are an example of grade-analysis as a portion of the continuum of the teaching to the learning experience. Teachers can use this technology to help the quickly determine if a submission contains text generated by AI, or if a student’s submission is unoriginal – all with insightful information provided. The grading process is quicker and more trustworthy than ever.\n\nWhat Is AI Grading? (And How It Works)\n\nAI grading describes the use of artificial intelligence in assessing student work­ primarily writing assignments­ and involves assessing student work on writing quality, structure, clarity and originality. Teachers can leverage AI systems that automatically scan and analyse text, instead of manually reviewing each sentence, for fast data-informed insights.\n\nThese technologies are powered by machine learning and natural language processing (NLP) algorithms that can assess students’ essays, reports and homework assignments. They identify patterns of writing, assess grammar and coherence, flag potential issues, and even recognize content that appears to be AI-generated or plagiarized. For example, with AI grading, a teacher can get quick insights into the writing of students, and at the same time check for originality by accessing Quetext’s AI Detector and Plagiarism\n\nChecker. This allows educators to promote academic integrity, without adding to an already heavy workload. As of today, AI Grading, in conjunction with checks for originality, is commonly a feature in modern classrooms and allows teachers to be more efficient while fostering students to produce work that is authentic and high quality.\n\nWhy Teachers Are Turning to AI Grading Tools\n\nTeachers are now facing unprecedented levels of pressure ,­larger class sizes, tightening grading deadlines, and growing bureaucratic demands. As grades pile up, it is sometimes difficult to achieve fair and consistent evaluations in equal time. Meanwhile, while the advent of AI writing tools allows students to create writing samples that might fool even the most well-trained eye, schools are becoming increasingly conscious of being able to recognize AI-generated text. Schools need trustworthy solutions to protect academic integrity.\n\nAdditionally, in the journey towards a more data-driven and transparent grading process, schools want to achieve grading that is both efficient and fair for all students. AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment, countering the risk of biases by making teachers aware of process errors.\n\nThat is why educators are turning towards Quetext. With the support of its AI Detector and Plagiarism Checker, Quetext supports educators in the grading process when that would normally not be achievable, and ultimately guarantees that each assignment is original, authentic, and prepared according to classroom norms. While AI tools can expedite the grading process­ they protect the integrity of education, the role of education today.\n\nTop Benefits of AI Grading for Teachers\n\nThe biggest value of AI grading tools is their capability to review large quantities of work instantaneously. Rather than reading each paper and examining every detail, AI takes care of repetitive tasks such as assessing mechanical errors, organization, flow of ideas, and basic logical progression. It takes hours off of the routine grading that teachers do not have. Once this work is done, educators will have the time to focus back on what is most important – positive interactions with students, enhancing individualized feedback, and engaged planning for the lesson.\n\nHuman grading can be subjectively skewed by being tired, biased, or just by the mood one is in. AI provides consistency by evaluating each student via the same level of assessment across the student submissions. Regardless of the subjectivity or criteria in grading, the outcome of AI grading will create a more objective, transparent process that ensures every student is evaluated against the same rubric.\n\nAI grading tools allow students to receive immediate feedback through detailed reports that outline strengths, weaknesses, and opportunities for growth. The tools provide more than just grades. Educators can assess student work to see a cohesive pattern across multiple students. For example, if several students struggle with thesis editing or transitions, the educator can modify instruction. Feedback is given much quicker than the educator could otherwise promote.\n\nAs AI writing tools are increasingly adopted, instructors find themselves facing another wave of challenges: essays created by artificially intelligences, undetected paraphrasing, and more subtle types of unoriginal content. Quetext takes this challenge head-on. With the AI Detector and Plagiarism Checker, teachers can confirm whether students’ work are original compositions on the spot. The tools serve educational purposes to assist teachers in: • Recognizing AI-written content • Catching poor or non-existent citations • Preventing academic dishonesty • Adhering to fair assessment for all students AI grading along with originality checks would go a long way in safeguarding the integrity of classrooms in today’s digital world.\n\nMany AI-based grading tools consist of scoring systems that involve a smart grading model, or perhaps based on rubrics that organize classroom grading in a manner that prevents bias – or at least reduces it. So much the better for the rest of us who are feeling by the time a student assessment on an essay-based subject, or throughout the semi-subjective process of hybrid assessments. AI-generated scoring, as appropriate, will help take the pressure off the normal concerns about maintaining grading quality over the time and impact on workflow.\n\nHow AI Grading Tools Work (Step-by-Step)\n\nAI grading may sound complicated, but the process is refreshingly uncomplicated and teacher supported. Here’s how it usually pans out:\n\nThe assignments-essays, reports, reflections, or homework-are uploaded into the AI grading system for analysis.\n\nThe limitations of AI are largely technical. AI systems can misinterpret authorial re-styling (unique writing style) or disregard subtler intent of expression. Teachers should always review AI’s insights and its suggested scores for precision and validity. AI should be understood as a grading assistant, but never as a substitute to educators. AI-assisted tools, like Quetext, work with detection and preliminary analysis; teachers presume the emotion, expertise and judgement needed to evaluate a student’s real understanding. Intentional uses of AI improve grading while firmly embedding the educator at the forefront of academic evaluation and assessment.\n\nQuetext is the perfect tool for teachers who want to be as fair and honest as possible when grading assignments. Quetext’s powerful combination of AI Detection and Plagiarism Checking allows teachers to verify the work is original and authentically written before they begin the grading process. The major benefits of Quetext are: • Instantly recognizes AI text • Identifies unoriginal and/or unreferenced passages • Clearly formatted originality reports for easy comprehension • A clean, easy-to-use dashboard that seamlessly fits into classroom flow Now, teachers can grade with complete confidence that the assignment is indicative of a student’s real work before grades are derived.",
+          "fetchedAt": "2026-09-17T13:44:12.285Z",
+          "title": "Benefits of AI Grading for Teachers | How Tools Simplify Grading",
+          "status": "ok",
+          "contentLength": 17944,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 2,
+              "text": "What Is AI Grading? (And How It Works)"
+            },
+            {
+              "blockIndex": 3,
+              "text": "Why Teachers Are Turning to AI Grading Tools"
+            },
+            {
+              "blockIndex": 4,
+              "text": "Top Benefits of AI Grading for Teachers"
+            },
+            {
+              "blockIndex": 5,
+              "text": "How AI Grading Tools Work (Step-by-Step)"
+            },
+            {
+              "blockIndex": 6,
+              "text": "Challenges & Ethical Considerations of AI Grading"
+            },
+            {
+              "blockIndex": 7,
+              "text": "Best AI Grading Tools for Teachers (2025)"
+            },
+            {
+              "blockIndex": 8,
+              "text": "Why Quetext Is a Must-Have for AI Grading"
+            },
+            {
+              "blockIndex": 9,
+              "text": "The Future of AI Grading: Human + Machine Partnership"
+            },
+            {
+              "blockIndex": 10,
+              "text": "Conclusion: Grading Made Smarter with Quetext"
+            },
+            {
+              "blockIndex": 14,
+              "text": "Consider a standard week of schooling: teachers are buried in essays, research papers, homework, and whatever else students turn in, waiting for the teacher’s careful reading and considered helpful feedback, about their essays, research papers, and other assignments. Grading takes place after lesson planning, family outreach, and administrative work, often extending deep into the evening. This is a fairly common dilemma and one that has many teachers searching for smarter, faster methods to help alleviate grading burdens and fatigue The AI grading tools available today, for teachers, help teachers navigate their significant workload, provide consistency in grading, promote academic integrity, and simply provide an experience while giving feedback that offers a balance between human teacher grading and AI support. Rather than teachers spending precious hours of time searching for errors or anomalies in text submitted by their students, technology can be the first layer of analysis for the teacher. This makes AI grading for teachers important."
+            },
+            {
+              "blockIndex": 15,
+              "text": "Quetext’s AI Detector and Plagiarism checker are an example of grade-analysis as a portion of the continuum of the teaching to the learning experience. Teachers can use this technology to help the quickly determine if a submission contains text generated by AI, or if a student’s submission is unoriginal – all with insightful information provided. The grading process is quicker and more trustworthy than ever."
+            },
+            {
+              "blockIndex": 16,
+              "text": "What Is AI Grading? (And How It Works)"
+            },
+            {
+              "blockIndex": 17,
+              "text": "AI grading describes the use of artificial intelligence in assessing student work­ primarily writing assignments­ and involves assessing student work on writing quality, structure, clarity and originality. Teachers can leverage AI systems that automatically scan and analyse text, instead of manually reviewing each sentence, for fast data-informed insights."
+            },
+            {
+              "blockIndex": 18,
+              "text": "These technologies are powered by machine learning and natural language processing (NLP) algorithms that can assess students’ essays, reports and homework assignments. They identify patterns of writing, assess grammar and coherence, flag potential issues, and even recognize content that appears to be AI-generated or plagiarized. For example, with AI grading, a teacher can get quick insights into the writing of students, and at the same time check for originality by accessing Quetext’s AI Detector and Plagiarism"
+            },
+            {
+              "blockIndex": 19,
+              "text": "Checker. This allows educators to promote academic integrity, without adding to an already heavy workload. As of today, AI Grading, in conjunction with checks for originality, is commonly a feature in modern classrooms and allows teachers to be more efficient while fostering students to produce work that is authentic and high quality."
+            },
+            {
+              "blockIndex": 20,
+              "text": "Why Teachers Are Turning to AI Grading Tools"
+            },
+            {
+              "blockIndex": 21,
+              "text": "Teachers are now facing unprecedented levels of pressure ,­larger class sizes, tightening grading deadlines, and growing bureaucratic demands. As grades pile up, it is sometimes difficult to achieve fair and consistent evaluations in equal time. Meanwhile, while the advent of AI writing tools allows students to create writing samples that might fool even the most well-trained eye, schools are becoming increasingly conscious of being able to recognize AI-generated text. Schools need trustworthy solutions to protect academic integrity."
+            },
+            {
+              "blockIndex": 22,
+              "text": "Additionally, in the journey towards a more data-driven and transparent grading process, schools want to achieve grading that is both efficient and fair for all students. AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment, countering the risk of biases by making teachers aware of process errors."
+            },
+            {
+              "blockIndex": 23,
+              "text": "That is why educators are turning towards Quetext. With the support of its AI Detector and Plagiarism Checker, Quetext supports educators in the grading process when that would normally not be achievable, and ultimately guarantees that each assignment is original, authentic, and prepared according to classroom norms. While AI tools can expedite the grading process­ they protect the integrity of education, the role of education today."
+            },
+            {
+              "blockIndex": 24,
+              "text": "Top Benefits of AI Grading for Teachers"
+            },
+            {
+              "blockIndex": 26,
+              "text": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously. Rather than reading each paper and examining every detail, AI takes care of repetitive tasks such as assessing mechanical errors, organization, flow of ideas, and basic logical progression. It takes hours off of the routine grading that teachers do not have. Once this work is done, educators will have the time to focus back on what is most important – positive interactions with students, enhancing individualized feedback, and engaged planning for the lesson."
+            },
+            {
+              "blockIndex": 28,
+              "text": "Human grading can be subjectively skewed by being tired, biased, or just by the mood one is in. AI provides consistency by evaluating each student via the same level of assessment across the student submissions. Regardless of the subjectivity or criteria in grading, the outcome of AI grading will create a more objective, transparent process that ensures every student is evaluated against the same rubric."
+            },
+            {
+              "blockIndex": 30,
+              "text": "AI grading tools allow students to receive immediate feedback through detailed reports that outline strengths, weaknesses, and opportunities for growth. The tools provide more than just grades. Educators can assess student work to see a cohesive pattern across multiple students. For example, if several students struggle with thesis editing or transitions, the educator can modify instruction. Feedback is given much quicker than the educator could otherwise promote."
+            },
+            {
+              "blockIndex": 32,
+              "text": "As AI writing tools are increasingly adopted, instructors find themselves facing another wave of challenges: essays created by artificially intelligences, undetected paraphrasing, and more subtle types of unoriginal content. Quetext takes this challenge head-on. With the AI Detector and Plagiarism Checker, teachers can confirm whether students’ work are original compositions on the spot. The tools serve educational purposes to assist teachers in: • Recognizing AI-written content • Catching poor or non-existent citations • Preventing academic dishonesty • Adhering to fair assessment for all students AI grading along with originality checks would go a long way in safeguarding the integrity of classrooms in today’s digital world."
+            },
+            {
+              "blockIndex": 36,
+              "text": "Many AI-based grading tools consist of scoring systems that involve a smart grading model, or perhaps based on rubrics that organize classroom grading in a manner that prevents bias – or at least reduces it. So much the better for the rest of us who are feeling by the time a student assessment on an essay-based subject, or throughout the semi-subjective process of hybrid assessments. AI-generated scoring, as appropriate, will help take the pressure off the normal concerns about maintaining grading quality over the time and impact on workflow."
+            },
+            {
+              "blockIndex": 37,
+              "text": "How AI Grading Tools Work (Step-by-Step)"
+            },
+            {
+              "blockIndex": 38,
+              "text": "AI grading may sound complicated, but the process is refreshingly uncomplicated and teacher supported. Here’s how it usually pans out:"
+            },
+            {
+              "blockIndex": 40,
+              "text": "The assignments-essays, reports, reflections, or homework-are uploaded into the AI grading system for analysis."
+            },
+            {
+              "blockIndex": 56,
+              "text": "The limitations of AI are largely technical. AI systems can misinterpret authorial re-styling (unique writing style) or disregard subtler intent of expression. Teachers should always review AI’s insights and its suggested scores for precision and validity. AI should be understood as a grading assistant, but never as a substitute to educators. AI-assisted tools, like Quetext, work with detection and preliminary analysis; teachers presume the emotion, expertise and judgement needed to evaluate a student’s real understanding. Intentional uses of AI improve grading while firmly embedding the educator at the forefront of academic evaluation and assessment."
+            },
+            {
+              "blockIndex": 60,
+              "text": "Quetext is the perfect tool for teachers who want to be as fair and honest as possible when grading assignments. Quetext’s powerful combination of AI Detection and Plagiarism Checking allows teachers to verify the work is original and authentically written before they begin the grading process. The major benefits of Quetext are: • Instantly recognizes AI text • Identifies unoriginal and/or unreferenced passages • Clearly formatted originality reports for easy comprehension • A clean, easy-to-use dashboard that seamlessly fits into classroom flow Now, teachers can grade with complete confidence that the assignment is indicative of a student’s real work before grades are derived."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://teachingentrepreneurship.org/ai-grading-benefits-2/",
+          "tieuDe": "AI Grading in Higher Ed: Faster, Fairer, and More Helpful",
+          "tacGia": "Doan Winkel",
+          "toChuc": "Teaching Entrepreneurship",
+          "ngayDang": "2024-11-15T11:50:45+00:00",
+          "ngayLayVe": "2026-09-17T13:44:12.283Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Nội dung trang không khớp với tiêu đề. Nội dung thực tế là về 'Lean Canvas' và 'Ceres Case', không liên quan đến AI chấm bài. Có thể do lỗi scrape hoặc nội dung bị thay đổi.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Nội dung không liên quan đến chủ đề AI trong chấm bài và phản hồi cho sinh viên.",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "How to Test a Lean Canvas: Find the Riskiest Assumption (Ceres Case) How do you test a Lean Canvas?",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://securiti.ai/ai-risk-assessment/",
+          "tieuDe": "AI Risk Assessment: Strategies, Tools, and Best Practices - Securiti",
+          "toChuc": "Securiti",
+          "ngayLayVe": "2026-09-17T13:44:12.284Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ công ty tư vấn an ninh mạng, cung cấp thông tin tổng quan về rủi ro AI (điên, thiên kiến, bảo mật). Tuy nhiên, không tập trung cụ thể vào giáo dục/chấm bài mà mang tính tổng quát về doanh nghiệp.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ, cần xác minh tính cập nhật của thông tin.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading",
+          "tieuDe": "Benefits of AI Grading for Teachers | How Tools Simplify Grading",
+          "toChuc": "Quetext",
+          "ngayDang": "2025-11-19T08:05:39",
+          "ngayLayVe": "2026-09-17T13:44:12.285Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ nhà cung cấp công cụ kiểm tra đạo văn (Quetext), có thiên vị sản phẩm nhưng cung cấp các lợi ích cụ thể của AI trong chấm bài (tốc độ, nhất quán, phát hiện đạo văn).",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn có tính thương mại, cần thận trọng với các tuyên bố về hiệu quả tuyệt đối."
+          ],
+          "doanTrich": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n01"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Lợi ích: AI giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.",
+              "viTri": "Mục Top Benefits of AI Grading for Teachers"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Chỉ có một nguồn xác nhận trực tiếp về lợi ích này trong ngữ cảnh chấm bài."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Lợi ích: AI hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản (đạo văn/AI-generated), từ đó hỗ trợ toàn vẹn học thuật.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment",
+              "viTri": "Mục Why Teachers Are Turning to AI Grading Tools"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Thông tin dựa trên quan điểm của nhà cung cấp công cụ."
+        },
+        {
+          "id": "t03",
+          "noiDung": "Rủi ro: Các mô hình AI có thể chứa thiên kiến (bias) trong dữ liệu huấn luyện, dẫn đến các kết quả phân biệt đối xử hoặc không công bằng.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs.",
+              "viTri": "Mục AI Risk Assessments & Global AI Regulations"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Nguồn nói về rủi ro chung của AI, không cụ thể hóa cho chấm bài, nhưng nguyên lý áp dụng được."
+        },
+        {
+          "id": "t04",
+          "noiDung": "Rủi ro: Vấn đề bảo mật dữ liệu và quyền riêng tư do AI cần dữ liệu cá nhân/nhạy cảm để huấn luyện, có thể dẫn đến rò rỉ thông tin.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse",
+              "viTri": "Mục AI Risk Assessments & Global AI Regulations"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Rủi ro chung về bảo mật dữ liệu trong hệ thống AI."
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://teachingentrepreneurship.org/ai-grading-benefits-2/\",\n      \"tieuDe\": \"AI Grading in Higher Ed: Faster, Fairer, and More Helpful\",\n      \"tacGia\": \"Doan Winkel\",\n      \"toChuc\": \"Teaching Entrepreneurship\",\n      \"ngayDang\": \"2024-11-15\",\n      \"ngayLayVe\": \"2026-09-17T13:44:12.283Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung trang không khớp với tiêu đề. Nội dung thực tế là về 'Lean Canvas' và 'Ceres Case', không liên quan đến AI chấm bài. Có thể do lỗi scrape hoặc nội dung bị thay đổi.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung không liên quan đến chủ đề AI trong chấm bài và phản hồi cho sinh viên.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"How to Test a Lean Canvas: Find the Riskiest Assumption (Ceres Case) How do you test a Lean Canvas?\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://securiti.ai/ai-risk-assessment/\",\n      \"tieuDe\": \"AI Risk Assessment: Strategies, Tools, and Best Practices - Securiti\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Securiti\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:44:12.284Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ công ty tư vấn an ninh mạng, cung cấp thông tin tổng quan về rủi ro AI (điên, thiên kiến, bảo mật). Tuy nhiên, không tập trung cụ thể vào giáo dục/chấm bài mà mang tính tổng quát về doanh nghiệp.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng không rõ, cần xác minh tính cập nhật của thông tin.\"\n      ],\n      \"doanTrich\": \"AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading\",\n      \"tieuDe\": \"Benefits of AI Grading for Teachers | How Tools Simplify Grading\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Quetext\",\n      \"ngayDang\": \"2025-11-19\",\n      \"ngayLayVe\": \"2026-09-17T13:44:12.285Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ nhà cung cấp công cụ kiểm tra đạo văn (Quetext), có thiên vị sản phẩm nhưng cung cấp các lợi ích cụ thể của AI trong chấm bài (tốc độ, nhất quán, phát hiện đạo văn).\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn có tính thương mại, cần thận trọng với các tuyên bố về hiệu quả tuyệt đối.\"\n      ],\n      \"doanTrich\": \"The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Lợi ích: AI giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.\",\n          \"viTri\": \"Mục Top Benefits of AI Grading for Teachers\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn xác nhận trực tiếp về lợi ích này trong ngữ cảnh chấm bài.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Lợi ích: AI hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản (đạo văn/AI-generated), từ đó hỗ trợ toàn vẹn học thuật.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment\",\n          \"viTri\": \"Mục Why Teachers Are Turning to AI Grading Tools\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Thông tin dựa trên quan điểm của nhà cung cấp công cụ.\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Rủi ro: Các mô hình AI có thể chứa thiên kiến (bias) trong dữ liệu huấn luyện, dẫn đến các kết quả phân biệt đối xử hoặc không công bằng.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs.\",\n          \"viTri\": \"Mục AI Risk Assessments & Global AI Regulations\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Nguồn nói về rủi ro chung của AI, không cụ thể hóa cho chấm bài, nhưng nguyên lý áp dụng được.\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Rủi ro: Vấn đề bảo mật dữ liệu và quyền riêng tư do AI cần dữ liệu cá nhân/nhạy cảm để huấn luyện, có thể dẫn đến rò rỉ thông tin.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse\",\n          \"viTri\": \"Mục AI Risk Assessments & Global AI Regulations\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Rủi ro chung về bảo mật dữ liệu trong hệ thống AI.\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-e52e3c0b-7c6f-47cc-84a3-e54f878651f3",
+          "durationMs": 4379,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://teachingentrepreneurship.org/ai-grading-benefits-2/\",\n      \"tieuDe\": \"AI Grading in Higher Ed: Faster, Fairer, and More Helpful\",\n      \"tacGia\": \"Doan Winkel\",\n      \"toChuc\": \"Teaching Entrepreneurship\",\n      \"ngayDang\": \"2024-11-15\",\n      \"ngayLayVe\": \"2026-09-17T13:44:12.283Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung trang không khớp với tiêu đề. Nội dung thực tế là về 'Lean Canvas' và 'Ceres Case', không liên quan đến AI chấm bài. Có thể do lỗi scrape hoặc nội dung bị thay đổi.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung không liên quan đến chủ đề AI trong chấm bài và phản hồi cho sinh viên.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"How to Test a Lean Canvas: Find the Riskiest Assumption (Ceres Case) How do you test a Lean Canvas?\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://securiti.ai/ai-risk-assessment/\",\n      \"tieuDe\": \"AI Risk Assessment: Strategies, Tools, and Best Practices - Securiti\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Securiti\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:44:12.284Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ công ty tư vấn an ninh mạng, cung cấp thông tin tổng quan về rủi ro AI (điên, thiên kiến, bảo mật). Tuy nhiên, không tập trung cụ thể vào giáo dục/chấm bài mà mang tính tổng quát về doanh nghiệp.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng không rõ, cần xác minh tính cập nhật của thông tin.\"\n      ],\n      \"doanTrich\": \"AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading\",\n      \"tieuDe\": \"Benefits of AI Grading for Teachers | How Tools Simplify Grading\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Quetext\",\n      \"ngayDang\": \"2025-11-19\",\n      \"ngayLayVe\": \"2026-09-17T13:44:12.285Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ nhà cung cấp công cụ kiểm tra đạo văn (Quetext), có thiên vị sản phẩm nhưng cung cấp các lợi ích cụ thể của AI trong chấm bài (tốc độ, nhất quán, phát hiện đạo văn).\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn có tính thương mại, cần thận trọng với các tuyên bố về hiệu quả tuyệt đối.\"\n      ],\n      \"doanTrich\": \"The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Lợi ích: AI giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.\",\n          \"viTri\": \"Mục Top Benefits of AI Grading for Teachers\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn xác nhận trực tiếp về lợi ích này trong ngữ cảnh chấm bài.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Lợi ích: AI hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản (đạo văn/AI-generated), từ đó hỗ trợ toàn vẹn học thuật.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment\",\n          \"viTri\": \"Mục Why Teachers Are Turning to AI Grading Tools\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Thông tin dựa trên quan điểm của nhà cung cấp công cụ.\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Rủi ro: Các mô hình AI có thể chứa thiên kiến (bias) trong dữ liệu huấn luyện, dẫn đến các kết quả phân biệt đối xử hoặc không công bằng.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs.\",\n          \"viTri\": \"Mục AI Risk Assessments & Global AI Regulations\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Nguồn nói về rủi ro chung của AI, không cụ thể hóa cho chấm bài, nhưng nguyên lý áp dụng được.\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Rủi ro: Vấn đề bảo mật dữ liệu và quyền riêng tư do AI cần dữ liệu cá nhân/nhạy cảm để huấn luyện, có thể dẫn đến rò rỉ thông tin.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse\",\n          \"viTri\": \"Mục AI Risk Assessments & Global AI Regulations\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Rủi ro chung về bảo mật dữ liệu trong hệ thống AI.\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 9430
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "AI trong chấm bài và phản hồi cho sinh viên",
+      "mucTieu": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+      "thoiLuong": "năm phút",
+      "nguoiHoc": "Giảng viên đại học",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.",
+          "chuTrenManHinh": "Chào mừng quý thầy cô",
+          "yDoHinh": "Video ngắn chào mừng giảng viên đại học đến với bài học",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+          "chuTrenManHinh": "Lợi ích tăng tốc độ chấm",
+          "yDoHinh": "Biểu đồ minh họa tốc độ xử lý công việc lớn của hệ thống",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.",
+          "chuTrenManHinh": "Tính nhất quán trong đánh giá",
+          "yDoHinh": "Giao diện màn hình hiển thị kết quả đánh giá đồng bộ",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?",
+          "chuTrenManHinh": "Rủi ro thiên kiến trong dữ liệu",
+          "yDoHinh": "Hình ảnh sơ đồ dữ liệu với các điểm bất thường cần lưu ý",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.",
+          "chuTrenManHinh": "Rủi ro bảo mật dữ liệu",
+          "yDoHinh": "Biểu tượng ổ khóa bảo mật dữ liệu cá nhân trên màn hình",
+          "nguon": [
+            "t04"
+          ]
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789652662280",
+      "timestamp": "2026-09-17T13:44:22.280Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+        "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "targetAudience": "Giảng viên đại học",
+        "videoDuration": "5 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N18"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n02",
+          "url": "https://securiti.ai/ai-risk-assessment/",
+          "tieuDe": "AI Risk Assessment: Strategies, Tools, and Best Practices - Securiti",
+          "toChuc": "Securiti",
+          "ngayLayVe": "2026-09-17T13:44:12.284Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ công ty tư vấn an ninh mạng, cung cấp thông tin tổng quan về rủi ro AI (điên, thiên kiến, bảo mật). Tuy nhiên, không tập trung cụ thể vào giáo dục/chấm bài mà mang tính tổng quát về doanh nghiệp.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ, cần xác minh tính cập nhật của thông tin.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading",
+          "tieuDe": "Benefits of AI Grading for Teachers | How Tools Simplify Grading",
+          "toChuc": "Quetext",
+          "ngayDang": "2025-11-19T08:05:39",
+          "ngayLayVe": "2026-09-17T13:44:12.285Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ nhà cung cấp công cụ kiểm tra đạo văn (Quetext), có thiên vị sản phẩm nhưng cung cấp các lợi ích cụ thể của AI trong chấm bài (tốc độ, nhất quán, phát hiện đạo văn).",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn có tính thương mại, cần thận trọng với các tuyên bố về hiệu quả tuyệt đối."
+          ],
+          "doanTrich": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Lợi ích: AI giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.",
+              "viTri": "Mục Top Benefits of AI Grading for Teachers"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Chỉ có một nguồn xác nhận trực tiếp về lợi ích này trong ngữ cảnh chấm bài."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Lợi ích: AI hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản (đạo văn/AI-generated), từ đó hỗ trợ toàn vẹn học thuật.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment",
+              "viTri": "Mục Why Teachers Are Turning to AI Grading Tools"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Thông tin dựa trên quan điểm của nhà cung cấp công cụ."
+        },
+        {
+          "id": "t03",
+          "noiDung": "Rủi ro: Các mô hình AI có thể chứa thiên kiến (bias) trong dữ liệu huấn luyện, dẫn đến các kết quả phân biệt đối xử hoặc không công bằng.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs.",
+              "viTri": "Mục AI Risk Assessments & Global AI Regulations"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Nguồn nói về rủi ro chung của AI, không cụ thể hóa cho chấm bài, nhưng nguyên lý áp dụng được."
+        },
+        {
+          "id": "t04",
+          "noiDung": "Rủi ro: Vấn đề bảo mật dữ liệu và quyền riêng tư do AI cần dữ liệu cá nhân/nhạy cảm để huấn luyện, có thể dẫn đến rò rỉ thông tin.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse",
+              "viTri": "Mục AI Risk Assessments & Global AI Regulations"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Rủi ro chung về bảo mật dữ liệu trong hệ thống AI."
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "AI trong chấm bài và phản hồi cho sinh viên",
+        "mucTieu": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "thoiLuong": "năm phút",
+        "nguoiHoc": "Giảng viên đại học",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.",
+            "chuTrenManHinh": "Chào mừng quý thầy cô",
+            "yDoHinh": "Video ngắn chào mừng giảng viên đại học đến với bài học",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+            "chuTrenManHinh": "Lợi ích tăng tốc độ chấm",
+            "yDoHinh": "Biểu đồ minh họa tốc độ xử lý công việc lớn của hệ thống",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.",
+            "chuTrenManHinh": "Tính nhất quán trong đánh giá",
+            "yDoHinh": "Giao diện màn hình hiển thị kết quả đánh giá đồng bộ",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?",
+            "chuTrenManHinh": "Rủi ro thiên kiến trong dữ liệu",
+            "yDoHinh": "Hình ảnh sơ đồ dữ liệu với các điểm bất thường cần lưu ý",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.",
+            "chuTrenManHinh": "Rủi ro bảo mật dữ liệu",
+            "yDoHinh": "Biểu tượng ổ khóa bảo mật dữ liệu cá nhân trên màn hình",
+            "nguon": [
+              "t04"
+            ]
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] The biggest value of AI grading tools is their capability to review large quantities of work instantaneously."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment"
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.",
+          "nguon": [
+            "t04"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse"
+          ]
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"AI trong chấm bài và phản hồi cho sinh viên\",\n  \"mucTieu\": \"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm\",\n  \"thoiLuong\": \"năm phút\",\n  \"nguoiHoc\": \"Giảng viên đại học\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.\",\n      \"chuTrenManHinh\": \"Chào mừng quý thầy cô\",\n      \"yDoHinh\": \"Video ngắn chào mừng giảng viên đại học đến với bài học\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.\",\n      \"chuTrenManHinh\": \"Lợi ích tăng tốc độ chấm\",\n      \"yDoHinh\": \"Biểu đồ minh họa tốc độ xử lý công việc lớn của hệ thống\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.\",\n      \"chuTrenManHinh\": \"Tính nhất quán trong đánh giá\",\n      \"yDoHinh\": \"Giao diện màn hình hiển thị kết quả đánh giá đồng bộ\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?\",\n      \"chuTrenManHinh\": \"Rủi ro thiên kiến trong dữ liệu\",\n      \"yDoHinh\": \"Hình ảnh sơ đồ dữ liệu với các điểm bất thường cần lưu ý\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.\",\n      \"chuTrenManHinh\": \"Rủi ro bảo mật dữ liệu\",\n      \"yDoHinh\": \"Biểu tượng ổ khóa bảo mật dữ liệu cá nhân trên màn hình\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 3162,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"AI trong chấm bài và phản hồi cho sinh viên\",\n  \"mucTieu\": \"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm\",\n  \"thoiLuong\": \"năm phút\",\n  \"nguoiHoc\": \"Giảng viên đại học\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.\",\n      \"chuTrenManHinh\": \"Chào mừng quý thầy cô\",\n      \"yDoHinh\": \"Video ngắn chào mừng giảng viên đại học đến với bài học\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.\",\n      \"chuTrenManHinh\": \"Lợi ích tăng tốc độ chấm\",\n      \"yDoHinh\": \"Biểu đồ minh họa tốc độ xử lý công việc lớn của hệ thống\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.\",\n      \"chuTrenManHinh\": \"Tính nhất quán trong đánh giá\",\n      \"yDoHinh\": \"Giao diện màn hình hiển thị kết quả đánh giá đồng bộ\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?\",\n      \"chuTrenManHinh\": \"Rủi ro thiên kiến trong dữ liệu\",\n      \"yDoHinh\": \"Hình ảnh sơ đồ dữ liệu với các điểm bất thường cần lưu ý\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.\",\n      \"chuTrenManHinh\": \"Rủi ro bảo mật dữ liệu\",\n      \"yDoHinh\": \"Biểu tượng ổ khóa bảo mật dữ liệu cá nhân trên màn hình\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 4058
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash-lite"
+  }
+}

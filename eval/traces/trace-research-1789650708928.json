@@ -1,0 +1,462 @@
+{
+  "id": "trace-research-1789650708928",
+  "timestamp": "2026-09-17T13:11:48.928Z",
+  "phase": "research",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N01"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "What is a context window?",
+          "url": "https://www.ibm.com/think/topics/context-window",
+          "snippet": "An LLM's context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting ...",
+          "position": 1
+        },
+        {
+          "title": "🧠Understanding LLM Context Windows: Tokens, Attention, ...",
+          "url": "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+          "snippet": "A context window represents the “working memory” of an LLM. It determines how much information from a conversation or input the model can retain ...",
+          "position": 2
+        },
+        {
+          "title": "Context window",
+          "url": "https://en.wikipedia.org/wiki/Context_window",
+          "snippet": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating ...",
+          "position": 3
+        },
+        {
+          "title": "The Maximum Effective Context Window for Real World ...",
+          "url": "https://arxiv.org/pdf/2509.21361",
+          "snippet": "viết bởi N Paulsen · 2025 · Trích dẫn 24 bài viết — Large language model (LLM) providers boast big numbers for maximum context window sizes. To test the real-world use of context windows, we 1) define a.",
+          "position": 4
+        },
+        {
+          "title": "What is a context window for Large Language Models?",
+          "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-context-window",
+          "snippet": "A context window is how information is entered into a large language model (LLM). The larger the context window, the more information the ...",
+          "position": 5
+        }
+      ],
+      "query": "language model context window",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "[2404.09336] Self-Selected Attention Span for Accelerating ...",
+          "url": "https://arxiv.org/abs/2404.09336",
+          "snippet": "viết bởi T Jin · 2024 · Trích dẫn 8 bài viết — We demonstrate that using this custom CUDA kernel improves the throughput of LLM inference by 28%. Our work presents an end-to-end demonstration ...",
+          "position": 1
+        },
+        {
+          "title": "Mixture of Attention Spans: Optimizing LLM Inference ...",
+          "url": "https://openreview.net/forum?id=n3rZJrWPLE",
+          "snippet": "viết bởi T Fu · Trích dẫn 6 bài viết — Sliding-window attention offers a hardware-efficient solution to the memory and throughput challenges of Large Language Models (LLMs) in ...",
+          "position": 2
+        },
+        {
+          "title": "Understanding Attention in Large Language Models (LLMs)",
+          "url": "https://medium.com/@anirudhsekar2008/understanding-attention-in-large-language-models-llms-d4e73fd5087a",
+          "snippet": "Relative Position Attention: Improves handling of local patterns. Adaptive Span Attention: Learns variable context lengths. Longformer ...",
+          "position": 3
+        },
+        {
+          "title": "Counter Declining Long-Term Attention Span caused by ...",
+          "url": "https://www.linkedin.com/pulse/counter-declining-long-term-attention-span-caused-llm-sch%C3%BCrmann-dvcdf",
+          "snippet": "When we outsource thinking to LLMs, we're not just saving time—we're bypassing the mental processes that build and maintain our attention ...",
+          "position": 4
+        },
+        {
+          "title": "Review Attention heads of large language models",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666389925000248",
+          "snippet": "viết bởi Z Zheng · 2025 · Trích dẫn 50 bài viết — This study focuses on the attention heads of LLMs, offering a systematic review of their behavior and associated experimental methods across various scenarios.",
+          "position": 5
+        }
+      ],
+      "query": "LLM attention span",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://www.ibm.com/think/topics/context-window",
+      "https://arxiv.org/abs/2404.09336",
+      "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "https://openreview.net/forum?id=n3rZJrWPLE",
+      "https://en.wikipedia.org/wiki/Context_window",
+      "https://medium.com/@anirudhsekar2008/understanding-attention-in-large-language-models-llms-d4e73fd5087a",
+      "https://arxiv.org/pdf/2509.21361",
+      "https://www.linkedin.com/pulse/counter-declining-long-term-attention-span-caused-llm-sch%C3%BCrmann-dvcdf"
+    ],
+    "pagesRead": [
+      "https://www.ibm.com/think/topics/context-window",
+      "https://arxiv.org/abs/2404.09336",
+      "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "https://openreview.net/forum?id=n3rZJrWPLE",
+      "https://en.wikipedia.org/wiki/Context_window",
+      "https://medium.com/@anirudhsekar2008/understanding-attention-in-large-language-models-llms-d4e73fd5087a"
+    ],
+    "supplementReasons": [
+      "Dưới ba trang đọc được và không có lệnh can thiệp"
+    ]
+  },
+  "pagesRead": [
+    {
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "content": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.\n\nAn LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\n\nGenerally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks.\n\nContext windows and tokenization\n\nIn real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work.\n\nThe way LLMs process language is fundamentally different from the way humans do. Whereas the smallest unit of information we use to represent language is a single character—such as a letter, number or punctuation mark—the smallest unit of language that AI models use is a token. To train a model to understand language, each token is assigned an ID number; these ID numbers, rather than the words or even the tokens themselves, are used to train the model. This tokenization of language significantly reduces the computational power needed to process and learn from the text.\n\nThere is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs.\n\nVariations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context.\n\nWhy do models have a maximum context length?\n\nThough context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs.\n\nTransformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time.\n\nIt's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context.\n\nIt’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once.\n\nContext windows and computing resources\n\nEquipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it.\n\nSimilarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time.\n\nRecent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022.\n\nChallenges of long context windows\n\nEven when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications.\n\nA longer context window might also have the unintended effect of presenting a longer attack surface for adversarial prompts. Recent research from Anthropic demonstrated that increasing a model’s context length also increases its vulnerability to “jailbreaking” and (subsequently) being provoked to produce harmful responses.2\n\nThe average context window of a large language model has grown exponentially since the original generative pretrained transformers (GPTs) were released. To date, each successive generation of LLMs has typically entailed significantly longer context lengths. At present, the largest context window offered by a prominent commercial model is over 1 million tokens. It remains to be seen whether context windows will continue to expand or if we’re already approaching the upper limit of practical necessity.\n\nThe new o1 model family likewise offers a context window of 128,000 tokens, though they offer greater output context length.\n\nThe original Llama models had a maximum context length of 2,048 tokens, which was doubled to 4,096 tokens for Llama 2. During their launch in April 2024, Llama 3 models offered a context window of roughly 8,000 tokens.\n\nLlama’s context length was significantly increased with the launch of Llama 3.1 models, which offered 128,000-token long context windows. Llama 3.2 models likewise have a maximum context length of 128,000 tokens.\n\nMistral Large 2, the flagship model offered by Mistral AI, has a context window of 128,000 tokens.\n\nGoogle’s Gemini series of models offers what is currently the largest context window amongst commercial language models. Gemini 1.5 Pro, Google’s flagship model, offers a context length of up to 2 million tokens. Other Gemini 1.5 models, such as Gemini 1.5 Flash, have a context window of 1 million tokens.\n\nAnthropic’s latest Claude models, such as the Claude 3.5 Sonnet, offer a standard context window of about 200,000 tokens. In early September 2024, Anthropic announced that the models accessed through its new “Claude Enterprise” plan would offer an expanded 500,000 token context window.\n\n1. \"Lost in the Middle: How Language Models Use Long Contexts,\" arXiv, 6 July 2023 2 \"Many-shot jailbreaking,\" Anthropic, 2 April 2024",
+      "fetchedAt": "2026-09-17T13:11:22.775Z",
+      "title": "What is a context window? | IBM",
+      "status": "ok",
+      "contentLength": 14693,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 2,
+          "text": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+        },
+        {
+          "blockIndex": 3,
+          "text": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+        },
+        {
+          "blockIndex": 4,
+          "text": "Generally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks."
+        },
+        {
+          "blockIndex": 8,
+          "text": "Context windows and tokenization"
+        },
+        {
+          "blockIndex": 9,
+          "text": "In real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work."
+        },
+        {
+          "blockIndex": 10,
+          "text": "The way LLMs process language is fundamentally different from the way humans do. Whereas the smallest unit of information we use to represent language is a single character—such as a letter, number or punctuation mark—the smallest unit of language that AI models use is a token. To train a model to understand language, each token is assigned an ID number; these ID numbers, rather than the words or even the tokens themselves, are used to train the model. This tokenization of language significantly reduces the computational power needed to process and learn from the text."
+        },
+        {
+          "blockIndex": 18,
+          "text": "There is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Variations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context."
+        },
+        {
+          "blockIndex": 22,
+          "text": "Why do models have a maximum context length?"
+        },
+        {
+          "blockIndex": 23,
+          "text": "Though context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs."
+        },
+        {
+          "blockIndex": 24,
+          "text": "Transformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time."
+        },
+        {
+          "blockIndex": 25,
+          "text": "It's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context."
+        },
+        {
+          "blockIndex": 26,
+          "text": "It’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once."
+        },
+        {
+          "blockIndex": 27,
+          "text": "Context windows and computing resources"
+        },
+        {
+          "blockIndex": 28,
+          "text": "Equipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it."
+        },
+        {
+          "blockIndex": 29,
+          "text": "Similarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time."
+        },
+        {
+          "blockIndex": 30,
+          "text": "Recent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022."
+        },
+        {
+          "blockIndex": 31,
+          "text": "Challenges of long context windows"
+        },
+        {
+          "blockIndex": 32,
+          "text": "Even when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications."
+        },
+        {
+          "blockIndex": 38,
+          "text": "A longer context window might also have the unintended effect of presenting a longer attack surface for adversarial prompts. Recent research from Anthropic demonstrated that increasing a model’s context length also increases its vulnerability to “jailbreaking” and (subsequently) being provoked to produce harmful responses.2"
+        },
+        {
+          "blockIndex": 40,
+          "text": "The average context window of a large language model has grown exponentially since the original generative pretrained transformers (GPTs) were released. To date, each successive generation of LLMs has typically entailed significantly longer context lengths. At present, the largest context window offered by a prominent commercial model is over 1 million tokens. It remains to be seen whether context windows will continue to expand or if we’re already approaching the upper limit of practical necessity."
+        },
+        {
+          "blockIndex": 46,
+          "text": "The new o1 model family likewise offers a context window of 128,000 tokens, though they offer greater output context length."
+        },
+        {
+          "blockIndex": 48,
+          "text": "The original Llama models had a maximum context length of 2,048 tokens, which was doubled to 4,096 tokens for Llama 2. During their launch in April 2024, Llama 3 models offered a context window of roughly 8,000 tokens."
+        },
+        {
+          "blockIndex": 49,
+          "text": "Llama’s context length was significantly increased with the launch of Llama 3.1 models, which offered 128,000-token long context windows. Llama 3.2 models likewise have a maximum context length of 128,000 tokens."
+        },
+        {
+          "blockIndex": 51,
+          "text": "Mistral Large 2, the flagship model offered by Mistral AI, has a context window of 128,000 tokens."
+        },
+        {
+          "blockIndex": 53,
+          "text": "Google’s Gemini series of models offers what is currently the largest context window amongst commercial language models. Gemini 1.5 Pro, Google’s flagship model, offers a context length of up to 2 million tokens. Other Gemini 1.5 models, such as Gemini 1.5 Flash, have a context window of 1 million tokens."
+        },
+        {
+          "blockIndex": 55,
+          "text": "Anthropic’s latest Claude models, such as the Claude 3.5 Sonnet, offer a standard context window of about 200,000 tokens. In early September 2024, Anthropic announced that the models accessed through its new “Claude Enterprise” plan would offer an expanded 500,000 token context window."
+        },
+        {
+          "blockIndex": 73,
+          "text": "1. \"Lost in the Middle: How Language Models Use Long Contexts,\" arXiv, 6 July 2023 2 \"Many-shot jailbreaking,\" Anthropic, 2 April 2024"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.09336",
+      "content": "Computer Science > Computation and Language arXiv:2404.09336 (cs) [Submitted on 14 Apr 2024] Title:Self-Selected Attention Span for Accelerating Large Language Model Inference Authors:Tian Jin, Wanzin Yazar, Zifei Xu, Sayeh Sharify, Xin Wang View PDF HTML (experimental) Abstract:Large language models (LLMs) can solve challenging tasks. However, their inference computation on modern GPUs is highly inefficient due to the increasing number of tokens they must attend to as they generate new ones. To address this inefficiency, we capitalize on LLMs' problem-solving capabilities to optimize their own inference-time efficiency. We demonstrate with two specific tasks: (a) evaluating complex arithmetic expressions and (b) summarizing news articles. For both tasks, we create custom datasets to fine-tune an LLM. The goal of fine-tuning is twofold: first, to make the LLM learn to solve the evaluation or summarization task, and second, to train it to identify the minimal attention spans required for each step of the task. As a result, the fine-tuned model is able to convert these self-identified minimal attention spans into sparse attention masks on-the-fly during inference. We develop a custom CUDA kernel to take advantage of the reduced context to attend to. We demonstrate that using this custom CUDA kernel improves the throughput of LLM inference by 28%. Our work presents an end-to-end demonstration showing that training LLMs to self-select their attention spans speeds up autoregressive inference in solving real-world tasks. Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI) Cite as: arXiv:2404.09336 [cs.CL] (or arXiv:2404.09336v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2404.09336 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Tian Jin [view email] [v1] Sun, 14 Apr 2024 19:36:04 UTC (130 KB) Full-text links: Access Paper: View PDFHTML (experimental)TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2024-04 Change to browse by: cs cs.AI References & Citations NASA ADSGoogle Scholar Semantic Scholar export BibTeX citation Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer (What is the Explorer?) Connected Papers Toggle Connected Papers (What is Connected Papers?) Litmaps Toggle Litmaps (What is Litmaps?) scite.ai Toggle scite Smart Citations (What are Smart Citations?) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv (What is alphaXiv?) Links to Code Toggle CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub Toggle DagsHub (What is DagsHub?) GotitPub Toggle Gotit.pub (What is GotitPub?) Huggingface Toggle Hugging Face (What is Huggingface?) ScienceCast Toggle ScienceCast (What is ScienceCast?) Demos Demos Replicate Toggle Replicate (What is Replicate?) Spaces Toggle Hugging Face Spaces (What is Spaces?) Spaces Toggle TXYZ.AI (What is TXYZ.AI?) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower (What are Influence Flowers?) Core recommender toggle CORE Recommender (What is CORE?) About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs. Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)",
+      "fetchedAt": "2026-09-17T13:11:22.777Z",
+      "title": "[2404.09336] Self-Selected Attention Span for Accelerating Large Language Model Inference",
+      "status": "ok",
+      "contentLength": 3791,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Computer Science > Computation and Language arXiv:2404.09336 (cs) [Submitted on 14 Apr 2024] Title:Self-Selected Attention Span for Accelerating Large Language Model Inference Authors:Tian Jin, Wanzin Yazar, Zifei Xu, Sayeh Sharify, Xin Wang View PDF HTML (experimental) Abstract:Large language models (LLMs) can solve challenging tasks. However, their inference computation on modern GPUs is highly inefficient due to the increasing number of tokens they must attend to as they generate new ones. To address this inefficiency, we capitalize on LLMs' problem-solving capabilities to optimize their own inference-time efficiency. We demonstrate with two specific tasks: (a) evaluating complex arithmetic expressions and (b) summarizing news articles. For both tasks, we create custom datasets to fine-tune an LLM. The goal of fine-tuning is twofold: first, to make the LLM learn to solve the evaluation or summarization task, and second, to train it to identify the minimal attention spans required for each step of the task. As a result, the fine-tuned model is able to convert these self-identified minimal attention spans into sparse attention masks on-the-fly during inference. We develop a custom CUDA kernel to take advantage of the reduced context to attend to. We demonstrate that using this custom CUDA kernel improves the throughput of LLM inference by 28%. Our work presents an end-to-end demonstration showing that training LLMs to self-select their attention spans speeds up autoregressive inference in solving real-world tasks. Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI) Cite as: arXiv:2404.09336 [cs.CL] (or arXiv:2404.09336v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2404.09336 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Tian Jin [view email] [v1] Sun, 14 Apr 2024 19:36:04 UTC (130 KB) Full-text links: Access Paper: View PDFHTML (experimental)TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2024-04 Change to browse by: cs cs.AI References & Citations NASA ADSGoogle Scholar Semantic Scholar export BibTeX citation Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer (What is the Explorer?) Connected Papers Toggle Connected Papers (What is Connected Papers?) Litmaps Toggle Litmaps (What is Litmaps?) scite.ai Toggle scite Smart Citations (What are Smart Citations?) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv (What is alphaXiv?) Links to Code Toggle CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub Toggle DagsHub (What is DagsHub?) GotitPub Toggle Gotit.pub (What is GotitPub?) Huggingface Toggle Hugging Face (What is Huggingface?) ScienceCast Toggle ScienceCast (What is ScienceCast?) Demos Demos Replicate Toggle Replicate (What is Replicate?) Spaces Toggle Hugging Face Spaces (What is Spaces?) Spaces Toggle TXYZ.AI (What is TXYZ.AI?) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower (What are Influence Flowers?) Core recommender toggle CORE Recommender (What is CORE?) About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs. Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "content": "",
+      "fetchedAt": "2026-09-17T13:11:22.778Z",
+      "title": "",
+      "status": "timeout",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://openreview.net/forum?id=n3rZJrWPLE",
+      "content": "Verifying your browser Complete the check below to continue to OpenReview Please complete the verification above. Have an OpenReview account? Sign in to skip this check.",
+      "fetchedAt": "2026-09-17T13:11:32.789Z",
+      "title": "Verifying your browser | OpenReview",
+      "status": "ok",
+      "contentLength": 169,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Verifying your browser Complete the check below to continue to OpenReview Please complete the verification above. Have an OpenReview account? Sign in to skip this check."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Context_window",
+      "content": "From Wikipedia, the free encyclopedia The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters. In practical terms, the context window is the material the model can \"see\" while producing response; anything outside that window is not directly available unless it is summarized, retrieved, or provided again. A longer context window can allow a model to work with longer prompts, conversations, documents, codebases, or retrieved passages without first compressing or discarding as much information.[1] The practical size of context windows has increased rapidly as LLM systems have developed. Some models are limited by the sequence lengths used during training, while attention variants and positional-encoding methods can allow models to operate on longer sequences than those seen during training.[2] By the mid-2020s, long-context systems had reported context windows ranging from hundreds of thousands to millions of tokens; Google researchers reported Gemini 1.5 evaluations on retrieval tasks at up to 10 million tokens.[3] A larger context window does not necessarily mean that a model can use the entire context equally well. In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.[4] Other benchmarks have assessed long- context capability using tasks that go beyond simple retrieval, including multi-document question answering, long-dialogue understanding, code repository understanding, and structured-data reasoning.[5][6] References[edit] ↑ Nir Ratner et al., \"Parallel Context Windows for Large Language Models\", Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, 2023, pp. 6383-6402, doi:10.18653/v1/2023.acl-long.352. ↑ Ofir Press et al., \"Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation\", arXiv:2108.12409, 2021. ↑ Machel Reid et al., \"Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context\", arXiv:2403.05530, 2024. ↑ Nelson F. Liu et al., \"Lost in the Middle: How Language Models Use Long Contexts\", Transactions of the Association for Computational Linguistics, 2024, vol. 12, pp. 157-173, doi:10.1162/tacl_a_00638. ↑ Cheng-Ping Hsieh et al., \"RULER: What's the Real Context Size of Your Long- Context Language Models?\", arXiv:2404.06654, 2024. ↑ Yushi Bai et al., \"LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks\", Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025, pp. 3639-3664, doi:10.18653/v1/2025.acl-long.183. This large language model-related article is a stub. You can help Wikipedia by adding missing information.vte <img src=\"https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1\" alt=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"> Retrieved from \"https://en.wikipedia.org/w/index.php?title=Context_window&oldid=1373969808\" Categories: Large language modelsNatural language processing stubsHidden categories: Articles with short descriptionShort description is different from WikidataAll stub articles",
+      "fetchedAt": "2026-09-17T13:11:32.791Z",
+      "title": "Context window - Wikipedia",
+      "status": "ok",
+      "contentLength": 3459,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "From Wikipedia, the free encyclopedia The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters. In practical terms, the context window is the material the model can \"see\" while producing response; anything outside that window is not directly available unless it is summarized, retrieved, or provided again. A longer context window can allow a model to work with longer prompts, conversations, documents, codebases, or retrieved passages without first compressing or discarding as much information.[1] The practical size of context windows has increased rapidly as LLM systems have developed. Some models are limited by the sequence lengths used during training, while attention variants and positional-encoding methods can allow models to operate on longer sequences than those seen during training.[2] By the mid-2020s, long-context systems had reported context windows ranging from hundreds of thousands to millions of tokens; Google researchers reported Gemini 1.5 evaluations on retrieval tasks at up to 10 million tokens.[3] A larger context window does not necessarily mean that a model can use the entire context equally well. In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.[4] Other benchmarks have assessed long- context capability using tasks that go beyond simple retrieval, including multi-document question answering, long-dialogue understanding, code repository understanding, and structured-data reasoning.[5][6] References[edit] ↑ Nir Ratner et al., \"Parallel Context Windows for Large Language Models\", Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, 2023, pp. 6383-6402, doi:10.18653/v1/2023.acl-long.352. ↑ Ofir Press et al., \"Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation\", arXiv:2108.12409, 2021. ↑ Machel Reid et al., \"Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context\", arXiv:2403.05530, 2024. ↑ Nelson F. Liu et al., \"Lost in the Middle: How Language Models Use Long Contexts\", Transactions of the Association for Computational Linguistics, 2024, vol. 12, pp. 157-173, doi:10.1162/tacl_a_00638. ↑ Cheng-Ping Hsieh et al., \"RULER: What's the Real Context Size of Your Long- Context Language Models?\", arXiv:2404.06654, 2024. ↑ Yushi Bai et al., \"LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks\", Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025, pp. 3639-3664, doi:10.18653/v1/2025.acl-long.183. This large language model-related article is a stub. You can help Wikipedia by adding missing information.vte <img src=\"https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1\" alt=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"> Retrieved from \"https://en.wikipedia.org/w/index.php?title=Context_window&oldid=1373969808\" Categories: Large language modelsNatural language processing stubsHidden categories: Articles with short descriptionShort description is different from WikidataAll stub articles"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://medium.com/@anirudhsekar2008/understanding-attention-in-large-language-models-llms-d4e73fd5087a",
+      "content": "",
+      "fetchedAt": "2026-09-17T13:11:32.792Z",
+      "title": "",
+      "status": "timeout",
+      "contentLength": 0,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T13:11:22.775Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là tổ chức uy tín; bài viết có tác giả rõ ràng và ngày xuất bản gần đây.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://arxiv.org/abs/2404.09336",
+      "tieuDe": "[2404.09336] Self-Selected Attention Span for Accelerating Large Language Model Inference",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T13:11:22.777Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "ArXiv là kho lưu trữ preprint có quy trình kiểm duyệt cộng đồng; tuy không có tác giả rõ ràng nhưng nội dung khoa học.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Context_window",
+      "tieuDe": "Context window - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:11:32.791Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là nguồn mở, thường đáng tin nhưng có thể thay đổi; không có ngày xuất bản cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://openreview.net/forum?id=n3rZJrWPLE",
+      "tieuDe": "Verifying your browser | OpenReview",
+      "ngayLayVe": "2026-09-17T13:11:32.789Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Nội dung không liên quan tới chủ đề; chỉ là trang xác thực trình duyệt.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "tieuDe": "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "ngayLayVe": "2026-09-17T13:11:22.778Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "timeout",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    },
+    {
+      "id": "n06",
+      "url": "https://medium.com/@anirudhsekar2008/understanding-attention-in-large-language-models-llms-d4e73fd5087a",
+      "tieuDe": "https://medium.com/@anirudhsekar2008/understanding-attention-in-large-language-models-llms-d4e73fd5087a",
+      "ngayLayVe": "2026-09-17T13:11:32.792Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "timeout",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03"
+  ],
+  "sourcesRejected": [
+    "n02",
+    "n04",
+    "n05",
+    "n06"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Mô hình ngôn ngữ chỉ có thể “nhìn” một lượng token giới hạn tại một thời điểm; khi cuộc trò chuyện vượt quá cửa sổ ngữ cảnh, các chi tiết đầu tiên không còn trong phạm vi nhớ, dẫn đến việc trợ lý quên phần đầu.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "đoạn 1"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/context-window\",\n      \"tieuDe\": \"What is a context window? | IBM\",\n      \"tacGia\": \"Dave Bergmann\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T13:11:22.775Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức uy tín; bài viết có tác giả rõ ràng và ngày xuất bản gần đây.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn quá một năm\"],\n      \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://arxiv.org/abs/2404.09336\",\n      \"tieuDe\": \"[2404.09336] Self-Selected Attention Span for Accelerating Large Language Model Inference\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"arXiv.org\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:11:22.777Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"ArXiv là kho lưu trữ preprint có quy trình kiểm duyệt cộng đồng; tuy không có tác giả rõ ràng nhưng nội dung khoa học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn quá một năm\"],\n      \"doanTrich\": \"The fine‑tuned model is able to convert these self‑identified minimal attention spans into sparse attention masks on‑the‑fly during inference.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Context_window\",\n      \"tieuDe\": \"Context window - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:11:32.791Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Wikipedia là nguồn mở, thường đáng tin nhưng có thể thay đổi; không có ngày xuất bản cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn quá một năm\"],\n      \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://openreview.net/forum?id=n3rZJrWPLE\",\n      \"tieuDe\": \"Verifying your browser | OpenReview\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:11:32.789Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung không liên quan tới chủ đề; chỉ là trang xác thực trình duyệt.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung không cung cấp thông tin về cửa sổ ngữ cảnh.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Mô hình ngôn ngữ chỉ có thể “nhìn” một lượng token giới hạn tại một thời điểm; khi cuộc trò chuyện vượt quá cửa sổ ngữ cảnh, các chi tiết đầu tiên không còn trong phạm vi nhớ, dẫn đến việc trợ lý quên phần đầu.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\n          \"viTri\": \"đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\",\n          \"viTri\": \"đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-d091e994-f8da-46d1-9bb8-ea11e9288a57",
+      "durationMs": 6120,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/context-window\",\n      \"tieuDe\": \"What is a context window? | IBM\",\n      \"tacGia\": \"Dave Bergmann\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T13:11:22.775Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức uy tín; bài viết có tác giả rõ ràng và ngày xuất bản gần đây.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn quá một năm\"],\n      \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://arxiv.org/abs/2404.09336\",\n      \"tieuDe\": \"[2404.09336] Self-Selected Attention Span for Accelerating Large Language Model Inference\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"arXiv.org\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:11:22.777Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"ArXiv là kho lưu trữ preprint có quy trình kiểm duyệt cộng đồng; tuy không có tác giả rõ ràng nhưng nội dung khoa học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn quá một năm\"],\n      \"doanTrich\": \"The fine‑tuned model is able to convert these self‑identified minimal attention spans into sparse attention masks on‑the‑fly during inference.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Context_window\",\n      \"tieuDe\": \"Context window - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:11:32.791Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Wikipedia là nguồn mở, thường đáng tin nhưng có thể thay đổi; không có ngày xuất bản cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn quá một năm\"],\n      \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://openreview.net/forum?id=n3rZJrWPLE\",\n      \"tieuDe\": \"Verifying your browser | OpenReview\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:11:32.789Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung không liên quan tới chủ đề; chỉ là trang xác thực trình duyệt.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung không cung cấp thông tin về cửa sổ ngữ cảnh.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Mô hình ngôn ngữ chỉ có thể “nhìn” một lượng token giới hạn tại một thời điểm; khi cuộc trò chuyện vượt quá cửa sổ ngữ cảnh, các chi tiết đầu tiên không còn trong phạm vi nhớ, dẫn đến việc trợ lý quên phần đầu.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\n          \"viTri\": \"đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\",\n          \"viTri\": \"đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 29528
+}

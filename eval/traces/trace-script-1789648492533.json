@@ -1,0 +1,146 @@
+{
+  "id": "trace-script-1789648492533",
+  "timestamp": "2026-09-17T12:34:52.533Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách một mô hình học từ ví dụ",
+    "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "targetAudience": "Học sinh cấp ba",
+    "videoDuration": "3 phút",
+    "evalRunId": "2026-09-17T12-26-03-232Z",
+    "evalCaseId": "N03"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://work.caltech.edu/telecourse",
+      "tieuDe": "Learning From Data - Online Course (MOOC)",
+      "ngayLayVe": "2026-09-17T12:32:49.847Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Đây là trang chính thức của khóa học Machine Learning nổi tiếng do Giáo sư Yaser Abu-Mostafa tại Caltech giảng dạy. Nội dung mang tính học thuật cao, được ghi hình trực tiếp và có cấu trúc bài giảng rõ ràng, phù hợp để trích dẫn các khái niệm nền tảng về học máy.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Khóa học được ghi hình năm 2012, tuy nhiên các nguyên lý cơ bản về học từ dữ liệu vẫn còn giá trị và không bị lỗi thời về mặt lý thuyết.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+      "tieuDe": "Choosing between a rule-based vs. machine learning system | TechTarget",
+      "toChuc": "AI & Emerging Tech",
+      "ngayLayVe": "2026-09-17T12:32:51.130Z",
+      "loai": "bao-chi",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "TechTarget là một nguồn tin công nghệ uy tín, cung cấp các bài viết hướng dẫn thực tế cho doanh nghiệp. Bài viết này so sánh trực tiếp hai phương pháp, rất phù hợp với mục tiêu bài học về việc phân biệt 'học từ dữ liệu' và 'làm theo quy tắc'.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, cần kiểm tra thêm nếu cần số liệu cập nhật nhất, nhưng nội dung so sánh mang tính nguyên lý nên vẫn ổn định.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Hệ thống dựa trên quy tắc (rule-based) hoạt động bằng cách sử dụng một bộ quy tắc được viết sẵn bởi con người để đưa ra quyết định, không có khả năng tự học.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems.",
+          "viTri": "Đoạn đầu tiên trong phần mô tả Rule-based systems"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Học máy (Machine Learning) cho phép các hệ thống máy tính cải thiện hiệu suất một cách thích ứng thông qua kinh nghiệm tích lũy từ dữ liệu quan sát được, thay vì được lập trình rõ ràng từng bước.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "It enables computational systems to adaptively improve their performance with experience accumulated from the observed data.",
+          "viTri": "Đoạn giới thiệu tổng quan về Machine Learning"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Machine learning is a type of AI that enables applications to predict outcomes without being explicitly programmed to do so.",
+          "viTri": "Đoạn đầu tiên trong phần mô tả Machine learning"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Sự khác biệt cốt lõi là hệ thống rule-based có logic được cài đặt từ đầu và ít linh hoạt sau khi triển khai, trong khi hệ thống học máy có thể liên tục học hỏi và thích ứng mà không cần sự can thiệp của con người.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after deployment. Machine learning systems, on the other hand, can learn continuously without human direction.",
+          "viTri": "Phần 'Choosing between rule-based vs. machine learning systems'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Cách một mô hình học từ ví dụ",
+    "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Học sinh cấp ba",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cách một mô hình học từ ví dụ\",\n  \"mucTieu\": \"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Học sinh cấp ba\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn học sinh, liệu máy tính làm thế nào để tự đưa ra quyết định thông minh?\",\n      \"chuTrenManHinh\": \"Máy tính học như thế nào?\",\n      \"yDoHinh\": \"Hình ảnh một học sinh đang suy nghĩ trước màn hình máy tính.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thông thường, một hệ thống dựa trên quy tắc, hay còn gọi là rule-based, hoạt động bằng bộ quy tắc do con người viết sẵn để đưa ra quyết định mà không có khả năng tự học.\",\n      \"chuTrenManHinh\": \"Hệ thống dựa trên quy tắc\",\n      \"yDoHinh\": \"Sơ đồ hiển thị lập trình viên viết các dòng quy tắc cố định cho máy tính.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Ngược lại, ngành học máy, hay còn gọi là machine learning, giúp máy tính cải thiện hiệu suất một cách thích ứng nhờ kinh nghiệm tích lũy từ dữ liệu quan sát được.\",\n      \"chuTrenManHinh\": \"Học máy - Machine learning\",\n      \"yDoHinh\": \"Mô phỏng dữ liệu chảy vào mô hình máy tính giúp hệ thống thông minh hơn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Sự khác biệt cốt lõi là hệ thống dựa trên quy tắc có logic cài đặt từ đầu và ít linh hoạt, trong khi hệ thống học máy có thể liên tục học hỏi mà không cần con người can thiệp.\",\n      \"chuTrenManHinh\": \"Khác biệt giữa hai hệ thống\",\n      \"yDoHinh\": \"Bảng so sánh hai bên với một bên cố định và một bên linh hoạt tự học.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bây giờ, chúng ta hãy cùng nhau bắt đầu bài học ngay nhé!\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học\",\n      \"yDoHinh\": \"Hình minh họa biểu tượng bắt đầu bài học tươi vui.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.6-flash",
+      "durationMs": 13436,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cách một mô hình học từ ví dụ\",\n  \"mucTieu\": \"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Học sinh cấp ba\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn học sinh, liệu máy tính làm thế nào để tự đưa ra quyết định thông minh?\",\n      \"chuTrenManHinh\": \"Máy tính học như thế nào?\",\n      \"yDoHinh\": \"Hình ảnh một học sinh đang suy nghĩ trước màn hình máy tính.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thông thường, một hệ thống dựa trên quy tắc, hay còn gọi là rule-based, sẽ hoạt động bằng bộ quy tắc do con người viết sẵn và không thể tự học.\",\n      \"chuTrenManHinh\": \"Hệ thống dựa trên quy tắc\",\n      \"yDoHinh\": \"Sơ đồ hiển thị lập trình viên viết các dòng quy tắc cố định cho máy tính.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Ngược lại, ngành học máy, hay còn gọi là machine learning, giúp máy tính tự cải thiện hiệu suất thông qua kinh nghiệm tích lũy từ dữ liệu thay vì lập trình từng bước.\",\n      \"chuTrenManHinh\": \"Học máy - Machine learning\",\n      \"yDoHinh\": \"Mô phỏng dữ liệu chảy vào mô hình máy tính giúp hệ thống thông minh hơn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Điểm khác biệt cốt lõi là hệ thống quy tắc có logic cố định từ đầu, còn hệ thống học máy có thể liên tục thích ứng mà không cần con người can thiệp.\",\n      \"chuTrenManHinh\": \"Khác biệt cốt lõi giữa hai hệ thống\",\n      \"yDoHinh\": \"Bảng so sánh hai bên với một bên cố định và một bên linh hoạt tự học.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng khám phá chi tiết cách máy tính học từ các ví dụ cụ thể nhé.\",\n      \"chuTrenManHinh\": \"Khám phá cách máy tính học\",\n      \"yDoHinh\": \"Hình minh họa cuốn sách bài tập mở ra cùng biểu tượng trí tuệ nhân tạo.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "gemini",
+      "model": "gemini-3.6-flash",
+      "durationMs": 16396,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cách một mô hình học từ ví dụ\",\n  \"mucTieu\": \"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Học sinh cấp ba\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn học sinh, liệu máy tính làm thế nào để tự đưa ra quyết định thông minh?\",\n      \"chuTrenManHinh\": \"Máy tính học như thế nào?\",\n      \"yDoHinh\": \"Hình ảnh một học sinh đang suy nghĩ trước màn hình máy tính.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thông thường, một hệ thống dựa trên quy tắc, hay còn gọi là rule-based, hoạt động bằng bộ quy tắc do con người viết sẵn để đưa ra quyết định mà không có khả năng tự học.\",\n      \"chuTrenManHinh\": \"Hệ thống dựa trên quy tắc\",\n      \"yDoHinh\": \"Sơ đồ hiển thị lập trình viên viết các dòng quy tắc cố định cho máy tính.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Ngược lại, ngành học máy, hay còn gọi là machine learning, giúp máy tính cải thiện hiệu suất một cách thích ứng nhờ kinh nghiệm tích lũy từ dữ liệu quan sát được.\",\n      \"chuTrenManHinh\": \"Học máy - Machine learning\",\n      \"yDoHinh\": \"Mô phỏng dữ liệu chảy vào mô hình máy tính giúp hệ thống thông minh hơn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Sự khác biệt cốt lõi là hệ thống dựa trên quy tắc có logic cài đặt từ đầu và ít linh hoạt, trong khi hệ thống học máy có thể liên tục học hỏi mà không cần con người can thiệp.\",\n      \"chuTrenManHinh\": \"Khác biệt giữa hai hệ thống\",\n      \"yDoHinh\": \"Bảng so sánh hai bên với một bên cố định và một bên linh hoạt tự học.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bây giờ, chúng ta hãy cùng nhau bắt đầu bài học ngay nhé!\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học\",\n      \"yDoHinh\": \"Hình minh họa biểu tượng bắt đầu bài học tươi vui.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    }
+  ],
+  "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)",
+  "isDemo": false,
+  "durationMs": 90446
+}

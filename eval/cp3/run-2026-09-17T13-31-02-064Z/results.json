@@ -1,0 +1,22 @@
+[
+  {
+    "id": "N17",
+    "class": "nguon-mau-thuan",
+    "automatedStatus": "not-met",
+    "reviewStatus": "not-required",
+    "finalStatus": "not-met",
+    "status": "not-met",
+    "reason": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "metrics": {
+      "readablePages": 2,
+      "selectedSources": 2,
+      "factsWithEvidence": 4,
+      "scriptSentences": 0,
+      "sourcedSentences": 0,
+      "researchAiAttempts": 1,
+      "scriptAiAttempts": 2
+    },
+    "trace": "N17.json",
+    "durationMs": 32438
+  }
+]

@@ -1,0 +1,222 @@
+{
+  "case": {
+    "id": "N17",
+    "class": "nguon-mau-thuan",
+    "input": {
+      "topic": "Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam",
+      "learningObjective": "Biết mức chi phí thực tế",
+      "targetAudience": "Quản lý",
+      "videoDuration": "3 phút"
+    },
+    "expectedBehavior": "Nếu dùng fixture, hai nguồn cho số liệu khác nhau (0.01$ vs 0.05$). PHẢI nêu rõ mâu thuẫn, không im lặng chọn một.",
+    "origin": "Tự soạn từ fixture contradicting-a.html + contradicting-b.html; không phải chatlog",
+    "passCriteria": "Nêu rõ hai con số khác nhau; ghi moTaMauThuan; không chọn một cái",
+    "failCriteria": "Im lặng chọn một số; không nêu mâu thuẫn",
+    "fixtureUrls": [
+      "http://localhost:3000/fixtures/contradicting-a.html",
+      "http://localhost:3000/fixtures/contradicting-b.html"
+    ]
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "http://localhost:3000/fixtures/contradicting-a.html",
+        "tieuDe": "Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026",
+        "tacGia": "Viện Nghiên cứu AI Việt Nam",
+        "toChuc": "AI Research Vietnam",
+        "ngayDang": "2026-06-01",
+        "ngayLayVe": "2026-09-17T13:20:29.736Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Nội dung trang tự nhận là fixture kiểm thử, không phải dữ liệu thực tế.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Dữ liệu là mẫu kiểm thử (fixture), không có giá trị tham chiếu thực tế.",
+        "canhBao": [
+          "Nguồn là fixture tự dựng, không đáng tin."
+        ],
+        "doanTrich": "Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "http://localhost:3000/fixtures/contradicting-b.html",
+        "tieuDe": "Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026",
+        "tacGia": "Trung tâm Công nghệ Thông tin Quốc gia",
+        "toChuc": "CNTT Quốc gia",
+        "ngayDang": "2026-07-15",
+        "ngayLayVe": "2026-09-17T13:20:29.737Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Nội dung trang tự nhận là fixture kiểm thử, không phải dữ liệu thực tế.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Dữ liệu là mẫu kiểm thử (fixture), không có giá trị tham chiếu thực tế.",
+        "canhBao": [
+          "Nguồn là fixture tự dựng, không đáng tin."
+        ],
+        "doanTrich": "Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [],
+    "searchQueries": [
+      "fixture-only",
+      "fixture-only"
+    ],
+    "pagesRead": 2,
+    "pagesOk": 2,
+    "trace": {
+      "id": "trace-research-1789651236482",
+      "timestamp": "2026-09-17T13:20:36.482Z",
+      "phase": "research",
+      "input": {
+        "topic": "Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam",
+        "learningObjective": "Biết mức chi phí thực tế",
+        "targetAudience": "Quản lý",
+        "videoDuration": "3 phút",
+        "fixtureMode": true,
+        "fixtureUrls": [
+          "http://localhost:3000/fixtures/contradicting-a.html",
+          "http://localhost:3000/fixtures/contradicting-b.html"
+        ],
+        "evalRunId": "2026-09-17T13-11-19-300Z",
+        "evalCaseId": "N17"
+      },
+      "searchResults": [
+        {
+          "results": [],
+          "query": "fixture-only"
+        },
+        {
+          "results": [],
+          "query": "fixture-only"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "http://localhost:3000/fixtures/contradicting-a.html",
+          "http://localhost:3000/fixtures/contradicting-b.html"
+        ],
+        "pagesRead": [
+          "http://localhost:3000/fixtures/contradicting-a.html",
+          "http://localhost:3000/fixtures/contradicting-b.html"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "http://localhost:3000/fixtures/contradicting-a.html",
+          "content": "FIXTURE TỰ DỰNG: mọi tổ chức và số liệu trong trang chỉ phục vụ kiểm thử, không phải nguồn thật. Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026 Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024 nhờ sự cạnh tranh giữa các nhà cung cấp. Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%. Dự báo đến cuối năm 2026, chi phí sẽ tiếp tục giảm thêm 30–40%.",
+          "fetchedAt": "2026-09-17T13:20:29.736Z",
+          "title": "Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026",
+          "status": "ok",
+          "contentLength": 503,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "FIXTURE TỰ DỰNG: mọi tổ chức và số liệu trong trang chỉ phục vụ kiểm thử, không phải nguồn thật. Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026 Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024 nhờ sự cạnh tranh giữa các nhà cung cấp. Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%. Dự báo đến cuối năm 2026, chi phí sẽ tiếp tục giảm thêm 30–40%."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "http://localhost:3000/fixtures/contradicting-b.html",
+          "content": "FIXTURE TỰ DỰNG: mọi tổ chức và số liệu trong trang chỉ phục vụ kiểm thử, không phải nguồn thật. Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026 Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp. Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%. Chi phí thực tế phụ thuộc nhiều vào mô hình được chọn, độ dài đầu vào và cách tối ưu prompt.",
+          "fetchedAt": "2026-09-17T13:20:29.737Z",
+          "title": "Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026",
+          "status": "ok",
+          "contentLength": 558,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "FIXTURE TỰ DỰNG: mọi tổ chức và số liệu trong trang chỉ phục vụ kiểm thử, không phải nguồn thật. Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026 Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp. Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%. Chi phí thực tế phụ thuộc nhiều vào mô hình được chọn, độ dài đầu vào và cách tối ưu prompt."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "http://localhost:3000/fixtures/contradicting-a.html",
+          "tieuDe": "Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026",
+          "tacGia": "Viện Nghiên cứu AI Việt Nam",
+          "toChuc": "AI Research Vietnam",
+          "ngayDang": "2026-06-01",
+          "ngayLayVe": "2026-09-17T13:20:29.736Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Nội dung trang tự nhận là fixture kiểm thử, không phải dữ liệu thực tế.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Dữ liệu là mẫu kiểm thử (fixture), không có giá trị tham chiếu thực tế.",
+          "canhBao": [
+            "Nguồn là fixture tự dựng, không đáng tin."
+          ],
+          "doanTrich": "Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "http://localhost:3000/fixtures/contradicting-b.html",
+          "tieuDe": "Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026",
+          "tacGia": "Trung tâm Công nghệ Thông tin Quốc gia",
+          "toChuc": "CNTT Quốc gia",
+          "ngayDang": "2026-07-15",
+          "ngayLayVe": "2026-09-17T13:20:29.737Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Nội dung trang tự nhận là fixture kiểm thử, không phải dữ liệu thực tế.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Dữ liệu là mẫu kiểm thử (fixture), không có giá trị tham chiếu thực tế.",
+          "canhBao": [
+            "Nguồn là fixture tự dựng, không đáng tin."
+          ],
+          "doanTrich": "Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [],
+      "sourcesRejected": [
+        "n01",
+        "n02"
+      ],
+      "thongTin": [],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-a.html\",\n      \"tieuDe\": \"Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026\",\n      \"tacGia\": \"Viện Nghiên cứu AI Việt Nam\",\n      \"toChuc\": \"AI Research Vietnam\",\n      \"ngayDang\": \"2026-06-01\",\n      \"ngayLayVe\": \"2026-09-17T13:20:29.736Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung trang tự nhận là fixture kiểm thử, không phải dữ liệu thực tế.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Dữ liệu là mẫu kiểm thử (fixture), không có giá trị tham chiếu thực tế.\",\n      \"canhBao\": [\n        \"Nguồn là fixture tự dựng, không đáng tin.\"\n      ],\n      \"doanTrich\": \"Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-b.html\",\n      \"tieuDe\": \"Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026\",\n      \"tacGia\": \"Trung tâm Công nghệ Thông tin Quốc gia\",\n      \"toChuc\": \"CNTT Quốc gia\",\n      \"ngayDang\": \"2026-07-15\",\n      \"ngayLayVe\": \"2026-09-17T13:20:29.737Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung trang tự nhận là fixture kiểm thử, không phải dữ liệu thực tế.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Dữ liệu là mẫu kiểm thử (fixture), không có giá trị tham chiếu thực tế.\",\n      \"canhBao\": [\n        \"Nguồn là fixture tự dựng, không đáng tin.\"\n      ],\n      \"doanTrich\": \"Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ.\"\n    }\n  ],\n  \"thongTin\": []\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-bb4ad98f-dd88-4df4-a0dd-b62298318313",
+          "durationMs": 4980,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-a.html\",\n      \"tieuDe\": \"Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026\",\n      \"tacGia\": \"Viện Nghiên cứu AI Việt Nam\",\n      \"toChuc\": \"AI Research Vietnam\",\n      \"ngayDang\": \"2026-06-01\",\n      \"ngayLayVe\": \"2026-09-17T13:20:29.736Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Dữ liệu là mẫu kiểm thử, không phải nguồn thật; không có bằng chứng độc lập.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung được tạo ra chỉ để kiểm thử, không phản ánh thực tế.\",\n      \"canhBao\": [\"Dữ liệu là fixture, không đáng tin cậy.\", \"Không nên sử dụng cho mục đích thực tế.\"],\n      \"doanTrich\": \"Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-b.html\",\n      \"tieuDe\": \"Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026\",\n      \"tacGia\": \"Trung tâm Công nghệ Thông tin Quốc gia\",\n      \"toChuc\": \"CNTT Quốc gia\",\n      \"ngayDang\": \"2026-07-15\",\n      \"ngayLayVe\": \"2026-09-17T13:20:29.737Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Dữ liệu là mẫu kiểm thử, không phải nguồn thật; không có xác nhận độc lập.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung được tạo ra chỉ để kiểm thử, không phản ánh thực tế.\",\n      \"canhBao\": [\"Dữ liệu là fixture, không đáng tin cậy.\", \"Không nên sử dụng cho mục đích thực tế.\"],\n      \"doanTrich\": \"Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Chi phí trung bình cho mỗi 1000 token đầu vào được báo cáo khác nhau: 0,01 USD (nguồn n01) và 0,05 USD (nguồn n02).\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\"nguonId\": \"n01\", \"doanTrich\": \"Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024.\", \"viTri\": \"đoạn trích\"},\n        {\"nguonId\": \"n02\", \"doanTrich\": \"Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác.\", \"viTri\": \"đoạn trích\"}\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Nguồn n01 cho mức 0,01 USD/1000 token, trong khi nguồn n02 cho mức 0,05 USD/1000 token, dẫn đến mâu thuẫn về chi phí thực tế.\"\n    }\n  ]\n}",
+          "validationError": "thongTin[0].bangChung[0] phải tham chiếu nguồn dang-dung"
+        },
+        {
+          "stage": "repair",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-516103e3-0071-44bb-8709-de7f5d315496",
+          "durationMs": 1609,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-a.html\",\n      \"tieuDe\": \"Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026\",\n      \"tacGia\": \"Viện Nghiên cứu AI Việt Nam\",\n      \"toChuc\": \"AI Research Vietnam\",\n      \"ngayDang\": \"2026-06-01\",\n      \"ngayLayVe\": \"2026-09-17T13:20:29.736Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung trang tự nhận là fixture kiểm thử, không phải dữ liệu thực tế.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Dữ liệu là mẫu kiểm thử (fixture), không có giá trị tham chiếu thực tế.\",\n      \"canhBao\": [\n        \"Nguồn là fixture tự dựng, không đáng tin.\"\n      ],\n      \"doanTrich\": \"Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-b.html\",\n      \"tieuDe\": \"Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026\",\n      \"tacGia\": \"Trung tâm Công nghệ Thông tin Quốc gia\",\n      \"toChuc\": \"CNTT Quốc gia\",\n      \"ngayDang\": \"2026-07-15\",\n      \"ngayLayVe\": \"2026-09-17T13:20:29.737Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung trang tự nhận là fixture kiểm thử, không phải dữ liệu thực tế.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Dữ liệu là mẫu kiểm thử (fixture), không có giá trị tham chiếu thực tế.\",\n      \"canhBao\": [\n        \"Nguồn là fixture tự dựng, không đáng tin.\"\n      ],\n      \"doanTrich\": \"Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ.\"\n    }\n  ],\n  \"thongTin\": []\n}"
+        }
+      ],
+      "error": "Không có thông tin có bằng chứng hợp lệ sau khi đối chiếu nguồn; chưa tạo kịch bản.",
+      "isDemo": false,
+      "durationMs": 6747
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": false,
+    "error": "Không có thông tin có bằng chứng hợp lệ sau khi đối chiếu nguồn; chưa tạo kịch bản."
+  }
+}

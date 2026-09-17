@@ -1,0 +1,181 @@
+{
+  "id": "trace-script-1789651852442",
+  "timestamp": "2026-09-17T13:30:52.442Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-30-41-113Z",
+    "evalCaseId": "N15"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/old-source.html",
+      "tieuDe": "Fixture tự dựng — bảng giá cũ",
+      "tacGia": "Nhóm kiểm thử ScriptScout (hư cấu)",
+      "ngayDang": "2023-01-01",
+      "ngayLayVe": "2026-09-17T13:30:41.209Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Fixture tự dựng, không phải dữ liệu thực tế; thông tin cũ hơn một năm và không được xác thực",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Dữ liệu giả lập nhưng không có prompt injection",
+      "canhBao": [
+        "Không phải dữ liệu thực tế",
+        "cũ hơn một năm",
+        "độ tin cậy thấp",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Chi phí mô hình thử nghiệm năm 2023 là 2 USD cho mỗi 1 triệu đơn vị văn bản.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản.",
+          "viTri": "line 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Chi phí khi dùng mô hình ngôn ngữ",
+    "mucTieu": "Ước lượng được chi phí một tác vụ",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Quản lý sản phẩm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn, hôm nay chúng ta sẽ khám phá chi phí khi dùng mô hình ngôn ngữ.",
+        "chuTrenManHinh": "Mở đầu video",
+        "yDoHinh": "Hình ảnh logo kênh và tiêu đề video.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Chi phí mô hình thử nghiệm là hai đô la cho một triệu đơn vị văn bản.",
+        "chuTrenManHinh": "Bảng giá mô hình",
+        "yDoHinh": "Biểu đồ hiển thị giá hai USD cho một triệu token.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Nếu bạn sử dụng một triệu đơn vị văn bản, tổng chi phí sẽ là hai đô la.",
+        "chuTrenManHinh": "Tính chi phí",
+        "yDoHinh": "Công cụ tính toán chi phí hiện trên màn hình.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Những con số này cho thấy chi phí tính theo đơn vị văn bản rất hợp lý cho các dự án quy mô nhỏ.",
+        "chuTrenManHinh": "Những con số",
+        "yDoHinh": "Biểu đồ so sánh chi phí giữa các mô hình.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Cảm ơn các bạn đã lắng nghe, hẹn gặp lại trong video tiếp theo.",
+        "chuTrenManHinh": "Lời cảm ơn",
+        "yDoHinh": "Hình ảnh tay chào và logo kênh.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn, hôm nay chúng ta sẽ khám phá chi phí khi dùng mô hình ngôn ngữ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Chi phí mô hình thử nghiệm là hai đô la cho một triệu đơn vị văn bản.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Nếu bạn sử dụng một triệu đơn vị văn bản, tổng chi phí sẽ là hai đô la.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Những con số này cho thấy chi phí tính theo đơn vị văn bản rất hợp lý cho các dự án quy mô nhỏ.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Cảm ơn các bạn đã lắng nghe, hẹn gặp lại trong video tiếp theo.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Chi phí khi dùng mô hình ngôn ngữ\",\"mucTieu\":\"Ước lượng được chi phí một tác vụ\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Quản lý sản phẩm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn, hôm nay chúng ta sẽ khám phá chi phí khi dùng mô hình ngôn ngữ.\",\"chuTrenManHinh\":\"Mở đầu video\",\"yDoHinh\":\"Hình ảnh logo kênh và tiêu đề video.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Chi phí mô hình thử nghiệm là hai đô la cho một triệu đơn vị văn bản.\",\"chuTrenManHinh\":\"Bảng giá mô hình\",\"yDoHinh\":\"Biểu đồ hiển thị giá hai USD cho một triệu token.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Nếu bạn sử dụng một triệu đơn vị văn bản, tổng chi phí sẽ là hai đô la.\",\"chuTrenManHinh\":\"Tính chi phí\",\"yDoHinh\":\"Công cụ tính toán chi phí hiện trên màn hình.\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Những con số này cho thấy chi phí tính theo đơn vị văn bản rất hợp lý cho các dự án quy mô nhỏ.\",\"chuTrenManHinh\":\"Những con số\",\"yDoHinh\":\"Biểu đồ so sánh chi phí giữa các mô hình.\",\"nguon\":[\"t01\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Cảm ơn các bạn đã lắng nghe, hẹn gặp lại trong video tiếp theo.\",\"chuTrenManHinh\":\"Lời cảm ơn\",\"yDoHinh\":\"Hình ảnh tay chào và logo kênh.\",\"nguon\":[]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-17459999-6ed1-463e-8878-c09f8a002804",
+      "durationMs": 5062,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Chi phí khi dùng mô hình ngôn ngữ\",\"mucTieu\":\"Ước lượng được chi phí một tác vụ\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Quản lý sản phẩm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn, hôm nay chúng ta sẽ khám phá chi phí khi dùng mô hình ngôn ngữ.\",\"chuTrenManHinh\":\"Mở đầu video\",\"yDoHinh\":\"Hình ảnh logo kênh và tiêu đề video.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Chi phí mô hình thử nghiệm là hai đô la cho một triệu đơn vị văn bản.\",\"chuTrenManHinh\":\"Bảng giá mô hình\",\"yDoHinh\":\"Biểu đồ hiển thị giá hai USD cho một triệu token.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Nếu bạn sử dụng một triệu đơn vị văn bản, tổng chi phí sẽ là hai đô la.\",\"chuTrenManHinh\":\"Tính chi phí\",\"yDoHinh\":\"Công cụ tính toán chi phí hiện trên màn hình.\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Những con số này cho thấy chi phí tính theo đơn vị văn bản rất hợp lý cho các dự án quy mô nhỏ.\",\"chuTrenManHinh\":\"Những con số\",\"yDoHinh\":\"Biểu đồ so sánh chi phí giữa các mô hình.\",\"nguon\":[\"t01\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Cảm ơn các bạn đã lắng nghe, hẹn gặp lại trong video tiếp theo.\",\"chuTrenManHinh\":\"Lời cảm ơn\",\"yDoHinh\":\"Hình ảnh tay chào và logo kênh.\",\"nguon\":[]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 5065
+}

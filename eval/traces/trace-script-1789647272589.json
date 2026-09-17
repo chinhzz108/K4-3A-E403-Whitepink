@@ -1,0 +1,245 @@
+{
+  "id": "trace-script-1789647272589",
+  "timestamp": "2026-09-17T12:14:32.590Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T12-12-13-353Z",
+    "evalCaseId": "N02"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.linkedin.com/pulse/when-ai-hallucinates-confidence-why-overconfidence-real-brown-phd-sf6pe",
+      "tieuDe": "When AI Hallucinates Confidence: Why Overconfidence Is the Real Model Risk",
+      "ngayLayVe": "2026-09-17T12:13:42.573Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết phân tích chuyên sâu về lý do kỹ thuật và tâm lý khiến mô hình AI đưa ra câu trả lời tự tin dù sai sót.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "LLMs do not measure their own uncertainty. They measure the probability of the next word. The difference matters.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+      "tieuDe": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+      "ngayLayVe": "2026-09-17T12:13:43.645Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học xuất bản trên cơ sở dữ liệu y khoa uy tín, giải thích rõ cơ chế huấn luyện (post-training/RLHF) gây ra sự tự tin thái quá ở AI.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://satcove.com/guides/verify-ai-answers",
+      "tieuDe": "Cross-Check AI Answers — Verify What 6 Models Say",
+      "toChuc": "Satcove",
+      "ngayLayVe": "2026-09-17T12:13:43.646Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Cung cấp hướng dẫn thực hành cụ thể về cách phát hiện dấu hiệu bất thường và quy trình kiểm chứng câu trả lời AI.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Isolate each factual claim, cross-check it against an authoritative source, be wary of oddly specific figures, and confirm any dates.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "AI thường trả lời sai nhưng vẫn tỏ ra rất tự tin vì các mô hình ngôn ngữ lớn được huấn luyện để tối ưu hóa việc dự đoán từ tiếp theo và tạo câu văn mượt mà, quả quyết chứ không tự đo lường độ chính xác thực tế.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "LLMs do not measure their own uncertainty. They measure the probability of the next word. The difference matters.",
+          "viTri": "Đoạn 11"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct.",
+          "viTri": "Đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Các dấu hiệu cảnh báo một câu trả lời AI cần phải kiểm chứng bao gồm: các con số cụ thể một cách bất thường, mốc thời gian/ngày tháng, và sự bất đồng giữa các mô hình AI khi so sánh độc lập.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Isolate each factual claim, cross-check it against an authoritative source, be wary of oddly specific figures, and confirm any dates.",
+          "viTri": "Đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Bạn có bao giờ nhận ra rằng các mô hình ngôn ngữ lớn không thực sự đo lường sự không chắc chắn của chính mình, mà chỉ tính xác suất của từ tiếp theo?",
+        "chuTrenManHinh": "AI không đo độ tin cậy",
+        "yDoHinh": "Biểu đồ so sánh hai thanh: một thanh ghi 'Độ tin cậy' màu xám mờ, một thanh ghi 'Xác suất từ tiếp theo' màu xanh lá cây sáng, mũi tên chỉ từ thanh xanh sang thanh xám với dấu hỏi.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Điều này có nghĩa là các hệ thống này được huấn luyện để truyền tải sự tự tin trong đầu ra, bất kể những câu trả lời đó có đúng hay không.",
+        "chuTrenManHinh": "Tự tin dù sai",
+        "yDoHinh": "Một nhân vật robot đang nói với giọng điệu quả quyết, xung quanh là các bong bóng thoại chứa nội dung mâu thuẫn nhau nhưng đều có biểu tượng mặt cười tự tin.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Hãy cẩn trọng với những con số cụ thể một cách bất thường xuất hiện trong câu trả lời, vì đây là dấu hiệu cần được kiểm chứng lại.",
+        "chuTrenManHinh": "Cảnh giác số liệu lạ",
+        "yDoHinh": "Một con số lớn nổi bật trên màn hình, xung quanh là các dấu chấm hỏi và biểu tượng kính lúp đang phóng to vào con số đó.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn có thường xuyên kiểm tra lại các mốc thời gian và ngày tháng mà trí tuệ nhân tạo cung cấp trước khi sử dụng chúng trong công việc không?",
+        "chuTrenManHinh": "Kiểm tra ngày tháng",
+        "yDoHinh": "Một chiếc lịch điện tử đang được lật qua lật lại, một bàn tay đang cầm bút đỏ khoanh tròn vào một ngày cụ thể trên lịch.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cô lập từng nhận định thực tế và đối chiếu chúng với nguồn thông tin uy tín để xác minh độ chính xác.",
+        "chuTrenManHinh": "Đối chiếu nguồn uy tín",
+        "yDoHinh": "Hai màn hình đặt cạnh nhau: một bên hiển thị câu trả lời AI, bên kia hiển thị trang web chính phủ hoặc tạp chí học thuật, một đường nối màu xanh lá cây kết nối hai màn hình với biểu tượng dấu tích.",
+        "nguon": [
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Bạn có bao giờ nhận ra rằng các mô hình ngôn ngữ lớn không thực sự đo lường sự không chắc chắn của chính mình, mà chỉ tính xác suất của từ tiếp theo?",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] LLMs do not measure their own uncertainty. They measure the probability of the next word. The difference matters.; [n03] Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct."
+      ]
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Điều này có nghĩa là các hệ thống này được huấn luyện để truyền tải sự tự tin trong đầu ra, bất kể những câu trả lời đó có đúng hay không.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] LLMs do not measure their own uncertainty. They measure the probability of the next word. The difference matters.; [n03] Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Hãy cẩn trọng với những con số cụ thể một cách bất thường xuất hiện trong câu trả lời, vì đây là dấu hiệu cần được kiểm chứng lại.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Isolate each factual claim, cross-check it against an authoritative source, be wary of oddly specific figures, and confirm any dates."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn có thường xuyên kiểm tra lại các mốc thời gian và ngày tháng mà trí tuệ nhân tạo cung cấp trước khi sử dụng chúng trong công việc không?",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Isolate each factual claim, cross-check it against an authoritative source, be wary of oddly specific figures, and confirm any dates."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cô lập từng nhận định thực tế và đối chiếu chúng với nguồn thông tin uy tín để xác minh độ chính xác.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Isolate each factual claim, cross-check it against an authoritative source, be wary of oddly specific figures, and confirm any dates."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bạn có bao giờ nhận ra rằng các mô hình ngôn ngữ lớn không thực sự đo lường sự không chắc chắn của chính mình, mà chỉ tính xác suất của từ tiếp theo?\",\n      \"chuTrenManHinh\": \"AI không đo độ tin cậy\",\n      \"yDoHinh\": \"Biểu đồ so sánh hai thanh: một thanh ghi 'Độ tin cậy' màu xám mờ, một thanh ghi 'Xác suất từ tiếp theo' màu xanh lá cây sáng, mũi tên chỉ từ thanh xanh sang thanh xám với dấu hỏi.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Điều này có nghĩa là các hệ thống này được huấn luyện để truyền tải sự tự tin trong đầu ra, bất kể những câu trả lời đó có đúng hay không.\",\n      \"chuTrenManHinh\": \"Tự tin dù sai\",\n      \"yDoHinh\": \"Một nhân vật robot đang nói với giọng điệu quả quyết, xung quanh là các bong bóng thoại chứa nội dung mâu thuẫn nhau nhưng đều có biểu tượng mặt cười tự tin.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hãy cẩn trọng với những con số cụ thể một cách bất thường xuất hiện trong câu trả lời, vì đây là dấu hiệu cần được kiểm chứng lại.\",\n      \"chuTrenManHinh\": \"Cảnh giác số liệu lạ\",\n      \"yDoHinh\": \"Một con số lớn nổi bật trên màn hình, xung quanh là các dấu chấm hỏi và biểu tượng kính lúp đang phóng to vào con số đó.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn có thường xuyên kiểm tra lại các mốc thời gian và ngày tháng mà trí tuệ nhân tạo cung cấp trước khi sử dụng chúng trong công việc không?\",\n      \"chuTrenManHinh\": \"Kiểm tra ngày tháng\",\n      \"yDoHinh\": \"Một chiếc lịch điện tử đang được lật qua lật lại, một bàn tay đang cầm bút đỏ khoanh tròn vào một ngày cụ thể trên lịch.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy cô lập từng nhận định thực tế và đối chiếu chúng với nguồn thông tin uy tín để xác minh độ chính xác.\",\n      \"chuTrenManHinh\": \"Đối chiếu nguồn uy tín\",\n      \"yDoHinh\": \"Hai màn hình đặt cạnh nhau: một bên hiển thị câu trả lời AI, bên kia hiển thị trang web chính phủ hoặc tạp chí học thuật, một đường nối màu xanh lá cây kết nối hai màn hình với biểu tượng dấu tích.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-7146b49c-1505-457c-b776-4f3d09c72d01",
+      "durationMs": 2016,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bạn có bao giờ nhận ra rằng các mô hình ngôn ngữ lớn không thực sự đo lường sự không chắc chắn của chính mình, mà chỉ tính xác suất của từ tiếp theo?\",\n      \"chuTrenManHinh\": \"AI không đo độ tin cậy\",\n      \"yDoHinh\": \"Biểu đồ so sánh hai thanh: một thanh ghi 'Độ tin cậy' màu xám mờ, một thanh ghi 'Xác suất từ tiếp theo' màu xanh lá cây sáng, mũi tên chỉ từ thanh xanh sang thanh xám với dấu hỏi.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Điều này có nghĩa là các hệ thống này được huấn luyện để truyền tải sự tự tin trong đầu ra, bất kể những câu trả lời đó có đúng hay không.\",\n      \"chuTrenManHinh\": \"Tự tin dù sai\",\n      \"yDoHinh\": \"Một nhân vật robot đang nói với giọng điệu quả quyết, xung quanh là các bong bóng thoại chứa nội dung mâu thuẫn nhau nhưng đều có biểu tượng mặt cười tự tin.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hãy cẩn trọng với những con số cụ thể một cách bất thường xuất hiện trong câu trả lời, vì đây là dấu hiệu cần được kiểm chứng lại.\",\n      \"chuTrenManHinh\": \"Cảnh giác số liệu lạ\",\n      \"yDoHinh\": \"Một con số lớn nổi bật trên màn hình, xung quanh là các dấu chấm hỏi và biểu tượng kính lúp đang phóng to vào con số đó.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn có thường xuyên kiểm tra lại các mốc thời gian và ngày tháng mà trí tuệ nhân tạo cung cấp trước khi sử dụng chúng trong công việc không?\",\n      \"chuTrenManHinh\": \"Kiểm tra ngày tháng\",\n      \"yDoHinh\": \"Một chiếc lịch điện tử đang được lật qua lật lại, một bàn tay đang cầm bút đỏ khoanh tròn vào một ngày cụ thể trên lịch.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy cô lập từng nhận định thực tế và đối chiếu chúng với nguồn thông tin uy tín để xác minh độ chính xác.\",\n      \"chuTrenManHinh\": \"Đối chiếu nguồn uy tín\",\n      \"yDoHinh\": \"Hai màn hình đặt cạnh nhau: một bên hiển thị câu trả lời AI, bên kia hiển thị trang web chính phủ hoặc tạp chí học thuật, một đường nối màu xanh lá cây kết nối hai màn hình với biểu tượng dấu tích.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 14311
+}

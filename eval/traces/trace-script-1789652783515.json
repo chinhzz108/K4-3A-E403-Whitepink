@@ -1,0 +1,144 @@
+{
+  "id": "trace-script-1789652783515",
+  "timestamp": "2026-09-17T13:46:23.515Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "targetAudience": "Cán bộ nhân viên văn phòng",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N24"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12957209/",
+      "tieuDe": "Both ends of artificial intelligence impacting privacy: a review of violation and protection - PMC",
+      "ngayLayVe": "2026-09-17T13:45:53.521Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học đánh giá chuyên sâu về quyền riêng tư và trí tuệ nhân tạo.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn không rõ ngày đăng cụ thể.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Privacy is a multifaceted concept spanning personal, social, and technological dimensions (Mulligan et al., 2016).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.dataguard.com/blog/growing-data-privacy-concerns-ai/",
+      "tieuDe": "The growing data privacy concerns with AI: What you need to know",
+      "ngayLayVe": "2026-09-17T13:46:03.527Z",
+      "loai": "bao-chi",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết blog từ tổ chức chuyên về bảo mật dữ liệu nhưng thiếu chi tiết tác giả cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn không rõ ngày đăng cụ thể.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.reading.ac.uk/imps/data-protection/data-protection-and-ai",
+      "tieuDe": "Data Protection and AI",
+      "ngayLayVe": "2026-09-17T13:46:03.527Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu chính thức từ trường đại học về bảo vệ dữ liệu và AI, đưa ra các hướng dẫn rõ ràng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn không rõ ngày đăng cụ thể.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Không nên gửi thông tin được phân loại là hạn chế hoặc rất hạn chế vào các công cụ AI tạo sinh để tuân thủ luật bảo vệ dữ liệu.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Currently, due to risks of non-compliance with these laws, any information classified as restricted or highly restricted must not be submitted to generative AI tools",
+          "viTri": "Nội dung trang 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Công nghệ AI phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "AI technologies rely heavily on personal data, making data privacy an essential concern in the digital era.",
+          "viTri": "Nội dung trang 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "mucTieu": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Cán bộ nhân viên văn phòng",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Dữ liệu cá nhân khi dùng trợ lý AI\",\n  \"mucTieu\": \"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Cán bộ nhân viên văn phòng\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Theo ghi nhận chưa kiểm chứng, công nghệ trí tuệ nhân tạo, hay còn gọi là artificial intelligence, phụ thuộc nhiều vào dữ liệu cá nhân khiến việc bảo mật trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"AI phụ thuộc vào dữ liệu\",\n      \"yDoHinh\": \"Hiển thị biểu tượng nhân viên văn phòng đang suy nghĩ trước màn hình máy tính có logo trí tuệ nhân tạo.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, công nghệ trí tuệ nhân tạo phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"Bảo mật dữ liệu thiết yếu\",\n      \"yDoHinh\": \"Sơ đồ trực quan thể hiện mối liên kết giữa dữ liệu cá nhân và các hệ thống công nghệ số.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Vì vậy, bất kỳ thông tin nào được phân loại là hạn chế hoặc rất hạn chế không được gửi vào các công cụ trí tuệ nhân tạo tạo sinh để tuân thủ luật bảo vệ dữ liệu, theo ghi nhận chưa kiểm chứng.\",\n      \"chuTrenManHinh\": \"Không gửi thông tin hạn chế\",\n      \"yDoHinh\": \"Cảnh báo dạng ô màu vàng xuất hiện trên giao diện nhập liệu của trợ lý ảo.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng nhau tìm hiểu ba việc nên và không nên làm khi nhập dữ liệu vào công cụ trợ lý ảo để bảo vệ an toàn thông tin.\",\n      \"chuTrenManHinh\": \"Ba việc nên và không nên làm\",\n      \"yDoHinh\": \"Danh sách tóm tắt xuất hiện trên màn hình với các biểu tượng đánh dấu rõ ràng.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin mời các anh chị cùng bắt đầu nội dung bài học ngay sau đây nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học\",\n      \"yDoHinh\": \"Mũi tên chuyển động hướng dẫn người học bước vào phần nội dung chính của video.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "durationMs": 3003,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Dữ liệu cá nhân khi dùng trợ lý AI\",\n  \"mucTieu\": \"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Cán bộ nhân viên văn phòng\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các anh chị có bao giờ tự hỏi công nghệ trí tuệ nhân tạo, hay còn gọi là artificial intelligence, ảnh hưởng thế nào đến thông tin riêng tư của chúng ta chưa?\",\n      \"chuTrenManHinh\": \"Bảo mật dữ liệu khi dùng AI?\",\n      \"yDoHinh\": \"Hiển thị biểu tượng nhân viên văn phòng đang suy nghĩ trước màn hình máy tính có logo trí tuệ nhân tạo.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, công nghệ trí tuệ nhân tạo phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"AI phụ thuộc vào dữ liệu\",\n      \"yDoHinh\": \"Sơ đồ trực quan thể hiện mối liên kết giữa dữ liệu cá nhân và các hệ thống công nghệ số.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Vì vậy, bất kỳ thông tin nào được phân loại là hạn chế hoặc rất hạn chế không được gửi vào các công cụ trí tuệ nhân tạo tạo sinh để tuân thủ luật bảo vệ dữ liệu, theo ghi nhận chưa kiểm chứng.\",\n      \"chuTrenManHinh\": \"Không gửi thông tin hạn chế\",\n      \"yDoHinh\": \"Cảnh báo dạng ô màu vàng xuất hiện trên giao diện nhập liệu của trợ lý ảo.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng nhau tìm hiểu ba việc nên và không nên làm khi nhập dữ liệu vào công cụ trợ lý ảo để bảo vệ an toàn thông tin.\",\n      \"chuTrenManHinh\": \"Ba việc nên và không nên làm\",\n      \"yDoHinh\": \"Danh sách tóm tắt xuất hiện trên màn hình với các biểu tượng đánh dấu rõ ràng.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin mời các anh chị cùng bắt đầu nội dung bài học ngay sau đây nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học\",\n      \"yDoHinh\": \"Mũi tên chuyển động hướng dẫn người học bước vào phần nội dung chính của video.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 1: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "durationMs": 2705,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Dữ liệu cá nhân khi dùng trợ lý AI\",\n  \"mucTieu\": \"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Cán bộ nhân viên văn phòng\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Theo ghi nhận chưa kiểm chứng, công nghệ trí tuệ nhân tạo, hay còn gọi là artificial intelligence, phụ thuộc nhiều vào dữ liệu cá nhân khiến việc bảo mật trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"AI phụ thuộc vào dữ liệu\",\n      \"yDoHinh\": \"Hiển thị biểu tượng nhân viên văn phòng đang suy nghĩ trước màn hình máy tính có logo trí tuệ nhân tạo.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, công nghệ trí tuệ nhân tạo phụ thuộc nhiều vào dữ liệu cá nhân, làm cho việc bảo mật dữ liệu trở thành mối quan tâm thiết yếu trong kỷ nguyên số.\",\n      \"chuTrenManHinh\": \"Bảo mật dữ liệu thiết yếu\",\n      \"yDoHinh\": \"Sơ đồ trực quan thể hiện mối liên kết giữa dữ liệu cá nhân và các hệ thống công nghệ số.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Vì vậy, bất kỳ thông tin nào được phân loại là hạn chế hoặc rất hạn chế không được gửi vào các công cụ trí tuệ nhân tạo tạo sinh để tuân thủ luật bảo vệ dữ liệu, theo ghi nhận chưa kiểm chứng.\",\n      \"chuTrenManHinh\": \"Không gửi thông tin hạn chế\",\n      \"yDoHinh\": \"Cảnh báo dạng ô màu vàng xuất hiện trên giao diện nhập liệu của trợ lý ảo.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng nhau tìm hiểu ba việc nên và không nên làm khi nhập dữ liệu vào công cụ trợ lý ảo để bảo vệ an toàn thông tin.\",\n      \"chuTrenManHinh\": \"Ba việc nên và không nên làm\",\n      \"yDoHinh\": \"Danh sách tóm tắt xuất hiện trên màn hình với các biểu tượng đánh dấu rõ ràng.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin mời các anh chị cùng bắt đầu nội dung bài học ngay sau đây nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học\",\n      \"yDoHinh\": \"Mũi tên chuyển động hướng dẫn người học bước vào phần nội dung chính của video.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    }
+  ],
+  "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)",
+  "isDemo": false,
+  "durationMs": 12793
+}

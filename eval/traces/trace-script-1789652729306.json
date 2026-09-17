@@ -1,0 +1,248 @@
+{
+  "id": "trace-script-1789652729306",
+  "timestamp": "2026-09-17T13:45:29.306Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+    "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+    "targetAudience": "Sinh viên luật",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N22"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://techforgoodinstitute.org/insights/perspectives/keeping-creativity-human-how-ai-and-art-should-coexist-in-southeast-asia/",
+      "tieuDe": "Keeping Creativity Human: How AI and Art should coexist in Southeast Asia - Tech For Good Institute",
+      "tacGia": "Kiera Wong",
+      "toChuc": "Tech For Good Institute",
+      "ngayDang": "2026-08-14T05:05:40+00:00",
+      "ngayLayVe": "2026-09-17T13:45:10.501Z",
+      "loai": "bao-chi",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết phân tích chuyên sâu nhưng mang tính quan điểm cá nhân từ tổ chức phi lợi nhuận.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm so với hiện tại."
+      ],
+      "doanTrich": "The rapid arrival of Artificial Intelligence (AI) technology has widely and rapidly impacted industries globally. While driving enhanced efficiency and innovation, AI disruption is also reshaping the future demand for professional skills, bringing into question the value of human input in an increasingly automated world.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.rajahtannasia.com/viewpoints/expanded-asean-guide-on-ai-governance-and-ethics/",
+      "tieuDe": "Expanded ASEAN Guide on AI Governance and Ethics | Rajah & Tann Asia",
+      "toChuc": "Rajah & Tann Asia",
+      "ngayLayVe": "2026-09-17T13:45:10.502Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài viết từ hãng luật lớn phân tích chi tiết về văn bản chính sách ASEAN Guide on AI Governance and Ethics.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng cụ thể.",
+        "Thông tin cần được đối chiếu thêm.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "In February 2024, the ASEAN member states issued the ASEAN Guide on AI Governance and Ethics (“ASEAN AI Guide 2024“), which establishes common principles and recommends best practices on the implementation of trustworthy AI in ASEAN.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://www.brookings.edu/articles/ai-safety-governance-the-southeast-asian-way/",
+      "tieuDe": "AI safety governance, the Southeast Asian way | Brookings",
+      "toChuc": "Brookings",
+      "ngayLayVe": "2026-09-17T13:45:11.147Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Nghiên cứu uy tín từ tổ chức nghiên cứu chiến lược Brookings hợp tác cùng AI Safety Asia.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm so với thời điểm hiện tại.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Shaped by its cultural diversity, political pluralism, and varied levels of development, Southeast Asia’s approach to AI safety governance combines localized, context-aware regulation with regional coordination, distilling lessons that could be applicable to other global majority regions.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Các nước thành viên ASEAN đã ban hành Hướng dẫn của ASEAN về Quản trị và Đạo đức AI nhằm thiết lập các nguyên tắc chung cho việc thực thi AI đáng tin cậy.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "In February 2024, the ASEAN member states issued the ASEAN Guide on AI Governance and Ethics (“ASEAN AI Guide 2024“), which establishes common principles and recommends best practices on the implementation of trustworthy AI in ASEAN.",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Tiếp cận quản trị an toàn AI tại Đông Nam Á kết hợp quy định mang tính địa phương, nhận thức ngữ cảnh với sự phối hợp khu vực để phản ánh sự đa dạng văn hóa và thể trị.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Shaped by its cultural diversity, political pluralism, and varied levels of development, Southeast Asia’s approach to AI safety governance combines localized, context-aware regulation with regional coordination, distilling lessons that could be applicable to other global majority regions.",
+          "viTri": "Đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+    "mucTieu": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+    "thoiLuong": "năm phút",
+    "nguoiHoc": "Sinh viên luật",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn sinh viên luật đến với bài học hôm nay.",
+        "chuTrenManHinh": "Chào mừng sinh viên luật",
+        "yDoHinh": "Hiển thị tiêu đề bài học trên màn hình.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Các bạn có biết các nước thành viên hiệp hội các quốc gia Đông Nam Á đã ban hành hướng dẫn của hiệp hội các quốc gia Đông Nam Á về quản trị và đạo đức trí tuệ nhân tạo nhằm thiết lập các nguyên tắc chung chưa?",
+        "chuTrenManHinh": "Hướng dẫn quản trị và đạo đức trí tuệ",
+        "yDoHinh": "Hình ảnh tài liệu hướng dẫn chính thức của khu vực.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo nguồn tin chưa xác minh, văn bản này được đưa ra nhằm định hướng cho việc thực thi trí tuệ nhân tạo đáng tin cậy trong khu vực.",
+        "chuTrenManHinh": "Trí tuệ nhân tạo đáng tin cậy",
+        "yDoHinh": "Biểu đồ thể hiện sự tin cậy trong công nghệ.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Bên cạnh đó, theo nguồn tin chưa xác minh, tiếp cận quản trị an toàn trí tuệ nhân tạo tại Đông Nam Á kết hợp quy định mang tính địa phương, nhận thức ngữ cảnh với sự phối hợp khu vực để phản ánh sự đa dạng văn hóa và thể trị.",
+        "chuTrenManHinh": "Đa dạng văn hóa và thể trị",
+        "yDoHinh": "Bản đồ khu vực Đông Nam Á với các biểu tượng văn hóa.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Dựa trên các tài liệu chưa xác minh vừa nêu, chúng ta sẽ cùng nhau phân tích sâu hơn vấn đề này.",
+        "chuTrenManHinh": "Phân tích sâu vấn đề",
+        "yDoHinh": "Biểu tượng sinh viên luật đang thảo luận nhóm.",
+        "nguon": [
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn sinh viên luật đến với bài học hôm nay.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Các bạn có biết các nước thành viên hiệp hội các quốc gia Đông Nam Á đã ban hành hướng dẫn của hiệp hội các quốc gia Đông Nam Á về quản trị và đạo đức trí tuệ nhân tạo nhằm thiết lập các nguyên tắc chung chưa?",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] In February 2024, the ASEAN member states issued the ASEAN Guide on AI Governance and Ethics (“ASEAN AI Guide 2024“), which establishes common principles and recommends best practices on the implementation of trustworthy AI in ASEAN."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Theo nguồn tin chưa xác minh, văn bản này được đưa ra nhằm định hướng cho việc thực thi trí tuệ nhân tạo đáng tin cậy trong khu vực.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] In February 2024, the ASEAN member states issued the ASEAN Guide on AI Governance and Ethics (“ASEAN AI Guide 2024“), which establishes common principles and recommends best practices on the implementation of trustworthy AI in ASEAN."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bên cạnh đó, theo nguồn tin chưa xác minh, tiếp cận quản trị an toàn trí tuệ nhân tạo tại Đông Nam Á kết hợp quy định mang tính địa phương, nhận thức ngữ cảnh với sự phối hợp khu vực để phản ánh sự đa dạng văn hóa và thể trị.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Shaped by its cultural diversity, political pluralism, and varied levels of development, Southeast Asia’s approach to AI safety governance combines localized, context-aware regulation with regional coordination, distilling lessons that could be applicable to other global majority regions."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Dựa trên các tài liệu chưa xác minh vừa nêu, chúng ta sẽ cùng nhau phân tích sâu hơn vấn đề này.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Shaped by its cultural diversity, political pluralism, and varied levels of development, Southeast Asia’s approach to AI safety governance combines localized, context-aware regulation with regional coordination, distilling lessons that could be applicable to other global majority regions."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Đạo đức AI trong bối cảnh văn hóa Đông Nam Á\",\n  \"mucTieu\": \"So sánh được quan điểm đạo đức AI giữa các nước ASEAN\",\n  \"thoiLuong\": \"năm phút\",\n  \"nguoiHoc\": \"Sinh viên luật\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các bạn sinh viên luật đến với bài học hôm nay.\",\n      \"chuTrenManHinh\": \"Chào mừng sinh viên luật\",\n      \"yDoHinh\": \"Hiển thị tiêu đề bài học trên màn hình.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các bạn có biết các nước thành viên hiệp hội các quốc gia Đông Nam Á đã ban hành hướng dẫn của hiệp hội các quốc gia Đông Nam Á về quản trị và đạo đức trí tuệ nhân tạo nhằm thiết lập các nguyên tắc chung chưa?\",\n      \"chuTrenManHinh\": \"Hướng dẫn quản trị và đạo đức trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Hình ảnh tài liệu hướng dẫn chính thức của khu vực.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn tin chưa xác minh, văn bản này được đưa ra nhằm định hướng cho việc thực thi trí tuệ nhân tạo đáng tin cậy trong khu vực.\",\n      \"chuTrenManHinh\": \"Trí tuệ nhân tạo đáng tin cậy\",\n      \"yDoHinh\": \"Biểu đồ thể hiện sự tin cậy trong công nghệ.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Bên cạnh đó, theo nguồn tin chưa xác minh, tiếp cận quản trị an toàn trí tuệ nhân tạo tại Đông Nam Á kết hợp quy định mang tính địa phương, nhận thức ngữ cảnh với sự phối hợp khu vực để phản ánh sự đa dạng văn hóa và thể trị.\",\n      \"chuTrenManHinh\": \"Đa dạng văn hóa và thể trị\",\n      \"yDoHinh\": \"Bản đồ khu vực Đông Nam Á với các biểu tượng văn hóa.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Dựa trên các tài liệu chưa xác minh vừa nêu, chúng ta sẽ cùng nhau phân tích sâu hơn vấn đề này.\",\n      \"chuTrenManHinh\": \"Phân tích sâu vấn đề\",\n      \"yDoHinh\": \"Biểu tượng sinh viên luật đang thảo luận nhóm.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "durationMs": 2873,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Đạo đức AI trong bối cảnh văn hóa Đông Nam Á\",\n  \"mucTieu\": \"So sánh được quan điểm đạo đức AI giữa các nước ASEAN\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Sinh viên luật\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các bạn sinh viên luật đến với bài học hôm nay.\",\n      \"chuTrenManHinh\": \"Chào mừng sinh viên luật\",\n      \"yDoHinh\": \"Hiển thị tiêu đề bài học trên màn hình.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các bạn có biết các nước thành viên hiệp hội các quốc gia Đông Nam Á đã ban hành hướng dẫn của hiệp hội các quốc gia Đông Nam Á về quản trị và đạo đức trí tuệ nhân tạo nhằm thiết lập các nguyên tắc chung chưa?\",\n      \"chuTrenManHinh\": \"Hướng dẫn quản trị và đạo đức trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Hình ảnh tài liệu hướng dẫn chính thức của khu vực.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn tin chưa xác minh, văn bản này được đưa ra nhằm định hướng cho việc thực thi trí tuệ nhân tạo đáng tin cậy trong khu vực.\",\n      \"chuTrenManHinh\": \"Trí tuệ nhân tạo đáng tin cậy\",\n      \"yDoHinh\": \"Biểu đồ thể hiện sự tin cậy trong công nghệ.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Bên cạnh đó, tiếp cận quản trị an toàn trí tuệ nhân tạo tại Đông Nam Á kết hợp quy định mang tính địa phương, nhận thức ngữ cảnh với sự phối hợp khu vực để phản ánh sự đa dạng văn hóa và thể trị.\",\n      \"chuTrenManHinh\": \"Đa dạng văn hóa và thể trị\",\n      \"yDoHinh\": \"Bản đồ khu vực Đông Nam Á với các biểu tượng văn hóa.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Chúng ta hãy cùng nhau phân tích sâu hơn vấn đề này nhé.\",\n      \"chuTrenManHinh\": \"Phân tích sâu vấn đề\",\n      \"yDoHinh\": \"Biểu tượng sinh viên luật đang thảo luận nhóm.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "durationMs": 2560,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Đạo đức AI trong bối cảnh văn hóa Đông Nam Á\",\n  \"mucTieu\": \"So sánh được quan điểm đạo đức AI giữa các nước ASEAN\",\n  \"thoiLuong\": \"năm phút\",\n  \"nguoiHoc\": \"Sinh viên luật\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các bạn sinh viên luật đến với bài học hôm nay.\",\n      \"chuTrenManHinh\": \"Chào mừng sinh viên luật\",\n      \"yDoHinh\": \"Hiển thị tiêu đề bài học trên màn hình.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các bạn có biết các nước thành viên hiệp hội các quốc gia Đông Nam Á đã ban hành hướng dẫn của hiệp hội các quốc gia Đông Nam Á về quản trị và đạo đức trí tuệ nhân tạo nhằm thiết lập các nguyên tắc chung chưa?\",\n      \"chuTrenManHinh\": \"Hướng dẫn quản trị và đạo đức trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Hình ảnh tài liệu hướng dẫn chính thức của khu vực.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn tin chưa xác minh, văn bản này được đưa ra nhằm định hướng cho việc thực thi trí tuệ nhân tạo đáng tin cậy trong khu vực.\",\n      \"chuTrenManHinh\": \"Trí tuệ nhân tạo đáng tin cậy\",\n      \"yDoHinh\": \"Biểu đồ thể hiện sự tin cậy trong công nghệ.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Bên cạnh đó, theo nguồn tin chưa xác minh, tiếp cận quản trị an toàn trí tuệ nhân tạo tại Đông Nam Á kết hợp quy định mang tính địa phương, nhận thức ngữ cảnh với sự phối hợp khu vực để phản ánh sự đa dạng văn hóa và thể trị.\",\n      \"chuTrenManHinh\": \"Đa dạng văn hóa và thể trị\",\n      \"yDoHinh\": \"Bản đồ khu vực Đông Nam Á với các biểu tượng văn hóa.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Dựa trên các tài liệu chưa xác minh vừa nêu, chúng ta sẽ cùng nhau phân tích sâu hơn vấn đề này.\",\n      \"chuTrenManHinh\": \"Phân tích sâu vấn đề\",\n      \"yDoHinh\": \"Biểu tượng sinh viên luật đang thảo luận nhóm.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 11880
+}

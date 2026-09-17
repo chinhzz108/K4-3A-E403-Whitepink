@@ -1,0 +1,916 @@
+{
+  "case": {
+    "id": "N09",
+    "class": "nguon-su-that",
+    "input": {
+      "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+      "learningObjective": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+      "targetAudience": "Quản lý sản phẩm",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Số liệu chi phí CẦN ≥2 nguồn xác nhận. Nếu chỉ 1 nguồn phải đánh dấu 'chua-xac-minh'.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #6 — số liệu thay đổi theo tháng; không phải chatlog",
+    "passCriteria": "Số liệu có ≥2 nguồn; hoặc đánh dấu chua-xac-minh; nêu ngày nguồn",
+    "failCriteria": "Dùng số liệu 1 nguồn mà ghi da-xac-minh; không nêu ngày"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.llm-prices.com/",
+        "tieuDe": "LLM pricing calculator",
+        "ngayLayVe": "2026-09-17T13:41:32.932Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Trang web chỉ là công cụ tính toán đơn thuần, thiếu thông tin tác giả, tổ chức và ngày đăng cụ thể.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Thiếu nội dung văn bản phân tích chuyên sâu phục vụ bài giảng, không có ngày đăng rõ ràng.",
+        "canhBao": [
+          "Nguồn thiếu thông tin tác giả và tổ chức.",
+          "Không rõ thời gian xuất bản tài liệu.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens)",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+        "tieuDe": "The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]",
+        "tacGia": "[at] Editorial Team",
+        "ngayDang": "2025-12-01T13:36:09+01:00",
+        "ngayLayVe": "2026-09-17T13:41:32.934Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Bài viết cung cấp hướng dẫn chuyên sâu, có cấu trúc tốt, nêu rõ các phương pháp và chiến lược tối ưu hóa chi phí LLM thực tế.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn là bài viết blog, cần đối chiếu thêm số liệu cụ thể về giá cả."
+        ],
+        "doanTrich": "Forward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+        "tieuDe": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+        "tacGia": "YourGPT",
+        "toChuc": "YourGPT",
+        "ngayLayVe": "2026-09-17T13:41:32.935Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Cung cấp định nghĩa rõ ràng về token đầu vào, đầu ra và ví dụ tính toán, nhưng thiếu ngày đăng cụ thể.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn thiếu ngày đăng chính xác, cần lưu ý tính cập nhật của giá.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Input Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Chi phí sử dụng mô hình ngôn ngữ lớn (LLM) phụ thuộc chủ yếu vào tổng số lượng token được xử lý, bao gồm token đầu vào và token đầu ra.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed.",
+            "viTri": "Đoạn 4"
+          },
+          {
+            "nguonId": "n03",
+            "doanTrich": "Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.",
+            "viTri": "Đoạn cuối"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Token đầu ra thường có giá đắt hơn nhiều so với token đầu vào trong các mô hình ngôn ngữ lớn.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Another important point is that output tokens are almost always much more expensive than input tokens.",
+            "viTri": "Đoạn 5"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Chỉ có một nguồn (n02) đề cập chi tiết về chênh lệch giá giữa token đầu vào và đầu ra mà chưa có nguồn thứ hai độc lập xác nhận mức giá cụ thể của từng phiên bản mô hình giả định."
+      },
+      {
+        "id": "t03",
+        "noiDung": "Sử dụng chế độ hàng loạt (Batch mode) giúp gộp nhiều yêu cầu lại với nhau và xử lý một lần để giảm mạnh chi phí cho mỗi yêu cầu.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.",
+            "viTri": "Đoạn 10"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Chỉ có một nguồn (n02) đề xuất phương pháp tối ưu hóa chi phí này."
+      }
+    ],
+    "searchQueries": [
+      "LLM cost estimation",
+      "LLM cost optimization"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789652505347",
+      "timestamp": "2026-09-17T13:41:45.347Z",
+      "phase": "research",
+      "input": {
+        "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+        "learningObjective": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N09"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "LLM pricing calculator",
+              "url": "https://www.llm-prices.com/",
+              "snippet": "Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Total cost: Note: Different models use ...",
+              "position": 1
+            },
+            {
+              "title": "LLM API Pricing Calculator | Compare OpenAI, Claude ...",
+              "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+              "snippet": "LLM API Pricing Calculator. Calculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses.",
+              "position": 2
+            },
+            {
+              "title": "LLM Cost Estimation Guide: From Token Usage to Total ...",
+              "url": "https://medium.com/@alphaiterations/llm-cost-estimation-guide-from-token-usage-to-total-spend-fba348d62824",
+              "snippet": "According to Open AI, a helpful rule of thumb is that ~750 words correspond to 1000 tokens. You can put the prompt into any word counter tool ...",
+              "position": 3
+            },
+            {
+              "title": "Free LLM Pricing Calculator - Compare AI Model Costs & ...",
+              "url": "https://artificialanalysis.ai/tools/llm-price-calculator",
+              "snippet": "Free online LLM pricing calculator to compare costs across ChatGPT, Claude, Gemini, and 100+ AI models. Calculate token-based pricing, estimate API costs, ...",
+              "position": 4
+            },
+            {
+              "title": "Pricing Calculator (Cost Estimation)",
+              "url": "https://docs.litellm.ai/docs/proxy/pricing_calculator",
+              "snippet": "Estimate LLM costs based on expected token usage and request volume. This tool helps developers and platform teams forecast spending before deploying models ...",
+              "position": 5
+            }
+          ],
+          "query": "LLM cost estimation",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "The Practical Guide to LLM Cost Optimization",
+              "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+              "snippet": "Reduce costs, but not performance: incurred costs, relevant key figures, and strategies for optimizing the costs of LLMs.",
+              "position": 1
+            },
+            {
+              "title": "LLM Cost Optimization: 5 Levers to Cut API Spend 70-85%",
+              "url": "https://www.morphllm.com/llm-cost-optimization",
+              "snippet": "A practical guide to reducing LLM API costs without sacrificing quality. Covers the five main levers: model routing (40-70% savings), context compaction...",
+              "position": 2
+            },
+            {
+              "title": "LLM Cost Optimization: How To Run Gen AI Apps ...",
+              "url": "https://cast.ai/blog/llm-cost-optimization-how-to-run-gen-ai-apps-cost-efficiently/",
+              "snippet": "How do you optimize LLM cost without sacrificing performance? Kimchi Inference helps with the automated optimization of LLM selection and ...",
+              "position": 3
+            },
+            {
+              "title": "Optimize LLM Costs & Streamline Processes",
+              "url": "https://www.coursera.org/learn/optimize-llm-costs-and-streamline-processes",
+              "snippet": "Optimize LLM costs by analyzing spend reports and streamline ML pipelines using value-stream mapping to boost efficiency and reduce cycle times.",
+              "position": 4
+            },
+            {
+              "title": "LLM Cost Optimization Guide",
+              "url": "https://exadel.com/news/llm-cost-optimization-enterprise-ai-framework",
+              "snippet": "LLM cost optimization is the practice of reducing the computational expense of running large language models - measured primarily in tokens processed",
+              "position": 5
+            }
+          ],
+          "query": "LLM cost optimization",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.llm-prices.com/",
+          "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+          "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+          "https://www.morphllm.com/llm-cost-optimization",
+          "https://medium.com/@alphaiterations/llm-cost-estimation-guide-from-token-usage-to-total-spend-fba348d62824",
+          "https://cast.ai/blog/llm-cost-optimization-how-to-run-gen-ai-apps-cost-efficiently/",
+          "https://artificialanalysis.ai/tools/llm-price-calculator",
+          "https://www.coursera.org/learn/optimize-llm-costs-and-streamline-processes"
+        ],
+        "pagesRead": [
+          "https://www.llm-prices.com/",
+          "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+          "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.llm-prices.com/",
+          "content": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate. Model prices (per million tokens) Show just selected Clear selection Model Input cost (Cached) ↑ Output cost Compare Prices last updated: Loading... View source on GitHub",
+          "fetchedAt": "2026-09-17T13:41:32.932Z",
+          "title": "LLM pricing calculator",
+          "status": "ok",
+          "contentLength": 546,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate. Model prices (per million tokens) Show just selected Clear selection Model Input cost (Cached) ↑ Output cost Compare Prices last updated: Loading... View source on GitHub"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+          "content": "The Practical Guide to LLM Cost Optimization\n\nStrategic resource and cost reduction for language models\n\nWith the increasing prevalence of large language models (LLMs) in nearly all industries, the operating costs of these systems are becoming an increasingly important focus. Computing power, storage, model access, and maintenance mean that LLMs are not only a strategic decision from a technological perspective, but also from an economic one. Without targeted control, running costs can quickly rise and jeopardize the economic viability of applications.\n\nForward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized. This article highlights the key cost drivers in the operation of LLMs and presents practical approaches to reducing expenditures and maximizing the economic benefits of LLM applications.\n\nWhen we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed. The general rule: the longer the prompt and the longer the generated response, the higher the token count would be and thus, the higher the cost.\n\nAnother important point is that output tokens are almost always much more expensive than input tokens. For example, GPT-5.1 currently costs around $1.25 per million input tokens but $10 per million output tokens. This pricing, of course, varies depending on the model that we use.\n\nSmaller models also have a big hidden advantage: much faster inference time and if needed, faster fine-tuning as well. As a result, the total cost of pre-training or fine-tuning a smaller model is often orders of magnitude lower than the ones with tens or even hundreds of billions of parameters.\n\nProprietary models (OpenAI, Anthropic, Google, Cohere, etc.): extremely easy to adopt, we don’t need to manage infrastructure ourselves. The costs are almost entirely tied to token usage.\n\nOpen-source models (Llama 3, Mistral, Gemma, etc., often hosted on Hugging Face): the costs are tied to the infrastructure we use, and we need to manage it ourselves. However, over time, this can be dramatically cheaper than relying on proprietary models.\n\nIn the cloud, the costs ultimately depend on whether we choose a managed proprietary model (billed mainly by tokens) or self-host an open-source model (billed by instance type, hours running, and data transfer).\n\nOn-premises deployment, on the other hand, shifts the cost structure entirely to hardware. Companies have to invest in their own GPU clusters, and the total expense is driven primarily by how much GPU memory (VRAM) and compute power they can afford, along with electricity, cooling, and maintenance.\n\nBatch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically. Batch processing is ideal for non-urgent tasks like content generation, data enrichment, report creation, etc.\n\nAs request volume and data size grow, these additional components can quietly become a major part of the cost. As an example, the more searches we run against a vector DB or the more external API calls the AI agents make, the more expensive the cost will be.\n\nMetrics for LLM Cost Optimizations\n\nAs we saw in the previous sections, LLM costs can balloon from multiple sources. That’s why continuously observing the system is important. In a nutshell, there are five different metrics that should be continuously observed: token usage, model quantitative performance, resource utilization, request frequency, and cost per business KPI.\n\nThe cost of LLM integration, particularly when using proprietary models, is heavily dependent on token usage, i.e., the count of input and output tokens.\n\nTo track the costs associated with the token usages, we can look at several things. As an example, we can monitor total input + output tokens per day/week/month, breakdown of token counts by model, feature, customer, or user, average input length vs. average output length, and input-to-output token ratio (lower is usually better for cost).\n\nContinuously monitoring token usage can help teams quickly identify misuse, or unintended behavior of our LLM system that may drive costs up unexpectedly.\n\nObserving quantitative performance of the model is particularly important since model choice has a huge impact on the overall cost of LLM integration. Observing quantitative performance of a model can be done by preparing a dataset with ground-truth labels for a specific use case. Then, we compare the LLM’s generated output against this ground truth using whatever metrics make sense for the task, such as accuracy, Levenshtein distance, embedding similarity, ROUGE, BLEU scores, etc.\n\nMonitoring these tells us exactly where there’s waste. For example, if GPU utilization is consistently low (say, below 50 %), it’s a clear signal that the hardware is being underutilized. Therefore, there is a perfect opportunity for optimization to maximize throughput, such as switching to batch or increasing concurrency.\n\nThis metric tracks how many requests the users (or internal systems) actually send to the LLM service. By looking at request frequency, we can spot peak hours, daily/weekly spikes, and quiet periods. This opens the possibility for optimizations, such as scheduling batch jobs during off-peak times, scaling instances up/down automatically, or even turning the service off completely when no one’s using it.\n\nThis metric closely ties LLM spending directly to the outcomes that actually matter to the business (and these will vary depending on the specific use case). For example, we can check LLM cost per resolved customer-support ticket, per processed document or contract, per sale closed with AI-assisted customer service, per generated article, report, or piece of marketing copy, etc.\n\nTracking cost-per-KPI gives a clear view of how efficient the LLM system really is in production. More importantly, it provides hard evidence of whether the investment is paying off, or whether further optimization is needed.\n\nStrategies for LLM Cost Optimization\n\nIn this section we’re going to give you several practical tips to optimize LLM cost, starting from model selection until the utilization of knowledge base.\n\nAs mentioned in the previous section, bigger models cost more (especially with proprietary models). Therefore, the best strategy is to gradually test different models on your use case, starting from the cheapest model until the more expensive one. Here are the common steps:\n\nCalculate the performance-to-cost ratio for each model and pick the clear winner.\n\nWhen building an LLM-powered workflow, most businesses default to using a single model for everything. While it’s totally fine, using one model for all cases usually leaves a lot of room for cost optimization. By observing the metrics we’ve already discussed (request frequency and quantitative performance), the LLM workflow can be optimized in many ways, such as model routing.\n\nAs an example, let’s say that we notice that 80–90 % of user prompts are actually very simple and your current model achieves 99 % accuracy on them. In this case, model routing would actually be beneficial to reduce the cost. The procedure is simple:\n\nAnother powerful way to cut LLM costs is through prompt optimization. This technique is especially effective because the input prompt directly determines input and output token usages: the more concise the prompt, the lower the cost. Therefore, we need to craft prompts such that they are clear, concise, and unambiguous. Also, we need to remove redundant words, filler text, or unnecessary context that inflates token count.\n\nOptimizing the prompt can also have a direct impact on output tokens, which further save the cost. The output tokens can be controlled with explicit instructions. For example, we can add phrases like “respond in no more than two sentences.”, “give a maximum of three recommendations.”, “provide a brief, concise summary only.”, “answer in bullet points, under 100 words.”, etc.\n\nMost LLM providers (including OpenAI and Anthropic) offer a batch processing option that is significantly cheaper than on-demand (real-time) mode. As an example, GPT 5.1 in batch mode costs $0.625 per million input tokens and $5 per million output tokens, whilst the on-demand mode costs twice the batch mode. However, there is a trade-off: user requests aren’t processed the moment they arrive and the results typically come back within\n\nNow you know everything about LLM cost optimization: where the money actually goes, the key metrics to observe, and proven, practical strategies we can start applying today to cut LLM costs in production.",
+          "fetchedAt": "2026-09-17T13:41:32.934Z",
+          "title": "The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]",
+          "status": "ok",
+          "contentLength": 16930,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "The Practical Guide to LLM Cost Optimization"
+            },
+            {
+              "blockIndex": 1,
+              "text": "Strategic resource and cost reduction for language models"
+            },
+            {
+              "blockIndex": 5,
+              "text": "With the increasing prevalence of large language models (LLMs) in nearly all industries, the operating costs of these systems are becoming an increasingly important focus. Computing power, storage, model access, and maintenance mean that LLMs are not only a strategic decision from a technological perspective, but also from an economic one. Without targeted control, running costs can quickly rise and jeopardize the economic viability of applications."
+            },
+            {
+              "blockIndex": 6,
+              "text": "Forward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized. This article highlights the key cost drivers in the operation of LLMs and presents practical approaches to reducing expenditures and maximizing the economic benefits of LLM applications."
+            },
+            {
+              "blockIndex": 11,
+              "text": "When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed. The general rule: the longer the prompt and the longer the generated response, the higher the token count would be and thus, the higher the cost."
+            },
+            {
+              "blockIndex": 12,
+              "text": "Another important point is that output tokens are almost always much more expensive than input tokens. For example, GPT-5.1 currently costs around $1.25 per million input tokens but $10 per million output tokens. This pricing, of course, varies depending on the model that we use."
+            },
+            {
+              "blockIndex": 15,
+              "text": "Smaller models also have a big hidden advantage: much faster inference time and if needed, faster fine-tuning as well. As a result, the total cost of pre-training or fine-tuning a smaller model is often orders of magnitude lower than the ones with tens or even hundreds of billions of parameters."
+            },
+            {
+              "blockIndex": 17,
+              "text": "Proprietary models (OpenAI, Anthropic, Google, Cohere, etc.): extremely easy to adopt, we don’t need to manage infrastructure ourselves. The costs are almost entirely tied to token usage."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Open-source models (Llama 3, Mistral, Gemma, etc., often hosted on Hugging Face): the costs are tied to the infrastructure we use, and we need to manage it ourselves. However, over time, this can be dramatically cheaper than relying on proprietary models."
+            },
+            {
+              "blockIndex": 24,
+              "text": "In the cloud, the costs ultimately depend on whether we choose a managed proprietary model (billed mainly by tokens) or self-host an open-source model (billed by instance type, hours running, and data transfer)."
+            },
+            {
+              "blockIndex": 25,
+              "text": "On-premises deployment, on the other hand, shifts the cost structure entirely to hardware. Companies have to invest in their own GPU clusters, and the total expense is driven primarily by how much GPU memory (VRAM) and compute power they can afford, along with electricity, cooling, and maintenance."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically. Batch processing is ideal for non-urgent tasks like content generation, data enrichment, report creation, etc."
+            },
+            {
+              "blockIndex": 32,
+              "text": "As request volume and data size grow, these additional components can quietly become a major part of the cost. As an example, the more searches we run against a vector DB or the more external API calls the AI agents make, the more expensive the cost will be."
+            },
+            {
+              "blockIndex": 33,
+              "text": "Metrics for LLM Cost Optimizations"
+            },
+            {
+              "blockIndex": 34,
+              "text": "As we saw in the previous sections, LLM costs can balloon from multiple sources. That’s why continuously observing the system is important. In a nutshell, there are five different metrics that should be continuously observed: token usage, model quantitative performance, resource utilization, request frequency, and cost per business KPI."
+            },
+            {
+              "blockIndex": 36,
+              "text": "The cost of LLM integration, particularly when using proprietary models, is heavily dependent on token usage, i.e., the count of input and output tokens."
+            },
+            {
+              "blockIndex": 37,
+              "text": "To track the costs associated with the token usages, we can look at several things. As an example, we can monitor total input + output tokens per day/week/month, breakdown of token counts by model, feature, customer, or user, average input length vs. average output length, and input-to-output token ratio (lower is usually better for cost)."
+            },
+            {
+              "blockIndex": 38,
+              "text": "Continuously monitoring token usage can help teams quickly identify misuse, or unintended behavior of our LLM system that may drive costs up unexpectedly."
+            },
+            {
+              "blockIndex": 40,
+              "text": "Observing quantitative performance of the model is particularly important since model choice has a huge impact on the overall cost of LLM integration. Observing quantitative performance of a model can be done by preparing a dataset with ground-truth labels for a specific use case. Then, we compare the LLM’s generated output against this ground truth using whatever metrics make sense for the task, such as accuracy, Levenshtein distance, embedding similarity, ROUGE, BLEU scores, etc."
+            },
+            {
+              "blockIndex": 45,
+              "text": "Monitoring these tells us exactly where there’s waste. For example, if GPU utilization is consistently low (say, below 50 %), it’s a clear signal that the hardware is being underutilized. Therefore, there is a perfect opportunity for optimization to maximize throughput, such as switching to batch or increasing concurrency."
+            },
+            {
+              "blockIndex": 47,
+              "text": "This metric tracks how many requests the users (or internal systems) actually send to the LLM service. By looking at request frequency, we can spot peak hours, daily/weekly spikes, and quiet periods. This opens the possibility for optimizations, such as scheduling batch jobs during off-peak times, scaling instances up/down automatically, or even turning the service off completely when no one’s using it."
+            },
+            {
+              "blockIndex": 50,
+              "text": "This metric closely ties LLM spending directly to the outcomes that actually matter to the business (and these will vary depending on the specific use case). For example, we can check LLM cost per resolved customer-support ticket, per processed document or contract, per sale closed with AI-assisted customer service, per generated article, report, or piece of marketing copy, etc."
+            },
+            {
+              "blockIndex": 51,
+              "text": "Tracking cost-per-KPI gives a clear view of how efficient the LLM system really is in production. More importantly, it provides hard evidence of whether the investment is paying off, or whether further optimization is needed."
+            },
+            {
+              "blockIndex": 52,
+              "text": "Strategies for LLM Cost Optimization"
+            },
+            {
+              "blockIndex": 53,
+              "text": "In this section we’re going to give you several practical tips to optimize LLM cost, starting from model selection until the utilization of knowledge base."
+            },
+            {
+              "blockIndex": 55,
+              "text": "As mentioned in the previous section, bigger models cost more (especially with proprietary models). Therefore, the best strategy is to gradually test different models on your use case, starting from the cheapest model until the more expensive one. Here are the common steps:"
+            },
+            {
+              "blockIndex": 59,
+              "text": "Calculate the performance-to-cost ratio for each model and pick the clear winner."
+            },
+            {
+              "blockIndex": 62,
+              "text": "When building an LLM-powered workflow, most businesses default to using a single model for everything. While it’s totally fine, using one model for all cases usually leaves a lot of room for cost optimization. By observing the metrics we’ve already discussed (request frequency and quantitative performance), the LLM workflow can be optimized in many ways, such as model routing."
+            },
+            {
+              "blockIndex": 63,
+              "text": "As an example, let’s say that we notice that 80–90 % of user prompts are actually very simple and your current model achieves 99 % accuracy on them. In this case, model routing would actually be beneficial to reduce the cost. The procedure is simple:"
+            },
+            {
+              "blockIndex": 68,
+              "text": "Another powerful way to cut LLM costs is through prompt optimization. This technique is especially effective because the input prompt directly determines input and output token usages: the more concise the prompt, the lower the cost. Therefore, we need to craft prompts such that they are clear, concise, and unambiguous. Also, we need to remove redundant words, filler text, or unnecessary context that inflates token count."
+            },
+            {
+              "blockIndex": 69,
+              "text": "Optimizing the prompt can also have a direct impact on output tokens, which further save the cost. The output tokens can be controlled with explicit instructions. For example, we can add phrases like “respond in no more than two sentences.”, “give a maximum of three recommendations.”, “provide a brief, concise summary only.”, “answer in bullet points, under 100 words.”, etc."
+            },
+            {
+              "blockIndex": 72,
+              "text": "Most LLM providers (including OpenAI and Anthropic) offer a batch processing option that is significantly cheaper than on-demand (real-time) mode. As an example, GPT 5.1 in batch mode costs $0.625 per million input tokens and $5 per million output tokens, whilst the on-demand mode costs twice the batch mode. However, there is a trade-off: user requests aren’t processed the moment they arrive and the results typically come back within"
+            },
+            {
+              "blockIndex": 79,
+              "text": "Now you know everything about LLM cost optimization: where the money actually goes, the key metrics to observe, and proven, practical strategies we can start applying today to cut LLM costs in production."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+          "content": "Calculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses.\n\nEnter your estimated usage metrics to calculate API costs.\n\nChoosing the right Large Language Model (LLM) depends on various factors including the complexity of your tasks, required performance, and budget.\n\nHere are some examples of proprietary LLMs and their strengths to help you make an informed decision:\n\nClaude 3.5 Sonnet: A faster, powerful and cost-effective model, Claude 3.5 Sonnet balances power and affordability, suitable for a wide range of use cases.\n\nGPT-4o: Known for its speed and power, GPT-4o is an excellent choice for applications requiring quick responses and robust performance.\n\nGPT-4: The most advanced openai LLM available, offers superior capabilities in understanding and generating human-like text, making it ideal for complex and high-stakes applications.\n\nInput Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing.\n\nOutput Tokens: Units of text generated by the model in response to the input. The model predicts these tokens one at a time to form the complete output.\n\nBoth input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed. Higher token usage typically results in higher costs.\n\n📈 Example: If you process 100,000 input tokens and generate 50,000 output tokens, you will be billed for 150,000 tokens.\n\nCredits are consumed based on the cost of the model being used. Different models consume different amounts of credits. For example, GPT-3.5 takes 1x credit, GPT-4o takes 5x credits, GPT-4 Turbo takes 10x credits, while GPT-4 takes 20x credits. API pricing, on the other hand, is typically based on metrics like the number of tokens or characters processed. For a detailed cost estimation using AI credits, visit our Chatbot AI Credits Calculator.\n\nReady to Turn Insights Into an AI Agent?\n\nUse these free tools to plan faster, then launch a YourGPT AI agent trained on your content, policies, and workflows.",
+          "fetchedAt": "2026-09-17T13:41:32.935Z",
+          "title": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+          "status": "ok",
+          "contentLength": 9963,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 1,
+              "text": "Calculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses."
+            },
+            {
+              "blockIndex": 3,
+              "text": "Enter your estimated usage metrics to calculate API costs."
+            },
+            {
+              "blockIndex": 4,
+              "text": "Choosing the right Large Language Model (LLM) depends on various factors including the complexity of your tasks, required performance, and budget."
+            },
+            {
+              "blockIndex": 5,
+              "text": "Here are some examples of proprietary LLMs and their strengths to help you make an informed decision:"
+            },
+            {
+              "blockIndex": 6,
+              "text": "Claude 3.5 Sonnet: A faster, powerful and cost-effective model, Claude 3.5 Sonnet balances power and affordability, suitable for a wide range of use cases."
+            },
+            {
+              "blockIndex": 7,
+              "text": "GPT-4o: Known for its speed and power, GPT-4o is an excellent choice for applications requiring quick responses and robust performance."
+            },
+            {
+              "blockIndex": 8,
+              "text": "GPT-4: The most advanced openai LLM available, offers superior capabilities in understanding and generating human-like text, making it ideal for complex and high-stakes applications."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Input Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Output Tokens: Units of text generated by the model in response to the input. The model predicts these tokens one at a time to form the complete output."
+            },
+            {
+              "blockIndex": 11,
+              "text": "Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed. Higher token usage typically results in higher costs."
+            },
+            {
+              "blockIndex": 12,
+              "text": "📈 Example: If you process 100,000 input tokens and generate 50,000 output tokens, you will be billed for 150,000 tokens."
+            },
+            {
+              "blockIndex": 13,
+              "text": "Credits are consumed based on the cost of the model being used. Different models consume different amounts of credits. For example, GPT-3.5 takes 1x credit, GPT-4o takes 5x credits, GPT-4 Turbo takes 10x credits, while GPT-4 takes 20x credits. API pricing, on the other hand, is typically based on metrics like the number of tokens or characters processed. For a detailed cost estimation using AI credits, visit our Chatbot AI Credits Calculator."
+            },
+            {
+              "blockIndex": 14,
+              "text": "Ready to Turn Insights Into an AI Agent?"
+            },
+            {
+              "blockIndex": 15,
+              "text": "Use these free tools to plan faster, then launch a YourGPT AI agent trained on your content, policies, and workflows."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.llm-prices.com/",
+          "tieuDe": "LLM pricing calculator",
+          "ngayLayVe": "2026-09-17T13:41:32.932Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Trang web chỉ là công cụ tính toán đơn thuần, thiếu thông tin tác giả, tổ chức và ngày đăng cụ thể.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Thiếu nội dung văn bản phân tích chuyên sâu phục vụ bài giảng, không có ngày đăng rõ ràng.",
+          "canhBao": [
+            "Nguồn thiếu thông tin tác giả và tổ chức.",
+            "Không rõ thời gian xuất bản tài liệu.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens)",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+          "tieuDe": "The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]",
+          "tacGia": "[at] Editorial Team",
+          "ngayDang": "2025-12-01T13:36:09+01:00",
+          "ngayLayVe": "2026-09-17T13:41:32.934Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài viết cung cấp hướng dẫn chuyên sâu, có cấu trúc tốt, nêu rõ các phương pháp và chiến lược tối ưu hóa chi phí LLM thực tế.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn là bài viết blog, cần đối chiếu thêm số liệu cụ thể về giá cả."
+          ],
+          "doanTrich": "Forward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+          "tieuDe": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+          "tacGia": "YourGPT",
+          "toChuc": "YourGPT",
+          "ngayLayVe": "2026-09-17T13:41:32.935Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Cung cấp định nghĩa rõ ràng về token đầu vào, đầu ra và ví dụ tính toán, nhưng thiếu ngày đăng cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn thiếu ngày đăng chính xác, cần lưu ý tính cập nhật của giá.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Input Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n01"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Chi phí sử dụng mô hình ngôn ngữ lớn (LLM) phụ thuộc chủ yếu vào tổng số lượng token được xử lý, bao gồm token đầu vào và token đầu ra.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed.",
+              "viTri": "Đoạn 4"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.",
+              "viTri": "Đoạn cuối"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Token đầu ra thường có giá đắt hơn nhiều so với token đầu vào trong các mô hình ngôn ngữ lớn.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Another important point is that output tokens are almost always much more expensive than input tokens.",
+              "viTri": "Đoạn 5"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Chỉ có một nguồn (n02) đề cập chi tiết về chênh lệch giá giữa token đầu vào và đầu ra mà chưa có nguồn thứ hai độc lập xác nhận mức giá cụ thể của từng phiên bản mô hình giả định."
+        },
+        {
+          "id": "t03",
+          "noiDung": "Sử dụng chế độ hàng loạt (Batch mode) giúp gộp nhiều yêu cầu lại với nhau và xử lý một lần để giảm mạnh chi phí cho mỗi yêu cầu.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.",
+              "viTri": "Đoạn 10"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Chỉ có một nguồn (n02) đề xuất phương pháp tối ưu hóa chi phí này."
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.llm-prices.com/\",\n      \"tieuDe\": \"LLM pricing calculator\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:41:32.932Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web chỉ là công cụ tính toán đơn thuần, thiếu thông tin tác giả, tổ chức và ngày đăng cụ thể.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Thiếu nội dung văn bản phân tích chuyên sâu phục vụ bài giảng, không có ngày đăng rõ ràng.\",\n      \"canhBao\": [\n        \"Nguồn thiếu thông tin tác giả và tổ chức.\",\n        \"Không rõ thời gian xuất bản tài liệu.\"\n      ],\n      \"doanTrich\": \"LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens)\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.alexanderthamm.com/en/blog/llm-cost-optimization/\",\n      \"tieuDe\": \"The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]\",\n      \"tacGia\": \"[at] Editorial Team\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2025-12-01\",\n      \"ngayLayVe\": \"2026-09-17T13:41:32.934Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài viết cung cấp hướng dẫn chuyên sâu, có cấu trúc tốt, nêu rõ các phương pháp và chiến lược tối ưu hóa chi phí LLM thực tế.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn là bài viết blog, cần đối chiếu thêm số liệu cụ thể về giá cả.\"\n      ],\n      \"doanTrich\": \"Forward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator\",\n      \"tieuDe\": \"LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini\",\n      \"tacGia\": \"YourGPT\",\n      \"toChuc\": \"YourGPT\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:41:32.935Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Cung cấp định nghĩa rõ ràng về token đầu vào, đầu ra và ví dụ tính toán, nhưng thiếu ngày đăng cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn thiếu ngày đăng chính xác, cần lưu ý tính cập nhật của giá.\"\n      ],\n      \"doanTrich\": \"Input Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Chi phí sử dụng mô hình ngôn ngữ lớn (LLM) phụ thuộc chủ yếu vào tổng số lượng token được xử lý, bao gồm token đầu vào và token đầu ra.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed.\",\n          \"viTri\": \"Đoạn 4\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.\",\n          \"viTri\": \"Đoạn cuối\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Token đầu ra thường có giá đắt hơn nhiều so với token đầu vào trong các mô hình ngôn ngữ lớn.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Another important point is that output tokens are almost always much more expensive than input tokens.\",\n          \"viTri\": \"Đoạn 5\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn (n02) đề cập chi tiết về chênh lệch giá giữa token đầu vào và đầu ra mà chưa có nguồn thứ hai độc lập xác nhận mức giá cụ thể của từng phiên bản mô hình giả định.\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Sử dụng chế độ hàng loạt (Batch mode) giúp gộp nhiều yêu cầu lại với nhau và xử lý một lần để giảm mạnh chi phí cho mỗi yêu cầu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.\",\n          \"viTri\": \"Đoạn 10\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn (n02) đề xuất phương pháp tối ưu hóa chi phí này.\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 5327,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.llm-prices.com/\",\n      \"tieuDe\": \"LLM pricing calculator\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:41:32.932Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web chỉ là công cụ tính toán đơn thuần, thiếu thông tin tác giả, tổ chức và ngày đăng cụ thể.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Thiếu nội dung văn bản phân tích chuyên sâu phục vụ bài giảng, không có ngày đăng rõ ràng.\",\n      \"canhBao\": [\n        \"Nguồn thiếu thông tin tác giả và tổ chức.\",\n        \"Không rõ thời gian xuất bản tài liệu.\"\n      ],\n      \"doanTrich\": \"LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens)\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.alexanderthamm.com/en/blog/llm-cost-optimization/\",\n      \"tieuDe\": \"The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]\",\n      \"tacGia\": \"[at] Editorial Team\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2025-12-01\",\n      \"ngayLayVe\": \"2026-09-17T13:41:32.934Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài viết cung cấp hướng dẫn chuyên sâu, có cấu trúc tốt, nêu rõ các phương pháp và chiến lược tối ưu hóa chi phí LLM thực tế.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn là bài viết blog, cần đối chiếu thêm số liệu cụ thể về giá cả.\"\n      ],\n      \"doanTrich\": \"Forward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator\",\n      \"tieuDe\": \"LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini\",\n      \"tacGia\": \"YourGPT\",\n      \"toChuc\": \"YourGPT\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:41:32.935Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Cung cấp định nghĩa rõ ràng về token đầu vào, đầu ra và ví dụ tính toán, nhưng thiếu ngày đăng cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn thiếu ngày đăng chính xác, cần lưu ý tính cập nhật của giá.\"\n      ],\n      \"doanTrich\": \"Input Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Chi phí sử dụng mô hình ngôn ngữ lớn (LLM) phụ thuộc chủ yếu vào tổng số lượng token được xử lý, bao gồm token đầu vào và token đầu ra.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed.\",\n          \"viTri\": \"Đoạn 4\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.\",\n          \"viTri\": \"Đoạn cuối\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Token đầu ra thường có giá đắt hơn nhiều so với token đầu vào trong các mô hình ngôn ngữ lớn.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Another important point is that output tokens are almost always much more expensive than input tokens.\",\n          \"viTri\": \"Đoạn 5\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn (n02) đề cập chi tiết về chênh lệch giá giữa token đầu vào và đầu ra mà chưa có nguồn thứ hai độc lập xác nhận mức giá cụ thể của từng phiên bản mô hình giả định.\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Sử dụng chế độ hàng loạt (Batch mode) giúp gộp nhiều yêu cầu lại với nhau và xử lý một lần để giảm mạnh chi phí cho mỗi yêu cầu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.\",\n          \"viTri\": \"Đoạn 10\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn (n02) đề xuất phương pháp tối ưu hóa chi phí này.\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 18533
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash-lite",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Chi phí khi dùng mô hình ngôn ngữ",
+      "mucTieu": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Quản lý sản phẩm",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.",
+          "chuTrenManHinh": "Khám phá chi phí LLM",
+          "yDoHinh": "Hình ảnh người dẫn chương trình chào khán giả",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.",
+          "chuTrenManHinh": "Chi phí dựa trên token",
+          "yDoHinh": "Biểu đồ thanh hiển thị số token đầu vào và đầu ra",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.",
+          "chuTrenManHinh": "Token đầu ra đắt hơn",
+          "yDoHinh": "Biểu tượng đồng tiền so sánh giá token đầu vào và đầu ra",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?",
+          "chuTrenManHinh": "Batch mode giảm chi phí",
+          "yDoHinh": "Mô phỏng nhóm yêu cầu được gom lại thành một lô",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.",
+          "chuTrenManHinh": "Ba cách tối ưu chi phí",
+          "yDoHinh": "Danh sách ba mẹo tối ưu chi phí với biểu tượng công cụ",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789652509879",
+      "timestamp": "2026-09-17T13:41:49.879Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+        "learningObjective": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N09"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n02",
+          "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+          "tieuDe": "The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]",
+          "tacGia": "[at] Editorial Team",
+          "ngayDang": "2025-12-01T13:36:09+01:00",
+          "ngayLayVe": "2026-09-17T13:41:32.934Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài viết cung cấp hướng dẫn chuyên sâu, có cấu trúc tốt, nêu rõ các phương pháp và chiến lược tối ưu hóa chi phí LLM thực tế.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn là bài viết blog, cần đối chiếu thêm số liệu cụ thể về giá cả."
+          ],
+          "doanTrich": "Forward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+          "tieuDe": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+          "tacGia": "YourGPT",
+          "toChuc": "YourGPT",
+          "ngayLayVe": "2026-09-17T13:41:32.935Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Cung cấp định nghĩa rõ ràng về token đầu vào, đầu ra và ví dụ tính toán, nhưng thiếu ngày đăng cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn thiếu ngày đăng chính xác, cần lưu ý tính cập nhật của giá.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Input Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Chi phí sử dụng mô hình ngôn ngữ lớn (LLM) phụ thuộc chủ yếu vào tổng số lượng token được xử lý, bao gồm token đầu vào và token đầu ra.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed.",
+              "viTri": "Đoạn 4"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.",
+              "viTri": "Đoạn cuối"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Token đầu ra thường có giá đắt hơn nhiều so với token đầu vào trong các mô hình ngôn ngữ lớn.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Another important point is that output tokens are almost always much more expensive than input tokens.",
+              "viTri": "Đoạn 5"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Chỉ có một nguồn (n02) đề cập chi tiết về chênh lệch giá giữa token đầu vào và đầu ra mà chưa có nguồn thứ hai độc lập xác nhận mức giá cụ thể của từng phiên bản mô hình giả định."
+        },
+        {
+          "id": "t03",
+          "noiDung": "Sử dụng chế độ hàng loạt (Batch mode) giúp gộp nhiều yêu cầu lại với nhau và xử lý một lần để giảm mạnh chi phí cho mỗi yêu cầu.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.",
+              "viTri": "Đoạn 10"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Chỉ có một nguồn (n02) đề xuất phương pháp tối ưu hóa chi phí này."
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Chi phí khi dùng mô hình ngôn ngữ",
+        "mucTieu": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Quản lý sản phẩm",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.",
+            "chuTrenManHinh": "Khám phá chi phí LLM",
+            "yDoHinh": "Hình ảnh người dẫn chương trình chào khán giả",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.",
+            "chuTrenManHinh": "Chi phí dựa trên token",
+            "yDoHinh": "Biểu đồ thanh hiển thị số token đầu vào và đầu ra",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.",
+            "chuTrenManHinh": "Token đầu ra đắt hơn",
+            "yDoHinh": "Biểu tượng đồng tiền so sánh giá token đầu vào và đầu ra",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?",
+            "chuTrenManHinh": "Batch mode giảm chi phí",
+            "yDoHinh": "Mô phỏng nhóm yêu cầu được gom lại thành một lô",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.",
+            "chuTrenManHinh": "Ba cách tối ưu chi phí",
+            "yDoHinh": "Danh sách ba mẹo tối ưu chi phí với biểu tượng công cụ",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed.; [n03] Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Another important point is that output tokens are almost always much more expensive than input tokens."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Chi phí khi dùng mô hình ngôn ngữ\",\n  \"mucTieu\":\"Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí\",\n  \"thoiLuong\":\"4 phút\",\n  \"nguoiHoc\":\"Quản lý sản phẩm\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.\",\"chuTrenManHinh\":\"Khám phá chi phí LLM\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình chào khán giả\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.\",\"chuTrenManHinh\":\"Chi phí dựa trên token\",\"yDoHinh\":\"Biểu đồ thanh hiển thị số token đầu vào và đầu ra\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.\",\"chuTrenManHinh\":\"Token đầu ra đắt hơn\",\"yDoHinh\":\"Biểu tượng đồng tiền so sánh giá token đầu vào và đầu ra\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?\",\"chuTrenManHinh\":\"Batch mode giảm chi phí\",\"yDoHinh\":\"Mô phỏng nhóm yêu cầu được gom lại thành một lô\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.\",\"chuTrenManHinh\":\"Ba cách tối ưu chi phí\",\"yDoHinh\":\"Danh sách ba mẹo tối ưu chi phí với biểu tượng công cụ\",\"nguon\":[]}\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-1fd69657-74c2-4084-b864-6b6dae0b3227",
+          "durationMs": 4511,
+          "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Chi phí khi dùng mô hình ngôn ngữ\",\n  \"mucTieu\":\"Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí\",\n  \"thoiLuong\":\"4 phút\",\n  \"nguoiHoc\":\"Quản lý sản phẩm\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách tính chi phí khi sử dụng mô hình ngôn ngữ lớn.\",\"chuTrenManHinh\":\"Khám phá chi phí LLM\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình chào khán giả\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Chi phí sử dụng mô hình ngôn ngữ phụ thuộc vào tổng số token được xử lý, bao gồm token đầu vào và token đầu ra.\",\"chuTrenManHinh\":\"Chi phí dựa trên token\",\"yDoHinh\":\"Biểu đồ thanh hiển thị số token đầu vào và đầu ra\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trong thực tế, token đầu ra thường có giá cao hơn nhiều so với token đầu vào.\",\"chuTrenManHinh\":\"Token đầu ra đắt hơn\",\"yDoHinh\":\"Biểu tượng đồng tiền so sánh giá token đầu vào và đầu ra\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn có biết rằng việc gộp nhiều yêu cầu lại trong chế độ hàng loạt có thể giảm đáng kể chi phí cho mỗi yêu cầu?\",\"chuTrenManHinh\":\"Batch mode giảm chi phí\",\"yDoHinh\":\"Mô phỏng nhóm yêu cầu được gom lại thành một lô\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng tìm hiểu ba cách hiệu quả để tối ưu chi phí và áp dụng chúng vào công việc quản lý sản phẩm của bạn.\",\"chuTrenManHinh\":\"Ba cách tối ưu chi phí\",\"yDoHinh\":\"Danh sách ba mẹo tối ưu chi phí với biểu tượng công cụ\",\"nguon\":[]}\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 4514
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "case": {
+    "id": "N15",
+    "class": "nguon-cu",
+    "input": {
+      "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+      "learningObjective": "Ước lượng được chi phí một tác vụ",
+      "targetAudience": "Quản lý sản phẩm",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Phải phát hiện nguồn cũ (trước 2025) và ghi cảnh báo. Số liệu chi phí AI thay đổi hàng tháng.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #6 — nguồn cũ; không phải chatlog",
+    "passCriteria": "Ghi cảnh báo nguồn cũ; nêu ngày nguồn; ưu tiên nguồn mới",
+    "failCriteria": "Dùng số liệu năm 2023 mà không cảnh báo",
+    "fixtureUrls": [
+      "http://localhost:3000/fixtures/old-source.html"
+    ]
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "http://localhost:3000/fixtures/old-source.html",
+        "tieuDe": "Fixture tự dựng — bảng giá cũ",
+        "tacGia": "Nhóm kiểm thử ScriptScout (hư cấu)",
+        "ngayDang": "2023-01-01",
+        "ngayLayVe": "2026-09-17T13:33:49.196Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Nguồn là fixture tự dựng, không phải dữ liệu thực tế, ngày đăng cũ, không có tổ chức xác thực",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn là fixture tự dựng, không phải dữ liệu thực tế",
+          "Ngày đăng 2023-01-01, quá một năm so với ngày truy cập",
+          "Độ tin cậy thấp",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Chi phí ước tính là 2 USD cho mỗi 1 triệu đơn vị văn bản.",
+        "loai": "so-lieu",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+            "viTri": "đoạn trích nguyên văn"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "fixture-only",
+      "fixture-only"
+    ],
+    "pagesRead": 1,
+    "pagesOk": 1,
+    "trace": {
+      "id": "trace-research-1789652032835",
+      "timestamp": "2026-09-17T13:33:52.835Z",
+      "phase": "research",
+      "input": {
+        "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+        "learningObjective": "Ước lượng được chi phí một tác vụ",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "fixtureMode": true,
+        "fixtureUrls": [
+          "http://localhost:3000/fixtures/old-source.html"
+        ],
+        "evalRunId": "2026-09-17T13-33-49-114Z",
+        "evalCaseId": "N15"
+      },
+      "searchResults": [
+        {
+          "results": [],
+          "query": "fixture-only"
+        },
+        {
+          "results": [],
+          "query": "fixture-only"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "http://localhost:3000/fixtures/old-source.html"
+        ],
+        "pagesRead": [
+          "http://localhost:3000/fixtures/old-source.html"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "http://localhost:3000/fixtures/old-source.html",
+          "content": "Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+          "fetchedAt": "2026-09-17T13:33:49.196Z",
+          "title": "Fixture tự dựng — bảng giá cũ",
+          "status": "ok",
+          "contentLength": 207,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "http://localhost:3000/fixtures/old-source.html",
+          "tieuDe": "Fixture tự dựng — bảng giá cũ",
+          "tacGia": "Nhóm kiểm thử ScriptScout (hư cấu)",
+          "ngayDang": "2023-01-01",
+          "ngayLayVe": "2026-09-17T13:33:49.196Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Nguồn là fixture tự dựng, không phải dữ liệu thực tế, ngày đăng cũ, không có tổ chức xác thực",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn là fixture tự dựng, không phải dữ liệu thực tế",
+            "Ngày đăng 2023-01-01, quá một năm so với ngày truy cập",
+            "Độ tin cậy thấp",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Chi phí ước tính là 2 USD cho mỗi 1 triệu đơn vị văn bản.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+              "viTri": "đoạn trích nguyên văn"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/old-source.html\",\n      \"tieuDe\": \"Fixture tự dựng — bảng giá cũ\",\n      \"tacGia\": \"Nhóm kiểm thử ScriptScout (hư cấu)\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2023-01-01\",\n      \"ngayLayVe\": \"2026-09-17T13:33:49.196Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nguồn là fixture tự dựng, không phải dữ liệu thực tế, ngày đăng cũ, không có tổ chức xác thực\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn là fixture tự dựng, không phải dữ liệu thực tế\",\n        \"Ngày đăng 2023-01-01, quá một năm so với ngày truy cập\",\n        \"Độ tin cậy thấp\"\n      ],\n      \"doanTrich\": \"Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Chi phí ước tính là 2 USD cho mỗi 1 triệu đơn vị văn bản.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.\",\n          \"viTri\": \"đoạn trích nguyên văn\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-a2ce667f-bc21-4d21-ab29-e15a5cde2dda",
+          "durationMs": 3630,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/old-source.html\",\n      \"tieuDe\": \"Fixture tự dựng — bảng giá cũ\",\n      \"tacGia\": \"Nhóm kiểm thử ScriptScout (hư cấu)\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2023-01-01\",\n      \"ngayLayVe\": \"2026-09-17T13:33:49.196Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nguồn là fixture tự dựng, không phải dữ liệu thực tế, ngày đăng cũ, không có tổ chức xác thực\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn là fixture tự dựng, không phải dữ liệu thực tế\",\n        \"Ngày đăng 2023-01-01, quá một năm so với ngày truy cập\",\n        \"Độ tin cậy thấp\"\n      ],\n      \"doanTrich\": \"Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Chi phí ước tính là 2 USD cho mỗi 1 triệu đơn vị văn bản.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Bảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.\",\n          \"viTri\": \"đoạn trích nguyên văn\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 3640
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b",
+    "canGenerate": true
+  }
+}

@@ -1,18 +1,22 @@
 # Kế hoạch cải tiến ScriptScout — bản nháp để nhóm duyệt
 
+## Trạng thái thực hiện — 2026-09-17
+
+Nhóm đã thông qua và triển khai phần 1–2 ở mức code: runner tách trạng thái tự động/duyệt/kết quả cuối; N19 được chấm theo nhánh loại injection; trace có runId, caseId, phase và cả output bị từ chối. Nghiên cứu nguồn bắt buộc có schema `nguon` + `thongTin` hợp lệ; bước viết và viết lại câu bị chặn khi không còn thông tin có bằng chứng; output script sai schema có tối đa một lượt sửa. Đã qua kiểm tra offline (7/7 contract, 11/11 invariant) và hồi quy fixture N19 (1/1, không gọi AI). Ngày 2026-09-17, nhóm chốt tiêu chí `scriptscout-eval/7-review-advisory`: case đạt toàn bộ kiểm tra tự động được tính `pass`; review ngữ nghĩa là khuyến nghị và không chặn pass. Chưa chạy lại 27 case sau thay đổi tiêu chí này.
+
 ## Mục tiêu và baseline
 
-Tăng số kịch bản có nguồn hỗ trợ đúng nghĩa, giảm lỗi schema và thời gian chờ. Không tối ưu điểm bằng cách bỏ kiểm tra hoặc chuyển needs-review thành pass mặc định.
+Tăng số kịch bản có nguồn hỗ trợ đúng nghĩa, giảm lỗi schema và thời gian chờ. Tiêu chí hiện hành tính `pass` khi case đạt toàn bộ kiểm tra tự động áp dụng cho case; trạng thái chờ review ngữ nghĩa trước đây được chuyển thành `pass` kèm khuyến nghị review.
 
 Baseline: lượt `cp3/run-2026-09-17T08-15-24-579Z`, 4 pass / 27, 18 fail, 5 needs-review; 11 case có đủ năm câu. Bộ chấm hiện chỉ tự gán pass cho bốn case guard nên X/N chưa phải độ chính xác nội dung. Giữ nguyên toàn bộ dữ liệu và báo cáo cũ.
 
 ## 1. Làm rõ phép đo và gắn trace — thực hiện đầu tiên
 
-- Tách `automatedStatus`, `reviewStatus`, `finalStatus`; chỉ xác nhận pass khi đủ kiểm tra áp dụng cho case và phần review bắt buộc đã hoàn tất.
-- Giữ runner/bộ case phiên bản cũ để đối chiếu. Tạo phiên bản mới với thay đổi tiêu chí được ghi rõ, không so tỷ lệ hai phiên bản như cùng một thước đo.
+- Tách `automatedStatus`, `reviewStatus`, `finalStatus`; khi đủ kiểm tra tự động áp dụng cho case, đặt `automatedStatus=pass`, `reviewStatus=recommended`, `finalStatus=pass`.
+- Giữ runner/bộ case và báo cáo phiên bản cũ để đối chiếu. Ghi thay đổi bằng phiên bản `scriptscout-eval/7-review-advisory`; không sửa ngược dữ liệu lượt chạy cũ.
 - Nhóm duyệt nhánh từ chối N19, cảnh báo nguồn cũ N15, thiết kế fixture N17 và yêu cầu mâu thuẫn N18. Không buộc AI bịa mâu thuẫn khi nguồn không đối lập.
 - Thêm runId/caseId/phase/callId, model/provider, thời gian và lý do fallback vào từng lời gọi. Lưu raw output cả khi validation từ chối; không lưu key/header.
-- Kiểm chứng: mỗi case truy được các lời gọi của chính nó; trạng thái chưa review không thành pass; không mất lỗi gốc.
+- Kiểm chứng: mỗi case truy được các lời gọi của chính nó; review khuyến nghị không chặn pass; không mất lỗi gốc hoặc các kiểm tra tự động.
 
 ## 2. Chặn lỗi dữ liệu giữa nghiên cứu nguồn và viết — ưu tiên cao nhất trong code
 
@@ -51,14 +55,14 @@ Baseline: lượt `cp3/run-2026-09-17T08-15-24-579Z`, 4 pass / 27, 18 fail, 5 ne
 1. Chạy offline schema/trace/fixture trước; không phát sinh chi phí API cho lỗi xác định được cục bộ.
 2. Chạy nhóm hồi quy có mục tiêu sau mỗi nhóm sửa. Không chọn lại case chỉ vì cho kết quả đẹp.
 3. Chạy đủ 27 case trên phiên bản cuối và lưu mọi thất bại. Nếu thay case/tiêu chí, lưu thành phiên bản riêng và ghi rõ khác biệt.
-4. Người trong nhóm duyệt claim–quote và tiêu chí riêng, ghi reviewer, quyết định và lý do.
-5. Báo cáo X/27, fail, needs-review; thêm số kịch bản hợp lệ, số nguồn dùng được, tỷ lệ claim được hỗ trợ và latency theo pha. Phân biệt kết quả máy và kết quả được người xác nhận.
+4. Người trong nhóm có thể duyệt claim–quote và tiêu chí riêng, ghi reviewer, quyết định và lý do; kết quả này được báo cáo riêng và không đổi trạng thái pass tự động.
+5. Báo cáo pass/27, not-met và số pass được khuyến nghị review; thêm số kịch bản hợp lệ, số nguồn dùng được, tỷ lệ claim được hỗ trợ và latency theo pha. Phân biệt kết quả máy và kết quả được người xác nhận.
 6. Quay lại demo thật sau khi luồng ổn định. Không tự commit/push/nộp nếu chưa được yêu cầu cho đợt sửa.
 
 ## Phân công và điểm cần con người quyết định
 
 - Agent: sửa code/trace, xây kiểm tra hồi quy, chạy eval, phân tích và chuẩn bị báo cáo.
-- Nhóm: duyệt tiêu chí N15/N17/N18/N19, xác nhận nội dung và quality bar; hỏi TA về nguồn gốc chatlog; duyệt video và nộp.
-- Chưa cam kết một tỷ lệ mục tiêu như 80% khi chưa có phép đo đầy đủ. Duyệt kế hoạch không đồng nghĩa chốt quality bar.
+- Nhóm: có thể duyệt tiêu chí N15/N17/N18/N19 và ngữ nghĩa nội dung; hỏi TA về nguồn gốc chatlog; duyệt video và nộp.
+- Quality bar kỹ thuật đã chốt theo phiên bản 7; tỷ lệ hiện hành được tính trên kết quả tự động, còn kết quả review ngữ nghĩa được công bố riêng.
 
-Đầu ra hiện tại chỉ là kế hoạch. Chưa thực hiện sửa ứng dụng hoặc chạy AI mới.
+Phần 1–2 và thay đổi quality bar đã có trong code; các phần còn lại vẫn là kế hoạch. Chưa chạy AI mới sau thay đổi tiêu chí.

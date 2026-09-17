@@ -1,0 +1,163 @@
+{
+  "id": "trace-script-1789651509097",
+  "timestamp": "2026-09-17T13:25:09.097Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "learningObjective": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "targetAudience": "Cán bộ nhân viên văn phòng",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N24"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.grantthornton.ie/insights/factsheets/7-data-privacy-considerations-in-ai-adoption/",
+      "tieuDe": "7 data privacy considerations in AI adoption | Grant Thornton",
+      "toChuc": "Grant Thornton Ireland",
+      "ngayLayVe": "2026-09-17T13:24:30.766Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Công ty kiểm toán và tư vấn quốc tế, nội dung dựa trên whitepaper chuyên môn, cập nhật 2023.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "One of the most pressing concerns is the potential exposure of sensitive information that end users input into AI systems.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://witness.ai/blog/ai-privacy/",
+      "tieuDe": "AI Privacy: Protecting Data in the Age of Artificial Intelligence - WitnessAI",
+      "tacGia": "WitnessAI",
+      "toChuc": "WitnessAI",
+      "ngayDang": "2025-10-15T18:40:58+00:00",
+      "ngayLayVe": "2026-09-17T13:24:32.688Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog của công ty công nghệ, cung cấp quan điểm chuyên môn nhưng không được kiểm duyệt học thuật.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Có thể có quan điểm thương mại của nhà cung cấp."
+      ],
+      "doanTrich": "Some AI-driven platforms collect user data without explicit consent—often by scraping public content or harvesting information from social media.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://www.privacyglobal.org/blog/ai-and-privacy-how-ai-uses-personal-data",
+      "tieuDe": "AI Privacy Risks: How AI Uses Personal Data",
+      "tacGia": "Privacy Global",
+      "toChuc": "Privacy Global",
+      "ngayLayVe": "2026-09-17T13:24:32.689Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog chuyên về quyền riêng tư, thông tin cập nhật nhưng không có quy trình phản biện học thuật.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "For example, many privacy regulations give individuals the right to request deletion of their personal data.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Không nhập thông tin nhạy cảm (ví dụ: số an sinh xã hội, dữ liệu y tế) vào các công cụ AI để tránh rủi ro rò rỉ dữ liệu.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "One of the most pressing concerns is the potential exposure of sensitive information that end users input into AI systems.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Chỉ thu thập dữ liệu khi có sự đồng ý rõ ràng của người dùng; tránh việc thu thập dữ liệu mà không có sự cho phép.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Some AI-driven platforms collect user data without explicit consent—often by scraping public content or harvesting information from social media.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Khi cần xóa dữ liệu cá nhân, yêu cầu nhà cung cấp AI thực hiện quyền ‘right to be forgotten’ và xác nhận việc xóa hoàn toàn.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "For example, many privacy regulations give individuals the right to request deletion of their personal data.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Dữ liệu cá nhân khi dùng trợ lý AI",
+    "mucTieu": "Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Cán bộ nhân viên văn phòng",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Dữ liệu cá nhân khi dùng trợ lý AI\",\n  \"mucTieu\": \"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Cán bộ nhân viên văn phòng\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào các anh chị, hôm nay chúng ta sẽ cùng tìm hiểu về dữ liệu cá nhân khi dùng trợ lý trí tuệ nhân tạo.\",\n      \"chuTrenManHinh\": \"Dữ liệu cá nhân khi dùng AI\",\n      \"yDoHinh\": \"Hình ảnh nhân viên văn phòng đang làm việc bên máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Anh chị có biết việc nhập thông tin nhạy cảm như số an sinh xã hội hay dữ liệu y tế vào hệ thống trợ lý trí tuệ nhân tạo có thể gây ra rủi ro rò rỉ dữ liệu hay không?\",\n      \"chuTrenManHinh\": \"Rủi ro rò rỉ thông tin nhạy cảm\",\n      \"yDoHinh\": \"Biểu tượng cảnh báo dữ liệu xuất hiện trên màn hình\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Nhiều nền tảng ứng dụng trí tuệ nhân tạo hiện nay thu thập dữ liệu của người dùng mà không có sự đồng ý rõ ràng, thường thông qua việc quét nội dung công khai hoặc thu thập từ mạng xã hội.\",\n      \"chuTrenManHinh\": \"Thu thập dữ liệu chưa có đồng ý\",\n      \"yDoHinh\": \"Sơ đồ minh họa quá trình thu thập thông tin từ mạng xã hội\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, theo các quy định về quyền riêng tư chưa kiểm chứng toàn diện, nhiều cá nhân có quyền yêu cầu xóa dữ liệu cá nhân của mình.\",\n      \"chuTrenManHinh\": \"Quyền yêu cầu xóa dữ liệu\",\n      \"yDoHinh\": \"Hình minh họa tài liệu số được đánh dấu xóa\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, ngay sau đây chúng ta sẽ cùng nắm vững ba việc nên và không nên làm để bảo vệ dữ liệu cá nhân của mình.\",\n      \"chuTrenManHinh\": \"Ba việc nên và không nên làm\",\n      \"yDoHinh\": \"Bảng tóm tắt ba việc nên và không nên làm khi dùng công cụ AI\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "requestId": "chatcmpl-6593cb46-49a0-4146-a52a-324370422634",
+      "durationMs": 5305,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Dữ liệu cá nhân khi dùng trợ lý AI\",\"mucTieu\":\"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Cán bộ nhân viên văn phòng\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các anh chị, hôm nay chúng ta sẽ cùng tìm hiểu về dữ liệu cá nhân khi dùng trợ lý AI, hay còn gọi là trí tuệ nhân tạo.\",\"chuTrenManHinh\":\"Chào mừng\",\"yDoHinh\":\"Hình ảnh một nhóm nhân viên trong văn phòng\",\"nguon\":[]}]}",
+      "validationError": "AI không trả đúng số câu"
+    },
+    {
+      "stage": "repair",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "durationMs": 2993,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Dữ liệu cá nhân khi dùng trợ lý AI\",\n  \"mucTieu\": \"Kể được ba việc nên và không nên làm khi nhập dữ liệu vào công cụ AI\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Cán bộ nhân viên văn phòng\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào các anh chị, hôm nay chúng ta sẽ cùng tìm hiểu về dữ liệu cá nhân khi dùng trợ lý trí tuệ nhân tạo.\",\n      \"chuTrenManHinh\": \"Dữ liệu cá nhân khi dùng AI\",\n      \"yDoHinh\": \"Hình ảnh nhân viên văn phòng đang làm việc bên máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Anh chị có biết việc nhập thông tin nhạy cảm như số an sinh xã hội hay dữ liệu y tế vào hệ thống trợ lý trí tuệ nhân tạo có thể gây ra rủi ro rò rỉ dữ liệu hay không?\",\n      \"chuTrenManHinh\": \"Rủi ro rò rỉ thông tin nhạy cảm\",\n      \"yDoHinh\": \"Biểu tượng cảnh báo dữ liệu xuất hiện trên màn hình\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Nhiều nền tảng ứng dụng trí tuệ nhân tạo hiện nay thu thập dữ liệu của người dùng mà không có sự đồng ý rõ ràng, thường thông qua việc quét nội dung công khai hoặc thu thập từ mạng xã hội.\",\n      \"chuTrenManHinh\": \"Thu thập dữ liệu chưa có đồng ý\",\n      \"yDoHinh\": \"Sơ đồ minh họa quá trình thu thập thông tin từ mạng xã hội\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, theo các quy định về quyền riêng tư chưa kiểm chứng toàn diện, nhiều cá nhân có quyền yêu cầu xóa dữ liệu cá nhân của mình.\",\n      \"chuTrenManHinh\": \"Quyền yêu cầu xóa dữ liệu\",\n      \"yDoHinh\": \"Hình minh họa tài liệu số được đánh dấu xóa\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, ngay sau đây chúng ta sẽ cùng nắm vững ba việc nên và không nên làm để bảo vệ dữ liệu cá nhân của mình.\",\n      \"chuTrenManHinh\": \"Ba việc nên và không nên làm\",\n      \"yDoHinh\": \"Bảng tóm tắt ba việc nên và không nên làm khi dùng công cụ AI\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    }
+  ],
+  "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)",
+  "isDemo": false,
+  "durationMs": 18390
+}

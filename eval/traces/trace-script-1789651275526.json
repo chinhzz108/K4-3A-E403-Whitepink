@@ -1,0 +1,219 @@
+{
+  "id": "trace-script-1789651275526",
+  "timestamp": "2026-09-17T13:21:15.526Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+    "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+    "targetAudience": "Giảng viên đại học",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N18"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n03",
+      "url": "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading",
+      "tieuDe": "Benefits of AI Grading for Teachers | How Tools Simplify Grading",
+      "toChuc": "Quetext",
+      "ngayDang": "2025-11-19T08:05:39",
+      "ngayLayVe": "2026-09-17T13:20:43.352Z",
+      "loai": "bao-chi",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nội dung mang tính tiếp thị công cụ của hãng Quetext nhưng cung cấp góc nhìn thực tế về lợi ích của AI trong giáo dục.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn mang tính thương mại quảng bá sản phẩm.",
+        "Chỉ một tổ chức xác nhận."
+      ],
+      "doanTrich": "The AI grading tools available today, for teachers, help teachers navigate their significant workload, provide consistency in grading, promote academic integrity, and simply provide an experience while giving feedback that offers a balance between human teacher grading and AI support.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://ascode.osu.edu/news/ai-and-auto-grading-higher-education-capabilities-ethics-and-evolving-role-educators",
+      "tieuDe": "AI and Auto-Grading in Higher Education: Capabilities, Ethics, and the Evolving Role of Educators | ASC Office of Distance Education",
+      "ngayLayVe": "2026-09-17T13:20:58.363Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu học thuật từ cơ sở giáo dục đại học uy tín (The Ohio State University), có trích dẫn nghiên cứu rõ ràng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn không rõ ngày đăng cụ thể.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "AI-assisted grading, on the other hand, offers promising potential for large-scale, subjective assessments. Still, it introduces ethical concerns around bias, transparency, and fairness.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n03",
+    "n05"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "AI giúp giảm tải khối lượng công việc đáng kể cho giáo viên và mang lại tính nhất quán trong việc chấm điểm.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "The AI grading tools available today, for teachers, help teachers navigate their significant workload, provide consistency in grading, promote academic integrity, and simply provide an experience while giving feedback that offers a balance between human teacher grading and AI support.",
+          "viTri": "Đoạn 1 phần nội dung"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có một nguồn từ Quetext đề cập, chưa có đối chiếu độc lập từ các nghiên cứu giáo dục chính thống."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Chấm bài bằng AI mang lại tiềm năng lớn cho các bài đánh giá mang tính chủ quan quy mô lớn, nhưng đồng thời làm dấy lên các lo ngại đạo đức về sai lệch thuật toán (bias), tính minh bạch và sự công bằng.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n05",
+          "doanTrich": "AI-assisted grading, on the other hand, offers promising potential for large-scale, subjective assessments. Still, it introduces ethical concerns around bias, transparency, and fairness.",
+          "viTri": "Phần Capabilities, Limitations, and Ethical Considerations"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có nguồn từ The Ohio State University đề cập chi tiết trong tập dữ liệu này."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "AI trong chấm bài và phản hồi cho sinh viên",
+    "mucTieu": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+    "thoiLuong": "năm phút",
+    "nguoiHoc": "Giảng viên đại học",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các thầy cô đến với buổi chia sẻ về AI trong chấm bài và phản hồi cho sinh viên.",
+        "chuTrenManHinh": "Tiêu đề: AI trong chấm bài",
+        "yDoHinh": "Hình ảnh giảng viên đứng trước màn hình",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Trí tuệ nhân tạo (AI) giúp giảm tải khối lượng công việc đáng kể cho giáo viên và mang lại tính nhất quán trong việc chấm điểm.",
+        "chuTrenManHinh": "Lợi ích: giảm tải công việc",
+        "yDoHinh": "Biểu đồ giảm thời gian chấm so với truyền thống",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trí tuệ nhân tạo (AI) cũng hỗ trợ duy trì tính trung thực học thuật trong quá trình chấm.",
+        "chuTrenManHinh": "Lợi ích: duy trì tính trung thực",
+        "yDoHinh": "Biểu tượng cân bằng giữa AI và giáo viên",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Tuy nhiên, trí tuệ nhân tạo (AI) có thể gây lo ngại về sự thiên vị của thuật toán, làm giảm tính công bằng trong đánh giá.",
+        "chuTrenManHinh": "Rủi ro: thiên vị thuật toán",
+        "yDoHinh": "Biểu đồ thể hiện độ lệch điểm do bias",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Ngoài ra, việc thiếu minh bạch trong cách trí tuệ nhân tạo (AI) đưa ra quyết định có thể làm giảm niềm tin của sinh viên và giảng viên.",
+        "chuTrenManHinh": "Rủi ro: thiếu minh bạch",
+        "yDoHinh": "Mô hình hộp đen AI với dấu hỏi",
+        "nguon": [
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các thầy cô đến với buổi chia sẻ về AI trong chấm bài và phản hồi cho sinh viên.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Trí tuệ nhân tạo (AI) giúp giảm tải khối lượng công việc đáng kể cho giáo viên và mang lại tính nhất quán trong việc chấm điểm.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] The AI grading tools available today, for teachers, help teachers navigate their significant workload, provide consistency in grading, promote academic integrity, and simply provide an experience while giving feedback that offers a balance between human teacher grading and AI support."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Trí tuệ nhân tạo (AI) cũng hỗ trợ duy trì tính trung thực học thuật trong quá trình chấm.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] The AI grading tools available today, for teachers, help teachers navigate their significant workload, provide consistency in grading, promote academic integrity, and simply provide an experience while giving feedback that offers a balance between human teacher grading and AI support."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Tuy nhiên, trí tuệ nhân tạo (AI) có thể gây lo ngại về sự thiên vị của thuật toán, làm giảm tính công bằng trong đánh giá.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n05] AI-assisted grading, on the other hand, offers promising potential for large-scale, subjective assessments. Still, it introduces ethical concerns around bias, transparency, and fairness."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Ngoài ra, việc thiếu minh bạch trong cách trí tuệ nhân tạo (AI) đưa ra quyết định có thể làm giảm niềm tin của sinh viên và giảng viên.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n05] AI-assisted grading, on the other hand, offers promising potential for large-scale, subjective assessments. Still, it introduces ethical concerns around bias, transparency, and fairness."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"AI trong chấm bài và phản hồi cho sinh viên\",\"mucTieu\":\"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm\",\"thoiLuong\":\"năm phút\",\"nguoiHoc\":\"Giảng viên đại học\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các thầy cô đến với buổi chia sẻ về AI trong chấm bài và phản hồi cho sinh viên.\",\"chuTrenManHinh\":\"Tiêu đề: AI trong chấm bài\",\"yDoHinh\":\"Hình ảnh giảng viên đứng trước màn hình\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Trí tuệ nhân tạo (AI) giúp giảm tải khối lượng công việc đáng kể cho giáo viên và mang lại tính nhất quán trong việc chấm điểm.\",\"chuTrenManHinh\":\"Lợi ích: giảm tải công việc\",\"yDoHinh\":\"Biểu đồ giảm thời gian chấm so với truyền thống\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trí tuệ nhân tạo (AI) cũng hỗ trợ duy trì tính trung thực học thuật trong quá trình chấm.\",\"chuTrenManHinh\":\"Lợi ích: duy trì tính trung thực\",\"yDoHinh\":\"Biểu tượng cân bằng giữa AI và giáo viên\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Tuy nhiên, trí tuệ nhân tạo (AI) có thể gây lo ngại về sự thiên vị của thuật toán, làm giảm tính công bằng trong đánh giá.\",\"chuTrenManHinh\":\"Rủi ro: thiên vị thuật toán\",\"yDoHinh\":\"Biểu đồ thể hiện độ lệch điểm do bias\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Ngoài ra, việc thiếu minh bạch trong cách trí tuệ nhân tạo (AI) đưa ra quyết định có thể làm giảm niềm tin của sinh viên và giảng viên.\",\"chuTrenManHinh\":\"Rủi ro: thiếu minh bạch\",\"yDoHinh\":\"Mô hình hộp đen AI với dấu hỏi\",\"nguon\":[\"t02\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-4d15581f-10a1-4eba-b007-d92a6a2cd28d",
+      "durationMs": 5688,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"AI trong chấm bài và phản hồi cho sinh viên\",\"mucTieu\":\"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm\",\"thoiLuong\":\"năm phút\",\"nguoiHoc\":\"Giảng viên đại học\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các thầy cô đến với buổi chia sẻ về AI trong chấm bài và phản hồi cho sinh viên.\",\"chuTrenManHinh\":\"Tiêu đề: AI trong chấm bài\",\"yDoHinh\":\"Hình ảnh giảng viên đứng trước màn hình\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Trí tuệ nhân tạo (AI) giúp giảm tải khối lượng công việc đáng kể cho giáo viên và mang lại tính nhất quán trong việc chấm điểm.\",\"chuTrenManHinh\":\"Lợi ích: giảm tải công việc\",\"yDoHinh\":\"Biểu đồ giảm thời gian chấm so với truyền thống\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trí tuệ nhân tạo (AI) cũng hỗ trợ duy trì tính trung thực học thuật trong quá trình chấm.\",\"chuTrenManHinh\":\"Lợi ích: duy trì tính trung thực\",\"yDoHinh\":\"Biểu tượng cân bằng giữa AI và giáo viên\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Tuy nhiên, trí tuệ nhân tạo (AI) có thể gây lo ngại về sự thiên vị của thuật toán, làm giảm tính công bằng trong đánh giá.\",\"chuTrenManHinh\":\"Rủi ro: thiên vị thuật toán\",\"yDoHinh\":\"Biểu đồ thể hiện độ lệch điểm do bias\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Ngoài ra, việc thiếu minh bạch trong cách trí tuệ nhân tạo (AI) đưa ra quyết định có thể làm giảm niềm tin của sinh viên và giảng viên.\",\"chuTrenManHinh\":\"Rủi ro: thiếu minh bạch\",\"yDoHinh\":\"Mô hình hộp đen AI với dấu hỏi\",\"nguon\":[\"t02\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 5691
+}

@@ -1,0 +1,152 @@
+{
+  "id": "trace-script-1789647512786",
+  "timestamp": "2026-09-17T12:18:32.786Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Bản quyền và nội dung do AI tạo ra",
+    "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "targetAudience": "Sinh viên làm đồ án",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T12-12-13-353Z",
+    "evalCaseId": "N05"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://guides.library.utoronto.ca/image-gen-ai/citations",
+      "tieuDe": "Copyright + Citations - Artificial Intelligence for Image Research - Research Guides at University of Toronto",
+      "ngayLayVe": "2026-09-17T12:17:26.131Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu hướng dẫn chính thức từ thư viện đại học uy tín, cung cấp các quy tắc trích dẫn cụ thể và được cập nhật gần đây.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "MLA, and Chicago Manual of Style have released guidelines on citing generative AI in your work.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+      "tieuDe": "Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation",
+      "tacGia": "Tori Noble",
+      "toChuc": "Electronic Frontier Foundation",
+      "ngayDang": "2025-06-26T12:22:26-07:00",
+      "ngayLayVe": "2026-09-17T12:17:26.133Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tổ chức phi lợi nhuận uy tín về quyền kỹ thuật số, phân tích chi tiết các phán quyết pháp lý gần đây về bản quyền AI.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The core question in both cases was whether using copyrighted works to train Large Language Models (LLMs) used in AI chatbots is a lawful fair use.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://guides.lib.uci.edu/research_ai/copyright",
+      "tieuDe": "Copyright, Citation & AI - AI in Research - Research Guides at University of California Irvine",
+      "ngayLayVe": "2026-09-17T12:17:26.134Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Hướng dẫn chính thức từ thư viện đại học, cung cấp thông tin về chính sách bản quyền và trích dẫn AI trong nghiên cứu học thuật.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "In most cases you cannot use AI with Licensed Resources due to copyright and licensing agreements between the library and vendor that govern these resources.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Các phong cách trích dẫn chính (MLA, Chicago) đã ban hành hướng dẫn cụ thể về cách ghi nguồn cho nội dung do AI tạo ra, bao gồm tên công cụ, phiên bản, nhà phát triển và ngày tạo.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "MLA, and Chicago Manual of Style have released guidelines on citing generative AI in your work.",
+          "viTri": "Đoạn mở đầu phần Citing Generative AI"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình AI (LLM) có thể được coi là 'sử dụng hợp lý' (fair use) nếu quá trình đó mang tính chuyển đổi (transformative), tạo ra nội dung mới thay vì sao chép.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+          "viTri": "Phần phân tích phán quyết Bartz v. Anthropic"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Có sự khác biệt trong cách các tòa án áp dụng tiêu chí 'sử dụng hợp lý' (fair use) cho việc huấn luyện AI, với một số phán quyết cho rằng nó là hợp pháp và một số khác có quan điểm thận trọng hơn về tác động thị trường."
+    },
+    {
+      "id": "t03",
+      "noiDung": "Người dùng thường không được phép sử dụng các tài nguyên có bản quyền (licensed resources) của thư viện hoặc nhà xuất bản để huấn luyện hoặc tạo nội dung bằng AI do các thỏa thuận bản quyền và giấy phép.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "In most cases you cannot use AI with Licensed Resources due to copyright and licensing agreements between the library and vendor that govern these resources.",
+          "viTri": "Phần AI & UC Irvine-Licensed Resources"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+    "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên làm đồ án",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Bản quyền và nội dung do AI tạo ra\",\"mucTieu\":\"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Sinh viên làm đồ án\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "requestId": "chatcmpl-eff07268-156a-4305-b7eb-a1e5b6799c6a",
+      "durationMs": 2774,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Bản quyền và nội dung do AI tạo ra\",\"mucTieu\":\"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Sinh viên làm đồ án\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}]}",
+      "validationError": "AI không trả đúng số câu"
+    }
+  ],
+  "error": "Lỗi tạo kịch bản: Kịch bản AI không hợp lệ; lượt sửa không gọi được: Tất cả AI providers đều gặp lỗi: DeepSeek: The operation was aborted due to timeout | Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (400): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+  "isDemo": false,
+  "durationMs": 32300
+}

@@ -1,0 +1,273 @@
+{
+  "id": "trace-script-1789650831386",
+  "timestamp": "2026-09-17T13:13:51.386Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Bản quyền và nội dung do AI tạo ra",
+    "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "targetAudience": "Sinh viên làm đồ án",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N05"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.copyright.gov/ai/",
+      "tieuDe": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+      "tacGia": "U.S. Copyright Office",
+      "ngayLayVe": "2026-09-17T13:13:06.800Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Đây là trang thông tin chính thức của Văn phòng Bản quyền Hoa Kỳ (U.S. Copyright Office), cơ quan chính phủ chịu trách nhiệm về luật bản quyền.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Since launching an initiative in early 2023, the Copyright Office has been examining the copyright law and policy issues raised by artificial intelligence (AI)",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+      "tieuDe": "Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation",
+      "tacGia": "Tori Noble",
+      "toChuc": "Electronic Frontier Foundation",
+      "ngayDang": "2025-06-26T12:22:26-07:00",
+      "ngayLayVe": "2026-09-17T13:13:06.802Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Được xuất bản bởi Electronic Frontier Foundation (EFF), một tổ chức phi lợi nhuận uy tín hàng đầu chuyên bảo vệ quyền kỹ thuật số và phân tích pháp lý công nghệ.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Tài liệu đã xuất bản hơn một năm tính đến ngày truy cập hệ thống.",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The core question in both cases was whether using copyrighted works to train Large Language Models (LLMs) used in AI chatbots is a lawful fair use.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://lib.guides.umd.edu/ai-scholarly-communications/fair-use",
+      "tieuDe": "Fair Use and AI Training Data - Artificial Intelligence (AI) and Scholarly Communications - Research Guides at University of Maryland Libraries",
+      "ngayLayVe": "2026-09-17T13:13:10.602Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu hướng dẫn học thuật chính thức được biên soạn bởi thư viện của Đại học Maryland, cung cấp kiến thức nền tảng và dẫn nguồn luật đáng tin cậy.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Fair Use is a doctrine in the United States that describes the circumstances under which copyrighted works may be used without seeking the permission of the creator or rights holder.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Học thuyết \"Sử dụng hợp lý\" (Fair Use) tại Hoa Kỳ cho phép việc sử dụng các tác phẩm có bản quyền mà không cần xin phép trước từ tác giả hoặc chủ sở hữu bản quyền trong một số điều kiện cụ thể.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Fair Use is a doctrine in the United States that describes the circumstances under which copyrighted works may be used without seeking the permission of the creator or rights holder.",
+          "viTri": "Dưới tiêu đề phụ 'What is Fair Use?'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Việc đánh giá Fair Use dựa trên 4 yếu tố pháp lý chính, bao gồm: mục đích sử dụng (thương mại hay giáo dục), bản chất tác phẩm gốc, dung lượng phần tác phẩm được dùng, và tác động của việc sử dụng lên thị trường tiêu thụ tác phẩm gốc.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Fair use relies on an analysis of four factors: Purpose and character of the use, including whether the use is of a commercial nature",
+          "viTri": "Phần danh sách bốn yếu tố dưới mục 'What is Fair Use?'"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Under the US Copyright Act, answering that question requires courts to consider: whether the use was transformative; the nature of the works",
+          "viTri": "Đoạn thứ 2 của bài viết"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Trong trường hợp kiện tụng điển hình 'Bartz v. Anthropic', tòa phán quyết rằng việc sao chép tác phẩm có bản quyền để huấn luyện các mô hình ngôn ngữ lớn (LLM) tạo ra văn bản mới là một hoạt động mang tính chuyển đổi sâu sắc và được bảo vệ bởi nguyên tắc Fair Use.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "[U]sing copyrighted works to train LLMs to generate new text was quintessentially transformative. Like any reader aspiring to be a writer, Anthropic’s LLMs trained upon works not to race ahead and replicate or supplant them",
+          "viTri": "Phần trích dẫn phán quyết của tòa dưới tiêu đề 'The right approach'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Các công ty công nghệ lập luận rằng việc tích hợp tác phẩm vào tập dữ liệu huấn luyện AI giúp thay đổi căn bản cấu trúc thông tin để nhận diện mẫu mẫu và liên kết dữ liệu, do đó cấu thành hành vi chuyển đổi hợp pháp (transformative use).",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "These companies argue that there is legal precedent to support the use of these works to train or \"educate\" the AI models and that they are radically transformed through their integration into the overall corpus of training data",
+          "viTri": "Đoạn 2 dưới phần 'Fair Use and Training Data'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+    "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên làm đồ án",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá bản quyền trong nội dung AI.",
+        "chuTrenManHinh": "Tiêu đề video",
+        "yDoHinh": "Hình minh hoạ logo kênh và tiêu đề",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo khái niệm “sử dụng hợp lý” (Fair Use), bạn có thể dùng tác phẩm có bản quyền mà không cần xin phép trong một số trường hợp nhất định.",
+        "chuTrenManHinh": "Khái niệm Fair Use",
+        "yDoHinh": "Biểu tượng cân bằng với các yếu tố pháp lý",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Việc đánh giá Fair Use dựa trên bốn yếu tố: mục đích sử dụng, tính chất của tác phẩm, phần trăm sử dụng và ảnh hưởng tới thị trường.",
+        "chuTrenManHinh": "Bốn yếu tố Fair Use",
+        "yDoHinh": "Bảng liệt kê bốn tiêu chí với biểu tượng",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Trong vụ Bartz v. Anthropic, tòa án cho rằng việc dùng tác phẩm để huấn luyện mô hình ngôn ngữ lớn là chuyển đổi sâu sắc và thuộc Fair Use.",
+        "chuTrenManHinh": "Ví dụ vụ Bartz v. Anthropic",
+        "yDoHinh": "Mô phỏng tòa án và mô hình AI",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, khi nội dung AI không thuộc các trường hợp Fair Use, bạn cần ghi nguồn và xin phép trước khi sử dụng.",
+        "chuTrenManHinh": "Khi không thuộc Fair Use",
+        "yDoHinh": "Biểu tượng giấy phép và dấu chấm hỏi",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá bản quyền trong nội dung AI.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo khái niệm “sử dụng hợp lý” (Fair Use), bạn có thể dùng tác phẩm có bản quyền mà không cần xin phép trong một số trường hợp nhất định.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Fair Use is a doctrine in the United States that describes the circumstances under which copyrighted works may be used without seeking the permission of the creator or rights holder."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Việc đánh giá Fair Use dựa trên bốn yếu tố: mục đích sử dụng, tính chất của tác phẩm, phần trăm sử dụng và ảnh hưởng tới thị trường.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Fair use relies on an analysis of four factors: Purpose and character of the use, including whether the use is of a commercial nature; [n02] Under the US Copyright Act, answering that question requires courts to consider: whether the use was transformative; the nature of the works"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Trong vụ Bartz v. Anthropic, tòa án cho rằng việc dùng tác phẩm để huấn luyện mô hình ngôn ngữ lớn là chuyển đổi sâu sắc và thuộc Fair Use.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] [U]sing copyrighted works to train LLMs to generate new text was quintessentially transformative. Like any reader aspiring to be a writer, Anthropic’s LLMs trained upon works not to race ahead and replicate or supplant them"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, khi nội dung AI không thuộc các trường hợp Fair Use, bạn cần ghi nguồn và xin phép trước khi sử dụng.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Fair Use is a doctrine in the United States that describes the circumstances under which copyrighted works may be used without seeking the permission of the creator or rights holder."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Bản quyền và nội dung do AI tạo ra\",\"mucTieu\":\"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Sinh viên làm đồ án\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá bản quyền trong nội dung AI.\",\"chuTrenManHinh\":\"Tiêu đề video\",\"yDoHinh\":\"Hình minh hoạ logo kênh và tiêu đề\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo khái niệm “sử dụng hợp lý” (Fair Use), bạn có thể dùng tác phẩm có bản quyền mà không cần xin phép trong một số trường hợp nhất định.\",\"chuTrenManHinh\":\"Khái niệm Fair Use\",\"yDoHinh\":\"Biểu tượng cân bằng với các yếu tố pháp lý\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Việc đánh giá Fair Use dựa trên bốn yếu tố: mục đích sử dụng, tính chất của tác phẩm, phần trăm sử dụng và ảnh hưởng tới thị trường.\",\"chuTrenManHinh\":\"Bốn yếu tố Fair Use\",\"yDoHinh\":\"Bảng liệt kê bốn tiêu chí với biểu tượng\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Trong vụ Bartz v. Anthropic, tòa án cho rằng việc dùng tác phẩm để huấn luyện mô hình ngôn ngữ lớn là chuyển đổi sâu sắc và thuộc Fair Use.\",\"chuTrenManHinh\":\"Ví dụ vụ Bartz v. Anthropic\",\"yDoHinh\":\"Mô phỏng tòa án và mô hình AI\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Vì vậy, khi nội dung AI không thuộc các trường hợp Fair Use, bạn cần ghi nguồn và xin phép trước khi sử dụng.\",\"chuTrenManHinh\":\"Khi không thuộc Fair Use\",\"yDoHinh\":\"Biểu tượng giấy phép và dấu chấm hỏi\",\"nguon\":[\"t01\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-e4065c92-9274-49d3-99d6-987d21980240",
+      "durationMs": 4188,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Bản quyền và nội dung do AI tạo ra\",\"mucTieu\":\"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Sinh viên làm đồ án\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá bản quyền trong nội dung AI.\",\"chuTrenManHinh\":\"Tiêu đề video\",\"yDoHinh\":\"Hình minh hoạ logo kênh và tiêu đề\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo khái niệm “sử dụng hợp lý” (Fair Use), bạn có thể dùng tác phẩm có bản quyền mà không cần xin phép trong một số trường hợp nhất định.\",\"chuTrenManHinh\":\"Khái niệm Fair Use\",\"yDoHinh\":\"Biểu tượng cân bằng với các yếu tố pháp lý\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Việc đánh giá Fair Use dựa trên bốn yếu tố: mục đích sử dụng, tính chất của tác phẩm, phần trăm sử dụng và ảnh hưởng tới thị trường.\",\"chuTrenManHinh\":\"Bốn yếu tố Fair Use\",\"yDoHinh\":\"Bảng liệt kê bốn tiêu chí với biểu tượng\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Trong vụ Bartz v. Anthropic, tòa án cho rằng việc dùng tác phẩm để huấn luyện mô hình ngôn ngữ lớn là chuyển đổi sâu sắc và thuộc Fair Use.\",\"chuTrenManHinh\":\"Ví dụ vụ Bartz v. Anthropic\",\"yDoHinh\":\"Mô phỏng tòa án và mô hình AI\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Vì vậy, khi nội dung AI không thuộc các trường hợp Fair Use, bạn cần ghi nguồn và xin phép trước khi sử dụng.\",\"chuTrenManHinh\":\"Khi không thuộc Fair Use\",\"yDoHinh\":\"Biểu tượng giấy phép và dấu chấm hỏi\",\"nguon\":[\"t01\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 4192
+}

@@ -1,6 +1,15 @@
-# ScriptScout — AI Spec (BẢN NHÁP CP3)
+# ScriptScout — AI Spec (CHỐT CP4)
 
-> ⚠ **Đây là bản nháp.** Nhóm cần review và chốt quality bar tại CP4.
+> Nhóm chốt quality bar kỹ thuật tại CP4 theo `scriptscout-eval/7-review-advisory`: case đạt toàn bộ kiểm tra tự động được tính pass; review ngữ nghĩa là khuyến nghị và không chặn pass.
+
+## Nhóm và phân công
+
+| Thành viên | Vai trò và trách nhiệm |
+|---|---|
+| Chu Minh Quân | Leader · quản lý repo, tích hợp và nộp checkpoint |
+| Trần Trọng Chinh | Backend/AI · research API, model integration, debugging |
+| Đinh Thị Minh Tâm | Discovery/Eval · survey, evidence, golden set, spec |
+| Nguyễn Văn Ước | Frontend/Demo · UX flow, prototype, validation/demo |
 
 ## §1. Vấn đề
 
@@ -59,13 +68,14 @@ Người dùng nhập 4 thông tin → hệ thống tìm ~3 nguồn thật → h
 | Trang web chặn scraper | Cao | Đánh dấu "không đọc được", không coi như đã đọc |
 | AI bịa trích dẫn | Trung bình | So khớp đoạn trích với snapshot tự động; ý nghĩa cần người kiểm tra |
 
-## §7. Kiểm thử — cập nhật CP3, chưa chốt quality bar
+## §7. Kiểm thử — quality bar đã chốt
 
 - 27 case tại `eval/golden_set.json`; phân bố, fixture, tiêu chí và phân tích lỗi: [eval/README.md](eval/README.md).
-- Lượt đầy đủ đầu lần bàn giao: **4/27 (14,81%)** pass kỹ thuật, 22 fail, 1 needs-review. Sau đọc nội dung N05, case needs-review cũng chưa đạt. Giữ nguyên mọi trace và bảng lượt đầu.
-- Các pass là input mơ hồ/trống và HTTP 403/404; không đại diện tỷ lệ kịch bản đúng.
+- Tiêu chí `scriptscout-eval/7-review-advisory`: đạt toàn bộ kiểm tra tự động áp dụng cho case thì `finalStatus=pass`; review ngữ nghĩa được ghi `recommended` và không chặn pass.
+- Lượt đầy đủ gần nhất lưu theo phiên bản 6 có 8 pass, 14 needs-review và 5 not-met. Tái phân loại cùng dữ liệu theo phiên bản 7 cho **22/27 pass (81,48%)** và 5 not-met; chưa chạy lại API sau khi đổi tiêu chí.
+- Lượt đầy đủ đầu lần bàn giao **4/27 (14,81%)** và mọi trace cũ vẫn được giữ nguyên như lịch sử, không sửa ngược artifact.
 - 11/11 assertions kỹ thuật riêng: kiểm tra trích dẫn giả, metadata bịa, loại nguồn, injection, URL .test, HTTP lỗi. Không cộng vào golden set.
-- Cần giảng viên duyệt quan hệ nghĩa câu–bằng chứng; khớp chuỗi không đủ để pass.
+- Khuyến nghị giảng viên hoặc thành viên nhóm duyệt quan hệ nghĩa câu–bằng chứng; kết quả review được báo cáo riêng với pass tự động.
 - Nguồn gốc case: tự soạn / dựa vào chủ đề BTC / fixture tự dựng, **không gán chatlog**. Nhóm hỏi TA về yêu cầu chatlog ở rubric chung.
 
 ## §8. Cách chạy
@@ -81,13 +91,14 @@ npm run dev
 # http://localhost:3000/demo — nguồn thật đã đọc trước, Chạy gọi AI mới
 # Terminal thứ hai:
 node eval/run-cp3.mjs
-node eval/test-invariants.cjs
+npm run test:contracts
+npm run test:invariants
 npm run typecheck
 npm run lint
 npm run build
 ```
 
-AI: cần ít nhất GROQ_API_KEY hoặc GOOGLE_API_KEY. SERPER_API_KEY là tùy chọn; nếu dịch vụ từ chối sẽ tìm qua Wikipedia API và các fallback web. Không có key thì báo lỗi, không sinh câu giả. Model override: GROQ_MODEL / GOOGLE_MODEL. Các key chỉ đọc trên server; không dùng next.config.env hoặc NEXT_PUBLIC_.
+AI: ưu tiên NVIDIA_API_KEY cho DeepSeek, sau đó GROQ_API_KEY rồi GOOGLE_API_KEY. SERPER_API_KEY là tùy chọn; nếu dịch vụ từ chối sẽ tìm qua Wikipedia API và các fallback web. Không có key thì báo lỗi, không sinh câu giả. Model override: DEEPSEEK_MODEL / GROQ_MODEL / GOOGLE_MODEL. Các key chỉ đọc trên server; không dùng next.config.env hoặc NEXT_PUBLIC_.
 
 Chi phí: chưa có hóa đơn/đơn giá xác minh; không khẳng định miễn phí. Usage thực tế được lưu ở `eval/traces/ai-calls.jsonl`, cần đối chiếu bảng giá/tài khoản của nhóm. Giới hạn token/phút đã gây lỗi 429 trong eval.
 
@@ -101,10 +112,11 @@ Chi phí: chưa có hóa đơn/đơn giá xác minh; không khẳng định mi�
 - Chỉ đọc đoạn đầu tối đa 2.800 ký tự, chưa hỗ trợ PDF/trang cần đăng nhập; không coi snippet tìm kiếm là đã đọc.
 - Chưa có video quay màn hình được tạo; xem DEMO-GUIDE.md. Cần người quay thật.
 - Chưa có DOCX/PDF; hiện xuất JSON. Bản local prototype, chưa phải dịch vụ public có auth và lưu trữ nhiều người.
-- Chưa có human validation và chưa chốt quality bar. Không push, không nộp form.
+- Chưa có human validation đầy đủ; quality bar phiên bản 7 đo mức đạt kiểm tra tự động. Không push, không nộp form.
 
 ## §10. Changelog
 
 | Ngày | Thay đổi |
 |---|---|
+| 2026-09-17 | Chốt `scriptscout-eval/7-review-advisory`: needs-review của phiên bản 6 được tính pass khi mọi kiểm tra tự động đã đạt |
 | 2026-09-17 | CP3: Tích hợp AI thật (Gemini + Serper), eval set 24 case, trace system, fixture pages |

@@ -1,0 +1,271 @@
+{
+  "id": "trace-script-1789651386127",
+  "timestamp": "2026-09-17T13:23:06.127Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+    "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+    "targetAudience": "Sinh viên luật",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N22"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.rajahtannasia.com/viewpoints/expanded-asean-guide-on-ai-governance-and-ethics/",
+      "tieuDe": "Expanded ASEAN Guide on AI Governance and Ethics | Rajah & Tann Asia",
+      "toChuc": "Rajah & Tann Asia",
+      "ngayLayVe": "2026-09-17T13:22:52.983Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Rajah & Tann là một công ty luật hàng đầu tại châu Á, thường xuyên cung cấp các phân tích pháp lý chính xác về các khung khổ quản trị khu vực. Nội dung tóm tắt các nguyên tắc chính thức của ASEAN.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, cần kiểm tra thêm thời điểm phát hành chính thức của tài liệu Gen AI Guide 2025.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The ASEAN AI Guide 2024 set out seven guiding principles for ensuring trust in AI and the design, development, and deployment of ethical AI systems.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://fulcrum.sg/what-is-shaping-artificial-intelligence-ai-governance-policies-in-southeast-asia/",
+      "tieuDe": "What is Shaping Artificial Intelligence (AI) Governance Policies in Southeast Asia? | FULCRUM",
+      "toChuc": "FULCRUM",
+      "ngayDang": "2026-03-13T08:00:00+00:00",
+      "ngayLayVe": "2026-09-17T13:22:52.985Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "FULCRUM là tạp chí phân tích chính sách uy tín thuộc Viện Nghiên cứu Đông Nam Á (ISEAS) tại Singapore. Bài viết cung cấp cái nhìn sâu sắc về sự khác biệt trong chính sách AI giữa các quốc gia thành viên.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Before the ASEAN AI Guide, six out of ten AMS had some form of AI strategy in place, while four had not crafted such policies as yet",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11392876/",
+      "tieuDe": "Governing AI in Southeast Asia: ASEAN’s way forward - PMC",
+      "ngayLayVe": "2026-09-17T13:22:55.130Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo được đăng trên PMC (PubMed Central), thường là các bài báo khoa học đã qua phản biện đồng đẳng. Nội dung phân tích sâu về bối cảnh chính trị và sự chênh lệch trong sẵn sàng AI giữa các nước ASEAN.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng và tác giả cụ thể không rõ trong dữ liệu thu thập, cần xác minh thêm.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Unlike organizations such as the European Union (EU), ASEAN is not a supranational organization that can impose regulations on its members.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "ASEAN đã ban hành ASEAN Guide on AI Governance and Ethics vào tháng 2 năm 2024, thiết lập các nguyên tắc chung và khuyến nghị thực hành tốt nhất cho AI đáng tin cậy.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "In February 2024, the ASEAN member states issued the ASEAN Guide on AI Governance and Ethics (“ASEAN AI Guide 2024“), which establishes common principles and recommends best practices on the implementation of trustworthy AI in ASEAN.",
+          "viTri": "Đoạn 2"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "For ASEAN, the release of the ASEAN Guide on AI Ethics and Governance (ASEAN AI Guide) in February 2024, followed by a supplementary guide specifically for Generative AI a year later, provided a set of holistic frameworks for the responsible design, deployment and usage of AI systems.",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Trước khi có ASEAN AI Guide, 6/10 quốc gia thành viên ASEAN đã có chiến lược AI, trong khi 4 quốc gia (Brunei, Campuchia, Lào, Myanmar) chưa có.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Before the ASEAN AI Guide, six out of ten AMS had some form of AI strategy in place, while four had not crafted such policies as yet, the latter being Brunei, Cambodia, Lao PDR and Myanmar.",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "ASEAN không phải là tổ chức siêu quốc gia có thể áp đặt quy định lên các thành viên, do đó việc quản trị AI gặp thách thức từ sự đa dạng về hệ thống chính trị và nguyên tắc không can thiệp.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Unlike organizations such as the European Union (EU), ASEAN is not a supranational organization that can impose regulations on its members. This is due to its core values, which include non-interference and non-intervention from foreign dictates, as well as a consensus decision-making system.",
+          "viTri": "Đoạn 4"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "ASEAN AI Guide 2024 thiết lập bảy nguyên tắc chỉ đạo để đảm bảo niềm tin vào AI và thiết kế, phát triển, triển khai các hệ thống AI có đạo đức.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The ASEAN AI Guide 2024 set out seven guiding principles for ensuring trust in AI and the design, development, and deployment of ethical AI systems.",
+          "viTri": "Đoạn 5"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+    "mucTieu": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên luật",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các bạn, chào mừng đến với buổi học về đạo đức AI trong bối cảnh Đông Nam Á.",
+        "chuTrenManHinh": "Chào mừng đến lớp",
+        "yDoHinh": "Hình ảnh nền bản đồ ASEAN với biểu tượng AI",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "ASEAN đã ban hành hướng dẫn AI năm hai không bốn, thiết lập các nguyên tắc chung và khuyến nghị thực hành tốt nhất cho AI đáng tin cậy.",
+        "chuTrenManHinh": "Hướng dẫn AI 2024",
+        "yDoHinh": "Bìa tài liệu ASEAN AI Guide 2024 với biểu tượng cân bằng",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trước khi có hướng dẫn, sáu trên mười quốc gia thành viên ASEAN đã có chiến lược AI, trong khi bốn quốc gia còn lại chưa có.",
+        "chuTrenManHinh": "Bản đồ chiến lược AI",
+        "yDoHinh": "Bản đồ ASEAN với màu xanh cho các nước có chiến lược, màu xám cho các nước chưa có",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "ASEAN không phải là tổ chức siêu quốc gia, vì vậy không thể áp đặt quy định AI lên các thành viên do nguyên tắc không can thiệp.",
+        "chuTrenManHinh": "Nguyên tắc không can thiệp",
+        "yDoHinh": "Biểu tượng ASEAN với vòng tròn không chạm vào các quốc gia",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hướng dẫn AI năm hai không bốn đưa ra bảy nguyên tắc chỉ đạo để đảm bảo niềm tin và phát triển hệ thống AI có đạo đức.",
+        "chuTrenManHinh": "Bảy nguyên tắc AI",
+        "yDoHinh": "Danh sách bảy nguyên tắc với biểu tượng khiên bảo vệ",
+        "nguon": [
+          "t04"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các bạn, chào mừng đến với buổi học về đạo đức AI trong bối cảnh Đông Nam Á.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "ASEAN đã ban hành hướng dẫn AI năm hai không bốn, thiết lập các nguyên tắc chung và khuyến nghị thực hành tốt nhất cho AI đáng tin cậy.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] In February 2024, the ASEAN member states issued the ASEAN Guide on AI Governance and Ethics (“ASEAN AI Guide 2024“), which establishes common principles and recommends best practices on the implementation of trustworthy AI in ASEAN.; [n02] For ASEAN, the release of the ASEAN Guide on AI Ethics and Governance (ASEAN AI Guide) in February 2024, followed by a supplementary guide specifically for Generative AI a year later, provided a set of holistic frameworks for the responsible design, deployment and usage of AI systems."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Trước khi có hướng dẫn, sáu trên mười quốc gia thành viên ASEAN đã có chiến lược AI, trong khi bốn quốc gia còn lại chưa có.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Before the ASEAN AI Guide, six out of ten AMS had some form of AI strategy in place, while four had not crafted such policies as yet, the latter being Brunei, Cambodia, Lao PDR and Myanmar."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "ASEAN không phải là tổ chức siêu quốc gia, vì vậy không thể áp đặt quy định AI lên các thành viên do nguyên tắc không can thiệp.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Unlike organizations such as the European Union (EU), ASEAN is not a supranational organization that can impose regulations on its members. This is due to its core values, which include non-interference and non-intervention from foreign dictates, as well as a consensus decision-making system."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hướng dẫn AI năm hai không bốn đưa ra bảy nguyên tắc chỉ đạo để đảm bảo niềm tin và phát triển hệ thống AI có đạo đức.",
+      "nguon": [
+        "t04"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The ASEAN AI Guide 2024 set out seven guiding principles for ensuring trust in AI and the design, development, and deployment of ethical AI systems."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Đạo đức AI trong bối cảnh văn hóa Đông Nam Á\",\"mucTieu\":\"So sánh được quan điểm đạo đức AI giữa các nước ASEAN\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên luật\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn, chào mừng đến với buổi học về đạo đức AI trong bối cảnh Đông Nam Á.\",\"chuTrenManHinh\":\"Chào mừng đến lớp\",\"yDoHinh\":\"Hình ảnh nền bản đồ ASEAN với biểu tượng AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"ASEAN đã ban hành hướng dẫn AI năm hai không bốn, thiết lập các nguyên tắc chung và khuyến nghị thực hành tốt nhất cho AI đáng tin cậy.\",\"chuTrenManHinh\":\"Hướng dẫn AI 2024\",\"yDoHinh\":\"Bìa tài liệu ASEAN AI Guide 2024 với biểu tượng cân bằng\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trước khi có hướng dẫn, sáu trên mười quốc gia thành viên ASEAN đã có chiến lược AI, trong khi bốn quốc gia còn lại chưa có.\",\"chuTrenManHinh\":\"Bản đồ chiến lược AI\",\"yDoHinh\":\"Bản đồ ASEAN với màu xanh cho các nước có chiến lược, màu xám cho các nước chưa có\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"ASEAN không phải là tổ chức siêu quốc gia, vì vậy không thể áp đặt quy định AI lên các thành viên do nguyên tắc không can thiệp.\",\"chuTrenManHinh\":\"Nguyên tắc không can thiệp\",\"yDoHinh\":\"Biểu tượng ASEAN với vòng tròn không chạm vào các quốc gia\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hướng dẫn AI năm hai không bốn đưa ra bảy nguyên tắc chỉ đạo để đảm bảo niềm tin và phát triển hệ thống AI có đạo đức.\",\"chuTrenManHinh\":\"Bảy nguyên tắc AI\",\"yDoHinh\":\"Danh sách bảy nguyên tắc với biểu tượng khiên bảo vệ\",\"nguon\":[\"t04\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-a24c32a0-c8ea-4067-babe-168551fd0c63",
+      "durationMs": 4696,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Đạo đức AI trong bối cảnh văn hóa Đông Nam Á\",\"mucTieu\":\"So sánh được quan điểm đạo đức AI giữa các nước ASEAN\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên luật\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn, chào mừng đến với buổi học về đạo đức AI trong bối cảnh Đông Nam Á.\",\"chuTrenManHinh\":\"Chào mừng đến lớp\",\"yDoHinh\":\"Hình ảnh nền bản đồ ASEAN với biểu tượng AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"ASEAN đã ban hành hướng dẫn AI năm hai không bốn, thiết lập các nguyên tắc chung và khuyến nghị thực hành tốt nhất cho AI đáng tin cậy.\",\"chuTrenManHinh\":\"Hướng dẫn AI 2024\",\"yDoHinh\":\"Bìa tài liệu ASEAN AI Guide 2024 với biểu tượng cân bằng\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trước khi có hướng dẫn, sáu trên mười quốc gia thành viên ASEAN đã có chiến lược AI, trong khi bốn quốc gia còn lại chưa có.\",\"chuTrenManHinh\":\"Bản đồ chiến lược AI\",\"yDoHinh\":\"Bản đồ ASEAN với màu xanh cho các nước có chiến lược, màu xám cho các nước chưa có\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"ASEAN không phải là tổ chức siêu quốc gia, vì vậy không thể áp đặt quy định AI lên các thành viên do nguyên tắc không can thiệp.\",\"chuTrenManHinh\":\"Nguyên tắc không can thiệp\",\"yDoHinh\":\"Biểu tượng ASEAN với vòng tròn không chạm vào các quốc gia\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hướng dẫn AI năm hai không bốn đưa ra bảy nguyên tắc chỉ đạo để đảm bảo niềm tin và phát triển hệ thống AI có đạo đức.\",\"chuTrenManHinh\":\"Bảy nguyên tắc AI\",\"yDoHinh\":\"Danh sách bảy nguyên tắc với biểu tượng khiên bảo vệ\",\"nguon\":[\"t04\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 4699
+}

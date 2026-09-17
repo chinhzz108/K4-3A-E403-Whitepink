@@ -1,0 +1,22 @@
+[
+  {
+    "id": "N17",
+    "class": "nguon-mau-thuan",
+    "automatedStatus": "pass",
+    "reviewStatus": "not-required",
+    "finalStatus": "pass",
+    "status": "pass",
+    "reason": "Giữ hai nguồn fixture, biểu diễn cả hai phía và ghi mâu thuẫn; không sinh kịch bản từ số liệu giả",
+    "metrics": {
+      "readablePages": 2,
+      "selectedSources": 2,
+      "factsWithEvidence": 2,
+      "scriptSentences": 0,
+      "sourcedSentences": 0,
+      "researchAiAttempts": 1,
+      "scriptAiAttempts": 0
+    },
+    "trace": "N17.json",
+    "durationMs": 5635
+  }
+]

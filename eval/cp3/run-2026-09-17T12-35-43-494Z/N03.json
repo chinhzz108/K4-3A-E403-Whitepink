@@ -1,0 +1,551 @@
+{
+  "case": {
+    "id": "N03",
+    "class": "thuong",
+    "input": {
+      "topic": "Cách một mô hình học từ ví dụ",
+      "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+      "targetAudience": "Học sinh cấp ba",
+      "videoDuration": "3 phút"
+    },
+    "expectedBehavior": "Giải thích supervised learning bằng ví dụ đơn giản. Thuật ngữ Anh kèm nghĩa Việt.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #4; không phải chatlog",
+    "passCriteria": "Thuật ngữ Anh kèm nghĩa Việt trước; ví dụ cụ thể; ≥2 nguồn",
+    "failCriteria": "Thuật ngữ Anh không giải thích; viết quá học thuật cho cấp ba"
+  },
+  "research": {
+    "http": 200,
+    "sources": [],
+    "thongTin": [],
+    "searchQueries": [
+      "machine learning vs rules",
+      "data driven learning"
+    ],
+    "pagesRead": 8,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789648834261",
+      "timestamp": "2026-09-17T12:40:34.261Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cách một mô hình học từ ví dụ",
+        "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "targetAudience": "Học sinh cấp ba",
+        "videoDuration": "3 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T12-35-43-494Z",
+        "evalCaseId": "N03"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Rule Based System Vs Machine Learning System",
+              "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+              "snippet": "Choosing between a rule-based system and a machine learning system involves considering the nature of the problem and the available data. Rule- ...",
+              "position": 1
+            },
+            {
+              "title": "Machine learning vs. rule-based methods for document ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+              "snippet": "viết bởi E Rijcken · 2025 · Trích dẫn 30 bài viết — Unlike RB methods, which require extensive manual effort to define and maintain rules, ML models learn directly from data. This makes them more efficient and ...",
+              "position": 2
+            },
+            {
+              "title": "Rule-based AI vs machine learning: How we choose the ...",
+              "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+              "snippet": "Contrasting Approaches: Rule-based AI operates on predefined rules, while machine learning evolves its rules from data analysis.",
+              "position": 3
+            },
+            {
+              "title": "Choosing between a rule-based vs. machine learning system",
+              "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+              "snippet": "When choosing between rule-based vs. machine learning systems, consider usability, compatibility and efficiency.",
+              "position": 4
+            },
+            {
+              "title": "Rule-Based vs Machine Learning AI: What's the Difference?",
+              "url": "https://www.pecan.ai/blog/rule-based-vs-machine-learning-ai-which-produces-better-results/",
+              "snippet": "Rule-based AI uses fixed if-then logic. Machine learning learns patterns from data. Compare both, see when to use each, and where a hybrid approach wins.",
+              "position": 5
+            }
+          ],
+          "query": "machine learning vs rules",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Data-driven Learning in and out of the Language Classroom",
+              "url": "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+              "snippet": "viết bởi P Pérez-Paredes · 2025 · Trích dẫn 25 bài viết — Data-Driven Learning (DDL) can be broadly defined as the use of corpus tools and techniques for learners and teachers of foreign or second ...",
+              "position": 1
+            },
+            {
+              "title": "Ứng dụng Data Driven Learning trong giáo dục hiệu quả - OES",
+              "url": "https://oes.vn/data-driven-learning-trong-giao-duc/",
+              "snippet": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học. Trong mô hình này, mọi quyết định về nội dung, phương ...",
+              "position": 2
+            },
+            {
+              "title": "Data-driven learning",
+              "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+              "snippet": "Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning ...",
+              "position": 3
+            },
+            {
+              "title": "A Student-centered Technique for Language Learning",
+              "url": "https://www.academypublication.com/issues/past/tpls/vol02/07/28.pdf",
+              "snippet": "This method, in which there is an interaction between corpora and students, is known as data-driven learning. The activities of DDL are usually taken from ...",
+              "position": 4
+            },
+            {
+              "title": "Language corpus and data driven learning (DDL) in ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2405844023099395",
+              "snippet": "viết bởi A Lusta · 2023 · Trích dẫn 93 bài viết — In DDL, learners construct knowledge based on evidence derived from corpus data. In DDL activities, learners generate knowledge by drawing upon evidence derived ...",
+              "position": 5
+            }
+          ],
+          "query": "data driven learning",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+          "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+          "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "https://oes.vn/data-driven-learning-trong-giao-duc/",
+          "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "https://www.academypublication.com/issues/past/tpls/vol02/07/28.pdf"
+        ],
+        "pagesRead": [
+          "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+          "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+          "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "https://oes.vn/data-driven-learning-trong-giao-duc/",
+          "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "https://www.academypublication.com/issues/past/tpls/vol02/07/28.pdf"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp",
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.geeksforgeeks.org/machine-learning/rule-based-system-vs-machine-learning-system/",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:39:48.165Z",
+          "title": "Rule Based System Vs Machine Learning System - GeeksforGeeks",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": ""
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:39:48.166Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949719125000056",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:39:48.167Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://oes.vn/data-driven-learning-trong-giao-duc/",
+          "content": "Ứng dụng Data Driven Learning trong giáo dục và đào tạo hiệu quả\n\nData Driven Learning trong giáo dục đang trở thành nền tảng của đào tạo hiện đại khi mọi quyết định được xây dựng trên dữ liệu thực tế thay vì cảm tính. Từ cá nhân hóa lộ trình học đến đo lường hiệu quả và tối ưu quản trị, mô hình này mở ra cách tiếp cận hoàn toàn mới. Cùng OES tìm hiểu chi tiết cách triển khai và ứng dụng hiệu quả trong bài viết dưới đây.\n\nXem thêm: Power BI - công cụ phân tích dữ liệu học tập trực quan nhất hiện nay cho doanh nghiệp\n\nChọn công cụ AI bạn muốn sử dụng. Prompt đã được chuẩn bị sẵn kèm URL bài viết.\n\nData Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học. Trong mô hình này, mọi quyết định về nội dung, phương pháp và đánh giá đều xuất phát từ các thông tin như hành vi học tập, kết quả kiểm tra và mức độ tương tác. Thay vì dựa vào cảm tính hoặc chỉ nhìn vào kết quả cuối kỳ, dữ liệu được phân tích để nhận diện vấn đề và điều chỉnh kịp thời. Cốt lõi của DDL là biến dữ liệu thành cơ sở ra quyết định có bằng chứng.\n\nTừ nền tảng khái niệm đó, có thể thấy vì sao giáo dục hiện đại cần chuyển sang cách tiếp cận này. Người học ngày càng đa dạng về năng lực, tốc độ tiếp thu và mục tiêu phát triển. Một chương trình thiết kế cho mức trung bình khó đáp ứng toàn diện nhu cầu thực tế. Khi có dữ liệu rõ ràng, nhà trường và giảng viên có thể phát hiện sớm khó khăn để cá nhân hóa lộ trình học phù hợp hơn.\n\nKhông dừng lại ở sự khác biệt của người học, áp lực đo lường hiệu quả đào tạo cũng là yếu tố thúc đẩy chuyển đổi. Các tổ chức cần những con số cụ thể về tỷ lệ hoàn thành, mức độ cải thiện năng lực và tác động thực tế. Nếu thiếu dữ liệu, việc đánh giá thường mang tính định tính và thiếu cơ sở. DDL giúp chuyển sang phương thức quản trị dựa trên bằng chứng với các chỉ số minh bạch.\n\nSong song với những yêu cầu đó, sự phát triển của công nghệ số đã tạo điều kiện để DDL trở thành hiện thực. Nhờ vậy, quá trình đào tạo có thể được tối ưu ngay trong khi đang diễn ra. Data Driven Learning vì thế không chỉ là xu hướng công nghệ, mà là bước chuyển tất yếu trong tư duy quản trị giáo dục hiện đại.\n\nData Driven Learning là mô hình dạy và học dựa trên dữ liệu học tập thực của học viên\n\nXem thêm: Data driven decision making là gì? Doanh nghiệp chưa có CSDL nên bắt đầu từ đâu?\n\nDữ liệu nào được khai thác trong Data Driven Learning?\n\nTrong Data Driven Learning, dữ liệu không chỉ để lưu trữ mà để giải mã cách người học thực sự tiếp cận tri thức. Một hệ thống hiệu quả thường tập trung vào ba nhóm dữ liệu chính, mỗi nhóm phản ánh một khía cạnh khác nhau của quá trình học tập.\n\nNhóm dữ liệu đầu tiên trả lời câu hỏi: người học đang học như thế nào. Thời gian truy cập, tần suất đăng nhập, tốc độ hoàn thành bài học hay số lần xem lại nội dung đều cho thấy nhịp độ và thói quen học tập.\n\nNếu một học viên thường xuyên dừng lại ở một chương cụ thể, đó có thể là tín hiệu về độ khó của nội dung. Phân tích hành vi giúp nhà quản lý phát hiện vấn đề trước khi kết quả học tập bị ảnh hưởng.\n\nNếu dữ liệu hành vi phản ánh quá trình, thì dữ liệu đánh giá năng lực cho thấy kết quả của người học. Điểm số, bài kiểm tra, tỷ lệ đạt chuẩn đầu ra hay mức độ hoàn thành khóa học đều là chỉ số định lượng quan trọng.\n\nNhững con số này giúp xác định khoảng trống kiến thức và mức độ đáp ứng mục tiêu đào tạo. Khi được phân tích theo xu hướng, dữ liệu còn hỗ trợ điều chỉnh nội dung và phương pháp giảng dạy. Đây là cơ sở để chuyển từ đánh giá cảm tính sang quản trị bằng bằng chứng.\n\nDữ liệu đánh giá năng lực giúp phân bổ kiến thức học tập phù hợp cho từng học viên\n\nDữ liệu tương tác và mức độ gắn kết\n\nBên cạnh quá trình và kết quả, mức độ gắn kết phản ánh chiều sâu của trải nghiệm học tập. Số lần tham gia thảo luận, phản hồi, làm bài tập nhóm hay tương tác với giảng viên cho thấy mức độ chủ động của người học. Một khóa học có nội dung tốt nhưng thiếu tương tác thường khó duy trì động lực lâu dài. Theo dõi dữ liệu này giúp phát hiện dấu hiệu giảm hứng thú và điều chỉnh kịp thời. Khi kết hợp cả ba nhóm dữ liệu, tổ chức có thể xây dựng bức tranh toàn diện về hiệu quả đào tạo.\n\nLợi ích của Data Driven Learning trong giáo dục\n\nViệc triển khai Data Driven Learning không chỉ thay đổi cách thu thập thông tin mà còn tạo ra giá trị rõ ràng cho toàn bộ hệ thống giáo dục. Khi dữ liệu được phân tích và ứng dụng đúng cách, tổ chức có thể tối ưu cả trải nghiệm học tập lẫn hiệu quả quản trị.\n\nMột trong những lợi ích lớn nhất của Data Driven Learning là khả năng cá nhân hóa. Dựa trên dữ liệu hành vi và kết quả đánh giá, hệ thống có thể xác định trình độ, tốc độ tiếp thu và nhu cầu của từng người học. Nội dung được điều chỉnh phù hợp thay vì áp dụng chung cho toàn bộ lớp học. Nhờ đó, người học yếu được hỗ trợ kịp thời và người học giỏi có cơ hội nâng cao năng lực. Cá nhân hóa giúp tăng mức độ hoàn thành và cải thiện chất lượng đầu ra.\n\nRa quyết định đào tạo chính xác hơn\n\nKhông có dữ liệu, quyết định đào tạo thường dựa vào cảm nhận hoặc kinh nghiệm cá nhân. Với Data Driven Learning, nhà quản lý có thể dựa trên chỉ số cụ thể để điều chỉnh nội dung, phương pháp và chiến lược đào tạo. Phân tích xu hướng điểm số hoặc mức độ tương tác giúp xác định nội dung chưa hiệu quả. Điều này giảm rủi ro triển khai sai hướng và tối ưu nguồn lực đào tạo. Mọi thay đổi đều có căn cứ rõ ràng.\n\nData Driven Learning trong giáo dục đóng vai trò quan trọng\n\nNâng cao hiệu quả quản trị và báo cáo\n\nData Driven Learning hỗ trợ xây dựng hệ thống báo cáo minh bạch và theo thời gian thực. Nhà trường hoặc doanh nghiệp có thể theo dõi tỷ lệ hoàn thành, mức độ tiến bộ và hiệu suất học tập của từng nhóm. Các dashboard trực quan giúp ban lãnh đạo nắm bắt tình hình nhanh chóng. Báo cáo định lượng cũng tạo nền tảng để đánh giá ROI của hoạt động đào tạo. Nhờ đó, công tác quản trị trở nên chủ động và có chiến lược hơn.\n\nVai trò của LMS trong triển khai Data Driven Learning\n\nĐể Data Driven Learning vận hành hiệu quả, tổ chức cần một nền tảng công nghệ đủ khả năng thu thập, phân tích và trực quan hóa dữ liệu. LMS không chỉ là nơi lưu trữ khóa học mà đóng vai trò trung tâm trong toàn bộ hệ sinh thái học tập dựa trên dữ liệu. Cụ thể, LMS đảm nhiệm các vai trò sau:\n\nTrung tâm thu thập dữ liệu tập trung: Ghi nhận toàn bộ hành vi học tập, tiến độ, điểm số và mức độ tương tác của người học trên một hệ thống thống nhất.\n\nCông cụ theo dõi và phân tích thời gian thực: Cung cấp dashboard và báo cáo giúp giảng viên, quản lý theo dõi tình trạng học tập ngay khi đang diễn ra.\n\nNền tảng hỗ trợ cá nhân hóa: Dựa trên dữ liệu thu thập được để đề xuất nội dung, phân bổ lộ trình học phù hợp với từng cá nhân hoặc nhóm.\n\nHệ thống cảnh báo sớm rủi ro: Phát hiện dấu hiệu giảm tương tác, chậm tiến độ hoặc nguy cơ bỏ học để can thiệp kịp thời.\n\nCông cụ đo lường hiệu quả và ROI đào tạo: Tổng hợp chỉ số hoàn thành, cải thiện năng lực và mức độ đạt chuẩn đầu ra, phục\n\nNền tảng tích hợp công nghệ phân tích nâng cao: Kết nối với AI, learning analytics và các hệ thống nội bộ để mở rộng khả năng dự đoán và tối ưu quyết định.\n\nOES đồng hành triển khai Data Driven Learning hiệu quả cho trường học và doanh nghiệp\n\nTừ những phân tích trên có thể thấy, Data Driven Learning chỉ thực sự phát huy giá trị khi được triển khai trên một nền tảng công nghệ phù hợp và có chiến lược rõ ràng. Không chỉ dừng ở việc thu thập dữ liệu, tổ chức cần một đơn vị đủ năng lực thiết kế hệ thống, chuẩn hóa chỉ số đo lường và chuyển dữ liệu thành cơ sở ra quyết định. Đây chính là yếu tố quyết định sự thành công khi áp dụng mô hình học tập dựa trên dữ liệu.\n\nVới hơn 10+ năm kinh nghiệm trong lĩnh vực eLearning và chuyển đổi số đào tạo, OES cung cấp giải pháp đào tạo nội bộ toàn diện cho trường học và doanh nghiệp. OES không chỉ triển khai hệ thống LMS mà còn tư vấn xây dựng khung năng lực, thiết kế chương trình và số hóa nội dung bài giảng theo chuẩn quốc tế.\n\nĐặc biệt, OES phát triển dịch vụ phân tích dữ liệu học tập chuyên sâu, tích hợp báo cáo trực quan qua Power BI. Hệ thống cho phép cung cấp báo cáo từ tổng quan đến chi tiết về tiến độ, mức độ hoàn thành, năng lực và mức độ gắn kết của từng học viên. Nhờ đó, ban lãnh đạo có thể ra quyết định sớm, nhanh và chính xác dựa trên dữ liệu thực tế thay vì cảm tính.\n\nNếu tổ chức của bạn đang tìm kiếm giải pháp triển khai Data Driven Learning bài bản và có thể đo lường rõ ràng hiệu quả, hãy liên hệ OES để được tư vấn chiến lược phù hợp với mô hình đào tạo của mình.\n\nData Driven Learning trong giáo dục không chỉ là một xu hướng công nghệ mà là bước chuyển quan trọng trong tư duy quản trị đào tạo. Khi mọi quyết định được xây dựng trên dữ liệu thực tế, quá trình dạy và học trở nên minh bạch, cá nhân hóa và có thể đo lường rõ ràng. Mô hình này giúp nhà trường và doanh nghiệp tối ưu nguồn lực, nâng cao chất lượng đầu ra và chủ động điều chỉnh chiến lược đào tạo theo thời gian thực.\n\nNếu bạn đang tìm kiếm giải pháp ứng dụng mô hình này một cách hiệu quả và có thể đo lường cụ thể, hãy liên hệ OES để nhận tư vấn và xây dựng lộ trình triển khai phù hợp.",
+          "fetchedAt": "2026-09-17T12:39:48.508Z",
+          "title": "Ứng dụng Data Driven Learning trong giáo dục hiệu quả",
+          "status": "ok",
+          "contentLength": 10959,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Ứng dụng Data Driven Learning trong giáo dục và đào tạo hiệu quả"
+            },
+            {
+              "blockIndex": 1,
+              "text": "Data Driven Learning trong giáo dục đang trở thành nền tảng của đào tạo hiện đại khi mọi quyết định được xây dựng trên dữ liệu thực tế thay vì cảm tính. Từ cá nhân hóa lộ trình học đến đo lường hiệu quả và tối ưu quản trị, mô hình này mở ra cách tiếp cận hoàn toàn mới. Cùng OES tìm hiểu chi tiết cách triển khai và ứng dụng hiệu quả trong bài viết dưới đây."
+            },
+            {
+              "blockIndex": 2,
+              "text": "Xem thêm: Power BI - công cụ phân tích dữ liệu học tập trực quan nhất hiện nay cho doanh nghiệp"
+            },
+            {
+              "blockIndex": 3,
+              "text": "Chọn công cụ AI bạn muốn sử dụng. Prompt đã được chuẩn bị sẵn kèm URL bài viết."
+            },
+            {
+              "blockIndex": 6,
+              "text": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học. Trong mô hình này, mọi quyết định về nội dung, phương pháp và đánh giá đều xuất phát từ các thông tin như hành vi học tập, kết quả kiểm tra và mức độ tương tác. Thay vì dựa vào cảm tính hoặc chỉ nhìn vào kết quả cuối kỳ, dữ liệu được phân tích để nhận diện vấn đề và điều chỉnh kịp thời. Cốt lõi của DDL là biến dữ liệu thành cơ sở ra quyết định có bằng chứng."
+            },
+            {
+              "blockIndex": 7,
+              "text": "Từ nền tảng khái niệm đó, có thể thấy vì sao giáo dục hiện đại cần chuyển sang cách tiếp cận này. Người học ngày càng đa dạng về năng lực, tốc độ tiếp thu và mục tiêu phát triển. Một chương trình thiết kế cho mức trung bình khó đáp ứng toàn diện nhu cầu thực tế. Khi có dữ liệu rõ ràng, nhà trường và giảng viên có thể phát hiện sớm khó khăn để cá nhân hóa lộ trình học phù hợp hơn."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Không dừng lại ở sự khác biệt của người học, áp lực đo lường hiệu quả đào tạo cũng là yếu tố thúc đẩy chuyển đổi. Các tổ chức cần những con số cụ thể về tỷ lệ hoàn thành, mức độ cải thiện năng lực và tác động thực tế. Nếu thiếu dữ liệu, việc đánh giá thường mang tính định tính và thiếu cơ sở. DDL giúp chuyển sang phương thức quản trị dựa trên bằng chứng với các chỉ số minh bạch."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Song song với những yêu cầu đó, sự phát triển của công nghệ số đã tạo điều kiện để DDL trở thành hiện thực. Nhờ vậy, quá trình đào tạo có thể được tối ưu ngay trong khi đang diễn ra. Data Driven Learning vì thế không chỉ là xu hướng công nghệ, mà là bước chuyển tất yếu trong tư duy quản trị giáo dục hiện đại."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Data Driven Learning là mô hình dạy và học dựa trên dữ liệu học tập thực của học viên"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Xem thêm: Data driven decision making là gì? Doanh nghiệp chưa có CSDL nên bắt đầu từ đâu?"
+            },
+            {
+              "blockIndex": 12,
+              "text": "Dữ liệu nào được khai thác trong Data Driven Learning?"
+            },
+            {
+              "blockIndex": 13,
+              "text": "Trong Data Driven Learning, dữ liệu không chỉ để lưu trữ mà để giải mã cách người học thực sự tiếp cận tri thức. Một hệ thống hiệu quả thường tập trung vào ba nhóm dữ liệu chính, mỗi nhóm phản ánh một khía cạnh khác nhau của quá trình học tập."
+            },
+            {
+              "blockIndex": 15,
+              "text": "Nhóm dữ liệu đầu tiên trả lời câu hỏi: người học đang học như thế nào. Thời gian truy cập, tần suất đăng nhập, tốc độ hoàn thành bài học hay số lần xem lại nội dung đều cho thấy nhịp độ và thói quen học tập."
+            },
+            {
+              "blockIndex": 16,
+              "text": "Nếu một học viên thường xuyên dừng lại ở một chương cụ thể, đó có thể là tín hiệu về độ khó của nội dung. Phân tích hành vi giúp nhà quản lý phát hiện vấn đề trước khi kết quả học tập bị ảnh hưởng."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Nếu dữ liệu hành vi phản ánh quá trình, thì dữ liệu đánh giá năng lực cho thấy kết quả của người học. Điểm số, bài kiểm tra, tỷ lệ đạt chuẩn đầu ra hay mức độ hoàn thành khóa học đều là chỉ số định lượng quan trọng."
+            },
+            {
+              "blockIndex": 19,
+              "text": "Những con số này giúp xác định khoảng trống kiến thức và mức độ đáp ứng mục tiêu đào tạo. Khi được phân tích theo xu hướng, dữ liệu còn hỗ trợ điều chỉnh nội dung và phương pháp giảng dạy. Đây là cơ sở để chuyển từ đánh giá cảm tính sang quản trị bằng bằng chứng."
+            },
+            {
+              "blockIndex": 20,
+              "text": "Dữ liệu đánh giá năng lực giúp phân bổ kiến thức học tập phù hợp cho từng học viên"
+            },
+            {
+              "blockIndex": 21,
+              "text": "Dữ liệu tương tác và mức độ gắn kết"
+            },
+            {
+              "blockIndex": 22,
+              "text": "Bên cạnh quá trình và kết quả, mức độ gắn kết phản ánh chiều sâu của trải nghiệm học tập. Số lần tham gia thảo luận, phản hồi, làm bài tập nhóm hay tương tác với giảng viên cho thấy mức độ chủ động của người học. Một khóa học có nội dung tốt nhưng thiếu tương tác thường khó duy trì động lực lâu dài. Theo dõi dữ liệu này giúp phát hiện dấu hiệu giảm hứng thú và điều chỉnh kịp thời. Khi kết hợp cả ba nhóm dữ liệu, tổ chức có thể xây dựng bức tranh toàn diện về hiệu quả đào tạo."
+            },
+            {
+              "blockIndex": 23,
+              "text": "Lợi ích của Data Driven Learning trong giáo dục"
+            },
+            {
+              "blockIndex": 24,
+              "text": "Việc triển khai Data Driven Learning không chỉ thay đổi cách thu thập thông tin mà còn tạo ra giá trị rõ ràng cho toàn bộ hệ thống giáo dục. Khi dữ liệu được phân tích và ứng dụng đúng cách, tổ chức có thể tối ưu cả trải nghiệm học tập lẫn hiệu quả quản trị."
+            },
+            {
+              "blockIndex": 26,
+              "text": "Một trong những lợi ích lớn nhất của Data Driven Learning là khả năng cá nhân hóa. Dựa trên dữ liệu hành vi và kết quả đánh giá, hệ thống có thể xác định trình độ, tốc độ tiếp thu và nhu cầu của từng người học. Nội dung được điều chỉnh phù hợp thay vì áp dụng chung cho toàn bộ lớp học. Nhờ đó, người học yếu được hỗ trợ kịp thời và người học giỏi có cơ hội nâng cao năng lực. Cá nhân hóa giúp tăng mức độ hoàn thành và cải thiện chất lượng đầu ra."
+            },
+            {
+              "blockIndex": 27,
+              "text": "Ra quyết định đào tạo chính xác hơn"
+            },
+            {
+              "blockIndex": 28,
+              "text": "Không có dữ liệu, quyết định đào tạo thường dựa vào cảm nhận hoặc kinh nghiệm cá nhân. Với Data Driven Learning, nhà quản lý có thể dựa trên chỉ số cụ thể để điều chỉnh nội dung, phương pháp và chiến lược đào tạo. Phân tích xu hướng điểm số hoặc mức độ tương tác giúp xác định nội dung chưa hiệu quả. Điều này giảm rủi ro triển khai sai hướng và tối ưu nguồn lực đào tạo. Mọi thay đổi đều có căn cứ rõ ràng."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Data Driven Learning trong giáo dục đóng vai trò quan trọng"
+            },
+            {
+              "blockIndex": 30,
+              "text": "Nâng cao hiệu quả quản trị và báo cáo"
+            },
+            {
+              "blockIndex": 31,
+              "text": "Data Driven Learning hỗ trợ xây dựng hệ thống báo cáo minh bạch và theo thời gian thực. Nhà trường hoặc doanh nghiệp có thể theo dõi tỷ lệ hoàn thành, mức độ tiến bộ và hiệu suất học tập của từng nhóm. Các dashboard trực quan giúp ban lãnh đạo nắm bắt tình hình nhanh chóng. Báo cáo định lượng cũng tạo nền tảng để đánh giá ROI của hoạt động đào tạo. Nhờ đó, công tác quản trị trở nên chủ động và có chiến lược hơn."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Vai trò của LMS trong triển khai Data Driven Learning"
+            },
+            {
+              "blockIndex": 33,
+              "text": "Để Data Driven Learning vận hành hiệu quả, tổ chức cần một nền tảng công nghệ đủ khả năng thu thập, phân tích và trực quan hóa dữ liệu. LMS không chỉ là nơi lưu trữ khóa học mà đóng vai trò trung tâm trong toàn bộ hệ sinh thái học tập dựa trên dữ liệu. Cụ thể, LMS đảm nhiệm các vai trò sau:"
+            },
+            {
+              "blockIndex": 34,
+              "text": "Trung tâm thu thập dữ liệu tập trung: Ghi nhận toàn bộ hành vi học tập, tiến độ, điểm số và mức độ tương tác của người học trên một hệ thống thống nhất."
+            },
+            {
+              "blockIndex": 35,
+              "text": "Công cụ theo dõi và phân tích thời gian thực: Cung cấp dashboard và báo cáo giúp giảng viên, quản lý theo dõi tình trạng học tập ngay khi đang diễn ra."
+            },
+            {
+              "blockIndex": 36,
+              "text": "Nền tảng hỗ trợ cá nhân hóa: Dựa trên dữ liệu thu thập được để đề xuất nội dung, phân bổ lộ trình học phù hợp với từng cá nhân hoặc nhóm."
+            },
+            {
+              "blockIndex": 37,
+              "text": "Hệ thống cảnh báo sớm rủi ro: Phát hiện dấu hiệu giảm tương tác, chậm tiến độ hoặc nguy cơ bỏ học để can thiệp kịp thời."
+            },
+            {
+              "blockIndex": 38,
+              "text": "Công cụ đo lường hiệu quả và ROI đào tạo: Tổng hợp chỉ số hoàn thành, cải thiện năng lực và mức độ đạt chuẩn đầu ra, phục"
+            },
+            {
+              "blockIndex": 39,
+              "text": "Nền tảng tích hợp công nghệ phân tích nâng cao: Kết nối với AI, learning analytics và các hệ thống nội bộ để mở rộng khả năng dự đoán và tối ưu quyết định."
+            },
+            {
+              "blockIndex": 40,
+              "text": "OES đồng hành triển khai Data Driven Learning hiệu quả cho trường học và doanh nghiệp"
+            },
+            {
+              "blockIndex": 41,
+              "text": "Từ những phân tích trên có thể thấy, Data Driven Learning chỉ thực sự phát huy giá trị khi được triển khai trên một nền tảng công nghệ phù hợp và có chiến lược rõ ràng. Không chỉ dừng ở việc thu thập dữ liệu, tổ chức cần một đơn vị đủ năng lực thiết kế hệ thống, chuẩn hóa chỉ số đo lường và chuyển dữ liệu thành cơ sở ra quyết định. Đây chính là yếu tố quyết định sự thành công khi áp dụng mô hình học tập dựa trên dữ liệu."
+            },
+            {
+              "blockIndex": 42,
+              "text": "Với hơn 10+ năm kinh nghiệm trong lĩnh vực eLearning và chuyển đổi số đào tạo, OES cung cấp giải pháp đào tạo nội bộ toàn diện cho trường học và doanh nghiệp. OES không chỉ triển khai hệ thống LMS mà còn tư vấn xây dựng khung năng lực, thiết kế chương trình và số hóa nội dung bài giảng theo chuẩn quốc tế."
+            },
+            {
+              "blockIndex": 43,
+              "text": "Đặc biệt, OES phát triển dịch vụ phân tích dữ liệu học tập chuyên sâu, tích hợp báo cáo trực quan qua Power BI. Hệ thống cho phép cung cấp báo cáo từ tổng quan đến chi tiết về tiến độ, mức độ hoàn thành, năng lực và mức độ gắn kết của từng học viên. Nhờ đó, ban lãnh đạo có thể ra quyết định sớm, nhanh và chính xác dựa trên dữ liệu thực tế thay vì cảm tính."
+            },
+            {
+              "blockIndex": 44,
+              "text": "Nếu tổ chức của bạn đang tìm kiếm giải pháp triển khai Data Driven Learning bài bản và có thể đo lường rõ ràng hiệu quả, hãy liên hệ OES để được tư vấn chiến lược phù hợp với mô hình đào tạo của mình."
+            },
+            {
+              "blockIndex": 46,
+              "text": "Data Driven Learning trong giáo dục không chỉ là một xu hướng công nghệ mà là bước chuyển quan trọng trong tư duy quản trị đào tạo. Khi mọi quyết định được xây dựng trên dữ liệu thực tế, quá trình dạy và học trở nên minh bạch, cá nhân hóa và có thể đo lường rõ ràng. Mô hình này giúp nhà trường và doanh nghiệp tối ưu nguồn lực, nâng cao chất lượng đầu ra và chủ động điều chỉnh chiến lược đào tạo theo thời gian thực."
+            },
+            {
+              "blockIndex": 47,
+              "text": "Nếu bạn đang tìm kiếm giải pháp ứng dụng mô hình này một cách hiệu quả và có thể đo lường cụ thể, hãy liên hệ OES để nhận tư vấn và xây dựng lộ trình triển khai phù hợp."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://wearebrain.com/blog/rule-based-ai-vs-machine-learning-whats-the-difference/",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:39:48.509Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "content": "From Wikipedia, the free encyclopedia Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks. Underpinning this pedagogical approach is the data - information - knowledge paradigm (see DIKW pyramid). It is informed by a pattern-based approach to grammar and vocabulary, and a lexicogrammatical approach to language in general. Thus the basic task in DDL is to identify patterns at all levels of language. From their findings, foreign language students can see how an aspect of language is typically used, which in turn informs how they can use it in their own speaking and writing. Learning how to frame language questions and use the resources to obtain data and interpret it is fundamental to learner autonomy. When students arrive at their own conclusions through such procedures, they use their higher order thinking skills (see Bloom's taxonomy) and are creating knowledge (see Vygotsky). In DDL, students use the same types of tools that professional linguists use, namely a corpus of texts that have been sampled and stored electronically, and a concordancer, which is a search engine designed for linguistic analysis. Some tools have been specifically created for data-driven learning, such as SkELL, WriteBetter, and Micro-concord. Micro-concord was the first significant software designed for classroom use. It was developed for the MS-DOS microcomputers by Tim Johns and Mike Scott and published for DOS computers in 1993 by OUP. It evolved into the widely-used WordSmith Tools. Johns (1936 – 2009) pioneered data-driven learning and coined the term. It first appeared in an article, Should you be persuaded: Two examples of data-driven learning (1991).[1] His paper, From Printout to Handout,[2] is reprinted and discussed at length in Volume 2 of Hubbard's Computer-Assisted Language Learning.[3] Thomas' task-based Discovering English with Sketch Engine[4] exemplifies DDL and acknowledges Johns throughout. Other recent books on DDL which credit Johns as the originator of the approach include those by Anderson and Corbett (2009),[5] Reppen (2010),[6] Bennett (2010),[7] Flowerdew (2012),[8] Boulton and Tyne (2014),[9] and Friginal (2018).[10] Johns worked at the English for Overseas Students Unit of Birmingham University from 1971 till the end of his career. This was while John Sinclair led a large team of linguists at Birmingham University working on the COBUILD project which delivered the first major corpus-based dictionaries and grammars of English for foreign students. COBUILD however, never tasked students with exploring language data themselves. Johns' referred to his specific DDL approach as kibitzing: when he returned his students' written work, together they would explore the errors using corpus data. A selection of these Kibbitzer tutorials are accessible on Mike Scott’s website. Despite the widespread awareness of corpora among the major movers and shakers in foreign language teaching, DDL is not widely embraced by its practitioners. One of the main reasons for this is the incompatibility of views on language and language learning: traditional language teachers and textbooks have a prescriptive view of language treating it as a system of rules to be memorised, engaging only lower order thinking skills. A descriptive view of language permits the observation of language patterns and outliers that exist in language itself. DDL positions students to use higher order thinking skills to learn how to learn to make and learn from their own observations. Such guided discovery leads to fuzzy results, which are incompatible with prescriptive linguistics and teaching. There is a considerable body of research conducted into DDL as evidenced by the professional bodies, books, journal articles and conference presentations. TaLC (Teaching and Language Corpora) is a biennial conference that is a platform for corpus-based research that has a pedagogical focus. CorpusCALL is a special interest group within EuroCALL and is mostly active through its Facebook group. The online teaching journal, Humanising Language Teaching hosts a section called Corpus Ideas. References[edit] ↑ Johns, Tim (1991). \"Chapter 2: Should you be persuaded: Two examples of data-driven learning\" (PDF). Classroom Concordancing. Birmingham: ELR. ↑ Johns, Tim. \"From Printout to Handout: Grammar and Vocabulary Teaching in the Context of Data-Driven Learning\". ELR Journal (Birmingham), Vol. 4, 1991. ↑ Hubbard, Philip. Computer-Assisted Language Learning. Routledge, 2009. ↑ Thomas, James. Discovering English with Sketch Engine. VERSATILE, 2016. ↑ Anderson, W., & Corbett, J. Exploring English with online corpora. London: Palgrave Macmillan, 2009. ↑ Reppen, R. Using corpora in the classroom. Cambridge: Cambridge University Press, 2010. ↑ Bennett, G. Using corpora in the language learning classroom: Corpus linguistics for teachers. Michigan: University of Michigan Press, 2010. ↑ Flowerdew, L. Corpora and language education. Basingstoke: Palgrave Macmillan, 2012. ↑ Boulton, A., & H. Tyne. Des documents authentiques aux corpus: Démarches pour l’apprentissage des langues. Paris: Didier, 2014. ↑ Friginal, E. Corpus linguistics for English teachers: Tools, online resources, and classroom activities. Abingdon/New York: Routledge, 2018. <img src=\"https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1\" alt=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"> Retrieved from \"https://en.wikipedia.org/w/index.php?title=Data-driven_learning&oldid=1223178041\" Category: Learning methods",
+          "fetchedAt": "2026-09-17T12:39:48.510Z",
+          "title": "Data-driven learning - Wikipedia",
+          "status": "ok",
+          "contentLength": 5761,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "From Wikipedia, the free encyclopedia Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks. Underpinning this pedagogical approach is the data - information - knowledge paradigm (see DIKW pyramid). It is informed by a pattern-based approach to grammar and vocabulary, and a lexicogrammatical approach to language in general. Thus the basic task in DDL is to identify patterns at all levels of language. From their findings, foreign language students can see how an aspect of language is typically used, which in turn informs how they can use it in their own speaking and writing. Learning how to frame language questions and use the resources to obtain data and interpret it is fundamental to learner autonomy. When students arrive at their own conclusions through such procedures, they use their higher order thinking skills (see Bloom's taxonomy) and are creating knowledge (see Vygotsky). In DDL, students use the same types of tools that professional linguists use, namely a corpus of texts that have been sampled and stored electronically, and a concordancer, which is a search engine designed for linguistic analysis. Some tools have been specifically created for data-driven learning, such as SkELL, WriteBetter, and Micro-concord. Micro-concord was the first significant software designed for classroom use. It was developed for the MS-DOS microcomputers by Tim Johns and Mike Scott and published for DOS computers in 1993 by OUP. It evolved into the widely-used WordSmith Tools. Johns (1936 – 2009) pioneered data-driven learning and coined the term. It first appeared in an article, Should you be persuaded: Two examples of data-driven learning (1991).[1] His paper, From Printout to Handout,[2] is reprinted and discussed at length in Volume 2 of Hubbard's Computer-Assisted Language Learning.[3] Thomas' task-based Discovering English with Sketch Engine[4] exemplifies DDL and acknowledges Johns throughout. Other recent books on DDL which credit Johns as the originator of the approach include those by Anderson and Corbett (2009),[5] Reppen (2010),[6] Bennett (2010),[7] Flowerdew (2012),[8] Boulton and Tyne (2014),[9] and Friginal (2018).[10] Johns worked at the English for Overseas Students Unit of Birmingham University from 1971 till the end of his career. This was while John Sinclair led a large team of linguists at Birmingham University working on the COBUILD project which delivered the first major corpus-based dictionaries and grammars of English for foreign students. COBUILD however, never tasked students with exploring language data themselves. Johns' referred to his specific DDL approach as kibitzing: when he returned his students' written work, together they would explore the errors using corpus data. A selection of these Kibbitzer tutorials are accessible on Mike Scott’s website. Despite the widespread awareness of corpora among the major movers and shakers in foreign language teaching, DDL is not widely embraced by its practitioners. One of the main reasons for this is the incompatibility of views on language and language learning: traditional language teachers and textbooks have a prescriptive view of language treating it as a system of rules to be memorised, engaging only lower order thinking skills. A descriptive view of language permits the observation of language patterns and outliers that exist in language itself. DDL positions students to use higher order thinking skills to learn how to learn to make and learn from their own observations. Such guided discovery leads to fuzzy results, which are incompatible with prescriptive linguistics and teaching. There is a considerable body of research conducted into DDL as evidenced by the professional bodies, books, journal articles and conference presentations. TaLC (Teaching and Language Corpora) is a biennial conference that is a platform for corpus-based research that has a pedagogical focus. CorpusCALL is a special interest group within EuroCALL and is mostly active through its Facebook group. The online teaching journal, Humanising Language Teaching hosts a section called Corpus Ideas. References[edit] ↑ Johns, Tim (1991). \"Chapter 2: Should you be persuaded: Two examples of data-driven learning\" (PDF). Classroom Concordancing. Birmingham: ELR. ↑ Johns, Tim. \"From Printout to Handout: Grammar and Vocabulary Teaching in the Context of Data-Driven Learning\". ELR Journal (Birmingham), Vol. 4, 1991. ↑ Hubbard, Philip. Computer-Assisted Language Learning. Routledge, 2009. ↑ Thomas, James. Discovering English with Sketch Engine. VERSATILE, 2016. ↑ Anderson, W., & Corbett, J. Exploring English with online corpora. London: Palgrave Macmillan, 2009. ↑ Reppen, R. Using corpora in the classroom. Cambridge: Cambridge University Press, 2010. ↑ Bennett, G. Using corpora in the language learning classroom: Corpus linguistics for teachers. Michigan: University of Michigan Press, 2010. ↑ Flowerdew, L. Corpora and language education. Basingstoke: Palgrave Macmillan, 2012. ↑ Boulton, A., & H. Tyne. Des documents authentiques aux corpus: Démarches pour l’apprentissage des langues. Paris: Didier, 2014. ↑ Friginal, E. Corpus linguistics for English teachers: Tools, online resources, and classroom activities. Abingdon/New York: Routledge, 2018. <img src=\"https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1\" alt=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"> Retrieved from \"https://en.wikipedia.org/w/index.php?title=Data-driven_learning&oldid=1223178041\" Category: Learning methods"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.techtarget.com/ai/tip/Choosing-between-a-rule-based-vs-machine-learning-system",
+          "content": "Machine learning is a branch of AI focused on building computer systems that learn from data. TechTarget's guide to machine learning serves as a primer on this important field, explaining what machine learning is, how to implement it and its business applications. You'll find information on the various types of ML algorithms, challenges and best practices associated with developing and deploying ML models, and what the future holds for machine learning. Throughout the guide, there are hyperlinks to related articles that cover these topics in greater depth.\n\nWhen implementing AI systems, choosing between a rule-based vs. machine learning architecture is critical to an application's usability, compatibility and efficiency.\n\nGetting output from a rule-based AI system can be simple and nearly immediate, but machine learning systems can handle more complex tasks with greater adaptability. Enterprises should understand the core differences between rule-based and machine learning systems, including their benefits and limitations, before taking advantage of either.\n\nRule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems. Developers create rules based on human expert knowledge, which then enable the system to process input data and produce a result.\n\nWhat is machine learning? Guide, definition and examples\n\n4 types of machine learning models explained\n\nHow engineers can build a machine learning model in 8 steps\n\nLimited scope. Rule-based systems are exact and do not have learning capabilities, which limits them to working only within the confines of their original programming. Including too many rules can slow down a system and introduce complexity.\n\nWhat is a machine learning system?\n\nMachine learning is a type of AI that enables applications to predict outcomes without being explicitly programmed to do so. Machine learning algorithms independently detect and analyze data patterns and modify their behavior accordingly to produce new output.\n\nTo create a machine learning system, developers select an appropriate AI model and present it with a large data set. The chosen algorithm analyzes the data set and determines relationships within that data.\n\nThe logic within machine learning systems is embedded in the algorithm, not coded by a human. As the name suggests, a machine learning model autonomously \"learns\" from its training data, creating a direct relationship between data inferences and future data outputs.\n\nAdvantages and downsides of machine learning systems\n\nMachine learning systems provide the following benefits to organizations:\n\nAdaptability. Machine learning systems adjust without human intervention as new data is presented to make informed decisions and predictions through continuous learning. This makes them well suited to addressing dynamic problems in fast-changing environments.\n\nSelf-learning. Machine learning systems adapt in response to the patterns and relationships in their input data, enabling models to define their own rules that take into account a wide range of variables. This capability makes machine learning a good choice for tackling complex processes that include multiple factors, rules and patterns that change over time.\n\nScalability. As projects and environments grow, machine learning systems can scale and adapt accordingly with new data, infrastructure resources and algorithms. For example, an organization could upgrade a simple classifier to a neural network by expanding its training data set and underlying infrastructure.\n\nThough machine learning systems can tackle many issues, they also come with the following downsides:\n\nDependence on quality of training data. Because data quality directly affects model quality, machine learning systems must be thoroughly trained on historical and relevant data to make well-informed decisions and predictions. However, building a sufficiently large and relevant data set can be a resource-intensive and time-consuming process.\n\nComplexity. Although machine learning systems can handle larger, more complex tasks and environments than rule-based systems, they also require greater technical expertise from teams to develop effective applications. Tasks such as writing machine learning algorithms, identifying useful data and monitoring models in production warrant a data science team and require properly trained employees.\n\nLimited adaptability. Machine learning systems can adjust and grow, but they cannot adapt to situations or problems outside the realm they are trained for. These systems lack the human intuition to come to conclusions outside their range of knowledge.\n\nChoosing between rule-based vs. machine learning systems\n\nRule-based AI and machine learning differ in both the type of logic they use to operate and the level of human intervention they require. For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after\n\nThe choice between a rule-based vs. machine learning system depends on how strict parameters must be, requirements around efficiency and training costs, and whether a data science team or an algorithm will create the rules.\n\nMachine learning can handle complex and intensive issues in relatively variable environments, whereas rule-based AI systems are easier to interpret and promote precision. In addition, the adaptability and speed of machine learning systems comes at a cost. There is an advanced level of commitment with machine learning, as algorithms require large amounts of data to be effective.\n\nMachine learning systems are often viewed as unequivocally better than rule-based AI, as they are capable of more complex analysis and can continuously learn from and adapt to changing data. Machine learning capabilities such as predictive analytics, anomaly detection and computer vision can achieve more comprehensive and nuanced results compared with rule-based systems. Consequently, if a business can support the cost and time required to build a machine learning model, doing so will often be the better choice.\n\nHowever, rule-based systems still have a time and place. For one, they can be helpful for more rudimentary use cases, and they are often more cost-effective compared with machine learning. They also have a much narrower window for error than machine learning systems. Rule-based systems can thus prove more successful in scenarios with clear-cut rules where accuracy and speed are paramount -- for instance, simple medical diagnostics or online grading systems.\n\nThough rule-based systems are typically not complex by nature, adding more rules and mitigating factors can introduce contradictions and overlap. While machine learning systems can account for greater complexity, it can come at the cost of accuracy. Consider, for example, the following real-world use cases and the variety of limitations they can present depending on what type of system is used.\n\nIn a home loan approval system, a machine learning system could use backpropagation for optimization to find the rule for approval as it learns from data. Thus, the model could ultimately arrive at a more nuanced rule that accounts for an applicant's income, credit history and location.\n\nHowever, customer questions are often complex, and the rules can change based on external circumstances. For more dynamic chatbots, using a machine learning system could create more complex question-answering, overall enhancing the user experience. However, businesses might need to devote more time and funds to the machine learning system and monitor it for issues of inaccuracy or bias.\n\nMany organizations opt to integrate customer personalization into their services. For instance, a company can employ a machine learning system to analyze historic data to personalize a customer's experience in the form of purchase suggestions. Machine learning systems can also fuel recommendation engines. Netflix is a prime example -- its fine-tuned analysis of what users watch on its streaming platform enables the service to create curated recommendations for users.\n\nIf an AI model is attempting to discover new or rare events -- as is the case in fraud protection -- the field from which examples can be harvested will be limited to start. Not having enough labeled data will hinder the model's performance, making banking and fraud protection use cases often best suited for a machine learning system.\n\nFor instance, a machine learning system can evaluate a credit card user's past purchasing tendencies to detect potential fraud. A rule-based system, on the other hand, would struggle to identify nuance in purchasing habits. It might automatically suspend a credit card if certain rules are met, such as when an international purchase is made. Instead, a machine learning system would be able to identify that a given U.S. customer often crosses the Canadian border and thus would not flag purchases made in Canada as suspicious behavior.",
+          "fetchedAt": "2026-09-17T12:39:50.000Z",
+          "title": "Choosing between a rule-based vs. machine learning system | TechTarget",
+          "status": "ok",
+          "contentLength": 15531,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Machine learning is a branch of AI focused on building computer systems that learn from data. TechTarget's guide to machine learning serves as a primer on this important field, explaining what machine learning is, how to implement it and its business applications. You'll find information on the various types of ML algorithms, challenges and best practices associated with developing and deploying ML models, and what the future holds for machine learning. Throughout the guide, there are hyperlinks to related articles that cover these topics in greater depth."
+            },
+            {
+              "blockIndex": 7,
+              "text": "When implementing AI systems, choosing between a rule-based vs. machine learning architecture is critical to an application's usability, compatibility and efficiency."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Getting output from a rule-based AI system can be simple and nearly immediate, but machine learning systems can handle more complex tasks with greater adaptability. Enterprises should understand the core differences between rule-based and machine learning systems, including their benefits and limitations, before taking advantage of either."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Rule-based systems are a basic type of AI model that uses a set of prewritten rules to make decisions and solve problems. Developers create rules based on human expert knowledge, which then enable the system to process input data and produce a result."
+            },
+            {
+              "blockIndex": 13,
+              "text": "What is machine learning? Guide, definition and examples"
+            },
+            {
+              "blockIndex": 15,
+              "text": "4 types of machine learning models explained"
+            },
+            {
+              "blockIndex": 16,
+              "text": "How engineers can build a machine learning model in 8 steps"
+            },
+            {
+              "blockIndex": 25,
+              "text": "Limited scope. Rule-based systems are exact and do not have learning capabilities, which limits them to working only within the confines of their original programming. Including too many rules can slow down a system and introduce complexity."
+            },
+            {
+              "blockIndex": 28,
+              "text": "What is a machine learning system?"
+            },
+            {
+              "blockIndex": 29,
+              "text": "Machine learning is a type of AI that enables applications to predict outcomes without being explicitly programmed to do so. Machine learning algorithms independently detect and analyze data patterns and modify their behavior accordingly to produce new output."
+            },
+            {
+              "blockIndex": 30,
+              "text": "To create a machine learning system, developers select an appropriate AI model and present it with a large data set. The chosen algorithm analyzes the data set and determines relationships within that data."
+            },
+            {
+              "blockIndex": 31,
+              "text": "The logic within machine learning systems is embedded in the algorithm, not coded by a human. As the name suggests, a machine learning model autonomously \"learns\" from its training data, creating a direct relationship between data inferences and future data outputs."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Advantages and downsides of machine learning systems"
+            },
+            {
+              "blockIndex": 33,
+              "text": "Machine learning systems provide the following benefits to organizations:"
+            },
+            {
+              "blockIndex": 34,
+              "text": "Adaptability. Machine learning systems adjust without human intervention as new data is presented to make informed decisions and predictions through continuous learning. This makes them well suited to addressing dynamic problems in fast-changing environments."
+            },
+            {
+              "blockIndex": 35,
+              "text": "Self-learning. Machine learning systems adapt in response to the patterns and relationships in their input data, enabling models to define their own rules that take into account a wide range of variables. This capability makes machine learning a good choice for tackling complex processes that include multiple factors, rules and patterns that change over time."
+            },
+            {
+              "blockIndex": 36,
+              "text": "Scalability. As projects and environments grow, machine learning systems can scale and adapt accordingly with new data, infrastructure resources and algorithms. For example, an organization could upgrade a simple classifier to a neural network by expanding its training data set and underlying infrastructure."
+            },
+            {
+              "blockIndex": 37,
+              "text": "Though machine learning systems can tackle many issues, they also come with the following downsides:"
+            },
+            {
+              "blockIndex": 38,
+              "text": "Dependence on quality of training data. Because data quality directly affects model quality, machine learning systems must be thoroughly trained on historical and relevant data to make well-informed decisions and predictions. However, building a sufficiently large and relevant data set can be a resource-intensive and time-consuming process."
+            },
+            {
+              "blockIndex": 39,
+              "text": "Complexity. Although machine learning systems can handle larger, more complex tasks and environments than rule-based systems, they also require greater technical expertise from teams to develop effective applications. Tasks such as writing machine learning algorithms, identifying useful data and monitoring models in production warrant a data science team and require properly trained employees."
+            },
+            {
+              "blockIndex": 40,
+              "text": "Limited adaptability. Machine learning systems can adjust and grow, but they cannot adapt to situations or problems outside the realm they are trained for. These systems lack the human intuition to come to conclusions outside their range of knowledge."
+            },
+            {
+              "blockIndex": 41,
+              "text": "Choosing between rule-based vs. machine learning systems"
+            },
+            {
+              "blockIndex": 42,
+              "text": "Rule-based AI and machine learning differ in both the type of logic they use to operate and the level of human intervention they require. For rule-based systems, the system's decision logic is instilled at the beginning, with little flexibility after"
+            },
+            {
+              "blockIndex": 45,
+              "text": "The choice between a rule-based vs. machine learning system depends on how strict parameters must be, requirements around efficiency and training costs, and whether a data science team or an algorithm will create the rules."
+            },
+            {
+              "blockIndex": 46,
+              "text": "Machine learning can handle complex and intensive issues in relatively variable environments, whereas rule-based AI systems are easier to interpret and promote precision. In addition, the adaptability and speed of machine learning systems comes at a cost. There is an advanced level of commitment with machine learning, as algorithms require large amounts of data to be effective."
+            },
+            {
+              "blockIndex": 49,
+              "text": "Machine learning systems are often viewed as unequivocally better than rule-based AI, as they are capable of more complex analysis and can continuously learn from and adapt to changing data. Machine learning capabilities such as predictive analytics, anomaly detection and computer vision can achieve more comprehensive and nuanced results compared with rule-based systems. Consequently, if a business can support the cost and time required to build a machine learning model, doing so will often be the better choice."
+            },
+            {
+              "blockIndex": 50,
+              "text": "However, rule-based systems still have a time and place. For one, they can be helpful for more rudimentary use cases, and they are often more cost-effective compared with machine learning. They also have a much narrower window for error than machine learning systems. Rule-based systems can thus prove more successful in scenarios with clear-cut rules where accuracy and speed are paramount -- for instance, simple medical diagnostics or online grading systems."
+            },
+            {
+              "blockIndex": 52,
+              "text": "Though rule-based systems are typically not complex by nature, adding more rules and mitigating factors can introduce contradictions and overlap. While machine learning systems can account for greater complexity, it can come at the cost of accuracy. Consider, for example, the following real-world use cases and the variety of limitations they can present depending on what type of system is used."
+            },
+            {
+              "blockIndex": 58,
+              "text": "In a home loan approval system, a machine learning system could use backpropagation for optimization to find the rule for approval as it learns from data. Thus, the model could ultimately arrive at a more nuanced rule that accounts for an applicant's income, credit history and location."
+            },
+            {
+              "blockIndex": 61,
+              "text": "However, customer questions are often complex, and the rules can change based on external circumstances. For more dynamic chatbots, using a machine learning system could create more complex question-answering, overall enhancing the user experience. However, businesses might need to devote more time and funds to the machine learning system and monitor it for issues of inaccuracy or bias."
+            },
+            {
+              "blockIndex": 63,
+              "text": "Many organizations opt to integrate customer personalization into their services. For instance, a company can employ a machine learning system to analyze historic data to personalize a customer's experience in the form of purchase suggestions. Machine learning systems can also fuel recommendation engines. Netflix is a prime example -- its fine-tuned analysis of what users watch on its streaming platform enables the service to create curated recommendations for users."
+            },
+            {
+              "blockIndex": 66,
+              "text": "If an AI model is attempting to discover new or rare events -- as is the case in fraud protection -- the field from which examples can be harvested will be limited to start. Not having enough labeled data will hinder the model's performance, making banking and fraud protection use cases often best suited for a machine learning system."
+            },
+            {
+              "blockIndex": 67,
+              "text": "For instance, a machine learning system can evaluate a credit card user's past purchasing tendencies to detect potential fraud. A rule-based system, on the other hand, would struggle to identify nuance in purchasing habits. It might automatically suspend a credit card if certain rules are met, such as when an international purchase is made. Instead, a machine learning system would be able to identify that a given U.S. customer often crosses the Canadian border and thus would not flag purchases made in Canada as suspicious behavior."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.academypublication.com/issues/past/tpls/vol02/07/28.pdf",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:39:50.001Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [],
+      "sourcesSelected": [],
+      "sourcesRejected": [],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "aiAttempts": [],
+      "error": "Lỗi đánh giá nguồn: Tất cả AI providers đều gặp lỗi: DeepSeek: The operation was aborted due to timeout | Groq openai/gpt-oss-120b (429): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m2nppnc4e228etp2v9qngvm1` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199563, Requested 6918. Please try again in 46m39.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set | Groq openai/gpt-oss-120b (429): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m2nppnc4e228etp2v9qngvm1` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199528, Requested 5019. Please try again in 32m44.303999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.c | Groq qwen/qwen3.8-27b (429): Request too large for model `qwen/qwen3.8-27b` in organization `org_01m2nppnc4e228etp2v9qngvm1` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 2048. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output | Groq openai/gpt-oss-20b (400): Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details. | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "isDemo": false,
+      "durationMs": 98719
+    },
+    "isDemo": false,
+    "canGenerate": false,
+    "error": "Lỗi đánh giá nguồn: Tất cả AI providers đều gặp lỗi: DeepSeek: The operation was aborted due to timeout | Groq openai/gpt-oss-120b (429): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m2nppnc4e228etp2v9qngvm1` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199563, Requested 6918. Please try again in 46m39.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set | Groq openai/gpt-oss-120b (429): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m2nppnc4e228etp2v9qngvm1` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199528, Requested 5019. Please try again in 32m44.303999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.c | Groq qwen/qwen3.8-27b (429): Request too large for model `qwen/qwen3.8-27b` in organization `org_01m2nppnc4e228etp2v9qngvm1` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 2048. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output | Groq openai/gpt-oss-20b (400): Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details. | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+  }
+}

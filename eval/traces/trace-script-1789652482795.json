@@ -1,0 +1,233 @@
+{
+  "id": "trace-script-1789652482795",
+  "timestamp": "2026-09-17T13:41:22.795Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Token là gì và vì sao quan trọng",
+    "learningObjective": "Giải thích được token và cách tính chi phí dựa trên token",
+    "targetAudience": "Người mới học AI",
+    "videoDuration": "3 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N08"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://seantrott.substack.com/p/tokenization-in-large-language-models",
+      "tieuDe": "Tokenization in large language models, explained",
+      "tacGia": "Sean Trott",
+      "ngayDang": "2024-05-02T15:44:55.665Z",
+      "ngayLayVe": "2026-09-17T13:41:08.055Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog trên Substack có nội dung giải thích khái niệm tokenization khá rõ ràng nhưng mang tính cá nhân",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn cũ hơn một năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Tokenization is the process of breaking up that sequence into a bunch of discrete components (“tokens”).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.mindstudio.ai/blog/token-based-pricing",
+      "tieuDe": "What Is Token-Based Pricing for AI Models | MindStudio",
+      "tacGia": "Luis Chavez-Mattos",
+      "toChuc": "MindStudio",
+      "ngayDang": "2026-02-06T00:00:00.000Z",
+      "ngayLayVe": "2026-09-17T13:41:08.056Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Cung cấp thông tin chi tiết và cập nhật về cách tính giá dựa trên token cho các mô hình AI",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Total Cost = (Input Tokens × Input Price) + (Output Tokens × Output Price)",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://arxiv.org/abs/2404.08335",
+      "tieuDe": "[2404.08335] Toward a Theory of Tokenization in LLMs",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T13:41:08.057Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học dạng preprint nghiên cứu lý thuyết về tokenization",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn cũ hơn một năm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "While there has been a large body of research attempting to circumvent tokenization for language modeling",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Tokenization là quá trình chia chuỗi văn bản thành các thành phần rời rạc gọi là token, đóng vai trò là đơn vị cơ bản để mô hình ngôn ngữ xử lý.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Tokenization is the process of breaking up that sequence into a bunch of discrete components (“tokens”).",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Tổng chi phí sử dụng mô hình AI dựa trên token được tính bằng công thức: Tổng chi phí = (Token đầu vào × giá đầu vào) + (Token đầu ra × giá đầu ra).",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Total Cost = (Input Tokens × Input Price) + (Output Tokens × Output Price)",
+          "viTri": "Đoạn 6"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Token là gì và vì sao quan trọng",
+    "mucTieu": "Giải thích được token và cách tính chi phí dựa trên token",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Người mới học AI",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn đến với buổi học về token.",
+        "chuTrenManHinh": "Chào mừng các bạn!",
+        "yDoHinh": "Hình ảnh người dẫn chương trình mỉm cười chào khán giả.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Token, hay còn gọi là đơn vị token, là thành phần rời rạc khi chia văn bản, theo nguồn chưa xác minh.",
+        "chuTrenManHinh": "Token là gì?",
+        "yDoHinh": "Biểu đồ minh họa quá trình tách câu thành các token.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Token là nền tảng để mô hình ngôn ngữ hiểu và tạo ra nội dung, theo nguồn chưa xác minh.",
+        "chuTrenManHinh": "Token giúp AI hiểu ngôn ngữ",
+        "yDoHinh": "Mô hình AI với các khối token được nối lại.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Chi phí sử dụng mô hình AI được tính bằng công thức: tổng chi phí bằng token đầu vào nhân giá đầu vào cộng token đầu ra nhân giá đầu ra, theo nguồn chưa xác minh.",
+        "chuTrenManHinh": "Cách tính chi phí",
+        "yDoHinh": "Bảng tính chi phí với các cột token và giá.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hy vọng các bạn đã nắm rõ token và cách tính chi phí, hẹn gặp lại trong video tiếp theo.",
+        "chuTrenManHinh": "Cảm ơn và hẹn gặp lại",
+        "yDoHinh": "Biểu tượng cảm ơn và lời chào tạm biệt.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn đến với buổi học về token.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Token, hay còn gọi là đơn vị token, là thành phần rời rạc khi chia văn bản, theo nguồn chưa xác minh.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Tokenization is the process of breaking up that sequence into a bunch of discrete components (“tokens”)."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Token là nền tảng để mô hình ngôn ngữ hiểu và tạo ra nội dung, theo nguồn chưa xác minh.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Tokenization is the process of breaking up that sequence into a bunch of discrete components (“tokens”)."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Chi phí sử dụng mô hình AI được tính bằng công thức: tổng chi phí bằng token đầu vào nhân giá đầu vào cộng token đầu ra nhân giá đầu ra, theo nguồn chưa xác minh.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Total Cost = (Input Tokens × Input Price) + (Output Tokens × Output Price)"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hy vọng các bạn đã nắm rõ token và cách tính chi phí, hẹn gặp lại trong video tiếp theo.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Token là gì và vì sao quan trọng\",\n  \"mucTieu\":\"Giải thích được token và cách tính chi phí dựa trên token\",\n  \"thoiLuong\":\"3 phút\",\n  \"nguoiHoc\":\"Người mới học AI\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn đến với buổi học về token.\",\"chuTrenManHinh\":\"Chào mừng các bạn!\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình mỉm cười chào khán giả.\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Token, hay còn gọi là đơn vị token, là thành phần rời rạc khi chia văn bản, theo nguồn chưa xác minh.\",\"chuTrenManHinh\":\"Token là gì?\",\"yDoHinh\":\"Biểu đồ minh họa quá trình tách câu thành các token.\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Token là nền tảng để mô hình ngôn ngữ hiểu và tạo ra nội dung, theo nguồn chưa xác minh.\",\"chuTrenManHinh\":\"Token giúp AI hiểu ngôn ngữ\",\"yDoHinh\":\"Mô hình AI với các khối token được nối lại.\",\"nguon\":[\"t01\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Chi phí sử dụng mô hình AI được tính bằng công thức: tổng chi phí bằng token đầu vào nhân giá đầu vào cộng token đầu ra nhân giá đầu ra, theo nguồn chưa xác minh.\",\"chuTrenManHinh\":\"Cách tính chi phí\",\"yDoHinh\":\"Bảng tính chi phí với các cột token và giá.\",\"nguon\":[\"t02\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn đã nắm rõ token và cách tính chi phí, hẹn gặp lại trong video tiếp theo.\",\"chuTrenManHinh\":\"Cảm ơn và hẹn gặp lại\",\"yDoHinh\":\"Biểu tượng cảm ơn và lời chào tạm biệt.\",\"nguon\":[]}\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-f5ab8a87-4a4f-4df2-92f3-d4985196e019",
+      "durationMs": 5002,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Token là gì và vì sao quan trọng\",\n  \"mucTieu\":\"Giải thích được token và cách tính chi phí dựa trên token\",\n  \"thoiLuong\":\"3 phút\",\n  \"nguoiHoc\":\"Người mới học AI\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn đến với buổi học về token.\",\"chuTrenManHinh\":\"Chào mừng các bạn!\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình mỉm cười chào khán giả.\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Token, hay còn gọi là đơn vị token, là thành phần rời rạc khi chia văn bản, theo nguồn chưa xác minh.\",\"chuTrenManHinh\":\"Token là gì?\",\"yDoHinh\":\"Biểu đồ minh họa quá trình tách câu thành các token.\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Token là nền tảng để mô hình ngôn ngữ hiểu và tạo ra nội dung, theo nguồn chưa xác minh.\",\"chuTrenManHinh\":\"Token giúp AI hiểu ngôn ngữ\",\"yDoHinh\":\"Mô hình AI với các khối token được nối lại.\",\"nguon\":[\"t01\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Chi phí sử dụng mô hình AI được tính bằng công thức: tổng chi phí bằng token đầu vào nhân giá đầu vào cộng token đầu ra nhân giá đầu ra, theo nguồn chưa xác minh.\",\"chuTrenManHinh\":\"Cách tính chi phí\",\"yDoHinh\":\"Bảng tính chi phí với các cột token và giá.\",\"nguon\":[\"t02\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn đã nắm rõ token và cách tính chi phí, hẹn gặp lại trong video tiếp theo.\",\"chuTrenManHinh\":\"Cảm ơn và hẹn gặp lại\",\"yDoHinh\":\"Biểu tượng cảm ơn và lời chào tạm biệt.\",\"nguon\":[]}\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 5005
+}

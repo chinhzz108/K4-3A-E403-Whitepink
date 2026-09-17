@@ -1,0 +1,149 @@
+{
+  "id": "trace-script-1789652538947",
+  "timestamp": "2026-09-17T13:42:18.947Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+    "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+    "targetAudience": "Người đi làm",
+    "videoDuration": "3 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N10"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+      "tieuDe": "Vietnam AI Market: Updates to 2025 - B-Company",
+      "tacGia": "B& Company",
+      "toChuc": "B-Company",
+      "ngayDang": "2026-01-22T14:09:41+00:00",
+      "ngayLayVe": "2026-09-17T13:41:57.130Z",
+      "loai": "bao-chi",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nguồn từ công ty nghiên cứu thị trường nhưng tập trung vào giai đoạn đến năm 2025 và đã cũ so với mốc năm 2026.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm so với mốc 2026"
+      ],
+      "doanTrich": "Based on the Vietnam AI Adoption Status and IT Hiring Insight 2025 report by ITviec, AI adoption at the enterprise level in Vietnam has moved firmly into the mainstream. By 2025, 73% of Vietnamese companies had adopted AI in some form",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+      "tieuDe": "Viet Nam ranks second in AI adoption rate in Southeast Asia",
+      "tacGia": "en.baochinhphu.vn",
+      "toChuc": "en.baochinhphu.vn",
+      "ngayDang": "2026-06-18T15:24:00+07:00",
+      "ngayLayVe": "2026-09-17T13:41:57.131Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Báo điện tử chính thống của Chính phủ nước CHXHCN Việt Nam, thông tin cập nhật năm 2026.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm",
+      "tieuDe": "Vietnamese AI for Vietnamese people",
+      "tacGia": "Bộ Khoa học và Công nghệ",
+      "ngayLayVe": "2026-09-17T13:41:57.132Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Cổng thông tin chính thức của Bộ Thông tin và Truyền thông, tuy nhiên bài viết đề cập số liệu cũ năm 2024.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm so với mốc 2026",
+        "Số liệu khảo sát chỉ dựa trên một nguồn duy nhất chưa đối chiếu đa chiều",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 26.5% theo báo cáo của Microsoft công bố năm 2026.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Có sự mâu thuẫn về tỷ lệ ứng dụng AI của doanh nghiệp Việt Nam giữa các nguồn và các năm khác nhau (ví dụ: 73% năm 2025 theo ITviec, 26.5% năm 2026 theo Microsoft do khác biệt về tiêu chí khảo sát và định nghĩa mức độ ứng dụng)."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 73% vào năm 2025 theo báo cáo của ITviec.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries.",
+          "viTri": "Đoạn 6"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Số liệu này khác biệt đáng kể so với con số 26.5% của Microsoft công bố năm 2026, do cách định nghĩa mức độ ứng dụng AI khác nhau giữa các đơn vị khảo sát."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+    "mucTieu": "Nêu được con số cụ thể từ khảo sát đáng tin",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Người đi làm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026\",\"mucTieu\":\"Nêu được con số cụ thể từ khảo sát đáng tin\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Người đi làm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các anh chị người đi làm đến với video khám phá tỷ lệ doanh nghiệp Việt Nam áp dụng trí tuệ nhân tạo năm hai nghìn hai mươi sáu.\",\"chuTrenManHinh\":\"Chào mừng người đi làm\",\"yDoHinh\":\"Hiển thị tiêu đề video cùng biểu tượng AI và doanh nghiệp.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Các anh chị có biết hiện nay bao nhiêu phần trăm doanh nghiệp trong nước đã triển khai trí tuệ nhân tạo không?\",\"chuTrenManHinh\":\"Câu hỏi về tỷ lệ AI\",\"yDoHinh\":\"Hình ảnh biểu tượng câu hỏi và biểu đồ sơ bộ.\",\"nguon\":[]},{\"n\":3,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo báo cáo Global AI Diffusion Report của Microsoft công bố năm hai nghìn hai mươi sáu, tỷ lệ doanh nghiệp Việt Nam áp dụng trí tuệ nhân tạo đạt hai mươi sáu phẩy năm phần trăm.\",\"chuTrenManHinh\":\"Tỷ lệ hai mươi sáu phẩy năm phần trăm\",\"yDoHinh\":\"Đồ thị cột hiển thị con số hai mươi sáu phẩy năm phần trăm.\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Bên cạnh đó, báo cáo Vietnam AI Adoption Status và IT Hiring Insight năm hai nghìn hai mươi lăm của ITviec cho biết tỷ lệ doanh nghiệp áp dụng AI đạt bảy mươi ba phần trăm.\",\"chuTrenManHinh\":\"Tỷ lệ bảy mươi ba phần trăm theo ITviec\",\"yDoHinh\":\"Biểu đồ so sánh năm hai nghìn hai mươi lăm với bảy mươi ba phần trăm.\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Sự chênh lệch này cho thấy cách định nghĩa mức độ áp dụng AI khác nhau giữa các cuộc khảo sát, vì vậy chúng ta cần cân nhắc khi so sánh số liệu.\",\"chuTrenManHinh\":\"Lưu ý chênh lệch dữ liệu\",\"yDoHinh\":\"Hình ảnh ghi chú so sánh hai nguồn dữ liệu.\",\"nguon\":[\"t01\",\"t02\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "durationMs": 3162,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026\",\n  \"mucTieu\": \"Nêu được con số cụ thể từ khảo sát đáng tin\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Người đi làm\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các anh chị người đi làm đến với nội dung về công nghệ trí tuệ nhân tạo, hay còn gọi là trí tuệ nhân tạo.\",\n      \"chuTrenManHinh\": \"Chào mừng người đi làm\",\n      \"yDoHinh\": \"Hiển thị tiêu đề chào mừng người đi làm với biểu tượng công nghệ.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các anh chị có biết mức độ ứng dụng công nghệ này tại các tổ chức kinh tế trong nước hiện ra sao không?\",\n      \"chuTrenManHinh\": \"Doanh nghiệp Việt Nam dùng AI?\",\n      \"yDoHinh\": \"Biểu tượng dấu hỏi lớn kết hợp hình ảnh các doanh nghiệp.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo báo cáo của Microsoft công bố năm hai nghìn không trăm hai mươi sáu, tỷ lệ doanh nghiệp Việt Nam ứng dụng trí tuệ nhân tạo đạt hai mươi sáu phẩy năm phần trăm.\",\n      \"chuTrenManHinh\": \"Tỷ lệ đạt hai mươi sáu phẩy năm phần trăm\",\n      \"yDoHinh\": \"Đồ thị thể hiện con số hai mươi sáu phẩy năm phần trăm từ báo cáo Microsoft.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, một nguồn khác là báo cáo của đơn vị Ai-ti-vếch ghi nhận tỷ lệ doanh nghiệp Việt Nam ứng dụng trí tuệ nhân tạo đạt bảy mươi ba phần trăm vào năm hai nghìn không trăm hai mươi lăm.\",\n      \"chuTrenManHinh\": \"Báo cáo Ai-ti-vếch đạt bảy mươi ba phần trăm\",\n      \"yDoHinh\": \"Biểu đồ cột so sánh mốc năm hai nghìn không trăm hai mươi lăm với con số bảy mươi ba phần trăm.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Sự khác biệt này xuất phát từ cách định nghĩa mức độ ứng dụng khác nhau giữa các đơn vị khảo sát mà chúng ta cần lưu ý.\",\n      \"chuTrenManHinh\": \"Lưu ý về số liệu khảo sát\",\n      \"yDoHinh\": \"Hình ảnh ghi chú với các biểu tượng so sánh dữ liệu khác nhau.\",\n      \"nguon\": [\n        \"t01\",\n        \"t02\"\n      ]\n    }\n  ]\n}",
+      "validationError": "Câu 2: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-f09b9da3-3c4a-4838-999e-7f7fb08b9b5e",
+      "durationMs": 5401,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026\",\"mucTieu\":\"Nêu được con số cụ thể từ khảo sát đáng tin\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Người đi làm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các anh chị người đi làm đến với video khám phá tỷ lệ doanh nghiệp Việt Nam áp dụng trí tuệ nhân tạo năm hai nghìn hai mươi sáu.\",\"chuTrenManHinh\":\"Chào mừng người đi làm\",\"yDoHinh\":\"Hiển thị tiêu đề video cùng biểu tượng AI và doanh nghiệp.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Các anh chị có biết hiện nay bao nhiêu phần trăm doanh nghiệp trong nước đã triển khai trí tuệ nhân tạo không?\",\"chuTrenManHinh\":\"Câu hỏi về tỷ lệ AI\",\"yDoHinh\":\"Hình ảnh biểu tượng câu hỏi và biểu đồ sơ bộ.\",\"nguon\":[]},{\"n\":3,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo báo cáo Global AI Diffusion Report của Microsoft công bố năm hai nghìn hai mươi sáu, tỷ lệ doanh nghiệp Việt Nam áp dụng trí tuệ nhân tạo đạt hai mươi sáu phẩy năm phần trăm.\",\"chuTrenManHinh\":\"Tỷ lệ hai mươi sáu phẩy năm phần trăm\",\"yDoHinh\":\"Đồ thị cột hiển thị con số hai mươi sáu phẩy năm phần trăm.\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Bên cạnh đó, báo cáo Vietnam AI Adoption Status và IT Hiring Insight năm hai nghìn hai mươi lăm của ITviec cho biết tỷ lệ doanh nghiệp áp dụng AI đạt bảy mươi ba phần trăm.\",\"chuTrenManHinh\":\"Tỷ lệ bảy mươi ba phần trăm theo ITviec\",\"yDoHinh\":\"Biểu đồ so sánh năm hai nghìn hai mươi lăm với bảy mươi ba phần trăm.\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Sự chênh lệch này cho thấy cách định nghĩa mức độ áp dụng AI khác nhau giữa các cuộc khảo sát, vì vậy chúng ta cần cân nhắc khi so sánh số liệu.\",\"chuTrenManHinh\":\"Lưu ý chênh lệch dữ liệu\",\"yDoHinh\":\"Hình ảnh ghi chú so sánh hai nguồn dữ liệu.\",\"nguon\":[\"t01\",\"t02\"]}]}",
+      "validationError": "Câu 2: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    }
+  ],
+  "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 2: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)",
+  "isDemo": false,
+  "durationMs": 14476
+}

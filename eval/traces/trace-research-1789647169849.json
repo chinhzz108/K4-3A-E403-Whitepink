@@ -1,0 +1,858 @@
+{
+  "id": "trace-research-1789647169849",
+  "timestamp": "2026-09-17T12:12:49.849Z",
+  "phase": "research",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T12-12-13-353Z",
+    "evalCaseId": "N01"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "What is a context window?",
+          "url": "https://www.ibm.com/think/topics/context-window",
+          "snippet": "The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time. It's worth noting that the ...",
+          "position": 1
+        },
+        {
+          "title": "Context windows - Claude Platform Docs",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+          "snippet": "A single request can include up to 600 images or PDF pages (100 for models with a 200k-token context window). If you send many images or large documents, you ...",
+          "position": 2
+        },
+        {
+          "title": "ELI5: What limits a model's context window?",
+          "url": "https://www.reddit.com/r/explainlikeimfive/comments/1qpzocr/eli5_what_limits_a_models_context_window/",
+          "snippet": "When a company develops a new LLM, it obviously has a token context window. Why are they limited to 500k tokens, 1 million tokens, etc. What’s stopping ...",
+          "position": 3
+        },
+        {
+          "title": "The Maximum Effective Context Window for Real World ...",
+          "url": "https://arxiv.org/pdf/2509.21361",
+          "snippet": "viết bởi N Paulsen · 2025 · Trích dẫn 24 bài viết — To test the real-world use of context windows, we 1) define a concept of maximum effective context window, 2) formulate a testing method of a context window's.",
+          "position": 4
+        },
+        {
+          "title": "What is LLM's Context Window?:Understanding and ...",
+          "url": "https://medium.com/@tahirbalarabe2/what-is-llms-context-window-understanding-and-working-with-the-context-window-641b6d4f811f",
+          "snippet": "The Context Window. Every LLM has a limit to how much text it can process at once. This limit is called the context window. It's measured in ...",
+          "position": 5
+        }
+      ],
+      "query": "context window limit",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "How does an LLM retain conversation memory : r/ollama",
+          "url": "https://www.reddit.com/r/ollama/comments/1edan5c/how_does_an_llm_retain_conversation_memory/",
+          "snippet": "Hello everyone, I'm having a little trouble understanding how an LLM works locally. If I'm using Ollama and I'm talking with, let say gemma2, ...",
+          "position": 1
+        },
+        {
+          "title": "Short-term memory - Docs by LangChain",
+          "url": "https://docs.langchain.com/oss/python/langchain/short-term-memory",
+          "snippet": "Conversation history is the most common form of short-term memory. Long conversations pose a challenge to today's LLMs; a full history may not fit inside an ...",
+          "position": 2
+        },
+        {
+          "title": "Conversational Memory for LLMs with Langchain",
+          "url": "https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/",
+          "snippet": "The memory allows a Large Language Model (LLM) to remember previous interactions with the user. By default, LLMs are stateless — meaning each incoming query is ...",
+          "position": 3
+        },
+        {
+          "title": "Conversational Memory in LangChain - Milvus Blog",
+          "url": "https://milvus.io/blog/conversational-memory-in-langchain.md",
+          "snippet": "Conversational memory offers context for the LLM to remember your chat. In this post, we look at how to use conversational memory with ...",
+          "position": 4
+        },
+        {
+          "title": "Add Conversational Memory To LLMs Using LangChain",
+          "url": "https://supermemory.ai/blog/how-to-add-conversational-memory-to-llms-using-langchain",
+          "snippet": "A hands-on guide to adding short-term conversational memory to LLMs using LangChain and LangGraph — so your chatbot actually remembers the ...",
+          "position": 5
+        }
+      ],
+      "query": "LLM conversation memory",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://www.ibm.com/think/topics/context-window",
+      "https://www.reddit.com/r/ollama/comments/1edan5c/how_does_an_llm_retain_conversation_memory/",
+      "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "https://docs.langchain.com/oss/python/langchain/short-term-memory",
+      "https://www.reddit.com/r/explainlikeimfive/comments/1qpzocr/eli5_what_limits_a_models_context_window/",
+      "https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/",
+      "https://arxiv.org/pdf/2509.21361",
+      "https://milvus.io/blog/conversational-memory-in-langchain.md"
+    ],
+    "pagesRead": [
+      "https://www.ibm.com/think/topics/context-window",
+      "https://www.reddit.com/r/ollama/comments/1edan5c/how_does_an_llm_retain_conversation_memory/",
+      "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "https://docs.langchain.com/oss/python/langchain/short-term-memory",
+      "https://www.reddit.com/r/explainlikeimfive/comments/1qpzocr/eli5_what_limits_a_models_context_window/",
+      "https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/"
+    ],
+    "supplementReasons": [
+      "Dưới ba trang đọc được và không có lệnh can thiệp"
+    ]
+  },
+  "pagesRead": [
+    {
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "content": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.\n\nAn LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\n\nGenerally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks.\n\nContext windows and tokenization\n\nIn real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work.\n\nThere is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs.\n\nVariations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context.\n\nWhy do models have a maximum context length?\n\nThough context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs.\n\nTransformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time.\n\nIt's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context.\n\nIt’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once.\n\nContext windows and computing resources\n\nEquipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it.\n\nSimilarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time.\n\nRecent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022.\n\nChallenges of long context windows\n\nEven when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications.\n\nLike people, LLMs can be overwhelmed by an abundance of extra detail. They can also get lazy and take cognitive shortcuts. A 2023 paper found that LLMs don’t “robustly make use of information in long input contexts.” More specifically, the authors observed that models perform best when relevant information is toward the beginning or end of the input context. They further\n\nA longer context window might also have the unintended effect of presenting a longer attack surface for adversarial prompts. Recent research from Anthropic demonstrated that increasing a model’s context length also increases its vulnerability to “jailbreaking” and (subsequently) being provoked to produce harmful responses.2\n\nContext window sizes of prominent LLMs\n\nThe average context window of a large language model has grown exponentially since the original generative pretrained transformers (GPTs) were released. To date, each successive generation of LLMs has typically entailed significantly longer context lengths. At present, the largest context window offered by a prominent commercial model is over 1 million tokens. It remains to be seen whether context windows will continue to expand or if we’re already approaching the upper limit of practical necessity.\n\nAt launch, GPT-4 had that same 8,192-token context length. Though the context window of both GPT-4 and GPT-4-Turbo has since been increased to 128,000 tokens, its max output tokens remain capped at 4,096 tokens.\n\nBoth GPT-4o and GPT-4o mini have a context window of 128,000 tokens, with output capped at 16,384 tokens.\n\nThe new o1 model family likewise offers a context window of 128,000 tokens, though they offer greater output context length.\n\nThe original Llama models had a maximum context length of 2,048 tokens, which was doubled to 4,096 tokens for Llama 2. During their launch in April 2024, Llama 3 models offered a context window of roughly 8,000 tokens.\n\nLlama’s context length was significantly increased with the launch of Llama 3.1 models, which offered 128,000-token long context windows. Llama 3.2 models likewise have a maximum context length of 128,000 tokens.\n\nMistral Large 2, the flagship model offered by Mistral AI, has a context window of 128,000 tokens.\n\nGoogle’s Gemini series of models offers what is currently the largest context window amongst commercial language models. Gemini 1.5 Pro, Google’s flagship model, offers a context length of up to 2 million tokens. Other Gemini 1.5 models, such as Gemini 1.5 Flash, have a context window of 1 million tokens.\n\nAnthropic’s latest Claude models, such as the Claude 3.5 Sonnet, offer a standard context window of about 200,000 tokens. In early September 2024, Anthropic announced that the models accessed through its new “Claude Enterprise” plan would offer an expanded 500,000 token context window.",
+      "fetchedAt": "2026-09-17T12:12:30.479Z",
+      "title": "What is a context window? | IBM",
+      "status": "ok",
+      "contentLength": 14693,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 2,
+          "text": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+        },
+        {
+          "blockIndex": 3,
+          "text": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+        },
+        {
+          "blockIndex": 4,
+          "text": "Generally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks."
+        },
+        {
+          "blockIndex": 8,
+          "text": "Context windows and tokenization"
+        },
+        {
+          "blockIndex": 9,
+          "text": "In real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work."
+        },
+        {
+          "blockIndex": 18,
+          "text": "There is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Variations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context."
+        },
+        {
+          "blockIndex": 22,
+          "text": "Why do models have a maximum context length?"
+        },
+        {
+          "blockIndex": 23,
+          "text": "Though context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs."
+        },
+        {
+          "blockIndex": 24,
+          "text": "Transformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time."
+        },
+        {
+          "blockIndex": 25,
+          "text": "It's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context."
+        },
+        {
+          "blockIndex": 26,
+          "text": "It’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once."
+        },
+        {
+          "blockIndex": 27,
+          "text": "Context windows and computing resources"
+        },
+        {
+          "blockIndex": 28,
+          "text": "Equipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it."
+        },
+        {
+          "blockIndex": 29,
+          "text": "Similarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time."
+        },
+        {
+          "blockIndex": 30,
+          "text": "Recent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022."
+        },
+        {
+          "blockIndex": 31,
+          "text": "Challenges of long context windows"
+        },
+        {
+          "blockIndex": 32,
+          "text": "Even when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications."
+        },
+        {
+          "blockIndex": 34,
+          "text": "Like people, LLMs can be overwhelmed by an abundance of extra detail. They can also get lazy and take cognitive shortcuts. A 2023 paper found that LLMs don’t “robustly make use of information in long input contexts.” More specifically, the authors observed that models perform best when relevant information is toward the beginning or end of the input context. They further"
+        },
+        {
+          "blockIndex": 38,
+          "text": "A longer context window might also have the unintended effect of presenting a longer attack surface for adversarial prompts. Recent research from Anthropic demonstrated that increasing a model’s context length also increases its vulnerability to “jailbreaking” and (subsequently) being provoked to produce harmful responses.2"
+        },
+        {
+          "blockIndex": 39,
+          "text": "Context window sizes of prominent LLMs"
+        },
+        {
+          "blockIndex": 40,
+          "text": "The average context window of a large language model has grown exponentially since the original generative pretrained transformers (GPTs) were released. To date, each successive generation of LLMs has typically entailed significantly longer context lengths. At present, the largest context window offered by a prominent commercial model is over 1 million tokens. It remains to be seen whether context windows will continue to expand or if we’re already approaching the upper limit of practical necessity."
+        },
+        {
+          "blockIndex": 44,
+          "text": "At launch, GPT-4 had that same 8,192-token context length. Though the context window of both GPT-4 and GPT-4-Turbo has since been increased to 128,000 tokens, its max output tokens remain capped at 4,096 tokens."
+        },
+        {
+          "blockIndex": 45,
+          "text": "Both GPT-4o and GPT-4o mini have a context window of 128,000 tokens, with output capped at 16,384 tokens."
+        },
+        {
+          "blockIndex": 46,
+          "text": "The new o1 model family likewise offers a context window of 128,000 tokens, though they offer greater output context length."
+        },
+        {
+          "blockIndex": 48,
+          "text": "The original Llama models had a maximum context length of 2,048 tokens, which was doubled to 4,096 tokens for Llama 2. During their launch in April 2024, Llama 3 models offered a context window of roughly 8,000 tokens."
+        },
+        {
+          "blockIndex": 49,
+          "text": "Llama’s context length was significantly increased with the launch of Llama 3.1 models, which offered 128,000-token long context windows. Llama 3.2 models likewise have a maximum context length of 128,000 tokens."
+        },
+        {
+          "blockIndex": 51,
+          "text": "Mistral Large 2, the flagship model offered by Mistral AI, has a context window of 128,000 tokens."
+        },
+        {
+          "blockIndex": 53,
+          "text": "Google’s Gemini series of models offers what is currently the largest context window amongst commercial language models. Gemini 1.5 Pro, Google’s flagship model, offers a context length of up to 2 million tokens. Other Gemini 1.5 models, such as Gemini 1.5 Flash, have a context window of 1 million tokens."
+        },
+        {
+          "blockIndex": 55,
+          "text": "Anthropic’s latest Claude models, such as the Claude 3.5 Sonnet, offer a standard context window of about 200,000 tokens. In early September 2024, Anthropic announced that the models accessed through its new “Claude Enterprise” plan would offer an expanded 500,000 token context window."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.reddit.com/r/ollama/comments/1edan5c/how_does_an_llm_retain_conversation_memory/",
+      "content": "",
+      "fetchedAt": "2026-09-17T12:12:30.481Z",
+      "title": "",
+      "status": "error",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "content": "As conversations grow, you'll eventually approach context window limits. For long-running conversations and agentic workflows, server-side compaction is the primary strategy for context management.\n\nThe \"context window\" refers to all the text a language model can reference when generating a response, including the response itself. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. A larger context window allows the model to handle more complex and lengthy prompts, but more context isn't automatically better. As token count grows, accuracy and recall degrade, a phenomenon known as context rot. This makes curating what's in context just as important as how much space is available.\n\nThe following diagram illustrates the standard context window behavior for API requests1:\n\n1 Chat interfaces such as claude.ai can also manage the context window on a rolling \"first in, first out\" basis.\n\nProgressive token accumulation: As the conversation advances through turns, each user message and assistant response accumulates within the context window, and previous turns are preserved completely.\n\nContext window capacity: The context window (up to 1M tokens, depending on the model) holds the conversation history plus the new output Claude generates.\n\nInput-output flow: Each turn consists of: Input phase: Contains all previous conversation history plus the current user message Output phase: Generates a text response that becomes part of the input for the next turn\n\nInput phase: Contains all previous conversation history plus the current user message\n\nEverything in the request counts toward the context window: the system prompt, every message in messages (including tool results, images, and documents), and your tool definitions. The output Claude generates for the turn, including its extended thinking, counts too. Every response reports what the request consumed in its usage field. If you use prompt caching, the input count is split across input_tokens, cache_read_input_tokens, and cache_creation_input_tokens, and all three count toward the window. To estimate a request before you send it, use the token counting API.\n\nContext window sizes by model\n\nClaude Fable 5.1, Claude Mythos 5.1, Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Opus 4.8, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 5, Claude Sonnet 4.6, and Claude Mythos Preview have a 1M-token context window. A single request to any of them can generate up to 128k output tokens (max_tokens). Other Claude models, including Claude Sonnet 4.5, have a 200k-token context window.\n\nFor every model with a 1M-token context window, 1M is the default: you don't need a beta header, and long-context requests are billed at standard pricing.\n\nA single request can include up to 600 images or PDF pages (100 for models with a 200k-token context window). If you send many images or large documents, you might reach request size limits before the token limit.\n\nSee the model comparison table for a list of context window sizes by model.\n\nThe context window with thinking\n\nWith thinking, all input and output tokens, including thinking tokens, count toward the context window limit, with a few nuances in multi-turn situations.\n\nThinking tokens are a subset of your max_tokens parameter, are billed as output tokens, and count toward rate limits. With adaptive thinking, Claude determines its thinking allocation dynamically, so thinking token usage varies from request to request.\n\nWhether thinking blocks from previous assistant turns stay in the context window depends on the model. On Claude Opus 4.5 and later Opus models, Claude Sonnet 4.6 and later Sonnet models, Claude Fable 5.1, Claude Mythos 5.1, Claude Fable 5, Claude Mythos 5, and Claude Mythos Preview, the API keeps previous thinking blocks by default, and they count toward the context window like any other input tokens. On earlier Opus and Sonnet models and all Haiku models, the API automatically strips previous thinking blocks from the conversation history when you pass them back, which preserves token capacity for conversation content. For the per-model defaults, see thinking block preservation by model. To override the default in either direction, use thinking block clearing.\n\nThe context window with thinking and tool use\n\n1First turn architecture Input components: Tools configuration and user message Output components: Thinking + text response + tool use request Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens.\n\nToken calculation: All input and output components count toward the context window, and all output components are billed as output tokens.\n\n2Tool result handling (turn 2) Input components: Every block in the first turn and the tool_result. You must return the thinking block with the corresponding tool results. This is the only case where you have to return thinking blocks. Output components: After tool results have been passed back to Claude, Claude responds with only text (no additional thinking until the next user message, unless interleaved thinking is enabled). Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens.\n\nToken calculation: All input and output components count toward the context window, and all output components are billed as output tokens.\n\n3New user turn (turn 3) Input components: All inputs and the output from the previous turn are carried forward. The thinking block from the completed tool use cycle no longer has to stay in context: on models that strip previous thinking blocks, the API drops it automatically when you pass it back, and on models that keep previous thinking blocks, it stays unless you clear it with thinking block clearing. This is also where you add the next user turn. Output components: Because there is a new user turn outside the tool use cycle, Claude generates a new thinking block and continues from there. Token calculation: On models that strip previous thinking blocks, the previous thinking tokens no longer count toward the context window. All other previous blocks still count toward the context window, as does the thinking block in the current assistant turn.\n\nToken calculation: On models that strip previous thinking blocks, the previous thinking tokens no longer count toward the context window. All other previous blocks still count toward the context window, as does the thinking block in the current assistant turn.\n\nClaude Sonnet 5, Claude Sonnet 4.6, Claude Sonnet 4.5, and Claude Haiku 4.5 have context awareness: these models track their remaining context window (their \"token budget\") throughout a conversation. This lets the model manage long-running tasks against the space that remains rather than guess how many tokens are left. Context awareness is automatic: there is nothing for you to enable, and you never send the tags shown in this section yourself. The API injects them.\n\nIn the system prompt of every request, the API gives Claude its total context window:\n\nThe budget matches the context window available to your request: 1M tokens for Claude Sonnet 5 and Claude Sonnet 4.6, and 200k tokens for Claude Sonnet 4.5 and Claude Haiku 4.5. The examples in this section show a model with a 200k-token context window.\n\nIf your conversations regularly approach context window limits, use server-side compaction. Compaction automatically summarizes earlier parts of the conversation on the server, so the conversation can continue past the context window limit. It is available in beta for Claude 4.6 and later models and Claude Mythos Preview.\n\nCached prompt prefixes still occupy the context window: prompt caching changes what you pay for those tokens, not whether they count.\n\nContext window overflow behavior\n\nIf the input alone already exceeds the model's context window, the API returns a 400 invalid_request_error (\"prompt is too long\") on every model.\n\nOn Claude 4.5 models and newer, if input tokens plus max_tokens exceeds the context window size, the API accepts the request. If generation then reaches the context window limit, it stops with stop_reason: \"model_context_window_exceeded\". On earlier models, the API returns a validation error instead. To opt in to the model_context_window_exceeded behavior on those models, use the model-context-window-exceeded-2025-08-26 beta header. See Stop reasons and fallback for details.\n\nTo stay within context window limits, use the token counting API to estimate token usage before sending messages to Claude.\n\nServer-side context compaction for managing long conversations that approach context window limits.\n\nAutomatically manage conversation context as it grows with context editing.\n\nSee the model comparison table for a list of context window sizes and input/output token pricing by model.",
+      "fetchedAt": "2026-09-17T12:12:30.482Z",
+      "title": "Context windows - Claude Platform Docs",
+      "status": "ok",
+      "contentLength": 11717,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "As conversations grow, you'll eventually approach context window limits. For long-running conversations and agentic workflows, server-side compaction is the primary strategy for context management."
+        },
+        {
+          "blockIndex": 2,
+          "text": "The \"context window\" refers to all the text a language model can reference when generating a response, including the response itself. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. A larger context window allows the model to handle more complex and lengthy prompts, but more context isn't automatically better. As token count grows, accuracy and recall degrade, a phenomenon known as context rot. This makes curating what's in context just as important as how much space is available."
+        },
+        {
+          "blockIndex": 3,
+          "text": "The following diagram illustrates the standard context window behavior for API requests1:"
+        },
+        {
+          "blockIndex": 5,
+          "text": "1 Chat interfaces such as claude.ai can also manage the context window on a rolling \"first in, first out\" basis."
+        },
+        {
+          "blockIndex": 6,
+          "text": "Progressive token accumulation: As the conversation advances through turns, each user message and assistant response accumulates within the context window, and previous turns are preserved completely."
+        },
+        {
+          "blockIndex": 7,
+          "text": "Context window capacity: The context window (up to 1M tokens, depending on the model) holds the conversation history plus the new output Claude generates."
+        },
+        {
+          "blockIndex": 8,
+          "text": "Input-output flow: Each turn consists of: Input phase: Contains all previous conversation history plus the current user message Output phase: Generates a text response that becomes part of the input for the next turn"
+        },
+        {
+          "blockIndex": 9,
+          "text": "Input phase: Contains all previous conversation history plus the current user message"
+        },
+        {
+          "blockIndex": 11,
+          "text": "Everything in the request counts toward the context window: the system prompt, every message in messages (including tool results, images, and documents), and your tool definitions. The output Claude generates for the turn, including its extended thinking, counts too. Every response reports what the request consumed in its usage field. If you use prompt caching, the input count is split across input_tokens, cache_read_input_tokens, and cache_creation_input_tokens, and all three count toward the window. To estimate a request before you send it, use the token counting API."
+        },
+        {
+          "blockIndex": 12,
+          "text": "Context window sizes by model"
+        },
+        {
+          "blockIndex": 13,
+          "text": "Claude Fable 5.1, Claude Mythos 5.1, Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Opus 4.8, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 5, Claude Sonnet 4.6, and Claude Mythos Preview have a 1M-token context window. A single request to any of them can generate up to 128k output tokens (max_tokens). Other Claude models, including Claude Sonnet 4.5, have a 200k-token context window."
+        },
+        {
+          "blockIndex": 14,
+          "text": "For every model with a 1M-token context window, 1M is the default: you don't need a beta header, and long-context requests are billed at standard pricing."
+        },
+        {
+          "blockIndex": 15,
+          "text": "A single request can include up to 600 images or PDF pages (100 for models with a 200k-token context window). If you send many images or large documents, you might reach request size limits before the token limit."
+        },
+        {
+          "blockIndex": 16,
+          "text": "See the model comparison table for a list of context window sizes by model."
+        },
+        {
+          "blockIndex": 17,
+          "text": "The context window with thinking"
+        },
+        {
+          "blockIndex": 18,
+          "text": "With thinking, all input and output tokens, including thinking tokens, count toward the context window limit, with a few nuances in multi-turn situations."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Thinking tokens are a subset of your max_tokens parameter, are billed as output tokens, and count toward rate limits. With adaptive thinking, Claude determines its thinking allocation dynamically, so thinking token usage varies from request to request."
+        },
+        {
+          "blockIndex": 20,
+          "text": "Whether thinking blocks from previous assistant turns stay in the context window depends on the model. On Claude Opus 4.5 and later Opus models, Claude Sonnet 4.6 and later Sonnet models, Claude Fable 5.1, Claude Mythos 5.1, Claude Fable 5, Claude Mythos 5, and Claude Mythos Preview, the API keeps previous thinking blocks by default, and they count toward the context window like any other input tokens. On earlier Opus and Sonnet models and all Haiku models, the API automatically strips previous thinking blocks from the conversation history when you pass them back, which preserves token capacity for conversation content. For the per-model defaults, see thinking block preservation by model. To override the default in either direction, use thinking block clearing."
+        },
+        {
+          "blockIndex": 25,
+          "text": "The context window with thinking and tool use"
+        },
+        {
+          "blockIndex": 28,
+          "text": "1First turn architecture Input components: Tools configuration and user message Output components: Thinking + text response + tool use request Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens."
+        },
+        {
+          "blockIndex": 32,
+          "text": "Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens."
+        },
+        {
+          "blockIndex": 33,
+          "text": "2Tool result handling (turn 2) Input components: Every block in the first turn and the tool_result. You must return the thinking block with the corresponding tool results. This is the only case where you have to return thinking blocks. Output components: After tool results have been passed back to Claude, Claude responds with only text (no additional thinking until the next user message, unless interleaved thinking is enabled). Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens."
+        },
+        {
+          "blockIndex": 37,
+          "text": "Token calculation: All input and output components count toward the context window, and all output components are billed as output tokens."
+        },
+        {
+          "blockIndex": 38,
+          "text": "3New user turn (turn 3) Input components: All inputs and the output from the previous turn are carried forward. The thinking block from the completed tool use cycle no longer has to stay in context: on models that strip previous thinking blocks, the API drops it automatically when you pass it back, and on models that keep previous thinking blocks, it stays unless you clear it with thinking block clearing. This is also where you add the next user turn. Output components: Because there is a new user turn outside the tool use cycle, Claude generates a new thinking block and continues from there. Token calculation: On models that strip previous thinking blocks, the previous thinking tokens no longer count toward the context window. All other previous blocks still count toward the context window, as does the thinking block in the current assistant turn."
+        },
+        {
+          "blockIndex": 42,
+          "text": "Token calculation: On models that strip previous thinking blocks, the previous thinking tokens no longer count toward the context window. All other previous blocks still count toward the context window, as does the thinking block in the current assistant turn."
+        },
+        {
+          "blockIndex": 48,
+          "text": "Claude Sonnet 5, Claude Sonnet 4.6, Claude Sonnet 4.5, and Claude Haiku 4.5 have context awareness: these models track their remaining context window (their \"token budget\") throughout a conversation. This lets the model manage long-running tasks against the space that remains rather than guess how many tokens are left. Context awareness is automatic: there is nothing for you to enable, and you never send the tags shown in this section yourself. The API injects them."
+        },
+        {
+          "blockIndex": 50,
+          "text": "In the system prompt of every request, the API gives Claude its total context window:"
+        },
+        {
+          "blockIndex": 52,
+          "text": "The budget matches the context window available to your request: 1M tokens for Claude Sonnet 5 and Claude Sonnet 4.6, and 200k tokens for Claude Sonnet 4.5 and Claude Haiku 4.5. The examples in this section show a model with a 200k-token context window."
+        },
+        {
+          "blockIndex": 59,
+          "text": "If your conversations regularly approach context window limits, use server-side compaction. Compaction automatically summarizes earlier parts of the conversation on the server, so the conversation can continue past the context window limit. It is available in beta for Claude 4.6 and later models and Claude Mythos Preview."
+        },
+        {
+          "blockIndex": 63,
+          "text": "Cached prompt prefixes still occupy the context window: prompt caching changes what you pay for those tokens, not whether they count."
+        },
+        {
+          "blockIndex": 64,
+          "text": "Context window overflow behavior"
+        },
+        {
+          "blockIndex": 65,
+          "text": "If the input alone already exceeds the model's context window, the API returns a 400 invalid_request_error (\"prompt is too long\") on every model."
+        },
+        {
+          "blockIndex": 66,
+          "text": "On Claude 4.5 models and newer, if input tokens plus max_tokens exceeds the context window size, the API accepts the request. If generation then reaches the context window limit, it stops with stop_reason: \"model_context_window_exceeded\". On earlier models, the API returns a validation error instead. To opt in to the model_context_window_exceeded behavior on those models, use the model-context-window-exceeded-2025-08-26 beta header. See Stop reasons and fallback for details."
+        },
+        {
+          "blockIndex": 67,
+          "text": "To stay within context window limits, use the token counting API to estimate token usage before sending messages to Claude."
+        },
+        {
+          "blockIndex": 69,
+          "text": "Server-side context compaction for managing long conversations that approach context window limits."
+        },
+        {
+          "blockIndex": 70,
+          "text": "Automatically manage conversation context as it grows with context editing."
+        },
+        {
+          "blockIndex": 71,
+          "text": "See the model comparison table for a list of context window sizes and input/output token pricing by model."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://docs.langchain.com/oss/python/langchain/short-term-memory",
+      "content": "<code language=\"python\" numberOfLines=\"50\"><span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langchain</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">messages </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> RemoveMessage</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langgraph</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">graph</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">message </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> REMOVE_ALL_MESSAGES</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langgraph</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">checkpoint</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">memory </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> InMemorySaver</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langchain</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">agents </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> create_agent</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">,</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> AgentState</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langchain</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">agents</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">middleware </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> before_model</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langgraph</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">runtime </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> Runtime</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langchain_core</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">runnables </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> RunnableConfig</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> typing </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> Any</span></span> <span class=\"line\"></span> <span class=\"line\"></span> <span class=\"line\"><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\">@before_model</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">def</span><span style=\"color:#1E66F5;--shiki-light-font-style:italic;--shiki-dark:#89B4FA;--shiki-dark-font-style:italic\"> trim_messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">(</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\">state</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:</span><span style=\"color:#E64553;--shiki-dark:#EBA0AC\"> AgentState</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">,</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> runtime</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:</span><span style=\"color:#E64553;--shiki-dark:#EBA0AC\"> Runtime</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">)</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\"> -></span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> dict</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">[</span><span style=\"color:#8839EF;--shiki-light-font-style:italic;--shiki-dark:#CBA6F7;--shiki-dark-font-style:italic\">str</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">,</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> Any</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">]</span><span style=\"color:#179299;--shiki-dark:#94E2D5\"> |</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> None</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:</span></span> <span class=\"line\"><span style=\"color:#40A02B;--shiki-dark:#A6E3A1\"> \"\"\"Keep only the last few messages to fit context window.\"\"\"</span></span> <span class=\"line\"><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> messages </span><span style=\"color:#179299;--shiki-dark:#94E2D5\">=</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> state</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">[</span><span style=\"color:#40A02B;--shiki-dark:#A6E3A1\">\"</span><span style=\"color:#40A02B;--shiki-light-font-style:italic;--shiki-dark:#A6E3A1;--shiki-dark-font-style:italic\">messages</span><span style=\"color:#40A02B;--shiki-dark:#A6E3A1\">\"</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">]</span></span> <span class=\"line\"></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\"> if</span><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\"> len</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">(</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">)</span><span style=\"color:#179299;--shiki-dark:#94E2D5\"> <=</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> 3</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\"> return</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> None</span><span style=\"color:#7C7F93;--shiki-light-font-style:italic;--shiki-dark:#9399B2;--shiki-dark-font-style:italic\"> # No changes needed</span></span> <span class=\"line\"></span> <span class=\"line\"><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> first_msg </span><span style=\"color:#179299;--shiki-dark:#94E2D5\">=</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">[</span><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\">0</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">]</span></span> <span class=\"line\"><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> recent_messages </span><span style=\"color:#179299;--shiki-dark:#94E2D5\">=</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">[</span><span style=\"color:#179299;--shiki-dark:#94E2D5\">-</span><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\">3</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:]</span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\"> if</span><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\"> len</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">(</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">)</span><span style=\"color:#179299;--shiki-dark:#94E2D5\"> %</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> 2</span><span style=\"color:#179299;--shiki-dark:#94E2D5\"> ==</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> 0</span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\"> else</span><span",
+      "fetchedAt": "2026-09-17T12:12:31.450Z",
+      "title": "Short-term memory - Docs by LangChain",
+      "status": "ok",
+      "contentLength": 151113,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 15,
+          "text": "<code language=\"python\" numberOfLines=\"50\"><span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langchain</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">messages </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> RemoveMessage</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langgraph</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">graph</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">message </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> REMOVE_ALL_MESSAGES</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langgraph</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">checkpoint</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">memory </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> InMemorySaver</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langchain</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">agents </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> create_agent</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">,</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> AgentState</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langchain</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">agents</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">middleware </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> before_model</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langgraph</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">runtime </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> Runtime</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> langchain_core</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">.</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">runnables </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> RunnableConfig</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">from</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> typing </span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">import</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> Any</span></span> <span class=\"line\"></span> <span class=\"line\"></span> <span class=\"line\"><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\">@before_model</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\">def</span><span style=\"color:#1E66F5;--shiki-light-font-style:italic;--shiki-dark:#89B4FA;--shiki-dark-font-style:italic\"> trim_messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">(</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\">state</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:</span><span style=\"color:#E64553;--shiki-dark:#EBA0AC\"> AgentState</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">,</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> runtime</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:</span><span style=\"color:#E64553;--shiki-dark:#EBA0AC\"> Runtime</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">)</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\"> -></span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> dict</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">[</span><span style=\"color:#8839EF;--shiki-light-font-style:italic;--shiki-dark:#CBA6F7;--shiki-dark-font-style:italic\">str</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">,</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> Any</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">]</span><span style=\"color:#179299;--shiki-dark:#94E2D5\"> |</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> None</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:</span></span> <span class=\"line\"><span style=\"color:#40A02B;--shiki-dark:#A6E3A1\"> \"\"\"Keep only the last few messages to fit context window.\"\"\"</span></span> <span class=\"line\"><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> messages </span><span style=\"color:#179299;--shiki-dark:#94E2D5\">=</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> state</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">[</span><span style=\"color:#40A02B;--shiki-dark:#A6E3A1\">\"</span><span style=\"color:#40A02B;--shiki-light-font-style:italic;--shiki-dark:#A6E3A1;--shiki-dark-font-style:italic\">messages</span><span style=\"color:#40A02B;--shiki-dark:#A6E3A1\">\"</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">]</span></span> <span class=\"line\"></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\"> if</span><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\"> len</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">(</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">)</span><span style=\"color:#179299;--shiki-dark:#94E2D5\"> <=</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> 3</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:</span></span> <span class=\"line\"><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\"> return</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> None</span><span style=\"color:#7C7F93;--shiki-light-font-style:italic;--shiki-dark:#9399B2;--shiki-dark-font-style:italic\"> # No changes needed</span></span> <span class=\"line\"></span> <span class=\"line\"><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> first_msg </span><span style=\"color:#179299;--shiki-dark:#94E2D5\">=</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">[</span><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\">0</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">]</span></span> <span class=\"line\"><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\"> recent_messages </span><span style=\"color:#179299;--shiki-dark:#94E2D5\">=</span><span style=\"color:#E64553;--shiki-light-font-style:italic;--shiki-dark:#EBA0AC;--shiki-dark-font-style:italic\"> messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">[</span><span style=\"color:#179299;--shiki-dark:#94E2D5\">-</span><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\">3</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">:]</span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\"> if</span><span style=\"color:#FE640B;--shiki-light-font-style:italic;--shiki-dark:#FAB387;--shiki-dark-font-style:italic\"> len</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">(</span><span style=\"color:#4C4F69;--shiki-dark:#CDD6F4\">messages</span><span style=\"color:#7C7F93;--shiki-dark:#9399B2\">)</span><span style=\"color:#179299;--shiki-dark:#94E2D5\"> %</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> 2</span><span style=\"color:#179299;--shiki-dark:#94E2D5\"> ==</span><span style=\"color:#FE640B;--shiki-dark:#FAB387\"> 0</span><span style=\"color:#8839EF;--shiki-dark:#CBA6F7\"> else</span><span"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.reddit.com/r/explainlikeimfive/comments/1qpzocr/eli5_what_limits_a_models_context_window/",
+      "content": "",
+      "fetchedAt": "2026-09-17T12:12:31.451Z",
+      "title": "",
+      "status": "error",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/",
+      "content": "Conversational Memory for LLMs with Langchain\n\nForms of Conversational Memory\n\nConversational memory is how a chatbot can respond to multiple queries in a chat-like manner. It enables a coherent conversation, and without it, every query would be treated as an entirely independent input without considering past interactions.\n\nThe memory allows a Large Language Model (LLM) to remember previous interactions with the user. By default, LLMs are stateless — meaning each incoming query is processed independently of other interactions. The only thing that exists for a stateless agent is the current input, nothing else.\n\nThere are many applications where remembering previous interactions is very important, such as chatbots. Conversational memory allows us to do that.\n\nThere are several ways that we can implement conversational memory. In the context of [LangChain](/learn/langchain-intro/, they are all built on top of the ConversationChain.\n\nWe can start by initializing the ConversationChain. We will use OpenAI’s text-davinci-003 as the LLM, but other models like gpt-3.5-turbo can be used.\n\n<code class=\"language-python line-numbers\">from langchain import OpenAI from langchain.chains import ConversationChain # first initialize the large language model llm = OpenAI( temperature=0, openai_api_key=\"OPENAI_API_KEY\", model_name=\"text-davinci-003\" ) # now initialize the conversation chain conversation = ConversationChain(llm=llm)</code>\n\nWe can see the prompt template used by the ConversationChain like so:\n\n<code class=\"language-python line-numbers\">print(conversation.prompt.template)</code>\n\n<code>The following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know. Current conversation: {history} Human: {input} AI: </code>\n\nHere, the prompt primes the model by telling it that the following is a conversation between a human (us) and an AI (text-davinci-003). The prompt attempts to reduce hallucinations (where a model makes things up) by stating:\n\nThe {history} is where conversational memory is used. Here, we feed in information about the conversation history between the human and AI.\n\nThese two parameters — {history} and {input} — are passed to the LLM within the prompt template we just saw, and the output that we (hopefully) return is simply the predicted continuation of the conversation.\n\nForms of Conversational Memory\n\nWe can use several types of conversational memory with the ConversationChain. They modify the text passed to the {history} parameter.\n\nThe ConversationBufferMemory is the most straightforward conversational memory in LangChain. As we described above, the raw input of the past conversation between the human and AI is passed — in its raw form — to the {history} parameter.\n\n<code class=\"language-python line-numbers\">from langchain.chains.conversation.memory import ConversationBufferMemory conversation_buf = ConversationChain( llm=llm, memory=ConversationBufferMemory() )</code>\n\n<code class=\"language-python line-numbers\">conversation_buf(\"Good morning AI!\")</code>\n\nWe return the first response from the conversational agent. Let’s continue the conversation, writing prompts that the LLM can only answer if it considers the conversation history. We also add a count_tokens function so we can see how many tokens are being used by each interaction.\n\n<code class=\"language-python line-numbers\">count_tokens( conversation_buf, \"Which data source types could be used to give context to the model?\" )</code>\n\nThe LLM can clearly remember the history of the conversation. Let’s take a look at how this conversation history is stored by the ConversationBufferMemory:\n\n<code class=\"language-python line-numbers\">print(conversation_buf.memory.buffer)</code>\n\nThe ConversationBufferMemory is an excellent option to get started with but is limited by the storage of every interaction. Let’s take a look at other options that help remedy this.\n\nUsing ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.\n\nTo avoid excessive token usage, we can use ConversationSummaryMemory. As the name would suggest, this form of memory summarizes the conversation history before it is passed to the {history} parameter.\n\nWe initialize the ConversationChain with the summary memory like so:\n\n<code class=\"language-python line-numbers\">from langchain.chains.conversation.memory import ConversationSummaryMemory conversation = ConversationChain( llm=llm, memory=ConversationSummaryMemory(llm=llm) )</code>\n\nWhen using ConversationSummaryMemory, we need to pass an LLM to the object because the summarization is powered by an LLM. We can see the prompt used to do this here:\n\n<code class=\"language-python line-numbers\">print(conversation_sum.memory.prompt.template)</code>\n\n<code class=\"language-python line-numbers\">count_tokens( conversation_sum, \"Which data source types could be used to give context to the model?\" )</code>\n\n<code class=\"language-python line-numbers\">print(conversation_sum.memory.buffer)</code>\n\nThe number of tokens being used for this conversation is greater than when using the ConversationBufferMemory, so is there any advantage to using ConversationSummaryMemory over the buffer memory?\n\nFor longer conversations, yes. Here, we have a longer conversation. As shown above, the summary memory initially uses far more tokens. However, as the conversation progresses, the summarization approach grows more slowly. In contrast, the buffer memory continues to grow linearly with the number of tokens in the chat.\n\nWe can summarize the pros and cons of ConversationSummaryMemory as follows:\n\nConversation summarization is a good approach for cases where long conversations are expected. Yet, it is still fundamentally limited by token limits. After a certain amount of time, we still exceed context window limits.\n\nConversationBufferWindowMemory\n\nThe ConversationBufferWindowMemory acts in the same way as our earlier “buffer memory” but adds a window to the memory. Meaning that we only keep a given number of past interactions before “forgetting” them. We use it like so:\n\n<code class=\"language-python line-numbers\">from langchain.chains.conversation.memory import ConversationBufferWindowMemory conversation = ConversationChain( llm=llm, memory=ConversationBufferWindowMemory(k=1) )</code>\n\n<code class=\"language-python line-numbers\">count_tokens( conversation_bufw, \"Which data source types could be used to give context to the model?\" )</code>\n\n<code class=\"language-python line-numbers\">bufw_history = conversation_bufw.memory.load_memory_variables( inputs=[] )['history']</code>\n\nAlthough this method isn’t suitable for remembering distant interactions, it is good at limiting the number of tokens being used — a number that we can increase/decrease depending on our needs. For the longer conversation used in our earlier comparison, we can set k=6 and reach ~1.5K tokens per interaction after 27 total interactions:\n\nConversationSummaryBufferMemory\n\nThe ConversationSummaryBufferMemory is a mix of the ConversationSummaryMemory and the ConversationBufferWindowMemory. It summarizes the earliest interactions in a conversation while maintaining the max_token_limit most recent tokens in their conversation. It is initialized like so:\n\n<code class=\"language-python line-numbers\">conversation_sum_bufw = ConversationChain( llm=llm, memory=ConversationSummaryBufferMemory( llm=llm, max_token_limit=650 )</code>\n\nWhen applying this to our earlier conversation, we can set max_token_limit to a small number and yet the LLM can remember our earlier “aim”.\n\nThis is because that information is captured by the “summarization” component of the memory, despite being missed by the “buffer window” component.\n\nAlthough requiring more tweaking on what to summarize and what to maintain within the buffer window, the ConversationSummaryBufferMemory does give us plenty of flexibility and is the only one of our memory types (so far) that allows us to remember distant interactions and store the most recent interactions in their raw — and most information-rich — form.\n\nWe can also see that despite including a summary of past interactions and the raw form of recent interactions — the increase in token count of ConversationSummaryBufferMemory is competitive with other methods.\n\nHowever, we have other options — particularly the ConversationKnowledgeGraphMemory and ConversationEntityMemory. We’ll give these different forms of memory the attention they deserve in upcoming chapters.\n\nThat’s it for this introduction to conversational memory for LLMs using LangChain. As we’ve seen, there are plenty of options for helping stateless LLMs interact as if they were in a stateful environment — able to consider and refer back to past interactions.",
+      "fetchedAt": "2026-09-17T12:12:31.453Z",
+      "title": "Conversational Memory for LLMs with Langchain | Pinecone",
+      "status": "ok",
+      "contentLength": 24076,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Conversational Memory for LLMs with Langchain"
+        },
+        {
+          "blockIndex": 2,
+          "text": "Forms of Conversational Memory"
+        },
+        {
+          "blockIndex": 3,
+          "text": "Conversational memory is how a chatbot can respond to multiple queries in a chat-like manner. It enables a coherent conversation, and without it, every query would be treated as an entirely independent input without considering past interactions."
+        },
+        {
+          "blockIndex": 4,
+          "text": "The memory allows a Large Language Model (LLM) to remember previous interactions with the user. By default, LLMs are stateless — meaning each incoming query is processed independently of other interactions. The only thing that exists for a stateless agent is the current input, nothing else."
+        },
+        {
+          "blockIndex": 5,
+          "text": "There are many applications where remembering previous interactions is very important, such as chatbots. Conversational memory allows us to do that."
+        },
+        {
+          "blockIndex": 6,
+          "text": "There are several ways that we can implement conversational memory. In the context of [LangChain](/learn/langchain-intro/, they are all built on top of the ConversationChain."
+        },
+        {
+          "blockIndex": 8,
+          "text": "We can start by initializing the ConversationChain. We will use OpenAI’s text-davinci-003 as the LLM, but other models like gpt-3.5-turbo can be used."
+        },
+        {
+          "blockIndex": 9,
+          "text": "<code class=\"language-python line-numbers\">from langchain import OpenAI from langchain.chains import ConversationChain # first initialize the large language model llm = OpenAI( temperature=0, openai_api_key=\"OPENAI_API_KEY\", model_name=\"text-davinci-003\" ) # now initialize the conversation chain conversation = ConversationChain(llm=llm)</code>"
+        },
+        {
+          "blockIndex": 10,
+          "text": "We can see the prompt template used by the ConversationChain like so:"
+        },
+        {
+          "blockIndex": 11,
+          "text": "<code class=\"language-python line-numbers\">print(conversation.prompt.template)</code>"
+        },
+        {
+          "blockIndex": 12,
+          "text": "<code>The following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know. Current conversation: {history} Human: {input} AI: </code>"
+        },
+        {
+          "blockIndex": 13,
+          "text": "Here, the prompt primes the model by telling it that the following is a conversation between a human (us) and an AI (text-davinci-003). The prompt attempts to reduce hallucinations (where a model makes things up) by stating:"
+        },
+        {
+          "blockIndex": 17,
+          "text": "The {history} is where conversational memory is used. Here, we feed in information about the conversation history between the human and AI."
+        },
+        {
+          "blockIndex": 18,
+          "text": "These two parameters — {history} and {input} — are passed to the LLM within the prompt template we just saw, and the output that we (hopefully) return is simply the predicted continuation of the conversation."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Forms of Conversational Memory"
+        },
+        {
+          "blockIndex": 20,
+          "text": "We can use several types of conversational memory with the ConversationChain. They modify the text passed to the {history} parameter."
+        },
+        {
+          "blockIndex": 23,
+          "text": "The ConversationBufferMemory is the most straightforward conversational memory in LangChain. As we described above, the raw input of the past conversation between the human and AI is passed — in its raw form — to the {history} parameter."
+        },
+        {
+          "blockIndex": 24,
+          "text": "<code class=\"language-python line-numbers\">from langchain.chains.conversation.memory import ConversationBufferMemory conversation_buf = ConversationChain( llm=llm, memory=ConversationBufferMemory() )</code>"
+        },
+        {
+          "blockIndex": 25,
+          "text": "<code class=\"language-python line-numbers\">conversation_buf(\"Good morning AI!\")</code>"
+        },
+        {
+          "blockIndex": 27,
+          "text": "We return the first response from the conversational agent. Let’s continue the conversation, writing prompts that the LLM can only answer if it considers the conversation history. We also add a count_tokens function so we can see how many tokens are being used by each interaction."
+        },
+        {
+          "blockIndex": 35,
+          "text": "<code class=\"language-python line-numbers\">count_tokens( conversation_buf, \"Which data source types could be used to give context to the model?\" )</code>"
+        },
+        {
+          "blockIndex": 41,
+          "text": "The LLM can clearly remember the history of the conversation. Let’s take a look at how this conversation history is stored by the ConversationBufferMemory:"
+        },
+        {
+          "blockIndex": 42,
+          "text": "<code class=\"language-python line-numbers\">print(conversation_buf.memory.buffer)</code>"
+        },
+        {
+          "blockIndex": 45,
+          "text": "The ConversationBufferMemory is an excellent option to get started with but is limited by the storage of every interaction. Let’s take a look at other options that help remedy this."
+        },
+        {
+          "blockIndex": 47,
+          "text": "Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today."
+        },
+        {
+          "blockIndex": 48,
+          "text": "To avoid excessive token usage, we can use ConversationSummaryMemory. As the name would suggest, this form of memory summarizes the conversation history before it is passed to the {history} parameter."
+        },
+        {
+          "blockIndex": 49,
+          "text": "We initialize the ConversationChain with the summary memory like so:"
+        },
+        {
+          "blockIndex": 50,
+          "text": "<code class=\"language-python line-numbers\">from langchain.chains.conversation.memory import ConversationSummaryMemory conversation = ConversationChain( llm=llm, memory=ConversationSummaryMemory(llm=llm) )</code>"
+        },
+        {
+          "blockIndex": 51,
+          "text": "When using ConversationSummaryMemory, we need to pass an LLM to the object because the summarization is powered by an LLM. We can see the prompt used to do this here:"
+        },
+        {
+          "blockIndex": 52,
+          "text": "<code class=\"language-python line-numbers\">print(conversation_sum.memory.prompt.template)</code>"
+        },
+        {
+          "blockIndex": 64,
+          "text": "<code class=\"language-python line-numbers\">count_tokens( conversation_sum, \"Which data source types could be used to give context to the model?\" )</code>"
+        },
+        {
+          "blockIndex": 71,
+          "text": "<code class=\"language-python line-numbers\">print(conversation_sum.memory.buffer)</code>"
+        },
+        {
+          "blockIndex": 73,
+          "text": "The number of tokens being used for this conversation is greater than when using the ConversationBufferMemory, so is there any advantage to using ConversationSummaryMemory over the buffer memory?"
+        },
+        {
+          "blockIndex": 74,
+          "text": "For longer conversations, yes. Here, we have a longer conversation. As shown above, the summary memory initially uses far more tokens. However, as the conversation progresses, the summarization approach grows more slowly. In contrast, the buffer memory continues to grow linearly with the number of tokens in the chat."
+        },
+        {
+          "blockIndex": 75,
+          "text": "We can summarize the pros and cons of ConversationSummaryMemory as follows:"
+        },
+        {
+          "blockIndex": 76,
+          "text": "Conversation summarization is a good approach for cases where long conversations are expected. Yet, it is still fundamentally limited by token limits. After a certain amount of time, we still exceed context window limits."
+        },
+        {
+          "blockIndex": 77,
+          "text": "ConversationBufferWindowMemory"
+        },
+        {
+          "blockIndex": 78,
+          "text": "The ConversationBufferWindowMemory acts in the same way as our earlier “buffer memory” but adds a window to the memory. Meaning that we only keep a given number of past interactions before “forgetting” them. We use it like so:"
+        },
+        {
+          "blockIndex": 79,
+          "text": "<code class=\"language-python line-numbers\">from langchain.chains.conversation.memory import ConversationBufferWindowMemory conversation = ConversationChain( llm=llm, memory=ConversationBufferWindowMemory(k=1) )</code>"
+        },
+        {
+          "blockIndex": 90,
+          "text": "<code class=\"language-python line-numbers\">count_tokens( conversation_bufw, \"Which data source types could be used to give context to the model?\" )</code>"
+        },
+        {
+          "blockIndex": 98,
+          "text": "<code class=\"language-python line-numbers\">bufw_history = conversation_bufw.memory.load_memory_variables( inputs=[] )['history']</code>"
+        },
+        {
+          "blockIndex": 101,
+          "text": "Although this method isn’t suitable for remembering distant interactions, it is good at limiting the number of tokens being used — a number that we can increase/decrease depending on our needs. For the longer conversation used in our earlier comparison, we can set k=6 and reach ~1.5K tokens per interaction after 27 total interactions:"
+        },
+        {
+          "blockIndex": 103,
+          "text": "ConversationSummaryBufferMemory"
+        },
+        {
+          "blockIndex": 104,
+          "text": "The ConversationSummaryBufferMemory is a mix of the ConversationSummaryMemory and the ConversationBufferWindowMemory. It summarizes the earliest interactions in a conversation while maintaining the max_token_limit most recent tokens in their conversation. It is initialized like so:"
+        },
+        {
+          "blockIndex": 105,
+          "text": "<code class=\"language-python line-numbers\">conversation_sum_bufw = ConversationChain( llm=llm, memory=ConversationSummaryBufferMemory( llm=llm, max_token_limit=650 )</code>"
+        },
+        {
+          "blockIndex": 106,
+          "text": "When applying this to our earlier conversation, we can set max_token_limit to a small number and yet the LLM can remember our earlier “aim”."
+        },
+        {
+          "blockIndex": 107,
+          "text": "This is because that information is captured by the “summarization” component of the memory, despite being missed by the “buffer window” component."
+        },
+        {
+          "blockIndex": 109,
+          "text": "Although requiring more tweaking on what to summarize and what to maintain within the buffer window, the ConversationSummaryBufferMemory does give us plenty of flexibility and is the only one of our memory types (so far) that allows us to remember distant interactions and store the most recent interactions in their raw — and most information-rich — form."
+        },
+        {
+          "blockIndex": 110,
+          "text": "We can also see that despite including a summary of past interactions and the raw form of recent interactions — the increase in token count of ConversationSummaryBufferMemory is competitive with other methods."
+        },
+        {
+          "blockIndex": 113,
+          "text": "However, we have other options — particularly the ConversationKnowledgeGraphMemory and ConversationEntityMemory. We’ll give these different forms of memory the attention they deserve in upcoming chapters."
+        },
+        {
+          "blockIndex": 114,
+          "text": "That’s it for this introduction to conversational memory for LLMs using LangChain. As we’ve seen, there are plenty of options for helping stateless LLMs interact as if they were in a stateful environment — able to consider and refer back to past interactions."
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T12:12:30.479Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung kỹ thuật chính xác, phù hợp với mục tiêu giải thích khái niệm.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "tieuDe": "Context windows - Claude Platform Docs",
+      "toChuc": "Claude Platform Docs",
+      "ngayLayVe": "2026-09-17T12:12:30.482Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu chính thức từ nhà cung cấp mô hình (Anthropic), cung cấp thông tin kỹ thuật chi tiết về cách hoạt động của context window và các giới hạn cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, cần kiểm tra phiên bản tài liệu.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The \"context window\" refers to all the text a language model can reference when generating a response, including the response itself.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://docs.langchain.com/oss/python/langchain/short-term-memory",
+      "tieuDe": "Short-term memory - Docs by LangChain",
+      "toChuc": "Docs by LangChain",
+      "ngayLayVe": "2026-09-17T12:12:31.450Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Tài liệu kỹ thuật của thư viện mã nguồn mở, tuy nhiên nội dung chủ yếu là code và cấu trúc kỹ thuật, ít giải thích trực quan về lý do quên thông tin so với các nguồn khác.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/",
+      "tieuDe": "Conversational Memory for LLMs with Langchain | Pinecone",
+      "ngayLayVe": "2026-09-17T12:12:31.453Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Pinecone là công ty công nghệ, bài viết có tính giáo dục cao, giải thích rõ về bộ nhớ hội thoại và giới hạn token, phù hợp với mục tiêu bài học.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://www.reddit.com/r/ollama/comments/1edan5c/how_does_an_llm_retain_conversation_memory/",
+      "tieuDe": "https://www.reddit.com/r/ollama/comments/1edan5c/how_does_an_llm_retain_conversation_memory/",
+      "ngayLayVe": "2026-09-17T12:12:30.481Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "error",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    },
+    {
+      "id": "n06",
+      "url": "https://www.reddit.com/r/explainlikeimfive/comments/1qpzocr/eli5_what_limits_a_models_context_window/",
+      "tieuDe": "https://www.reddit.com/r/explainlikeimfive/comments/1qpzocr/eli5_what_limits_a_models_context_window/",
+      "ngayLayVe": "2026-09-17T12:12:31.451Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "error",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n04"
+  ],
+  "sourcesRejected": [
+    "n03",
+    "n05",
+    "n06"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cửa sổ ngữ cảnh (context window) là lượng văn bản (tính bằng token) mà mô hình ngôn ngữ lớn (LLM) có thể xem xét hoặc \"nhớ\" tại bất kỳ thời điểm nào.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "Đoạn đầu trang 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "The \"context window\" refers to all the text a language model can reference when generating a response, including the response itself.",
+          "viTri": "Đoạn đầu trang 2"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Khi cuộc trò chuyện hoặc tài liệu vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt bớt (truncate) hoặc tóm tắt (summarize) để tiếp tục xử lý, dẫn đến việc quên các chi tiết ở phần đầu.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+          "viTri": "Đoạn 2 trang 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Việc sử dụng bộ nhớ đệm hội thoại (ConversationBufferMemory) lưu trữ toàn bộ lịch sử có thể nhanh chóng vượt quá giới hạn cửa sổ ngữ cảnh của các LLM tiên tiến nhất.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.",
+          "viTri": "Đoạn giữa trang 4"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Cửa sổ ngữ cảnh hoạt động như bộ nhớ làm việc (working memory) của mô hình, quyết định độ dài cuộc trò chuyện mà nó có thể duy trì mà không quên chi tiết.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange.",
+          "viTri": "Đoạn 2 trang 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh"
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/context-window\",\n      \"tieuDe\": \"What is a context window? | IBM\",\n      \"tacGia\": \"Dave Bergmann\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T12:12:30.479Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung kỹ thuật chính xác, phù hợp với mục tiêu giải thích khái niệm.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://platform.claude.com/docs/en/build-with-claude/context-windows\",\n      \"tieuDe\": \"Context windows - Claude Platform Docs\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Claude Platform Docs\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:12:30.482Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu chính thức từ nhà cung cấp mô hình (Anthropic), cung cấp thông tin kỹ thuật chi tiết về cách hoạt động của context window và các giới hạn cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng không rõ, cần kiểm tra phiên bản tài liệu.\"\n      ],\n      \"doanTrich\": \"The \\\"context window\\\" refers to all the text a language model can reference when generating a response, including the response itself.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://docs.langchain.com/oss/python/langchain/short-term-memory\",\n      \"tieuDe\": \"Short-term memory - Docs by LangChain\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Docs by LangChain\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:12:31.450Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Tài liệu kỹ thuật của thư viện mã nguồn mở, tuy nhiên nội dung chủ yếu là code và cấu trúc kỹ thuật, ít giải thích trực quan về lý do quên thông tin so với các nguồn khác.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung chủ yếu là mã nguồn Python, không phù hợp để trích dẫn giải thích khái niệm cho video bài giảng so với các nguồn văn bản mô tả rõ ràng hơn.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"from langchain.messages import RemoveMessage from langgraph.graph.message import REMOVE_ALL_MESSAGES from langgraph.checkpoint.memory import InMemorySaver\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/\",\n      \"tieuDe\": \"Conversational Memory for LLMs with Langchain | Pinecone\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Pinecone\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:12:31.453Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Pinecone là công ty công nghệ, bài viết có tính giáo dục cao, giải thích rõ về bộ nhớ hội thoại và giới hạn token, phù hợp với mục tiêu bài học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng không rõ.\"\n      ],\n      \"doanTrich\": \"Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Cửa sổ ngữ cảnh (context window) là lượng văn bản (tính bằng token) mà mô hình ngôn ngữ lớn (LLM) có thể xem xét hoặc \\\"nhớ\\\" tại bất kỳ thời điểm nào.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\n          \"viTri\": \"Đoạn đầu trang 1\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"The \\\"context window\\\" refers to all the text a language model can reference when generating a response, including the response itself.\",\n          \"viTri\": \"Đoạn đầu trang 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Khi cuộc trò chuyện hoặc tài liệu vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt bớt (truncate) hoặc tóm tắt (summarize) để tiếp tục xử lý, dẫn đến việc quên các chi tiết ở phần đầu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\",\n          \"viTri\": \"Đoạn 2 trang 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Việc sử dụng bộ nhớ đệm hội thoại (ConversationBufferMemory) lưu trữ toàn bộ lịch sử có thể nhanh chóng vượt quá giới hạn cửa sổ ngữ cảnh của các LLM tiên tiến nhất.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.\",\n          \"viTri\": \"Đoạn giữa trang 4\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Cửa sổ ngữ cảnh hoạt động như bộ nhớ làm việc (working memory) của mô hình, quyết định độ dài cuộc trò chuyện mà nó có thể duy trì mà không quên chi tiết.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange.\",\n          \"viTri\": \"Đoạn 2 trang 1\"\n        }]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-b212c9b2-c4b1-481f-b4e7-9ea0c2753205",
+      "durationMs": 4892,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/context-window\",\n      \"tieuDe\": \"What is a context window? | IBM\",\n      \"tacGia\": \"Dave Bergmann\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T12:12:30.479Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung kỹ thuật chính xác, phù hợp với mục tiêu giải thích khái niệm.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://platform.claude.com/docs/en/build-with-claude/context-windows\",\n      \"tieuDe\": \"Context windows - Claude Platform Docs\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Claude Platform Docs\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:12:30.482Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu chính thức từ nhà cung cấp mô hình (Anthropic), cung cấp thông tin kỹ thuật chi tiết về cách hoạt động của context window và các giới hạn cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng không rõ, cần kiểm tra phiên bản tài liệu.\"\n      ],\n      \"doanTrich\": \"The \\\"context window\\\" refers to all the text a language model can reference when generating a response, including the response itself.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://docs.langchain.com/oss/python/langchain/short-term-memory\",\n      \"tieuDe\": \"Short-term memory - Docs by LangChain\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Docs by LangChain\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:12:31.450Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Tài liệu kỹ thuật của thư viện mã nguồn mở, tuy nhiên nội dung chủ yếu là code và cấu trúc kỹ thuật, ít giải thích trực quan về lý do quên thông tin so với các nguồn khác.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung chủ yếu là mã nguồn Python, không phù hợp để trích dẫn giải thích khái niệm cho video bài giảng so với các nguồn văn bản mô tả rõ ràng hơn.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"from langchain.messages import RemoveMessage from langgraph.graph.message import REMOVE_ALL_MESSAGES from langgraph.checkpoint.memory import InMemorySaver\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/\",\n      \"tieuDe\": \"Conversational Memory for LLMs with Langchain | Pinecone\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Pinecone\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:12:31.453Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Pinecone là công ty công nghệ, bài viết có tính giáo dục cao, giải thích rõ về bộ nhớ hội thoại và giới hạn token, phù hợp với mục tiêu bài học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng không rõ.\"\n      ],\n      \"doanTrich\": \"Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Cửa sổ ngữ cảnh (context window) là lượng văn bản (tính bằng token) mà mô hình ngôn ngữ lớn (LLM) có thể xem xét hoặc \\\"nhớ\\\" tại bất kỳ thời điểm nào.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\n          \"viTri\": \"Đoạn đầu trang 1\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"The \\\"context window\\\" refers to all the text a language model can reference when generating a response, including the response itself.\",\n          \"viTri\": \"Đoạn đầu trang 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Khi cuộc trò chuyện hoặc tài liệu vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt bớt (truncate) hoặc tóm tắt (summarize) để tiếp tục xử lý, dẫn đến việc quên các chi tiết ở phần đầu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\",\n          \"viTri\": \"Đoạn 2 trang 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Việc sử dụng bộ nhớ đệm hội thoại (ConversationBufferMemory) lưu trữ toàn bộ lịch sử có thể nhanh chóng vượt quá giới hạn cửa sổ ngữ cảnh của các LLM tiên tiến nhất.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Using ConversationBufferMemory, we very quickly use a lot of tokens and even exceed the context window limit of even the most advanced LLMs available today.\",\n          \"viTri\": \"Đoạn giữa trang 4\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Cửa sổ ngữ cảnh hoạt động như bộ nhớ làm việc (working memory) của mô hình, quyết định độ dài cuộc trò chuyện mà nó có thể duy trì mà không quên chi tiết.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange.\",\n          \"viTri\": \"Đoạn 2 trang 1\"\n        }]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 36393
+}

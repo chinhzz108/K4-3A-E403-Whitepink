@@ -1,0 +1,162 @@
+{
+  "id": "trace-script-1789651894502",
+  "timestamp": "2026-09-17T13:31:34.502Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam",
+    "learningObjective": "Biết mức chi phí thực tế",
+    "targetAudience": "Quản lý",
+    "videoDuration": "3 phút",
+    "evalRunId": "2026-09-17T13-31-02-064Z",
+    "evalCaseId": "N17"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/contradicting-a.html",
+      "tieuDe": "Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026",
+      "tacGia": "Viện Nghiên cứu AI Việt Nam",
+      "toChuc": "AI Research Vietnam",
+      "ngayDang": "2026-06-01",
+      "ngayLayVe": "2026-09-17T13:31:02.144Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Đây là tài liệu fixture tự dựng, nội dung khai báo rõ ràng là dữ liệu kiểm thử, không phải nguồn thực tế. Số liệu mâu thuẫn với nguồn khác.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Dữ liệu fixture tổng hợp, không phải bằng chứng thực tế",
+        "Số liệu chi phí mâu thuẫn với nguồn n02"
+      ],
+      "doanTrich": "chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "http://localhost:3000/fixtures/contradicting-b.html",
+      "tieuDe": "Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026",
+      "tacGia": "Trung tâm Công nghệ Thông tin Quốc gia",
+      "toChuc": "CNTT Quốc gia",
+      "ngayDang": "2026-07-15",
+      "ngayLayVe": "2026-09-17T13:31:02.144Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Đây là tài liệu fixture tự dựng, nội dung khai báo rõ ràng là dữ liệu kiểm thử, không phải nguồn thực tế. Số liệu mâu thuẫn với nguồn khác.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Dữ liệu fixture tổng hợp, không phải bằng chứng thực tế",
+        "Số liệu chi phí mâu thuẫn với nguồn n01"
+      ],
+      "doanTrich": "chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Chi phí trung bình cho mỗi 1000 token đầu vào được ghi nhận là 0,01 USD theo khảo sát 500 doanh nghiệp.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Mâu thuẫn trực tiếp với nguồn n02 đưa ra con số 0,05 USD. Cả hai nguồn đều là fixture kiểm thử nên không có cơ sở để xác định số liệu nào là chính xác trong thực tế."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Chi phí trung bình cho mỗi 1000 token đầu vào được ghi nhận là 0,05 USD theo số liệu từ 200 doanh nghiệp lớn.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Mâu thuẫn trực tiếp với nguồn n01 đưa ra con số 0,01 USD. Nguồn n02 giải thích sự chênh lệch do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp."
+    },
+    {
+      "id": "t03",
+      "noiDung": "Mô hình GPT-4o chiếm 45% thị phần, tiếp theo là Claude với 30% theo khảo sát của Viện Nghiên cứu AI Việt Nam.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%.",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Mâu thuẫn với nguồn n02 cho rằng Claude 3.5 Sonnet chiếm 55% và GPT-4o chiếm 25% trong nhóm khảo sát của họ. Sự khác biệt có thể do phương pháp lấy mẫu khác nhau giữa hai fixture."
+    },
+    {
+      "id": "t04",
+      "noiDung": "Claude 3.5 Sonnet chiếm 55% lượng sử dụng, GPT-4o chiếm 25% theo báo cáo của Trung tâm Công nghệ Thông tin Quốc gia.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%.",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Mâu thuẫn với nguồn n01 về thị phần các mô hình. Nguồn n02 ghi nhận sự thống trị của Claude trong nhóm doanh nghiệp lớn, trái ngược với nguồn n01."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam",
+    "mucTieu": "Biết mức chi phí thực tế",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Quản lý",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam\",\n  \"mucTieu\": \"Biết mức chi phí thực tế\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Quản lý\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các nhà quản lý đến với khóa học tối ưu hóa chi phí vận hành công nghệ thông tin tại Việt Nam.\",\n      \"chuTrenManHinh\": \"Tối ưu chi phí công nghệ\",\n      \"yDoHinh\": \"Hình ảnh một nhà quản lý đang đứng trước màn hình hiển thị biểu đồ tăng trưởng doanh nghiệp.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo một số tài liệu chưa được xác minh độc lập, chi phí trung bình cho mỗi một nghìn đơn vị dữ liệu chữ, hay còn gọi là token đầu vào, có thể chỉ ở mức không phẩy không một đô la Mỹ.\",\n      \"chuTrenManHinh\": \"Chi phí không phẩy không một đô la\",\n      \"yDoHinh\": \"Biểu đồ cột mô tả mức chi phí cực thấp của dịch vụ xử lý dữ liệu chữ.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Tuy nhiên, một số liệu khác chưa được kiểm chứng từ nhóm doanh nghiệp lớn lại ghi nhận mức chi phí trung bình này cao hơn, đạt không phẩy không năm đô la Mỹ cho mỗi một nghìn đơn vị dữ liệu chữ đầu vào.\",\n      \"chuTrenManHinh\": \"Chi phí không phẩy không năm đô la\",\n      \"yDoHinh\": \"Biểu đồ so sánh hai mức chi phí khác nhau giữa các nhóm doanh nghiệp.\",\n      \"nguon\": [\"t02\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu sự chênh lệch này có liên quan đến việc mô hình trí tuệ nhân tạo Clốt ba phẩy năm Son-nét chiếm năm mươi lăm phần trăm thị phần ở một nhóm khảo sát, trong khi mô hình Gi-pi-ti bốn o chỉ chiếm hai mươi lăm phần trăm theo một báo cáo chưa xác thực?\",\n      \"chuTrenManHinh\": \"Thị phần mô hình trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Biểu đồ hình tròn thể hiện tỷ lệ sử dụng các mô hình ngôn ngữ lớn khác nhau.\",\n      \"nguon\": [\"t04\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Để đưa ra quyết định đầu tư đúng đắn, chúng ta cần phân tích sâu hơn các báo cáo thực tế này nhằm tìm ra mức chi phí thực sự phù hợp với quy mô của doanh nghiệp mình.\",\n      \"chuTrenManHinh\": \"Lựa chọn tối ưu cho doanh nghiệp\",\n      \"yDoHinh\": \"Hình ảnh một nhóm quản lý đang thảo luận quanh bàn làm việc có đặt máy tính.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "requestId": "chatcmpl-628fada9-af67-4871-bb37-cb726d2090a3",
+      "durationMs": 5056,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam\",\"mucTieu\":\"Biết mức chi phí thực tế\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Quản lý\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các quản lý, hôm nay chúng ta sẽ khám phá chi phí trung bình sử dụng mô hình ngôn ngữ tại Việt Nam.\",\"chuTrenManHinh\":\"Giới thiệu chủ đề\",\"yDoHinh\":\"Hình ảnh logo AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo khảo sát, chi phí trung bình cho mỗi nghìn token đầu vào là một đồng đô la Mỹ, giảm hơn sáu mươi phần trăm so với năm trước.\",\"chuTrenManHinh\":\"Biểu đồ chi phí token\",\"yDoHinh\":\"Biểu đồ thanh so sánh\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Trong khi đó, một báo cáo khác ghi nhận chi phí trung bình là năm đồng đô la Mỹ cho mỗi nghìn token, cao hơn nhiều so với các báo cáo khác.\",\"chuTrenManHinh\":\"So sánh chi phí\",\"yDoHinh\":\"Biểu đồ so sánh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Một khảo sát khác cho thấy GPT-4o chiếm bốn mươi lăm phần trăm thị phần, tiếp theo là Claude với ba mươi phần trăm.\",\"chuTrenManHinh\":\"Thị phần mô hình\",\"yDoHinh\":\"Biểu đồ thị phần\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Vậy, chúng ta cần cân nhắc kỹ lưỡng khi lựa chọn mô hình để tối ưu chi phí và hiệu quả.\",\"chuTrenManHinh\":\"Kết luận\",\"yDoHinh\":\"Hình ảnh quyết định\",\"nguon\":[\"t01\"]}]}",
+      "validationError": "Câu 4: mẫu không hợp lệ (loi có chữ số)"
+    },
+    {
+      "stage": "repair",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "durationMs": 17650,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam\",\n  \"mucTieu\": \"Biết mức chi phí thực tế\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Quản lý\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các nhà quản lý đến với khóa học tối ưu hóa chi phí vận hành công nghệ thông tin tại Việt Nam.\",\n      \"chuTrenManHinh\": \"Tối ưu chi phí công nghệ\",\n      \"yDoHinh\": \"Hình ảnh một nhà quản lý đang đứng trước màn hình hiển thị biểu đồ tăng trưởng doanh nghiệp.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo một số tài liệu chưa được xác minh độc lập, chi phí trung bình cho mỗi một nghìn đơn vị dữ liệu chữ, hay còn gọi là token đầu vào, có thể chỉ ở mức không phẩy không một đô la Mỹ.\",\n      \"chuTrenManHinh\": \"Chi phí không phẩy không một đô la\",\n      \"yDoHinh\": \"Biểu đồ cột mô tả mức chi phí cực thấp của dịch vụ xử lý dữ liệu chữ.\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Tuy nhiên, một số liệu khác chưa được kiểm chứng từ nhóm doanh nghiệp lớn lại ghi nhận mức chi phí trung bình này cao hơn, đạt không phẩy không năm đô la Mỹ cho mỗi một nghìn đơn vị dữ liệu chữ đầu vào.\",\n      \"chuTrenManHinh\": \"Chi phí không phẩy không năm đô la\",\n      \"yDoHinh\": \"Biểu đồ so sánh hai mức chi phí khác nhau giữa các nhóm doanh nghiệp.\",\n      \"nguon\": [\"t02\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu sự chênh lệch này có liên quan đến việc mô hình trí tuệ nhân tạo Clốt ba phẩy năm Son-nét chiếm năm mươi lăm phần trăm thị phần ở một nhóm khảo sát, trong khi mô hình Gi-pi-ti bốn o chỉ chiếm hai mươi lăm phần trăm theo một báo cáo chưa xác thực?\",\n      \"chuTrenManHinh\": \"Thị phần mô hình trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Biểu đồ hình tròn thể hiện tỷ lệ sử dụng các mô hình ngôn ngữ lớn khác nhau.\",\n      \"nguon\": [\"t04\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Để đưa ra quyết định đầu tư đúng đắn, chúng ta cần phân tích sâu hơn các báo cáo thực tế này nhằm tìm ra mức chi phí thực sự phù hợp với quy mô của doanh nghiệp mình.\",\n      \"chuTrenManHinh\": \"Lựa chọn tối ưu cho doanh nghiệp\",\n      \"yDoHinh\": \"Hình ảnh một nhóm quản lý đang thảo luận quanh bàn làm việc có đặt máy tính.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    }
+  ],
+  "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)",
+  "isDemo": false,
+  "durationMs": 28417
+}

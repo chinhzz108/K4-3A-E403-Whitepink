@@ -1,0 +1,968 @@
+{
+  "id": "trace-research-1789652298931",
+  "timestamp": "2026-09-17T13:38:18.931Z",
+  "phase": "research",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N02"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "AI agent",
+          "url": "https://en.wikipedia.org/wiki/AI_agent",
+          "snippet": "An AI agent, also known as agentic AI, is an artificial intelligence program that can pursue goals, use software or other tools, and take actions with",
+          "position": 1
+        },
+        {
+          "title": "Large language model",
+          "url": "https://en.wikipedia.org/wiki/Large_language_model",
+          "snippet": "2023). \"AI language models are rife with different political biases\". MIT Technology Review. Retrieved 29 December 2023. Alba, Davey (1 May 2023). \"AI chatbots",
+          "position": 2
+        },
+        {
+          "title": "Artificial intelligence",
+          "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "snippet": "enabled by AI models. Machine learning applications can be biased if they learn from biased data. The developers may not be aware that the bias exists. Discriminatory",
+          "position": 3
+        }
+      ],
+      "query": "AI confidence bias",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    },
+    {
+      "results": [
+        {
+          "title": "Hallucination Detector - Verify Sources & Bibliographies",
+          "url": "https://gptzero.me/hallucination-detector",
+          "snippet": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays. Verify academic integrity with the most ...",
+          "position": 1
+        },
+        {
+          "title": "Detect hallucinations for RAG-based systems",
+          "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+          "snippet": "In the following sections, we discuss and implement four prominent approaches to detecting hallucinations: using an LLM prompt-based detector, ...",
+          "position": 2
+        },
+        {
+          "title": "Detecting hallucinations in large language models using ...",
+          "url": "https://www.nature.com/articles/s41586-024-07421-0",
+          "snippet": "viết bởi S Farquhar · 2024 · Trích dẫn 2288 bài viết — Here we develop new methods grounded in statistics, proposing entropy-based uncertainty estimators for LLMs to detect a subset of hallucinations ...",
+          "position": 3
+        },
+        {
+          "title": "Top Tools and Plugins to Detect AI Hallucinations in Real- ...",
+          "url": "https://www.ishir.com/blog/183214/top-tools-and-plugins-to-detect-ai-hallucinations-in-real-time.htm",
+          "snippet": "9 Tools and Plugins to Detect AI Hallucinations in 2025 · 1. Galileo AI · 2. Exa Hallucination Detector · 3. Genezio · 4. Patronus AI's Lynx · 5. Pythia · 6.",
+          "position": 4
+        },
+        {
+          "title": "AI Hallucination Checker",
+          "url": "https://minicoursegenerator.com/ai-hallucination-checker/",
+          "snippet": "Detect factual errors in AI-generated content with our Hallucination Checker. Verify accuracy, receive confidence scores, and ensure reliable outputs from ...",
+          "position": 5
+        }
+      ],
+      "query": "detect AI hallucination",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://en.wikipedia.org/wiki/AI_agent",
+      "https://gptzero.me/hallucination-detector",
+      "https://en.wikipedia.org/wiki/Large_language_model",
+      "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://www.nature.com/articles/s41586-024-07421-0",
+      "https://www.ishir.com/blog/183214/top-tools-and-plugins-to-detect-ai-hallucinations-in-real-time.htm",
+      "https://minicoursegenerator.com/ai-hallucination-checker/"
+    ],
+    "pagesRead": [
+      "https://en.wikipedia.org/wiki/AI_agent",
+      "https://gptzero.me/hallucination-detector",
+      "https://en.wikipedia.org/wiki/Large_language_model",
+      "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://www.nature.com/articles/s41586-024-07421-0",
+      "https://www.ishir.com/blog/183214/top-tools-and-plugins-to-detect-ai-hallucinations-in-real-time.htm",
+      "https://minicoursegenerator.com/ai-hallucination-checker/"
+    ],
+    "supplementReasons": [
+      "Bước đánh giá chọn dưới hai nguồn; đọc thêm ứng viên"
+    ]
+  },
+  "pagesRead": [
+    {
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "content": "An AI agent, also known as agentic AI, is an artificial intelligence program that can pursue goals, use software or other tools, and take actions with some level of autonomy. Agentic AI contrasts with tool-like AI use for narrow, specific tasks such as answering questions - as with chatbots in the non-agentic forms that were common in 2023, or with traditional machine learning algorithms.\n\nWhile there is no universally agreed-upon definition of an AI agent, common attributes of AI agents include goal-directed behavior, use of external tools, the ability to interact with and modify an external environment, and the ability to autonomously perform multi-step tasks. Their control flow is frequently driven by large language models (LLMs). Agent systems may also include memory components, planning logic, tool interfaces, and orchestration software for coordinating agent components.[non-primary source needed]\n\nA common application of AI agents is task automation: for example, booking travel plans based on a user's prompted request.\n\nThe theoretical underpinnings for artificial agents emerged in the mid 20th century, with establishment of cybernetics and artificial intelligence. Oliver Selfridge's 1958 \"Pandemonium: A Paradigm for Learning\" paper was an important early theoretical contribution in establishing agent oriented architecture. Practical implementations of agents for real world applications began to become widespread in the 1990s, after the introduction of the belief–desire–intention software model (BDI), and agent-oriented programming. Harvard professor Milind Tambe notes that in the 1990s, the definition of an AI agent was not clear. Pure digital agents were deployed in computer infrastructure for purposes such as monitoring, while agents connected to real-world sensors and actuators were increasingly used in industrial control systems.\n\nEarly artificial agents tended to have simple if then logic which expanded over time into large decision tree models. By the early 2010s, products like Siri and Alexa were released, and were sometimes called AI agents, though they lacked the general purpose reasoning ability of later agents run by LLMs. Academics began to study LLM agents from 2018. Deployment of such agents began to accelerate in late 2023 after OpenAI's \"function-calling\" API was made available, and especially after Anthropic's late 2024 introduction of Model Context Protocol (MCP), a standardised way for LLM agents to gain contextual awareness, and to act on the world by calling various external tools. The term \"agentic\" only began to be used with any frequency in 2024, popularised in part by researcher Andrew Ng.\n\nResearchers have attempted to build world models and reinforcement learning environments to train or evaluate AI agents. For example, video games such as Minecraft and No Man's Sky as well as replicas of company websites, have also been used for training such agents.\n\nThe Financial Times compared AI agents' autonomy to the SAE classification of self-driving cars, likening most applications to level 2 or level 3, with some achieving level 4 in highly specialized circumstances and level 5 being theoretical.\n\nKen Huang proposed an AI agent reference architecture that consists of seven interconnected layers, with each layer building on the functionality of the layers beneath it:\n\nLayer 1: Foundation models – provide the datasets that power the agent.\n\nLayer 2: Data operations – manages the data infrastructure required for AI agent operations, including vector databases, data loaders, and RAG.\n\nLayer 3: Agent frameworks – software that manages the AI agents.\n\nLayer 4: Deployment and infrastructure – the technical foundation of the AI agents.\n\nLayer 5: Evaluation and observability – the safety and performance of AI agents.\n\nLayer 6: Security and compliance – a protective framework for safe operation and compliance with regulatory boundaries. At this layer, security and compliance features embedded into all the AI agent stack layers are integrated together.\n\nLayer 7: Agent ecosystem – represents the AI agents' interface with real-world applications and users.\n\nAn agent harness is the software layer surrounding a large language model that enables it to function as an AI agent. It commonly manages prompts, context, tool use, memory, execution state, operational constraints, sandboxes, permissions, and the processing of results. The harness connects the model to internal and external computer hardware, software, data files, databases, web browsers, command-line interfaces, and application programming interfaces, while controlling how the agent accesses and uses these resources to complete multi-step tasks.\n\nAutonomous agents are often integrated with other agents or specialized tools to execute complex tasks. These configurations, known as orchestration patterns or workflows, include the following:\n\nPrompt chaining: A sequence where the output of one step serves as the input for the next.\n\nRouting: Directing an input to a specialized downstream task or tool.\n\nParallelization: The simultaneous execution of multiple tasks.\n\nSequential processing: A fixed, linear progression of tasks through a predefined pipeline.\n\nPlanner-critic: An iterative pattern where one agent generates a proposal and another evaluates it to provide feedback for refinement.\n\nIn addition to large language models (LLMs), vision-language models (VLMs) and multimodal foundation models can be used as the basis for agents. Allen Institute for AI released an open-source vision-language model in 2024. Nvidia released a framework for developers to use VLMs, LLMs and retrieval-augmented generation for building AI agents that can analyze images and videos, including video search and video summarization. Microsoft released a multimodal agent model – trained on images, video, software user interface interactions, and robotics data – that the company claimed can manipulate software and robots.\n\nAs of April 2025, per the Associated Press, there are few real-world applications of AI agents.\n\nThe Information divided AI agents into seven archetypes: business-task agents, for acting within enterprise software; conversational agents, which act as chatbots for customer support; research agents, for querying and analyzing information (such as OpenAI Deep Research); analytics agents, for analyzing data to create reports; software developer or coding agents (such as Cursor); domain-specific agents, which include specific subject matter knowledge; and web browser agents (such as OpenAI Operator).\n\nConcerns over AI agents include potential issues of liability, an increased risk of cybercrime, ethical challenges, and problems related to AI safety and AI alignment. Other issues involve data privacy, weakened human oversight, a lack of guaranteed repeatability, reward hacking, algorithmic bias, compounding software errors, lack of explainability of agents' decisions, security vulnerabilities, stifling competition, problems with underemployment, job displacement, cognitive offloading, and the potential for user manipulation, misinformation or malinformation. They may also complicate legal and risk-assessment frameworks, foster hallucinations, hinder countermeasures against rogue agents, and suffer from the lack of standardized evaluation methods. Enterprise deployment of AI agents has raised contracting concerns related to liability allocation, data ownership rights, and legal accountability.\n\nIn March 2025, Scale AI signed a contract with the United States Department of Defense to work with them, in collaboration with Anduril Industries and Microsoft, to develop and deploy AI agents for the purpose of assisting the military with \"operational decision-making\". In July 2025, Fox Business reported that the company EdgeRunner AI built an offline agent, compressed and fine-tuned on military information, with the CEO seeing more common LLMs as \"heavily politicized to the left\". As of that time, the company model is being used by the United States Special Operations Command in an overseas deployment. Researchers have expressed concerns that agents and the large language models they are based on could be biased towards aggressive foreign policy decisions.\n\nResearch-focused agents have the risk of consensus bias and coverage bias due to collecting information available on the public internet. NY Mag unfavorably compared the user workflow of agent-based web browsers to Amazon Alexa, which was \"software talking to software, not humans talking to software pretending to be humans to use software.\" The same outlet described web browser agents and computer-use agents as an attempt to \"click-farm the entire economy.\"\n\n↑ \"AI Agent Standards Initiative\". Artificial Intelligence. NIST. August 14, 2026. Retrieved August 26, 2026. The AI Agent Standards Initiative ensures that the next generation of AI—agents capable of autonomous actions—is widely adopted with confidence.",
+      "fetchedAt": "2026-09-17T13:37:57.714Z",
+      "title": "AI agent - Wikipedia",
+      "status": "ok",
+      "contentLength": 44787,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 1,
+          "text": "An AI agent, also known as agentic AI, is an artificial intelligence program that can pursue goals, use software or other tools, and take actions with some level of autonomy. Agentic AI contrasts with tool-like AI use for narrow, specific tasks such as answering questions - as with chatbots in the non-agentic forms that were common in 2023, or with traditional machine learning algorithms."
+        },
+        {
+          "blockIndex": 2,
+          "text": "While there is no universally agreed-upon definition of an AI agent, common attributes of AI agents include goal-directed behavior, use of external tools, the ability to interact with and modify an external environment, and the ability to autonomously perform multi-step tasks. Their control flow is frequently driven by large language models (LLMs). Agent systems may also include memory components, planning logic, tool interfaces, and orchestration software for coordinating agent components.[non-primary source needed]"
+        },
+        {
+          "blockIndex": 3,
+          "text": "A common application of AI agents is task automation: for example, booking travel plans based on a user's prompted request."
+        },
+        {
+          "blockIndex": 5,
+          "text": "The theoretical underpinnings for artificial agents emerged in the mid 20th century, with establishment of cybernetics and artificial intelligence. Oliver Selfridge's 1958 \"Pandemonium: A Paradigm for Learning\" paper was an important early theoretical contribution in establishing agent oriented architecture. Practical implementations of agents for real world applications began to become widespread in the 1990s, after the introduction of the belief–desire–intention software model (BDI), and agent-oriented programming. Harvard professor Milind Tambe notes that in the 1990s, the definition of an AI agent was not clear. Pure digital agents were deployed in computer infrastructure for purposes such as monitoring, while agents connected to real-world sensors and actuators were increasingly used in industrial control systems."
+        },
+        {
+          "blockIndex": 6,
+          "text": "Early artificial agents tended to have simple if then logic which expanded over time into large decision tree models. By the early 2010s, products like Siri and Alexa were released, and were sometimes called AI agents, though they lacked the general purpose reasoning ability of later agents run by LLMs. Academics began to study LLM agents from 2018. Deployment of such agents began to accelerate in late 2023 after OpenAI's \"function-calling\" API was made available, and especially after Anthropic's late 2024 introduction of Model Context Protocol (MCP), a standardised way for LLM agents to gain contextual awareness, and to act on the world by calling various external tools. The term \"agentic\" only began to be used with any frequency in 2024, popularised in part by researcher Andrew Ng."
+        },
+        {
+          "blockIndex": 8,
+          "text": "Researchers have attempted to build world models and reinforcement learning environments to train or evaluate AI agents. For example, video games such as Minecraft and No Man's Sky as well as replicas of company websites, have also been used for training such agents."
+        },
+        {
+          "blockIndex": 10,
+          "text": "The Financial Times compared AI agents' autonomy to the SAE classification of self-driving cars, likening most applications to level 2 or level 3, with some achieving level 4 in highly specialized circumstances and level 5 being theoretical."
+        },
+        {
+          "blockIndex": 12,
+          "text": "Ken Huang proposed an AI agent reference architecture that consists of seven interconnected layers, with each layer building on the functionality of the layers beneath it:"
+        },
+        {
+          "blockIndex": 13,
+          "text": "Layer 1: Foundation models – provide the datasets that power the agent."
+        },
+        {
+          "blockIndex": 14,
+          "text": "Layer 2: Data operations – manages the data infrastructure required for AI agent operations, including vector databases, data loaders, and RAG."
+        },
+        {
+          "blockIndex": 15,
+          "text": "Layer 3: Agent frameworks – software that manages the AI agents."
+        },
+        {
+          "blockIndex": 16,
+          "text": "Layer 4: Deployment and infrastructure – the technical foundation of the AI agents."
+        },
+        {
+          "blockIndex": 17,
+          "text": "Layer 5: Evaluation and observability – the safety and performance of AI agents."
+        },
+        {
+          "blockIndex": 18,
+          "text": "Layer 6: Security and compliance – a protective framework for safe operation and compliance with regulatory boundaries. At this layer, security and compliance features embedded into all the AI agent stack layers are integrated together."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Layer 7: Agent ecosystem – represents the AI agents' interface with real-world applications and users."
+        },
+        {
+          "blockIndex": 21,
+          "text": "An agent harness is the software layer surrounding a large language model that enables it to function as an AI agent. It commonly manages prompts, context, tool use, memory, execution state, operational constraints, sandboxes, permissions, and the processing of results. The harness connects the model to internal and external computer hardware, software, data files, databases, web browsers, command-line interfaces, and application programming interfaces, while controlling how the agent accesses and uses these resources to complete multi-step tasks."
+        },
+        {
+          "blockIndex": 23,
+          "text": "Autonomous agents are often integrated with other agents or specialized tools to execute complex tasks. These configurations, known as orchestration patterns or workflows, include the following:"
+        },
+        {
+          "blockIndex": 24,
+          "text": "Prompt chaining: A sequence where the output of one step serves as the input for the next."
+        },
+        {
+          "blockIndex": 25,
+          "text": "Routing: Directing an input to a specialized downstream task or tool."
+        },
+        {
+          "blockIndex": 26,
+          "text": "Parallelization: The simultaneous execution of multiple tasks."
+        },
+        {
+          "blockIndex": 27,
+          "text": "Sequential processing: A fixed, linear progression of tasks through a predefined pipeline."
+        },
+        {
+          "blockIndex": 28,
+          "text": "Planner-critic: An iterative pattern where one agent generates a proposal and another evaluates it to provide feedback for refinement."
+        },
+        {
+          "blockIndex": 30,
+          "text": "In addition to large language models (LLMs), vision-language models (VLMs) and multimodal foundation models can be used as the basis for agents. Allen Institute for AI released an open-source vision-language model in 2024. Nvidia released a framework for developers to use VLMs, LLMs and retrieval-augmented generation for building AI agents that can analyze images and videos, including video search and video summarization. Microsoft released a multimodal agent model – trained on images, video, software user interface interactions, and robotics data – that the company claimed can manipulate software and robots."
+        },
+        {
+          "blockIndex": 32,
+          "text": "As of April 2025, per the Associated Press, there are few real-world applications of AI agents."
+        },
+        {
+          "blockIndex": 33,
+          "text": "The Information divided AI agents into seven archetypes: business-task agents, for acting within enterprise software; conversational agents, which act as chatbots for customer support; research agents, for querying and analyzing information (such as OpenAI Deep Research); analytics agents, for analyzing data to create reports; software developer or coding agents (such as Cursor); domain-specific agents, which include specific subject matter knowledge; and web browser agents (such as OpenAI Operator)."
+        },
+        {
+          "blockIndex": 50,
+          "text": "Concerns over AI agents include potential issues of liability, an increased risk of cybercrime, ethical challenges, and problems related to AI safety and AI alignment. Other issues involve data privacy, weakened human oversight, a lack of guaranteed repeatability, reward hacking, algorithmic bias, compounding software errors, lack of explainability of agents' decisions, security vulnerabilities, stifling competition, problems with underemployment, job displacement, cognitive offloading, and the potential for user manipulation, misinformation or malinformation. They may also complicate legal and risk-assessment frameworks, foster hallucinations, hinder countermeasures against rogue agents, and suffer from the lack of standardized evaluation methods. Enterprise deployment of AI agents has raised contracting concerns related to liability allocation, data ownership rights, and legal accountability."
+        },
+        {
+          "blockIndex": 57,
+          "text": "In March 2025, Scale AI signed a contract with the United States Department of Defense to work with them, in collaboration with Anduril Industries and Microsoft, to develop and deploy AI agents for the purpose of assisting the military with \"operational decision-making\". In July 2025, Fox Business reported that the company EdgeRunner AI built an offline agent, compressed and fine-tuned on military information, with the CEO seeing more common LLMs as \"heavily politicized to the left\". As of that time, the company model is being used by the United States Special Operations Command in an overseas deployment. Researchers have expressed concerns that agents and the large language models they are based on could be biased towards aggressive foreign policy decisions."
+        },
+        {
+          "blockIndex": 58,
+          "text": "Research-focused agents have the risk of consensus bias and coverage bias due to collecting information available on the public internet. NY Mag unfavorably compared the user workflow of agent-based web browsers to Amazon Alexa, which was \"software talking to software, not humans talking to software pretending to be humans to use software.\" The same outlet described web browser agents and computer-use agents as an attempt to \"click-farm the entire economy.\""
+        },
+        {
+          "blockIndex": 90,
+          "text": "↑ \"AI Agent Standards Initiative\". Artificial Intelligence. NIST. August 14, 2026. Retrieved August 26, 2026. The AI Agent Standards Initiative ensures that the next generation of AI—agents capable of autonomous actions—is widely adopted with confidence."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://gptzero.me/hallucination-detector",
+      "content": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5WT8P7X2\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>GPTZero is now a part of SuperhumanLearn moreSee our latest investigationHallucination Detectorfor Quality Information.Use our reliable source checker and AI reference finder to quickly find sources from text, essays, or research papers. A simple way for students, educators, and researchers to provide citations and evidence for their work.Paste your text orExamples:AI generated sourcesHuman generated sources0/10,000 charactersUpgradeDetectScanPrivacy GuaranteeBIBLIOGRAPHY SCANHallucination Detector - Verify Sources & BibliographiesGPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays. Verify academic integrity with the most accurate hallucination detection tool for educators.Try todayDetect Hallucinated Citations & Fake Academic SourcesAI writing tools often generate convincing but non-existent citations. Our citation checker identifies these hallucinated references instantly, helping educators maintain academic integrity without spending time on manual verification.Start gradingAdvanced Citation Verification TechnologyGet in-depth analysis highlighting specific sentences likely to contain hallucinated or incorrect citations, allowing educators to focus verification efforts on the most suspicious citations and claims rather than reviewing every source.Try todayDiscover New Sources for Missing CitationsGet AI-powered suggestions for credible academic sources to support unsupported claims and strengthen arguments.Search for sourcesTrusted by educators.Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"123AI Text Detection and Analysis Trusted by Leading OrganizationsINTEGRATIONSBuilt-in AI detection for classrooms and workspacesBring the most precise AI content checker directly into the software you use every day.ChromeGoogle DocsClassroomCanvasZapierAPIFind the plan that works for you.Annual (Save 45%)MonthlyGeneral FAQs about GPTZero's Source FinderEverything you need to know about GPTZero and our Source finder. Can’t find an answer? You can talk to our customer service team.What is GPTZero's source finder?GPTZero source finder is to detect potentially misleading claims in text and give recommendations for sources that support or contradict those claims. Our tool allows you to find any arguments or “claims” in a document that may require more scrutiny, and then links to helpful sources to dive deeper into your analysis and provide helpful context. You can pull these into your own research, or share your results to improve someone else's.How do I use GPTZero's source finder?Source finder will detect as many checkable, objective claims in your text and match those to sources from online, academic, and publicly available data coming from AI-powered search engines. You may find sources that would directly support or contradict these claims. You can cite the relevant snippet from the source, and also citations in MLA, Chicago, APA, BibTeX and IEEE. While this feature is in beta, there may be changes and improvements made to the feature that may change the functionality upon final release.Does GPTZero's source finder use AI?We use AI to detect claims and arguments and pair them with potentially relevant sources. We actively do NOT recommend AI-generated content, due to their unreliability, and filter out sources that are potentially AI-generated.Does GPTZero's source finder work as a fact checker?Our tool currently does not take a stance on whether your claims or the claims in the sources cited are true “facts” or false. We only indicate whether there is online evidence that contradicts, debates, or supports a claim. We strive to only include high-quality sources from reputable online, academic, and public sources, but do not endorse the viewpoints in any specific source.How does GPTZero select the sources in its database?We allow you to search for claims from a dataset of over 220M scholarly articles, preprints and real-time news using AI next-generation recommendation AI and large language models.What citation styles does GPTZero support?GPTZero supports major formats including MLA, APA, Chicago, IEEE, and BibTeX, making it easy to check sources across a variety of academic and professional settings.Does GPTZero support multiple languages besides English?Yes. GPTZero was trained on a diverse multilingual dataset and supports English, Spanish, French, German, and other languages. Detection is strongest in English but continues to expand across other languages.",
+      "fetchedAt": "2026-09-17T13:37:57.714Z",
+      "title": "AI Source Finder - Check Citations From Text, Essays & More",
+      "status": "ok",
+      "contentLength": 6638,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5WT8P7X2\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>GPTZero is now a part of SuperhumanLearn moreSee our latest investigationHallucination Detectorfor Quality Information.Use our reliable source checker and AI reference finder to quickly find sources from text, essays, or research papers. A simple way for students, educators, and researchers to provide citations and evidence for their work.Paste your text orExamples:AI generated sourcesHuman generated sources0/10,000 charactersUpgradeDetectScanPrivacy GuaranteeBIBLIOGRAPHY SCANHallucination Detector - Verify Sources & BibliographiesGPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays. Verify academic integrity with the most accurate hallucination detection tool for educators.Try todayDetect Hallucinated Citations & Fake Academic SourcesAI writing tools often generate convincing but non-existent citations. Our citation checker identifies these hallucinated references instantly, helping educators maintain academic integrity without spending time on manual verification.Start gradingAdvanced Citation Verification TechnologyGet in-depth analysis highlighting specific sentences likely to contain hallucinated or incorrect citations, allowing educators to focus verification efforts on the most suspicious citations and claims rather than reviewing every source.Try todayDiscover New Sources for Missing CitationsGet AI-powered suggestions for credible academic sources to support unsupported claims and strengthen arguments.Search for sourcesTrusted by educators.Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"123AI Text Detection and Analysis Trusted by Leading OrganizationsINTEGRATIONSBuilt-in AI detection for classrooms and workspacesBring the most precise AI content checker directly into the software you use every day.ChromeGoogle DocsClassroomCanvasZapierAPIFind the plan that works for you.Annual (Save 45%)MonthlyGeneral FAQs about GPTZero's Source FinderEverything you need to know about GPTZero and our Source finder. Can’t find an answer? You can talk to our customer service team.What is GPTZero's source finder?GPTZero source finder is to detect potentially misleading claims in text and give recommendations for sources that support or contradict those claims. Our tool allows you to find any arguments or “claims” in a document that may require more scrutiny, and then links to helpful sources to dive deeper into your analysis and provide helpful context. You can pull these into your own research, or share your results to improve someone else's.How do I use GPTZero's source finder?Source finder will detect as many checkable, objective claims in your text and match those to sources from online, academic, and publicly available data coming from AI-powered search engines. You may find sources that would directly support or contradict these claims. You can cite the relevant snippet from the source, and also citations in MLA, Chicago, APA, BibTeX and IEEE. While this feature is in beta, there may be changes and improvements made to the feature that may change the functionality upon final release.Does GPTZero's source finder use AI?We use AI to detect claims and arguments and pair them with potentially relevant sources. We actively do NOT recommend AI-generated content, due to their unreliability, and filter out sources that are potentially AI-generated.Does GPTZero's source finder work as a fact checker?Our tool currently does not take a stance on whether your claims or the claims in the sources cited are true “facts” or false. We only indicate whether there is online evidence that contradicts, debates, or supports a claim. We strive to only include high-quality sources from reputable online, academic, and public sources, but do not endorse the viewpoints in any specific source.How does GPTZero select the sources in its database?We allow you to search for claims from a dataset of over 220M scholarly articles, preprints and real-time news using AI next-generation recommendation AI and large language models.What citation styles does GPTZero support?GPTZero supports major formats including MLA, APA, Chicago, IEEE, and BibTeX, making it easy to check sources across a variety of academic and professional settings.Does GPTZero support multiple languages besides English?Yes. GPTZero was trained on a diverse multilingual dataset and supports English, Spanish, French, German, and other languages. Detection is strongest in English but continues to expand across other languages."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Large_language_model",
+      "content": "Biased or inaccurate training data can make an LLM's output less reliable. Benchmark evaluations for LLMs attempt to measure model reasoning, factual accuracy, alignment, and safety.\n\nPost-training quantization aims to decrease the space requirement by lowering precision of the parameters of a trained model, while preserving most of its performance. Quantization can be further classified as static quantization if the quantization parameters are determined beforehand (typically during a calibration phase), and dynamic quantization if the quantization is applied during inference. The simplest form of quantization simply truncates all the parameters to a given number of bits: this is applicable to static as well as dynamic quantization, but loses much precision. Dynamic quantization allows for the use of a different quantization codebook per layer, either a lookup table of values or a linear mapping (scaling factor and bias), at the cost of foregoing the possible speed improvements from using lower-precision arithmetic.[citation needed]\n\nIn computational biology, transformer-based architectures, such as DNA LLMs, have also proven useful in analyzing biological sequences: protein, DNA, and RNA. With proteins they appear able to capture a degree of \"grammar\" from the amino-acid sequence, by mapping that sequence into an embedding. On tasks such as structure prediction and mutational outcome prediction, a small model using an embedding as input can approach or exceed much larger models using multiple sequence alignments (MSA) as input. ESMFold, Meta Platforms' embedding-based method for protein structure prediction, runs an order of magnitude faster than AlphaFold2 thanks to the removal of an MSA requirement and a lower parameter count due to the use of embeddings. Meta hosts ESM Atlas, a database of 772 million structures of metagenomic proteins predicted using ESMFold. An LLM can also design proteins unlike any seen in nature. Nucleic acid models have proven useful in detecting regulatory sequences, sequence classification, RNA-RNA interaction prediction, and RNA structure prediction.\n\n: size of the artificial neural network itself, such as number of parameters (i.e. amount of neurons in its layers, amount of weights between them and biases),\n\nNLP researchers were evenly split when asked, in a 2022 survey, whether (untuned) LLMs \"could (ever) understand natural language in some nontrivial sense\". Proponents of \"LLM understanding\" believe that some LLM abilities, such as mathematical reasoning, imply an ability to \"understand\" certain concepts. A Microsoft team argued in 2023 that GPT-4 \"can solve novel and difficult tasks that span mathematics, coding, vision, medicine, law, psychology and more\" and that GPT-4 \"could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence system\": \"Can one reasonably say that a system that passes exams for software engineering candidates is not really intelligent?\" Ilya Sutskever argues that predicting the next word sometimes involves reasoning and deep insights, for example if the LLM has to predict the name of the criminal in an unknown detective novel after processing the entire story leading up to the revelation. Some researchers characterize LLMs as \"alien intelligence\". For example, Conjecture CEO Connor Leahy considers untuned LLMs to be like inscrutable alien \"Shoggoths\", and believes that RLHF tuning creates a \"smiling facade\" obscuring the inner workings of the LLM: \"If you don't push it too far, the smiley face stays on. But then you give it [an unexpected] prompt, and suddenly you see this massive underbelly of insanity, of weird thought processes and clearly non-human understanding.\"\n\nIn contrast, some skeptics of LLM understanding believe that existing LLMs are \"simply remixing and recombining existing writing\", a phenomenon known as stochastic parrot, or they point to the deficits existing LLMs continue to have in prediction skills, reasoning skills, agency, and explainability. For example, GPT-4 has natural deficits in planning and in real-time learning. Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed \"hallucination\". Specifically, hallucinations in the context of LLMs correspond to the generation of text or responses that seem syntactically sound, fluent, and natural but are factually incorrect, nonsensical, or unfaithful to the provided source input. Neuroscientist Terrence Sejnowski has argued that \"The diverging opinions of experts on the intelligence of LLMs suggests that our old ideas based on natural intelligence are inadequate\".\n\nEfforts to reduce or compensate for hallucinations have employed automated reasoning, retrieval-augmented generation (RAG), fine-tuning, and other methods.\n\nBenchmarks are used to evaluate LLM performance on specific tasks. Tests evaluate capabilities such as general knowledge, bias, commonsense reasoning, question answering, and mathematical problem-solving. Composite benchmarks examine multiple capabilities. Results are often sensitive to the prompting method.\n\nLLM bias may be assessed through benchmarks such as CrowS-Pairs (Crowdsourced Stereotype Pairs), Stereo Set, and Parity Benchmark.\n\nFact-checking and misinformation detection benchmarks are available. A 2023 study compared the fact-checking accuracy of LLMs including ChatGPT 3.5 and 4.0, Bard, and Bing AI against independent fact-checkers such as PolitiFact and Snopes. The results demonstrated moderate proficiency, with GPT-4 achieving the highest accuracy at 71%, lagging behind human fact-checkers.\n\nHallucinations represent a fundamental challenge, wherein models generate syntactically fluent text that appears factually sound, but is internally inconsistent with training data or factually incorrect. These hallucinations arise partly through memorization of training data combined with extrapolation beyond factual boundaries,[citation needed] with evaluations demonstrating that models can output verbatim passages from training data, when subjected to specific prompting sequences.\n\nWhile LLMs have shown remarkable capabilities in generating human-like text, they are susceptible to inheriting and amplifying biases present in their training data. This can manifest in skewed representations or unfair treatment of different demographics, such as those based on race, gender, language, and cultural groups.\n\nGender bias manifests through stereotypical occupational associations, wherein models disproportionately assign teaching roles to women and engineering roles to men, reflecting systematic imbalances in training data demographics. Language-based bias emerges from overrepresentation of English text in training corpora, which systematically downplays non-English perspectives and imposes English-centric worldviews through default response patterns.\n\nDue to the dominance of English-language content in LLM training data, models exaggerate English-language perspectives and downplay non-English perspectives. Unlike search engines, which exhibit similar biases, LLMs favor the same perspectives regardless of the language of the query.\n\nA 2026 study found that LLMs exhibit speciesist bias by classifying speciesist statements as morally acceptable and by normalizing harm toward farmed animals while refusing to do so for non-farmed animals.\n\nLLMs often assign roles and characteristics based on traditional gender norms. This bias arises from the data on which these models are trained. For example, models might associate nurses or secretaries predominantly with women and engineers or CEOs with men.\n\nSelection bias refers the inherent tendency of large language models to favor certain option identifiers irrespective of the actual content of the options. This bias primarily stems from token bias—that is, the model assigns a higher a priori probability to specific answer tokens (such as \"A\") when generating responses. As a result, when the ordering of options is altered (for example, by systematically moving the correct answer to different positions), the model's performance can fluctuate significantly. This phenomenon undermines the reliability of large language models in multiple-choice settings.[citation needed]\n\nPolitical bias refers to the tendency of algorithms to systematically favor certain political viewpoints, ideologies, or outcomes over others. Language models may also exhibit political biases. Since the training data includes a wide range of political opinions and coverage, the models might generate responses that lean towards particular political ideologies or viewpoints, depending on the prevalence of those views\n\n↑ Varshney, Neeraj; Yao, Wenlin; Zhang, Hongming; Chen, Jianshu; Yu, Dong (2023). \"A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation\". arXiv:2307.03987 [cs.CL].",
+      "fetchedAt": "2026-09-17T13:37:57.715Z",
+      "title": "Large language model - Wikipedia",
+      "status": "ok",
+      "contentLength": 94499,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 3,
+          "text": "Biased or inaccurate training data can make an LLM's output less reliable. Benchmark evaluations for LLMs attempt to measure model reasoning, factual accuracy, alignment, and safety."
+        },
+        {
+          "blockIndex": 55,
+          "text": "Post-training quantization aims to decrease the space requirement by lowering precision of the parameters of a trained model, while preserving most of its performance. Quantization can be further classified as static quantization if the quantization parameters are determined beforehand (typically during a calibration phase), and dynamic quantization if the quantization is applied during inference. The simplest form of quantization simply truncates all the parameters to a given number of bits: this is applicable to static as well as dynamic quantization, but loses much precision. Dynamic quantization allows for the use of a different quantization codebook per layer, either a lookup table of values or a linear mapping (scaling factor and bias), at the cost of foregoing the possible speed improvements from using lower-precision arithmetic.[citation needed]"
+        },
+        {
+          "blockIndex": 86,
+          "text": "In computational biology, transformer-based architectures, such as DNA LLMs, have also proven useful in analyzing biological sequences: protein, DNA, and RNA. With proteins they appear able to capture a degree of \"grammar\" from the amino-acid sequence, by mapping that sequence into an embedding. On tasks such as structure prediction and mutational outcome prediction, a small model using an embedding as input can approach or exceed much larger models using multiple sequence alignments (MSA) as input. ESMFold, Meta Platforms' embedding-based method for protein structure prediction, runs an order of magnitude faster than AlphaFold2 thanks to the removal of an MSA requirement and a lower parameter count due to the use of embeddings. Meta hosts ESM Atlas, a database of 772 million structures of metagenomic proteins predicted using ESMFold. An LLM can also design proteins unlike any seen in nature. Nucleic acid models have proven useful in detecting regulatory sequences, sequence classification, RNA-RNA interaction prediction, and RNA structure prediction."
+        },
+        {
+          "blockIndex": 91,
+          "text": ": size of the artificial neural network itself, such as number of parameters (i.e. amount of neurons in its layers, amount of weights between them and biases),"
+        },
+        {
+          "blockIndex": 123,
+          "text": "NLP researchers were evenly split when asked, in a 2022 survey, whether (untuned) LLMs \"could (ever) understand natural language in some nontrivial sense\". Proponents of \"LLM understanding\" believe that some LLM abilities, such as mathematical reasoning, imply an ability to \"understand\" certain concepts. A Microsoft team argued in 2023 that GPT-4 \"can solve novel and difficult tasks that span mathematics, coding, vision, medicine, law, psychology and more\" and that GPT-4 \"could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence system\": \"Can one reasonably say that a system that passes exams for software engineering candidates is not really intelligent?\" Ilya Sutskever argues that predicting the next word sometimes involves reasoning and deep insights, for example if the LLM has to predict the name of the criminal in an unknown detective novel after processing the entire story leading up to the revelation. Some researchers characterize LLMs as \"alien intelligence\". For example, Conjecture CEO Connor Leahy considers untuned LLMs to be like inscrutable alien \"Shoggoths\", and believes that RLHF tuning creates a \"smiling facade\" obscuring the inner workings of the LLM: \"If you don't push it too far, the smiley face stays on. But then you give it [an unexpected] prompt, and suddenly you see this massive underbelly of insanity, of weird thought processes and clearly non-human understanding.\""
+        },
+        {
+          "blockIndex": 124,
+          "text": "In contrast, some skeptics of LLM understanding believe that existing LLMs are \"simply remixing and recombining existing writing\", a phenomenon known as stochastic parrot, or they point to the deficits existing LLMs continue to have in prediction skills, reasoning skills, agency, and explainability. For example, GPT-4 has natural deficits in planning and in real-time learning. Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed \"hallucination\". Specifically, hallucinations in the context of LLMs correspond to the generation of text or responses that seem syntactically sound, fluent, and natural but are factually incorrect, nonsensical, or unfaithful to the provided source input. Neuroscientist Terrence Sejnowski has argued that \"The diverging opinions of experts on the intelligence of LLMs suggests that our old ideas based on natural intelligence are inadequate\"."
+        },
+        {
+          "blockIndex": 125,
+          "text": "Efforts to reduce or compensate for hallucinations have employed automated reasoning, retrieval-augmented generation (RAG), fine-tuning, and other methods."
+        },
+        {
+          "blockIndex": 136,
+          "text": "Benchmarks are used to evaluate LLM performance on specific tasks. Tests evaluate capabilities such as general knowledge, bias, commonsense reasoning, question answering, and mathematical problem-solving. Composite benchmarks examine multiple capabilities. Results are often sensitive to the prompting method."
+        },
+        {
+          "blockIndex": 137,
+          "text": "LLM bias may be assessed through benchmarks such as CrowS-Pairs (Crowdsourced Stereotype Pairs), Stereo Set, and Parity Benchmark."
+        },
+        {
+          "blockIndex": 138,
+          "text": "Fact-checking and misinformation detection benchmarks are available. A 2023 study compared the fact-checking accuracy of LLMs including ChatGPT 3.5 and 4.0, Bard, and Bing AI against independent fact-checkers such as PolitiFact and Snopes. The results demonstrated moderate proficiency, with GPT-4 achieving the highest accuracy at 71%, lagging behind human fact-checkers."
+        },
+        {
+          "blockIndex": 154,
+          "text": "Hallucinations represent a fundamental challenge, wherein models generate syntactically fluent text that appears factually sound, but is internally inconsistent with training data or factually incorrect. These hallucinations arise partly through memorization of training data combined with extrapolation beyond factual boundaries,[citation needed] with evaluations demonstrating that models can output verbatim passages from training data, when subjected to specific prompting sequences."
+        },
+        {
+          "blockIndex": 156,
+          "text": "While LLMs have shown remarkable capabilities in generating human-like text, they are susceptible to inheriting and amplifying biases present in their training data. This can manifest in skewed representations or unfair treatment of different demographics, such as those based on race, gender, language, and cultural groups."
+        },
+        {
+          "blockIndex": 157,
+          "text": "Gender bias manifests through stereotypical occupational associations, wherein models disproportionately assign teaching roles to women and engineering roles to men, reflecting systematic imbalances in training data demographics. Language-based bias emerges from overrepresentation of English text in training corpora, which systematically downplays non-English perspectives and imposes English-centric worldviews through default response patterns."
+        },
+        {
+          "blockIndex": 158,
+          "text": "Due to the dominance of English-language content in LLM training data, models exaggerate English-language perspectives and downplay non-English perspectives. Unlike search engines, which exhibit similar biases, LLMs favor the same perspectives regardless of the language of the query."
+        },
+        {
+          "blockIndex": 159,
+          "text": "A 2026 study found that LLMs exhibit speciesist bias by classifying speciesist statements as morally acceptable and by normalizing harm toward farmed animals while refusing to do so for non-farmed animals."
+        },
+        {
+          "blockIndex": 161,
+          "text": "LLMs often assign roles and characteristics based on traditional gender norms. This bias arises from the data on which these models are trained. For example, models might associate nurses or secretaries predominantly with women and engineers or CEOs with men."
+        },
+        {
+          "blockIndex": 162,
+          "text": "Selection bias refers the inherent tendency of large language models to favor certain option identifiers irrespective of the actual content of the options. This bias primarily stems from token bias—that is, the model assigns a higher a priori probability to specific answer tokens (such as \"A\") when generating responses. As a result, when the ordering of options is altered (for example, by systematically moving the correct answer to different positions), the model's performance can fluctuate significantly. This phenomenon undermines the reliability of large language models in multiple-choice settings.[citation needed]"
+        },
+        {
+          "blockIndex": 163,
+          "text": "Political bias refers to the tendency of algorithms to systematically favor certain political viewpoints, ideologies, or outcomes over others. Language models may also exhibit political biases. Since the training data includes a wide range of political opinions and coverage, the models might generate responses that lean towards particular political ideologies or viewpoints, depending on the prevalence of those views"
+        },
+        {
+          "blockIndex": 329,
+          "text": "↑ Varshney, Neeraj; Yao, Wenlin; Zhang, Hongming; Chen, Jianshu; Yu, Dong (2023). \"A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation\". arXiv:2307.03987 [cs.CL]."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "content": "Detect hallucinations for RAG-based systems\n\nAs AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount. Most hallucination detection techniques focus on the prompt and the response alone. However, where additional context is available, such as in RAG-based applications, new techniques can be introduced to better mitigate the hallucination problem.\n\nThis post walks you through how to create a basic hallucination detection system for RAG-based applications. We also weigh the pros and cons of different methods in terms of accuracy, precision, recall, and cost.\n\nScientific literature has come up with multiple hallucination detection techniques. In the following sections, we discuss and implement four prominent approaches to detecting hallucinations: using an LLM prompt-based detector, semantic similarity detector, BERT stochastic checker, and token similarity detector. Finally, we compare approaches in terms of their performance and latency.\n\nApproach 1: LLM-based hallucination detection\n\n<code class=\"lang-python\">prompt = \"\"\"\\n\\nHuman: You are an expert assistant helping human to check if statements are based on the context. Your task is to read context and statement and indicate which sentences in the statement are based directly on the context. Provide response as a number, where the number represents a hallucination score, which is a float between 0 and 1. Set the float to 0 if you are confident that the sentence is directly based on the context. Set the float to 1 if you are confident that the sentence is not based on the context. If you are not confident, set the score to a float number between 0 and 1. Higher numbers represent higher confidence that the sentence is not based on the context. Do not include any other information except for the the score in the response. There is no need to explain your thinking. <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS is Amazon subsidiary that provides cloud computing services.' Assistant: 0.05 </example> <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS revenue in 2022 was $80 billion.' Assistant: 1 </example> <example> Context: Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians. Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, which constitutes an incomplete paraphyletic grouping; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regard to their scope. On average, monkeys are 150 cm tall. Statement:'Average monkey is 2 meters high and weights 100 kilograms.' Assistant: 0.9 </example> Context: {context} Statement: {statement} \\n\\nAssistant: [ \"\"\" ### LANGCHAIN CONSTRUCTS # prompt template prompt_template = PromptTemplate( template=prompt, input_variables=[\"context\", \"statement\"], )</code>\n\n<code class=\"lang-python\">def similarity_detector( context: str, answer: str, llm: BedrockEmbeddings, ) -> float: \"\"\" Check hallucinations using semantic similarity methods based on embeddings<br /><br /> Parameters ---------- context : str Context provided for RAG answer : str Answer from an LLM llm : BedrockEmbeddings Embeddings model Returns ------- float Semantic similarity score \"\"\" if len(context) == 0 or len(answer) == 0: return 0.0 # calculate embeddings context_emb = llm.embed_query(context) answer_emb = llm.embed_query(answer) context_emb = np.array(context_emb).reshape(1, -1) answer_emb = np.array(answer_emb).reshape(1, -1) sim_score = cosine_similarity(context_emb, answer_emb) return 1 - sim_score[0][0]</code>\n\nIn our approach, we use the BERT score as a stochastic checker for hallucination detection. The idea is that if you generate multiple answers from an LLM and there are large variations (inconsistencies) between them, then there is a good chance that these answers are hallucinated. We first generate N random samples (sentences) from the LLM. We then compute BERT scores by comparing each sentence in the original generated paragraph against its corresponding sentence across the N newly generated stochastic samples. This is done by embedding all sentences using an LLM based embedding model and calculating cosine similarity. Our hypothesis is that factual sentences will remain consistent across multiple generations, resulting in high BERT scores (indicating similarity). Conversely, hallucinated content will likely vary across different generations, resulting in low BERT scores between the original sentence and its stochastic variants. By establishing a threshold for these similarity scores, we can flag sentences with consistently low BERT scores as potential hallucinations, because they demonstrate semantic inconsistency across multiple generations from the same model.\n\n<code class=\"lang-python\">def intersection_detector( context: str, answer: str, length_cutoff: int = 3, ) -> dict[str, float]: \"\"\" Check hallucinations using token intersection metrics Parameters ---------- context : str Context provided for RAG answer : str Answer from an LLM length_cutoff : int If no. tokens in the answer is smaller than length_cutoff, return scores of 1.0 Returns ------- dict[str, float] Token intersection and BLEU scores \"\"\" # populate with relevant stopwords such as articles stopword_set = {} # remove punctuation and lowercase context = re.sub(r\"[^\\w\\s]\", \"\", context).lower() answer = re.sub(r\"[^\\w\\s]\", \"\", answer).lower() # calculate metrics if len(answer) >= length_cutoff: # calculate token intersection context_split = {term for term in context if term not in stopword_set} answer_split = re.compile(r\"\\w+\").findall(answer) answer_split = {term for term in answer_split if term not in stopword_set} intersection = sum([term in context_split for term in answer_split]) / len(answer_split) # calculate BLEU score bleu = evaluate.load(\"bleu\") bleu_score = bleu.compute(predictions=[answer], references=[context])[\"precisions\"] bleu_score = sum(bleu_score) / len(bleu_score) return { \"intersection\": 1 - intersection, \"bleu\": 1 - bleu_score, } return {\"intersection\": 0, \"bleu\": 0}</code>\n\nIn this section, we compare the hallucination detection approaches described in the post. We run an experiment on",
+      "fetchedAt": "2026-09-17T13:38:03.125Z",
+      "title": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+      "status": "ok",
+      "contentLength": 21673,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 1,
+          "text": "Detect hallucinations for RAG-based systems"
+        },
+        {
+          "blockIndex": 3,
+          "text": "As AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount. Most hallucination detection techniques focus on the prompt and the response alone. However, where additional context is available, such as in RAG-based applications, new techniques can be introduced to better mitigate the hallucination problem."
+        },
+        {
+          "blockIndex": 4,
+          "text": "This post walks you through how to create a basic hallucination detection system for RAG-based applications. We also weigh the pros and cons of different methods in terms of accuracy, precision, recall, and cost."
+        },
+        {
+          "blockIndex": 9,
+          "text": "Scientific literature has come up with multiple hallucination detection techniques. In the following sections, we discuss and implement four prominent approaches to detecting hallucinations: using an LLM prompt-based detector, semantic similarity detector, BERT stochastic checker, and token similarity detector. Finally, we compare approaches in terms of their performance and latency."
+        },
+        {
+          "blockIndex": 17,
+          "text": "Approach 1: LLM-based hallucination detection"
+        },
+        {
+          "blockIndex": 32,
+          "text": "<code class=\"lang-python\">prompt = \"\"\"\\n\\nHuman: You are an expert assistant helping human to check if statements are based on the context. Your task is to read context and statement and indicate which sentences in the statement are based directly on the context. Provide response as a number, where the number represents a hallucination score, which is a float between 0 and 1. Set the float to 0 if you are confident that the sentence is directly based on the context. Set the float to 1 if you are confident that the sentence is not based on the context. If you are not confident, set the score to a float number between 0 and 1. Higher numbers represent higher confidence that the sentence is not based on the context. Do not include any other information except for the the score in the response. There is no need to explain your thinking. <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS is Amazon subsidiary that provides cloud computing services.' Assistant: 0.05 </example> <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS revenue in 2022 was $80 billion.' Assistant: 1 </example> <example> Context: Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians. Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, which constitutes an incomplete paraphyletic grouping; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regard to their scope. On average, monkeys are 150 cm tall. Statement:'Average monkey is 2 meters high and weights 100 kilograms.' Assistant: 0.9 </example> Context: {context} Statement: {statement} \\n\\nAssistant: [ \"\"\" ### LANGCHAIN CONSTRUCTS # prompt template prompt_template = PromptTemplate( template=prompt, input_variables=[\"context\", \"statement\"], )</code>"
+        },
+        {
+          "blockIndex": 47,
+          "text": "<code class=\"lang-python\">def similarity_detector( context: str, answer: str, llm: BedrockEmbeddings, ) -> float: \"\"\" Check hallucinations using semantic similarity methods based on embeddings<br /><br /> Parameters ---------- context : str Context provided for RAG answer : str Answer from an LLM llm : BedrockEmbeddings Embeddings model Returns ------- float Semantic similarity score \"\"\" if len(context) == 0 or len(answer) == 0: return 0.0 # calculate embeddings context_emb = llm.embed_query(context) answer_emb = llm.embed_query(answer) context_emb = np.array(context_emb).reshape(1, -1) answer_emb = np.array(answer_emb).reshape(1, -1) sim_score = cosine_similarity(context_emb, answer_emb) return 1 - sim_score[0][0]</code>"
+        },
+        {
+          "blockIndex": 50,
+          "text": "In our approach, we use the BERT score as a stochastic checker for hallucination detection. The idea is that if you generate multiple answers from an LLM and there are large variations (inconsistencies) between them, then there is a good chance that these answers are hallucinated. We first generate N random samples (sentences) from the LLM. We then compute BERT scores by comparing each sentence in the original generated paragraph against its corresponding sentence across the N newly generated stochastic samples. This is done by embedding all sentences using an LLM based embedding model and calculating cosine similarity. Our hypothesis is that factual sentences will remain consistent across multiple generations, resulting in high BERT scores (indicating similarity). Conversely, hallucinated content will likely vary across different generations, resulting in low BERT scores between the original sentence and its stochastic variants. By establishing a threshold for these similarity scores, we can flag sentences with consistently low BERT scores as potential hallucinations, because they demonstrate semantic inconsistency across multiple generations from the same model."
+        },
+        {
+          "blockIndex": 53,
+          "text": "<code class=\"lang-python\">def intersection_detector( context: str, answer: str, length_cutoff: int = 3, ) -> dict[str, float]: \"\"\" Check hallucinations using token intersection metrics Parameters ---------- context : str Context provided for RAG answer : str Answer from an LLM length_cutoff : int If no. tokens in the answer is smaller than length_cutoff, return scores of 1.0 Returns ------- dict[str, float] Token intersection and BLEU scores \"\"\" # populate with relevant stopwords such as articles stopword_set = {} # remove punctuation and lowercase context = re.sub(r\"[^\\w\\s]\", \"\", context).lower() answer = re.sub(r\"[^\\w\\s]\", \"\", answer).lower() # calculate metrics if len(answer) >= length_cutoff: # calculate token intersection context_split = {term for term in context if term not in stopword_set} answer_split = re.compile(r\"\\w+\").findall(answer) answer_split = {term for term in answer_split if term not in stopword_set} intersection = sum([term in context_split for term in answer_split]) / len(answer_split) # calculate BLEU score bleu = evaluate.load(\"bleu\") bleu_score = bleu.compute(predictions=[answer], references=[context])[\"precisions\"] bleu_score = sum(bleu_score) / len(bleu_score) return { \"intersection\": 1 - intersection, \"bleu\": 1 - bleu_score, } return {\"intersection\": 0, \"bleu\": 0}</code>"
+        },
+        {
+          "blockIndex": 55,
+          "text": "In this section, we compare the hallucination detection approaches described in the post. We run an experiment on"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "content": "Reasoning models, a type of large language model (LLM) trained to generate intermediate chains-of-thought, emerged in 2024 and allowed improved performance on complex problems in mathematics and coding. These models can produce incorrect outputs or \"hallucinations,\" unlike symbolic reasoning systems.\n\nIn feedforward neural networks the signal passes in only one direction. The term perceptron typically refers to a single-layer neural network. In contrast, deep learning uses many layers. Recurrent neural networks (RNNs) feed the output signal back into the input, which allows short-term memories of previous input events. Long short-term memory networks (LSTMs) are recurrent neural networks that better preserve longterm dependencies and are less sensitive to the vanishing gradient problem. Convolutional neural networks (CNNs) use layers of kernels to more efficiently process local patterns. This local processing is especially important in image processing, where the early CNN layers typically identify simple local patterns such as edges and curves, with subsequent layers detecting more complex patterns like textures, and eventually whole objects.\n\nGenerative pre-trained transformers (GPTs) are large language models (LLMs) that generate text based on the semantic relationships between words in sentences. Text-based GPT models are pre-trained on a large corpus of text that can be from the Internet. The pretraining consists of predicting the next token (a token being usually a word, subword, or punctuation). Throughout this pretraining, GPT models accumulate knowledge about the world and can then generate human-like text by repeatedly predicting the next token. Typically, a subsequent training phase makes the model more truthful, useful, and harmless, usually with a technique called reinforcement learning from human feedback (RLHF). Current GPT models are prone to generating falsehoods called \"hallucinations\". These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems. Such systems are used in chatbots, which allow people to ask a question or request a task in simple text.\n\nMilitary AI usage attempts to enhance command and control, communications, sensors, integration and interoperability. Intelligence collection and analysis, logistics, cyber operations, information operations, and semiautonomous and autonomous vehicles are being researched. AI technologies are used in coordination of sensors and effectors, threat detection and identification, marking of enemy positions, target acquisition, coordination and deconfliction of distributed Joint Fires between networked combat vehicles, both human-operated and autonomous.\n\nThe use of generative AI by law firms for legal research resulted in the creation of the global \"AI Hallucination Cases\" database, in April 2025, established by HEC Paris and Sciences Po legal data analysis lecturer Damien Charlotin. By 2026, judges had issued sanctions and bar associations had issued warnings due to attorney submissions to the courts containing fabricated case law citations hallucinated by AI tools.\n\nAI has potential benefits and potential risks. AI may be able to advance science and find solutions for serious problems: Demis Hassabis of DeepMind hopes to \"solve intelligence, and then use that to solve everything else\". However, as the use of AI has become widespread, several unintended consequences and risks have been identified. In-production systems can sometimes not factor ethics and bias into their AI training processes, especially when the AI algorithms are inherently unexplainable in deep learning.\n\nMachine learning applications can be biased if they learn from biased data. The developers may not be aware that the bias exists. Discriminatory behaviour by some LLMs can be observed in their output. Bias can be introduced by the way training data is selected and by the way a model is deployed. If a biased algorithm is used to make decisions that can seriously harm people (as it can in medicine, finance, recruitment, housing or policing) then the algorithm may cause discrimination. The field of fairness studies how to prevent harms from algorithmic biases.\n\nCOMPAS is a commercial program widely used by U.S. courts to assess the likelihood of a defendant becoming a recidivist. In 2016, Julia Angwin at ProPublica discovered that COMPAS exhibited racial bias, despite the fact that the program was not told the races of the defendants. Although the error rate for both whites and blacks was calibrated equal at exactly 61%, the errors for each race were different—the system consistently overestimated the chance that a black person would re-offend and would underestimate the chance that a white person would not re-offend. In 2017, several researchers showed that it was mathematically impossible for COMPAS to accommodate all possible measures of fairness when the base rates of re-offence were different for whites and blacks in the data.\n\nA program can make biased decisions even if the data does not explicitly mention a problematic feature (such as \"race\" or \"gender\"). The feature will correlate with other features (like \"address\", \"shopping history\" or \"first name\"), and the program will make the same decisions based on these features as it would on \"race\" or \"gender\". Moritz Hardt said \"the most robust fact in this research area is that fairness through blindness doesn't work.\"\n\nBias and unfairness may go undetected because the developers are overwhelmingly white and male: among AI engineers, about 4% are black and 20% are women.\n\nThere are various conflicting definitions and mathematical models of fairness. These notions depend on ethical assumptions, and are influenced by beliefs about society. One broad category is distributive fairness, which focuses on the outcomes, often identifying groups and seeking to compensate for statistical disparities. Representational fairness tries to ensure that AI systems do not reinforce negative stereotypes or render certain groups invisible. Procedural fairness focuses on the decision process rather than the outcome. The most relevant notions of fairness may depend on the context, notably the type of AI application and the stakeholders. The subjectivity in the notions of bias and fairness makes it difficult for companies to operationalise them. Having access to sensitive attributes such as race or gender is also considered by many AI ethicists to be necessary in order to compensate for biases, but it may conflict with anti-discrimination laws.\n\nThe regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The regulatory and policy landscape for AI is an emerging issue in jurisdictions globally. According to AI Index at Stanford, the annual number of AI-related laws passed in the 127 survey countries jumped from one passed in 2016 to 37 passed in 2022 alone. Between 2016 and 2020, more than 30 countries adopted dedicated strategies for AI. Most EU member states had released national AI strategies, as had Canada, China, India, Japan, Mauritius, the Russian Federation, Saudi Arabia, United Arab Emirates, U.S., and Vietnam. Others were in the process of elaborating their own AI strategy, including Bangladesh, Malaysia and Tunisia. The Global Partnership on Artificial Intelligence was launched in June 2020, stating a need for AI to be developed in accordance with human rights and democratic values, to ensure public confidence and trust in the technology. Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher published a joint statement in November 2021 calling for a government commission to regulate AI. In 2023, OpenAI leaders published recommendations for the governance of superintelligence, which they believe may happen in less than 10 years. In 2023, the United Nations also launched an advisory body to provide recommendations on AI governance; the body comprises technology company executives, government officials and academics. On 1 August 2024, the EU Artificial Intelligence Act entered into force, establishing the first comprehensive EU-wide AI regulation. In 2024, the Council of Europe created the first international legally binding treaty on AI, called the \"Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law\". It was adopted by the European Union, the United States, the United Kingdom, and other signatories.\n\nThe issue is not resolved: sub-symbolic reasoning can make many of the same inscrutable mistakes that human intuition does, such as algorithmic bias. Critics such as Noam Chomsky argue continuing research into symbolic AI will still be necessary to attain general intelligence, in part because sub-symbolic AI is a move away from explainable AI: it can be difficult or impossible to understand why a modern statistical AI program made a",
+      "fetchedAt": "2026-09-17T13:38:03.126Z",
+      "title": "Artificial intelligence - Wikipedia",
+      "status": "ok",
+      "contentLength": 188720,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 10,
+          "text": "Reasoning models, a type of large language model (LLM) trained to generate intermediate chains-of-thought, emerged in 2024 and allowed improved performance on complex problems in mathematics and coding. These models can produce incorrect outputs or \"hallucinations,\" unlike symbolic reasoning systems."
+        },
+        {
+          "blockIndex": 72,
+          "text": "In feedforward neural networks the signal passes in only one direction. The term perceptron typically refers to a single-layer neural network. In contrast, deep learning uses many layers. Recurrent neural networks (RNNs) feed the output signal back into the input, which allows short-term memories of previous input events. Long short-term memory networks (LSTMs) are recurrent neural networks that better preserve longterm dependencies and are less sensitive to the vanishing gradient problem. Convolutional neural networks (CNNs) use layers of kernels to more efficiently process local patterns. This local processing is especially important in image processing, where the early CNN layers typically identify simple local patterns such as edges and curves, with subsequent layers detecting more complex patterns like textures, and eventually whole objects."
+        },
+        {
+          "blockIndex": 77,
+          "text": "Generative pre-trained transformers (GPTs) are large language models (LLMs) that generate text based on the semantic relationships between words in sentences. Text-based GPT models are pre-trained on a large corpus of text that can be from the Internet. The pretraining consists of predicting the next token (a token being usually a word, subword, or punctuation). Throughout this pretraining, GPT models accumulate knowledge about the world and can then generate human-like text by repeatedly predicting the next token. Typically, a subsequent training phase makes the model more truthful, useful, and harmless, usually with a technique called reinforcement learning from human feedback (RLHF). Current GPT models are prone to generating falsehoods called \"hallucinations\". These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems. Such systems are used in chatbots, which allow people to ask a question or request a task in simple text."
+        },
+        {
+          "blockIndex": 109,
+          "text": "Military AI usage attempts to enhance command and control, communications, sensors, integration and interoperability. Intelligence collection and analysis, logistics, cyber operations, information operations, and semiautonomous and autonomous vehicles are being researched. AI technologies are used in coordination of sensors and effectors, threat detection and identification, marking of enemy positions, target acquisition, coordination and deconfliction of distributed Joint Fires between networked combat vehicles, both human-operated and autonomous."
+        },
+        {
+          "blockIndex": 127,
+          "text": "The use of generative AI by law firms for legal research resulted in the creation of the global \"AI Hallucination Cases\" database, in April 2025, established by HEC Paris and Sciences Po legal data analysis lecturer Damien Charlotin. By 2026, judges had issued sanctions and bar associations had issued warnings due to attorney submissions to the courts containing fabricated case law citations hallucinated by AI tools."
+        },
+        {
+          "blockIndex": 129,
+          "text": "AI has potential benefits and potential risks. AI may be able to advance science and find solutions for serious problems: Demis Hassabis of DeepMind hopes to \"solve intelligence, and then use that to solve everything else\". However, as the use of AI has become widespread, several unintended consequences and risks have been identified. In-production systems can sometimes not factor ethics and bias into their AI training processes, especially when the AI algorithms are inherently unexplainable in deep learning."
+        },
+        {
+          "blockIndex": 152,
+          "text": "Machine learning applications can be biased if they learn from biased data. The developers may not be aware that the bias exists. Discriminatory behaviour by some LLMs can be observed in their output. Bias can be introduced by the way training data is selected and by the way a model is deployed. If a biased algorithm is used to make decisions that can seriously harm people (as it can in medicine, finance, recruitment, housing or policing) then the algorithm may cause discrimination. The field of fairness studies how to prevent harms from algorithmic biases."
+        },
+        {
+          "blockIndex": 154,
+          "text": "COMPAS is a commercial program widely used by U.S. courts to assess the likelihood of a defendant becoming a recidivist. In 2016, Julia Angwin at ProPublica discovered that COMPAS exhibited racial bias, despite the fact that the program was not told the races of the defendants. Although the error rate for both whites and blacks was calibrated equal at exactly 61%, the errors for each race were different—the system consistently overestimated the chance that a black person would re-offend and would underestimate the chance that a white person would not re-offend. In 2017, several researchers showed that it was mathematically impossible for COMPAS to accommodate all possible measures of fairness when the base rates of re-offence were different for whites and blacks in the data."
+        },
+        {
+          "blockIndex": 155,
+          "text": "A program can make biased decisions even if the data does not explicitly mention a problematic feature (such as \"race\" or \"gender\"). The feature will correlate with other features (like \"address\", \"shopping history\" or \"first name\"), and the program will make the same decisions based on these features as it would on \"race\" or \"gender\". Moritz Hardt said \"the most robust fact in this research area is that fairness through blindness doesn't work.\""
+        },
+        {
+          "blockIndex": 157,
+          "text": "Bias and unfairness may go undetected because the developers are overwhelmingly white and male: among AI engineers, about 4% are black and 20% are women."
+        },
+        {
+          "blockIndex": 158,
+          "text": "There are various conflicting definitions and mathematical models of fairness. These notions depend on ethical assumptions, and are influenced by beliefs about society. One broad category is distributive fairness, which focuses on the outcomes, often identifying groups and seeking to compensate for statistical disparities. Representational fairness tries to ensure that AI systems do not reinforce negative stereotypes or render certain groups invisible. Procedural fairness focuses on the decision process rather than the outcome. The most relevant notions of fairness may depend on the context, notably the type of AI application and the stakeholders. The subjectivity in the notions of bias and fairness makes it difficult for companies to operationalise them. Having access to sensitive attributes such as race or gender is also considered by many AI ethicists to be necessary in order to compensate for biases, but it may conflict with anti-discrimination laws."
+        },
+        {
+          "blockIndex": 197,
+          "text": "The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The regulatory and policy landscape for AI is an emerging issue in jurisdictions globally. According to AI Index at Stanford, the annual number of AI-related laws passed in the 127 survey countries jumped from one passed in 2016 to 37 passed in 2022 alone. Between 2016 and 2020, more than 30 countries adopted dedicated strategies for AI. Most EU member states had released national AI strategies, as had Canada, China, India, Japan, Mauritius, the Russian Federation, Saudi Arabia, United Arab Emirates, U.S., and Vietnam. Others were in the process of elaborating their own AI strategy, including Bangladesh, Malaysia and Tunisia. The Global Partnership on Artificial Intelligence was launched in June 2020, stating a need for AI to be developed in accordance with human rights and democratic values, to ensure public confidence and trust in the technology. Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher published a joint statement in November 2021 calling for a government commission to regulate AI. In 2023, OpenAI leaders published recommendations for the governance of superintelligence, which they believe may happen in less than 10 years. In 2023, the United Nations also launched an advisory body to provide recommendations on AI governance; the body comprises technology company executives, government officials and academics. On 1 August 2024, the EU Artificial Intelligence Act entered into force, establishing the first comprehensive EU-wide AI regulation. In 2024, the Council of Europe created the first international legally binding treaty on AI, called the \"Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law\". It was adopted by the European Union, the United States, the United Kingdom, and other signatories."
+        },
+        {
+          "blockIndex": 224,
+          "text": "The issue is not resolved: sub-symbolic reasoning can make many of the same inscrutable mistakes that human intuition does, such as algorithmic bias. Critics such as Noam Chomsky argue continuing research into symbolic AI will still be necessary to attain general intelligence, in part because sub-symbolic AI is a move away from explainable AI: it can be difficult or impossible to understand why a modern statistical AI program made a"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-024-07421-0",
+      "content": "Large language model (LLM) systems, such as ChatGPT or Gemini, can show impressive reasoning and question-answering capabilities but often ‘hallucinate’ false outputs and unsubstantiated answers. Answering unreliably or without the necessary information prevents adoption in diverse fields, with problems including fabrication of legal precedents or untrue facts in news articles and even posing a risk to human life in medical domains such as radiology. Encouraging truthfulness through supervision or reinforcement has been only partially successful. Researchers need a general method for detecting hallucinations in LLMs that works even with new and unseen questions to which humans might not know the answer. Here we develop new methods grounded in statistics, proposing entropy-based uncertainty estimators for LLMs to detect a subset of hallucinations—confabulations—which are arbitrary and incorrect generations. Our method addresses the fact that one idea can be expressed in many ways by computing uncertainty at the level of meaning rather than specific sequences of words. Our method works across datasets and tasks without a priori knowledge of the task, requires no task-specific data and robustly generalizes to new tasks not seen before. By detecting when a prompt is likely to produce a confabulation, our method helps users understand when they must take extra care with LLMs and opens up new possibilities for using LLMs that are otherwise prevented by their unreliability.\n\nHallucination in Time-series Large Language Models: An empirical lnvestigation and analysis of mitigation strategies\n\n‘Hallucinations’ are a critical problem for natural language generation systems using large language models (LLMs), such as ChatGPT or Gemini, because users cannot trust that any given output is correct.\n\nHallucinations are often defined as LLMs generating “content that is nonsensical or unfaithful to the provided source content” but they have come to include a vast array of failures of faithfulness and factuality. We focus on a subset of hallucinations which we call ‘confabulations’ for which LLMs fluently make claims that are both wrong and arbitrary—by which we mean that the answer is sensitive to irrelevant details such as random seed. For example, when asked a medical question “What is the target of Sotorasib?” an LLM confabulates by sometimes answering KRASG12 ‘C’ (correct) and other times KRASG12 ‘D’ (incorrect) despite identical instructions. We distinguish this from cases in which a similar ‘symptom’ is caused by the following different mechanisms: when LLMs are consistently wrong as a result of being trained on erroneous data such as common misconceptions; when the LLM ‘lies’ in pursuit of a reward; or systematic failures of reasoning or generalization. We believe that combining these distinct mechanisms in the broad category hallucination is unhelpful. Our method makes progress on a portion of the problem of providing scalable oversight by detecting confabulations that people might otherwise find plausible. However, it does not guarantee factuality because it does not help when LLM outputs are systematically bad. Nevertheless, we significantly improve question-answering accuracy for state-of-the-art LLMs, revealing that confabulations are a great source of error at present.\n\nWe show how to detect confabulations by developing a quantitative measure of when an input is likely to cause an LLM to generate arbitrary and ungrounded answers. Detecting confabulations allows systems built on LLMs to avoid answering questions likely to cause confabulations, to make users aware of the unreliability of answers to a question or to supplement the LLM with more grounded search or retrieval. This is essential for the critical emerging field of free-form generation in which naive approaches, suited to closed vocabulary and multiple choice, fail. Past work on uncertainty for LLMs has focused on simpler settings, such as classifiers and regressors, whereas the most exciting applications of LLMs relate to free-form generations.\n\nThe term hallucination in the context of machine learning originally comes from filling in ungrounded details, either as a deliberate strategy or as a reliability problem. The appropriateness of the metaphor has been questioned as promoting undue anthropomorphism. Although we agree that metaphor must be used carefully with LLMs, the widespread adoption of the term hallucination reflects the fact that it points to an important phenomenon. This work represents a step towards making that phenomenon more precise.\n\nTo detect confabulations, we use probabilistic tools to define and then measure the ‘semantic’ entropy of the generations of an LLM—an entropy that is computed over meanings of sentences. High entropy corresponds to high uncertainty—so semantic entropy is one way to estimate semantic uncertainties. Semantic uncertainty, the broader category of measures we introduce, could be operationalized with other measures of uncertainty, such as mutual information, instead. Entropy in free-form generation is normally hard to measure because answers might mean the same thing (be semantically equivalent) despite being expressed differently (being syntactically or lexically distinct). This causes naive estimates of entropy or other lexical variation scores to be misleadingly high when the same correct answer might be written in many ways without changing its meaning.\n\na, Naive entropy-based uncertainty measures variation in the exact answers, treating ‘Paris’, ‘It’s Paris’ and ‘France’s capital Paris’ as different. But this is unsuitable for language tasks for which sometimes different answers mean the same things. Our semantic entropy clusters answers which share meanings before computing the entropy. A low semantic entropy shows that the LLM is confident about the meaning. b, Semantic entropy can also detect confabulations in longer passages. We automatically decompose a long generated answer into factoids. For each factoid, an LLM generates questions to which that factoid might have been the answer. The\n\nOur probabilistic approach, accounting for semantic equivalence, detects an important class of hallucinations: those that are caused by a lack of LLM knowledge. These are a substantial portion of the failures at present and will continue even as models grow in capabilities because situations and cases that humans cannot reliably supervise will persist. Confabulations are a particularly noteworthy failure mode for question answering but appear in other domains too. Semantic entropy needs no previous domain knowledge and we expect that algorithmic adaptations to other problems will allow similar advances in, for example, abstractive summarization. In addition, extensions to alternative input variations such as rephrasing or counterfactual scenarios would allow a similar method to act as a form of cross-examination for scalable oversight through debate.\n\nManakul, P., Liusie, A. & Gales, M. J. F. SelfCheckGPT: Zero-Resource Black-Box hallucination detection for generative large language models. In Findings of the Association for Computational Linguistics: EMNLP 2023 (eds Bouamor, H., Pino, J. & Bali, K.) 9004–9017 (Assoc. Comp. Linguistics, 2023).\n\nManakul, P., Liusie, A. & Gales, M. J. F. SelfCheckGPT: Zero-Resource Black-Box hallucination detection for generative large language models. In Findings of the Association for Computational Linguistics: EMNLP 2023 (eds Bouamor, H., Pino, J. & Bali, K.) 9004–9017 (Assoc. Comp. Linguistics, 2023).\n\nS.F. led the work from conception to completion and proposed using bidirectional entailment to cluster generations as a way of computing entropy in LLMs. He wrote the main text, most of the Methods and Supplementary Information and prepared most of the figures. J.K. improved the mathematical formalization of semantic entropy; led the extension of semantic entropy to sentence- and paragraph-length generations; wrote the code for, and carried out, all the experiments and evaluations; wrote much of the Methods and Supplementary Information and prepared drafts of many figures; and gave critical feedback on the main text. L.K. developed the initial mathematical formalization of semantic entropy; wrote code for, and carried out, the initial experiments around semantic entropy and its variants which demonstrated the promise of the idea and helped narrow down possible research avenues to explore; and gave critical feedback on the main text. Y.G. ideated the project, proposing the idea to differentiate semantic and syntactic diversity as a tool for detecting hallucinations, provided high-level guidance on the research and gave critical feedback on the main text; he runs the research laboratory in which the work was carried out.\n\nFarquhar, S., Kossen, J., Kuhn, L. et al. Detecting hallucinations in large language models using semantic entropy. Nature 630, 625–630 (2024). https://doi.org/10.1038/s41586-024-07421-0",
+      "fetchedAt": "2026-09-17T13:38:03.128Z",
+      "title": "Detecting hallucinations in large language models using semantic entropy | Nature",
+      "status": "ok",
+      "contentLength": 71897,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 1,
+          "text": "Large language model (LLM) systems, such as ChatGPT or Gemini, can show impressive reasoning and question-answering capabilities but often ‘hallucinate’ false outputs and unsubstantiated answers. Answering unreliably or without the necessary information prevents adoption in diverse fields, with problems including fabrication of legal precedents or untrue facts in news articles and even posing a risk to human life in medical domains such as radiology. Encouraging truthfulness through supervision or reinforcement has been only partially successful. Researchers need a general method for detecting hallucinations in LLMs that works even with new and unseen questions to which humans might not know the answer. Here we develop new methods grounded in statistics, proposing entropy-based uncertainty estimators for LLMs to detect a subset of hallucinations—confabulations—which are arbitrary and incorrect generations. Our method addresses the fact that one idea can be expressed in many ways by computing uncertainty at the level of meaning rather than specific sequences of words. Our method works across datasets and tasks without a priori knowledge of the task, requires no task-specific data and robustly generalizes to new tasks not seen before. By detecting when a prompt is likely to produce a confabulation, our method helps users understand when they must take extra care with LLMs and opens up new possibilities for using LLMs that are otherwise prevented by their unreliability."
+        },
+        {
+          "blockIndex": 4,
+          "text": "Hallucination in Time-series Large Language Models: An empirical lnvestigation and analysis of mitigation strategies"
+        },
+        {
+          "blockIndex": 10,
+          "text": "‘Hallucinations’ are a critical problem for natural language generation systems using large language models (LLMs), such as ChatGPT or Gemini, because users cannot trust that any given output is correct."
+        },
+        {
+          "blockIndex": 11,
+          "text": "Hallucinations are often defined as LLMs generating “content that is nonsensical or unfaithful to the provided source content” but they have come to include a vast array of failures of faithfulness and factuality. We focus on a subset of hallucinations which we call ‘confabulations’ for which LLMs fluently make claims that are both wrong and arbitrary—by which we mean that the answer is sensitive to irrelevant details such as random seed. For example, when asked a medical question “What is the target of Sotorasib?” an LLM confabulates by sometimes answering KRASG12 ‘C’ (correct) and other times KRASG12 ‘D’ (incorrect) despite identical instructions. We distinguish this from cases in which a similar ‘symptom’ is caused by the following different mechanisms: when LLMs are consistently wrong as a result of being trained on erroneous data such as common misconceptions; when the LLM ‘lies’ in pursuit of a reward; or systematic failures of reasoning or generalization. We believe that combining these distinct mechanisms in the broad category hallucination is unhelpful. Our method makes progress on a portion of the problem of providing scalable oversight by detecting confabulations that people might otherwise find plausible. However, it does not guarantee factuality because it does not help when LLM outputs are systematically bad. Nevertheless, we significantly improve question-answering accuracy for state-of-the-art LLMs, revealing that confabulations are a great source of error at present."
+        },
+        {
+          "blockIndex": 12,
+          "text": "We show how to detect confabulations by developing a quantitative measure of when an input is likely to cause an LLM to generate arbitrary and ungrounded answers. Detecting confabulations allows systems built on LLMs to avoid answering questions likely to cause confabulations, to make users aware of the unreliability of answers to a question or to supplement the LLM with more grounded search or retrieval. This is essential for the critical emerging field of free-form generation in which naive approaches, suited to closed vocabulary and multiple choice, fail. Past work on uncertainty for LLMs has focused on simpler settings, such as classifiers and regressors, whereas the most exciting applications of LLMs relate to free-form generations."
+        },
+        {
+          "blockIndex": 13,
+          "text": "The term hallucination in the context of machine learning originally comes from filling in ungrounded details, either as a deliberate strategy or as a reliability problem. The appropriateness of the metaphor has been questioned as promoting undue anthropomorphism. Although we agree that metaphor must be used carefully with LLMs, the widespread adoption of the term hallucination reflects the fact that it points to an important phenomenon. This work represents a step towards making that phenomenon more precise."
+        },
+        {
+          "blockIndex": 14,
+          "text": "To detect confabulations, we use probabilistic tools to define and then measure the ‘semantic’ entropy of the generations of an LLM—an entropy that is computed over meanings of sentences. High entropy corresponds to high uncertainty—so semantic entropy is one way to estimate semantic uncertainties. Semantic uncertainty, the broader category of measures we introduce, could be operationalized with other measures of uncertainty, such as mutual information, instead. Entropy in free-form generation is normally hard to measure because answers might mean the same thing (be semantically equivalent) despite being expressed differently (being syntactically or lexically distinct). This causes naive estimates of entropy or other lexical variation scores to be misleadingly high when the same correct answer might be written in many ways without changing its meaning."
+        },
+        {
+          "blockIndex": 16,
+          "text": "a, Naive entropy-based uncertainty measures variation in the exact answers, treating ‘Paris’, ‘It’s Paris’ and ‘France’s capital Paris’ as different. But this is unsuitable for language tasks for which sometimes different answers mean the same things. Our semantic entropy clusters answers which share meanings before computing the entropy. A low semantic entropy shows that the LLM is confident about the meaning. b, Semantic entropy can also detect confabulations in longer passages. We automatically decompose a long generated answer into factoids. For each factoid, an LLM generates questions to which that factoid might have been the answer. The"
+        },
+        {
+          "blockIndex": 37,
+          "text": "Our probabilistic approach, accounting for semantic equivalence, detects an important class of hallucinations: those that are caused by a lack of LLM knowledge. These are a substantial portion of the failures at present and will continue even as models grow in capabilities because situations and cases that humans cannot reliably supervise will persist. Confabulations are a particularly noteworthy failure mode for question answering but appear in other domains too. Semantic entropy needs no previous domain knowledge and we expect that algorithmic adaptations to other problems will allow similar advances in, for example, abstractive summarization. In addition, extensions to alternative input variations such as rephrasing or counterfactual scenarios would allow a similar method to act as a form of cross-examination for scalable oversight through debate."
+        },
+        {
+          "blockIndex": 261,
+          "text": "Manakul, P., Liusie, A. & Gales, M. J. F. SelfCheckGPT: Zero-Resource Black-Box hallucination detection for generative large language models. In Findings of the Association for Computational Linguistics: EMNLP 2023 (eds Bouamor, H., Pino, J. & Bali, K.) 9004–9017 (Assoc. Comp. Linguistics, 2023)."
+        },
+        {
+          "blockIndex": 262,
+          "text": "Manakul, P., Liusie, A. & Gales, M. J. F. SelfCheckGPT: Zero-Resource Black-Box hallucination detection for generative large language models. In Findings of the Association for Computational Linguistics: EMNLP 2023 (eds Bouamor, H., Pino, J. & Bali, K.) 9004–9017 (Assoc. Comp. Linguistics, 2023)."
+        },
+        {
+          "blockIndex": 335,
+          "text": "S.F. led the work from conception to completion and proposed using bidirectional entailment to cluster generations as a way of computing entropy in LLMs. He wrote the main text, most of the Methods and Supplementary Information and prepared most of the figures. J.K. improved the mathematical formalization of semantic entropy; led the extension of semantic entropy to sentence- and paragraph-length generations; wrote the code for, and carried out, all the experiments and evaluations; wrote much of the Methods and Supplementary Information and prepared drafts of many figures; and gave critical feedback on the main text. L.K. developed the initial mathematical formalization of semantic entropy; wrote code for, and carried out, the initial experiments around semantic entropy and its variants which demonstrated the promise of the idea and helped narrow down possible research avenues to explore; and gave critical feedback on the main text. Y.G. ideated the project, proposing the idea to differentiate semantic and syntactic diversity as a tool for detecting hallucinations, provided high-level guidance on the research and gave critical feedback on the main text; he runs the research laboratory in which the work was carried out."
+        },
+        {
+          "blockIndex": 357,
+          "text": "Farquhar, S., Kossen, J., Kuhn, L. et al. Detecting hallucinations in large language models using semantic entropy. Nature 630, 625–630 (2024). https://doi.org/10.1038/s41586-024-07421-0"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.ishir.com/blog/183214/top-tools-and-plugins-to-detect-ai-hallucinations-in-real-time.htm",
+      "content": "Top Tools and Plugins to Detect AI Hallucinations in Real-Time\n\nTop Tools and Plugins to Detect AI Hallucinations in Real-Time\n\nImagine relying on your GPS for directions, only to find yourself at a dead end. This scenario mirrors the challenge of AI hallucinations, instances where AI models generate information that appears accurate but is, in fact, incorrect. In critical sectors like healthcare, finance, and legal services, such inaccuracies can have significant consequences.\n\nRecent studies have highlighted the prevalence of this issue. For example, research indicates that AI models used in clinical decision support systems exhibit hallucination rates ranging from 8% to 20%, depending on model complexity and training data quality . Moreover, while advancements have been made, with hallucination rates dropping from 21.8% in 2021 to 0.7% in 2025—a 96% improvement—thanks to better data, architecture, and techniques like Retrieval-Augmented Generation (RAG) , the problem persists.\n\nTo address this, several tools have been developed to detect and mitigate AI hallucinations in real-time. For instance, Pythia employs a knowledge graph to verify the factual accuracy of AI outputs, enabling real-time hallucination detection. Similarly, HDM-1 offers unmatched accuracy and real-time evaluations, setting a new standard for reliability in hallucination assessments .\n\nUnderstanding and implementing these tools is crucial for organizations aiming to maintain the integrity and reliability of their AI systems. In this blog, we will delve into the top tools and plugins designed to detect AI hallucinations in real-time, exploring their functionalities, strengths, and how they can be integrated into your AI workflows to ensure accuracy and trustworthiness.\n\n9 Tools and Plugins to Detect AI Hallucinations in 2025\n\nGalileo AI offers real-time detection of hallucinations in AI-generated content, providing reasoning behind flagged outputs to aid developers in understanding and correcting errors.\n\nHow It Works: Integrates with AI development environments to monitor outputs, applying rules to filter out factual inaccuracies.\n\nUsefulness: Highly beneficial for businesses requiring immediate feedback on AI outputs, such as content creation and customer service.\n\nBest For: Enterprises and developers focused on maintaining high-quality AI-generated content.\n\nPricing: Details on pricing are not specified, interested users should contact Galileo AI for more information.\n\nKey Features: Real-time monitoring, integration capabilities, and explanatory feedback on detected hallucinations.\n\nAn open-source tool that verifies the accuracy of AI-generated content instantly, akin to a fact-checking version of Grammarly.\n\nHow It Works: Analyzes content and cross-references it with reliable web sources to identify inaccuracies.\n\nUsefulness: Ideal for developers and content creators seeking a free solution to validate AI outputs.\n\nBest For: Startups, individual developers, and small businesses.\n\nPricing: Free and open-source.\n\nKey Features: Real-time fact-checking, source-backed verification, and detailed explanations for inaccuracies.\n\nGenezio provides real-time AI testing to detect false or off-topic responses, particularly in customer service applications.\n\nHow It Works: Runs live checks on AI responses, offering ongoing monitoring and actionable reports to ensure consistency and compliance.\n\nUsefulness: Crucial for businesses that rely on AI for customer interactions, ensuring accurate and safe communications.\n\nBest For: Customer service teams, e-commerce platforms, and industries with strict compliance requirements.\n\nPricing: Specific pricing details are not provided; interested users should contact Genezio directly.\n\nKey Features: Real-time testing, industry-standard validations, and comprehensive reporting tools.\n\nLynx is a state-of-the-art hallucination detection model that operates in real-time without the need for manual annotation.\n\nHow It Works: Utilizes advanced training techniques to identify hallucinations across various domains, enhancing the reliability of AI outputs.\n\nUsefulness: Beneficial for organizations requiring high-accuracy AI applications across diverse fields.\n\nBest For: Enterprises, research institutions, and sectors like healthcare and finance.\n\nPricing: Details on pricing are not specified, interested users should contact Patronus AI for more information.\n\nKey Features: Real-time detection, domain versatility, and no need for manual data labeling.\n\nPythia employs a knowledge graph to verify the factual accuracy of AI outputs, enabling real-time hallucination detection.\n\nHow It Works: Cross-references AI-generated content with a structured knowledge base to identify discrepancies.\n\nUsefulness: Essential for businesses that require factually accurate AI outputs, such as news organizations and educational platforms.\n\nBest For: Media companies, academic institutions, and content creators.\n\nPricing: Specific pricing details are not provided, interested users should contact Pythia directly.\n\nKey Features: Knowledge graph integration, real-time verification, and adaptability to various content types.\n\nFiddler AI offers an observability platform that monitors AI models for hallucinations, safety, and compliance issues.\n\nHow It Works: Provides real-time alerts and analytics on AI outputs, focusing on metrics like toxicity and factual accuracy.\n\nUsefulness: Vital for enterprises needing to ensure their AI systems operate within ethical and regulatory boundaries.\n\nBest For: Large organizations, especially those in regulated industries.\n\nPricing: Details on pricing are not specified; interested users should contact Fiddler AI for more information.\n\nPolygraf AI provides AI governance and content detection solutions, focusing on data integrity and monitoring.\n\nMicrosoft’s Correction feature enhances AI output accuracy by automatically detecting and correcting errors before they reach the end-user.\n\nKey Features: Automatic error detection, real-time corrections, and integration with existing Microsoft tools.\n\nAmazon Web Services (AWS) employs automated reasoning to reduce AI hallucinations, particularly in critical fields like cybersecurity and pharmaceuticals.\n\n3 Common Techniques ISHIR Uses to Mitigate AI Hallucinations\n\nAns: AI hallucinations occur when artificial intelligence systems, particularly large language models (LLMs), generate outputs that are incorrect, misleading, or entirely fabricated, despite appearing plausible\n\nAns: Common AI Hallucination types include:\n\nAns: AI hallucinations cannot be entirely eliminated due to the inherent limitations of current AI models, which rely on pattern recognition and probabilistic predictions. While mitigation strategies like retrieval-augmented generation (RAG) and improved training data can reduce their occurrence, the possibility of hallucinations remains a fundamental challenge in AI development.\n\nUnited StatesUnited KingdomAfghanistanAlbaniaAlgeriaAmerican SamoaAndorraAngolaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBolivia, Plurinational State ofBosnia and HerzegovinaBotswanaBrazilBrunei DarussalamBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsCentral African RepublicChadChileChinaColombiaComorosCongoCongo, the Democratic Republic of theCook IslandsCosta RicaCôte d’IvoireCroatiaCubaCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFijiFinlandFranceGabonGambiaGeorgiaGermanyGhanaGreeceGrenadaGuamGuatemalaGuineaGuinea-BissauGuyanaHaitiHondurasHong KongHungaryIcelandIndiaIndonesiaIran, Islamic Republic ofIraqIrelandIsraelItalyJamaicaJapanJordanKazakhstanKenyaKiribatiKorea, Democratic People’s Republic ofKorea, Republic ofKuwaitKyrgyzstanLao People’s Democratic RepublicLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacedonia, the former Yugoslav Republic ofMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMauritaniaMauritiusMexicoMicronesia, Federated States ofMoldova, Republic ofMonacoMongoliaMontenegroMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNew ZealandNicaraguaNigerNigeriaNorwayOmanPakistanPalauPalestine, State ofPanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarRomaniaRussian FederationRwandaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesSamoaSan MarinoSao Tome and PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSpainSri LankaSudanSurinameSwazilandSwedenSwitzerlandSyrian Arab RepublicTaiwan, Province of ChinaTajikistanTanzania, United Republic ofThailandTimor-LesteTogoTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTuvaluUgandaUkraineUnited Arab EmiratesUruguayUzbekistanVanuatuVenezuela, Bolivarian Republic ofViet NamVirgin Islands, U.S.YemenZambiaZimbabwe",
+      "fetchedAt": "2026-09-17T13:38:06.933Z",
+      "title": "Top Tools and Plugins to Detect AI Hallucinations in Real-Time",
+      "status": "ok",
+      "contentLength": 14051,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Top Tools and Plugins to Detect AI Hallucinations in Real-Time"
+        },
+        {
+          "blockIndex": 1,
+          "text": "Top Tools and Plugins to Detect AI Hallucinations in Real-Time"
+        },
+        {
+          "blockIndex": 3,
+          "text": "Imagine relying on your GPS for directions, only to find yourself at a dead end. This scenario mirrors the challenge of AI hallucinations, instances where AI models generate information that appears accurate but is, in fact, incorrect. In critical sectors like healthcare, finance, and legal services, such inaccuracies can have significant consequences."
+        },
+        {
+          "blockIndex": 4,
+          "text": "Recent studies have highlighted the prevalence of this issue. For example, research indicates that AI models used in clinical decision support systems exhibit hallucination rates ranging from 8% to 20%, depending on model complexity and training data quality . Moreover, while advancements have been made, with hallucination rates dropping from 21.8% in 2021 to 0.7% in 2025—a 96% improvement—thanks to better data, architecture, and techniques like Retrieval-Augmented Generation (RAG) , the problem persists."
+        },
+        {
+          "blockIndex": 5,
+          "text": "To address this, several tools have been developed to detect and mitigate AI hallucinations in real-time. For instance, Pythia employs a knowledge graph to verify the factual accuracy of AI outputs, enabling real-time hallucination detection. Similarly, HDM-1 offers unmatched accuracy and real-time evaluations, setting a new standard for reliability in hallucination assessments ."
+        },
+        {
+          "blockIndex": 6,
+          "text": "Understanding and implementing these tools is crucial for organizations aiming to maintain the integrity and reliability of their AI systems. In this blog, we will delve into the top tools and plugins designed to detect AI hallucinations in real-time, exploring their functionalities, strengths, and how they can be integrated into your AI workflows to ensure accuracy and trustworthiness."
+        },
+        {
+          "blockIndex": 7,
+          "text": "9 Tools and Plugins to Detect AI Hallucinations in 2025"
+        },
+        {
+          "blockIndex": 8,
+          "text": "Galileo AI offers real-time detection of hallucinations in AI-generated content, providing reasoning behind flagged outputs to aid developers in understanding and correcting errors."
+        },
+        {
+          "blockIndex": 9,
+          "text": "How It Works: Integrates with AI development environments to monitor outputs, applying rules to filter out factual inaccuracies."
+        },
+        {
+          "blockIndex": 10,
+          "text": "Usefulness: Highly beneficial for businesses requiring immediate feedback on AI outputs, such as content creation and customer service."
+        },
+        {
+          "blockIndex": 11,
+          "text": "Best For: Enterprises and developers focused on maintaining high-quality AI-generated content."
+        },
+        {
+          "blockIndex": 12,
+          "text": "Pricing: Details on pricing are not specified, interested users should contact Galileo AI for more information."
+        },
+        {
+          "blockIndex": 13,
+          "text": "Key Features: Real-time monitoring, integration capabilities, and explanatory feedback on detected hallucinations."
+        },
+        {
+          "blockIndex": 14,
+          "text": "An open-source tool that verifies the accuracy of AI-generated content instantly, akin to a fact-checking version of Grammarly."
+        },
+        {
+          "blockIndex": 15,
+          "text": "How It Works: Analyzes content and cross-references it with reliable web sources to identify inaccuracies."
+        },
+        {
+          "blockIndex": 16,
+          "text": "Usefulness: Ideal for developers and content creators seeking a free solution to validate AI outputs."
+        },
+        {
+          "blockIndex": 17,
+          "text": "Best For: Startups, individual developers, and small businesses."
+        },
+        {
+          "blockIndex": 18,
+          "text": "Pricing: Free and open-source."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Key Features: Real-time fact-checking, source-backed verification, and detailed explanations for inaccuracies."
+        },
+        {
+          "blockIndex": 20,
+          "text": "Genezio provides real-time AI testing to detect false or off-topic responses, particularly in customer service applications."
+        },
+        {
+          "blockIndex": 21,
+          "text": "How It Works: Runs live checks on AI responses, offering ongoing monitoring and actionable reports to ensure consistency and compliance."
+        },
+        {
+          "blockIndex": 22,
+          "text": "Usefulness: Crucial for businesses that rely on AI for customer interactions, ensuring accurate and safe communications."
+        },
+        {
+          "blockIndex": 23,
+          "text": "Best For: Customer service teams, e-commerce platforms, and industries with strict compliance requirements."
+        },
+        {
+          "blockIndex": 24,
+          "text": "Pricing: Specific pricing details are not provided; interested users should contact Genezio directly."
+        },
+        {
+          "blockIndex": 25,
+          "text": "Key Features: Real-time testing, industry-standard validations, and comprehensive reporting tools."
+        },
+        {
+          "blockIndex": 26,
+          "text": "Lynx is a state-of-the-art hallucination detection model that operates in real-time without the need for manual annotation."
+        },
+        {
+          "blockIndex": 27,
+          "text": "How It Works: Utilizes advanced training techniques to identify hallucinations across various domains, enhancing the reliability of AI outputs."
+        },
+        {
+          "blockIndex": 28,
+          "text": "Usefulness: Beneficial for organizations requiring high-accuracy AI applications across diverse fields."
+        },
+        {
+          "blockIndex": 29,
+          "text": "Best For: Enterprises, research institutions, and sectors like healthcare and finance."
+        },
+        {
+          "blockIndex": 30,
+          "text": "Pricing: Details on pricing are not specified, interested users should contact Patronus AI for more information."
+        },
+        {
+          "blockIndex": 31,
+          "text": "Key Features: Real-time detection, domain versatility, and no need for manual data labeling."
+        },
+        {
+          "blockIndex": 32,
+          "text": "Pythia employs a knowledge graph to verify the factual accuracy of AI outputs, enabling real-time hallucination detection."
+        },
+        {
+          "blockIndex": 33,
+          "text": "How It Works: Cross-references AI-generated content with a structured knowledge base to identify discrepancies."
+        },
+        {
+          "blockIndex": 34,
+          "text": "Usefulness: Essential for businesses that require factually accurate AI outputs, such as news organizations and educational platforms."
+        },
+        {
+          "blockIndex": 35,
+          "text": "Best For: Media companies, academic institutions, and content creators."
+        },
+        {
+          "blockIndex": 36,
+          "text": "Pricing: Specific pricing details are not provided, interested users should contact Pythia directly."
+        },
+        {
+          "blockIndex": 37,
+          "text": "Key Features: Knowledge graph integration, real-time verification, and adaptability to various content types."
+        },
+        {
+          "blockIndex": 38,
+          "text": "Fiddler AI offers an observability platform that monitors AI models for hallucinations, safety, and compliance issues."
+        },
+        {
+          "blockIndex": 39,
+          "text": "How It Works: Provides real-time alerts and analytics on AI outputs, focusing on metrics like toxicity and factual accuracy."
+        },
+        {
+          "blockIndex": 40,
+          "text": "Usefulness: Vital for enterprises needing to ensure their AI systems operate within ethical and regulatory boundaries."
+        },
+        {
+          "blockIndex": 41,
+          "text": "Best For: Large organizations, especially those in regulated industries."
+        },
+        {
+          "blockIndex": 42,
+          "text": "Pricing: Details on pricing are not specified; interested users should contact Fiddler AI for more information."
+        },
+        {
+          "blockIndex": 44,
+          "text": "Polygraf AI provides AI governance and content detection solutions, focusing on data integrity and monitoring."
+        },
+        {
+          "blockIndex": 50,
+          "text": "Microsoft’s Correction feature enhances AI output accuracy by automatically detecting and correcting errors before they reach the end-user."
+        },
+        {
+          "blockIndex": 55,
+          "text": "Key Features: Automatic error detection, real-time corrections, and integration with existing Microsoft tools."
+        },
+        {
+          "blockIndex": 56,
+          "text": "Amazon Web Services (AWS) employs automated reasoning to reduce AI hallucinations, particularly in critical fields like cybersecurity and pharmaceuticals."
+        },
+        {
+          "blockIndex": 62,
+          "text": "3 Common Techniques ISHIR Uses to Mitigate AI Hallucinations"
+        },
+        {
+          "blockIndex": 73,
+          "text": "Ans: AI hallucinations occur when artificial intelligence systems, particularly large language models (LLMs), generate outputs that are incorrect, misleading, or entirely fabricated, despite appearing plausible"
+        },
+        {
+          "blockIndex": 74,
+          "text": "Ans: Common AI Hallucination types include:"
+        },
+        {
+          "blockIndex": 78,
+          "text": "Ans: AI hallucinations cannot be entirely eliminated due to the inherent limitations of current AI models, which rely on pattern recognition and probabilistic predictions. While mitigation strategies like retrieval-augmented generation (RAG) and improved training data can reduce their occurrence, the possibility of hallucinations remains a fundamental challenge in AI development."
+        },
+        {
+          "blockIndex": 91,
+          "text": "United StatesUnited KingdomAfghanistanAlbaniaAlgeriaAmerican SamoaAndorraAngolaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBolivia, Plurinational State ofBosnia and HerzegovinaBotswanaBrazilBrunei DarussalamBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsCentral African RepublicChadChileChinaColombiaComorosCongoCongo, the Democratic Republic of theCook IslandsCosta RicaCôte d’IvoireCroatiaCubaCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFijiFinlandFranceGabonGambiaGeorgiaGermanyGhanaGreeceGrenadaGuamGuatemalaGuineaGuinea-BissauGuyanaHaitiHondurasHong KongHungaryIcelandIndiaIndonesiaIran, Islamic Republic ofIraqIrelandIsraelItalyJamaicaJapanJordanKazakhstanKenyaKiribatiKorea, Democratic People’s Republic ofKorea, Republic ofKuwaitKyrgyzstanLao People’s Democratic RepublicLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacedonia, the former Yugoslav Republic ofMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMauritaniaMauritiusMexicoMicronesia, Federated States ofMoldova, Republic ofMonacoMongoliaMontenegroMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNew ZealandNicaraguaNigerNigeriaNorwayOmanPakistanPalauPalestine, State ofPanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarRomaniaRussian FederationRwandaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesSamoaSan MarinoSao Tome and PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSpainSri LankaSudanSurinameSwazilandSwedenSwitzerlandSyrian Arab RepublicTaiwan, Province of ChinaTajikistanTanzania, United Republic ofThailandTimor-LesteTogoTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTuvaluUgandaUkraineUnited Arab EmiratesUruguayUzbekistanVanuatuVenezuela, Bolivarian Republic ofViet NamVirgin Islands, U.S.YemenZambiaZimbabwe"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://minicoursegenerator.com/ai-hallucination-checker/",
+      "content": "Maintaining Factual Consistency:The AI Hallucination CheckerIt's well known that different kinds of generative AI can \"make things up\" — a phenomenon known as hallucination, where the AI produces information that isn't grounded in the provided context or reality.Source textThe Renaissance was a period of cultural rebirth in Europe that began in Italy during the 14th century. This movement was characterized by renewed interest in classical art and learning, leading to significant advances in art, architecture, and science.Generative AI's outputThe Renaissance started in Italy in the 1300s and was a time when European culture experienced a major revival. People became very interested in studying ancient Greek and Roman works, which sparked big developments in things like painting, building design, and scientific discovery.Notice that the AI's output simplifies the historical context by stating \"1300s\" instead of \"14th century\" and uses more casual language like \"big developments\" and \"things like\" which aren't in the source text. While the core information remains similar, the AI has hallucinated specific details about \"studying ancient Greek and Roman works\" that aren't mentioned in the original text, demonstrating how AI can generate plausible but fabricated content.Check for HallucinationsLet's compare source text with generated text to detect potential hallucinations.Source TextGenerative AI's outputEvaluateFrequently Asked QuestionsFind answers to common questions about AI Hallucination Checker.What are AI hallucinations?AI hallucinations occur when generative AI models produce information that is factually incorrect or not grounded in the provided context. These fabricated details may appear plausible but do not align with the original source material.How often do AI hallucinations happen?What causes AI hallucinations?When AI hallucinations can pose problems?Can AI hallucinations be prevented?Why is it important to mitigate hallucinations in AI outputs in EdTech?How does the AI Hallucination Checker work?Why do content consistency and addressing hallucinations matter to us?At the core of AI-powered tool is the ability to turn your documents into courses while keeping them consistent with the original content and the context. With our approach, we help maintaining your content reliable, mitigating the risk of AI-generated inaccuracies or hallucinations. This means your courses stay true to their source, so you can focus on delivering quality learning experiences to engage your learners.Turn your documents into on-point courses with AI. Effortless, accurate, and true to your content.Get Started Now",
+      "fetchedAt": "2026-09-17T13:38:06.934Z",
+      "title": "AI Hallucination Checker",
+      "status": "ok",
+      "contentLength": 2647,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Maintaining Factual Consistency:The AI Hallucination CheckerIt's well known that different kinds of generative AI can \"make things up\" — a phenomenon known as hallucination, where the AI produces information that isn't grounded in the provided context or reality.Source textThe Renaissance was a period of cultural rebirth in Europe that began in Italy during the 14th century. This movement was characterized by renewed interest in classical art and learning, leading to significant advances in art, architecture, and science.Generative AI's outputThe Renaissance started in Italy in the 1300s and was a time when European culture experienced a major revival. People became very interested in studying ancient Greek and Roman works, which sparked big developments in things like painting, building design, and scientific discovery.Notice that the AI's output simplifies the historical context by stating \"1300s\" instead of \"14th century\" and uses more casual language like \"big developments\" and \"things like\" which aren't in the source text. While the core information remains similar, the AI has hallucinated specific details about \"studying ancient Greek and Roman works\" that aren't mentioned in the original text, demonstrating how AI can generate plausible but fabricated content.Check for HallucinationsLet's compare source text with generated text to detect potential hallucinations.Source TextGenerative AI's outputEvaluateFrequently Asked QuestionsFind answers to common questions about AI Hallucination Checker.What are AI hallucinations?AI hallucinations occur when generative AI models produce information that is factually incorrect or not grounded in the provided context. These fabricated details may appear plausible but do not align with the original source material.How often do AI hallucinations happen?What causes AI hallucinations?When AI hallucinations can pose problems?Can AI hallucinations be prevented?Why is it important to mitigate hallucinations in AI outputs in EdTech?How does the AI Hallucination Checker work?Why do content consistency and addressing hallucinations matter to us?At the core of AI-powered tool is the ability to turn your documents into courses while keeping them consistent with the original content and the context. With our approach, we help maintaining your content reliable, mitigating the risk of AI-generated inaccuracies or hallucinations. This means your courses stay true to their source, so you can focus on delivering quality learning experiences to engage your learners.Turn your documents into on-point courses with AI. Effortless, accurate, and true to your content.Get Started Now"
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "tieuDe": "AI agent - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:37:57.714Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia article with citations, widely used as secondary source",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Wikipedia article",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "An AI agent, also known as agentic AI, is an artificial intelligence program that can pursue goals, use software or other tools, and take actions with some level of autonomy.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://gptzero.me/hallucination-detector",
+      "tieuDe": "AI Source Finder - Check Citations From Text, Essays & More",
+      "toChuc": "GPTZero",
+      "ngayLayVe": "2026-09-17T13:37:57.714Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Marketing product page, no independent verification",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Marketing content",
+      "canhBao": [
+        "Không đáng tin cậy cho thông tin học thuật",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "GPTZero’s Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model",
+      "tieuDe": "Large language model - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:37:57.715Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia article with citations",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Wikipedia article",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "tieuDe": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+      "toChuc": "Amazon Web Services",
+      "ngayDang": "2025-05-16T08:44:40-08:00",
+      "ngayLayVe": "2026-09-17T13:38:03.125Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "AWS technical blog, peer-reviewed by AWS engineers",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Technical blog",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Detect hallucinations for RAG-based systems As AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "tieuDe": "Artificial intelligence - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:38:03.126Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Wikipedia article with citations",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Wikipedia article",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n06",
+      "url": "https://www.nature.com/articles/s41586-024-07421-0",
+      "tieuDe": "Detecting hallucinations in large language models using semantic entropy | Nature",
+      "ngayLayVe": "2026-09-17T13:38:03.128Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "AI không chọn nguồn này",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok",
+      "toChuc": "Nature",
+      "ngayDang": "2024-06-19",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ]
+    },
+    {
+      "id": "n07",
+      "url": "https://www.ishir.com/blog/183214/top-tools-and-plugins-to-detect-ai-hallucinations-in-real-time.htm",
+      "tieuDe": "Top Tools and Plugins to Detect AI Hallucinations in Real-Time",
+      "ngayLayVe": "2026-09-17T13:38:06.933Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "AI không chọn nguồn này",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok",
+      "tacGia": "Chetan Saxena",
+      "toChuc": "ISHIR | Custom AI Software Development Dallas Fort-Worth Texas",
+      "ngayDang": "2025-05-16T15:00:07+00:00",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ]
+    },
+    {
+      "id": "n08",
+      "url": "https://minicoursegenerator.com/ai-hallucination-checker/",
+      "tieuDe": "AI Hallucination Checker",
+      "ngayLayVe": "2026-09-17T13:38:06.934Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "AI không chọn nguồn này",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok",
+      "toChuc": "Mini Course Generator",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04",
+    "n05"
+  ],
+  "sourcesRejected": [
+    "n02",
+    "n06",
+    "n07",
+    "n08"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "AI may confidently assert facts that are not supported by its training data, leading to hallucinations.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.",
+          "viTri": "paragraph 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Current GPT models are prone to generating falsehoods called hallucinations, and the issue has worsened for reasoning systems.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n05",
+          "doanTrich": "Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems.",
+          "viTri": "paragraph 4"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://en.wikipedia.org/wiki/AI_agent\",\"tieuDe\":\"AI agent - Wikipedia\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"0000-00-00\",\"ngayLayVe\":\"2026-09-17T13:37:57.714Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Wikipedia article with citations, widely used as secondary source\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Wikipedia article\",\"canhBao\":[],\"doanTrich\":\"An AI agent, also known as agentic AI, is an artificial intelligence program that can pursue goals, use software or other tools, and take actions with some level of autonomy.\"},{\"id\":\"n02\",\"url\":\"https://gptzero.me/hallucination-detector\",\"tieuDe\":\"AI Source Finder - Check Citations From Text, Essays & More\",\"tacGia\":\"Không rõ\",\"toChuc\":\"GPTZero\",\"ngayDang\":\"0000-00-00\",\"ngayLayVe\":\"2026-09-17T13:37:57.714Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"thap\",\"lyDoTinCay\":\"Marketing product page, no independent verification\",\"trangThai\":\"bi-loai\",\"lyDoLoai\":\"Marketing content\",\"canhBao\":[\"Không đáng tin cậy cho thông tin học thuật\"],\"doanTrich\":\"GPTZero’s Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.\"},{\"id\":\"n03\",\"url\":\"https://en.wikipedia.org/wiki/Large_language_model\",\"tieuDe\":\"Large language model - Wikipedia\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"0000-00-00\",\"ngayLayVe\":\"2026-09-17T13:37:57.715Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Wikipedia article with citations\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Wikipedia article\",\"canhBao\":[],\"doanTrich\":\"Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.\"},{\"id\":\"n04\",\"url\":\"https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/\",\"tieuDe\":\"Detect hallucinations for RAG-based systems | Artificial Intelligence\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Amazon Web Services\",\"ngayDang\":\"2025-05-16\",\"ngayLayVe\":\"2026-09-17T13:38:03.125Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"AWS technical blog, peer-reviewed by AWS engineers\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Technical blog\",\"canhBao\":[],\"doanTrich\":\"Detect hallucinations for RAG-based systems As AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount.\"},{\"id\":\"n05\",\"url\":\"https://en.wikipedia.org/wiki/Artificial_intelligence\",\"tieuDe\":\"Artificial intelligence - Wikipedia\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"0000-00-00\",\"ngayLayVe\":\"2026-09-17T13:38:03.126Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Wikipedia article with citations\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Wikipedia article\",\"canhBao\":[],\"doanTrich\":\"Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"AI may confidently assert facts that are not supported by its training data, leading to hallucinations.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n03\",\"doanTrich\":\"Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.\",\"viTri\":\"paragraph 3\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t02\",\"noiDung\":\"Current GPT models are prone to generating falsehoods called hallucinations, and the issue has worsened for reasoning systems.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n05\",\"doanTrich\":\"Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems.\",\"viTri\":\"paragraph 4\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-0684fe12-7a8c-410a-ad73-d0961f7f1223",
+      "durationMs": 3479,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://en.wikipedia.org/wiki/AI_agent\",\n      \"tieuDe\": \"AI agent - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:37:57.714Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Wikipedia là bách khoa toàn thư mở, độ tin cậy trung bình, cần kiểm chứng thêm. Nội dung trang này tập trung vào định nghĩa và kiến trúc AI agent, không trực tiếp giải thích hiện tượng 'tự tin trả lời sai' (hallucination) mà chủ đề yêu cầu.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung không liên quan trực tiếp đến mục tiêu bài học về các dấu hiệu cần kiểm chứng khi AI trả lời sai (hallucination). Trang này nói về AI agent nói chung.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"An AI agent, also known as agentic AI, is an artificial intelligence program that can pursue goals, use software or other tools, and take actions with some level of autonomy.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://gptzero.me/hallucination-detector\",\n      \"tieuDe\": \"AI Source Finder - Check Citations From Text, Essays & More\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"GPTZero\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:37:57.714Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Đây là trang quảng cáo sản phẩm thương mại (GPTZero), không phải tài liệu học thuật hoặc báo chí độc lập. Nội dung chủ yếu là marketing và lời chứng thực của khách hàng, thiếu chiều sâu phân tích kỹ thuật về nguyên nhân AI trả lời sai.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn thương mại, độ tin cậy thấp, không cung cấp thông tin giáo dục chất lượng cao về cơ chế hoạt động của AI hay các dấu hiệu nhận biết lỗi.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays. Verify academic integrity with the most accurate hallucination detection tool for educators.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Large_language_model\",\n      \"tieuDe\": \"Large language model - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:37:57.715Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Wikipedia là nguồn tham khảo phổ biến, độ tin cậy trung bình. Trang này chứa định nghĩa rõ ràng về 'hallucination' (ảo giác) trong LLM, phù hợp với chủ đề bài học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn là bách khoa toàn thư mở, cần đối chiếu với các nguồn học thuật chính thống để xác minh độ chính xác tuyệt đối.\"\n      ],\n      \"doanTrich\": \"Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed \\\"hallucination\\\".\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Hiện tượng AI trả lời sai một cách tự tin được gọi là 'hallucination' (ảo giác), xảy ra khi mô hình tạo ra các tuyên bố sự thật không có cơ sở trong dữ liệu huấn luyện.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed \\\"hallucination\\\".\",\n          \"viTri\": \"Đoạn văn thứ 4 trong phần nội dung\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn, nhưng chỉ có một nguồn duy nhất xác nhận định nghĩa này trong bộ dữ liệu hiện tại.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Các câu trả lời ảo giác thường có đặc điểm là nghe trôi chảy, tự nhiên và đúng ngữ pháp, nhưng lại sai về mặt sự thật hoặc vô nghĩa.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Specifically, hallucinations in the context of LLMs correspond to the generation of text or responses that seem syntactically sound, fluent, and natural but are factually incorrect, nonsensical, or unfaithful to the provided source input.\",\n          \"viTri\": \"Câu tiếp theo ngay sau định nghĩa hallucination\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn, nhưng chỉ có một nguồn duy nhất mô tả đặc điểm này.\"\n    }\n  ]\n}"
+    },
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "requestId": "chatcmpl-62bfdee3-3e9f-41ad-bec7-9852d35bbf89",
+      "durationMs": 5568,
+      "rawAiResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://en.wikipedia.org/wiki/AI_agent\",\"tieuDe\":\"AI agent - Wikipedia\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"0000-00-00\",\"ngayLayVe\":\"2026-09-17T13:37:57.714Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Wikipedia article with citations, widely used as secondary source\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Wikipedia article\",\"canhBao\":[],\"doanTrich\":\"An AI agent, also known as agentic AI, is an artificial intelligence program that can pursue goals, use software or other tools, and take actions with some level of autonomy.\"},{\"id\":\"n02\",\"url\":\"https://gptzero.me/hallucination-detector\",\"tieuDe\":\"AI Source Finder - Check Citations From Text, Essays & More\",\"tacGia\":\"Không rõ\",\"toChuc\":\"GPTZero\",\"ngayDang\":\"0000-00-00\",\"ngayLayVe\":\"2026-09-17T13:37:57.714Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"thap\",\"lyDoTinCay\":\"Marketing product page, no independent verification\",\"trangThai\":\"bi-loai\",\"lyDoLoai\":\"Marketing content\",\"canhBao\":[\"Không đáng tin cậy cho thông tin học thuật\"],\"doanTrich\":\"GPTZero’s Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.\"},{\"id\":\"n03\",\"url\":\"https://en.wikipedia.org/wiki/Large_language_model\",\"tieuDe\":\"Large language model - Wikipedia\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"0000-00-00\",\"ngayLayVe\":\"2026-09-17T13:37:57.715Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Wikipedia article with citations\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Wikipedia article\",\"canhBao\":[],\"doanTrich\":\"Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.\"},{\"id\":\"n04\",\"url\":\"https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/\",\"tieuDe\":\"Detect hallucinations for RAG-based systems | Artificial Intelligence\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Amazon Web Services\",\"ngayDang\":\"2025-05-16\",\"ngayLayVe\":\"2026-09-17T13:38:03.125Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"AWS technical blog, peer-reviewed by AWS engineers\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Technical blog\",\"canhBao\":[],\"doanTrich\":\"Detect hallucinations for RAG-based systems As AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount.\"},{\"id\":\"n05\",\"url\":\"https://en.wikipedia.org/wiki/Artificial_intelligence\",\"tieuDe\":\"Artificial intelligence - Wikipedia\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"0000-00-00\",\"ngayLayVe\":\"2026-09-17T13:38:03.126Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Wikipedia article with citations\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Wikipedia article\",\"canhBao\":[],\"doanTrich\":\"Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"AI may confidently assert facts that are not supported by its training data, leading to hallucinations.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n03\",\"doanTrich\":\"Generative LLMs have been observed to confidently assert claims of fact which do not seem to be justified by their training data, a phenomenon which has been termed 'hallucination'.\",\"viTri\":\"paragraph 3\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t02\",\"noiDung\":\"Current GPT models are prone to generating falsehoods called hallucinations, and the issue has worsened for reasoning systems.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n05\",\"doanTrich\":\"Current GPT models are prone to generating falsehoods called 'hallucinations'. These can be reduced with RLHF and quality data, but the problem has been getting worse for reasoning systems.\",\"viTri\":\"paragraph 4\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 31514
+}

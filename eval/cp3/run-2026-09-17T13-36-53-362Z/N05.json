@@ -1,0 +1,682 @@
+{
+  "case": {
+    "id": "N05",
+    "class": "thuong",
+    "input": {
+      "topic": "Bản quyền và nội dung do AI tạo ra",
+      "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+      "targetAudience": "Sinh viên làm đồ án",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Tìm nguồn pháp lý về bản quyền AI. Nêu rõ khác biệt theo quốc gia.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #8; không phải chatlog",
+    "passCriteria": "Nguồn thật và đoạn trích khớp; nêu phạm vi pháp lý theo quốc gia và thời điểm, không suy đoán có hay không quy định Việt Nam",
+    "failCriteria": "Khẳng định chắc chắn về pháp lý khi chưa có; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.copyright.gov/ai/",
+        "tieuDe": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+        "tacGia": "U.S. Copyright Office",
+        "ngayLayVe": "2026-09-17T13:39:39.295Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Nguồn chính thức từ Văn phòng Bản quyền Hoa Kỳ, cơ quan quản lý pháp luật bản quyền liên bang.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+        "tieuDe": "Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation",
+        "tacGia": "Tori Noble",
+        "toChuc": "Electronic Frontier Foundation",
+        "ngayDang": "2025-06-26T12:22:26-07:00",
+        "ngayLayVe": "2026-09-17T13:39:39.296Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "EFF là tổ chức phi lợi nhuận uy tín về quyền kỹ thuật số, tuy nhiên bài viết mang tính phân tích và lập luận pháp lý, có thể chứa quan điểm chủ quan.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585",
+        "tieuDe": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585",
+        "ngayLayVe": "2026-09-17T13:39:39.297Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Trang web bị chặn bởi cơ chế xác minh JavaScript, không thể truy cập nội dung thực tế.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không thể truy cập nội dung do lỗi kỹ thuật (JavaScript disabled).",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "In order to continue, we need to verify that you're not a robot. This requires JavaScript.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Văn phòng Bản quyền Hoa Kỳ đã công bố Phần 2 của báo cáo về Bản quyền và Trí tuệ nhân tạo vào ngày 29 tháng 1 năm 2025, tập trung vào khả năng được bảo hộ bản quyền của các đầu ra do AI tạo sinh.",
+        "loai": "so-lieu",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+            "viTri": "Đoạn văn thứ 2"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Trong vụ án Bartz v. Anthropic, Thẩm phán William Alsup phán quyết rằng việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn (LLM) là một hành vi sử dụng hợp lý (fair use) mang tính chuyển đổi cao.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+            "viTri": "Đoạn văn thứ 3"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Thông tin này chỉ được xác nhận bởi một nguồn (EFF), mặc dù EFF là tổ chức uy tín, nhưng đây là quan điểm pháp lý của họ về phán quyết tòa án, cần đối chiếu với văn bản phán quyết gốc để xác minh tuyệt đối."
+      }
+    ],
+    "searchQueries": [
+      "copyright AI-generated works",
+      "fair use AI content"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789652383311",
+      "timestamp": "2026-09-17T13:39:43.311Z",
+      "phase": "research",
+      "input": {
+        "topic": "Bản quyền và nội dung do AI tạo ra",
+        "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+        "targetAudience": "Sinh viên làm đồ án",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N05"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+              "url": "https://www.copyright.gov/ai/",
+              "snippet": "Report on Copyright and Artificial Intelligence · Copyright Registration Guidance for Works Containing AI-Generated Materials · Artificial Intelligence Study.",
+              "position": 1
+            },
+            {
+              "title": "Copyright of AI-generated works: Approaches in the EU and ...",
+              "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585",
+              "snippet": "Currently, the EU lacks specific rules on the copyrightability of AI-generated works, but existing case law of the Court of Justice of the ...",
+              "position": 2
+            },
+            {
+              "title": "Copyright Protection for AI-Generated Works: Exploring ...",
+              "url": "https://www.cambridge.org/core/journals/asian-journal-of-international-law/article/copyright-protection-for-aigenerated-works-exploring-originality-and-ownership-in-a-digital-landscape/12B8B8D836AC9DDFFF4082F7859603E3",
+              "snippet": "viết bởi H GAFFAR · 2025 · Trích dẫn 177 bài viết — The CJEU, in a series of cases, has firmly established that AI-generated works do not qualify for copyright protection due to the absence or ...",
+              "position": 3
+            },
+            {
+              "title": "Copyrighting AI-Generated Works Requires “Sufficient ...",
+              "url": "https://www.privacyworld.blog/2025/02/copyright-office-copyrighting-ai-generated-works-requires-sufficient-human-control-over-the-expressive-elements-prompts-are-not-enough/",
+              "snippet": "No copyright protection for works purely generated by AI or where there was “insufficient human control over the expressive elements.” • Prompts ...",
+              "position": 4
+            },
+            {
+              "title": "Court Ruling: AI generated works not eligible for Copyright",
+              "url": "https://www.reddit.com/r/Screenwriting/comments/1jeeg9h/court_ruling_ai_generated_works_not_eligible_for/",
+              "snippet": "Since AI is trained with stolen art, writing, and other media, it absolutely should not be eligible for copyright. How can you copyright ...",
+              "position": 5
+            }
+          ],
+          "query": "copyright AI-generated works",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Two Courts Rule On Generative AI and Fair Use",
+              "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+              "snippet": "The core question in both cases was whether using copyrighted works to train Large Language Models (LLMs) used in AI chatbots is a lawful fair ...",
+              "position": 1
+            },
+            {
+              "title": "Fair Use and AI Training Data - Research Guides",
+              "url": "https://lib.guides.umd.edu/ai-scholarly-communications/fair-use",
+              "snippet": "This guide is intended to highlight the ways in which AI can be integrated into various aspects of the research and publishing process and ...",
+              "position": 2
+            },
+            {
+              "title": "The AI Copyright Battle: Why OpenAI And Google Are ...",
+              "url": "https://www.forbes.com/sites/virginieberger/2025/03/15/the-ai-copyright-battle-why-openai-and-google-are-pushing-for-fair-use/",
+              "snippet": "Critics argue AI models often compress and reproduce copyrighted material, challenging fair use claims, while some view the national security ...",
+              "position": 3
+            },
+            {
+              "title": "Fair Use and the Origin of AI Training",
+              "url": "https://houstonlawreview.org/article/147422-fair-use-and-the-origin-of-ai-training",
+              "snippet": "viết bởi E Lee · 2025 · Trích dẫn 28 bài viết — Using copyrighted works to train AI models serves a fair use or “transformative” purpose, namely, the further purpose to research, develop, ...",
+              "position": 4
+            },
+            {
+              "title": "Artificial intelligence and copyright",
+              "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_and_copyright",
+              "snippet": "... use of unlicensed copyrighted material for training AI would fall under fair use. ... using its content to train AI models without authorization. While ...",
+              "position": 5
+            }
+          ],
+          "query": "fair use AI content",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.copyright.gov/ai/",
+          "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+          "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585",
+          "https://lib.guides.umd.edu/ai-scholarly-communications/fair-use",
+          "https://www.cambridge.org/core/journals/asian-journal-of-international-law/article/copyright-protection-for-aigenerated-works-exploring-originality-and-ownership-in-a-digital-landscape/12B8B8D836AC9DDFFF4082F7859603E3",
+          "https://www.forbes.com/sites/virginieberger/2025/03/15/the-ai-copyright-battle-why-openai-and-google-are-pushing-for-fair-use/",
+          "https://www.privacyworld.blog/2025/02/copyright-office-copyrighting-ai-generated-works-requires-sufficient-human-control-over-the-expressive-elements-prompts-are-not-enough/",
+          "https://houstonlawreview.org/article/147422-fair-use-and-the-origin-of-ai-training"
+        ],
+        "pagesRead": [
+          "https://www.copyright.gov/ai/",
+          "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+          "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.copyright.gov/ai/",
+          "content": "Copyright and Artificial Intelligence Since launching an initiative in early 2023, the Copyright Office has been examining the copyright law and policy issues raised by artificial intelligence (AI), including the scope of copyright in AI-generated works and the use of copyrighted materials in AI training. After hosting public listening sessions and webinars, the Office published a notice of inquiry in the Federal Register in August 2023, which received over 10,000 comments by December 2023. The Office is issuing a Report in several Parts analyzing the issues, which will be published as they are completed and linked below. Report on Copyright and Artificial Intelligence Copyright and Artificial Intelligence analyzes copyright law and policy issues raised by artificial intelligence (AI). This Report is being issued in several Parts. Part 1 was published on July 31, 2024, and addresses the topic of digital replicas. Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI. On May 9, 2025, the Office released a pre-publication version of Part 3 in response to congressional inquiries and expressions of interest from stakeholders. A final version of Part 3 will be published in the future, without any substantive changes expected in the analysis or conclusions. Part 1: Digital Replicas Part 2: Copyrightability Part 3: Generative AI Training (Pre-publication) Announcements January 29, 2025 - Copyright Office Releases Part 2 of Artificial Intelligence Report July 31, 2024 - Copyright Office Releases Part 1 of Artificial Intelligence Report, Recommends Federal Digital Replica Law November 15, 2023 - U.S. Copyright Office Extends Deadline for Reply Comments on Artificial Intelligence Notice of Inquiry August 30, 2023 - Copyright Office Issues Notice of Inquiry on Copyright and Artificial Intelligence March 16, 2023 - Copyright Office Launches New Artificial Intelligence Initiative Past Events July 26, 2023 – International Copyright Issues and Artificial Intelligence (recording available) June 28, 2023 – Registration Guidance for Works Containing AI-Generated Content (recording available) May 31, 2023 – Music and Sound Recordings Listening Session (recording available) May 17, 2023 – Audiovisual Works Listening Session (recording available) May 2, 2023 – Visual Arts Listening Session (recording available) April 19, 2023 – Literary Works, Including Software Listening Session (recording available) Fall 2021 – Copyright Law and Machine Learning for AI: Where Are We and Where Are We Going? Winter 2020 – Copyright in the Age of Artificial Intelligence Blog Posts Winter 2025 – Inside the Copyright Office's Report, Copyright and Artificial Intelligence, Part 2: Copyrightability Summer 2024 – Inside the Copyright Office's Report, \"Copyright and Artificial Intelligence, Part 1: Digital Replicas Winter 2024 – Looking Forward: The U.S. Copyright Office's AI Initiative in 2024 Summer 2023 – Our Summer of Artificial Intelligence: Copyright Office Hosts Two Webinars on Copyright and AI Summer 2023 – #ICYMI: The Copyright Office Hears from Stakeholders on Important Issues with AI and Copyright Fall 2021 – Artificial Intelligence: The Copyright Connection Subscribe to NewsNet via email Copyright Registration Guidance for Works Containing AI-Generated Materials Read Policy Statement Federal Register Version, 88 Fed. Reg. 16,190 (Mar. 16, 2023) Artificial Intelligence Study Artificial Intelligence Study Webpage Notice of Inquiry NOI Federal Register Version, 88 Fed. Reg. 59,942 (Aug. 30, 2023) Registration Decisions for AI-Generated Materials Review Board decision on SURYAST (December 11, 2023) Review Board Decision on Théâtre D'opéra Spatial (Sept. 5, 2023) Registration Decision on Zarya of the Dawn (Feb. 21, 2023) Review Board Decision on A Recent Entrance to Paradise (Feb. 14, 2022) Allen v. Perlmutter U.S. Reply Brief and Response in Support of Cross-Motion for Summary Judgment Thaler v. Perlmutter U.S. Reply Brief and Cross-Motion for Summary Judgment U.S. Reply Brief in Support of Summary Judgment District Court Decision Affirming Refusal of Registration U.S. Brief Before the D.C. Circuit Court of Appeals Court of Appeals Decision Affirming Refusal of Registration Court of Appeals Order Denying Panel Rehearing Court of Appeals Order Denying Panel Rehearing En Banc U.S. Brief in Opposition to the Petition for a Writ of Certiorari Statements to Congress USCO Letter to Congress Providing Updates on its Artificial Intelligence Initiative (December 16, 2024) USCO Letter to Congress Providing Updates on its Artificial Intelligence Initiative (October 30, 2024) USCO Letter to Congress Providing Updates on its Artificial Intelligence Initiative (February 23, 2024) Response to May 1, 2023 Letter Regarding Use of Artificial Intelligence-Generated Response of the USPTO and USCO to an October 27, 2022 Letter Requesting the Joint Establishment of a National Commission on Artificial Intelligence Related Resources Compendium of U.S. Copyright Office Practices, Third Edition USCO Comment to NTIA on AI Accountability USCO Guidance Letter to The MLC USPTO on Artificial Intelligence WIPO on Artificial Intelligence Impact of Artificial Intelligence on IP Policy",
+          "fetchedAt": "2026-09-17T13:39:39.295Z",
+          "title": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+          "status": "ok",
+          "contentLength": 5274,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Copyright and Artificial Intelligence Since launching an initiative in early 2023, the Copyright Office has been examining the copyright law and policy issues raised by artificial intelligence (AI), including the scope of copyright in AI-generated works and the use of copyrighted materials in AI training. After hosting public listening sessions and webinars, the Office published a notice of inquiry in the Federal Register in August 2023, which received over 10,000 comments by December 2023. The Office is issuing a Report in several Parts analyzing the issues, which will be published as they are completed and linked below. Report on Copyright and Artificial Intelligence Copyright and Artificial Intelligence analyzes copyright law and policy issues raised by artificial intelligence (AI). This Report is being issued in several Parts. Part 1 was published on July 31, 2024, and addresses the topic of digital replicas. Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI. On May 9, 2025, the Office released a pre-publication version of Part 3 in response to congressional inquiries and expressions of interest from stakeholders. A final version of Part 3 will be published in the future, without any substantive changes expected in the analysis or conclusions. Part 1: Digital Replicas Part 2: Copyrightability Part 3: Generative AI Training (Pre-publication) Announcements January 29, 2025 - Copyright Office Releases Part 2 of Artificial Intelligence Report July 31, 2024 - Copyright Office Releases Part 1 of Artificial Intelligence Report, Recommends Federal Digital Replica Law November 15, 2023 - U.S. Copyright Office Extends Deadline for Reply Comments on Artificial Intelligence Notice of Inquiry August 30, 2023 - Copyright Office Issues Notice of Inquiry on Copyright and Artificial Intelligence March 16, 2023 - Copyright Office Launches New Artificial Intelligence Initiative Past Events July 26, 2023 – International Copyright Issues and Artificial Intelligence (recording available) June 28, 2023 – Registration Guidance for Works Containing AI-Generated Content (recording available) May 31, 2023 – Music and Sound Recordings Listening Session (recording available) May 17, 2023 – Audiovisual Works Listening Session (recording available) May 2, 2023 – Visual Arts Listening Session (recording available) April 19, 2023 – Literary Works, Including Software Listening Session (recording available) Fall 2021 – Copyright Law and Machine Learning for AI: Where Are We and Where Are We Going? Winter 2020 – Copyright in the Age of Artificial Intelligence Blog Posts Winter 2025 – Inside the Copyright Office's Report, Copyright and Artificial Intelligence, Part 2: Copyrightability Summer 2024 – Inside the Copyright Office's Report, \"Copyright and Artificial Intelligence, Part 1: Digital Replicas Winter 2024 – Looking Forward: The U.S. Copyright Office's AI Initiative in 2024 Summer 2023 – Our Summer of Artificial Intelligence: Copyright Office Hosts Two Webinars on Copyright and AI Summer 2023 – #ICYMI: The Copyright Office Hears from Stakeholders on Important Issues with AI and Copyright Fall 2021 – Artificial Intelligence: The Copyright Connection Subscribe to NewsNet via email Copyright Registration Guidance for Works Containing AI-Generated Materials Read Policy Statement Federal Register Version, 88 Fed. Reg. 16,190 (Mar. 16, 2023) Artificial Intelligence Study Artificial Intelligence Study Webpage Notice of Inquiry NOI Federal Register Version, 88 Fed. Reg. 59,942 (Aug. 30, 2023) Registration Decisions for AI-Generated Materials Review Board decision on SURYAST (December 11, 2023) Review Board Decision on Théâtre D'opéra Spatial (Sept. 5, 2023) Registration Decision on Zarya of the Dawn (Feb. 21, 2023) Review Board Decision on A Recent Entrance to Paradise (Feb. 14, 2022) Allen v. Perlmutter U.S. Reply Brief and Response in Support of Cross-Motion for Summary Judgment Thaler v. Perlmutter U.S. Reply Brief and Cross-Motion for Summary Judgment U.S. Reply Brief in Support of Summary Judgment District Court Decision Affirming Refusal of Registration U.S. Brief Before the D.C. Circuit Court of Appeals Court of Appeals Decision Affirming Refusal of Registration Court of Appeals Order Denying Panel Rehearing Court of Appeals Order Denying Panel Rehearing En Banc U.S. Brief in Opposition to the Petition for a Writ of Certiorari Statements to Congress USCO Letter to Congress Providing Updates on its Artificial Intelligence Initiative (December 16, 2024) USCO Letter to Congress Providing Updates on its Artificial Intelligence Initiative (October 30, 2024) USCO Letter to Congress Providing Updates on its Artificial Intelligence Initiative (February 23, 2024) Response to May 1, 2023 Letter Regarding Use of Artificial Intelligence-Generated Response of the USPTO and USCO to an October 27, 2022 Letter Requesting the Joint Establishment of a National Commission on Artificial Intelligence Related Resources Compendium of U.S. Copyright Office Practices, Third Edition USCO Comment to NTIA on AI Accountability USCO Guidance Letter to The MLC USPTO on Artificial Intelligence WIPO on Artificial Intelligence Impact of Artificial Intelligence on IP Policy"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+          "content": "Español Things are speeding up in generative AI legal cases, with two judicial opinions just out on an issue that will shape the future of generative AI: whether training gen-AI models on copyrighted works is fair use. One gets it spot on; the other, not so much, but fortunately in a way that future courts can and should discount. The core question in both cases was whether using copyrighted works to train Large Language Models (LLMs) used in AI chatbots is a lawful fair use. Under the US Copyright Act, answering that question requires courts to consider: whether the use was transformative; the nature of the works (Are they more creative than factual? Long since published?) how much of the original was used; and the harm to the market for the original work. In both cases, the judges focused on factors (1) and (4). The right approach In Bartz v. Anthropic, three authors sued Anthropic for using their books to train its Claude chatbot. In his order deciding parts of the case, Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so” and any alleged harm to the market for the original is pure speculation. Just as copying books or images to create search engines is fair, the court held, copying books to create a new, “transformative” LLM and related technologies is also protected: [U]sing copyrighted works to train LLMs to generate new text was quintessentially transformative. Like any reader aspiring to be a writer, Anthropic’s LLMs trained upon works not to race ahead and replicate or supplant them—but to turn a hard corner and create something different. If this training process reasonably required making copies within the LLM or otherwise, those copies were engaged in a transformative use. Importantly, Bartz rejected the copyright holders’ attempts to claim that any model capable of generating new written material that might compete with existing works by emulating their “sweeping themes, “substantive points,” or “grammar, composition, and style” was an infringement machine. As the court rightly recognized, building gen-AI models that create new works is beyond “anything that any copyright owner rightly could expect to control.” There’s a lot more to like about the Bartz ruling, but just as we were digesting it Kadrey v. Meta Platforms came out. Sadly, this decision bungles the fair use analysis. A fumble on fair use Kadrey is another suit by authors against the developer of an AI model, in this case Meta’s ‘Llama’ chatbot. The authors in Kadrey asked the court to rule that fair use did not apply. Much of the Kadrey ruling by Judge Vince Chhabria is dicta—meaning, the opinion spends many paragraphs on what it thinks could justify ruling in favor of the author plaintiffs, if only they had managed to present different facts (rather than pure speculation). The court then rules in Meta’s favor because the plaintiffs only offered speculation. But it makes a number of errors along the way to the right outcome. At the top, the ruling broadly proclaims that training AI without buying a license to use each and every piece of copyrighted training material will be “illegal” in “most cases.” The court asserted that fair use usually won’t apply to AI training uses even though training is a “highly transformative” process, because of hypothetical “market dilution” scenarios where competition from AI-generated works could reduce the value of the books used to train the AI model.. That theory, in turn, depends on three mistaken premises. First, that the most important factor for determining fair use is whether the use might cause market harm. That’s not correct. Since its seminal 1994 opinion in Cambell v Acuff-Rose, the Supreme Court has been very clear that no single factor controls the fair use analysis. Second, that an AI developer would typically seek to train a model entirely on a certain type of work, and then use that model to generate new works in the exact same genre, which would then compete with the works on which it was trained, such that the market for the original works is harmed. As the Kadrey ruling notes, there was no evidence that Llama was intended to to, or does, anything like that, nor will most LLMs for the exact reasons discussed in Bartz. Third, as a matter of law, copyright doesn't prevent “market dilution” unless the new works are otherwise infringing. In fact, the whole purpose of copyright is to be an engine for new expression. If that new expression competes with existing works, that’s a feature, not a bug. Gen-AI is spurring the kind of tech panics we’ve seen before; then, as now, thoughtful fair use opinions helped ensure that copyright law served innovation and creativity. Gen-AI does raise a host of other serious concerns about fair labor practices and misinformation, but copyright wasn’t designed to address those problems. Trying to force copyright law to play those roles only hurts important and legal uses of this technology. In keeping with that tradition, courts deciding fair use in other AI copyright cases should look to Bartz, not Kadrey.",
+          "fetchedAt": "2026-09-17T13:39:39.296Z",
+          "title": "Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation",
+          "status": "ok",
+          "contentLength": 5199,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Español Things are speeding up in generative AI legal cases, with two judicial opinions just out on an issue that will shape the future of generative AI: whether training gen-AI models on copyrighted works is fair use. One gets it spot on; the other, not so much, but fortunately in a way that future courts can and should discount. The core question in both cases was whether using copyrighted works to train Large Language Models (LLMs) used in AI chatbots is a lawful fair use. Under the US Copyright Act, answering that question requires courts to consider: whether the use was transformative; the nature of the works (Are they more creative than factual? Long since published?) how much of the original was used; and the harm to the market for the original work. In both cases, the judges focused on factors (1) and (4). The right approach In Bartz v. Anthropic, three authors sued Anthropic for using their books to train its Claude chatbot. In his order deciding parts of the case, Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so” and any alleged harm to the market for the original is pure speculation. Just as copying books or images to create search engines is fair, the court held, copying books to create a new, “transformative” LLM and related technologies is also protected: [U]sing copyrighted works to train LLMs to generate new text was quintessentially transformative. Like any reader aspiring to be a writer, Anthropic’s LLMs trained upon works not to race ahead and replicate or supplant them—but to turn a hard corner and create something different. If this training process reasonably required making copies within the LLM or otherwise, those copies were engaged in a transformative use. Importantly, Bartz rejected the copyright holders’ attempts to claim that any model capable of generating new written material that might compete with existing works by emulating their “sweeping themes, “substantive points,” or “grammar, composition, and style” was an infringement machine. As the court rightly recognized, building gen-AI models that create new works is beyond “anything that any copyright owner rightly could expect to control.” There’s a lot more to like about the Bartz ruling, but just as we were digesting it Kadrey v. Meta Platforms came out. Sadly, this decision bungles the fair use analysis. A fumble on fair use Kadrey is another suit by authors against the developer of an AI model, in this case Meta’s ‘Llama’ chatbot. The authors in Kadrey asked the court to rule that fair use did not apply. Much of the Kadrey ruling by Judge Vince Chhabria is dicta—meaning, the opinion spends many paragraphs on what it thinks could justify ruling in favor of the author plaintiffs, if only they had managed to present different facts (rather than pure speculation). The court then rules in Meta’s favor because the plaintiffs only offered speculation. But it makes a number of errors along the way to the right outcome. At the top, the ruling broadly proclaims that training AI without buying a license to use each and every piece of copyrighted training material will be “illegal” in “most cases.” The court asserted that fair use usually won’t apply to AI training uses even though training is a “highly transformative” process, because of hypothetical “market dilution” scenarios where competition from AI-generated works could reduce the value of the books used to train the AI model.. That theory, in turn, depends on three mistaken premises. First, that the most important factor for determining fair use is whether the use might cause market harm. That’s not correct. Since its seminal 1994 opinion in Cambell v Acuff-Rose, the Supreme Court has been very clear that no single factor controls the fair use analysis. Second, that an AI developer would typically seek to train a model entirely on a certain type of work, and then use that model to generate new works in the exact same genre, which would then compete with the works on which it was trained, such that the market for the original works is harmed. As the Kadrey ruling notes, there was no evidence that Llama was intended to to, or does, anything like that, nor will most LLMs for the exact reasons discussed in Bartz. Third, as a matter of law, copyright doesn't prevent “market dilution” unless the new works are otherwise infringing. In fact, the whole purpose of copyright is to be an engine for new expression. If that new expression competes with existing works, that’s a feature, not a bug. Gen-AI is spurring the kind of tech panics we’ve seen before; then, as now, thoughtful fair use opinions helped ensure that copyright law served innovation and creativity. Gen-AI does raise a host of other serious concerns about fair labor practices and misinformation, but copyright wasn’t designed to address those problems. Trying to force copyright law to play those roles only hurts important and legal uses of this technology. In keeping with that tradition, courts deciding fair use in other AI copyright cases should look to Bartz, not Kadrey."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585",
+          "content": "<h1>JavaScript is disabled</h1> In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+          "fetchedAt": "2026-09-17T13:39:39.297Z",
+          "title": "",
+          "status": "ok",
+          "contentLength": 166,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "<h1>JavaScript is disabled</h1> In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.copyright.gov/ai/",
+          "tieuDe": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+          "tacGia": "U.S. Copyright Office",
+          "ngayLayVe": "2026-09-17T13:39:39.295Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nguồn chính thức từ Văn phòng Bản quyền Hoa Kỳ, cơ quan quản lý pháp luật bản quyền liên bang.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+          "tieuDe": "Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation",
+          "tacGia": "Tori Noble",
+          "toChuc": "Electronic Frontier Foundation",
+          "ngayDang": "2025-06-26T12:22:26-07:00",
+          "ngayLayVe": "2026-09-17T13:39:39.296Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "EFF là tổ chức phi lợi nhuận uy tín về quyền kỹ thuật số, tuy nhiên bài viết mang tính phân tích và lập luận pháp lý, có thể chứa quan điểm chủ quan.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585",
+          "tieuDe": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585",
+          "ngayLayVe": "2026-09-17T13:39:39.297Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Trang web bị chặn bởi cơ chế xác minh JavaScript, không thể truy cập nội dung thực tế.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không thể truy cập nội dung do lỗi kỹ thuật (JavaScript disabled).",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "In order to continue, we need to verify that you're not a robot. This requires JavaScript.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "sourcesRejected": [
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Văn phòng Bản quyền Hoa Kỳ đã công bố Phần 2 của báo cáo về Bản quyền và Trí tuệ nhân tạo vào ngày 29 tháng 1 năm 2025, tập trung vào khả năng được bảo hộ bản quyền của các đầu ra do AI tạo sinh.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+              "viTri": "Đoạn văn thứ 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Trong vụ án Bartz v. Anthropic, Thẩm phán William Alsup phán quyết rằng việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn (LLM) là một hành vi sử dụng hợp lý (fair use) mang tính chuyển đổi cao.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+              "viTri": "Đoạn văn thứ 3"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Thông tin này chỉ được xác nhận bởi một nguồn (EFF), mặc dù EFF là tổ chức uy tín, nhưng đây là quan điểm pháp lý của họ về phán quyết tòa án, cần đối chiếu với văn bản phán quyết gốc để xác minh tuyệt đối."
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.copyright.gov/ai/\",\n      \"tieuDe\": \"Copyright and Artificial Intelligence | U.S. Copyright Office\",\n      \"tacGia\": \"U.S. Copyright Office\",\n      \"toChuc\": \"U.S. Copyright Office\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:39:39.295Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn chính thức từ Văn phòng Bản quyền Hoa Kỳ, cơ quan quản lý pháp luật bản quyền liên bang.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right\",\n      \"tieuDe\": \"Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation\",\n      \"tacGia\": \"Tori Noble\",\n      \"toChuc\": \"Electronic Frontier Foundation\",\n      \"ngayDang\": \"2025-06-26\",\n      \"ngayLayVe\": \"2026-09-17T13:39:39.296Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"EFF là tổ chức phi lợi nhuận uy tín về quyền kỹ thuật số, tuy nhiên bài viết mang tính phân tích và lập luận pháp lý, có thể chứa quan điểm chủ quan.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585\",\n      \"tieuDe\": \"\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:39:39.297Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web bị chặn bởi cơ chế xác minh JavaScript, không thể truy cập nội dung thực tế.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không thể truy cập nội dung do lỗi kỹ thuật (JavaScript disabled).\",\n      \"canhBao\": [],\n      \"doanTrich\": \"In order to continue, we need to verify that you're not a robot. This requires JavaScript.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Văn phòng Bản quyền Hoa Kỳ đã công bố Phần 2 của báo cáo về Bản quyền và Trí tuệ nhân tạo vào ngày 29 tháng 1 năm 2025, tập trung vào khả năng được bảo hộ bản quyền của các đầu ra do AI tạo sinh.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.\",\n          \"viTri\": \"Đoạn văn thứ 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Trong vụ án Bartz v. Anthropic, Thẩm phán William Alsup phán quyết rằng việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn (LLM) là một hành vi sử dụng hợp lý (fair use) mang tính chuyển đổi cao.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”\",\n          \"viTri\": \"Đoạn văn thứ 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Thông tin này chỉ được xác nhận bởi một nguồn (EFF), mặc dù EFF là tổ chức uy tín, nhưng đây là quan điểm pháp lý của họ về phán quyết tòa án, cần đối chiếu với văn bản phán quyết gốc để xác minh tuyệt đối.\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-f7e8afc5-3a04-4be0-8bcb-058be0910bb4",
+          "durationMs": 3060,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.copyright.gov/ai/\",\n      \"tieuDe\": \"Copyright and Artificial Intelligence | U.S. Copyright Office\",\n      \"tacGia\": \"U.S. Copyright Office\",\n      \"toChuc\": \"U.S. Copyright Office\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:39:39.295Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn chính thức từ Văn phòng Bản quyền Hoa Kỳ, cơ quan quản lý pháp luật bản quyền liên bang.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right\",\n      \"tieuDe\": \"Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation\",\n      \"tacGia\": \"Tori Noble\",\n      \"toChuc\": \"Electronic Frontier Foundation\",\n      \"ngayDang\": \"2025-06-26\",\n      \"ngayLayVe\": \"2026-09-17T13:39:39.296Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"EFF là tổ chức phi lợi nhuận uy tín về quyền kỹ thuật số, tuy nhiên bài viết mang tính phân tích và lập luận pháp lý, có thể chứa quan điểm chủ quan.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585\",\n      \"tieuDe\": \"\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:39:39.297Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web bị chặn bởi cơ chế xác minh JavaScript, không thể truy cập nội dung thực tế.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không thể truy cập nội dung do lỗi kỹ thuật (JavaScript disabled).\",\n      \"canhBao\": [],\n      \"doanTrich\": \"In order to continue, we need to verify that you're not a robot. This requires JavaScript.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Văn phòng Bản quyền Hoa Kỳ đã công bố Phần 2 của báo cáo về Bản quyền và Trí tuệ nhân tạo vào ngày 29 tháng 1 năm 2025, tập trung vào khả năng được bảo hộ bản quyền của các đầu ra do AI tạo sinh.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.\",\n          \"viTri\": \"Đoạn văn thứ 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Trong vụ án Bartz v. Anthropic, Thẩm phán William Alsup phán quyết rằng việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn (LLM) là một hành vi sử dụng hợp lý (fair use) mang tính chuyển đổi cao.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”\",\n          \"viTri\": \"Đoạn văn thứ 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Thông tin này chỉ được xác nhận bởi một nguồn (EFF), mặc dù EFF là tổ chức uy tín, nhưng đây là quan điểm pháp lý của họ về phán quyết tòa án, cần đối chiếu với văn bản phán quyết gốc để xác minh tuyệt đối.\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 7208
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+      "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Sinh viên làm đồ án",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.",
+          "chuTrenManHinh": "Chào bạn sinh viên đồ án",
+          "yDoHinh": "Hình ảnh một bạn sinh viên đang bận rộn thiết kế đồ án bên máy tính",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.",
+          "chuTrenManHinh": "Bản quyền trí tuệ nhân tạo",
+          "yDoHinh": "Biểu tượng cán cân công lý bên cạnh biểu tượng mạng lưới não bộ nhân tạo",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.",
+          "chuTrenManHinh": "Vụ án Bartz và Anthropic",
+          "yDoHinh": "Hình ảnh phác họa phiên tòa giả lập với một mô hình rô-bốt đang đọc sách",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.",
+          "chuTrenManHinh": "Tránh rủi ro pháp lý đồ án",
+          "yDoHinh": "Đồ họa hiển thị một quyển đồ án tốt nghiệp được đóng dấu xanh an toàn",
+          "nguon": [
+            "t01",
+            "t02"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?",
+          "chuTrenManHinh": "Khi nào nên ghi nguồn?",
+          "yDoHinh": "Hình ảnh dấu hỏi chấm lớn màu vàng xuất hiện giữa màn hình kế bên tệp tài liệu",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789652413441",
+      "timestamp": "2026-09-17T13:40:13.441Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Bản quyền và nội dung do AI tạo ra",
+        "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+        "targetAudience": "Sinh viên làm đồ án",
+        "videoDuration": "4 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N05"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.copyright.gov/ai/",
+          "tieuDe": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+          "tacGia": "U.S. Copyright Office",
+          "ngayLayVe": "2026-09-17T13:39:39.295Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nguồn chính thức từ Văn phòng Bản quyền Hoa Kỳ, cơ quan quản lý pháp luật bản quyền liên bang.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+          "tieuDe": "Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation",
+          "tacGia": "Tori Noble",
+          "toChuc": "Electronic Frontier Foundation",
+          "ngayDang": "2025-06-26T12:22:26-07:00",
+          "ngayLayVe": "2026-09-17T13:39:39.296Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "EFF là tổ chức phi lợi nhuận uy tín về quyền kỹ thuật số, tuy nhiên bài viết mang tính phân tích và lập luận pháp lý, có thể chứa quan điểm chủ quan.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Văn phòng Bản quyền Hoa Kỳ đã công bố Phần 2 của báo cáo về Bản quyền và Trí tuệ nhân tạo vào ngày 29 tháng 1 năm 2025, tập trung vào khả năng được bảo hộ bản quyền của các đầu ra do AI tạo sinh.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+              "viTri": "Đoạn văn thứ 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Trong vụ án Bartz v. Anthropic, Thẩm phán William Alsup phán quyết rằng việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn (LLM) là một hành vi sử dụng hợp lý (fair use) mang tính chuyển đổi cao.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+              "viTri": "Đoạn văn thứ 3"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Thông tin này chỉ được xác nhận bởi một nguồn (EFF), mặc dù EFF là tổ chức uy tín, nhưng đây là quan điểm pháp lý của họ về phán quyết tòa án, cần đối chiếu với văn bản phán quyết gốc để xác minh tuyệt đối."
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+        "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Sinh viên làm đồ án",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.",
+            "chuTrenManHinh": "Chào bạn sinh viên đồ án",
+            "yDoHinh": "Hình ảnh một bạn sinh viên đang bận rộn thiết kế đồ án bên máy tính",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.",
+            "chuTrenManHinh": "Bản quyền trí tuệ nhân tạo",
+            "yDoHinh": "Biểu tượng cán cân công lý bên cạnh biểu tượng mạng lưới não bộ nhân tạo",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.",
+            "chuTrenManHinh": "Vụ án Bartz và Anthropic",
+            "yDoHinh": "Hình ảnh phác họa phiên tòa giả lập với một mô hình rô-bốt đang đọc sách",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.",
+            "chuTrenManHinh": "Tránh rủi ro pháp lý đồ án",
+            "yDoHinh": "Đồ họa hiển thị một quyển đồ án tốt nghiệp được đóng dấu xanh an toàn",
+            "nguon": [
+              "t01",
+              "t02"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?",
+            "chuTrenManHinh": "Khi nào nên ghi nguồn?",
+            "yDoHinh": "Hình ảnh dấu hỏi chấm lớn màu vàng xuất hiện giữa màn hình kế bên tệp tài liệu",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”"
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.",
+          "nguon": [
+            "t01",
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+            "[n02] Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”"
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Bản quyền và nội dung do AI tạo ra\",\n  \"mucTieu\": \"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên làm đồ án\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.\",\n      \"chuTrenManHinh\": \"Chào bạn sinh viên đồ án\",\n      \"yDoHinh\": \"Hình ảnh một bạn sinh viên đang bận rộn thiết kế đồ án bên máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.\",\n      \"chuTrenManHinh\": \"Bản quyền trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Biểu tượng cán cân công lý bên cạnh biểu tượng mạng lưới não bộ nhân tạo\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.\",\n      \"chuTrenManHinh\": \"Vụ án Bartz và Anthropic\",\n      \"yDoHinh\": \"Hình ảnh phác họa phiên tòa giả lập với một mô hình rô-bốt đang đọc sách\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.\",\n      \"chuTrenManHinh\": \"Tránh rủi ro pháp lý đồ án\",\n      \"yDoHinh\": \"Đồ họa hiển thị một quyển đồ án tốt nghiệp được đóng dấu xanh an toàn\",\n      \"nguon\": [\n        \"t01\",\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?\",\n      \"chuTrenManHinh\": \"Khi nào nên ghi nguồn?\",\n      \"yDoHinh\": \"Hình ảnh dấu hỏi chấm lớn màu vàng xuất hiện giữa màn hình kế bên tệp tài liệu\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-c753a27b-8e01-4fc7-b1a2-521e2f464676",
+          "durationMs": 5872,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Bản quyền và nội dung do AI tạo ra\",\"mucTieu\":\"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Sinh viên làm đồ án\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá vấn đề bản quyền trong nội dung do trí tuệ nhân tạo tạo ra\",\"chuTrenManHinh\":\"Tiêu đề video\",\"yDoHinh\":\"Màn hình hiển thị tiêu đề và biểu tượng AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Văn phòng Bản quyền Hoa Kỳ đã công bố Phần hai của báo cáo vào ngày ba mươi hai tháng một năm hai nghìn hai mươi năm, đề cập đến khả năng bảo hộ bản quyền cho các đầu ra do AI tạo sinh\",\"chuTrenManHinh\":\"Báo cáo Phần hai\",\"yDoHinh\":\"Ảnh bìa báo cáo của Văn phòng Bản quyền Hoa Kỳ\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Theo quyết định của Thẩm phán William Alsup, việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn được xem là sử dụng hợp lý và mang tính chuyển đổi cao\",\"chuTrenManHinh\":\"Quyết định tòa án\",\"yDoHinh\":\"Biểu đồ minh họa quá trình huấn luyện AI với dữ liệu có bản quyền\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy khi nào chúng ta cần ghi nguồn cho nội dung do AI tạo ra và khi nào có thể sử dụng mà không cần ghi nguồn\",\"chuTrenManHinh\":\"Câu hỏi chính\",\"yDoHinh\":\"Biểu tượng dấu hỏi và hình ảnh AI\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Như cả báo cáo của Văn phòng Bản quyền Hoa Kỳ và phán quyết của Thẩm phán Alsup đã chỉ ra, việc cân nhắc quyền ghi nguồn và tính chuyển đổi là yếu tố then chốt để tuân thủ luật bản quyền\",\"chuTrenManHinh\":\"Kết luận\",\"yDoHinh\":\"Hình ảnh cân bằng giữa AI và bản quyền\",\"nguon\":[\"t01\",\"t02\"]}]}",
+          "validationError": "Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+        },
+        {
+          "stage": "repair",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash",
+          "durationMs": 18706,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Bản quyền và nội dung do AI tạo ra\",\n  \"mucTieu\": \"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên làm đồ án\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.\",\n      \"chuTrenManHinh\": \"Chào bạn sinh viên đồ án\",\n      \"yDoHinh\": \"Hình ảnh một bạn sinh viên đang bận rộn thiết kế đồ án bên máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.\",\n      \"chuTrenManHinh\": \"Bản quyền trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Biểu tượng cán cân công lý bên cạnh biểu tượng mạng lưới não bộ nhân tạo\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.\",\n      \"chuTrenManHinh\": \"Vụ án Bartz và Anthropic\",\n      \"yDoHinh\": \"Hình ảnh phác họa phiên tòa giả lập với một mô hình rô-bốt đang đọc sách\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.\",\n      \"chuTrenManHinh\": \"Tránh rủi ro pháp lý đồ án\",\n      \"yDoHinh\": \"Đồ họa hiển thị một quyển đồ án tốt nghiệp được đóng dấu xanh an toàn\",\n      \"nguon\": [\n        \"t01\",\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?\",\n      \"chuTrenManHinh\": \"Khi nào nên ghi nguồn?\",\n      \"yDoHinh\": \"Hình ảnh dấu hỏi chấm lớn màu vàng xuất hiện giữa màn hình kế bên tệp tài liệu\",\n      \"nguon\": []\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 30112
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash"
+  }
+}

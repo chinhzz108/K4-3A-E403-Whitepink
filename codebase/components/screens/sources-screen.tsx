@@ -26,6 +26,8 @@ interface SourcesScreenProps {
   onApprove: (id: string) => void;
   onRemove: (id: string) => void;
   onGenerate: () => void;
+  canGenerate: boolean;
+  generationBlockedReason?: string;
   conflicts?: string[];
 }
 
@@ -34,6 +36,8 @@ export function SourcesScreen({
   onApprove,
   onRemove,
   onGenerate,
+  canGenerate,
+  generationBlockedReason,
   conflicts = [],
 }: SourcesScreenProps) {
   const [drawerSource, setDrawerSource] = useState<Source | null>(null);
@@ -141,16 +145,18 @@ export function SourcesScreen({
                 {approvedCount} {approvedCount === 1 ? 'nguồn' : 'nguồn'} đã duyệt
               </p>
               <p className="text-xs text-muted-foreground">
-                {approvedCount > 0
+                {canGenerate
                   ? 'Sẵn sàng tạo kịch bản'
-                  : 'Cần duyệt ít nhất một nguồn để tiếp tục'}
+                  : generationBlockedReason || (approvedCount > 0
+                    ? 'Cần thông tin có bằng chứng hợp lệ để tiếp tục'
+                    : 'Cần duyệt ít nhất một nguồn để tiếp tục')}
               </p>
             </div>
           </div>
           <Button
             size="lg"
             className="gap-2"
-            disabled={approvedCount === 0}
+            disabled={!canGenerate}
             onClick={onGenerate}
           >
             Tạo kịch bản

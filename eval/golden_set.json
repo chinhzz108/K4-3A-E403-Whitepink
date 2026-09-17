@@ -1,6 +1,13 @@
 {
-  "schema": "scriptscout-eval/1",
-  "description": "CP3 draft: 27 case; 8 thường, các lớp khó và 6 hiếm. Không case nào được gán nguồn chatlog.",
+  "schema": "scriptscout-eval/2",
+  "description": "CP3/CP4: 27 case; 8 thường, các lớp khó và 6 hiếm. Không case nào được gán nguồn chatlog.",
+  "criteriaVersion": "scriptscout-eval/7-review-advisory",
+  "statusPolicy": {
+    "pass": "Đạt toàn bộ kiểm tra tự động áp dụng cho case, gồm bằng chứng đọc được, trích dẫn khớp snapshot, schema và ràng buộc kịch bản.",
+    "notMet": "Không đạt ít nhất một kiểm tra tự động áp dụng cho case.",
+    "semanticReview": "Khuyến nghị người trong nhóm đối chiếu ngữ nghĩa claim-quote; bước này không chặn trạng thái pass.",
+    "semanticReviewBlocksPass": false
+  },
   "createdAt": "2026-09-17",
   "cases": [
     {

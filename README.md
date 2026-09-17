@@ -13,18 +13,18 @@ eval/
   traces/          Input/output AI và liên kết câu → bằng chứng
 validation/        Chỗ bổ sung kiểm chứng người dùng thật
 reflection/        Chỗ bổ sung tự đánh giá của nhóm
-spec.md            Đặc tả bản nháp; nhóm giữ quyền chốt quality bar
+spec.md            Đặc tả và quality bar kỹ thuật đã chốt
 DEMO-GUIDE.md      Hướng dẫn quay video thật (chưa có video)
 package.json       Lệnh chạy chung từ gốc repo
 ```
 
-Chạy tại gốc: `npm ci`, cấu hình `codebase/.env.local` theo file mẫu nếu chưa có, rồi `npm run dev`. Mở http://localhost:3000 hoặc http://localhost:3000/demo. Kiểm tra: `npm run typecheck`, `npm run lint`, `npm run build`; khi server đang chạy: `npm run test:invariants`. Chạy bộ AI thật bằng `npm run eval:cp3` sẽ sử dụng dịch vụ đã cấu hình.
+Chạy tại gốc: `npm ci`, cấu hình `codebase/.env.local` theo file mẫu nếu chưa có, rồi `npm run dev`. Mở http://localhost:3000 hoặc http://localhost:3000/demo. Kiểm tra: `npm run typecheck`, `npm run lint`, `npm run build`, `npm run test:contracts`, `npm run test:invariants`. Chạy bộ AI thật bằng `npm run eval:cp3` sẽ sử dụng dịch vụ đã cấu hình.
 
-Kết quả lượt đầu: [4/27 = 14,81%](eval/run_results.md). Không chạy lại AI khi chỉ sắp xếp thư mục. Các tài liệu BTC gốc bên dưới được giữ lại; lệnh commit/push/nộp bài trong tài liệu là việc nhóm chủ động thực hiện.
+Kết quả hiện hành theo `scriptscout-eval/7-review-advisory`: [22/27 = 81,48%](eval/cp3/ACCEPTANCE-2026-09-17.md), gồm 8 pass và 14 needs-review của phiên bản 6 được tái phân loại thành pass; còn 5 not-met. Chưa gọi lại API sau khi đổi tiêu chí và các artifact lượt cũ được giữ nguyên. Các tài liệu BTC gốc bên dưới được giữ lại; lệnh commit/push/nộp bài trong tài liệu là việc nhóm chủ động thực hiện.
 
 ## Bàn giao CP3 — 2026-09-17
 
-Bản nháp mới nhất: [spec.md](spec.md), [kết quả eval](eval/run_results.md), [hướng dẫn quay thật](DEMO-GUIDE.md), [bằng chứng AI](eval/cp3/DEMO-EVIDENCE.md). Chạy npm run dev; mở / hoặc /demo. Không ghi đè codebase/.env.local đang có.
+Bản mới nhất: [spec.md](spec.md), [biên bản nghiệm thu](eval/cp3/ACCEPTANCE-2026-09-17.md), [hướng dẫn quay thật](DEMO-GUIDE.md), [bằng chứng AI](eval/cp3/DEMO-EVIDENCE.md). Chạy npm run dev; mở / hoặc /demo. Không ghi đè codebase/.env.local đang có.
 
 # Mini Hackathon AI — Batch 04 · Lớp 3A
 
@@ -36,10 +36,10 @@ Bản nháp mới nhất: [spec.md](spec.md), [kết quả eval](eval/run_result
 
 | Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 |---|---|---|---|
-| Trần Trọng Chinh | 2A202602720 | Member | |
-| Đinh Thị Minh Tâm | 2A202602433 | Member | |
-| Chu Minh Quân | 2A202602709 | Leader | |
-| Nguyễn Văn Ước | 2A202602445 | Member | |
+| Chu Minh Quân | 2A202602709 | Leader | Quản lý repo, tích hợp và nộp checkpoint |
+| Trần Trọng Chinh | 2A202602720 | Backend/AI | Research API, model integration, debugging |
+| Đinh Thị Minh Tâm | 2A202602433 | Discovery/Eval | Survey, evidence, golden set, spec |
+| Nguyễn Văn Ước | 2A202602445 | Frontend/Demo | UX flow, prototype, validation/demo |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.
 

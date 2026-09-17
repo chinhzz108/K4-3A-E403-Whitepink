@@ -1,0 +1,238 @@
+{
+  "id": "trace-script-1789650760530",
+  "timestamp": "2026-09-17T13:12:40.530Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách một mô hình học từ ví dụ",
+    "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "targetAudience": "Học sinh cấp ba",
+    "videoDuration": "3 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N03"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://link.springer.com/article/10.1186/s12909-015-0308-3",
+      "tieuDe": "Example-based learning: comparing the effects of additionally providing three different integrative learning activities on physiotherapy intervention knowledge | BMC Medical Education | Springer Nature Link",
+      "toChuc": "SpringerLink",
+      "ngayDang": "2015-03-07",
+      "ngayLayVe": "2026-09-17T13:12:15.055Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học được công bố trên tạp chí thuộc hệ thống Springer Nature uy tín, có quy trình bình duyệt nghiêm ngặt.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Tài liệu đã xuất bản hơn một năm tính đến thời điểm hiện tại (2015).",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Example-based learning integrates the theoretical principles of three research areas in education: analogical reasoning, observational learning, and learning from worked examples [9].",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24070563/",
+      "tieuDe": "Toward an instructionally oriented theory of example-based learning",
+      "toChuc": "PubMed",
+      "ngayLayVe": "2026-09-17T13:12:16.346Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Nguồn lưu trữ bài báo học thuật uy tín trong cơ sở dữ liệu y sinh học PubMed của Thư viện Y khoa Quốc gia Hoa Kỳ.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không rõ ngày đăng cụ thể trên hệ thống.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Learning from examples is a very effective means of initial cognitive skill acquisition.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+      "tieuDe": "Data-driven learning - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:12:16.348Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bách khoa toàn thư mở Wikipedia cung cấp thông tin tổng quan hữu ích về khái niệm và lịch sử phát triển phương pháp học từ dữ liệu.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không rõ tác giả và ngày đăng cụ thể. Nguồn mở Wikipedia có thể bị chỉnh sửa bởi cộng đồng.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "traditional language teachers and textbooks have a prescriptive view of language treating it as a system of rules to be memorised, engaging only lower order thinking skills.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Học từ ví dụ (Example-based learning) là một phương pháp cực kỳ hiệu quả để người học tiếp thu các kỹ năng nhận thức ban đầu, tích hợp các nguyên lý từ lập luận tương tự, học qua quan sát và học từ các ví dụ đã giải quyết.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Example-based learning integrates the theoretical principles of three research areas in education: analogical reasoning, observational learning, and learning from worked examples [9].",
+          "viTri": "Đoạn 1, dòng 1-3"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Learning from examples is a very effective means of initial cognitive skill acquisition.",
+          "viTri": "Đoạn Abstract, dòng 1-2"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Có sự khác biệt rõ rệt giữa phương pháp giảng dạy truyền thống dựa trên quy tắc định sẵn (prescriptive view) bắt buộc học viên ghi nhớ máy móc với phương pháp học dựa trên dữ liệu (descriptive/data-driven learning) cho phép học viên quan sát các mẫu hình thực tế tự nhiên để tự rút ra quy luật.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "traditional language teachers and textbooks have a prescriptive view of language treating it as a system of rules to be memorised, engaging only lower order thinking skills.",
+          "viTri": "Đoạn 4, dòng 4-6"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách một mô hình học từ ví dụ",
+    "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Học sinh cấp ba",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các em, hôm nay chúng ta sẽ khám phá cách học từ ví dụ.",
+        "chuTrenManHinh": "Khám phá học từ ví dụ",
+        "yDoHinh": "Giáo viên mỉm cười, nền lớp học sáng sủa",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Học từ ví dụ là phương pháp giúp các em nắm bắt kỹ năng ban đầu thông qua việc so sánh và quan sát các mẫu thực tế.",
+        "chuTrenManHinh": "Ví dụ và quy tắc học",
+        "yDoHinh": "Màn hình hiển thị biểu đồ so sánh ví dụ và quy tắc",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Ngược lại, học theo quy tắc viết sẵn chỉ yêu cầu ghi nhớ các quy tắc mà không khuyến khích suy nghĩ sâu.",
+        "chuTrenManHinh": "Học theo quy tắc viết sẵn",
+        "yDoHinh": "Bảng trắng có danh sách các quy tắc ghi nhớ",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Vậy các em có nhận ra sự khác biệt nào giữa hai cách học này?",
+        "chuTrenManHinh": "Bạn thấy gì khác nhau?",
+        "yDoHinh": "Biểu tượng câu hỏi xuất hiện trên màn hình",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, khi học dựa trên dữ liệu, các em sẽ tự rút ra quy luật từ các ví dụ thực tế, thay vì chỉ nhớ máy móc.",
+        "chuTrenManHinh": "Học dựa trên dữ liệu",
+        "yDoHinh": "Hình ảnh học sinh tự khám phá mẫu dữ liệu trên máy tính",
+        "nguon": [
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các em, hôm nay chúng ta sẽ khám phá cách học từ ví dụ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Học từ ví dụ là phương pháp giúp các em nắm bắt kỹ năng ban đầu thông qua việc so sánh và quan sát các mẫu thực tế.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Example-based learning integrates the theoretical principles of three research areas in education: analogical reasoning, observational learning, and learning from worked examples [9].; [n03] Learning from examples is a very effective means of initial cognitive skill acquisition."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Ngược lại, học theo quy tắc viết sẵn chỉ yêu cầu ghi nhớ các quy tắc mà không khuyến khích suy nghĩ sâu.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] traditional language teachers and textbooks have a prescriptive view of language treating it as a system of rules to be memorised, engaging only lower order thinking skills."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Vậy các em có nhận ra sự khác biệt nào giữa hai cách học này?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, khi học dựa trên dữ liệu, các em sẽ tự rút ra quy luật từ các ví dụ thực tế, thay vì chỉ nhớ máy móc.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] traditional language teachers and textbooks have a prescriptive view of language treating it as a system of rules to be memorised, engaging only lower order thinking skills."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cách một mô hình học từ ví dụ\",\n  \"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\n  \"thoiLuong\":\"3 phút\",\n  \"nguoiHoc\":\"Học sinh cấp ba\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các em, hôm nay chúng ta sẽ khám phá cách học từ ví dụ.\",\"chuTrenManHinh\":\"Khám phá học từ ví dụ\",\"yDoHinh\":\"Giáo viên mỉm cười, nền lớp học sáng sủa\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Học từ ví dụ là phương pháp giúp các em nắm bắt kỹ năng ban đầu thông qua việc so sánh và quan sát các mẫu thực tế.\",\"chuTrenManHinh\":\"Ví dụ và quy tắc học\",\"yDoHinh\":\"Màn hình hiển thị biểu đồ so sánh ví dụ và quy tắc\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ngược lại, học theo quy tắc viết sẵn chỉ yêu cầu ghi nhớ các quy tắc mà không khuyến khích suy nghĩ sâu.\",\"chuTrenManHinh\":\"Học theo quy tắc viết sẵn\",\"yDoHinh\":\"Bảng trắng có danh sách các quy tắc ghi nhớ\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy các em có nhận ra sự khác biệt nào giữa hai cách học này?\",\"chuTrenManHinh\":\"Bạn thấy gì khác nhau?\",\"yDoHinh\":\"Biểu tượng câu hỏi xuất hiện trên màn hình\",\"nguon\":[]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Vì vậy, khi học dựa trên dữ liệu, các em sẽ tự rút ra quy luật từ các ví dụ thực tế, thay vì chỉ nhớ máy móc.\",\"chuTrenManHinh\":\"Học dựa trên dữ liệu\",\"yDoHinh\":\"Hình ảnh học sinh tự khám phá mẫu dữ liệu trên máy tính\",\"nguon\":[\"t02\"]}\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-c1b5b2d9-1fb3-4f95-856f-e21ad9d1494e",
+      "durationMs": 4333,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cách một mô hình học từ ví dụ\",\n  \"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\n  \"thoiLuong\":\"3 phút\",\n  \"nguoiHoc\":\"Học sinh cấp ba\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các em, hôm nay chúng ta sẽ khám phá cách học từ ví dụ.\",\"chuTrenManHinh\":\"Khám phá học từ ví dụ\",\"yDoHinh\":\"Giáo viên mỉm cười, nền lớp học sáng sủa\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Học từ ví dụ là phương pháp giúp các em nắm bắt kỹ năng ban đầu thông qua việc so sánh và quan sát các mẫu thực tế.\",\"chuTrenManHinh\":\"Ví dụ và quy tắc học\",\"yDoHinh\":\"Màn hình hiển thị biểu đồ so sánh ví dụ và quy tắc\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ngược lại, học theo quy tắc viết sẵn chỉ yêu cầu ghi nhớ các quy tắc mà không khuyến khích suy nghĩ sâu.\",\"chuTrenManHinh\":\"Học theo quy tắc viết sẵn\",\"yDoHinh\":\"Bảng trắng có danh sách các quy tắc ghi nhớ\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy các em có nhận ra sự khác biệt nào giữa hai cách học này?\",\"chuTrenManHinh\":\"Bạn thấy gì khác nhau?\",\"yDoHinh\":\"Biểu tượng câu hỏi xuất hiện trên màn hình\",\"nguon\":[]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Vì vậy, khi học dựa trên dữ liệu, các em sẽ tự rút ra quy luật từ các ví dụ thực tế, thay vì chỉ nhớ máy móc.\",\"chuTrenManHinh\":\"Học dựa trên dữ liệu\",\"yDoHinh\":\"Hình ảnh học sinh tự khám phá mẫu dữ liệu trên máy tính\",\"nguon\":[\"t02\"]}\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 4336
+}

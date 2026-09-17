@@ -1,0 +1,1098 @@
+{
+  "case": {
+    "id": "N16",
+    "class": "nguon-cu",
+    "input": {
+      "topic": "So sánh GPT-4 và Claude 3",
+      "learningObjective": "Biết ưu nhược điểm của từng mô hình",
+      "targetAudience": "Sinh viên CNTT",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Benchmark thay đổi nhanh. Cần nguồn 2026. Nguồn 2024 phải ghi cảnh báo.",
+    "origin": "tự tạo — đặc thù C3: nguồn thay đổi nhanh; không phải chatlog",
+    "passCriteria": "Ưu tiên nguồn mới nhất; cảnh báo nguồn cũ",
+    "failCriteria": "Dùng benchmark 2024 mà ghi là hiện tại"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+        "tieuDe": "GPT-4 vs Claude 3 for AI Development: Which to Build On? | SFAI Labs",
+        "ngayDang": "2026-01-31T00:00:00.000Z",
+        "ngayLayVe": "2026-09-17T13:43:42.390Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Bài viết kỹ thuật chi tiết có bảng so sánh giá và tính năng rõ ràng, nhưng tác giả và tổ chức không minh bạch.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn quá một năm (xuất bản năm 2026)"
+        ],
+        "doanTrich": "GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://community.openai.com/t/gpt4-comparison-to-anthropic-opus-on-benchmarks/726147",
+        "tieuDe": "Gpt4 comparison to anthropic Opus on benchmarks - Community - OpenAI Developer Community",
+        "toChuc": "OpenAI Developer Community",
+        "ngayDang": "2024-04-24T03:49:55+00:00",
+        "ngayLayVe": "2026-09-17T13:43:42.391Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Là diễn đàn cộng đồng, thảo luận mang tính chủ quan từ người dùng, thiếu sự kiểm duyệt biên tập chính thức.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Nguồn diễn đàn cộng đồng độ tin cậy thấp, mang tính cá nhân.",
+        "canhBao": [
+          "Nguồn quá một năm",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "In a comparative assessment of Claude 3 Opus and GPT-4’s capabilities, Claude 3 Opus generally demonstrates superior performance across a spectrum of tasks that test for knowledge and reasoning abilities.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/",
+        "tieuDe": "Claude 3 vs GPT-4: Best Enterprise LLM in 2026?",
+        "toChuc": "Dextra Labs",
+        "ngayDang": "2026-02-19T04:01:08+05:30",
+        "ngayLayVe": "2026-09-17T13:43:42.392Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Bài phân tích chuyên sâu về doanh nghiệp từ một tổ chức công nghệ, có trích dẫn nghiên cứu nhưng thiếu tên tác giả cụ thể.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn quá một năm (xuất bản năm 2026)"
+        ],
+        "doanTrich": "Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1crbeu5/gpt4o_vs_claude_3_opus_which_model_do_you_think/",
+        "tieuDe": "https://www.reddit.com/r/ClaudeAI/comments/1crbeu5/gpt4o_vs_claude_3_opus_which_model_do_you_think/",
+        "ngayLayVe": "2026-09-17T13:43:41.811Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n05",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1dqj1lg/claude_35_sonnet_vs_gpt4_a_programmers/?tl=vi",
+        "tieuDe": "https://www.reddit.com/r/ClaudeAI/comments/1dqj1lg/claude_35_sonnet_vs_gpt4_a_programmers/?tl=vi",
+        "ngayLayVe": "2026-09-17T13:43:41.812Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://lobehub.com/blog/claude-3-vs-gpt-4",
+        "tieuDe": "https://lobehub.com/blog/claude-3-vs-gpt-4",
+        "ngayLayVe": "2026-09-17T13:43:41.813Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "GPT-4 phù hợp cho nhà phát triển cần hệ sinh thái trưởng thành và nhiều công cụ, trong khi Claude 3 nổi trội ở cửa sổ ngữ cảnh dài và chi phí tối ưu.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.",
+            "viTri": "Đoạn mở đầu"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Claude 3 sở hữu cửa sổ ngữ cảnh 200K token trong khi GPT-4 Turbo có cửa sổ ngữ cảnh 128K token.",
+        "loai": "so-lieu",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Context window 128K (GPT-4 Turbo) 200K (Claude 3)",
+            "viTri": "Bảng so sánh kỹ thuật"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Cả Claude 3 và GPT-4 đều là các mô hình ngôn ngữ lớn cấp độ doanh nghiệp hỗ trợ lập luận nâng cao, sử dụng công cụ và tích hợp API.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.",
+            "viTri": "Phần mở đầu bài viết"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "GPT-4 Claude 3 comparison",
+      "GPT-4 vs Claude 3"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789652631339",
+      "timestamp": "2026-09-17T13:43:51.339Z",
+      "phase": "research",
+      "input": {
+        "topic": "So sánh GPT-4 và Claude 3",
+        "learningObjective": "Biết ưu nhược điểm của từng mô hình",
+        "targetAudience": "Sinh viên CNTT",
+        "videoDuration": "5 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N16"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "GPT-4o vs. Claude 3 Opus: Which Model Do You Think Is ...",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1crbeu5/gpt4o_vs_claude_3_opus_which_model_do_you_think/",
+              "snippet": "For those of you who have access to both models, I'd love to hear your thoughts on which one you think is smarter in general terms, across various tasks. ...",
+              "position": 1
+            },
+            {
+              "title": "Comparison of Claude 3 and GPT-4",
+              "url": "https://lobehub.com/blog/claude-3-vs-gpt-4",
+              "snippet": "Claude 3 has a context processing capability of 200K tokens, significantly better than GPT-4's 128K tokens context limit. GPT-4 may have a ...",
+              "position": 2
+            },
+            {
+              "title": "Gpt4 comparison to anthropic Opus on benchmarks",
+              "url": "https://community.openai.com/t/gpt4-comparison-to-anthropic-opus-on-benchmarks/726147",
+              "snippet": "Claude 3 Opus consistently outperforms GPT-4, with an especially notable advantage in complex reasoning and coding tasks, suggesting it is ...",
+              "position": 3
+            },
+            {
+              "title": "Claude or GPT 4o?",
+              "url": "https://medium.com/@bansalrohit/claude-or-gpt-4o-7aac244b5dbb",
+              "snippet": "In summary, GPT-4 excels in versatility, integration, and overall accuracy, while Claude offers strengths in handling extensive texts, providing ...",
+              "position": 4
+            },
+            {
+              "title": "GPT-4 vs Claude 3 for AI Development: Which to Build On?",
+              "url": "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+              "snippet": "The main difference: GPT-4 has the more mature ecosystem; Claude 3 offers better value for context-heavy applications. Model Variants Comparison ...",
+              "position": 5
+            }
+          ],
+          "query": "GPT-4 Claude 3 comparison",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Claude 3.5 Sonnet vs GPT-4: Góc nhìn của một lập trình ...",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1dqj1lg/claude_35_sonnet_vs_gpt4_a_programmers/?tl=vi",
+              "snippet": "... GPT-4. Nó làm theo các hướng dẫn phức tạp cẩn thận hơn nhiều. Nó cũng rẻ hơn GPT-4 đến 1/3, vì vậy nó nhanh chóng trở thành mô hình được ưa ...",
+              "position": 1
+            },
+            {
+              "title": "GPT-4 vs Claude 3 for AI Development: Which to Build On?",
+              "url": "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+              "snippet": "The main difference: GPT-4 has the more mature ecosystem; Claude 3 offers better value for context-heavy applications. Model Variants Comparison ...",
+              "position": 2
+            },
+            {
+              "title": "Claude 3 vs GPT-4: Best Enterprise LLM in 2026?",
+              "url": "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/",
+              "snippet": "Is Claude 3 better than GPT-4? It depends on your use case. Claude 3 Opus outperforms GPT-4 on long-context tasks and has a more transparent ...",
+              "position": 3
+            },
+            {
+              "title": "Claude 4 vs GPT-4o: A Business User's Honest Comparison",
+              "url": "https://enterprisedna.co/resources/blog/claude-4-vs-gpt-4o/",
+              "snippet": "Claude 4 vs GPT-4o compared on writing, document analysis, coding, speed, and cost. What each model does better for business work.",
+              "position": 4
+            },
+            {
+              "title": "Claude 3 just destroyed GPT-4 and Gemini... AGI is near?",
+              "url": "https://www.youtube.com/watch?v=m_xoN8KlP3w",
+              "snippet": "... Claude 3 analysis - Has AGI been achieved? - GPT-4 vs Claude 3 - Gemini Ultra vs Claude 3 - Programming with Claude.",
+              "position": 5
+            }
+          ],
+          "query": "GPT-4 vs Claude 3",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.reddit.com/r/ClaudeAI/comments/1crbeu5/gpt4o_vs_claude_3_opus_which_model_do_you_think/",
+          "https://www.reddit.com/r/ClaudeAI/comments/1dqj1lg/claude_35_sonnet_vs_gpt4_a_programmers/?tl=vi",
+          "https://lobehub.com/blog/claude-3-vs-gpt-4",
+          "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+          "https://community.openai.com/t/gpt4-comparison-to-anthropic-opus-on-benchmarks/726147",
+          "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/",
+          "https://medium.com/@bansalrohit/claude-or-gpt-4o-7aac244b5dbb",
+          "https://enterprisedna.co/resources/blog/claude-4-vs-gpt-4o/"
+        ],
+        "pagesRead": [
+          "https://www.reddit.com/r/ClaudeAI/comments/1crbeu5/gpt4o_vs_claude_3_opus_which_model_do_you_think/",
+          "https://www.reddit.com/r/ClaudeAI/comments/1dqj1lg/claude_35_sonnet_vs_gpt4_a_programmers/?tl=vi",
+          "https://lobehub.com/blog/claude-3-vs-gpt-4",
+          "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+          "https://community.openai.com/t/gpt4-comparison-to-anthropic-opus-on-benchmarks/726147",
+          "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1crbeu5/gpt4o_vs_claude_3_opus_which_model_do_you_think/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:43:41.811Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1dqj1lg/claude_35_sonnet_vs_gpt4_a_programmers/?tl=vi",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:43:41.812Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://lobehub.com/blog/claude-3-vs-gpt-4",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:43:41.813Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+          "content": "Back to Guides High Tech 5 min read Jan 31, 2026 GPT-4 vs Claude 3 for AI Development: Which to Build On? Quick verdict: GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content. Here’s the technical comparison. GPT-4 (OpenAI) Claude 3 (Anthropic) Best for Mature ecosystem, function calling Long context, cost efficiency Context window 128K (GPT-4 Turbo) 200K (Claude 3) Input cost $10/1M tokens (GPT-4 Turbo) $3/1M tokens (Claude 3 Sonnet) Output cost $30/1M tokens $15/1M tokens Key strength Tooling, fine-tuning, ecosystem Context length, consistent pricing Main weakness Higher cost at scale Smaller ecosystem, less fine-tuning GPT-4 vs Claude 3: Overview GPT-4 (via OpenAI API) has been the default choice for AI development since 2023. It offers multiple model variants (GPT-4, GPT-4 Turbo, GPT-4o), mature function calling, fine-tuning capabilities, and extensive third-party integrations. Claude 3 (via Anthropic API) launched in 2024 with three tiers: Haiku (fast/cheap), Sonnet (balanced), and Opus (most capable). It features a 200K context window, competitive pricing, and strong performance on reasoning tasks. The main difference: GPT-4 has the more mature ecosystem; Claude 3 offers better value for context-heavy applications. Model Variants Comparison Model Use Case Input Cost Output Cost Context GPT-4o Balanced $5/1M $15/1M 128K GPT-4 Turbo High capability $10/1M $30/1M 128K Claude 3 Haiku Fast/cheap $0.25/1M $1.25/1M 200K Claude 3 Sonnet Balanced $3/1M $15/1M 200K Claude 3 Opus Highest capability $15/1M $75/1M 200K Cost winner: Claude 3 at most tiers. Claude 3 Sonnet offers comparable quality to GPT-4o at roughly half the cost. Haiku is extremely cheap for simpler tasks. Technical Capabilities Capability GPT-4 Claude 3 Function/tool calling Excellent (native) Good (supported) JSON mode Native support Supported Vision/images Yes Yes Fine-tuning Available Limited/waitlist Embeddings text-embedding-3 Not offered (use third-party) Assistants API Yes No equivalent Streaming Yes Yes Capability winner: GPT-4 for breadth. OpenAI offers more specialized features like the Assistants API, native embeddings, and more fine-tuning options. Performance Comparison Benchmark/Task GPT-4 Claude 3 Opus MMLU (knowledge) ~86% ~86% HumanEval (coding) ~67% ~84% MATH (reasoning) ~52% ~60% Long context recall Good Excellent Instruction following Excellent Excellent Performance winner: Tie with caveats. Claude 3 Opus edges out on coding and math benchmarks. GPT-4 has broader real-world deployment validation. Both perform well for typical business applications. Developer Experience Factor GPT-4 Claude 3 Documentation quality Excellent Very good SDK support Python, Node, many community Python, TypeScript, community growing Rate limits Tiered by usage Tiered by usage Playground/testing Robust Good Community resources Extensive Growing LangChain/LlamaIndex support First-class First-class Developer experience winner: GPT-4 due to longer market presence. More tutorials, Stack Overflow answers, and third-party tools support OpenAI by default. The gap is narrowing as Claude adoption grows. Frequently Asked Questions Which model should I use for my AI startup? Start with Claude 3 Sonnet for most applications—it offers the best price/performance ratio. Switch to GPT-4 if you need specific features like fine-tuning, the Assistants API, or if your users specifically expect “ChatGPT-powered” functionality. Can I switch between GPT-4 and Claude 3 easily? Relatively easy if using abstraction layers like LangChain or LlamaIndex. Both support similar prompt formats and function calling patterns. The main work is prompt optimization—prompts optimized for one model may need tweaking for the other. Which is better for production applications? Both are production-ready. GPT-4 has a longer track record and more case studies. Claude 3 is newer but Anthropic is well-funded and reliable. Consider using both with a fallback pattern for maximum reliability. Should I use GPT-4o or Claude 3 Sonnet for cost-sensitive applications? Claude 3 Sonnet is typically 40-50% cheaper at similar capability levels. For high-volume applications, this difference compounds significantly. However, GPT-4o’s ecosystem advantages may justify the premium for some use cases. Which handles long documents better? Claude 3, clearly. The 200K context window versus 128K for GPT-4 is significant. Claude also maintains better coherence over long contexts in practice. For document analysis applications, Claude 3 is the better choice. Key Takeaways GPT-4 has the mature ecosystem with more tooling and community resources Claude 3 is 40-50% cheaper at comparable capability levels Claude 3 wins on context with 200K tokens vs 128K Consider both for redundancy and cost optimization SFAI Labs helps businesses choose and implement the right AI models for their products. We have experience building with both OpenAI and Anthropic APIs. Last Updated: Jan 31, 2026 SL SFAI Labs SFAI Labs helps companies build AI-powered products that work. We focus on practical solutions, not hype. See how companies like yours are using AI AI strategy aligned to business outcomes From proof-of-concept to production in weeks Trusted by enterprise teams across industries Get in Touch → No commitment · Free consultation Related articles Real Estate The 10 Rules of AI-Assisted Client Communication Ten operating rules for AI-assisted client communication at a small CRE firm — where AI drafts, where a human sends, and how to protect voice, data, and trust. Arthur Wandzel · Aug 12, 2026 Read → Real Estate The 10 Rules of AI-assisted underwriting Ten rules for AI-assisted underwriting at a small CRE firm: let AI read and reconcile, keep every figure sourced, and never let it set an assumption. Arthur Wandzel · Aug 10, 2026 Read → Real Estate The 10 rules of automating a CRE back office without breaking the books Ten rules for automating a CRE back office without breaking the books: what to gate, what to reconcile, and what to never let AI post unreviewed. Arthur Wandzel · Aug 3, 2026 Read →",
+          "fetchedAt": "2026-09-17T13:43:42.390Z",
+          "title": "GPT-4 vs Claude 3 for AI Development: Which to Build On? | SFAI Labs",
+          "status": "ok",
+          "contentLength": 6266,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Back to Guides High Tech 5 min read Jan 31, 2026 GPT-4 vs Claude 3 for AI Development: Which to Build On? Quick verdict: GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content. Here’s the technical comparison. GPT-4 (OpenAI) Claude 3 (Anthropic) Best for Mature ecosystem, function calling Long context, cost efficiency Context window 128K (GPT-4 Turbo) 200K (Claude 3) Input cost $10/1M tokens (GPT-4 Turbo) $3/1M tokens (Claude 3 Sonnet) Output cost $30/1M tokens $15/1M tokens Key strength Tooling, fine-tuning, ecosystem Context length, consistent pricing Main weakness Higher cost at scale Smaller ecosystem, less fine-tuning GPT-4 vs Claude 3: Overview GPT-4 (via OpenAI API) has been the default choice for AI development since 2023. It offers multiple model variants (GPT-4, GPT-4 Turbo, GPT-4o), mature function calling, fine-tuning capabilities, and extensive third-party integrations. Claude 3 (via Anthropic API) launched in 2024 with three tiers: Haiku (fast/cheap), Sonnet (balanced), and Opus (most capable). It features a 200K context window, competitive pricing, and strong performance on reasoning tasks. The main difference: GPT-4 has the more mature ecosystem; Claude 3 offers better value for context-heavy applications. Model Variants Comparison Model Use Case Input Cost Output Cost Context GPT-4o Balanced $5/1M $15/1M 128K GPT-4 Turbo High capability $10/1M $30/1M 128K Claude 3 Haiku Fast/cheap $0.25/1M $1.25/1M 200K Claude 3 Sonnet Balanced $3/1M $15/1M 200K Claude 3 Opus Highest capability $15/1M $75/1M 200K Cost winner: Claude 3 at most tiers. Claude 3 Sonnet offers comparable quality to GPT-4o at roughly half the cost. Haiku is extremely cheap for simpler tasks. Technical Capabilities Capability GPT-4 Claude 3 Function/tool calling Excellent (native) Good (supported) JSON mode Native support Supported Vision/images Yes Yes Fine-tuning Available Limited/waitlist Embeddings text-embedding-3 Not offered (use third-party) Assistants API Yes No equivalent Streaming Yes Yes Capability winner: GPT-4 for breadth. OpenAI offers more specialized features like the Assistants API, native embeddings, and more fine-tuning options. Performance Comparison Benchmark/Task GPT-4 Claude 3 Opus MMLU (knowledge) ~86% ~86% HumanEval (coding) ~67% ~84% MATH (reasoning) ~52% ~60% Long context recall Good Excellent Instruction following Excellent Excellent Performance winner: Tie with caveats. Claude 3 Opus edges out on coding and math benchmarks. GPT-4 has broader real-world deployment validation. Both perform well for typical business applications. Developer Experience Factor GPT-4 Claude 3 Documentation quality Excellent Very good SDK support Python, Node, many community Python, TypeScript, community growing Rate limits Tiered by usage Tiered by usage Playground/testing Robust Good Community resources Extensive Growing LangChain/LlamaIndex support First-class First-class Developer experience winner: GPT-4 due to longer market presence. More tutorials, Stack Overflow answers, and third-party tools support OpenAI by default. The gap is narrowing as Claude adoption grows. Frequently Asked Questions Which model should I use for my AI startup? Start with Claude 3 Sonnet for most applications—it offers the best price/performance ratio. Switch to GPT-4 if you need specific features like fine-tuning, the Assistants API, or if your users specifically expect “ChatGPT-powered” functionality. Can I switch between GPT-4 and Claude 3 easily? Relatively easy if using abstraction layers like LangChain or LlamaIndex. Both support similar prompt formats and function calling patterns. The main work is prompt optimization—prompts optimized for one model may need tweaking for the other. Which is better for production applications? Both are production-ready. GPT-4 has a longer track record and more case studies. Claude 3 is newer but Anthropic is well-funded and reliable. Consider using both with a fallback pattern for maximum reliability. Should I use GPT-4o or Claude 3 Sonnet for cost-sensitive applications? Claude 3 Sonnet is typically 40-50% cheaper at similar capability levels. For high-volume applications, this difference compounds significantly. However, GPT-4o’s ecosystem advantages may justify the premium for some use cases. Which handles long documents better? Claude 3, clearly. The 200K context window versus 128K for GPT-4 is significant. Claude also maintains better coherence over long contexts in practice. For document analysis applications, Claude 3 is the better choice. Key Takeaways GPT-4 has the mature ecosystem with more tooling and community resources Claude 3 is 40-50% cheaper at comparable capability levels Claude 3 wins on context with 200K tokens vs 128K Consider both for redundancy and cost optimization SFAI Labs helps businesses choose and implement the right AI models for their products. We have experience building with both OpenAI and Anthropic APIs. Last Updated: Jan 31, 2026 SL SFAI Labs SFAI Labs helps companies build AI-powered products that work. We focus on practical solutions, not hype. See how companies like yours are using AI AI strategy aligned to business outcomes From proof-of-concept to production in weeks Trusted by enterprise teams across industries Get in Touch → No commitment · Free consultation Related articles Real Estate The 10 Rules of AI-Assisted Client Communication Ten operating rules for AI-assisted client communication at a small CRE firm — where AI drafts, where a human sends, and how to protect voice, data, and trust. Arthur Wandzel · Aug 12, 2026 Read → Real Estate The 10 Rules of AI-assisted underwriting Ten rules for AI-assisted underwriting at a small CRE firm: let AI read and reconcile, keep every figure sourced, and never let it set an assumption. Arthur Wandzel · Aug 10, 2026 Read → Real Estate The 10 rules of automating a CRE back office without breaking the books Ten rules for automating a CRE back office without breaking the books: what to gate, what to reconcile, and what to never let AI post unreviewed. Arthur Wandzel · Aug 3, 2026 Read →"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://community.openai.com/t/gpt4-comparison-to-anthropic-opus-on-benchmarks/726147",
+          "content": "Gpt4 comparison to anthropic Opus on benchmarks Community gpt-4, api duncan.haywood April 24, 2024, 3:49am 1 In a comparative assessment of Claude 3 Opus and GPT-4’s capabilities, Claude 3 Opus generally demonstrates superior performance across a spectrum of tasks that test for knowledge and reasoning abilities. Claude 3 Opus consistently outperforms GPT-4, with an especially notable advantage in complex reasoning and coding tasks, suggesting it is better suited for applications requiring advanced cognitive processing. IMG_30931290×1067 192 KB Here are the individual comparisons in bullet points: Undergraduate Level Knowledge: Claude 3 Opus scores 86.8%, slightly ahead of GPT-4’s 86.4%. Graduate Level Reasoning: Claude 3 Opus has a significant lead with 50.4%, compared to GPT-4’s 35.7%. Grade School Math: Claude 3 Opus achieves 95.0%, surpassing GPT-4’s 92.0%. Multilingual Math: Claude 3 Opus leads with 90.7%, compared to GPT-4’s 74.5%. Coding (HumanEval): Claude 3 Opus scores 84.9%, notably higher than GPT-4’s 67.0%. Reasoning Over Text: Claude 3 Opus at 83.1% is ahead of GPT-4’s 80.9%. Mixed Evaluations: Claude 3 Opus outperforms with 86.8%, in contrast to GPT-4’s 83.1%. Knowledge Q&A: Claude 3 Opus marginally leads with 96.4%, while GPT-4 is close behind at 96.3%. Common Knowledge: Claude 3 Opus scores 95.4%, slightly better than GPT-4’s 95.3%. The overall results indicate that while GPT-4 is a highly competent model, Claude 3 Opus shows enhanced capabilities in dealing with a variety of problem-solving and knowledge-based tasks, possibly making it a more potent tool for tackling sophisticated AI challenges. I would personally love to see how the gpt-4-turbo and following models weigh up on these benchmarks as well. Hopefully they outperform the opus model even . Edit: With the release of GPT-4o, OpenAI also released benchmark evals on old and new models, and these results have been upended by the new model. OpenAI simple-evals benchmark-results The results for the new model surpass the Anthropic Opus across the board seemingly on these repeatable open source evaluations. notably, the gpt-4o model outperforms the opus model on the human eval 91% to 85%, with higher throughput, lower latency, and a fraction of the price. LMSys leaderboards also show a strong preference for the new model above all others. vsap78 April 30, 2024, 2:59pm 2 This has been my personal experience as well. Both Gemini(I went with the free trial for Advanced) and GPT-4 struggled to even comprehend very simple code generation requests. I was at the brink, when i deicded to give Claude 3 Sonnet and it blew these guys out of the water and I had my “MVP”. I am actually signing up for the Claude 3 opus as i am writing this. I might come back and update this after I have used opus for a bit for code generation for my project(Flask and Bootstrap5 nothing fancy). Simon-natw May 3, 2024, 9:05pm 3 Claude opus is 4 times better than chatgpt plus. I had it for one year with three paid accounts and one team account with two users. I cancelled it because chatGPT plus is waste of time … it doesn’t generate any long form codes with advanced logic. Claude opus is 10 times better and intelligent and highly helpful. Cancel chatGPT plus , it’s a waste of money . They build chatGPT for getting data from user inputs and help corporate companies like Microsoft… not for people like you anitaa May 7, 2024, 2:15pm 4 It depends on the task I’d say. GPT-4 is still the best at reasoning tasks, while Opus can be better at coding. We collected all data + did small experiments to compare the two, you can read our findings here: Claude 3 Opus vs GPT-4: Task Specific Analysis duncan.haywood May 13, 2024, 7:10pm 5 Finally, we had a release from openAI on benchmarks, and GPT-4-turbo and GPT-4-O both do pretty well on them: openai/simple-evals (github.com) dliedke May 17, 2024, 11:17am 6 Yes, Opus is better for coding because it doesn’t try to save tokens output all the time. This is way I cancelled GPT. duncan.haywood May 17, 2024, 9:25pm 7 On this topic, according to the simple evals OpenAI released, GPT-4o currently surpasses anthropic opus on the human eval bencmark: 91% to 85%. Marcus5 May 26, 2024, 10:47pm 8 In your opinion, which is better for creating web articles, GPT-4o, Claude 3 Opus or which other would you recommend? teryanarmen June 5, 2024, 2:15am 9 I’ve found Claude much better at writing and coding than GPT4 or GPT4o moonexchange.ng June 8, 2024, 3:36pm 10 that settles it for me then. danke Related topics Topic Replies Views Activity GPT-4-Turbo models perform better the older GPT-4 models in LMSys benchmark API gpt-4 , api 14 7249 May 13, 2024 Which AI is best for Python coding? Community gpt-4 , chatgpt 6 27684 February 27, 2025 GPT 4o is fast but bad at coding ChatGPT gpt-4o 36 14863 February 19, 2025 Which OpenAI model is the most code oriented? API code 5 11623 July 3, 2025 Thoughts on GPT-3.5-Turbo vs. Claude 3 Haiku Community gpt-35-turbo 4 10562 April 13, 2024",
+          "fetchedAt": "2026-09-17T13:43:42.391Z",
+          "title": "Gpt4 comparison to anthropic Opus on benchmarks - Community - OpenAI Developer Community",
+          "status": "ok",
+          "contentLength": 5017,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Gpt4 comparison to anthropic Opus on benchmarks Community gpt-4, api duncan.haywood April 24, 2024, 3:49am 1 In a comparative assessment of Claude 3 Opus and GPT-4’s capabilities, Claude 3 Opus generally demonstrates superior performance across a spectrum of tasks that test for knowledge and reasoning abilities. Claude 3 Opus consistently outperforms GPT-4, with an especially notable advantage in complex reasoning and coding tasks, suggesting it is better suited for applications requiring advanced cognitive processing. IMG_30931290×1067 192 KB Here are the individual comparisons in bullet points: Undergraduate Level Knowledge: Claude 3 Opus scores 86.8%, slightly ahead of GPT-4’s 86.4%. Graduate Level Reasoning: Claude 3 Opus has a significant lead with 50.4%, compared to GPT-4’s 35.7%. Grade School Math: Claude 3 Opus achieves 95.0%, surpassing GPT-4’s 92.0%. Multilingual Math: Claude 3 Opus leads with 90.7%, compared to GPT-4’s 74.5%. Coding (HumanEval): Claude 3 Opus scores 84.9%, notably higher than GPT-4’s 67.0%. Reasoning Over Text: Claude 3 Opus at 83.1% is ahead of GPT-4’s 80.9%. Mixed Evaluations: Claude 3 Opus outperforms with 86.8%, in contrast to GPT-4’s 83.1%. Knowledge Q&A: Claude 3 Opus marginally leads with 96.4%, while GPT-4 is close behind at 96.3%. Common Knowledge: Claude 3 Opus scores 95.4%, slightly better than GPT-4’s 95.3%. The overall results indicate that while GPT-4 is a highly competent model, Claude 3 Opus shows enhanced capabilities in dealing with a variety of problem-solving and knowledge-based tasks, possibly making it a more potent tool for tackling sophisticated AI challenges. I would personally love to see how the gpt-4-turbo and following models weigh up on these benchmarks as well. Hopefully they outperform the opus model even . Edit: With the release of GPT-4o, OpenAI also released benchmark evals on old and new models, and these results have been upended by the new model. OpenAI simple-evals benchmark-results The results for the new model surpass the Anthropic Opus across the board seemingly on these repeatable open source evaluations. notably, the gpt-4o model outperforms the opus model on the human eval 91% to 85%, with higher throughput, lower latency, and a fraction of the price. LMSys leaderboards also show a strong preference for the new model above all others. vsap78 April 30, 2024, 2:59pm 2 This has been my personal experience as well. Both Gemini(I went with the free trial for Advanced) and GPT-4 struggled to even comprehend very simple code generation requests. I was at the brink, when i deicded to give Claude 3 Sonnet and it blew these guys out of the water and I had my “MVP”. I am actually signing up for the Claude 3 opus as i am writing this. I might come back and update this after I have used opus for a bit for code generation for my project(Flask and Bootstrap5 nothing fancy). Simon-natw May 3, 2024, 9:05pm 3 Claude opus is 4 times better than chatgpt plus. I had it for one year with three paid accounts and one team account with two users. I cancelled it because chatGPT plus is waste of time … it doesn’t generate any long form codes with advanced logic. Claude opus is 10 times better and intelligent and highly helpful. Cancel chatGPT plus , it’s a waste of money . They build chatGPT for getting data from user inputs and help corporate companies like Microsoft… not for people like you anitaa May 7, 2024, 2:15pm 4 It depends on the task I’d say. GPT-4 is still the best at reasoning tasks, while Opus can be better at coding. We collected all data + did small experiments to compare the two, you can read our findings here: Claude 3 Opus vs GPT-4: Task Specific Analysis duncan.haywood May 13, 2024, 7:10pm 5 Finally, we had a release from openAI on benchmarks, and GPT-4-turbo and GPT-4-O both do pretty well on them: openai/simple-evals (github.com) dliedke May 17, 2024, 11:17am 6 Yes, Opus is better for coding because it doesn’t try to save tokens output all the time. This is way I cancelled GPT. duncan.haywood May 17, 2024, 9:25pm 7 On this topic, according to the simple evals OpenAI released, GPT-4o currently surpasses anthropic opus on the human eval bencmark: 91% to 85%. Marcus5 May 26, 2024, 10:47pm 8 In your opinion, which is better for creating web articles, GPT-4o, Claude 3 Opus or which other would you recommend? teryanarmen June 5, 2024, 2:15am 9 I’ve found Claude much better at writing and coding than GPT4 or GPT4o moonexchange.ng June 8, 2024, 3:36pm 10 that settles it for me then. danke Related topics Topic Replies Views Activity GPT-4-Turbo models perform better the older GPT-4 models in LMSys benchmark API gpt-4 , api 14 7249 May 13, 2024 Which AI is best for Python coding? Community gpt-4 , chatgpt 6 27684 February 27, 2025 GPT 4o is fast but bad at coding ChatGPT gpt-4o 36 14863 February 19, 2025 Which OpenAI model is the most code oriented? API code 5 11623 July 3, 2025 Thoughts on GPT-3.5-Turbo vs. Claude 3 Haiku Community gpt-35-turbo 4 10562 April 13, 2024"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/",
+          "content": "Claude 3 vs GPT-4: Which LLM Is Better for Enterprise Applications?\n\nPublished on February 19, 2026\n\nDo you know which one “Claude 3 vs GPT-4” is best for enterprise use cases? Let’s get crack it! Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.\n\nThe LLM pricing market tells a clear story about where enterprise AI is heading. Research tracking intelligence-per-dollar shows that from October 2022 through December 2025, prices have been declining steadily while performance has surged, making model selection increasingly strategic rather than budgetary. Choosing the wrong model doesn’t just slow your team down, it costs real money at scale.\n\nAt Dextra Labs, we help enterprises and SMEs across the UAE, USA, and Singapore evaluate, benchmark, and deploy LLMs for production systems. This guide gives you the honest, research-backed comparison between Claude 3 vs GPT-4, so that you can make a confident decision.\n\nQuick Answer: Which Is Better for Enterprise?\n\nBest for long-context processing: Claude 3\n\nBest ecosystem and plugin maturity: GPT-4\n\nBest for AI safety and alignment: Claude 3\n\nBest for product integrations and Microsoft stack: GPT-4\n\nBest for regulated industries: Claude 3\n\nBest for multimodal workflows: GPT-4\n\nBest LLM for enterprise overall: Depends on regulatory needs, infrastructure stack, and deployment model\n\nThe honest truth? Most production enterprises in 2026 use both, routing tasks based on context, cost, and capability. We cover why at the end of this guide.\n\nClaude 3 is Anthropic’s advanced LLM family designed with safety-first architecture and enterprise deployability. According to Anthropic’s official documentation, the Claude 3 family includes three tiers:\n\nClaude 3 Opus: Highest reasoning capability, best for complex analytical tasks\n\nClaude 3 Sonnet: Balanced performance and speed, ideal for most enterprise workflows\n\nClaude 3 Haiku: Fastest and most cost-efficient, suitable for high-volume lightweight tasks\n\nClaude 3’s defining characteristic is its 200,000-token context window, which allows it to process entire codebases, lengthy legal contracts, or large research documents in a single pass. Anthropic built Claude 3 on Constitutional AI (CAI), a methodology where the model is trained to follow a set of principles to self-critique and improve its outputs, as described in Anthropic’s published research.\n\nGPT-4 was the first widely deployed model to demonstrate strong performance across both text and vision inputs, making it a default choice for enterprises building multimodal applications. According to research tracking model performance from 2022 to 2025, GPT-4 maintained state-of-the-art performance for approximately one year before Claude 3.5 and Gemini briefly took the lead in mid-2024 (Fradkin & Larsen, SSRN 2025).\n\nClaude 3 vs GPT-4 — Head-to-Head Enterprise Comparison\n\nResearch from an independent benchmark study found Claude 3 Opus outperforms GPT-4 in solving undergraduate control engineering problems, with human expert panels rating Claude 3 Opus as the state-of-the-art LLM on ControlBench. That said, GPT-4 maintains advantages in multimodal tasks and ecosystem integration.\n\nClaude vs ChatGPT for Developers\n\nVerdict: If your team is already on Azure or Microsoft 365, GPT-4’s API offers frictionless integration. For teams on AWS or GCP, Claude 3 via Bedrock or Vertex is the more natural fit.\n\nAccording to METR’s 2025 randomized controlled trial, AI agents can now complete software engineering tasks that take humans up to 5 hours, with task complexity doubling every 7 months. Both Claude 3and GPT-4 benefit from this agentic shift, but their strengths differ.\n\nBoth Claude 3 vs GPT-4 integrate cleanly with major vector databases (Pinecone, Weaviate, Chroma, FAISS). The key difference:\n\nClaude 3’s 200K token window reduces retrieval frequency needed, you can fit more context in a single call\n\nClaude 3 shows an edge in financial document processing:\n\nResearch shows that worse-performing LLMs exhibited paradoxically higher confidence—a critical concern in healthcare. A 2025 study in JMIR Medical Informatics found that lower-performing models showed 46% accuracy but 76% confidence, while top-performing models had 74% accuracy with 63% confidence (JMIR Medical Informatics, 2025). Both Claude 3 and GPT-4 fall into the more calibrated category, but enterprises should evaluate on domain-specific benchmarks.\n\nClaude 3: Preferred for clinical summarization, long patient records, compliance-heavy documentation\n\nClaude 3 is the preferred choice for most legal applications:\n\nAccording to Stanford Law School’s 2024 research, LLMs hallucinate at least 75% of the time about court rulings. This makes model choice critical, both Claude 3 and GPT-4 outperform smaller models, but Claude 3’s design emphasis on honesty and calibration makes it more suitable for high-stakes legal work.\n\nAlso Read: Claude 3 Opus vs Sonnet vs Haiku: Which Model Should You Choose?\n\nClaude 3: Constitutional AI (CAI):\n\nEnterprise Governance Checklist Claude 3 vs GPT-4:\n\nModel auditing: Claude’s CAI provides clearer alignment documentation for auditors\n\nOn-prem / private cloud: Both available through Bedrock (Claude) and Azure (GPT-4)\n\nExplainability: Claude’s longer, more detailed reasoning is preferred for regulated sectors\n\nCost Comparison: Claude 3 vs GPT-4 Pricing\n\nCurrent pricing benchmarks for Claude 3 vs GPT-4:\n\nLong-context economics: Claude 3’s 200K window means fewer API calls for long-document tasks, reducing per-task cost\n\nInference cost at scale: For high-volume workflows, Claude Haiku or GPT-4o typically win on cost-performance ratio\n\nWhen Should Enterprises Choose Claude 3?\n\nBefore committing to production, evaluate against these criteria for Claude 3 vs GPT-4:\n\nInfrastructure stack compatibility: AWS → Claude via Bedrock; Azure → GPT-4 via Azure OpenAI\n\nCompliance requirements: Regulated industries benefit from Claude’s CAI transparency\n\nContext window needs: Documents over 32K tokens → Claude 3 has a clear edge\n\nAgentic workflow complexity: Multi-step long-horizon tasks favor Claude 3’s context advantage\n\nA practical hybrid approach while choosing between Claude 3 vs GPT-4:\n\nLLM Evaluation and Benchmarking: Head-to-head comparison of Claude 3 vs GPT-4 on your actual data and tasks\n\nClaude vs GPT POC Experiments: Controlled proof-of-concept deployments across your specific use cases\n\nWhether you’re in financial services, healthcare, legal, or technology, our team brings hands-on experience deploying both Claude 3 and GPT-4 in production environments.\n\nUnsure whether Claude 3 or GPT-4 fits your stack? Dextra Labs conducts structured LLM benchmarks aligned to your business KPIs, before you commit to production.\n\nChoose Claude 3 if your priority is long-context processing, regulatory compliance, and a transparent safety framework. Choose GPT-4 if you need deep multimodal capabilities, Microsoft stack integration, or a mature plugin ecosystem. Choose both if you want production-grade performance that routes tasks to the right model at the right cost.\n\nAt Dextra Labs, we help enterprises and SMEs across UAE, USA, Singapore, and India, move from LLM evaluation to practical implementation. If you’re exploring Claude for enterprise applications, our team covers use-case discovery, Claude API integration, Claude Skills, MCP, enterprise workflows, and production deployment.\n\nExplore Our Claude consulting services and discover how to turn Claude’s capabilities into secure, business-ready AI solutions.\n\nQ1. Is Claude 3 better than GPT-4?\n\nIt depends on your use case. Claude 3 Opus outperforms GPT-4 on long-context tasks and has a more transparent safety framework. GPT-4 leads in multimodal capabilities and Microsoft ecosystem integrations. For most enterprises, a hybrid approach works best.\n\nClaude 3’s Constitutional AI provides a more auditable alignment methodology for regulated industries. Both models support enterprise data privacy through their respective cloud platforms. Always validate against your specific compliance requirements.\n\nQ3. What is the difference between Claude and ChatGPT?\n\nClaude (Anthropic) uses Constitutional AI alignment and offers a 200K token context window. ChatGPT/GPT-4(OpenAI) uses RLHF alignment and offers stronger multimodal and ecosystem integrations. They differ in safety philosophy, context window, and integration depth.\n\nAmong major enterprise models, Claude 3 offers up to 200,000 tokens significantly larger than base GPT-4 (8K-128K depending on version). For specialized use cases, Meta’s Llama 4 Scout offers context windows up to 10 million tokens for open-source deployments.",
+          "fetchedAt": "2026-09-17T13:43:42.392Z",
+          "title": "Claude 3 vs GPT-4: Best Enterprise LLM in 2026?",
+          "status": "ok",
+          "contentLength": 24542,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Claude 3 vs GPT-4: Which LLM Is Better for Enterprise Applications?"
+            },
+            {
+              "blockIndex": 2,
+              "text": "Published on February 19, 2026"
+            },
+            {
+              "blockIndex": 5,
+              "text": "Do you know which one “Claude 3 vs GPT-4” is best for enterprise use cases? Let’s get crack it! Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments."
+            },
+            {
+              "blockIndex": 6,
+              "text": "The LLM pricing market tells a clear story about where enterprise AI is heading. Research tracking intelligence-per-dollar shows that from October 2022 through December 2025, prices have been declining steadily while performance has surged, making model selection increasingly strategic rather than budgetary. Choosing the wrong model doesn’t just slow your team down, it costs real money at scale."
+            },
+            {
+              "blockIndex": 7,
+              "text": "At Dextra Labs, we help enterprises and SMEs across the UAE, USA, and Singapore evaluate, benchmark, and deploy LLMs for production systems. This guide gives you the honest, research-backed comparison between Claude 3 vs GPT-4, so that you can make a confident decision."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Quick Answer: Which Is Better for Enterprise?"
+            },
+            {
+              "blockIndex": 9,
+              "text": "Best for long-context processing: Claude 3"
+            },
+            {
+              "blockIndex": 10,
+              "text": "Best ecosystem and plugin maturity: GPT-4"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Best for AI safety and alignment: Claude 3"
+            },
+            {
+              "blockIndex": 12,
+              "text": "Best for product integrations and Microsoft stack: GPT-4"
+            },
+            {
+              "blockIndex": 13,
+              "text": "Best for regulated industries: Claude 3"
+            },
+            {
+              "blockIndex": 14,
+              "text": "Best for multimodal workflows: GPT-4"
+            },
+            {
+              "blockIndex": 15,
+              "text": "Best LLM for enterprise overall: Depends on regulatory needs, infrastructure stack, and deployment model"
+            },
+            {
+              "blockIndex": 16,
+              "text": "The honest truth? Most production enterprises in 2026 use both, routing tasks based on context, cost, and capability. We cover why at the end of this guide."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Claude 3 is Anthropic’s advanced LLM family designed with safety-first architecture and enterprise deployability. According to Anthropic’s official documentation, the Claude 3 family includes three tiers:"
+            },
+            {
+              "blockIndex": 19,
+              "text": "Claude 3 Opus: Highest reasoning capability, best for complex analytical tasks"
+            },
+            {
+              "blockIndex": 20,
+              "text": "Claude 3 Sonnet: Balanced performance and speed, ideal for most enterprise workflows"
+            },
+            {
+              "blockIndex": 21,
+              "text": "Claude 3 Haiku: Fastest and most cost-efficient, suitable for high-volume lightweight tasks"
+            },
+            {
+              "blockIndex": 22,
+              "text": "Claude 3’s defining characteristic is its 200,000-token context window, which allows it to process entire codebases, lengthy legal contracts, or large research documents in a single pass. Anthropic built Claude 3 on Constitutional AI (CAI), a methodology where the model is trained to follow a set of principles to self-critique and improve its outputs, as described in Anthropic’s published research."
+            },
+            {
+              "blockIndex": 25,
+              "text": "GPT-4 was the first widely deployed model to demonstrate strong performance across both text and vision inputs, making it a default choice for enterprises building multimodal applications. According to research tracking model performance from 2022 to 2025, GPT-4 maintained state-of-the-art performance for approximately one year before Claude 3.5 and Gemini briefly took the lead in mid-2024 (Fradkin & Larsen, SSRN 2025)."
+            },
+            {
+              "blockIndex": 27,
+              "text": "Claude 3 vs GPT-4 — Head-to-Head Enterprise Comparison"
+            },
+            {
+              "blockIndex": 28,
+              "text": "Research from an independent benchmark study found Claude 3 Opus outperforms GPT-4 in solving undergraduate control engineering problems, with human expert panels rating Claude 3 Opus as the state-of-the-art LLM on ControlBench. That said, GPT-4 maintains advantages in multimodal tasks and ecosystem integration."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Claude vs ChatGPT for Developers"
+            },
+            {
+              "blockIndex": 40,
+              "text": "Verdict: If your team is already on Azure or Microsoft 365, GPT-4’s API offers frictionless integration. For teams on AWS or GCP, Claude 3 via Bedrock or Vertex is the more natural fit."
+            },
+            {
+              "blockIndex": 50,
+              "text": "According to METR’s 2025 randomized controlled trial, AI agents can now complete software engineering tasks that take humans up to 5 hours, with task complexity doubling every 7 months. Both Claude 3and GPT-4 benefit from this agentic shift, but their strengths differ."
+            },
+            {
+              "blockIndex": 52,
+              "text": "Both Claude 3 vs GPT-4 integrate cleanly with major vector databases (Pinecone, Weaviate, Chroma, FAISS). The key difference:"
+            },
+            {
+              "blockIndex": 53,
+              "text": "Claude 3’s 200K token window reduces retrieval frequency needed, you can fit more context in a single call"
+            },
+            {
+              "blockIndex": 57,
+              "text": "Claude 3 shows an edge in financial document processing:"
+            },
+            {
+              "blockIndex": 66,
+              "text": "Research shows that worse-performing LLMs exhibited paradoxically higher confidence—a critical concern in healthcare. A 2025 study in JMIR Medical Informatics found that lower-performing models showed 46% accuracy but 76% confidence, while top-performing models had 74% accuracy with 63% confidence (JMIR Medical Informatics, 2025). Both Claude 3 and GPT-4 fall into the more calibrated category, but enterprises should evaluate on domain-specific benchmarks."
+            },
+            {
+              "blockIndex": 67,
+              "text": "Claude 3: Preferred for clinical summarization, long patient records, compliance-heavy documentation"
+            },
+            {
+              "blockIndex": 70,
+              "text": "Claude 3 is the preferred choice for most legal applications:"
+            },
+            {
+              "blockIndex": 74,
+              "text": "According to Stanford Law School’s 2024 research, LLMs hallucinate at least 75% of the time about court rulings. This makes model choice critical, both Claude 3 and GPT-4 outperform smaller models, but Claude 3’s design emphasis on honesty and calibration makes it more suitable for high-stakes legal work."
+            },
+            {
+              "blockIndex": 75,
+              "text": "Also Read: Claude 3 Opus vs Sonnet vs Haiku: Which Model Should You Choose?"
+            },
+            {
+              "blockIndex": 78,
+              "text": "Claude 3: Constitutional AI (CAI):"
+            },
+            {
+              "blockIndex": 85,
+              "text": "Enterprise Governance Checklist Claude 3 vs GPT-4:"
+            },
+            {
+              "blockIndex": 87,
+              "text": "Model auditing: Claude’s CAI provides clearer alignment documentation for auditors"
+            },
+            {
+              "blockIndex": 88,
+              "text": "On-prem / private cloud: Both available through Bedrock (Claude) and Azure (GPT-4)"
+            },
+            {
+              "blockIndex": 90,
+              "text": "Explainability: Claude’s longer, more detailed reasoning is preferred for regulated sectors"
+            },
+            {
+              "blockIndex": 91,
+              "text": "Cost Comparison: Claude 3 vs GPT-4 Pricing"
+            },
+            {
+              "blockIndex": 93,
+              "text": "Current pricing benchmarks for Claude 3 vs GPT-4:"
+            },
+            {
+              "blockIndex": 95,
+              "text": "Long-context economics: Claude 3’s 200K window means fewer API calls for long-document tasks, reducing per-task cost"
+            },
+            {
+              "blockIndex": 96,
+              "text": "Inference cost at scale: For high-volume workflows, Claude Haiku or GPT-4o typically win on cost-performance ratio"
+            },
+            {
+              "blockIndex": 99,
+              "text": "When Should Enterprises Choose Claude 3?"
+            },
+            {
+              "blockIndex": 114,
+              "text": "Before committing to production, evaluate against these criteria for Claude 3 vs GPT-4:"
+            },
+            {
+              "blockIndex": 115,
+              "text": "Infrastructure stack compatibility: AWS → Claude via Bedrock; Azure → GPT-4 via Azure OpenAI"
+            },
+            {
+              "blockIndex": 116,
+              "text": "Compliance requirements: Regulated industries benefit from Claude’s CAI transparency"
+            },
+            {
+              "blockIndex": 117,
+              "text": "Context window needs: Documents over 32K tokens → Claude 3 has a clear edge"
+            },
+            {
+              "blockIndex": 120,
+              "text": "Agentic workflow complexity: Multi-step long-horizon tasks favor Claude 3’s context advantage"
+            },
+            {
+              "blockIndex": 125,
+              "text": "A practical hybrid approach while choosing between Claude 3 vs GPT-4:"
+            },
+            {
+              "blockIndex": 130,
+              "text": "LLM Evaluation and Benchmarking: Head-to-head comparison of Claude 3 vs GPT-4 on your actual data and tasks"
+            },
+            {
+              "blockIndex": 131,
+              "text": "Claude vs GPT POC Experiments: Controlled proof-of-concept deployments across your specific use cases"
+            },
+            {
+              "blockIndex": 136,
+              "text": "Whether you’re in financial services, healthcare, legal, or technology, our team brings hands-on experience deploying both Claude 3 and GPT-4 in production environments."
+            },
+            {
+              "blockIndex": 137,
+              "text": "Unsure whether Claude 3 or GPT-4 fits your stack? Dextra Labs conducts structured LLM benchmarks aligned to your business KPIs, before you commit to production."
+            },
+            {
+              "blockIndex": 139,
+              "text": "Choose Claude 3 if your priority is long-context processing, regulatory compliance, and a transparent safety framework. Choose GPT-4 if you need deep multimodal capabilities, Microsoft stack integration, or a mature plugin ecosystem. Choose both if you want production-grade performance that routes tasks to the right model at the right cost."
+            },
+            {
+              "blockIndex": 140,
+              "text": "At Dextra Labs, we help enterprises and SMEs across UAE, USA, Singapore, and India, move from LLM evaluation to practical implementation. If you’re exploring Claude for enterprise applications, our team covers use-case discovery, Claude API integration, Claude Skills, MCP, enterprise workflows, and production deployment."
+            },
+            {
+              "blockIndex": 141,
+              "text": "Explore Our Claude consulting services and discover how to turn Claude’s capabilities into secure, business-ready AI solutions."
+            },
+            {
+              "blockIndex": 143,
+              "text": "Q1. Is Claude 3 better than GPT-4?"
+            },
+            {
+              "blockIndex": 144,
+              "text": "It depends on your use case. Claude 3 Opus outperforms GPT-4 on long-context tasks and has a more transparent safety framework. GPT-4 leads in multimodal capabilities and Microsoft ecosystem integrations. For most enterprises, a hybrid approach works best."
+            },
+            {
+              "blockIndex": 146,
+              "text": "Claude 3’s Constitutional AI provides a more auditable alignment methodology for regulated industries. Both models support enterprise data privacy through their respective cloud platforms. Always validate against your specific compliance requirements."
+            },
+            {
+              "blockIndex": 147,
+              "text": "Q3. What is the difference between Claude and ChatGPT?"
+            },
+            {
+              "blockIndex": 148,
+              "text": "Claude (Anthropic) uses Constitutional AI alignment and offers a 200K token context window. ChatGPT/GPT-4(OpenAI) uses RLHF alignment and offers stronger multimodal and ecosystem integrations. They differ in safety philosophy, context window, and integration depth."
+            },
+            {
+              "blockIndex": 150,
+              "text": "Among major enterprise models, Claude 3 offers up to 200,000 tokens significantly larger than base GPT-4 (8K-128K depending on version). For specialized use cases, Meta’s Llama 4 Scout offers context windows up to 10 million tokens for open-source deployments."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+          "tieuDe": "GPT-4 vs Claude 3 for AI Development: Which to Build On? | SFAI Labs",
+          "ngayDang": "2026-01-31T00:00:00.000Z",
+          "ngayLayVe": "2026-09-17T13:43:42.390Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết kỹ thuật chi tiết có bảng so sánh giá và tính năng rõ ràng, nhưng tác giả và tổ chức không minh bạch.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm (xuất bản năm 2026)"
+          ],
+          "doanTrich": "GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://community.openai.com/t/gpt4-comparison-to-anthropic-opus-on-benchmarks/726147",
+          "tieuDe": "Gpt4 comparison to anthropic Opus on benchmarks - Community - OpenAI Developer Community",
+          "toChuc": "OpenAI Developer Community",
+          "ngayDang": "2024-04-24T03:49:55+00:00",
+          "ngayLayVe": "2026-09-17T13:43:42.391Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Là diễn đàn cộng đồng, thảo luận mang tính chủ quan từ người dùng, thiếu sự kiểm duyệt biên tập chính thức.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Nguồn diễn đàn cộng đồng độ tin cậy thấp, mang tính cá nhân.",
+          "canhBao": [
+            "Nguồn quá một năm",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "In a comparative assessment of Claude 3 Opus and GPT-4’s capabilities, Claude 3 Opus generally demonstrates superior performance across a spectrum of tasks that test for knowledge and reasoning abilities.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/",
+          "tieuDe": "Claude 3 vs GPT-4: Best Enterprise LLM in 2026?",
+          "toChuc": "Dextra Labs",
+          "ngayDang": "2026-02-19T04:01:08+05:30",
+          "ngayLayVe": "2026-09-17T13:43:42.392Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài phân tích chuyên sâu về doanh nghiệp từ một tổ chức công nghệ, có trích dẫn nghiên cứu nhưng thiếu tên tác giả cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm (xuất bản năm 2026)"
+          ],
+          "doanTrich": "Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1crbeu5/gpt4o_vs_claude_3_opus_which_model_do_you_think/",
+          "tieuDe": "https://www.reddit.com/r/ClaudeAI/comments/1crbeu5/gpt4o_vs_claude_3_opus_which_model_do_you_think/",
+          "ngayLayVe": "2026-09-17T13:43:41.811Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n05",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1dqj1lg/claude_35_sonnet_vs_gpt4_a_programmers/?tl=vi",
+          "tieuDe": "https://www.reddit.com/r/ClaudeAI/comments/1dqj1lg/claude_35_sonnet_vs_gpt4_a_programmers/?tl=vi",
+          "ngayLayVe": "2026-09-17T13:43:41.812Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://lobehub.com/blog/claude-3-vs-gpt-4",
+          "tieuDe": "https://lobehub.com/blog/claude-3-vs-gpt-4",
+          "ngayLayVe": "2026-09-17T13:43:41.813Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n02",
+        "n04",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "GPT-4 phù hợp cho nhà phát triển cần hệ sinh thái trưởng thành và nhiều công cụ, trong khi Claude 3 nổi trội ở cửa sổ ngữ cảnh dài và chi phí tối ưu.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.",
+              "viTri": "Đoạn mở đầu"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Claude 3 sở hữu cửa sổ ngữ cảnh 200K token trong khi GPT-4 Turbo có cửa sổ ngữ cảnh 128K token.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Context window 128K (GPT-4 Turbo) 200K (Claude 3)",
+              "viTri": "Bảng so sánh kỹ thuật"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Cả Claude 3 và GPT-4 đều là các mô hình ngôn ngữ lớn cấp độ doanh nghiệp hỗ trợ lập luận nâng cao, sử dụng công cụ và tích hợp API.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.",
+              "viTri": "Phần mở đầu bài viết"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://sfailabs.com/guides/gpt4-vs-claude-3-for-development\",\n      \"tieuDe\": \"GPT-4 vs Claude 3 for AI Development: Which to Build On? | SFAI Labs\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2026-01-31\",\n      \"ngayLayVe\": \"2026-09-17T13:43:42.390Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết kỹ thuật chi tiết có bảng so sánh giá và tính năng rõ ràng, nhưng tác giả và tổ chức không minh bạch.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn quá một năm (xuất bản năm 2026)\"\n      ],\n      \"doanTrich\": \"GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://community.openai.com/t/gpt4-comparison-to-anthropic-opus-on-benchmarks/726147\",\n      \"tieuDe\": \"Gpt4 comparison to anthropic Opus on benchmarks - Community - OpenAI Developer Community\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"OpenAI Developer Community\",\n      \"ngayDang\": \"2024-04-24\",\n      \"ngayLayVe\": \"2026-09-17T13:43:42.391Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Là diễn đàn cộng đồng, thảo luận mang tính chủ quan từ người dùng, thiếu sự kiểm duyệt biên tập chính thức.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn diễn đàn cộng đồng độ tin cậy thấp, mang tính cá nhân.\",\n      \"canhBao\": [\n        \"Nguồn quá một năm\"\n      ],\n      \"doanTrich\": \"In a comparative assessment of Claude 3 Opus and GPT-4’s capabilities, Claude 3 Opus generally demonstrates superior performance across a spectrum of tasks that test for knowledge and reasoning abilities.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/\",\n      \"tieuDe\": \"Claude 3 vs GPT-4: Best Enterprise LLM in 2026?\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Dextra Labs\",\n      \"ngayDang\": \"2026-02-19\",\n      \"ngayLayVe\": \"2026-09-17T13:43:42.392Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài phân tích chuyên sâu về doanh nghiệp từ một tổ chức công nghệ, có trích dẫn nghiên cứu nhưng thiếu tên tác giả cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn quá một năm (xuất bản năm 2026)\"\n      ],\n      \"doanTrich\": \"Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"GPT-4 phù hợp cho nhà phát triển cần hệ sinh thái trưởng thành và nhiều công cụ, trong khi Claude 3 nổi trội ở cửa sổ ngữ cảnh dài và chi phí tối ưu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Claude 3 sở hữu cửa sổ ngữ cảnh 200K token trong khi GPT-4 Turbo có cửa sổ ngữ cảnh 128K token.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Context window 128K (GPT-4 Turbo) 200K (Claude 3)\",\n          \"viTri\": \"Bảng so sánh kỹ thuật\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Cả Claude 3 và GPT-4 đều là các mô hình ngôn ngữ lớn cấp độ doanh nghiệp hỗ trợ lập luận nâng cao, sử dụng công cụ và tích hợp API.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.\",\n          \"viTri\": \"Phần mở đầu bài viết\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 5298,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://sfailabs.com/guides/gpt4-vs-claude-3-for-development\",\n      \"tieuDe\": \"GPT-4 vs Claude 3 for AI Development: Which to Build On? | SFAI Labs\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2026-01-31\",\n      \"ngayLayVe\": \"2026-09-17T13:43:42.390Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết kỹ thuật chi tiết có bảng so sánh giá và tính năng rõ ràng, nhưng tác giả và tổ chức không minh bạch.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn quá một năm (xuất bản năm 2026)\"\n      ],\n      \"doanTrich\": \"GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://community.openai.com/t/gpt4-comparison-to-anthropic-opus-on-benchmarks/726147\",\n      \"tieuDe\": \"Gpt4 comparison to anthropic Opus on benchmarks - Community - OpenAI Developer Community\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"OpenAI Developer Community\",\n      \"ngayDang\": \"2024-04-24\",\n      \"ngayLayVe\": \"2026-09-17T13:43:42.391Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Là diễn đàn cộng đồng, thảo luận mang tính chủ quan từ người dùng, thiếu sự kiểm duyệt biên tập chính thức.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn diễn đàn cộng đồng độ tin cậy thấp, mang tính cá nhân.\",\n      \"canhBao\": [\n        \"Nguồn quá một năm\"\n      ],\n      \"doanTrich\": \"In a comparative assessment of Claude 3 Opus and GPT-4’s capabilities, Claude 3 Opus generally demonstrates superior performance across a spectrum of tasks that test for knowledge and reasoning abilities.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/\",\n      \"tieuDe\": \"Claude 3 vs GPT-4: Best Enterprise LLM in 2026?\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Dextra Labs\",\n      \"ngayDang\": \"2026-02-19\",\n      \"ngayLayVe\": \"2026-09-17T13:43:42.392Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài phân tích chuyên sâu về doanh nghiệp từ một tổ chức công nghệ, có trích dẫn nghiên cứu nhưng thiếu tên tác giả cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn quá một năm (xuất bản năm 2026)\"\n      ],\n      \"doanTrich\": \"Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"GPT-4 phù hợp cho nhà phát triển cần hệ sinh thái trưởng thành và nhiều công cụ, trong khi Claude 3 nổi trội ở cửa sổ ngữ cảnh dài và chi phí tối ưu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Claude 3 sở hữu cửa sổ ngữ cảnh 200K token trong khi GPT-4 Turbo có cửa sổ ngữ cảnh 128K token.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Context window 128K (GPT-4 Turbo) 200K (Claude 3)\",\n          \"viTri\": \"Bảng so sánh kỹ thuật\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Cả Claude 3 và GPT-4 đều là các mô hình ngôn ngữ lớn cấp độ doanh nghiệp hỗ trợ lập luận nâng cao, sử dụng công cụ và tích hợp API.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.\",\n          \"viTri\": \"Phần mở đầu bài viết\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 12159
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash-lite",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "So sánh GPT-4 và Claude 3",
+      "mucTieu": "Biết ưu nhược điểm của từng mô hình",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Sinh viên CNTT",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.",
+          "chuTrenManHinh": "Tiêu đề video và logo",
+          "yDoHinh": "Nền xanh với tiêu đề và biểu tượng trí tuệ nhân tạo",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.",
+          "chuTrenManHinh": "Bảng so sánh GPT bốn vs Claude ba",
+          "yDoHinh": "Bảng chi tiết tính năng, màu xanh cho GPT, màu cam cho Claude",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.",
+          "chuTrenManHinh": "Đồ thị cửa sổ ngữ cảnh token",
+          "yDoHinh": "Cột so sánh kích thước ngữ cảnh, nhãn token",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.",
+          "chuTrenManHinh": "Biểu tượng lập luận và API",
+          "yDoHinh": "Biểu tượng não máy tính và giao diện lập trình, mũi tên chỉ khác biệt",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.",
+          "chuTrenManHinh": "Kết thúc với lời mời theo dõi",
+          "yDoHinh": "Màn hình cuối với lời cảm ơn và biểu tượng đăng ký",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789652636927",
+      "timestamp": "2026-09-17T13:43:56.927Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "So sánh GPT-4 và Claude 3",
+        "learningObjective": "Biết ưu nhược điểm của từng mô hình",
+        "targetAudience": "Sinh viên CNTT",
+        "videoDuration": "5 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N16"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://sfailabs.com/guides/gpt4-vs-claude-3-for-development",
+          "tieuDe": "GPT-4 vs Claude 3 for AI Development: Which to Build On? | SFAI Labs",
+          "ngayDang": "2026-01-31T00:00:00.000Z",
+          "ngayLayVe": "2026-09-17T13:43:42.390Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết kỹ thuật chi tiết có bảng so sánh giá và tính năng rõ ràng, nhưng tác giả và tổ chức không minh bạch.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm (xuất bản năm 2026)"
+          ],
+          "doanTrich": "GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://dextralabs.com/blog/claude-3-vs-gpt-4-best-enterprise-llm/",
+          "tieuDe": "Claude 3 vs GPT-4: Best Enterprise LLM in 2026?",
+          "toChuc": "Dextra Labs",
+          "ngayDang": "2026-02-19T04:01:08+05:30",
+          "ngayLayVe": "2026-09-17T13:43:42.392Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài phân tích chuyên sâu về doanh nghiệp từ một tổ chức công nghệ, có trích dẫn nghiên cứu nhưng thiếu tên tác giả cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm (xuất bản năm 2026)"
+          ],
+          "doanTrich": "Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "GPT-4 phù hợp cho nhà phát triển cần hệ sinh thái trưởng thành và nhiều công cụ, trong khi Claude 3 nổi trội ở cửa sổ ngữ cảnh dài và chi phí tối ưu.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content.",
+              "viTri": "Đoạn mở đầu"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Claude 3 sở hữu cửa sổ ngữ cảnh 200K token trong khi GPT-4 Turbo có cửa sổ ngữ cảnh 128K token.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Context window 128K (GPT-4 Turbo) 200K (Claude 3)",
+              "viTri": "Bảng so sánh kỹ thuật"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Cả Claude 3 và GPT-4 đều là các mô hình ngôn ngữ lớn cấp độ doanh nghiệp hỗ trợ lập luận nâng cao, sử dụng công cụ và tích hợp API.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments.",
+              "viTri": "Phần mở đầu bài viết"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "So sánh GPT-4 và Claude 3",
+        "mucTieu": "Biết ưu nhược điểm của từng mô hình",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Sinh viên CNTT",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.",
+            "chuTrenManHinh": "Tiêu đề video và logo",
+            "yDoHinh": "Nền xanh với tiêu đề và biểu tượng trí tuệ nhân tạo",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.",
+            "chuTrenManHinh": "Bảng so sánh GPT bốn vs Claude ba",
+            "yDoHinh": "Bảng chi tiết tính năng, màu xanh cho GPT, màu cam cho Claude",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.",
+            "chuTrenManHinh": "Đồ thị cửa sổ ngữ cảnh token",
+            "yDoHinh": "Cột so sánh kích thước ngữ cảnh, nhãn token",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.",
+            "chuTrenManHinh": "Biểu tượng lập luận và API",
+            "yDoHinh": "Biểu tượng não máy tính và giao diện lập trình, mũi tên chỉ khác biệt",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.",
+            "chuTrenManHinh": "Kết thúc với lời mời theo dõi",
+            "yDoHinh": "Màn hình cuối với lời cảm ơn và biểu tượng đăng ký",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] GPT-4 is better for developers who need mature tooling, broad model options, and extensive community resources. Claude 3 is the choice for applications requiring long context windows, cost efficiency, or careful handling of nuanced content."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Context window 128K (GPT-4 Turbo) 200K (Claude 3)"
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] Claude 3 by Anthropic and GPT 4 by OpenAI are two leading enterprise-grade large language models (LLMs). While both support advanced reasoning, tool use, and API integrations, they differ in context window size, safety philosophy, multimodal depth, cost structure, and deployment flexibility for enterprise environments."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"So sánh GPT-4 và Claude 3\",\n  \"mucTieu\":\"Biết ưu nhược điểm của từng mô hình\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Sinh viên CNTT\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.\",\"chuTrenManHinh\":\"Tiêu đề video và logo\",\"yDoHinh\":\"Nền xanh với tiêu đề và biểu tượng trí tuệ nhân tạo\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.\",\"chuTrenManHinh\":\"Bảng so sánh GPT bốn vs Claude ba\",\"yDoHinh\":\"Bảng chi tiết tính năng, màu xanh cho GPT, màu cam cho Claude\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.\",\"chuTrenManHinh\":\"Đồ thị cửa sổ ngữ cảnh token\",\"yDoHinh\":\"Cột so sánh kích thước ngữ cảnh, nhãn token\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.\",\"chuTrenManHinh\":\"Biểu tượng lập luận và API\",\"yDoHinh\":\"Biểu tượng não máy tính và giao diện lập trình, mũi tên chỉ khác biệt\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.\",\"chuTrenManHinh\":\"Kết thúc với lời mời theo dõi\",\"yDoHinh\":\"Màn hình cuối với lời cảm ơn và biểu tượng đăng ký\",\"nguon\":[]}\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-0f19684a-333e-4460-aec0-f31a86052e97",
+          "durationMs": 5567,
+          "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"So sánh GPT-4 và Claude 3\",\n  \"mucTieu\":\"Biết ưu nhược điểm của từng mô hình\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Sinh viên CNTT\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá sự khác biệt giữa GPT bốn và Claude ba.\",\"chuTrenManHinh\":\"Tiêu đề video và logo\",\"yDoHinh\":\"Nền xanh với tiêu đề và biểu tượng trí tuệ nhân tạo\",\"nguon\":[]},\n    {\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"GPT bốn được thiết kế cho các nhà phát triển cần hệ sinh thái trưởng thành, nhiều công cụ (tools) và tài nguyên cộng đồng phong phú.\",\"chuTrenManHinh\":\"Bảng so sánh GPT bốn vs Claude ba\",\"yDoHinh\":\"Bảng chi tiết tính năng, màu xanh cho GPT, màu cam cho Claude\",\"nguon\":[\"t01\"]},\n    {\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Claude ba sở hữu cửa sổ ngữ cảnh hai trăm nghìn token, trong khi GPT bốn Turbo chỉ hỗ trợ một trăm hai mươi tám nghìn token.\",\"chuTrenManHinh\":\"Đồ thị cửa sổ ngữ cảnh token\",\"yDoHinh\":\"Cột so sánh kích thước ngữ cảnh, nhãn token\",\"nguon\":[\"t02\"]},\n    {\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Cả Claude ba và GPT bốn đều hỗ trợ lập luận nâng cao, sử dụng công cụ (tool use) và tích hợp giao diện lập trình ứng dụng (API), nhưng chúng khác nhau về kích thước cửa sổ ngữ cảnh, triết lý an toàn, độ sâu đa phương tiện, cấu trúc chi phí và khả năng triển khai.\",\"chuTrenManHinh\":\"Biểu tượng lập luận và API\",\"yDoHinh\":\"Biểu tượng não máy tính và giao diện lập trình, mũi tên chỉ khác biệt\",\"nguon\":[\"t03\"]},\n    {\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng nhau so sánh ưu nhược điểm để lựa chọn mô hình phù hợp cho dự án của bạn.\",\"chuTrenManHinh\":\"Kết thúc với lời mời theo dõi\",\"yDoHinh\":\"Màn hình cuối với lời cảm ơn và biểu tượng đăng ký\",\"nguon\":[]}\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 5569
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

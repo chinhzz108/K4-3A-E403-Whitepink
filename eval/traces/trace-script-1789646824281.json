@@ -1,0 +1,284 @@
+{
+  "id": "trace-script-1789646824281",
+  "timestamp": "2026-09-17T12:07:04.282Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T12-05-18-065Z",
+    "evalCaseId": "N01"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+      "tieuDe": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+      "toChuc": "Viblo",
+      "ngayLayVe": "2026-09-17T12:05:42.027Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Viblo là nền tảng chia sẻ kỹ thuật phổ biến tại Việt Nam, nội dung chi tiết và có cấu trúc tốt, tuy nhiên thiếu thông tin tác giả và ngày đăng cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T12:05:42.028Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng và ngày đăng cụ thể, nội dung mang tính học thuật và kỹ thuật cao.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn gốc là bản dịch tự động từ tiếng Anh, cần kiểm tra độ chính xác của thuật ngữ nếu cần trích dẫn nguyên văn tiếng Việt.",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://vnptai.io/vi/blog/detail/context-window",
+      "tieuDe": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+      "tacGia": "VNPT AI",
+      "ngayLayVe": "2026-09-17T12:05:42.029Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "VNPT AI là đơn vị cung cấp dịch vụ AI, nội dung dễ hiểu và phù hợp với người dùng cuối, tuy nhiên thiếu ngày đăng cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin ngày đăng",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI. Khi bạn nhập một đoạn văn bản (prompt), mô hình sẽ chỉ hiểu và phản hồi dựa trên những gì nằm trong cửa sổ ngữ cảnh đó.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.",
+          "viTri": "Đoạn mở đầu"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "Đoạn mở đầu"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Khi cuộc trò chuyện hoặc văn bản vượt quá giới hạn cửa sổ ngữ cảnh, mô hình sẽ bắt đầu quên các thông tin cũ hoặc phải cắt bớt/tóm tắt dữ liệu để tiếp tục xử lý.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ.",
+          "viTri": "Đoạn mở đầu"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+          "viTri": "Đoạn thứ hai"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Dung lượng cửa sổ ngữ cảnh được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.",
+          "viTri": "Mục Token: đơn vị cơ bản"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "In real-world terms, the context length of a language model is measured not in words, but in tokens.",
+          "viTri": "Mục Context windows and tokenization"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Mô hình ngôn ngữ lớn sử dụng cơ chế tự chú ý (self-attention) để tính trọng số mối quan hệ giữa các token, nhưng kích thước context window giới hạn phạm vi mà cơ chế này có thể quét qua cùng lúc.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản.",
+          "viTri": "Mục Cơ chế tự chú ý (self-attention)"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh"
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "bốn phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.",
+        "chuTrenManHinh": "Tiêu đề video hiện lên",
+        "yDoHinh": "Hình minh hoạ logo AI và tiêu đề video",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+        "chuTrenManHinh": "Biểu đồ cửa sổ ngữ cảnh",
+        "yDoHinh": "Minh hoạ khung cửa sổ chứa một đoạn văn bản ngắn",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.",
+        "chuTrenManHinh": "Ví dụ token trên màn hình",
+        "yDoHinh": "Hình ảnh các token được tách ra từ một câu mẫu",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.",
+        "chuTrenManHinh": "Cảnh cắt bớt nội dung",
+        "yDoHinh": "Minh hoạ quá trình cắt bớt văn bản khi vượt quá cửa sổ",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.",
+        "chuTrenManHinh": "Mô hình self‑attention",
+        "yDoHinh": "Sơ đồ self‑attention với vùng cửa sổ giới hạn",
+        "nguon": [
+          "t04"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.; [n02] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.; [n02] In real-world terms, the context length of a language model is measured not in words, but in tokens."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ.; [n02] When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.",
+      "nguon": [
+        "t04"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.\",\"chuTrenManHinh\":\"Tiêu đề video hiện lên\",\"yDoHinh\":\"Hình minh hoạ logo AI và tiêu đề video\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.\",\"chuTrenManHinh\":\"Biểu đồ cửa sổ ngữ cảnh\",\"yDoHinh\":\"Minh hoạ khung cửa sổ chứa một đoạn văn bản ngắn\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.\",\"chuTrenManHinh\":\"Ví dụ token trên màn hình\",\"yDoHinh\":\"Hình ảnh các token được tách ra từ một câu mẫu\",\"nguon\":[\"t03\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.\",\"chuTrenManHinh\":\"Cảnh cắt bớt nội dung\",\"yDoHinh\":\"Minh hoạ quá trình cắt bớt văn bản khi vượt quá cửa sổ\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.\",\"chuTrenManHinh\":\"Mô hình self‑attention\",\"yDoHinh\":\"Sơ đồ self‑attention với vùng cửa sổ giới hạn\",\"nguon\":[\"t04\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-0350c957-f1ba-485e-a783-dc022da465dc",
+      "durationMs": 4185,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.\",\"chuTrenManHinh\":\"Tiêu đề video hiện lên\",\"yDoHinh\":\"Hình minh hoạ logo AI và tiêu đề video\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.\",\"chuTrenManHinh\":\"Biểu đồ cửa sổ ngữ cảnh\",\"yDoHinh\":\"Minh hoạ khung cửa sổ chứa một đoạn văn bản ngắn\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.\",\"chuTrenManHinh\":\"Ví dụ token trên màn hình\",\"yDoHinh\":\"Hình ảnh các token được tách ra từ một câu mẫu\",\"nguon\":[\"t03\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.\",\"chuTrenManHinh\":\"Cảnh cắt bớt nội dung\",\"yDoHinh\":\"Minh hoạ quá trình cắt bớt văn bản khi vượt quá cửa sổ\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.\",\"chuTrenManHinh\":\"Mô hình self‑attention\",\"yDoHinh\":\"Sơ đồ self‑attention với vùng cửa sổ giới hạn\",\"nguon\":[\"t04\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 39213
+}

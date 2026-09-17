@@ -1,0 +1,238 @@
+{
+  "id": "trace-script-1789652432393",
+  "timestamp": "2026-09-17T13:40:32.393Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Retrieval-Augmented Generation (RAG)",
+    "learningObjective": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "targetAudience": "Sinh viên CNTT năm 3",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N06"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "tieuDe": "Tìm hiểu về Retrieval Augmented Generation (RAG)",
+      "toChuc": "Viblo",
+      "ngayLayVe": "2026-09-17T13:40:19.918Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết kỹ thuật trên nền tảng cộng đồng nhưng phân tích chi tiết về Sentence Transformers và ứng dụng trong RAG.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng",
+        "Nguồn bài viết từ blog cộng đồng nên cần đối chiếu thêm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://arxiv.org/abs/2510.24476",
+      "tieuDe": "[2510.24476] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T13:40:19.919Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài khảo sát khoa học chuyên sâu về giảm thiểu ảo giác trong LLM thông qua RAG từ các tác giả uy tín trên arXiv.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "tieuDe": "Retrieval-augmented generation - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:40:19.920Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết Wikipedia cung cấp tổng quan khái niệm và kỹ thuật của RAG nhưng thiếu kiểm chứng tác giả cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng cụ thể",
+        "Nội dung wiki cộng đồng đóng góp",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Retrieval-Augmented Generation (RAG) là kỹ thuật giúp kết hợp mô hình ngôn ngữ lớn với tri thức bên ngoài nhằm cải thiện khả năng sinh văn bản và giảm thiểu hiện tượng ảo giác.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)",
+          "viTri": "Phần đầu nội dung trang 1"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.",
+          "viTri": "Phần đầu nội dung trang 3"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "RAG và tăng cường lập luận là hai trong số các phương pháp hiệu quả và được áp dụng rộng rãi nhất để giảm thiểu hiện tượng ảo giác trong các mô hình ngôn ngữ lớn.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches",
+          "viTri": "Phần Abstract trang 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Retrieval-Augmented Generation (RAG)",
+    "mucTieu": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên CNTT năm ba",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá kỹ thuật Retrieval‑Augmented Generation, hay còn gọi là RAG.",
+        "chuTrenManHinh": "Tiêu đề: Retrieval‑Augmented Generation",
+        "yDoHinh": "Màn hình hiển thị tiêu đề và logo môn học",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "RAG là kỹ thuật giúp nâng cao khả năng sinh văn bản của mô hình ngôn ngữ lớn bằng cách kết hợp tri thức bên ngoài.",
+        "chuTrenManHinh": "Mô hình + dữ liệu bên ngoài",
+        "yDoHinh": "Biểu đồ minh họa mô hình RAG với khối truy xuất và sinh",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "RAG cho phép mô hình truy xuất và tích hợp thông tin mới từ các nguồn dữ liệu bên ngoài.",
+        "chuTrenManHinh": "Quy trình truy xuất dữ liệu",
+        "yDoHinh": "Sơ đồ luồng dữ liệu từ kho tới mô hình",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Theo nghiên cứu, RAG và tăng cường lập luận (reasoning enhancement) là hai phương pháp hiệu quả nhất để giảm hiện tượng ảo giác trong các mô hình ngôn ngữ lớn.",
+        "chuTrenManHinh": "So sánh RAG và lập luận",
+        "yDoHinh": "Bảng so sánh hiệu quả giảm ảo giác giữa RAG và các kỹ thuật khác",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hy vọng các bạn sẽ áp dụng RAG để cải thiện độ tin cậy của các hệ thống sinh văn bản, hẹn gặp lại trong video tiếp theo.",
+        "chuTrenManHinh": "Cảm ơn và lời chào",
+        "yDoHinh": "Hình ảnh cảm ơn và logo kênh",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá kỹ thuật Retrieval‑Augmented Generation, hay còn gọi là RAG.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "RAG là kỹ thuật giúp nâng cao khả năng sinh văn bản của mô hình ngôn ngữ lớn bằng cách kết hợp tri thức bên ngoài.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge); [n03] Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "RAG cho phép mô hình truy xuất và tích hợp thông tin mới từ các nguồn dữ liệu bên ngoài.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge); [n03] Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Theo nghiên cứu, RAG và tăng cường lập luận (reasoning enhancement) là hai phương pháp hiệu quả nhất để giảm hiện tượng ảo giác trong các mô hình ngôn ngữ lớn.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hy vọng các bạn sẽ áp dụng RAG để cải thiện độ tin cậy của các hệ thống sinh văn bản, hẹn gặp lại trong video tiếp theo.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Retrieval-Augmented Generation (RAG)\",\n  \"mucTieu\":\"Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Sinh viên CNTT năm ba\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá kỹ thuật Retrieval‑Augmented Generation, hay còn gọi là RAG.\",\n      \"chuTrenManHinh\":\"Tiêu đề: Retrieval‑Augmented Generation\",\n      \"yDoHinh\":\"Màn hình hiển thị tiêu đề và logo môn học\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"RAG là kỹ thuật giúp nâng cao khả năng sinh văn bản của mô hình ngôn ngữ lớn bằng cách kết hợp tri thức bên ngoài.\",\n      \"chuTrenManHinh\":\"Mô hình + dữ liệu bên ngoài\",\n      \"yDoHinh\":\"Biểu đồ minh họa mô hình RAG với khối truy xuất và sinh\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"RAG cho phép mô hình truy xuất và tích hợp thông tin mới từ các nguồn dữ liệu bên ngoài.\",\n      \"chuTrenManHinh\":\"Quy trình truy xuất dữ liệu\",\n      \"yDoHinh\":\"Sơ đồ luồng dữ liệu từ kho tới mô hình\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Theo nghiên cứu, RAG và tăng cường lập luận (reasoning enhancement) là hai phương pháp hiệu quả nhất để giảm hiện tượng ảo giác trong các mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\":\"So sánh RAG và lập luận\",\n      \"yDoHinh\":\"Bảng so sánh hiệu quả giảm ảo giác giữa RAG và các kỹ thuật khác\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Hy vọng các bạn sẽ áp dụng RAG để cải thiện độ tin cậy của các hệ thống sinh văn bản, hẹn gặp lại trong video tiếp theo.\",\n      \"chuTrenManHinh\":\"Cảm ơn và lời chào\",\n      \"yDoHinh\":\"Hình ảnh cảm ơn và logo kênh\",\n      \"nguon\":[]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-bb78b5a4-98a2-48f3-8351-46155f30fc0a",
+      "durationMs": 6215,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Retrieval-Augmented Generation (RAG)\",\n  \"mucTieu\":\"Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Sinh viên CNTT năm ba\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá kỹ thuật Retrieval‑Augmented Generation, hay còn gọi là RAG.\",\n      \"chuTrenManHinh\":\"Tiêu đề: Retrieval‑Augmented Generation\",\n      \"yDoHinh\":\"Màn hình hiển thị tiêu đề và logo môn học\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"RAG là kỹ thuật giúp nâng cao khả năng sinh văn bản của mô hình ngôn ngữ lớn bằng cách kết hợp tri thức bên ngoài.\",\n      \"chuTrenManHinh\":\"Mô hình + dữ liệu bên ngoài\",\n      \"yDoHinh\":\"Biểu đồ minh họa mô hình RAG với khối truy xuất và sinh\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"RAG cho phép mô hình truy xuất và tích hợp thông tin mới từ các nguồn dữ liệu bên ngoài.\",\n      \"chuTrenManHinh\":\"Quy trình truy xuất dữ liệu\",\n      \"yDoHinh\":\"Sơ đồ luồng dữ liệu từ kho tới mô hình\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Theo nghiên cứu, RAG và tăng cường lập luận (reasoning enhancement) là hai phương pháp hiệu quả nhất để giảm hiện tượng ảo giác trong các mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\":\"So sánh RAG và lập luận\",\n      \"yDoHinh\":\"Bảng so sánh hiệu quả giảm ảo giác giữa RAG và các kỹ thuật khác\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Hy vọng các bạn sẽ áp dụng RAG để cải thiện độ tin cậy của các hệ thống sinh văn bản, hẹn gặp lại trong video tiếp theo.\",\n      \"chuTrenManHinh\":\"Cảm ơn và lời chào\",\n      \"yDoHinh\":\"Hình ảnh cảm ơn và logo kênh\",\n      \"nguon\":[]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 6218
+}

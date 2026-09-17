@@ -1,0 +1,244 @@
+{
+  "id": "trace-script-1789646389457",
+  "timestamp": "2026-09-17T11:59:49.457Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách phòng chống prompt injection",
+    "learningObjective": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "targetAudience": "Lập trình viên",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T11-58-16-813Z",
+    "evalCaseId": "N20"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://github.com/tldrsec/prompt-injection-defenses",
+      "tieuDe": "GitHub - tldrsec/prompt-injection-defenses: Every practical and proposed defense against prompt injection. · GitHub",
+      "toChuc": "GitHub",
+      "ngayLayVe": "2026-09-17T11:58:24.564Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Repository maintained by community, author unknown, but content aggregates multiple sources on defenses.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "This repository centralizes and summarizes practical and proposed defenses against prompt injection.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+      "tieuDe": "LLM Prompt Injection Prevention - OWASP Cheat Sheet Series",
+      "ngayLayVe": "2026-09-17T11:58:24.566Z",
+      "loai": "bao-chi",
+      "doTinCay": "cao",
+      "lyDoTinCay": "OWASP is a well‑known security organization; cheat sheets are vetted by experts.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Prompt injection is a vulnerability in Large Language Model (LLM) applications that allows attackers to manipulate the model's behavior by injecting malicious input that changes its intended output.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://arxiv.org/abs/2411.00459",
+      "tieuDe": "[2411.00459] Defense Against Prompt Injection Attack by Leveraging Attack Techniques",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T11:58:25.565Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Preprint not peer‑reviewed but authored by researchers; recent work with experimental validation.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "With the advancement of technology, large language models (LLMs) have achieved remarkable performance across various natural language processing (NLP) tasks, powering LLM-integrated applications like Microsoft Copilot.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Sử dụng tiền xử lý đầu vào (paraphrasing, retokenization) để làm cho việc tạo prompt đối kháng khó hơn.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "This repository centralizes and summarizes practical and proposed defenses against prompt injection.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Triển khai guardrails, overseers, firewall và bộ lọc (ví dụ: token canary) để giám sát và phát hiện prompt injection.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "This repository centralizes and summarizes practical and proposed defenses against prompt injection.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Áp dụng kiến trúc ensemble hoặc mixture of experts, sử dụng nhiều mô hình với các mức quyền khác nhau để tăng khả năng chịu lỗi khi có prompt injection.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "This repository centralizes and summarizes practical and proposed defenses against prompt injection.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách phòng chống prompt injection",
+    "mucTieu": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Lập trình viên",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn lập trình viên đến với buổi học về phòng chống tấn công chèn lệnh gợi ý, hay còn gọi là prompt injection.",
+        "chuTrenManHinh": "Chào mừng các bạn",
+        "yDoHinh": "Hình người lập trình viên mỉm cười trước màn hình máy tính.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Cách thứ nhất là áp dụng tiền xử lý đầu vào như diễn giải lại và tái mã hoá để làm cho việc tạo prompt đối kháng trở nên khó khăn hơn.",
+        "chuTrenManHinh": "Tiền xử lý đầu vào",
+        "yDoHinh": "Minh hoạ quy trình paraphrasing và retokenization trên văn bản đầu vào.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Cách thứ hai là triển khai các rào chắn guardrails, người giám sát overseers, tường lửa firewall và bộ lọc token canary để phát hiện và chặn prompt injection.",
+        "chuTrenManHinh": "Rào chắn và giám sát",
+        "yDoHinh": "Biểu đồ các lớp bảo vệ bao gồm guardrails và token canary.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Cách thứ ba là sử dụng kiến trúc ensemble, hay còn gọi là hỗn hợp các chuyên gia mixture of experts, kết hợp nhiều mô hình với quyền hạn khác nhau để tăng khả năng chịu lỗi khi gặp prompt injection.",
+        "chuTrenManHinh": "Kiến trúc ensemble",
+        "yDoHinh": "Sơ đồ mô hình ensemble với các chuyên gia mô hình độc lập.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hy vọng các bạn sẽ áp dụng ba cách này để bảo vệ hệ thống AI của mình một cách hiệu quả.",
+        "chuTrenManHinh": "Áp dụng ba cách",
+        "yDoHinh": "Hình biểu tượng bảo vệ AI với lá chắn và mã nguồn.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn lập trình viên đến với buổi học về phòng chống tấn công chèn lệnh gợi ý, hay còn gọi là prompt injection.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Cách thứ nhất là áp dụng tiền xử lý đầu vào như diễn giải lại và tái mã hoá để làm cho việc tạo prompt đối kháng trở nên khó khăn hơn.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] This repository centralizes and summarizes practical and proposed defenses against prompt injection."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Cách thứ hai là triển khai các rào chắn guardrails, người giám sát overseers, tường lửa firewall và bộ lọc token canary để phát hiện và chặn prompt injection.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] This repository centralizes and summarizes practical and proposed defenses against prompt injection."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Cách thứ ba là sử dụng kiến trúc ensemble, hay còn gọi là hỗn hợp các chuyên gia mixture of experts, kết hợp nhiều mô hình với quyền hạn khác nhau để tăng khả năng chịu lỗi khi gặp prompt injection.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] This repository centralizes and summarizes practical and proposed defenses against prompt injection."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hy vọng các bạn sẽ áp dụng ba cách này để bảo vệ hệ thống AI của mình một cách hiệu quả.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cách phòng chống prompt injection\",\n  \"mucTieu\":\"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Lập trình viên\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào mừng các bạn lập trình viên đến với buổi học về phòng chống tấn công chèn lệnh gợi ý, hay còn gọi là prompt injection.\",\n      \"chuTrenManHinh\":\"Chào mừng các bạn\",\n      \"yDoHinh\":\"Hình người lập trình viên mỉm cười trước màn hình máy tính.\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Cách thứ nhất là áp dụng tiền xử lý đầu vào như diễn giải lại và tái mã hoá để làm cho việc tạo prompt đối kháng trở nên khó khăn hơn.\",\n      \"chuTrenManHinh\":\"Tiền xử lý đầu vào\",\n      \"yDoHinh\":\"Minh hoạ quy trình paraphrasing và retokenization trên văn bản đầu vào.\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Cách thứ hai là triển khai các rào chắn guardrails, người giám sát overseers, tường lửa firewall và bộ lọc token canary để phát hiện và chặn prompt injection.\",\n      \"chuTrenManHinh\":\"Rào chắn và giám sát\",\n      \"yDoHinh\":\"Biểu đồ các lớp bảo vệ bao gồm guardrails và token canary.\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Cách thứ ba là sử dụng kiến trúc ensemble, hay còn gọi là hỗn hợp các chuyên gia mixture of experts, kết hợp nhiều mô hình với quyền hạn khác nhau để tăng khả năng chịu lỗi khi gặp prompt injection.\",\n      \"chuTrenManHinh\":\"Kiến trúc ensemble\",\n      \"yDoHinh\":\"Sơ đồ mô hình ensemble với các chuyên gia mô hình độc lập.\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Hy vọng các bạn sẽ áp dụng ba cách này để bảo vệ hệ thống AI của mình một cách hiệu quả.\",\n      \"chuTrenManHinh\":\"Áp dụng ba cách\",\n      \"yDoHinh\":\"Hình biểu tượng bảo vệ AI với lá chắn và mã nguồn.\",\n      \"nguon\":[]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-2ea566ee-270c-485f-9201-6610f386768e",
+      "durationMs": 6331,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cách phòng chống prompt injection\",\n  \"mucTieu\":\"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Lập trình viên\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào mừng các bạn lập trình viên đến với buổi học về phòng chống tấn công chèn lệnh gợi ý, hay còn gọi là prompt injection.\",\n      \"chuTrenManHinh\":\"Chào mừng các bạn\",\n      \"yDoHinh\":\"Hình người lập trình viên mỉm cười trước màn hình máy tính.\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Cách thứ nhất là áp dụng tiền xử lý đầu vào như diễn giải lại và tái mã hoá để làm cho việc tạo prompt đối kháng trở nên khó khăn hơn.\",\n      \"chuTrenManHinh\":\"Tiền xử lý đầu vào\",\n      \"yDoHinh\":\"Minh hoạ quy trình paraphrasing và retokenization trên văn bản đầu vào.\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Cách thứ hai là triển khai các rào chắn guardrails, người giám sát overseers, tường lửa firewall và bộ lọc token canary để phát hiện và chặn prompt injection.\",\n      \"chuTrenManHinh\":\"Rào chắn và giám sát\",\n      \"yDoHinh\":\"Biểu đồ các lớp bảo vệ bao gồm guardrails và token canary.\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Cách thứ ba là sử dụng kiến trúc ensemble, hay còn gọi là hỗn hợp các chuyên gia mixture of experts, kết hợp nhiều mô hình với quyền hạn khác nhau để tăng khả năng chịu lỗi khi gặp prompt injection.\",\n      \"chuTrenManHinh\":\"Kiến trúc ensemble\",\n      \"yDoHinh\":\"Sơ đồ mô hình ensemble với các chuyên gia mô hình độc lập.\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Hy vọng các bạn sẽ áp dụng ba cách này để bảo vệ hệ thống AI của mình một cách hiệu quả.\",\n      \"chuTrenManHinh\":\"Áp dụng ba cách\",\n      \"yDoHinh\":\"Hình biểu tượng bảo vệ AI với lá chắn và mã nguồn.\",\n      \"nguon\":[]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 41350
+}

@@ -1,0 +1,203 @@
+{
+  "id": "trace-script-1789650711026",
+  "timestamp": "2026-09-17T13:11:51.026Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N01"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T13:11:22.775Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là tổ chức uy tín; bài viết có tác giả rõ ràng và ngày xuất bản gần đây.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Context_window",
+      "tieuDe": "Context window - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:11:32.791Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là nguồn mở, thường đáng tin nhưng có thể thay đổi; không có ngày xuất bản cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Mô hình ngôn ngữ chỉ có thể “nhìn” một lượng token giới hạn tại một thời điểm; khi cuộc trò chuyện vượt quá cửa sổ ngữ cảnh, các chi tiết đầu tiên không còn trong phạm vi nhớ, dẫn đến việc trợ lý quên phần đầu.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "đoạn 1"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+          "viTri": "đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Bạn có bao giờ tự hỏi tại sao trợ lý ảo lại quên mất những gì chúng ta đã nói ở phần đầu của một cuộc trò chuyện dài?",
+        "chuTrenManHinh": "Trợ lý quên phần đầu?",
+        "yDoHinh": "Hình ảnh một người đang nói chuyện với một robot, robot lắc đầu tỏ vẻ không nhớ nội dung trước đó.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Liệu điều này có phải do lỗi kỹ thuật hay do bản chất cách máy tính xử lý thông tin?",
+        "chuTrenManHinh": "Lỗi kỹ thuật hay bản chất?",
+        "yDoHinh": "Biểu tượng dấu hỏi lớn giữa hai hình ảnh: một con ốc vít (kỹ thuật) và một bộ não (bản chất).",
+        "nguon": []
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Thực tế, mô hình ngôn ngữ chỉ có thể xem xét hoặc nhớ lại một lượng văn bản giới hạn, tính bằng các đơn vị token, tại một thời điểm.",
+        "chuTrenManHinh": "Giới hạn nhớ theo token",
+        "yDoHinh": "Một thanh tiến trình đầy dần, biểu thị lượng văn bản mà mô hình có thể xử lý cùng lúc.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Khi cuộc trò chuyện vượt quá giới hạn này, các chi tiết đầu tiên sẽ không còn nằm trong phạm vi nhớ của mô hình.",
+        "chuTrenManHinh": "Vượt quá phạm vi nhớ",
+        "yDoHinh": "Một cuốn sách dày bị lật qua, các trang đầu tiên rơi ra ngoài tầm nhìn của người đọc.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, việc trợ lý quên phần đầu cuộc trò chuyện là hệ quả trực tiếp của giới hạn cửa sổ ngữ cảnh, hay còn gọi là context window.",
+        "chuTrenManHinh": "Hệ quả của context window",
+        "yDoHinh": "Mũi tên chỉ từ biểu tượng 'cửa sổ' đóng lại đến biểu tượng 'ký hiệu quên' (xóa sổ).",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Bạn có bao giờ tự hỏi tại sao trợ lý ảo lại quên mất những gì chúng ta đã nói ở phần đầu của một cuộc trò chuyện dài?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Liệu điều này có phải do lỗi kỹ thuật hay do bản chất cách máy tính xử lý thông tin?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Thực tế, mô hình ngôn ngữ chỉ có thể xem xét hoặc nhớ lại một lượng văn bản giới hạn, tính bằng các đơn vị token, tại một thời điểm.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.; [n03] The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Khi cuộc trò chuyện vượt quá giới hạn này, các chi tiết đầu tiên sẽ không còn nằm trong phạm vi nhớ của mô hình.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.; [n03] The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, việc trợ lý quên phần đầu cuộc trò chuyện là hệ quả trực tiếp của giới hạn cửa sổ ngữ cảnh, hay còn gọi là context window.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.; [n03] The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bạn có bao giờ tự hỏi tại sao trợ lý ảo lại quên mất những gì chúng ta đã nói ở phần đầu của một cuộc trò chuyện dài?\",\n      \"chuTrenManHinh\": \"Trợ lý quên phần đầu?\",\n      \"yDoHinh\": \"Hình ảnh một người đang nói chuyện với một robot, robot lắc đầu tỏ vẻ không nhớ nội dung trước đó.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu điều này có phải do lỗi kỹ thuật hay do bản chất cách máy tính xử lý thông tin?\",\n      \"chuTrenManHinh\": \"Lỗi kỹ thuật hay bản chất?\",\n      \"yDoHinh\": \"Biểu tượng dấu hỏi lớn giữa hai hình ảnh: một con ốc vít (kỹ thuật) và một bộ não (bản chất).\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thực tế, mô hình ngôn ngữ chỉ có thể xem xét hoặc nhớ lại một lượng văn bản giới hạn, tính bằng các đơn vị token, tại một thời điểm.\",\n      \"chuTrenManHinh\": \"Giới hạn nhớ theo token\",\n      \"yDoHinh\": \"Một thanh tiến trình đầy dần, biểu thị lượng văn bản mà mô hình có thể xử lý cùng lúc.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Khi cuộc trò chuyện vượt quá giới hạn này, các chi tiết đầu tiên sẽ không còn nằm trong phạm vi nhớ của mô hình.\",\n      \"chuTrenManHinh\": \"Vượt quá phạm vi nhớ\",\n      \"yDoHinh\": \"Một cuốn sách dày bị lật qua, các trang đầu tiên rơi ra ngoài tầm nhìn của người đọc.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, việc trợ lý quên phần đầu cuộc trò chuyện là hệ quả trực tiếp của giới hạn cửa sổ ngữ cảnh, hay còn gọi là context window.\",\n      \"chuTrenManHinh\": \"Hệ quả của context window\",\n      \"yDoHinh\": \"Mũi tên chỉ từ biểu tượng 'cửa sổ' đóng lại đến biểu tượng 'ký hiệu quên' (xóa sổ).\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-e5188480-3980-4b0b-8ec8-b2809c4672cc",
+      "durationMs": 1940,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bạn có bao giờ tự hỏi tại sao trợ lý ảo lại quên mất những gì chúng ta đã nói ở phần đầu của một cuộc trò chuyện dài?\",\n      \"chuTrenManHinh\": \"Trợ lý quên phần đầu?\",\n      \"yDoHinh\": \"Hình ảnh một người đang nói chuyện với một robot, robot lắc đầu tỏ vẻ không nhớ nội dung trước đó.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu điều này có phải do lỗi kỹ thuật hay do bản chất cách máy tính xử lý thông tin?\",\n      \"chuTrenManHinh\": \"Lỗi kỹ thuật hay bản chất?\",\n      \"yDoHinh\": \"Biểu tượng dấu hỏi lớn giữa hai hình ảnh: một con ốc vít (kỹ thuật) và một bộ não (bản chất).\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thực tế, mô hình ngôn ngữ chỉ có thể xem xét hoặc nhớ lại một lượng văn bản giới hạn, tính bằng các đơn vị token, tại một thời điểm.\",\n      \"chuTrenManHinh\": \"Giới hạn nhớ theo token\",\n      \"yDoHinh\": \"Một thanh tiến trình đầy dần, biểu thị lượng văn bản mà mô hình có thể xử lý cùng lúc.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Khi cuộc trò chuyện vượt quá giới hạn này, các chi tiết đầu tiên sẽ không còn nằm trong phạm vi nhớ của mô hình.\",\n      \"chuTrenManHinh\": \"Vượt quá phạm vi nhớ\",\n      \"yDoHinh\": \"Một cuốn sách dày bị lật qua, các trang đầu tiên rơi ra ngoài tầm nhìn của người đọc.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, việc trợ lý quên phần đầu cuộc trò chuyện là hệ quả trực tiếp của giới hạn cửa sổ ngữ cảnh, hay còn gọi là context window.\",\n      \"chuTrenManHinh\": \"Hệ quả của context window\",\n      \"yDoHinh\": \"Mũi tên chỉ từ biểu tượng 'cửa sổ' đóng lại đến biểu tượng 'ký hiệu quên' (xóa sổ).\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 2064
+}

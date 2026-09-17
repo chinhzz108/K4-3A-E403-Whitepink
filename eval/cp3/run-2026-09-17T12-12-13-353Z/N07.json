@@ -1,0 +1,1001 @@
+{
+  "case": {
+    "id": "N07",
+    "class": "thuong",
+    "input": {
+      "topic": "Fine-tuning so với prompt engineering",
+      "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+      "targetAudience": "Quản lý sản phẩm",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "So sánh hai phương pháp với ưu nhược điểm. Không quá kỹ thuật.",
+    "origin": "tự tạo — quyết định kỹ thuật phổ biến; không phải chatlog",
+    "passCriteria": "≥2 nguồn; so sánh rõ; phù hợp đối tượng quản lý",
+    "failCriteria": "Quá kỹ thuật; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+        "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+        "tacGia": "Ivan Belcic, Cole Stryker",
+        "ngayDang": "2025-02-07",
+        "ngayLayVe": "2026-09-17T12:20:40.198Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, cấu trúc logic.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo",
+        "tieuDe": "Fine-tuning vs Prompting: When to Choose Each | Jesse Zhang Đăng trên chủ đề | LinkedIn",
+        "toChuc": "LinkedIn",
+        "ngayLayVe": "2026-09-17T12:20:41.403Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Đây là bài đăng cá nhân trên LinkedIn từ một kỹ sư (Decagon). Mặc dù không phải tài liệu học thuật, nhưng cung cấp góc nhìn thực tế về chi phí và rủi ro của fine-tuning so với prompting.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Ngày đăng không rõ, cần kiểm tra thêm thời điểm cụ thể để đánh giá tính cập nhật.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate. New foundation models are also being released constantly, which means you either stay locked into an older model or redo the work every few months.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+        "tieuDe": "Prompt engineering vs fine-tuning: Understanding the pros and cons",
+        "ngayLayVe": "2026-09-17T12:20:41.405Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Blog của công ty công nghệ (K2View). Tác giả là Product Marketing Director. Nội dung tổng hợp tốt, có bảng so sánh rõ ràng, phù hợp cho mục đích giáo dục cơ bản.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://community.openai.com/t/prompting-vs-finetuning-what-should-i-choose/1089650",
+        "tieuDe": "Prompting vs Finetuning : what should i choose? - Prompting - OpenAI Developer Community",
+        "toChuc": "OpenAI Developer Community",
+        "ngayDang": "2025-01-13T15:10:31+00:00",
+        "ngayLayVe": "2026-09-17T12:21:19.260Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Đây là diễn đàn thảo luận, không phải tài liệu tham khảo chính thống. Nội dung là câu hỏi và trả lời từ cộng đồng, thiếu tính hệ thống và độ tin cậy thấp hơn so với các nguồn chuyên gia hoặc tổ chức lớn.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Diễn đàn thảo luận, không phải nguồn tài liệu giáo dục chính thống, độ tin cậy thấp.",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "I haven’t personally used fine-tuning, but I do have extensive experience with prompt engineering, and I believe it could be a great fit for your use case.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n05",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+        "tieuDe": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+        "ngayLayVe": "2026-09-17T12:20:40.200Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+        "tieuDe": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+        "ngayLayVe": "2026-09-17T12:20:40.202Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n07",
+        "url": "https://medium.com/@myscale/prompt-engineering-vs-finetuning-vs-rag-cfae761c6d06",
+        "tieuDe": "https://medium.com/@myscale/prompt-engineering-vs-finetuning-vs-rag-cfae761c6d06",
+        "ngayLayVe": "2026-09-17T12:20:41.401Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Prompt engineering là phương pháp tối ưu hóa đầu vào (input) để hướng dẫn mô hình tạo ra đầu ra mong muốn mà không thay đổi tham số của mô hình. Nó ít tốn kém và nhanh chóng hơn so với fine-tuning.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+            "viTri": "Đoạn 5"
+          },
+          {
+            "nguonId": "n03",
+            "doanTrich": "The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.",
+            "viTri": "Đoạn 3"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Fine-tuning là quá trình huấn luyện lại mô hình trên dữ liệu chuyên ngành cụ thể. Phương pháp này tốn nhiều thời gian, chi phí và tài nguyên tính toán hơn, đồng thời làm giảm tính linh hoạt của mô hình vì nó bị đặc hóa cho một nhiệm vụ cụ thể.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming.",
+            "viTri": "Đoạn 6"
+          },
+          {
+            "nguonId": "n02",
+            "doanTrich": "Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate.",
+            "viTri": "Đoạn 1"
+          },
+          {
+            "nguonId": "n03",
+            "doanTrich": "Reduces flexibility since the model becomes specialized to a specific domain or task.",
+            "viTri": "Bảng so sánh, cột Fine-Tuning, hàng Flexibility"
+          }
+        ],
+        "soNguonXacNhan": 3,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "Fine-tuning vs Prompting",
+      "Choosing Fine-tuning or Prompting"
+    ],
+    "pagesRead": 7,
+    "pagesOk": 4,
+    "trace": {
+      "id": "trace-research-1789647697786",
+      "timestamp": "2026-09-17T12:21:37.786Z",
+      "phase": "research",
+      "input": {
+        "topic": "Fine-tuning so với prompt engineering",
+        "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T12-12-13-353Z",
+        "evalCaseId": "N07"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "RAG vs fine-tuning vs. prompt engineering",
+              "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+              "snippet": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase ...",
+              "position": 1
+            },
+            {
+              "title": "When is it best to use prompt engineering vs fine-tuning?",
+              "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+              "snippet": "As somebody who has been experimenting with GPT (both closed-source and open-source), I have been doing both of prompt engineering and fine-tuning. But ...",
+              "position": 2
+            },
+            {
+              "title": "Prompt Engineering vs. Fine-Tuning—Key Considerations ...",
+              "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+              "snippet": "Fine-tuning involves retraining the model on a specialized dataset to adapt responses to specific contexts or domains. Prompt engineering, on the other hand, ...",
+              "position": 3
+            },
+            {
+              "title": "Prompt Engineering vs Fine-tuning vs RAG",
+              "url": "https://medium.com/@myscale/prompt-engineering-vs-finetuning-vs-rag-cfae761c6d06",
+              "snippet": "Each method has its unique strengths and limitations. Prompting is accessible and cost-effective but offers less customization. Fine-tuning ...",
+              "position": 4
+            },
+            {
+              "title": "Prompt engineering vs fine-tuning: Understanding the pros ...",
+              "url": "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+              "snippet": "In short, while prompt engineering offers a quicker, cost-effective solution, fine-tuning provides deeper customization at the expense of resources and ...",
+              "position": 5
+            }
+          ],
+          "query": "Fine-tuning vs Prompting",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "RAG vs fine-tuning vs. prompt engineering - IBM",
+              "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+              "snippet": "Fine-tuning hones a model for highly focused work—when data scientists need a model to do one thing very well. RAG is an ideal solution where accurate, relevant ...",
+              "position": 1
+            },
+            {
+              "title": "Prompt Engineering vs. Fine-Tuning—Key Considerations and Best ...",
+              "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+              "snippet": "Fine-tuning involves retraining the model on a specialized dataset to adapt responses to specific contexts or domains. Prompt engineering, on the other hand, ...",
+              "position": 2
+            },
+            {
+              "title": "When is it best to use prompt engineering vs fine-tuning? - Reddit",
+              "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+              "snippet": "Prompt engineering is used to steer the model into something that isn't necessary the goal of previous fine-tuning, or even goes against it, and ...",
+              "position": 3
+            },
+            {
+              "title": "Fine-tuning vs Prompting: When to Choose Each - LinkedIn",
+              "url": "https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo",
+              "snippet": "Fine-tuning is best when you're 100% confident of the output you want. Prompting, for me, is more exploratory. Build because of the gaps you're ...",
+              "position": 4
+            },
+            {
+              "title": "Prompting vs Finetuning : what should i choose?",
+              "url": "https://community.openai.com/t/prompting-vs-finetuning-what-should-i-choose/1089650",
+              "snippet": "With well-crafted instructions and incorporating chain-of-thought prompting, there's a good chance you could achieve good results without ...",
+              "position": 5
+            }
+          ],
+          "query": "Choosing Fine-tuning or Prompting",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "https://medium.com/@myscale/prompt-engineering-vs-finetuning-vs-rag-cfae761c6d06",
+          "https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo",
+          "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+          "https://community.openai.com/t/prompting-vs-finetuning-what-should-i-choose/1089650"
+        ],
+        "pagesRead": [
+          "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "https://medium.com/@myscale/prompt-engineering-vs-finetuning-vs-rag-cfae761c6d06",
+          "https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo",
+          "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+          "https://community.openai.com/t/prompting-vs-finetuning-what-should-i-choose/1089650"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp",
+          "Bước đánh giá chọn dưới hai nguồn; đọc thêm ứng viên"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "content": "RAG vs. fine-tuning vs. prompt engineering\n\nRAG vs. fine-tuning vs. prompt engineering\n\nPrompt engineering, fine-tuning and retrieval augmented generation (RAG) are three optimization methods that enterprises can use to get more value out of large language models (LLMs). All three optimize model behavior, but which one to use depends on the target use case and available resources.\n\nGenerative AI models are trained on massive pools of data, much of which is gleaned from the internet. Artificial intelligence developers do not typically have access to niche data, such as an enterprise’s proprietary and internal data. When organizations want to apply large language models (LLMs) to for specific needs, they need to tweak the way that the gen AI model works\n\nPrompt engineering, RAG and fine-tuning all help optimize an LLM’s outputs for target use cases. With them, data scientists can get better downstream performance, greater domain-specific accuracy and output that meets relevant formatting, language or regulatory requirements.\n\nThink beyond the prompts and get the full context\n\nStay ahead of the latest in industry news, AI tools and emerging trends in prompt engineering with the Think Newsletter. Plus, get access to new explainers, tutorials and expert insights—delivered straight to your inbox, twice weekly.\n\nWhat’s the difference between RAG, fine-tuning and prompt engineering?\n\nThe difference between prompt engineering, RAG and fine-tuning covers four primary areas of distinction:\n\nPrompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy.\n\nRAG, prompt engineering and fine-tuning have the same broad outcome: enhancing a model’s performance to maximize value for the enterprise that uses it. But more specifically, prompt engineering should lead a model to deliver the results the user wants. RAG aims to guide a model toward giving more relevant and accurate outputs.\n\nMeanwhile, a fine-tuned model is retrained on a focused set of external data to improve performance in specific use cases. The three methods are not mutually exclusive and are often combined for optimal outcomes.\n\nPrompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\n\nRAG requires data science expertise to organize enterprise datasets and construct the data pipelines that connect LLMs to those data sources. Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming.\n\nPrompt engineering is the most flexible and shines in open-ended situations with a potentially diverse array of outputs, such as when asking an LLM to generate content from scratch. Image, video and text generation success thrive on strong prompts.\n\nFine-tuning hones a model for highly focused work—when data scientists need a model to do one thing very well. RAG is an ideal solution where accurate, relevant, current information is paramount, such as with customer service chatbots.\n\nWhy are prompt engineering, RAG and fine-tuning important?\n\nPrompt engineering offers a range of methods for giving models explicit instructions on how to behave. With clear directives, model behavior can be more precisely sculpted without having to invest in resource-intensive retrieval systems or training.\n\nA fine-tuned model typically outperforms its corresponding base model, such as those in the GPT family, when applying its training with domain-specific data. With greater access to external knowledge, a fine-tuned LLM has a better understanding of the specific domain and its terminology.\n\nPrompt engineering is the process of creating effective prompts that guide a model toward desired outputs without expanding its knowledge base. The prompt engineering process does not significantly alter a pre-trained model’s parameters.\n\nThe goal of prompt engineering is to craft prompts that cause a model’s outputs to meet the specific requirements of the intended use case. Further training and greater data access cannot compensate for poor prompting.\n\nHow does prompt engineering work?\n\nPrompt engineering works by tweaking the structure and content of input prompts based on previous model outputs. With each iteration, the prompt engineer learns how the model responds to prior inputs, then uses those results to inform the next prompt. The goal is to modify model behavior through clear instructions.\n\nGood prompt engineering is based on prompts that tell a natural language processing (NLP) model exactly what to do. The prompt engineering process involves experimenting with the prompt’s content, structure and language to discover the optimal format that leads to the needed output from the model.\n\nCompare a machine learning model to an aspiring home cook who wants to make a great dinner. Prompt engineering would be analogous to a more knowledgeable friend or relative who helps them plan their approach to the meal. With solid advice on what to make and how, the eager home cook is more likely to produce something delicious.\n\nRAG is a data architecture framework that connects an LLM to other data, such as an organization’s proprietary data, often stored in data lakehouses. RAG systems add relevant data to LLM prompts so the LLM can generate more accurate answers.\n\nRetrieval augmented generation works by locating data that is relevant to the user’s query, then using that data to create more informative prompts. An information retrieval mechanism is added to augment the prompts for the LLM and help it generate more relevant responses.\n\nRAG systems require extensive data architecture construction and maintenance. Data engineers must build the data pipelines needed to connect their organization’s data lakehouses with the LLM and use RAG. RAG systems also need precise prompt engineering to locate the right data and make sure the LLM knows what to do with it.\n\nFine-tuning is the process of retraining a pretrained model on a smaller, more focused set of training data to give it domain-specific knowledge. The model then adjusts its parameters—the guidelines governing its behavior—and its embeddings to better fit the specific data set.\n\nFine-tuning works by exposing a model to a data set of labeled examples. The model improves on its initial training as it updates its model weights based on the new data. Fine-tuning is a supervised learning method, which means the data used in training is organized and labeled. By contrast, most base models undergo unsupervised learning in which the data is unsorted—the model must categorize it on its own.\n\nOnce more imagining a gen AI model as a home cook, fine-tuning would be a cooking course in a specific cuisine. Before taking the course, the home cook would have a general understanding of cooking basics. But after undergoing culinary training and acquiring domain-specific knowledge, they’d be much more proficient in cooking that type of food.\n\nFull fine-tuning vs. parameter-efficient fine-tuning\n\nModels can be either fully fine-tuned, which updates all their parameters or fine-tuned in a way that updates only the most relevant parameters. This latter process is known as parameter-efficient fine-tuning (PEFT) and is a cost-effective way to make models more effective in a certain domain.\n\nFine-tuning a model is compute-intensive and requires multiple powerful GPUs running in tandem—let alone the memory to store the LLM itself. PEFT enables LLM users to retrain their models on simpler hardware setups while returning comparable performance upgrades in the model’s intended use case, such as customer support or sentiment analysis. Fine-tuning especially excels at helping models overcome bias, which is a gap between the model’s predictions and actual real-world outcomes.\n\nFine-tuning vs. continuous pretraining\n\nBy contrast, fine-tuning uses labeled data to hone a model’s performance in a selected use case. Fine-tuning excels at honing a model’s expertise at specific tasks, while continuous pretraining can deepen a model’s domain expertise.\n\nGain a comprehensive understanding of prompt engineering, learn techniques to achieve the best results with LLMs, and apply learnings through completion of a diverse set of prompt engineering exercises.\n\nExplore various techniques involved in adversarial prompting, focusing on how these tactics can be used to test and strengthen the security and safety of large language models.\n\nGet hands-on with prompt engineering on the watsonx Developer Hub.\n\nGo from zero to hero with prompt templates for different types of prompts.\n\nMaster the language of AI and unleash its full potential with our free prompt engineering course.",
+          "fetchedAt": "2026-09-17T12:20:40.198Z",
+          "title": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "status": "ok",
+          "contentLength": 13222,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "RAG vs. fine-tuning vs. prompt engineering"
+            },
+            {
+              "blockIndex": 6,
+              "text": "RAG vs. fine-tuning vs. prompt engineering"
+            },
+            {
+              "blockIndex": 7,
+              "text": "Prompt engineering, fine-tuning and retrieval augmented generation (RAG) are three optimization methods that enterprises can use to get more value out of large language models (LLMs). All three optimize model behavior, but which one to use depends on the target use case and available resources."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Generative AI models are trained on massive pools of data, much of which is gleaned from the internet. Artificial intelligence developers do not typically have access to niche data, such as an enterprise’s proprietary and internal data. When organizations want to apply large language models (LLMs) to for specific needs, they need to tweak the way that the gen AI model works"
+            },
+            {
+              "blockIndex": 9,
+              "text": "Prompt engineering, RAG and fine-tuning all help optimize an LLM’s outputs for target use cases. With them, data scientists can get better downstream performance, greater domain-specific accuracy and output that meets relevant formatting, language or regulatory requirements."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Think beyond the prompts and get the full context"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Stay ahead of the latest in industry news, AI tools and emerging trends in prompt engineering with the Think Newsletter. Plus, get access to new explainers, tutorials and expert insights—delivered straight to your inbox, twice weekly."
+            },
+            {
+              "blockIndex": 14,
+              "text": "What’s the difference between RAG, fine-tuning and prompt engineering?"
+            },
+            {
+              "blockIndex": 15,
+              "text": "The difference between prompt engineering, RAG and fine-tuning covers four primary areas of distinction:"
+            },
+            {
+              "blockIndex": 25,
+              "text": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy."
+            },
+            {
+              "blockIndex": 27,
+              "text": "RAG, prompt engineering and fine-tuning have the same broad outcome: enhancing a model’s performance to maximize value for the enterprise that uses it. But more specifically, prompt engineering should lead a model to deliver the results the user wants. RAG aims to guide a model toward giving more relevant and accurate outputs."
+            },
+            {
+              "blockIndex": 28,
+              "text": "Meanwhile, a fine-tuned model is retrained on a focused set of external data to improve performance in specific use cases. The three methods are not mutually exclusive and are often combined for optimal outcomes."
+            },
+            {
+              "blockIndex": 30,
+              "text": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute."
+            },
+            {
+              "blockIndex": 31,
+              "text": "RAG requires data science expertise to organize enterprise datasets and construct the data pipelines that connect LLMs to those data sources. Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming."
+            },
+            {
+              "blockIndex": 33,
+              "text": "Prompt engineering is the most flexible and shines in open-ended situations with a potentially diverse array of outputs, such as when asking an LLM to generate content from scratch. Image, video and text generation success thrive on strong prompts."
+            },
+            {
+              "blockIndex": 34,
+              "text": "Fine-tuning hones a model for highly focused work—when data scientists need a model to do one thing very well. RAG is an ideal solution where accurate, relevant, current information is paramount, such as with customer service chatbots."
+            },
+            {
+              "blockIndex": 37,
+              "text": "Why are prompt engineering, RAG and fine-tuning important?"
+            },
+            {
+              "blockIndex": 38,
+              "text": "Prompt engineering offers a range of methods for giving models explicit instructions on how to behave. With clear directives, model behavior can be more precisely sculpted without having to invest in resource-intensive retrieval systems or training."
+            },
+            {
+              "blockIndex": 40,
+              "text": "A fine-tuned model typically outperforms its corresponding base model, such as those in the GPT family, when applying its training with domain-specific data. With greater access to external knowledge, a fine-tuned LLM has a better understanding of the specific domain and its terminology."
+            },
+            {
+              "blockIndex": 42,
+              "text": "Prompt engineering is the process of creating effective prompts that guide a model toward desired outputs without expanding its knowledge base. The prompt engineering process does not significantly alter a pre-trained model’s parameters."
+            },
+            {
+              "blockIndex": 43,
+              "text": "The goal of prompt engineering is to craft prompts that cause a model’s outputs to meet the specific requirements of the intended use case. Further training and greater data access cannot compensate for poor prompting."
+            },
+            {
+              "blockIndex": 44,
+              "text": "How does prompt engineering work?"
+            },
+            {
+              "blockIndex": 45,
+              "text": "Prompt engineering works by tweaking the structure and content of input prompts based on previous model outputs. With each iteration, the prompt engineer learns how the model responds to prior inputs, then uses those results to inform the next prompt. The goal is to modify model behavior through clear instructions."
+            },
+            {
+              "blockIndex": 46,
+              "text": "Good prompt engineering is based on prompts that tell a natural language processing (NLP) model exactly what to do. The prompt engineering process involves experimenting with the prompt’s content, structure and language to discover the optimal format that leads to the needed output from the model."
+            },
+            {
+              "blockIndex": 47,
+              "text": "Compare a machine learning model to an aspiring home cook who wants to make a great dinner. Prompt engineering would be analogous to a more knowledgeable friend or relative who helps them plan their approach to the meal. With solid advice on what to make and how, the eager home cook is more likely to produce something delicious."
+            },
+            {
+              "blockIndex": 49,
+              "text": "RAG is a data architecture framework that connects an LLM to other data, such as an organization’s proprietary data, often stored in data lakehouses. RAG systems add relevant data to LLM prompts so the LLM can generate more accurate answers."
+            },
+            {
+              "blockIndex": 51,
+              "text": "Retrieval augmented generation works by locating data that is relevant to the user’s query, then using that data to create more informative prompts. An information retrieval mechanism is added to augment the prompts for the LLM and help it generate more relevant responses."
+            },
+            {
+              "blockIndex": 62,
+              "text": "RAG systems require extensive data architecture construction and maintenance. Data engineers must build the data pipelines needed to connect their organization’s data lakehouses with the LLM and use RAG. RAG systems also need precise prompt engineering to locate the right data and make sure the LLM knows what to do with it."
+            },
+            {
+              "blockIndex": 65,
+              "text": "Fine-tuning is the process of retraining a pretrained model on a smaller, more focused set of training data to give it domain-specific knowledge. The model then adjusts its parameters—the guidelines governing its behavior—and its embeddings to better fit the specific data set."
+            },
+            {
+              "blockIndex": 67,
+              "text": "Fine-tuning works by exposing a model to a data set of labeled examples. The model improves on its initial training as it updates its model weights based on the new data. Fine-tuning is a supervised learning method, which means the data used in training is organized and labeled. By contrast, most base models undergo unsupervised learning in which the data is unsorted—the model must categorize it on its own."
+            },
+            {
+              "blockIndex": 68,
+              "text": "Once more imagining a gen AI model as a home cook, fine-tuning would be a cooking course in a specific cuisine. Before taking the course, the home cook would have a general understanding of cooking basics. But after undergoing culinary training and acquiring domain-specific knowledge, they’d be much more proficient in cooking that type of food."
+            },
+            {
+              "blockIndex": 69,
+              "text": "Full fine-tuning vs. parameter-efficient fine-tuning"
+            },
+            {
+              "blockIndex": 70,
+              "text": "Models can be either fully fine-tuned, which updates all their parameters or fine-tuned in a way that updates only the most relevant parameters. This latter process is known as parameter-efficient fine-tuning (PEFT) and is a cost-effective way to make models more effective in a certain domain."
+            },
+            {
+              "blockIndex": 71,
+              "text": "Fine-tuning a model is compute-intensive and requires multiple powerful GPUs running in tandem—let alone the memory to store the LLM itself. PEFT enables LLM users to retrain their models on simpler hardware setups while returning comparable performance upgrades in the model’s intended use case, such as customer support or sentiment analysis. Fine-tuning especially excels at helping models overcome bias, which is a gap between the model’s predictions and actual real-world outcomes."
+            },
+            {
+              "blockIndex": 72,
+              "text": "Fine-tuning vs. continuous pretraining"
+            },
+            {
+              "blockIndex": 74,
+              "text": "By contrast, fine-tuning uses labeled data to hone a model’s performance in a selected use case. Fine-tuning excels at honing a model’s expertise at specific tasks, while continuous pretraining can deepen a model’s domain expertise."
+            },
+            {
+              "blockIndex": 77,
+              "text": "Gain a comprehensive understanding of prompt engineering, learn techniques to achieve the best results with LLMs, and apply learnings through completion of a diverse set of prompt engineering exercises."
+            },
+            {
+              "blockIndex": 79,
+              "text": "Explore various techniques involved in adversarial prompting, focusing on how these tactics can be used to test and strengthen the security and safety of large language models."
+            },
+            {
+              "blockIndex": 80,
+              "text": "Get hands-on with prompt engineering on the watsonx Developer Hub."
+            },
+            {
+              "blockIndex": 81,
+              "text": "Go from zero to hero with prompt templates for different types of prompts."
+            },
+            {
+              "blockIndex": 82,
+              "text": "Master the language of AI and unleash its full potential with our free prompt engineering course."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:20:40.200Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:20:40.202Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://medium.com/@myscale/prompt-engineering-vs-finetuning-vs-rag-cfae761c6d06",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:20:41.401Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo",
+          "content": "Fine-tuning vs Prompting: When to Choose Each\n\nA question I get a lot is how much we rely on post-training models vs just prompt tuning them. We fine-tune a lot of models at Decagon, but my honest answer is that in most cases, you probably shouldn’t be fine-tuning at all. Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate. New foundation models are also being released constantly, which means you either stay locked into an older model or redo the work every few months. Poor fine-tuning can degrade performance and generalizability in ways that are hard to catch until it’s too late. Prompting gets you much further than most people expect, especially if you treat it as a system design problem rather than a one-off tweak. Decagon does post-train our own models, because out-of-the-box models simply do not perform well enough for our use cases, even with extensive prompt engineering. But we have also invested heavily in the evaluation and infrastructure work needed to avoid those pitfalls. Fine-tuning is powerful, but it should come after you’ve exhausted simpler approaches and built a clear understanding of where the base models fall short. As our VP of eng Dennis Cui puts it, you should always prompt tune first to prove that you need post-training for your use case.\n\nSystem design framing is the unlock. Most teams treat prompts as copy and fine-tunes as engineering. Both are software. Once prompts get versioned and evaluated like code, the question of when to fine-tune answers itself.\n\nLet me add to that: re-tuning for larger companies wouldn't be that difficult for big budget and large engineering teams. But what if the models are deprecated, like OpenAI and others regularly do? So, your argument makes a lot of sense here. Also, many small-to-medium SaaS founders go on to fine-tune big models for their specific, micro-SaaS use case, which again, is an overkill. Structured prompting and, most importantly, internal validators, make the AI use case more efficient than fine tuning, if you take into account the cost and output.\n\nMost teams underestimate how far prompt design and evaluation pipelines can get them before jumping to fine tuning. I’m sure the real skill is knowing where the break point actually is.\n\nI’ve seen something that kind of supports your point about how far prompting can go before touching fine tuning. In one project we evaluated model outputs weekly for about 3 months. The quality was steadily improving just by refining prompts and comparing outputs against well defined “ideal responses”. By the final stage, we were getting multiple near perfect answers in Polish. Then suddenly, in one of the last batches, the quality dropped hard. Many responses were hallucinated or completely off topic. From my side, nothing changed in evaluation or prompting approach, which makes it feel like a model level shift rather than anything else. It really shows how strong prompt tuning can be, but also how fragile things get if the underlying model changes.\n\nJesse Zhang Love this engineering discipline. The operational overhead of re-tuning and re-evaluating custom models every time a new foundation layer drops is a massive hidden tax. Running prompt-tuning first to map the exact failure boundaries of the base model is the only sane way to approach enterprise AI architecture.\n\nFine-tuning is best when you're 100% confident of the output you want. Prompting, for me, is more exploratory. Build because of the gaps you're facing today, and work backward from there.\n\nThis is what I've observed as well. A lot of folks also prompt poorly and then conclude they need to fine tune. It's worth investing in a good understanding of prompt and harness eng before concluding you need to fine tune\n\nPrompt tuning is the right starting point, and building evaluations first to measure progress is essential. That said, prompt tuning doesn't always generalize well, particularly when handling diverse edge cases across customer intents or maintaining consistency in long multi-turn conversations. You often hit a ceiling that no amount of prompt iteration can break through. Where this becomes especially clear is in latency sensitive contexts like real time voice agents. There you face a meaningful tradeoff: you can send filler messages from a small model at every turn while a larger model catches up with the actual response, which preserves flexibility but adds complexity, or you can post train a small model in a constrained environment for your use case with inference optimization, which demands more upfront investment but delivers a tighter and faster production system.\n\nJesse Zhang thanks for sharing, these are great points. Could you point us to some resources you'd recommend about prompt tuning and evals that produce the type of \"good enough\" results you describe?\n\nThere is a team out there that spent three months fine-tuning and then a new base model dropped and they had to start over. That experience does not just cost compute. It costs confidence. The real argument here is not just technical efficiency. It is protecting your team from building on sand. Prompting as system design gives you something you can actually stand on. We should connect. You have a great profile for our community.\n\nDavid Marsa 4 tháng Báo cáo bài đăng này Here's how we got smaller models to actually follow instructions. We stopped giving them so much to read. 🧱 Most setups dump everything into one prompt. Every rule. Every edge case. Then hope the model figures it out. Big models cope. Small ones don't. 🎯 So we tried something simple. One step at a time. Only the instructions for that step. A clear output. A gate before moving on. Progressive disclosure of instructions. 🔄 It's baked into how ConvOps workflows work. The model never sees the full playbook. Just what it needs right now. Turns out smaller models are fine at following instructions. They're just bad at choosing which ones matter. So we stopped asking them to choose. Now the system prompt is lean. \"Follow the workflow.\" The workflow feeds the right instructions at the right time. Suddenly the small model feels smarter. Not because it is. Because it's not distracted anymore. 1 Bình luận Thích Bình luận Chia sẻ Sao chép LinkedIn Facebook X Để xem hoặc thêm bình luận, hãy đăng nhập\n\nHere's how we got smaller models to actually follow instructions. We stopped giving them so much to read. 🧱 Most setups dump everything into one prompt. Every rule. Every edge case. Then hope the model figures it out. Big models cope. Small ones don't. 🎯 So we tried something simple. One step at a time. Only the instructions for that step. A clear output. A gate before moving on. Progressive disclosure of instructions. 🔄 It's baked into how ConvOps workflows work. The model never sees the full playbook. Just what it needs right now. Turns out smaller models are fine at following instructions. They're just bad at choosing which ones matter. So we stopped asking them to choose. Now the system prompt is lean. \"Follow the workflow.\" The workflow feeds the right instructions at the right time. Suddenly the small model feels smarter. Not because it is. Because it's not distracted anymore.\n\nInterview for Physical Design 4.098 người theo dõi 4 tháng Báo cáo bài đăng này ⚡️ 𝐎𝐧𝐞‑𝐒𝐭𝐨𝐩 𝐓𝐢𝐦𝐢𝐧𝐠 𝐂𝐨𝐧𝐭𝐫𝐨𝐥: 𝐌𝐚𝐱‑𝐒𝐤𝐞𝐰, 𝐏𝐚𝐭𝐡 𝐆𝐫𝐨𝐮𝐩𝐬, 𝐇𝐨𝐥𝐝 𝐆𝐮𝐚𝐫𝐝𝐛𝐚𝐧𝐝 & “𝐍𝐨‑𝐓𝐨𝐮𝐜𝐡” 𝐂𝐥𝐨𝐜𝐤𝐬 In a multi‑corner flow, the same skew tweak that fixes a setup violation can instantly break hold on a flip‑flop sharing that clock tree. The reason is simple: moving a clock edge later also pushes the data launched by the previous edge later, sliding the hold window forward. In one corner the trade‑off looks benign; in another it becomes a fatal hold failure. 𝐓𝐡𝐞 𝐡𝐚𝐫𝐝 𝐭𝐫𝐮𝐭𝐡 – the “useful‑skew” sweep you learned in school is still the only way to *see* this interaction. You manually adjust a clock group, watch the ripple on setup and hold across corners, and iterate. It proves that 𝐬𝐤𝐞𝐰 𝐢𝐬 𝐚 𝐬𝐡𝐚𝐫𝐞𝐝 𝐫𝐞𝐬𝐨𝐮𝐫𝐜𝐞, 𝐧𝐨𝐭 𝐚 𝐟𝐫𝐞𝐞 𝐥𝐞𝐯𝐞𝐫. 𝐂𝐂𝐃 𝐜𝐡𝐚𝐧𝐠𝐞𝐬 𝐭𝐡𝐞 𝐠𝐚𝐦𝐞. Modern CCD engines expose the same knobs—max‑skew, path groups, hold guardband, no‑touch clocks—but automate the trade‑off analysis across every corner, mode, and voltage. The tool evaluates the global slack surface, applies a bounded skew shift, and re‑optimizes the data path (buffer insertion, gate resizing) to keep hold intact. The result: a balanced, corner‑aware solution without hand‑tuning each case. 𝐃𝐨𝐧’𝐭 𝐝𝐢𝐬𝐜𝐚𝐫𝐝 𝐭𝐡𝐞 𝐦𝐚𝐧𝐮𝐚𝐥 𝐬𝐭𝐞𝐩. Relying solely on CCD leaves you blind when an exotic corner fails. A quick useful‑skew sweep still provides the intuition needed for debugging, validating tool assumptions, and onboarding engineers. 𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲: Treat manual useful‑skew as the *theory* and\n\nUnderstanding Prompt Engineering, RAG, and Fine-Tuning",
+          "fetchedAt": "2026-09-17T12:20:41.403Z",
+          "title": "Fine-tuning vs Prompting: When to Choose Each | Jesse Zhang Đăng trên chủ đề | LinkedIn",
+          "status": "ok",
+          "contentLength": 22507,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Fine-tuning vs Prompting: When to Choose Each"
+            },
+            {
+              "blockIndex": 2,
+              "text": "A question I get a lot is how much we rely on post-training models vs just prompt tuning them. We fine-tune a lot of models at Decagon, but my honest answer is that in most cases, you probably shouldn’t be fine-tuning at all. Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate. New foundation models are also being released constantly, which means you either stay locked into an older model or redo the work every few months. Poor fine-tuning can degrade performance and generalizability in ways that are hard to catch until it’s too late. Prompting gets you much further than most people expect, especially if you treat it as a system design problem rather than a one-off tweak. Decagon does post-train our own models, because out-of-the-box models simply do not perform well enough for our use cases, even with extensive prompt engineering. But we have also invested heavily in the evaluation and infrastructure work needed to avoid those pitfalls. Fine-tuning is powerful, but it should come after you’ve exhausted simpler approaches and built a clear understanding of where the base models fall short. As our VP of eng Dennis Cui puts it, you should always prompt tune first to prove that you need post-training for your use case."
+            },
+            {
+              "blockIndex": 8,
+              "text": "System design framing is the unlock. Most teams treat prompts as copy and fine-tunes as engineering. Both are software. Once prompts get versioned and evaluated like code, the question of when to fine-tune answers itself."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Let me add to that: re-tuning for larger companies wouldn't be that difficult for big budget and large engineering teams. But what if the models are deprecated, like OpenAI and others regularly do? So, your argument makes a lot of sense here. Also, many small-to-medium SaaS founders go on to fine-tune big models for their specific, micro-SaaS use case, which again, is an overkill. Structured prompting and, most importantly, internal validators, make the AI use case more efficient than fine tuning, if you take into account the cost and output."
+            },
+            {
+              "blockIndex": 12,
+              "text": "Most teams underestimate how far prompt design and evaluation pipelines can get them before jumping to fine tuning. I’m sure the real skill is knowing where the break point actually is."
+            },
+            {
+              "blockIndex": 14,
+              "text": "I’ve seen something that kind of supports your point about how far prompting can go before touching fine tuning. In one project we evaluated model outputs weekly for about 3 months. The quality was steadily improving just by refining prompts and comparing outputs against well defined “ideal responses”. By the final stage, we were getting multiple near perfect answers in Polish. Then suddenly, in one of the last batches, the quality dropped hard. Many responses were hallucinated or completely off topic. From my side, nothing changed in evaluation or prompting approach, which makes it feel like a model level shift rather than anything else. It really shows how strong prompt tuning can be, but also how fragile things get if the underlying model changes."
+            },
+            {
+              "blockIndex": 16,
+              "text": "Jesse Zhang Love this engineering discipline. The operational overhead of re-tuning and re-evaluating custom models every time a new foundation layer drops is a massive hidden tax. Running prompt-tuning first to map the exact failure boundaries of the base model is the only sane way to approach enterprise AI architecture."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Fine-tuning is best when you're 100% confident of the output you want. Prompting, for me, is more exploratory. Build because of the gaps you're facing today, and work backward from there."
+            },
+            {
+              "blockIndex": 20,
+              "text": "This is what I've observed as well. A lot of folks also prompt poorly and then conclude they need to fine tune. It's worth investing in a good understanding of prompt and harness eng before concluding you need to fine tune"
+            },
+            {
+              "blockIndex": 22,
+              "text": "Prompt tuning is the right starting point, and building evaluations first to measure progress is essential. That said, prompt tuning doesn't always generalize well, particularly when handling diverse edge cases across customer intents or maintaining consistency in long multi-turn conversations. You often hit a ceiling that no amount of prompt iteration can break through. Where this becomes especially clear is in latency sensitive contexts like real time voice agents. There you face a meaningful tradeoff: you can send filler messages from a small model at every turn while a larger model catches up with the actual response, which preserves flexibility but adds complexity, or you can post train a small model in a constrained environment for your use case with inference optimization, which demands more upfront investment but delivers a tighter and faster production system."
+            },
+            {
+              "blockIndex": 24,
+              "text": "Jesse Zhang thanks for sharing, these are great points. Could you point us to some resources you'd recommend about prompt tuning and evals that produce the type of \"good enough\" results you describe?"
+            },
+            {
+              "blockIndex": 26,
+              "text": "There is a team out there that spent three months fine-tuning and then a new base model dropped and they had to start over. That experience does not just cost compute. It costs confidence. The real argument here is not just technical efficiency. It is protecting your team from building on sand. Prompting as system design gives you something you can actually stand on. We should connect. You have a great profile for our community."
+            },
+            {
+              "blockIndex": 38,
+              "text": "David Marsa 4 tháng Báo cáo bài đăng này Here's how we got smaller models to actually follow instructions. We stopped giving them so much to read. 🧱 Most setups dump everything into one prompt. Every rule. Every edge case. Then hope the model figures it out. Big models cope. Small ones don't. 🎯 So we tried something simple. One step at a time. Only the instructions for that step. A clear output. A gate before moving on. Progressive disclosure of instructions. 🔄 It's baked into how ConvOps workflows work. The model never sees the full playbook. Just what it needs right now. Turns out smaller models are fine at following instructions. They're just bad at choosing which ones matter. So we stopped asking them to choose. Now the system prompt is lean. \"Follow the workflow.\" The workflow feeds the right instructions at the right time. Suddenly the small model feels smarter. Not because it is. Because it's not distracted anymore. 1 Bình luận Thích Bình luận Chia sẻ Sao chép LinkedIn Facebook X Để xem hoặc thêm bình luận, hãy đăng nhập"
+            },
+            {
+              "blockIndex": 40,
+              "text": "Here's how we got smaller models to actually follow instructions. We stopped giving them so much to read. 🧱 Most setups dump everything into one prompt. Every rule. Every edge case. Then hope the model figures it out. Big models cope. Small ones don't. 🎯 So we tried something simple. One step at a time. Only the instructions for that step. A clear output. A gate before moving on. Progressive disclosure of instructions. 🔄 It's baked into how ConvOps workflows work. The model never sees the full playbook. Just what it needs right now. Turns out smaller models are fine at following instructions. They're just bad at choosing which ones matter. So we stopped asking them to choose. Now the system prompt is lean. \"Follow the workflow.\" The workflow feeds the right instructions at the right time. Suddenly the small model feels smarter. Not because it is. Because it's not distracted anymore."
+            },
+            {
+              "blockIndex": 55,
+              "text": "Interview for Physical Design 4.098 người theo dõi 4 tháng Báo cáo bài đăng này ⚡️ 𝐎𝐧𝐞‑𝐒𝐭𝐨𝐩 𝐓𝐢𝐦𝐢𝐧𝐠 𝐂𝐨𝐧𝐭𝐫𝐨𝐥: 𝐌𝐚𝐱‑𝐒𝐤𝐞𝐰, 𝐏𝐚𝐭𝐡 𝐆𝐫𝐨𝐮𝐩𝐬, 𝐇𝐨𝐥𝐝 𝐆𝐮𝐚𝐫𝐝𝐛𝐚𝐧𝐝 & “𝐍𝐨‑𝐓𝐨𝐮𝐜𝐡” 𝐂𝐥𝐨𝐜𝐤𝐬 In a multi‑corner flow, the same skew tweak that fixes a setup violation can instantly break hold on a flip‑flop sharing that clock tree. The reason is simple: moving a clock edge later also pushes the data launched by the previous edge later, sliding the hold window forward. In one corner the trade‑off looks benign; in another it becomes a fatal hold failure. 𝐓𝐡𝐞 𝐡𝐚𝐫𝐝 𝐭𝐫𝐮𝐭𝐡 – the “useful‑skew” sweep you learned in school is still the only way to *see* this interaction. You manually adjust a clock group, watch the ripple on setup and hold across corners, and iterate. It proves that 𝐬𝐤𝐞𝐰 𝐢𝐬 𝐚 𝐬𝐡𝐚𝐫𝐞𝐝 𝐫𝐞𝐬𝐨𝐮𝐫𝐜𝐞, 𝐧𝐨𝐭 𝐚 𝐟𝐫𝐞𝐞 𝐥𝐞𝐯𝐞𝐫. 𝐂𝐂𝐃 𝐜𝐡𝐚𝐧𝐠𝐞𝐬 𝐭𝐡𝐞 𝐠𝐚𝐦𝐞. Modern CCD engines expose the same knobs—max‑skew, path groups, hold guardband, no‑touch clocks—but automate the trade‑off analysis across every corner, mode, and voltage. The tool evaluates the global slack surface, applies a bounded skew shift, and re‑optimizes the data path (buffer insertion, gate resizing) to keep hold intact. The result: a balanced, corner‑aware solution without hand‑tuning each case. 𝐃𝐨𝐧’𝐭 𝐝𝐢𝐬𝐜𝐚𝐫𝐝 𝐭𝐡𝐞 𝐦𝐚𝐧𝐮𝐚𝐥 𝐬𝐭𝐞𝐩. Relying solely on CCD leaves you blind when an exotic corner fails. A quick useful‑skew sweep still provides the intuition needed for debugging, validating tool assumptions, and onboarding engineers. 𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲: Treat manual useful‑skew as the *theory* and"
+            },
+            {
+              "blockIndex": 132,
+              "text": "Understanding Prompt Engineering, RAG, and Fine-Tuning"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+          "content": "See Agentic AI in Action Go behind the scenes and see how we ground AI agents with enterprise data Start your live product tour K2View Blog November 23, 2025 Prompt engineering vs fine-tuning: Understanding the pros and cons Iris Zarecki,Product Marketing Director More on this topic RAG vs prompt engineering: Getting the best of both worlds RAG vs fine-tuning vs prompt engineering: And the winner is... AI prompt engineering: The art of AI instruction Learn how to ground GenAI apps with enterprise data Equip your GenAI chatbot with the context they need Prompt engineering vs fine-tuning: Understanding the pros and cons7:21 Table of contents Prompt engineering is a process that improves LLM responses by well crafted inputs. Fine-tuning trains a model on domain-specific data. Which to use when? Prompt engineering defined AI prompt engineering is the process of crafting highly specific instructions to guide a Large Language Model (LLM) to generate a more accurate and relevant response to user queries. It's often employed by LLM agents in generative AI frameworks like Retrieval-Augmented Generation (RAG). Prompt engineering is essentially asking a question in a way that ensures your enterprise LLM understands exactly what you're looking for. The goal of prompt engineering is to structure prompts – questions, commands, scenarios, and more – in such a way that the model elicits the most useful answer to a particular question. A well-engineered prompt includes clear context, specific requirements, or sample formats – all of which contributes to LLM grounding. For instance, instead of asking “What is a tree?”, you might prompt the LLM to “Describe the structure and function of a tree and give examples of different types of trees?”. This extra detail narrows down the possible responses and ensures the model’s output is more relevant. The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results. However, the method does require experimentation to find the optimal wording or structure. Prompt engineering techniques, such as chain-of-thought prompting, are an integral part of all active retrieval-augmented generation solutions. Fine-tuning defined Fine-tuning is the process of taking an already trained AI model and adapting it to perform specific tasks or respond in a more focused way. An LLM is like an all-purpose tool, capable of doing many things. Fine-tuning adjusts it to become an expert in a specialized area. How does this work? The LLM, which has been trained on a broad range of publicly available information, is given new, domain-specific data related to the task you’d like it to excel at. This new AI-ready data could be financial or medical records, customer service transcripts, or anything else relevant to your goals. The model then learns from this focused dataset, refining its ability to perform the job at hand. For example, if you wanted your LLM to excel at legal matters, you’d fine-tune the model by providing it with legal texts, cases, and documents. Fine-tuning helps the model become more accurate and knowledgeable in that area without starting from scratch, saving time and resources. Prompt engineering vs fine tuning features Prompt engineering and fine-tuning are both techniques that optimize the performance of LLMs and reduce AI hallucinations, but they operate in different ways. RAG prompt engineering involves crafting well-structured inputs that guide the LLM to respond more accurately and contextually. Fine-tuning modifies the model itself by training it on specialized data that improves its performance in specific areas. So, while prompt engineering shapes how you interact with the LLM, fine-tuning directly enhances the model's knowledge and abilities. Understanding these differences is key to knowing when to use each approach. Here’s a quick guide: Feature Prompt Engineering Fine-Tuning Definition Crafts effective prompts to guide your LLMs to produce better outputs. Trains your LLM on a specific dataset to improve its performance on specific tasks. Goal Maximizes the quality of your LLM’s outputs without changing its underlying architecture. Adapts your LLM to a specific domain or task. Method Generates well-structured, informative, and contextual prompts. Feeds your LLM with a large dataset of relevant examples and adjusts its internal parameters. Resources Requires human expertise in Natural Language Processing (NLP) and LLM functionality. Needs a large dataset of relevant examples and resources for training. Deployment Deploys faster, with fewer resources, than fine-tuning. Tends to be time-consuming and expensive, especially for larger models and datasets. Flexibility Increases flexibility via experimentation and adaptation to different tasks. Reduces flexibility since the model becomes specialized to a specific domain or task. Use cases Is suitable for a wide range of tasks, including content generation, question answering, and summarization. Is effective when your LLM's general knowledge is insufficient or when high accuracy is required. Pros and cons of prompt engineering vs fine-tuning Prompt engineering and fine-tuning are both useful strategies for improving AI performance, each with their own unique advantages and limitations. Technique Pros Cons Prompt engineering Training-free You can instantly improve results by adjusting how you ask questions, without altering the model. Cost-effective You invest less time and resources because you’re not retraining the model. Flexible Applies to a wide range of use cases, since you're using your LLM as is, with tailored prompts for specific needs. Less control Your LLM’s built-in capabilities may not be well suited to niche tasks. Unpredictable Multiple (trial and error) attempts may be required to zero in on the best prompts, requiring patience and testing. Fine-tuning Highly customizable Specializes your LLM for certain tasks, leading to more precise and accurate results. Results-oriented Following fine-tuning, the model becomes more adept at specific areas and operates more efficiently. Resource-intensive Additional data, computing power, and training time may be required. Inflexible Once fine-tuned, the model may perform less effectively on tasks outside its specialized domain. In short, while prompt engineering offers a quicker, cost-effective solution, fine-tuning provides deeper customization at the expense of resources and flexibility. Prompt engineering vs fine tuning with GenAI Data Fusion GenAI Data Fusion, the K2View suite of RAG tools, integrates prompt engineering as opposed to fine-tuning processes. Ideal for generative AI use cases that require accurate, contextual, and personalized interactions, GenAI Data Fusion leverages chain-of-thought reasoning to produce more precise, meaningful, and relevant outputs. It features: Real-time data access, by dynamically retrieving AI-ready data to craft better prompts leading to better responses. Data security, by automatically discovering masking sensitive information and PII (Personally Identifiable Information) during processing. Inflight recommendations, by dealing with data service access requests and providing more informed insights in real-time. Multi-source data retrieval, by accessing enterprise systems via API, CDC, messaging, or streaming. GenAI Data Fusion embeds prompt engineering to enable the most cost-effective, fast-track AI personalization available anywhere. For more comprehensive insights on this subject, our article on RAG vs fine-tuning vs prompt engineering makes for good reading. Discover K2View AI Data Fusion, the RAG tools with prompt engineering built in. Achieve better business outcomeswith the K2view Data Product Platform Related articles for you RAG vs prompt engineering: Getting the best of both worlds December 8, 2024 Read more RAG vs fine-tuning vs prompt engineering: And the winner is... August 8, 2024 Read more AI prompt engineering: The art of AI instruction September 5, 2024 Read more Learn how to ground GenAI apps with enterprise data Equip your GenAI chatbot with the context they need",
+          "fetchedAt": "2026-09-17T12:20:41.405Z",
+          "title": "Prompt engineering vs fine-tuning: Understanding the pros and cons",
+          "status": "ok",
+          "contentLength": 8229,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "See Agentic AI in Action Go behind the scenes and see how we ground AI agents with enterprise data Start your live product tour K2View Blog November 23, 2025 Prompt engineering vs fine-tuning: Understanding the pros and cons Iris Zarecki,Product Marketing Director More on this topic RAG vs prompt engineering: Getting the best of both worlds RAG vs fine-tuning vs prompt engineering: And the winner is... AI prompt engineering: The art of AI instruction Learn how to ground GenAI apps with enterprise data Equip your GenAI chatbot with the context they need Prompt engineering vs fine-tuning: Understanding the pros and cons7:21 Table of contents Prompt engineering is a process that improves LLM responses by well crafted inputs. Fine-tuning trains a model on domain-specific data. Which to use when? Prompt engineering defined AI prompt engineering is the process of crafting highly specific instructions to guide a Large Language Model (LLM) to generate a more accurate and relevant response to user queries. It's often employed by LLM agents in generative AI frameworks like Retrieval-Augmented Generation (RAG). Prompt engineering is essentially asking a question in a way that ensures your enterprise LLM understands exactly what you're looking for. The goal of prompt engineering is to structure prompts – questions, commands, scenarios, and more – in such a way that the model elicits the most useful answer to a particular question. A well-engineered prompt includes clear context, specific requirements, or sample formats – all of which contributes to LLM grounding. For instance, instead of asking “What is a tree?”, you might prompt the LLM to “Describe the structure and function of a tree and give examples of different types of trees?”. This extra detail narrows down the possible responses and ensures the model’s output is more relevant. The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results. However, the method does require experimentation to find the optimal wording or structure. Prompt engineering techniques, such as chain-of-thought prompting, are an integral part of all active retrieval-augmented generation solutions. Fine-tuning defined Fine-tuning is the process of taking an already trained AI model and adapting it to perform specific tasks or respond in a more focused way. An LLM is like an all-purpose tool, capable of doing many things. Fine-tuning adjusts it to become an expert in a specialized area. How does this work? The LLM, which has been trained on a broad range of publicly available information, is given new, domain-specific data related to the task you’d like it to excel at. This new AI-ready data could be financial or medical records, customer service transcripts, or anything else relevant to your goals. The model then learns from this focused dataset, refining its ability to perform the job at hand. For example, if you wanted your LLM to excel at legal matters, you’d fine-tune the model by providing it with legal texts, cases, and documents. Fine-tuning helps the model become more accurate and knowledgeable in that area without starting from scratch, saving time and resources. Prompt engineering vs fine tuning features Prompt engineering and fine-tuning are both techniques that optimize the performance of LLMs and reduce AI hallucinations, but they operate in different ways. RAG prompt engineering involves crafting well-structured inputs that guide the LLM to respond more accurately and contextually. Fine-tuning modifies the model itself by training it on specialized data that improves its performance in specific areas. So, while prompt engineering shapes how you interact with the LLM, fine-tuning directly enhances the model's knowledge and abilities. Understanding these differences is key to knowing when to use each approach. Here’s a quick guide: Feature Prompt Engineering Fine-Tuning Definition Crafts effective prompts to guide your LLMs to produce better outputs. Trains your LLM on a specific dataset to improve its performance on specific tasks. Goal Maximizes the quality of your LLM’s outputs without changing its underlying architecture. Adapts your LLM to a specific domain or task. Method Generates well-structured, informative, and contextual prompts. Feeds your LLM with a large dataset of relevant examples and adjusts its internal parameters. Resources Requires human expertise in Natural Language Processing (NLP) and LLM functionality. Needs a large dataset of relevant examples and resources for training. Deployment Deploys faster, with fewer resources, than fine-tuning. Tends to be time-consuming and expensive, especially for larger models and datasets. Flexibility Increases flexibility via experimentation and adaptation to different tasks. Reduces flexibility since the model becomes specialized to a specific domain or task. Use cases Is suitable for a wide range of tasks, including content generation, question answering, and summarization. Is effective when your LLM's general knowledge is insufficient or when high accuracy is required. Pros and cons of prompt engineering vs fine-tuning Prompt engineering and fine-tuning are both useful strategies for improving AI performance, each with their own unique advantages and limitations. Technique Pros Cons Prompt engineering Training-free You can instantly improve results by adjusting how you ask questions, without altering the model. Cost-effective You invest less time and resources because you’re not retraining the model. Flexible Applies to a wide range of use cases, since you're using your LLM as is, with tailored prompts for specific needs. Less control Your LLM’s built-in capabilities may not be well suited to niche tasks. Unpredictable Multiple (trial and error) attempts may be required to zero in on the best prompts, requiring patience and testing. Fine-tuning Highly customizable Specializes your LLM for certain tasks, leading to more precise and accurate results. Results-oriented Following fine-tuning, the model becomes more adept at specific areas and operates more efficiently. Resource-intensive Additional data, computing power, and training time may be required. Inflexible Once fine-tuned, the model may perform less effectively on tasks outside its specialized domain. In short, while prompt engineering offers a quicker, cost-effective solution, fine-tuning provides deeper customization at the expense of resources and flexibility. Prompt engineering vs fine tuning with GenAI Data Fusion GenAI Data Fusion, the K2View suite of RAG tools, integrates prompt engineering as opposed to fine-tuning processes. Ideal for generative AI use cases that require accurate, contextual, and personalized interactions, GenAI Data Fusion leverages chain-of-thought reasoning to produce more precise, meaningful, and relevant outputs. It features: Real-time data access, by dynamically retrieving AI-ready data to craft better prompts leading to better responses. Data security, by automatically discovering masking sensitive information and PII (Personally Identifiable Information) during processing. Inflight recommendations, by dealing with data service access requests and providing more informed insights in real-time. Multi-source data retrieval, by accessing enterprise systems via API, CDC, messaging, or streaming. GenAI Data Fusion embeds prompt engineering to enable the most cost-effective, fast-track AI personalization available anywhere. For more comprehensive insights on this subject, our article on RAG vs fine-tuning vs prompt engineering makes for good reading. Discover K2View AI Data Fusion, the RAG tools with prompt engineering built in. Achieve better business outcomeswith the K2view Data Product Platform Related articles for you RAG vs prompt engineering: Getting the best of both worlds December 8, 2024 Read more RAG vs fine-tuning vs prompt engineering: And the winner is... August 8, 2024 Read more AI prompt engineering: The art of AI instruction September 5, 2024 Read more Learn how to ground GenAI apps with enterprise data Equip your GenAI chatbot with the context they need"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://community.openai.com/t/prompting-vs-finetuning-what-should-i-choose/1089650",
+          "content": "Prompting vs Finetuning : what should i choose? Prompting fine-tuning, api osbanditinhos January 13, 2025, 3:10pm 1 Hi ! I’d like to develop a template capable of generating XML code specific to an internal configuration from instructions of around 300 characters. Basic LLMs such as GPT or others give middling results, even if you give 5 examples in the prompt. So I thought I’d have to fine-tune a template to get better performance. I have a database of about 200 examples, + a configuration document of about 90 pages. The whole thing represents 150,000 tokens. Do you think fine tuning is the best option? If so, do you have any advice on which hyperparameters to choose (such as learning rate, number of epochs, how much validation data to choose, etc.)? Should I turn to another solution? Thanks ! EricGT January 13, 2025, 3:34pm 2 Also consider evals. Not suggesting this will work but not on your list. osbanditinhos January 14, 2025, 9:09am 3 Thank you i will also use evals to see the improvement. For you fine tuning seems to be a good choice for solving my problem, but before paying for fine tuning I want to know how to choose my parameters ? Do I need to provide exemple in the prompts of the training dataset as I am using a chat model ? EricGT January 14, 2025, 10:20am 4 FYI I do not do fine-tuning so can not give any feedback. rrivero January 14, 2025, 12:47pm 5 I haven’t personally used fine-tuning, but I do have extensive experience with prompt engineering, and I believe it could be a great fit for your use case. Based on your input, it’s not entirely clear whether you’re already using prompt engineering techniques or if you’re just relying on few-shot prompting. With well-crafted instructions and incorporating chain-of-thought prompting, there’s a good chance you could achieve good results without needing fine-tuning. osbanditinhos January 14, 2025, 2:24pm 6 I am using usual prompt engineering technic like well-crafted instructions, chain-of-thought prompting and few-shot prompting, the result is by far better than with a simple prompt, but it is not enough. That’s why I want to fine tune the model if I can’t do anything else to improve the model. Related topics Topic Replies Views Activity Fine tuning Davinci01 or prompting Davinci03 API 3 808 December 31, 2022 Fine Tunes Question - Use FT or Prompt Engineering? API fine-tuning , prompt-engineering 0 832 November 15, 2023 Fine-Tuning and Prompt Design Prompting 2 1311 January 2, 2023 Fine tuning - how exactly does it work? API 5 2853 April 12, 2023 Prompt Usage for Fine-Tuned Models Community gpt-35-turbo , fine-tuning 1 2459 January 4, 2024",
+          "fetchedAt": "2026-09-17T12:21:19.260Z",
+          "title": "Prompting vs Finetuning : what should i choose? - Prompting - OpenAI Developer Community",
+          "status": "ok",
+          "contentLength": 2642,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Prompting vs Finetuning : what should i choose? Prompting fine-tuning, api osbanditinhos January 13, 2025, 3:10pm 1 Hi ! I’d like to develop a template capable of generating XML code specific to an internal configuration from instructions of around 300 characters. Basic LLMs such as GPT or others give middling results, even if you give 5 examples in the prompt. So I thought I’d have to fine-tune a template to get better performance. I have a database of about 200 examples, + a configuration document of about 90 pages. The whole thing represents 150,000 tokens. Do you think fine tuning is the best option? If so, do you have any advice on which hyperparameters to choose (such as learning rate, number of epochs, how much validation data to choose, etc.)? Should I turn to another solution? Thanks ! EricGT January 13, 2025, 3:34pm 2 Also consider evals. Not suggesting this will work but not on your list. osbanditinhos January 14, 2025, 9:09am 3 Thank you i will also use evals to see the improvement. For you fine tuning seems to be a good choice for solving my problem, but before paying for fine tuning I want to know how to choose my parameters ? Do I need to provide exemple in the prompts of the training dataset as I am using a chat model ? EricGT January 14, 2025, 10:20am 4 FYI I do not do fine-tuning so can not give any feedback. rrivero January 14, 2025, 12:47pm 5 I haven’t personally used fine-tuning, but I do have extensive experience with prompt engineering, and I believe it could be a great fit for your use case. Based on your input, it’s not entirely clear whether you’re already using prompt engineering techniques or if you’re just relying on few-shot prompting. With well-crafted instructions and incorporating chain-of-thought prompting, there’s a good chance you could achieve good results without needing fine-tuning. osbanditinhos January 14, 2025, 2:24pm 6 I am using usual prompt engineering technic like well-crafted instructions, chain-of-thought prompting and few-shot prompting, the result is by far better than with a simple prompt, but it is not enough. That’s why I want to fine tune the model if I can’t do anything else to improve the model. Related topics Topic Replies Views Activity Fine tuning Davinci01 or prompting Davinci03 API 3 808 December 31, 2022 Fine Tunes Question - Use FT or Prompt Engineering? API fine-tuning , prompt-engineering 0 832 November 15, 2023 Fine-Tuning and Prompt Design Prompting 2 1311 January 2, 2023 Fine tuning - how exactly does it work? API 5 2853 April 12, 2023 Prompt Usage for Fine-Tuned Models Community gpt-35-turbo , fine-tuning 1 2459 January 4, 2024"
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "tacGia": "Ivan Belcic, Cole Stryker",
+          "ngayDang": "2025-02-07",
+          "ngayLayVe": "2026-09-17T12:20:40.198Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, cấu trúc logic.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo",
+          "tieuDe": "Fine-tuning vs Prompting: When to Choose Each | Jesse Zhang Đăng trên chủ đề | LinkedIn",
+          "toChuc": "LinkedIn",
+          "ngayLayVe": "2026-09-17T12:20:41.403Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Đây là bài đăng cá nhân trên LinkedIn từ một kỹ sư (Decagon). Mặc dù không phải tài liệu học thuật, nhưng cung cấp góc nhìn thực tế về chi phí và rủi ro của fine-tuning so với prompting.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ, cần kiểm tra thêm thời điểm cụ thể để đánh giá tính cập nhật.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate. New foundation models are also being released constantly, which means you either stay locked into an older model or redo the work every few months.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+          "tieuDe": "Prompt engineering vs fine-tuning: Understanding the pros and cons",
+          "ngayLayVe": "2026-09-17T12:20:41.405Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog của công ty công nghệ (K2View). Tác giả là Product Marketing Director. Nội dung tổng hợp tốt, có bảng so sánh rõ ràng, phù hợp cho mục đích giáo dục cơ bản.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://community.openai.com/t/prompting-vs-finetuning-what-should-i-choose/1089650",
+          "tieuDe": "Prompting vs Finetuning : what should i choose? - Prompting - OpenAI Developer Community",
+          "toChuc": "OpenAI Developer Community",
+          "ngayDang": "2025-01-13T15:10:31+00:00",
+          "ngayLayVe": "2026-09-17T12:21:19.260Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Đây là diễn đàn thảo luận, không phải tài liệu tham khảo chính thống. Nội dung là câu hỏi và trả lời từ cộng đồng, thiếu tính hệ thống và độ tin cậy thấp hơn so với các nguồn chuyên gia hoặc tổ chức lớn.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Diễn đàn thảo luận, không phải nguồn tài liệu giáo dục chính thống, độ tin cậy thấp.",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "I haven’t personally used fine-tuning, but I do have extensive experience with prompt engineering, and I believe it could be a great fit for your use case.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n05",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "tieuDe": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "ngayLayVe": "2026-09-17T12:20:40.200Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "tieuDe": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "ngayLayVe": "2026-09-17T12:20:40.202Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n07",
+          "url": "https://medium.com/@myscale/prompt-engineering-vs-finetuning-vs-rag-cfae761c6d06",
+          "tieuDe": "https://medium.com/@myscale/prompt-engineering-vs-finetuning-vs-rag-cfae761c6d06",
+          "ngayLayVe": "2026-09-17T12:20:41.401Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n04",
+        "n05",
+        "n06",
+        "n07"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Prompt engineering là phương pháp tối ưu hóa đầu vào (input) để hướng dẫn mô hình tạo ra đầu ra mong muốn mà không thay đổi tham số của mô hình. Nó ít tốn kém và nhanh chóng hơn so với fine-tuning.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+              "viTri": "Đoạn 5"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Fine-tuning là quá trình huấn luyện lại mô hình trên dữ liệu chuyên ngành cụ thể. Phương pháp này tốn nhiều thời gian, chi phí và tài nguyên tính toán hơn, đồng thời làm giảm tính linh hoạt của mô hình vì nó bị đặc hóa cho một nhiệm vụ cụ thể.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming.",
+              "viTri": "Đoạn 6"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate.",
+              "viTri": "Đoạn 1"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "Reduces flexibility since the model becomes specialized to a specific domain or task.",
+              "viTri": "Bảng so sánh, cột Fine-Tuning, hàng Flexibility"
+            }
+          ],
+          "soNguonXacNhan": 3,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering\",\n      \"tieuDe\": \"RAG vs fine-tuning vs. prompt engineering | IBM\",\n      \"tacGia\": \"Ivan Belcic, Cole Stryker\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2025-02-07\",\n      \"ngayLayVe\": \"2026-09-17T12:20:40.198Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, cấu trúc logic.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo\",\n      \"tieuDe\": \"Fine-tuning vs Prompting: When to Choose Each | Jesse Zhang Đăng trên chủ đề | LinkedIn\",\n      \"tacGia\": \"Jesse Zhang\",\n      \"toChuc\": \"LinkedIn\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:20:41.403Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Đây là bài đăng cá nhân trên LinkedIn từ một kỹ sư (Decagon). Mặc dù không phải tài liệu học thuật, nhưng cung cấp góc nhìn thực tế về chi phí và rủi ro của fine-tuning so với prompting.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Ngày đăng không rõ, cần kiểm tra thêm thời điểm cụ thể để đánh giá tính cập nhật.\"],\n      \"doanTrich\": \"Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate. New foundation models are also being released constantly, which means you either stay locked into an older model or redo the work every few months.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/\",\n      \"tieuDe\": \"Prompt engineering vs fine-tuning: Understanding the pros and cons\",\n      \"tacGia\": \"Iris Zarecki\",\n      \"toChuc\": \"K2View\",\n      \"ngayDang\": \"2025-11-23\",\n      \"ngayLayVe\": \"2026-09-17T12:20:41.405Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog của công ty công nghệ (K2View). Tác giả là Product Marketing Director. Nội dung tổng hợp tốt, có bảng so sánh rõ ràng, phù hợp cho mục đích giáo dục cơ bản.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://community.openai.com/t/prompting-vs-finetuning-what-should-i-choose/1089650\",\n      \"tieuDe\": \"Prompting vs Finetuning : what should i choose? - Prompting - OpenAI Developer Community\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"OpenAI Developer Community\",\n      \"ngayDang\": \"2025-01-13\",\n      \"ngayLayVe\": \"2026-09-17T12:21:19.260Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Đây là diễn đàn thảo luận, không phải tài liệu tham khảo chính thống. Nội dung là câu hỏi và trả lời từ cộng đồng, thiếu tính hệ thống và độ tin cậy thấp hơn so với các nguồn chuyên gia hoặc tổ chức lớn.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Diễn đàn thảo luận, không phải nguồn tài liệu giáo dục chính thống, độ tin cậy thấp.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"I haven’t personally used fine-tuning, but I do have extensive experience with prompt engineering, and I believe it could be a great fit for your use case.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Prompt engineering là phương pháp tối ưu hóa đầu vào (input) để hướng dẫn mô hình tạo ra đầu ra mong muốn mà không thay đổi tham số của mô hình. Nó ít tốn kém và nhanh chóng hơn so với fine-tuning.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\",\n          \"viTri\": \"Đoạn 5\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Fine-tuning là quá trình huấn luyện lại mô hình trên dữ liệu chuyên ngành cụ thể. Phương pháp này tốn nhiều thời gian, chi phí và tài nguyên tính toán hơn, đồng thời làm giảm tính linh hoạt của mô hình vì nó bị đặc hóa cho một nhiệm vụ cụ thể.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming.\",\n          \"viTri\": \"Đoạn 6\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate.\",\n          \"viTri\": \"Đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Reduces flexibility since the model becomes specialized to a specific domain or task.\",\n          \"viTri\": \"Bảng so sánh, cột Fine-Tuning, hàng Flexibility\"\n        }\n      ],\n      \"soNguonXacNhan\": 3,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-20b",
+          "requestId": "chatcmpl-dfd86199-5614-493b-ba0b-aa4f8c779f5b",
+          "durationMs": 3057,
+          "rawAiResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering\",\"tieuDe\":\"RAG vs fine-tuning vs. prompt engineering | IBM\",\"tacGia\":\"Ivan Belcic, Cole Stryker\",\"toChuc\":\"Không rõ\",\"ngayDang\":\"2025-02-07\",\"ngayLayVe\":\"2026-09-17T12:20:40.198Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Published by IBM, a reputable organization, with clear authorship and recent date.\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Technical article on AI methods\",\"canhBao\":[],\"doanTrich\":\"Prompt engineering optimizes input prompts to steer a model toward better outputs.\"},{\"id\":\"n02\",\"url\":\"https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo\",\"tieuDe\":\"Fine-tuning vs Prompting: When to Choose Each | Jesse Zhang Đăng trên chủ đề | LinkedIn\",\"tacGia\":\"Không rõ\",\"toChuc\":\"LinkedIn\",\"ngayDang\":\"Không rõ\",\"ngayLayVe\":\"2026-09-17T12:20:41.403Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"LinkedIn post by unknown author, no publication date, but includes practical insights.\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Personal experience post\",\"canhBao\":[],\"doanTrich\":\"Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate.\"}]}",
+          "validationError": "Phản hồi đánh giá nguồn thiếu mảng thongTin"
+        },
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-475ae3c2-ec5a-4ceb-a758-9b44ae1907af",
+          "durationMs": 4860,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering\",\n      \"tieuDe\": \"RAG vs fine-tuning vs. prompt engineering | IBM\",\n      \"tacGia\": \"Ivan Belcic, Cole Stryker\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2025-02-07\",\n      \"ngayLayVe\": \"2026-09-17T12:20:40.198Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, cấu trúc logic.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo\",\n      \"tieuDe\": \"Fine-tuning vs Prompting: When to Choose Each | Jesse Zhang Đăng trên chủ đề | LinkedIn\",\n      \"tacGia\": \"Jesse Zhang\",\n      \"toChuc\": \"LinkedIn\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:20:41.403Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Đây là bài đăng cá nhân trên LinkedIn từ một kỹ sư (Decagon). Mặc dù không phải tài liệu học thuật, nhưng cung cấp góc nhìn thực tế về chi phí và rủi ro của fine-tuning so với prompting.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Ngày đăng không rõ, cần kiểm tra thêm thời điểm cụ thể để đánh giá tính cập nhật.\"],\n      \"doanTrich\": \"Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate. New foundation models are also being released constantly, which means you either stay locked into an older model or redo the work every few months.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/\",\n      \"tieuDe\": \"Prompt engineering vs fine-tuning: Understanding the pros and cons\",\n      \"tacGia\": \"Iris Zarecki\",\n      \"toChuc\": \"K2View\",\n      \"ngayDang\": \"2025-11-23\",\n      \"ngayLayVe\": \"2026-09-17T12:20:41.405Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog của công ty công nghệ (K2View). Tác giả là Product Marketing Director. Nội dung tổng hợp tốt, có bảng so sánh rõ ràng, phù hợp cho mục đích giáo dục cơ bản.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://community.openai.com/t/prompting-vs-finetuning-what-should-i-choose/1089650\",\n      \"tieuDe\": \"Prompting vs Finetuning : what should i choose? - Prompting - OpenAI Developer Community\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"OpenAI Developer Community\",\n      \"ngayDang\": \"2025-01-13\",\n      \"ngayLayVe\": \"2026-09-17T12:21:19.260Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Đây là diễn đàn thảo luận, không phải tài liệu tham khảo chính thống. Nội dung là câu hỏi và trả lời từ cộng đồng, thiếu tính hệ thống và độ tin cậy thấp hơn so với các nguồn chuyên gia hoặc tổ chức lớn.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Diễn đàn thảo luận, không phải nguồn tài liệu giáo dục chính thống, độ tin cậy thấp.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"I haven’t personally used fine-tuning, but I do have extensive experience with prompt engineering, and I believe it could be a great fit for your use case.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Prompt engineering là phương pháp tối ưu hóa đầu vào (input) để hướng dẫn mô hình tạo ra đầu ra mong muốn mà không thay đổi tham số của mô hình. Nó ít tốn kém và nhanh chóng hơn so với fine-tuning.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\",\n          \"viTri\": \"Đoạn 5\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Fine-tuning là quá trình huấn luyện lại mô hình trên dữ liệu chuyên ngành cụ thể. Phương pháp này tốn nhiều thời gian, chi phí và tài nguyên tính toán hơn, đồng thời làm giảm tính linh hoạt của mô hình vì nó bị đặc hóa cho một nhiệm vụ cụ thể.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming.\",\n          \"viTri\": \"Đoạn 6\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate.\",\n          \"viTri\": \"Đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Reduces flexibility since the model becomes specialized to a specific domain or task.\",\n          \"viTri\": \"Bảng so sánh, cột Fine-Tuning, hàng Flexibility\"\n        }\n      ],\n      \"soNguonXacNhan\": 3,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 96118
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Fine-tuning so với prompt engineering",
+      "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Quản lý sản phẩm",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789647719704",
+      "timestamp": "2026-09-17T12:21:59.704Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Fine-tuning so với prompt engineering",
+        "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "evalRunId": "2026-09-17T12-12-13-353Z",
+        "evalCaseId": "N07"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "tacGia": "Ivan Belcic, Cole Stryker",
+          "ngayDang": "2025-02-07",
+          "ngayLayVe": "2026-09-17T12:20:40.198Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, cấu trúc logic.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo",
+          "tieuDe": "Fine-tuning vs Prompting: When to Choose Each | Jesse Zhang Đăng trên chủ đề | LinkedIn",
+          "toChuc": "LinkedIn",
+          "ngayLayVe": "2026-09-17T12:20:41.403Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Đây là bài đăng cá nhân trên LinkedIn từ một kỹ sư (Decagon). Mặc dù không phải tài liệu học thuật, nhưng cung cấp góc nhìn thực tế về chi phí và rủi ro của fine-tuning so với prompting.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ, cần kiểm tra thêm thời điểm cụ thể để đánh giá tính cập nhật.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate. New foundation models are also being released constantly, which means you either stay locked into an older model or redo the work every few months.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+          "tieuDe": "Prompt engineering vs fine-tuning: Understanding the pros and cons",
+          "ngayLayVe": "2026-09-17T12:20:41.405Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog của công ty công nghệ (K2View). Tác giả là Product Marketing Director. Nội dung tổng hợp tốt, có bảng so sánh rõ ràng, phù hợp cho mục đích giáo dục cơ bản.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Prompt engineering là phương pháp tối ưu hóa đầu vào (input) để hướng dẫn mô hình tạo ra đầu ra mong muốn mà không thay đổi tham số của mô hình. Nó ít tốn kém và nhanh chóng hơn so với fine-tuning.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+              "viTri": "Đoạn 5"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Fine-tuning là quá trình huấn luyện lại mô hình trên dữ liệu chuyên ngành cụ thể. Phương pháp này tốn nhiều thời gian, chi phí và tài nguyên tính toán hơn, đồng thời làm giảm tính linh hoạt của mô hình vì nó bị đặc hóa cho một nhiệm vụ cụ thể.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming.",
+              "viTri": "Đoạn 6"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate.",
+              "viTri": "Đoạn 1"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "Reduces flexibility since the model becomes specialized to a specific domain or task.",
+              "viTri": "Bảng so sánh, cột Fine-Tuning, hàng Flexibility"
+            }
+          ],
+          "soNguonXacNhan": 3,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Fine-tuning so với prompt engineering",
+        "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Quản lý sản phẩm",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "",
+      "aiAttempts": [],
+      "error": "Lỗi tạo kịch bản: Tất cả AI providers đều gặp lỗi: DeepSeek: The operation was aborted due to timeout | Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (400): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "isDemo": false,
+      "durationMs": 21889
+    },
+    "isDemo": false,
+    "error": "Lỗi tạo kịch bản: Tất cả AI providers đều gặp lỗi: DeepSeek: The operation was aborted due to timeout | Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (400): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+  }
+}

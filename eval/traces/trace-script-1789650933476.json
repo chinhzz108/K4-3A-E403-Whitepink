@@ -1,0 +1,270 @@
+{
+  "id": "trace-script-1789650933476",
+  "timestamp": "2026-09-17T13:15:33.476Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Token là gì và vì sao quan trọng",
+    "learningObjective": "Giải thích được token và cách tính chi phí dựa trên token",
+    "targetAudience": "Người mới học AI",
+    "videoDuration": "3 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N08"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://tokencalculator.ai/",
+      "tieuDe": "AI Token Calculator | Estimate GPT, Opus, and Gemini Model Costs",
+      "toChuc": "Token Calculator Tool",
+      "ngayLayVe": "2026-09-17T13:14:55.268Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Công cụ tính toán trực tuyến, cung cấp định nghĩa cơ bản và bảng giá tham khảo. Tuy nhiên, không có tác giả rõ ràng và dữ liệu giá có thể thay đổi theo thời gian thực mà không có dấu mốc thời gian cụ thể trong nội dung scrape.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Số liệu giá API có thể thay đổi thường xuyên, cần kiểm tra lại tại thời điểm sử dụng.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.dictionary.com/browse/token",
+      "tieuDe": "TOKEN Definition & Meaning | Dictionary.com",
+      "ngayLayVe": "2026-09-17T13:14:56.925Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Từ điển uy tín, cung cấp định nghĩa ngôn ngữ học chính xác về 'token' (một instance cụ thể của từ/ký hiệu), là nền tảng để hiểu khái niệm token trong NLP.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Định nghĩa mang tính ngôn ngữ học tổng quát, cần kết hợp với nguồn kỹ thuật để áp dụng vào AI.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator",
+      "tieuDe": "LLM API Pricing Calculator: OpenAI, Anthropic, Gemini | GPT for Work",
+      "ngayLayVe": "2026-09-17T13:14:56.926Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Công cụ tính giá API từ bên thứ ba. Cung cấp định nghĩa kỹ thuật về token trong ngữ cảnh OpenAI và bảng giá chi tiết. Độ tin cậy trung bình vì là nguồn thương mại, không phải tài liệu học thuật chính thức.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Giá API được liệt kê có thể không phản ánh chính xác giá hiện tại nếu không được cập nhật liên tục.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Token trong ngôn ngữ học là một instance cụ thể của một từ, ký hiệu, hoặc biểu thức.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like.",
+          "viTri": "Mục định nghĩa từ điển"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Trong các mô hình AI (đặc biệt là OpenAI), token là một phần của văn bản, có thể là từ, từ con (subword), dấu câu hoặc ký hiệu, và là đơn vị tính toán chi phí API.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.",
+          "viTri": "Mục FAQ: What is an OpenAI token?"
+        },
+        {
+          "nguonId": "n01",
+          "doanTrich": "Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text.",
+          "viTri": "Mục giải thích về Token"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Chi phí sử dụng AI thường được tính dựa trên số lượng token đầu vào (input) và đầu ra (output), với đơn vị tính phổ biến là trên mỗi 1 triệu token.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "All prices are per 1 million tokens",
+          "viTri": "Mục Current API Prices"
+        },
+        {
+          "nguonId": "n04",
+          "doanTrich": "Input price for 1M tokens",
+          "viTri": "Bảng tính giá API"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Chi phí cho token đầu ra (output) thường cao hơn đáng kể so với token đầu vào (input), thường gấp 3 đến 6 lần trên các mô hình flagship.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Output is usually more expensive because the model has to generate new tokens, not just read the prompt. On current flagship models, output often costs 3x to 6x more than input",
+          "viTri": "Mục giải thích về chi phí"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có một nguồn xác nhận tỷ lệ này. Các nguồn khác (n04) liệt kê giá cụ thể nhưng không tổng kết tỷ lệ chung, tuy nhiên dữ liệu giá ở n04 (ví dụ: gpt-5.6-sol: $5 input / $30 output) cũng hỗ trợ xu hướng output đắt hơn, nhưng không nêu rõ tỷ lệ 3x-6x một cách tổng quát."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Token là gì và vì sao quan trọng",
+    "mucTieu": "Giải thích được token và cách tính chi phí dựa trên token",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Người mới học AI",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã bao giờ tự hỏi làm thế nào các mô hình trí tuệ nhân tạo có thể hiểu và tính toán chi phí cho những văn bản mà bạn nhập vào chưa?",
+        "chuTrenManHinh": "AI hiểu và tính chi phí thế nào?",
+        "yDoHinh": "Hình ảnh một người dùng đang gõ tin nhắn trò chuyện với chatbot trên màn hình máy tính.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo một số tài liệu kỹ thuật chưa được xác minh đầy đủ, trong các mô hình trí tuệ nhân tạo, mẩu văn bản, hay còn gọi là token, có thể là một từ, một phần của từ, dấu câu hoặc ký hiệu, và là đơn vị tính toán chi phí của giao diện lập trình ứng dụng, hay còn gọi là API.",
+        "chuTrenManHinh": "Token là một phần của văn bản",
+        "yDoHinh": "Đồ họa phân tách một câu văn thành các khối nhỏ gồm từ, cụm từ và dấu câu được tô màu khác nhau.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Bên cạnh đó, các tài liệu ngôn ngữ học chưa được xác minh cũng định nghĩa thực thể cụ thể, hay còn gọi là token, là một trường hợp cụ thể của một từ, ký hiệu hoặc biểu thức.",
+        "chuTrenManHinh": "Token trong ngôn ngữ học",
+        "yDoHinh": "Hình ảnh một cuốn từ điển mở ra với dòng chữ chỉ vào một từ cụ thể được khoanh tròn.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Cũng theo các báo cáo chưa kiểm chứng toàn diện, chi phí sử dụng thường được tính toán dựa trên số lượng đầu vào, hay còn gọi là input, và đầu ra, hay còn gọi là output, với đơn vị phổ biến là trên mỗi một triệu mã đại diện, hay còn gọi là token.",
+        "chuTrenManHinh": "Chi phí tính trên một triệu token",
+        "yDoHinh": "Biểu đồ cột hiển thị hóa đơn dịch vụ tăng dần theo số lượng ký tự đầu vào và đầu ra gửi đi.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trong bài học ngày hôm nay, chúng ta sẽ cùng nhau khám phá chi tiết về khái niệm thú vị này để giúp bạn làm chủ công nghệ một cách hiệu quả nhất.",
+        "chuTrenManHinh": "Cơ chế hoạt động của token",
+        "yDoHinh": "Biểu tượng chiếc chìa khóa mở ra cánh cửa dẫn vào không gian công nghệ số.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Bạn đã bao giờ tự hỏi làm thế nào các mô hình trí tuệ nhân tạo có thể hiểu và tính toán chi phí cho những văn bản mà bạn nhập vào chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo một số tài liệu kỹ thuật chưa được xác minh đầy đủ, trong các mô hình trí tuệ nhân tạo, mẩu văn bản, hay còn gọi là token, có thể là một từ, một phần của từ, dấu câu hoặc ký hiệu, và là đơn vị tính toán chi phí của giao diện lập trình ứng dụng, hay còn gọi là API.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.; [n01] Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Bên cạnh đó, các tài liệu ngôn ngữ học chưa được xác minh cũng định nghĩa thực thể cụ thể, hay còn gọi là token, là một trường hợp cụ thể của một từ, ký hiệu hoặc biểu thức.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Cũng theo các báo cáo chưa kiểm chứng toàn diện, chi phí sử dụng thường được tính toán dựa trên số lượng đầu vào, hay còn gọi là input, và đầu ra, hay còn gọi là output, với đơn vị phổ biến là trên mỗi một triệu mã đại diện, hay còn gọi là token.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] All prices are per 1 million tokens; [n04] Input price for 1M tokens"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Trong bài học ngày hôm nay, chúng ta sẽ cùng nhau khám phá chi tiết về khái niệm thú vị này để giúp bạn làm chủ công nghệ một cách hiệu quả nhất.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Token là gì và vì sao quan trọng\",\n  \"mucTieu\": \"Giải thích được token và cách tính chi phí dựa trên token\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Người mới học AI\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ tự hỏi làm thế nào các mô hình trí tuệ nhân tạo có thể hiểu và tính toán chi phí cho những văn bản mà bạn nhập vào chưa?\",\n      \"chuTrenManHinh\": \"AI hiểu và tính chi phí thế nào?\",\n      \"yDoHinh\": \"Hình ảnh một người dùng đang gõ tin nhắn trò chuyện với chatbot trên màn hình máy tính.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo một số tài liệu kỹ thuật chưa được xác minh đầy đủ, trong các mô hình trí tuệ nhân tạo, mẩu văn bản, hay còn gọi là token, có thể là một từ, một phần của từ, dấu câu hoặc ký hiệu, và là đơn vị tính toán chi phí của giao diện lập trình ứng dụng, hay còn gọi là API.\",\n      \"chuTrenManHinh\": \"Token là một phần của văn bản\",\n      \"yDoHinh\": \"Đồ họa phân tách một câu văn thành các khối nhỏ gồm từ, cụm từ và dấu câu được tô màu khác nhau.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bên cạnh đó, các tài liệu ngôn ngữ học chưa được xác minh cũng định nghĩa thực thể cụ thể, hay còn gọi là token, là một trường hợp cụ thể của một từ, ký hiệu hoặc biểu thức.\",\n      \"chuTrenManHinh\": \"Token trong ngôn ngữ học\",\n      \"yDoHinh\": \"Hình ảnh một cuốn từ điển mở ra với dòng chữ chỉ vào một từ cụ thể được khoanh tròn.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Cũng theo các báo cáo chưa kiểm chứng toàn diện, chi phí sử dụng thường được tính toán dựa trên số lượng đầu vào, hay còn gọi là input, và đầu ra, hay còn gọi là output, với đơn vị phổ biến là trên mỗi một triệu mã đại diện, hay còn gọi là token.\",\n      \"chuTrenManHinh\": \"Chi phí tính trên một triệu token\",\n      \"yDoHinh\": \"Biểu đồ cột hiển thị hóa đơn dịch vụ tăng dần theo số lượng ký tự đầu vào và đầu ra gửi đi.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học ngày hôm nay, chúng ta sẽ cùng nhau khám phá chi tiết về khái niệm thú vị này để giúp bạn làm chủ công nghệ một cách hiệu quả nhất.\",\n      \"chuTrenManHinh\": \"Cơ chế hoạt động của token\",\n      \"yDoHinh\": \"Biểu tượng chiếc chìa khóa mở ra cánh cửa dẫn vào không gian công nghệ số.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "durationMs": 24296,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Token là gì và vì sao quan trọng\",\n  \"mucTieu\": \"Giải thích được token và cách tính chi phí dựa trên token\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Người mới học AI\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ tự hỏi làm thế nào các mô hình trí tuệ nhân tạo có thể hiểu và tính toán chi phí cho những văn bản mà bạn nhập vào chưa?\",\n      \"chuTrenManHinh\": \"AI hiểu và tính chi phí thế nào?\",\n      \"yDoHinh\": \"Hình ảnh một người dùng đang gõ tin nhắn trò chuyện với chatbot trên màn hình máy tính.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo một số tài liệu kỹ thuật chưa được xác minh đầy đủ, trong các mô hình trí tuệ nhân tạo, mẩu văn bản, hay còn gọi là token, có thể là một từ, một phần của từ, dấu câu hoặc ký hiệu, và là đơn vị tính toán chi phí của giao diện lập trình ứng dụng, hay còn gọi là API.\",\n      \"chuTrenManHinh\": \"Token là một phần của văn bản\",\n      \"yDoHinh\": \"Đồ họa phân tách một câu văn thành các khối nhỏ gồm từ, cụm từ và dấu câu được tô màu khác nhau.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bên cạnh đó, các tài liệu ngôn ngữ học chưa được xác minh cũng định nghĩa thực thể cụ thể, hay còn gọi là token, là một trường hợp cụ thể của một từ, ký hiệu hoặc biểu thức.\",\n      \"chuTrenManHinh\": \"Token trong ngôn ngữ học\",\n      \"yDoHinh\": \"Hình ảnh một cuốn từ điển mở ra với dòng chữ chỉ vào một từ cụ thể được khoanh tròn.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Cũng theo các báo cáo chưa kiểm chứng toàn diện, chi phí sử dụng thường được tính toán dựa trên số lượng đầu vào, hay còn gọi là input, và đầu ra, hay còn gọi là output, với đơn vị phổ biến là trên mỗi một triệu mã đại diện, hay còn gọi là token.\",\n      \"chuTrenManHinh\": \"Chi phí tính trên một triệu token\",\n      \"yDoHinh\": \"Biểu đồ cột hiển thị hóa đơn dịch vụ tăng dần theo số lượng ký tự đầu vào và đầu ra gửi đi.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học ngày hôm nay, chúng ta sẽ cùng nhau khám phá chi tiết về khái niệm thú vị này để giúp bạn làm chủ công nghệ một cách hiệu quả nhất.\",\n      \"chuTrenManHinh\": \"Cơ chế hoạt động của token\",\n      \"yDoHinh\": \"Biểu tượng chiếc chìa khóa mở ra cánh cửa dẫn vào không gian công nghệ số.\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 30559
+}

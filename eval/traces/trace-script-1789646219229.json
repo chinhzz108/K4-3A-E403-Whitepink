@@ -1,0 +1,213 @@
+{
+  "id": "trace-script-1789646219229",
+  "timestamp": "2026-09-17T11:56:59.229Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách phòng chống prompt injection",
+    "learningObjective": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "targetAudience": "Lập trình viên",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T11-55-09-911Z",
+    "evalCaseId": "N20"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://github.com/tldrsec/prompt-injection-defenses",
+      "tieuDe": "GitHub - tldrsec/prompt-injection-defenses: Every practical and proposed defense against prompt injection. · GitHub",
+      "toChuc": "GitHub",
+      "ngayLayVe": "2026-09-17T11:55:34.370Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Không có thông tin tác giả, không qua thẩm định học thuật, nhưng nội dung được cộng đồng tổng hợp.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "This repository centralizes and summarizes practical and proposed defenses against prompt injection.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://blog.google/security/mitigating-prompt-injection-attacks/",
+      "tieuDe": "Mitigating prompt injection attacks with a layered defense strategy",
+      "toChuc": "Google",
+      "ngayDang": "2025-06-13",
+      "ngayLayVe": "2026-09-17T11:55:34.374Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Blog bảo mật của Google, tổ chức uy tín, cung cấp chi tiết về chiến lược phòng thủ đa lớp.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn cũ hơn 1 năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Google has taken a layered security approach introducing security measures designed for each stage of the prompt lifecycle.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Input Pre-processing (Paraphrasing, Retokenization) Transform the input to make creating an adversarial prompt more difficult.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Input Pre-processing (Paraphrasing, Retokenization) Transform the input to make creating an adversarial prompt more difficult.",
+          "viTri": "N/A"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Monitor the inputs and outputs, using traditional and LLM specific mechanisms to detect prompt injection or it's impacts (prompt leakage, jailbreaks).",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Monitor the inputs and outputs, using traditional and LLM specific mechanisms to detect prompt injection or it's impacts (prompt leakage, jailbreaks).",
+          "viTri": "N/A"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách phòng chống prompt injection",
+    "mucTieu": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Lập trình viên",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn lập trình viên đến với video về cách phòng chống prompt injection!",
+        "chuTrenManHinh": "Chào mừng",
+        "yDoHinh": "Màn hình hiển thị lời chào với biểu tượng AI",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Cách đầu tiên là tiền xử lý đầu vào, như diễn giải lại hoặc tái mã hoá, để làm khó việc tạo prompt injection, hay còn gọi là chèn lệnh, độc hại.",
+        "chuTrenManHinh": "Tiền xử lý đầu vào",
+        "yDoHinh": "Mô phỏng quá trình chuyển đổi văn bản thành dạng mới",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Cách thứ hai là giám sát các đầu vào và đầu ra, dùng cơ chế truyền thống và đặc thù cho mô hình ngôn ngữ lớn để phát hiện prompt injection, hay còn gọi là chèn lệnh, hoặc các tác động như rò rỉ prompt và jailbreak.",
+        "chuTrenManHinh": "Giám sát đầu vào/ra",
+        "yDoHinh": "Biểu đồ theo dõi luồng dữ liệu và cảnh báo",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Cách thứ ba là kết hợp nhiều lớp bảo vệ, áp dụng các biện pháp ở từng giai đoạn của vòng đời prompt, hay còn gọi là lệnh gợi ý, để tăng tính an toàn.",
+        "chuTrenManHinh": "Lớp bảo vệ đa lớp",
+        "yDoHinh": "Sơ đồ lớp bảo vệ chồng lên nhau",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hy vọng các bạn sẽ áp dụng ba biện pháp này để bảo vệ hệ thống AI của mình, hẹn gặp lại trong video tiếp theo!",
+        "chuTrenManHinh": "Kết thúc",
+        "yDoHinh": "Màn hình hiển thị lời chào tạm biệt",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn lập trình viên đến với video về cách phòng chống prompt injection!",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Cách đầu tiên là tiền xử lý đầu vào, như diễn giải lại hoặc tái mã hoá, để làm khó việc tạo prompt injection, hay còn gọi là chèn lệnh, độc hại.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Input Pre-processing (Paraphrasing, Retokenization) Transform the input to make creating an adversarial prompt more difficult."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Cách thứ hai là giám sát các đầu vào và đầu ra, dùng cơ chế truyền thống và đặc thù cho mô hình ngôn ngữ lớn để phát hiện prompt injection, hay còn gọi là chèn lệnh, hoặc các tác động như rò rỉ prompt và jailbreak.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Monitor the inputs and outputs, using traditional and LLM specific mechanisms to detect prompt injection or it's impacts (prompt leakage, jailbreaks)."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Cách thứ ba là kết hợp nhiều lớp bảo vệ, áp dụng các biện pháp ở từng giai đoạn của vòng đời prompt, hay còn gọi là lệnh gợi ý, để tăng tính an toàn.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Input Pre-processing (Paraphrasing, Retokenization) Transform the input to make creating an adversarial prompt more difficult."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hy vọng các bạn sẽ áp dụng ba biện pháp này để bảo vệ hệ thống AI của mình, hẹn gặp lại trong video tiếp theo!",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách phòng chống prompt injection\",\"mucTieu\":\"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Lập trình viên\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn lập trình viên đến với video về cách phòng chống prompt injection!\",\"chuTrenManHinh\":\"Chào mừng\",\"yDoHinh\":\"Màn hình hiển thị lời chào với biểu tượng AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Cách đầu tiên là tiền xử lý đầu vào, như diễn giải lại hoặc tái mã hoá, để làm khó việc tạo prompt injection, hay còn gọi là chèn lệnh, độc hại.\",\"chuTrenManHinh\":\"Tiền xử lý đầu vào\",\"yDoHinh\":\"Mô phỏng quá trình chuyển đổi văn bản thành dạng mới\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Cách thứ hai là giám sát các đầu vào và đầu ra, dùng cơ chế truyền thống và đặc thù cho mô hình ngôn ngữ lớn để phát hiện prompt injection, hay còn gọi là chèn lệnh, hoặc các tác động như rò rỉ prompt và jailbreak.\",\"chuTrenManHinh\":\"Giám sát đầu vào/ra\",\"yDoHinh\":\"Biểu đồ theo dõi luồng dữ liệu và cảnh báo\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Cách thứ ba là kết hợp nhiều lớp bảo vệ, áp dụng các biện pháp ở từng giai đoạn của vòng đời prompt, hay còn gọi là lệnh gợi ý, để tăng tính an toàn.\",\"chuTrenManHinh\":\"Lớp bảo vệ đa lớp\",\"yDoHinh\":\"Sơ đồ lớp bảo vệ chồng lên nhau\",\"nguon\":[\"t01\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn sẽ áp dụng ba biện pháp này để bảo vệ hệ thống AI của mình, hẹn gặp lại trong video tiếp theo!\",\"chuTrenManHinh\":\"Kết thúc\",\"yDoHinh\":\"Màn hình hiển thị lời chào tạm biệt\",\"nguon\":[]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-d54a70a8-a079-4433-99fc-980fccaa6b51",
+      "durationMs": 4865,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách phòng chống prompt injection\",\"mucTieu\":\"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Lập trình viên\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn lập trình viên đến với video về cách phòng chống prompt injection!\",\"chuTrenManHinh\":\"Chào mừng\",\"yDoHinh\":\"Màn hình hiển thị lời chào với biểu tượng AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Cách đầu tiên là tiền xử lý đầu vào, như diễn giải lại hoặc tái mã hoá, để làm khó việc tạo prompt injection, hay còn gọi là chèn lệnh, độc hại.\",\"chuTrenManHinh\":\"Tiền xử lý đầu vào\",\"yDoHinh\":\"Mô phỏng quá trình chuyển đổi văn bản thành dạng mới\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Cách thứ hai là giám sát các đầu vào và đầu ra, dùng cơ chế truyền thống và đặc thù cho mô hình ngôn ngữ lớn để phát hiện prompt injection, hay còn gọi là chèn lệnh, hoặc các tác động như rò rỉ prompt và jailbreak.\",\"chuTrenManHinh\":\"Giám sát đầu vào/ra\",\"yDoHinh\":\"Biểu đồ theo dõi luồng dữ liệu và cảnh báo\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Cách thứ ba là kết hợp nhiều lớp bảo vệ, áp dụng các biện pháp ở từng giai đoạn của vòng đời prompt, hay còn gọi là lệnh gợi ý, để tăng tính an toàn.\",\"chuTrenManHinh\":\"Lớp bảo vệ đa lớp\",\"yDoHinh\":\"Sơ đồ lớp bảo vệ chồng lên nhau\",\"nguon\":[\"t01\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn sẽ áp dụng ba biện pháp này để bảo vệ hệ thống AI của mình, hẹn gặp lại trong video tiếp theo!\",\"chuTrenManHinh\":\"Kết thúc\",\"yDoHinh\":\"Màn hình hiển thị lời chào tạm biệt\",\"nguon\":[]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 39886
+}

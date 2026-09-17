@@ -1,0 +1,199 @@
+{
+  "id": "trace-research-1789651866049",
+  "timestamp": "2026-09-17T13:31:06.049Z",
+  "phase": "research",
+  "input": {
+    "topic": "Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam",
+    "learningObjective": "Biết mức chi phí thực tế",
+    "targetAudience": "Quản lý",
+    "videoDuration": "3 phút",
+    "fixtureMode": true,
+    "fixtureUrls": [
+      "http://localhost:3000/fixtures/contradicting-a.html",
+      "http://localhost:3000/fixtures/contradicting-b.html"
+    ],
+    "evalRunId": "2026-09-17T13-31-02-064Z",
+    "evalCaseId": "N17"
+  },
+  "searchResults": [
+    {
+      "results": [],
+      "query": "fixture-only"
+    },
+    {
+      "results": [],
+      "query": "fixture-only"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "http://localhost:3000/fixtures/contradicting-a.html",
+      "http://localhost:3000/fixtures/contradicting-b.html"
+    ],
+    "pagesRead": [
+      "http://localhost:3000/fixtures/contradicting-a.html",
+      "http://localhost:3000/fixtures/contradicting-b.html"
+    ],
+    "supplementReasons": []
+  },
+  "pagesRead": [
+    {
+      "url": "http://localhost:3000/fixtures/contradicting-a.html",
+      "content": "FIXTURE TỰ DỰNG: mọi tổ chức và số liệu trong trang chỉ phục vụ kiểm thử, không phải nguồn thật. Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026 Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024 nhờ sự cạnh tranh giữa các nhà cung cấp. Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%. Dự báo đến cuối năm 2026, chi phí sẽ tiếp tục giảm thêm 30–40%.",
+      "fetchedAt": "2026-09-17T13:31:02.144Z",
+      "title": "Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026",
+      "status": "ok",
+      "contentLength": 503,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "FIXTURE TỰ DỰNG: mọi tổ chức và số liệu trong trang chỉ phục vụ kiểm thử, không phải nguồn thật. Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026 Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024 nhờ sự cạnh tranh giữa các nhà cung cấp. Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%. Dự báo đến cuối năm 2026, chi phí sẽ tiếp tục giảm thêm 30–40%."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "http://localhost:3000/fixtures/contradicting-b.html",
+      "content": "FIXTURE TỰ DỰNG: mọi tổ chức và số liệu trong trang chỉ phục vụ kiểm thử, không phải nguồn thật. Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026 Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp. Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%. Chi phí thực tế phụ thuộc nhiều vào mô hình được chọn, độ dài đầu vào và cách tối ưu prompt.",
+      "fetchedAt": "2026-09-17T13:31:02.144Z",
+      "title": "Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026",
+      "status": "ok",
+      "contentLength": 558,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "FIXTURE TỰ DỰNG: mọi tổ chức và số liệu trong trang chỉ phục vụ kiểm thử, không phải nguồn thật. Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026 Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp. Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%. Chi phí thực tế phụ thuộc nhiều vào mô hình được chọn, độ dài đầu vào và cách tối ưu prompt."
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/contradicting-a.html",
+      "tieuDe": "Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026",
+      "tacGia": "Viện Nghiên cứu AI Việt Nam",
+      "toChuc": "AI Research Vietnam",
+      "ngayDang": "2026-06-01",
+      "ngayLayVe": "2026-09-17T13:31:02.144Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Đây là tài liệu fixture tự dựng, nội dung khai báo rõ ràng là dữ liệu kiểm thử, không phải nguồn thực tế. Số liệu mâu thuẫn với nguồn khác.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Dữ liệu fixture tổng hợp, không phải bằng chứng thực tế",
+        "Số liệu chi phí mâu thuẫn với nguồn n02"
+      ],
+      "doanTrich": "chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "http://localhost:3000/fixtures/contradicting-b.html",
+      "tieuDe": "Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026",
+      "tacGia": "Trung tâm Công nghệ Thông tin Quốc gia",
+      "toChuc": "CNTT Quốc gia",
+      "ngayDang": "2026-07-15",
+      "ngayLayVe": "2026-09-17T13:31:02.144Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Đây là tài liệu fixture tự dựng, nội dung khai báo rõ ràng là dữ liệu kiểm thử, không phải nguồn thực tế. Số liệu mâu thuẫn với nguồn khác.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Dữ liệu fixture tổng hợp, không phải bằng chứng thực tế",
+        "Số liệu chi phí mâu thuẫn với nguồn n01"
+      ],
+      "doanTrich": "chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "sourcesRejected": [],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Chi phí trung bình cho mỗi 1000 token đầu vào được ghi nhận là 0,01 USD theo khảo sát 500 doanh nghiệp.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Mâu thuẫn trực tiếp với nguồn n02 đưa ra con số 0,05 USD. Cả hai nguồn đều là fixture kiểm thử nên không có cơ sở để xác định số liệu nào là chính xác trong thực tế."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Chi phí trung bình cho mỗi 1000 token đầu vào được ghi nhận là 0,05 USD theo số liệu từ 200 doanh nghiệp lớn.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Mâu thuẫn trực tiếp với nguồn n01 đưa ra con số 0,01 USD. Nguồn n02 giải thích sự chênh lệch do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp."
+    },
+    {
+      "id": "t03",
+      "noiDung": "Mô hình GPT-4o chiếm 45% thị phần, tiếp theo là Claude với 30% theo khảo sát của Viện Nghiên cứu AI Việt Nam.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%.",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Mâu thuẫn với nguồn n02 cho rằng Claude 3.5 Sonnet chiếm 55% và GPT-4o chiếm 25% trong nhóm khảo sát của họ. Sự khác biệt có thể do phương pháp lấy mẫu khác nhau giữa hai fixture."
+    },
+    {
+      "id": "t04",
+      "noiDung": "Claude 3.5 Sonnet chiếm 55% lượng sử dụng, GPT-4o chiếm 25% theo báo cáo của Trung tâm Công nghệ Thông tin Quốc gia.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%.",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Mâu thuẫn với nguồn n01 về thị phần các mô hình. Nguồn n02 ghi nhận sự thống trị của Claude trong nhóm doanh nghiệp lớn, trái ngược với nguồn n01."
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-a.html\",\n      \"tieuDe\": \"Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026\",\n      \"tacGia\": \"Viện Nghiên cứu AI Việt Nam\",\n      \"toChuc\": \"AI Research Vietnam\",\n      \"ngayDang\": \"2026-06-01\",\n      \"ngayLayVe\": \"2026-09-17T13:31:02.144Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Đây là tài liệu fixture tự dựng, nội dung khai báo rõ ràng là dữ liệu kiểm thử, không phải nguồn thực tế. Số liệu mâu thuẫn với nguồn khác.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Dữ liệu fixture tổng hợp, không phải bằng chứng thực tế\",\n        \"Số liệu chi phí mâu thuẫn với nguồn n02\"\n      ],\n      \"doanTrich\": \"chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-b.html\",\n      \"tieuDe\": \"Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026\",\n      \"tacGia\": \"Trung tâm Công nghệ Thông tin Quốc gia\",\n      \"toChuc\": \"CNTT Quốc gia\",\n      \"ngayDang\": \"2026-07-15\",\n      \"ngayLayVe\": \"2026-09-17T13:31:02.144Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Đây là tài liệu fixture tự dựng, nội dung khai báo rõ ràng là dữ liệu kiểm thử, không phải nguồn thực tế. Số liệu mâu thuẫn với nguồn khác.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Dữ liệu fixture tổng hợp, không phải bằng chứng thực tế\",\n        \"Số liệu chi phí mâu thuẫn với nguồn n01\"\n      ],\n      \"doanTrich\": \"chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Chi phí trung bình cho mỗi 1000 token đầu vào được ghi nhận là 0,01 USD theo khảo sát 500 doanh nghiệp.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Mâu thuẫn trực tiếp với nguồn n02 đưa ra con số 0,05 USD. Cả hai nguồn đều là fixture kiểm thử nên không có cơ sở để xác định số liệu nào là chính xác trong thực tế.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Chi phí trung bình cho mỗi 1000 token đầu vào được ghi nhận là 0,05 USD theo số liệu từ 200 doanh nghiệp lớn.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Mâu thuẫn trực tiếp với nguồn n01 đưa ra con số 0,01 USD. Nguồn n02 giải thích sự chênh lệch do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp.\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Mô hình GPT-4o chiếm 45% thị phần, tiếp theo là Claude với 30% theo khảo sát của Viện Nghiên cứu AI Việt Nam.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%.\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Mâu thuẫn với nguồn n02 cho rằng Claude 3.5 Sonnet chiếm 55% và GPT-4o chiếm 25% trong nhóm khảo sát của họ. Sự khác biệt có thể do phương pháp lấy mẫu khác nhau giữa hai fixture.\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Claude 3.5 Sonnet chiếm 55% lượng sử dụng, GPT-4o chiếm 25% theo báo cáo của Trung tâm Công nghệ Thông tin Quốc gia.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%.\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Mâu thuẫn với nguồn n01 về thị phần các mô hình. Nguồn n02 ghi nhận sự thống trị của Claude trong nhóm doanh nghiệp lớn, trái ngược với nguồn n01.\"\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-cbd10e5c-b9ab-42a9-a6cb-511ef2fe2294",
+      "durationMs": 3595,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-a.html\",\n      \"tieuDe\": \"Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026\",\n      \"tacGia\": \"Viện Nghiên cứu AI Việt Nam\",\n      \"toChuc\": \"AI Research Vietnam\",\n      \"ngayDang\": \"2026-06-01\",\n      \"ngayLayVe\": \"2026-09-17T13:31:02.144Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Đây là tài liệu fixture tự dựng, nội dung khai báo rõ ràng là dữ liệu kiểm thử, không phải nguồn thực tế. Số liệu mâu thuẫn với nguồn khác.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Dữ liệu fixture tổng hợp, không phải bằng chứng thực tế\",\n        \"Số liệu chi phí mâu thuẫn với nguồn n02\"\n      ],\n      \"doanTrich\": \"chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"http://localhost:3000/fixtures/contradicting-b.html\",\n      \"tieuDe\": \"Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026\",\n      \"tacGia\": \"Trung tâm Công nghệ Thông tin Quốc gia\",\n      \"toChuc\": \"CNTT Quốc gia\",\n      \"ngayDang\": \"2026-07-15\",\n      \"ngayLayVe\": \"2026-09-17T13:31:02.144Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Đây là tài liệu fixture tự dựng, nội dung khai báo rõ ràng là dữ liệu kiểm thử, không phải nguồn thực tế. Số liệu mâu thuẫn với nguồn khác.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Dữ liệu fixture tổng hợp, không phải bằng chứng thực tế\",\n        \"Số liệu chi phí mâu thuẫn với nguồn n01\"\n      ],\n      \"doanTrich\": \"chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Chi phí trung bình cho mỗi 1000 token đầu vào được ghi nhận là 0,01 USD theo khảo sát 500 doanh nghiệp.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Mâu thuẫn trực tiếp với nguồn n02 đưa ra con số 0,05 USD. Cả hai nguồn đều là fixture kiểm thử nên không có cơ sở để xác định số liệu nào là chính xác trong thực tế.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Chi phí trung bình cho mỗi 1000 token đầu vào được ghi nhận là 0,05 USD theo số liệu từ 200 doanh nghiệp lớn.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Mâu thuẫn trực tiếp với nguồn n01 đưa ra con số 0,01 USD. Nguồn n02 giải thích sự chênh lệch do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp.\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Mô hình GPT-4o chiếm 45% thị phần, tiếp theo là Claude với 30% theo khảo sát của Viện Nghiên cứu AI Việt Nam.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%.\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Mâu thuẫn với nguồn n02 cho rằng Claude 3.5 Sonnet chiếm 55% và GPT-4o chiếm 25% trong nhóm khảo sát của họ. Sự khác biệt có thể do phương pháp lấy mẫu khác nhau giữa hai fixture.\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Claude 3.5 Sonnet chiếm 55% lượng sử dụng, GPT-4o chiếm 25% theo báo cáo của Trung tâm Công nghệ Thông tin Quốc gia.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%.\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Mâu thuẫn với nguồn n01 về thị phần các mô hình. Nguồn n02 ghi nhận sự thống trị của Claude trong nhóm doanh nghiệp lớn, trái ngược với nguồn n01.\"\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 3905
+}

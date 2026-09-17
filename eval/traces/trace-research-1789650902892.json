@@ -1,0 +1,506 @@
+{
+  "id": "trace-research-1789650902892",
+  "timestamp": "2026-09-17T13:15:02.892Z",
+  "phase": "research",
+  "input": {
+    "topic": "Token là gì và vì sao quan trọng",
+    "learningObjective": "Giải thích được token và cách tính chi phí dựa trên token",
+    "targetAudience": "Người mới học AI",
+    "videoDuration": "3 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N08"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "TOKEN Definition & Meaning",
+          "url": "https://www.merriam-webster.com/dictionary/token",
+          "snippet": "The meaning of TOKEN is a piece resembling a coin issued for use (as for fare on a bus) by a particular group on specified terms.",
+          "position": 1
+        },
+        {
+          "title": "TOKEN | English meaning - Cambridge Dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english/token",
+          "snippet": "an action that you take or a thing that you give that is a symbol of your feelings about something, even though it may not be very big or valuable:.",
+          "position": 2
+        },
+        {
+          "title": "TOKEN Definition & Meaning",
+          "url": "https://www.dictionary.com/browse/token",
+          "snippet": "noun · something serving to represent or indicate some fact, event, feeling, etc.; sign. · a characteristic indication or mark of something; evidence or proof.",
+          "position": 3
+        },
+        {
+          "title": "token noun - Definition, pictures, pronunciation and usage ...",
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/token_1",
+          "snippet": "token · ​a round piece of metal or plastic used instead of money to operate some machines or as a form of payment · ​(British English) a piece of paper that you ...",
+          "position": 4
+        },
+        {
+          "title": "TOKEN definition and meaning | Collins English Dictionary",
+          "url": "https://www.collinsdictionary.com/dictionary/english/token",
+          "snippet": "token in American English · 1. a sign, indication, or symbol · 2. something serving as a sign of authority, identity, genuineness, etc. · 3. a distinguishing ...",
+          "position": 5
+        }
+      ],
+      "query": "token definition",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "AI Token Calculator | Estimate GPT, Opus, and Gemini Model ...",
+          "url": "https://tokencalculator.ai/",
+          "snippet": "This AI token calculator helps you measure and compare token costs, token usage, and API costs across different models such as OpenAI, Anthropic Claude, and ...",
+          "position": 1
+        },
+        {
+          "title": "LLM pricing calculator",
+          "url": "https://www.llm-prices.com/",
+          "snippet": "Model prices (per million tokens) ; MiniMax M2, $0.30, $1.20 ; Codestral, $0.30, $0.90 ; Grok 3 Mini, $0.30 ($0.075), $0.50 ; Mistral Medium 3, $0.40, $2.",
+          "position": 2
+        },
+        {
+          "title": "LLM API Pricing Calculator: OpenAI, Anthropic, Gemini",
+          "url": "https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator",
+          "snippet": "Estimate token and per-call costs for OpenAI, Anthropic, Google Gemini, xAI, DeepSeek, Mistral, and Perplexity APIs based on usage.",
+          "position": 3
+        },
+        {
+          "title": "AI Token Cost Calculator 2026: 150 Models by Tier",
+          "url": "https://www.aipricing.guru/calculators/token-cost/",
+          "snippet": "Multiply your input tokens by the applicable input rate, multiply your output tokens by the applicable output rate, then divide each by 1,000,000. Check for a ...",
+          "position": 4
+        },
+        {
+          "title": "LLM Cost Estimation Guide: From Token Usage to Total ...",
+          "url": "https://medium.com/@alphaiterations/llm-cost-estimation-guide-from-token-usage-to-total-spend-fba348d62824",
+          "snippet": "According to Open AI, a helpful rule of thumb is that ~750 words correspond to 1000 tokens. You can put the prompt into any word counter tool ...",
+          "position": 5
+        }
+      ],
+      "query": "token cost calculation",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://www.merriam-webster.com/dictionary/token",
+      "https://tokencalculator.ai/",
+      "https://dictionary.cambridge.org/dictionary/english/token",
+      "https://www.llm-prices.com/",
+      "https://www.dictionary.com/browse/token",
+      "https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/token_1",
+      "https://www.aipricing.guru/calculators/token-cost/"
+    ],
+    "pagesRead": [
+      "https://www.merriam-webster.com/dictionary/token",
+      "https://tokencalculator.ai/",
+      "https://dictionary.cambridge.org/dictionary/english/token",
+      "https://www.llm-prices.com/",
+      "https://www.dictionary.com/browse/token",
+      "https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator"
+    ],
+    "supplementReasons": [
+      "Dưới ba trang đọc được và không có lệnh can thiệp"
+    ]
+  },
+  "pagesRead": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/token",
+      "content": "",
+      "fetchedAt": "2026-09-17T13:14:55.266Z",
+      "title": "",
+      "status": "blocked",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://tokencalculator.ai/",
+      "content": "Estimate the latest GPT-5.6 and Claude Opus 5 token costs\n\nUse this AI token calculator to instantly estimate the cost of tokens across major AI models. Find out how much it will cost you to use the latest GPTs, Claude, Gemini or DeepSeek LLMs for text input and output.\n\nWhat You Can Do With This AI Token Calculator\n\nThis AI token calculator helps you measure and compare token costs, token usage, and API costs across different models such as OpenAI, Anthropic Claude, and Google Gemini. Use it to understand the maximum input and maximum output allowed by each model so you can manage token usage and costs more efficiently.\n\nEstimate API token costs for input tokens, output tokens, and cached tokens. Use this AI token calculator to identify which model fits your budget and performance needs.\n\nEach token calculator result includes characters, word count, input token, and output token estimates. You can view total token costs per model, monitor API costs, and plan your text processing within the token limit. No Excel sheet needed.\n\nCompare GPT Models (and others)\n\nCompare models like GPT-5, Claude, Gemini, Perplexity Sonar, DeepSeek, and Grok with real-time token calculator data.\n\nCurrent API Prices for the Latest LLM Models\n\nThese are the latest models’ API costs per input and output tokens.\n\nAll prices are per 1 million tokens\n\nOpenAI’s newest flagship model. Frontier reasoning for complex professional work, with a 1.05M-token context window and reasoning effort configurable up to max.\n\nGoogle’s most capable Flash model for agentic workflows and multimodal reasoning. Promotional pricing runs through 31 December 2026 — rates double to $1.50 input / $7.50 output on 1 January 2027.\n\nAnthropic’s flagship model for complex agentic coding and enterprise work. Claude Fable 5 — the next-generation model for long-running agents — sits above it at $10.00 input / $50.00 output.\n\nGrok 4.6 is xAI’s flagship model for code, agentic tool calling, and long-context work. The standard Grok 4.6 rate applies below 200K context, with a 500K-token context window available for larger requests.\n\nDeepSeek-V4-Flash is the efficiency champion on this calculator. It is built for fast reasoning and code generation, with thinking and non-thinking modes, a 1M-token context window, and separate peak and off-peak pricing.\n\nA high-precision search and reasoning engine designed for deep-dive research tasks and verifiable agentic citation workflows.\n\nProgramming language token efficiency, ranked\n\nThese rankings come from the RosettaCode task comparison discussed earlier, using GPT-family tokenization as the baseline. The pattern is simple: terse functional and dynamic languages stay compact, while verbose low-level and enterprise languages burn more tokens for the same job.\n\nThe AI Token Cost Calculator is a free tool that helps you estimate how much it costs to process text using different AI language models. It breaks down input, output, and total costs for providers like OpenAI, Anthropic, Google Gemini, Perplexity, DeepSeek, and Grok.\n\nTokens are chunks of text that AI models use to process language. One token is roughly four characters of English text. For example, the word “ChatGPT” is about two tokens.\n\nBecause every AI model charges per token, knowing the token count helps you predict costs before sending text to the API. It’s especially useful if you run chatbots, automation tools, or content generators and want to manage expenses accurately.\n\nYes. The calculator automatically generates pricing cards for all major AI models so you can easily compare costs across providers in one place.\n\nYes. As new AI models and pricing are released, the tool will be updated to include them so you always have the most accurate cost comparison.\n\nThe most expensive model on this calculator is OpenAI’s o1-pro, at $150 per 1M input tokens and $600 per 1M output tokens. Among current-generation flagships, gpt-5.5-pro and gpt-5.4-pro sit at $30 input / $180 output per 1M tokens, and gpt-5.6-cyber at $12.50 input / $75 output.\n\nThe cheapest text model to date is OpenAI’s gpt-5-nano, priced at $0.05 per 1 million input tokens and $0.40 per 1 million output tokens.\n\nOutput is usually more expensive because the model has to generate new tokens, not just read the prompt. On current flagship models, output often costs 3x to 6x more than input, which is why the expected output size setting can change the final estimate so much.",
+      "fetchedAt": "2026-09-17T13:14:55.268Z",
+      "title": "AI Token Calculator | Estimate GPT, Opus, and Gemini Model Costs",
+      "status": "ok",
+      "contentLength": 9649,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Estimate the latest GPT-5.6 and Claude Opus 5 token costs"
+        },
+        {
+          "blockIndex": 2,
+          "text": "Use this AI token calculator to instantly estimate the cost of tokens across major AI models. Find out how much it will cost you to use the latest GPTs, Claude, Gemini or DeepSeek LLMs for text input and output."
+        },
+        {
+          "blockIndex": 13,
+          "text": "What You Can Do With This AI Token Calculator"
+        },
+        {
+          "blockIndex": 14,
+          "text": "This AI token calculator helps you measure and compare token costs, token usage, and API costs across different models such as OpenAI, Anthropic Claude, and Google Gemini. Use it to understand the maximum input and maximum output allowed by each model so you can manage token usage and costs more efficiently."
+        },
+        {
+          "blockIndex": 16,
+          "text": "Estimate API token costs for input tokens, output tokens, and cached tokens. Use this AI token calculator to identify which model fits your budget and performance needs."
+        },
+        {
+          "blockIndex": 18,
+          "text": "Each token calculator result includes characters, word count, input token, and output token estimates. You can view total token costs per model, monitor API costs, and plan your text processing within the token limit. No Excel sheet needed."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Compare GPT Models (and others)"
+        },
+        {
+          "blockIndex": 20,
+          "text": "Compare models like GPT-5, Claude, Gemini, Perplexity Sonar, DeepSeek, and Grok with real-time token calculator data."
+        },
+        {
+          "blockIndex": 21,
+          "text": "Current API Prices for the Latest LLM Models"
+        },
+        {
+          "blockIndex": 22,
+          "text": "These are the latest models’ API costs per input and output tokens."
+        },
+        {
+          "blockIndex": 23,
+          "text": "All prices are per 1 million tokens"
+        },
+        {
+          "blockIndex": 26,
+          "text": "OpenAI’s newest flagship model. Frontier reasoning for complex professional work, with a 1.05M-token context window and reasoning effort configurable up to max."
+        },
+        {
+          "blockIndex": 35,
+          "text": "Google’s most capable Flash model for agentic workflows and multimodal reasoning. Promotional pricing runs through 31 December 2026 — rates double to $1.50 input / $7.50 output on 1 January 2027."
+        },
+        {
+          "blockIndex": 44,
+          "text": "Anthropic’s flagship model for complex agentic coding and enterprise work. Claude Fable 5 — the next-generation model for long-running agents — sits above it at $10.00 input / $50.00 output."
+        },
+        {
+          "blockIndex": 55,
+          "text": "Grok 4.6 is xAI’s flagship model for code, agentic tool calling, and long-context work. The standard Grok 4.6 rate applies below 200K context, with a 500K-token context window available for larger requests."
+        },
+        {
+          "blockIndex": 64,
+          "text": "DeepSeek-V4-Flash is the efficiency champion on this calculator. It is built for fast reasoning and code generation, with thinking and non-thinking modes, a 1M-token context window, and separate peak and off-peak pricing."
+        },
+        {
+          "blockIndex": 73,
+          "text": "A high-precision search and reasoning engine designed for deep-dive research tasks and verifiable agentic citation workflows."
+        },
+        {
+          "blockIndex": 80,
+          "text": "Programming language token efficiency, ranked"
+        },
+        {
+          "blockIndex": 81,
+          "text": "These rankings come from the RosettaCode task comparison discussed earlier, using GPT-family tokenization as the baseline. The pattern is simple: terse functional and dynamic languages stay compact, while verbose low-level and enterprise languages burn more tokens for the same job."
+        },
+        {
+          "blockIndex": 83,
+          "text": "The AI Token Cost Calculator is a free tool that helps you estimate how much it costs to process text using different AI language models. It breaks down input, output, and total costs for providers like OpenAI, Anthropic, Google Gemini, Perplexity, DeepSeek, and Grok."
+        },
+        {
+          "blockIndex": 84,
+          "text": "Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text. For example, the word “ChatGPT” is about two tokens."
+        },
+        {
+          "blockIndex": 85,
+          "text": "Because every AI model charges per token, knowing the token count helps you predict costs before sending text to the API. It’s especially useful if you run chatbots, automation tools, or content generators and want to manage expenses accurately."
+        },
+        {
+          "blockIndex": 86,
+          "text": "Yes. The calculator automatically generates pricing cards for all major AI models so you can easily compare costs across providers in one place."
+        },
+        {
+          "blockIndex": 87,
+          "text": "Yes. As new AI models and pricing are released, the tool will be updated to include them so you always have the most accurate cost comparison."
+        },
+        {
+          "blockIndex": 88,
+          "text": "The most expensive model on this calculator is OpenAI’s o1-pro, at $150 per 1M input tokens and $600 per 1M output tokens. Among current-generation flagships, gpt-5.5-pro and gpt-5.4-pro sit at $30 input / $180 output per 1M tokens, and gpt-5.6-cyber at $12.50 input / $75 output."
+        },
+        {
+          "blockIndex": 89,
+          "text": "The cheapest text model to date is OpenAI’s gpt-5-nano, priced at $0.05 per 1 million input tokens and $0.40 per 1 million output tokens."
+        },
+        {
+          "blockIndex": 90,
+          "text": "Output is usually more expensive because the model has to generate new tokens, not just read the prompt. On current flagship models, output often costs 3x to 6x more than input, which is why the expected output size setting can change the final estimate so much."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/token",
+      "content": "",
+      "fetchedAt": "2026-09-17T13:14:55.269Z",
+      "title": "",
+      "status": "blocked",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://www.llm-prices.com/",
+      "content": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate. Model prices (per million tokens) Show just selected Clear selection Model Input cost (Cached) ↑ Output cost Compare Prices last updated: Loading... View source on GitHub",
+      "fetchedAt": "2026-09-17T13:14:56.923Z",
+      "title": "LLM pricing calculator",
+      "status": "ok",
+      "contentLength": 546,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "LLM pricing calculator Number of input tokens (aka prompt tokens) Number of cached input tokens Number of output tokens (aka completion tokens) Cost per million input tokens ($): Cost per million cached input tokens ($): Cost per million output tokens ($): Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate. Model prices (per million tokens) Show just selected Clear selection Model Input cost (Cached) ↑ Output cost Compare Prices last updated: Loading... View source on GitHub"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.dictionary.com/browse/token",
+      "content": "Synonyms token American [toh-kuhn] / ˈtoʊ kən / noun tokens plural something serving to represent or indicate some fact, event, feeling, etc.; sign. Black is a token of mourning. a characteristic indication or mark of something; evidence or proof. Malnutrition is a token of poverty. a memento; souvenir; keepsake. The seashell was a token of their trip. something used to indicate authenticity, authority, etc.; emblem; badge. Judicial robes are a token of office. Also called token coin. a stamped piece of metal, issued as a limited medium of exchange, as for bus fares, at a nominal value much greater than its commodity value. anything of only nominal value used in exchange for goods or services, as paper currency. virtual token. an item, idea, etc., representing a group; a part as representing the whole; sample; indication. The religious movement was an exhibition of latent energy, and a token of what may take place at some future day. a person, especially a member of a minority group, who has been hired, admitted, enrolled, etc., to forestall charges of prejudice or discrimination. an object, as a disk or figure, used in various board games for marking a player's position or for keeping score. Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like. A printed page might have twenty tokens of the single type-word “and.” verb (used with object) to be a token of; signify; symbolize. adjective serving as a token. At the end of the field trip each child received a token gift to take home as a memento. The HR complaint was filed by a man who felt his hiring had been meant to add a token male to an all-female staff. Synonyms: symbolic slight; nominal; minimal. token resistance; a token amount. idioms by the same token, moreover; furthermore. She has a talent as a painter, and by the same token has a sharp eye for detail. in proof of which. The study examined the possible effects of stress on health and, by the same token, IQ and test scores. in token of, as a sign of; in evidence of. a ring in token of his love. token British / ˈtəʊkən / noun an indication, warning, or sign of something a symbol or visible representation of something something that indicates authority, proof, or authenticity a metal or plastic disc, such as a substitute for currency for use in slot machines a memento a gift voucher that can be used as payment for goods of a specified value (modifier) as a matter of form only; nominal a token increase in salary linguistics a symbol regarded as an individual concrete mark, not as a class of identical symbols Compare type philosophy an individual instance: if the same sentence has different truth-values on different occasions of utterance the truth-value may be said to attach to the sentence-token Compare type moreover and for the same or a similar reason \"Collins English Dictionary — Complete & Unabridged\" 2012 Digital Edition © William Collins Sons & Co. Ltd. 1979, 1986 © HarperCollins Publishers 1998, 2000, 2003, 2005, 2006, 2007, 2009, 2012 verb (tr) to act or serve as a warning or symbol of; betoken \"Collins English Dictionary — Complete & Unabridged\" 2012 Digital Edition © William Collins Sons & Co. Ltd. 1979, 1986 © HarperCollins Publishers 1998, 2000, 2003, 2005, 2006, 2007, 2009, 2012 token More Idioms see by the same token; in token of. Other Word Forms Derived Forms pretoken noun Inflected Forms Nouns tokens plural Etymology Origin of token First recorded before 900; Middle English token(e), tokin(e), Old English tāc(e)n, tācon; cognate with German Zeichen, Old Norse teikn, tākn “sign, mark”; see teach Explanation When you give someone a flower or a friendship bracelet or something symbolic of the way you feel about them, you're giving them a token of your affection. A token is not only something sentimental (like a keepsake) or symbolic (like your friendship bracelet). You, yourself, can also be a token: If you're the only female in your office, for instance, and you were hired just so there'd be at least one woman, then you're the \"token female.\" Tokens can also be a kind of special currency, like the coins you use in slot machines. Before the Metro Card, New York City subway riders paid their fares with tokens. Keep Reading on Vocabulary.com Vocabulary lists containing token 100 SAT Words Beginning with \"T\" Looking to grow your vocabulary? Check out this interactive, curated word list from our team of English language specialists at Vocabulary.com – one of over 17,000 lists we've built to help learners worldwide! Catching Fire Interested in learning more words like this one? Our team at Vocabulary.com has got you covered! You can review flashcards, quiz yourself, practice spelling, and more – and it's all completely free to use! \"The Tell-Tale Heart\" and \"The Raven\" Want to remember this word for good? Start your learning journey today with our library of interactive, themed word lists built by the experts at Vocabulary.com – we'll help you make the most of your study time! Example Sentences Examples are provided to illustrate real-world usage of words in context. Any opinions expressed do not reflect the views of Dictionary.com. See Examples For: token tokens “But by the same token, we need to do something constructive and not have these encampments that start fires.” From Los Angeles Times ● Sep. 12, 2026 Jensen proposes a machine-labor token tax to offset white-collar job disruption and fund safety oversight. From MarketWatch ● Sep. 11, 2026 The $150 billion fund manager is using AI aggressively, with token usage up 200 times, he said. From MarketWatch ● Sep. 11, 2026 In recent months, corporate tech leaders have invested in a variety of strategies for trying to keep token costs down, but placing individual limits on each employee has become one of the most common practices. From The Wall Street Journal ● Sep. 10, 2026 Just before Spassky left Reykjavik, Bobby had delivered to the Russian at his hotel an amiable letter and a gift-wrapped camera as a token of friendship. From \"Endgame\" by Frank Brady Hsu said the tool was processing millions of tokens daily, a discovery he described as “really shocking.” From The Wall Street Journal ● Sep. 16, 2026 WSJLI: How do you decide whether to grant them more tokens or not? From The Wall Street Journal ● Sep. 10, 2026 Kay said that initially the company started with a token limit that was too low, which resulted in some employees holding back on their AI usage, and trying to ration their tokens. From The Wall Street Journal ● Sep. 10, 2026 Most of the 1 billion $LAPTOP tokens remained subject to a lockup. From MarketWatch ● Sep. 9, 2026 The tokens controversy was, I suppose, all part of our getting more acquisitive as we grew older. From \"Never Let Me Go\" by Kazuo Ishiguro Related Words badge expression manifestation memento proof souvenir symbol Definitions and idiom definitions from Dictionary.com Unabridged, based on the Random House Unabridged Dictionary, © Random House, Inc. 2023 Idioms from The American Heritage® Idioms Dictionary copyright © 2002, 2001, 1995 by Houghton Mifflin Harcourt Publishing Company. Published by Houghton Mifflin Harcourt Publishing Company.",
+      "fetchedAt": "2026-09-17T13:14:56.925Z",
+      "title": "TOKEN Definition & Meaning | Dictionary.com",
+      "status": "ok",
+      "contentLength": 7207,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Synonyms token American [toh-kuhn] / ˈtoʊ kən / noun tokens plural something serving to represent or indicate some fact, event, feeling, etc.; sign. Black is a token of mourning. a characteristic indication or mark of something; evidence or proof. Malnutrition is a token of poverty. a memento; souvenir; keepsake. The seashell was a token of their trip. something used to indicate authenticity, authority, etc.; emblem; badge. Judicial robes are a token of office. Also called token coin. a stamped piece of metal, issued as a limited medium of exchange, as for bus fares, at a nominal value much greater than its commodity value. anything of only nominal value used in exchange for goods or services, as paper currency. virtual token. an item, idea, etc., representing a group; a part as representing the whole; sample; indication. The religious movement was an exhibition of latent energy, and a token of what may take place at some future day. a person, especially a member of a minority group, who has been hired, admitted, enrolled, etc., to forestall charges of prejudice or discrimination. an object, as a disk or figure, used in various board games for marking a player's position or for keeping score. Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like. A printed page might have twenty tokens of the single type-word “and.” verb (used with object) to be a token of; signify; symbolize. adjective serving as a token. At the end of the field trip each child received a token gift to take home as a memento. The HR complaint was filed by a man who felt his hiring had been meant to add a token male to an all-female staff. Synonyms: symbolic slight; nominal; minimal. token resistance; a token amount. idioms by the same token, moreover; furthermore. She has a talent as a painter, and by the same token has a sharp eye for detail. in proof of which. The study examined the possible effects of stress on health and, by the same token, IQ and test scores. in token of, as a sign of; in evidence of. a ring in token of his love. token British / ˈtəʊkən / noun an indication, warning, or sign of something a symbol or visible representation of something something that indicates authority, proof, or authenticity a metal or plastic disc, such as a substitute for currency for use in slot machines a memento a gift voucher that can be used as payment for goods of a specified value (modifier) as a matter of form only; nominal a token increase in salary linguistics a symbol regarded as an individual concrete mark, not as a class of identical symbols Compare type philosophy an individual instance: if the same sentence has different truth-values on different occasions of utterance the truth-value may be said to attach to the sentence-token Compare type moreover and for the same or a similar reason \"Collins English Dictionary — Complete & Unabridged\" 2012 Digital Edition © William Collins Sons & Co. Ltd. 1979, 1986 © HarperCollins Publishers 1998, 2000, 2003, 2005, 2006, 2007, 2009, 2012 verb (tr) to act or serve as a warning or symbol of; betoken \"Collins English Dictionary — Complete & Unabridged\" 2012 Digital Edition © William Collins Sons & Co. Ltd. 1979, 1986 © HarperCollins Publishers 1998, 2000, 2003, 2005, 2006, 2007, 2009, 2012 token More Idioms see by the same token; in token of. Other Word Forms Derived Forms pretoken noun Inflected Forms Nouns tokens plural Etymology Origin of token First recorded before 900; Middle English token(e), tokin(e), Old English tāc(e)n, tācon; cognate with German Zeichen, Old Norse teikn, tākn “sign, mark”; see teach Explanation When you give someone a flower or a friendship bracelet or something symbolic of the way you feel about them, you're giving them a token of your affection. A token is not only something sentimental (like a keepsake) or symbolic (like your friendship bracelet). You, yourself, can also be a token: If you're the only female in your office, for instance, and you were hired just so there'd be at least one woman, then you're the \"token female.\" Tokens can also be a kind of special currency, like the coins you use in slot machines. Before the Metro Card, New York City subway riders paid their fares with tokens. Keep Reading on Vocabulary.com Vocabulary lists containing token 100 SAT Words Beginning with \"T\" Looking to grow your vocabulary? Check out this interactive, curated word list from our team of English language specialists at Vocabulary.com – one of over 17,000 lists we've built to help learners worldwide! Catching Fire Interested in learning more words like this one? Our team at Vocabulary.com has got you covered! You can review flashcards, quiz yourself, practice spelling, and more – and it's all completely free to use! \"The Tell-Tale Heart\" and \"The Raven\" Want to remember this word for good? Start your learning journey today with our library of interactive, themed word lists built by the experts at Vocabulary.com – we'll help you make the most of your study time! Example Sentences Examples are provided to illustrate real-world usage of words in context. Any opinions expressed do not reflect the views of Dictionary.com. See Examples For: token tokens “But by the same token, we need to do something constructive and not have these encampments that start fires.” From Los Angeles Times ● Sep. 12, 2026 Jensen proposes a machine-labor token tax to offset white-collar job disruption and fund safety oversight. From MarketWatch ● Sep. 11, 2026 The $150 billion fund manager is using AI aggressively, with token usage up 200 times, he said. From MarketWatch ● Sep. 11, 2026 In recent months, corporate tech leaders have invested in a variety of strategies for trying to keep token costs down, but placing individual limits on each employee has become one of the most common practices. From The Wall Street Journal ● Sep. 10, 2026 Just before Spassky left Reykjavik, Bobby had delivered to the Russian at his hotel an amiable letter and a gift-wrapped camera as a token of friendship. From \"Endgame\" by Frank Brady Hsu said the tool was processing millions of tokens daily, a discovery he described as “really shocking.” From The Wall Street Journal ● Sep. 16, 2026 WSJLI: How do you decide whether to grant them more tokens or not? From The Wall Street Journal ● Sep. 10, 2026 Kay said that initially the company started with a token limit that was too low, which resulted in some employees holding back on their AI usage, and trying to ration their tokens. From The Wall Street Journal ● Sep. 10, 2026 Most of the 1 billion $LAPTOP tokens remained subject to a lockup. From MarketWatch ● Sep. 9, 2026 The tokens controversy was, I suppose, all part of our getting more acquisitive as we grew older. From \"Never Let Me Go\" by Kazuo Ishiguro Related Words badge expression manifestation memento proof souvenir symbol Definitions and idiom definitions from Dictionary.com Unabridged, based on the Random House Unabridged Dictionary, © Random House, Inc. 2023 Idioms from The American Heritage® Idioms Dictionary copyright © 2002, 2001, 1995 by Houghton Mifflin Harcourt Publishing Company. Published by Houghton Mifflin Harcourt Publishing Company."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator",
+      "content": "LLM API Pricing Calculator: OpenAI, Anthropic, GeminiEstimate token and per-call costs for OpenAI, Anthropic, Google Gemini, xAI, DeepSeek, Mistral, and Perplexity APIs based on usage. For plans and product costs, see GPT for Work’s own pricing.Calculate by:TokensWordsCharactersInput tokens:Output tokens:Number of API calls:ProviderOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIPerplexityPerplexityPerplexityGoogleGoogleGoogleGoogleGoogleGoogleGooglexAIAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicDeepSeekDeepSeekDeepSeekDeepSeekMistralMistralMistralMistralMistralModelgpt-5.6-solgpt-5.6-terragpt-5.6-lunagpt-5.5gpt-5.4gpt-5.4-minigpt-5.4-nanogpt-5.2gpt-5.1gpt-5-minigpt-5-nanogpt-4.1gpt-4.1-minigpt-5-search-apigpt-4ogpt-4o-minigpt-5o3-2025-04-16Fine-tuned GPT-4oFine-tuned GPT-4o miniFine-tuned GPT-4.1sonarsonar-prosonar-reasoning-progemini-3.5-flashgemini-3.1-flash-litegemini-3-flash-previewgemini-3.1-pro-previewgemini-2.5-flashgemini-2.5-flash-litegemini-2.5-progrok-4.3claude-sonnet-5claude-sonnet-4-6claude-sonnet-4-5-20250929claude-fable-5claude-opus-5claude-opus-4-8claude-opus-4-7claude-opus-4-6claude-opus-4-5-20251101claude-haiku-4-5-20251001deepseek-v4-flash (off-peak)deepseek-v4-pro (off-peak)deepseek-v4-flash (peak)deepseek-v4-pro (peak)mistral-large-latestmistral-medium-latestmistral-small-latestministral-8b-latestministral-3b-latestInput price for 1M tokens$5.00$2.00$0.20$5.00$2.50$0.75$0.20$1.75$1.25$0.25$0.05$2.00$0.40$1.25$2.50$0.15$1.25$2.00$3.75$0.30$3.00$1.00$3.00$2.00$1.50$0.25$0.50$2.00$0.30$0.10$1.25$1.25$2.00$3.00$3.00$10.00$5.00$5.00$5.00$5.00$5.00$1.00$0.22$0.66$0.44$1.32$0.50$1.50$0.15$0.15$0.10Output price for 1M tokens$30.00$12.00$1.20$30.00$15.00$4.50$1.25$14.00$10.00$2.00$0.40$8.00$1.60$10.00$10.00$0.60$10.00$8.00$15.00$1.20$12.00$1.00$15.00$8.00$9.00$1.50$3.00$12.00$2.50$0.40$10.00$2.50$10.00$15.00$15.00$50.00$25.00$25.00$25.00$25.00$25.00$5.00$0.66$1.98$1.32$3.96$1.50$7.50$0.60$0.15$0.10Default fixed price per API call$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0100$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0050$0.0060$0.0060$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000Price per API call$0.0155$0.0062$0.0006$0.0155$0.0077$0.0023$0.0006$0.0072$0.0051$0.0010$0.0002$0.0042$0.0008$0.0151$0.0053$0.0003$0.0051$0.0042$0.0079$0.0006$0.0063$0.0056$0.0138$0.0102$0.0046$0.0008$0.0015$0.0062$0.0013$0.0002$0.0051$0.0014$0.0052$0.0078$0.0078$0.0260$0.0130$0.0130$0.0130$0.0130$0.0130$0.0026$0.0004$0.0011$0.0007$0.0021$0.0008$0.0039$0.0003$0.0001$0.0001Total price$1.55$0.62$0.06$1.55$0.78$0.23$0.06$0.72$0.51$0.10$0.02$0.42$0.08$1.51$0.53$0.03$0.51$0.42$0.79$0.06$0.63$0.56$1.38$1.02$0.46$0.08$0.15$0.62$0.13$0.02$0.51$0.14$0.52$0.78$0.78$2.60$1.30$1.30$1.30$1.30$1.30$0.26$0.04$0.11$0.07$0.21$0.08$0.39$0.03$0.01$0.01DeepSeek peak pricing applies from 01:00–04:00 and 06:00–10:00 UTC. All other hours use the off-peak rates. Perplexity fees use the default low search context; medium and high search contexts cost more.Use LLMs in bulk in Excel or Google SheetsGPT for Work enables bulk LLM operations directly in spreadsheets. Process thousands of rows with ChatGPT, Claude, Gemini, and other AI models efficiently.<a href=\"https://www.youtube.com/watch?v=fqHlgYM3m00\" aria-label=\"Watch AI Agent in Excel: Data Cleaning & Normalization on YouTube\">Watch \"<!-- -->AI Agent in Excel: Data Cleaning & Normalization<!-- -->\" on YouTube</a>WatchTry for freeFAQ about OpenAI GPT APIWhat is an OpenAI token?A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs. Read our guide on tokens here.What is an OpenAI execution?An OpenAI execution is the combination of the invite to OpenAI and the response from OpenAI. All text in the prompt and response count for OpenAI billing.What is an OpenAI prompt?The OpenAI prompt is the instructions or question you send to OpenAI in order to get a response. It is text written in normal, natural language, for example: Prompt: \"Write a tagline for an ice cream shop\".What is an OpenAI response?This is the response OpenAI gives you to the prompt you sent, for example: Prompt: \"Write a tagline for an ice cream shop\" Response: “We serve up smiles with every scoop!”Can I set an OpenAI billing limit?You can configure a billing limit in the OpenAI billing settings, in order to control your costs.How to monitor my OpenAI API cost based on usage?You can review your usage in the OpenAI dashboard usage section. You can easily set a spending limit in the OpenAI dashboard billing section.Free AI toolsTranslateGenerate Excel formulaMeta description generatorSEO title generatorTokenizerOpenAI API Pricing calculator",
+      "fetchedAt": "2026-09-17T13:14:56.926Z",
+      "title": "LLM API Pricing Calculator: OpenAI, Anthropic, Gemini | GPT for Work",
+      "status": "ok",
+      "contentLength": 4996,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "LLM API Pricing Calculator: OpenAI, Anthropic, GeminiEstimate token and per-call costs for OpenAI, Anthropic, Google Gemini, xAI, DeepSeek, Mistral, and Perplexity APIs based on usage. For plans and product costs, see GPT for Work’s own pricing.Calculate by:TokensWordsCharactersInput tokens:Output tokens:Number of API calls:ProviderOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIOpenAIPerplexityPerplexityPerplexityGoogleGoogleGoogleGoogleGoogleGoogleGooglexAIAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicAnthropicDeepSeekDeepSeekDeepSeekDeepSeekMistralMistralMistralMistralMistralModelgpt-5.6-solgpt-5.6-terragpt-5.6-lunagpt-5.5gpt-5.4gpt-5.4-minigpt-5.4-nanogpt-5.2gpt-5.1gpt-5-minigpt-5-nanogpt-4.1gpt-4.1-minigpt-5-search-apigpt-4ogpt-4o-minigpt-5o3-2025-04-16Fine-tuned GPT-4oFine-tuned GPT-4o miniFine-tuned GPT-4.1sonarsonar-prosonar-reasoning-progemini-3.5-flashgemini-3.1-flash-litegemini-3-flash-previewgemini-3.1-pro-previewgemini-2.5-flashgemini-2.5-flash-litegemini-2.5-progrok-4.3claude-sonnet-5claude-sonnet-4-6claude-sonnet-4-5-20250929claude-fable-5claude-opus-5claude-opus-4-8claude-opus-4-7claude-opus-4-6claude-opus-4-5-20251101claude-haiku-4-5-20251001deepseek-v4-flash (off-peak)deepseek-v4-pro (off-peak)deepseek-v4-flash (peak)deepseek-v4-pro (peak)mistral-large-latestmistral-medium-latestmistral-small-latestministral-8b-latestministral-3b-latestInput price for 1M tokens$5.00$2.00$0.20$5.00$2.50$0.75$0.20$1.75$1.25$0.25$0.05$2.00$0.40$1.25$2.50$0.15$1.25$2.00$3.75$0.30$3.00$1.00$3.00$2.00$1.50$0.25$0.50$2.00$0.30$0.10$1.25$1.25$2.00$3.00$3.00$10.00$5.00$5.00$5.00$5.00$5.00$1.00$0.22$0.66$0.44$1.32$0.50$1.50$0.15$0.15$0.10Output price for 1M tokens$30.00$12.00$1.20$30.00$15.00$4.50$1.25$14.00$10.00$2.00$0.40$8.00$1.60$10.00$10.00$0.60$10.00$8.00$15.00$1.20$12.00$1.00$15.00$8.00$9.00$1.50$3.00$12.00$2.50$0.40$10.00$2.50$10.00$15.00$15.00$50.00$25.00$25.00$25.00$25.00$25.00$5.00$0.66$1.98$1.32$3.96$1.50$7.50$0.60$0.15$0.10Default fixed price per API call$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0100$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0050$0.0060$0.0060$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000$0.0000Price per API call$0.0155$0.0062$0.0006$0.0155$0.0077$0.0023$0.0006$0.0072$0.0051$0.0010$0.0002$0.0042$0.0008$0.0151$0.0053$0.0003$0.0051$0.0042$0.0079$0.0006$0.0063$0.0056$0.0138$0.0102$0.0046$0.0008$0.0015$0.0062$0.0013$0.0002$0.0051$0.0014$0.0052$0.0078$0.0078$0.0260$0.0130$0.0130$0.0130$0.0130$0.0130$0.0026$0.0004$0.0011$0.0007$0.0021$0.0008$0.0039$0.0003$0.0001$0.0001Total price$1.55$0.62$0.06$1.55$0.78$0.23$0.06$0.72$0.51$0.10$0.02$0.42$0.08$1.51$0.53$0.03$0.51$0.42$0.79$0.06$0.63$0.56$1.38$1.02$0.46$0.08$0.15$0.62$0.13$0.02$0.51$0.14$0.52$0.78$0.78$2.60$1.30$1.30$1.30$1.30$1.30$0.26$0.04$0.11$0.07$0.21$0.08$0.39$0.03$0.01$0.01DeepSeek peak pricing applies from 01:00–04:00 and 06:00–10:00 UTC. All other hours use the off-peak rates. Perplexity fees use the default low search context; medium and high search contexts cost more.Use LLMs in bulk in Excel or Google SheetsGPT for Work enables bulk LLM operations directly in spreadsheets. Process thousands of rows with ChatGPT, Claude, Gemini, and other AI models efficiently.<a href=\"https://www.youtube.com/watch?v=fqHlgYM3m00\" aria-label=\"Watch AI Agent in Excel: Data Cleaning & Normalization on YouTube\">Watch \"<!-- -->AI Agent in Excel: Data Cleaning & Normalization<!-- -->\" on YouTube</a>WatchTry for freeFAQ about OpenAI GPT APIWhat is an OpenAI token?A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs. Read our guide on tokens here.What is an OpenAI execution?An OpenAI execution is the combination of the invite to OpenAI and the response from OpenAI. All text in the prompt and response count for OpenAI billing.What is an OpenAI prompt?The OpenAI prompt is the instructions or question you send to OpenAI in order to get a response. It is text written in normal, natural language, for example: Prompt: \"Write a tagline for an ice cream shop\".What is an OpenAI response?This is the response OpenAI gives you to the prompt you sent, for example: Prompt: \"Write a tagline for an ice cream shop\" Response: “We serve up smiles with every scoop!”Can I set an OpenAI billing limit?You can configure a billing limit in the OpenAI billing settings, in order to control your costs.How to monitor my OpenAI API cost based on usage?You can review your usage in the OpenAI dashboard usage section. You can easily set a spending limit in the OpenAI dashboard billing section.Free AI toolsTranslateGenerate Excel formulaMeta description generatorSEO title generatorTokenizerOpenAI API Pricing calculator"
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://tokencalculator.ai/",
+      "tieuDe": "AI Token Calculator | Estimate GPT, Opus, and Gemini Model Costs",
+      "toChuc": "Token Calculator Tool",
+      "ngayLayVe": "2026-09-17T13:14:55.268Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Công cụ tính toán trực tuyến, cung cấp định nghĩa cơ bản và bảng giá tham khảo. Tuy nhiên, không có tác giả rõ ràng và dữ liệu giá có thể thay đổi theo thời gian thực mà không có dấu mốc thời gian cụ thể trong nội dung scrape.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Số liệu giá API có thể thay đổi thường xuyên, cần kiểm tra lại tại thời điểm sử dụng.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.llm-prices.com/",
+      "tieuDe": "LLM pricing calculator",
+      "ngayLayVe": "2026-09-17T13:14:56.923Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Nội dung scrape chủ yếu là các nhãn giao diện (UI labels) và trạng thái 'Loading...', thiếu nội dung văn bản giải thích hoặc dữ liệu tĩnh để trích dẫn bằng chứng cụ thể về định nghĩa hay lý thuyết.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Thiếu nội dung văn bản hữu ích do lỗi scrape hoặc trang động quá mức, không thể trích xuất đoạn trích nguyên văn có ý nghĩa giáo dục.",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.dictionary.com/browse/token",
+      "tieuDe": "TOKEN Definition & Meaning | Dictionary.com",
+      "ngayLayVe": "2026-09-17T13:14:56.925Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Từ điển uy tín, cung cấp định nghĩa ngôn ngữ học chính xác về 'token' (một instance cụ thể của từ/ký hiệu), là nền tảng để hiểu khái niệm token trong NLP.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Định nghĩa mang tính ngôn ngữ học tổng quát, cần kết hợp với nguồn kỹ thuật để áp dụng vào AI.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator",
+      "tieuDe": "LLM API Pricing Calculator: OpenAI, Anthropic, Gemini | GPT for Work",
+      "ngayLayVe": "2026-09-17T13:14:56.926Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Công cụ tính giá API từ bên thứ ba. Cung cấp định nghĩa kỹ thuật về token trong ngữ cảnh OpenAI và bảng giá chi tiết. Độ tin cậy trung bình vì là nguồn thương mại, không phải tài liệu học thuật chính thức.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Giá API được liệt kê có thể không phản ánh chính xác giá hiện tại nếu không được cập nhật liên tục.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://www.merriam-webster.com/dictionary/token",
+      "tieuDe": "https://www.merriam-webster.com/dictionary/token",
+      "ngayLayVe": "2026-09-17T13:14:55.266Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "blocked",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    },
+    {
+      "id": "n06",
+      "url": "https://dictionary.cambridge.org/dictionary/english/token",
+      "tieuDe": "https://dictionary.cambridge.org/dictionary/english/token",
+      "ngayLayVe": "2026-09-17T13:14:55.269Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "blocked",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04"
+  ],
+  "sourcesRejected": [
+    "n02",
+    "n05",
+    "n06"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Token trong ngôn ngữ học là một instance cụ thể của một từ, ký hiệu, hoặc biểu thức.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like.",
+          "viTri": "Mục định nghĩa từ điển"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Trong các mô hình AI (đặc biệt là OpenAI), token là một phần của văn bản, có thể là từ, từ con (subword), dấu câu hoặc ký hiệu, và là đơn vị tính toán chi phí API.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.",
+          "viTri": "Mục FAQ: What is an OpenAI token?"
+        },
+        {
+          "nguonId": "n01",
+          "doanTrich": "Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text.",
+          "viTri": "Mục giải thích về Token"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Chi phí sử dụng AI thường được tính dựa trên số lượng token đầu vào (input) và đầu ra (output), với đơn vị tính phổ biến là trên mỗi 1 triệu token.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "All prices are per 1 million tokens",
+          "viTri": "Mục Current API Prices"
+        },
+        {
+          "nguonId": "n04",
+          "doanTrich": "Input price for 1M tokens",
+          "viTri": "Bảng tính giá API"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Chi phí cho token đầu ra (output) thường cao hơn đáng kể so với token đầu vào (input), thường gấp 3 đến 6 lần trên các mô hình flagship.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Output is usually more expensive because the model has to generate new tokens, not just read the prompt. On current flagship models, output often costs 3x to 6x more than input",
+          "viTri": "Mục giải thích về chi phí"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có một nguồn xác nhận tỷ lệ này. Các nguồn khác (n04) liệt kê giá cụ thể nhưng không tổng kết tỷ lệ chung, tuy nhiên dữ liệu giá ở n04 (ví dụ: gpt-5.6-sol: $5 input / $30 output) cũng hỗ trợ xu hướng output đắt hơn, nhưng không nêu rõ tỷ lệ 3x-6x một cách tổng quát."
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://tokencalculator.ai/\",\n      \"tieuDe\": \"AI Token Calculator | Estimate GPT, Opus, and Gemini Model Costs\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Token Calculator Tool\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:55.268Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Công cụ tính toán trực tuyến, cung cấp định nghĩa cơ bản và bảng giá tham khảo. Tuy nhiên, không có tác giả rõ ràng và dữ liệu giá có thể thay đổi theo thời gian thực mà không có dấu mốc thời gian cụ thể trong nội dung scrape.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Số liệu giá API có thể thay đổi thường xuyên, cần kiểm tra lại tại thời điểm sử dụng.\"\n      ],\n      \"doanTrich\": \"Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.llm-prices.com/\",\n      \"tieuDe\": \"LLM pricing calculator\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:56.923Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung scrape chủ yếu là các nhãn giao diện (UI labels) và trạng thái 'Loading...', thiếu nội dung văn bản giải thích hoặc dữ liệu tĩnh để trích dẫn bằng chứng cụ thể về định nghĩa hay lý thuyết.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Thiếu nội dung văn bản hữu ích do lỗi scrape hoặc trang động quá mức, không thể trích xuất đoạn trích nguyên văn có ý nghĩa giáo dục.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.dictionary.com/browse/token\",\n      \"tieuDe\": \"TOKEN Definition & Meaning | Dictionary.com\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Dictionary.com\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:56.925Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Từ điển uy tín, cung cấp định nghĩa ngôn ngữ học chính xác về 'token' (một instance cụ thể của từ/ký hiệu), là nền tảng để hiểu khái niệm token trong NLP.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Định nghĩa mang tính ngôn ngữ học tổng quát, cần kết hợp với nguồn kỹ thuật để áp dụng vào AI.\"\n      ],\n      \"doanTrich\": \"Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator\",\n      \"tieuDe\": \"LLM API Pricing Calculator: OpenAI, Anthropic, Gemini | GPT for Work\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"GPT for Work\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:56.926Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Công cụ tính giá API từ bên thứ ba. Cung cấp định nghĩa kỹ thuật về token trong ngữ cảnh OpenAI và bảng giá chi tiết. Độ tin cậy trung bình vì là nguồn thương mại, không phải tài liệu học thuật chính thức.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Giá API được liệt kê có thể không phản ánh chính xác giá hiện tại nếu không được cập nhật liên tục.\"\n      ],\n      \"doanTrich\": \"A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Token trong ngôn ngữ học là một instance cụ thể của một từ, ký hiệu, hoặc biểu thức.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like.\",\n          \"viTri\": \"Mục định nghĩa từ điển\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Trong các mô hình AI (đặc biệt là OpenAI), token là một phần của văn bản, có thể là từ, từ con (subword), dấu câu hoặc ký hiệu, và là đơn vị tính toán chi phí API.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.\",\n          \"viTri\": \"Mục FAQ: What is an OpenAI token?\"\n        },\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text.\",\n          \"viTri\": \"Mục giải thích về Token\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Chi phí sử dụng AI thường được tính dựa trên số lượng token đầu vào (input) và đầu ra (output), với đơn vị tính phổ biến là trên mỗi 1 triệu token.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"All prices are per 1 million tokens\",\n          \"viTri\": \"Mục Current API Prices\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Input price for 1M tokens\",\n          \"viTri\": \"Bảng tính giá API\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Chi phí cho token đầu ra (output) thường cao hơn đáng kể so với token đầu vào (input), thường gấp 3 đến 6 lần trên các mô hình flagship.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Output is usually more expensive because the model has to generate new tokens, not just read the prompt. On current flagship models, output often costs 3x to 6x more than input\",\n          \"viTri\": \"Mục giải thích về chi phí\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn xác nhận tỷ lệ này. Các nguồn khác (n04) liệt kê giá cụ thể nhưng không tổng kết tỷ lệ chung, tuy nhiên dữ liệu giá ở n04 (ví dụ: gpt-5.6-sol: $5 input / $30 output) cũng hỗ trợ xu hướng output đắt hơn, nhưng không nêu rõ tỷ lệ 3x-6x một cách tổng quát.\"\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-846ee981-6bf1-4139-a180-95a3094dc8ab",
+      "durationMs": 4977,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://tokencalculator.ai/\",\n      \"tieuDe\": \"AI Token Calculator | Estimate GPT, Opus, and Gemini Model Costs\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Token Calculator Tool\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:55.268Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Công cụ tính toán trực tuyến, cung cấp định nghĩa cơ bản và bảng giá tham khảo. Tuy nhiên, không có tác giả rõ ràng và dữ liệu giá có thể thay đổi theo thời gian thực mà không có dấu mốc thời gian cụ thể trong nội dung scrape.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Số liệu giá API có thể thay đổi thường xuyên, cần kiểm tra lại tại thời điểm sử dụng.\"\n      ],\n      \"doanTrich\": \"Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.llm-prices.com/\",\n      \"tieuDe\": \"LLM pricing calculator\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:56.923Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Nội dung scrape chủ yếu là các nhãn giao diện (UI labels) và trạng thái 'Loading...', thiếu nội dung văn bản giải thích hoặc dữ liệu tĩnh để trích dẫn bằng chứng cụ thể về định nghĩa hay lý thuyết.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Thiếu nội dung văn bản hữu ích do lỗi scrape hoặc trang động quá mức, không thể trích xuất đoạn trích nguyên văn có ý nghĩa giáo dục.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Note: Different models use different tokenizers, so direct token-based price comparisons may not be entirely accurate.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.dictionary.com/browse/token\",\n      \"tieuDe\": \"TOKEN Definition & Meaning | Dictionary.com\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Dictionary.com\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:56.925Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Từ điển uy tín, cung cấp định nghĩa ngôn ngữ học chính xác về 'token' (một instance cụ thể của từ/ký hiệu), là nền tảng để hiểu khái niệm token trong NLP.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Định nghĩa mang tính ngôn ngữ học tổng quát, cần kết hợp với nguồn kỹ thuật để áp dụng vào AI.\"\n      ],\n      \"doanTrich\": \"Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator\",\n      \"tieuDe\": \"LLM API Pricing Calculator: OpenAI, Anthropic, Gemini | GPT for Work\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"GPT for Work\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:56.926Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Công cụ tính giá API từ bên thứ ba. Cung cấp định nghĩa kỹ thuật về token trong ngữ cảnh OpenAI và bảng giá chi tiết. Độ tin cậy trung bình vì là nguồn thương mại, không phải tài liệu học thuật chính thức.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Giá API được liệt kê có thể không phản ánh chính xác giá hiện tại nếu không được cập nhật liên tục.\"\n      ],\n      \"doanTrich\": \"A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Token trong ngôn ngữ học là một instance cụ thể của một từ, ký hiệu, hoặc biểu thức.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Logic, Linguistics. a particular instance of a word, symbol, expression, sentence, or the like.\",\n          \"viTri\": \"Mục định nghĩa từ điển\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Trong các mô hình AI (đặc biệt là OpenAI), token là một phần của văn bản, có thể là từ, từ con (subword), dấu câu hoặc ký hiệu, và là đơn vị tính toán chi phí API.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"A token is a part of a text that can be word, subword, punctuation mark or symbol. It is the unit of account of OpenAI APIs.\",\n          \"viTri\": \"Mục FAQ: What is an OpenAI token?\"\n        },\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Tokens are chunks of text that AI models use to process language. One token is roughly four characters of English text.\",\n          \"viTri\": \"Mục giải thích về Token\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Chi phí sử dụng AI thường được tính dựa trên số lượng token đầu vào (input) và đầu ra (output), với đơn vị tính phổ biến là trên mỗi 1 triệu token.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"All prices are per 1 million tokens\",\n          \"viTri\": \"Mục Current API Prices\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Input price for 1M tokens\",\n          \"viTri\": \"Bảng tính giá API\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Chi phí cho token đầu ra (output) thường cao hơn đáng kể so với token đầu vào (input), thường gấp 3 đến 6 lần trên các mô hình flagship.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Output is usually more expensive because the model has to generate new tokens, not just read the prompt. On current flagship models, output often costs 3x to 6x more than input\",\n          \"viTri\": \"Mục giải thích về chi phí\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn xác nhận tỷ lệ này. Các nguồn khác (n04) liệt kê giá cụ thể nhưng không tổng kết tỷ lệ chung, tuy nhiên dữ liệu giá ở n04 (ví dụ: gpt-5.6-sol: $5 input / $30 output) cũng hỗ trợ xu hướng output đắt hơn, nhưng không nêu rõ tỷ lệ 3x-6x một cách tổng quát.\"\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 10048
+}

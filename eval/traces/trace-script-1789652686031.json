@@ -1,0 +1,216 @@
+{
+  "id": "trace-script-1789652686031",
+  "timestamp": "2026-09-17T13:44:46.031Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách phòng chống prompt injection",
+    "learningObjective": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "targetAudience": "Lập trình viên",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N20"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n03",
+      "url": "https://blog.google/security/mitigating-prompt-injection-attacks/",
+      "tieuDe": "Mitigating prompt injection attacks with a layered defense strategy",
+      "toChuc": "Google",
+      "ngayDang": "2025-06-13",
+      "ngayLayVe": "2026-09-17T13:44:35.044Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài viết chính thức từ Google Security trình bày chi tiết chiến lược phòng thủ nhiều lớp chống prompt injection.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "At Google, our teams have a longstanding precedent of investing in a defense-in-depth strategy, including robust evaluation, threat analysis, AI security best practices, AI red-teaming, adversarial training, and model hardening for generative AI tools.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://arxiv.org/abs/2411.00459",
+      "tieuDe": "[2411.00459] Defense Against Prompt Injection Attack by Leveraging Attack Techniques",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T13:44:35.045Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học uy tín đăng trên arXiv đề xuất phương pháp phòng chống prompt injection mới.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm so với thời điểm truy cập 2026",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "In this paper, we invert the intention of prompt injection methods to develop novel defense methods based on previous training-free attack methods, by repeating the attack process but with the original input instruction rather than the injected instruction.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n03",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Áp dụng chiến lược phòng thủ nhiều lớp (defense-in-depth) bao gồm đánh giá toàn diện, phân tích mối đe dọa, huấn luyện đối kháng và gia cố mô hình để phòng chống tấn công prompt injection.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "At Google, our teams have a longstanding precedent of investing in a defense-in-depth strategy, including robust evaluation, threat analysis, AI security best practices, AI red-teaming, adversarial training, and model hardening for generative AI tools.",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Phát triển phương pháp phòng thủ mới bằng cách đảo ngược ý định của các phương pháp tấn công prompt injection, lặp lại quy trình tấn công dựa trên chỉ thị đầu vào ban đầu thay vì chỉ thị bị tiêm nhiễm.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "In this paper, we invert the intention of prompt injection methods to develop novel defense methods based on previous training-free attack methods, by repeating the attack process but with the original input instruction rather than the injected instruction.",
+          "viTri": "Phần Abstract"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách phòng chống prompt injection",
+    "mucTieu": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Lập trình viên",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các lập trình viên, hôm nay chúng ta sẽ khám phá cách phòng chống prompt injection.",
+        "chuTrenManHinh": "Chào mừng",
+        "yDoHinh": "Hình ảnh người lập trình viên với biểu tượng AI",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Hãy cùng tìm hiểu về prompt injection.",
+        "chuTrenManHinh": "Khám phá",
+        "yDoHinh": "Biểu tượng prompt injection",
+        "nguon": []
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Một trong những cách hiệu quả là áp dụng chiến lược phòng thủ nhiều lớp, bao gồm đánh giá toàn diện và huấn luyện đối kháng.",
+        "chuTrenManHinh": "Chiến lược",
+        "yDoHinh": "Mô hình AI với lớp bảo vệ đa tầng",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Ngoài ra, một phương pháp mới là đảo ngược ý định của các phương pháp tấn công, lặp lại quy trình tấn công dựa trên chỉ thị ban đầu để phát triển biện pháp phòng thủ.",
+        "chuTrenManHinh": "Phương pháp mới",
+        "yDoHinh": "Quy trình lặp lại tấn công",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Bằng cách kết hợp cả hai phương pháp, chúng ta có thể giảm thiểu rủi ro và bảo vệ hệ thống AI một cách toàn diện.",
+        "chuTrenManHinh": "Kết hợp",
+        "yDoHinh": "Hai lớp bảo vệ kết hợp",
+        "nguon": [
+          "t01",
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các lập trình viên, hôm nay chúng ta sẽ khám phá cách phòng chống prompt injection.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Hãy cùng tìm hiểu về prompt injection.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Một trong những cách hiệu quả là áp dụng chiến lược phòng thủ nhiều lớp, bao gồm đánh giá toàn diện và huấn luyện đối kháng.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] At Google, our teams have a longstanding precedent of investing in a defense-in-depth strategy, including robust evaluation, threat analysis, AI security best practices, AI red-teaming, adversarial training, and model hardening for generative AI tools."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Ngoài ra, một phương pháp mới là đảo ngược ý định của các phương pháp tấn công, lặp lại quy trình tấn công dựa trên chỉ thị ban đầu để phát triển biện pháp phòng thủ.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] In this paper, we invert the intention of prompt injection methods to develop novel defense methods based on previous training-free attack methods, by repeating the attack process but with the original input instruction rather than the injected instruction."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Bằng cách kết hợp cả hai phương pháp, chúng ta có thể giảm thiểu rủi ro và bảo vệ hệ thống AI một cách toàn diện.",
+      "nguon": [
+        "t01",
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] At Google, our teams have a longstanding precedent of investing in a defense-in-depth strategy, including robust evaluation, threat analysis, AI security best practices, AI red-teaming, adversarial training, and model hardening for generative AI tools.",
+        "[n04] In this paper, we invert the intention of prompt injection methods to develop novel defense methods based on previous training-free attack methods, by repeating the attack process but with the original input instruction rather than the injected instruction."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách phòng chống prompt injection\",\"mucTieu\":\"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Lập trình viên\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các lập trình viên, hôm nay chúng ta sẽ khám phá cách phòng chống prompt injection.\",\"chuTrenManHinh\":\"Chào mừng\",\"yDoHinh\":\"Hình ảnh người lập trình viên với biểu tượng AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Hãy cùng tìm hiểu về prompt injection.\",\"chuTrenManHinh\":\"Khám phá\",\"yDoHinh\":\"Biểu tượng prompt injection\",\"nguon\":[]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Một trong những cách hiệu quả là áp dụng chiến lược phòng thủ nhiều lớp, bao gồm đánh giá toàn diện và huấn luyện đối kháng.\",\"chuTrenManHinh\":\"Chiến lược\",\"yDoHinh\":\"Mô hình AI với lớp bảo vệ đa tầng\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Ngoài ra, một phương pháp mới là đảo ngược ý định của các phương pháp tấn công, lặp lại quy trình tấn công dựa trên chỉ thị ban đầu để phát triển biện pháp phòng thủ.\",\"chuTrenManHinh\":\"Phương pháp mới\",\"yDoHinh\":\"Quy trình lặp lại tấn công\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Bằng cách kết hợp cả hai phương pháp, chúng ta có thể giảm thiểu rủi ro và bảo vệ hệ thống AI một cách toàn diện.\",\"chuTrenManHinh\":\"Kết hợp\",\"yDoHinh\":\"Hai lớp bảo vệ kết hợp\",\"nguon\":[\"t01\",\"t02\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "requestId": "chatcmpl-33de003b-587f-4e3f-9fff-c21ccfd911a3",
+      "durationMs": 3167,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách phòng chống prompt injection\",\"mucTieu\":\"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Lập trình viên\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các lập trình viên, hôm nay chúng ta sẽ khám phá cách phòng chống prompt injection.\",\"chuTrenManHinh\":\"Chào mừng\",\"yDoHinh\":\"Hình ảnh người lập trình viên với biểu tượng AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Hãy cùng tìm hiểu về prompt injection.\",\"chuTrenManHinh\":\"Khám phá\",\"yDoHinh\":\"Biểu tượng prompt injection\",\"nguon\":[]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Một trong những cách hiệu quả là áp dụng chiến lược phòng thủ nhiều lớp, bao gồm đánh giá toàn diện và huấn luyện đối kháng.\",\"chuTrenManHinh\":\"Chiến lược\",\"yDoHinh\":\"Mô hình AI với lớp bảo vệ đa tầng\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Ngoài ra, một phương pháp mới là đảo ngược ý định của các phương pháp tấn công, lặp lại quy trình tấn công dựa trên chỉ thị ban đầu để phát triển biện pháp phòng thủ.\",\"chuTrenManHinh\":\"Phương pháp mới\",\"yDoHinh\":\"Quy trình lặp lại tấn công\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Bằng cách kết hợp cả hai phương pháp, chúng ta có thể giảm thiểu rủi ro và bảo vệ hệ thống AI một cách toàn diện.\",\"chuTrenManHinh\":\"Kết hợp\",\"yDoHinh\":\"Hai lớp bảo vệ kết hợp\",\"nguon\":[\"t01\",\"t02\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 3513
+}

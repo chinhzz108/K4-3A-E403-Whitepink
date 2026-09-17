@@ -1,0 +1,1468 @@
+{
+  "case": {
+    "id": "N04",
+    "class": "thuong",
+    "input": {
+      "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+      "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+      "targetAudience": "Sinh viên công nghệ thông tin",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Nguồn về embeddings, semantic search. Kịch bản giải thích rõ ràng.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #5; không phải chatlog",
+    "passCriteria": "≥2 nguồn kỹ thuật; giải thích embedding bằng ví dụ; dẫn nguồn",
+    "failCriteria": "Bịa nguồn; không có ví dụ; viết như báo cáo thay vì văn nói"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp",
+        "tieuDe": "Understanding Semantic Search: Vector Embeddings and Similarity Search - DEV Community",
+        "toChuc": "DEV Community",
+        "ngayDang": "2026-02-02T07:06:39Z",
+        "ngayLayVe": "2026-09-17T13:38:55.203Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Bài viết kỹ thuật được đăng tải trên cộng đồng DEV Community, cung cấp đầy đủ khái niệm về tìm kiếm ngữ nghĩa, vector nhúng và các thuật toán tìm kiếm khoảng cách phù hợp với mục tiêu bài học.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [],
+        "doanTrich": "Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+        "tieuDe": "An intuitive introduction to text embeddings - Stack Overflow",
+        "ngayDang": "2023-11-09T20:22:34.075Z",
+        "ngayLayVe": "2026-09-17T13:38:55.204Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Nguồn từ trang blog chính thức của Stack Overflow, phân tích trực quan về không gian ẩn (latent space) và cách các vector nhúng biểu diễn văn bản dưới dạng hình học toán học.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://cohere.com/llmu/what-is-semantic-search",
+        "tieuDe": "What is Semantic Search? | Cohere Blog",
+        "toChuc": "Cohere",
+        "ngayLayVe": "2026-09-17T13:38:56.274Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Trang web bị lỗi cào dữ liệu, không có nội dung chi tiết hữu ích ngoài tiêu đề chương học.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Nội dung quá ngắn và thiếu thông tin chi tiết để thẩm định học thuật.",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "In this LLM University chapter, you’ll learn how to use embeddings and similarity in order to build a semantic search model.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+        "tieuDe": "How to choose the best embedding model for semantic search [2026] | Meilisearch",
+        "tacGia": "Maya Shin",
+        "toChuc": "Meilisearch",
+        "ngayDang": "2025-03-19T00:00:00.000Z",
+        "ngayLayVe": "2026-09-17T13:38:56.275Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Bài phân tích kỹ thuật của nền tảng tìm kiếm Meilisearch, giải thích rất rõ sự khác biệt giữa tìm kiếm từ khóa và tìm kiếm ngữ nghĩa thông qua các mô hình học sâu và mô hình nhúng.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n05",
+        "url": "https://sudhiryelikar.com/articles/109-understanding-similarity-search-and-vector-databases",
+        "tieuDe": "How similarity search and vector databases work",
+        "tacGia": "Sudhir Yelikar",
+        "toChuc": "Sudhir Yelikar",
+        "ngayDang": "2023-05-17",
+        "ngayLayVe": "2026-09-17T13:38:56.276Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Blog cá nhân phân tích tốt về các thuật toán đo khoảng cách vector như Euclidean và Cosine Similarity.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không chọn do ưu tiên giới hạn số lượng nguồn tốt nhất và thông tin bị trùng lặp với các nguồn uy tín hơn đã chọn.",
+        "canhBao": [
+          "Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "The important aspect of generated embeddings is that similar or semantically related data tend to be located closer to each other, while dissimilar data are located farther apart.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n06",
+        "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+        "tieuDe": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+        "ngayLayVe": "2026-09-17T13:38:55.202Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Content-Type không phải HTML: text/markdown; charset=UTF-8",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Tìm kiếm theo ngữ nghĩa (semantic search) vượt qua giới hạn của việc so khớp từ khóa chính xác bằng cách giải mã ý định, ngữ cảnh và các mối quan hệ giữa các từ để truy xuất thông tin dựa trên sự tương đồng về nghĩa.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.",
+            "viTri": "Đoạn 2 của nguồn n01"
+          },
+          {
+            "nguonId": "n04",
+            "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+            "viTri": "Đoạn 12 của nguồn n04"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Mô hình nhúng (Embedding models) biến đổi các từ, cụm từ hoặc tài liệu thành các biểu diễn số đậm đặc (được gọi là vector nhúng) trong một không gian ẩn đa chiều, giúp máy tính có thể so sánh và xử lý toán học.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+            "viTri": "Đoạn 4 của nguồn n02"
+          },
+          {
+            "nguonId": "n04",
+            "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+            "viTri": "Đoạn 12 của nguồn n04"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Nguyên lý máy tính tìm được câu đồng nghĩa không trùng chữ dựa trên hình học không gian: Các câu có ngữ nghĩa tương đồng được đặt ở các vị trí gần nhau hơn trong không gian vector đa chiều, cho phép hệ thống tính khoảng cách giữa chúng để đo lường độ tương đồng ngữ nghĩa.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+            "viTri": "Đoạn 4 của nguồn n02"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "semantic text embedding",
+      "semantic similarity search"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 5,
+    "trace": {
+      "id": "trace-research-1789652367186",
+      "timestamp": "2026-09-17T13:39:27.186Z",
+      "phase": "research",
+      "input": {
+        "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+        "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+        "targetAudience": "Sinh viên công nghệ thông tin",
+        "videoDuration": "5 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N04"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Text embedding and semantic search | Elastic Docs",
+              "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+              "snippet": "It enables you to generate vector representations of text and perform vector similarity search on the generated vectors. The model that is used in the example ...",
+              "position": 1
+            },
+            {
+              "title": "An intuitive introduction to text embeddings",
+              "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+              "snippet": "A text embedding is a piece of text projected into a high-dimensional latent space. The position of our text in this space is a vector, a long ...",
+              "position": 2
+            },
+            {
+              "title": "How to choose the best embedding model for semantic ...",
+              "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+              "snippet": "Semantic embeddings capture the meaning and relationships between words, which is helpful for tasks like document classification, recommendation ...",
+              "position": 3
+            },
+            {
+              "title": "Word embedding",
+              "url": "https://en.wikipedia.org/wiki/Word_embedding",
+              "snippet": "Word embedding enables a processor to perform semantic operations like obtaining the capital of a given country. Methods to generate this mapping include neural ...",
+              "position": 4
+            },
+            {
+              "title": "What is Embedding? | IBM",
+              "url": "https://www.ibm.com/think/topics/embedding",
+              "snippet": "Embedding is a means of representing text and other objects as points in a continuous vector space that are semantically meaningful to machine learning ...",
+              "position": 5
+            }
+          ],
+          "query": "semantic text embedding",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Understanding Semantic Search: Vector Embeddings and ...",
+              "url": "https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp",
+              "snippet": "Semantic search is an advanced search technique that goes beyond keyword matching to understand the intent and contextual meaning behind a query ...",
+              "position": 1
+            },
+            {
+              "title": "What is Semantic Search?",
+              "url": "https://cohere.com/llmu/what-is-semantic-search",
+              "snippet": "Semantic search is a very powerful way to search for an answer to a particular question. It is an improvement over keyword search, since it actually compares ...",
+              "position": 2
+            },
+            {
+              "title": "How similarity search and vector databases work",
+              "url": "https://sudhiryelikar.com/articles/109-understanding-similarity-search-and-vector-databases",
+              "snippet": "\"Similarity search\" or \"semantic search\" refers to finding information that has similar features or meaning from a set of data. It's like ...",
+              "position": 3
+            },
+            {
+              "title": "Understanding Semantic Search: Vector Embeddings and ...",
+              "url": "https://medium.com/@derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-422bcb4a495b",
+              "snippet": "Semantic search is an advanced search technique that goes beyond keyword matching to understand the intent and contextual meaning behind a query ...",
+              "position": 4
+            },
+            {
+              "title": "What is Similarity Search & How Does it work?",
+              "url": "https://www.truefoundry.com/blog/similarity-search",
+              "snippet": "Is semantic search the same as similarity search? Semantic search relies on similarity search to find items based on their meaning, not just ...",
+              "position": 5
+            }
+          ],
+          "query": "semantic similarity search",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp",
+          "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+          "https://cohere.com/llmu/what-is-semantic-search",
+          "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+          "https://sudhiryelikar.com/articles/109-understanding-similarity-search-and-vector-databases",
+          "https://en.wikipedia.org/wiki/Word_embedding",
+          "https://medium.com/@derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-422bcb4a495b"
+        ],
+        "pagesRead": [
+          "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp",
+          "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+          "https://cohere.com/llmu/what-is-semantic-search",
+          "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+          "https://sudhiryelikar.com/articles/109-understanding-similarity-search-and-vector-databases"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:38:55.202Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp",
+          "content": "Semantic search represents a fundamental shift in how we retrieve information from databases and search engines. Unlike traditional keyword-based search that relies on exact text matches, semantic search understands the meaning and context behind queries, enabling more intuitive and accurate information retrieval.\n\nSemantic search is an advanced search technique that goes beyond keyword matching to understand the intent and contextual meaning behind a query. Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.\n\nFor example, searching for \"healthy dinner ideas\" could return results like \"nutritious meal prep for busy nights\" even though the exact keywords don't match. This is possible because semantic search operates on the underlying meaning of the content.\n\nVector embeddings, which power semantic search, have unique characteristics in how they're distributed in vector space:\n\n1. Uneven Distribution Vector data points are typically not uniformly distributed across the vector space. Instead, they tend to cluster around regions of semantic similarity. This natural clustering reflects how related concepts group together in meaning.\n\n2. Semantic Clustering Vectors representing similar concepts naturally cluster together in vector space. For instance:\n\nSynonyms and semantically related phrases are positioned close to each other\n\nThis clustering property is fundamental to how semantic search works—we can find related content by finding nearby vectors in this space.\n\nAt its core, semantic search relies on a mathematical concept called k-Nearest Neighbors (k-NN) search.\n\nWhen you perform a similarity search based on a query vector, you're essentially:\n\nConverting your query into a vector embedding\n\nThe result is an ordered list ranked by similarity, with the most semantically similar items appearing first.\n\nThe \"closeness\" or similarity between vectors is measured using distance metrics such as:\n\nCosine Similarity: Measures the angle between vectors (commonly used for text)\n\nModern semantic search systems employ two main approaches, each with distinct trade-offs:\n\n1. Exact Search (Exhaustive Search)\n\nIn scenarios where query filters significantly reduce the search space\n\n2. Approximate Search (ANN - Approximate Nearest Neighbor)\n\nHow It Works: Uses specialized algorithms and data structures (like HNSW, IVF, or LSH) to efficiently search through large datasets by narrowing down the search space through clever indexing.\n\nSpeed: Dramatically faster—searches that take 65 hours with exact search can complete in seconds\n\nWhen to Use Approximate Search:\n\nExact Search: ~65 hours to find all matches\n\nApproximate Search (HNSW): Create embeddings in ~5 seconds, search in ~0.01 seconds\n\nFor most production applications with large datasets, the 90-99% accuracy of approximate search combined with massive speed improvements makes it the clear choice.\n\nVector embeddings are the foundation of semantic search. They're the \"translation layer\" that converts human-readable content into machine-understandable numerical representations.\n\nEmbedding models are machine learning models—typically based on transformer architectures—that convert data into dense vector representations. These models have been trained on massive datasets to understand semantic relationships.\n\n1. Contextual Understanding Embedding models assign meaning based on context. For example:\n\nThe word \"bank\" in \"river bank\" vs. \"financial bank\" gets different embeddings\n\nIn text: semantic meaning, sentiment, topic, grammatical role\n\nIn images: shapes, colors, textures, objects\n\nGPT Embeddings (OpenAI) text-embedding-ada-002: 1536 dimensions Excellent for semantic search and clustering\n\ntext-embedding-ada-002: 1536 dimensions\n\nExcellent for semantic search and clustering\n\nE5 Models (multilingual-e5-large) Strong multilingual support Great for cross-language semantic search\n\nGreat for cross-language semantic search\n\nCLIP (Contrastive Language-Image Pre-training) Jointly embeds images and text in the same space Enables text-to-image and image-to-image search\n\nEnables text-to-image and image-to-image search\n\nGeneral semantic search applications\n\nOpenAI Embeddings API: text-embedding-ada-002\n\n<code><span class=\"kn\">from</span> <span class=\"n\">sentence_transformers</span> <span class=\"kn\">import</span> <span class=\"n\">SentenceTransformer</span> <span class=\"c1\"># Load model </span><span class=\"n\">model</span> <span class=\"o\">=</span> <span class=\"nc\">SentenceTransformer</span><span class=\"p\">(</span><span class=\"sh\">'</span><span class=\"s\">all-MiniLM-L6-v2</span><span class=\"sh\">'</span><span class=\"p\">)</span> <span class=\"c1\"># Generate embeddings </span><span class=\"n\">texts</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"sh\">\"</span><span class=\"s\">Semantic search is powerful</span><span class=\"sh\">\"</span><span class=\"p\">,</span> <span class=\"sh\">\"</span><span class=\"s\">Machine learning enables AI</span><span class=\"sh\">\"</span><span class=\"p\">]</span> <span class=\"n\">embeddings</span> <span class=\"o\">=</span> <span class=\"n\">model</span><span class=\"p\">.</span><span class=\"nf\">encode</span><span class=\"p\">(</span><span class=\"n\">texts</span><span class=\"p\">)</span> <span class=\"c1\"># Store in database # db.insert(texts, embeddings) </span></code>\n\n<code><span class=\"c1\">-- Load ONNX model into database</span> <span class=\"k\">BEGIN</span> <span class=\"n\">DBMS_VECTOR</span><span class=\"p\">.</span><span class=\"n\">LOAD_ONNX_MODEL</span><span class=\"p\">(</span> <span class=\"n\">directory</span> <span class=\"o\">=></span> <span class=\"s1\">'MODEL_DIR'</span><span class=\"p\">,</span> <span class=\"n\">file_name</span> <span class=\"o\">=></span> <span class=\"s1\">'all-MiniLM-L6-v2.onnx'</span><span class=\"p\">,</span> <span class=\"n\">model_name</span> <span class=\"o\">=></span> <span class=\"s1\">'text_embedding_model'</span> <span class=\"p\">);</span> <span class=\"k\">END</span><span class=\"p\">;</span> <span class=\"o\">/</span> <span class=\"c1\">-- Generate embeddings automatically</span> <span class=\"k\">INSERT</span> <span class=\"k\">INTO</span> <span class=\"n\">documents</span> <span class=\"p\">(</span><span class=\"n\">id</span><span class=\"p\">,</span> <span class=\"nb\">text</span><span class=\"p\">,</span> <span class=\"n\">embedding</span><span class=\"p\">)</span> <span class=\"k\">VALUES</span> <span class=\"p\">(</span> <span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"s1\">'Semantic search enables better information retrieval'</span><span class=\"p\">,</span> <span class=\"n\">VECTOR_EMBEDDING</span><span class=\"p\">(</span><span class=\"n\">text_embedding_model</span> <span class=\"k\">USING</span> <span class=\"s1\">'Semantic search enables better information retrieval'</span> <span class=\"k\">AS</span> <span class=\"k\">data</span><span class=\"p\">)</span> <span class=\"p\">);</span> <span class=\"c1\">-- Or update existing data</span> <span class=\"k\">UPDATE</span> <span class=\"n\">documents</span> <span class=\"k\">SET</span> <span class=\"n\">embedding</span> <span class=\"o\">=</span> <span class=\"n\">VECTOR_EMBEDDING</span><span class=\"p\">(</span><span class=\"n\">text_embedding_model</span> <span class=\"k\">USING</span> <span class=\"nb\">text</span> <span class=\"k\">AS</span> <span class=\"k\">data</span><span class=\"p\">);</span> </code>\n\nFind relevant documents based on meaning rather than keywords. Users can search using natural language questions and receive semantically relevant results.\n\nIdentify similar or duplicate content, detect variations of prohibited material, and flag potentially harmful content based on semantic similarity.\n\nEnable search by visual similarity—find similar images, locate objects in video content, or search images using text descriptions (via multimodal models like CLIP).\n\nPre-compute embeddings fUnderstanding Semantic Search: Vector Embeddings and Similarity Searchor static content\n\nSemantic search continues to evolve rapidly:\n\nMultimodal Models: Combining text, image, audio, and video in unified search\n\nContext-Aware Search: Better understanding of user intent and query context\n\nPrivacy-Preserving Search: Encrypted embeddings and secure similarity computation\n\nSemantic search, powered by vector embeddings and similarity search algorithms, represents a fundamental advancement in information retrieval. By understanding meaning rather than matching keywords, it enables more intuitive and powerful search experiences across diverse applications.\n\nVector embeddings capture semantic meaning in numerical form\n\nVector data naturally clusters by semantic similarity\n\nTransformer-based embedding models provide state-of-the-art semantic understanding\n\nWhether you're building a search engine, recommendation system, or AI-powered application, understanding these concepts is crucial for leveraging the full power of modern semantic search technologies.",
+          "fetchedAt": "2026-09-17T13:38:55.203Z",
+          "title": "Understanding Semantic Search: Vector Embeddings and Similarity Search - DEV Community",
+          "status": "ok",
+          "contentLength": 22892,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Semantic search represents a fundamental shift in how we retrieve information from databases and search engines. Unlike traditional keyword-based search that relies on exact text matches, semantic search understands the meaning and context behind queries, enabling more intuitive and accurate information retrieval."
+            },
+            {
+              "blockIndex": 2,
+              "text": "Semantic search is an advanced search technique that goes beyond keyword matching to understand the intent and contextual meaning behind a query. Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used."
+            },
+            {
+              "blockIndex": 3,
+              "text": "For example, searching for \"healthy dinner ideas\" could return results like \"nutritious meal prep for busy nights\" even though the exact keywords don't match. This is possible because semantic search operates on the underlying meaning of the content."
+            },
+            {
+              "blockIndex": 5,
+              "text": "Vector embeddings, which power semantic search, have unique characteristics in how they're distributed in vector space:"
+            },
+            {
+              "blockIndex": 7,
+              "text": "1. Uneven Distribution Vector data points are typically not uniformly distributed across the vector space. Instead, they tend to cluster around regions of semantic similarity. This natural clustering reflects how related concepts group together in meaning."
+            },
+            {
+              "blockIndex": 8,
+              "text": "2. Semantic Clustering Vectors representing similar concepts naturally cluster together in vector space. For instance:"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Synonyms and semantically related phrases are positioned close to each other"
+            },
+            {
+              "blockIndex": 12,
+              "text": "This clustering property is fundamental to how semantic search works—we can find related content by finding nearby vectors in this space."
+            },
+            {
+              "blockIndex": 14,
+              "text": "At its core, semantic search relies on a mathematical concept called k-Nearest Neighbors (k-NN) search."
+            },
+            {
+              "blockIndex": 16,
+              "text": "When you perform a similarity search based on a query vector, you're essentially:"
+            },
+            {
+              "blockIndex": 17,
+              "text": "Converting your query into a vector embedding"
+            },
+            {
+              "blockIndex": 20,
+              "text": "The result is an ordered list ranked by similarity, with the most semantically similar items appearing first."
+            },
+            {
+              "blockIndex": 22,
+              "text": "The \"closeness\" or similarity between vectors is measured using distance metrics such as:"
+            },
+            {
+              "blockIndex": 23,
+              "text": "Cosine Similarity: Measures the angle between vectors (commonly used for text)"
+            },
+            {
+              "blockIndex": 28,
+              "text": "Modern semantic search systems employ two main approaches, each with distinct trade-offs:"
+            },
+            {
+              "blockIndex": 29,
+              "text": "1. Exact Search (Exhaustive Search)"
+            },
+            {
+              "blockIndex": 40,
+              "text": "In scenarios where query filters significantly reduce the search space"
+            },
+            {
+              "blockIndex": 41,
+              "text": "2. Approximate Search (ANN - Approximate Nearest Neighbor)"
+            },
+            {
+              "blockIndex": 42,
+              "text": "How It Works: Uses specialized algorithms and data structures (like HNSW, IVF, or LSH) to efficiently search through large datasets by narrowing down the search space through clever indexing."
+            },
+            {
+              "blockIndex": 46,
+              "text": "Speed: Dramatically faster—searches that take 65 hours with exact search can complete in seconds"
+            },
+            {
+              "blockIndex": 53,
+              "text": "When to Use Approximate Search:"
+            },
+            {
+              "blockIndex": 61,
+              "text": "Exact Search: ~65 hours to find all matches"
+            },
+            {
+              "blockIndex": 62,
+              "text": "Approximate Search (HNSW): Create embeddings in ~5 seconds, search in ~0.01 seconds"
+            },
+            {
+              "blockIndex": 63,
+              "text": "For most production applications with large datasets, the 90-99% accuracy of approximate search combined with massive speed improvements makes it the clear choice."
+            },
+            {
+              "blockIndex": 65,
+              "text": "Vector embeddings are the foundation of semantic search. They're the \"translation layer\" that converts human-readable content into machine-understandable numerical representations."
+            },
+            {
+              "blockIndex": 67,
+              "text": "Embedding models are machine learning models—typically based on transformer architectures—that convert data into dense vector representations. These models have been trained on massive datasets to understand semantic relationships."
+            },
+            {
+              "blockIndex": 69,
+              "text": "1. Contextual Understanding Embedding models assign meaning based on context. For example:"
+            },
+            {
+              "blockIndex": 70,
+              "text": "The word \"bank\" in \"river bank\" vs. \"financial bank\" gets different embeddings"
+            },
+            {
+              "blockIndex": 74,
+              "text": "In text: semantic meaning, sentiment, topic, grammatical role"
+            },
+            {
+              "blockIndex": 75,
+              "text": "In images: shapes, colors, textures, objects"
+            },
+            {
+              "blockIndex": 92,
+              "text": "GPT Embeddings (OpenAI) text-embedding-ada-002: 1536 dimensions Excellent for semantic search and clustering"
+            },
+            {
+              "blockIndex": 93,
+              "text": "text-embedding-ada-002: 1536 dimensions"
+            },
+            {
+              "blockIndex": 94,
+              "text": "Excellent for semantic search and clustering"
+            },
+            {
+              "blockIndex": 95,
+              "text": "E5 Models (multilingual-e5-large) Strong multilingual support Great for cross-language semantic search"
+            },
+            {
+              "blockIndex": 97,
+              "text": "Great for cross-language semantic search"
+            },
+            {
+              "blockIndex": 99,
+              "text": "CLIP (Contrastive Language-Image Pre-training) Jointly embeds images and text in the same space Enables text-to-image and image-to-image search"
+            },
+            {
+              "blockIndex": 101,
+              "text": "Enables text-to-image and image-to-image search"
+            },
+            {
+              "blockIndex": 144,
+              "text": "General semantic search applications"
+            },
+            {
+              "blockIndex": 189,
+              "text": "OpenAI Embeddings API: text-embedding-ada-002"
+            },
+            {
+              "blockIndex": 204,
+              "text": "<code><span class=\"kn\">from</span> <span class=\"n\">sentence_transformers</span> <span class=\"kn\">import</span> <span class=\"n\">SentenceTransformer</span> <span class=\"c1\"># Load model </span><span class=\"n\">model</span> <span class=\"o\">=</span> <span class=\"nc\">SentenceTransformer</span><span class=\"p\">(</span><span class=\"sh\">'</span><span class=\"s\">all-MiniLM-L6-v2</span><span class=\"sh\">'</span><span class=\"p\">)</span> <span class=\"c1\"># Generate embeddings </span><span class=\"n\">texts</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"sh\">\"</span><span class=\"s\">Semantic search is powerful</span><span class=\"sh\">\"</span><span class=\"p\">,</span> <span class=\"sh\">\"</span><span class=\"s\">Machine learning enables AI</span><span class=\"sh\">\"</span><span class=\"p\">]</span> <span class=\"n\">embeddings</span> <span class=\"o\">=</span> <span class=\"n\">model</span><span class=\"p\">.</span><span class=\"nf\">encode</span><span class=\"p\">(</span><span class=\"n\">texts</span><span class=\"p\">)</span> <span class=\"c1\"># Store in database # db.insert(texts, embeddings) </span></code>"
+            },
+            {
+              "blockIndex": 229,
+              "text": "<code><span class=\"c1\">-- Load ONNX model into database</span> <span class=\"k\">BEGIN</span> <span class=\"n\">DBMS_VECTOR</span><span class=\"p\">.</span><span class=\"n\">LOAD_ONNX_MODEL</span><span class=\"p\">(</span> <span class=\"n\">directory</span> <span class=\"o\">=></span> <span class=\"s1\">'MODEL_DIR'</span><span class=\"p\">,</span> <span class=\"n\">file_name</span> <span class=\"o\">=></span> <span class=\"s1\">'all-MiniLM-L6-v2.onnx'</span><span class=\"p\">,</span> <span class=\"n\">model_name</span> <span class=\"o\">=></span> <span class=\"s1\">'text_embedding_model'</span> <span class=\"p\">);</span> <span class=\"k\">END</span><span class=\"p\">;</span> <span class=\"o\">/</span> <span class=\"c1\">-- Generate embeddings automatically</span> <span class=\"k\">INSERT</span> <span class=\"k\">INTO</span> <span class=\"n\">documents</span> <span class=\"p\">(</span><span class=\"n\">id</span><span class=\"p\">,</span> <span class=\"nb\">text</span><span class=\"p\">,</span> <span class=\"n\">embedding</span><span class=\"p\">)</span> <span class=\"k\">VALUES</span> <span class=\"p\">(</span> <span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"s1\">'Semantic search enables better information retrieval'</span><span class=\"p\">,</span> <span class=\"n\">VECTOR_EMBEDDING</span><span class=\"p\">(</span><span class=\"n\">text_embedding_model</span> <span class=\"k\">USING</span> <span class=\"s1\">'Semantic search enables better information retrieval'</span> <span class=\"k\">AS</span> <span class=\"k\">data</span><span class=\"p\">)</span> <span class=\"p\">);</span> <span class=\"c1\">-- Or update existing data</span> <span class=\"k\">UPDATE</span> <span class=\"n\">documents</span> <span class=\"k\">SET</span> <span class=\"n\">embedding</span> <span class=\"o\">=</span> <span class=\"n\">VECTOR_EMBEDDING</span><span class=\"p\">(</span><span class=\"n\">text_embedding_model</span> <span class=\"k\">USING</span> <span class=\"nb\">text</span> <span class=\"k\">AS</span> <span class=\"k\">data</span><span class=\"p\">);</span> </code>"
+            },
+            {
+              "blockIndex": 272,
+              "text": "Find relevant documents based on meaning rather than keywords. Users can search using natural language questions and receive semantically relevant results."
+            },
+            {
+              "blockIndex": 278,
+              "text": "Identify similar or duplicate content, detect variations of prohibited material, and flag potentially harmful content based on semantic similarity."
+            },
+            {
+              "blockIndex": 280,
+              "text": "Enable search by visual similarity—find similar images, locate objects in video content, or search images using text descriptions (via multimodal models like CLIP)."
+            },
+            {
+              "blockIndex": 302,
+              "text": "Pre-compute embeddings fUnderstanding Semantic Search: Vector Embeddings and Similarity Searchor static content"
+            },
+            {
+              "blockIndex": 309,
+              "text": "Semantic search continues to evolve rapidly:"
+            },
+            {
+              "blockIndex": 310,
+              "text": "Multimodal Models: Combining text, image, audio, and video in unified search"
+            },
+            {
+              "blockIndex": 313,
+              "text": "Context-Aware Search: Better understanding of user intent and query context"
+            },
+            {
+              "blockIndex": 316,
+              "text": "Privacy-Preserving Search: Encrypted embeddings and secure similarity computation"
+            },
+            {
+              "blockIndex": 317,
+              "text": "Semantic search, powered by vector embeddings and similarity search algorithms, represents a fundamental advancement in information retrieval. By understanding meaning rather than matching keywords, it enables more intuitive and powerful search experiences across diverse applications."
+            },
+            {
+              "blockIndex": 319,
+              "text": "Vector embeddings capture semantic meaning in numerical form"
+            },
+            {
+              "blockIndex": 320,
+              "text": "Vector data naturally clusters by semantic similarity"
+            },
+            {
+              "blockIndex": 322,
+              "text": "Transformer-based embedding models provide state-of-the-art semantic understanding"
+            },
+            {
+              "blockIndex": 325,
+              "text": "Whether you're building a search engine, recommendation system, or AI-powered application, understanding these concepts is crucial for leveraging the full power of modern semantic search technologies."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+          "content": "At a startup, I don’t often have the luxury of spending months on research and testing—if I do, it’s a bet that makes or breaks the product.\n\nA lot of my sense for this comes from the thousands of hours I’ve spent working with these models, seeing where they fall short and where they surprise me with their successes. But if there’s one concept that most informs my intuitions, it’s text embeddings. The ability to take a chunk of text and turn it into a vector, subject to the laws of mathematics, is fundamental to natural language processing. A good grasp of text embeddings will greatly improve your capacity to reason intuitively about how NLP (and a lot of other ML models) should best fit into your product.\n\nSo let’s stop for a moment to appreciate text embeddings.\n\nA text embedding is a piece of text projected into a high-dimensional latent space. The position of our text in this space is a vector, a long sequence of numbers. Think of the two-dimensional cartesian coordinates from algebra class, but with more dimensions—often 768 or 1536.\n\nFor example, here’s what the OpenAI text-embedding-ada-002 model does with the paragraph above. Each vertical band in this plot represents a value in one of the embedding space’s 1536 dimensions.\n\nMathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items. In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.\n\nWe can frame a lot of useful tasks in terms of text similarity.\n\nSearch: How similar is a query to a document in your database?\n\nIn these cases, you can pre-calculate the embeddings for your targets (i.e. the documents you want to search or examples for classification) and store them in an indexed database. This lets you capture the powerful natural language understanding of deep neural models as text embeddings as you add new items to your database, then run your search or classifier without expensive GPU compute.\n\nThis direct comparison of text similarity is just one application for text embeddings. Often, embeddings have a place in ML algorithms or neural architectures with further task-specific components built on top. I’ve largely elided these details in the discussion below.\n\nI mentioned above that a key feature of an embedding space is that it preserves distance. The high-dimensional vectors used in text embeddings and LLMs aren’t immediately intuitive. But the basic spatial intuition remains (mostly) the same as we scale things down.\n\nWhat if we can identify some common semantic sense to words like “cat” and “feline?” We could spare our dimensionality budget and make our shelving scheme more intuitive.\n\nLatent semantic analysis and Latent Dirichlet allocation\n\nI won’t go into the details here, but there are a couple of different algorithms you can use to infer this from a large enough collection of documents: Latent semantic analysis (LSA), which uses the singular value decomposition of the term-document matrix (fancy linear algebra, basically), and Latent Dirichlet allocation (LDA), which uses a statistical method called the Dirichlet process.\n\nLDA and LSA are still widely used for topic modeling. You can often find them as “read next” links in an article’s footer. But they’re limited to capturing a broad sense of topicality in a document. The models rely on document inputs being long enough to have a representative sample of words. And with the unordered bag-of-words input, there’s no way to capture proximity of words, let alone complex syntax and semantics.\n\nIn the examples above, we were using word counts as a proxy for some more nebulous idea of topicality. By projecting those word counts down into an embedding space, we can both reduce the dimensionality and infer latent variables that indicate topicality better than the raw word counts. To do this, though, we need a well-defined algorithm like LSA that can process a corpus of documents to find a good mapping between our bag-of-words input and vectors in our embedding space.\n\nMethods based in neural networks let us generalize this process and break the restrictions of LSA. To get embeddings, we just need to:\n\nThe neural network training process runs over the training data a bunch of times. A common approach for embeddings is called triplet loss. At each training step, compare a reference input—the anchor—to a positive input (something that should be close to the anchor in our latent space) and a negative input (one we know should be far away). The training objective is to minimize the distance between the anchor and the positive in our embedding space while maximizing the distance to the negative.\n\nAn advantage of this approach is that we don’t need to know actual distances in our training data—some kind of binary proxy works nicely. Going back to our library, for example, we might select our anchor/proxy pairs from sets of books that were checked out together. We throw in a negative example drawn at random from the books outside that set. There’s certainly noise in this training set—library-goers often pick books on diverse subjects and our random negatives aren't guaranteed to be irrelevant. The idea is that with a large enough data set the noise washes out and your embeddings capture some kind of useful signal.\n\nThe big example here is Word2vec, which uses windowed text sampling to create embeddings for individual words. A sliding window moves through text in the training data, one word at a time. For each position of the window, Word2vec creates a context set. For example, with a window size of 3 in the sentence \"the cat sat on the mat\", (‘the’, ‘cat’, ‘sat’) are grouped together, just like a set of library books a reader had checked out in the example above. During training, this pushes vectors for 'the', 'cat', and 'sat' all a little closer in the latent space.\n\nA key point here is that we don’t need to spend much time on training data for this model—it uses a large corpus of raw text as-is, and can extract some surprisingly detailed insights about language.\n\nA token’s value vector captures its semantic meaning in a high-dimensional embedding space, much like in our library analogy from earlier. The attention mechanism uses another embedding space for the key and query vectors—a sort of semantic plumbing in the floor between each level of the library. The key vector positions the output end of a pipe that draws some semantic value from the token and pumps it out into the embedding space. The query vector places the input end of a pipe that sucks up semantic value other tokens’ key vectors pump into the embedding space nearby and all this into the token’s new representation on the floor above.\n\nSo the transformer architecture can encode sequences really well, but if we want it to understand language well, how do we train it? Remember, when we start training, all these vectors are randomly initialized. Our tokens’ value vectors are distributed at random in their semantic embedding space as are our key and query vectors in theirs. We ask the model to predict a token given the rest of the encoded sequence. The great thing about this task is that we can gather as much text as we can find and turn it into training data. All we have to do is hide one of the tokens in a chunk of text from the model and encode what’s left. We already know what the missing token should be, so we can build a loss function based on how close the prediction is to this known value.\n\nThe other beautiful thing is that the difficulty of predicting the right word scales up smoothly. It goes from a general sense of topicality and word order—something even a simple predictive text model on your phone can do pretty well—up through complex syntax and semantics.\n\nEffective and fast text embedding methods transform textual input into a numeric form, which allows models such as GPT-4 to process immense volumes of data and show a remarkable level of natural language understanding.\n\nA deep, intuitive understanding of text embeddings can help you follow the advances of these models, letting you effectively incorporate them into your own systems without combing through the technical specs of each new improvement as it emerges.\n\nIt's becoming clear that the benefits of text embedding models can apply to other domains. Tools like Midjourney and DALL-E interpret text instructions by learning to embed images and prompts into a shared embedding space. And a similar approach has been used for natural language instructions in robotics.\n\nA new class of large multi-modal models like Microsoft's GPT-Vision and Google's RT-X are jointly trained on text data along with audiovisual inputs and robotics data, thanks, in large part, to the ability to effectively map all these disparate forms of data into a shared embedding space.",
+          "fetchedAt": "2026-09-17T13:38:55.204Z",
+          "title": "An intuitive introduction to text embeddings - Stack Overflow",
+          "status": "ok",
+          "contentLength": 18207,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 1,
+              "text": "At a startup, I don’t often have the luxury of spending months on research and testing—if I do, it’s a bet that makes or breaks the product."
+            },
+            {
+              "blockIndex": 3,
+              "text": "A lot of my sense for this comes from the thousands of hours I’ve spent working with these models, seeing where they fall short and where they surprise me with their successes. But if there’s one concept that most informs my intuitions, it’s text embeddings. The ability to take a chunk of text and turn it into a vector, subject to the laws of mathematics, is fundamental to natural language processing. A good grasp of text embeddings will greatly improve your capacity to reason intuitively about how NLP (and a lot of other ML models) should best fit into your product."
+            },
+            {
+              "blockIndex": 4,
+              "text": "So let’s stop for a moment to appreciate text embeddings."
+            },
+            {
+              "blockIndex": 6,
+              "text": "A text embedding is a piece of text projected into a high-dimensional latent space. The position of our text in this space is a vector, a long sequence of numbers. Think of the two-dimensional cartesian coordinates from algebra class, but with more dimensions—often 768 or 1536."
+            },
+            {
+              "blockIndex": 7,
+              "text": "For example, here’s what the OpenAI text-embedding-ada-002 model does with the paragraph above. Each vertical band in this plot represents a value in one of the embedding space’s 1536 dimensions."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items. In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space."
+            },
+            {
+              "blockIndex": 10,
+              "text": "We can frame a lot of useful tasks in terms of text similarity."
+            },
+            {
+              "blockIndex": 11,
+              "text": "Search: How similar is a query to a document in your database?"
+            },
+            {
+              "blockIndex": 15,
+              "text": "In these cases, you can pre-calculate the embeddings for your targets (i.e. the documents you want to search or examples for classification) and store them in an indexed database. This lets you capture the powerful natural language understanding of deep neural models as text embeddings as you add new items to your database, then run your search or classifier without expensive GPU compute."
+            },
+            {
+              "blockIndex": 16,
+              "text": "This direct comparison of text similarity is just one application for text embeddings. Often, embeddings have a place in ML algorithms or neural architectures with further task-specific components built on top. I’ve largely elided these details in the discussion below."
+            },
+            {
+              "blockIndex": 18,
+              "text": "I mentioned above that a key feature of an embedding space is that it preserves distance. The high-dimensional vectors used in text embeddings and LLMs aren’t immediately intuitive. But the basic spatial intuition remains (mostly) the same as we scale things down."
+            },
+            {
+              "blockIndex": 29,
+              "text": "What if we can identify some common semantic sense to words like “cat” and “feline?” We could spare our dimensionality budget and make our shelving scheme more intuitive."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Latent semantic analysis and Latent Dirichlet allocation"
+            },
+            {
+              "blockIndex": 33,
+              "text": "I won’t go into the details here, but there are a couple of different algorithms you can use to infer this from a large enough collection of documents: Latent semantic analysis (LSA), which uses the singular value decomposition of the term-document matrix (fancy linear algebra, basically), and Latent Dirichlet allocation (LDA), which uses a statistical method called the Dirichlet process."
+            },
+            {
+              "blockIndex": 34,
+              "text": "LDA and LSA are still widely used for topic modeling. You can often find them as “read next” links in an article’s footer. But they’re limited to capturing a broad sense of topicality in a document. The models rely on document inputs being long enough to have a representative sample of words. And with the unordered bag-of-words input, there’s no way to capture proximity of words, let alone complex syntax and semantics."
+            },
+            {
+              "blockIndex": 36,
+              "text": "In the examples above, we were using word counts as a proxy for some more nebulous idea of topicality. By projecting those word counts down into an embedding space, we can both reduce the dimensionality and infer latent variables that indicate topicality better than the raw word counts. To do this, though, we need a well-defined algorithm like LSA that can process a corpus of documents to find a good mapping between our bag-of-words input and vectors in our embedding space."
+            },
+            {
+              "blockIndex": 37,
+              "text": "Methods based in neural networks let us generalize this process and break the restrictions of LSA. To get embeddings, we just need to:"
+            },
+            {
+              "blockIndex": 42,
+              "text": "The neural network training process runs over the training data a bunch of times. A common approach for embeddings is called triplet loss. At each training step, compare a reference input—the anchor—to a positive input (something that should be close to the anchor in our latent space) and a negative input (one we know should be far away). The training objective is to minimize the distance between the anchor and the positive in our embedding space while maximizing the distance to the negative."
+            },
+            {
+              "blockIndex": 43,
+              "text": "An advantage of this approach is that we don’t need to know actual distances in our training data—some kind of binary proxy works nicely. Going back to our library, for example, we might select our anchor/proxy pairs from sets of books that were checked out together. We throw in a negative example drawn at random from the books outside that set. There’s certainly noise in this training set—library-goers often pick books on diverse subjects and our random negatives aren't guaranteed to be irrelevant. The idea is that with a large enough data set the noise washes out and your embeddings capture some kind of useful signal."
+            },
+            {
+              "blockIndex": 45,
+              "text": "The big example here is Word2vec, which uses windowed text sampling to create embeddings for individual words. A sliding window moves through text in the training data, one word at a time. For each position of the window, Word2vec creates a context set. For example, with a window size of 3 in the sentence \"the cat sat on the mat\", (‘the’, ‘cat’, ‘sat’) are grouped together, just like a set of library books a reader had checked out in the example above. During training, this pushes vectors for 'the', 'cat', and 'sat' all a little closer in the latent space."
+            },
+            {
+              "blockIndex": 46,
+              "text": "A key point here is that we don’t need to spend much time on training data for this model—it uses a large corpus of raw text as-is, and can extract some surprisingly detailed insights about language."
+            },
+            {
+              "blockIndex": 63,
+              "text": "A token’s value vector captures its semantic meaning in a high-dimensional embedding space, much like in our library analogy from earlier. The attention mechanism uses another embedding space for the key and query vectors—a sort of semantic plumbing in the floor between each level of the library. The key vector positions the output end of a pipe that draws some semantic value from the token and pumps it out into the embedding space. The query vector places the input end of a pipe that sucks up semantic value other tokens’ key vectors pump into the embedding space nearby and all this into the token’s new representation on the floor above."
+            },
+            {
+              "blockIndex": 65,
+              "text": "So the transformer architecture can encode sequences really well, but if we want it to understand language well, how do we train it? Remember, when we start training, all these vectors are randomly initialized. Our tokens’ value vectors are distributed at random in their semantic embedding space as are our key and query vectors in theirs. We ask the model to predict a token given the rest of the encoded sequence. The great thing about this task is that we can gather as much text as we can find and turn it into training data. All we have to do is hide one of the tokens in a chunk of text from the model and encode what’s left. We already know what the missing token should be, so we can build a loss function based on how close the prediction is to this known value."
+            },
+            {
+              "blockIndex": 66,
+              "text": "The other beautiful thing is that the difficulty of predicting the right word scales up smoothly. It goes from a general sense of topicality and word order—something even a simple predictive text model on your phone can do pretty well—up through complex syntax and semantics."
+            },
+            {
+              "blockIndex": 69,
+              "text": "Effective and fast text embedding methods transform textual input into a numeric form, which allows models such as GPT-4 to process immense volumes of data and show a remarkable level of natural language understanding."
+            },
+            {
+              "blockIndex": 70,
+              "text": "A deep, intuitive understanding of text embeddings can help you follow the advances of these models, letting you effectively incorporate them into your own systems without combing through the technical specs of each new improvement as it emerges."
+            },
+            {
+              "blockIndex": 71,
+              "text": "It's becoming clear that the benefits of text embedding models can apply to other domains. Tools like Midjourney and DALL-E interpret text instructions by learning to embed images and prompts into a shared embedding space. And a similar approach has been used for natural language instructions in robotics."
+            },
+            {
+              "blockIndex": 72,
+              "text": "A new class of large multi-modal models like Microsoft's GPT-Vision and Google's RT-X are jointly trained on text data along with audiovisual inputs and robotics data, thanks, in large part, to the ability to effectively map all these disparate forms of data into a shared embedding space."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://cohere.com/llmu/what-is-semantic-search",
+          "content": "< Back to modulesWhat is Semantic Search?Luis SerranoIn this LLM University chapter, you’ll learn how to use embeddings and similarity in order to build a semantic search model.Share:",
+          "fetchedAt": "2026-09-17T13:38:56.274Z",
+          "title": "What is Semantic Search? | Cohere Blog",
+          "status": "ok",
+          "contentLength": 183,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "< Back to modulesWhat is Semantic Search?Luis SerranoIn this LLM University chapter, you’ll learn how to use embeddings and similarity in order to build a semantic search model.Share:"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+          "content": "How to choose the best embedding model for semantic search [2026]\n\nDiscover the best embedding model for semantic search in 2026. See our model performance, cost, and relevancy comparison for building semantic search.\n\nHead of Marketing @ Meilisearch·@mayya_shin·LinkedIn\n\nSemantic search transforms how we find information online by focusing on understanding the meaning behind the words and phrases in user searches rather than relying solely on word-for-word matching.\n\nUsing machine learning (ML) and natural language processing (NLP), it decodes intent, context, and relationships between words, thus allowing for more conversational queries. This makes it a vital tool for businesses needing fast, accurate, and relevant results from large or complex data sets.\n\nEmbedding models are ML techniques that render words and phrases into complex numerical representations, which are then classified based on their context and relationships. However, not all models are the same. Accuracy, speed, indexing efficiency, and pricing can vary significantly between them.\n\nChoosing the right semantic search model is crucial for delivering precise, efficient, and scalable search experiences for specific tasks.\n\nUnderstanding the trade-offs – whether for multilingual support, search latency, or computational efficiency – will help you implement a high-performing semantic search system for your brand.\n\nSemantic search is an advanced AI-powered approach to information retrieval that focuses on NLP, ML, and knowledge representation to deduce the intent and contextual meaning of user queries.\n\nTraditional keyword-based search engines match exact strings of words, but that’s not always enough. Semantic search goes further by incorporating named entity recognition, relationships between words, and contextual disambiguation to deliver more relevant results.\n\nSemantic search engines can understand synonyms, paraphrased queries, and even infer implicit meanings exclusively because they use deep learning models such as transformers.\n\nGiven its ability to enhance the search criteria, AI-powered search is crucial for applications requiring faster, broader, and even less structured data retrieval.\n\nWhy is semantic search important?\n\nSemantic search is important because it improves search capability and relevance, thus helping users find information faster and with fewer irrelevant results. It also reduces uncertainty by interpreting natural language queries more clearly.\n\nLike similarity search, it allows users to phrase their questions conversationally and intuitively rather than using specific – sometimes even long-tail – keywords. Think of it like this: if you can ask a question from your neighbor on a bus, then you can ask it with a quick semantic search.\n\nAdditionally, businesses benefit from semantic search by enhancing customer experiences, improving product discovery, and optimizing knowledge management systems.\n\nFor example, e-commerce stores like Bookshop.org can boost search-based sales by up to 43% by implementing semantic search tools like Meilisearch.\n\nA core component of semantic search is embedding models through which similarity computations are made possible.\n\nEmbedding models are machine learning models that transform words, phrases, or documents into dense numerical representations called embeddings.\n\nThese vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.\n\nFor instance, embeddings generated for words like “phone,” “mobile,” and “cell” will be more closely aligned in vector space than, say, “cell” and “bell,” even though the latter two are closer in letter-by-letter similarity.\n\nWhat’s the difference between semantic and search embeddings?\n\nSemantic and search embeddings serve distinct purposes in NLP applications, particularly in semantic search.\n\nSemantic embeddings capture the meaning and relationships between words, which is helpful for tasks like document classification, recommendation systems, language translation, and sentiment analysis. They do this by reflecting the words’ conceptual similarities, even if they are not used in the same context.\n\nOn the other hand, search embeddings are specifically optimized for retrieval tasks, thus ensuring queries and indexed documents align effectively in vector space to maximize search relevance.\n\nUnlike generic semantic embeddings, search embeddings often incorporate domain- and background-specific optimizations to fine-tune the effectiveness of the specific retrieval activity.\n\nFor example, a semantic embedding model might learn that \"mac\" is related to pasta, the makeup company, and the Apple laptop computer. However, a search embedding model trained on computers and hardware would prioritize the third meaning when processing search queries in that domain.\n\nEmbedding models serve as the backbone of semantic search by enabling similarity-based retrieval mechanisms that align with user intent.\n\nWhat is the role of embedding models in semantic search?\n\nEmbedding models power semantic search by converting text into a structured format that can be efficiently indexed and retrieved.\n\nInstead of relying on exact keyword matches, these models compare query embeddings with indexed document embeddings. This enables nearest-neighbor searches and significantly improves retrieval accuracy over traditional algorithms that depend on keyword matching.\n\nSeveral fine-tuned and pre-trained models continue to emerge as industry standards for semantic search. Each improves precision, relevance, efficiency, and/or scalability in its own way.\n\nWhat are the most commonly used models for semantic search?\n\nDifferent embedding models vary in terms of vector dimensionality, context length, and certain other performance characteristics.\n\nYour choice of a model for semantic search will depend on a variety of factors, including, but not limited to, its accuracy, computational efficiency, and cost.\n\nWhat factors should be considered when choosing the best model for semantic search?\n\nRelevance is the cornerstone of effective semantic search, especially in achieving optimal user experience. The right model should balance precision, recall, and speed to ensure users receive highly relevant results without excessive noise.\n\nThis balance becomes especially important when comparing hybrid approaches like vector and full-text search. When selecting an embedding model, think about the following:\n\nLocal embedding models are ideal to achieve lightning-fast performance, as they eliminate the need for round trips to external services and reduce latency. If you must rely on remote models, hosting your search service close to the embedding service can minimize delays and improve user experience.\n\nThe table below showcases latency benchmarks for various local embedding models and embedding APIs. All requests originate from a Meilisearch instance hosted in the AWS London data center.\n\nEfficient indexing is another critical factor for the scalability of your search solution. As expected, the time required to process and store embeddings varies widely among models. Notable metrics influencing processing time are API rate limits, batch processing capabilities, and model dimensions.\n\nTo maximize search performance, hybrid search approaches combining full-text and vector search can yield the best results. To refine semantic search performance, consider the following optimizations:\n\nCarefully evaluating these factors will help you select the best semantic search model to meet your needs.\n\nChoosing the best model for semantic search depends on what (and how) you aim to achieve with your specific use case, budget, and performance requirements. For most cases, cloud-based solutions such as those provided by Cohere or OpenAI may be optimal.\n\nHow does semantic search differ from keyword-based search?\n\nSemantic search focuses on understanding meaning, while keyword-based search relies on exact word matches.\n\nWhat are the key features of a good semantic search model?\n\nHow do transformer-based models improve semantic search?\n\nTransformers process text in context, capturing contextual relationships between words to enhance search relevance while reducing downtime.\n\nHow do vector databases enhance semantic search?\n\nVector databases work to efficiently store embeddings, enabling fast and scalable search operations.\n\nWhat are some open-source models for semantic search?\n\nPopular open-source semantic search models include all-MiniLM-L6-v2 and Universal Sentence Encoder.\n\nLearn what hybrid search RAG is, how it blends semantic and keyword search for more accurate retrieval, and how it works, challenges, implementation & more.\n\nSemantic search vs. RAG: A side-by-side comparison\n\nExplore the differences between semantic search and RAG. Learn when to use each, common trade-offs, benefits, evaluations, and more.",
+          "fetchedAt": "2026-09-17T13:38:56.275Z",
+          "title": "How to choose the best embedding model for semantic search [2026] | Meilisearch",
+          "status": "ok",
+          "contentLength": 16968,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "How to choose the best embedding model for semantic search [2026]"
+            },
+            {
+              "blockIndex": 1,
+              "text": "Discover the best embedding model for semantic search in 2026. See our model performance, cost, and relevancy comparison for building semantic search."
+            },
+            {
+              "blockIndex": 3,
+              "text": "Head of Marketing @ Meilisearch·@mayya_shin·LinkedIn"
+            },
+            {
+              "blockIndex": 5,
+              "text": "Semantic search transforms how we find information online by focusing on understanding the meaning behind the words and phrases in user searches rather than relying solely on word-for-word matching."
+            },
+            {
+              "blockIndex": 6,
+              "text": "Using machine learning (ML) and natural language processing (NLP), it decodes intent, context, and relationships between words, thus allowing for more conversational queries. This makes it a vital tool for businesses needing fast, accurate, and relevant results from large or complex data sets."
+            },
+            {
+              "blockIndex": 7,
+              "text": "Embedding models are ML techniques that render words and phrases into complex numerical representations, which are then classified based on their context and relationships. However, not all models are the same. Accuracy, speed, indexing efficiency, and pricing can vary significantly between them."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Choosing the right semantic search model is crucial for delivering precise, efficient, and scalable search experiences for specific tasks."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Understanding the trade-offs – whether for multilingual support, search latency, or computational efficiency – will help you implement a high-performing semantic search system for your brand."
+            },
+            {
+              "blockIndex": 11,
+              "text": "Semantic search is an advanced AI-powered approach to information retrieval that focuses on NLP, ML, and knowledge representation to deduce the intent and contextual meaning of user queries."
+            },
+            {
+              "blockIndex": 12,
+              "text": "Traditional keyword-based search engines match exact strings of words, but that’s not always enough. Semantic search goes further by incorporating named entity recognition, relationships between words, and contextual disambiguation to deliver more relevant results."
+            },
+            {
+              "blockIndex": 13,
+              "text": "Semantic search engines can understand synonyms, paraphrased queries, and even infer implicit meanings exclusively because they use deep learning models such as transformers."
+            },
+            {
+              "blockIndex": 14,
+              "text": "Given its ability to enhance the search criteria, AI-powered search is crucial for applications requiring faster, broader, and even less structured data retrieval."
+            },
+            {
+              "blockIndex": 15,
+              "text": "Why is semantic search important?"
+            },
+            {
+              "blockIndex": 16,
+              "text": "Semantic search is important because it improves search capability and relevance, thus helping users find information faster and with fewer irrelevant results. It also reduces uncertainty by interpreting natural language queries more clearly."
+            },
+            {
+              "blockIndex": 17,
+              "text": "Like similarity search, it allows users to phrase their questions conversationally and intuitively rather than using specific – sometimes even long-tail – keywords. Think of it like this: if you can ask a question from your neighbor on a bus, then you can ask it with a quick semantic search."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Additionally, businesses benefit from semantic search by enhancing customer experiences, improving product discovery, and optimizing knowledge management systems."
+            },
+            {
+              "blockIndex": 19,
+              "text": "For example, e-commerce stores like Bookshop.org can boost search-based sales by up to 43% by implementing semantic search tools like Meilisearch."
+            },
+            {
+              "blockIndex": 20,
+              "text": "A core component of semantic search is embedding models through which similarity computations are made possible."
+            },
+            {
+              "blockIndex": 22,
+              "text": "Embedding models are machine learning models that transform words, phrases, or documents into dense numerical representations called embeddings."
+            },
+            {
+              "blockIndex": 23,
+              "text": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words."
+            },
+            {
+              "blockIndex": 24,
+              "text": "For instance, embeddings generated for words like “phone,” “mobile,” and “cell” will be more closely aligned in vector space than, say, “cell” and “bell,” even though the latter two are closer in letter-by-letter similarity."
+            },
+            {
+              "blockIndex": 26,
+              "text": "What’s the difference between semantic and search embeddings?"
+            },
+            {
+              "blockIndex": 27,
+              "text": "Semantic and search embeddings serve distinct purposes in NLP applications, particularly in semantic search."
+            },
+            {
+              "blockIndex": 28,
+              "text": "Semantic embeddings capture the meaning and relationships between words, which is helpful for tasks like document classification, recommendation systems, language translation, and sentiment analysis. They do this by reflecting the words’ conceptual similarities, even if they are not used in the same context."
+            },
+            {
+              "blockIndex": 29,
+              "text": "On the other hand, search embeddings are specifically optimized for retrieval tasks, thus ensuring queries and indexed documents align effectively in vector space to maximize search relevance."
+            },
+            {
+              "blockIndex": 30,
+              "text": "Unlike generic semantic embeddings, search embeddings often incorporate domain- and background-specific optimizations to fine-tune the effectiveness of the specific retrieval activity."
+            },
+            {
+              "blockIndex": 31,
+              "text": "For example, a semantic embedding model might learn that \"mac\" is related to pasta, the makeup company, and the Apple laptop computer. However, a search embedding model trained on computers and hardware would prioritize the third meaning when processing search queries in that domain."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Embedding models serve as the backbone of semantic search by enabling similarity-based retrieval mechanisms that align with user intent."
+            },
+            {
+              "blockIndex": 33,
+              "text": "What is the role of embedding models in semantic search?"
+            },
+            {
+              "blockIndex": 34,
+              "text": "Embedding models power semantic search by converting text into a structured format that can be efficiently indexed and retrieved."
+            },
+            {
+              "blockIndex": 35,
+              "text": "Instead of relying on exact keyword matches, these models compare query embeddings with indexed document embeddings. This enables nearest-neighbor searches and significantly improves retrieval accuracy over traditional algorithms that depend on keyword matching."
+            },
+            {
+              "blockIndex": 38,
+              "text": "Several fine-tuned and pre-trained models continue to emerge as industry standards for semantic search. Each improves precision, relevance, efficiency, and/or scalability in its own way."
+            },
+            {
+              "blockIndex": 39,
+              "text": "What are the most commonly used models for semantic search?"
+            },
+            {
+              "blockIndex": 40,
+              "text": "Different embedding models vary in terms of vector dimensionality, context length, and certain other performance characteristics."
+            },
+            {
+              "blockIndex": 44,
+              "text": "Your choice of a model for semantic search will depend on a variety of factors, including, but not limited to, its accuracy, computational efficiency, and cost."
+            },
+            {
+              "blockIndex": 45,
+              "text": "What factors should be considered when choosing the best model for semantic search?"
+            },
+            {
+              "blockIndex": 47,
+              "text": "Relevance is the cornerstone of effective semantic search, especially in achieving optimal user experience. The right model should balance precision, recall, and speed to ensure users receive highly relevant results without excessive noise."
+            },
+            {
+              "blockIndex": 48,
+              "text": "This balance becomes especially important when comparing hybrid approaches like vector and full-text search. When selecting an embedding model, think about the following:"
+            },
+            {
+              "blockIndex": 56,
+              "text": "Local embedding models are ideal to achieve lightning-fast performance, as they eliminate the need for round trips to external services and reduce latency. If you must rely on remote models, hosting your search service close to the embedding service can minimize delays and improve user experience."
+            },
+            {
+              "blockIndex": 57,
+              "text": "The table below showcases latency benchmarks for various local embedding models and embedding APIs. All requests originate from a Meilisearch instance hosted in the AWS London data center."
+            },
+            {
+              "blockIndex": 60,
+              "text": "Efficient indexing is another critical factor for the scalability of your search solution. As expected, the time required to process and store embeddings varies widely among models. Notable metrics influencing processing time are API rate limits, batch processing capabilities, and model dimensions."
+            },
+            {
+              "blockIndex": 72,
+              "text": "To maximize search performance, hybrid search approaches combining full-text and vector search can yield the best results. To refine semantic search performance, consider the following optimizations:"
+            },
+            {
+              "blockIndex": 78,
+              "text": "Carefully evaluating these factors will help you select the best semantic search model to meet your needs."
+            },
+            {
+              "blockIndex": 81,
+              "text": "Choosing the best model for semantic search depends on what (and how) you aim to achieve with your specific use case, budget, and performance requirements. For most cases, cloud-based solutions such as those provided by Cohere or OpenAI may be optimal."
+            },
+            {
+              "blockIndex": 85,
+              "text": "How does semantic search differ from keyword-based search?"
+            },
+            {
+              "blockIndex": 86,
+              "text": "Semantic search focuses on understanding meaning, while keyword-based search relies on exact word matches."
+            },
+            {
+              "blockIndex": 87,
+              "text": "What are the key features of a good semantic search model?"
+            },
+            {
+              "blockIndex": 89,
+              "text": "How do transformer-based models improve semantic search?"
+            },
+            {
+              "blockIndex": 90,
+              "text": "Transformers process text in context, capturing contextual relationships between words to enhance search relevance while reducing downtime."
+            },
+            {
+              "blockIndex": 91,
+              "text": "How do vector databases enhance semantic search?"
+            },
+            {
+              "blockIndex": 92,
+              "text": "Vector databases work to efficiently store embeddings, enabling fast and scalable search operations."
+            },
+            {
+              "blockIndex": 93,
+              "text": "What are some open-source models for semantic search?"
+            },
+            {
+              "blockIndex": 94,
+              "text": "Popular open-source semantic search models include all-MiniLM-L6-v2 and Universal Sentence Encoder."
+            },
+            {
+              "blockIndex": 99,
+              "text": "Learn what hybrid search RAG is, how it blends semantic and keyword search for more accurate retrieval, and how it works, challenges, implementation & more."
+            },
+            {
+              "blockIndex": 100,
+              "text": "Semantic search vs. RAG: A side-by-side comparison"
+            },
+            {
+              "blockIndex": 101,
+              "text": "Explore the differences between semantic search and RAG. Learn when to use each, common trade-offs, benefits, evaluations, and more."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://sudhiryelikar.com/articles/109-understanding-similarity-search-and-vector-databases",
+          "content": "In an era marked by data explosion, understanding how to effectively search through vast, unstructured data sets is crucial. This article presents a comprehensive overview of similarity or semantic search and vector databases—key technologies driving today's data retrieval systems. We delve into the underlying mechanisms that enhance the precision and relevance of search results, helping you grasp these complex principles in a straightforward manner. \"Similarity search\" or \"semantic search\" refers to finding information that has similar features or meaning from a set of data. It's like searching for similar movies in an app, looking for similar shoes on an e-commerce website, or finding data related to a specific meaning. At its core, similarity search involves three main aspects: creating vector embeddings, calculating similarity, and optimizing search. Creating Vector Embeddings In order to identify similarities or semantics, data items are represented using a specific data structure called \"vectors\" or “vector embeddings”. Here's what these vectors look like. These vector embeddings, which come in different sizes, are generated by various systems for different use cases. AI models such as GPT, BERT, or T5 Large Language Models (LLM) generate these embeddings from given text inputs. AI models such as DALL-E generate these embeddings from given images. Alternatively, you can create these embeddings using your own specialized AI processes. Here is an example of how vector embeddings can be represented when created using an AI model for given text: If we attempt to visualize the embedding vectors, this is how they would appear in a 3D space. The important aspect of generated embeddings is that similar or semantically related data tend to be located closer to each other, while dissimilar data are located farther apart. This is because AI models are trained on data that helps them identify meanings, similarities, and differences. To achieve better similarity or semantic results for data within a particular domain, it is important to use AI models that are specialized and trained on domain-specific data. Calculating similarity Now that we understand how data is represented, we can learn how to find relevant results by calculating the distances between the vector representation of the search query and the existing data. When performing a search, the first step is to create a vector embedding using the same AI model or process that was used to create the vector embeddings of the data earlier. The next step is to calculate the distance between the search query vector embedding and the data vector embeddings. To find potentially similar data vectors to a query vector, we calculate the distance between all data vectors and the query vector. However, not all data is relevant. Therefore, we only need the data vectors that are closest to the query vector, as they are potentially similar. To improve accuracy, we can limit the number of closest vectors to a certain count. When performing a search, the additional information of count or top \"K\" is provided, which represents the number of closest vectors. The choice of similarity metric is also a key factor in obtaining more relevant results. There are multiple ways to calculate the similarity between two vectors. Below are a few widely used similarity metrics as examples. Euclidean distance (L2) Essentially, Euclidean distance measures the length of a segment that connects two data points. The smaller the distance between the data points, the more similar they are. Cosine Similarity or Inner Product (IP) Cosine similarity measures the angle between two vectors. The smaller the difference between the angles, the more similar the vectors are. The inner product (IP) of normalized vector embeddings is equivalent to cosine similarity. It is more useful when measuring the orientation but not the magnitude of the vectors. Refer to this to learn more about cosine similarity. Dot Product (IP) The Dot Product is mathematically the dot multiplication of 2 vectors. The dot product is proportional to both the cosine and the lengths of vectors. So in the below example, even though the cosine is higher for “B” and “C”, the higher length of “A” makes \"A\" and \"B\" more similar than \"B\" and \"C\". Refer to this to learn more about Dot Product. Optimizing search Currently, the similarity is calculated for each data vector against every query vector. This means that if there are one million data vectors, there will be one million similarity calculations, and the most similar data vectors will be returned as the result. However, when dealing with millions or billions of records, this can severely impact performance due to the large number of calculations and memory required. Optimizing similarity search involves three main factors: search quality, search speed, and system memory required. To achieve this optimization, various algorithms and techniques can be applied, but they come with trade-offs. One of the most common methods is creating different indexes, which improves the speed of similarity search at the cost of accuracy, while also reducing the required memory. These are known as Approximate Nearest Neighbor (ANN) Search algorithms. Some optimizations are listed below. Flat Index (No Optimization) Calculating the similarity of each data vector against every query vector is called \"flat\" (no optimization). This method is necessary when accuracy is prioritized over other factors. Good until 10K - 50K records High Accuracy Reduced speed when dealing with large amounts of data. Locality Sensitive Hashing In this optimization, data records that are near each other are located in the same buckets with high probability, while data points that are far from each other are likely to be in different buckets. Once the search is performed, the query data is compared against the buckets, and then a specific search is performed within the matched buckets. In above example, the search will be performed on Bucket 3 because the query vector is closer to it. Moderate Accuracy Lot of buckets are required to achieve good results, leading to a lot of extra memory. Hierarchical Navigable Small World graph (HNSW) This optimization combines two different methods: 1. Probability Skip List 2. Navigable Small World Graph. It creates a multi-layer graph from the given data, which helps the algorithm quickly find approximate nearest neighbors. The accuracy is lower compared to the Flat Index method, but higher compared to other methods. Very fast. Can work with large datasets. Product Quantizer (PQ) Product Quantization (PQ) is a technique for reducing the size of a database by decreasing the overall precision of the vectors. Less memory is required to search the same dataset compared to other methods. Very fast. Can work with large datasets. Good accuracy. Inverted file index (IVF) In this technique the data is partitioned into different cells and associated those partitions with centroid. Cluster centroids are usually determined with a clustering algorithm called k-means. This reduces the overall search scope by arranging the entire dataset into partitions. Because of this only a fraction of the database is compared to the query. Good Accuracy Less memory required Average speed compared to other optimizations. Vector Databases The preceding discussion focused on the core aspects of similarity search. What vector databases offer is an infrastructure for those algorithms, providing capabilities such as scalability, high availability, APIs for adding/updating/deleting data, and other integrations. \"Vector Database\" is not technically a database; rather, it is a search tool for similarity, similar to other search tools such as \"ElasticSearch\", \"Algolia\", or \"Typesense\". Typically, I reserve the term \"database\" for systems where the data stored in it is the primary source of truth, such as \"MySQL\", \"PostgreSQL\", or \"MongoDB\". \"Vector Databases\" are not the primary source of truth for the system. Vector databases use the aforementioned search optimization techniques in different combinations to improve both speed and accuracy. There are multiple vector databases in the market. Each one has its pros and cons.: Milvus (Open Source) Qdrant (Open Source) Pinecone Weaviate Nowadays, existing search engines and databases also started supporting vector search. Elasticsearch MongoDB Redis As the volumes of unstructured data continue to surge, these technologies will persist in their evolution. Scalability, computational efficiency, and precision will remain at the forefront of this evolution. In the next article, let's explore how we can implement and deploy our own vector search engine.",
+          "fetchedAt": "2026-09-17T13:38:56.276Z",
+          "title": "How similarity search and vector databases work",
+          "status": "ok",
+          "contentLength": 8731,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "In an era marked by data explosion, understanding how to effectively search through vast, unstructured data sets is crucial. This article presents a comprehensive overview of similarity or semantic search and vector databases—key technologies driving today's data retrieval systems. We delve into the underlying mechanisms that enhance the precision and relevance of search results, helping you grasp these complex principles in a straightforward manner. \"Similarity search\" or \"semantic search\" refers to finding information that has similar features or meaning from a set of data. It's like searching for similar movies in an app, looking for similar shoes on an e-commerce website, or finding data related to a specific meaning. At its core, similarity search involves three main aspects: creating vector embeddings, calculating similarity, and optimizing search. Creating Vector Embeddings In order to identify similarities or semantics, data items are represented using a specific data structure called \"vectors\" or “vector embeddings”. Here's what these vectors look like. These vector embeddings, which come in different sizes, are generated by various systems for different use cases. AI models such as GPT, BERT, or T5 Large Language Models (LLM) generate these embeddings from given text inputs. AI models such as DALL-E generate these embeddings from given images. Alternatively, you can create these embeddings using your own specialized AI processes. Here is an example of how vector embeddings can be represented when created using an AI model for given text: If we attempt to visualize the embedding vectors, this is how they would appear in a 3D space. The important aspect of generated embeddings is that similar or semantically related data tend to be located closer to each other, while dissimilar data are located farther apart. This is because AI models are trained on data that helps them identify meanings, similarities, and differences. To achieve better similarity or semantic results for data within a particular domain, it is important to use AI models that are specialized and trained on domain-specific data. Calculating similarity Now that we understand how data is represented, we can learn how to find relevant results by calculating the distances between the vector representation of the search query and the existing data. When performing a search, the first step is to create a vector embedding using the same AI model or process that was used to create the vector embeddings of the data earlier. The next step is to calculate the distance between the search query vector embedding and the data vector embeddings. To find potentially similar data vectors to a query vector, we calculate the distance between all data vectors and the query vector. However, not all data is relevant. Therefore, we only need the data vectors that are closest to the query vector, as they are potentially similar. To improve accuracy, we can limit the number of closest vectors to a certain count. When performing a search, the additional information of count or top \"K\" is provided, which represents the number of closest vectors. The choice of similarity metric is also a key factor in obtaining more relevant results. There are multiple ways to calculate the similarity between two vectors. Below are a few widely used similarity metrics as examples. Euclidean distance (L2) Essentially, Euclidean distance measures the length of a segment that connects two data points. The smaller the distance between the data points, the more similar they are. Cosine Similarity or Inner Product (IP) Cosine similarity measures the angle between two vectors. The smaller the difference between the angles, the more similar the vectors are. The inner product (IP) of normalized vector embeddings is equivalent to cosine similarity. It is more useful when measuring the orientation but not the magnitude of the vectors. Refer to this to learn more about cosine similarity. Dot Product (IP) The Dot Product is mathematically the dot multiplication of 2 vectors. The dot product is proportional to both the cosine and the lengths of vectors. So in the below example, even though the cosine is higher for “B” and “C”, the higher length of “A” makes \"A\" and \"B\" more similar than \"B\" and \"C\". Refer to this to learn more about Dot Product. Optimizing search Currently, the similarity is calculated for each data vector against every query vector. This means that if there are one million data vectors, there will be one million similarity calculations, and the most similar data vectors will be returned as the result. However, when dealing with millions or billions of records, this can severely impact performance due to the large number of calculations and memory required. Optimizing similarity search involves three main factors: search quality, search speed, and system memory required. To achieve this optimization, various algorithms and techniques can be applied, but they come with trade-offs. One of the most common methods is creating different indexes, which improves the speed of similarity search at the cost of accuracy, while also reducing the required memory. These are known as Approximate Nearest Neighbor (ANN) Search algorithms. Some optimizations are listed below. Flat Index (No Optimization) Calculating the similarity of each data vector against every query vector is called \"flat\" (no optimization). This method is necessary when accuracy is prioritized over other factors. Good until 10K - 50K records High Accuracy Reduced speed when dealing with large amounts of data. Locality Sensitive Hashing In this optimization, data records that are near each other are located in the same buckets with high probability, while data points that are far from each other are likely to be in different buckets. Once the search is performed, the query data is compared against the buckets, and then a specific search is performed within the matched buckets. In above example, the search will be performed on Bucket 3 because the query vector is closer to it. Moderate Accuracy Lot of buckets are required to achieve good results, leading to a lot of extra memory. Hierarchical Navigable Small World graph (HNSW) This optimization combines two different methods: 1. Probability Skip List 2. Navigable Small World Graph. It creates a multi-layer graph from the given data, which helps the algorithm quickly find approximate nearest neighbors. The accuracy is lower compared to the Flat Index method, but higher compared to other methods. Very fast. Can work with large datasets. Product Quantizer (PQ) Product Quantization (PQ) is a technique for reducing the size of a database by decreasing the overall precision of the vectors. Less memory is required to search the same dataset compared to other methods. Very fast. Can work with large datasets. Good accuracy. Inverted file index (IVF) In this technique the data is partitioned into different cells and associated those partitions with centroid. Cluster centroids are usually determined with a clustering algorithm called k-means. This reduces the overall search scope by arranging the entire dataset into partitions. Because of this only a fraction of the database is compared to the query. Good Accuracy Less memory required Average speed compared to other optimizations. Vector Databases The preceding discussion focused on the core aspects of similarity search. What vector databases offer is an infrastructure for those algorithms, providing capabilities such as scalability, high availability, APIs for adding/updating/deleting data, and other integrations. \"Vector Database\" is not technically a database; rather, it is a search tool for similarity, similar to other search tools such as \"ElasticSearch\", \"Algolia\", or \"Typesense\". Typically, I reserve the term \"database\" for systems where the data stored in it is the primary source of truth, such as \"MySQL\", \"PostgreSQL\", or \"MongoDB\". \"Vector Databases\" are not the primary source of truth for the system. Vector databases use the aforementioned search optimization techniques in different combinations to improve both speed and accuracy. There are multiple vector databases in the market. Each one has its pros and cons.: Milvus (Open Source) Qdrant (Open Source) Pinecone Weaviate Nowadays, existing search engines and databases also started supporting vector search. Elasticsearch MongoDB Redis As the volumes of unstructured data continue to surge, these technologies will persist in their evolution. Scalability, computational efficiency, and precision will remain at the forefront of this evolution. In the next article, let's explore how we can implement and deploy our own vector search engine."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp",
+          "tieuDe": "Understanding Semantic Search: Vector Embeddings and Similarity Search - DEV Community",
+          "toChuc": "DEV Community",
+          "ngayDang": "2026-02-02T07:06:39Z",
+          "ngayLayVe": "2026-09-17T13:38:55.203Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết kỹ thuật được đăng tải trên cộng đồng DEV Community, cung cấp đầy đủ khái niệm về tìm kiếm ngữ nghĩa, vector nhúng và các thuật toán tìm kiếm khoảng cách phù hợp với mục tiêu bài học.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+          "tieuDe": "An intuitive introduction to text embeddings - Stack Overflow",
+          "ngayDang": "2023-11-09T20:22:34.075Z",
+          "ngayLayVe": "2026-09-17T13:38:55.204Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ trang blog chính thức của Stack Overflow, phân tích trực quan về không gian ẩn (latent space) và cách các vector nhúng biểu diễn văn bản dưới dạng hình học toán học.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://cohere.com/llmu/what-is-semantic-search",
+          "tieuDe": "What is Semantic Search? | Cohere Blog",
+          "toChuc": "Cohere",
+          "ngayLayVe": "2026-09-17T13:38:56.274Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Trang web bị lỗi cào dữ liệu, không có nội dung chi tiết hữu ích ngoài tiêu đề chương học.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Nội dung quá ngắn và thiếu thông tin chi tiết để thẩm định học thuật.",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "In this LLM University chapter, you’ll learn how to use embeddings and similarity in order to build a semantic search model.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+          "tieuDe": "How to choose the best embedding model for semantic search [2026] | Meilisearch",
+          "tacGia": "Maya Shin",
+          "toChuc": "Meilisearch",
+          "ngayDang": "2025-03-19T00:00:00.000Z",
+          "ngayLayVe": "2026-09-17T13:38:56.275Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài phân tích kỹ thuật của nền tảng tìm kiếm Meilisearch, giải thích rất rõ sự khác biệt giữa tìm kiếm từ khóa và tìm kiếm ngữ nghĩa thông qua các mô hình học sâu và mô hình nhúng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n05",
+          "url": "https://sudhiryelikar.com/articles/109-understanding-similarity-search-and-vector-databases",
+          "tieuDe": "How similarity search and vector databases work",
+          "tacGia": "Sudhir Yelikar",
+          "toChuc": "Sudhir Yelikar",
+          "ngayDang": "2023-05-17",
+          "ngayLayVe": "2026-09-17T13:38:56.276Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog cá nhân phân tích tốt về các thuật toán đo khoảng cách vector như Euclidean và Cosine Similarity.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không chọn do ưu tiên giới hạn số lượng nguồn tốt nhất và thông tin bị trùng lặp với các nguồn uy tín hơn đã chọn.",
+          "canhBao": [
+            "Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "The important aspect of generated embeddings is that similar or semantically related data tend to be located closer to each other, while dissimilar data are located farther apart.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n06",
+          "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "tieuDe": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "ngayLayVe": "2026-09-17T13:38:55.202Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Content-Type không phải HTML: text/markdown; charset=UTF-8",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n04"
+      ],
+      "sourcesRejected": [
+        "n03",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Tìm kiếm theo ngữ nghĩa (semantic search) vượt qua giới hạn của việc so khớp từ khóa chính xác bằng cách giải mã ý định, ngữ cảnh và các mối quan hệ giữa các từ để truy xuất thông tin dựa trên sự tương đồng về nghĩa.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.",
+              "viTri": "Đoạn 2 của nguồn n01"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+              "viTri": "Đoạn 12 của nguồn n04"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Mô hình nhúng (Embedding models) biến đổi các từ, cụm từ hoặc tài liệu thành các biểu diễn số đậm đặc (được gọi là vector nhúng) trong một không gian ẩn đa chiều, giúp máy tính có thể so sánh và xử lý toán học.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+              "viTri": "Đoạn 4 của nguồn n02"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+              "viTri": "Đoạn 12 của nguồn n04"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Nguyên lý máy tính tìm được câu đồng nghĩa không trùng chữ dựa trên hình học không gian: Các câu có ngữ nghĩa tương đồng được đặt ở các vị trí gần nhau hơn trong không gian vector đa chiều, cho phép hệ thống tính khoảng cách giữa chúng để đo lường độ tương đồng ngữ nghĩa.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+              "viTri": "Đoạn 4 của nguồn n02"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp\",\n      \"tieuDe\": \"Understanding Semantic Search: Vector Embeddings and Similarity Search - DEV Community\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"DEV Community\",\n      \"ngayDang\": \"2026-02-02\",\n      \"ngayLayVe\": \"2026-09-17T13:38:55Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết kỹ thuật được đăng tải trên cộng đồng DEV Community, cung cấp đầy đủ khái niệm về tìm kiếm ngữ nghĩa, vector nhúng và các thuật toán tìm kiếm khoảng cách phù hợp với mục tiêu bài học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/\",\n      \"tieuDe\": \"An intuitive introduction to text embeddings - Stack Overflow\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2023-11-09\",\n      \"ngayLayVe\": \"2026-09-17T13:38:55Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ trang blog chính thức của Stack Overflow, phân tích trực quan về không gian ẩn (latent space) và cách các vector nhúng biểu diễn văn bản dưới dạng hình học toán học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).\"\n      ],\n      \"doanTrich\": \"In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://cohere.com/llmu/what-is-semantic-search\",\n      \"tieuDe\": \"What is Semantic Search? | Cohere Blog\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Cohere\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:38:56Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web bị lỗi cào dữ liệu, không có nội dung chi tiết hữu ích ngoài tiêu đề chương học.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung quá ngắn và thiếu thông tin chi tiết để thẩm định học thuật.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"In this LLM University chapter, you’ll learn how to use embeddings and similarity in order to build a semantic search model.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search\",\n      \"tieuDe\": \"How to choose the best embedding model for semantic search [2026] | Meilisearch\",\n      \"tacGia\": \"Maya Shin\",\n      \"toChuc\": \"Meilisearch\",\n      \"ngayDang\": \"2025-03-19\",\n      \"ngayLayVe\": \"2026-09-17T13:38:56Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài phân tích kỹ thuật của nền tảng tìm kiếm Meilisearch, giải thích rất rõ sự khác biệt giữa tìm kiếm từ khóa và tìm kiếm ngữ nghĩa thông qua các mô hình học sâu và mô hình nhúng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"url\": \"https://sudhiryelikar.com/articles/109-understanding-similarity-search-and-vector-databases\",\n      \"tieuDe\": \"How similarity search and vector databases work\",\n      \"tacGia\": \"Sudhir Yelikar\",\n      \"toChuc\": \"Sudhir Yelikar\",\n      \"ngayDang\": \"2023-05-17\",\n      \"ngayLayVe\": \"2026-09-17T13:38:56Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog cá nhân phân tích tốt về các thuật toán đo khoảng cách vector như Euclidean và Cosine Similarity.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không chọn do ưu tiên giới hạn số lượng nguồn tốt nhất và thông tin bị trùng lặp với các nguồn uy tín hơn đã chọn.\",\n      \"canhBao\": [\n        \"Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).\"\n      ],\n      \"doanTrich\": \"The important aspect of generated embeddings is that similar or semantically related data tend to be located closer to each other, while dissimilar data are located farther apart.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Tìm kiếm theo ngữ nghĩa (semantic search) vượt qua giới hạn của việc so khớp từ khóa chính xác bằng cách giải mã ý định, ngữ cảnh và các mối quan hệ giữa các từ để truy xuất thông tin dựa trên sự tương đồng về nghĩa.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.\",\n          \"viTri\": \"Đoạn 2 của nguồn n01\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.\",\n          \"viTri\": \"Đoạn 12 của nguồn n04\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Mô hình nhúng (Embedding models) biến đổi các từ, cụm từ hoặc tài liệu thành các biểu diễn số đậm đặc (được gọi là vector nhúng) trong một không gian ẩn đa chiều, giúp máy tính có thể so sánh và xử lý toán học.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.\",\n          \"viTri\": \"Đoạn 4 của nguồn n02\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.\",\n          \"viTri\": \"Đoạn 12 của nguồn n04\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Nguyên lý máy tính tìm được câu đồng nghĩa không trùng chữ dựa trên hình học không gian: Các câu có ngữ nghĩa tương đồng được đặt ở các vị trí gần nhau hơn trong không gian vector đa chiều, cho phép hệ thống tính khoảng cách giữa chúng để đo lường độ tương đồng ngữ nghĩa.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.\",\n          \"viTri\": \"Đoạn 4 của nguồn n02\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash",
+          "durationMs": 28050,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp\",\n      \"tieuDe\": \"Understanding Semantic Search: Vector Embeddings and Similarity Search - DEV Community\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"DEV Community\",\n      \"ngayDang\": \"2026-02-02\",\n      \"ngayLayVe\": \"2026-09-17T13:38:55Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết kỹ thuật được đăng tải trên cộng đồng DEV Community, cung cấp đầy đủ khái niệm về tìm kiếm ngữ nghĩa, vector nhúng và các thuật toán tìm kiếm khoảng cách phù hợp với mục tiêu bài học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/\",\n      \"tieuDe\": \"An intuitive introduction to text embeddings - Stack Overflow\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2023-11-09\",\n      \"ngayLayVe\": \"2026-09-17T13:38:55Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ trang blog chính thức của Stack Overflow, phân tích trực quan về không gian ẩn (latent space) và cách các vector nhúng biểu diễn văn bản dưới dạng hình học toán học.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).\"\n      ],\n      \"doanTrich\": \"In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://cohere.com/llmu/what-is-semantic-search\",\n      \"tieuDe\": \"What is Semantic Search? | Cohere Blog\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Cohere\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:38:56Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web bị lỗi cào dữ liệu, không có nội dung chi tiết hữu ích ngoài tiêu đề chương học.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nội dung quá ngắn và thiếu thông tin chi tiết để thẩm định học thuật.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"In this LLM University chapter, you’ll learn how to use embeddings and similarity in order to build a semantic search model.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search\",\n      \"tieuDe\": \"How to choose the best embedding model for semantic search [2026] | Meilisearch\",\n      \"tacGia\": \"Maya Shin\",\n      \"toChuc\": \"Meilisearch\",\n      \"ngayDang\": \"2025-03-19\",\n      \"ngayLayVe\": \"2026-09-17T13:38:56Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài phân tích kỹ thuật của nền tảng tìm kiếm Meilisearch, giải thích rất rõ sự khác biệt giữa tìm kiếm từ khóa và tìm kiếm ngữ nghĩa thông qua các mô hình học sâu và mô hình nhúng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.\"\n    },\n    {\n      \"id\": \"n05\",\n      \"url\": \"https://sudhiryelikar.com/articles/109-understanding-similarity-search-and-vector-databases\",\n      \"tieuDe\": \"How similarity search and vector databases work\",\n      \"tacGia\": \"Sudhir Yelikar\",\n      \"toChuc\": \"Sudhir Yelikar\",\n      \"ngayDang\": \"2023-05-17\",\n      \"ngayLayVe\": \"2026-09-17T13:38:56Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog cá nhân phân tích tốt về các thuật toán đo khoảng cách vector như Euclidean và Cosine Similarity.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không chọn do ưu tiên giới hạn số lượng nguồn tốt nhất và thông tin bị trùng lặp với các nguồn uy tín hơn đã chọn.\",\n      \"canhBao\": [\n        \"Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).\"\n      ],\n      \"doanTrich\": \"The important aspect of generated embeddings is that similar or semantically related data tend to be located closer to each other, while dissimilar data are located farther apart.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Tìm kiếm theo ngữ nghĩa (semantic search) vượt qua giới hạn của việc so khớp từ khóa chính xác bằng cách giải mã ý định, ngữ cảnh và các mối quan hệ giữa các từ để truy xuất thông tin dựa trên sự tương đồng về nghĩa.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.\",\n          \"viTri\": \"Đoạn 2 của nguồn n01\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.\",\n          \"viTri\": \"Đoạn 12 của nguồn n04\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Mô hình nhúng (Embedding models) biến đổi các từ, cụm từ hoặc tài liệu thành các biểu diễn số đậm đặc (được gọi là vector nhúng) trong một không gian ẩn đa chiều, giúp máy tính có thể so sánh và xử lý toán học.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.\",\n          \"viTri\": \"Đoạn 4 của nguồn n02\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.\",\n          \"viTri\": \"Đoạn 12 của nguồn n04\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Nguyên lý máy tính tìm được câu đồng nghĩa không trùng chữ dựa trên hình học không gian: Các câu có ngữ nghĩa tương đồng được đặt ở các vị trí gần nhau hơn trong không gian vector đa chiều, cho phép hệ thống tính khoảng cách giữa chúng để đo lường độ tương đồng ngữ nghĩa.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.\",\n          \"viTri\": \"Đoạn 4 của nguồn n02\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 34712
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+      "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Sinh viên công nghệ thông tin",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.",
+          "chuTrenManHinh": "Giới thiệu chủ đề",
+          "yDoHinh": "Giảng viên đứng trước bảng, nền xanh, logo trường.",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.",
+          "chuTrenManHinh": "Ngữ nghĩa thay vì từ khóa",
+          "yDoHinh": "Đồ họa minh họa so sánh từ khóa và ngữ nghĩa.",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.",
+          "chuTrenManHinh": "Biểu diễn vector câu",
+          "yDoHinh": "Không gian đa chiều với các điểm đại diện câu.",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.",
+          "chuTrenManHinh": "Đo khoảng cách vector",
+          "yDoHinh": "Biểu đồ khoảng cách Euclid giữa các vector câu.",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.",
+          "chuTrenManHinh": "Kết thúc và lời chúc",
+          "yDoHinh": "Màn hình hiển thị lời cảm ơn, biểu tượng trái tim.",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789652372075",
+      "timestamp": "2026-09-17T13:39:32.075Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+        "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+        "targetAudience": "Sinh viên công nghệ thông tin",
+        "videoDuration": "5 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N04"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp",
+          "tieuDe": "Understanding Semantic Search: Vector Embeddings and Similarity Search - DEV Community",
+          "toChuc": "DEV Community",
+          "ngayDang": "2026-02-02T07:06:39Z",
+          "ngayLayVe": "2026-09-17T13:38:55.203Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết kỹ thuật được đăng tải trên cộng đồng DEV Community, cung cấp đầy đủ khái niệm về tìm kiếm ngữ nghĩa, vector nhúng và các thuật toán tìm kiếm khoảng cách phù hợp với mục tiêu bài học.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+          "tieuDe": "An intuitive introduction to text embeddings - Stack Overflow",
+          "ngayDang": "2023-11-09T20:22:34.075Z",
+          "ngayLayVe": "2026-09-17T13:38:55.204Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ trang blog chính thức của Stack Overflow, phân tích trực quan về không gian ẩn (latent space) và cách các vector nhúng biểu diễn văn bản dưới dạng hình học toán học.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+          "tieuDe": "How to choose the best embedding model for semantic search [2026] | Meilisearch",
+          "tacGia": "Maya Shin",
+          "toChuc": "Meilisearch",
+          "ngayDang": "2025-03-19T00:00:00.000Z",
+          "ngayLayVe": "2026-09-17T13:38:56.275Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài phân tích kỹ thuật của nền tảng tìm kiếm Meilisearch, giải thích rất rõ sự khác biệt giữa tìm kiếm từ khóa và tìm kiếm ngữ nghĩa thông qua các mô hình học sâu và mô hình nhúng.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n04"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Tìm kiếm theo ngữ nghĩa (semantic search) vượt qua giới hạn của việc so khớp từ khóa chính xác bằng cách giải mã ý định, ngữ cảnh và các mối quan hệ giữa các từ để truy xuất thông tin dựa trên sự tương đồng về nghĩa.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.",
+              "viTri": "Đoạn 2 của nguồn n01"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+              "viTri": "Đoạn 12 của nguồn n04"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Mô hình nhúng (Embedding models) biến đổi các từ, cụm từ hoặc tài liệu thành các biểu diễn số đậm đặc (được gọi là vector nhúng) trong một không gian ẩn đa chiều, giúp máy tính có thể so sánh và xử lý toán học.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+              "viTri": "Đoạn 4 của nguồn n02"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+              "viTri": "Đoạn 12 của nguồn n04"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Nguyên lý máy tính tìm được câu đồng nghĩa không trùng chữ dựa trên hình học không gian: Các câu có ngữ nghĩa tương đồng được đặt ở các vị trí gần nhau hơn trong không gian vector đa chiều, cho phép hệ thống tính khoảng cách giữa chúng để đo lường độ tương đồng ngữ nghĩa.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+              "viTri": "Đoạn 4 của nguồn n02"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+        "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Sinh viên công nghệ thông tin",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.",
+            "chuTrenManHinh": "Giới thiệu chủ đề",
+            "yDoHinh": "Giảng viên đứng trước bảng, nền xanh, logo trường.",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.",
+            "chuTrenManHinh": "Ngữ nghĩa thay vì từ khóa",
+            "yDoHinh": "Đồ họa minh họa so sánh từ khóa và ngữ nghĩa.",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.",
+            "chuTrenManHinh": "Biểu diễn vector câu",
+            "yDoHinh": "Không gian đa chiều với các điểm đại diện câu.",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.",
+            "chuTrenManHinh": "Đo khoảng cách vector",
+            "yDoHinh": "Biểu đồ khoảng cách Euclid giữa các vector câu.",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.",
+            "chuTrenManHinh": "Kết thúc và lời chúc",
+            "yDoHinh": "Màn hình hiển thị lời cảm ơn, biểu tượng trái tim.",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.; [n04] These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.; [n04] These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.\",\"chuTrenManHinh\":\"Giới thiệu chủ đề\",\"yDoHinh\":\"Giảng viên đứng trước bảng, nền xanh, logo trường.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.\",\"chuTrenManHinh\":\"Ngữ nghĩa thay vì từ khóa\",\"yDoHinh\":\"Đồ họa minh họa so sánh từ khóa và ngữ nghĩa.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.\",\"chuTrenManHinh\":\"Biểu diễn vector câu\",\"yDoHinh\":\"Không gian đa chiều với các điểm đại diện câu.\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.\",\"chuTrenManHinh\":\"Đo khoảng cách vector\",\"yDoHinh\":\"Biểu đồ khoảng cách Euclid giữa các vector câu.\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.\",\"chuTrenManHinh\":\"Kết thúc và lời chúc\",\"yDoHinh\":\"Màn hình hiển thị lời cảm ơn, biểu tượng trái tim.\",\"nguon\":[]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-ad091904-63df-4c3b-96a3-e23fb616cd32",
+          "durationMs": 4861,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.\",\"chuTrenManHinh\":\"Giới thiệu chủ đề\",\"yDoHinh\":\"Giảng viên đứng trước bảng, nền xanh, logo trường.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.\",\"chuTrenManHinh\":\"Ngữ nghĩa thay vì từ khóa\",\"yDoHinh\":\"Đồ họa minh họa so sánh từ khóa và ngữ nghĩa.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.\",\"chuTrenManHinh\":\"Biểu diễn vector câu\",\"yDoHinh\":\"Không gian đa chiều với các điểm đại diện câu.\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.\",\"chuTrenManHinh\":\"Đo khoảng cách vector\",\"yDoHinh\":\"Biểu đồ khoảng cách Euclid giữa các vector câu.\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.\",\"chuTrenManHinh\":\"Kết thúc và lời chúc\",\"yDoHinh\":\"Màn hình hiển thị lời cảm ơn, biểu tượng trái tim.\",\"nguon\":[]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 4865
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

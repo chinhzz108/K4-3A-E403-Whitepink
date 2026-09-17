@@ -25,6 +25,6 @@ const {scrapePage} = require('../codebase/lib/scraper.ts');
   const fake=await scrapePage('https://source.test/article');
   assert.equal(fake.status,'error');
   const result={testedAt:new Date().toISOString(),assertions:11,pass:11,note:'Technical invariants only, not 11 additional golden cases',injection,blocked,missing,fake};
-  fs.writeFileSync(process.env.INVARIANT_REPORT || 'eval/cp3/invariants.json',JSON.stringify(result,null,2));
+  fs.writeFileSync(process.env.INVARIANT_REPORT || 'eval/cp3/invariants-latest.json',JSON.stringify(result,null,2));
   console.log('11/11 technical invariants passed');
 })();

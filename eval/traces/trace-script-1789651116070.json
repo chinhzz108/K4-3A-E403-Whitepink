@@ -1,0 +1,265 @@
+{
+  "id": "trace-script-1789651116070",
+  "timestamp": "2026-09-17T13:18:36.070Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách nấu phở Hà Nội",
+    "learningObjective": "Nấu được một tô phở chuẩn vị",
+    "targetAudience": "Nội trợ",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N13"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+      "tieuDe": "Pho Recipe (Vietnamese Noodle Soup) - The Woks of Life",
+      "tacGia": "Sarah",
+      "toChuc": "The Woks of Life",
+      "ngayDang": "2023-09-05T14:05:00+00:00",
+      "ngayLayVe": "2026-09-17T13:18:06.640Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Công thức nấu ăn từ blog cá nhân có kiểm chứng qua bạn bè người Việt, nhưng đã đăng hơn 1 năm trước.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Chỉ một tổ chức xác nhận",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Place the bones and beef chuck in large stockpot, and add water to cover. Bring to a boil, and boil for 5 minutes. Drain in a colander and thoroughly clean the stockpot.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+      "tieuDe": "Vietnamese Pho recipe - RecipeTin Eats",
+      "tacGia": "Nagi",
+      "toChuc": "RecipeTin Eats",
+      "ngayDang": "2020-01-19T17:00:06+00:00",
+      "ngayLayVe": "2026-09-17T13:18:08.661Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết hướng dẫn nấu ăn chi tiết từ blogger ẩm thực uy tín, tuy nhiên đã đăng từ năm 2020.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Chỉ một tổ chức xác nhận",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The ONLY way to get enough beef flavour into the broth is to use a combination of meat AND bones. You will NOT get enough flavour into the broth using just bones – trust me, we tried multiple times.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+      "tieuDe": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham",
+      "tacGia": "Vicky Pham",
+      "toChuc": "Vicky Pham",
+      "ngayDang": "2019-04-22T21:44:00+00:00",
+      "ngayLayVe": "2026-09-17T13:18:08.662Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tác giả gốc Việt chia sẻ công thức phở Hà Nội truyền thống (Phở tái lăn) có sự nghiên cứu kỹ lưỡng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Nước dùng phở (broth) là yếu tố quan trọng nhất quyết định sự thành công của một tô phở.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "A bowl of pho is only as good as the broth.",
+          "viTri": "Đoạn 5"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Không có mâu thuẫn trực tiếp nhưng chỉ có 1 nguồn trong danh sách chọn lọc xác nhận trực tiếp câu này."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Cần kết hợp cả thịt và xương bò để nấu nước dùng đạt đủ độ đậm đà hương vị.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "The ONLY way to get enough beef flavour into the broth is to use a combination of meat AND bones.",
+          "viTri": "Đoạn 5"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Các nguồn khác có tỷ lệ và nguyên liệu thịt/xương chuẩn bị khác nhau nhưng không phủ nhận nguyên tắc dùng thịt và xương."
+    },
+    {
+      "id": "t03",
+      "noiDung": "Phở tái lăn là một biến tấu phở kiểu miền Bắc trong đó thịt bò và tỏi được xào nhanh trên chảo nóng trước khi chan nước dùng.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Không có mâu thuẫn."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách nấu phở Hà Nội",
+    "mucTieu": "Nấu được một tô phở chuẩn vị",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Nội trợ",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá bí quyết nấu phở Hà Nội.",
+        "chuTrenManHinh": "Bếp phở sôi",
+        "yDoHinh": "Bếp bếp, nồi nước sôi nhẹ",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Nước dùng là linh hồn của phở, chỉ khi nước dùng thơm ngon thì phở mới hoàn hảo.",
+        "chuTrenManHinh": "Nồi nước sôi",
+        "yDoHinh": "Nồi lớn chứa nước dùng trong suốt, bọt nổi lên",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Để nước dùng đậm đà, cần dùng cả thịt và xương bò trong quá trình hầm.",
+        "chuTrenManHinh": "Thịt và xương trong nồi",
+        "yDoHinh": "Thịt bò và xương bò được đặt vào nồi cùng hành tỏi",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Phở tái lăn là cách chế biến nhanh với thịt bò mỏng và tỏi phi thơm, mang hương vị miền Bắc đặc trưng.",
+        "chuTrenManHinh": "Thịt bò xào tỏi",
+        "yDoHinh": "Chảo nóng, thịt bò thái mỏng và tỏi băm đang xào trong mỡ bò",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng nhau thưởng thức phở Hà Nội ngay hôm nay.",
+        "chuTrenManHinh": "Thử nấu ngay",
+        "yDoHinh": "Bát phở hoàn thiện, bánh phở, thịt, hành lá, chanh, ớt",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá bí quyết nấu phở Hà Nội.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Nước dùng là linh hồn của phở, chỉ khi nước dùng thơm ngon thì phở mới hoàn hảo.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] A bowl of pho is only as good as the broth."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Để nước dùng đậm đà, cần dùng cả thịt và xương bò trong quá trình hầm.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] The ONLY way to get enough beef flavour into the broth is to use a combination of meat AND bones."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Phở tái lăn là cách chế biến nhanh với thịt bò mỏng và tỏi phi thơm, mang hương vị miền Bắc đặc trưng.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow)."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng nhau thưởng thức phở Hà Nội ngay hôm nay.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách nấu phở Hà Nội\",\"mucTieu\":\"Nấu được một tô phở chuẩn vị\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Nội trợ\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá bí quyết nấu phở Hà Nội.\",\"chuTrenManHinh\":\"Bếp phở sôi\",\"yDoHinh\":\"Bếp bếp, nồi nước sôi nhẹ\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Nước dùng là linh hồn của phở, chỉ khi nước dùng thơm ngon thì phở mới hoàn hảo.\",\"chuTrenManHinh\":\"Nồi nước sôi\",\"yDoHinh\":\"Nồi lớn chứa nước dùng trong suốt, bọt nổi lên\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Để nước dùng đậm đà, cần dùng cả thịt và xương bò trong quá trình hầm.\",\"chuTrenManHinh\":\"Thịt và xương trong nồi\",\"yDoHinh\":\"Thịt bò và xương bò được đặt vào nồi cùng hành tỏi\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Phở tái lăn là cách chế biến nhanh với thịt bò mỏng và tỏi phi thơm, mang hương vị miền Bắc đặc trưng.\",\"chuTrenManHinh\":\"Thịt bò xào tỏi\",\"yDoHinh\":\"Chảo nóng, thịt bò thái mỏng và tỏi băm đang xào trong mỡ bò\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng nhau thưởng thức phở Hà Nội ngay hôm nay.\",\"chuTrenManHinh\":\"Thử nấu ngay\",\"yDoHinh\":\"Bát phở hoàn thiện, bánh phở, thịt, hành lá, chanh, ớt\",\"nguon\":[]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-acfa482f-cd8c-40db-ae37-9a9823c90f65",
+      "durationMs": 4053,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cách nấu phở Hà Nội\",\n  \"mucTieu\":\"Nấu được một tô phở chuẩn vị\",\n  \"thoiLuong\":\"5 phút\",\n  \"nguoiHoc\":\"Nội trợ\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Xin chào các bạn nội trợ, hôm nay chúng ta sẽ cùng khám phá bí quyết nấu phở Hà Nội chuẩn vị.\",\n      \"chuTrenManHinh\":\"Chào mừng đến bếp phở\",\n      \"yDoHinh\":\"Cảnh bếp sạch, nồi nước dùng đang sôi nhẹ\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Nước dùng là linh hồn của tô phở, chỉ khi nước dùng thơm ngon thì phở mới hoàn hảo.\",\n      \"chuTrenManHinh\":\"Nước dùng sôi lăn tăn\",\n      \"yDoHinh\":\"Nồi lớn chứa nước dùng trong suốt, bọt nổi lên\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Để nước dùng đậm đà, cần dùng cả thịt và xương bò trong quá trình hầm.\",\n      \"chuTrenManHinh\":\"Thịt và xương trong nồi\",\n      \"yDoHinh\":\"Thịt bò và xương bò được đặt vào nồi cùng hành tỏi\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Phở tái lăn là cách chế biến nhanh với thịt bò mỏng và tỏi phi thơm, mang hương vị miền Bắc đặc trưng.\",\n      \"chuTrenManHinh\":\"Thịt bò xào tỏi\",\n      \"yDoHinh\":\"Chảo nóng, thịt bò thái mỏng và tỏi băm đang xào trong mỡ bò\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Hãy thử làm ngay và cảm nhận hương vị phở Hà Nội đích thực trong từng sợi bánh phở.\",\n      \"chuTrenManHinh\":\"Thử nấu ngay hôm nay\",\n      \"yDoHinh\":\"Bát phở hoàn thiện, bánh phở, thịt, hành lá, chanh, ớt\",\n      \"nguon\":[]\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "requestId": "chatcmpl-630f444f-ca57-4820-bc11-8d1acd70cede",
+      "durationMs": 3434,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách nấu phở Hà Nội\",\"mucTieu\":\"Nấu được một tô phở chuẩn vị\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Nội trợ\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá bí quyết nấu phở Hà Nội.\",\"chuTrenManHinh\":\"Bếp phở sôi\",\"yDoHinh\":\"Bếp bếp, nồi nước sôi nhẹ\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Nước dùng là linh hồn của phở, chỉ khi nước dùng thơm ngon thì phở mới hoàn hảo.\",\"chuTrenManHinh\":\"Nồi nước sôi\",\"yDoHinh\":\"Nồi lớn chứa nước dùng trong suốt, bọt nổi lên\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Để nước dùng đậm đà, cần dùng cả thịt và xương bò trong quá trình hầm.\",\"chuTrenManHinh\":\"Thịt và xương trong nồi\",\"yDoHinh\":\"Thịt bò và xương bò được đặt vào nồi cùng hành tỏi\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Phở tái lăn là cách chế biến nhanh với thịt bò mỏng và tỏi phi thơm, mang hương vị miền Bắc đặc trưng.\",\"chuTrenManHinh\":\"Thịt bò xào tỏi\",\"yDoHinh\":\"Chảo nóng, thịt bò thái mỏng và tỏi băm đang xào trong mỡ bò\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng nhau thưởng thức phở Hà Nội ngay hôm nay.\",\"chuTrenManHinh\":\"Thử nấu ngay\",\"yDoHinh\":\"Bát phở hoàn thiện, bánh phở, thịt, hành lá, chanh, ớt\",\"nguon\":[]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 7759
+}

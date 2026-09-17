@@ -1,0 +1,247 @@
+{
+  "id": "trace-script-1789648735512",
+  "timestamp": "2026-09-17T12:38:55.513Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T12-35-43-494Z",
+    "evalCaseId": "N02"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+      "tieuDe": "What are AI Hallucinations? Signs, Risks, & Prevention | AI21",
+      "toChuc": "AI21",
+      "ngayLayVe": "2026-09-17T12:37:28.034Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nguồn từ công ty thương mại (AI21), có thiên hướng marketing nhưng cung cấp định nghĩa và ví dụ thực tế rõ ràng về các dấu hiệu hallucination.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn thương mại, cần kiểm chứng độc lập",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+      "tieuDe": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+      "ngayLayVe": "2026-09-17T12:37:29.026Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học được bình duyệt, đăng trên PMC, phân tích sâu về cơ chế gây ra sự tự tin sai lệch (calibration) trong các mô hình AI.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+      "tieuDe": "Teaching AI models to say “I’m not sure” | MIT News | Massachusetts Institute of Technology",
+      "toChuc": "MIT News | Massachusetts Institute of Technology",
+      "ngayDang": "2026-04-22T19:15:00Z",
+      "ngayLayVe": "2026-09-17T12:37:29.029Z",
+      "loai": "bao-chi",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Báo chí chính thức của MIT, đưa tin về nghiên cứu khoa học cụ thể với số liệu và trích dẫn từ các nhà nghiên cứu.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t02",
+      "noiDung": "Một dấu hiệu nhận biết là AI trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không tồn tại.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.",
+          "viTri": "Phần mô tả các dạng hallucination"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Các mô hình AI hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai, do cách huấn luyện ưu tiên sự quyết đoán.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].",
+          "viTri": "Phần thảo luận về calibration"
+        },
+        {
+          "nguonId": "n04",
+          "doanTrich": "Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.",
+          "viTri": "Đoạn mở đầu bài báo"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Sự tự tin thái quá (overconfidence) nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ và tìm kiếm ý kiến thứ hai.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "A model that says \"I'm 95 percent sure\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion.",
+          "viTri": "Phần phân tích hậu quả"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh"
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?",
+        "chuTrenManHinh": "Trí tuệ nhân tạo có luôn đúng?",
+        "yDoHinh": "Hình ảnh một người đi làm đang nhìn vào màn hình máy tính với vẻ mặt nghi vấn.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.",
+        "chuTrenManHinh": "Tự tin như nhau khi đúng và sai",
+        "yDoHinh": "Biểu đồ so sánh độ tự tin của trí tuệ nhân tạo khi đưa ra đáp án đúng và đáp án sai.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.",
+        "chuTrenManHinh": "Sự tự tin thái quá nguy hiểm thế nào?",
+        "yDoHinh": "Minh họa người dùng gật đầu tin tưởng trước một báo cáo do trí tuệ nhân tạo tạo ra.",
+        "nguon": [
+          "t04"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.",
+        "chuTrenManHinh": "Trích dẫn nguồn không tồn tại",
+        "yDoHinh": "Hình ảnh đoạn văn bản trích dẫn nguồn tài liệu bị gạch chéo đỏ thể hiện không tồn tại.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.",
+        "chuTrenManHinh": "Ba dấu hiệu cần kiểm chứng",
+        "yDoHinh": "Danh sách ba biểu tượng kính lúp tương ứng với ba dấu hiệu kiểm chứng câu trả lời.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].; [n04] Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.",
+      "nguon": [
+        "t04"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] A model that says \"I'm 95 percent sure\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?\",\n      \"chuTrenManHinh\": \"Trí tuệ nhân tạo có luôn đúng?\",\n      \"yDoHinh\": \"Hình ảnh một người đi làm đang nhìn vào màn hình máy tính với vẻ mặt nghi vấn.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.\",\n      \"chuTrenManHinh\": \"Tự tin như nhau khi đúng và sai\",\n      \"yDoHinh\": \"Biểu đồ so sánh độ tự tin của trí tuệ nhân tạo khi đưa ra đáp án đúng và đáp án sai.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.\",\n      \"chuTrenManHinh\": \"Sự tự tin thái quá nguy hiểm thế nào?\",\n      \"yDoHinh\": \"Minh họa người dùng gật đầu tin tưởng trước một báo cáo do trí tuệ nhân tạo tạo ra.\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.\",\n      \"chuTrenManHinh\": \"Trích dẫn nguồn không tồn tại\",\n      \"yDoHinh\": \"Hình ảnh đoạn văn bản trích dẫn nguồn tài liệu bị gạch chéo đỏ thể hiện không tồn tại.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Danh sách ba biểu tượng kính lúp tương ứng với ba dấu hiệu kiểm chứng câu trả lời.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.6-flash",
+      "durationMs": 17405,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?\",\n      \"chuTrenManHinh\": \"Trí tuệ nhân tạo có luôn đúng?\",\n      \"yDoHinh\": \"Hình ảnh một người đi làm đang nhìn vào màn hình máy tính với vẻ mặt nghi vấn.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.\",\n      \"chuTrenManHinh\": \"Tự tin như nhau khi đúng và sai\",\n      \"yDoHinh\": \"Biểu đồ so sánh độ tự tin của trí tuệ nhân tạo khi đưa ra đáp án đúng và đáp án sai.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.\",\n      \"chuTrenManHinh\": \"Sự tự tin thái quá nguy hiểm thế nào?\",\n      \"yDoHinh\": \"Minh họa người dùng gật đầu tin tưởng trước một báo cáo do trí tuệ nhân tạo tạo ra.\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.\",\n      \"chuTrenManHinh\": \"Trích dẫn nguồn không tồn tại\",\n      \"yDoHinh\": \"Hình ảnh đoạn văn bản trích dẫn nguồn tài liệu bị gạch chéo đỏ thể hiện không tồn tại.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Danh sách ba biểu tượng kính lúp tương ứng với ba dấu hiệu kiểm chứng câu trả lời.\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 52576
+}

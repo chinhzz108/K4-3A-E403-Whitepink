@@ -1,0 +1,206 @@
+{
+  "id": "trace-script-1789652909543",
+  "timestamp": "2026-09-17T13:48:29.543Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-48-01-792Z",
+    "evalCaseId": "N01"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T13:48:06.323Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu kỹ thuật chính thức từ IBM, giải thích rõ ràng và chi tiết về khái niệm cửa sổ ngữ cảnh.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://arxiv.org/abs/2404.09336",
+      "tieuDe": "[2404.09336] Self-Selected Attention Span for Accelerating Large Language Model Inference",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T13:48:06.324Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học từ kho lưu trữ arXiv, cung cấp nghiên cứu chuyên sâu về cơ chế chú ý của mô hình ngôn ngữ lớn.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Large language models (LLMs) can solve challenging tasks. However, their inference computation on modern GPUs is highly inefficient due to the increasing number of tokens they must attend to as they generate new ones.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ lớn hoạt động như bộ nhớ làm việc, xác định độ dài cuộc trò chuyện mà mô hình có thể duy trì mà không quên các chi tiết từ phần trước.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange.",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng bạn đến với bài học về cách các mô hình ngôn ngữ lớn xử lý thông tin, nơi chúng ta sẽ tìm hiểu khái niệm cửa sổ ngữ cảnh, hay còn gọi là context window.",
+        "chuTrenManHinh": "Chào mừng đến với bài học",
+        "yDoHinh": "Hình ảnh một cánh cửa kính trong suốt mở ra một căn phòng chứa đầy sách và dữ liệu, tượng trưng cho việc tiếp cận thông tin.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo tài liệu từ IBM, cửa sổ ngữ cảnh của mô hình ngôn ngữ lớn có thể được xem như bộ nhớ làm việc, quyết định độ dài cuộc trò chuyện mà nó có thể duy trì mà không quên các chi tiết từ phần trước.",
+        "chuTrenManHinh": "Cửa sổ ngữ cảnh là bộ nhớ làm việc",
+        "yDoHinh": "Sơ đồ so sánh bộ nhớ làm việc của con người với một khung cửa sổ, nơi các thông tin đi qua và được lưu giữ tạm thời.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Điều này có nghĩa là nếu cuộc trò chuyện quá dài, vượt quá khả năng lưu trữ của bộ nhớ làm việc đó, mô hình sẽ bắt đầu quên đi những chi tiết ở phần đầu cuộc hội thoại.",
+        "chuTrenManHinh": "Quên chi tiết khi quá dài",
+        "yDoHinh": "Hình ảnh một cuốn sách dài được cuộn lại, phần đầu tiên mờ dần và biến mất khi phần cuối xuất hiện, minh họa cho việc quên thông tin cũ.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn có bao giờ tự hỏi tại sao trợ lý ảo lại quên những gì bạn đã nói ở đầu cuộc trò chuyện khi cuộc đối thoại kéo dài không?",
+        "chuTrenManHinh": "Vì sao trợ lý quên?",
+        "yDoHinh": "Hình ảnh một nhân vật ảo đang suy tư trước một dòng chat dài, với các tin nhắn cũ bị mờ đi ở phía trên.",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, hiểu rõ về cửa sổ ngữ cảnh sẽ giúp bạn giải thích được hiện tượng quên thông tin này, dựa trên nguyên lý hoạt động của bộ nhớ làm việc trong mô hình ngôn ngữ lớn.",
+        "chuTrenManHinh": "Giải thích hiện tượng quên",
+        "yDoHinh": "Hình ảnh một chiếc chìa khóa mở ra một cánh cửa, bên trong là biểu tượng bộ nhớ, tượng trưng cho việc hiểu rõ cơ chế hoạt động.",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng bạn đến với bài học về cách các mô hình ngôn ngữ lớn xử lý thông tin, nơi chúng ta sẽ tìm hiểu khái niệm cửa sổ ngữ cảnh, hay còn gọi là context window.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo tài liệu từ IBM, cửa sổ ngữ cảnh của mô hình ngôn ngữ lớn có thể được xem như bộ nhớ làm việc, quyết định độ dài cuộc trò chuyện mà nó có thể duy trì mà không quên các chi tiết từ phần trước.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Điều này có nghĩa là nếu cuộc trò chuyện quá dài, vượt quá khả năng lưu trữ của bộ nhớ làm việc đó, mô hình sẽ bắt đầu quên đi những chi tiết ở phần đầu cuộc hội thoại.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn có bao giờ tự hỏi tại sao trợ lý ảo lại quên những gì bạn đã nói ở đầu cuộc trò chuyện khi cuộc đối thoại kéo dài không?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, hiểu rõ về cửa sổ ngữ cảnh sẽ giúp bạn giải thích được hiện tượng quên thông tin này, dựa trên nguyên lý hoạt động của bộ nhớ làm việc trong mô hình ngôn ngữ lớn.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng bạn đến với bài học về cách các mô hình ngôn ngữ lớn xử lý thông tin, nơi chúng ta sẽ tìm hiểu khái niệm cửa sổ ngữ cảnh, hay còn gọi là context window.\",\n      \"chuTrenManHinh\": \"Chào mừng đến với bài học\",\n      \"yDoHinh\": \"Hình ảnh một cánh cửa kính trong suốt mở ra một căn phòng chứa đầy sách và dữ liệu, tượng trưng cho việc tiếp cận thông tin.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu từ IBM, cửa sổ ngữ cảnh của mô hình ngôn ngữ lớn có thể được xem như bộ nhớ làm việc, quyết định độ dài cuộc trò chuyện mà nó có thể duy trì mà không quên các chi tiết từ phần trước.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh là bộ nhớ làm việc\",\n      \"yDoHinh\": \"Sơ đồ so sánh bộ nhớ làm việc của con người với một khung cửa sổ, nơi các thông tin đi qua và được lưu giữ tạm thời.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Điều này có nghĩa là nếu cuộc trò chuyện quá dài, vượt quá khả năng lưu trữ của bộ nhớ làm việc đó, mô hình sẽ bắt đầu quên đi những chi tiết ở phần đầu cuộc hội thoại.\",\n      \"chuTrenManHinh\": \"Quên chi tiết khi quá dài\",\n      \"yDoHinh\": \"Hình ảnh một cuốn sách dài được cuộn lại, phần đầu tiên mờ dần và biến mất khi phần cuối xuất hiện, minh họa cho việc quên thông tin cũ.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn có bao giờ tự hỏi tại sao trợ lý ảo lại quên những gì bạn đã nói ở đầu cuộc trò chuyện khi cuộc đối thoại kéo dài không?\",\n      \"chuTrenManHinh\": \"Vì sao trợ lý quên?\",\n      \"yDoHinh\": \"Hình ảnh một nhân vật ảo đang suy tư trước một dòng chat dài, với các tin nhắn cũ bị mờ đi ở phía trên.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, hiểu rõ về cửa sổ ngữ cảnh sẽ giúp bạn giải thích được hiện tượng quên thông tin này, dựa trên nguyên lý hoạt động của bộ nhớ làm việc trong mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\": \"Giải thích hiện tượng quên\",\n      \"yDoHinh\": \"Hình ảnh một chiếc chìa khóa mở ra một cánh cửa, bên trong là biểu tượng bộ nhớ, tượng trưng cho việc hiểu rõ cơ chế hoạt động.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "requestId": "chatcmpl-033d4104-e35c-4c39-aca4-f05aaadf97ab",
+      "durationMs": 3648,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chúng ta sẽ khám phá cách một mô hình ngôn ngữ lớn nhớ những câu chuyện dài, giống như bộ nhớ làm việc của một người, với khái niệm context window, hay còn gọi là cửa sổ ngữ cảnh.\",\"chuTrenManHinh\":\"Khám phá context window\",\"yDoHinh\":\"Hình minh họa bộ nhớ làm việc của mô hình\",\"nguon\":[\"t01\"]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Trong một cuộc trò chuyện, mô hình sẽ giữ lại những chi tiết quan trọng trong khoảng thời gian mà context window cho phép, tránh quên phần đầu.\",\"chuTrenManHinh\":\"Giữ lại chi tiết\",\"yDoHinh\":\"Hình minh họa ngăn kéo lưu trữ\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Nếu cuộc trò chuyện vượt quá giới hạn của context window, mô hình sẽ phải bỏ qua một phần đầu, vì không còn đủ không gian để lưu trữ.\",\"chuTrenManHinh\":\"Vượt giới hạn\",\"yDoHinh\":\"Hình minh họa ngăn kéo đầy\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn có thể tưởng tượng context window như một ngăn kéo nhỏ, nơi lưu trữ những câu hỏi và trả lời trước đó, nhưng khi ngăn kéo đầy, những câu hỏi cũ sẽ bị đẩy ra.\",\"chuTrenManHinh\":\"Ngăn kéo nhỏ\",\"yDoHinh\":\"Hình minh họa ngăn kéo đầy\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Vì vậy, khi bạn trò chuyện với trợ lý, hãy nhớ rằng context window quyết định độ dài mà nó có thể nhớ, và điều này giải thích vì sao phần đầu có thể bị quên.\",\"chuTrenManHinh\":\"Giải thích quên phần đầu\",\"yDoHinh\":\"Hình minh họa mô hình quên\",\"nguon\":[\"t01\"]}]}",
+      "validationError": "Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-cb74a16b-8cef-4658-bc64-7f3130547347",
+      "durationMs": 2204,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng bạn đến với bài học về cách các mô hình ngôn ngữ lớn xử lý thông tin, nơi chúng ta sẽ tìm hiểu khái niệm cửa sổ ngữ cảnh, hay còn gọi là context window.\",\n      \"chuTrenManHinh\": \"Chào mừng đến với bài học\",\n      \"yDoHinh\": \"Hình ảnh một cánh cửa kính trong suốt mở ra một căn phòng chứa đầy sách và dữ liệu, tượng trưng cho việc tiếp cận thông tin.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu từ IBM, cửa sổ ngữ cảnh của mô hình ngôn ngữ lớn có thể được xem như bộ nhớ làm việc, quyết định độ dài cuộc trò chuyện mà nó có thể duy trì mà không quên các chi tiết từ phần trước.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh là bộ nhớ làm việc\",\n      \"yDoHinh\": \"Sơ đồ so sánh bộ nhớ làm việc của con người với một khung cửa sổ, nơi các thông tin đi qua và được lưu giữ tạm thời.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Điều này có nghĩa là nếu cuộc trò chuyện quá dài, vượt quá khả năng lưu trữ của bộ nhớ làm việc đó, mô hình sẽ bắt đầu quên đi những chi tiết ở phần đầu cuộc hội thoại.\",\n      \"chuTrenManHinh\": \"Quên chi tiết khi quá dài\",\n      \"yDoHinh\": \"Hình ảnh một cuốn sách dài được cuộn lại, phần đầu tiên mờ dần và biến mất khi phần cuối xuất hiện, minh họa cho việc quên thông tin cũ.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn có bao giờ tự hỏi tại sao trợ lý ảo lại quên những gì bạn đã nói ở đầu cuộc trò chuyện khi cuộc đối thoại kéo dài không?\",\n      \"chuTrenManHinh\": \"Vì sao trợ lý quên?\",\n      \"yDoHinh\": \"Hình ảnh một nhân vật ảo đang suy tư trước một dòng chat dài, với các tin nhắn cũ bị mờ đi ở phía trên.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Vì vậy, hiểu rõ về cửa sổ ngữ cảnh sẽ giúp bạn giải thích được hiện tượng quên thông tin này, dựa trên nguyên lý hoạt động của bộ nhớ làm việc trong mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\": \"Giải thích hiện tượng quên\",\n      \"yDoHinh\": \"Hình ảnh một chiếc chìa khóa mở ra một cánh cửa, bên trong là biểu tượng bộ nhớ, tượng trưng cho việc hiểu rõ cơ chế hoạt động.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 6337
+}

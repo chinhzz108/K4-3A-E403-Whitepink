@@ -1,0 +1,265 @@
+{
+  "id": "trace-script-1789648149748",
+  "timestamp": "2026-09-17T12:29:09.749Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T12-26-03-232Z",
+    "evalCaseId": "N01"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T12:26:41.617Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng, cập nhật gần đây và giải thích kỹ thuật chi tiết về tokenization và cơ chế attention.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://arxiv.org/abs/2404.09336",
+      "tieuDe": "[2404.09336] Self-Selected Attention Span for Accelerating Large Language Model Inference",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T12:26:41.618Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học trên arXiv, tập trung vào hiệu quả suy luận và cơ chế attention, phù hợp để giải thích khía cạnh kỹ thuật của việc xử lý ngữ cảnh.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Large language models (LLMs) can solve challenging tasks. However, their inference computation on modern GPUs is highly inefficient due to the increasing number of tokens they must attend to as they generate new ones.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://en.wikipedia.org/wiki/Context_window",
+      "tieuDe": "Context window - Wikipedia",
+      "ngayLayVe": "2026-09-17T12:26:51.634Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là nguồn tổng hợp, có trích dẫn các nghiên cứu gốc (Liu et al., Reid et al.), nhưng bản thân nó không phải là nguồn sơ cấp. Tuy nhiên, nó cung cấp tổng quan tốt về hiện tượng 'Lost in the Middle'.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn thứ cấp",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cửa sổ ngữ cảnh (context window) là số lượng token tối đa mà mô hình ngôn ngữ lớn (LLM) có thể xử lý hoặc 'nhớ' tại một thời điểm bất kỳ. Nó tương đương với bộ nhớ làm việc của mô hình.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "Đoạn mở đầu"
+        },
+        {
+          "nguonId": "n04",
+          "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+          "viTri": "Đoạn mở đầu"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Khi cuộc trò chuyện hoặc văn bản đầu vào vượt quá kích thước cửa sổ ngữ cảnh, mô hình buộc phải cắt bỏ (truncate) hoặc tóm tắt thông tin cũ để tiếp tục xử lý, dẫn đến việc 'quên' các chi tiết từ đầu cuộc hội thoại.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+          "viTri": "Đoạn thứ 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Hiệu suất của mô hình trên các tác vụ ngữ cảnh dài thường kém hơn khi thông tin liên quan xuất hiện ở giữa đầu vào so với khi nó nằm ở đầu hoặc cuối (hiện tượng 'Lost in the Middle').",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n04",
+          "doanTrich": "In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.",
+          "viTri": "Đoạn giữa bài"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Chào các bạn, đã bao giờ bạn trò chuyện rất dài với trợ lý ảo và nhận ra nó bắt đầu quên mất những chi tiết ở đầu cuộc hội thoại chưa?",
+        "chuTrenManHinh": "Trợ lý ảo quên thông tin cũ?",
+        "yDoHinh": "Hình ảnh minh họa một sinh viên đang trò chuyện cùng mô hình ảo, trên đầu trợ lý ảo xuất hiện dấu hỏi chấm thể hiện sự quên thông tin.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo nguồn thông tin chưa xác minh, cửa sổ ngữ cảnh, hay còn gọi là context window, là lượng đơn vị từ ngữ tối đa mà một mô hình ngôn ngữ lớn có thể xử lý tại một thời điểm bất kỳ.",
+        "chuTrenManHinh": "Cửa sổ ngữ cảnh: context window",
+        "yDoHinh": "Mô hình đồ họa hiển thị một khung cửa sổ bộ nhớ giới hạn sức chứa các từ ngữ đầu vào.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Theo ghi nhận chưa kiểm chứng, khi cuộc trò chuyện vượt quá kích thước cửa sổ này, mô hình buộc phải cắt bỏ hoặc tóm tắt thông tin cũ khiến các chi tiết ban đầu bị bỏ quên.",
+        "chuTrenManHinh": "Cắt bỏ thông tin khi vượt giới hạn",
+        "yDoHinh": "Hoạt ảnh các đoạn văn bản phía trước bị mờ đi và xén bớt khi dòng trò chuyện mới được kéo dài thêm.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Bên cạnh đó, dữ liệu chưa xác minh cho thấy hiệu suất trên ngữ cảnh dài thường kém hơn khi thông tin nằm ở giữa đoạn văn thay vì ở đầu hoặc ở cuối.",
+        "chuTrenManHinh": "Thông tin ở giữa dễ bị bỏ sót",
+        "yDoHinh": "Biểu đồ đường cong thể hiện khả năng tập trung cao ở hai đầu đoạn văn và giảm mạnh ở phần giữa.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Vì vậy, hiểu rõ giới hạn bộ nhớ này sẽ giúp chúng ta biết cách chia nhỏ nội dung để trợ lý không bị quên thông tin quan trọng.",
+        "chuTrenManHinh": "Chia nhỏ nội dung để nhớ tốt hơn",
+        "yDoHinh": "Sinh viên chia một tệp tài liệu dài thành các phần nhỏ hơn và đưa vào khung cửa sổ ngữ cảnh của trợ lý ảo.",
+        "nguon": [
+          "t02"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, đã bao giờ bạn trò chuyện rất dài với trợ lý ảo và nhận ra nó bắt đầu quên mất những chi tiết ở đầu cuộc hội thoại chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo nguồn thông tin chưa xác minh, cửa sổ ngữ cảnh, hay còn gọi là context window, là lượng đơn vị từ ngữ tối đa mà một mô hình ngôn ngữ lớn có thể xử lý tại một thời điểm bất kỳ.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.; [n04] The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Theo ghi nhận chưa kiểm chứng, khi cuộc trò chuyện vượt quá kích thước cửa sổ này, mô hình buộc phải cắt bỏ hoặc tóm tắt thông tin cũ khiến các chi tiết ban đầu bị bỏ quên.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bên cạnh đó, dữ liệu chưa xác minh cho thấy hiệu suất trên ngữ cảnh dài thường kém hơn khi thông tin nằm ở giữa đoạn văn thay vì ở đầu hoặc ở cuối.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n04] In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, hiểu rõ giới hạn bộ nhớ này sẽ giúp chúng ta biết cách chia nhỏ nội dung để trợ lý không bị quên thông tin quan trọng.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn, đã bao giờ bạn trò chuyện rất dài với trợ lý ảo và nhận ra nó bắt đầu quên mất những chi tiết ở đầu cuộc hội thoại chưa?\",\n      \"chuTrenManHinh\": \"Trợ lý ảo quên thông tin cũ?\",\n      \"yDoHinh\": \"Hình ảnh minh họa một sinh viên đang trò chuyện cùng mô hình ảo, trên đầu trợ lý ảo xuất hiện dấu hỏi chấm thể hiện sự quên thông tin.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn thông tin chưa xác minh, cửa sổ ngữ cảnh, hay còn gọi là context window, là lượng đơn vị từ ngữ tối đa mà một mô hình ngôn ngữ lớn có thể xử lý tại một thời điểm bất kỳ.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh: context window\",\n      \"yDoHinh\": \"Mô hình đồ họa hiển thị một khung cửa sổ bộ nhớ giới hạn sức chứa các từ ngữ đầu vào.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Theo ghi nhận chưa kiểm chứng, khi cuộc trò chuyện vượt quá kích thước cửa sổ này, mô hình buộc phải cắt bỏ hoặc tóm tắt thông tin cũ khiến các chi tiết ban đầu bị bỏ quên.\",\n      \"chuTrenManHinh\": \"Cắt bỏ thông tin khi vượt giới hạn\",\n      \"yDoHinh\": \"Hoạt ảnh các đoạn văn bản phía trước bị mờ đi và xén bớt khi dòng trò chuyện mới được kéo dài thêm.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Bên cạnh đó, dữ liệu chưa xác minh cho thấy hiệu suất trên ngữ cảnh dài thường kém hơn khi thông tin nằm ở giữa đoạn văn thay vì ở đầu hoặc ở cuối.\",\n      \"chuTrenManHinh\": \"Thông tin ở giữa dễ bị bỏ sót\",\n      \"yDoHinh\": \"Biểu đồ đường cong thể hiện khả năng tập trung cao ở hai đầu đoạn văn và giảm mạnh ở phần giữa.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Vì vậy, hiểu rõ giới hạn bộ nhớ này sẽ giúp chúng ta biết cách chia nhỏ nội dung để trợ lý không bị quên thông tin quan trọng.\",\n      \"chuTrenManHinh\": \"Chia nhỏ nội dung để nhớ tốt hơn\",\n      \"yDoHinh\": \"Sinh viên chia một tệp tài liệu dài thành các phần nhỏ hơn và đưa vào khung cửa sổ ngữ cảnh của trợ lý ảo.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.6-flash",
+      "durationMs": 20282,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn, đã bao giờ bạn trò chuyện rất dài với trợ lý ảo và nhận ra nó bắt đầu quên mất những chi tiết ở đầu cuộc hội thoại chưa?\",\n      \"chuTrenManHinh\": \"Trợ lý ảo quên thông tin cũ?\",\n      \"yDoHinh\": \"Hình ảnh minh họa một sinh viên đang trò chuyện cùng mô hình ảo, trên đầu trợ lý ảo xuất hiện dấu hỏi chấm thể hiện sự quên thông tin.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn thông tin chưa xác minh, cửa sổ ngữ cảnh, hay còn gọi là context window, là lượng đơn vị từ ngữ tối đa mà một mô hình ngôn ngữ lớn có thể xử lý tại một thời điểm bất kỳ.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh: context window\",\n      \"yDoHinh\": \"Mô hình đồ họa hiển thị một khung cửa sổ bộ nhớ giới hạn sức chứa các từ ngữ đầu vào.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Theo ghi nhận chưa kiểm chứng, khi cuộc trò chuyện vượt quá kích thước cửa sổ này, mô hình buộc phải cắt bỏ hoặc tóm tắt thông tin cũ khiến các chi tiết ban đầu bị bỏ quên.\",\n      \"chuTrenManHinh\": \"Cắt bỏ thông tin khi vượt giới hạn\",\n      \"yDoHinh\": \"Hoạt ảnh các đoạn văn bản phía trước bị mờ đi và xén bớt khi dòng trò chuyện mới được kéo dài thêm.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Bên cạnh đó, dữ liệu chưa xác minh cho thấy hiệu suất trên ngữ cảnh dài thường kém hơn khi thông tin nằm ở giữa đoạn văn thay vì ở đầu hoặc ở cuối.\",\n      \"chuTrenManHinh\": \"Thông tin ở giữa dễ bị bỏ sót\",\n      \"yDoHinh\": \"Biểu đồ đường cong thể hiện khả năng tập trung cao ở hai đầu đoạn văn và giảm mạnh ở phần giữa.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hôm nay, chúng ta sẽ cùng khám phá chủ đề thú vị này để sử dụng các công cụ thông minh một cách hiệu quả hơn.\",\n      \"chuTrenManHinh\": \"Khám phá cơ chế cửa sổ ngữ cảnh\",\n      \"yDoHinh\": \"Sinh viên mỉm cười tự tin tương tác hiệu quả với giao diện trí tuệ nhân tạo trên máy tính.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-3324ede6-74ce-4b01-90bc-7de48dc51952",
+      "durationMs": 2079,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Chào các bạn, đã bao giờ bạn trò chuyện rất dài với trợ lý ảo và nhận ra nó bắt đầu quên mất những chi tiết ở đầu cuộc hội thoại chưa?\",\n      \"chuTrenManHinh\": \"Trợ lý ảo quên thông tin cũ?\",\n      \"yDoHinh\": \"Hình ảnh minh họa một sinh viên đang trò chuyện cùng mô hình ảo, trên đầu trợ lý ảo xuất hiện dấu hỏi chấm thể hiện sự quên thông tin.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn thông tin chưa xác minh, cửa sổ ngữ cảnh, hay còn gọi là context window, là lượng đơn vị từ ngữ tối đa mà một mô hình ngôn ngữ lớn có thể xử lý tại một thời điểm bất kỳ.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh: context window\",\n      \"yDoHinh\": \"Mô hình đồ họa hiển thị một khung cửa sổ bộ nhớ giới hạn sức chứa các từ ngữ đầu vào.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Theo ghi nhận chưa kiểm chứng, khi cuộc trò chuyện vượt quá kích thước cửa sổ này, mô hình buộc phải cắt bỏ hoặc tóm tắt thông tin cũ khiến các chi tiết ban đầu bị bỏ quên.\",\n      \"chuTrenManHinh\": \"Cắt bỏ thông tin khi vượt giới hạn\",\n      \"yDoHinh\": \"Hoạt ảnh các đoạn văn bản phía trước bị mờ đi và xén bớt khi dòng trò chuyện mới được kéo dài thêm.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Bên cạnh đó, dữ liệu chưa xác minh cho thấy hiệu suất trên ngữ cảnh dài thường kém hơn khi thông tin nằm ở giữa đoạn văn thay vì ở đầu hoặc ở cuối.\",\n      \"chuTrenManHinh\": \"Thông tin ở giữa dễ bị bỏ sót\",\n      \"yDoHinh\": \"Biểu đồ đường cong thể hiện khả năng tập trung cao ở hai đầu đoạn văn và giảm mạnh ở phần giữa.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Vì vậy, hiểu rõ giới hạn bộ nhớ này sẽ giúp chúng ta biết cách chia nhỏ nội dung để trợ lý không bị quên thông tin quan trọng.\",\n      \"chuTrenManHinh\": \"Chia nhỏ nội dung để nhớ tốt hơn\",\n      \"yDoHinh\": \"Sinh viên chia một tệp tài liệu dài thành các phần nhỏ hơn và đưa vào khung cửa sổ ngữ cảnh của trợ lý ảo.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 95140
+}

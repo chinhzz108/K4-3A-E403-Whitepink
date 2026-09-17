@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "N11",
+    "class": "input-mo-ho",
+    "input": {
+      "topic": "AI",
+      "learningObjective": "Hiểu AI",
+      "targetAudience": "Mọi người",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Yêu cầu làm rõ hoặc thu hẹp chủ đề trước khi tìm nguồn và viết.",
+    "origin": "tự tạo — input mơ hồ; không phải chatlog",
+    "passCriteria": "HTTP 422 yêu cầu làm rõ; không sinh nội dung chưa có chủ đề cụ thể",
+    "failCriteria": "Cố viết kịch bản bao trùm mọi thứ về AI mà không cảnh báo"
+  },
+  "research": {
+    "http": 422,
+    "error": "Cần làm rõ chủ đề cụ thể và kết quả học tập"
+  }
+}

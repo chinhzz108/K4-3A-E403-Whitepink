@@ -1,0 +1,990 @@
+{
+  "case": {
+    "id": "N03",
+    "class": "thuong",
+    "input": {
+      "topic": "Cách một mô hình học từ ví dụ",
+      "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+      "targetAudience": "Học sinh cấp ba",
+      "videoDuration": "3 phút"
+    },
+    "expectedBehavior": "Giải thích supervised learning bằng ví dụ đơn giản. Thuật ngữ Anh kèm nghĩa Việt.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #4; không phải chatlog",
+    "passCriteria": "Thuật ngữ Anh kèm nghĩa Việt trước; ví dụ cụ thể; ≥2 nguồn",
+    "failCriteria": "Thuật ngữ Anh không giải thích; viết quá học thuật cho cấp ba"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://oes.vn/data-driven-learning-trong-giao-duc/",
+        "tieuDe": "Ứng dụng Data Driven Learning trong giáo dục hiệu quả",
+        "tacGia": "Thai Hai",
+        "toChuc": "OES - CÔNG TY DỊCH VỤ E-LEARNING HÀNG ĐẦU VIỆT NAM",
+        "ngayDang": "2026-02-27T02:58:14+00:00",
+        "ngayLayVe": "2026-09-17T13:38:36.789Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Nguồn từ công ty dịch vụ e-learning, mang tính thương mại và giáo dục phổ thông, không phải công trình nghiên cứu học thuật chuyên sâu về AI.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Ngày đăng trong tương lai (2026), có thể là lỗi hệ thống hoặc dữ liệu giả lập."
+        ],
+        "doanTrich": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+        "tieuDe": "Data-driven learning - Wikipedia",
+        "ngayLayVe": "2026-09-17T13:38:37.491Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Wikipedia là bách khoa toàn thư mở, độ tin cậy trung bình nhưng ở đây nội dung tập trung vào 'Data-driven learning' trong ngữ cảnh ngôn ngữ học (foreign language learning), không phải học máy (machine learning) hay AI như chủ đề yêu cầu.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Sai ngữ cảnh: Bài viết nói về phương pháp học ngoại ngữ dựa trên dữ liệu (corpus), không phải về cách mô hình AI học từ ví dụ (machine learning).",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Data-driven learning (DDL) is an approach to foreign language learning.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7",
+        "tieuDe": "Rule-Based Expert Systems | Springer Nature Link",
+        "toChuc": "SpringerLink",
+        "ngayLayVe": "2026-09-17T13:38:37.493Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Nguồn xuất bản học thuật uy tín (Springer), cung cấp định nghĩa chính xác về hệ thống dựa trên quy tắc (rule-based systems), giúp phân biệt rõ với học từ dữ liệu.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn cũ (2011), nhưng kiến thức nền tảng về rule-based systems vẫn ổn định và chính xác.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+        "tieuDe": "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+        "ngayLayVe": "2026-09-17T13:38:36.787Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 429 Too Many Requests",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n05",
+        "url": "https://www.sciencedirect.com/topics/engineering/rule-based-system",
+        "tieuDe": "https://www.sciencedirect.com/topics/engineering/rule-based-system",
+        "ngayLayVe": "2026-09-17T13:38:36.788Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://www.geeksforgeeks.org/artificial-intelligence/rule-based-system-in-ai/",
+        "tieuDe": "Rule-Based System in AI - GeeksforGeeks",
+        "ngayLayVe": "2026-09-17T13:38:37.490Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "toChuc": "GeeksforGeeks",
+        "ngayDang": "2024-08-27 18:36:08+00:00",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Hệ thống dựa trên quy tắc (rule-based systems) biểu diễn kiến thức dưới dạng các quy tắc chỉ ra cách hành động hoặc kết luận trong các tình huống cụ thể, thay vì học từ dữ liệu.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+            "viTri": "Đoạn mở đầu của chương"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Data Driven Learning (DDL) trong giáo dục là mô hình dựa trên dữ liệu thực tế của người học, nơi mọi quyết định xuất phát từ thông tin hành vi và kết quả, thay vì cảm tính.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.",
+            "viTri": "Đoạn giới thiệu khái niệm DDL"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Lưu ý: Nguồn n01 dùng thuật ngữ DDL cho giáo dục, trong khi n02 dùng cho ngôn ngữ học. Tuy nhiên, cả hai đều nhấn mạnh việc dựa trên dữ liệu thực tế thay vì quy tắc cứng nhắc, phù hợp để minh họa sự khác biệt với rule-based."
+      }
+    ],
+    "searchQueries": [
+      "data-driven learning",
+      "rule-based systems"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789652325024",
+      "timestamp": "2026-09-17T13:38:45.024Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cách một mô hình học từ ví dụ",
+        "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "targetAudience": "Học sinh cấp ba",
+        "videoDuration": "3 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N03"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Data-driven Learning in and out of the Language Classroom",
+              "url": "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+              "snippet": "viết bởi P Pérez-Paredes · 2025 · Trích dẫn 25 bài viết — Data-Driven Learning (DDL) can be broadly defined as the use of corpus tools and techniques for learners and teachers of foreign or second ...",
+              "position": 1
+            },
+            {
+              "title": "Ứng dụng Data Driven Learning trong giáo dục hiệu quả - OES",
+              "url": "https://oes.vn/data-driven-learning-trong-giao-duc/",
+              "snippet": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học. Trong mô hình này, mọi quyết định về nội dung, phương ...",
+              "position": 2
+            },
+            {
+              "title": "Data-driven learning",
+              "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+              "snippet": "Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning ...",
+              "position": 3
+            },
+            {
+              "title": "A Student-centered Technique for Language Learning",
+              "url": "https://www.academypublication.com/issues/past/tpls/vol02/07/28.pdf",
+              "snippet": "This method, in which there is an interaction between corpora and students, is known as data-driven learning. The activities of DDL are usually taken from ...",
+              "position": 4
+            },
+            {
+              "title": "Language corpus and data driven learning (DDL) in ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2405844023099395",
+              "snippet": "viết bởi A Lusta · 2023 · Trích dẫn 93 bài viết — In DDL, learners construct knowledge based on evidence derived from corpus data. In DDL activities, learners generate knowledge by drawing upon evidence derived ...",
+              "position": 5
+            }
+          ],
+          "query": "data-driven learning",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Rule-Based System - an overview",
+              "url": "https://www.sciencedirect.com/topics/engineering/rule-based-system",
+              "snippet": "Rule-based systems are computational tools that utilize user-curated rules to define a system, where designs conflicting with these rules are deemed invalid ...",
+              "position": 1
+            },
+            {
+              "title": "Rule-Based System in AI",
+              "url": "https://www.geeksforgeeks.org/artificial-intelligence/rule-based-system-in-ai/",
+              "snippet": "Rule-based systems represent a foundational approach in AI, characterized by their reliance on explicit rules and logical reasoning. They offer ...",
+              "position": 2
+            },
+            {
+              "title": "Rule-Based Expert Systems | Springer Nature Link",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7",
+              "snippet": "viết bởi C Grosan · Trích dẫn 386 bài viết — Rule-based systems (also known as production systems or expert systems) are the simplest form of artificial intelligence. A rule based system uses rules as ...",
+              "position": 3
+            },
+            {
+              "title": "Rule-based system",
+              "url": "https://en.wikipedia.org/wiki/Rule-based_system",
+              "snippet": "In computer science, a rule-based system is a computer system in which domain-specific knowledge is represented in the form of rules and general-purpose ...",
+              "position": 4
+            },
+            {
+              "title": "Overview of Rule-Based Systems in AI - Artificial Intelligence",
+              "url": "https://www.scribd.com/document/886139041/Rule-Based-Systems-in-Artificial-Intelligence",
+              "snippet": "Rule-Based Systems (RBS) in AI utilize 'if-then' rules to simulate expert decision-making, separating knowledge from reasoning for easier management.",
+              "position": 5
+            }
+          ],
+          "query": "rule-based systems",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+          "https://www.sciencedirect.com/topics/engineering/rule-based-system",
+          "https://oes.vn/data-driven-learning-trong-giao-duc/",
+          "https://www.geeksforgeeks.org/artificial-intelligence/rule-based-system-in-ai/",
+          "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7",
+          "https://www.academypublication.com/issues/past/tpls/vol02/07/28.pdf",
+          "https://en.wikipedia.org/wiki/Rule-based_system"
+        ],
+        "pagesRead": [
+          "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+          "https://www.sciencedirect.com/topics/engineering/rule-based-system",
+          "https://oes.vn/data-driven-learning-trong-giao-duc/",
+          "https://www.geeksforgeeks.org/artificial-intelligence/rule-based-system-in-ai/",
+          "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:38:36.787Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.sciencedirect.com/topics/engineering/rule-based-system",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:38:36.788Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://oes.vn/data-driven-learning-trong-giao-duc/",
+          "content": "Ứng dụng Data Driven Learning trong giáo dục và đào tạo hiệu quả\n\nData Driven Learning trong giáo dục đang trở thành nền tảng của đào tạo hiện đại khi mọi quyết định được xây dựng trên dữ liệu thực tế thay vì cảm tính. Từ cá nhân hóa lộ trình học đến đo lường hiệu quả và tối ưu quản trị, mô hình này mở ra cách tiếp cận hoàn toàn mới. Cùng OES tìm hiểu chi tiết cách triển khai và ứng dụng hiệu quả trong bài viết dưới đây.\n\nXem thêm: Power BI - công cụ phân tích dữ liệu học tập trực quan nhất hiện nay cho doanh nghiệp\n\nChọn công cụ AI bạn muốn sử dụng. Prompt đã được chuẩn bị sẵn kèm URL bài viết.\n\nData Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học. Trong mô hình này, mọi quyết định về nội dung, phương pháp và đánh giá đều xuất phát từ các thông tin như hành vi học tập, kết quả kiểm tra và mức độ tương tác. Thay vì dựa vào cảm tính hoặc chỉ nhìn vào kết quả cuối kỳ, dữ liệu được phân tích để nhận diện vấn đề và điều chỉnh kịp thời. Cốt lõi của DDL là biến dữ liệu thành cơ sở ra quyết định có bằng chứng.\n\nTừ nền tảng khái niệm đó, có thể thấy vì sao giáo dục hiện đại cần chuyển sang cách tiếp cận này. Người học ngày càng đa dạng về năng lực, tốc độ tiếp thu và mục tiêu phát triển. Một chương trình thiết kế cho mức trung bình khó đáp ứng toàn diện nhu cầu thực tế. Khi có dữ liệu rõ ràng, nhà trường và giảng viên có thể phát hiện sớm khó khăn để cá nhân hóa lộ trình học phù hợp hơn.\n\nKhông dừng lại ở sự khác biệt của người học, áp lực đo lường hiệu quả đào tạo cũng là yếu tố thúc đẩy chuyển đổi. Các tổ chức cần những con số cụ thể về tỷ lệ hoàn thành, mức độ cải thiện năng lực và tác động thực tế. Nếu thiếu dữ liệu, việc đánh giá thường mang tính định tính và thiếu cơ sở. DDL giúp chuyển sang phương thức quản trị dựa trên bằng chứng với các chỉ số minh bạch.\n\nSong song với những yêu cầu đó, sự phát triển của công nghệ số đã tạo điều kiện để DDL trở thành hiện thực. Nhờ vậy, quá trình đào tạo có thể được tối ưu ngay trong khi đang diễn ra. Data Driven Learning vì thế không chỉ là xu hướng công nghệ, mà là bước chuyển tất yếu trong tư duy quản trị giáo dục hiện đại.\n\nData Driven Learning là mô hình dạy và học dựa trên dữ liệu học tập thực của học viên\n\nXem thêm: Data driven decision making là gì? Doanh nghiệp chưa có CSDL nên bắt đầu từ đâu?\n\nDữ liệu nào được khai thác trong Data Driven Learning?\n\nTrong Data Driven Learning, dữ liệu không chỉ để lưu trữ mà để giải mã cách người học thực sự tiếp cận tri thức. Một hệ thống hiệu quả thường tập trung vào ba nhóm dữ liệu chính, mỗi nhóm phản ánh một khía cạnh khác nhau của quá trình học tập.\n\nNhóm dữ liệu đầu tiên trả lời câu hỏi: người học đang học như thế nào. Thời gian truy cập, tần suất đăng nhập, tốc độ hoàn thành bài học hay số lần xem lại nội dung đều cho thấy nhịp độ và thói quen học tập.\n\nNếu một học viên thường xuyên dừng lại ở một chương cụ thể, đó có thể là tín hiệu về độ khó của nội dung. Phân tích hành vi giúp nhà quản lý phát hiện vấn đề trước khi kết quả học tập bị ảnh hưởng.\n\nNếu dữ liệu hành vi phản ánh quá trình, thì dữ liệu đánh giá năng lực cho thấy kết quả của người học. Điểm số, bài kiểm tra, tỷ lệ đạt chuẩn đầu ra hay mức độ hoàn thành khóa học đều là chỉ số định lượng quan trọng.\n\nNhững con số này giúp xác định khoảng trống kiến thức và mức độ đáp ứng mục tiêu đào tạo. Khi được phân tích theo xu hướng, dữ liệu còn hỗ trợ điều chỉnh nội dung và phương pháp giảng dạy. Đây là cơ sở để chuyển từ đánh giá cảm tính sang quản trị bằng bằng chứng.\n\nDữ liệu đánh giá năng lực giúp phân bổ kiến thức học tập phù hợp cho từng học viên\n\nDữ liệu tương tác và mức độ gắn kết\n\nBên cạnh quá trình và kết quả, mức độ gắn kết phản ánh chiều sâu của trải nghiệm học tập. Số lần tham gia thảo luận, phản hồi, làm bài tập nhóm hay tương tác với giảng viên cho thấy mức độ chủ động của người học. Một khóa học có nội dung tốt nhưng thiếu tương tác thường khó duy trì động lực lâu dài. Theo dõi dữ liệu này giúp phát hiện dấu hiệu giảm hứng thú và điều chỉnh kịp thời. Khi kết hợp cả ba nhóm dữ liệu, tổ chức có thể xây dựng bức tranh toàn diện về hiệu quả đào tạo.\n\nLợi ích của Data Driven Learning trong giáo dục\n\nViệc triển khai Data Driven Learning không chỉ thay đổi cách thu thập thông tin mà còn tạo ra giá trị rõ ràng cho toàn bộ hệ thống giáo dục. Khi dữ liệu được phân tích và ứng dụng đúng cách, tổ chức có thể tối ưu cả trải nghiệm học tập lẫn hiệu quả quản trị.\n\nMột trong những lợi ích lớn nhất của Data Driven Learning là khả năng cá nhân hóa. Dựa trên dữ liệu hành vi và kết quả đánh giá, hệ thống có thể xác định trình độ, tốc độ tiếp thu và nhu cầu của từng người học. Nội dung được điều chỉnh phù hợp thay vì áp dụng chung cho toàn bộ lớp học. Nhờ đó, người học yếu được hỗ trợ kịp thời và người học giỏi có cơ hội nâng cao năng lực. Cá nhân hóa giúp tăng mức độ hoàn thành và cải thiện chất lượng đầu ra.\n\nRa quyết định đào tạo chính xác hơn\n\nKhông có dữ liệu, quyết định đào tạo thường dựa vào cảm nhận hoặc kinh nghiệm cá nhân. Với Data Driven Learning, nhà quản lý có thể dựa trên chỉ số cụ thể để điều chỉnh nội dung, phương pháp và chiến lược đào tạo. Phân tích xu hướng điểm số hoặc mức độ tương tác giúp xác định nội dung chưa hiệu quả. Điều này giảm rủi ro triển khai sai hướng và tối ưu nguồn lực đào tạo. Mọi thay đổi đều có căn cứ rõ ràng.\n\nData Driven Learning trong giáo dục đóng vai trò quan trọng\n\nNâng cao hiệu quả quản trị và báo cáo\n\nData Driven Learning hỗ trợ xây dựng hệ thống báo cáo minh bạch và theo thời gian thực. Nhà trường hoặc doanh nghiệp có thể theo dõi tỷ lệ hoàn thành, mức độ tiến bộ và hiệu suất học tập của từng nhóm. Các dashboard trực quan giúp ban lãnh đạo nắm bắt tình hình nhanh chóng. Báo cáo định lượng cũng tạo nền tảng để đánh giá ROI của hoạt động đào tạo. Nhờ đó, công tác quản trị trở nên chủ động và có chiến lược hơn.\n\nVai trò của LMS trong triển khai Data Driven Learning\n\nĐể Data Driven Learning vận hành hiệu quả, tổ chức cần một nền tảng công nghệ đủ khả năng thu thập, phân tích và trực quan hóa dữ liệu. LMS không chỉ là nơi lưu trữ khóa học mà đóng vai trò trung tâm trong toàn bộ hệ sinh thái học tập dựa trên dữ liệu. Cụ thể, LMS đảm nhiệm các vai trò sau:\n\nTrung tâm thu thập dữ liệu tập trung: Ghi nhận toàn bộ hành vi học tập, tiến độ, điểm số và mức độ tương tác của người học trên một hệ thống thống nhất.\n\nCông cụ theo dõi và phân tích thời gian thực: Cung cấp dashboard và báo cáo giúp giảng viên, quản lý theo dõi tình trạng học tập ngay khi đang diễn ra.\n\nNền tảng hỗ trợ cá nhân hóa: Dựa trên dữ liệu thu thập được để đề xuất nội dung, phân bổ lộ trình học phù hợp với từng cá nhân hoặc nhóm.\n\nHệ thống cảnh báo sớm rủi ro: Phát hiện dấu hiệu giảm tương tác, chậm tiến độ hoặc nguy cơ bỏ học để can thiệp kịp thời.\n\nCông cụ đo lường hiệu quả và ROI đào tạo: Tổng hợp chỉ số hoàn thành, cải thiện năng lực và mức độ đạt chuẩn đầu ra, phục\n\nNền tảng tích hợp công nghệ phân tích nâng cao: Kết nối với AI, learning analytics và các hệ thống nội bộ để mở rộng khả năng dự đoán và tối ưu quyết định.\n\nOES đồng hành triển khai Data Driven Learning hiệu quả cho trường học và doanh nghiệp\n\nTừ những phân tích trên có thể thấy, Data Driven Learning chỉ thực sự phát huy giá trị khi được triển khai trên một nền tảng công nghệ phù hợp và có chiến lược rõ ràng. Không chỉ dừng ở việc thu thập dữ liệu, tổ chức cần một đơn vị đủ năng lực thiết kế hệ thống, chuẩn hóa chỉ số đo lường và chuyển dữ liệu thành cơ sở ra quyết định. Đây chính là yếu tố quyết định sự thành công khi áp dụng mô hình học tập dựa trên dữ liệu.\n\nVới hơn 10+ năm kinh nghiệm trong lĩnh vực eLearning và chuyển đổi số đào tạo, OES cung cấp giải pháp đào tạo nội bộ toàn diện cho trường học và doanh nghiệp. OES không chỉ triển khai hệ thống LMS mà còn tư vấn xây dựng khung năng lực, thiết kế chương trình và số hóa nội dung bài giảng theo chuẩn quốc tế.\n\nĐặc biệt, OES phát triển dịch vụ phân tích dữ liệu học tập chuyên sâu, tích hợp báo cáo trực quan qua Power BI. Hệ thống cho phép cung cấp báo cáo từ tổng quan đến chi tiết về tiến độ, mức độ hoàn thành, năng lực và mức độ gắn kết của từng học viên. Nhờ đó, ban lãnh đạo có thể ra quyết định sớm, nhanh và chính xác dựa trên dữ liệu thực tế thay vì cảm tính.\n\nNếu tổ chức của bạn đang tìm kiếm giải pháp triển khai Data Driven Learning bài bản và có thể đo lường rõ ràng hiệu quả, hãy liên hệ OES để được tư vấn chiến lược phù hợp với mô hình đào tạo của mình.\n\nData Driven Learning trong giáo dục không chỉ là một xu hướng công nghệ mà là bước chuyển quan trọng trong tư duy quản trị đào tạo. Khi mọi quyết định được xây dựng trên dữ liệu thực tế, quá trình dạy và học trở nên minh bạch, cá nhân hóa và có thể đo lường rõ ràng. Mô hình này giúp nhà trường và doanh nghiệp tối ưu nguồn lực, nâng cao chất lượng đầu ra và chủ động điều chỉnh chiến lược đào tạo theo thời gian thực.\n\nNếu bạn đang tìm kiếm giải pháp ứng dụng mô hình này một cách hiệu quả và có thể đo lường cụ thể, hãy liên hệ OES để nhận tư vấn và xây dựng lộ trình triển khai phù hợp.",
+          "fetchedAt": "2026-09-17T13:38:36.789Z",
+          "title": "Ứng dụng Data Driven Learning trong giáo dục hiệu quả",
+          "status": "ok",
+          "contentLength": 10959,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Ứng dụng Data Driven Learning trong giáo dục và đào tạo hiệu quả"
+            },
+            {
+              "blockIndex": 1,
+              "text": "Data Driven Learning trong giáo dục đang trở thành nền tảng của đào tạo hiện đại khi mọi quyết định được xây dựng trên dữ liệu thực tế thay vì cảm tính. Từ cá nhân hóa lộ trình học đến đo lường hiệu quả và tối ưu quản trị, mô hình này mở ra cách tiếp cận hoàn toàn mới. Cùng OES tìm hiểu chi tiết cách triển khai và ứng dụng hiệu quả trong bài viết dưới đây."
+            },
+            {
+              "blockIndex": 2,
+              "text": "Xem thêm: Power BI - công cụ phân tích dữ liệu học tập trực quan nhất hiện nay cho doanh nghiệp"
+            },
+            {
+              "blockIndex": 3,
+              "text": "Chọn công cụ AI bạn muốn sử dụng. Prompt đã được chuẩn bị sẵn kèm URL bài viết."
+            },
+            {
+              "blockIndex": 6,
+              "text": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học. Trong mô hình này, mọi quyết định về nội dung, phương pháp và đánh giá đều xuất phát từ các thông tin như hành vi học tập, kết quả kiểm tra và mức độ tương tác. Thay vì dựa vào cảm tính hoặc chỉ nhìn vào kết quả cuối kỳ, dữ liệu được phân tích để nhận diện vấn đề và điều chỉnh kịp thời. Cốt lõi của DDL là biến dữ liệu thành cơ sở ra quyết định có bằng chứng."
+            },
+            {
+              "blockIndex": 7,
+              "text": "Từ nền tảng khái niệm đó, có thể thấy vì sao giáo dục hiện đại cần chuyển sang cách tiếp cận này. Người học ngày càng đa dạng về năng lực, tốc độ tiếp thu và mục tiêu phát triển. Một chương trình thiết kế cho mức trung bình khó đáp ứng toàn diện nhu cầu thực tế. Khi có dữ liệu rõ ràng, nhà trường và giảng viên có thể phát hiện sớm khó khăn để cá nhân hóa lộ trình học phù hợp hơn."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Không dừng lại ở sự khác biệt của người học, áp lực đo lường hiệu quả đào tạo cũng là yếu tố thúc đẩy chuyển đổi. Các tổ chức cần những con số cụ thể về tỷ lệ hoàn thành, mức độ cải thiện năng lực và tác động thực tế. Nếu thiếu dữ liệu, việc đánh giá thường mang tính định tính và thiếu cơ sở. DDL giúp chuyển sang phương thức quản trị dựa trên bằng chứng với các chỉ số minh bạch."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Song song với những yêu cầu đó, sự phát triển của công nghệ số đã tạo điều kiện để DDL trở thành hiện thực. Nhờ vậy, quá trình đào tạo có thể được tối ưu ngay trong khi đang diễn ra. Data Driven Learning vì thế không chỉ là xu hướng công nghệ, mà là bước chuyển tất yếu trong tư duy quản trị giáo dục hiện đại."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Data Driven Learning là mô hình dạy và học dựa trên dữ liệu học tập thực của học viên"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Xem thêm: Data driven decision making là gì? Doanh nghiệp chưa có CSDL nên bắt đầu từ đâu?"
+            },
+            {
+              "blockIndex": 12,
+              "text": "Dữ liệu nào được khai thác trong Data Driven Learning?"
+            },
+            {
+              "blockIndex": 13,
+              "text": "Trong Data Driven Learning, dữ liệu không chỉ để lưu trữ mà để giải mã cách người học thực sự tiếp cận tri thức. Một hệ thống hiệu quả thường tập trung vào ba nhóm dữ liệu chính, mỗi nhóm phản ánh một khía cạnh khác nhau của quá trình học tập."
+            },
+            {
+              "blockIndex": 15,
+              "text": "Nhóm dữ liệu đầu tiên trả lời câu hỏi: người học đang học như thế nào. Thời gian truy cập, tần suất đăng nhập, tốc độ hoàn thành bài học hay số lần xem lại nội dung đều cho thấy nhịp độ và thói quen học tập."
+            },
+            {
+              "blockIndex": 16,
+              "text": "Nếu một học viên thường xuyên dừng lại ở một chương cụ thể, đó có thể là tín hiệu về độ khó của nội dung. Phân tích hành vi giúp nhà quản lý phát hiện vấn đề trước khi kết quả học tập bị ảnh hưởng."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Nếu dữ liệu hành vi phản ánh quá trình, thì dữ liệu đánh giá năng lực cho thấy kết quả của người học. Điểm số, bài kiểm tra, tỷ lệ đạt chuẩn đầu ra hay mức độ hoàn thành khóa học đều là chỉ số định lượng quan trọng."
+            },
+            {
+              "blockIndex": 19,
+              "text": "Những con số này giúp xác định khoảng trống kiến thức và mức độ đáp ứng mục tiêu đào tạo. Khi được phân tích theo xu hướng, dữ liệu còn hỗ trợ điều chỉnh nội dung và phương pháp giảng dạy. Đây là cơ sở để chuyển từ đánh giá cảm tính sang quản trị bằng bằng chứng."
+            },
+            {
+              "blockIndex": 20,
+              "text": "Dữ liệu đánh giá năng lực giúp phân bổ kiến thức học tập phù hợp cho từng học viên"
+            },
+            {
+              "blockIndex": 21,
+              "text": "Dữ liệu tương tác và mức độ gắn kết"
+            },
+            {
+              "blockIndex": 22,
+              "text": "Bên cạnh quá trình và kết quả, mức độ gắn kết phản ánh chiều sâu của trải nghiệm học tập. Số lần tham gia thảo luận, phản hồi, làm bài tập nhóm hay tương tác với giảng viên cho thấy mức độ chủ động của người học. Một khóa học có nội dung tốt nhưng thiếu tương tác thường khó duy trì động lực lâu dài. Theo dõi dữ liệu này giúp phát hiện dấu hiệu giảm hứng thú và điều chỉnh kịp thời. Khi kết hợp cả ba nhóm dữ liệu, tổ chức có thể xây dựng bức tranh toàn diện về hiệu quả đào tạo."
+            },
+            {
+              "blockIndex": 23,
+              "text": "Lợi ích của Data Driven Learning trong giáo dục"
+            },
+            {
+              "blockIndex": 24,
+              "text": "Việc triển khai Data Driven Learning không chỉ thay đổi cách thu thập thông tin mà còn tạo ra giá trị rõ ràng cho toàn bộ hệ thống giáo dục. Khi dữ liệu được phân tích và ứng dụng đúng cách, tổ chức có thể tối ưu cả trải nghiệm học tập lẫn hiệu quả quản trị."
+            },
+            {
+              "blockIndex": 26,
+              "text": "Một trong những lợi ích lớn nhất của Data Driven Learning là khả năng cá nhân hóa. Dựa trên dữ liệu hành vi và kết quả đánh giá, hệ thống có thể xác định trình độ, tốc độ tiếp thu và nhu cầu của từng người học. Nội dung được điều chỉnh phù hợp thay vì áp dụng chung cho toàn bộ lớp học. Nhờ đó, người học yếu được hỗ trợ kịp thời và người học giỏi có cơ hội nâng cao năng lực. Cá nhân hóa giúp tăng mức độ hoàn thành và cải thiện chất lượng đầu ra."
+            },
+            {
+              "blockIndex": 27,
+              "text": "Ra quyết định đào tạo chính xác hơn"
+            },
+            {
+              "blockIndex": 28,
+              "text": "Không có dữ liệu, quyết định đào tạo thường dựa vào cảm nhận hoặc kinh nghiệm cá nhân. Với Data Driven Learning, nhà quản lý có thể dựa trên chỉ số cụ thể để điều chỉnh nội dung, phương pháp và chiến lược đào tạo. Phân tích xu hướng điểm số hoặc mức độ tương tác giúp xác định nội dung chưa hiệu quả. Điều này giảm rủi ro triển khai sai hướng và tối ưu nguồn lực đào tạo. Mọi thay đổi đều có căn cứ rõ ràng."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Data Driven Learning trong giáo dục đóng vai trò quan trọng"
+            },
+            {
+              "blockIndex": 30,
+              "text": "Nâng cao hiệu quả quản trị và báo cáo"
+            },
+            {
+              "blockIndex": 31,
+              "text": "Data Driven Learning hỗ trợ xây dựng hệ thống báo cáo minh bạch và theo thời gian thực. Nhà trường hoặc doanh nghiệp có thể theo dõi tỷ lệ hoàn thành, mức độ tiến bộ và hiệu suất học tập của từng nhóm. Các dashboard trực quan giúp ban lãnh đạo nắm bắt tình hình nhanh chóng. Báo cáo định lượng cũng tạo nền tảng để đánh giá ROI của hoạt động đào tạo. Nhờ đó, công tác quản trị trở nên chủ động và có chiến lược hơn."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Vai trò của LMS trong triển khai Data Driven Learning"
+            },
+            {
+              "blockIndex": 33,
+              "text": "Để Data Driven Learning vận hành hiệu quả, tổ chức cần một nền tảng công nghệ đủ khả năng thu thập, phân tích và trực quan hóa dữ liệu. LMS không chỉ là nơi lưu trữ khóa học mà đóng vai trò trung tâm trong toàn bộ hệ sinh thái học tập dựa trên dữ liệu. Cụ thể, LMS đảm nhiệm các vai trò sau:"
+            },
+            {
+              "blockIndex": 34,
+              "text": "Trung tâm thu thập dữ liệu tập trung: Ghi nhận toàn bộ hành vi học tập, tiến độ, điểm số và mức độ tương tác của người học trên một hệ thống thống nhất."
+            },
+            {
+              "blockIndex": 35,
+              "text": "Công cụ theo dõi và phân tích thời gian thực: Cung cấp dashboard và báo cáo giúp giảng viên, quản lý theo dõi tình trạng học tập ngay khi đang diễn ra."
+            },
+            {
+              "blockIndex": 36,
+              "text": "Nền tảng hỗ trợ cá nhân hóa: Dựa trên dữ liệu thu thập được để đề xuất nội dung, phân bổ lộ trình học phù hợp với từng cá nhân hoặc nhóm."
+            },
+            {
+              "blockIndex": 37,
+              "text": "Hệ thống cảnh báo sớm rủi ro: Phát hiện dấu hiệu giảm tương tác, chậm tiến độ hoặc nguy cơ bỏ học để can thiệp kịp thời."
+            },
+            {
+              "blockIndex": 38,
+              "text": "Công cụ đo lường hiệu quả và ROI đào tạo: Tổng hợp chỉ số hoàn thành, cải thiện năng lực và mức độ đạt chuẩn đầu ra, phục"
+            },
+            {
+              "blockIndex": 39,
+              "text": "Nền tảng tích hợp công nghệ phân tích nâng cao: Kết nối với AI, learning analytics và các hệ thống nội bộ để mở rộng khả năng dự đoán và tối ưu quyết định."
+            },
+            {
+              "blockIndex": 40,
+              "text": "OES đồng hành triển khai Data Driven Learning hiệu quả cho trường học và doanh nghiệp"
+            },
+            {
+              "blockIndex": 41,
+              "text": "Từ những phân tích trên có thể thấy, Data Driven Learning chỉ thực sự phát huy giá trị khi được triển khai trên một nền tảng công nghệ phù hợp và có chiến lược rõ ràng. Không chỉ dừng ở việc thu thập dữ liệu, tổ chức cần một đơn vị đủ năng lực thiết kế hệ thống, chuẩn hóa chỉ số đo lường và chuyển dữ liệu thành cơ sở ra quyết định. Đây chính là yếu tố quyết định sự thành công khi áp dụng mô hình học tập dựa trên dữ liệu."
+            },
+            {
+              "blockIndex": 42,
+              "text": "Với hơn 10+ năm kinh nghiệm trong lĩnh vực eLearning và chuyển đổi số đào tạo, OES cung cấp giải pháp đào tạo nội bộ toàn diện cho trường học và doanh nghiệp. OES không chỉ triển khai hệ thống LMS mà còn tư vấn xây dựng khung năng lực, thiết kế chương trình và số hóa nội dung bài giảng theo chuẩn quốc tế."
+            },
+            {
+              "blockIndex": 43,
+              "text": "Đặc biệt, OES phát triển dịch vụ phân tích dữ liệu học tập chuyên sâu, tích hợp báo cáo trực quan qua Power BI. Hệ thống cho phép cung cấp báo cáo từ tổng quan đến chi tiết về tiến độ, mức độ hoàn thành, năng lực và mức độ gắn kết của từng học viên. Nhờ đó, ban lãnh đạo có thể ra quyết định sớm, nhanh và chính xác dựa trên dữ liệu thực tế thay vì cảm tính."
+            },
+            {
+              "blockIndex": 44,
+              "text": "Nếu tổ chức của bạn đang tìm kiếm giải pháp triển khai Data Driven Learning bài bản và có thể đo lường rõ ràng hiệu quả, hãy liên hệ OES để được tư vấn chiến lược phù hợp với mô hình đào tạo của mình."
+            },
+            {
+              "blockIndex": 46,
+              "text": "Data Driven Learning trong giáo dục không chỉ là một xu hướng công nghệ mà là bước chuyển quan trọng trong tư duy quản trị đào tạo. Khi mọi quyết định được xây dựng trên dữ liệu thực tế, quá trình dạy và học trở nên minh bạch, cá nhân hóa và có thể đo lường rõ ràng. Mô hình này giúp nhà trường và doanh nghiệp tối ưu nguồn lực, nâng cao chất lượng đầu ra và chủ động điều chỉnh chiến lược đào tạo theo thời gian thực."
+            },
+            {
+              "blockIndex": 47,
+              "text": "Nếu bạn đang tìm kiếm giải pháp ứng dụng mô hình này một cách hiệu quả và có thể đo lường cụ thể, hãy liên hệ OES để nhận tư vấn và xây dựng lộ trình triển khai phù hợp."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/rule-based-system-in-ai/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:38:37.490Z",
+          "title": "Rule-Based System in AI - GeeksforGeeks",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": ""
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "content": "From Wikipedia, the free encyclopedia Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks. Underpinning this pedagogical approach is the data - information - knowledge paradigm (see DIKW pyramid). It is informed by a pattern-based approach to grammar and vocabulary, and a lexicogrammatical approach to language in general. Thus the basic task in DDL is to identify patterns at all levels of language. From their findings, foreign language students can see how an aspect of language is typically used, which in turn informs how they can use it in their own speaking and writing. Learning how to frame language questions and use the resources to obtain data and interpret it is fundamental to learner autonomy. When students arrive at their own conclusions through such procedures, they use their higher order thinking skills (see Bloom's taxonomy) and are creating knowledge (see Vygotsky). In DDL, students use the same types of tools that professional linguists use, namely a corpus of texts that have been sampled and stored electronically, and a concordancer, which is a search engine designed for linguistic analysis. Some tools have been specifically created for data-driven learning, such as SkELL, WriteBetter, and Micro-concord. Micro-concord was the first significant software designed for classroom use. It was developed for the MS-DOS microcomputers by Tim Johns and Mike Scott and published for DOS computers in 1993 by OUP. It evolved into the widely-used WordSmith Tools. Johns (1936 – 2009) pioneered data-driven learning and coined the term. It first appeared in an article, Should you be persuaded: Two examples of data-driven learning (1991). His paper, From Printout to Handout, is reprinted and discussed at length in Volume 2 of Hubbard's Computer-Assisted Language Learning. Thomas' task-based Discovering English with Sketch Engine exemplifies DDL and acknowledges Johns throughout. Other recent books on DDL which credit Johns as the originator of the approach include those by Anderson and Corbett (2009), Reppen (2010), Bennett (2010), Flowerdew (2012), Boulton and Tyne (2014), and Friginal (2018). Johns worked at the English for Overseas Students Unit of Birmingham University from 1971 till the end of his career. This was while John Sinclair led a large team of linguists at Birmingham University working on the COBUILD project which delivered the first major corpus-based dictionaries and grammars of English for foreign students. COBUILD however, never tasked students with exploring language data themselves. Johns' referred to his specific DDL approach as kibitzing: when he returned his students' written work, together they would explore the errors using corpus data. A selection of these Kibbitzer tutorials are accessible on Mike Scott’s website. Despite the widespread awareness of corpora among the major movers and shakers in foreign language teaching, DDL is not widely embraced by its practitioners. One of the main reasons for this is the incompatibility of views on language and language learning: traditional language teachers and textbooks have a prescriptive view of language treating it as a system of rules to be memorised, engaging only lower order thinking skills. A descriptive view of language permits the observation of language patterns and outliers that exist in language itself. DDL positions students to use higher order thinking skills to learn how to learn to make and learn from their own observations. Such guided discovery leads to fuzzy results, which are incompatible with prescriptive linguistics and teaching. There is a considerable body of research conducted into DDL as evidenced by the professional bodies, books, journal articles and conference presentations. TaLC (Teaching and Language Corpora) is a biennial conference that is a platform for corpus-based research that has a pedagogical focus. CorpusCALL is a special interest group within EuroCALL and is mostly active through its Facebook group. The online teaching journal, Humanising Language Teaching hosts a section called Corpus Ideas. References[edit] ↑ Johns, Tim (1991). \"Chapter 2: Should you be persuaded: Two examples of data-driven learning\" (PDF). Classroom Concordancing. Birmingham: ELR. ↑ Johns, Tim. \"From Printout to Handout: Grammar and Vocabulary Teaching in the Context of Data-Driven Learning\". ELR Journal (Birmingham), Vol. 4, 1991. ↑ Hubbard, Philip. Computer-Assisted Language Learning. Routledge, 2009. ↑ Thomas, James. Discovering English with Sketch Engine. VERSATILE, 2016. ↑ Anderson, W., & Corbett, J. Exploring English with online corpora. London: Palgrave Macmillan, 2009. ↑ Reppen, R. Using corpora in the classroom. Cambridge: Cambridge University Press, 2010. ↑ Bennett, G. Using corpora in the language learning classroom: Corpus linguistics for teachers. Michigan: University of Michigan Press, 2010. ↑ Flowerdew, L. Corpora and language education. Basingstoke: Palgrave Macmillan, 2012. ↑ Boulton, A., & H. Tyne. Des documents authentiques aux corpus: Démarches pour l’apprentissage des langues. Paris: Didier, 2014. ↑ Friginal, E. Corpus linguistics for English teachers: Tools, online resources, and classroom activities. Abingdon/New York: Routledge, 2018. <img src=\"https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1\" alt=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"> Retrieved from \"https://en.wikipedia.org/w/index.php?title=Data-driven_learning&oldid=1223178041\" Category: Learning methods",
+          "fetchedAt": "2026-09-17T13:38:37.491Z",
+          "title": "Data-driven learning - Wikipedia",
+          "status": "ok",
+          "contentLength": 5730,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "From Wikipedia, the free encyclopedia Data-driven learning (DDL) is an approach to foreign language learning. Whereas most language learning is guided by teachers and textbooks, data-driven learning treats language as data and students as researchers undertaking guided discovery tasks. Underpinning this pedagogical approach is the data - information - knowledge paradigm (see DIKW pyramid). It is informed by a pattern-based approach to grammar and vocabulary, and a lexicogrammatical approach to language in general. Thus the basic task in DDL is to identify patterns at all levels of language. From their findings, foreign language students can see how an aspect of language is typically used, which in turn informs how they can use it in their own speaking and writing. Learning how to frame language questions and use the resources to obtain data and interpret it is fundamental to learner autonomy. When students arrive at their own conclusions through such procedures, they use their higher order thinking skills (see Bloom's taxonomy) and are creating knowledge (see Vygotsky). In DDL, students use the same types of tools that professional linguists use, namely a corpus of texts that have been sampled and stored electronically, and a concordancer, which is a search engine designed for linguistic analysis. Some tools have been specifically created for data-driven learning, such as SkELL, WriteBetter, and Micro-concord. Micro-concord was the first significant software designed for classroom use. It was developed for the MS-DOS microcomputers by Tim Johns and Mike Scott and published for DOS computers in 1993 by OUP. It evolved into the widely-used WordSmith Tools. Johns (1936 – 2009) pioneered data-driven learning and coined the term. It first appeared in an article, Should you be persuaded: Two examples of data-driven learning (1991). His paper, From Printout to Handout, is reprinted and discussed at length in Volume 2 of Hubbard's Computer-Assisted Language Learning. Thomas' task-based Discovering English with Sketch Engine exemplifies DDL and acknowledges Johns throughout. Other recent books on DDL which credit Johns as the originator of the approach include those by Anderson and Corbett (2009), Reppen (2010), Bennett (2010), Flowerdew (2012), Boulton and Tyne (2014), and Friginal (2018). Johns worked at the English for Overseas Students Unit of Birmingham University from 1971 till the end of his career. This was while John Sinclair led a large team of linguists at Birmingham University working on the COBUILD project which delivered the first major corpus-based dictionaries and grammars of English for foreign students. COBUILD however, never tasked students with exploring language data themselves. Johns' referred to his specific DDL approach as kibitzing: when he returned his students' written work, together they would explore the errors using corpus data. A selection of these Kibbitzer tutorials are accessible on Mike Scott’s website. Despite the widespread awareness of corpora among the major movers and shakers in foreign language teaching, DDL is not widely embraced by its practitioners. One of the main reasons for this is the incompatibility of views on language and language learning: traditional language teachers and textbooks have a prescriptive view of language treating it as a system of rules to be memorised, engaging only lower order thinking skills. A descriptive view of language permits the observation of language patterns and outliers that exist in language itself. DDL positions students to use higher order thinking skills to learn how to learn to make and learn from their own observations. Such guided discovery leads to fuzzy results, which are incompatible with prescriptive linguistics and teaching. There is a considerable body of research conducted into DDL as evidenced by the professional bodies, books, journal articles and conference presentations. TaLC (Teaching and Language Corpora) is a biennial conference that is a platform for corpus-based research that has a pedagogical focus. CorpusCALL is a special interest group within EuroCALL and is mostly active through its Facebook group. The online teaching journal, Humanising Language Teaching hosts a section called Corpus Ideas. References[edit] ↑ Johns, Tim (1991). \"Chapter 2: Should you be persuaded: Two examples of data-driven learning\" (PDF). Classroom Concordancing. Birmingham: ELR. ↑ Johns, Tim. \"From Printout to Handout: Grammar and Vocabulary Teaching in the Context of Data-Driven Learning\". ELR Journal (Birmingham), Vol. 4, 1991. ↑ Hubbard, Philip. Computer-Assisted Language Learning. Routledge, 2009. ↑ Thomas, James. Discovering English with Sketch Engine. VERSATILE, 2016. ↑ Anderson, W., & Corbett, J. Exploring English with online corpora. London: Palgrave Macmillan, 2009. ↑ Reppen, R. Using corpora in the classroom. Cambridge: Cambridge University Press, 2010. ↑ Bennett, G. Using corpora in the language learning classroom: Corpus linguistics for teachers. Michigan: University of Michigan Press, 2010. ↑ Flowerdew, L. Corpora and language education. Basingstoke: Palgrave Macmillan, 2012. ↑ Boulton, A., & H. Tyne. Des documents authentiques aux corpus: Démarches pour l’apprentissage des langues. Paris: Didier, 2014. ↑ Friginal, E. Corpus linguistics for English teachers: Tools, online resources, and classroom activities. Abingdon/New York: Routledge, 2018. <img src=\"https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1\" alt=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"> Retrieved from \"https://en.wikipedia.org/w/index.php?title=Data-driven_learning&oldid=1223178041\" Category: Learning methods"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7",
+          "content": "IntroductionRule-based systems (also known as production systems or expert systems) are the simplest form of artificial intelligence. A rule based system uses rules as the knowledge representation for knowledge coded into the system [1][3][4] [13][14][16][17][18][20]. The definitions of rule-based system depend almost entirely on expert systems, which are system that mimic the reasoning of human expert in solving a knowledge intensive problem. Instead of representing knowledge in a declarative, static way as a set of things which are true, rule-based system represent knowledge in terms of a set of rules that tells what to do or what to conclude in different situations. This is a preview of subscription content, log in via an institution to check access. Access this chapter Log in via an institution Institutional subscriptions Preview Unable to display preview. Download preview PDF. Unable to display preview. Download preview PDF. Similar content being viewed by others Rule-Based Expert Systems Chapter © 2023 Model Explainability for Rule-Based Expert Systems Chapter © 2022 Knowledge Engineering with Rules Chapter © 2018 Explore related subjects Discover the latest articles, books and news in related subjects, suggested using machine learning. Logic in AI Special Purpose and Application-Based Systems Computational Intelligence Knowledge Based Systems Philosophy of Artificial Intelligence Multiagent Systems ReferencesLigęza, A.: Logical Foundations for Rule-based Systems, 2nd edn. Springer, Heidelberg (2006)MATH Google Scholar http://www.billbreitmayer.com/rule_based_systems/rule_based_design.html (accessed on February 10, 2011) Durkin, J.: Expert Systems: Design and Development. Prentice Hall, New York (1994)MATH Google Scholar Durkin, J.: Expert Systems: Catalog of Applications. Intelligent Computer Systems, Inc., Akron (1993) Google Scholar Firebaugh, M.W.: Artificial Intelligence, A Knowledge-Based Approach. PWS-Kent Publishing Company (1993) Google Scholar http://www.j-paine.org/students/lectures/ (accessed on February 10, 2011) Winston, P.H.: Artificial Intelligence, 3rd edn. Addison-Wesley, Reading (1992) Google Scholar Goodall, A.: Guide to Expert Systems. Information Today Inc. (1985) Google Scholar Lederberg, J.: How Dendral was conceived and born. In: ACM Symposium on the History of Medical Informatics. National Library of Medicine, Rockefeller University (1987) Google Scholar Crevier, D.: AI: The Tumultuous History of the Search for Artificial Intelligence. Basic Books, London (1993) Google Scholar Negnevitsky, M.: Artificial intelligence: a guide to intelligent systems. Addison-Wesley, Reading (2002) Google Scholar Coppin, B.: Artificial Intelligence Illuminated. Jones and Bartlett Publishers Inc., USA (2004) Google Scholar Nikolopoulos, C.: Expert Systems – Introduction to First and Second Generation and Hybrid Knowledge Based Systems. CRC, Boca Raton (1997) Google Scholar Lindsay, S.: Practical Applications of Expert Systems. John Wiley & Sons Inc., Chichester (1988) Google Scholar Buchanan, B.G., Shortliffe, E.H.: Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project. Addison-Wesley, Reading (1984) Google Scholar Giarratano, J.C.: Expert Systems: Principles and Programming. Brooks Cole, Pacific Grove (1998) Google Scholar Jackson, P.: Introduction to Expert Systems. Addison-Wesley, Reading (1999) Google Scholar Kidd, A.L.: Knowledge Acquisition for Expert Systems: A Practical Handbook. Plenum Publishing Corporation, New York (1987) Google Scholar Levesque, H.J., Lakemeyer, G.: The logic of knowledge bases. MIT Press, Cambridge (2001)MATH Google Scholar Durkin, J.: Expert systems design and development. Prentice Hall, Englewood Cliffs (1994)MATH Google Scholar Castillo, E., Alvarez, E.: Expert systems: uncertainty and learning. Elsevier Science publishing Company, New York (1991) Google Scholar Download referencesAuthorsCrina GrosanView author publicationsSearch author on:PubMed Google ScholarAjith AbrahamView author publicationsSearch author on:PubMed Google Scholar Rights and permissionsReprints and permissions Copyright information© 2011 Springer-Verlag Berlin Heidelberg About this chapterCite this chapterGrosan, C., Abraham, A. (2011). Rule-Based Expert Systems. In: Intelligent Systems. Intelligent Systems Reference Library, vol 17. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-21004-4_7Download citation.RIS.ENW.BIBDOI: https://doi.org/10.1007/978-3-642-21004-4_7 Publisher Name: Springer, Berlin, Heidelberg Print ISBN: 978-3-642-21003-7 Online ISBN: 978-3-642-21004-4eBook Packages: EngineeringEngineering (R0)KeywordsExpert SystemRule ApplicationRoot TypeLife TypeForward ChainThese keywords were added by machine and not by the authors. This process is experimental and the keywords may be updated as the learning algorithm improves. Publish with usPolicies and ethics Profiles Crina Grosan View author profile",
+          "fetchedAt": "2026-09-17T13:38:37.493Z",
+          "title": "Rule-Based Expert Systems | Springer Nature Link",
+          "status": "ok",
+          "contentLength": 4972,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "IntroductionRule-based systems (also known as production systems or expert systems) are the simplest form of artificial intelligence. A rule based system uses rules as the knowledge representation for knowledge coded into the system [1][3][4] [13][14][16][17][18][20]. The definitions of rule-based system depend almost entirely on expert systems, which are system that mimic the reasoning of human expert in solving a knowledge intensive problem. Instead of representing knowledge in a declarative, static way as a set of things which are true, rule-based system represent knowledge in terms of a set of rules that tells what to do or what to conclude in different situations. This is a preview of subscription content, log in via an institution to check access. Access this chapter Log in via an institution Institutional subscriptions Preview Unable to display preview. Download preview PDF. Unable to display preview. Download preview PDF. Similar content being viewed by others Rule-Based Expert Systems Chapter © 2023 Model Explainability for Rule-Based Expert Systems Chapter © 2022 Knowledge Engineering with Rules Chapter © 2018 Explore related subjects Discover the latest articles, books and news in related subjects, suggested using machine learning. Logic in AI Special Purpose and Application-Based Systems Computational Intelligence Knowledge Based Systems Philosophy of Artificial Intelligence Multiagent Systems ReferencesLigęza, A.: Logical Foundations for Rule-based Systems, 2nd edn. Springer, Heidelberg (2006)MATH Google Scholar http://www.billbreitmayer.com/rule_based_systems/rule_based_design.html (accessed on February 10, 2011) Durkin, J.: Expert Systems: Design and Development. Prentice Hall, New York (1994)MATH Google Scholar Durkin, J.: Expert Systems: Catalog of Applications. Intelligent Computer Systems, Inc., Akron (1993) Google Scholar Firebaugh, M.W.: Artificial Intelligence, A Knowledge-Based Approach. PWS-Kent Publishing Company (1993) Google Scholar http://www.j-paine.org/students/lectures/ (accessed on February 10, 2011) Winston, P.H.: Artificial Intelligence, 3rd edn. Addison-Wesley, Reading (1992) Google Scholar Goodall, A.: Guide to Expert Systems. Information Today Inc. (1985) Google Scholar Lederberg, J.: How Dendral was conceived and born. In: ACM Symposium on the History of Medical Informatics. National Library of Medicine, Rockefeller University (1987) Google Scholar Crevier, D.: AI: The Tumultuous History of the Search for Artificial Intelligence. Basic Books, London (1993) Google Scholar Negnevitsky, M.: Artificial intelligence: a guide to intelligent systems. Addison-Wesley, Reading (2002) Google Scholar Coppin, B.: Artificial Intelligence Illuminated. Jones and Bartlett Publishers Inc., USA (2004) Google Scholar Nikolopoulos, C.: Expert Systems – Introduction to First and Second Generation and Hybrid Knowledge Based Systems. CRC, Boca Raton (1997) Google Scholar Lindsay, S.: Practical Applications of Expert Systems. John Wiley & Sons Inc., Chichester (1988) Google Scholar Buchanan, B.G., Shortliffe, E.H.: Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project. Addison-Wesley, Reading (1984) Google Scholar Giarratano, J.C.: Expert Systems: Principles and Programming. Brooks Cole, Pacific Grove (1998) Google Scholar Jackson, P.: Introduction to Expert Systems. Addison-Wesley, Reading (1999) Google Scholar Kidd, A.L.: Knowledge Acquisition for Expert Systems: A Practical Handbook. Plenum Publishing Corporation, New York (1987) Google Scholar Levesque, H.J., Lakemeyer, G.: The logic of knowledge bases. MIT Press, Cambridge (2001)MATH Google Scholar Durkin, J.: Expert systems design and development. Prentice Hall, Englewood Cliffs (1994)MATH Google Scholar Castillo, E., Alvarez, E.: Expert systems: uncertainty and learning. Elsevier Science publishing Company, New York (1991) Google Scholar Download referencesAuthorsCrina GrosanView author publicationsSearch author on:PubMed Google ScholarAjith AbrahamView author publicationsSearch author on:PubMed Google Scholar Rights and permissionsReprints and permissions Copyright information© 2011 Springer-Verlag Berlin Heidelberg About this chapterCite this chapterGrosan, C., Abraham, A. (2011). Rule-Based Expert Systems. In: Intelligent Systems. Intelligent Systems Reference Library, vol 17. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-21004-4_7Download citation.RIS.ENW.BIBDOI: https://doi.org/10.1007/978-3-642-21004-4_7 Publisher Name: Springer, Berlin, Heidelberg Print ISBN: 978-3-642-21003-7 Online ISBN: 978-3-642-21004-4eBook Packages: EngineeringEngineering (R0)KeywordsExpert SystemRule ApplicationRoot TypeLife TypeForward ChainThese keywords were added by machine and not by the authors. This process is experimental and the keywords may be updated as the learning algorithm improves. Publish with usPolicies and ethics Profiles Crina Grosan View author profile"
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://oes.vn/data-driven-learning-trong-giao-duc/",
+          "tieuDe": "Ứng dụng Data Driven Learning trong giáo dục hiệu quả",
+          "tacGia": "Thai Hai",
+          "toChuc": "OES - CÔNG TY DỊCH VỤ E-LEARNING HÀNG ĐẦU VIỆT NAM",
+          "ngayDang": "2026-02-27T02:58:14+00:00",
+          "ngayLayVe": "2026-09-17T13:38:36.789Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ công ty dịch vụ e-learning, mang tính thương mại và giáo dục phổ thông, không phải công trình nghiên cứu học thuật chuyên sâu về AI.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng trong tương lai (2026), có thể là lỗi hệ thống hoặc dữ liệu giả lập."
+          ],
+          "doanTrich": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/Data-driven_learning",
+          "tieuDe": "Data-driven learning - Wikipedia",
+          "ngayLayVe": "2026-09-17T13:38:37.491Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Wikipedia là bách khoa toàn thư mở, độ tin cậy trung bình nhưng ở đây nội dung tập trung vào 'Data-driven learning' trong ngữ cảnh ngôn ngữ học (foreign language learning), không phải học máy (machine learning) hay AI như chủ đề yêu cầu.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Sai ngữ cảnh: Bài viết nói về phương pháp học ngoại ngữ dựa trên dữ liệu (corpus), không phải về cách mô hình AI học từ ví dụ (machine learning).",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Data-driven learning (DDL) is an approach to foreign language learning.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7",
+          "tieuDe": "Rule-Based Expert Systems | Springer Nature Link",
+          "toChuc": "SpringerLink",
+          "ngayLayVe": "2026-09-17T13:38:37.493Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nguồn xuất bản học thuật uy tín (Springer), cung cấp định nghĩa chính xác về hệ thống dựa trên quy tắc (rule-based systems), giúp phân biệt rõ với học từ dữ liệu.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn cũ (2011), nhưng kiến thức nền tảng về rule-based systems vẫn ổn định và chính xác.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+          "tieuDe": "https://www.cambridge.org/core/elements/datadriven-learning-in-and-out-of-the-language-classroom/CAD6EDF4FFDAB24EA501DF73FB819DF6",
+          "ngayLayVe": "2026-09-17T13:38:36.787Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 429 Too Many Requests",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n05",
+          "url": "https://www.sciencedirect.com/topics/engineering/rule-based-system",
+          "tieuDe": "https://www.sciencedirect.com/topics/engineering/rule-based-system",
+          "ngayLayVe": "2026-09-17T13:38:36.788Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/rule-based-system-in-ai/",
+          "tieuDe": "Rule-Based System in AI - GeeksforGeeks",
+          "ngayLayVe": "2026-09-17T13:38:37.490Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "toChuc": "GeeksforGeeks",
+          "ngayDang": "2024-08-27 18:36:08+00:00",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n02",
+        "n04",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Hệ thống dựa trên quy tắc (rule-based systems) biểu diễn kiến thức dưới dạng các quy tắc chỉ ra cách hành động hoặc kết luận trong các tình huống cụ thể, thay vì học từ dữ liệu.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+              "viTri": "Đoạn mở đầu của chương"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Data Driven Learning (DDL) trong giáo dục là mô hình dựa trên dữ liệu thực tế của người học, nơi mọi quyết định xuất phát từ thông tin hành vi và kết quả, thay vì cảm tính.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.",
+              "viTri": "Đoạn giới thiệu khái niệm DDL"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Lưu ý: Nguồn n01 dùng thuật ngữ DDL cho giáo dục, trong khi n02 dùng cho ngôn ngữ học. Tuy nhiên, cả hai đều nhấn mạnh việc dựa trên dữ liệu thực tế thay vì quy tắc cứng nhắc, phù hợp để minh họa sự khác biệt với rule-based."
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://oes.vn/data-driven-learning-trong-giao-duc/\",\n      \"tieuDe\": \"Ứng dụng Data Driven Learning trong giáo dục hiệu quả\",\n      \"tacGia\": \"Thai Hai\",\n      \"toChuc\": \"OES - CÔNG TY DỊCH VỤ E-LEARNING HÀNG ĐẦU VIỆT NAM\",\n      \"ngayDang\": \"2026-02-27\",\n      \"ngayLayVe\": \"2026-09-17T13:38:36.789Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ công ty dịch vụ e-learning, mang tính thương mại và giáo dục phổ thông, không phải công trình nghiên cứu học thuật chuyên sâu về AI.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng trong tương lai (2026), có thể là lỗi hệ thống hoặc dữ liệu giả lập.\"\n      ],\n      \"doanTrich\": \"Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/Data-driven_learning\",\n      \"tieuDe\": \"Data-driven learning - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:38:37.491Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Wikipedia là bách khoa toàn thư mở, độ tin cậy trung bình nhưng ở đây nội dung tập trung vào 'Data-driven learning' trong ngữ cảnh ngôn ngữ học (foreign language learning), không phải học máy (machine learning) hay AI như chủ đề yêu cầu.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Sai ngữ cảnh: Bài viết nói về phương pháp học ngoại ngữ dựa trên dữ liệu (corpus), không phải về cách mô hình AI học từ ví dụ (machine learning).\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Data-driven learning (DDL) is an approach to foreign language learning.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7\",\n      \"tieuDe\": \"Rule-Based Expert Systems | Springer Nature Link\",\n      \"tacGia\": \"Crina Grosan, Ajith Abraham\",\n      \"toChuc\": \"Springer\",\n      \"ngayDang\": \"2011-01-01\",\n      \"ngayLayVe\": \"2026-09-17T13:38:37.493Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn xuất bản học thuật uy tín (Springer), cung cấp định nghĩa chính xác về hệ thống dựa trên quy tắc (rule-based systems), giúp phân biệt rõ với học từ dữ liệu.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn cũ (2011), nhưng kiến thức nền tảng về rule-based systems vẫn ổn định và chính xác.\"\n      ],\n      \"doanTrich\": \"A rule based system uses rules as the knowledge representation for knowledge coded into the system\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Hệ thống dựa trên quy tắc (rule-based systems) biểu diễn kiến thức dưới dạng các quy tắc chỉ ra cách hành động hoặc kết luận trong các tình huống cụ thể, thay vì học từ dữ liệu.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"A rule based system uses rules as the knowledge representation for knowledge coded into the system\",\n          \"viTri\": \"Đoạn mở đầu của chương\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Data Driven Learning (DDL) trong giáo dục là mô hình dựa trên dữ liệu thực tế của người học, nơi mọi quyết định xuất phát từ thông tin hành vi và kết quả, thay vì cảm tính.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.\",\n          \"viTri\": \"Đoạn giới thiệu khái niệm DDL\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Lưu ý: Nguồn n01 dùng thuật ngữ DDL cho giáo dục, trong khi n02 dùng cho ngôn ngữ học. Tuy nhiên, cả hai đều nhấn mạnh việc dựa trên dữ liệu thực tế thay vì quy tắc cứng nhắc, phù hợp để minh họa sự khác biệt với rule-based.\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-ad19548b-c47d-458c-a8f0-2ec08c100f2e",
+          "durationMs": 3372,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://oes.vn/data-driven-learning-trong-giao-duc/\",\n      \"tieuDe\": \"Ứng dụng Data Driven Learning trong giáo dục hiệu quả\",\n      \"tacGia\": \"Thai Hai\",\n      \"toChuc\": \"OES - CÔNG TY DỊCH VỤ E-LEARNING HÀNG ĐẦU VIỆT NAM\",\n      \"ngayDang\": \"2026-02-27\",\n      \"ngayLayVe\": \"2026-09-17T13:38:36.789Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ công ty dịch vụ e-learning, mang tính thương mại và giáo dục phổ thông, không phải công trình nghiên cứu học thuật chuyên sâu về AI.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Ngày đăng trong tương lai (2026), có thể là lỗi hệ thống hoặc dữ liệu giả lập.\"\n      ],\n      \"doanTrich\": \"Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/Data-driven_learning\",\n      \"tieuDe\": \"Data-driven learning - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:38:37.491Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Wikipedia là bách khoa toàn thư mở, độ tin cậy trung bình nhưng ở đây nội dung tập trung vào 'Data-driven learning' trong ngữ cảnh ngôn ngữ học (foreign language learning), không phải học máy (machine learning) hay AI như chủ đề yêu cầu.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Sai ngữ cảnh: Bài viết nói về phương pháp học ngoại ngữ dựa trên dữ liệu (corpus), không phải về cách mô hình AI học từ ví dụ (machine learning).\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Data-driven learning (DDL) is an approach to foreign language learning.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7\",\n      \"tieuDe\": \"Rule-Based Expert Systems | Springer Nature Link\",\n      \"tacGia\": \"Crina Grosan, Ajith Abraham\",\n      \"toChuc\": \"Springer\",\n      \"ngayDang\": \"2011-01-01\",\n      \"ngayLayVe\": \"2026-09-17T13:38:37.493Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn xuất bản học thuật uy tín (Springer), cung cấp định nghĩa chính xác về hệ thống dựa trên quy tắc (rule-based systems), giúp phân biệt rõ với học từ dữ liệu.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn cũ (2011), nhưng kiến thức nền tảng về rule-based systems vẫn ổn định và chính xác.\"\n      ],\n      \"doanTrich\": \"A rule based system uses rules as the knowledge representation for knowledge coded into the system\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Hệ thống dựa trên quy tắc (rule-based systems) biểu diễn kiến thức dưới dạng các quy tắc chỉ ra cách hành động hoặc kết luận trong các tình huống cụ thể, thay vì học từ dữ liệu.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"A rule based system uses rules as the knowledge representation for knowledge coded into the system\",\n          \"viTri\": \"Đoạn mở đầu của chương\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Data Driven Learning (DDL) trong giáo dục là mô hình dựa trên dữ liệu thực tế của người học, nơi mọi quyết định xuất phát từ thông tin hành vi và kết quả, thay vì cảm tính.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.\",\n          \"viTri\": \"Đoạn giới thiệu khái niệm DDL\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Lưu ý: Nguồn n01 dùng thuật ngữ DDL cho giáo dục, trong khi n02 dùng cho ngôn ngữ học. Tuy nhiên, cả hai đều nhấn mạnh việc dựa trên dữ liệu thực tế thay vì quy tắc cứng nhắc, phù hợp để minh họa sự khác biệt với rule-based.\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 12048
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Cách một mô hình học từ ví dụ",
+      "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+      "thoiLuong": "3 phút",
+      "nguoiHoc": "Học sinh cấp ba",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.",
+          "chuTrenManHinh": "Chào các em",
+          "yDoHinh": "Hình ảnh một lớp học vui vẻ",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.",
+          "chuTrenManHinh": "Rule-based system",
+          "yDoHinh": "Biểu đồ quy tắc dạng cây",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.",
+          "chuTrenManHinh": "Data Driven Learning",
+          "yDoHinh": "Biểu đồ dữ liệu học sinh",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.",
+          "chuTrenManHinh": "So sánh quy tắc vs dữ liệu",
+          "yDoHinh": "So sánh hai biểu đồ",
+          "nguon": [
+            "t01",
+            "t02"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.",
+          "chuTrenManHinh": "Ví dụ thực tế",
+          "yDoHinh": "Ví dụ thực tế: bảng dữ liệu",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789652328448",
+      "timestamp": "2026-09-17T13:38:48.448Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Cách một mô hình học từ ví dụ",
+        "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "targetAudience": "Học sinh cấp ba",
+        "videoDuration": "3 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N03"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://oes.vn/data-driven-learning-trong-giao-duc/",
+          "tieuDe": "Ứng dụng Data Driven Learning trong giáo dục hiệu quả",
+          "tacGia": "Thai Hai",
+          "toChuc": "OES - CÔNG TY DỊCH VỤ E-LEARNING HÀNG ĐẦU VIỆT NAM",
+          "ngayDang": "2026-02-27T02:58:14+00:00",
+          "ngayLayVe": "2026-09-17T13:38:36.789Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ công ty dịch vụ e-learning, mang tính thương mại và giáo dục phổ thông, không phải công trình nghiên cứu học thuật chuyên sâu về AI.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng trong tương lai (2026), có thể là lỗi hệ thống hoặc dữ liệu giả lập."
+          ],
+          "doanTrich": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7",
+          "tieuDe": "Rule-Based Expert Systems | Springer Nature Link",
+          "toChuc": "SpringerLink",
+          "ngayLayVe": "2026-09-17T13:38:37.493Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Nguồn xuất bản học thuật uy tín (Springer), cung cấp định nghĩa chính xác về hệ thống dựa trên quy tắc (rule-based systems), giúp phân biệt rõ với học từ dữ liệu.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn cũ (2011), nhưng kiến thức nền tảng về rule-based systems vẫn ổn định và chính xác.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Hệ thống dựa trên quy tắc (rule-based systems) biểu diễn kiến thức dưới dạng các quy tắc chỉ ra cách hành động hoặc kết luận trong các tình huống cụ thể, thay vì học từ dữ liệu.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+              "viTri": "Đoạn mở đầu của chương"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Data Driven Learning (DDL) trong giáo dục là mô hình dựa trên dữ liệu thực tế của người học, nơi mọi quyết định xuất phát từ thông tin hành vi và kết quả, thay vì cảm tính.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.",
+              "viTri": "Đoạn giới thiệu khái niệm DDL"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Lưu ý: Nguồn n01 dùng thuật ngữ DDL cho giáo dục, trong khi n02 dùng cho ngôn ngữ học. Tuy nhiên, cả hai đều nhấn mạnh việc dựa trên dữ liệu thực tế thay vì quy tắc cứng nhắc, phù hợp để minh họa sự khác biệt với rule-based."
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Cách một mô hình học từ ví dụ",
+        "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "thoiLuong": "3 phút",
+        "nguoiHoc": "Học sinh cấp ba",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.",
+            "chuTrenManHinh": "Chào các em",
+            "yDoHinh": "Hình ảnh một lớp học vui vẻ",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.",
+            "chuTrenManHinh": "Rule-based system",
+            "yDoHinh": "Biểu đồ quy tắc dạng cây",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.",
+            "chuTrenManHinh": "Data Driven Learning",
+            "yDoHinh": "Biểu đồ dữ liệu học sinh",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.",
+            "chuTrenManHinh": "So sánh quy tắc vs dữ liệu",
+            "yDoHinh": "So sánh hai biểu đồ",
+            "nguon": [
+              "t01",
+              "t02"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.",
+            "chuTrenManHinh": "Ví dụ thực tế",
+            "yDoHinh": "Ví dụ thực tế: bảng dữ liệu",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] A rule based system uses rules as the knowledge representation for knowledge coded into the system"
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.",
+          "nguon": [
+            "t01",
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+            "[n01] Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách một mô hình học từ ví dụ\",\"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Học sinh cấp ba\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.\",\"chuTrenManHinh\":\"Chào các em\",\"yDoHinh\":\"Hình ảnh một lớp học vui vẻ\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.\",\"chuTrenManHinh\":\"Rule-based system\",\"yDoHinh\":\"Biểu đồ quy tắc dạng cây\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.\",\"chuTrenManHinh\":\"Data Driven Learning\",\"yDoHinh\":\"Biểu đồ dữ liệu học sinh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.\",\"chuTrenManHinh\":\"So sánh quy tắc vs dữ liệu\",\"yDoHinh\":\"So sánh hai biểu đồ\",\"nguon\":[\"t01\",\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.\",\"chuTrenManHinh\":\"Ví dụ thực tế\",\"yDoHinh\":\"Ví dụ thực tế: bảng dữ liệu\",\"nguon\":[]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-20b",
+          "requestId": "chatcmpl-917fef66-3e68-4ac1-83ad-767ff3bd5b7f",
+          "durationMs": 3148,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách một mô hình học từ ví dụ\",\"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Học sinh cấp ba\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.\",\"chuTrenManHinh\":\"Chào các em\",\"yDoHinh\":\"Hình ảnh một lớp học vui vẻ\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.\",\"chuTrenManHinh\":\"Rule-based system\",\"yDoHinh\":\"Biểu đồ quy tắc dạng cây\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.\",\"chuTrenManHinh\":\"Data Driven Learning\",\"yDoHinh\":\"Biểu đồ dữ liệu học sinh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.\",\"chuTrenManHinh\":\"So sánh quy tắc vs dữ liệu\",\"yDoHinh\":\"So sánh hai biểu đồ\",\"nguon\":[\"t01\",\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.\",\"chuTrenManHinh\":\"Ví dụ thực tế\",\"yDoHinh\":\"Ví dụ thực tế: bảng dữ liệu\",\"nguon\":[]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 3404
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-20b"
+  }
+}

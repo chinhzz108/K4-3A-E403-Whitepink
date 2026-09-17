@@ -1,0 +1,224 @@
+{
+  "id": "trace-script-1789652413441",
+  "timestamp": "2026-09-17T13:40:13.441Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Bản quyền và nội dung do AI tạo ra",
+    "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "targetAudience": "Sinh viên làm đồ án",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N05"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.copyright.gov/ai/",
+      "tieuDe": "Copyright and Artificial Intelligence | U.S. Copyright Office",
+      "tacGia": "U.S. Copyright Office",
+      "ngayLayVe": "2026-09-17T13:39:39.295Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Nguồn chính thức từ Văn phòng Bản quyền Hoa Kỳ, cơ quan quản lý pháp luật bản quyền liên bang.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.eff.org/deeplinks/2025/06/two-courts-rule-generative-ai-and-fair-use-one-gets-it-right",
+      "tieuDe": "Two Courts Rule On Generative AI and Fair Use — One Gets It Right | Electronic Frontier Foundation",
+      "tacGia": "Tori Noble",
+      "toChuc": "Electronic Frontier Foundation",
+      "ngayDang": "2025-06-26T12:22:26-07:00",
+      "ngayLayVe": "2026-09-17T13:39:39.296Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "EFF là tổ chức phi lợi nhuận uy tín về quyền kỹ thuật số, tuy nhiên bài viết mang tính phân tích và lập luận pháp lý, có thể chứa quan điểm chủ quan.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Văn phòng Bản quyền Hoa Kỳ đã công bố Phần 2 của báo cáo về Bản quyền và Trí tuệ nhân tạo vào ngày 29 tháng 1 năm 2025, tập trung vào khả năng được bảo hộ bản quyền của các đầu ra do AI tạo sinh.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+          "viTri": "Đoạn văn thứ 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Trong vụ án Bartz v. Anthropic, Thẩm phán William Alsup phán quyết rằng việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn (LLM) là một hành vi sử dụng hợp lý (fair use) mang tính chuyển đổi cao.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”",
+          "viTri": "Đoạn văn thứ 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Thông tin này chỉ được xác nhận bởi một nguồn (EFF), mặc dù EFF là tổ chức uy tín, nhưng đây là quan điểm pháp lý của họ về phán quyết tòa án, cần đối chiếu với văn bản phán quyết gốc để xác minh tuyệt đối."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+    "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên làm đồ án",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.",
+        "chuTrenManHinh": "Chào bạn sinh viên đồ án",
+        "yDoHinh": "Hình ảnh một bạn sinh viên đang bận rộn thiết kế đồ án bên máy tính",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.",
+        "chuTrenManHinh": "Bản quyền trí tuệ nhân tạo",
+        "yDoHinh": "Biểu tượng cán cân công lý bên cạnh biểu tượng mạng lưới não bộ nhân tạo",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.",
+        "chuTrenManHinh": "Vụ án Bartz và Anthropic",
+        "yDoHinh": "Hình ảnh phác họa phiên tòa giả lập với một mô hình rô-bốt đang đọc sách",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.",
+        "chuTrenManHinh": "Tránh rủi ro pháp lý đồ án",
+        "yDoHinh": "Đồ họa hiển thị một quyển đồ án tốt nghiệp được đóng dấu xanh an toàn",
+        "nguon": [
+          "t01",
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?",
+        "chuTrenManHinh": "Khi nào nên ghi nguồn?",
+        "yDoHinh": "Hình ảnh dấu hỏi chấm lớn màu vàng xuất hiện giữa màn hình kế bên tệp tài liệu",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.",
+      "nguon": [
+        "t01",
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Part 2 was published on January 29, 2025, and addresses the copyrightability of outputs created using generative AI.",
+        "[n02] Judge William Alsup confirmed what EFF has said for years: fair use protects the use of copyrighted works for training because, among other things, training gen-AI is “transformative—spectacularly so”"
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Bản quyền và nội dung do AI tạo ra\",\n  \"mucTieu\": \"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên làm đồ án\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.\",\n      \"chuTrenManHinh\": \"Chào bạn sinh viên đồ án\",\n      \"yDoHinh\": \"Hình ảnh một bạn sinh viên đang bận rộn thiết kế đồ án bên máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.\",\n      \"chuTrenManHinh\": \"Bản quyền trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Biểu tượng cán cân công lý bên cạnh biểu tượng mạng lưới não bộ nhân tạo\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.\",\n      \"chuTrenManHinh\": \"Vụ án Bartz và Anthropic\",\n      \"yDoHinh\": \"Hình ảnh phác họa phiên tòa giả lập với một mô hình rô-bốt đang đọc sách\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.\",\n      \"chuTrenManHinh\": \"Tránh rủi ro pháp lý đồ án\",\n      \"yDoHinh\": \"Đồ họa hiển thị một quyển đồ án tốt nghiệp được đóng dấu xanh an toàn\",\n      \"nguon\": [\n        \"t01\",\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?\",\n      \"chuTrenManHinh\": \"Khi nào nên ghi nguồn?\",\n      \"yDoHinh\": \"Hình ảnh dấu hỏi chấm lớn màu vàng xuất hiện giữa màn hình kế bên tệp tài liệu\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-c753a27b-8e01-4fc7-b1a2-521e2f464676",
+      "durationMs": 5872,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Bản quyền và nội dung do AI tạo ra\",\"mucTieu\":\"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Sinh viên làm đồ án\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá vấn đề bản quyền trong nội dung do trí tuệ nhân tạo tạo ra\",\"chuTrenManHinh\":\"Tiêu đề video\",\"yDoHinh\":\"Màn hình hiển thị tiêu đề và biểu tượng AI\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Văn phòng Bản quyền Hoa Kỳ đã công bố Phần hai của báo cáo vào ngày ba mươi hai tháng một năm hai nghìn hai mươi năm, đề cập đến khả năng bảo hộ bản quyền cho các đầu ra do AI tạo sinh\",\"chuTrenManHinh\":\"Báo cáo Phần hai\",\"yDoHinh\":\"Ảnh bìa báo cáo của Văn phòng Bản quyền Hoa Kỳ\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Theo quyết định của Thẩm phán William Alsup, việc sử dụng các tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn được xem là sử dụng hợp lý và mang tính chuyển đổi cao\",\"chuTrenManHinh\":\"Quyết định tòa án\",\"yDoHinh\":\"Biểu đồ minh họa quá trình huấn luyện AI với dữ liệu có bản quyền\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy khi nào chúng ta cần ghi nguồn cho nội dung do AI tạo ra và khi nào có thể sử dụng mà không cần ghi nguồn\",\"chuTrenManHinh\":\"Câu hỏi chính\",\"yDoHinh\":\"Biểu tượng dấu hỏi và hình ảnh AI\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Như cả báo cáo của Văn phòng Bản quyền Hoa Kỳ và phán quyết của Thẩm phán Alsup đã chỉ ra, việc cân nhắc quyền ghi nguồn và tính chuyển đổi là yếu tố then chốt để tuân thủ luật bản quyền\",\"chuTrenManHinh\":\"Kết luận\",\"yDoHinh\":\"Hình ảnh cân bằng giữa AI và bản quyền\",\"nguon\":[\"t01\",\"t02\"]}]}",
+      "validationError": "Câu 4: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "durationMs": 18706,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Bản quyền và nội dung do AI tạo ra\",\n  \"mucTieu\": \"Biết được khi nào cần ghi nguồn và khi nào không được dùng\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên làm đồ án\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào các bạn sinh viên đang chuẩn bị thực hiện đồ án tốt nghiệp.\",\n      \"chuTrenManHinh\": \"Chào bạn sinh viên đồ án\",\n      \"yDoHinh\": \"Hình ảnh một bạn sinh viên đang bận rộn thiết kế đồ án bên máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo một tài liệu chưa được xác minh đầy đủ, Văn phòng Bản quyền Hoa Kỳ được cho là đã công bố phần hai của báo cáo vào ngày hai mươi chín tháng một năm hai nghìn hai mươi lăm, tập trung vào khả năng bảo hộ bản quyền của các sản phẩm tạo ra từ trí tuệ nhân tạo tạo sinh, hay còn gọi là generative AI.\",\n      \"chuTrenManHinh\": \"Bản quyền trí tuệ nhân tạo\",\n      \"yDoHinh\": \"Biểu tượng cán cân công lý bên cạnh biểu tượng mạng lưới não bộ nhân tạo\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, một nguồn tin đơn lẻ từ tổ chức bảo vệ quyền kỹ thuật số cũng cho biết, trong vụ án giữa Bartz và Anthropic, vị thẩm phán đã nhận định việc dùng tác phẩm có bản quyền để huấn luyện mô hình ngôn ngữ lớn là một hành vi sử dụng hợp lý, hay còn gọi là fair use.\",\n      \"chuTrenManHinh\": \"Vụ án Bartz và Anthropic\",\n      \"yDoHinh\": \"Hình ảnh phác họa phiên tòa giả lập với một mô hình rô-bốt đang đọc sách\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Dựa trên những cơ sở pháp lý đang dần hoàn thiện này, việc nắm rõ quy định về tính chuyển đổi và khả năng bảo hộ sẽ giúp các bạn tránh được những rủi ro pháp lý không đáng có khi thực hiện đồ án.\",\n      \"chuTrenManHinh\": \"Tránh rủi ro pháp lý đồ án\",\n      \"yDoHinh\": \"Đồ họa hiển thị một quyển đồ án tốt nghiệp được đóng dấu xanh an toàn\",\n      \"nguon\": [\n        \"t01\",\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để chúng ta biết chính xác khi nào cần ghi nguồn và khi nào tuyệt đối không được sử dụng các nội dung do trí tuệ nhân tạo tạo ra?\",\n      \"chuTrenManHinh\": \"Khi nào nên ghi nguồn?\",\n      \"yDoHinh\": \"Hình ảnh dấu hỏi chấm lớn màu vàng xuất hiện giữa màn hình kế bên tệp tài liệu\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 30112
+}

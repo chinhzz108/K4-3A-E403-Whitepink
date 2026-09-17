@@ -1,0 +1,220 @@
+{
+  "id": "trace-script-1789652948913",
+  "timestamp": "2026-09-17T13:49:08.913Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+    "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+    "targetAudience": "Người đi làm",
+    "videoDuration": "3 phút",
+    "evalRunId": "2026-09-17T13-48-52-017Z",
+    "evalCaseId": "N10"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+      "tieuDe": "Vietnam AI Market: Updates to 2025 - B-Company",
+      "tacGia": "B& Company",
+      "toChuc": "B-Company",
+      "ngayDang": "2026-01-22T14:09:41+00:00",
+      "ngayLayVe": "2026-09-17T13:48:55.886Z",
+      "loai": "bao-chi",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Commercial market research firm; data derived from internal reports; no independent verification",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "B-Company is a Japanese market research firm providing commercial reports",
+      "canhBao": [
+        "Cảnh báo: Dữ liệu có thể chưa được xác thực độc lập"
+      ],
+      "doanTrich": "Vietnam has emerged as one of the fastest–growing AI markets in Southeast Asia, ranking 5th in ASEAN in AI readiness with a score of 54.5 according to Oxford Insights.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://vietnamnews.vn/economy/1766061/ai-usage-widespread-in-viet-nam-but-literacy-gaps-persist-study.html",
+      "tieuDe": "AI usage widespread in Việt Nam, but literacy gaps persist: study",
+      "toChuc": "vietnamnews.vn",
+      "ngayLayVe": "2026-09-17T13:48:55.888Z",
+      "loai": "bao-chi",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Secondary source summarizing a study; no direct data; potential bias",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Vietnamnews.vn is a news outlet summarizing ASEAN Foundation research",
+      "canhBao": [
+        "Cảnh báo: Dữ liệu là kết quả nghiên cứu của ASEAN Foundation; không phải dữ liệu doanh nghiệp",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Generative AI usage in Việt Nam is widespread, with 89.3 per cent of students and 81.9 per cent of educators reporting they use such tools, according to the AI Ready ASEAN Research.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+      "tieuDe": "Viet Nam ranks second in AI adoption rate in Southeast Asia",
+      "tacGia": "en.baochinhphu.vn",
+      "toChuc": "en.baochinhphu.vn",
+      "ngayDang": "2026-06-18T15:24:00+07:00",
+      "ngayLayVe": "2026-09-17T13:48:55.889Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Official government source citing Microsoft report; high credibility",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Official government portal reporting Microsoft Global AI Diffusion Report",
+      "canhBao": [
+        "Cảnh báo: Dữ liệu dựa trên báo cáo Microsoft; có thể chưa bao gồm tất cả doanh nghiệp"
+      ],
+      "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "In the first quarter of 2026, Vietnam's AI adoption rate among enterprises reached 26.5%, according to the Global AI Diffusion Report released by Microsoft.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+          "viTri": "paragraph"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Số liệu từ trang 1 (73% doanh nghiệp đã áp dụng AI) khác với số liệu từ trang 3 (26.5% doanh nghiệp đã áp dụng AI) có thể do định nghĩa khác nhau hoặc dữ liệu cập nhật."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+    "mucTieu": "Nêu được con số cụ thể từ khảo sát đáng tin",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Người đi làm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn đến với video hôm nay!",
+        "chuTrenManHinh": "Chào mừng các bạn!",
+        "yDoHinh": "Logo kênh và tiêu đề video hiện lên",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo báo cáo toàn cầu về sự lan tỏa trí tuệ nhân tạo, tỷ lệ doanh nghiệp Việt Nam áp dụng AI trong quý đầu năm hai không bốn sáu đạt hai mươi sáu phẩy năm phần trăm.",
+        "chuTrenManHinh": "Biểu đồ tỷ lệ AI 2026",
+        "yDoHinh": "Biểu đồ cột hiển thị tỷ lệ 26.5% doanh nghiệp",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Điều này đặt Việt Nam ở vị trí thứ hai trong khu vực Đông Nam Á về mức độ áp dụng AI.",
+        "chuTrenManHinh": "Bản đồ ASEAN vị trí thứ hai",
+        "yDoHinh": "Bản đồ Đông Nam Á với Việt Nam nổi bật vị trí thứ hai",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn có nghĩ rằng xu hướng này sẽ tiếp tục tăng trong các quý tới không?",
+        "chuTrenManHinh": "Bạn nghĩ sao?",
+        "yDoHinh": "Cảnh quay người dẫn chuyện đặt câu hỏi",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, các nhà quản lý nên xem xét tích hợp AI vào quy trình kinh doanh để không bị tụt lại phía sau.",
+        "chuTrenManHinh": "Kết luận: tích hợp AI",
+        "yDoHinh": "Hình ảnh doanh nghiệp áp dụng AI trong thực tế",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn đến với video hôm nay!",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo báo cáo toàn cầu về sự lan tỏa trí tuệ nhân tạo, tỷ lệ doanh nghiệp Việt Nam áp dụng AI trong quý đầu năm hai không bốn sáu đạt hai mươi sáu phẩy năm phần trăm.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Điều này đặt Việt Nam ở vị trí thứ hai trong khu vực Đông Nam Á về mức độ áp dụng AI.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn có nghĩ rằng xu hướng này sẽ tiếp tục tăng trong các quý tới không?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, các nhà quản lý nên xem xét tích hợp AI vào quy trình kinh doanh để không bị tụt lại phía sau.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026\",\"mucTieu\":\"Nêu được con số cụ thể từ khảo sát đáng tin\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Người đi làm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn đến với video hôm nay!\",\"chuTrenManHinh\":\"Chào mừng các bạn!\",\"yDoHinh\":\"Logo kênh và tiêu đề video hiện lên\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo báo cáo toàn cầu về sự lan tỏa trí tuệ nhân tạo, tỷ lệ doanh nghiệp Việt Nam áp dụng AI trong quý đầu năm hai không bốn sáu đạt hai mươi sáu phẩy năm phần trăm.\",\"chuTrenManHinh\":\"Biểu đồ tỷ lệ AI 2026\",\"yDoHinh\":\"Biểu đồ cột hiển thị tỷ lệ 26.5% doanh nghiệp\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Điều này đặt Việt Nam ở vị trí thứ hai trong khu vực Đông Nam Á về mức độ áp dụng AI.\",\"chuTrenManHinh\":\"Bản đồ ASEAN vị trí thứ hai\",\"yDoHinh\":\"Bản đồ Đông Nam Á với Việt Nam nổi bật vị trí thứ hai\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn có nghĩ rằng xu hướng này sẽ tiếp tục tăng trong các quý tới không?\",\"chuTrenManHinh\":\"Bạn nghĩ sao?\",\"yDoHinh\":\"Cảnh quay người dẫn chuyện đặt câu hỏi\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Vì vậy, các nhà quản lý nên xem xét tích hợp AI vào quy trình kinh doanh để không bị tụt lại phía sau.\",\"chuTrenManHinh\":\"Kết luận: tích hợp AI\",\"yDoHinh\":\"Hình ảnh doanh nghiệp áp dụng AI trong thực tế\",\"nguon\":[\"t01\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-e5960857-968f-4e78-9955-0cc1a1d1d226",
+      "durationMs": 6097,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026\",\"mucTieu\":\"Nêu được con số cụ thể từ khảo sát đáng tin\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Người đi làm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn đến với video hôm nay!\",\"chuTrenManHinh\":\"Chào mừng các bạn!\",\"yDoHinh\":\"Logo kênh và tiêu đề video hiện lên\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo báo cáo toàn cầu về sự lan tỏa trí tuệ nhân tạo, tỷ lệ doanh nghiệp Việt Nam áp dụng AI trong quý đầu năm hai không bốn sáu đạt hai mươi sáu phẩy năm phần trăm.\",\"chuTrenManHinh\":\"Biểu đồ tỷ lệ AI 2026\",\"yDoHinh\":\"Biểu đồ cột hiển thị tỷ lệ 26.5% doanh nghiệp\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Điều này đặt Việt Nam ở vị trí thứ hai trong khu vực Đông Nam Á về mức độ áp dụng AI.\",\"chuTrenManHinh\":\"Bản đồ ASEAN vị trí thứ hai\",\"yDoHinh\":\"Bản đồ Đông Nam Á với Việt Nam nổi bật vị trí thứ hai\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn có nghĩ rằng xu hướng này sẽ tiếp tục tăng trong các quý tới không?\",\"chuTrenManHinh\":\"Bạn nghĩ sao?\",\"yDoHinh\":\"Cảnh quay người dẫn chuyện đặt câu hỏi\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Vì vậy, các nhà quản lý nên xem xét tích hợp AI vào quy trình kinh doanh để không bị tụt lại phía sau.\",\"chuTrenManHinh\":\"Kết luận: tích hợp AI\",\"yDoHinh\":\"Hình ảnh doanh nghiệp áp dụng AI trong thực tế\",\"nguon\":[\"t01\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 6100
+}

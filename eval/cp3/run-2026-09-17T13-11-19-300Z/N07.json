@@ -1,0 +1,1476 @@
+{
+  "case": {
+    "id": "N07",
+    "class": "thuong",
+    "input": {
+      "topic": "Fine-tuning so với prompt engineering",
+      "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+      "targetAudience": "Quản lý sản phẩm",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "So sánh hai phương pháp với ưu nhược điểm. Không quá kỹ thuật.",
+    "origin": "tự tạo — quyết định kỹ thuật phổ biến; không phải chatlog",
+    "passCriteria": "≥2 nguồn; so sánh rõ; phù hợp đối tượng quản lý",
+    "failCriteria": "Quá kỹ thuật; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+        "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+        "tacGia": "Ivan Belcic, Cole Stryker",
+        "ngayDang": "2025-02-07",
+        "ngayLayVe": "2026-09-17T13:14:17.782Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, so sánh khách quan các phương pháp.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+        "tieuDe": "To fine-tune or not to fine-tune",
+        "ngayLayVe": "2026-09-17T13:14:19.222Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Meta AI là nhà phát triển LLM lớn, cung cấp dữ liệu thực nghiệm cụ thể (số liệu độ chính xác) và phân tích kỹ thuật chi tiết về chi phí và hiệu quả.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Ngày đăng không rõ, cần kiểm tra thêm thời điểm công bố để đảm bảo tính cập nhật của số liệu.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://cloud.google.com/use-cases/fine-tuning-ai-models",
+        "tieuDe": "Fine-tuning LLMs: overview and guide | Google Cloud",
+        "toChuc": "Google Cloud",
+        "ngayLayVe": "2026-09-17T13:14:19.224Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Tài liệu chính thức từ Google Cloud, cung cấp hướng dẫn thực hành và tiêu chí kỹ thuật rõ ràng cho việc lựa chọn phương pháp.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Ngày đăng không rõ.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+        "tieuDe": "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+        "ngayLayVe": "2026-09-17T13:14:17.783Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n05",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+        "tieuDe": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+        "ngayLayVe": "2026-09-17T13:14:17.784Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "error",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+        "tieuDe": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+        "ngayLayVe": "2026-09-17T13:14:19.223Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Prompt engineering là phương pháp ít tốn kém và nhanh nhất, phù hợp cho các tác vụ mở hoặc khi cần linh hoạt, không yêu cầu đầu tư phần cứng tính toán thêm.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+            "viTri": "Đoạn 5"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Chỉ có một nguồn xác nhận trực tiếp về khía cạnh chi phí/tài nguyên thấp nhất so với 2 phương pháp còn lại."
+      },
+      {
+        "id": "t02",
+        "noiDung": "Fine-tuning nên được cân nhắc khi cần sửa các lỗi mà prompt engineering không thể khắc phục, đặc biệt là các trường hợp biên (edge cases) hoặc khi cần độ chính xác cao trên các nhiệm vụ cụ thể.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+            "viTri": "Đoạn 4"
+          },
+          {
+            "nguonId": "n03",
+            "doanTrich": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone",
+            "viTri": "Đoạn 3"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Fine-tuning có thể cải thiện đáng kể độ chính xác của mô hình trên các nhiệm vụ cụ thể, ví dụ: tăng độ chính xác phân tích cảm xúc từ 34% lên 85% hoặc từ 48% lên 73%.",
+        "loai": "so-lieu",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%. ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples.",
+            "viTri": "Đoạn 4"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Số liệu cụ thể chỉ được cung cấp bởi Meta AI, chưa có nguồn độc lập thứ hai xác nhận các con số này."
+      },
+      {
+        "id": "t04",
+        "noiDung": "Fine-tuning giúp giảm chi phí và độ trễ (latency) bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, đồng thời giảm nhu cầu về prompt dài.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality.",
+            "viTri": "Đoạn 5"
+          },
+          {
+            "nguonId": "n03",
+            "doanTrich": "Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request",
+            "viTri": "Đoạn 3"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "fine-tuning vs prompt engineering",
+      "when to fine-tune model"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789650865201",
+      "timestamp": "2026-09-17T13:14:25.201Z",
+      "phase": "research",
+      "input": {
+        "topic": "Fine-tuning so với prompt engineering",
+        "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-11-19-300Z",
+        "evalCaseId": "N07"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "RAG vs fine-tuning vs. prompt engineering",
+              "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+              "snippet": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase ...",
+              "position": 1
+            },
+            {
+              "title": "When is it best to use prompt engineering vs fine-tuning?",
+              "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+              "snippet": "As somebody who has been experimenting with GPT (both closed-source and open-source), I have been doing both of prompt engineering and fine-tuning. But ...",
+              "position": 2
+            },
+            {
+              "title": "Prompt Engineering vs. Fine-Tuning—Key Considerations ...",
+              "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+              "snippet": "Unlike fine-tuning, prompt engineering does not directly adjust the model's internal parameters. Instead, the process focuses on crafting and refining the input ...",
+              "position": 3
+            },
+            {
+              "title": "Prompt engineering vs fine-tuning: Understanding the pros ...",
+              "url": "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+              "snippet": "In short, while prompt engineering offers a quicker, cost-effective solution, fine-tuning provides deeper customization at the expense of resources and ...",
+              "position": 4
+            },
+            {
+              "title": "Prompt Engineering vs Fine-Tuning: Best LLM Choice",
+              "url": "https://factory.fpt.ai/ai-insights/prompt-engineering-vs-fine-tuning",
+              "snippet": "Prompt engineering changes the input given to the model, while fine-tuning changes how the model behaves after additional training. In practical ...",
+              "position": 5
+            }
+          ],
+          "query": "fine-tuning vs prompt engineering",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "When to Fine-Tune LLMs (and When Not To)",
+              "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+              "snippet": "TL;DR: Fine-tuning can solve specific, measurable problems: inconsistent outputs, bloated inference costs, prompts that are too complex, and ...",
+              "position": 1
+            },
+            {
+              "title": "To fine-tune or not to fine-tune - Meta AI",
+              "url": "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+              "snippet": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+              "position": 2
+            },
+            {
+              "title": "Fine-tuning LLMs: overview and guide",
+              "url": "https://cloud.google.com/use-cases/fine-tuning-ai-models",
+              "snippet": "Fine-tuning is the process of optimizing pre-trained AI models for specific tasks. Learn use cases, and how to fine-tune LLMs with Google Cloud.",
+              "position": 3
+            },
+            {
+              "title": "Model fine-tuning concepts - AI",
+              "url": "https://learn.microsoft.com/en-us/windows/ai/fine-tuning",
+              "snippet": "When to fine-tune. Fine-tuning works well when you have a small amount of data and want to improve your model's performance. By starting with a ...",
+              "position": 4
+            },
+            {
+              "title": "A Practical Guide to LLM Fine Tuning",
+              "url": "https://www.databricks.com/blog/llm-fine-tuning",
+              "snippet": "Fine tuning is the better choice when the target task requires the model to learn a new linguistic style, follow domain-specific conventions, or produce outputs ...",
+              "position": 5
+            }
+          ],
+          "query": "when to fine-tune model",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+          "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+          "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "https://cloud.google.com/use-cases/fine-tuning-ai-models",
+          "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+          "https://learn.microsoft.com/en-us/windows/ai/fine-tuning"
+        ],
+        "pagesRead": [
+          "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+          "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+          "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "https://cloud.google.com/use-cases/fine-tuning-ai-models"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "content": "RAG vs. fine-tuning vs. prompt engineering\n\nRAG vs. fine-tuning vs. prompt engineering\n\nPrompt engineering, fine-tuning and retrieval augmented generation (RAG) are three optimization methods that enterprises can use to get more value out of large language models (LLMs). All three optimize model behavior, but which one to use depends on the target use case and available resources.\n\nGenerative AI models are trained on massive pools of data, much of which is gleaned from the internet. Artificial intelligence developers do not typically have access to niche data, such as an enterprise’s proprietary and internal data. When organizations want to apply large language models (LLMs) to for specific needs, they need to tweak the way that the gen AI model works to produce the desired outputs and behavior.\n\nPrompt engineering, RAG and fine-tuning all help optimize an LLM’s outputs for target use cases. With them, data scientists can get better downstream performance, greater domain-specific accuracy and output that meets relevant formatting, language or regulatory requirements.\n\nThink beyond the prompts and get the full context\n\nStay ahead of the latest in industry news, AI tools and emerging trends in prompt engineering with the Think Newsletter. Plus, get access to new explainers, tutorials and expert insights—delivered straight to your inbox, twice weekly.\n\nWhat’s the difference between RAG, fine-tuning and prompt engineering?\n\nThe difference between prompt engineering, RAG and fine-tuning covers four primary areas of distinction:\n\nPrompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy.\n\nRAG, prompt engineering and fine-tuning have the same broad outcome: enhancing a model’s performance to maximize value for the enterprise that uses it. But more specifically, prompt engineering should lead a model to deliver the results the user wants. RAG aims to guide a model toward giving more relevant and accurate outputs.\n\nMeanwhile, a fine-tuned model is retrained on a focused set of external data to improve performance in specific use cases. The three methods are not mutually exclusive and are often combined for optimal outcomes.\n\nPrompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\n\nRAG requires data science expertise to organize enterprise datasets and construct the data pipelines that connect LLMs to those data sources. Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming.\n\nPrompt engineering is the most flexible and shines in open-ended situations with a potentially diverse array of outputs, such as when asking an LLM to generate content from scratch. Image, video and text generation success thrive on strong prompts.\n\nFine-tuning hones a model for highly focused work—when data scientists need a model to do one thing very well. RAG is an ideal solution where accurate, relevant, current information is paramount, such as with customer service chatbots.\n\nWhy are prompt engineering, RAG and fine-tuning important?\n\nPrompt engineering offers a range of methods for giving models explicit instructions on how to behave. With clear directives, model behavior can be more precisely sculpted without having to invest in resource-intensive retrieval systems or training.\n\nRAG plugs an LLM into proprietary real-time data that would otherwise be inaccessible to it. RAG models can return more accurate answers with the added context of internal data than they otherwise would be able to without it.\n\nA fine-tuned model typically outperforms its corresponding base model, such as those in the GPT family, when applying its training with domain-specific data. With greater access to external knowledge, a fine-tuned LLM has a better understanding of the specific domain and its terminology.\n\nPrompt engineering is the process of creating effective prompts that guide a model toward desired outputs without expanding its knowledge base. The prompt engineering process does not significantly alter a pre-trained model’s parameters.\n\nThe goal of prompt engineering is to craft prompts that cause a model’s outputs to meet the specific requirements of the intended use case. Further training and greater data access cannot compensate for poor prompting.\n\nHow does prompt engineering work?\n\nPrompt engineering works by tweaking the structure and content of input prompts based on previous model outputs. With each iteration, the prompt engineer learns how the model responds to prior inputs, then uses those results to inform the next prompt. The goal is to modify model behavior through clear instructions.\n\nGood prompt engineering is based on prompts that tell a natural language processing (NLP) model exactly what to do. The prompt engineering process involves experimenting with the prompt’s content, structure and language to discover the optimal format that leads to the needed output from the model.\n\nCompare a machine learning model to an aspiring home cook who wants to make a great dinner. Prompt engineering would be analogous to a more knowledgeable friend or relative who helps them plan their approach to the meal. With solid advice on what to make and how, the eager home cook is more likely to produce something delicious.\n\nRAG is a data architecture framework that connects an LLM to other data, such as an organization’s proprietary data, often stored in data lakehouses. RAG systems add relevant data to LLM prompts so the LLM can generate more accurate answers.\n\nRAG systems require extensive data architecture construction and maintenance. Data engineers must build the data pipelines needed to connect their organization’s data lakehouses with the LLM and use RAG. RAG systems also need precise prompt engineering to locate the right data and make sure the LLM knows what to do with it.\n\nFine-tuning is the process of retraining a pretrained model on a smaller, more focused set of training data to give it domain-specific knowledge. The model then adjusts its parameters—the guidelines governing its behavior—and its embeddings to better fit the specific data set.\n\nFine-tuning works by exposing a model to a data set of labeled examples. The model improves on its initial training as it updates its model weights based on the new data. Fine-tuning is a supervised learning method, which means the data used in training is organized and labeled. By contrast, most base models undergo unsupervised learning in which the data is unsorted—the model must categorize it on its own.\n\nOnce more imagining a gen AI model as a home cook, fine-tuning would be a cooking course in a specific cuisine. Before taking the course, the home cook would have a general understanding of cooking basics. But after undergoing culinary training and acquiring domain-specific knowledge, they’d be much more proficient in cooking that type of food.\n\nFull fine-tuning vs. parameter-efficient fine-tuning\n\nModels can be either fully fine-tuned, which updates all their parameters or fine-tuned in a way that updates only the most relevant parameters. This latter process is known as parameter-efficient fine-tuning (PEFT) and is a cost-effective way to make models more effective in a certain domain.\n\nFine-tuning a model is compute-intensive and requires multiple powerful GPUs running in tandem—let alone the memory to store the LLM itself. PEFT enables LLM users to retrain their models on simpler hardware setups while returning comparable performance upgrades in the model’s intended use case, such as customer support or sentiment analysis. Fine-tuning especially excels at helping models overcome bias, which is a gap between the model’s predictions and actual real-world outcomes.\n\nFine-tuning vs. continuous pretraining\n\nBy contrast, fine-tuning uses labeled data to hone a model’s performance in a selected use case. Fine-tuning excels at honing a model’s expertise at specific tasks, while continuous pretraining can deepen a model’s domain expertise.\n\nGain a comprehensive understanding of prompt engineering, learn techniques to achieve the best results with LLMs, and apply learnings through completion of a diverse set of prompt engineering exercises.\n\nExplore various techniques involved in adversarial prompting, focusing on how these tactics can be used to test and strengthen the security and safety of large language models.\n\nGet hands-on with prompt engineering on the watsonx Developer Hub.\n\nMaster the language of AI and unleash its full potential with our free prompt engineering course.",
+          "fetchedAt": "2026-09-17T13:14:17.782Z",
+          "title": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "status": "ok",
+          "contentLength": 13222,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "RAG vs. fine-tuning vs. prompt engineering"
+            },
+            {
+              "blockIndex": 6,
+              "text": "RAG vs. fine-tuning vs. prompt engineering"
+            },
+            {
+              "blockIndex": 7,
+              "text": "Prompt engineering, fine-tuning and retrieval augmented generation (RAG) are three optimization methods that enterprises can use to get more value out of large language models (LLMs). All three optimize model behavior, but which one to use depends on the target use case and available resources."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Generative AI models are trained on massive pools of data, much of which is gleaned from the internet. Artificial intelligence developers do not typically have access to niche data, such as an enterprise’s proprietary and internal data. When organizations want to apply large language models (LLMs) to for specific needs, they need to tweak the way that the gen AI model works to produce the desired outputs and behavior."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Prompt engineering, RAG and fine-tuning all help optimize an LLM’s outputs for target use cases. With them, data scientists can get better downstream performance, greater domain-specific accuracy and output that meets relevant formatting, language or regulatory requirements."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Think beyond the prompts and get the full context"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Stay ahead of the latest in industry news, AI tools and emerging trends in prompt engineering with the Think Newsletter. Plus, get access to new explainers, tutorials and expert insights—delivered straight to your inbox, twice weekly."
+            },
+            {
+              "blockIndex": 14,
+              "text": "What’s the difference between RAG, fine-tuning and prompt engineering?"
+            },
+            {
+              "blockIndex": 15,
+              "text": "The difference between prompt engineering, RAG and fine-tuning covers four primary areas of distinction:"
+            },
+            {
+              "blockIndex": 25,
+              "text": "Prompt engineering optimizes input prompts to steer a model toward better outputs. Fine-tuning LLMs trains them with domain-specific datasets to increase performance in downstream tasks. RAG connects an LLM to a database and automates information retrieval to augment prompts with relevant data for greater accuracy."
+            },
+            {
+              "blockIndex": 27,
+              "text": "RAG, prompt engineering and fine-tuning have the same broad outcome: enhancing a model’s performance to maximize value for the enterprise that uses it. But more specifically, prompt engineering should lead a model to deliver the results the user wants. RAG aims to guide a model toward giving more relevant and accurate outputs."
+            },
+            {
+              "blockIndex": 28,
+              "text": "Meanwhile, a fine-tuned model is retrained on a focused set of external data to improve performance in specific use cases. The three methods are not mutually exclusive and are often combined for optimal outcomes."
+            },
+            {
+              "blockIndex": 30,
+              "text": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute."
+            },
+            {
+              "blockIndex": 31,
+              "text": "RAG requires data science expertise to organize enterprise datasets and construct the data pipelines that connect LLMs to those data sources. Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming."
+            },
+            {
+              "blockIndex": 33,
+              "text": "Prompt engineering is the most flexible and shines in open-ended situations with a potentially diverse array of outputs, such as when asking an LLM to generate content from scratch. Image, video and text generation success thrive on strong prompts."
+            },
+            {
+              "blockIndex": 34,
+              "text": "Fine-tuning hones a model for highly focused work—when data scientists need a model to do one thing very well. RAG is an ideal solution where accurate, relevant, current information is paramount, such as with customer service chatbots."
+            },
+            {
+              "blockIndex": 37,
+              "text": "Why are prompt engineering, RAG and fine-tuning important?"
+            },
+            {
+              "blockIndex": 38,
+              "text": "Prompt engineering offers a range of methods for giving models explicit instructions on how to behave. With clear directives, model behavior can be more precisely sculpted without having to invest in resource-intensive retrieval systems or training."
+            },
+            {
+              "blockIndex": 39,
+              "text": "RAG plugs an LLM into proprietary real-time data that would otherwise be inaccessible to it. RAG models can return more accurate answers with the added context of internal data than they otherwise would be able to without it."
+            },
+            {
+              "blockIndex": 40,
+              "text": "A fine-tuned model typically outperforms its corresponding base model, such as those in the GPT family, when applying its training with domain-specific data. With greater access to external knowledge, a fine-tuned LLM has a better understanding of the specific domain and its terminology."
+            },
+            {
+              "blockIndex": 42,
+              "text": "Prompt engineering is the process of creating effective prompts that guide a model toward desired outputs without expanding its knowledge base. The prompt engineering process does not significantly alter a pre-trained model’s parameters."
+            },
+            {
+              "blockIndex": 43,
+              "text": "The goal of prompt engineering is to craft prompts that cause a model’s outputs to meet the specific requirements of the intended use case. Further training and greater data access cannot compensate for poor prompting."
+            },
+            {
+              "blockIndex": 44,
+              "text": "How does prompt engineering work?"
+            },
+            {
+              "blockIndex": 45,
+              "text": "Prompt engineering works by tweaking the structure and content of input prompts based on previous model outputs. With each iteration, the prompt engineer learns how the model responds to prior inputs, then uses those results to inform the next prompt. The goal is to modify model behavior through clear instructions."
+            },
+            {
+              "blockIndex": 46,
+              "text": "Good prompt engineering is based on prompts that tell a natural language processing (NLP) model exactly what to do. The prompt engineering process involves experimenting with the prompt’s content, structure and language to discover the optimal format that leads to the needed output from the model."
+            },
+            {
+              "blockIndex": 47,
+              "text": "Compare a machine learning model to an aspiring home cook who wants to make a great dinner. Prompt engineering would be analogous to a more knowledgeable friend or relative who helps them plan their approach to the meal. With solid advice on what to make and how, the eager home cook is more likely to produce something delicious."
+            },
+            {
+              "blockIndex": 49,
+              "text": "RAG is a data architecture framework that connects an LLM to other data, such as an organization’s proprietary data, often stored in data lakehouses. RAG systems add relevant data to LLM prompts so the LLM can generate more accurate answers."
+            },
+            {
+              "blockIndex": 62,
+              "text": "RAG systems require extensive data architecture construction and maintenance. Data engineers must build the data pipelines needed to connect their organization’s data lakehouses with the LLM and use RAG. RAG systems also need precise prompt engineering to locate the right data and make sure the LLM knows what to do with it."
+            },
+            {
+              "blockIndex": 65,
+              "text": "Fine-tuning is the process of retraining a pretrained model on a smaller, more focused set of training data to give it domain-specific knowledge. The model then adjusts its parameters—the guidelines governing its behavior—and its embeddings to better fit the specific data set."
+            },
+            {
+              "blockIndex": 67,
+              "text": "Fine-tuning works by exposing a model to a data set of labeled examples. The model improves on its initial training as it updates its model weights based on the new data. Fine-tuning is a supervised learning method, which means the data used in training is organized and labeled. By contrast, most base models undergo unsupervised learning in which the data is unsorted—the model must categorize it on its own."
+            },
+            {
+              "blockIndex": 68,
+              "text": "Once more imagining a gen AI model as a home cook, fine-tuning would be a cooking course in a specific cuisine. Before taking the course, the home cook would have a general understanding of cooking basics. But after undergoing culinary training and acquiring domain-specific knowledge, they’d be much more proficient in cooking that type of food."
+            },
+            {
+              "blockIndex": 69,
+              "text": "Full fine-tuning vs. parameter-efficient fine-tuning"
+            },
+            {
+              "blockIndex": 70,
+              "text": "Models can be either fully fine-tuned, which updates all their parameters or fine-tuned in a way that updates only the most relevant parameters. This latter process is known as parameter-efficient fine-tuning (PEFT) and is a cost-effective way to make models more effective in a certain domain."
+            },
+            {
+              "blockIndex": 71,
+              "text": "Fine-tuning a model is compute-intensive and requires multiple powerful GPUs running in tandem—let alone the memory to store the LLM itself. PEFT enables LLM users to retrain their models on simpler hardware setups while returning comparable performance upgrades in the model’s intended use case, such as customer support or sentiment analysis. Fine-tuning especially excels at helping models overcome bias, which is a gap between the model’s predictions and actual real-world outcomes."
+            },
+            {
+              "blockIndex": 72,
+              "text": "Fine-tuning vs. continuous pretraining"
+            },
+            {
+              "blockIndex": 74,
+              "text": "By contrast, fine-tuning uses labeled data to hone a model’s performance in a selected use case. Fine-tuning excels at honing a model’s expertise at specific tasks, while continuous pretraining can deepen a model’s domain expertise."
+            },
+            {
+              "blockIndex": 77,
+              "text": "Gain a comprehensive understanding of prompt engineering, learn techniques to achieve the best results with LLMs, and apply learnings through completion of a diverse set of prompt engineering exercises."
+            },
+            {
+              "blockIndex": 79,
+              "text": "Explore various techniques involved in adversarial prompting, focusing on how these tactics can be used to test and strengthen the security and safety of large language models."
+            },
+            {
+              "blockIndex": 80,
+              "text": "Get hands-on with prompt engineering on the watsonx Developer Hub."
+            },
+            {
+              "blockIndex": 82,
+              "text": "Master the language of AI and unleash its full potential with our free prompt engineering course."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:14:17.783Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:14:17.784Z",
+          "title": "",
+          "status": "error",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+          "content": "To fine-tune or not to fine-tune\n\nThis is the second blog post in a series about adapting open source large language models (LLMs). In this post, we’ll discuss the following question: “When should we fine-tune, and when should we consider other techniques?”\n\nIn Part 1, we took a look at prevalent approaches for adapting language models to domain data.\n\nIn Part 3, explore some rules of thumb for curating a good training dataset.\n\nPrior to the rise of LLMs, fine-tuning was commonly used for smaller-scale models (100M – 300M parameters). State-of-the-art domain applications were built using supervised fine-tuning (SFT)—i.e., further training the pre-trained model using annotated data for your own domain and downstream task. However, with the advent of larger models (> 1B parameters), the question of fine-tuning has become more nuanced. Most importantly, large models require larger resources and commercial hardware for fine-tuning. Table 1 below provides a list of peak GPU memory usage for fine-tuning Llama 2 7B and Llama 2 13B models under three scenarios. You may notice that algorithms such as QLoRA have made it much more accessible to fine-tune a large model using limited resources. As an example, Table 1 shows the peak GPU memory for three fine-tuning schemas (full fine-tuning, LoRA, and QLoRA) on Llama 2 7B. Similar reduction in memory as a result of a parameter-efficient fine-tuning (PEFT) or quantization are reported for Llama 1. In addition to computational resources, catastrophic forgetting (see Part 1 of this series for more) is a common pitfall for full parameter fine-tuning. PEFT techniques aim to address these shortcomings by training on a small number of parameters.\n\nTable 1: Memory in Gb for different fine-tuning methods (source) on LLama 2 7B. QLoRA uses 4-bit NormalFloat quantization.\n\nArchetypes where fine-tuning might be beneficial\n\nWe’ve identified the following scenarios as common use cases that can benefit from fine-tuning:\n\nTone, style, and format customization: Use cases may seek an LLM that mirrors a specific persona or serves a particular audience. By fine-tuning LLMs with custom datasets, we can shape the chatbot’s responses to align more closely with the specific requirements of their audience or the intended experience. We may also want to structure the output in a specific manner—for example, JSON, YAML, or Markdown formatted outputs.\n\nIncreasing accuracy and handling edge cases: Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning. It can also enhance the model’s ability to perform new skills or tasks that are difficult to express in a prompt. This process can help in correcting the model’s failures to follow complex prompts and improve its reliability in producing thedesired output. We provide two examples:Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%.ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples. Typically, for smaller initial accuracy numbers (< 50%), fine-tuning has been a great bump with a few hundred examples.\n\nPhi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%.\n\nChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples. Typically, for smaller initial accuracy numbers (< 50%), fine-tuning has been a great bump with a few hundred examples.\n\nAddressing underrepresented domains: Despite LLMs being trained on vast amounts of general data, they may not always be proficient in the nuanced jargon, terminology, or specificities of every niche domain. For diverse domains such as legal, medical, or finance, fine-tuning has been shown to help in increasing accuracy in downstream tasks. We provide two examples:As pointed out in this article, patients’ medical histories contain highly sensitive data that aren’t typically found in public domains. Therefore, an LLM-based system for summarizing medical histories requires fine-tuning.For underrepresented languages such as Indic languages, fine-tuning using PEFT techniques helped across all tasks in those languages.\n\nAs pointed out in this article, patients’ medical histories contain highly sensitive data that aren’t typically found in public domains. Therefore, an LLM-based system for summarizing medical histories requires fine-tuning.\n\nFor underrepresented languages such as Indic languages, fine-tuning using PEFT techniques helped across all tasks in those languages.\n\nCost reduction: Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality. Additionally, fine-tuning decreases the need for lengthy or specific prompts (as used in prompt engineering), leading to token savings and further cost reduction. As an example, this article shows how to fine-tune a GPT-3.5 judge by distilling a more expensive GPT-4 model, which resulted in cost savings.\n\nNew tasks/abilities: Often, a new capability may be achieved via fine-tuning. We provide three examples:Fine-tuning an LLM to better use the context from a given retriever or ignore it entirelyFine-tuning an LLM judge to evaluate other LLMs for metrics such as groundedness, compliance, or helpfulnessFine-tuning an LLM to increase the context window\n\nFine-tuning an LLM to better use the context from a given retriever or ignore it entirely\n\nFine-tuning an LLM judge to evaluate other LLMs for metrics such as groundedness, compliance, or helpfulness\n\nFine-tuning an LLM to increase the context window\n\nComparison with other techniques for domain adaptation\n\nFine-tuning vs. in-context (few-shot) learning\n\nIn-context learning (ICL) is a powerful way of improving the performance of an LLM-based system. Given its simplicity, ICL should be experimented with prior to any fine-tuning activities. Furthermore, ICL experiments can help you evaluate whether or not fine-tuning would improve performance on the downstream task. Common considerations when using ICL are:\n\nAs the number of examples needed to show increases, the cost of inference and latency increases.\n\nWith more and more examples, it’s common for the LLM to ignore some. This means you may need to have a RAG-based system where you find the most relevant examples depending on the input.\n\nLLMs may spit out the knowledge provided to them as examples. This concern also exists when fine-tuning.\n\nThe common consensus is that when the LLM base performance isn’t satisfactory, you might “start with RAG, gauge its performance, and if found lacking, shift to fine-tuning,” or that “RAG may have an edge” over fine-tuning (source). However, we think this paradigm is too simplistic, as there are several scenarios in which RAG is not only not an alternative to fine-tuning, but also more of a complementary approach to fine-tuning]. Depending on the characteristics of the problem, one or perhaps both approaches should be tried. Adopting the framework of this article, here are some of the questions you may ask to determine whether fine-tuning or RAG (or perhaps both) is suitable for your problem:\n\nDoes your application require external knowledge? Fine-tuning is typically not helpful for injecting new knowledge.\n\nDoes your application need custom tone/behavior/vocabulary or style? For these types of requirements, fine-tuning is typically the right approach.\n\nHow forgiving is your application to hallucinations? In applications where suppressing falsehoods and imaginative fabrications is vital, RAG systems provide built-in mechanisms to minimize hallucinations.\n\nHow much labeled training data is available?\n\nHow static/dynamic is the data? If the problem requires access to a dynamic corpus of data, fine-tuning may not be the right approach, as the knowledge of the LLM can soon become stale.\n\nHow transparent/interpretable does the LLM application need to be? RAG can inherently provide references, which are useful for interpreting the LLM output.\n\nCost and complexity: Does the team have expertise building search systems or previous fine-tuning experience?\n\nHow diverse are the tasks in your application?\n\nIn most cases, a hybrid solution of fine-tuning and RAG will yield the best results—the question then becomes the cost, time, and additional independent benefit of doing both. Refer to the above questions to guide your decision-making if RAG and/or fine-tuning is needed and internal experiments to understand metric gains possible by analyzing errors. Finally, exploration in fine-tuning does require a robust data gathering and data improvement strategy, and we would recommend it as a precursor to starting fine-tuning.\n\nWe would like to thank Suraj Subramanian and Varun Vontimitta for their constructive feedback on the organization and preparation of this blog post.",
+          "fetchedAt": "2026-09-17T13:14:19.222Z",
+          "title": "To fine-tune or not to fine-tune",
+          "status": "ok",
+          "contentLength": 9294,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 7,
+              "text": "To fine-tune or not to fine-tune"
+            },
+            {
+              "blockIndex": 8,
+              "text": "This is the second blog post in a series about adapting open source large language models (LLMs). In this post, we’ll discuss the following question: “When should we fine-tune, and when should we consider other techniques?”"
+            },
+            {
+              "blockIndex": 9,
+              "text": "In Part 1, we took a look at prevalent approaches for adapting language models to domain data."
+            },
+            {
+              "blockIndex": 10,
+              "text": "In Part 3, explore some rules of thumb for curating a good training dataset."
+            },
+            {
+              "blockIndex": 12,
+              "text": "Prior to the rise of LLMs, fine-tuning was commonly used for smaller-scale models (100M – 300M parameters). State-of-the-art domain applications were built using supervised fine-tuning (SFT)—i.e., further training the pre-trained model using annotated data for your own domain and downstream task. However, with the advent of larger models (> 1B parameters), the question of fine-tuning has become more nuanced. Most importantly, large models require larger resources and commercial hardware for fine-tuning. Table 1 below provides a list of peak GPU memory usage for fine-tuning Llama 2 7B and Llama 2 13B models under three scenarios. You may notice that algorithms such as QLoRA have made it much more accessible to fine-tune a large model using limited resources. As an example, Table 1 shows the peak GPU memory for three fine-tuning schemas (full fine-tuning, LoRA, and QLoRA) on Llama 2 7B. Similar reduction in memory as a result of a parameter-efficient fine-tuning (PEFT) or quantization are reported for Llama 1. In addition to computational resources, catastrophic forgetting (see Part 1 of this series for more) is a common pitfall for full parameter fine-tuning. PEFT techniques aim to address these shortcomings by training on a small number of parameters."
+            },
+            {
+              "blockIndex": 13,
+              "text": "Table 1: Memory in Gb for different fine-tuning methods (source) on LLama 2 7B. QLoRA uses 4-bit NormalFloat quantization."
+            },
+            {
+              "blockIndex": 14,
+              "text": "Archetypes where fine-tuning might be beneficial"
+            },
+            {
+              "blockIndex": 15,
+              "text": "We’ve identified the following scenarios as common use cases that can benefit from fine-tuning:"
+            },
+            {
+              "blockIndex": 16,
+              "text": "Tone, style, and format customization: Use cases may seek an LLM that mirrors a specific persona or serves a particular audience. By fine-tuning LLMs with custom datasets, we can shape the chatbot’s responses to align more closely with the specific requirements of their audience or the intended experience. We may also want to structure the output in a specific manner—for example, JSON, YAML, or Markdown formatted outputs."
+            },
+            {
+              "blockIndex": 17,
+              "text": "Increasing accuracy and handling edge cases: Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning. It can also enhance the model’s ability to perform new skills or tasks that are difficult to express in a prompt. This process can help in correcting the model’s failures to follow complex prompts and improve its reliability in producing thedesired output. We provide two examples:Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%.ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples. Typically, for smaller initial accuracy numbers (< 50%), fine-tuning has been a great bump with a few hundred examples."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%."
+            },
+            {
+              "blockIndex": 19,
+              "text": "ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples. Typically, for smaller initial accuracy numbers (< 50%), fine-tuning has been a great bump with a few hundred examples."
+            },
+            {
+              "blockIndex": 20,
+              "text": "Addressing underrepresented domains: Despite LLMs being trained on vast amounts of general data, they may not always be proficient in the nuanced jargon, terminology, or specificities of every niche domain. For diverse domains such as legal, medical, or finance, fine-tuning has been shown to help in increasing accuracy in downstream tasks. We provide two examples:As pointed out in this article, patients’ medical histories contain highly sensitive data that aren’t typically found in public domains. Therefore, an LLM-based system for summarizing medical histories requires fine-tuning.For underrepresented languages such as Indic languages, fine-tuning using PEFT techniques helped across all tasks in those languages."
+            },
+            {
+              "blockIndex": 21,
+              "text": "As pointed out in this article, patients’ medical histories contain highly sensitive data that aren’t typically found in public domains. Therefore, an LLM-based system for summarizing medical histories requires fine-tuning."
+            },
+            {
+              "blockIndex": 22,
+              "text": "For underrepresented languages such as Indic languages, fine-tuning using PEFT techniques helped across all tasks in those languages."
+            },
+            {
+              "blockIndex": 23,
+              "text": "Cost reduction: Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality. Additionally, fine-tuning decreases the need for lengthy or specific prompts (as used in prompt engineering), leading to token savings and further cost reduction. As an example, this article shows how to fine-tune a GPT-3.5 judge by distilling a more expensive GPT-4 model, which resulted in cost savings."
+            },
+            {
+              "blockIndex": 24,
+              "text": "New tasks/abilities: Often, a new capability may be achieved via fine-tuning. We provide three examples:Fine-tuning an LLM to better use the context from a given retriever or ignore it entirelyFine-tuning an LLM judge to evaluate other LLMs for metrics such as groundedness, compliance, or helpfulnessFine-tuning an LLM to increase the context window"
+            },
+            {
+              "blockIndex": 25,
+              "text": "Fine-tuning an LLM to better use the context from a given retriever or ignore it entirely"
+            },
+            {
+              "blockIndex": 26,
+              "text": "Fine-tuning an LLM judge to evaluate other LLMs for metrics such as groundedness, compliance, or helpfulness"
+            },
+            {
+              "blockIndex": 27,
+              "text": "Fine-tuning an LLM to increase the context window"
+            },
+            {
+              "blockIndex": 28,
+              "text": "Comparison with other techniques for domain adaptation"
+            },
+            {
+              "blockIndex": 29,
+              "text": "Fine-tuning vs. in-context (few-shot) learning"
+            },
+            {
+              "blockIndex": 30,
+              "text": "In-context learning (ICL) is a powerful way of improving the performance of an LLM-based system. Given its simplicity, ICL should be experimented with prior to any fine-tuning activities. Furthermore, ICL experiments can help you evaluate whether or not fine-tuning would improve performance on the downstream task. Common considerations when using ICL are:"
+            },
+            {
+              "blockIndex": 31,
+              "text": "As the number of examples needed to show increases, the cost of inference and latency increases."
+            },
+            {
+              "blockIndex": 32,
+              "text": "With more and more examples, it’s common for the LLM to ignore some. This means you may need to have a RAG-based system where you find the most relevant examples depending on the input."
+            },
+            {
+              "blockIndex": 33,
+              "text": "LLMs may spit out the knowledge provided to them as examples. This concern also exists when fine-tuning."
+            },
+            {
+              "blockIndex": 35,
+              "text": "The common consensus is that when the LLM base performance isn’t satisfactory, you might “start with RAG, gauge its performance, and if found lacking, shift to fine-tuning,” or that “RAG may have an edge” over fine-tuning (source). However, we think this paradigm is too simplistic, as there are several scenarios in which RAG is not only not an alternative to fine-tuning, but also more of a complementary approach to fine-tuning]. Depending on the characteristics of the problem, one or perhaps both approaches should be tried. Adopting the framework of this article, here are some of the questions you may ask to determine whether fine-tuning or RAG (or perhaps both) is suitable for your problem:"
+            },
+            {
+              "blockIndex": 36,
+              "text": "Does your application require external knowledge? Fine-tuning is typically not helpful for injecting new knowledge."
+            },
+            {
+              "blockIndex": 37,
+              "text": "Does your application need custom tone/behavior/vocabulary or style? For these types of requirements, fine-tuning is typically the right approach."
+            },
+            {
+              "blockIndex": 38,
+              "text": "How forgiving is your application to hallucinations? In applications where suppressing falsehoods and imaginative fabrications is vital, RAG systems provide built-in mechanisms to minimize hallucinations."
+            },
+            {
+              "blockIndex": 39,
+              "text": "How much labeled training data is available?"
+            },
+            {
+              "blockIndex": 40,
+              "text": "How static/dynamic is the data? If the problem requires access to a dynamic corpus of data, fine-tuning may not be the right approach, as the knowledge of the LLM can soon become stale."
+            },
+            {
+              "blockIndex": 41,
+              "text": "How transparent/interpretable does the LLM application need to be? RAG can inherently provide references, which are useful for interpreting the LLM output."
+            },
+            {
+              "blockIndex": 42,
+              "text": "Cost and complexity: Does the team have expertise building search systems or previous fine-tuning experience?"
+            },
+            {
+              "blockIndex": 43,
+              "text": "How diverse are the tasks in your application?"
+            },
+            {
+              "blockIndex": 44,
+              "text": "In most cases, a hybrid solution of fine-tuning and RAG will yield the best results—the question then becomes the cost, time, and additional independent benefit of doing both. Refer to the above questions to guide your decision-making if RAG and/or fine-tuning is needed and internal experiments to understand metric gains possible by analyzing errors. Finally, exploration in fine-tuning does require a robust data gathering and data improvement strategy, and we would recommend it as a precursor to starting fine-tuning."
+            },
+            {
+              "blockIndex": 46,
+              "text": "We would like to thank Suraj Subramanian and Varun Vontimitta for their constructive feedback on the organization and preparation of this blog post."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:14:19.223Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://cloud.google.com/use-cases/fine-tuning-ai-models",
+          "content": "Fine-tuning LLMs and AI models\n\nLarge language models (LLMs) are powerful tools that can help with a lot of different tasks, from writing emails to answering complex questions. But sometimes, these models don't quite understand what you need them to do for your specific project. That's where fine-tuning comes in. It's like teaching a smart student the specific skills they need for a particular job.\n\nFine-tuning involves further training a pre-trained LLM on a task-specific dataset (a transfer learning process). Think of it like this: a pre-trained model has already learned a lot of general information, and fine-tuning helps it specialize in a particular area.\n\nWhen to fine-tune versus using RAG\n\nFine-tuning and Retrieval Augmented Generation (RAG) are two different ways to adjust LLMs for specific uses. Picking the right method depends on factors like the kind of task, if you have enough data, and what you want to achieve.\n\nAugments prompts with external knowledge.\n\nAugments prompts with external knowledge.\n\nYou should consider fine-tuning when you want an LLM to:\n\nUnderstand specific language or jargon: If your project uses a lot of industry-specific terms, fine-tuning can help the model learn and use that language correctly\n\nImprove accuracy on a particular task: Fine-tuning can significantly improve the model's performance if you need it to do a specific task, like classifying customer reviews or generating product descriptions\n\nMatch a particular style or tone: If you want the model to generate text that matches a specific brand voice or writing style, fine-tuning can help\n\nWork with limited data: When you have limited data, fine-tuning can be more efficient than training a model from scratch because it leverages the knowledge the pre-trained model already has\n\nReduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request\n\nHandle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone\n\nHow fine-tuning works: a step-by-step guide\n\nFine-tuning builds upon the foundation of a pre-trained LLM. These pre-trained models have already learned a huge amount of general language knowledge from massive datasets. During fine-tuning, the model is exposed to a smaller, task-specific dataset, and the model's internal parameters—think of them as millions of tiny knobs that control its knowledge—are adjusted to better match the examples in the new dataset. This \"retraining\" process gently updates the model’s internal wiring so it becomes an expert on the new topic. Let’s break down the fine-tuning process into a few practical steps:\n\nBefore you can begin fine-tuning, it's crucial to prepare your data. The quality and structure of your data directly impact the performance of the fine-tuned model. This stage involves collecting, cleaning, formatting, and splitting your data into appropriate sets for training, validation, and testing.\n\nCollect data: Gather the data you'll use to fine-tune the model; this data should be relevant to the specific task you want the model to excel at\n\nClean and format: Clean your data by removing errors, inconsistencies, and irrelevant information; ensure it's in a format the model can understand\n\nSplit data: Divide your data into three sets: 1.) training (used to train the model), 2.) validation (used to monitor the model's performance and adjust settings), and 3.) test (used to evaluate the final performance of the fine-tuned model)\n\nWhen it comes to fine-tuning, you have options on how much of the pre-trained model you want to adjust. The approach you choose depends on factors like the size of your dataset, the computing resources available, and the desired level of accuracy. The two main approaches are full fine-tuning and parameter-efficient fine-tuning (PEFT).\n\nIn full fine-tuning, all the model's parameters are updated during training. This approach is suitable when the task-specific dataset is large and significantly different from the pre-training data.\n\nParameter-efficient fine-tuning offers a smarter, more efficient way to fine-tune. Instead of retraining the entire model (which is slow and expensive), PEFT methods freeze the original LLM and add tiny new, trainable layers.\n\nThink of it like this: Instead of rewriting an entire 1,000-page textbook, you just add a few pages of sticky notes with the new, specialized information. This makes the process dramatically faster and cheaper. Popular PEFT methods include LoRA (Low-Rank Adaptation) and QLoRA (Quantized Low-Rank Adaptation), offering a more efficient way to fine-tune LLMs.\n\nWith your data prepared and your technique selected, it's time to train the model. This is where the model learns from your data and adjusts its parameters to improve performance on your specific task. Careful monitoring and adjustment of training settings are essential for\n\nAdjust as needed: If the model isn't performing well, you can adjust the hyperparameters or try a different fine-tuning technique\n\nThe final stage involves evaluating the performance of your fine-tuned model and deploying it for real-world use. This requires assessing its accuracy and efficiency, and then integrating it into your application or system. Continuous monitoring and retraining may be necessary to maintain optimal performance over time.\n\nEvaluate performance: Use the test set to evaluate the final performance of the fine-tuned model; look at metrics relevant to your task, such as accuracy, precision, and recall\n\nThere are different ways to fine-tune a model, depending on your goals and resources:\n\nThe model is provided with a few examples of the desired task within the prompt.\n\nThe model is provided with a few examples of the desired task within the prompt.\n\nBest practices for fine-tuning\n\nTo get the most out of fine-tuning, follow these best practices :\n\nData quality and quantity: Use a high-quality dataset that is relevant, diverse, and sufficiently large. Data quality is paramount in fine-tuning. Ensure the data is accurate, consistent, and free of errors or biases. For example, a dataset with noisy labels or inconsistent formatting can significantly hinder the model's ability to learn effectively.\n\nAddress bias: Be mindful of potential biases in the data and use techniques to mitigate bias in the fine-tuned model.\n\nFine-tuning offers a few potential advantages:\n\nFine-tuning is faster and requires less data than training a model from scratch.\n\nFine-tuning allows you to customize the model's behavior to align with your specific needs and goals.\n\nFine-tuning can be used to increase the context window of LLMs, allowing them to process and retain more information.\n\nCommon challenges when fine-tuning\n\nWhile fine-tuning can offer many benefits, there are also some possible challenges to be aware of:\n\nData scarcity: Insufficient data can limit the effectiveness of fine-tuning. Consider using data augmentation techniques or transfer learning from other related tasks.\n\nComputational resources: Fine-tuning large models can be computationally expensive and require significant memory. Consider using techniques like PEFT, quantization, and distributed training to reduce computational requirements.\n\nEvaluation: Evaluating the performance of fine-tuned LLMs can be complex, requiring careful selection of metrics and benchmarks.\n\nMulti-task learning challenges: Fine-tuning LLMs for multi-task learning introduces unique challenges, such as task interference, where different objectives clash during training, and data imbalance, where tasks with more data may dominate.\n\nFine-tuning can be applied to a wide range of use cases:\n\nFine-tune an LLM to understand and respond to customer inquiries more effectively, including within chatbots.\n\nThe ability of LLMs to generate concise and accurate summaries in specific domains or writing styles can be improved through fine-tuning.\n\nCreate blog posts, articles, or product descriptions in a specific style with a fine-tuned model.\n\nFine-tune a model to classify and analyze text data, such as social media posts or customer reviews.\n\nGenerate code in a specific programming language or framework with a fine-tuned model.\n\nGoogle Translate uses fine-tuning to improve the quality of machine translation by adapting the model to specific language pairs and domains.\n\nFine-tuning at scale with Google Cloud\n\nGoogle Cloud offers a robust ecosystem to support your model fine-tuning efforts, providing everything from a unified machine learning platform to the specialized hardware needed to accelerate complex computations. Whether you're customizing a foundation model or refining your own, these services streamline the entire workflow.\n\nBigQueryAnalyze and transform large datasets for fine-tuning.\n\nTensorFlowAn open source machine learning framework for training and fine-tuning models.",
+          "fetchedAt": "2026-09-17T13:14:19.224Z",
+          "title": "Fine-tuning LLMs: overview and guide | Google Cloud",
+          "status": "ok",
+          "contentLength": 32102,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Fine-tuning LLMs and AI models"
+            },
+            {
+              "blockIndex": 1,
+              "text": "Large language models (LLMs) are powerful tools that can help with a lot of different tasks, from writing emails to answering complex questions. But sometimes, these models don't quite understand what you need them to do for your specific project. That's where fine-tuning comes in. It's like teaching a smart student the specific skills they need for a particular job."
+            },
+            {
+              "blockIndex": 3,
+              "text": "Fine-tuning involves further training a pre-trained LLM on a task-specific dataset (a transfer learning process). Think of it like this: a pre-trained model has already learned a lot of general information, and fine-tuning helps it specialize in a particular area."
+            },
+            {
+              "blockIndex": 4,
+              "text": "When to fine-tune versus using RAG"
+            },
+            {
+              "blockIndex": 5,
+              "text": "Fine-tuning and Retrieval Augmented Generation (RAG) are two different ways to adjust LLMs for specific uses. Picking the right method depends on factors like the kind of task, if you have enough data, and what you want to achieve."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Augments prompts with external knowledge."
+            },
+            {
+              "blockIndex": 33,
+              "text": "Augments prompts with external knowledge."
+            },
+            {
+              "blockIndex": 36,
+              "text": "You should consider fine-tuning when you want an LLM to:"
+            },
+            {
+              "blockIndex": 37,
+              "text": "Understand specific language or jargon: If your project uses a lot of industry-specific terms, fine-tuning can help the model learn and use that language correctly"
+            },
+            {
+              "blockIndex": 38,
+              "text": "Improve accuracy on a particular task: Fine-tuning can significantly improve the model's performance if you need it to do a specific task, like classifying customer reviews or generating product descriptions"
+            },
+            {
+              "blockIndex": 39,
+              "text": "Match a particular style or tone: If you want the model to generate text that matches a specific brand voice or writing style, fine-tuning can help"
+            },
+            {
+              "blockIndex": 40,
+              "text": "Work with limited data: When you have limited data, fine-tuning can be more efficient than training a model from scratch because it leverages the knowledge the pre-trained model already has"
+            },
+            {
+              "blockIndex": 41,
+              "text": "Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request"
+            },
+            {
+              "blockIndex": 42,
+              "text": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone"
+            },
+            {
+              "blockIndex": 43,
+              "text": "How fine-tuning works: a step-by-step guide"
+            },
+            {
+              "blockIndex": 44,
+              "text": "Fine-tuning builds upon the foundation of a pre-trained LLM. These pre-trained models have already learned a huge amount of general language knowledge from massive datasets. During fine-tuning, the model is exposed to a smaller, task-specific dataset, and the model's internal parameters—think of them as millions of tiny knobs that control its knowledge—are adjusted to better match the examples in the new dataset. This \"retraining\" process gently updates the model’s internal wiring so it becomes an expert on the new topic. Let’s break down the fine-tuning process into a few practical steps:"
+            },
+            {
+              "blockIndex": 46,
+              "text": "Before you can begin fine-tuning, it's crucial to prepare your data. The quality and structure of your data directly impact the performance of the fine-tuned model. This stage involves collecting, cleaning, formatting, and splitting your data into appropriate sets for training, validation, and testing."
+            },
+            {
+              "blockIndex": 47,
+              "text": "Collect data: Gather the data you'll use to fine-tune the model; this data should be relevant to the specific task you want the model to excel at"
+            },
+            {
+              "blockIndex": 48,
+              "text": "Clean and format: Clean your data by removing errors, inconsistencies, and irrelevant information; ensure it's in a format the model can understand"
+            },
+            {
+              "blockIndex": 49,
+              "text": "Split data: Divide your data into three sets: 1.) training (used to train the model), 2.) validation (used to monitor the model's performance and adjust settings), and 3.) test (used to evaluate the final performance of the fine-tuned model)"
+            },
+            {
+              "blockIndex": 51,
+              "text": "When it comes to fine-tuning, you have options on how much of the pre-trained model you want to adjust. The approach you choose depends on factors like the size of your dataset, the computing resources available, and the desired level of accuracy. The two main approaches are full fine-tuning and parameter-efficient fine-tuning (PEFT)."
+            },
+            {
+              "blockIndex": 52,
+              "text": "In full fine-tuning, all the model's parameters are updated during training. This approach is suitable when the task-specific dataset is large and significantly different from the pre-training data."
+            },
+            {
+              "blockIndex": 53,
+              "text": "Parameter-efficient fine-tuning offers a smarter, more efficient way to fine-tune. Instead of retraining the entire model (which is slow and expensive), PEFT methods freeze the original LLM and add tiny new, trainable layers."
+            },
+            {
+              "blockIndex": 54,
+              "text": "Think of it like this: Instead of rewriting an entire 1,000-page textbook, you just add a few pages of sticky notes with the new, specialized information. This makes the process dramatically faster and cheaper. Popular PEFT methods include LoRA (Low-Rank Adaptation) and QLoRA (Quantized Low-Rank Adaptation), offering a more efficient way to fine-tune LLMs."
+            },
+            {
+              "blockIndex": 56,
+              "text": "With your data prepared and your technique selected, it's time to train the model. This is where the model learns from your data and adjusts its parameters to improve performance on your specific task. Careful monitoring and adjustment of training settings are essential for"
+            },
+            {
+              "blockIndex": 59,
+              "text": "Adjust as needed: If the model isn't performing well, you can adjust the hyperparameters or try a different fine-tuning technique"
+            },
+            {
+              "blockIndex": 61,
+              "text": "The final stage involves evaluating the performance of your fine-tuned model and deploying it for real-world use. This requires assessing its accuracy and efficiency, and then integrating it into your application or system. Continuous monitoring and retraining may be necessary to maintain optimal performance over time."
+            },
+            {
+              "blockIndex": 62,
+              "text": "Evaluate performance: Use the test set to evaluate the final performance of the fine-tuned model; look at metrics relevant to your task, such as accuracy, precision, and recall"
+            },
+            {
+              "blockIndex": 66,
+              "text": "There are different ways to fine-tune a model, depending on your goals and resources:"
+            },
+            {
+              "blockIndex": 77,
+              "text": "The model is provided with a few examples of the desired task within the prompt."
+            },
+            {
+              "blockIndex": 101,
+              "text": "The model is provided with a few examples of the desired task within the prompt."
+            },
+            {
+              "blockIndex": 115,
+              "text": "Best practices for fine-tuning"
+            },
+            {
+              "blockIndex": 116,
+              "text": "To get the most out of fine-tuning, follow these best practices :"
+            },
+            {
+              "blockIndex": 117,
+              "text": "Data quality and quantity: Use a high-quality dataset that is relevant, diverse, and sufficiently large. Data quality is paramount in fine-tuning. Ensure the data is accurate, consistent, and free of errors or biases. For example, a dataset with noisy labels or inconsistent formatting can significantly hinder the model's ability to learn effectively."
+            },
+            {
+              "blockIndex": 121,
+              "text": "Address bias: Be mindful of potential biases in the data and use techniques to mitigate bias in the fine-tuned model."
+            },
+            {
+              "blockIndex": 123,
+              "text": "Fine-tuning offers a few potential advantages:"
+            },
+            {
+              "blockIndex": 129,
+              "text": "Fine-tuning is faster and requires less data than training a model from scratch."
+            },
+            {
+              "blockIndex": 135,
+              "text": "Fine-tuning allows you to customize the model's behavior to align with your specific needs and goals."
+            },
+            {
+              "blockIndex": 141,
+              "text": "Fine-tuning can be used to increase the context window of LLMs, allowing them to process and retain more information."
+            },
+            {
+              "blockIndex": 142,
+              "text": "Common challenges when fine-tuning"
+            },
+            {
+              "blockIndex": 143,
+              "text": "While fine-tuning can offer many benefits, there are also some possible challenges to be aware of:"
+            },
+            {
+              "blockIndex": 145,
+              "text": "Data scarcity: Insufficient data can limit the effectiveness of fine-tuning. Consider using data augmentation techniques or transfer learning from other related tasks."
+            },
+            {
+              "blockIndex": 147,
+              "text": "Computational resources: Fine-tuning large models can be computationally expensive and require significant memory. Consider using techniques like PEFT, quantization, and distributed training to reduce computational requirements."
+            },
+            {
+              "blockIndex": 148,
+              "text": "Evaluation: Evaluating the performance of fine-tuned LLMs can be complex, requiring careful selection of metrics and benchmarks."
+            },
+            {
+              "blockIndex": 149,
+              "text": "Multi-task learning challenges: Fine-tuning LLMs for multi-task learning introduces unique challenges, such as task interference, where different objectives clash during training, and data imbalance, where tasks with more data may dominate."
+            },
+            {
+              "blockIndex": 151,
+              "text": "Fine-tuning can be applied to a wide range of use cases:"
+            },
+            {
+              "blockIndex": 154,
+              "text": "Fine-tune an LLM to understand and respond to customer inquiries more effectively, including within chatbots."
+            },
+            {
+              "blockIndex": 157,
+              "text": "The ability of LLMs to generate concise and accurate summaries in specific domains or writing styles can be improved through fine-tuning."
+            },
+            {
+              "blockIndex": 160,
+              "text": "Create blog posts, articles, or product descriptions in a specific style with a fine-tuned model."
+            },
+            {
+              "blockIndex": 163,
+              "text": "Fine-tune a model to classify and analyze text data, such as social media posts or customer reviews."
+            },
+            {
+              "blockIndex": 166,
+              "text": "Generate code in a specific programming language or framework with a fine-tuned model."
+            },
+            {
+              "blockIndex": 169,
+              "text": "Google Translate uses fine-tuning to improve the quality of machine translation by adapting the model to specific language pairs and domains."
+            },
+            {
+              "blockIndex": 170,
+              "text": "Fine-tuning at scale with Google Cloud"
+            },
+            {
+              "blockIndex": 171,
+              "text": "Google Cloud offers a robust ecosystem to support your model fine-tuning efforts, providing everything from a unified machine learning platform to the specialized hardware needed to accelerate complex computations. Whether you're customizing a foundation model or refining your own, these services streamline the entire workflow."
+            },
+            {
+              "blockIndex": 174,
+              "text": "BigQueryAnalyze and transform large datasets for fine-tuning."
+            },
+            {
+              "blockIndex": 176,
+              "text": "TensorFlowAn open source machine learning framework for training and fine-tuning models."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "tacGia": "Ivan Belcic, Cole Stryker",
+          "ngayDang": "2025-02-07",
+          "ngayLayVe": "2026-09-17T13:14:17.782Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, so sánh khách quan các phương pháp.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+          "tieuDe": "To fine-tune or not to fine-tune",
+          "ngayLayVe": "2026-09-17T13:14:19.222Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Meta AI là nhà phát triển LLM lớn, cung cấp dữ liệu thực nghiệm cụ thể (số liệu độ chính xác) và phân tích kỹ thuật chi tiết về chi phí và hiệu quả.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ, cần kiểm tra thêm thời điểm công bố để đảm bảo tính cập nhật của số liệu.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://cloud.google.com/use-cases/fine-tuning-ai-models",
+          "tieuDe": "Fine-tuning LLMs: overview and guide | Google Cloud",
+          "toChuc": "Google Cloud",
+          "ngayLayVe": "2026-09-17T13:14:19.224Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Tài liệu chính thức từ Google Cloud, cung cấp hướng dẫn thực hành và tiêu chí kỹ thuật rõ ràng cho việc lựa chọn phương pháp.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+          "tieuDe": "https://www.reddit.com/r/LocalLLaMA/comments/1kyeo4z/when_to_finetune_llms_and_when_not_to_a_practical/",
+          "ngayLayVe": "2026-09-17T13:14:17.783Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n05",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "tieuDe": "https://www.reddit.com/r/LocalLLaMA/comments/152s9ei/when_is_it_best_to_use_prompt_engineering_vs/",
+          "ngayLayVe": "2026-09-17T13:14:17.784Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Lỗi: fetch failed",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "error",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "tieuDe": "https://nexla.com/ai-infrastructure/prompt-engineering-vs-fine-tuning/",
+          "ngayLayVe": "2026-09-17T13:14:19.223Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n04",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Prompt engineering là phương pháp ít tốn kém và nhanh nhất, phù hợp cho các tác vụ mở hoặc khi cần linh hoạt, không yêu cầu đầu tư phần cứng tính toán thêm.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+              "viTri": "Đoạn 5"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Chỉ có một nguồn xác nhận trực tiếp về khía cạnh chi phí/tài nguyên thấp nhất so với 2 phương pháp còn lại."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Fine-tuning nên được cân nhắc khi cần sửa các lỗi mà prompt engineering không thể khắc phục, đặc biệt là các trường hợp biên (edge cases) hoặc khi cần độ chính xác cao trên các nhiệm vụ cụ thể.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+              "viTri": "Đoạn 4"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Fine-tuning có thể cải thiện đáng kể độ chính xác của mô hình trên các nhiệm vụ cụ thể, ví dụ: tăng độ chính xác phân tích cảm xúc từ 34% lên 85% hoặc từ 48% lên 73%.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%. ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples.",
+              "viTri": "Đoạn 4"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Số liệu cụ thể chỉ được cung cấp bởi Meta AI, chưa có nguồn độc lập thứ hai xác nhận các con số này."
+        },
+        {
+          "id": "t04",
+          "noiDung": "Fine-tuning giúp giảm chi phí và độ trễ (latency) bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, đồng thời giảm nhu cầu về prompt dài.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality.",
+              "viTri": "Đoạn 5"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering\",\n      \"tieuDe\": \"RAG vs fine-tuning vs. prompt engineering | IBM\",\n      \"tacGia\": \"Ivan Belcic, Cole Stryker\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2025-02-07\",\n      \"ngayLayVe\": \"2026-09-17T13:14:17.782Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, so sánh khách quan các phương pháp.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/\",\n      \"tieuDe\": \"To fine-tune or not to fine-tune\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Meta AI\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:19.222Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Meta AI là nhà phát triển LLM lớn, cung cấp dữ liệu thực nghiệm cụ thể (số liệu độ chính xác) và phân tích kỹ thuật chi tiết về chi phí và hiệu quả.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Ngày đăng không rõ, cần kiểm tra thêm thời điểm công bố để đảm bảo tính cập nhật của số liệu.\"],\n      \"doanTrich\": \"Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://cloud.google.com/use-cases/fine-tuning-ai-models\",\n      \"tieuDe\": \"Fine-tuning LLMs: overview and guide | Google Cloud\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Google Cloud\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:19.224Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu chính thức từ Google Cloud, cung cấp hướng dẫn thực hành và tiêu chí kỹ thuật rõ ràng cho việc lựa chọn phương pháp.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Ngày đăng không rõ.\"],\n      \"doanTrich\": \"Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Prompt engineering là phương pháp ít tốn kém và nhanh nhất, phù hợp cho các tác vụ mở hoặc khi cần linh hoạt, không yêu cầu đầu tư phần cứng tính toán thêm.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\",\n          \"viTri\": \"Đoạn 5\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn xác nhận trực tiếp về khía cạnh chi phí/tài nguyên thấp nhất so với 2 phương pháp còn lại.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Fine-tuning nên được cân nhắc khi cần sửa các lỗi mà prompt engineering không thể khắc phục, đặc biệt là các trường hợp biên (edge cases) hoặc khi cần độ chính xác cao trên các nhiệm vụ cụ thể.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.\",\n          \"viTri\": \"Đoạn 4\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Fine-tuning có thể cải thiện đáng kể độ chính xác của mô hình trên các nhiệm vụ cụ thể, ví dụ: tăng độ chính xác phân tích cảm xúc từ 34% lên 85% hoặc từ 48% lên 73%.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%. ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples.\",\n          \"viTri\": \"Đoạn 4\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Số liệu cụ thể chỉ được cung cấp bởi Meta AI, chưa có nguồn độc lập thứ hai xác nhận các con số này.\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Fine-tuning giúp giảm chi phí và độ trễ (latency) bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, đồng thời giảm nhu cầu về prompt dài.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality.\",\n          \"viTri\": \"Đoạn 5\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-a73648c1-91ab-4dd3-a5f7-e7f350d0a0e0",
+          "durationMs": 4293,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering\",\n      \"tieuDe\": \"RAG vs fine-tuning vs. prompt engineering | IBM\",\n      \"tacGia\": \"Ivan Belcic, Cole Stryker\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2025-02-07\",\n      \"ngayLayVe\": \"2026-09-17T13:14:17.782Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, so sánh khách quan các phương pháp.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/\",\n      \"tieuDe\": \"To fine-tune or not to fine-tune\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Meta AI\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:19.222Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Meta AI là nhà phát triển LLM lớn, cung cấp dữ liệu thực nghiệm cụ thể (số liệu độ chính xác) và phân tích kỹ thuật chi tiết về chi phí và hiệu quả.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Ngày đăng không rõ, cần kiểm tra thêm thời điểm công bố để đảm bảo tính cập nhật của số liệu.\"],\n      \"doanTrich\": \"Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://cloud.google.com/use-cases/fine-tuning-ai-models\",\n      \"tieuDe\": \"Fine-tuning LLMs: overview and guide | Google Cloud\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Google Cloud\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:14:19.224Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu chính thức từ Google Cloud, cung cấp hướng dẫn thực hành và tiêu chí kỹ thuật rõ ràng cho việc lựa chọn phương pháp.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Ngày đăng không rõ.\"],\n      \"doanTrich\": \"Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Prompt engineering là phương pháp ít tốn kém và nhanh nhất, phù hợp cho các tác vụ mở hoặc khi cần linh hoạt, không yêu cầu đầu tư phần cứng tính toán thêm.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.\",\n          \"viTri\": \"Đoạn 5\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Chỉ có một nguồn xác nhận trực tiếp về khía cạnh chi phí/tài nguyên thấp nhất so với 2 phương pháp còn lại.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Fine-tuning nên được cân nhắc khi cần sửa các lỗi mà prompt engineering không thể khắc phục, đặc biệt là các trường hợp biên (edge cases) hoặc khi cần độ chính xác cao trên các nhiệm vụ cụ thể.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.\",\n          \"viTri\": \"Đoạn 4\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Fine-tuning có thể cải thiện đáng kể độ chính xác của mô hình trên các nhiệm vụ cụ thể, ví dụ: tăng độ chính xác phân tích cảm xúc từ 34% lên 85% hoặc từ 48% lên 73%.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%. ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples.\",\n          \"viTri\": \"Đoạn 4\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Số liệu cụ thể chỉ được cung cấp bởi Meta AI, chưa có nguồn độc lập thứ hai xác nhận các con số này.\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Fine-tuning giúp giảm chi phí và độ trễ (latency) bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, đồng thời giảm nhu cầu về prompt dài.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality.\",\n          \"viTri\": \"Đoạn 5\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 9916
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Fine-tuning so với prompt engineering",
+      "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Quản lý sản phẩm",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?",
+          "chuTrenManHinh": "Khi nào dùng prompt hay fine‑tuning?",
+          "yDoHinh": "Quản lý sản phẩm đứng trước bảng lựa chọn hai con đường: viết câu lệnh và tinh chỉnh mô hình.",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.",
+          "chuTrenManHinh": "Prompt engineering ít tốn kém",
+          "yDoHinh": "Màn hình máy tính hiển thị câu lệnh ngắn gọn cùng biểu tượng đồng tiền không hao hụt.",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.",
+          "chuTrenManHinh": "Fine‑tuning xử lý lỗi",
+          "yDoHinh": "Đồ họa mạng nơ‑ron tự điều chỉnh các nút lỗi dưới biểu tượng cờ lê.",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.",
+          "chuTrenManHinh": "Giảm chi phí, độ trễ",
+          "yDoHinh": "Hai robot, một lớn truyền ánh sáng tri thức sang robot nhỏ, bên cạnh biểu đồ chi phí giảm.",
+          "nguon": [
+            "t04"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.",
+          "chuTrenManHinh": "So sánh nhanh",
+          "yDoHinh": "Bảng so sánh hai phương pháp với các dấu tích xanh và đỏ.",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789650888817",
+      "timestamp": "2026-09-17T13:14:48.817Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Fine-tuning so với prompt engineering",
+        "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "evalRunId": "2026-09-17T13-11-19-300Z",
+        "evalCaseId": "N07"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+          "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+          "tacGia": "Ivan Belcic, Cole Stryker",
+          "ngayDang": "2025-02-07",
+          "ngayLayVe": "2026-09-17T13:14:17.782Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, so sánh khách quan các phương pháp.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+          "tieuDe": "To fine-tune or not to fine-tune",
+          "ngayLayVe": "2026-09-17T13:14:19.222Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Meta AI là nhà phát triển LLM lớn, cung cấp dữ liệu thực nghiệm cụ thể (số liệu độ chính xác) và phân tích kỹ thuật chi tiết về chi phí và hiệu quả.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ, cần kiểm tra thêm thời điểm công bố để đảm bảo tính cập nhật của số liệu.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://cloud.google.com/use-cases/fine-tuning-ai-models",
+          "tieuDe": "Fine-tuning LLMs: overview and guide | Google Cloud",
+          "toChuc": "Google Cloud",
+          "ngayLayVe": "2026-09-17T13:14:19.224Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Tài liệu chính thức từ Google Cloud, cung cấp hướng dẫn thực hành và tiêu chí kỹ thuật rõ ràng cho việc lựa chọn phương pháp.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Ngày đăng không rõ.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Prompt engineering là phương pháp ít tốn kém và nhanh nhất, phù hợp cho các tác vụ mở hoặc khi cần linh hoạt, không yêu cầu đầu tư phần cứng tính toán thêm.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+              "viTri": "Đoạn 5"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Chỉ có một nguồn xác nhận trực tiếp về khía cạnh chi phí/tài nguyên thấp nhất so với 2 phương pháp còn lại."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Fine-tuning nên được cân nhắc khi cần sửa các lỗi mà prompt engineering không thể khắc phục, đặc biệt là các trường hợp biên (edge cases) hoặc khi cần độ chính xác cao trên các nhiệm vụ cụ thể.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.",
+              "viTri": "Đoạn 4"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Fine-tuning có thể cải thiện đáng kể độ chính xác của mô hình trên các nhiệm vụ cụ thể, ví dụ: tăng độ chính xác phân tích cảm xúc từ 34% lên 85% hoặc từ 48% lên 73%.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Phi-2’s accuracy on financial data sentiment analysis increased from 34% to 85%. ChatGPT’s accuracy on Reddit comment sentiment analysis improved by 25 percentage points (from 48% to 73%) using just 100 examples.",
+              "viTri": "Đoạn 4"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Số liệu cụ thể chỉ được cung cấp bởi Meta AI, chưa có nguồn độc lập thứ hai xác nhận các con số này."
+        },
+        {
+          "id": "t04",
+          "noiDung": "Fine-tuning giúp giảm chi phí và độ trễ (latency) bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, đồng thời giảm nhu cầu về prompt dài.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality.",
+              "viTri": "Đoạn 5"
+            },
+            {
+              "nguonId": "n03",
+              "doanTrich": "Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Fine-tuning so với prompt engineering",
+        "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Quản lý sản phẩm",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?",
+            "chuTrenManHinh": "Khi nào dùng prompt hay fine‑tuning?",
+            "yDoHinh": "Quản lý sản phẩm đứng trước bảng lựa chọn hai con đường: viết câu lệnh và tinh chỉnh mô hình.",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.",
+            "chuTrenManHinh": "Prompt engineering ít tốn kém",
+            "yDoHinh": "Màn hình máy tính hiển thị câu lệnh ngắn gọn cùng biểu tượng đồng tiền không hao hụt.",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.",
+            "chuTrenManHinh": "Fine‑tuning xử lý lỗi",
+            "yDoHinh": "Đồ họa mạng nơ‑ron tự điều chỉnh các nút lỗi dưới biểu tượng cờ lê.",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.",
+            "chuTrenManHinh": "Giảm chi phí, độ trễ",
+            "yDoHinh": "Hai robot, một lớn truyền ánh sáng tri thức sang robot nhỏ, bên cạnh biểu đồ chi phí giảm.",
+            "nguon": [
+              "t04"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.",
+            "chuTrenManHinh": "So sánh nhanh",
+            "yDoHinh": "Bảng so sánh hai phương pháp với các dấu tích xanh và đỏ.",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Fine-tuning can be used to correct hallucinations or errors that are challenging to rectify through prompt engineering and in-context learning.; [n03] Handle edge cases: Fine-tuning can improve the model's ability to handle edge cases and complex prompts that are difficult to address through prompt engineering alone"
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.",
+          "nguon": [
+            "t04"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] Fine-tuning can distill the skills in a bigger model like Llama 2 70B/GPT-4 into a smaller model such as Llama 2 7B, reducing costs and latency without compromising quality.; [n03] Reduce costs and latency: For high-volume use cases, fine-tuning a smaller model can be more cost-effective than using a larger, general-purpose model for each request"
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Fine-tuning so với prompt engineering\",\"mucTieu\":\"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Quản lý sản phẩm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?\",\"chuTrenManHinh\":\"Khi nào dùng prompt hay fine‑tuning?\",\"yDoHinh\":\"Quản lý sản phẩm đứng trước bảng lựa chọn hai con đường: viết câu lệnh và tinh chỉnh mô hình.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.\",\"chuTrenManHinh\":\"Prompt engineering ít tốn kém\",\"yDoHinh\":\"Màn hình máy tính hiển thị câu lệnh ngắn gọn cùng biểu tượng đồng tiền không hao hụt.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.\",\"chuTrenManHinh\":\"Fine‑tuning xử lý lỗi\",\"yDoHinh\":\"Đồ họa mạng nơ‑ron tự điều chỉnh các nút lỗi dưới biểu tượng cờ lê.\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.\",\"chuTrenManHinh\":\"Giảm chi phí, độ trễ\",\"yDoHinh\":\"Hai robot, một lớn truyền ánh sáng tri thức sang robot nhỏ, bên cạnh biểu đồ chi phí giảm.\",\"nguon\":[\"t04\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.\",\"chuTrenManHinh\":\"So sánh nhanh\",\"yDoHinh\":\"Bảng so sánh hai phương pháp với các dấu tích xanh và đỏ.\",\"nguon\":[]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash",
+          "durationMs": 18310,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Fine-tuning so với prompt engineering\",\n  \"mucTieu\": \"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Quản lý sản phẩm\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Là một nhà quản lý sản phẩm, có bao giờ bạn băn khoăn liệu nên tối ưu hóa mô hình bằng cách viết câu lệnh hay phải tốn công sức thiết lập lại hệ thống dữ liệu phức tạp?\",\n      \"chuTrenManHinh\": \"Lựa chọn tối ưu hóa mô hình AI?\",\n      \"yDoHinh\": \"Một quản lý sản phẩm đứng trước hai con đường có biển chỉ dẫn ghi chữ Viết câu lệnh và Tinh chỉnh mô hình.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Theo một báo cáo chưa được xác minh độc lập, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất vì không đòi hỏi đầu tư thêm phần cứng tính toán.\",\n      \"chuTrenManHinh\": \"Prompt engineering ít tốn kém nhất\",\n      \"yDoHinh\": \"Hình ảnh màn hình máy tính đang gõ các dòng lệnh đơn giản kèm theo một biểu tượng ví tiền không bị hao hụt.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Ngược lại, đối với các trường hợp biên hoặc lỗi khó sửa bằng câu lệnh, tài liệu chuyên môn chưa xác minh chỉ ra rằng tinh chỉnh mô hình, hay còn gọi là fine-tuning, sẽ giúp sửa chữa các lỗi sai này hiệu quả hơn.\",\n      \"chuTrenManHinh\": \"Fine-tuning xử lý trường hợp biên\",\n      \"yDoHinh\": \"Đồ họa mô tả một mạng lưới nơ-ron phức tạp đang tự động điều chỉnh các nút thắt bị lỗi dưới biểu tượng một chiếc cờ lê.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy lưu ý rằng, phương pháp tinh chỉnh này còn có thể giúp giảm chi phí vận hành và độ trễ bằng cách chuyển giao tri thức từ mô hình lớn sang mô hình nhỏ hơn, dù nhận định này vẫn cần thêm dữ liệu để kiểm chứng thêm.\",\n      \"chuTrenManHinh\": \"Giảm chi phí và độ trễ vận hành\",\n      \"yDoHinh\": \"Hình ảnh minh họa một chú rô-bốt lớn đang truyền ánh sáng tri thức sang một chú rô-bốt nhỏ hơn, bên cạnh là biểu đồ cột chi phí đi xuống.\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học ngắn ngày hôm nay, chúng ta sẽ cùng phân tích sâu hơn để bạn có thể tự tin đưa ra quyết định phù hợp nhất cho ngân sách và dự án của mình.\",\n      \"chuTrenManHinh\": \"Lựa chọn giải pháp phù hợp dự án\",\n      \"yDoHinh\": \"Nhân vật quản lý sản phẩm mỉm cười tự tin, cầm trên tay bảng so sánh chi tiết hai phương pháp với các dấu tích xanh.\",\n      \"nguon\": []\n    }\n  ]\n}",
+          "validationError": "Câu 1: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+        },
+        {
+          "stage": "repair",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-09146cde-70b7-456e-aab2-0db26a423c65",
+          "durationMs": 4875,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Fine-tuning so với prompt engineering\",\"mucTieu\":\"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\",\"thoiLuong\":\"4 phút\",\"nguoiHoc\":\"Quản lý sản phẩm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã bao giờ tự hỏi khi nào nên viết câu lệnh thay vì tinh chỉnh mô hình?\",\"chuTrenManHinh\":\"Khi nào dùng prompt hay fine‑tuning?\",\"yDoHinh\":\"Quản lý sản phẩm đứng trước bảng lựa chọn hai con đường: viết câu lệnh và tinh chỉnh mô hình.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Vì không đòi hỏi đầu tư phần cứng tính toán, kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, được xem là phương pháp ít tốn thời gian và tài nguyên nhất.\",\"chuTrenManHinh\":\"Prompt engineering ít tốn kém\",\"yDoHinh\":\"Màn hình máy tính hiển thị câu lệnh ngắn gọn cùng biểu tượng đồng tiền không hao hụt.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Khi gặp các lỗi khó sửa hoặc các trường hợp biên, tinh chỉnh mô hình, hay còn gọi là fine‑tuning, có thể khắc phục những vấn đề mà kỹ thuật gợi ý lệnh không giải quyết được.\",\"chuTrenManHinh\":\"Fine‑tuning xử lý lỗi\",\"yDoHinh\":\"Đồ họa mạng nơ‑ron tự điều chỉnh các nút lỗi dưới biểu tượng cờ lê.\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Fine‑tuning còn giúp giảm chi phí và độ trễ bằng cách chưng cất kỹ năng từ mô hình lớn sang mô hình nhỏ hơn, nhờ đó giảm nhu cầu sử dụng prompt dài.\",\"chuTrenManHinh\":\"Giảm chi phí, độ trễ\",\"yDoHinh\":\"Hai robot, một lớn truyền ánh sáng tri thức sang robot nhỏ, bên cạnh biểu đồ chi phí giảm.\",\"nguon\":[\"t04\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Trong bốn phút tới, chúng ta sẽ so sánh rõ ràng để bạn có thể quyết định lựa chọn phù hợp cho dự án và ngân sách của mình.\",\"chuTrenManHinh\":\"So sánh nhanh\",\"yDoHinh\":\"Bảng so sánh hai phương pháp với các dấu tích xanh và đỏ.\",\"nguon\":[]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 23592
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

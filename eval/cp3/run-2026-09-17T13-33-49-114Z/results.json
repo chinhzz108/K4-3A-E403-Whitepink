@@ -1,0 +1,22 @@
+[
+  {
+    "id": "N15",
+    "class": "nguon-cu",
+    "automatedStatus": "pass",
+    "reviewStatus": "not-required",
+    "finalStatus": "pass",
+    "status": "pass",
+    "reason": "Phát hiện ngày và cảnh báo nguồn cũ; fixture không được coi là thông tin đã xác minh và không sinh kịch bản xuất bản",
+    "metrics": {
+      "readablePages": 1,
+      "selectedSources": 1,
+      "factsWithEvidence": 1,
+      "scriptSentences": 0,
+      "sourcedSentences": 0,
+      "researchAiAttempts": 1,
+      "scriptAiAttempts": 0
+    },
+    "trace": "N15.json",
+    "durationMs": 3728
+  }
+]

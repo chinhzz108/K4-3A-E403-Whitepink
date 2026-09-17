@@ -1,0 +1,248 @@
+{
+  "id": "trace-script-1789652662280",
+  "timestamp": "2026-09-17T13:44:22.280Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+    "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+    "targetAudience": "Giảng viên đại học",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N18"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n02",
+      "url": "https://securiti.ai/ai-risk-assessment/",
+      "tieuDe": "AI Risk Assessment: Strategies, Tools, and Best Practices - Securiti",
+      "toChuc": "Securiti",
+      "ngayLayVe": "2026-09-17T13:44:12.284Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nguồn từ công ty tư vấn an ninh mạng, cung cấp thông tin tổng quan về rủi ro AI (điên, thiên kiến, bảo mật). Tuy nhiên, không tập trung cụ thể vào giáo dục/chấm bài mà mang tính tổng quát về doanh nghiệp.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, cần xác minh tính cập nhật của thông tin.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.quetext.com/blog/benefits-ai-grading-for-teachers-simplify-grading",
+      "tieuDe": "Benefits of AI Grading for Teachers | How Tools Simplify Grading",
+      "toChuc": "Quetext",
+      "ngayDang": "2025-11-19T08:05:39",
+      "ngayLayVe": "2026-09-17T13:44:12.285Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nguồn từ nhà cung cấp công cụ kiểm tra đạo văn (Quetext), có thiên vị sản phẩm nhưng cung cấp các lợi ích cụ thể của AI trong chấm bài (tốc độ, nhất quán, phát hiện đạo văn).",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn có tính thương mại, cần thận trọng với các tuyên bố về hiệu quả tuyệt đối."
+      ],
+      "doanTrich": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Lợi ích: AI giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "The biggest value of AI grading tools is their capability to review large quantities of work instantaneously.",
+          "viTri": "Mục Top Benefits of AI Grading for Teachers"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Chỉ có một nguồn xác nhận trực tiếp về lợi ích này trong ngữ cảnh chấm bài."
+    },
+    {
+      "id": "t02",
+      "noiDung": "Lợi ích: AI hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản (đạo văn/AI-generated), từ đó hỗ trợ toàn vẹn học thuật.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment",
+          "viTri": "Mục Why Teachers Are Turning to AI Grading Tools"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Thông tin dựa trên quan điểm của nhà cung cấp công cụ."
+    },
+    {
+      "id": "t03",
+      "noiDung": "Rủi ro: Các mô hình AI có thể chứa thiên kiến (bias) trong dữ liệu huấn luyện, dẫn đến các kết quả phân biệt đối xử hoặc không công bằng.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs.",
+          "viTri": "Mục AI Risk Assessments & Global AI Regulations"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Nguồn nói về rủi ro chung của AI, không cụ thể hóa cho chấm bài, nhưng nguyên lý áp dụng được."
+    },
+    {
+      "id": "t04",
+      "noiDung": "Rủi ro: Vấn đề bảo mật dữ liệu và quyền riêng tư do AI cần dữ liệu cá nhân/nhạy cảm để huấn luyện, có thể dẫn đến rò rỉ thông tin.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse",
+          "viTri": "Mục AI Risk Assessments & Global AI Regulations"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Rủi ro chung về bảo mật dữ liệu trong hệ thống AI."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "AI trong chấm bài và phản hồi cho sinh viên",
+    "mucTieu": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+    "thoiLuong": "năm phút",
+    "nguoiHoc": "Giảng viên đại học",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.",
+        "chuTrenManHinh": "Chào mừng quý thầy cô",
+        "yDoHinh": "Video ngắn chào mừng giảng viên đại học đến với bài học",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+        "chuTrenManHinh": "Lợi ích tăng tốc độ chấm",
+        "yDoHinh": "Biểu đồ minh họa tốc độ xử lý công việc lớn của hệ thống",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.",
+        "chuTrenManHinh": "Tính nhất quán trong đánh giá",
+        "yDoHinh": "Giao diện màn hình hiển thị kết quả đánh giá đồng bộ",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?",
+        "chuTrenManHinh": "Rủi ro thiên kiến trong dữ liệu",
+        "yDoHinh": "Hình ảnh sơ đồ dữ liệu với các điểm bất thường cần lưu ý",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.",
+        "chuTrenManHinh": "Rủi ro bảo mật dữ liệu",
+        "yDoHinh": "Biểu tượng ổ khóa bảo mật dữ liệu cá nhân trên màn hình",
+        "nguon": [
+          "t04"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] The biggest value of AI grading tools is their capability to review large quantities of work instantaneously."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] AI tools help solve this problem by providing objective insights that inform evaluative judgement while achieving consistent assessment"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Bias Assessment - Addressing the issue of bias within AI systems and models, specifically the input datasets, to monitor for any discrepancies in the form of discriminatory elements that may lead to potential bias in the generated outputs."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.",
+      "nguon": [
+        "t04"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] AI models require extensive training on training sets to be functional. Often, such datasets contain personal and sensitive data. If not appropriately managed and protected, such data can be vulnerable to all manner of risks, such as breaches, unauthorized access, and misuse"
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"AI trong chấm bài và phản hồi cho sinh viên\",\n  \"mucTieu\": \"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm\",\n  \"thoiLuong\": \"năm phút\",\n  \"nguoiHoc\": \"Giảng viên đại học\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.\",\n      \"chuTrenManHinh\": \"Chào mừng quý thầy cô\",\n      \"yDoHinh\": \"Video ngắn chào mừng giảng viên đại học đến với bài học\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.\",\n      \"chuTrenManHinh\": \"Lợi ích tăng tốc độ chấm\",\n      \"yDoHinh\": \"Biểu đồ minh họa tốc độ xử lý công việc lớn của hệ thống\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.\",\n      \"chuTrenManHinh\": \"Tính nhất quán trong đánh giá\",\n      \"yDoHinh\": \"Giao diện màn hình hiển thị kết quả đánh giá đồng bộ\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?\",\n      \"chuTrenManHinh\": \"Rủi ro thiên kiến trong dữ liệu\",\n      \"yDoHinh\": \"Hình ảnh sơ đồ dữ liệu với các điểm bất thường cần lưu ý\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.\",\n      \"chuTrenManHinh\": \"Rủi ro bảo mật dữ liệu\",\n      \"yDoHinh\": \"Biểu tượng ổ khóa bảo mật dữ liệu cá nhân trên màn hình\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "durationMs": 3162,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"AI trong chấm bài và phản hồi cho sinh viên\",\n  \"mucTieu\": \"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm\",\n  \"thoiLuong\": \"năm phút\",\n  \"nguoiHoc\": \"Giảng viên đại học\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng quý thầy cô đến với video bài giảng về trí tuệ nhân tạo trong chấm bài và phản hồi cho sinh viên.\",\n      \"chuTrenManHinh\": \"Chào mừng quý thầy cô\",\n      \"yDoHinh\": \"Video ngắn chào mừng giảng viên đại học đến với bài học\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa kiểm chứng, trí tuệ nhân tạo giúp tăng tốc độ chấm bài và xử lý khối lượng công việc lớn, giảm bớt gánh nặng cho giáo viên.\",\n      \"chuTrenManHinh\": \"Lợi ích tăng tốc độ chấm\",\n      \"yDoHinh\": \"Biểu đồ minh họa tốc độ xử lý công việc lớn của hệ thống\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, công cụ này còn hỗ trợ đảm bảo tính nhất quán trong đánh giá và phát hiện các vấn đề về tính nguyên bản, tuy nhiên thông tin này vẫn ở trạng thái chưa xác minh.\",\n      \"chuTrenManHinh\": \"Tính nhất quán trong đánh giá\",\n      \"yDoHinh\": \"Giao diện màn hình hiển thị kết quả đánh giá đồng bộ\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu các mô hình trí tuệ nhân tạo có thể chứa thiên kiến trong dữ liệu huấn luyện, dẫn đến kết quả phân biệt đối xử hoặc không công bằng theo ghi nhận chưa kiểm chứng hay không?\",\n      \"chuTrenManHinh\": \"Rủi ro thiên kiến trong dữ liệu\",\n      \"yDoHinh\": \"Hình ảnh sơ đồ dữ liệu với các điểm bất thường cần lưu ý\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Cuối cùng, vấn đề bảo mật dữ liệu và quyền riêng tư do hệ thống cần dữ liệu nhạy cảm để huấn luyện có thể dẫn đến rủi ro rò rỉ, mặc dù đây mới chỉ là dữ liệu chưa xác minh.\",\n      \"chuTrenManHinh\": \"Rủi ro bảo mật dữ liệu\",\n      \"yDoHinh\": \"Biểu tượng ổ khóa bảo mật dữ liệu cá nhân trên màn hình\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 4058
+}

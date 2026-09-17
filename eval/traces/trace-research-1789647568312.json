@@ -1,0 +1,382 @@
+{
+  "id": "trace-research-1789647568312",
+  "timestamp": "2026-09-17T12:19:28.312Z",
+  "phase": "research",
+  "input": {
+    "topic": "Retrieval-Augmented Generation (RAG)",
+    "learningObjective": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "targetAudience": "Sinh viên CNTT năm 3",
+    "videoDuration": "5 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T12-12-13-353Z",
+    "evalCaseId": "N06"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Detect hallucinations for RAG-based systems",
+          "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+          "snippet": "This can also help reduce generation of false or misleading information (hallucinations). However, even with RAG's capabilities, the ...",
+          "position": 1
+        },
+        {
+          "title": "RAG hallucinations explained: Causes, risks, and fixes",
+          "url": "https://www.mindee.com/blog/rag-hallucinations-explained",
+          "snippet": "Discover how hallucinations arise in Retrieval-Augmented Generation (RAG) models and learn practical strategies to reduce them.",
+          "position": 2
+        },
+        {
+          "title": "Reducing hallucination in structured outputs via Retrieval ...",
+          "url": "https://arxiv.org/abs/2404.08189",
+          "snippet": "viết bởi P Béchard · 2024 · Trích dẫn 343 bài viết — Thanks to our implementation of RAG, our proposed system significantly reduces hallucinations in the output and improves the generalization of ...",
+          "position": 3
+        },
+        {
+          "title": "Exploring RAG Solutions to Reduce Hallucinations in LLMs",
+          "url": "https://ieeexplore.ieee.org/document/11014810/",
+          "snippet": "viết bởi S AboulEla · 2025 · Trích dẫn 32 bài viết — Our findings show that while fine-tuned LLMs outperform baseline models, incorporating RAG solutions did not result in significant performance improvements, ...",
+          "position": 4
+        },
+        {
+          "title": "RAG hallucination: What is it and how to avoid it",
+          "url": "https://www.k2view.com/blog/rag-hallucination/",
+          "snippet": "Although regular RAG grounds LLMs with unstructured data from internal sources, hallucinations still occur. Add structured data to the mix to reduce them.",
+          "position": 5
+        }
+      ],
+      "query": "RAG hallucination reduction",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "Tìm hiểu về Retrieval Augmented Generation (RAG) - Viblo.asia",
+          "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+          "snippet": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài ( ...",
+          "position": 1
+        },
+        {
+          "title": "What is RAG? - Retrieval-Augmented Generation AI ...",
+          "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/",
+          "snippet": "Retrieval-Augmented Generation (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside ...",
+          "position": 2
+        },
+        {
+          "title": "What is Retrieval-Augmented Generation (RAG)?",
+          "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation",
+          "snippet": "Retrieval-augmented generation (RAG) combines LLMs with external knowledge bases to improve their outputs. Learn more with Google Cloud.",
+          "position": 3
+        },
+        {
+          "title": "What is RAG (Retrieval Augmented Generation)?",
+          "url": "https://www.ibm.com/think/topics/retrieval-augmented-generation",
+          "snippet": "Retrieval augmented generation (RAG) is an architecture for optimizing the performance of an artificial intelligence (AI) model by connecting it with ...",
+          "position": 4
+        },
+        {
+          "title": "Retrieval-Augmented Generation for Large Language ...",
+          "url": "https://arxiv.org/abs/2312.10997",
+          "snippet": "viết bởi Y Gao · 2023 · Trích dẫn 8096 bài viết — This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, ...",
+          "position": 5
+        }
+      ],
+      "query": "retrieval augmented generation",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "https://www.mindee.com/blog/rag-hallucinations-explained",
+      "https://aws.amazon.com/what-is/retrieval-augmented-generation/",
+      "https://arxiv.org/abs/2404.08189",
+      "https://cloud.google.com/use-cases/retrieval-augmented-generation",
+      "https://ieeexplore.ieee.org/document/11014810/",
+      "https://www.ibm.com/think/topics/retrieval-augmented-generation"
+    ],
+    "pagesRead": [
+      "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "https://www.mindee.com/blog/rag-hallucinations-explained"
+    ],
+    "supplementReasons": []
+  },
+  "pagesRead": [
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "content": "Detect hallucinations for RAG-based systems\n\nWith the rise of generative AI and knowledge extraction in AI systems, Retrieval Augmented Generation (RAG) has become a prominent tool for enhancing the accuracy and reliability of AI-generated responses. RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations). However, even with RAG’s capabilities, the challenge of AI hallucinations remains a significant concern.\n\nAs AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount. Most hallucination detection techniques focus on the prompt and the response alone. However, where additional context is available, such as in RAG-based applications, new techniques can be introduced to better mitigate the hallucination problem.\n\nThis post walks you through how to create a basic hallucination detection system for RAG-based applications. We also weigh the pros and cons of different methods in terms of accuracy, precision, recall, and cost.\n\nHallucinations can be categorized into three types, as illustrated in the following graphic.\n\nScientific literature has come up with multiple hallucination detection techniques. In the following sections, we discuss and implement four prominent approaches to detecting hallucinations: using an LLM prompt-based detector, semantic similarity detector, BERT stochastic checker, and token similarity detector. Finally, we compare approaches in terms of their performance and latency.\n\nApproach 1: LLM-based hallucination detection\n\nWe can use an LLM to classify the responses from our RAG system into context-conflicting hallucinations and facts. The aim is to identify which responses are based on the context or whether they contain hallucinations.\n\nTune the decision threshold for the hallucination scores for a specific dataset based on domain, for example.\n\nUse the threshold to classify the statement as hallucination or fact.\n\nTo use the LLM to classify the answer to your question, you need to set up a prompt. We want the LLM to take in the context and the answer, and determine from the given context a hallucination score. The score will be encoded between 0 and 1, with 0 being an answer directly from the context and 1 being an answer with no basis from the context.\n\n<code class=\"lang-python\">prompt = \"\"\"\\n\\nHuman: You are an expert assistant helping human to check if statements are based on the context. Your task is to read context and statement and indicate which sentences in the statement are based directly on the context. Provide response as a number, where the number represents a hallucination score, which is a float between 0 and 1. Set the float to 0 if you are confident that the sentence is directly based on the context. Set the float to 1 if you are confident that the sentence is not based on the context. If you are not confident, set the score to a float number between 0 and 1. Higher numbers represent higher confidence that the sentence is not based on the context. Do not include any other information except for the the score in the response. There is no need to explain your thinking. <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS is Amazon subsidiary that provides cloud computing services.' Assistant: 0.05 </example> <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS revenue in 2022 was $80 billion.' Assistant: 1 </example> <example> Context: Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians. Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, which constitutes an incomplete paraphyletic grouping; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regard to their scope. On average, monkeys are 150 cm tall. Statement:'Average monkey is 2 meters high and weights 100 kilograms.' Assistant: 0.9 </example> Context: {context} Statement: {statement} \\n\\nAssistant: [ \"\"\" ### LANGCHAIN CONSTRUCTS # prompt template prompt_template = PromptTemplate( template=prompt, input_variables=[\"context\", \"statement\"], )</code>\n\n<code class=\"lang-python\">def configure_llm() -> Bedrock: model_params= { \"answer_length\": 100, # max number of tokens in the answer \"temperature\": 0.0, # temperature during inference \"top_p\": 1, # cumulative probability of sampled tokens \"stop_words\": [ \"\\n\\nHuman:\", \"]\", ], # words after which the generation is stopped } bedrock_client = boto3.client( service_name=\"bedrock-runtime\", region_name=\"us-east-1\", ) MODEL_ID = \"anthropic.claude-3-5-sonnet-20240620-v1:0\" llm = Bedrock( client=bedrock_client, model_id=MODEL_ID, model_kwargs=model_params, ) return llm </code>\n\nGet hallucination classifications from the LLM\n\nThe next step is to use the prompt, dataset, and LLM to get hallucination scores for each response from your RAG system. Taking this a step further, you can use a threshold to determine whether the\n\nIn our approach, we use the BERT score as a stochastic checker for hallucination detection. The idea is that if you generate multiple answers from an LLM and there are large variations (inconsistencies) between them, then there is a good chance that these answers are hallucinated. We first generate N random samples (sentences) from the LLM. We then compute BERT scores by comparing each sentence in the original generated paragraph against its corresponding sentence across the N newly generated stochastic samples. This is done by embedding all sentences using an LLM based embedding model and calculating cosine similarity. Our hypothesis is that factual sentences will remain consistent across multiple generations, resulting in high BERT scores (indicating similarity). Conversely, hallucinated content will likely vary across different generations, resulting in low BERT scores between the original sentence and its stochastic variants. By establishing a threshold for these similarity scores, we can flag sentences with consistently low BERT scores as potential hallucinations, because they demonstrate semantic inconsistency across multiple generations from the same model.",
+      "fetchedAt": "2026-09-17T12:19:10.667Z",
+      "title": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+      "status": "ok",
+      "contentLength": 21673,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 1,
+          "text": "Detect hallucinations for RAG-based systems"
+        },
+        {
+          "blockIndex": 2,
+          "text": "With the rise of generative AI and knowledge extraction in AI systems, Retrieval Augmented Generation (RAG) has become a prominent tool for enhancing the accuracy and reliability of AI-generated responses. RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations). However, even with RAG’s capabilities, the challenge of AI hallucinations remains a significant concern."
+        },
+        {
+          "blockIndex": 3,
+          "text": "As AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount. Most hallucination detection techniques focus on the prompt and the response alone. However, where additional context is available, such as in RAG-based applications, new techniques can be introduced to better mitigate the hallucination problem."
+        },
+        {
+          "blockIndex": 4,
+          "text": "This post walks you through how to create a basic hallucination detection system for RAG-based applications. We also weigh the pros and cons of different methods in terms of accuracy, precision, recall, and cost."
+        },
+        {
+          "blockIndex": 7,
+          "text": "Hallucinations can be categorized into three types, as illustrated in the following graphic."
+        },
+        {
+          "blockIndex": 9,
+          "text": "Scientific literature has come up with multiple hallucination detection techniques. In the following sections, we discuss and implement four prominent approaches to detecting hallucinations: using an LLM prompt-based detector, semantic similarity detector, BERT stochastic checker, and token similarity detector. Finally, we compare approaches in terms of their performance and latency."
+        },
+        {
+          "blockIndex": 17,
+          "text": "Approach 1: LLM-based hallucination detection"
+        },
+        {
+          "blockIndex": 18,
+          "text": "We can use an LLM to classify the responses from our RAG system into context-conflicting hallucinations and facts. The aim is to identify which responses are based on the context or whether they contain hallucinations."
+        },
+        {
+          "blockIndex": 27,
+          "text": "Tune the decision threshold for the hallucination scores for a specific dataset based on domain, for example."
+        },
+        {
+          "blockIndex": 28,
+          "text": "Use the threshold to classify the statement as hallucination or fact."
+        },
+        {
+          "blockIndex": 30,
+          "text": "To use the LLM to classify the answer to your question, you need to set up a prompt. We want the LLM to take in the context and the answer, and determine from the given context a hallucination score. The score will be encoded between 0 and 1, with 0 being an answer directly from the context and 1 being an answer with no basis from the context."
+        },
+        {
+          "blockIndex": 32,
+          "text": "<code class=\"lang-python\">prompt = \"\"\"\\n\\nHuman: You are an expert assistant helping human to check if statements are based on the context. Your task is to read context and statement and indicate which sentences in the statement are based directly on the context. Provide response as a number, where the number represents a hallucination score, which is a float between 0 and 1. Set the float to 0 if you are confident that the sentence is directly based on the context. Set the float to 1 if you are confident that the sentence is not based on the context. If you are not confident, set the score to a float number between 0 and 1. Higher numbers represent higher confidence that the sentence is not based on the context. Do not include any other information except for the the score in the response. There is no need to explain your thinking. <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS is Amazon subsidiary that provides cloud computing services.' Assistant: 0.05 </example> <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS revenue in 2022 was $80 billion.' Assistant: 1 </example> <example> Context: Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians. Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, which constitutes an incomplete paraphyletic grouping; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regard to their scope. On average, monkeys are 150 cm tall. Statement:'Average monkey is 2 meters high and weights 100 kilograms.' Assistant: 0.9 </example> Context: {context} Statement: {statement} \\n\\nAssistant: [ \"\"\" ### LANGCHAIN CONSTRUCTS # prompt template prompt_template = PromptTemplate( template=prompt, input_variables=[\"context\", \"statement\"], )</code>"
+        },
+        {
+          "blockIndex": 35,
+          "text": "<code class=\"lang-python\">def configure_llm() -> Bedrock: model_params= { \"answer_length\": 100, # max number of tokens in the answer \"temperature\": 0.0, # temperature during inference \"top_p\": 1, # cumulative probability of sampled tokens \"stop_words\": [ \"\\n\\nHuman:\", \"]\", ], # words after which the generation is stopped } bedrock_client = boto3.client( service_name=\"bedrock-runtime\", region_name=\"us-east-1\", ) MODEL_ID = \"anthropic.claude-3-5-sonnet-20240620-v1:0\" llm = Bedrock( client=bedrock_client, model_id=MODEL_ID, model_kwargs=model_params, ) return llm </code>"
+        },
+        {
+          "blockIndex": 36,
+          "text": "Get hallucination classifications from the LLM"
+        },
+        {
+          "blockIndex": 37,
+          "text": "The next step is to use the prompt, dataset, and LLM to get hallucination scores for each response from your RAG system. Taking this a step further, you can use a threshold to determine whether the"
+        },
+        {
+          "blockIndex": 50,
+          "text": "In our approach, we use the BERT score as a stochastic checker for hallucination detection. The idea is that if you generate multiple answers from an LLM and there are large variations (inconsistencies) between them, then there is a good chance that these answers are hallucinated. We first generate N random samples (sentences) from the LLM. We then compute BERT scores by comparing each sentence in the original generated paragraph against its corresponding sentence across the N newly generated stochastic samples. This is done by embedding all sentences using an LLM based embedding model and calculating cosine similarity. Our hypothesis is that factual sentences will remain consistent across multiple generations, resulting in high BERT scores (indicating similarity). Conversely, hallucinated content will likely vary across different generations, resulting in low BERT scores between the original sentence and its stochastic variants. By establishing a threshold for these similarity scores, we can flag sentences with consistently low BERT scores as potential hallucinations, because they demonstrate semantic inconsistency across multiple generations from the same model."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "content": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\n\nBây giờ chúng ta đặt câu hỏi: Sentence Embedding là cái gì? và Tại sao nó lại được lựa chọn Background: Sự khác biệt giữa Sentence Transformers so với các mô hình dạng Token-level chẳng hạn như BERT Sentence Transformers cũng có thể xem như là một biến thể của BERT, được thiết kế kiến trúc đặc biệt để tạo ra embedding cho toàn bộ câu (sentence-level), tức là sentence embedding. Điểm khác biệt chính nằm trong phương pháp đào tạo của chúng: Objective: BERT được huấn luyện để dự đoán các từ (words) được ẩn đi (masking) trong 1 câu và dự đoán câu tiếp theo. Đó chính là 2 tasks mà nếu bạn đã đọc paper về BERT có thể đã biết: Masked prediction và Next sentence prediction. Mặc khác, Sentence Transformers được đặc biệt huấn luyện để hiểu ý nghĩa của toàn bộ câu. Chúng tạo ra các embeddings trong đó các câu có ý nghĩa tương tự nhau sẽ nằm gần nhau trong 1 không gian vector. Sentence Transformers sử dụng Siamese or triplet networks. Trong một cấu trúc siamese, mô hình được huấn luyện để tối ưu hóa khoảng cách giữa các cặp câu tương tự nhau. Trong khi đó, mạng triplet bao gồm một cặp \"anchor\" và \"positive\" (các câu tương tự nhau) và một câu \"negative\" (không tương tự). Mục tiêu là tối ưu hóa khoảng cách sao cho anchor và positive gần nhau hơn so với anchor và negative. Bạn có thể tìm hiểu về Contrastive learning để hiểu hơn về nó. Level embedding: Điểm khác biệt chính cũng nằm ở level của embedding. BERT cung cấp embedding cho từng tokens (word hoặc subword) trong 1 câu, trong khi Sentence Transformers đưa ra 1 vector embedding duy nhất cho cả câu đó. Training Data và Tasks: BERT chủ yếu được huấn luyện trên tập dữ liệu lớn với tasks tập trung vào việc hiểu các từ trong ngữ cảnh, trong khi Sentence Transformers thường được huấn luyện trên tập dữ liệu bao gồm các cặp câu. Quá trình huấn luyện này tập trung vào mức độ tương đồng và sự liên quan, dạy cho model cách hiểu và so sánh ý nghĩa của cả câu. Fine-Tuning for Specific Tasks: Sentence Transformers thường được fine-tuning cho các tasks cụ thể chẳng hạn như Semantic Similarity, Paraphrase identification hay là Retrieval Information. Việc fine-tuning này tập trung hơn vào việc hiểu nắm bắt nghĩa cả câu (sentence-level). Trong khi BERT thường được fine-tuning cho nhiều tasks hơn như Question Answering, Classification, NER, ... tập trung vào mức độ từ/ cụm từ (word-level/ phrase-level). Applicability: BERT và các mô hình tương tự linh hoạt hơn cho các tasks mà thiên về nắm bắt và hiểu ở mức độ từ, chẳng hạn như Named entities recognition, Question answering), trong khi Sentence Transformers phù hợp cho các tasks mà đòi hỏi việc phải hiểu ý nghĩa ở mức độ câu, chẳng hạn như Semantic search, Sentence similarity. Efficiency in Generating Sentence Embedding or Similarity Tasks: Trong BERT, việc tạo ra 1 vector embedding cho cả câu thường sử dụng hidden states của token đầu tiên trong câu (trong BERT là\n\nÁp dụng Sentence Transformers cho RAG Có thể nói rằng, Sentence Transformers là lựa chọn số 1 cho mô hình embedding cho RAG. RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu. Việc tích hợp Sentence Transformers đặc biệt tốt trong trường hợp mà các mô hình retrieval cần truy xuất thông tin hiệu quả giữa query và documents trước khi sinh ra câu trả lời. Improved Document Retrieval: Sentence Transformers được huấn luyện để tạo ra embeddings mà nắm bắt được nghĩa của câu. Trong RAG, các embeddings này được sử dụng để so khớp một câu query (câu hỏi của user) với documents hoặc các passages trong database. Điều này rất quan trọng vì chất lượng của phản hồi được tạo ra bởi hệ thống phụ thuộc lớn với thông tin được trích xuất. Efficient Semantic Search: Các mô hình tìm kiếm thông tin dựa trên keyword có thể gặp vấn đề trong việc hiểu ngữ cảnh, hay sắc thái ngữ nghĩa của query. Sentence Transformers cung cấp embeddings nắm bắt tốt về mặt ngữ nghĩa cho phép tìm kiếm theo sắc thái ngữ nghĩa tốt hơn ngoài việc kết hợp keyword. Điều này có nghĩa là cho phép khả năng truy xuất được thông tin documents liên quan về mặt ngữ nghĩa với câu query ngay cả khi chúng không chứa các keyword chính xác nào. Contextual Understanding for Better Responses: Bằng cách sử dụng Transformers, mô hình RAG có thể hiểu rõ cả ngữ cảnh và sắc thái của cả câu query và nội dung của quan trọng của documents. Điều này dẫn tới đưa ra phản hồi chính xác hơn và phù hợp với ngữ cảnh hơn vì việc sinh ra câu trả lời có thông tin được đưa vào phù hợp hơn. Scalability in Information Retrieval: Sentence Transformers có thể xử lý hiệu quả với database chứa documents lớn bằng cách tính toán trước embeddings cho toàn bộ documents. Điều này làm cho quá trình retrieval trở nên nhanh hơn và có khả năng mở rộng hơn vì mô hình chỉ cần tính toán tính toán embedding cho câu query trong quá trình chạy và nhanh chóng tìm được các documents có embeddings gần nhất với nó. Enhancing the Generation Process: Trong hệ thống RAG, hiệu quả quá trình tìm kiếm được thông tin liên quan tác động trực tiếp tới module sinh (generation) để tạo ra được câu phản hồi. Chính vì thế khả năng có thể truy xuất được thông tin hiệu quả, nắm bắt được ngữ cảnh của retrieval sẽ cho phép mô hình ngôn ngữ tạo ra được các phản hồi không chỉ chính xác về ngữ nghĩa mà còn được cung cấp những thông tin mà nó có thể nằm ngoài những gì mô hình đã được học. Tóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction.\n\nRAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu. Việc tích hợp Sentence Transformers đặc biệt tốt trong trường hợp mà các mô hình retrieval cần truy xuất thông tin hiệu quả giữa query và documents trước khi sinh ra câu trả lời. Improved Document Retrieval: Sentence Transformers được huấn luyện để tạo ra embeddings mà nắm bắt được nghĩa của câu. Trong RAG, các embeddings này được sử dụng để so khớp một câu query (câu hỏi của user) với documents hoặc các passages trong database. Điều này rất quan trọng vì chất lượng của phản hồi được tạo ra bởi hệ thống phụ thuộc lớn với thông tin được trích xuất. Efficient Semantic Search: Các mô hình tìm kiếm thông tin dựa trên keyword có thể gặp vấn đề trong việc hiểu ngữ cảnh, hay sắc thái ngữ nghĩa của query. Sentence Transformers cung cấp embeddings nắm bắt tốt về mặt ngữ nghĩa cho phép tìm kiếm theo sắc thái ngữ nghĩa tốt hơn ngoài việc kết hợp keyword. Điều này có nghĩa là cho phép khả năng truy xuất được thông tin documents liên quan về mặt ngữ nghĩa với câu query ngay cả khi chúng không chứa các keyword chính xác nào. Contextual Understanding for Better Responses: Bằng cách sử dụng Transformers, mô hình RAG có thể hiểu rõ cả ngữ cảnh và sắc thái của cả câu query và nội dung của quan trọng của documents. Điều này dẫn tới đưa ra phản hồi chính xác hơn và phù hợp với ngữ cảnh hơn vì việc sinh ra câu trả lời có thông tin được đưa vào phù hợp hơn. Scalability in Information Retrieval: Sentence Transformers có thể xử lý hiệu quả với database chứa documents lớn bằng cách tính toán trước embeddings cho toàn bộ documents. Điều này làm cho quá trình retrieval trở nên nhanh hơn và có khả năng mở rộng hơn vì mô hình chỉ cần tính toán tính toán embedding cho câu query trong quá trình chạy và nhanh chóng tìm được các documents có embeddings gần nhất với nó. Enhancing the Generation Process: Trong hệ thống RAG, hiệu quả quá trình tìm kiếm được thông tin liên quan tác động trực tiếp tới module sinh (generation) để tạo ra được câu phản hồi. Chính vì thế khả năng có thể truy xuất được thông tin hiệu quả, nắm bắt được ngữ cảnh của retrieval sẽ cho phép mô hình ngôn ngữ tạo ra được các phản hồi không chỉ chính xác về ngữ nghĩa mà còn được cung cấp những thông tin mà nó có thể nằm ngoài những gì mô hình đã được học.\n\nTóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction.\n\nTóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction.",
+      "fetchedAt": "2026-09-17T12:19:10.668Z",
+      "title": "Tìm hiểu về Retrieval Augmented Generation (RAG)",
+      "status": "ok",
+      "contentLength": 49126,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 2,
+          "text": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)"
+        },
+        {
+          "blockIndex": 118,
+          "text": "Bây giờ chúng ta đặt câu hỏi: Sentence Embedding là cái gì? và Tại sao nó lại được lựa chọn Background: Sự khác biệt giữa Sentence Transformers so với các mô hình dạng Token-level chẳng hạn như BERT Sentence Transformers cũng có thể xem như là một biến thể của BERT, được thiết kế kiến trúc đặc biệt để tạo ra embedding cho toàn bộ câu (sentence-level), tức là sentence embedding. Điểm khác biệt chính nằm trong phương pháp đào tạo của chúng: Objective: BERT được huấn luyện để dự đoán các từ (words) được ẩn đi (masking) trong 1 câu và dự đoán câu tiếp theo. Đó chính là 2 tasks mà nếu bạn đã đọc paper về BERT có thể đã biết: Masked prediction và Next sentence prediction. Mặc khác, Sentence Transformers được đặc biệt huấn luyện để hiểu ý nghĩa của toàn bộ câu. Chúng tạo ra các embeddings trong đó các câu có ý nghĩa tương tự nhau sẽ nằm gần nhau trong 1 không gian vector. Sentence Transformers sử dụng Siamese or triplet networks. Trong một cấu trúc siamese, mô hình được huấn luyện để tối ưu hóa khoảng cách giữa các cặp câu tương tự nhau. Trong khi đó, mạng triplet bao gồm một cặp \"anchor\" và \"positive\" (các câu tương tự nhau) và một câu \"negative\" (không tương tự). Mục tiêu là tối ưu hóa khoảng cách sao cho anchor và positive gần nhau hơn so với anchor và negative. Bạn có thể tìm hiểu về Contrastive learning để hiểu hơn về nó. Level embedding: Điểm khác biệt chính cũng nằm ở level của embedding. BERT cung cấp embedding cho từng tokens (word hoặc subword) trong 1 câu, trong khi Sentence Transformers đưa ra 1 vector embedding duy nhất cho cả câu đó. Training Data và Tasks: BERT chủ yếu được huấn luyện trên tập dữ liệu lớn với tasks tập trung vào việc hiểu các từ trong ngữ cảnh, trong khi Sentence Transformers thường được huấn luyện trên tập dữ liệu bao gồm các cặp câu. Quá trình huấn luyện này tập trung vào mức độ tương đồng và sự liên quan, dạy cho model cách hiểu và so sánh ý nghĩa của cả câu. Fine-Tuning for Specific Tasks: Sentence Transformers thường được fine-tuning cho các tasks cụ thể chẳng hạn như Semantic Similarity, Paraphrase identification hay là Retrieval Information. Việc fine-tuning này tập trung hơn vào việc hiểu nắm bắt nghĩa cả câu (sentence-level). Trong khi BERT thường được fine-tuning cho nhiều tasks hơn như Question Answering, Classification, NER, ... tập trung vào mức độ từ/ cụm từ (word-level/ phrase-level). Applicability: BERT và các mô hình tương tự linh hoạt hơn cho các tasks mà thiên về nắm bắt và hiểu ở mức độ từ, chẳng hạn như Named entities recognition, Question answering), trong khi Sentence Transformers phù hợp cho các tasks mà đòi hỏi việc phải hiểu ý nghĩa ở mức độ câu, chẳng hạn như Semantic search, Sentence similarity. Efficiency in Generating Sentence Embedding or Similarity Tasks: Trong BERT, việc tạo ra 1 vector embedding cho cả câu thường sử dụng hidden states của token đầu tiên trong câu (trong BERT là"
+        },
+        {
+          "blockIndex": 144,
+          "text": "Áp dụng Sentence Transformers cho RAG Có thể nói rằng, Sentence Transformers là lựa chọn số 1 cho mô hình embedding cho RAG. RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu. Việc tích hợp Sentence Transformers đặc biệt tốt trong trường hợp mà các mô hình retrieval cần truy xuất thông tin hiệu quả giữa query và documents trước khi sinh ra câu trả lời. Improved Document Retrieval: Sentence Transformers được huấn luyện để tạo ra embeddings mà nắm bắt được nghĩa của câu. Trong RAG, các embeddings này được sử dụng để so khớp một câu query (câu hỏi của user) với documents hoặc các passages trong database. Điều này rất quan trọng vì chất lượng của phản hồi được tạo ra bởi hệ thống phụ thuộc lớn với thông tin được trích xuất. Efficient Semantic Search: Các mô hình tìm kiếm thông tin dựa trên keyword có thể gặp vấn đề trong việc hiểu ngữ cảnh, hay sắc thái ngữ nghĩa của query. Sentence Transformers cung cấp embeddings nắm bắt tốt về mặt ngữ nghĩa cho phép tìm kiếm theo sắc thái ngữ nghĩa tốt hơn ngoài việc kết hợp keyword. Điều này có nghĩa là cho phép khả năng truy xuất được thông tin documents liên quan về mặt ngữ nghĩa với câu query ngay cả khi chúng không chứa các keyword chính xác nào. Contextual Understanding for Better Responses: Bằng cách sử dụng Transformers, mô hình RAG có thể hiểu rõ cả ngữ cảnh và sắc thái của cả câu query và nội dung của quan trọng của documents. Điều này dẫn tới đưa ra phản hồi chính xác hơn và phù hợp với ngữ cảnh hơn vì việc sinh ra câu trả lời có thông tin được đưa vào phù hợp hơn. Scalability in Information Retrieval: Sentence Transformers có thể xử lý hiệu quả với database chứa documents lớn bằng cách tính toán trước embeddings cho toàn bộ documents. Điều này làm cho quá trình retrieval trở nên nhanh hơn và có khả năng mở rộng hơn vì mô hình chỉ cần tính toán tính toán embedding cho câu query trong quá trình chạy và nhanh chóng tìm được các documents có embeddings gần nhất với nó. Enhancing the Generation Process: Trong hệ thống RAG, hiệu quả quá trình tìm kiếm được thông tin liên quan tác động trực tiếp tới module sinh (generation) để tạo ra được câu phản hồi. Chính vì thế khả năng có thể truy xuất được thông tin hiệu quả, nắm bắt được ngữ cảnh của retrieval sẽ cho phép mô hình ngôn ngữ tạo ra được các phản hồi không chỉ chính xác về ngữ nghĩa mà còn được cung cấp những thông tin mà nó có thể nằm ngoài những gì mô hình đã được học. Tóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction."
+        },
+        {
+          "blockIndex": 147,
+          "text": "RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu. Việc tích hợp Sentence Transformers đặc biệt tốt trong trường hợp mà các mô hình retrieval cần truy xuất thông tin hiệu quả giữa query và documents trước khi sinh ra câu trả lời. Improved Document Retrieval: Sentence Transformers được huấn luyện để tạo ra embeddings mà nắm bắt được nghĩa của câu. Trong RAG, các embeddings này được sử dụng để so khớp một câu query (câu hỏi của user) với documents hoặc các passages trong database. Điều này rất quan trọng vì chất lượng của phản hồi được tạo ra bởi hệ thống phụ thuộc lớn với thông tin được trích xuất. Efficient Semantic Search: Các mô hình tìm kiếm thông tin dựa trên keyword có thể gặp vấn đề trong việc hiểu ngữ cảnh, hay sắc thái ngữ nghĩa của query. Sentence Transformers cung cấp embeddings nắm bắt tốt về mặt ngữ nghĩa cho phép tìm kiếm theo sắc thái ngữ nghĩa tốt hơn ngoài việc kết hợp keyword. Điều này có nghĩa là cho phép khả năng truy xuất được thông tin documents liên quan về mặt ngữ nghĩa với câu query ngay cả khi chúng không chứa các keyword chính xác nào. Contextual Understanding for Better Responses: Bằng cách sử dụng Transformers, mô hình RAG có thể hiểu rõ cả ngữ cảnh và sắc thái của cả câu query và nội dung của quan trọng của documents. Điều này dẫn tới đưa ra phản hồi chính xác hơn và phù hợp với ngữ cảnh hơn vì việc sinh ra câu trả lời có thông tin được đưa vào phù hợp hơn. Scalability in Information Retrieval: Sentence Transformers có thể xử lý hiệu quả với database chứa documents lớn bằng cách tính toán trước embeddings cho toàn bộ documents. Điều này làm cho quá trình retrieval trở nên nhanh hơn và có khả năng mở rộng hơn vì mô hình chỉ cần tính toán tính toán embedding cho câu query trong quá trình chạy và nhanh chóng tìm được các documents có embeddings gần nhất với nó. Enhancing the Generation Process: Trong hệ thống RAG, hiệu quả quá trình tìm kiếm được thông tin liên quan tác động trực tiếp tới module sinh (generation) để tạo ra được câu phản hồi. Chính vì thế khả năng có thể truy xuất được thông tin hiệu quả, nắm bắt được ngữ cảnh của retrieval sẽ cho phép mô hình ngôn ngữ tạo ra được các phản hồi không chỉ chính xác về ngữ nghĩa mà còn được cung cấp những thông tin mà nó có thể nằm ngoài những gì mô hình đã được học."
+        },
+        {
+          "blockIndex": 153,
+          "text": "Tóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction."
+        },
+        {
+          "blockIndex": 154,
+          "text": "Tóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.mindee.com/blog/rag-hallucinations-explained",
+      "content": "BlogAI OCRThe Mindee TeamLast updated onApr 23, 2025..min. readHow to reduce hallucinations in RAG models?Table of ContentsH2Related ArticlesProduct updatesIntroducing Global Chat: Conversational API management is hereProduct updatesOptimize your extraction models' accuracy in 1 click with AICompany newsG2 Reports Fall 2026 : Mindee awarded as a \"High-Performer\"Guide to choose OCR solution The snapshotRetrieval-Augmented Generation (RAG) has become a powerful architecture for improving the factual grounding of language models. However, it isn't immune to one of the most persistent challenges in natural language generation: hallucinations. In this guide, we'll explore what RAG hallucinations are, why they occur, and how developers can mitigate them with practical strategies and up-to-date research.What is a RAG hallucination?‍A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus. This can happen due to:Poor relevance of retrieved documentsOver-reliance on generative capabilities rather than source groundingAmbiguities in the user's queryLimitations in reasoning and understanding within the modelWhile RAG reduces hallucinations compared to vanilla LLMs, it's not a silver bullet.‍How hallucinations happen in RAGRetrieval issues: The retriever may fetch documents that are topically relevant but factually off, or even misleading. If the retriever isn't well-tuned, this noise propagates.Fusion problems: The generator might \"fuse\" information across documents in misleading ways. Even if the documents are accurate, the model might synthesize incorrect conclusions.Confidence misalignment: Models often generate outputs with high confidence, regardless of the truth value. This creates a false sense of reliability.‍Real-world example‍Imagine you're building a chatbot that provides medical advice using a RAG setup. If the retriever pulls an outdated or unrelated study, the generator might use that to make an authoritative—but incorrect—recommendation. This could have serious consequences.‍Recent research on RAG hallucinations‍To address these limitations, several new studies have emerged:ReDeEP (2024) proposes tracing hallucinations by identifying when generated content deviates from retrieved passages.FACTOID offers a benchmark for hallucination detection by comparing outputs against known factual datasets.Fine-Tuning Techniques: Research shows that fine-tuning RAG models on uncertainty-sensitive datasets improves factual grounding.These papers offer tools and frameworks developers can explore to identify and reduce hallucinations.‍Standard LLM vs. RAG vs. RAG with mitigation Model Access to External Data Hallucination Rate Notes Standard LLM ❌ High No external grounding Basic RAG ✅ Medium Relies on retriever quality Mitigated RAG (Fine-tuned + Eval) ✅ Low Uses QA metrics, better prompts, and filters Practical strategies for developersImprove data quality: Ensure that your retrieval corpus is clean, up-to-date, and relevant. Garbage in, garbage out.Use dense retrievers with filters: Combine semantic retrievers (like DPR or ColBERT) with metadata filters to ensure more contextually and topically appropriate results.Incorporate uncertainty modeling: Teach the model to say \"I don't know\" when appropriate. You can fine-tune or use calibration layers to reduce overconfident generations.Eval with factuality metrics: Use tools like BERTScore, FactCC, or QAGS to measure the truthfulness of generated answers.Prompt engineering for grounding: Design prompts that explicitly instruct the model to rely only on retrieved passages.‍Advanced techniquesRAG with contextual re-ranking: After retrieval, use a second stage re-ranker to prioritize the most relevant documents.Hybrid generation pipelines: Mix extractive and generative answers. If a passage is clear enough, extract instead of generate.Chain-of-thought grounding: Guide the model through reasoning steps anchored in the sources, improving transparency.‍{{cta-consideration-1=\"/in-progress/global-blog-elements\"}}Conclusion‍RAG is a powerful approach for improving the reliability of generative AI, but it's not foolproof. As developers, we need to be proactive in understanding where hallucinations can creep in and implement strategies that reduce risk. With the right combination of retrieval tuning, prompt design, and evaluation tools, it's possible to build more accurate, trustworthy AI systems.Developer-firstAboutFrom simple photos to complex PDFs or handwritten files, Mindee's API turn your document data into structured JSON with high‑reliability. Zero model training required. Any alphabets, any languages supported.Explore platform , , Key TakewayKey TakewayFrequently Asked QuestionsWhat causes hallucinations in RAG models?Hallucinations in RAG models often stem from poor retrieval quality, incorrect synthesis by the generator, or overconfidence in outputs that aren’t grounded in the retrieved documents.How can developers reduce hallucinations in RAG systems?Developers can improve retrieval accuracy, fine-tune generation behavior, and evaluate outputs with factuality metrics like BERTScore and QAGS to reduce hallucination risk.Are RAG models immune to hallucinations?No, while RAG models are more grounded than standard LLMs, they can still hallucinate—especially when the retrieved documents are off-topic or the prompt isn’t specific enough.Related articles to your interestsSee all resources AI OCRby The Mindee TeamAutomate the chaos: The developer’s guide to AI document classificationAI OCRby The Mindee TeamThe definitive guide to image pre-processing for machine learning & AIAI OCRby The Mindee TeamThe architect’s guide to LLM document processing: scaling extraction without the sprawlAI OCRBeyond the bubble sheet: Evolution of Optical Mark Recognition (OMR) <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WBH6F2T\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>",
+      "fetchedAt": "2026-09-17T12:19:10.670Z",
+      "title": "RAG hallucinations explained: Causes, risks, and fixes",
+      "status": "ok",
+      "contentLength": 6032,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "BlogAI OCRThe Mindee TeamLast updated onApr 23, 2025..min. readHow to reduce hallucinations in RAG models?Table of ContentsH2Related ArticlesProduct updatesIntroducing Global Chat: Conversational API management is hereProduct updatesOptimize your extraction models' accuracy in 1 click with AICompany newsG2 Reports Fall 2026 : Mindee awarded as a \"High-Performer\"Guide to choose OCR solution The snapshotRetrieval-Augmented Generation (RAG) has become a powerful architecture for improving the factual grounding of language models. However, it isn't immune to one of the most persistent challenges in natural language generation: hallucinations. In this guide, we'll explore what RAG hallucinations are, why they occur, and how developers can mitigate them with practical strategies and up-to-date research.What is a RAG hallucination?‍A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus. This can happen due to:Poor relevance of retrieved documentsOver-reliance on generative capabilities rather than source groundingAmbiguities in the user's queryLimitations in reasoning and understanding within the modelWhile RAG reduces hallucinations compared to vanilla LLMs, it's not a silver bullet.‍How hallucinations happen in RAGRetrieval issues: The retriever may fetch documents that are topically relevant but factually off, or even misleading. If the retriever isn't well-tuned, this noise propagates.Fusion problems: The generator might \"fuse\" information across documents in misleading ways. Even if the documents are accurate, the model might synthesize incorrect conclusions.Confidence misalignment: Models often generate outputs with high confidence, regardless of the truth value. This creates a false sense of reliability.‍Real-world example‍Imagine you're building a chatbot that provides medical advice using a RAG setup. If the retriever pulls an outdated or unrelated study, the generator might use that to make an authoritative—but incorrect—recommendation. This could have serious consequences.‍Recent research on RAG hallucinations‍To address these limitations, several new studies have emerged:ReDeEP (2024) proposes tracing hallucinations by identifying when generated content deviates from retrieved passages.FACTOID offers a benchmark for hallucination detection by comparing outputs against known factual datasets.Fine-Tuning Techniques: Research shows that fine-tuning RAG models on uncertainty-sensitive datasets improves factual grounding.These papers offer tools and frameworks developers can explore to identify and reduce hallucinations.‍Standard LLM vs. RAG vs. RAG with mitigation Model Access to External Data Hallucination Rate Notes Standard LLM ❌ High No external grounding Basic RAG ✅ Medium Relies on retriever quality Mitigated RAG (Fine-tuned + Eval) ✅ Low Uses QA metrics, better prompts, and filters Practical strategies for developersImprove data quality: Ensure that your retrieval corpus is clean, up-to-date, and relevant. Garbage in, garbage out.Use dense retrievers with filters: Combine semantic retrievers (like DPR or ColBERT) with metadata filters to ensure more contextually and topically appropriate results.Incorporate uncertainty modeling: Teach the model to say \"I don't know\" when appropriate. You can fine-tune or use calibration layers to reduce overconfident generations.Eval with factuality metrics: Use tools like BERTScore, FactCC, or QAGS to measure the truthfulness of generated answers.Prompt engineering for grounding: Design prompts that explicitly instruct the model to rely only on retrieved passages.‍Advanced techniquesRAG with contextual re-ranking: After retrieval, use a second stage re-ranker to prioritize the most relevant documents.Hybrid generation pipelines: Mix extractive and generative answers. If a passage is clear enough, extract instead of generate.Chain-of-thought grounding: Guide the model through reasoning steps anchored in the sources, improving transparency.‍{{cta-consideration-1=\"/in-progress/global-blog-elements\"}}Conclusion‍RAG is a powerful approach for improving the reliability of generative AI, but it's not foolproof. As developers, we need to be proactive in understanding where hallucinations can creep in and implement strategies that reduce risk. With the right combination of retrieval tuning, prompt design, and evaluation tools, it's possible to build more accurate, trustworthy AI systems.Developer-firstAboutFrom simple photos to complex PDFs or handwritten files, Mindee's API turn your document data into structured JSON with high‑reliability. Zero model training required. Any alphabets, any languages supported.Explore platform , , Key TakewayKey TakewayFrequently Asked QuestionsWhat causes hallucinations in RAG models?Hallucinations in RAG models often stem from poor retrieval quality, incorrect synthesis by the generator, or overconfidence in outputs that aren’t grounded in the retrieved documents.How can developers reduce hallucinations in RAG systems?Developers can improve retrieval accuracy, fine-tune generation behavior, and evaluate outputs with factuality metrics like BERTScore and QAGS to reduce hallucination risk.Are RAG models immune to hallucinations?No, while RAG models are more grounded than standard LLMs, they can still hallucinate—especially when the retrieved documents are off-topic or the prompt isn’t specific enough.Related articles to your interestsSee all resources AI OCRby The Mindee TeamAutomate the chaos: The developer’s guide to AI document classificationAI OCRby The Mindee TeamThe definitive guide to image pre-processing for machine learning & AIAI OCRby The Mindee TeamThe architect’s guide to LLM document processing: scaling extraction without the sprawlAI OCRBeyond the bubble sheet: Evolution of Optical Mark Recognition (OMR) <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WBH6F2T\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+      "tieuDe": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+      "toChuc": "Amazon Web Services",
+      "ngayDang": "2025-05-16T08:44:40-08:00",
+      "ngayLayVe": "2026-09-17T12:19:10.667Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Nguồn từ AWS, một tổ chức công nghệ lớn, cung cấp hướng dẫn kỹ thuật chi tiết và cập nhật về phát hiện hallucination trong RAG.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "tieuDe": "Tìm hiểu về Retrieval Augmented Generation (RAG)",
+      "toChuc": "Viblo",
+      "ngayLayVe": "2026-09-17T12:19:10.668Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Viblo là nền tảng chia sẻ kiến thức kỹ thuật phổ biến tại Việt Nam, nội dung giải thích kỹ thuật về Sentence Transformers trong RAG khá chi tiết nhưng thiếu thông tin tác giả và ngày đăng cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.mindee.com/blog/rag-hallucinations-explained",
+      "tieuDe": "RAG hallucinations explained: Causes, risks, and fixes",
+      "ngayLayVe": "2026-09-17T12:19:10.670Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Mindee là công ty cung cấp giải pháp OCR/AI, bài viết cung cấp cái nhìn tổng quan về nguyên nhân và cách giảm hallucination, tuy nhiên là blog thương mại nên độ khách quan có thể bị ảnh hưởng bởi mục đích marketing.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "sourcesRejected": [],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp tìm kiếm thông tin bên ngoài với mô hình ngôn ngữ lớn để cải thiện độ chính xác và giảm thiểu hallucination.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).",
+          "viTri": "Đoạn mở đầu"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)",
+          "viTri": "Đoạn mở đầu"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Hallucination trong RAG xảy ra khi mô hình tạo ra thông tin sai lệch hoặc bịa đặt mặc dù đã truy xuất tài liệu từ kho dữ liệu, do các vấn đề như chất lượng truy xuất kém hoặc sự phụ thuộc quá mức vào khả năng sinh văn bản.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus. This can happen due to:Poor relevance of retrieved documentsOver-reliance on generative capabilities rather than source grounding",
+          "viTri": "Mục 'What is a RAG hallucination?'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Các chiến lược thực tiễn để giảm hallucination trong RAG bao gồm cải thiện chất lượng dữ liệu, sử dụng bộ truy xuất dense với bộ lọc, tích hợp mô hình hóa sự không chắc chắn, và đánh giá bằng các chỉ số sự thật.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Practical strategies for developersImprove data quality: Ensure that your retrieval corpus is clean, up-to-date, and relevant. Garbage in, garbage out.Use dense retrievers with filters: Combine semantic retrievers (like DPR or ColBERT) with metadata filters",
+          "viTri": "Mục 'Practical strategies for developers'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Sentence Transformers được ưu tiên sử dụng trong RAG vì khả năng tạo embedding ở cấp độ câu, giúp tìm kiếm ngữ nghĩa hiệu quả hơn so với các mô hình token-level như BERT.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Có thể nói rằng, Sentence Transformers là lựa chọn số 1 cho mô hình embedding cho RAG. RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu.",
+          "viTri": "Mục 'Áp dụng Sentence Transformers cho RAG'"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/\",\n      \"tieuDe\": \"Detect hallucinations for RAG-based systems | Artificial Intelligence\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Amazon Web Services\",\n      \"ngayDang\": \"2025-05-16\",\n      \"ngayLayVe\": \"2026-09-17T12:19:10.667Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn từ AWS, một tổ chức công nghệ lớn, cung cấp hướng dẫn kỹ thuật chi tiết và cập nhật về phát hiện hallucination trong RAG.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA\",\n      \"tieuDe\": \"Tìm hiểu về Retrieval Augmented Generation (RAG)\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Viblo\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:19:10.668Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Viblo là nền tảng chia sẻ kiến thức kỹ thuật phổ biến tại Việt Nam, nội dung giải thích kỹ thuật về Sentence Transformers trong RAG khá chi tiết nhưng thiếu thông tin tác giả và ngày đăng cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Thiếu thông tin tác giả và ngày đăng\"],\n      \"doanTrich\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.mindee.com/blog/rag-hallucinations-explained\",\n      \"tieuDe\": \"RAG hallucinations explained: Causes, risks, and fixes\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Mindee\",\n      \"ngayDang\": \"2025-04-23\",\n      \"ngayLayVe\": \"2026-09-17T12:19:10.670Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Mindee là công ty cung cấp giải pháp OCR/AI, bài viết cung cấp cái nhìn tổng quan về nguyên nhân và cách giảm hallucination, tuy nhiên là blog thương mại nên độ khách quan có thể bị ảnh hưởng bởi mục đích marketing.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp tìm kiếm thông tin bên ngoài với mô hình ngôn ngữ lớn để cải thiện độ chính xác và giảm thiểu hallucination.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).\",\n          \"viTri\": \"Đoạn mở đầu\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\",\n          \"viTri\": \"Đoạn mở đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Hallucination trong RAG xảy ra khi mô hình tạo ra thông tin sai lệch hoặc bịa đặt mặc dù đã truy xuất tài liệu từ kho dữ liệu, do các vấn đề như chất lượng truy xuất kém hoặc sự phụ thuộc quá mức vào khả năng sinh văn bản.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus. This can happen due to:Poor relevance of retrieved documentsOver-reliance on generative capabilities rather than source grounding\",\n          \"viTri\": \"Mục 'What is a RAG hallucination?'\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Các chiến lược thực tiễn để giảm hallucination trong RAG bao gồm cải thiện chất lượng dữ liệu, sử dụng bộ truy xuất dense với bộ lọc, tích hợp mô hình hóa sự không chắc chắn, và đánh giá bằng các chỉ số sự thật.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Practical strategies for developersImprove data quality: Ensure that your retrieval corpus is clean, up-to-date, and relevant. Garbage in, garbage out.Use dense retrievers with filters: Combine semantic retrievers (like DPR or ColBERT) with metadata filters\",\n          \"viTri\": \"Mục 'Practical strategies for developers'\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Sentence Transformers được ưu tiên sử dụng trong RAG vì khả năng tạo embedding ở cấp độ câu, giúp tìm kiếm ngữ nghĩa hiệu quả hơn so với các mô hình token-level như BERT.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Có thể nói rằng, Sentence Transformers là lựa chọn số 1 cho mô hình embedding cho RAG. RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu.\",\n          \"viTri\": \"Mục 'Áp dụng Sentence Transformers cho RAG'\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-13e63d47-2763-4ac2-965a-4f5e523cc649",
+      "durationMs": 4247,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/\",\n      \"tieuDe\": \"Detect hallucinations for RAG-based systems | Artificial Intelligence\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Amazon Web Services\",\n      \"ngayDang\": \"2025-05-16\",\n      \"ngayLayVe\": \"2026-09-17T12:19:10.667Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Nguồn từ AWS, một tổ chức công nghệ lớn, cung cấp hướng dẫn kỹ thuật chi tiết và cập nhật về phát hiện hallucination trong RAG.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA\",\n      \"tieuDe\": \"Tìm hiểu về Retrieval Augmented Generation (RAG)\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Viblo\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:19:10.668Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Viblo là nền tảng chia sẻ kiến thức kỹ thuật phổ biến tại Việt Nam, nội dung giải thích kỹ thuật về Sentence Transformers trong RAG khá chi tiết nhưng thiếu thông tin tác giả và ngày đăng cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Thiếu thông tin tác giả và ngày đăng\"],\n      \"doanTrich\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.mindee.com/blog/rag-hallucinations-explained\",\n      \"tieuDe\": \"RAG hallucinations explained: Causes, risks, and fixes\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Mindee\",\n      \"ngayDang\": \"2025-04-23\",\n      \"ngayLayVe\": \"2026-09-17T12:19:10.670Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Mindee là công ty cung cấp giải pháp OCR/AI, bài viết cung cấp cái nhìn tổng quan về nguyên nhân và cách giảm hallucination, tuy nhiên là blog thương mại nên độ khách quan có thể bị ảnh hưởng bởi mục đích marketing.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp tìm kiếm thông tin bên ngoài với mô hình ngôn ngữ lớn để cải thiện độ chính xác và giảm thiểu hallucination.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"RAG is as a way to incorporate additional data that the large language model (LLM) was not trained on. This can also help reduce generation of false or misleading information (hallucinations).\",\n          \"viTri\": \"Đoạn mở đầu\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\",\n          \"viTri\": \"Đoạn mở đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Hallucination trong RAG xảy ra khi mô hình tạo ra thông tin sai lệch hoặc bịa đặt mặc dù đã truy xuất tài liệu từ kho dữ liệu, do các vấn đề như chất lượng truy xuất kém hoặc sự phụ thuộc quá mức vào khả năng sinh văn bản.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"A hallucination in the context of RAG models occurs when a model generates incorrect or fabricated information despite retrieving documents from a corpus. This can happen due to:Poor relevance of retrieved documentsOver-reliance on generative capabilities rather than source grounding\",\n          \"viTri\": \"Mục 'What is a RAG hallucination?'\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Các chiến lược thực tiễn để giảm hallucination trong RAG bao gồm cải thiện chất lượng dữ liệu, sử dụng bộ truy xuất dense với bộ lọc, tích hợp mô hình hóa sự không chắc chắn, và đánh giá bằng các chỉ số sự thật.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Practical strategies for developersImprove data quality: Ensure that your retrieval corpus is clean, up-to-date, and relevant. Garbage in, garbage out.Use dense retrievers with filters: Combine semantic retrievers (like DPR or ColBERT) with metadata filters\",\n          \"viTri\": \"Mục 'Practical strategies for developers'\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Sentence Transformers được ưu tiên sử dụng trong RAG vì khả năng tạo embedding ở cấp độ câu, giúp tìm kiếm ngữ nghĩa hiệu quả hơn so với các mô hình token-level như BERT.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Có thể nói rằng, Sentence Transformers là lựa chọn số 1 cho mô hình embedding cho RAG. RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu.\",\n          \"viTri\": \"Mục 'Áp dụng Sentence Transformers cho RAG'\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 55502
+}

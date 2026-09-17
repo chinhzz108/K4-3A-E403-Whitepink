@@ -1,0 +1,250 @@
+{
+  "id": "trace-script-1789646594207",
+  "timestamp": "2026-09-17T12:03:14.207Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T12-00-41-161Z",
+    "evalCaseId": "N01"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T12:01:08.503Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Official IBM page with named author and recent publication",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://research.ibm.com/blog/demystifying-in-context-learning-in-large-language-model",
+      "tieuDe": "How in-context learning improves large language models - IBM Research",
+      "toChuc": "IBM Research",
+      "ngayDang": "2024-07-25T13:30:00.000Z",
+      "ngayLayVe": "2026-09-17T12:01:08.504Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Research blog from IBM Research without specified author",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn quá một năm",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "tieuDe": "Context windows - Claude Platform Docs",
+      "toChuc": "Claude Platform Docs",
+      "ngayLayVe": "2026-09-17T12:01:08.505Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Official product documentation, no author or date",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không có ngày đăng, nguồn quá một năm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "As token count grows, accuracy and recall degrade, a phenomenon known as context rot.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cửa sổ ngữ cảnh là bộ nhớ làm việc của mô hình, giới hạn số token mà mô hình có thể “nhớ” trong một lượt xử lý.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "para1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn cải thiện chất lượng dự đoán; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study.",
+          "viTri": "para1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Khi số token trong cửa sổ ngữ cảnh tăng, độ chính xác và khả năng nhớ giảm (hiện tượng “context rot”).",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "As token count grows, accuracy and recall degrade, a phenomenon known as context rot.",
+          "viTri": "para1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "bốn phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.",
+        "chuTrenManHinh": "Giới thiệu chủ đề",
+        "yDoHinh": "Hình minh hoạ một chatbot đang trò chuyện với người dùng, với một phần văn bản phía trên mờ dần.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.",
+        "chuTrenManHinh": "Cửa sổ ngữ cảnh là gì",
+        "yDoHinh": "Biểu đồ hộp hiển thị giới hạn số token mà mô hình có thể xử lý đồng thời.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.",
+        "chuTrenManHinh": "Hiện tượng context rot",
+        "yDoHinh": "Đồ thị đường biểu diễn độ chính xác giảm dần khi số token tăng.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+        "chuTrenManHinh": "Không phải nhiều hơn tốt hơn",
+        "yDoHinh": "So sánh hai khung ngữ cảnh, một có nhiều ví dụ nhưng kém liên quan, một có ít nhưng chất lượng cao.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.",
+        "chuTrenManHinh": "Kết luận",
+        "yDoHinh": "Mô hình với một thanh tiến trình, phần đầu của cuộc trò chuyện biến mất khỏi khung.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] As token count grows, accuracy and recall degrade, a phenomenon known as context rot."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] A longer context window — adding more examples — doesn’t necessarily make it a better tutorial, according to the new study."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.\",\n      \"chuTrenManHinh\":\"Giới thiệu chủ đề\",\n      \"yDoHinh\":\"Hình minh hoạ một chatbot đang trò chuyện với người dùng, với một phần văn bản phía trên mờ dần.\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.\",\n      \"chuTrenManHinh\":\"Cửa sổ ngữ cảnh là gì\",\n      \"yDoHinh\":\"Biểu đồ hộp hiển thị giới hạn số token mà mô hình có thể xử lý đồng thời.\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.\",\n      \"chuTrenManHinh\":\"Hiện tượng context rot\",\n      \"yDoHinh\":\"Đồ thị đường biểu diễn độ chính xác giảm dần khi số token tăng.\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.\",\n      \"chuTrenManHinh\":\"Không phải nhiều hơn tốt hơn\",\n      \"yDoHinh\":\"So sánh hai khung ngữ cảnh, một có nhiều ví dụ nhưng kém liên quan, một có ít nhưng chất lượng cao.\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.\",\n      \"chuTrenManHinh\":\"Kết luận\",\n      \"yDoHinh\":\"Mô hình với một thanh tiến trình, phần đầu của cuộc trò chuyện biến mất khỏi khung.\",\n      \"nguon\":[]\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-df9f493d-400c-4f53-8ce1-8e90607b143f",
+      "durationMs": 6171,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào các bạn, hôm nay chúng ta sẽ tìm hiểu tại sao trợ lý ảo có thể quên phần đầu của một cuộc trò chuyện dài.\",\n      \"chuTrenManHinh\":\"Giới thiệu chủ đề\",\n      \"yDoHinh\":\"Hình minh hoạ một chatbot đang trò chuyện với người dùng, với một phần văn bản phía trên mờ dần.\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Cửa sổ ngữ cảnh, còn gọi là context window, là bộ nhớ làm việc của mô hình, chỉ có thể xem và ghi nhớ một lượng token nhất định trong một lượt xử lý.\",\n      \"chuTrenManHinh\":\"Cửa sổ ngữ cảnh là gì\",\n      \"yDoHinh\":\"Biểu đồ hộp hiển thị giới hạn số token mà mô hình có thể xử lý đồng thời.\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Khi số token trong cửa sổ ngữ cảnh tăng lên, độ chính xác và khả năng nhớ giảm, hiện tượng suy giảm ngữ cảnh, còn gọi là context rot.\",\n      \"chuTrenManHinh\":\"Hiện tượng context rot\",\n      \"yDoHinh\":\"Đồ thị đường biểu diễn độ chính xác giảm dần khi số token tăng.\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Thêm nhiều ví dụ vào cửa sổ ngữ cảnh không luôn làm mô hình trở nên tốt hơn; chất lượng và tính liên quan của ví dụ mới quan trọng hơn.\",\n      \"chuTrenManHinh\":\"Không phải nhiều hơn tốt hơn\",\n      \"yDoHinh\":\"So sánh hai khung ngữ cảnh, một có nhiều ví dụ nhưng kém liên quan, một có ít nhưng chất lượng cao.\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Vì vậy, khi cuộc trò chuyện kéo dài, phần đầu dần ra khỏi cửa sổ ngữ cảnh và mô hình sẽ không còn nhớ được, dẫn tới hiện tượng quên.\",\n      \"chuTrenManHinh\":\"Kết luận\",\n      \"yDoHinh\":\"Mô hình với một thanh tiến trình, phần đầu của cuộc trò chuyện biến mất khỏi khung.\",\n      \"nguon\":[]\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 41187
+}

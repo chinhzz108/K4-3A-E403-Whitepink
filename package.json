@@ -9,6 +9,8 @@
     "lint": "cd codebase && next lint",
     "typecheck": "tsc --noEmit -p codebase/tsconfig.json",
     "eval:cp3": "node eval/run-cp3.mjs",
+    "test:contracts": "node eval/test-contracts.cjs",
+    "test:quality": "node eval/test-quality.cjs",
     "test:invariants": "node eval/test-invariants.cjs"
   },
   "dependencies": {

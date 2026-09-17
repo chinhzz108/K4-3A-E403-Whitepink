@@ -1,0 +1,742 @@
+{
+  "case": {
+    "id": "N10",
+    "class": "nguon-su-that",
+    "input": {
+      "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+      "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+      "targetAudience": "Người đi làm",
+      "videoDuration": "3 phút"
+    },
+    "expectedBehavior": "Cần nhiều nguồn xác nhận số liệu. Nếu chỉ 1 nguồn → đánh dấu chua-xac-minh.",
+    "origin": "tự tạo — đặc thù C3: số liệu; không phải chatlog",
+    "passCriteria": "Xử lý đúng khi chỉ tìm được 1 nguồn số liệu",
+    "failCriteria": "Bịa số liệu; dùng 1 nguồn mà ghi da-xac-minh"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+        "tieuDe": "Vietnam AI Market: Updates to 2025 - B-Company",
+        "tacGia": "B& Company",
+        "toChuc": "B-Company",
+        "ngayDang": "2026-01-22T14:09:41+00:00",
+        "ngayLayVe": "2026-09-17T13:41:57.130Z",
+        "loai": "bao-chi",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Nguồn từ công ty nghiên cứu thị trường nhưng tập trung vào giai đoạn đến năm 2025 và đã cũ so với mốc năm 2026.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn quá một năm so với mốc 2026"
+        ],
+        "doanTrich": "Based on the Vietnam AI Adoption Status and IT Hiring Insight 2025 report by ITviec, AI adoption at the enterprise level in Vietnam has moved firmly into the mainstream. By 2025, 73% of Vietnamese companies had adopted AI in some form",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+        "tieuDe": "Viet Nam ranks second in AI adoption rate in Southeast Asia",
+        "tacGia": "en.baochinhphu.vn",
+        "toChuc": "en.baochinhphu.vn",
+        "ngayDang": "2026-06-18T15:24:00+07:00",
+        "ngayLayVe": "2026-09-17T13:41:57.131Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Báo điện tử chính thống của Chính phủ nước CHXHCN Việt Nam, thông tin cập nhật năm 2026.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [],
+        "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm",
+        "tieuDe": "Vietnamese AI for Vietnamese people",
+        "tacGia": "Bộ Khoa học và Công nghệ",
+        "ngayLayVe": "2026-09-17T13:41:57.132Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Cổng thông tin chính thức của Bộ Thông tin và Truyền thông, tuy nhiên bài viết đề cập số liệu cũ năm 2024.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn quá một năm so với mốc 2026",
+          "Số liệu khảo sát chỉ dựa trên một nguồn duy nhất chưa đối chiếu đa chiều",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 26.5% theo báo cáo của Microsoft công bố năm 2026.",
+        "loai": "so-lieu",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+            "viTri": "Đoạn 2"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Có sự mâu thuẫn về tỷ lệ ứng dụng AI của doanh nghiệp Việt Nam giữa các nguồn và các năm khác nhau (ví dụ: 73% năm 2025 theo ITviec, 26.5% năm 2026 theo Microsoft do khác biệt về tiêu chí khảo sát và định nghĩa mức độ ứng dụng)."
+      },
+      {
+        "id": "t02",
+        "noiDung": "Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 73% vào năm 2025 theo báo cáo của ITviec.",
+        "loai": "so-lieu",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries.",
+            "viTri": "Đoạn 6"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Số liệu này khác biệt đáng kể so với con số 26.5% của Microsoft công bố năm 2026, do cách định nghĩa mức độ ứng dụng AI khác nhau giữa các đơn vị khảo sát."
+      }
+    ],
+    "searchQueries": [
+      "Vietnam AI adoption 2026",
+      "Vietnamese enterprises AI usage"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789652524451",
+      "timestamp": "2026-09-17T13:42:04.451Z",
+      "phase": "research",
+      "input": {
+        "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+        "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+        "targetAudience": "Người đi làm",
+        "videoDuration": "3 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N10"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Vietnam AI Market: Updates to 2025 - B-Company - B&Company",
+              "url": "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+              "snippet": "In December 2025, Vietnam's National Assembly passed the country's first Law on Artificial Intelligence, scheduled to take effect in March 2026.",
+              "position": 1
+            },
+            {
+              "title": "Viet Nam ranks second in AI adoption rate in Southeast Asia",
+              "url": "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+              "snippet": "Microsoft noted that AI adoption in Viet Nam has increased stably from 21.2 per cent in the first half of 2025 to 26.5 per cent in the first ...",
+              "position": 2
+            },
+            {
+              "title": "Viet Nam ranks second in AI adoption rate in Southeast Asia",
+              "url": "https://dafo.danang.gov.vn/view.aspx?ID=14214",
+              "snippet": "Microsoft noted that AI adoption in Viet Nam has increased stably from 21.2 per cent in the first half of 2025 to 26.5 per cent in the first ...",
+              "position": 3
+            },
+            {
+              "title": "Vietnam plans to establish a National AI Development ...",
+              "url": "https://www.facebook.com/vietceterainternational/posts/vietnam-plans-to-establish-a-national-ai-development-fund-for-the-2026-to-2027-p/1359173959591676/",
+              "snippet": "Vietnam plans to establish a National AI Development Fund for the 2026 to 2027 period to support AI research, innovation, and real-world ...",
+              "position": 4
+            },
+            {
+              "title": "AI adoption in Vietnam's business sector jumps 39%",
+              "url": "https://en.vneconomy.vn/ai-adoption-in-vietnams-business-sector-jumps-39.htm",
+              "snippet": "Reports indicate that the adoption rate of AI among Vietnamese businesses surged by 39% year-on-year (YoY) in 2025, highlighting AI's growing ...",
+              "position": 5
+            }
+          ],
+          "query": "Vietnam AI adoption 2026",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Vietnam AI Market: Updates to 2025 - B-Company - B&Company",
+              "url": "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+              "snippet": "By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries. However, the ...",
+              "position": 1
+            },
+            {
+              "title": "Vietnamese AI for Vietnamese people",
+              "url": "https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm",
+              "snippet": "Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%. While ...",
+              "position": 2
+            },
+            {
+              "title": "Vietnam Consumer AI market 2025: 78% of online population ...",
+              "url": "https://www.decisionlab.co/blog/vietnam-consumer-ai-market-2025-78-of-online-population-have-engaged-with-ai-one-third-turn-it-into-a-daily-habit",
+              "snippet": "Vietnam's online population is highly open to AI, with 78% of people having used at least one AI platform in the past three months and 33% now ...",
+              "position": 3
+            },
+            {
+              "title": "VinUniversity launches Vietnam's first industry report on AI ...",
+              "url": "https://www.facebook.com/vinuniversity/posts/did-you-know-that-77-of-vietnams-organizations-are-already-applying-ai-in-specif/1384589463713975/",
+              "snippet": "Did you know that 77% of Vietnam's organizations are already applying AI in specific business functions? - VinUniversity launches Vietnam's ...",
+              "position": 4
+            },
+            {
+              "title": "Generative AI and the question of real value for ...",
+              "url": "https://fpt-is.com/en/insights/generative-ai-and-the-question-of-real-value-for-vietnamese-enterprises/",
+              "snippet": "A perspective for Vietnamese enterprises in today's AI landscape.",
+              "position": 5
+            }
+          ],
+          "query": "Vietnamese enterprises AI usage",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+          "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+          "https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm",
+          "https://dafo.danang.gov.vn/view.aspx?ID=14214",
+          "https://www.decisionlab.co/blog/vietnam-consumer-ai-market-2025-78-of-online-population-have-engaged-with-ai-one-third-turn-it-into-a-daily-habit",
+          "https://www.facebook.com/vietceterainternational/posts/vietnam-plans-to-establish-a-national-ai-development-fund-for-the-2026-to-2027-p/1359173959591676/",
+          "https://www.facebook.com/vinuniversity/posts/did-you-know-that-77-of-vietnams-organizations-are-already-applying-ai-in-specif/1384589463713975/",
+          "https://en.vneconomy.vn/ai-adoption-in-vietnams-business-sector-jumps-39.htm"
+        ],
+        "pagesRead": [
+          "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+          "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+          "https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+          "content": "Japan: Tokyo Vietnam: Hanoi Vietnam: Ho Chi Minh\n\nVietnam: Hanoi Vietnam: Ho Chi Minh\n\n(81) 3 5829 4006 (84) 24 3978 5165 (84) 28 3910 3913\n\n(84) 24 3978 5165 (84) 28 3910 3913\n\nVietnam AI Market: Updates to 2025\n\nLatest News & Report / Vietnam Briefing\n\nB&Company is the first Japanese company specializing in market research and investment consulting in Vietnam since 2008.\n\nIn this section “Vietnam Briefing”, young researchers of B&Company will provide timely information of Vietnam’s industrial trends, consumer trends, and social movements.\n\nThis article is written in English and automatic translation is used for other language versions. Please refer to the English version for accurate content. Although we strive to ensure the accuracy of the original information, please check separately for each information. Interpretations and future prospects are the personal opinions of each researcher.\n\nVietnam has emerged as one of the fastest–growing AI markets in Southeast Asia, ranking 5th in ASEAN in AI readiness with a score of 54.5 according to Oxford Insights. Over the year, the market experienced a strong transition from AI experimentation toward practical and commercial execution, supported by two key forces: the arrival of high-quality foreign direct investment (FDI) in AI research and development, and the Government’s efforts to standardize and regulate AI and data usage.\n\nMajor milestones in 2025 included Qualcomm’s deepened AI R&D presence, the expansion of SAP Labs Vietnam into a regional AI hub, the passage of the Personal Data Protection (PDP) Law, and the approval of Vietnam’s first AI Law. These developments proved that Vietnam is ready to shift toward an AI–focused ecosystem with more opportunities for foreign investors.\n\nMarket Context & Domestic Status\n\nBy 2024, Vietnam’s AI market was valued at approximately USD 0.75 billion and is widely expected to reach around USD 2.0 billion by 2030, implying a compound annual growth rate (CAGR) of roughly 15% from 2025 onward. This growth has been driven by increasing business digitalization, expanding e-government initiatives, and the steady advancement of domestic technology capabilities.\n\nBased on the Vietnam AI Adoption Status and IT Hiring Insight 2025 report by ITviec, AI adoption at the enterprise level in Vietnam has moved firmly into the mainstream. By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries. However, the adoption rate is still fluctuating, as only 13.8% of firms had deployed AI at scale, while the majority were still operating at pilot or limited-production stages. Despite strong adoption momentum, companies still need more time and experience to expand their application of AI into their core business strategy. Only 36.5% of companies had a documented AI strategy, while talent shortages represented the most critical constraint (46.4% of companies lacked sufficient internal AI skills).\n\nAgainst these limitations of enterprises’ AI readiness, 2025 marked a significant year for transition, characterized by the convergence of high-quality foreign investment and decisive government action to standardize Vietnam’s AI landscape.\n\n2025 Timeline: A Year of Transformation\n\nIn March–April 2025, Vietnam’s Ministry of Science and Technology (MOST) initiated the evaluation and ranking of Vietnamese large language models. This marked one of the Government’s first concrete steps toward setting technical benchmarks for domestic AI systems.\n\nRather than focusing solely on promotion, the Government began addressing quality, safety, and performance standards, helping build initial trust among enterprises and public-sector users. This initiative laid the groundwork for future procurement and wider deployment of Vietnamese-developed AI solutions.\n\nIn April 2025, Qualcomm integrated the Research and Generative AI teams of VinAI into its global AI organization, following its acquisition of Movian AI. This move shifted cooperation from project-based collaboration toward deep talent and intellectual property integration, positioning Vietnam within Qualcomm’s global AI R&D value chain.\n\nIn June 2025, Qualcomm further reinforced this commitment by launching a large-scale AI R&D center in Vietnam, focusing on generative and agentic AI applications across smartphones, automotive systems, IoT, and XR. The center was designed to support end-to-end innovation—from foundational research to platform development—while contributing to local talent development and academic collaboration.\n\nThe launch of Qualcomm’s Artificial Intelligence Research & Development (AI R&D) Center\n\nBy the time data-intensive AI R&D activities expanded rapidly on the market, the Personal Data Protection (PDP) Law (Law No.91/2025/QH15) was passed, showing the government’s support in digital transformation effort. The law provided a legal framework to govern data collection, processing, and cross-border transfer with the aim of reducing regulatory ambiguity and lowering long-term legal risks for investors, particularly in fintech, healthcare, and consumer-facing AI applications.\n\nIn August 2025, SAP announced the expansion of SAP Labs Vietnam into a strategic R&D hub, with a planned investment of over EUR 150 million within five years. The center was positioned to contribute directly to core enterprise AI, data analytics, and cloud-based business applications, rather than functioning solely as a delivery or outsourcing unit.\n\nThis expansion shows SAP’s validation of Vietnam as a long-term R&D destination for enterprise AI. This reinforced the perception that Vietnam was evolving beyond cost-driven IT services toward higher-value AI innovation embedded in global product development pipelines.\n\nIn December 2025, Vietnam’s National Assembly passed the country’s first Law on Artificial Intelligence, scheduled to take effect in March 2026.\n\nBy introducing risk classification, accountability requirements, and governance obligations for high-impact AI systems, the law moved Vietnam from policy guidance to enforceable regulation. This provided greater certainty for the 2026 fiscal year and beyond, particularly for AI deployment in regulated sectors such as finance, healthcare, and public administration.\n\nImplications for Foreign Investors\n\nBy the end of 2025, Vietnam’s AI market has become increasingly investment-ready, offering multiple opportunities for foreign investors, especially in B2B AI solutions, as domestic enterprises actively seek productivity – enhancing and compliance – ready technologies.\n\nHowever, along with great growing potential, the market also faces several challenges, such as the increase of compliance costs under the new legal framework, or intensified competition for AI talent from multinational R&D centers, which FDI enterprises might need a clear market infiltration strategy. A great implication can be partnering with local firms, which are familiar with Vietnam’s regulatory environment, or by investing directly in talent development and training, to solve the market’s most persistent barriers.\n\n* If you wish to quote any information from this article, please kindly cite the source along with the link to the\n\nThe first Japanese company specializing in market research in Vietnam since 2008. We provide a wide range of services including industry reports, industry interviews, consumer surveys, business matching. Additionally, we have recently developed a database of over 900,000 companies in Vietnam, which can be used to search for partners and analyze the market.\n\nhttps://www.linkedin.com/pulse/vietnams-ai-journey-market-rise-th%C3%A1i-v%C3%A2n-linh-pjl3c/\n\nhttps://www.nexdigm.com/market-research/report-store/vietnam-artificial-intelligence-market-research-report/\n\nhttps://b-company.jp/vietnam-ai-landscape-2025-government-policy-key-players-and-startup-ecosystem/\n\nhttps://www.vietnam-briefing.com/news/vietnam-law-on-personal-data-protection-latest-developments-and-insights.html/\n\nhttps://vietnamnet.vn/en/vietnamese-llms-to-be-evaluated-and-ranked-by-experts-in-march-2382536.html\n\nhttps://news.sap.com/sea/2025/08/sap-plans-to-invest-more-than-e150-million-to-launch-research-development-hub-in-vietnam/\n\nhttps://www.tilleke.com/insights/a-closer-look-at-vietnams-new-ai-law-what-it-means-for-ai-businesses/61/\n\nVietnam AI Adoption Status and IT Hiring Insight 2025 – ITviec\n\nVietnam’s Agriculture: Current landscape and business opportunities\n\nNecessity and approach of competitive research in Vietnam | Research items and cost estimates\n\nVietnam Expansion 2027 | Research company explains 5 promising markets\n\nCommon mistakes in Vietnam Market research: 5 points to avoid\n\nList of upcoming exhibitions in October 2026 in Vietnam\n\nB&Company Supports Gunma Prefecture in Recruiting Vietnamese Students for a Sponsored Gunma Experience\n\nList of upcoming exhibitions in September 2026 in Vietnam\n\nList of upcoming exhibitions in August 2026 in Vietnam",
+          "fetchedAt": "2026-09-17T13:41:57.130Z",
+          "title": "Vietnam AI Market: Updates to 2025 - B-Company",
+          "status": "ok",
+          "contentLength": 14192,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Japan: Tokyo Vietnam: Hanoi Vietnam: Ho Chi Minh"
+            },
+            {
+              "blockIndex": 1,
+              "text": "Vietnam: Hanoi Vietnam: Ho Chi Minh"
+            },
+            {
+              "blockIndex": 2,
+              "text": "(81) 3 5829 4006 (84) 24 3978 5165 (84) 28 3910 3913"
+            },
+            {
+              "blockIndex": 3,
+              "text": "(84) 24 3978 5165 (84) 28 3910 3913"
+            },
+            {
+              "blockIndex": 8,
+              "text": "Vietnam AI Market: Updates to 2025"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Latest News & Report / Vietnam Briefing"
+            },
+            {
+              "blockIndex": 15,
+              "text": "B&Company is the first Japanese company specializing in market research and investment consulting in Vietnam since 2008."
+            },
+            {
+              "blockIndex": 16,
+              "text": "In this section “Vietnam Briefing”, young researchers of B&Company will provide timely information of Vietnam’s industrial trends, consumer trends, and social movements."
+            },
+            {
+              "blockIndex": 17,
+              "text": "This article is written in English and automatic translation is used for other language versions. Please refer to the English version for accurate content. Although we strive to ensure the accuracy of the original information, please check separately for each information. Interpretations and future prospects are the personal opinions of each researcher."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Vietnam has emerged as one of the fastest–growing AI markets in Southeast Asia, ranking 5th in ASEAN in AI readiness with a score of 54.5 according to Oxford Insights. Over the year, the market experienced a strong transition from AI experimentation toward practical and commercial execution, supported by two key forces: the arrival of high-quality foreign direct investment (FDI) in AI research and development, and the Government’s efforts to standardize and regulate AI and data usage."
+            },
+            {
+              "blockIndex": 21,
+              "text": "Major milestones in 2025 included Qualcomm’s deepened AI R&D presence, the expansion of SAP Labs Vietnam into a regional AI hub, the passage of the Personal Data Protection (PDP) Law, and the approval of Vietnam’s first AI Law. These developments proved that Vietnam is ready to shift toward an AI–focused ecosystem with more opportunities for foreign investors."
+            },
+            {
+              "blockIndex": 22,
+              "text": "Market Context & Domestic Status"
+            },
+            {
+              "blockIndex": 23,
+              "text": "By 2024, Vietnam’s AI market was valued at approximately USD 0.75 billion and is widely expected to reach around USD 2.0 billion by 2030, implying a compound annual growth rate (CAGR) of roughly 15% from 2025 onward. This growth has been driven by increasing business digitalization, expanding e-government initiatives, and the steady advancement of domestic technology capabilities."
+            },
+            {
+              "blockIndex": 24,
+              "text": "Based on the Vietnam AI Adoption Status and IT Hiring Insight 2025 report by ITviec, AI adoption at the enterprise level in Vietnam has moved firmly into the mainstream. By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries. However, the adoption rate is still fluctuating, as only 13.8% of firms had deployed AI at scale, while the majority were still operating at pilot or limited-production stages. Despite strong adoption momentum, companies still need more time and experience to expand their application of AI into their core business strategy. Only 36.5% of companies had a documented AI strategy, while talent shortages represented the most critical constraint (46.4% of companies lacked sufficient internal AI skills)."
+            },
+            {
+              "blockIndex": 25,
+              "text": "Against these limitations of enterprises’ AI readiness, 2025 marked a significant year for transition, characterized by the convergence of high-quality foreign investment and decisive government action to standardize Vietnam’s AI landscape."
+            },
+            {
+              "blockIndex": 26,
+              "text": "2025 Timeline: A Year of Transformation"
+            },
+            {
+              "blockIndex": 27,
+              "text": "In March–April 2025, Vietnam’s Ministry of Science and Technology (MOST) initiated the evaluation and ranking of Vietnamese large language models. This marked one of the Government’s first concrete steps toward setting technical benchmarks for domestic AI systems."
+            },
+            {
+              "blockIndex": 28,
+              "text": "Rather than focusing solely on promotion, the Government began addressing quality, safety, and performance standards, helping build initial trust among enterprises and public-sector users. This initiative laid the groundwork for future procurement and wider deployment of Vietnamese-developed AI solutions."
+            },
+            {
+              "blockIndex": 29,
+              "text": "In April 2025, Qualcomm integrated the Research and Generative AI teams of VinAI into its global AI organization, following its acquisition of Movian AI. This move shifted cooperation from project-based collaboration toward deep talent and intellectual property integration, positioning Vietnam within Qualcomm’s global AI R&D value chain."
+            },
+            {
+              "blockIndex": 30,
+              "text": "In June 2025, Qualcomm further reinforced this commitment by launching a large-scale AI R&D center in Vietnam, focusing on generative and agentic AI applications across smartphones, automotive systems, IoT, and XR. The center was designed to support end-to-end innovation—from foundational research to platform development—while contributing to local talent development and academic collaboration."
+            },
+            {
+              "blockIndex": 31,
+              "text": "The launch of Qualcomm’s Artificial Intelligence Research & Development (AI R&D) Center"
+            },
+            {
+              "blockIndex": 34,
+              "text": "By the time data-intensive AI R&D activities expanded rapidly on the market, the Personal Data Protection (PDP) Law (Law No.91/2025/QH15) was passed, showing the government’s support in digital transformation effort. The law provided a legal framework to govern data collection, processing, and cross-border transfer with the aim of reducing regulatory ambiguity and lowering long-term legal risks for investors, particularly in fintech, healthcare, and consumer-facing AI applications."
+            },
+            {
+              "blockIndex": 35,
+              "text": "In August 2025, SAP announced the expansion of SAP Labs Vietnam into a strategic R&D hub, with a planned investment of over EUR 150 million within five years. The center was positioned to contribute directly to core enterprise AI, data analytics, and cloud-based business applications, rather than functioning solely as a delivery or outsourcing unit."
+            },
+            {
+              "blockIndex": 36,
+              "text": "This expansion shows SAP’s validation of Vietnam as a long-term R&D destination for enterprise AI. This reinforced the perception that Vietnam was evolving beyond cost-driven IT services toward higher-value AI innovation embedded in global product development pipelines."
+            },
+            {
+              "blockIndex": 37,
+              "text": "In December 2025, Vietnam’s National Assembly passed the country’s first Law on Artificial Intelligence, scheduled to take effect in March 2026."
+            },
+            {
+              "blockIndex": 38,
+              "text": "By introducing risk classification, accountability requirements, and governance obligations for high-impact AI systems, the law moved Vietnam from policy guidance to enforceable regulation. This provided greater certainty for the 2026 fiscal year and beyond, particularly for AI deployment in regulated sectors such as finance, healthcare, and public administration."
+            },
+            {
+              "blockIndex": 39,
+              "text": "Implications for Foreign Investors"
+            },
+            {
+              "blockIndex": 40,
+              "text": "By the end of 2025, Vietnam’s AI market has become increasingly investment-ready, offering multiple opportunities for foreign investors, especially in B2B AI solutions, as domestic enterprises actively seek productivity – enhancing and compliance – ready technologies."
+            },
+            {
+              "blockIndex": 41,
+              "text": "However, along with great growing potential, the market also faces several challenges, such as the increase of compliance costs under the new legal framework, or intensified competition for AI talent from multinational R&D centers, which FDI enterprises might need a clear market infiltration strategy. A great implication can be partnering with local firms, which are familiar with Vietnam’s regulatory environment, or by investing directly in talent development and training, to solve the market’s most persistent barriers."
+            },
+            {
+              "blockIndex": 43,
+              "text": "* If you wish to quote any information from this article, please kindly cite the source along with the link to the"
+            },
+            {
+              "blockIndex": 44,
+              "text": "The first Japanese company specializing in market research in Vietnam since 2008. We provide a wide range of services including industry reports, industry interviews, consumer surveys, business matching. Additionally, we have recently developed a database of over 900,000 companies in Vietnam, which can be used to search for partners and analyze the market."
+            },
+            {
+              "blockIndex": 48,
+              "text": "https://www.linkedin.com/pulse/vietnams-ai-journey-market-rise-th%C3%A1i-v%C3%A2n-linh-pjl3c/"
+            },
+            {
+              "blockIndex": 49,
+              "text": "https://www.nexdigm.com/market-research/report-store/vietnam-artificial-intelligence-market-research-report/"
+            },
+            {
+              "blockIndex": 50,
+              "text": "https://b-company.jp/vietnam-ai-landscape-2025-government-policy-key-players-and-startup-ecosystem/"
+            },
+            {
+              "blockIndex": 53,
+              "text": "https://www.vietnam-briefing.com/news/vietnam-law-on-personal-data-protection-latest-developments-and-insights.html/"
+            },
+            {
+              "blockIndex": 54,
+              "text": "https://vietnamnet.vn/en/vietnamese-llms-to-be-evaluated-and-ranked-by-experts-in-march-2382536.html"
+            },
+            {
+              "blockIndex": 55,
+              "text": "https://news.sap.com/sea/2025/08/sap-plans-to-invest-more-than-e150-million-to-launch-research-development-hub-in-vietnam/"
+            },
+            {
+              "blockIndex": 56,
+              "text": "https://www.tilleke.com/insights/a-closer-look-at-vietnams-new-ai-law-what-it-means-for-ai-businesses/61/"
+            },
+            {
+              "blockIndex": 57,
+              "text": "Vietnam AI Adoption Status and IT Hiring Insight 2025 – ITviec"
+            },
+            {
+              "blockIndex": 59,
+              "text": "Vietnam’s Agriculture: Current landscape and business opportunities"
+            },
+            {
+              "blockIndex": 61,
+              "text": "Necessity and approach of competitive research in Vietnam | Research items and cost estimates"
+            },
+            {
+              "blockIndex": 62,
+              "text": "Vietnam Expansion 2027 | Research company explains 5 promising markets"
+            },
+            {
+              "blockIndex": 63,
+              "text": "Common mistakes in Vietnam Market research: 5 points to avoid"
+            },
+            {
+              "blockIndex": 64,
+              "text": "List of upcoming exhibitions in October 2026 in Vietnam"
+            },
+            {
+              "blockIndex": 65,
+              "text": "B&Company Supports Gunma Prefecture in Recruiting Vietnamese Students for a Sponsored Gunma Experience"
+            },
+            {
+              "blockIndex": 67,
+              "text": "List of upcoming exhibitions in September 2026 in Vietnam"
+            },
+            {
+              "blockIndex": 68,
+              "text": "List of upcoming exhibitions in August 2026 in Vietnam"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+          "content": "SOCIALIST REPUBLIC OF VIET NAM Government News Vietnamese Chinese home Politics Policies Economy Society Culture Opinion Speeches J. Statements Prime Minister 14th National Party Congress GENERAL SECRETARY, PRESIDENT TO LAM Goverment PORTAL An Giang Binh Duong Binh Phuoc Binh Thuan Binh Dinh Bac Lieu Bac Giang Bac Kan Bac Ninh Ben Tre Cao Bang Ca Mau Can Tho Dien Bien Da Nang Da Lat Dak Lak Dak Nong Dong Nai Dong Thap Gia Lai Ha Noi Ho Chi Minh Ha Giang Ha Nam Ha Tinh Hoa Binh Hung Yen Hai Duong Hai Phong Hau Giang Khanh Hoa Kien Giang Kon Tum Lai Chau Long An Lao Cai Lam Dong Lang Son Nam Dinh Nghe An Ninh Binh Ninh Thuan Phu Tho Phu Yen Quang Binh Quang Nam Quang Ngai Quang Ninh Quang Tri Soc Trang Son La Thanh Hoa Thai Binh Thai Nguyen Thua Thien Hue Tien Giang Tra Vinh Tuyen Quang Tay Ninh Vinh Long Vinh Phuc Vung Tau Yen Bai 0 aA Society Viet Nam ranks second in AI adoption rate in Southeast Asia VGP - Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft. Thuy Dung June 18, 2026 3:24 PM GMT+7 Viet Nam to establish national AI development fund for 2026-2027 periodNetwork of Vietnamese AI experts takes shapePrime Minister calls for evaluating AI impacts on sectors, industriesMicrosoft noted that AI adoption in Viet Nam has increased stably from 21.2 per cent in the first half of 2025 to 26.5 per cent in the first quarter of 2026. In Southeast Asia, Viet Nam trails behind Singapore at 63.4 per cent. Meanwhile, Viet Nam outperformed most Southeast Asian peers in AI adoption, including Malaysia (21.8 per cent), the Philippines (20.1 per cent), and Thailand (12.4 per cent).During the first quarter, Viet Nam's AI adoption increased by three percentage points, marking the highest in the region. With the ongoing acceleration of AI adoption nationwide, Viet Nam has been positioned as one of the fastest-growing economies since June 2025.Dhanawat Suthumpun, managing director for Microsoft's Emerging Markets said, Viet Nam is entering an important phase in the AI era with a strong momentum among businesses, the developer community, the education sector, and the public sector in exploring how AI can drive productivity, innovation, and competitiveness. The latest Global AI Diffusion Report shows the global adoption of AI is rising quickly. Against the backdrop, Viet Nam is well-positioned to turn this momentum into long-term growth, he added. As AI becomes the defining technology of the next decade, he expressed his belief that Viet Nam has the potential to become one of the most dynamic AI-driven economies in Southeast Asia./. AI Microsoft Home Politics Policies Economy Society Culture Opinion Speeches J. Statements Prime Minister ONLINE NEWSPAPER OF THE GOVERNMENT OF THE SOCIALIST REPUBLIC OF VIET NAM Editor-in-chief: Nguyen Hong Sam License: No. 102/GP-BTTTT dated on April 15, 2024. Head office: No. 16, Le Hong Phong - Ba Dinh - Ha Noi Tel: 080 43162 – 080 48440; Fax: 080 48924 Email: vgpnews@chinhphu.vn © Copyright Viet Nam Government News - Department of Government Information and Communications. All rights reserved.",
+          "fetchedAt": "2026-09-17T13:41:57.131Z",
+          "title": "Viet Nam ranks second in AI adoption rate in Southeast Asia",
+          "status": "ok",
+          "contentLength": 3164,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "SOCIALIST REPUBLIC OF VIET NAM Government News Vietnamese Chinese home Politics Policies Economy Society Culture Opinion Speeches J. Statements Prime Minister 14th National Party Congress GENERAL SECRETARY, PRESIDENT TO LAM Goverment PORTAL An Giang Binh Duong Binh Phuoc Binh Thuan Binh Dinh Bac Lieu Bac Giang Bac Kan Bac Ninh Ben Tre Cao Bang Ca Mau Can Tho Dien Bien Da Nang Da Lat Dak Lak Dak Nong Dong Nai Dong Thap Gia Lai Ha Noi Ho Chi Minh Ha Giang Ha Nam Ha Tinh Hoa Binh Hung Yen Hai Duong Hai Phong Hau Giang Khanh Hoa Kien Giang Kon Tum Lai Chau Long An Lao Cai Lam Dong Lang Son Nam Dinh Nghe An Ninh Binh Ninh Thuan Phu Tho Phu Yen Quang Binh Quang Nam Quang Ngai Quang Ninh Quang Tri Soc Trang Son La Thanh Hoa Thai Binh Thai Nguyen Thua Thien Hue Tien Giang Tra Vinh Tuyen Quang Tay Ninh Vinh Long Vinh Phuc Vung Tau Yen Bai 0 aA Society Viet Nam ranks second in AI adoption rate in Southeast Asia VGP - Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft. Thuy Dung June 18, 2026 3:24 PM GMT+7 Viet Nam to establish national AI development fund for 2026-2027 periodNetwork of Vietnamese AI experts takes shapePrime Minister calls for evaluating AI impacts on sectors, industriesMicrosoft noted that AI adoption in Viet Nam has increased stably from 21.2 per cent in the first half of 2025 to 26.5 per cent in the first quarter of 2026. In Southeast Asia, Viet Nam trails behind Singapore at 63.4 per cent. Meanwhile, Viet Nam outperformed most Southeast Asian peers in AI adoption, including Malaysia (21.8 per cent), the Philippines (20.1 per cent), and Thailand (12.4 per cent).During the first quarter, Viet Nam's AI adoption increased by three percentage points, marking the highest in the region. With the ongoing acceleration of AI adoption nationwide, Viet Nam has been positioned as one of the fastest-growing economies since June 2025.Dhanawat Suthumpun, managing director for Microsoft's Emerging Markets said, Viet Nam is entering an important phase in the AI era with a strong momentum among businesses, the developer community, the education sector, and the public sector in exploring how AI can drive productivity, innovation, and competitiveness. The latest Global AI Diffusion Report shows the global adoption of AI is rising quickly. Against the backdrop, Viet Nam is well-positioned to turn this momentum into long-term growth, he added. As AI becomes the defining technology of the next decade, he expressed his belief that Viet Nam has the potential to become one of the most dynamic AI-driven economies in Southeast Asia./. AI Microsoft Home Politics Policies Economy Society Culture Opinion Speeches J. Statements Prime Minister ONLINE NEWSPAPER OF THE GOVERNMENT OF THE SOCIALIST REPUBLIC OF VIET NAM Editor-in-chief: Nguyen Hong Sam License: No. 102/GP-BTTTT dated on April 15, 2024. Head office: No. 16, Le Hong Phong - Ba Dinh - Ha Noi Tel: 080 43162 – 080 48440; Fax: 080 48924 Email: vgpnews@chinhphu.vn © Copyright Viet Nam Government News - Department of Government Information and Communications. All rights reserved."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm",
+          "content": "Aa News & Gallery News and Press Releases Vietnamese AI for Vietnamese people February 6, 2025 | 10:35 am GMT+7 Artificial intelligence (AI) has become one of the key technologies of the fourth industrial revolution and is playing a crucial role in transforming the world and human life. Photo: Vietnam’s AI industry currently has many advantages in terms of human resources and policies. (Source: FPT)In Vietnam, AI has made breakthrough developments in recent years. Particularly noteworthy is the strong wave of generative AI, with potential applications across many different fields and industries.A conducive environment neededThanks to advances in machine learning and deep learning, AI — especially generative AI — has achieved significant progress in areas such as image recognition and natural language processing, attracting interest from technology corporations and investors.In Vietnam, AI has become one of the primary application trends among recent startups. At the Qualcomm Vietnam Innovation Challenge 2024 (QVIC 2024), AI was incorporated into 70% of total solutions across various fields, such as the Internet of Things (IoT), automation, medical technology, and smart cities. More than half of the projects in the competition’s top 10 utilised AI.Nguyen Thanh Thao, Senior Manager of Business Development at Qualcomm Vietnam and a QVIC 2024 judge, stated that startups are leveraging AI to optimise solutions and increase product competitiveness. This demonstrates that Vietnamese startups have caught up with trends and are ready for the international arena.Startups are not implementing AI merely to follow trends but rather recognise market application needs and attract investors. Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%. While AI is primarily used at specific times, usage is forecast to increase in the next 12 months as businesses grow more confident.Many recent technology startups have chosen AI to meet market demands and attract investment. Founded in 2018, Vbee specialises in developing natural language processing (NLP) and conversational AI solutions. Their AI virtual assistant can listen, understand, and respond through voice (callbot) or text (chatbot). This startup now has over 2 million end users and more than 300 businesses using their products. At the QVIC 2024 finals, Vbee emerged as the champion, receiving a prize of 100,000 USD.According to the Statista database (Germany), as of May 2024, OKXE, Mfast, Teky, Infoplus, and Jobhopin are the five Vietnamese AI startups that have received the most venture capital, with funding ranging from 8-15 million USD per project.Statistics show that while Vietnam recorded only about 60 startups operating in AI in 2021, by 2024 this number had increased to 278 — approximately 4.5 times higher in just three years. Experts suggest that Vietnam’s AI industry and AI startup ecosystem benefit from advantages in human resources and policy support.However, for genuine development, more practical enabling policies are needed, such as supporting startups with affordable office rentals and facilitating their access to advanced IT infrastructure at reasonable costs. The failure rate of AI startups worldwide is very high. While startups cannot make guarantees, their entrepreneurial passion needs support. When successful, the benefits they bring to society will certainly exceed the initial investment in them.According to Deputy Minister of Science and Technology Bui The Duy, AI is developing at a remarkable pace and has significant potential for socio-economic development. Recently, many agencies and businesses have witnessed the achievements of this technology. Many businesses in Vietnam are seeking solutions to apply AI in daily life as well as opportunities to connect with international organisations and find suitable technological solutions.Recently, the Ministry of Science and Technology, along with related ministries and agencies, has worked to develop a legal framework for AI. The emergence of AI has opened many management challenges, such as AI ethics. The national strategy for AI research has been issued, opening many development directions. “In implementing this direction, the ministry has issued many documents guiding responsible AI development, recommending units, organisations, and individuals to reference during AI research,” said Deputy Minister Bui The Duy.Localisation of AI technologyThe national strategy for research, development and application of AI until 2030, issued by the Prime Minister in January 2021, aims to make AI an important technology field in Vietnam and by 2030, for Vietnam to become an innovation centre for AI solutions and applications in the ASEAN region. To achieve this goal, mastering and localising AI technology plays a decisive role.Le Hong Viet, General Director of FPT Smart Cloud (FPT’s main AI development arm), assessed that Vietnam has the opportunity to catch up with global AI and create a new AI industry. This is because AI is not a standalone industry. Like the IT industry, AI will transform other sectors. Vietnamese businesses are currently competing with two factors: low-cost labour and labour productivity.However, in the future, these two factors alone will not be sufficient, and Vietnam will also need to compete through human resources, automation, technology, etc., to create even higher productivity. “We need internal AI capabilities specifically for Vietnam. This not only creates competition within the country but also protects Vietnam’s competitive edge and uniqueness,” emphasised Viet.To achieve this, firstly, there must be sufficient capability to create AI applications that Vietnamese people can use. Secondly, data must be collected from the Government and Vietnamese people to maintain control of their own data. Thirdly, technological infrastructure must be developed, building platforms for smoother AI integration into businesses.Fourthly, abundant resources must be created to attract global AI researchers and developers. Finally, the AI market in Vietnam needs to be opened to help businesses understand the value AI brings, how it creates productivity growth and optimises costs.According to Professor Vu Ha Van, Scientific Director of VinBigdata, to stay ahead of the generative AI wave, Vietnam needs to focus on developing three AI pillars: people, resources, and tools. This involves training highly skilled human resources and encouraging investment in generative AI research and development.There needs to be exploitation and development of databases for sharing and actively controlling content to ensure national data security. Finally, large Vietnamese language models must be developed, laying the foundation for developing generative AI solutions based on Vietnamese data, controlled by Vietnamese people.“Vietnam is facing a major opportunity for breakthrough. We shouldn’t be end users of foreign technology, but instead should create our own technology — Vietnamese technology for Vietnamese people,” said Professor Vu Ha Van.Markets and Data, a Singaporean consulting company, reports that Vietnam’s AI market was valued at 470 million USD in 2022 and is expected to reach 1.52 billion USD by 2030, with an annual growth rate of 15.8% during this period./.",
+          "fetchedAt": "2026-09-17T13:41:57.132Z",
+          "title": "Vietnamese AI for Vietnamese people",
+          "status": "ok",
+          "contentLength": 7365,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Aa News & Gallery News and Press Releases Vietnamese AI for Vietnamese people February 6, 2025 | 10:35 am GMT+7 Artificial intelligence (AI) has become one of the key technologies of the fourth industrial revolution and is playing a crucial role in transforming the world and human life. Photo: Vietnam’s AI industry currently has many advantages in terms of human resources and policies. (Source: FPT)In Vietnam, AI has made breakthrough developments in recent years. Particularly noteworthy is the strong wave of generative AI, with potential applications across many different fields and industries.A conducive environment neededThanks to advances in machine learning and deep learning, AI — especially generative AI — has achieved significant progress in areas such as image recognition and natural language processing, attracting interest from technology corporations and investors.In Vietnam, AI has become one of the primary application trends among recent startups. At the Qualcomm Vietnam Innovation Challenge 2024 (QVIC 2024), AI was incorporated into 70% of total solutions across various fields, such as the Internet of Things (IoT), automation, medical technology, and smart cities. More than half of the projects in the competition’s top 10 utilised AI.Nguyen Thanh Thao, Senior Manager of Business Development at Qualcomm Vietnam and a QVIC 2024 judge, stated that startups are leveraging AI to optimise solutions and increase product competitiveness. This demonstrates that Vietnamese startups have caught up with trends and are ready for the international arena.Startups are not implementing AI merely to follow trends but rather recognise market application needs and attract investors. Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%. While AI is primarily used at specific times, usage is forecast to increase in the next 12 months as businesses grow more confident.Many recent technology startups have chosen AI to meet market demands and attract investment. Founded in 2018, Vbee specialises in developing natural language processing (NLP) and conversational AI solutions. Their AI virtual assistant can listen, understand, and respond through voice (callbot) or text (chatbot). This startup now has over 2 million end users and more than 300 businesses using their products. At the QVIC 2024 finals, Vbee emerged as the champion, receiving a prize of 100,000 USD.According to the Statista database (Germany), as of May 2024, OKXE, Mfast, Teky, Infoplus, and Jobhopin are the five Vietnamese AI startups that have received the most venture capital, with funding ranging from 8-15 million USD per project.Statistics show that while Vietnam recorded only about 60 startups operating in AI in 2021, by 2024 this number had increased to 278 — approximately 4.5 times higher in just three years. Experts suggest that Vietnam’s AI industry and AI startup ecosystem benefit from advantages in human resources and policy support.However, for genuine development, more practical enabling policies are needed, such as supporting startups with affordable office rentals and facilitating their access to advanced IT infrastructure at reasonable costs. The failure rate of AI startups worldwide is very high. While startups cannot make guarantees, their entrepreneurial passion needs support. When successful, the benefits they bring to society will certainly exceed the initial investment in them.According to Deputy Minister of Science and Technology Bui The Duy, AI is developing at a remarkable pace and has significant potential for socio-economic development. Recently, many agencies and businesses have witnessed the achievements of this technology. Many businesses in Vietnam are seeking solutions to apply AI in daily life as well as opportunities to connect with international organisations and find suitable technological solutions.Recently, the Ministry of Science and Technology, along with related ministries and agencies, has worked to develop a legal framework for AI. The emergence of AI has opened many management challenges, such as AI ethics. The national strategy for AI research has been issued, opening many development directions. “In implementing this direction, the ministry has issued many documents guiding responsible AI development, recommending units, organisations, and individuals to reference during AI research,” said Deputy Minister Bui The Duy.Localisation of AI technologyThe national strategy for research, development and application of AI until 2030, issued by the Prime Minister in January 2021, aims to make AI an important technology field in Vietnam and by 2030, for Vietnam to become an innovation centre for AI solutions and applications in the ASEAN region. To achieve this goal, mastering and localising AI technology plays a decisive role.Le Hong Viet, General Director of FPT Smart Cloud (FPT’s main AI development arm), assessed that Vietnam has the opportunity to catch up with global AI and create a new AI industry. This is because AI is not a standalone industry. Like the IT industry, AI will transform other sectors. Vietnamese businesses are currently competing with two factors: low-cost labour and labour productivity.However, in the future, these two factors alone will not be sufficient, and Vietnam will also need to compete through human resources, automation, technology, etc., to create even higher productivity. “We need internal AI capabilities specifically for Vietnam. This not only creates competition within the country but also protects Vietnam’s competitive edge and uniqueness,” emphasised Viet.To achieve this, firstly, there must be sufficient capability to create AI applications that Vietnamese people can use. Secondly, data must be collected from the Government and Vietnamese people to maintain control of their own data. Thirdly, technological infrastructure must be developed, building platforms for smoother AI integration into businesses.Fourthly, abundant resources must be created to attract global AI researchers and developers. Finally, the AI market in Vietnam needs to be opened to help businesses understand the value AI brings, how it creates productivity growth and optimises costs.According to Professor Vu Ha Van, Scientific Director of VinBigdata, to stay ahead of the generative AI wave, Vietnam needs to focus on developing three AI pillars: people, resources, and tools. This involves training highly skilled human resources and encouraging investment in generative AI research and development.There needs to be exploitation and development of databases for sharing and actively controlling content to ensure national data security. Finally, large Vietnamese language models must be developed, laying the foundation for developing generative AI solutions based on Vietnamese data, controlled by Vietnamese people.“Vietnam is facing a major opportunity for breakthrough. We shouldn’t be end users of foreign technology, but instead should create our own technology — Vietnamese technology for Vietnamese people,” said Professor Vu Ha Van.Markets and Data, a Singaporean consulting company, reports that Vietnam’s AI market was valued at 470 million USD in 2022 and is expected to reach 1.52 billion USD by 2030, with an annual growth rate of 15.8% during this period./."
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+          "tieuDe": "Vietnam AI Market: Updates to 2025 - B-Company",
+          "tacGia": "B& Company",
+          "toChuc": "B-Company",
+          "ngayDang": "2026-01-22T14:09:41+00:00",
+          "ngayLayVe": "2026-09-17T13:41:57.130Z",
+          "loai": "bao-chi",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ công ty nghiên cứu thị trường nhưng tập trung vào giai đoạn đến năm 2025 và đã cũ so với mốc năm 2026.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm so với mốc 2026"
+          ],
+          "doanTrich": "Based on the Vietnam AI Adoption Status and IT Hiring Insight 2025 report by ITviec, AI adoption at the enterprise level in Vietnam has moved firmly into the mainstream. By 2025, 73% of Vietnamese companies had adopted AI in some form",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+          "tieuDe": "Viet Nam ranks second in AI adoption rate in Southeast Asia",
+          "tacGia": "en.baochinhphu.vn",
+          "toChuc": "en.baochinhphu.vn",
+          "ngayDang": "2026-06-18T15:24:00+07:00",
+          "ngayLayVe": "2026-09-17T13:41:57.131Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Báo điện tử chính thống của Chính phủ nước CHXHCN Việt Nam, thông tin cập nhật năm 2026.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm",
+          "tieuDe": "Vietnamese AI for Vietnamese people",
+          "tacGia": "Bộ Khoa học và Công nghệ",
+          "ngayLayVe": "2026-09-17T13:41:57.132Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Cổng thông tin chính thức của Bộ Thông tin và Truyền thông, tuy nhiên bài viết đề cập số liệu cũ năm 2024.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm so với mốc 2026",
+            "Số liệu khảo sát chỉ dựa trên một nguồn duy nhất chưa đối chiếu đa chiều",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 26.5% theo báo cáo của Microsoft công bố năm 2026.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+              "viTri": "Đoạn 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Có sự mâu thuẫn về tỷ lệ ứng dụng AI của doanh nghiệp Việt Nam giữa các nguồn và các năm khác nhau (ví dụ: 73% năm 2025 theo ITviec, 26.5% năm 2026 theo Microsoft do khác biệt về tiêu chí khảo sát và định nghĩa mức độ ứng dụng)."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 73% vào năm 2025 theo báo cáo của ITviec.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries.",
+              "viTri": "Đoạn 6"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Số liệu này khác biệt đáng kể so với con số 26.5% của Microsoft công bố năm 2026, do cách định nghĩa mức độ ứng dụng AI khác nhau giữa các đơn vị khảo sát."
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://b-company.jp/vietnam-ai-market-update-to-2025/\",\n      \"tieuDe\": \"Vietnam AI Market: Updates to 2025 - B-Company\",\n      \"tacGia\": \"B& Company\",\n      \"toChuc\": \"B-Company\",\n      \"ngayDang\": \"2026-01-22\",\n      \"ngayLayVe\": \"2026-09-17T13:41:57.130Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ công ty nghiên cứu thị trường nhưng tập trung vào giai đoạn đến năm 2025 và đã cũ so với mốc năm 2026.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn quá một năm so với mốc 2026\"\n      ],\n      \"doanTrich\": \"Based on the Vietnam AI Adoption Status and IT Hiring Insight 2025 report by ITviec, AI adoption at the enterprise level in Vietnam has moved firmly into the mainstream. By 2025, 73% of Vietnamese companies had adopted AI in some form\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm\",\n      \"tieuDe\": \"Viet Nam ranks second in AI adoption rate in Southeast Asia\",\n      \"tacGia\": \"Thuy Dung\",\n      \"toChuc\": \"en.baochinhphu.vn\",\n      \"ngayDang\": \"2026-06-18\",\n      \"ngayLayVe\": \"2026-09-17T13:41:57.131Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Báo điện tử chính thống của Chính phủ nước CHXHCN Việt Nam, thông tin cập nhật năm 2026.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm\",\n      \"tieuDe\": \"Vietnamese AI for Vietnamese people\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Bộ Khoa học và Công nghệ\",\n      \"ngayDang\": \"2025-02-06\",\n      \"ngayLayVe\": \"2026-09-17T13:41:57.132Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Cổng thông tin chính thức của Bộ Thông tin và Truyền thông, tuy nhiên bài viết đề cập số liệu cũ năm 2024.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn quá một năm so với mốc 2026\",\n        \"Số liệu khảo sát chỉ dựa trên một nguồn duy nhất chưa đối chiếu đa chiều\"\n      ],\n      \"doanTrich\": \"Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 26.5% theo báo cáo của Microsoft công bố năm 2026.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Có sự mâu thuẫn về tỷ lệ ứng dụng AI của doanh nghiệp Việt Nam giữa các nguồn và các năm khác nhau (ví dụ: 73% năm 2025 theo ITviec, 26.5% năm 2026 theo Microsoft do khác biệt về tiêu chí khảo sát và định nghĩa mức độ ứng dụng).\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 73% vào năm 2025 theo báo cáo của ITviec.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries.\",\n          \"viTri\": \"Đoạn 6\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Số liệu này khác biệt đáng kể so với con số 26.5% của Microsoft công bố năm 2026, do cách định nghĩa mức độ ứng dụng AI khác nhau giữa các đơn vị khảo sát.\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 4739,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://b-company.jp/vietnam-ai-market-update-to-2025/\",\n      \"tieuDe\": \"Vietnam AI Market: Updates to 2025 - B-Company\",\n      \"tacGia\": \"B& Company\",\n      \"toChuc\": \"B-Company\",\n      \"ngayDang\": \"2026-01-22\",\n      \"ngayLayVe\": \"2026-09-17T13:41:57.130Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ công ty nghiên cứu thị trường nhưng tập trung vào giai đoạn đến năm 2025 và đã cũ so với mốc năm 2026.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn quá một năm so với mốc 2026\"\n      ],\n      \"doanTrich\": \"Based on the Vietnam AI Adoption Status and IT Hiring Insight 2025 report by ITviec, AI adoption at the enterprise level in Vietnam has moved firmly into the mainstream. By 2025, 73% of Vietnamese companies had adopted AI in some form\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm\",\n      \"tieuDe\": \"Viet Nam ranks second in AI adoption rate in Southeast Asia\",\n      \"tacGia\": \"Thuy Dung\",\n      \"toChuc\": \"en.baochinhphu.vn\",\n      \"ngayDang\": \"2026-06-18\",\n      \"ngayLayVe\": \"2026-09-17T13:41:57.131Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Báo điện tử chính thống của Chính phủ nước CHXHCN Việt Nam, thông tin cập nhật năm 2026.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm\",\n      \"tieuDe\": \"Vietnamese AI for Vietnamese people\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Bộ Khoa học và Công nghệ\",\n      \"ngayDang\": \"2025-02-06\",\n      \"ngayLayVe\": \"2026-09-17T13:41:57.132Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Cổng thông tin chính thức của Bộ Thông tin và Truyền thông, tuy nhiên bài viết đề cập số liệu cũ năm 2024.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn quá một năm so với mốc 2026\",\n        \"Số liệu khảo sát chỉ dựa trên một nguồn duy nhất chưa đối chiếu đa chiều\"\n      ],\n      \"doanTrich\": \"Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 26.5% theo báo cáo của Microsoft công bố năm 2026.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.\",\n          \"viTri\": \"Đoạn 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Có sự mâu thuẫn về tỷ lệ ứng dụng AI của doanh nghiệp Việt Nam giữa các nguồn và các năm khác nhau (ví dụ: 73% năm 2025 theo ITviec, 26.5% năm 2026 theo Microsoft do khác biệt về tiêu chí khảo sát và định nghĩa mức độ ứng dụng).\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 73% vào năm 2025 theo báo cáo của ITviec.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries.\",\n          \"viTri\": \"Đoạn 6\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Số liệu này khác biệt đáng kể so với con số 26.5% của Microsoft công bố năm 2026, do cách định nghĩa mức độ ứng dụng AI khác nhau giữa các đơn vị khảo sát.\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 10543
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash-lite",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+      "mucTieu": "Nêu được con số cụ thể từ khảo sát đáng tin",
+      "thoiLuong": "3 phút",
+      "nguoiHoc": "Người đi làm",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789652538947",
+      "timestamp": "2026-09-17T13:42:18.947Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+        "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+        "targetAudience": "Người đi làm",
+        "videoDuration": "3 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N10"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://b-company.jp/vietnam-ai-market-update-to-2025/",
+          "tieuDe": "Vietnam AI Market: Updates to 2025 - B-Company",
+          "tacGia": "B& Company",
+          "toChuc": "B-Company",
+          "ngayDang": "2026-01-22T14:09:41+00:00",
+          "ngayLayVe": "2026-09-17T13:41:57.130Z",
+          "loai": "bao-chi",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ công ty nghiên cứu thị trường nhưng tập trung vào giai đoạn đến năm 2025 và đã cũ so với mốc năm 2026.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm so với mốc 2026"
+          ],
+          "doanTrich": "Based on the Vietnam AI Adoption Status and IT Hiring Insight 2025 report by ITviec, AI adoption at the enterprise level in Vietnam has moved firmly into the mainstream. By 2025, 73% of Vietnamese companies had adopted AI in some form",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.baochinhphu.vn/viet-nam-ranks-second-in-ai-adoption-rate-in-southeast-asia-111260618151914504.htm",
+          "tieuDe": "Viet Nam ranks second in AI adoption rate in Southeast Asia",
+          "tacGia": "en.baochinhphu.vn",
+          "toChuc": "en.baochinhphu.vn",
+          "ngayDang": "2026-06-18T15:24:00+07:00",
+          "ngayLayVe": "2026-09-17T13:41:57.131Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Báo điện tử chính thống của Chính phủ nước CHXHCN Việt Nam, thông tin cập nhật năm 2026.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://beta-en.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm",
+          "tieuDe": "Vietnamese AI for Vietnamese people",
+          "tacGia": "Bộ Khoa học và Công nghệ",
+          "ngayLayVe": "2026-09-17T13:41:57.132Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Cổng thông tin chính thức của Bộ Thông tin và Truyền thông, tuy nhiên bài viết đề cập số liệu cũ năm 2024.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn quá một năm so với mốc 2026",
+            "Số liệu khảo sát chỉ dựa trên một nguồn duy nhất chưa đối chiếu đa chiều",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Eight out of ten Vietnamese enterprises surveyed reported using AI within the past 12 months, higher than the regional average of 69%.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 26.5% theo báo cáo của Microsoft công bố năm 2026.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "Viet Nam has the second-highest AI adoption rate in Southeast Asia at 26.5 percent, according to the Global AI Diffusion Report released by Microsoft.",
+              "viTri": "Đoạn 2"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Có sự mâu thuẫn về tỷ lệ ứng dụng AI của doanh nghiệp Việt Nam giữa các nguồn và các năm khác nhau (ví dụ: 73% năm 2025 theo ITviec, 26.5% năm 2026 theo Microsoft do khác biệt về tiêu chí khảo sát và định nghĩa mức độ ứng dụng)."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Tỷ lệ doanh nghiệp Việt Nam ứng dụng AI đạt 73% vào năm 2025 theo báo cáo của ITviec.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "By 2025, 73% of Vietnamese companies had adopted AI in some form, confirming that AI has been widely applied across industries.",
+              "viTri": "Đoạn 6"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Số liệu này khác biệt đáng kể so với con số 26.5% của Microsoft công bố năm 2026, do cách định nghĩa mức độ ứng dụng AI khác nhau giữa các đơn vị khảo sát."
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+        "mucTieu": "Nêu được con số cụ thể từ khảo sát đáng tin",
+        "thoiLuong": "3 phút",
+        "nguoiHoc": "Người đi làm",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026\",\"mucTieu\":\"Nêu được con số cụ thể từ khảo sát đáng tin\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Người đi làm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các anh chị người đi làm đến với video khám phá tỷ lệ doanh nghiệp Việt Nam áp dụng trí tuệ nhân tạo năm hai nghìn hai mươi sáu.\",\"chuTrenManHinh\":\"Chào mừng người đi làm\",\"yDoHinh\":\"Hiển thị tiêu đề video cùng biểu tượng AI và doanh nghiệp.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Các anh chị có biết hiện nay bao nhiêu phần trăm doanh nghiệp trong nước đã triển khai trí tuệ nhân tạo không?\",\"chuTrenManHinh\":\"Câu hỏi về tỷ lệ AI\",\"yDoHinh\":\"Hình ảnh biểu tượng câu hỏi và biểu đồ sơ bộ.\",\"nguon\":[]},{\"n\":3,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo báo cáo Global AI Diffusion Report của Microsoft công bố năm hai nghìn hai mươi sáu, tỷ lệ doanh nghiệp Việt Nam áp dụng trí tuệ nhân tạo đạt hai mươi sáu phẩy năm phần trăm.\",\"chuTrenManHinh\":\"Tỷ lệ hai mươi sáu phẩy năm phần trăm\",\"yDoHinh\":\"Đồ thị cột hiển thị con số hai mươi sáu phẩy năm phần trăm.\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Bên cạnh đó, báo cáo Vietnam AI Adoption Status và IT Hiring Insight năm hai nghìn hai mươi lăm của ITviec cho biết tỷ lệ doanh nghiệp áp dụng AI đạt bảy mươi ba phần trăm.\",\"chuTrenManHinh\":\"Tỷ lệ bảy mươi ba phần trăm theo ITviec\",\"yDoHinh\":\"Biểu đồ so sánh năm hai nghìn hai mươi lăm với bảy mươi ba phần trăm.\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Sự chênh lệch này cho thấy cách định nghĩa mức độ áp dụng AI khác nhau giữa các cuộc khảo sát, vì vậy chúng ta cần cân nhắc khi so sánh số liệu.\",\"chuTrenManHinh\":\"Lưu ý chênh lệch dữ liệu\",\"yDoHinh\":\"Hình ảnh ghi chú so sánh hai nguồn dữ liệu.\",\"nguon\":[\"t01\",\"t02\"]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 3162,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026\",\n  \"mucTieu\": \"Nêu được con số cụ thể từ khảo sát đáng tin\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Người đi làm\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các anh chị người đi làm đến với nội dung về công nghệ trí tuệ nhân tạo, hay còn gọi là trí tuệ nhân tạo.\",\n      \"chuTrenManHinh\": \"Chào mừng người đi làm\",\n      \"yDoHinh\": \"Hiển thị tiêu đề chào mừng người đi làm với biểu tượng công nghệ.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các anh chị có biết mức độ ứng dụng công nghệ này tại các tổ chức kinh tế trong nước hiện ra sao không?\",\n      \"chuTrenManHinh\": \"Doanh nghiệp Việt Nam dùng AI?\",\n      \"yDoHinh\": \"Biểu tượng dấu hỏi lớn kết hợp hình ảnh các doanh nghiệp.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo báo cáo của Microsoft công bố năm hai nghìn không trăm hai mươi sáu, tỷ lệ doanh nghiệp Việt Nam ứng dụng trí tuệ nhân tạo đạt hai mươi sáu phẩy năm phần trăm.\",\n      \"chuTrenManHinh\": \"Tỷ lệ đạt hai mươi sáu phẩy năm phần trăm\",\n      \"yDoHinh\": \"Đồ thị thể hiện con số hai mươi sáu phẩy năm phần trăm từ báo cáo Microsoft.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Bên cạnh đó, một nguồn khác là báo cáo của đơn vị Ai-ti-vếch ghi nhận tỷ lệ doanh nghiệp Việt Nam ứng dụng trí tuệ nhân tạo đạt bảy mươi ba phần trăm vào năm hai nghìn không trăm hai mươi lăm.\",\n      \"chuTrenManHinh\": \"Báo cáo Ai-ti-vếch đạt bảy mươi ba phần trăm\",\n      \"yDoHinh\": \"Biểu đồ cột so sánh mốc năm hai nghìn không trăm hai mươi lăm với con số bảy mươi ba phần trăm.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Sự khác biệt này xuất phát từ cách định nghĩa mức độ ứng dụng khác nhau giữa các đơn vị khảo sát mà chúng ta cần lưu ý.\",\n      \"chuTrenManHinh\": \"Lưu ý về số liệu khảo sát\",\n      \"yDoHinh\": \"Hình ảnh ghi chú với các biểu tượng so sánh dữ liệu khác nhau.\",\n      \"nguon\": [\n        \"t01\",\n        \"t02\"\n      ]\n    }\n  ]\n}",
+          "validationError": "Câu 2: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+        },
+        {
+          "stage": "repair",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-f09b9da3-3c4a-4838-999e-7f7fb08b9b5e",
+          "durationMs": 5401,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026\",\"mucTieu\":\"Nêu được con số cụ thể từ khảo sát đáng tin\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Người đi làm\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các anh chị người đi làm đến với video khám phá tỷ lệ doanh nghiệp Việt Nam áp dụng trí tuệ nhân tạo năm hai nghìn hai mươi sáu.\",\"chuTrenManHinh\":\"Chào mừng người đi làm\",\"yDoHinh\":\"Hiển thị tiêu đề video cùng biểu tượng AI và doanh nghiệp.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Các anh chị có biết hiện nay bao nhiêu phần trăm doanh nghiệp trong nước đã triển khai trí tuệ nhân tạo không?\",\"chuTrenManHinh\":\"Câu hỏi về tỷ lệ AI\",\"yDoHinh\":\"Hình ảnh biểu tượng câu hỏi và biểu đồ sơ bộ.\",\"nguon\":[]},{\"n\":3,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Theo báo cáo Global AI Diffusion Report của Microsoft công bố năm hai nghìn hai mươi sáu, tỷ lệ doanh nghiệp Việt Nam áp dụng trí tuệ nhân tạo đạt hai mươi sáu phẩy năm phần trăm.\",\"chuTrenManHinh\":\"Tỷ lệ hai mươi sáu phẩy năm phần trăm\",\"yDoHinh\":\"Đồ thị cột hiển thị con số hai mươi sáu phẩy năm phần trăm.\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Bên cạnh đó, báo cáo Vietnam AI Adoption Status và IT Hiring Insight năm hai nghìn hai mươi lăm của ITviec cho biết tỷ lệ doanh nghiệp áp dụng AI đạt bảy mươi ba phần trăm.\",\"chuTrenManHinh\":\"Tỷ lệ bảy mươi ba phần trăm theo ITviec\",\"yDoHinh\":\"Biểu đồ so sánh năm hai nghìn hai mươi lăm với bảy mươi ba phần trăm.\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Sự chênh lệch này cho thấy cách định nghĩa mức độ áp dụng AI khác nhau giữa các cuộc khảo sát, vì vậy chúng ta cần cân nhắc khi so sánh số liệu.\",\"chuTrenManHinh\":\"Lưu ý chênh lệch dữ liệu\",\"yDoHinh\":\"Hình ảnh ghi chú so sánh hai nguồn dữ liệu.\",\"nguon\":[\"t01\",\"t02\"]}]}",
+          "validationError": "Câu 2: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+        }
+      ],
+      "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 2: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)",
+      "isDemo": false,
+      "durationMs": 14476
+    },
+    "isDemo": false,
+    "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 2: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+  }
+}

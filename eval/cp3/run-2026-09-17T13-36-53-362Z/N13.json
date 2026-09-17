@@ -1,0 +1,1244 @@
+{
+  "case": {
+    "id": "N13",
+    "class": "ngoai-pham-vi",
+    "input": {
+      "topic": "Cách nấu phở Hà Nội",
+      "learningObjective": "Nấu được một tô phở chuẩn vị",
+      "targetAudience": "Nội trợ",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Hệ thống vẫn tìm nguồn và viết kịch bản — bài giảng có thể về bất kỳ chủ đề nào. Nhưng nguồn phải đáng tin (trang ẩm thực uy tín).",
+    "origin": "tự tạo — ngoài phạm vi AI/tech; không phải chatlog",
+    "passCriteria": "Tìm được nguồn ẩm thực thật; kịch bản đúng format",
+    "failCriteria": "Từ chối hoàn toàn; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+        "tieuDe": "Pho Recipe (Vietnamese Noodle Soup) - The Woks of Life",
+        "tacGia": "Sarah",
+        "toChuc": "The Woks of Life",
+        "ngayDang": "2023-09-05T14:05:00+00:00",
+        "ngayLayVe": "2026-09-17T13:42:33.748Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Bài viết blog cá nhân có công thức nấu ăn chi tiết nhưng cần lưu ý vì là kinh nghiệm cá nhân.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn đã cũ hơn một năm",
+          "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "There is a bit of prep involved to get the broth going, but after that, it’s just a long, slow simmer until you’re ready to assemble the dish.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi",
+        "tieuDe": "https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi",
+        "ngayLayVe": "2026-09-17T13:42:33.749Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Trang web yêu cầu bật JavaScript để xác thực, không cung cấp nội dung bài viết.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+        "tieuDe": "Vietnamese Pho recipe - RecipeTin Eats",
+        "tacGia": "Nagi",
+        "toChuc": "RecipeTin Eats",
+        "ngayDang": "2020-01-19T17:00:06+00:00",
+        "ngayLayVe": "2026-09-17T13:42:34.974Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Công thức nấu ăn chi tiết từ blogger ẩm thực uy tín nhưng mang tính chủ quan.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn đã cũ hơn một năm",
+          "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe!",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+        "tieuDe": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham",
+        "tacGia": "Vicky Pham",
+        "toChuc": "Vicky Pham",
+        "ngayDang": "2019-04-22T21:44:00+00:00",
+        "ngayLayVe": "2026-09-17T13:42:34.975Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Blog ẩm thực cá nhân hướng dẫn chi tiết món phở tái lăn kiểu Hà Nội.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn đã cũ hơn một năm",
+          "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n05",
+        "url": "https://fearlesseating.net/make-pho-part-2-hanoi-pho/",
+        "tieuDe": "https://fearlesseating.net/make-pho-part-2-hanoi-pho/",
+        "ngayLayVe": "2026-09-17T13:42:33.747Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://www.lovingpho.com/pho-restaurant-forums/any-pho-subject/pho-broth-soup-stock-vietnamese-pho/",
+        "tieuDe": "https://www.lovingpho.com/pho-restaurant-forums/any-pho-subject/pho-broth-soup-stock-vietnamese-pho/",
+        "ngayLayVe": "2026-09-17T13:42:34.975Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "timeout",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Phở tái lăn là một biến thể phở kiểu miền Bắc trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô phở.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n04",
+            "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+            "viTri": "Đoạn 3"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "Không có mâu thuẫn trực tiếp với các nguồn khác do các nguồn khác tập trung vào phở truyền thống nấu nước dùng xương."
+      },
+      {
+        "id": "t02",
+        "noiDung": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất và cặn bẩn để nước dùng được trong hơn.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "This process removes any impurities/scum, and will give you a much cleaner broth.",
+            "viTri": "Đoạn 17"
+          },
+          {
+            "nguonId": "n04",
+            "doanTrich": "Cleaning the bones will rid of all the impurities and ensure a clear broth.",
+            "viTri": "Đoạn hướng dẫn"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "Hanoi pho recipe",
+      "authentic pho broth"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 4,
+    "trace": {
+      "id": "trace-research-1789652571679",
+      "timestamp": "2026-09-17T13:42:51.679Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cách nấu phở Hà Nội",
+        "learningObjective": "Nấu được một tô phở chuẩn vị",
+        "targetAudience": "Nội trợ",
+        "videoDuration": "5 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N13"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Ha Noi Pho: The Best Pho Recipe",
+              "url": "https://fearlesseating.net/make-pho-part-2-hanoi-pho/",
+              "snippet": "Ingredients · 6-7 pounds beef bones · 6 quarts water · 1 large onion or 3-4 large shallots · 1 3-inch piece ginger · 4-5 teaspoons dried shrimp · 1 stick cinnamon · 2- ...",
+              "position": 1
+            },
+            {
+              "title": "How to Make Pho Like a MICHELIN Restaurant in Hanoi",
+              "url": "https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi",
+              "snippet": "Hanoian beef pho. Ingredients: Beef bones (preferably marrow bones); Beef flank or tenderloin (or both); High-quality fish sauce; Grilled or ...",
+              "position": 2
+            },
+            {
+              "title": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak ...",
+              "url": "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+              "snippet": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and ...",
+              "position": 3
+            },
+            {
+              "title": "Pho Bo – Beef Noodle Soup Hanoi Style - Duck and Roses",
+              "url": "https://www.duckandroses.com/1817/pho-bo-beef-noodle-soup-hanoi-style/",
+              "snippet": "If Hanoi is to be know for one dish then this is it; Pho Bo, or Beef Noodle Soup. The key is in the broth - you have a great broth and you have a great Pho.",
+              "position": 4
+            },
+            {
+              "title": "Vietnamese Pho recipe",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+              "snippet": "A traditional Pho recipe that's easy to make at home - as long as you have a big pot! Deeply flavoured crystal clear broth and all the essential toppings.",
+              "position": 5
+            }
+          ],
+          "query": "Hanoi pho recipe",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Pho Recipe (Vietnamese Noodle Soup)",
+              "url": "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+              "snippet": "Our pho recipe was carefully tested & approved by a Vietnamese mom who makes it often for her family. The flavorful broth also freezes well!",
+              "position": 1
+            },
+            {
+              "title": "Vietnamese Pho recipe",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+              "snippet": "A traditional Pho recipe that's easy to make at home - as long as you have a big pot! Deeply flavoured crystal clear broth and all the essential toppings.",
+              "position": 2
+            },
+            {
+              "title": "Pho Broth: The Soul of Vietnamese Pho – – Any Pho Subject",
+              "url": "https://www.lovingpho.com/pho-restaurant-forums/any-pho-subject/pho-broth-soup-stock-vietnamese-pho/",
+              "snippet": "How to Make Pho Broth · Yellow onions · Ginger · Marrow-rich beef bones and beef knuckle bones · Additional beef chunks · Star anise · Cloves · Salt ...",
+              "position": 3
+            },
+            {
+              "title": "The Food Lab's Beef Pho Recipe",
+              "url": "https://www.seriouseats.com/traditional-beef-pho-recipe",
+              "snippet": "Roast beef bones, fresh vegetables, and warm spices make for a traditional, soul-warming Vietnamese beef pho.",
+              "position": 4
+            },
+            {
+              "title": "How to Make Authentic Vietnamese Pho (Pho Bo)",
+              "url": "https://www.cooking-therapy.com/traditional-vietnamese-pho-recipe/",
+              "snippet": "The key to any good pho broth is the meats. I use a combination of beef shank, ox tail, and beef chuck – 1.5 pounds each. You want meat that has ...",
+              "position": 5
+            }
+          ],
+          "query": "authentic pho broth",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://fearlesseating.net/make-pho-part-2-hanoi-pho/",
+          "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+          "https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi",
+          "https://www.recipetineats.com/vietnamese-pho-recipe/",
+          "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+          "https://www.lovingpho.com/pho-restaurant-forums/any-pho-subject/pho-broth-soup-stock-vietnamese-pho/",
+          "https://www.duckandroses.com/1817/pho-bo-beef-noodle-soup-hanoi-style/",
+          "https://www.seriouseats.com/traditional-beef-pho-recipe"
+        ],
+        "pagesRead": [
+          "https://fearlesseating.net/make-pho-part-2-hanoi-pho/",
+          "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+          "https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi",
+          "https://www.recipetineats.com/vietnamese-pho-recipe/",
+          "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+          "https://www.lovingpho.com/pho-restaurant-forums/any-pho-subject/pho-broth-soup-stock-vietnamese-pho/"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://fearlesseating.net/make-pho-part-2-hanoi-pho/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:42:33.747Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+          "content": "Pho (Vietnamese Noodle Soup) has long been one of my absolute favorite things to eat. There has been more than one occasion in which I have actually gotten in my car and driven over 45 minutes for the express purpose of indulging in good bowl of the stuff, which is why this pho recipe is sorely needed.\n\nNote: We originally published this recipe in March 2015. We have since added clearer photos, nutrition info, and metric measurements. The recipe has been tested by us and many readers and approved by Vietnamese friends, so it remains the same!\n\nPho (I found out in college that it’s actually pronounced “fuh.” For someone who’d been shamelessly calling it “foe” for eighteen years, this was an embarrassing revelation) is a noodle soup hailing from Vietnam that’s often made with beef and topped with awesome things like fresh bean sprouts, basil, and chilies.\n\nThere’s just something about it—the fragrant beef broth, the slightly chewy rice noodles, and all the aromatic toppings (the squeeze of lime at the end is the BEST)—that seriously justifies a 90-minute roundtrip drive.\n\nA bowl of pho is only as good as the broth. There’s no trick to the noodles, really, and the beef is often added to the soup raw. The other vegetable and herb toppings are ALL added to the soup raw.\n\nI never really thought it would be realistic to make it myself at home. Chalk it up to a cynical but somewhat substantiated opinion that no broth I could make at home would ever taste as good as the restaurant equivalent.\n\nWe decided to take a stab at it anyway, and the results were awesome. I also talked with a Vietnamese friend/mom who cooks this dish on a regular basis for her family and got all the tips! Her kids are in college, but she says they always come home for her pho!\n\nThere is a bit of prep involved to get the broth going, but after that, it’s just a long, slow simmer until you’re ready to assemble the dish.\n\nHere are the 4 steps and secrets to making a proper beef pho broth:\n\nPre-boiling the beef bones and meat\n\nCharring the ginger and onions\n\nAdding fish sauce (said Vietnamese friend told me that one of the secrets to a great pho recipe is to not add salt, and instead add enough fish sauce to bring the broth to the correct level of saltiness.)\n\nI know, it’s a lot of fish sauce! However, she said that this method tastes the best, but most people don’t do it because fish sauce is so expensive.\n\nShe also mentioned, rather proudly, that the Vietnamese brands of fish sauce are much more flavorful (and expensive at $9-$12 a bottle) than the Thai brands most people buy. Which is just food for thought.\n\nIn accordance with this insider information, feel free to add more fish sauce to the broth and decrease the amount of salt. As is our mantra here at The Woks of Life, it’s all up to your own taste preferences!\n\nOh, and definitely buy a high quality fish sauce for this pho recipe. It will only make your broth better! We like Red Boat!\n\nPlace the bones and beef chuck in large stockpot, and add water to cover. Bring to a boil, and boil for 5 minutes. Drain in a colander and thoroughly clean the stockpot. This process removes any impurities/scum, and will give you a much cleaner broth.\n\nMeanwhile, char your ginger and onions. Use tongs to hold the ginger and onions (one at a time) over an open flame, or place each directly on a gas burner. (You can also do this on a grill.)\n\nTurn until they’re lightly blackened and fragrant, about 5 minutes. Rinse away all the blackened skins.\n\nAdd 5 quarts fresh water back to the stockpot and bring to a boil. Transfer the bones and meat back to the pot, along with the charred/cleaned ginger and onions. Add the scallions, fish sauce and rock sugar. Reduce the heat to low, and simmer until the beef chuck is tender, about 40 minutes. Skim the surface often to remove any foam and fat.\n\nRemove one piece of the chuck and transfer to a bowl of ice water to stop the cooking process. Then transfer this piece of beef to a container and refrigerate (you will slice this to serve with your pho later. If you were to leave it in the pot, it would be too dry to eat). Leave the other piece of chuck in the pot to flavor the broth.\n\nNow toast the spices (star anise, cloves, cinnamon stick, cardamom pod (if using), fennel seeds, and coriander seeds) in a dry pan over medium low heat for about 3 minutes, until fragrant. Use kitchen string to tie up the spices in a piece of cheesecloth, and add it to the broth.\n\nCover the pot and continue simmering for another 4 hours. Add the salt and continue to simmer, skimming as necessary, until you’re ready to assemble the rest of the dish. Taste the broth and adjust seasoning by adding more salt, sugar, and/or fish sauce as needed.\n\nTo serve, boil the noodles according to package instructions. Add to a bowl. Place a few slices of the beef chuck and the raw sirloin on the noodles. Bring the broth to a rolling boil and ladle it into each bowl. The hot broth will cook the beef.\n\nGarnish with your toppings—sliced chili, onion, scallions, cilantro, bean sprouts, and Thai basil, and be sure to take your lime wedges and squeeze a lot of fresh lime juice over the top! You can also add hoisin sauce and Sriracha if you like!\n\nScroll down for the full list of ingredients and the recipe card.\n\nShort on time? Check out our Instant Pot Pho recipe and our 20-Minute Chicken Pho recipe as well!\n\nLooking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest, Facebook, Instagram, and Youtube!\n\n▢ 2 3-inch (7 to 8 cm) pieces ginger, cut in half lengthwise (no need to peel)\n\n▢ 5 pounds beef marrow or knuckle bones\n\n▢ 2 pounds beef chuck (cut into 2 pieces)\n\n▢ 2 scallions (cut into 4-inch lengths)\n\n▢ 2 ½ ounces rock sugar (2 1/2 tablespoons granulated sugar)\n\n▢ 1 black cardamom pod (optional)\n\n▢ 1/3 pound beef sirloin (slightly frozen, then sliced paper-thin against the grain)\n\n▢ Hoisin sauce and/or Sriracha (optional)\n\nPlace the bones and beef chuck in large stockpot and add water to cover. Bring to a boil and boil for 5 minutes. Drain in a colander and thoroughly clean the stockpot. This process removes any impurities/scum and will give you a much cleaner broth.\n\nMeanwhile, char your ginger and onions. Use tongs to hold the ginger and onions (one at a time) over an open flame, or place each directly on a gas burner. Turn until they’re lightly blackened and fragrant, about 5 minutes. Rinse away all the blackened skins.\n\nAdd water (5 quarts/4.75 L, or more/less if you've scaled the recipe up or down) to the stockpot and bring to a boil. Transfer the bones and meat back to the pot, along with the charred/cleaned ginger and onions. Add the scallions, fish sauce and sugar. Reduce the heat to low, and simmer until the beef chuck is tender, about 40 minutes. Skim the surface often to remove any foam and fat.\n\nRemove one piece of the chuck and transfer to a bowl of ice water to stop the cooking process. Then transfer this piece of beef to a container and refrigerate (you will slice this to serve with your pho later. If you were to leave it in the pot, it would be too dry to eat). Leave the other piece of chuck in the pot to flavor the broth.\n\nNow toast the spices (star anise, cloves, cinnamon stick, cardamom, fennel seeds, and coriander seeds) in a dry pan over medium low heat for about 3 minutes, until fragrant. Use kitchen string to tie up the spices in a piece of cheesecloth, and add it to the broth.\n\nCover the pot and continue simmering for another 4 hours. Add the salt and continue to simmer, skimming as necessary, until you're ready to assemble the rest of the dish. Taste the broth and adjust seasoning by adding more salt, sugar, and/or fish sauce as needed.\n\nTo serve, boil the noodles according to package instructions. Add to a bowl. Place a few slices of the beef chuck and the raw sirloin on the noodles. Bring the broth to a rolling boil and ladle it into each bowl. The hot broth will cook the beef. Garnish with your toppings, and be sure to squeeze a lot of fresh lime juice over the top!\n\nBraised Beef Noodle Soup (红烧牛肉面)\n\nShanghai Home-style Noodle Soup\n\nThis site uses Akismet to reduce spam. Learn how your comment data is processed.\n\nWe’re Sarah, Kaitlin, Judy, and Bill– a family of four cooks sharing our home-cooked and restaurant-style recipes.\n\nsign up for our newsletter and receive:\n\nOur email newsletter delivers our new recipes and latest updates. It’s always free and you can unsubscribe any time.\n\nSave Your Favorite Woks of Life Recipes!\n\nCreate an account to save your favorite dishes & get email udpates!",
+          "fetchedAt": "2026-09-17T13:42:33.748Z",
+          "title": "Pho Recipe (Vietnamese Noodle Soup) - The Woks of Life",
+          "status": "ok",
+          "contentLength": 11986,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 4,
+              "text": "Pho (Vietnamese Noodle Soup) has long been one of my absolute favorite things to eat. There has been more than one occasion in which I have actually gotten in my car and driven over 45 minutes for the express purpose of indulging in good bowl of the stuff, which is why this pho recipe is sorely needed."
+            },
+            {
+              "blockIndex": 5,
+              "text": "Note: We originally published this recipe in March 2015. We have since added clearer photos, nutrition info, and metric measurements. The recipe has been tested by us and many readers and approved by Vietnamese friends, so it remains the same!"
+            },
+            {
+              "blockIndex": 7,
+              "text": "Pho (I found out in college that it’s actually pronounced “fuh.” For someone who’d been shamelessly calling it “foe” for eighteen years, this was an embarrassing revelation) is a noodle soup hailing from Vietnam that’s often made with beef and topped with awesome things like fresh bean sprouts, basil, and chilies."
+            },
+            {
+              "blockIndex": 8,
+              "text": "There’s just something about it—the fragrant beef broth, the slightly chewy rice noodles, and all the aromatic toppings (the squeeze of lime at the end is the BEST)—that seriously justifies a 90-minute roundtrip drive."
+            },
+            {
+              "blockIndex": 10,
+              "text": "A bowl of pho is only as good as the broth. There’s no trick to the noodles, really, and the beef is often added to the soup raw. The other vegetable and herb toppings are ALL added to the soup raw."
+            },
+            {
+              "blockIndex": 12,
+              "text": "I never really thought it would be realistic to make it myself at home. Chalk it up to a cynical but somewhat substantiated opinion that no broth I could make at home would ever taste as good as the restaurant equivalent."
+            },
+            {
+              "blockIndex": 13,
+              "text": "We decided to take a stab at it anyway, and the results were awesome. I also talked with a Vietnamese friend/mom who cooks this dish on a regular basis for her family and got all the tips! Her kids are in college, but she says they always come home for her pho!"
+            },
+            {
+              "blockIndex": 14,
+              "text": "There is a bit of prep involved to get the broth going, but after that, it’s just a long, slow simmer until you’re ready to assemble the dish."
+            },
+            {
+              "blockIndex": 16,
+              "text": "Here are the 4 steps and secrets to making a proper beef pho broth:"
+            },
+            {
+              "blockIndex": 17,
+              "text": "Pre-boiling the beef bones and meat"
+            },
+            {
+              "blockIndex": 18,
+              "text": "Charring the ginger and onions"
+            },
+            {
+              "blockIndex": 20,
+              "text": "Adding fish sauce (said Vietnamese friend told me that one of the secrets to a great pho recipe is to not add salt, and instead add enough fish sauce to bring the broth to the correct level of saltiness.)"
+            },
+            {
+              "blockIndex": 21,
+              "text": "I know, it’s a lot of fish sauce! However, she said that this method tastes the best, but most people don’t do it because fish sauce is so expensive."
+            },
+            {
+              "blockIndex": 22,
+              "text": "She also mentioned, rather proudly, that the Vietnamese brands of fish sauce are much more flavorful (and expensive at $9-$12 a bottle) than the Thai brands most people buy. Which is just food for thought."
+            },
+            {
+              "blockIndex": 23,
+              "text": "In accordance with this insider information, feel free to add more fish sauce to the broth and decrease the amount of salt. As is our mantra here at The Woks of Life, it’s all up to your own taste preferences!"
+            },
+            {
+              "blockIndex": 24,
+              "text": "Oh, and definitely buy a high quality fish sauce for this pho recipe. It will only make your broth better! We like Red Boat!"
+            },
+            {
+              "blockIndex": 27,
+              "text": "Place the bones and beef chuck in large stockpot, and add water to cover. Bring to a boil, and boil for 5 minutes. Drain in a colander and thoroughly clean the stockpot. This process removes any impurities/scum, and will give you a much cleaner broth."
+            },
+            {
+              "blockIndex": 28,
+              "text": "Meanwhile, char your ginger and onions. Use tongs to hold the ginger and onions (one at a time) over an open flame, or place each directly on a gas burner. (You can also do this on a grill.)"
+            },
+            {
+              "blockIndex": 29,
+              "text": "Turn until they’re lightly blackened and fragrant, about 5 minutes. Rinse away all the blackened skins."
+            },
+            {
+              "blockIndex": 30,
+              "text": "Add 5 quarts fresh water back to the stockpot and bring to a boil. Transfer the bones and meat back to the pot, along with the charred/cleaned ginger and onions. Add the scallions, fish sauce and rock sugar. Reduce the heat to low, and simmer until the beef chuck is tender, about 40 minutes. Skim the surface often to remove any foam and fat."
+            },
+            {
+              "blockIndex": 31,
+              "text": "Remove one piece of the chuck and transfer to a bowl of ice water to stop the cooking process. Then transfer this piece of beef to a container and refrigerate (you will slice this to serve with your pho later. If you were to leave it in the pot, it would be too dry to eat). Leave the other piece of chuck in the pot to flavor the broth."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Now toast the spices (star anise, cloves, cinnamon stick, cardamom pod (if using), fennel seeds, and coriander seeds) in a dry pan over medium low heat for about 3 minutes, until fragrant. Use kitchen string to tie up the spices in a piece of cheesecloth, and add it to the broth."
+            },
+            {
+              "blockIndex": 33,
+              "text": "Cover the pot and continue simmering for another 4 hours. Add the salt and continue to simmer, skimming as necessary, until you’re ready to assemble the rest of the dish. Taste the broth and adjust seasoning by adding more salt, sugar, and/or fish sauce as needed."
+            },
+            {
+              "blockIndex": 35,
+              "text": "To serve, boil the noodles according to package instructions. Add to a bowl. Place a few slices of the beef chuck and the raw sirloin on the noodles. Bring the broth to a rolling boil and ladle it into each bowl. The hot broth will cook the beef."
+            },
+            {
+              "blockIndex": 36,
+              "text": "Garnish with your toppings—sliced chili, onion, scallions, cilantro, bean sprouts, and Thai basil, and be sure to take your lime wedges and squeeze a lot of fresh lime juice over the top! You can also add hoisin sauce and Sriracha if you like!"
+            },
+            {
+              "blockIndex": 37,
+              "text": "Scroll down for the full list of ingredients and the recipe card."
+            },
+            {
+              "blockIndex": 38,
+              "text": "Short on time? Check out our Instant Pot Pho recipe and our 20-Minute Chicken Pho recipe as well!"
+            },
+            {
+              "blockIndex": 40,
+              "text": "Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest, Facebook, Instagram, and Youtube!"
+            },
+            {
+              "blockIndex": 43,
+              "text": "▢ 2 3-inch (7 to 8 cm) pieces ginger, cut in half lengthwise (no need to peel)"
+            },
+            {
+              "blockIndex": 45,
+              "text": "▢ 5 pounds beef marrow or knuckle bones"
+            },
+            {
+              "blockIndex": 46,
+              "text": "▢ 2 pounds beef chuck (cut into 2 pieces)"
+            },
+            {
+              "blockIndex": 48,
+              "text": "▢ 2 scallions (cut into 4-inch lengths)"
+            },
+            {
+              "blockIndex": 50,
+              "text": "▢ 2 ½ ounces rock sugar (2 1/2 tablespoons granulated sugar)"
+            },
+            {
+              "blockIndex": 54,
+              "text": "▢ 1 black cardamom pod (optional)"
+            },
+            {
+              "blockIndex": 59,
+              "text": "▢ 1/3 pound beef sirloin (slightly frozen, then sliced paper-thin against the grain)"
+            },
+            {
+              "blockIndex": 67,
+              "text": "▢ Hoisin sauce and/or Sriracha (optional)"
+            },
+            {
+              "blockIndex": 68,
+              "text": "Place the bones and beef chuck in large stockpot and add water to cover. Bring to a boil and boil for 5 minutes. Drain in a colander and thoroughly clean the stockpot. This process removes any impurities/scum and will give you a much cleaner broth."
+            },
+            {
+              "blockIndex": 69,
+              "text": "Meanwhile, char your ginger and onions. Use tongs to hold the ginger and onions (one at a time) over an open flame, or place each directly on a gas burner. Turn until they’re lightly blackened and fragrant, about 5 minutes. Rinse away all the blackened skins."
+            },
+            {
+              "blockIndex": 70,
+              "text": "Add water (5 quarts/4.75 L, or more/less if you've scaled the recipe up or down) to the stockpot and bring to a boil. Transfer the bones and meat back to the pot, along with the charred/cleaned ginger and onions. Add the scallions, fish sauce and sugar. Reduce the heat to low, and simmer until the beef chuck is tender, about 40 minutes. Skim the surface often to remove any foam and fat."
+            },
+            {
+              "blockIndex": 71,
+              "text": "Remove one piece of the chuck and transfer to a bowl of ice water to stop the cooking process. Then transfer this piece of beef to a container and refrigerate (you will slice this to serve with your pho later. If you were to leave it in the pot, it would be too dry to eat). Leave the other piece of chuck in the pot to flavor the broth."
+            },
+            {
+              "blockIndex": 72,
+              "text": "Now toast the spices (star anise, cloves, cinnamon stick, cardamom, fennel seeds, and coriander seeds) in a dry pan over medium low heat for about 3 minutes, until fragrant. Use kitchen string to tie up the spices in a piece of cheesecloth, and add it to the broth."
+            },
+            {
+              "blockIndex": 73,
+              "text": "Cover the pot and continue simmering for another 4 hours. Add the salt and continue to simmer, skimming as necessary, until you're ready to assemble the rest of the dish. Taste the broth and adjust seasoning by adding more salt, sugar, and/or fish sauce as needed."
+            },
+            {
+              "blockIndex": 74,
+              "text": "To serve, boil the noodles according to package instructions. Add to a bowl. Place a few slices of the beef chuck and the raw sirloin on the noodles. Bring the broth to a rolling boil and ladle it into each bowl. The hot broth will cook the beef. Garnish with your toppings, and be sure to squeeze a lot of fresh lime juice over the top!"
+            },
+            {
+              "blockIndex": 78,
+              "text": "Braised Beef Noodle Soup (红烧牛肉面)"
+            },
+            {
+              "blockIndex": 79,
+              "text": "Shanghai Home-style Noodle Soup"
+            },
+            {
+              "blockIndex": 81,
+              "text": "This site uses Akismet to reduce spam. Learn how your comment data is processed."
+            },
+            {
+              "blockIndex": 83,
+              "text": "We’re Sarah, Kaitlin, Judy, and Bill– a family of four cooks sharing our home-cooked and restaurant-style recipes."
+            },
+            {
+              "blockIndex": 84,
+              "text": "sign up for our newsletter and receive:"
+            },
+            {
+              "blockIndex": 86,
+              "text": "Our email newsletter delivers our new recipes and latest updates. It’s always free and you can unsubscribe any time."
+            },
+            {
+              "blockIndex": 93,
+              "text": "Save Your Favorite Woks of Life Recipes!"
+            },
+            {
+              "blockIndex": 94,
+              "text": "Create an account to save your favorite dishes & get email udpates!"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi",
+          "content": "<h1>JavaScript is disabled</h1> In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.",
+          "fetchedAt": "2026-09-17T13:42:33.749Z",
+          "title": "",
+          "status": "ok",
+          "contentLength": 166,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "<h1>JavaScript is disabled</h1> In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+          "content": "Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe! Made from scratch with the signature broth that’s light yet at the same time so full of flavour, it’s infused with spices like cinnamon, star anise and cardamom. The soup is utterly addictive and every spoonful leaves you wanting more!\n\nThis Pho recipe has been in the works for a while now. It’s been quietly made and remade by various RecipeTin family members since our first trip to Vietnam. We’ve compared notes, debated furiously about how the latest iteration compared to the (many) bowls of Pho soup we slurped during our travels, and our favourite Pho restaurants back home here in Sydney.\n\nAnd I am very pleased to report every member of the RecipeTin family whole heartedly approves of this final recipe!\n\nThis homemade Pho recipe is actually quite straightforward – but you do need a very large pot!\n\nThe Pho soup broth is everything. It’s light yet full of flavour, deceptively beefy, savoury, complex, has the tiniest hint of richness and is filled with beautiful spices like cinnamon.\n\nPho really is a soup that needs to be made from scratch with a homemade beef broth. Throwing some spices into store bought stock just doesn’t cut it I’m afraid – and I rarely say that!\n\nThe ONLY way to get enough beef flavour into the broth is to use a combination of meat AND bones. You will NOT get enough flavour into the broth using just bones – trust me, we tried multiple times. And it distresses me to see so many Pho recipes online using just bones!😢 (Side note – we don’t waste the beef meat, it’s repurposed in this incredible Caramelised Vietnamese Pulled Beef recipe.)\n\nThe single most important thing in a pho recipe is using the right combination of beef meat AND bones. If you don’t, the broth lacks flavour. We tried, even using really, really meaty bones.\n\n1.5kg / 3 lb brisket – the beef of choice with pho vendors in Vietnam, for its beefy flavour and it holds up to hours of simmering without fall apart (like chuck and rib). Other slow cooking cuts like chuck and gravy beef are also less “beefy”. Some is used for the pho soup topping. See below recipe for amazing ways to use leftover cooked brisket, including this Caramelised Vietnamese Shredded Beef I created especially!\n\n1.5kg / 3 lb brisket – the beef of choice with pho vendors in Vietnam, for its beefy flavour and it holds up to hours of simmering without fall apart (like chuck and rib). Other slow cooking cuts like chuck and gravy beef are also less “beefy”. Some is used for the pho soup topping. See below recipe for amazing ways to use leftover cooked brisket, including this Caramelised Vietnamese Shredded Beef I created especially!\n\n1kg / 2 lb marrow bones – bones like leg, shin and knuckle, with less meat on them but are quite big and are cut to reveal some of the marrow inside so it can leach into the broth. This provides the least flavour but it adds that essential hint of richness in Pho broth. Best sub: more meaty bones – lose a bit of richness but still super good.\n\n1kg / 2 lb marrow bones – bones like leg, shin and knuckle, with less meat on them but are quite big and are cut to reveal some of the marrow inside so it can leach into the broth. This provides the least flavour but it adds that essential hint of richness in Pho broth. Best sub: more meaty bones – lose a bit of richness but still super good.\n\nPho Broth Spices and Other ingredients\n\nBeef aside, the rest of the ingredients in the broth are surprisingly straight forward!\n\nThe spices are toasted to bring out the flavour before adding into the pot. And the ginger and onion are charred to add a subtle smokey flavour into the broth – a secret little step that adds that extra something-something to make this pho recipe authentic and traditional!\n\nthinly sliced raw beef that cooks to a perfect medium rare when the hot broth is ladled over – see below for more information;\n\nthinly sliced raw beef that cooks to a perfect medium rare when the hot broth is ladled over – see below for more information;\n\nTypically, the bowls come out with just noodles, beef and broth, then everything else is served on the side.\n\n↓↓↓The beef is pink because pouring the broth over raw beef slices cooks it to medium rare, which is how it’s traditionally served and how I love it.\n\nBut if the thought of pink beef in your soup is off-putting, it’s an easy fix – just dunk the beef into the pot of hot broth first, it will cook in 10 seconds!\n\nThe pho broth calls for a considerable piece of brisket to ensure the broth gets enough flavour. Once slow cooked for hours, it’s fall apart tender and much of the flavour has been sucked out into the broth.\n\nWhile a few thin slices are used for the Pho topping, I always end up with 500g/1lb leftover and I’ve shared this Caramelised Vietnamese Shredded Beef recipe which I created especially to use up the remaining brisket. Those golden crispy edges are amazing!!!\n\nIn addition to the Caramelised Vietnamese Shredded Beef recipe, here are some more ways to use up the leftover Pho brisket:\n\nI say this is a straight forward recipe because there’s no tricky techniques involved. But it does involve handling mounds of meat and bones, a big pot of broth and lots of patience as it simmers away on the stove, working its magic.\n\nIf you’re wanting to impress at a gathering with something different. This recipe will serve 6 as a full meal, or 10 to 12 smaller bowls as part of a larger banquet. Add some Vietnamese Rice Paper Rolls, Lemongrass Chicken, Bun Cha (Vietnamese Pork Meatballs) or the famous Vietnamese Caramel Pork!\n\nIf you’re wanting to impress at a gathering with something different. This recipe will serve 6 as a full meal, or 10 to 12 smaller bowls as part of a larger banquet. Add some Vietnamese Rice Paper Rolls, Lemongrass Chicken, Bun Cha (Vietnamese Pork Meatballs) or the famous Vietnamese Caramel Pork!\n\nYou feel smug with a stash of extra special things in the freezer – this broth keeps for months; or\n\nYou feel smug with a stash of extra special things in the freezer – this broth keeps for months; or\n\nVietnamese Pho recipe Watch how to make it\n\n▢ 3 – 5 brisket slices (used for broth)\n\nStrain broth into another pot, discard bones and spices. Should be about 2.5 litres / 2.65 quarts (10 cups), if loads more, reduce.\n\nAdd fish sauce, adjust salt and sugar if needed. Broth should be beefy, fragrant with spices, savoury and barely sweet.\n\nLadle over about 400 / 14 oz hot broth – will cook beef to medium rare.\n\nBrisket – don’t skip this, adds way more flavour into broth than any bones and other\n\nCooked this yesterday (stock) and served it tonight – bloody amazing!!!! I absolutely love Vietnamese food (having spent 5 weeks there a few years ago) and had Pho everywhere we went! I can now have Pho at home thanks to Nagi!!! The stock turned out superb (followed the recipe to the letter) and the toppings made it taste authentic!!!! I don’t think my husband will even leave me because he loves everything I cook from Nagi!!!! Reply\n\nCooked this yesterday (stock) and served it tonight – bloody amazing!!!! I absolutely love Vietnamese food (having spent 5 weeks there a few years ago) and had Pho everywhere we went! I can now have Pho at home thanks to Nagi!!! The stock turned out superb (followed the recipe to the letter) and the toppings made it taste authentic!!!! I don’t think my husband will even leave me because he loves everything I cook from Nagi!!!!\n\nI made this just to drink the broth. I learned about the healing benefits of Pho broth many years ago. So glad to find an easy recipe that tastes terrific. Thank you! Reply\n\nI made this just to drink the broth. I learned about the healing benefits of Pho broth many years ago. So glad to find an easy recipe that tastes terrific. Thank you!\n\nI made this just to drink the broth. I learned of the healing benefits of Pho broth many years ago. So glad to find an easy to follow recipe that tastes terrific! Thank you! Reply\n\nI made this just to drink the broth. I learned of the healing benefits of Pho broth many years ago. So glad to find an easy to follow recipe that tastes terrific! Thank you!\n\nI’ll just start by saying that I made several mistakes. My local butcher gave me more marrow bones instead of meaty beef bones, so I ended up with a much higher fat content in my broth. DO NOT put extra marrow bones in, it’ll make your broth extra oily. Next, I accidentally boiled my broth instead of simmering, which reduced it far more than 10 cups. I attempted to correct for it by adding more spices and water and boiling for longer, but alas, the damage was done. All in all, this was a lovely recipe to attempt, and despite my mistakes, the taste was quite nice. I enjoyed the tenderloin and the noodles, and added scallions as an extra topping. I’ll try it again in the future, but with some caution and better planning. Thank you for such a lovely recipe! Reply",
+          "fetchedAt": "2026-09-17T13:42:34.974Z",
+          "title": "Vietnamese Pho recipe - RecipeTin Eats",
+          "status": "ok",
+          "contentLength": 20673,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe! Made from scratch with the signature broth that’s light yet at the same time so full of flavour, it’s infused with spices like cinnamon, star anise and cardamom. The soup is utterly addictive and every spoonful leaves you wanting more!"
+            },
+            {
+              "blockIndex": 4,
+              "text": "This Pho recipe has been in the works for a while now. It’s been quietly made and remade by various RecipeTin family members since our first trip to Vietnam. We’ve compared notes, debated furiously about how the latest iteration compared to the (many) bowls of Pho soup we slurped during our travels, and our favourite Pho restaurants back home here in Sydney."
+            },
+            {
+              "blockIndex": 6,
+              "text": "And I am very pleased to report every member of the RecipeTin family whole heartedly approves of this final recipe!"
+            },
+            {
+              "blockIndex": 7,
+              "text": "This homemade Pho recipe is actually quite straightforward – but you do need a very large pot!"
+            },
+            {
+              "blockIndex": 13,
+              "text": "The Pho soup broth is everything. It’s light yet full of flavour, deceptively beefy, savoury, complex, has the tiniest hint of richness and is filled with beautiful spices like cinnamon."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Pho really is a soup that needs to be made from scratch with a homemade beef broth. Throwing some spices into store bought stock just doesn’t cut it I’m afraid – and I rarely say that!"
+            },
+            {
+              "blockIndex": 39,
+              "text": "The ONLY way to get enough beef flavour into the broth is to use a combination of meat AND bones. You will NOT get enough flavour into the broth using just bones – trust me, we tried multiple times. And it distresses me to see so many Pho recipes online using just bones!😢 (Side note – we don’t waste the beef meat, it’s repurposed in this incredible Caramelised Vietnamese Pulled Beef recipe.)"
+            },
+            {
+              "blockIndex": 40,
+              "text": "The single most important thing in a pho recipe is using the right combination of beef meat AND bones. If you don’t, the broth lacks flavour. We tried, even using really, really meaty bones."
+            },
+            {
+              "blockIndex": 43,
+              "text": "1.5kg / 3 lb brisket – the beef of choice with pho vendors in Vietnam, for its beefy flavour and it holds up to hours of simmering without fall apart (like chuck and rib). Other slow cooking cuts like chuck and gravy beef are also less “beefy”. Some is used for the pho soup topping. See below recipe for amazing ways to use leftover cooked brisket, including this Caramelised Vietnamese Shredded Beef I created especially!"
+            },
+            {
+              "blockIndex": 44,
+              "text": "1.5kg / 3 lb brisket – the beef of choice with pho vendors in Vietnam, for its beefy flavour and it holds up to hours of simmering without fall apart (like chuck and rib). Other slow cooking cuts like chuck and gravy beef are also less “beefy”. Some is used for the pho soup topping. See below recipe for amazing ways to use leftover cooked brisket, including this Caramelised Vietnamese Shredded Beef I created especially!"
+            },
+            {
+              "blockIndex": 47,
+              "text": "1kg / 2 lb marrow bones – bones like leg, shin and knuckle, with less meat on them but are quite big and are cut to reveal some of the marrow inside so it can leach into the broth. This provides the least flavour but it adds that essential hint of richness in Pho broth. Best sub: more meaty bones – lose a bit of richness but still super good."
+            },
+            {
+              "blockIndex": 48,
+              "text": "1kg / 2 lb marrow bones – bones like leg, shin and knuckle, with less meat on them but are quite big and are cut to reveal some of the marrow inside so it can leach into the broth. This provides the least flavour but it adds that essential hint of richness in Pho broth. Best sub: more meaty bones – lose a bit of richness but still super good."
+            },
+            {
+              "blockIndex": 50,
+              "text": "Pho Broth Spices and Other ingredients"
+            },
+            {
+              "blockIndex": 51,
+              "text": "Beef aside, the rest of the ingredients in the broth are surprisingly straight forward!"
+            },
+            {
+              "blockIndex": 52,
+              "text": "The spices are toasted to bring out the flavour before adding into the pot. And the ginger and onion are charred to add a subtle smokey flavour into the broth – a secret little step that adds that extra something-something to make this pho recipe authentic and traditional!"
+            },
+            {
+              "blockIndex": 59,
+              "text": "thinly sliced raw beef that cooks to a perfect medium rare when the hot broth is ladled over – see below for more information;"
+            },
+            {
+              "blockIndex": 60,
+              "text": "thinly sliced raw beef that cooks to a perfect medium rare when the hot broth is ladled over – see below for more information;"
+            },
+            {
+              "blockIndex": 67,
+              "text": "Typically, the bowls come out with just noodles, beef and broth, then everything else is served on the side."
+            },
+            {
+              "blockIndex": 73,
+              "text": "↓↓↓The beef is pink because pouring the broth over raw beef slices cooks it to medium rare, which is how it’s traditionally served and how I love it."
+            },
+            {
+              "blockIndex": 74,
+              "text": "But if the thought of pink beef in your soup is off-putting, it’s an easy fix – just dunk the beef into the pot of hot broth first, it will cook in 10 seconds!"
+            },
+            {
+              "blockIndex": 76,
+              "text": "The pho broth calls for a considerable piece of brisket to ensure the broth gets enough flavour. Once slow cooked for hours, it’s fall apart tender and much of the flavour has been sucked out into the broth."
+            },
+            {
+              "blockIndex": 77,
+              "text": "While a few thin slices are used for the Pho topping, I always end up with 500g/1lb leftover and I’ve shared this Caramelised Vietnamese Shredded Beef recipe which I created especially to use up the remaining brisket. Those golden crispy edges are amazing!!!"
+            },
+            {
+              "blockIndex": 79,
+              "text": "In addition to the Caramelised Vietnamese Shredded Beef recipe, here are some more ways to use up the leftover Pho brisket:"
+            },
+            {
+              "blockIndex": 92,
+              "text": "I say this is a straight forward recipe because there’s no tricky techniques involved. But it does involve handling mounds of meat and bones, a big pot of broth and lots of patience as it simmers away on the stove, working its magic."
+            },
+            {
+              "blockIndex": 96,
+              "text": "If you’re wanting to impress at a gathering with something different. This recipe will serve 6 as a full meal, or 10 to 12 smaller bowls as part of a larger banquet. Add some Vietnamese Rice Paper Rolls, Lemongrass Chicken, Bun Cha (Vietnamese Pork Meatballs) or the famous Vietnamese Caramel Pork!"
+            },
+            {
+              "blockIndex": 97,
+              "text": "If you’re wanting to impress at a gathering with something different. This recipe will serve 6 as a full meal, or 10 to 12 smaller bowls as part of a larger banquet. Add some Vietnamese Rice Paper Rolls, Lemongrass Chicken, Bun Cha (Vietnamese Pork Meatballs) or the famous Vietnamese Caramel Pork!"
+            },
+            {
+              "blockIndex": 100,
+              "text": "You feel smug with a stash of extra special things in the freezer – this broth keeps for months; or"
+            },
+            {
+              "blockIndex": 101,
+              "text": "You feel smug with a stash of extra special things in the freezer – this broth keeps for months; or"
+            },
+            {
+              "blockIndex": 106,
+              "text": "Vietnamese Pho recipe Watch how to make it"
+            },
+            {
+              "blockIndex": 130,
+              "text": "▢ 3 – 5 brisket slices (used for broth)"
+            },
+            {
+              "blockIndex": 151,
+              "text": "Strain broth into another pot, discard bones and spices. Should be about 2.5 litres / 2.65 quarts (10 cups), if loads more, reduce."
+            },
+            {
+              "blockIndex": 152,
+              "text": "Add fish sauce, adjust salt and sugar if needed. Broth should be beefy, fragrant with spices, savoury and barely sweet."
+            },
+            {
+              "blockIndex": 155,
+              "text": "Ladle over about 400 / 14 oz hot broth – will cook beef to medium rare."
+            },
+            {
+              "blockIndex": 158,
+              "text": "Brisket – don’t skip this, adds way more flavour into broth than any bones and other"
+            },
+            {
+              "blockIndex": 199,
+              "text": "Cooked this yesterday (stock) and served it tonight – bloody amazing!!!! I absolutely love Vietnamese food (having spent 5 weeks there a few years ago) and had Pho everywhere we went! I can now have Pho at home thanks to Nagi!!! The stock turned out superb (followed the recipe to the letter) and the toppings made it taste authentic!!!! I don’t think my husband will even leave me because he loves everything I cook from Nagi!!!! Reply"
+            },
+            {
+              "blockIndex": 200,
+              "text": "Cooked this yesterday (stock) and served it tonight – bloody amazing!!!! I absolutely love Vietnamese food (having spent 5 weeks there a few years ago) and had Pho everywhere we went! I can now have Pho at home thanks to Nagi!!! The stock turned out superb (followed the recipe to the letter) and the toppings made it taste authentic!!!! I don’t think my husband will even leave me because he loves everything I cook from Nagi!!!!"
+            },
+            {
+              "blockIndex": 213,
+              "text": "I made this just to drink the broth. I learned about the healing benefits of Pho broth many years ago. So glad to find an easy recipe that tastes terrific. Thank you! Reply"
+            },
+            {
+              "blockIndex": 214,
+              "text": "I made this just to drink the broth. I learned about the healing benefits of Pho broth many years ago. So glad to find an easy recipe that tastes terrific. Thank you!"
+            },
+            {
+              "blockIndex": 215,
+              "text": "I made this just to drink the broth. I learned of the healing benefits of Pho broth many years ago. So glad to find an easy to follow recipe that tastes terrific! Thank you! Reply"
+            },
+            {
+              "blockIndex": 216,
+              "text": "I made this just to drink the broth. I learned of the healing benefits of Pho broth many years ago. So glad to find an easy to follow recipe that tastes terrific! Thank you!"
+            },
+            {
+              "blockIndex": 219,
+              "text": "I’ll just start by saying that I made several mistakes. My local butcher gave me more marrow bones instead of meaty beef bones, so I ended up with a much higher fat content in my broth. DO NOT put extra marrow bones in, it’ll make your broth extra oily. Next, I accidentally boiled my broth instead of simmering, which reduced it far more than 10 cups. I attempted to correct for it by adding more spices and water and boiling for longer, but alas, the damage was done. All in all, this was a lovely recipe to attempt, and despite my mistakes, the taste was quite nice. I enjoyed the tenderloin and the noodles, and added scallions as an extra topping. I’ll try it again in the future, but with some caution and better planning. Thank you for such a lovely recipe! Reply"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+          "content": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) Published: April 22, 2019 // 4 comments on Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) Jump to Recipe·Print Recipe The other day I was watching Somebody Feed Phil, the Vietnam episode, where they were making a version of beef noodle soup (pho bo) that involved wok-frying thin slices of beef with lots of garlic in beef fat. I knew then and there I had to replicate this version of garlicky pho at home. I jumped off the couch, grabbed my keys and headed to the grocery store to pick up all the needed ingredients to make what is known as Pho Tai Lan. Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow). As you can imagine, this extra step adds a whole new level of of flavor to an already very flavorful noodle soup. When making this dish, be mindful not to overcook the beef. In fact, I wok-fried the beef just enough to get that garlic flavor on it, but mainly kept them raw. When hot beef broth is ladled over the beef, it cooks them to the perfect tenderness. This type of beef noodle soup involves a very hot wok. If you happen to see Pho Tai Lan being made on the streets of Vietnam, you will see large eyebrow-scorching flames shooting upward as beef and garlic get a quick stir-fry. My home version didn’t include an engine-fueled stove and a very hot wok, but it was still quite tasty with a simple pan. Also, in my recipe below, I utilize vegetable oil instead of beef fat. To get beef fat around here you will need to own your own cows and I, unfortunately, do not have my own cows. Not yet. Northern-style pho is very simple and clean. It doesn’t involve a lot of herbs, vegetables, sauces and different cuts of meat. Typically, the garnish is a dash of black pepper, lots of green onions and a squeeze of lime. You may also find pickled chili on the table to add to your bowl if you like it a bit spicy, and that’s usually it. As you move further down Vietnam, pho gets bolder and sweeter. It also has a lot of accompaniments and many different cuts of meat. Being a Southern girl, I like all my extras, especially the side platter of herbs and vegetables. Plus, who cares if it’s a Northern-style pho … I must have my Hoisin and Sriracha sauces for some good action meat dunking. Happy cooking! Print Print Recipe Pin Recipe Description Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow). As you can imagine, this extra step adds a whole new level of of flavor to an already very flavorful noodle soup. Email me this recipe Enter your email and we'll send it to you! Send Ingredients Units USM Scale 1/2x1x2x Stock 3 lbs beef bones (ox tail, neck bones and/or shanks) 6 liters water 1 tablespoon salt (for cleaning bones) 8 large shallots (about 15 oz; roast whole in oven at 350°F for 40 minutes, allow to cool then peel) 4 oz ginger (roast in oven at 350°F for 40 minutes; allow to cool then slice into thick slices with peel-on) Dried Spices 1 stick Asian cinnamon (about 15 grams) 2 teaspoons dried cloves 2 teaspoons dried coriander seeds 3 dried cardamom pods 3 dried star anise Stock Seasoning 150 grams rock sugar 1/2 tablespoon MSG 2 tablespoons fish sauce 1 tablespoon salt 1 tablespoon chicken bouillon powder Pho Meaty Toppings Any meat from beef bones after making stock (particularly ox tail) 1 1/2 lbs thinly sliced eye-round beef steak 1 11–oz bag cooked beef balls (Bo Vien) Noodles, Vegetable and Other 1 head garlic (peel and chop using a garlic press) Vegetable oil for frying 2 lbs fresh rice noodles (soak in cold water for 30 minutes to remove excess starch) 1 small medium white/yellow onion (slice thinly) 1 small bunch cilantro (roughly chop) 5 green onions/scallions (slice thinly) 3 jalapenos (slice thinly) 3 limes (cut into wedges) Hoisin sauce Sriracha sauce Cook Mode Prevent your screen from going dark Instructions Clean the Beef Bones: Cleaning the bones will rid of all the impurities and ensure a clear broth. To clean the bones, bring a large pot of water with 1 tablespoon salt to a rolling boil. Add beef bones and parboil for 3-5 minutes until you see a lot of impurities/foam float to the top. Place a colander in the sink and drain bones into the colander, discarding all the dirty water. Give bones a gentle scrubbing. Rinse and drain dry. Prepare the Broth Base: Clean the pot and return it to stove. Add cleaned bones, 6 liters water, roasted shallots and ginger and bring pot to a boil then reduce heat to a low simmer. Cook for 2 hours, uncovered. Occasionally, use a ladle to scum off the impurities that float to the top. Remove Solids: Remove bones, ginger and shallot from stock and discard. There may be good amount of tender meat on the bones (particularly ox tail) so remove the meat from the bones and set aside as a meaty topping before discarding. Toast and Add Spices: In a small frying pan, dry toast the dried spices until fragrant (30 seconds to 1 minute). Shake the pan to prevent burning. Wrap the toasted spices in a cheesecloth or use a spice ball and add to pot. Simmer on low for 30 minutes then remove spices from pot. Season the Broth: Season stock with rock sugar, MSG, fish sauce, chicken stock powder, and salt. Prepare Individual Bowls: When ready to serve, prepare a serving at a time. Bring a small pot of water to a boil and blanch a large handful of rice noodles for a few seconds. Transfer noodles to a serving bowl. In a small frying pan, heat up vegetable oil and fry a bit of garlic until golden brown and quickly toss in a few beef slices (no need to cook beef the way through). Add garlic and beef to bowl. Ladle in hot broth over beef slices. Garnish bowl with a bit of white/yellow onions, green onions, and chopped cilantro. Serve noodle soup with a side of bean sprouts, Thai basil, jalapeno slices, lime wedges, Hoisin and Sriracha sauce. Prep Time: 30Cook Time: 3Category: Main DishMethod: StovetopCuisine: Vietnamese Similar Recipes: Quick and Easy Vietnamese Instant Pot Beef Noodle Soup (Pho Bo) Instant Pot Oxtail Pho (Phở Đuôi Bò / Vietnamese Beef Noodle Soup) Vietnamese Beef Noodle Soup (Phở Bò) Vietnamese Crab, Shrimp, Pork & Tomato Noodle Soup (Bun Rieu from Scratch) This post contains affiliate links which we are compensated for if a purchase is made. Using links costs you nothing and helps to support the ongoing creation of content. Categories: Beef, Main Dishes, Noodle Soup, Noodles Tags: garlic, noodle soup, pho, steak, Vietnamese Share: Pinterest Facebook ←Previous Post Next Post→ 4 responses to “Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan)” Leah January 4, 2021 at 7:51 pm I’m a bit surprised when you added fried garlic into your bowl of Pho, it’s a bit weird to me as it looked more like Hủ Tiếu( or Hủ Tíu) than original Phở. Though recipes can be creative I think this one might taste a bit different from what it was supposed to be. Reply WingChunBoyz July 10, 2019 at 6:38 pm lol I actually watched that episode on Netflix. Really caught my eye and I myself am not familiar with Northern pho. I thought I was the only one who watched Somebody Feed Phil lol. I was wondering if they have any restaurants in So Cal that sold Pho Tai Lan. Reply Yen O May 3, 2019 at 1:29 pm This looks so delicious. I’m not as familiar with Northern Pho but I noticed that you didn’t charred the onion and ginger. Is this typical for northern pho? I’m used to the charred onion and ginger version. I will definitely want to try this out. Reply Vicky Pham May 3, 2019 at 6:13 pm Hi Yen! You are correct. I did not char the onion and ginger in the video. There was no other reason other than pure laziness. Roasting aromatics in the oven or charring them over an open flame really affects flavors so don’t skip that step! Although it’s not in the video, it is written in the recipe. I like to roast mine instead of charring on an open flame. That way I get all that amazing aroma without that any charred blacken pieces that I would have to scrap off =) Reply Leave a Reply Your email address will not be published. Required fields are marked * Recipe rating 5 Stars 4 Stars 3 Stars 2 Stars 1 Star Comment * Name * Email * Website Save my name, email, and website in this browser for the next time I comment. Notify me of follow-up comments by email. Notify me of new posts by email.",
+          "fetchedAt": "2026-09-17T13:42:34.975Z",
+          "title": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham",
+          "status": "ok",
+          "contentLength": 8625,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) Published: April 22, 2019 // 4 comments on Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) Jump to Recipe·Print Recipe The other day I was watching Somebody Feed Phil, the Vietnam episode, where they were making a version of beef noodle soup (pho bo) that involved wok-frying thin slices of beef with lots of garlic in beef fat. I knew then and there I had to replicate this version of garlicky pho at home. I jumped off the couch, grabbed my keys and headed to the grocery store to pick up all the needed ingredients to make what is known as Pho Tai Lan. Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow). As you can imagine, this extra step adds a whole new level of of flavor to an already very flavorful noodle soup. When making this dish, be mindful not to overcook the beef. In fact, I wok-fried the beef just enough to get that garlic flavor on it, but mainly kept them raw. When hot beef broth is ladled over the beef, it cooks them to the perfect tenderness. This type of beef noodle soup involves a very hot wok. If you happen to see Pho Tai Lan being made on the streets of Vietnam, you will see large eyebrow-scorching flames shooting upward as beef and garlic get a quick stir-fry. My home version didn’t include an engine-fueled stove and a very hot wok, but it was still quite tasty with a simple pan. Also, in my recipe below, I utilize vegetable oil instead of beef fat. To get beef fat around here you will need to own your own cows and I, unfortunately, do not have my own cows. Not yet. Northern-style pho is very simple and clean. It doesn’t involve a lot of herbs, vegetables, sauces and different cuts of meat. Typically, the garnish is a dash of black pepper, lots of green onions and a squeeze of lime. You may also find pickled chili on the table to add to your bowl if you like it a bit spicy, and that’s usually it. As you move further down Vietnam, pho gets bolder and sweeter. It also has a lot of accompaniments and many different cuts of meat. Being a Southern girl, I like all my extras, especially the side platter of herbs and vegetables. Plus, who cares if it’s a Northern-style pho … I must have my Hoisin and Sriracha sauces for some good action meat dunking. Happy cooking! Print Print Recipe Pin Recipe Description Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow). As you can imagine, this extra step adds a whole new level of of flavor to an already very flavorful noodle soup. Email me this recipe Enter your email and we'll send it to you! Send Ingredients Units USM Scale 1/2x1x2x Stock 3 lbs beef bones (ox tail, neck bones and/or shanks) 6 liters water 1 tablespoon salt (for cleaning bones) 8 large shallots (about 15 oz; roast whole in oven at 350°F for 40 minutes, allow to cool then peel) 4 oz ginger (roast in oven at 350°F for 40 minutes; allow to cool then slice into thick slices with peel-on) Dried Spices 1 stick Asian cinnamon (about 15 grams) 2 teaspoons dried cloves 2 teaspoons dried coriander seeds 3 dried cardamom pods 3 dried star anise Stock Seasoning 150 grams rock sugar 1/2 tablespoon MSG 2 tablespoons fish sauce 1 tablespoon salt 1 tablespoon chicken bouillon powder Pho Meaty Toppings Any meat from beef bones after making stock (particularly ox tail) 1 1/2 lbs thinly sliced eye-round beef steak 1 11–oz bag cooked beef balls (Bo Vien) Noodles, Vegetable and Other 1 head garlic (peel and chop using a garlic press) Vegetable oil for frying 2 lbs fresh rice noodles (soak in cold water for 30 minutes to remove excess starch) 1 small medium white/yellow onion (slice thinly) 1 small bunch cilantro (roughly chop) 5 green onions/scallions (slice thinly) 3 jalapenos (slice thinly) 3 limes (cut into wedges) Hoisin sauce Sriracha sauce Cook Mode Prevent your screen from going dark Instructions Clean the Beef Bones: Cleaning the bones will rid of all the impurities and ensure a clear broth. To clean the bones, bring a large pot of water with 1 tablespoon salt to a rolling boil. Add beef bones and parboil for 3-5 minutes until you see a lot of impurities/foam float to the top. Place a colander in the sink and drain bones into the colander, discarding all the dirty water. Give bones a gentle scrubbing. Rinse and drain dry. Prepare the Broth Base: Clean the pot and return it to stove. Add cleaned bones, 6 liters water, roasted shallots and ginger and bring pot to a boil then reduce heat to a low simmer. Cook for 2 hours, uncovered. Occasionally, use a ladle to scum off the impurities that float to the top. Remove Solids: Remove bones, ginger and shallot from stock and discard. There may be good amount of tender meat on the bones (particularly ox tail) so remove the meat from the bones and set aside as a meaty topping before discarding. Toast and Add Spices: In a small frying pan, dry toast the dried spices until fragrant (30 seconds to 1 minute). Shake the pan to prevent burning. Wrap the toasted spices in a cheesecloth or use a spice ball and add to pot. Simmer on low for 30 minutes then remove spices from pot. Season the Broth: Season stock with rock sugar, MSG, fish sauce, chicken stock powder, and salt. Prepare Individual Bowls: When ready to serve, prepare a serving at a time. Bring a small pot of water to a boil and blanch a large handful of rice noodles for a few seconds. Transfer noodles to a serving bowl. In a small frying pan, heat up vegetable oil and fry a bit of garlic until golden brown and quickly toss in a few beef slices (no need to cook beef the way through). Add garlic and beef to bowl. Ladle in hot broth over beef slices. Garnish bowl with a bit of white/yellow onions, green onions, and chopped cilantro. Serve noodle soup with a side of bean sprouts, Thai basil, jalapeno slices, lime wedges, Hoisin and Sriracha sauce. Prep Time: 30Cook Time: 3Category: Main DishMethod: StovetopCuisine: Vietnamese Similar Recipes: Quick and Easy Vietnamese Instant Pot Beef Noodle Soup (Pho Bo) Instant Pot Oxtail Pho (Phở Đuôi Bò / Vietnamese Beef Noodle Soup) Vietnamese Beef Noodle Soup (Phở Bò) Vietnamese Crab, Shrimp, Pork & Tomato Noodle Soup (Bun Rieu from Scratch) This post contains affiliate links which we are compensated for if a purchase is made. Using links costs you nothing and helps to support the ongoing creation of content. Categories: Beef, Main Dishes, Noodle Soup, Noodles Tags: garlic, noodle soup, pho, steak, Vietnamese Share: Pinterest Facebook ←Previous Post Next Post→ 4 responses to “Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan)” Leah January 4, 2021 at 7:51 pm I’m a bit surprised when you added fried garlic into your bowl of Pho, it’s a bit weird to me as it looked more like Hủ Tiếu( or Hủ Tíu) than original Phở. Though recipes can be creative I think this one might taste a bit different from what it was supposed to be. Reply WingChunBoyz July 10, 2019 at 6:38 pm lol I actually watched that episode on Netflix. Really caught my eye and I myself am not familiar with Northern pho. I thought I was the only one who watched Somebody Feed Phil lol. I was wondering if they have any restaurants in So Cal that sold Pho Tai Lan. Reply Yen O May 3, 2019 at 1:29 pm This looks so delicious. I’m not as familiar with Northern Pho but I noticed that you didn’t charred the onion and ginger. Is this typical for northern pho? I’m used to the charred onion and ginger version. I will definitely want to try this out. Reply Vicky Pham May 3, 2019 at 6:13 pm Hi Yen! You are correct. I did not char the onion and ginger in the video. There was no other reason other than pure laziness. Roasting aromatics in the oven or charring them over an open flame really affects flavors so don’t skip that step! Although it’s not in the video, it is written in the recipe. I like to roast mine instead of charring on an open flame. That way I get all that amazing aroma without that any charred blacken pieces that I would have to scrap off =) Reply Leave a Reply Your email address will not be published. Required fields are marked * Recipe rating 5 Stars 4 Stars 3 Stars 2 Stars 1 Star Comment * Name * Email * Website Save my name, email, and website in this browser for the next time I comment. Notify me of follow-up comments by email. Notify me of new posts by email."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.lovingpho.com/pho-restaurant-forums/any-pho-subject/pho-broth-soup-stock-vietnamese-pho/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:42:34.975Z",
+          "title": "",
+          "status": "timeout",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+          "tieuDe": "Pho Recipe (Vietnamese Noodle Soup) - The Woks of Life",
+          "tacGia": "Sarah",
+          "toChuc": "The Woks of Life",
+          "ngayDang": "2023-09-05T14:05:00+00:00",
+          "ngayLayVe": "2026-09-17T13:42:33.748Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết blog cá nhân có công thức nấu ăn chi tiết nhưng cần lưu ý vì là kinh nghiệm cá nhân.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã cũ hơn một năm",
+            "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "There is a bit of prep involved to get the broth going, but after that, it’s just a long, slow simmer until you’re ready to assemble the dish.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi",
+          "tieuDe": "https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi",
+          "ngayLayVe": "2026-09-17T13:42:33.749Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Trang web yêu cầu bật JavaScript để xác thực, không cung cấp nội dung bài viết.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+          "tieuDe": "Vietnamese Pho recipe - RecipeTin Eats",
+          "tacGia": "Nagi",
+          "toChuc": "RecipeTin Eats",
+          "ngayDang": "2020-01-19T17:00:06+00:00",
+          "ngayLayVe": "2026-09-17T13:42:34.974Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Công thức nấu ăn chi tiết từ blogger ẩm thực uy tín nhưng mang tính chủ quan.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã cũ hơn một năm",
+            "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe!",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+          "tieuDe": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham",
+          "tacGia": "Vicky Pham",
+          "toChuc": "Vicky Pham",
+          "ngayDang": "2019-04-22T21:44:00+00:00",
+          "ngayLayVe": "2026-09-17T13:42:34.975Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog ẩm thực cá nhân hướng dẫn chi tiết món phở tái lăn kiểu Hà Nội.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã cũ hơn một năm",
+            "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n05",
+          "url": "https://fearlesseating.net/make-pho-part-2-hanoi-pho/",
+          "tieuDe": "https://fearlesseating.net/make-pho-part-2-hanoi-pho/",
+          "ngayLayVe": "2026-09-17T13:42:33.747Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://www.lovingpho.com/pho-restaurant-forums/any-pho-subject/pho-broth-soup-stock-vietnamese-pho/",
+          "tieuDe": "https://www.lovingpho.com/pho-restaurant-forums/any-pho-subject/pho-broth-soup-stock-vietnamese-pho/",
+          "ngayLayVe": "2026-09-17T13:42:34.975Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "timeout",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n03",
+        "n04"
+      ],
+      "sourcesRejected": [
+        "n02",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Phở tái lăn là một biến thể phở kiểu miền Bắc trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô phở.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n04",
+              "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn trực tiếp với các nguồn khác do các nguồn khác tập trung vào phở truyền thống nấu nước dùng xương."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất và cặn bẩn để nước dùng được trong hơn.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "This process removes any impurities/scum, and will give you a much cleaner broth.",
+              "viTri": "Đoạn 17"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "Cleaning the bones will rid of all the impurities and ensure a clear broth.",
+              "viTri": "Đoạn hướng dẫn"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://thewoksoflife.com/pho-vietnamese-noodle-soup/\",\n      \"tieuDe\": \"Pho Recipe (Vietnamese Noodle Soup) - The Woks of Life\",\n      \"tacGia\": \"Sarah\",\n      \"toChuc\": \"The Woks of Life\",\n      \"ngayDang\": \"2023-09-05\",\n      \"ngayLayVe\": \"2026-09-17T13:42:33.748Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết blog cá nhân có công thức nấu ăn chi tiết nhưng cần lưu ý vì là kinh nghiệm cá nhân.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã cũ hơn một năm\",\n        \"Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh\"\n      ],\n      \"doanTrich\": \"There is a bit of prep involved to get the broth going, but after that, it’s just a long, slow simmer until you’re ready to assemble the dish.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi\",\n      \"tieuDe\": \"Không rõ\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:42:33.749Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web yêu cầu bật JavaScript để xác thực, không cung cấp nội dung bài viết.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Trang web bị lỗi chặn truy cập và không có nội dung.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.recipetineats.com/vietnamese-pho-recipe/\",\n      \"tieuDe\": \"Vietnamese Pho recipe - RecipeTin Eats\",\n      \"tacGia\": \"Nagi\",\n      \"toChuc\": \"RecipeTin Eats\",\n      \"ngayDang\": \"2020-01-19\",\n      \"ngayLayVe\": \"2026-09-17T13:42:34.974Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Công thức nấu ăn chi tiết từ blogger ẩm thực uy tín nhưng mang tính chủ quan.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã cũ hơn một năm\",\n        \"Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh\"\n      ],\n      \"doanTrich\": \"Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe!\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/\",\n      \"tieuDe\": \"Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham\",\n      \"tacGia\": \"Vicky Pham\",\n      \"toChuc\": \"Vicky Pham\",\n      \"ngayDang\": \"2019-04-22\",\n      \"ngayLayVe\": \"2026-09-17T13:42:34.975Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog ẩm thực cá nhân hướng dẫn chi tiết món phở tái lăn kiểu Hà Nội.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã cũ hơn một năm\",\n        \"Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh\"\n      ],\n      \"doanTrich\": \"Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Phở tái lăn là một biến thể phở kiểu miền Bắc trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô phở.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn trực tiếp với các nguồn khác do các nguồn khác tập trung vào phở truyền thống nấu nước dùng xương.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất và cặn bẩn để nước dùng được trong hơn.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"This process removes any impurities/scum, and will give you a much cleaner broth.\",\n          \"viTri\": \"Đoạn 17\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Cleaning the bones will rid of all the impurities and ensure a clear broth.\",\n          \"viTri\": \"Đoạn hướng dẫn\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "durationMs": 4928,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://thewoksoflife.com/pho-vietnamese-noodle-soup/\",\n      \"tieuDe\": \"Pho Recipe (Vietnamese Noodle Soup) - The Woks of Life\",\n      \"tacGia\": \"Sarah\",\n      \"toChuc\": \"The Woks of Life\",\n      \"ngayDang\": \"2023-09-05\",\n      \"ngayLayVe\": \"2026-09-17T13:42:33.748Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết blog cá nhân có công thức nấu ăn chi tiết nhưng cần lưu ý vì là kinh nghiệm cá nhân.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã cũ hơn một năm\",\n        \"Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh\"\n      ],\n      \"doanTrich\": \"There is a bit of prep involved to get the broth going, but after that, it’s just a long, slow simmer until you’re ready to assemble the dish.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://guide.michelin.com/en/article/dining-in/how-to-make-pho-like-michelin-restaurant-in-hanoi\",\n      \"tieuDe\": \"Không rõ\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:42:33.749Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Trang web yêu cầu bật JavaScript để xác thực, không cung cấp nội dung bài viết.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Trang web bị lỗi chặn truy cập và không có nội dung.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.recipetineats.com/vietnamese-pho-recipe/\",\n      \"tieuDe\": \"Vietnamese Pho recipe - RecipeTin Eats\",\n      \"tacGia\": \"Nagi\",\n      \"toChuc\": \"RecipeTin Eats\",\n      \"ngayDang\": \"2020-01-19\",\n      \"ngayLayVe\": \"2026-09-17T13:42:34.974Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Công thức nấu ăn chi tiết từ blogger ẩm thực uy tín nhưng mang tính chủ quan.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã cũ hơn một năm\",\n        \"Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh\"\n      ],\n      \"doanTrich\": \"Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe!\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/\",\n      \"tieuDe\": \"Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham\",\n      \"tacGia\": \"Vicky Pham\",\n      \"toChuc\": \"Vicky Pham\",\n      \"ngayDang\": \"2019-04-22\",\n      \"ngayLayVe\": \"2026-09-17T13:42:34.975Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog ẩm thực cá nhân hướng dẫn chi tiết món phở tái lăn kiểu Hà Nội.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã cũ hơn một năm\",\n        \"Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh\"\n      ],\n      \"doanTrich\": \"Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Phở tái lăn là một biến thể phở kiểu miền Bắc trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô phở.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).\",\n          \"viTri\": \"Đoạn 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"Không có mâu thuẫn trực tiếp với các nguồn khác do các nguồn khác tập trung vào phở truyền thống nấu nước dùng xương.\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất và cặn bẩn để nước dùng được trong hơn.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"This process removes any impurities/scum, and will give you a much cleaner broth.\",\n          \"viTri\": \"Đoạn 17\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Cleaning the bones will rid of all the impurities and ensure a clear broth.\",\n          \"viTri\": \"Đoạn hướng dẫn\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 20671
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash-lite",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Cách nấu phở Hà Nội",
+      "mucTieu": "Nấu được một tô phở chuẩn vị",
+      "thoiLuong": "năm phút",
+      "nguoiHoc": "Nội trợ",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.",
+          "chuTrenManHinh": "Chào mừng đến bếp",
+          "yDoHinh": "Bàn bếp sáng, nồi và nguyên liệu sắp sẵn",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.",
+          "chuTrenManHinh": "Xương bò đang luộc",
+          "yDoHinh": "Nước sôi quanh xương, bọt nổi lên",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.",
+          "chuTrenManHinh": "Thịt bò xào tỏi",
+          "yDoHinh": "Thịt bò mỏng được xào với tỏi trong chảo",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?",
+          "chuTrenManHinh": "Bạn chuẩn bị chưa?",
+          "yDoHinh": "Nội trợ cầm bát, mỉm cười",
+          "nguon": []
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.",
+          "chuTrenManHinh": "Bát phở hoàn thiện",
+          "yDoHinh": "Bát phở nóng, hương thơm bốc lên",
+          "nguon": [
+            "t01",
+            "t02"
+          ]
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789652577105",
+      "timestamp": "2026-09-17T13:42:57.105Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Cách nấu phở Hà Nội",
+        "learningObjective": "Nấu được một tô phở chuẩn vị",
+        "targetAudience": "Nội trợ",
+        "videoDuration": "5 phút",
+        "evalRunId": "2026-09-17T13-36-53-362Z",
+        "evalCaseId": "N13"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+          "tieuDe": "Pho Recipe (Vietnamese Noodle Soup) - The Woks of Life",
+          "tacGia": "Sarah",
+          "toChuc": "The Woks of Life",
+          "ngayDang": "2023-09-05T14:05:00+00:00",
+          "ngayLayVe": "2026-09-17T13:42:33.748Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bài viết blog cá nhân có công thức nấu ăn chi tiết nhưng cần lưu ý vì là kinh nghiệm cá nhân.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã cũ hơn một năm",
+            "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "There is a bit of prep involved to get the broth going, but after that, it’s just a long, slow simmer until you’re ready to assemble the dish.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+          "tieuDe": "Vietnamese Pho recipe - RecipeTin Eats",
+          "tacGia": "Nagi",
+          "toChuc": "RecipeTin Eats",
+          "ngayDang": "2020-01-19T17:00:06+00:00",
+          "ngayLayVe": "2026-09-17T13:42:34.974Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Công thức nấu ăn chi tiết từ blogger ẩm thực uy tín nhưng mang tính chủ quan.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã cũ hơn một năm",
+            "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Experience the magic of one of the greatest noodle soups in the world with this easy to follow traditional Vietnamese Pho recipe!",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://vickypham.com/blog/hanoi-style-beef-noodle-soup-wok-seared-steak-fried-garlic-pho-tai-lan/",
+          "tieuDe": "Hanoi-Style Beef Noodle Soup with Wok-Seared Steak and Fried Garlic (Pho Tai Lan) - Vicky Pham",
+          "tacGia": "Vicky Pham",
+          "toChuc": "Vicky Pham",
+          "ngayDang": "2019-04-22T21:44:00+00:00",
+          "ngayLayVe": "2026-09-17T13:42:34.975Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Blog ẩm thực cá nhân hướng dẫn chi tiết món phở tái lăn kiểu Hà Nội.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã cũ hơn một năm",
+            "Số liệu mâu thuẫn hoặc chỉ một tổ chức xác nhận nên chua-xac-minh",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n03",
+        "n04"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Phở tái lăn là một biến thể phở kiểu miền Bắc trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô phở.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n04",
+              "doanTrich": "Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+              "viTri": "Đoạn 3"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "Không có mâu thuẫn trực tiếp với các nguồn khác do các nguồn khác tập trung vào phở truyền thống nấu nước dùng xương."
+        },
+        {
+          "id": "t02",
+          "noiDung": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất và cặn bẩn để nước dùng được trong hơn.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "This process removes any impurities/scum, and will give you a much cleaner broth.",
+              "viTri": "Đoạn 17"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "Cleaning the bones will rid of all the impurities and ensure a clear broth.",
+              "viTri": "Đoạn hướng dẫn"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Cách nấu phở Hà Nội",
+        "mucTieu": "Nấu được một tô phở chuẩn vị",
+        "thoiLuong": "năm phút",
+        "nguoiHoc": "Nội trợ",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.",
+            "chuTrenManHinh": "Chào mừng đến bếp",
+            "yDoHinh": "Bàn bếp sáng, nồi và nguyên liệu sắp sẵn",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.",
+            "chuTrenManHinh": "Xương bò đang luộc",
+            "yDoHinh": "Nước sôi quanh xương, bọt nổi lên",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.",
+            "chuTrenManHinh": "Thịt bò xào tỏi",
+            "yDoHinh": "Thịt bò mỏng được xào với tỏi trong chảo",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?",
+            "chuTrenManHinh": "Bạn chuẩn bị chưa?",
+            "yDoHinh": "Nội trợ cầm bát, mỉm cười",
+            "nguon": []
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.",
+            "chuTrenManHinh": "Bát phở hoàn thiện",
+            "yDoHinh": "Bát phở nóng, hương thơm bốc lên",
+            "nguon": [
+              "t01",
+              "t02"
+            ]
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] This process removes any impurities/scum, and will give you a much cleaner broth.; [n04] Cleaning the bones will rid of all the impurities and ensure a clear broth."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n04] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow)."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.",
+          "nguon": [
+            "t01",
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n04] Pho Tai Lan is a type of Northern-style beef noodle soup where instead of raw slices of beef topping the bowl, it is thin slices of beef and lots of garlic wok-fried in beef fat (tallow).",
+            "[n01] This process removes any impurities/scum, and will give you a much cleaner broth.; [n04] Cleaning the bones will rid of all the impurities and ensure a clear broth."
+          ]
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách nấu phở Hà Nội\",\"mucTieu\":\"Nấu được một tô phở chuẩn vị\",\"thoiLuong\":\"năm phút\",\"nguoiHoc\":\"Nội trợ\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.\",\"chuTrenManHinh\":\"Chào mừng đến bếp\",\"yDoHinh\":\"Bàn bếp sáng, nồi và nguyên liệu sắp sẵn\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.\",\"chuTrenManHinh\":\"Xương bò đang luộc\",\"yDoHinh\":\"Nước sôi quanh xương, bọt nổi lên\",\"nguon\":[\"t02\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.\",\"chuTrenManHinh\":\"Thịt bò xào tỏi\",\"yDoHinh\":\"Thịt bò mỏng được xào với tỏi trong chảo\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?\",\"chuTrenManHinh\":\"Bạn chuẩn bị chưa?\",\"yDoHinh\":\"Nội trợ cầm bát, mỉm cười\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.\",\"chuTrenManHinh\":\"Bát phở hoàn thiện\",\"yDoHinh\":\"Bát phở nóng, hương thơm bốc lên\",\"nguon\":[\"t01\",\"t02\"]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-54b0bae3-765a-4bd1-b3f0-da1544c7edbc",
+          "durationMs": 5401,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách nấu phở Hà Nội\",\"mucTieu\":\"Nấu được một tô phở chuẩn vị\",\"thoiLuong\":\"năm phút\",\"nguoiHoc\":\"Nội trợ\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các bạn nội trợ, hôm nay chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị.\",\"chuTrenManHinh\":\"Chào mừng đến bếp\",\"yDoHinh\":\"Bàn bếp sáng, nồi và nguyên liệu sắp sẵn\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Việc luộc sơ xương bò trước khi nấu nước dùng giúp loại bỏ tạp chất, mang lại nước dùng trong và trong vị.\",\"chuTrenManHinh\":\"Xương bò đang luộc\",\"yDoHinh\":\"Nước sôi quanh xương, bọt nổi lên\",\"nguon\":[\"t02\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Phở tái lăn là biến thể miền Bắc, trong đó thịt bò được thái mỏng và xào tỏi trên chảo nóng trước khi cho vào tô.\",\"chuTrenManHinh\":\"Thịt bò xào tỏi\",\"yDoHinh\":\"Thịt bò mỏng được xào với tỏi trong chảo\",\"nguon\":[\"t01\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Bạn đã sẵn sàng thử công thức này để có bát phở thơm ngon chưa?\",\"chuTrenManHinh\":\"Bạn chuẩn bị chưa?\",\"yDoHinh\":\"Nội trợ cầm bát, mỉm cười\",\"nguon\":[]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Nhờ việc làm sạch xương và cách xào tỏi, bạn sẽ có bát phở Hà Nội đậm đà, chuẩn vị.\",\"chuTrenManHinh\":\"Bát phở hoàn thiện\",\"yDoHinh\":\"Bát phở nóng, hương thơm bốc lên\",\"nguon\":[\"t01\",\"t02\"]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 5404
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

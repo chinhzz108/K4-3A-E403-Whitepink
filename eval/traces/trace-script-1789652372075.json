@@ -1,0 +1,257 @@
+{
+  "id": "trace-script-1789652372075",
+  "timestamp": "2026-09-17T13:39:32.075Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "targetAudience": "Sinh viên công nghệ thông tin",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N04"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://dev.to/derrickryangiggs/understanding-semantic-search-vector-embeddings-and-similarity-search-2ahp",
+      "tieuDe": "Understanding Semantic Search: Vector Embeddings and Similarity Search - DEV Community",
+      "toChuc": "DEV Community",
+      "ngayDang": "2026-02-02T07:06:39Z",
+      "ngayLayVe": "2026-09-17T13:38:55.203Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết kỹ thuật được đăng tải trên cộng đồng DEV Community, cung cấp đầy đủ khái niệm về tìm kiếm ngữ nghĩa, vector nhúng và các thuật toán tìm kiếm khoảng cách phù hợp với mục tiêu bài học.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+      "tieuDe": "An intuitive introduction to text embeddings - Stack Overflow",
+      "ngayDang": "2023-11-09T20:22:34.075Z",
+      "ngayLayVe": "2026-09-17T13:38:55.204Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nguồn từ trang blog chính thức của Stack Overflow, phân tích trực quan về không gian ẩn (latent space) và cách các vector nhúng biểu diễn văn bản dưới dạng hình học toán học.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã xuất bản hơn một năm tính đến thời điểm hiện tại (2023).",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+      "tieuDe": "How to choose the best embedding model for semantic search [2026] | Meilisearch",
+      "tacGia": "Maya Shin",
+      "toChuc": "Meilisearch",
+      "ngayDang": "2025-03-19T00:00:00.000Z",
+      "ngayLayVe": "2026-09-17T13:38:56.275Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài phân tích kỹ thuật của nền tảng tìm kiếm Meilisearch, giải thích rất rõ sự khác biệt giữa tìm kiếm từ khóa và tìm kiếm ngữ nghĩa thông qua các mô hình học sâu và mô hình nhúng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n04"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Tìm kiếm theo ngữ nghĩa (semantic search) vượt qua giới hạn của việc so khớp từ khóa chính xác bằng cách giải mã ý định, ngữ cảnh và các mối quan hệ giữa các từ để truy xuất thông tin dựa trên sự tương đồng về nghĩa.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.",
+          "viTri": "Đoạn 2 của nguồn n01"
+        },
+        {
+          "nguonId": "n04",
+          "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+          "viTri": "Đoạn 12 của nguồn n04"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Mô hình nhúng (Embedding models) biến đổi các từ, cụm từ hoặc tài liệu thành các biểu diễn số đậm đặc (được gọi là vector nhúng) trong một không gian ẩn đa chiều, giúp máy tính có thể so sánh và xử lý toán học.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+          "viTri": "Đoạn 4 của nguồn n02"
+        },
+        {
+          "nguonId": "n04",
+          "doanTrich": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.",
+          "viTri": "Đoạn 12 của nguồn n04"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Nguyên lý máy tính tìm được câu đồng nghĩa không trùng chữ dựa trên hình học không gian: Các câu có ngữ nghĩa tương đồng được đặt ở các vị trí gần nhau hơn trong không gian vector đa chiều, cho phép hệ thống tính khoảng cách giữa chúng để đo lường độ tương đồng ngữ nghĩa.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.",
+          "viTri": "Đoạn 4 của nguồn n02"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên công nghệ thông tin",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.",
+        "chuTrenManHinh": "Giới thiệu chủ đề",
+        "yDoHinh": "Giảng viên đứng trước bảng, nền xanh, logo trường.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.",
+        "chuTrenManHinh": "Ngữ nghĩa thay vì từ khóa",
+        "yDoHinh": "Đồ họa minh họa so sánh từ khóa và ngữ nghĩa.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.",
+        "chuTrenManHinh": "Biểu diễn vector câu",
+        "yDoHinh": "Không gian đa chiều với các điểm đại diện câu.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.",
+        "chuTrenManHinh": "Đo khoảng cách vector",
+        "yDoHinh": "Biểu đồ khoảng cách Euclid giữa các vector câu.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.",
+        "chuTrenManHinh": "Kết thúc và lời chúc",
+        "yDoHinh": "Màn hình hiển thị lời cảm ơn, biểu tượng trái tim.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Instead of looking for exact word matches, it retrieves results based on semantic similarity—finding content that means the same thing, even when different words are used.; [n04] These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.; [n04] These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.\",\"chuTrenManHinh\":\"Giới thiệu chủ đề\",\"yDoHinh\":\"Giảng viên đứng trước bảng, nền xanh, logo trường.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.\",\"chuTrenManHinh\":\"Ngữ nghĩa thay vì từ khóa\",\"yDoHinh\":\"Đồ họa minh họa so sánh từ khóa và ngữ nghĩa.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.\",\"chuTrenManHinh\":\"Biểu diễn vector câu\",\"yDoHinh\":\"Không gian đa chiều với các điểm đại diện câu.\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.\",\"chuTrenManHinh\":\"Đo khoảng cách vector\",\"yDoHinh\":\"Biểu đồ khoảng cách Euclid giữa các vector câu.\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.\",\"chuTrenManHinh\":\"Kết thúc và lời chúc\",\"yDoHinh\":\"Màn hình hiển thị lời cảm ơn, biểu tượng trái tim.\",\"nguon\":[]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-ad091904-63df-4c3b-96a3-e23fb616cd32",
+      "durationMs": 4861,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa câu mà không cần trùng từ.\",\"chuTrenManHinh\":\"Giới thiệu chủ đề\",\"yDoHinh\":\"Giảng viên đứng trước bảng, nền xanh, logo trường.\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Tìm kiếm theo ngữ nghĩa dựa trên sự tương đồng ngữ nghĩa thay vì chỉ khớp từ khóa, cho phép máy tìm nội dung có cùng ý nghĩa dù dùng từ khác nhau.\",\"chuTrenManHinh\":\"Ngữ nghĩa thay vì từ khóa\",\"yDoHinh\":\"Đồ họa minh họa so sánh từ khóa và ngữ nghĩa.\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Mô hình nhúng (embedding model), hay còn gọi là mô hình biểu diễn vector, chuyển câu thành các vector trong không gian đa chiều, các câu gần nhau về nghĩa sẽ nằm gần nhau trong không gian này.\",\"chuTrenManHinh\":\"Biểu diễn vector câu\",\"yDoHinh\":\"Không gian đa chiều với các điểm đại diện câu.\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi tính khoảng cách giữa các vector, hệ thống đo độ tương đồng ngữ nghĩa và do đó có thể gợi ý câu gần nghĩa dù không có từ chung.\",\"chuTrenManHinh\":\"Đo khoảng cách vector\",\"yDoHinh\":\"Biểu đồ khoảng cách Euclid giữa các vector câu.\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hy vọng các bạn sẽ nắm được nguyên lý này và áp dụng vào các dự án tìm kiếm thông minh của mình.\",\"chuTrenManHinh\":\"Kết thúc và lời chúc\",\"yDoHinh\":\"Màn hình hiển thị lời cảm ơn, biểu tượng trái tim.\",\"nguon\":[]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 4865
+}

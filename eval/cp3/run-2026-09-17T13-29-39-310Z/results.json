@@ -1,0 +1,22 @@
+[
+  {
+    "id": "N02",
+    "class": "thuong",
+    "automatedStatus": "needs-review",
+    "reviewStatus": "not-reviewed",
+    "finalStatus": "needs-review",
+    "status": "needs-review",
+    "reason": "Trích dẫn khớp snapshot và cấu trúc đạt; cần người đối chiếu ý nghĩa từng câu và tiêu chí riêng của case",
+    "metrics": {
+      "readablePages": 3,
+      "selectedSources": 3,
+      "factsWithEvidence": 3,
+      "scriptSentences": 5,
+      "sourcedSentences": 3,
+      "researchAiAttempts": 1,
+      "scriptAiAttempts": 2
+    },
+    "trace": "N02.json",
+    "durationMs": 50424
+  }
+]

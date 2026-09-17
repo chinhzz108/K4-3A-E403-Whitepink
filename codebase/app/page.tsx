@@ -10,6 +10,7 @@ import { ScriptScreen } from '@/components/screens/script-screen';
 import { Toaster } from '@/components/ui/sonner';
 import type { Screen, Source, ResearchBrief } from '@/lib/types';
 import type { SourceProfile, ThongTin, ScriptOutput } from '@/lib/ai';
+import { usableFacts } from '@/lib/evidence';
 import type { TraceEntry } from '@/lib/trace';
 import { toast } from 'sonner';
 
@@ -66,6 +67,8 @@ export default function Home() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [researchProgress, setResearchProgress] = useState('');
   const [isDemo, setIsDemo] = useState(false);
+  const [canGenerate, setCanGenerate] = useState(false);
+  const [generationBlockedReason, setGenerationBlockedReason] = useState('');
 
   const addTrace = (trace: TraceEntry) => {
     setTraces((prev) => [...prev, trace]);
@@ -77,6 +80,8 @@ export default function Home() {
     setSourceProfiles([]);
     setThongTin([]);
     setTraces([]);
+    setCanGenerate(false);
+    setGenerationBlockedReason('');
     setBrief(newBrief);
     setScreen('research');
     setIsResearching(true);
@@ -106,12 +111,19 @@ export default function Home() {
         setSourceProfiles(data.sources);
         setThongTin(data.thongTin || []);
         setSources(data.sources.map(profileToSource));
-        setResearchProgress(
-          `Tìm thấy ${data.pagesRead || 0} trang, ${data.pagesOk || 0} đọc được, ${data.sources.length} nguồn đã đánh giá`
-        );
-        toast.success('Nghiên cứu hoàn tất', {
-          description: `${data.sources.filter((s: SourceProfile) => s.trangThai === 'dang-dung').length} nguồn được chọn`,
-        });
+        const ready = data.canGenerate === true;
+        setCanGenerate(ready);
+        setGenerationBlockedReason(ready ? '' : (data.error || 'Chưa có thông tin có bằng chứng hợp lệ.'));
+        setResearchProgress(ready
+          ? `Tìm thấy ${data.pagesRead || 0} trang, ${data.pagesOk || 0} đọc được, ${data.sources.length} nguồn đã đánh giá`
+          : `Nguồn đã được lưu để duyệt, nhưng chưa đủ bằng chứng để tạo kịch bản: ${data.error || 'cần tìm lại nguồn'}`);
+        if (ready) {
+          toast.success('Nghiên cứu hoàn tất', {
+            description: `${data.sources.filter((s: SourceProfile) => s.trangThai === 'dang-dung').length} nguồn được chọn`,
+          });
+        } else {
+          toast.warning('Chưa thể tạo kịch bản', { description: data.error || 'Thiếu thông tin có bằng chứng.' });
+        }
       } else {
         setResearchProgress(data.error || 'Không tìm thấy nguồn phù hợp');
       }
@@ -126,6 +138,10 @@ export default function Home() {
   };
 
   const handleGenerateScript = async () => {
+    if (!canGenerate) {
+      toast.error('Chưa thể tạo kịch bản', { description: generationBlockedReason || 'Cần thông tin có bằng chứng hợp lệ.' });
+      return;
+    }
     setIsGenerating(true);
     setScreen('script');
 
@@ -165,29 +181,35 @@ export default function Home() {
     }
   };
 
+  const updateGenerationAvailability = useCallback((profiles: SourceProfile[]) => {
+    const ready = usableFacts(thongTin, profiles).length > 0;
+    setCanGenerate(ready);
+    setGenerationBlockedReason(ready ? '' : 'Nguồn còn lại không hỗ trợ thông tin nào có bằng chứng hợp lệ.');
+  }, [thongTin]);
+
   const handleApproveSource = useCallback((id: string) => {
     const profile = sourceProfiles.find(s => s.id === id);
     if (!profile || profile.scrapeStatus !== 'ok' || profile.promptInjectionDetected || !profile.doanTrich) { toast.error('Nguồn chưa có bằng chứng hợp lệ; không thể duyệt'); return; }
+    const nextProfiles = sourceProfiles.map((s) => (s.id === id ? { ...s, trangThai: 'dang-dung' as const } : s));
     setSources((prev) =>
       prev.map((s) => (s.id === id ? { ...s, approved: true, trangThai: 'dang-dung' as const } : s))
     );
-    setSourceProfiles((prev) =>
-      prev.map((s) => (s.id === id ? { ...s, trangThai: 'dang-dung' as const } : s))
-    );
-  }, [sourceProfiles]);
+    setSourceProfiles(nextProfiles);
+    updateGenerationAvailability(nextProfiles);
+  }, [sourceProfiles, updateGenerationAvailability]);
 
   const handleRemoveSource = useCallback((id: string) => {
+    const nextProfiles = sourceProfiles.map((s) =>
+      s.id === id ? { ...s, trangThai: 'bi-loai' as const, lyDoLoai: 'Người duyệt loại' } : s
+    );
     setSources((prev) =>
       prev.map((s) =>
         s.id === id ? { ...s, approved: false, trangThai: 'bi-loai' as const } : s
       )
     );
-    setSourceProfiles((prev) =>
-      prev.map((s) =>
-        s.id === id ? { ...s, trangThai: 'bi-loai' as const, lyDoLoai: 'Người duyệt loại' } : s
-      )
-    );
-  }, []);
+    setSourceProfiles(nextProfiles);
+    updateGenerationAvailability(nextProfiles);
+  }, [sourceProfiles, updateGenerationAvailability]);
 
   const handleNewResearch = () => {
     setScreen('brief');
@@ -196,6 +218,8 @@ export default function Home() {
     setThongTin([]);
     setScript(null);
     setIsDemo(false);
+    setCanGenerate(false);
+    setGenerationBlockedReason('');
   };
 
   const handleStepClick = (target: Screen) => {
@@ -277,6 +301,8 @@ export default function Home() {
             onApprove={handleApproveSource}
             onRemove={handleRemoveSource}
             onGenerate={handleGenerateScript}
+            canGenerate={canGenerate}
+            generationBlockedReason={generationBlockedReason}
             conflicts={thongTin.map(t => t.moTaMauThuan || "").filter(Boolean)}
           />
         )}

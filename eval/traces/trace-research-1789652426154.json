@@ -1,0 +1,413 @@
+{
+  "id": "trace-research-1789652426154",
+  "timestamp": "2026-09-17T13:40:26.154Z",
+  "phase": "research",
+  "input": {
+    "topic": "Retrieval-Augmented Generation (RAG)",
+    "learningObjective": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "targetAudience": "Sinh viên CNTT năm 3",
+    "videoDuration": "5 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N06"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Tìm hiểu về Retrieval Augmented Generation (RAG) - Viblo.asia",
+          "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+          "snippet": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài ( ...",
+          "position": 1
+        },
+        {
+          "title": "Retrieval-augmented generation",
+          "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "snippet": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data ...",
+          "position": 2
+        },
+        {
+          "title": "What is RAG? - Retrieval-Augmented Generation AI ...",
+          "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/",
+          "snippet": "Retrieval-Augmented Generation (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside ...",
+          "position": 3
+        },
+        {
+          "title": "What is Retrieval-Augmented Generation (RAG)?",
+          "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation",
+          "snippet": "Retrieval-augmented generation (RAG) combines LLMs with external knowledge bases to improve their outputs. Learn more with Google Cloud.",
+          "position": 4
+        },
+        {
+          "title": "What is RAG (Retrieval Augmented Generation)?",
+          "url": "https://www.ibm.com/think/topics/retrieval-augmented-generation",
+          "snippet": "Retrieval augmented generation (RAG) is an architecture for optimizing the performance of an artificial intelligence (AI) model by connecting it with ...",
+          "position": 5
+        }
+      ],
+      "query": "retrieval augmented generation",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "Mitigating Hallucination in Large Language Models (LLMs ...",
+          "url": "https://arxiv.org/abs/2510.24476",
+          "snippet": "viết bởi Y Li · 2025 · Trích dẫn 38 bài viết — We propose a taxonomy distinguishing knowledge-based and logic-based hallucinations, systematically examine how RAG and reasoning address each, ...",
+          "position": 1
+        },
+        {
+          "title": "Hallucination Mitigation for Retrieval-Augmented Large ...",
+          "url": "https://www.mdpi.com/2227-7390/13/5/856",
+          "snippet": "Although RAG has significant advantages in mitigating hallucinations, it still has the possibility of introducing hallucinations at different stages.",
+          "position": 2
+        },
+        {
+          "title": "Mitigating Hallucinations in RAG - a 2025 review",
+          "url": "https://community.openai.com/t/mitigating-hallucinations-in-rag-a-2025-review/1362063",
+          "snippet": "Its pretty easy to mitigate hallucinations, especially when it comes to rag. The trick is in understanding that the entered data, takes priority ...",
+          "position": 3
+        },
+        {
+          "title": "Detect hallucinations for RAG-based systems",
+          "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+          "snippet": "... mitigate the hallucination problem. This post walks you through how to create a basic hallucination detection system for RAG-based applications.",
+          "position": 4
+        },
+        {
+          "title": "Large Language Model Hallucination Mitigation Techniques",
+          "url": "https://cobusgreyling.medium.com/large-language-model-hallucination-mitigation-techniques-a75b6f873318",
+          "snippet": "This recently released study is a comprehensive survey of 32+ mitigation techniques to address hallucination. Cobus Greyling.",
+          "position": 5
+        }
+      ],
+      "query": "RAG hallucination mitigation",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "https://arxiv.org/abs/2510.24476",
+      "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "https://www.mdpi.com/2227-7390/13/5/856",
+      "https://aws.amazon.com/what-is/retrieval-augmented-generation/",
+      "https://community.openai.com/t/mitigating-hallucinations-in-rag-a-2025-review/1362063",
+      "https://cloud.google.com/use-cases/retrieval-augmented-generation",
+      "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/"
+    ],
+    "pagesRead": [
+      "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "https://arxiv.org/abs/2510.24476",
+      "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+    ],
+    "supplementReasons": []
+  },
+  "pagesRead": [
+    {
+      "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "content": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\n\nBây giờ chúng ta đặt câu hỏi: Sentence Embedding là cái gì? và Tại sao nó lại được lựa chọn Background: Sự khác biệt giữa Sentence Transformers so với các mô hình dạng Token-level chẳng hạn như BERT Sentence Transformers cũng có thể xem như là một biến thể của BERT, được thiết kế kiến trúc đặc biệt để tạo ra embedding cho toàn bộ câu (sentence-level), tức là sentence embedding. Điểm khác biệt chính nằm trong phương pháp đào tạo của chúng: Objective: BERT được huấn luyện để dự đoán các từ (words) được ẩn đi (masking) trong 1 câu và dự đoán câu tiếp theo. Đó chính là 2 tasks mà nếu bạn đã đọc paper về BERT có thể đã biết: Masked prediction và Next sentence prediction. Mặc khác, Sentence Transformers được đặc biệt huấn luyện để hiểu ý nghĩa của toàn bộ câu. Chúng tạo ra các embeddings trong đó các câu có ý nghĩa tương tự nhau sẽ nằm gần nhau trong 1 không gian vector. Sentence Transformers sử dụng Siamese or triplet networks. Trong một cấu trúc siamese, mô hình được huấn luyện để tối ưu hóa khoảng cách giữa các cặp câu tương tự nhau. Trong khi đó, mạng triplet bao gồm một cặp \"anchor\" và \"positive\" (các câu tương tự nhau) và một câu \"negative\" (không tương tự). Mục tiêu là tối ưu hóa khoảng cách sao cho anchor và positive gần nhau hơn so với anchor và negative. Bạn có thể tìm hiểu về Contrastive learning để hiểu hơn về nó. Level embedding: Điểm khác biệt chính cũng nằm ở level của embedding. BERT cung cấp embedding cho từng tokens (word hoặc subword) trong 1 câu, trong khi Sentence Transformers đưa ra 1 vector embedding duy nhất cho cả câu đó. Training Data và Tasks: BERT chủ yếu được huấn luyện trên tập dữ liệu lớn với tasks tập trung vào việc hiểu các từ trong ngữ cảnh, trong khi Sentence Transformers thường được huấn luyện trên tập dữ liệu bao gồm các cặp câu. Quá trình huấn luyện này tập trung vào mức độ tương đồng và sự liên quan, dạy cho model cách hiểu và so sánh ý nghĩa của cả câu. Fine-Tuning for Specific Tasks: Sentence Transformers thường được fine-tuning cho các tasks cụ thể chẳng hạn như Semantic Similarity, Paraphrase identification hay là Retrieval Information. Việc fine-tuning này tập trung hơn vào việc hiểu nắm bắt nghĩa cả câu (sentence-level). Trong khi BERT thường được fine-tuning cho nhiều tasks hơn như Question Answering, Classification, NER, ... tập trung vào mức độ từ/ cụm từ (word-level/ phrase-level). Applicability: BERT và các mô hình tương tự linh hoạt hơn cho các tasks mà thiên về nắm bắt và hiểu ở mức độ từ, chẳng hạn như Named entities recognition, Question answering), trong khi Sentence Transformers phù hợp cho các tasks mà đòi hỏi việc phải hiểu ý nghĩa ở mức độ câu, chẳng hạn như Semantic search, Sentence similarity. Efficiency in Generating Sentence Embedding or Similarity Tasks: Trong BERT, việc tạo ra 1 vector embedding cho cả câu thường sử dụng hidden states của token đầu tiên trong câu (trong BERT là\n\nÁp dụng Sentence Transformers cho RAG Có thể nói rằng, Sentence Transformers là lựa chọn số 1 cho mô hình embedding cho RAG. RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu. Việc tích hợp Sentence Transformers đặc biệt tốt trong trường hợp mà các mô hình retrieval cần truy xuất thông tin hiệu quả giữa query và documents trước khi sinh ra câu trả lời. Improved Document Retrieval: Sentence Transformers được huấn luyện để tạo ra embeddings mà nắm bắt được nghĩa của câu. Trong RAG, các embeddings này được sử dụng để so khớp một câu query (câu hỏi của user) với documents hoặc các passages trong database. Điều này rất quan trọng vì chất lượng của phản hồi được tạo ra bởi hệ thống phụ thuộc lớn với thông tin được trích xuất. Efficient Semantic Search: Các mô hình tìm kiếm thông tin dựa trên keyword có thể gặp vấn đề trong việc hiểu ngữ cảnh, hay sắc thái ngữ nghĩa của query. Sentence Transformers cung cấp embeddings nắm bắt tốt về mặt ngữ nghĩa cho phép tìm kiếm theo sắc thái ngữ nghĩa tốt hơn ngoài việc kết hợp keyword. Điều này có nghĩa là cho phép khả năng truy xuất được thông tin documents liên quan về mặt ngữ nghĩa với câu query ngay cả khi chúng không chứa các keyword chính xác nào. Contextual Understanding for Better Responses: Bằng cách sử dụng Transformers, mô hình RAG có thể hiểu rõ cả ngữ cảnh và sắc thái của cả câu query và nội dung của quan trọng của documents. Điều này dẫn tới đưa ra phản hồi chính xác hơn và phù hợp với ngữ cảnh hơn vì việc sinh ra câu trả lời có thông tin được đưa vào phù hợp hơn. Scalability in Information Retrieval: Sentence Transformers có thể xử lý hiệu quả với database chứa documents lớn bằng cách tính toán trước embeddings cho toàn bộ documents. Điều này làm cho quá trình retrieval trở nên nhanh hơn và có khả năng mở rộng hơn vì mô hình chỉ cần tính toán tính toán embedding cho câu query trong quá trình chạy và nhanh chóng tìm được các documents có embeddings gần nhất với nó. Enhancing the Generation Process: Trong hệ thống RAG, hiệu quả quá trình tìm kiếm được thông tin liên quan tác động trực tiếp tới module sinh (generation) để tạo ra được câu phản hồi. Chính vì thế khả năng có thể truy xuất được thông tin hiệu quả, nắm bắt được ngữ cảnh của retrieval sẽ cho phép mô hình ngôn ngữ tạo ra được các phản hồi không chỉ chính xác về ngữ nghĩa mà còn được cung cấp những thông tin mà nó có thể nằm ngoài những gì mô hình đã được học. Tóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction.\n\nRAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu. Việc tích hợp Sentence Transformers đặc biệt tốt trong trường hợp mà các mô hình retrieval cần truy xuất thông tin hiệu quả giữa query và documents trước khi sinh ra câu trả lời. Improved Document Retrieval: Sentence Transformers được huấn luyện để tạo ra embeddings mà nắm bắt được nghĩa của câu. Trong RAG, các embeddings này được sử dụng để so khớp một câu query (câu hỏi của user) với documents hoặc các passages trong database. Điều này rất quan trọng vì chất lượng của phản hồi được tạo ra bởi hệ thống phụ thuộc lớn với thông tin được trích xuất. Efficient Semantic Search: Các mô hình tìm kiếm thông tin dựa trên keyword có thể gặp vấn đề trong việc hiểu ngữ cảnh, hay sắc thái ngữ nghĩa của query. Sentence Transformers cung cấp embeddings nắm bắt tốt về mặt ngữ nghĩa cho phép tìm kiếm theo sắc thái ngữ nghĩa tốt hơn ngoài việc kết hợp keyword. Điều này có nghĩa là cho phép khả năng truy xuất được thông tin documents liên quan về mặt ngữ nghĩa với câu query ngay cả khi chúng không chứa các keyword chính xác nào. Contextual Understanding for Better Responses: Bằng cách sử dụng Transformers, mô hình RAG có thể hiểu rõ cả ngữ cảnh và sắc thái của cả câu query và nội dung của quan trọng của documents. Điều này dẫn tới đưa ra phản hồi chính xác hơn và phù hợp với ngữ cảnh hơn vì việc sinh ra câu trả lời có thông tin được đưa vào phù hợp hơn. Scalability in Information Retrieval: Sentence Transformers có thể xử lý hiệu quả với database chứa documents lớn bằng cách tính toán trước embeddings cho toàn bộ documents. Điều này làm cho quá trình retrieval trở nên nhanh hơn và có khả năng mở rộng hơn vì mô hình chỉ cần tính toán tính toán embedding cho câu query trong quá trình chạy và nhanh chóng tìm được các documents có embeddings gần nhất với nó. Enhancing the Generation Process: Trong hệ thống RAG, hiệu quả quá trình tìm kiếm được thông tin liên quan tác động trực tiếp tới module sinh (generation) để tạo ra được câu phản hồi. Chính vì thế khả năng có thể truy xuất được thông tin hiệu quả, nắm bắt được ngữ cảnh của retrieval sẽ cho phép mô hình ngôn ngữ tạo ra được các phản hồi không chỉ chính xác về ngữ nghĩa mà còn được cung cấp những thông tin mà nó có thể nằm ngoài những gì mô hình đã được học.\n\nTóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction.\n\nTóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction.",
+      "fetchedAt": "2026-09-17T13:40:19.918Z",
+      "title": "Tìm hiểu về Retrieval Augmented Generation (RAG)",
+      "status": "ok",
+      "contentLength": 49126,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 2,
+          "text": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)"
+        },
+        {
+          "blockIndex": 118,
+          "text": "Bây giờ chúng ta đặt câu hỏi: Sentence Embedding là cái gì? và Tại sao nó lại được lựa chọn Background: Sự khác biệt giữa Sentence Transformers so với các mô hình dạng Token-level chẳng hạn như BERT Sentence Transformers cũng có thể xem như là một biến thể của BERT, được thiết kế kiến trúc đặc biệt để tạo ra embedding cho toàn bộ câu (sentence-level), tức là sentence embedding. Điểm khác biệt chính nằm trong phương pháp đào tạo của chúng: Objective: BERT được huấn luyện để dự đoán các từ (words) được ẩn đi (masking) trong 1 câu và dự đoán câu tiếp theo. Đó chính là 2 tasks mà nếu bạn đã đọc paper về BERT có thể đã biết: Masked prediction và Next sentence prediction. Mặc khác, Sentence Transformers được đặc biệt huấn luyện để hiểu ý nghĩa của toàn bộ câu. Chúng tạo ra các embeddings trong đó các câu có ý nghĩa tương tự nhau sẽ nằm gần nhau trong 1 không gian vector. Sentence Transformers sử dụng Siamese or triplet networks. Trong một cấu trúc siamese, mô hình được huấn luyện để tối ưu hóa khoảng cách giữa các cặp câu tương tự nhau. Trong khi đó, mạng triplet bao gồm một cặp \"anchor\" và \"positive\" (các câu tương tự nhau) và một câu \"negative\" (không tương tự). Mục tiêu là tối ưu hóa khoảng cách sao cho anchor và positive gần nhau hơn so với anchor và negative. Bạn có thể tìm hiểu về Contrastive learning để hiểu hơn về nó. Level embedding: Điểm khác biệt chính cũng nằm ở level của embedding. BERT cung cấp embedding cho từng tokens (word hoặc subword) trong 1 câu, trong khi Sentence Transformers đưa ra 1 vector embedding duy nhất cho cả câu đó. Training Data và Tasks: BERT chủ yếu được huấn luyện trên tập dữ liệu lớn với tasks tập trung vào việc hiểu các từ trong ngữ cảnh, trong khi Sentence Transformers thường được huấn luyện trên tập dữ liệu bao gồm các cặp câu. Quá trình huấn luyện này tập trung vào mức độ tương đồng và sự liên quan, dạy cho model cách hiểu và so sánh ý nghĩa của cả câu. Fine-Tuning for Specific Tasks: Sentence Transformers thường được fine-tuning cho các tasks cụ thể chẳng hạn như Semantic Similarity, Paraphrase identification hay là Retrieval Information. Việc fine-tuning này tập trung hơn vào việc hiểu nắm bắt nghĩa cả câu (sentence-level). Trong khi BERT thường được fine-tuning cho nhiều tasks hơn như Question Answering, Classification, NER, ... tập trung vào mức độ từ/ cụm từ (word-level/ phrase-level). Applicability: BERT và các mô hình tương tự linh hoạt hơn cho các tasks mà thiên về nắm bắt và hiểu ở mức độ từ, chẳng hạn như Named entities recognition, Question answering), trong khi Sentence Transformers phù hợp cho các tasks mà đòi hỏi việc phải hiểu ý nghĩa ở mức độ câu, chẳng hạn như Semantic search, Sentence similarity. Efficiency in Generating Sentence Embedding or Similarity Tasks: Trong BERT, việc tạo ra 1 vector embedding cho cả câu thường sử dụng hidden states của token đầu tiên trong câu (trong BERT là"
+        },
+        {
+          "blockIndex": 144,
+          "text": "Áp dụng Sentence Transformers cho RAG Có thể nói rằng, Sentence Transformers là lựa chọn số 1 cho mô hình embedding cho RAG. RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu. Việc tích hợp Sentence Transformers đặc biệt tốt trong trường hợp mà các mô hình retrieval cần truy xuất thông tin hiệu quả giữa query và documents trước khi sinh ra câu trả lời. Improved Document Retrieval: Sentence Transformers được huấn luyện để tạo ra embeddings mà nắm bắt được nghĩa của câu. Trong RAG, các embeddings này được sử dụng để so khớp một câu query (câu hỏi của user) với documents hoặc các passages trong database. Điều này rất quan trọng vì chất lượng của phản hồi được tạo ra bởi hệ thống phụ thuộc lớn với thông tin được trích xuất. Efficient Semantic Search: Các mô hình tìm kiếm thông tin dựa trên keyword có thể gặp vấn đề trong việc hiểu ngữ cảnh, hay sắc thái ngữ nghĩa của query. Sentence Transformers cung cấp embeddings nắm bắt tốt về mặt ngữ nghĩa cho phép tìm kiếm theo sắc thái ngữ nghĩa tốt hơn ngoài việc kết hợp keyword. Điều này có nghĩa là cho phép khả năng truy xuất được thông tin documents liên quan về mặt ngữ nghĩa với câu query ngay cả khi chúng không chứa các keyword chính xác nào. Contextual Understanding for Better Responses: Bằng cách sử dụng Transformers, mô hình RAG có thể hiểu rõ cả ngữ cảnh và sắc thái của cả câu query và nội dung của quan trọng của documents. Điều này dẫn tới đưa ra phản hồi chính xác hơn và phù hợp với ngữ cảnh hơn vì việc sinh ra câu trả lời có thông tin được đưa vào phù hợp hơn. Scalability in Information Retrieval: Sentence Transformers có thể xử lý hiệu quả với database chứa documents lớn bằng cách tính toán trước embeddings cho toàn bộ documents. Điều này làm cho quá trình retrieval trở nên nhanh hơn và có khả năng mở rộng hơn vì mô hình chỉ cần tính toán tính toán embedding cho câu query trong quá trình chạy và nhanh chóng tìm được các documents có embeddings gần nhất với nó. Enhancing the Generation Process: Trong hệ thống RAG, hiệu quả quá trình tìm kiếm được thông tin liên quan tác động trực tiếp tới module sinh (generation) để tạo ra được câu phản hồi. Chính vì thế khả năng có thể truy xuất được thông tin hiệu quả, nắm bắt được ngữ cảnh của retrieval sẽ cho phép mô hình ngôn ngữ tạo ra được các phản hồi không chỉ chính xác về ngữ nghĩa mà còn được cung cấp những thông tin mà nó có thể nằm ngoài những gì mô hình đã được học. Tóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction."
+        },
+        {
+          "blockIndex": 147,
+          "text": "RAG tận dụng Sentence Transformers để có khả năng hiểu và so sánh nội dụng ngữ nghĩa của câu. Việc tích hợp Sentence Transformers đặc biệt tốt trong trường hợp mà các mô hình retrieval cần truy xuất thông tin hiệu quả giữa query và documents trước khi sinh ra câu trả lời. Improved Document Retrieval: Sentence Transformers được huấn luyện để tạo ra embeddings mà nắm bắt được nghĩa của câu. Trong RAG, các embeddings này được sử dụng để so khớp một câu query (câu hỏi của user) với documents hoặc các passages trong database. Điều này rất quan trọng vì chất lượng của phản hồi được tạo ra bởi hệ thống phụ thuộc lớn với thông tin được trích xuất. Efficient Semantic Search: Các mô hình tìm kiếm thông tin dựa trên keyword có thể gặp vấn đề trong việc hiểu ngữ cảnh, hay sắc thái ngữ nghĩa của query. Sentence Transformers cung cấp embeddings nắm bắt tốt về mặt ngữ nghĩa cho phép tìm kiếm theo sắc thái ngữ nghĩa tốt hơn ngoài việc kết hợp keyword. Điều này có nghĩa là cho phép khả năng truy xuất được thông tin documents liên quan về mặt ngữ nghĩa với câu query ngay cả khi chúng không chứa các keyword chính xác nào. Contextual Understanding for Better Responses: Bằng cách sử dụng Transformers, mô hình RAG có thể hiểu rõ cả ngữ cảnh và sắc thái của cả câu query và nội dung của quan trọng của documents. Điều này dẫn tới đưa ra phản hồi chính xác hơn và phù hợp với ngữ cảnh hơn vì việc sinh ra câu trả lời có thông tin được đưa vào phù hợp hơn. Scalability in Information Retrieval: Sentence Transformers có thể xử lý hiệu quả với database chứa documents lớn bằng cách tính toán trước embeddings cho toàn bộ documents. Điều này làm cho quá trình retrieval trở nên nhanh hơn và có khả năng mở rộng hơn vì mô hình chỉ cần tính toán tính toán embedding cho câu query trong quá trình chạy và nhanh chóng tìm được các documents có embeddings gần nhất với nó. Enhancing the Generation Process: Trong hệ thống RAG, hiệu quả quá trình tìm kiếm được thông tin liên quan tác động trực tiếp tới module sinh (generation) để tạo ra được câu phản hồi. Chính vì thế khả năng có thể truy xuất được thông tin hiệu quả, nắm bắt được ngữ cảnh của retrieval sẽ cho phép mô hình ngôn ngữ tạo ra được các phản hồi không chỉ chính xác về ngữ nghĩa mà còn được cung cấp những thông tin mà nó có thể nằm ngoài những gì mô hình đã được học."
+        },
+        {
+          "blockIndex": 153,
+          "text": "Tóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction."
+        },
+        {
+          "blockIndex": 154,
+          "text": "Tóm lại, Sentence Transformers nâng cao khả năng retrieval của mô hình RAG với LLM bằng cách cho phép tìm kiếm và truy xuất thông tin theo ngữ nghĩa hiệu quả hơn. Điều này giúp cho cải thiện hiệu suất trong các tasks mà yêu cầu đòi hỏi phải hiểu và sinh ra câu phản hồi dựa trên khối lượng dữ liệu tri thức văn bản lớn, chẳng hạn như Question Answering, Chatbots, Information Extraction."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.24476",
+      "content": "Computer Science > Computation and Language arXiv:2510.24476 (cs) [Submitted on 28 Oct 2025] Title:Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems Authors:Yihan Li, Xiyuan Fu, Ghanshyam Verma, Paul Buitelaar, Mingming Liu View PDF HTML (experimental) Abstract:Hallucination remains one of the key obstacles to the reliable deployment of large language models (LLMs), particularly in real-world applications. Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches, marking a shift from merely suppressing hallucinations to balancing creativity and reliability. However, their synergistic potential and underlying mechanisms for hallucination mitigation have not yet been systematically examined. This survey adopts an application-oriented perspective of capability enhancement to analyze how RAG, reasoning enhancement, and their integration in Agentic Systems mitigate hallucinations. We propose a taxonomy distinguishing knowledge-based and logic-based hallucinations, systematically examine how RAG and reasoning address each, and present a unified framework supported by real-world applications, evaluations, and benchmarks. Comments: 25 pages, 7 figures, 3 tables Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI) Cite as: arXiv:2510.24476 [cs.CL] (or arXiv:2510.24476v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2510.24476 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Yihan Li [view email] [v1] Tue, 28 Oct 2025 14:48:57 UTC (9,061 KB) Full-text links: Access Paper: View PDFHTML (experimental)TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2025-10 Change to browse by: cs cs.AI References & Citations NASA ADSGoogle Scholar Semantic Scholar export BibTeX citation Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer (What is the Explorer?) Connected Papers Toggle Connected Papers (What is Connected Papers?) Litmaps Toggle Litmaps (What is Litmaps?) scite.ai Toggle scite Smart Citations (What are Smart Citations?) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv (What is alphaXiv?) Links to Code Toggle CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub Toggle DagsHub (What is DagsHub?) GotitPub Toggle Gotit.pub (What is GotitPub?) Huggingface Toggle Hugging Face (What is Huggingface?) ScienceCast Toggle ScienceCast (What is ScienceCast?) Demos Demos Replicate Toggle Replicate (What is Replicate?) Spaces Toggle Hugging Face Spaces (What is Spaces?) Spaces Toggle TXYZ.AI (What is TXYZ.AI?) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower (What are Influence Flowers?) Core recommender toggle CORE Recommender (What is CORE?) About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs. Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)",
+      "fetchedAt": "2026-09-17T13:40:19.919Z",
+      "title": "[2510.24476] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems",
+      "status": "ok",
+      "contentLength": 3617,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Computer Science > Computation and Language arXiv:2510.24476 (cs) [Submitted on 28 Oct 2025] Title:Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems Authors:Yihan Li, Xiyuan Fu, Ghanshyam Verma, Paul Buitelaar, Mingming Liu View PDF HTML (experimental) Abstract:Hallucination remains one of the key obstacles to the reliable deployment of large language models (LLMs), particularly in real-world applications. Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches, marking a shift from merely suppressing hallucinations to balancing creativity and reliability. However, their synergistic potential and underlying mechanisms for hallucination mitigation have not yet been systematically examined. This survey adopts an application-oriented perspective of capability enhancement to analyze how RAG, reasoning enhancement, and their integration in Agentic Systems mitigate hallucinations. We propose a taxonomy distinguishing knowledge-based and logic-based hallucinations, systematically examine how RAG and reasoning address each, and present a unified framework supported by real-world applications, evaluations, and benchmarks. Comments: 25 pages, 7 figures, 3 tables Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI) Cite as: arXiv:2510.24476 [cs.CL] (or arXiv:2510.24476v1 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2510.24476 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Yihan Li [view email] [v1] Tue, 28 Oct 2025 14:48:57 UTC (9,061 KB) Full-text links: Access Paper: View PDFHTML (experimental)TeX Source view license Current browse context: cs.CL < prev | next > new | recent | 2025-10 Change to browse by: cs cs.AI References & Citations NASA ADSGoogle Scholar Semantic Scholar export BibTeX citation Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer (What is the Explorer?) Connected Papers Toggle Connected Papers (What is Connected Papers?) Litmaps Toggle Litmaps (What is Litmaps?) scite.ai Toggle scite Smart Citations (What are Smart Citations?) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv (What is alphaXiv?) Links to Code Toggle CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub Toggle DagsHub (What is DagsHub?) GotitPub Toggle Gotit.pub (What is GotitPub?) Huggingface Toggle Hugging Face (What is Huggingface?) ScienceCast Toggle ScienceCast (What is ScienceCast?) Demos Demos Replicate Toggle Replicate (What is Replicate?) Spaces Toggle Hugging Face Spaces (What is Spaces?) Spaces Toggle TXYZ.AI (What is TXYZ.AI?) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower (What are Influence Flowers?) Core recommender toggle CORE Recommender (What is CORE?) About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs. Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "content": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources. With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data. This allows LLMs to use domain-specific and/or updated information that is not available in the training data. For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems.\n\nRAG improves LLMs by incorporating information retrieval before generating responses. Unlike LLMs that rely on static training data, RAG pulls relevant text from databases, uploaded documents, or web sources. According to Ars Technica, \"RAG is a way of improving LLM performance, in essence by blending the LLM process with a web search or other document look-up process to help LLMs stick to the facts.\" This method helps reduce AI hallucinations, which have caused chatbots to describe policies that don't exist, or recommend nonexistent legal cases to lawyers that are looking for citations to support their arguments.\n\nRAG also reduces the need to retrain LLMs with new data, saving on computational and financial costs. Beyond efficiency gains, RAG also allows LLMs to include sources in their responses, so users can verify the cited sources. This provides greater transparency, as users can cross-check retrieved content to ensure accuracy and relevance.\n\nThe term retrieval-augmented generation (RAG) was introduced in a 2020 paper that described combining a parametric language model with a non-parametric external memory accessed through retrieval at inference time.\n\nLLMs can provide incorrect information. For example, when Google first demonstrated its LLM tool \"Google Bard\" (later re-branded to Gemini), the LLM provided incorrect information about the\n\nRetrieval-augmented generation (RAG) enhances large language models (LLMs) by incorporating an information-retrieval mechanism that allows models to access and utilize additional data beyond their original training set. Ars Technica notes that \"when new information becomes available, rather than having to retrain the model, all that's needed is to augment the model's external knowledge base with the updated information (\"augmentation\"). IBM states that \"in the generative phase, the LLM draws from the augmented prompt and its internal representation of its training data to synthesize\" an answer.\n\nTypically, the data to be referenced is converted into LLM embeddings, numerical representations in the form of a large vector space. RAG can be used on unstructured (usually text), semi-structured, or structured data (for example knowledge graphs). These embeddings are then stored in a vector database to allow for document retrieval.\n\nThe model feeds this relevant retrieved information into the LLM via prompt engineering of the user's original query. Newer implementations (as of 2023) can also incorporate specific augmentation modules with abilities such as expanding queries into multiple domains and using memory and self-improvement to learn from previous retrievals.[citation needed]\n\nRetrieval-augmented generation is used in applications where generated responses need to be grounded in external or frequently updated information.[citation needed]\n\nPerformance improves by optimizing how vector similarities are calculated. Dot products enhance similarity scoring, while approximate nearest neighbor (ANN) searches improve retrieval efficiency over K-nearest neighbors (KNN) searches.\n\nAccuracy may be improved with Late Interactions, which allow the system to compare words more precisely after retrieval. This helps refine document ranking and improve search relevance.\n\nOther retrieval techniques focus on improving accuracy by refining how documents are selected. Some retrieval methods combine sparse representations, such as SPLADE, with query expansion strategies to improve search accuracy and recall.\n\nThese methods aim to enhance the quality of document retrieval in vector databases:\n\nPre-training the retriever using the Inverse Cloze Task (ICT), a technique that helps the model learn retrieval patterns by predicting masked text within documents.\n\nSupervised retriever optimization aligns retrieval probabilities with the generator model's likelihood distribution. This involves retrieving the top-k vectors for a given prompt, scoring the generated response's perplexity, and minimizing KL divergence between the retriever's selections and the model's likelihoods to refine retrieval.\n\nSometimes vector database searches (aka semantic search technique) can miss key facts needed to answer a user's question. One way to mitigate this is to do a traditional text search (aka full text search), combine those results to the text chunks linked to the retrieved vectors from the vector search, and feed the combined hybrid text (using effective scoring or reranking scoring) into the language model for generation.\n\nRAG does not prevent hallucinations in LLMs. According to Ars Technica, \"It is not a direct solution because the LLM can still hallucinate around the source material in its response.\"\n\n1 2 3 4 5 6 \"What is retrieval-augmented generation?\". IBM. 22 August 2023. Retrieved 7 March 2025.\n\n↑ Zhao, Penghao; Zhang, Hailin; Yu, Qinhan; Wang, Zhengren; Geng, Yunteng; Fu, Fangcheng; Yang, Ling; Zhang, Wentao; Jiang, Jie; Cui, Bin (March 2026). \"Retrieval-Augmented Generation for AI-Generated Content: A Survey\". Data Science and Engineering. 11 (1): 1–29. doi:10.1007/s41019-025-00335-5.\n\n1 2 3 4 5 Lewis, Patrick; Perez, Ethan; Piktus, Aleksandra; Petroni, Fabio; Karpukhin, Vladimir; Goyal, Naman; Küttler, Heinrich; Lewis, Mike; Yih, Wen-tau; Rocktäschel, Tim; Riedel, Sebastian; Kiela, Douwe (2020). \"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\". Advances in Neural Information Processing Systems. 33. Curran Associates, Inc.: 9459–9474. arXiv:2005.11401.\n\n↑ \"Mitigating LLM hallucinations in text summarisation\". BBC. 20 June 2024. Retrieved 7 March 2025.\n\n↑ Amugongo, Lameck Mbangula; Mascheroni, Pietro; Brooks, Steven; Doering, Stefan; Seidel, Jan (2025-06-11). \"Retrieval augmented generation for large language models in healthcare: A systematic review\". PLOS Digital Health. 4 (6) e0000877. doi:10.1371/journal.pdig.0000877. PMC 12157099.\n\n1 2 Luan, Yi; Eisenstein, Jacob; Toutanova, Kristina; Collins, Michael (26 April 2021). \"Sparse, Dense, and Attentional Representations for Text Retrieval\". Transactions of the Association for Computational Linguistics. 9: 329–345. arXiv:2005.00181. doi:10.1162/tacl_a_00369. Retrieved 15 March 2025.\n\n↑ \"Information retrieval\". Microsoft. 10 January 2025. Retrieved 15 March 2025.\n\n↑ Khattab, Omar; Zaharia, Matei (2020). \"ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT\". Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval. pp. 39–48. doi:10.1145/3397271.3401075. ISBN 978-1-4503-8016-4.\n\n↑ Wang, Yup; Conroy, John M.; Molino, Neil; Yang, Julia; Green, Mike (2024). \"Laboratory for Analytic Sciences in TREC 2024 Retrieval Augmented Generation Track\". NIST TREC 2024. Retrieved 15 March 2025.\n\n↑ Lee, Kenton; Chang, Ming-Wei; Toutanova, Kristina (2019). \"\"Latent Retrieval for Weakly Supervised Open Domain Question Answering\"\" (PDF).\n\n↑ Shi, Weijia; Min, Sewon; Yasunaga, Michihiro; Seo, Minjoon; James, Rich; Lewis, Mike; Zettlemoyer, Luke; Yih, Wen-tau (June 2024). \"REPLUG: Retrieval-Augmented Black-Box Language Models\". Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). pp. 8371–8384. arXiv:2301.12652. doi:10.18653/v1/2024.naacl-long.463. Retrieved 16 March 2025.\n\n↑ Ram, Ori; Levine, Yoav; Dalmedigos, Itay; Muhlgay, Dor; Shashua, Amnon; Leyton-Brown, Kevin; Shoham, Yoav (2023). \"In-Context Retrieval-Augmented Language Models\". Transactions of the Association for Computational Linguistics. 11: 1316–1331. arXiv:2302.00083. doi:10.1162/tacl_a_00605. Retrieved 16 March 2025.\n\n↑ Wang, Boxin; Ping, Wei; Xu, Peng; McAfee, Lawrence; Liu, Zihan; Shoeybi, Mohammad; Dong, Yi; Kuchaiev, Oleksii; Li, Bo; Xiao, Chaowei; Anandkumar, Anima; Catanzaro, Bryan (2023). \"Shall We Pretrain Autoregressive Language Models with Retrieval? A Comprehensive Study\". Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. pp. 7763–7786. doi:10.18653/v1/2023.emnlp-main.482.\n\n↑ Bruch, Sebastian; Gai, Siyu; Ingber, Amir (2023). \"An Analysis of Fusion Functions for Hybrid Retrieval\". ACM Transactions on Information Systems. 42 (1): 1–35. arXiv:2210.11934. doi:10.1145/3596512.",
+      "fetchedAt": "2026-09-17T13:40:19.920Z",
+      "title": "Retrieval-augmented generation - Wikipedia",
+      "status": "ok",
+      "contentLength": 16340,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources. With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data. This allows LLMs to use domain-specific and/or updated information that is not available in the training data. For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems."
+        },
+        {
+          "blockIndex": 1,
+          "text": "RAG improves LLMs by incorporating information retrieval before generating responses. Unlike LLMs that rely on static training data, RAG pulls relevant text from databases, uploaded documents, or web sources. According to Ars Technica, \"RAG is a way of improving LLM performance, in essence by blending the LLM process with a web search or other document look-up process to help LLMs stick to the facts.\" This method helps reduce AI hallucinations, which have caused chatbots to describe policies that don't exist, or recommend nonexistent legal cases to lawyers that are looking for citations to support their arguments."
+        },
+        {
+          "blockIndex": 2,
+          "text": "RAG also reduces the need to retrain LLMs with new data, saving on computational and financial costs. Beyond efficiency gains, RAG also allows LLMs to include sources in their responses, so users can verify the cited sources. This provides greater transparency, as users can cross-check retrieved content to ensure accuracy and relevance."
+        },
+        {
+          "blockIndex": 3,
+          "text": "The term retrieval-augmented generation (RAG) was introduced in a 2020 paper that described combining a parametric language model with a non-parametric external memory accessed through retrieval at inference time."
+        },
+        {
+          "blockIndex": 5,
+          "text": "LLMs can provide incorrect information. For example, when Google first demonstrated its LLM tool \"Google Bard\" (later re-branded to Gemini), the LLM provided incorrect information about the"
+        },
+        {
+          "blockIndex": 8,
+          "text": "Retrieval-augmented generation (RAG) enhances large language models (LLMs) by incorporating an information-retrieval mechanism that allows models to access and utilize additional data beyond their original training set. Ars Technica notes that \"when new information becomes available, rather than having to retrain the model, all that's needed is to augment the model's external knowledge base with the updated information (\"augmentation\"). IBM states that \"in the generative phase, the LLM draws from the augmented prompt and its internal representation of its training data to synthesize\" an answer."
+        },
+        {
+          "blockIndex": 10,
+          "text": "Typically, the data to be referenced is converted into LLM embeddings, numerical representations in the form of a large vector space. RAG can be used on unstructured (usually text), semi-structured, or structured data (for example knowledge graphs). These embeddings are then stored in a vector database to allow for document retrieval."
+        },
+        {
+          "blockIndex": 12,
+          "text": "The model feeds this relevant retrieved information into the LLM via prompt engineering of the user's original query. Newer implementations (as of 2023) can also incorporate specific augmentation modules with abilities such as expanding queries into multiple domains and using memory and self-improvement to learn from previous retrievals.[citation needed]"
+        },
+        {
+          "blockIndex": 15,
+          "text": "Retrieval-augmented generation is used in applications where generated responses need to be grounded in external or frequently updated information.[citation needed]"
+        },
+        {
+          "blockIndex": 21,
+          "text": "Performance improves by optimizing how vector similarities are calculated. Dot products enhance similarity scoring, while approximate nearest neighbor (ANN) searches improve retrieval efficiency over K-nearest neighbors (KNN) searches."
+        },
+        {
+          "blockIndex": 22,
+          "text": "Accuracy may be improved with Late Interactions, which allow the system to compare words more precisely after retrieval. This helps refine document ranking and improve search relevance."
+        },
+        {
+          "blockIndex": 24,
+          "text": "Other retrieval techniques focus on improving accuracy by refining how documents are selected. Some retrieval methods combine sparse representations, such as SPLADE, with query expansion strategies to improve search accuracy and recall."
+        },
+        {
+          "blockIndex": 26,
+          "text": "These methods aim to enhance the quality of document retrieval in vector databases:"
+        },
+        {
+          "blockIndex": 27,
+          "text": "Pre-training the retriever using the Inverse Cloze Task (ICT), a technique that helps the model learn retrieval patterns by predicting masked text within documents."
+        },
+        {
+          "blockIndex": 28,
+          "text": "Supervised retriever optimization aligns retrieval probabilities with the generator model's likelihood distribution. This involves retrieving the top-k vectors for a given prompt, scoring the generated response's perplexity, and minimizing KL divergence between the retriever's selections and the model's likelihoods to refine retrieval."
+        },
+        {
+          "blockIndex": 36,
+          "text": "Sometimes vector database searches (aka semantic search technique) can miss key facts needed to answer a user's question. One way to mitigate this is to do a traditional text search (aka full text search), combine those results to the text chunks linked to the retrieved vectors from the vector search, and feed the combined hybrid text (using effective scoring or reranking scoring) into the language model for generation."
+        },
+        {
+          "blockIndex": 38,
+          "text": "RAG does not prevent hallucinations in LLMs. According to Ars Technica, \"It is not a direct solution because the LLM can still hallucinate around the source material in its response.\""
+        },
+        {
+          "blockIndex": 44,
+          "text": "1 2 3 4 5 6 \"What is retrieval-augmented generation?\". IBM. 22 August 2023. Retrieved 7 March 2025."
+        },
+        {
+          "blockIndex": 45,
+          "text": "↑ Zhao, Penghao; Zhang, Hailin; Yu, Qinhan; Wang, Zhengren; Geng, Yunteng; Fu, Fangcheng; Yang, Ling; Zhang, Wentao; Jiang, Jie; Cui, Bin (March 2026). \"Retrieval-Augmented Generation for AI-Generated Content: A Survey\". Data Science and Engineering. 11 (1): 1–29. doi:10.1007/s41019-025-00335-5."
+        },
+        {
+          "blockIndex": 47,
+          "text": "1 2 3 4 5 Lewis, Patrick; Perez, Ethan; Piktus, Aleksandra; Petroni, Fabio; Karpukhin, Vladimir; Goyal, Naman; Küttler, Heinrich; Lewis, Mike; Yih, Wen-tau; Rocktäschel, Tim; Riedel, Sebastian; Kiela, Douwe (2020). \"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\". Advances in Neural Information Processing Systems. 33. Curran Associates, Inc.: 9459–9474. arXiv:2005.11401."
+        },
+        {
+          "blockIndex": 50,
+          "text": "↑ \"Mitigating LLM hallucinations in text summarisation\". BBC. 20 June 2024. Retrieved 7 March 2025."
+        },
+        {
+          "blockIndex": 51,
+          "text": "↑ Amugongo, Lameck Mbangula; Mascheroni, Pietro; Brooks, Steven; Doering, Stefan; Seidel, Jan (2025-06-11). \"Retrieval augmented generation for large language models in healthcare: A systematic review\". PLOS Digital Health. 4 (6) e0000877. doi:10.1371/journal.pdig.0000877. PMC 12157099."
+        },
+        {
+          "blockIndex": 52,
+          "text": "1 2 Luan, Yi; Eisenstein, Jacob; Toutanova, Kristina; Collins, Michael (26 April 2021). \"Sparse, Dense, and Attentional Representations for Text Retrieval\". Transactions of the Association for Computational Linguistics. 9: 329–345. arXiv:2005.00181. doi:10.1162/tacl_a_00369. Retrieved 15 March 2025."
+        },
+        {
+          "blockIndex": 53,
+          "text": "↑ \"Information retrieval\". Microsoft. 10 January 2025. Retrieved 15 March 2025."
+        },
+        {
+          "blockIndex": 54,
+          "text": "↑ Khattab, Omar; Zaharia, Matei (2020). \"ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT\". Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval. pp. 39–48. doi:10.1145/3397271.3401075. ISBN 978-1-4503-8016-4."
+        },
+        {
+          "blockIndex": 55,
+          "text": "↑ Wang, Yup; Conroy, John M.; Molino, Neil; Yang, Julia; Green, Mike (2024). \"Laboratory for Analytic Sciences in TREC 2024 Retrieval Augmented Generation Track\". NIST TREC 2024. Retrieved 15 March 2025."
+        },
+        {
+          "blockIndex": 56,
+          "text": "↑ Lee, Kenton; Chang, Ming-Wei; Toutanova, Kristina (2019). \"\"Latent Retrieval for Weakly Supervised Open Domain Question Answering\"\" (PDF)."
+        },
+        {
+          "blockIndex": 57,
+          "text": "↑ Shi, Weijia; Min, Sewon; Yasunaga, Michihiro; Seo, Minjoon; James, Rich; Lewis, Mike; Zettlemoyer, Luke; Yih, Wen-tau (June 2024). \"REPLUG: Retrieval-Augmented Black-Box Language Models\". Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). pp. 8371–8384. arXiv:2301.12652. doi:10.18653/v1/2024.naacl-long.463. Retrieved 16 March 2025."
+        },
+        {
+          "blockIndex": 58,
+          "text": "↑ Ram, Ori; Levine, Yoav; Dalmedigos, Itay; Muhlgay, Dor; Shashua, Amnon; Leyton-Brown, Kevin; Shoham, Yoav (2023). \"In-Context Retrieval-Augmented Language Models\". Transactions of the Association for Computational Linguistics. 11: 1316–1331. arXiv:2302.00083. doi:10.1162/tacl_a_00605. Retrieved 16 March 2025."
+        },
+        {
+          "blockIndex": 60,
+          "text": "↑ Wang, Boxin; Ping, Wei; Xu, Peng; McAfee, Lawrence; Liu, Zihan; Shoeybi, Mohammad; Dong, Yi; Kuchaiev, Oleksii; Li, Bo; Xiao, Chaowei; Anandkumar, Anima; Catanzaro, Bryan (2023). \"Shall We Pretrain Autoregressive Language Models with Retrieval? A Comprehensive Study\". Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. pp. 7763–7786. doi:10.18653/v1/2023.emnlp-main.482."
+        },
+        {
+          "blockIndex": 61,
+          "text": "↑ Bruch, Sebastian; Gai, Siyu; Ingber, Amir (2023). \"An Analysis of Fusion Functions for Hybrid Retrieval\". ACM Transactions on Information Systems. 42 (1): 1–35. arXiv:2210.11934. doi:10.1145/3596512."
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA",
+      "tieuDe": "Tìm hiểu về Retrieval Augmented Generation (RAG)",
+      "toChuc": "Viblo",
+      "ngayLayVe": "2026-09-17T13:40:19.918Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết kỹ thuật trên nền tảng cộng đồng nhưng phân tích chi tiết về Sentence Transformers và ứng dụng trong RAG.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng",
+        "Nguồn bài viết từ blog cộng đồng nên cần đối chiếu thêm",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://arxiv.org/abs/2510.24476",
+      "tieuDe": "[2510.24476] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T13:40:19.919Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài khảo sát khoa học chuyên sâu về giảm thiểu ảo giác trong LLM thông qua RAG từ các tác giả uy tín trên arXiv.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "tieuDe": "Retrieval-augmented generation - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:40:19.920Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết Wikipedia cung cấp tổng quan khái niệm và kỹ thuật của RAG nhưng thiếu kiểm chứng tác giả cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng cụ thể",
+        "Nội dung wiki cộng đồng đóng góp",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "sourcesRejected": [],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Retrieval-Augmented Generation (RAG) là kỹ thuật giúp kết hợp mô hình ngôn ngữ lớn với tri thức bên ngoài nhằm cải thiện khả năng sinh văn bản và giảm thiểu hiện tượng ảo giác.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)",
+          "viTri": "Phần đầu nội dung trang 1"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.",
+          "viTri": "Phần đầu nội dung trang 3"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "RAG và tăng cường lập luận là hai trong số các phương pháp hiệu quả và được áp dụng rộng rãi nhất để giảm thiểu hiện tượng ảo giác trong các mô hình ngôn ngữ lớn.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches",
+          "viTri": "Phần Abstract trang 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA\",\n      \"tieuDe\": \"Tìm hiểu về Retrieval Augmented Generation (RAG)\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Viblo\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:40:19.918Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết kỹ thuật trên nền tảng cộng đồng nhưng phân tích chi tiết về Sentence Transformers và ứng dụng trong RAG.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Thiếu thông tin tác giả và ngày đăng\",\n        \"Nguồn bài viết từ blog cộng đồng nên cần đối chiếu thêm\"\n      ],\n      \"doanTrich\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://arxiv.org/abs/2510.24476\",\n      \"tieuDe\": \"[2510.24476] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems\",\n      \"tacGia\": \"Yihan Li, Xiyuan Fu, Ghanshyam Verma, Paul Buitelaar, Mingming Liu\",\n      \"toChuc\": \"arXiv.org\",\n      \"ngayDang\": \"2025-10-28\",\n      \"ngayLayVe\": \"2026-09-17T13:40:19.919Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài khảo sát khoa học chuyên sâu về giảm thiểu ảo giác trong LLM thông qua RAG từ các tác giả uy tín trên arXiv.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Retrieval-augmented_generation\",\n      \"tieuDe\": \"Retrieval-augmented generation - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:40:19.920Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết Wikipedia cung cấp tổng quan khái niệm và kỹ thuật của RAG nhưng thiếu kiểm chứng tác giả cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Thiếu thông tin tác giả và ngày đăng cụ thể\",\n        \"Nội dung wiki cộng đồng đóng góp\"\n      ],\n      \"doanTrich\": \"Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Retrieval-Augmented Generation (RAG) là kỹ thuật giúp kết hợp mô hình ngôn ngữ lớn với tri thức bên ngoài nhằm cải thiện khả năng sinh văn bản và giảm thiểu hiện tượng ảo giác.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\",\n          \"viTri\": \"Phần đầu nội dung trang 1\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.\",\n          \"viTri\": \"Phần đầu nội dung trang 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"RAG và tăng cường lập luận là hai trong số các phương pháp hiệu quả và được áp dụng rộng rãi nhất để giảm thiểu hiện tượng ảo giác trong các mô hình ngôn ngữ lớn.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches\",\n          \"viTri\": \"Phần Abstract trang 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "durationMs": 4449,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://viblo.asia/p/tim-hieu-ve-retrieval-augmented-generation-rag-Ny0VGRd7LPA\",\n      \"tieuDe\": \"Tìm hiểu về Retrieval Augmented Generation (RAG)\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Viblo\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:40:19.918Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết kỹ thuật trên nền tảng cộng đồng nhưng phân tích chi tiết về Sentence Transformers và ứng dụng trong RAG.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Thiếu thông tin tác giả và ngày đăng\",\n        \"Nguồn bài viết từ blog cộng đồng nên cần đối chiếu thêm\"\n      ],\n      \"doanTrich\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://arxiv.org/abs/2510.24476\",\n      \"tieuDe\": \"[2510.24476] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems\",\n      \"tacGia\": \"Yihan Li, Xiyuan Fu, Ghanshyam Verma, Paul Buitelaar, Mingming Liu\",\n      \"toChuc\": \"arXiv.org\",\n      \"ngayDang\": \"2025-10-28\",\n      \"ngayLayVe\": \"2026-09-17T13:40:19.919Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài khảo sát khoa học chuyên sâu về giảm thiểu ảo giác trong LLM thông qua RAG từ các tác giả uy tín trên arXiv.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Retrieval-augmented_generation\",\n      \"tieuDe\": \"Retrieval-augmented generation - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:40:19.920Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bài viết Wikipedia cung cấp tổng quan khái niệm và kỹ thuật của RAG nhưng thiếu kiểm chứng tác giả cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Thiếu thông tin tác giả và ngày đăng cụ thể\",\n        \"Nội dung wiki cộng đồng đóng góp\"\n      ],\n      \"doanTrich\": \"Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Retrieval-Augmented Generation (RAG) là kỹ thuật giúp kết hợp mô hình ngôn ngữ lớn với tri thức bên ngoài nhằm cải thiện khả năng sinh văn bản và giảm thiểu hiện tượng ảo giác.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật giúp nâng cao khả năng của mô hình sinh (language model generation) kết hợp với tri thức bên ngoài (external knowledge)\",\n          \"viTri\": \"Phần đầu nội dung trang 1\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.\",\n          \"viTri\": \"Phần đầu nội dung trang 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"RAG và tăng cường lập luận là hai trong số các phương pháp hiệu quả và được áp dụng rộng rãi nhất để giảm thiểu hiện tượng ảo giác trong các mô hình ngôn ngữ lớn.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Among various mitigation strategies, Retrieval-Augmented Generation (RAG) and reasoning enhancement have emerged as two of the most effective and widely adopted approaches\",\n          \"viTri\": \"Phần Abstract trang 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 8682
+}

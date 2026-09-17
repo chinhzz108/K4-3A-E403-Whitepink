@@ -1,0 +1,870 @@
+{
+  "id": "trace-research-1789650776323",
+  "timestamp": "2026-09-17T13:12:56.323Z",
+  "phase": "research",
+  "input": {
+    "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "targetAudience": "Sinh viên công nghệ thông tin",
+    "videoDuration": "5 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N04"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Text embedding and semantic search | Elastic Docs",
+          "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+          "snippet": "It enables you to generate vector representations of text and perform vector similarity search on the generated vectors. The model that is used in the example ...",
+          "position": 1
+        },
+        {
+          "title": "An intuitive introduction to text embeddings",
+          "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+          "snippet": "A text embedding is a piece of text projected into a high-dimensional latent space. The position of our text in this space is a vector, a long ...",
+          "position": 2
+        },
+        {
+          "title": "How to choose the best embedding model for semantic ...",
+          "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+          "snippet": "Semantic embeddings capture the meaning and relationships between words, which is helpful for tasks like document classification, recommendation ...",
+          "position": 3
+        },
+        {
+          "title": "Word embedding",
+          "url": "https://en.wikipedia.org/wiki/Word_embedding",
+          "snippet": "Word embedding enables a processor to perform semantic operations like obtaining the capital of a given country. Methods to generate this mapping include neural ...",
+          "position": 4
+        },
+        {
+          "title": "What is Embedding? | IBM",
+          "url": "https://www.ibm.com/think/topics/embedding",
+          "snippet": "Embedding is a means of representing text and other objects as points in a continuous vector space that are semantically meaningful to machine learning ...",
+          "position": 5
+        }
+      ],
+      "query": "semantic text embedding",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "Semantic similarity prediction is better than other ...",
+          "url": "https://arxiv.org/html/2309.12697v2",
+          "snippet": "Semantic similarity between natural language texts is typically measured either by looking at the overlap between subsequences (e.g., BLEU) or ...",
+          "position": 1
+        },
+        {
+          "title": "Semantic Similarity - Zilliz",
+          "url": "https://zilliz.com/glossary/semantic-similarity",
+          "snippet": "Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, ...",
+          "position": 2
+        },
+        {
+          "title": "Semantic Similarity as a Window into Vector- and Graph- ...",
+          "url": "https://aclanthology.org/2022.gem-1.8.pdf",
+          "snippet": "viết bởi WC Leung · 2022 · Trích dẫn 18 bài viết — rated with low similarity by all the metrics as well as human judgments; have little or no overlap of words or argument structures",
+          "position": 3
+        },
+        {
+          "title": "Lexical vs. Semantic Similarity in NLP and LLMs - Part 2 of 2",
+          "url": "https://www.linkedin.com/pulse/lexical-vs-semantic-similarity-nlp-llms-part-2-sanjay-basu-phd-ax2zc",
+          "snippet": "Few-shot semantic similarity: By providing a few examples of similarity judgments, the model can calibrate its assessments to match specific ...",
+          "position": 4
+        },
+        {
+          "title": "Semantic similarity prediction is better than other ...",
+          "url": "https://openreview.net/forum?id=bfsNmgN5je",
+          "snippet": "viết bởi S Herbold · Trích dẫn 18 bài viết — Semantic similarity between natural language texts is typically measured either by looking at the overlap between subsequences (e.g., BLEU) or ...",
+          "position": 5
+        }
+      ],
+      "query": "semantic similarity without overlap",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+      "https://arxiv.org/html/2309.12697v2",
+      "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+      "https://zilliz.com/glossary/semantic-similarity",
+      "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+      "https://aclanthology.org/2022.gem-1.8.pdf",
+      "https://en.wikipedia.org/wiki/Word_embedding",
+      "https://www.linkedin.com/pulse/lexical-vs-semantic-similarity-nlp-llms-part-2-sanjay-basu-phd-ax2zc"
+    ],
+    "pagesRead": [
+      "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+      "https://arxiv.org/html/2309.12697v2",
+      "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+      "https://zilliz.com/glossary/semantic-similarity",
+      "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+      "https://aclanthology.org/2022.gem-1.8.pdf"
+    ],
+    "supplementReasons": [
+      "Dưới ba trang đọc được và không có lệnh can thiệp"
+    ]
+  },
+  "pagesRead": [
+    {
+      "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+      "content": "",
+      "fetchedAt": "2026-09-17T13:12:47.563Z",
+      "title": "",
+      "status": "error",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://arxiv.org/html/2309.12697v2",
+      "content": "Semantic similarity between natural language texts is typically measured either by looking at the overlap between subsequences (e.g., BLEU) or by using embeddings (e.g., BERTScore, S-BERT). Within this paper, we argue that when we are only interested in measuring the semantic similarity, it is better to directly predict the similarity using a fine-tuned model for such a task. Using a fine-tuned model for the Semantic Textual Similarity Benchmark tasks (STS-B) from the GLUE benchmark, we define the STSScore approach and show that the resulting similarity is better aligned with our expectations on a robust semantic similarity measure than other approaches.\n\nWhen we are considering research questions related to the quality of the output of generative models for natural language (e.g., Large Language Models/LLMs like GPT(-2) by Radford et al. (2019) and all the other currently very successful models that followed), we need to determine if the generated text is a valid output for the desired task. For example, when we want to use such a model for translation from English to German, we need to determine if the resulting German sentence has the same meaning as the English sentence. Since there are typically many possible valid outputs for such tasks, we cannot easily specify a ground truth for benchmarks. While an expert would be able to determine if the output is correct, automating this task with a computer is not easy, as this would effectively require solving the translation problem first. However, since scaling such evaluations to thousands or even millions of examples is not possible without automation, researchers created different methods to assess the quality of output using the idea of semantic similarity.\n\nThe general idea is quite simple: while we cannot define the ground truth, we can measure the semantic meaning to one or more correct outputs. Simple metrics such as the Word Error Rate (WER) estimate this through the consideration of the differences between words, similar to the Levenshtein distance. Others, like BiLingual Evaluation Understudy (BLEU, Papineni et al. (2002)) or Recall-Oriented-Understudy for Gisting Evaluation (ROGUE, Lin (2004)) are rather looking at the overlap between subsequences of texts, assuming that a larger overlap means a better semantic similarity. Furthermore, some methods (e.g., BLEU) go beyond the comparison of single solutions to a sample output and instead allow the comparison between the corpora of generated and sample solutions. For individual words without considering them in their context, word embeddings like word2vec (Mikolov et al., 2013) in combination with cosine similarity are a generally accepted way to estimate the semantic similarity between words, even though this approach has problems with ambiguities, e.g., caused by polysemes (Del Tredici & Bel, 2015). Similar methods were extended to whole sentences (Sharma et al., 2017), but they did not achieve the same level of performance.\n\nThe transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity. Two methods based on this are currently primarily used. The first is BERTScore by Zhang et al. (2020), which is based on an optimal matching of the pair-wise similarities of words within a contextual BERT embedding and has been used by thousands of publications since its publication in 2020. The second is Sentence-BERT (S-BERT) by Reimers & Gurevych (2019), who pool the embeddings of the tokens into an embedding for sentences. The cosine similarity can then be computed between these sentence embeddings, the same as between words with word2vec or with earlier, less powerful, sentence embeddings (Sharma et al., 2017, e.g.).\n\nModern language models with an encoder-only transformer architecture similar to BERT (Devlin et al., 2019) that are fine-tuned as regression models for the similarity between sentence pairs are also capable of robustly measuring the semantic similarity beyond their training data and are better measures for the semantic similarity than embedding-based and n-gram approaches.\n\n• the Semantic Textual Similarity Benchmark (STS-B) data we already discussed above;\n\nthe Semantic Textual Similarity Benchmark (STS-B) data we already discussed above;\n\nOn each of these data sets, we compute the similarity between all pairs of sentences with BLEU, BERTScore, S-BERT,11 1 From now on, we simply refer to calculating the cosine similarity between embeddings with S-BERT as S-BERT for brevity. and STSScore. All methods we consider compute scores between zero (not similar at all) and one (same semantic meaning), which simplifies the direct comparison. This narrower view of few models allows us to consider the results more in-depth. Specifically, we can go beyond the plain reporting of numbers and instead look directly at the distributions of the similarity measures for different data sets. Due to the confirmatory design of our study, we formulate concrete expectations on the results, given the properties of each data set. How well the similarity measures fulfill these expectations will be later used to evaluate our hypothesis. Based on the strong performance of BERT-based models on the STS-B task in the GLUE benchmark, we predict, based on our hypothesis that STSScorer should have the best alignment with our expectations for all data sets.\n\nBecause the STSScorer was fine-tuned on the STS-B data, we only utilize the test data. Nevertheless, because this is exactly the same context as during the training of STSScorers models (same data curators, same humans creating the judgments) this model has a huge advantage over the other approaches. Due to this, we expect that STSScorer is well aligned with human judgments and we observe the linear trend described above. If this fails, this would directly contradict our hypothesis, as this would not even work within-context. The BLEU, BERTScore, and S-BERT models were created independently of the STS-B data, but given their purpose to estimate the semantic similarity, they should still be able to fulfill the desired properties. If this is not the case, this would rather be an indication that these models are not measuring the semantic similarity – at least not according to the human judgments from the STS-B data.\n\nWith the WMT22-ZH-EN data, we consider how the semantic similarity between a reference solution and alternative translations relates to manually labeled translation quality. Semantic similarity between the source and a translation is an important aspect when we want to consider the quality of the generated translation. However, this is only one aspect of the Multidimensional Quality Metrics (MQM) framework for the analytic evaluation of translation quality (Burchardt, 2013). This framework uses multiple criteria such as the accuracy, fluency, terminology, style, and locale conventions. While the semantic similarity is directly related to the accuracy criterion, the others are rather regarding how a translations worded beyond its meaning – something we typically want to ignore when measuring the semantic similarity. Nevertheless, embedding-based approaches for computing the semantic similarity were very successful in past challenges on ranking machine translation systems (Freitag et al., 2022). Based on this, we expect that we can observe correlations between the semantic similarity and the translation quality, but we also expect that the observed correlations are weaker than those for the other data sets, because aspects like fluency, terminology, style, and locale conventions, are not considered by the semantic similarity.\n\nFor QQP, the results for all three models are comparable with respect to their alignment with our expectations\n\nFigure 5 shows the correlation between semantic similarity measures and the manually determined MQM judgments on the WMT22-ZH-EN data. The embeddings based approaches all correlate somewhat with the MQM judgments, but there is a huge spread within the similarity values for the same MQM judgments. BERTScore achieves the best correlation and has the lowest spread within the visualization. STSScore has a slightly lower correlation, which also shows through a larger spread of similarity values compared to BERTScore. S-BERT performs worse than the other approaches with a notable gap. A potential reason for the stronger performance of BERTScore is that the matching that is performed based on pair-wise similarities of words may align well with the MQM criteria beyond accuracy, as this allows to measure differences on the word level, while STSScore and S-BERT consider the full text at once. We do not have a clear explanation why S-BERT performs so much worse than the other embedding-based approaches. All embedding approaches clearly outperform BLEU, which is again only weakly correlated with the expectation and has many similarity values of exactly zero.",
+      "fetchedAt": "2026-09-17T13:12:47.564Z",
+      "title": "Semantic similarity prediction is better than other semantic similarity measures",
+      "status": "ok",
+      "contentLength": 50833,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 1,
+          "text": "Semantic similarity between natural language texts is typically measured either by looking at the overlap between subsequences (e.g., BLEU) or by using embeddings (e.g., BERTScore, S-BERT). Within this paper, we argue that when we are only interested in measuring the semantic similarity, it is better to directly predict the similarity using a fine-tuned model for such a task. Using a fine-tuned model for the Semantic Textual Similarity Benchmark tasks (STS-B) from the GLUE benchmark, we define the STSScore approach and show that the resulting similarity is better aligned with our expectations on a robust semantic similarity measure than other approaches."
+        },
+        {
+          "blockIndex": 3,
+          "text": "When we are considering research questions related to the quality of the output of generative models for natural language (e.g., Large Language Models/LLMs like GPT(-2) by Radford et al. (2019) and all the other currently very successful models that followed), we need to determine if the generated text is a valid output for the desired task. For example, when we want to use such a model for translation from English to German, we need to determine if the resulting German sentence has the same meaning as the English sentence. Since there are typically many possible valid outputs for such tasks, we cannot easily specify a ground truth for benchmarks. While an expert would be able to determine if the output is correct, automating this task with a computer is not easy, as this would effectively require solving the translation problem first. However, since scaling such evaluations to thousands or even millions of examples is not possible without automation, researchers created different methods to assess the quality of output using the idea of semantic similarity."
+        },
+        {
+          "blockIndex": 4,
+          "text": "The general idea is quite simple: while we cannot define the ground truth, we can measure the semantic meaning to one or more correct outputs. Simple metrics such as the Word Error Rate (WER) estimate this through the consideration of the differences between words, similar to the Levenshtein distance. Others, like BiLingual Evaluation Understudy (BLEU, Papineni et al. (2002)) or Recall-Oriented-Understudy for Gisting Evaluation (ROGUE, Lin (2004)) are rather looking at the overlap between subsequences of texts, assuming that a larger overlap means a better semantic similarity. Furthermore, some methods (e.g., BLEU) go beyond the comparison of single solutions to a sample output and instead allow the comparison between the corpora of generated and sample solutions. For individual words without considering them in their context, word embeddings like word2vec (Mikolov et al., 2013) in combination with cosine similarity are a generally accepted way to estimate the semantic similarity between words, even though this approach has problems with ambiguities, e.g., caused by polysemes (Del Tredici & Bel, 2015). Similar methods were extended to whole sentences (Sharma et al., 2017), but they did not achieve the same level of performance."
+        },
+        {
+          "blockIndex": 5,
+          "text": "The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity. Two methods based on this are currently primarily used. The first is BERTScore by Zhang et al. (2020), which is based on an optimal matching of the pair-wise similarities of words within a contextual BERT embedding and has been used by thousands of publications since its publication in 2020. The second is Sentence-BERT (S-BERT) by Reimers & Gurevych (2019), who pool the embeddings of the tokens into an embedding for sentences. The cosine similarity can then be computed between these sentence embeddings, the same as between words with word2vec or with earlier, less powerful, sentence embeddings (Sharma et al., 2017, e.g.)."
+        },
+        {
+          "blockIndex": 7,
+          "text": "Modern language models with an encoder-only transformer architecture similar to BERT (Devlin et al., 2019) that are fine-tuned as regression models for the similarity between sentence pairs are also capable of robustly measuring the semantic similarity beyond their training data and are better measures for the semantic similarity than embedding-based and n-gram approaches."
+        },
+        {
+          "blockIndex": 16,
+          "text": "• the Semantic Textual Similarity Benchmark (STS-B) data we already discussed above;"
+        },
+        {
+          "blockIndex": 17,
+          "text": "the Semantic Textual Similarity Benchmark (STS-B) data we already discussed above;"
+        },
+        {
+          "blockIndex": 25,
+          "text": "On each of these data sets, we compute the similarity between all pairs of sentences with BLEU, BERTScore, S-BERT,11 1 From now on, we simply refer to calculating the cosine similarity between embeddings with S-BERT as S-BERT for brevity. and STSScore. All methods we consider compute scores between zero (not similar at all) and one (same semantic meaning), which simplifies the direct comparison. This narrower view of few models allows us to consider the results more in-depth. Specifically, we can go beyond the plain reporting of numbers and instead look directly at the distributions of the similarity measures for different data sets. Due to the confirmatory design of our study, we formulate concrete expectations on the results, given the properties of each data set. How well the similarity measures fulfill these expectations will be later used to evaluate our hypothesis. Based on the strong performance of BERT-based models on the STS-B task in the GLUE benchmark, we predict, based on our hypothesis that STSScorer should have the best alignment with our expectations for all data sets."
+        },
+        {
+          "blockIndex": 30,
+          "text": "Because the STSScorer was fine-tuned on the STS-B data, we only utilize the test data. Nevertheless, because this is exactly the same context as during the training of STSScorers models (same data curators, same humans creating the judgments) this model has a huge advantage over the other approaches. Due to this, we expect that STSScorer is well aligned with human judgments and we observe the linear trend described above. If this fails, this would directly contradict our hypothesis, as this would not even work within-context. The BLEU, BERTScore, and S-BERT models were created independently of the STS-B data, but given their purpose to estimate the semantic similarity, they should still be able to fulfill the desired properties. If this is not the case, this would rather be an indication that these models are not measuring the semantic similarity – at least not according to the human judgments from the STS-B data."
+        },
+        {
+          "blockIndex": 46,
+          "text": "With the WMT22-ZH-EN data, we consider how the semantic similarity between a reference solution and alternative translations relates to manually labeled translation quality. Semantic similarity between the source and a translation is an important aspect when we want to consider the quality of the generated translation. However, this is only one aspect of the Multidimensional Quality Metrics (MQM) framework for the analytic evaluation of translation quality (Burchardt, 2013). This framework uses multiple criteria such as the accuracy, fluency, terminology, style, and locale conventions. While the semantic similarity is directly related to the accuracy criterion, the others are rather regarding how a translations worded beyond its meaning – something we typically want to ignore when measuring the semantic similarity. Nevertheless, embedding-based approaches for computing the semantic similarity were very successful in past challenges on ranking machine translation systems (Freitag et al., 2022). Based on this, we expect that we can observe correlations between the semantic similarity and the translation quality, but we also expect that the observed correlations are weaker than those for the other data sets, because aspects like fluency, terminology, style, and locale conventions, are not considered by the semantic similarity."
+        },
+        {
+          "blockIndex": 55,
+          "text": "For QQP, the results for all three models are comparable with respect to their alignment with our expectations"
+        },
+        {
+          "blockIndex": 58,
+          "text": "Figure 5 shows the correlation between semantic similarity measures and the manually determined MQM judgments on the WMT22-ZH-EN data. The embeddings based approaches all correlate somewhat with the MQM judgments, but there is a huge spread within the similarity values for the same MQM judgments. BERTScore achieves the best correlation and has the lowest spread within the visualization. STSScore has a slightly lower correlation, which also shows through a larger spread of similarity values compared to BERTScore. S-BERT performs worse than the other approaches with a notable gap. A potential reason for the stronger performance of BERTScore is that the matching that is performed based on pair-wise similarities of words may align well with the MQM criteria beyond accuracy, as this allows to measure differences on the word level, while STSScore and S-BERT consider the full text at once. We do not have a clear explanation why S-BERT performs so much worse than the other embedding-based approaches. All embedding approaches clearly outperform BLEU, which is again only weakly correlated with the expectation and has many similarity values of exactly zero."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+      "content": "A lot of my sense for this comes from the thousands of hours I’ve spent working with these models, seeing where they fall short and where they surprise me with their successes. But if there’s one concept that most informs my intuitions, it’s text embeddings. The ability to take a chunk of text and turn it into a vector, subject to the laws of mathematics, is fundamental to natural language processing. A good grasp of text embeddings will greatly improve your capacity to reason intuitively about how NLP (and a lot of other ML models) should best fit into your product.\n\nSo let’s stop for a moment to appreciate text embeddings.\n\nA text embedding is a piece of text projected into a high-dimensional latent space. The position of our text in this space is a vector, a long sequence of numbers. Think of the two-dimensional cartesian coordinates from algebra class, but with more dimensions—often 768 or 1536.\n\nFor example, here’s what the OpenAI text-embedding-ada-002 model does with the paragraph above. Each vertical band in this plot represents a value in one of the embedding space’s 1536 dimensions.\n\nMathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items. In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space.\n\nWe can frame a lot of useful tasks in terms of text similarity.\n\nIn these cases, you can pre-calculate the embeddings for your targets (i.e. the documents you want to search or examples for classification) and store them in an indexed database. This lets you capture the powerful natural language understanding of deep neural models as text embeddings as you add new items to your database, then run your search or classifier without expensive GPU compute.\n\nThis direct comparison of text similarity is just one application for text embeddings. Often, embeddings have a place in ML algorithms or neural architectures with further task-specific components built on top. I’ve largely elided these details in the discussion below.\n\nI mentioned above that a key feature of an embedding space is that it preserves distance. The high-dimensional vectors used in text embeddings and LLMs aren’t immediately intuitive. But the basic spatial intuition remains (mostly) the same as we scale things down.\n\nWhat if we can identify some common semantic sense to words like “cat” and “feline?” We could spare our dimensionality budget and make our shelving scheme more intuitive.\n\nLatent semantic analysis and Latent Dirichlet allocation\n\nI won’t go into the details here, but there are a couple of different algorithms you can use to infer this from a large enough collection of documents: Latent semantic analysis (LSA), which uses the singular value decomposition of the term-document matrix (fancy linear algebra, basically), and Latent Dirichlet allocation (LDA), which uses a statistical method called the Dirichlet process.\n\nLDA and LSA are still widely used for topic modeling. You can often find them as “read next” links in an article’s footer. But they’re limited to capturing a broad sense of topicality in a document. The models rely on document inputs being long enough to have a representative sample of words. And with the unordered bag-of-words input, there’s no way to capture proximity of words, let alone complex syntax and semantics.\n\nIn the examples above, we were using word counts as a proxy for some more nebulous idea of topicality. By projecting those word counts down into an embedding space, we can both reduce the dimensionality and infer latent variables that indicate topicality better than the raw word counts. To do this, though, we need a well-defined algorithm like LSA that can process a corpus of documents to find a good mapping between our bag-of-words input and vectors in our embedding space.\n\nMethods based in neural networks let us generalize this process and break the restrictions of LSA. To get embeddings, we just need to:\n\nThe neural network training process runs over the training data a bunch of times. A common approach for embeddings is called triplet loss. At each training step, compare a reference input—the anchor—to a positive input (something that should be close to the anchor in our latent space) and a negative input (one we know should be far away). The training objective is to minimize the distance between the anchor and the positive in our embedding space while maximizing the distance to the negative.\n\nAn advantage of this approach is that we don’t need to know actual distances in our training data—some kind of binary proxy works nicely. Going back to our library, for example, we might select our anchor/proxy pairs from sets of books that were checked out together. We throw in a negative example drawn at random from the books outside that set. There’s certainly noise in this training set—library-goers often pick books on diverse subjects and our random negatives aren't guaranteed to be irrelevant. The idea is that with a large enough data set the noise washes out and your embeddings capture some kind of useful signal.\n\nThe big example here is Word2vec, which uses windowed text sampling to create embeddings for individual words. A sliding window moves through text in the training data, one word at a time. For each position of the window, Word2vec creates a context set. For example, with a window size of 3 in the sentence \"the cat sat on the mat\", (‘the’, ‘cat’, ‘sat’) are grouped together, just like a set of library books a reader had checked out in the example above. During training, this pushes vectors for 'the', 'cat', and 'sat' all a little closer in the latent space.\n\nA key point here is that we don’t need to spend much time on training data for this model—it uses a large corpus of raw text as-is, and can extract some surprisingly detailed insights about language.\n\nThese word embeddings show the power of vector arithmetic. The famous example is the equation king - man + woman ≈ queen. The vector for 'king', minus the vector for 'man' and plus the vector for 'woman', is very close to the vector for 'queen'. A relatively simple model,\n\nA token’s value vector captures its semantic meaning in a high-dimensional embedding space, much like in our library analogy from earlier. The attention mechanism uses another embedding space for the key and query vectors—a sort of semantic plumbing in the floor between each level of the library. The key vector positions the output end of a pipe that draws some semantic value from the token and pumps it out into the embedding space. The query vector places the input end of a pipe that sucks up semantic value other tokens’ key vectors pump into the embedding space nearby and all this into the token’s new representation on the floor above.\n\nSo the transformer architecture can encode sequences really well, but if we want it to understand language well, how do we train it? Remember, when we start training, all these vectors are randomly initialized. Our tokens’ value vectors are distributed at random in their semantic embedding space as are our key and query vectors in theirs. We ask the model to predict a token given the rest of the encoded sequence. The great thing about this task is that we can gather as much text as we can find and turn it into training data. All we have to do is hide one of the tokens in a chunk of text from the model and encode what’s left. We already know what the missing token should be, so we can build a loss function based on how close the prediction is to this known value.\n\nThe other beautiful thing is that the difficulty of predicting the right word scales up smoothly. It goes from a general sense of topicality and word order—something even a simple predictive text model on your phone can do pretty well—up through complex syntax and semantics.\n\nEffective and fast text embedding methods transform textual input into a numeric form, which allows models such as GPT-4 to process immense volumes of data and show a remarkable level of natural language understanding.\n\nA deep, intuitive understanding of text embeddings can help you follow the advances of these models, letting you effectively incorporate them into your own systems without combing through the technical specs of each new improvement as it emerges.\n\nIt's becoming clear that the benefits of text embedding models can apply to other domains. Tools like Midjourney and DALL-E interpret text instructions by learning to embed images and prompts into a shared embedding space. And a similar approach has been used for natural language instructions in robotics.\n\nA new class of large multi-modal models like Microsoft's GPT-Vision and Google's RT-X are jointly trained on text data along with audiovisual inputs and robotics data, thanks, in large part, to the ability to effectively map all these disparate forms of data into a shared embedding space.",
+      "fetchedAt": "2026-09-17T13:12:47.565Z",
+      "title": "An intuitive introduction to text embeddings - Stack Overflow",
+      "status": "ok",
+      "contentLength": 18207,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 3,
+          "text": "A lot of my sense for this comes from the thousands of hours I’ve spent working with these models, seeing where they fall short and where they surprise me with their successes. But if there’s one concept that most informs my intuitions, it’s text embeddings. The ability to take a chunk of text and turn it into a vector, subject to the laws of mathematics, is fundamental to natural language processing. A good grasp of text embeddings will greatly improve your capacity to reason intuitively about how NLP (and a lot of other ML models) should best fit into your product."
+        },
+        {
+          "blockIndex": 4,
+          "text": "So let’s stop for a moment to appreciate text embeddings."
+        },
+        {
+          "blockIndex": 6,
+          "text": "A text embedding is a piece of text projected into a high-dimensional latent space. The position of our text in this space is a vector, a long sequence of numbers. Think of the two-dimensional cartesian coordinates from algebra class, but with more dimensions—often 768 or 1536."
+        },
+        {
+          "blockIndex": 7,
+          "text": "For example, here’s what the OpenAI text-embedding-ada-002 model does with the paragraph above. Each vertical band in this plot represents a value in one of the embedding space’s 1536 dimensions."
+        },
+        {
+          "blockIndex": 9,
+          "text": "Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items. In this case, sentences that are semantically similar should have similar embedded vectors and thus be closer together in the space."
+        },
+        {
+          "blockIndex": 10,
+          "text": "We can frame a lot of useful tasks in terms of text similarity."
+        },
+        {
+          "blockIndex": 15,
+          "text": "In these cases, you can pre-calculate the embeddings for your targets (i.e. the documents you want to search or examples for classification) and store them in an indexed database. This lets you capture the powerful natural language understanding of deep neural models as text embeddings as you add new items to your database, then run your search or classifier without expensive GPU compute."
+        },
+        {
+          "blockIndex": 16,
+          "text": "This direct comparison of text similarity is just one application for text embeddings. Often, embeddings have a place in ML algorithms or neural architectures with further task-specific components built on top. I’ve largely elided these details in the discussion below."
+        },
+        {
+          "blockIndex": 18,
+          "text": "I mentioned above that a key feature of an embedding space is that it preserves distance. The high-dimensional vectors used in text embeddings and LLMs aren’t immediately intuitive. But the basic spatial intuition remains (mostly) the same as we scale things down."
+        },
+        {
+          "blockIndex": 29,
+          "text": "What if we can identify some common semantic sense to words like “cat” and “feline?” We could spare our dimensionality budget and make our shelving scheme more intuitive."
+        },
+        {
+          "blockIndex": 32,
+          "text": "Latent semantic analysis and Latent Dirichlet allocation"
+        },
+        {
+          "blockIndex": 33,
+          "text": "I won’t go into the details here, but there are a couple of different algorithms you can use to infer this from a large enough collection of documents: Latent semantic analysis (LSA), which uses the singular value decomposition of the term-document matrix (fancy linear algebra, basically), and Latent Dirichlet allocation (LDA), which uses a statistical method called the Dirichlet process."
+        },
+        {
+          "blockIndex": 34,
+          "text": "LDA and LSA are still widely used for topic modeling. You can often find them as “read next” links in an article’s footer. But they’re limited to capturing a broad sense of topicality in a document. The models rely on document inputs being long enough to have a representative sample of words. And with the unordered bag-of-words input, there’s no way to capture proximity of words, let alone complex syntax and semantics."
+        },
+        {
+          "blockIndex": 36,
+          "text": "In the examples above, we were using word counts as a proxy for some more nebulous idea of topicality. By projecting those word counts down into an embedding space, we can both reduce the dimensionality and infer latent variables that indicate topicality better than the raw word counts. To do this, though, we need a well-defined algorithm like LSA that can process a corpus of documents to find a good mapping between our bag-of-words input and vectors in our embedding space."
+        },
+        {
+          "blockIndex": 37,
+          "text": "Methods based in neural networks let us generalize this process and break the restrictions of LSA. To get embeddings, we just need to:"
+        },
+        {
+          "blockIndex": 42,
+          "text": "The neural network training process runs over the training data a bunch of times. A common approach for embeddings is called triplet loss. At each training step, compare a reference input—the anchor—to a positive input (something that should be close to the anchor in our latent space) and a negative input (one we know should be far away). The training objective is to minimize the distance between the anchor and the positive in our embedding space while maximizing the distance to the negative."
+        },
+        {
+          "blockIndex": 43,
+          "text": "An advantage of this approach is that we don’t need to know actual distances in our training data—some kind of binary proxy works nicely. Going back to our library, for example, we might select our anchor/proxy pairs from sets of books that were checked out together. We throw in a negative example drawn at random from the books outside that set. There’s certainly noise in this training set—library-goers often pick books on diverse subjects and our random negatives aren't guaranteed to be irrelevant. The idea is that with a large enough data set the noise washes out and your embeddings capture some kind of useful signal."
+        },
+        {
+          "blockIndex": 45,
+          "text": "The big example here is Word2vec, which uses windowed text sampling to create embeddings for individual words. A sliding window moves through text in the training data, one word at a time. For each position of the window, Word2vec creates a context set. For example, with a window size of 3 in the sentence \"the cat sat on the mat\", (‘the’, ‘cat’, ‘sat’) are grouped together, just like a set of library books a reader had checked out in the example above. During training, this pushes vectors for 'the', 'cat', and 'sat' all a little closer in the latent space."
+        },
+        {
+          "blockIndex": 46,
+          "text": "A key point here is that we don’t need to spend much time on training data for this model—it uses a large corpus of raw text as-is, and can extract some surprisingly detailed insights about language."
+        },
+        {
+          "blockIndex": 47,
+          "text": "These word embeddings show the power of vector arithmetic. The famous example is the equation king - man + woman ≈ queen. The vector for 'king', minus the vector for 'man' and plus the vector for 'woman', is very close to the vector for 'queen'. A relatively simple model,"
+        },
+        {
+          "blockIndex": 63,
+          "text": "A token’s value vector captures its semantic meaning in a high-dimensional embedding space, much like in our library analogy from earlier. The attention mechanism uses another embedding space for the key and query vectors—a sort of semantic plumbing in the floor between each level of the library. The key vector positions the output end of a pipe that draws some semantic value from the token and pumps it out into the embedding space. The query vector places the input end of a pipe that sucks up semantic value other tokens’ key vectors pump into the embedding space nearby and all this into the token’s new representation on the floor above."
+        },
+        {
+          "blockIndex": 65,
+          "text": "So the transformer architecture can encode sequences really well, but if we want it to understand language well, how do we train it? Remember, when we start training, all these vectors are randomly initialized. Our tokens’ value vectors are distributed at random in their semantic embedding space as are our key and query vectors in theirs. We ask the model to predict a token given the rest of the encoded sequence. The great thing about this task is that we can gather as much text as we can find and turn it into training data. All we have to do is hide one of the tokens in a chunk of text from the model and encode what’s left. We already know what the missing token should be, so we can build a loss function based on how close the prediction is to this known value."
+        },
+        {
+          "blockIndex": 66,
+          "text": "The other beautiful thing is that the difficulty of predicting the right word scales up smoothly. It goes from a general sense of topicality and word order—something even a simple predictive text model on your phone can do pretty well—up through complex syntax and semantics."
+        },
+        {
+          "blockIndex": 69,
+          "text": "Effective and fast text embedding methods transform textual input into a numeric form, which allows models such as GPT-4 to process immense volumes of data and show a remarkable level of natural language understanding."
+        },
+        {
+          "blockIndex": 70,
+          "text": "A deep, intuitive understanding of text embeddings can help you follow the advances of these models, letting you effectively incorporate them into your own systems without combing through the technical specs of each new improvement as it emerges."
+        },
+        {
+          "blockIndex": 71,
+          "text": "It's becoming clear that the benefits of text embedding models can apply to other domains. Tools like Midjourney and DALL-E interpret text instructions by learning to embed images and prompts into a shared embedding space. And a similar approach has been used for natural language instructions in robotics."
+        },
+        {
+          "blockIndex": 72,
+          "text": "A new class of large multi-modal models like Microsoft's GPT-Vision and Google's RT-X are jointly trained on text data along with audiovisual inputs and robotics data, thanks, in large part, to the ability to effectively map all these disparate forms of data into a shared embedding space."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://zilliz.com/glossary/semantic-similarity",
+      "content": "What is Semantic Similarity? An Engineer's Guide\n\nWhat is Semantic Similarity? An Engineer's Guide\n\nSemantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.\n\nSentence semantic similarity refers to the techniques used to compute the similarity between sentences through linguistic embeddings and tokenization methods.\n\nSemantic similarity has diverse applications, such as:\n\nAnswering Questions: Semantic similarity can be used as a form of fuzzy logic to answer a question similar to that posed by the user. Often, as the user navigates to the exact solution they want, their question is not precise. Semantic similarity prepares answers to the user's question that are close to the question posed.\n\nAnother application of semantic similarity is to ensure that the intended meaning is transferred correctly to a target language during translation. AI is being used widely in this area.\n\nSemantic similarity is used to identify sentences or phrases that convey similar meanings to each other, but are phrased differently. While two phrases may contain the same word set, their meanings can differ significantly, which is crucial for understanding text similarity and its applications in plagiarism detection. One specific use is to detect plagiarism where an author merely rephrased the source text. Teachers and others can also use semantic similarity to detect instances of plagiarism in which content is directly copied.\n\nText representation is a fundamental aspect of NLP, as it involves converting raw text into a format that can be processed and understood by machine learning algorithms. Correct text representation is crucial for tasks like sentiment analysis, machine translation, document classification, and semantic similarity measurement. It is key to the operation of search engines. Following are some key methods of text representation in NLP.\n\nBoW is a simple text representation method that treats a document as a collection of words, ignoring grammar and word order. It creates a vocabulary of unique words from the entire body of text under consideration, and represents each document as a vector where each element corresponds to the count or presence of a word in the vocabulary. BoW is straightforward but lacks context and semantic meaning.\n\nWord embeddings are dense, continuously-valued vector representations of words in a high-dimensional space. Methods like Word2Vec, GloVe (Global Vectors for Word Representation), and FastText learn embeddings by considering the context in which words appear in a large corpus. These embeddings capture semantic relationships between words. Word embeddings are used for tasks like word analogy, lexical similarity, and text classification.\n\nIt might seem at first glance that there is little or no difference between analogy and similarity. However, there is a difference which will affect how two pieces of text are related.\n\nContextual embeddings are word representations that capture the meaning of words in context. Google developed BERT (bidirectional encoder representations from transformers). Another generative model is GPT (generative pre-trained transformer). While these models are similar, the fundamental approach is different, taking into account the surrounding context of a word within a sentence. However, both models capture nuances in meaning and sentence structure by pre-training on massive amounts of text data. The intention is to create rich representations.\n\nIn some cases, the text under consideration uses complex constructions, including prefixes, roots, and suffixes, or rarely used vocabulary elements. In this case, contextual embedding is not sufficient and subword representations break down words into smaller units, such as character n-grams or byte-pair encodings. This is especially useful for handling out-of-vocabulary words and morphologically rich languages.\n\nDocument embeddings represent entire documents using vectors. Techniques like Doc2Vec extend the idea of word embeddings to capture the context and meaning of entire documents.\n\nSome approaches combine different levels of text representation to create hybrid models. For example, using techniques such as word embeddings and sentence embeddings together creates hybrid models that capture both local and global contexts.\n\nThe choice of text representation method depends on several factors. These include the task at hand, the amount of available training data, and the desired level of linguistic information to be captured. More recent models, like BERT and GPT, have achieved state-of-the-art performance across various NLP tasks due to their ability to capture context and semantics effectively. There are several types of hybrid models:\n\nEnsemble methods combine the outputs of multiple models to make a final prediction. For semantic similarity, this could involve combining scores from models that use different types of features or techniques.\n\nIn some cases, hybrid models are trained to predict a ranking of text pairs based on human-annotated similarity scores. These models can then be used to rank new pairs of text.\n\nSeveral methods exist to quantify semantic similarity. Some common techniques include:\n\nUtilize pre-trained word embeddings to measure similarity based on vector distances.\n\nTokenization: Tokenization involves breaking down text into individual words or tokens. By comparing the frequency or co-occurrence of these tokens in a corpus, we can determine their lexical similarity. This method is often used in text classification, where the goal is to categorize text based on its lexical features.\n\nTokenization: Tokenization involves breaking down text into individual words or tokens. By comparing the frequency or co-occurrence of these tokens in a corpus, we can determine their lexical similarity. This method is often used in text classification, where the goal is to categorize text based on its lexical features.\n\nText Classification: By measuring lexical similarity, text can be classified into predefined categories based on its lexical characteristics.\n\nText Classification: By measuring lexical similarity, text can be classified into predefined categories based on its lexical characteristics.\n\nChallenges for Semantic Similarity Models\n\nAchieving accurate semantic similarity measurements is challenging due to nuances in language, context, idiomatic expressions, and cultural differences. Additionally, the effectiveness of methods may vary across languages and subject matter areas.\n\nEvaluating Models of Semantic Similarity\n\nEngineers must evaluate the performance of semantic similarity models using appropriate benchmark datasets and metrics. Common evaluation metrics include Pearson correlation, Spearman's rank correlation, and mean squared error.\n\nSemantic similarity is a crucial concept in natural language processing (NLP) that measures the degree of similarity between two pieces of text based on their meaning. It is a key component of many NLP applications, including search engines, sentiment analysis, and machine translation.\n\nIn this article, we have discussed the different techniques used to measure semantic similarity, including knowledge-based approaches, corpus-based approaches, and hybrid approaches. We have also explored the importance of lexical similarity in NLP and its applications in spell checking, text classification, and information retrieval.\n\nMeasuring semantic similarity is a challenging task that requires a deep understanding of natural language and its complexities. However, with the advancement of NLP techniques and the availability of large datasets, it is becoming increasingly possible to develop accurate and efficient semantic similarity models.\n\nIn the future, we can expect to see more advanced semantic similarity models that can capture subtle nuances in language and provide more accurate results. These models will have a significant impact on many NLP applications and will enable machines to better understand human language.\n\nSemantic similarity is a measure of the degree of similarity between two pieces of text based on their meaning.\n\nSemantic similarity is a measure of the degree of similarity between two pieces of text based on their meaning.\n\nThere are several techniques used to measure semantic similarity, including knowledge-based approaches, corpus-based approaches, and hybrid approaches.\n\nThere are several techniques used to measure semantic similarity, including knowledge-based approaches, corpus-based approaches, and hybrid approaches.\n\nMeasuring semantic similarity is a challenging task that requires a deep understanding of natural language and its complexities.\n\nMeasuring semantic similarity is a challenging task that requires a deep understanding of natural language and its complexities.",
+      "fetchedAt": "2026-09-17T13:12:48.234Z",
+      "title": "Semantic Similarity",
+      "status": "ok",
+      "contentLength": 14827,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 4,
+          "text": "What is Semantic Similarity? An Engineer's Guide"
+        },
+        {
+          "blockIndex": 5,
+          "text": "What is Semantic Similarity? An Engineer's Guide"
+        },
+        {
+          "blockIndex": 6,
+          "text": "Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently."
+        },
+        {
+          "blockIndex": 7,
+          "text": "Sentence semantic similarity refers to the techniques used to compute the similarity between sentences through linguistic embeddings and tokenization methods."
+        },
+        {
+          "blockIndex": 9,
+          "text": "Semantic similarity has diverse applications, such as:"
+        },
+        {
+          "blockIndex": 11,
+          "text": "Answering Questions: Semantic similarity can be used as a form of fuzzy logic to answer a question similar to that posed by the user. Often, as the user navigates to the exact solution they want, their question is not precise. Semantic similarity prepares answers to the user's question that are close to the question posed."
+        },
+        {
+          "blockIndex": 14,
+          "text": "Another application of semantic similarity is to ensure that the intended meaning is transferred correctly to a target language during translation. AI is being used widely in this area."
+        },
+        {
+          "blockIndex": 16,
+          "text": "Semantic similarity is used to identify sentences or phrases that convey similar meanings to each other, but are phrased differently. While two phrases may contain the same word set, their meanings can differ significantly, which is crucial for understanding text similarity and its applications in plagiarism detection. One specific use is to detect plagiarism where an author merely rephrased the source text. Teachers and others can also use semantic similarity to detect instances of plagiarism in which content is directly copied."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Text representation is a fundamental aspect of NLP, as it involves converting raw text into a format that can be processed and understood by machine learning algorithms. Correct text representation is crucial for tasks like sentiment analysis, machine translation, document classification, and semantic similarity measurement. It is key to the operation of search engines. Following are some key methods of text representation in NLP."
+        },
+        {
+          "blockIndex": 21,
+          "text": "BoW is a simple text representation method that treats a document as a collection of words, ignoring grammar and word order. It creates a vocabulary of unique words from the entire body of text under consideration, and represents each document as a vector where each element corresponds to the count or presence of a word in the vocabulary. BoW is straightforward but lacks context and semantic meaning."
+        },
+        {
+          "blockIndex": 25,
+          "text": "Word embeddings are dense, continuously-valued vector representations of words in a high-dimensional space. Methods like Word2Vec, GloVe (Global Vectors for Word Representation), and FastText learn embeddings by considering the context in which words appear in a large corpus. These embeddings capture semantic relationships between words. Word embeddings are used for tasks like word analogy, lexical similarity, and text classification."
+        },
+        {
+          "blockIndex": 26,
+          "text": "It might seem at first glance that there is little or no difference between analogy and similarity. However, there is a difference which will affect how two pieces of text are related."
+        },
+        {
+          "blockIndex": 31,
+          "text": "Contextual embeddings are word representations that capture the meaning of words in context. Google developed BERT (bidirectional encoder representations from transformers). Another generative model is GPT (generative pre-trained transformer). While these models are similar, the fundamental approach is different, taking into account the surrounding context of a word within a sentence. However, both models capture nuances in meaning and sentence structure by pre-training on massive amounts of text data. The intention is to create rich representations."
+        },
+        {
+          "blockIndex": 33,
+          "text": "In some cases, the text under consideration uses complex constructions, including prefixes, roots, and suffixes, or rarely used vocabulary elements. In this case, contextual embedding is not sufficient and subword representations break down words into smaller units, such as character n-grams or byte-pair encodings. This is especially useful for handling out-of-vocabulary words and morphologically rich languages."
+        },
+        {
+          "blockIndex": 37,
+          "text": "Document embeddings represent entire documents using vectors. Techniques like Doc2Vec extend the idea of word embeddings to capture the context and meaning of entire documents."
+        },
+        {
+          "blockIndex": 39,
+          "text": "Some approaches combine different levels of text representation to create hybrid models. For example, using techniques such as word embeddings and sentence embeddings together creates hybrid models that capture both local and global contexts."
+        },
+        {
+          "blockIndex": 40,
+          "text": "The choice of text representation method depends on several factors. These include the task at hand, the amount of available training data, and the desired level of linguistic information to be captured. More recent models, like BERT and GPT, have achieved state-of-the-art performance across various NLP tasks due to their ability to capture context and semantics effectively. There are several types of hybrid models:"
+        },
+        {
+          "blockIndex": 42,
+          "text": "Ensemble methods combine the outputs of multiple models to make a final prediction. For semantic similarity, this could involve combining scores from models that use different types of features or techniques."
+        },
+        {
+          "blockIndex": 50,
+          "text": "In some cases, hybrid models are trained to predict a ranking of text pairs based on human-annotated similarity scores. These models can then be used to rank new pairs of text."
+        },
+        {
+          "blockIndex": 53,
+          "text": "Several methods exist to quantify semantic similarity. Some common techniques include:"
+        },
+        {
+          "blockIndex": 57,
+          "text": "Utilize pre-trained word embeddings to measure similarity based on vector distances."
+        },
+        {
+          "blockIndex": 67,
+          "text": "Tokenization: Tokenization involves breaking down text into individual words or tokens. By comparing the frequency or co-occurrence of these tokens in a corpus, we can determine their lexical similarity. This method is often used in text classification, where the goal is to categorize text based on its lexical features."
+        },
+        {
+          "blockIndex": 68,
+          "text": "Tokenization: Tokenization involves breaking down text into individual words or tokens. By comparing the frequency or co-occurrence of these tokens in a corpus, we can determine their lexical similarity. This method is often used in text classification, where the goal is to categorize text based on its lexical features."
+        },
+        {
+          "blockIndex": 74,
+          "text": "Text Classification: By measuring lexical similarity, text can be classified into predefined categories based on its lexical characteristics."
+        },
+        {
+          "blockIndex": 75,
+          "text": "Text Classification: By measuring lexical similarity, text can be classified into predefined categories based on its lexical characteristics."
+        },
+        {
+          "blockIndex": 79,
+          "text": "Challenges for Semantic Similarity Models"
+        },
+        {
+          "blockIndex": 80,
+          "text": "Achieving accurate semantic similarity measurements is challenging due to nuances in language, context, idiomatic expressions, and cultural differences. Additionally, the effectiveness of methods may vary across languages and subject matter areas."
+        },
+        {
+          "blockIndex": 81,
+          "text": "Evaluating Models of Semantic Similarity"
+        },
+        {
+          "blockIndex": 82,
+          "text": "Engineers must evaluate the performance of semantic similarity models using appropriate benchmark datasets and metrics. Common evaluation metrics include Pearson correlation, Spearman's rank correlation, and mean squared error."
+        },
+        {
+          "blockIndex": 84,
+          "text": "Semantic similarity is a crucial concept in natural language processing (NLP) that measures the degree of similarity between two pieces of text based on their meaning. It is a key component of many NLP applications, including search engines, sentiment analysis, and machine translation."
+        },
+        {
+          "blockIndex": 85,
+          "text": "In this article, we have discussed the different techniques used to measure semantic similarity, including knowledge-based approaches, corpus-based approaches, and hybrid approaches. We have also explored the importance of lexical similarity in NLP and its applications in spell checking, text classification, and information retrieval."
+        },
+        {
+          "blockIndex": 86,
+          "text": "Measuring semantic similarity is a challenging task that requires a deep understanding of natural language and its complexities. However, with the advancement of NLP techniques and the availability of large datasets, it is becoming increasingly possible to develop accurate and efficient semantic similarity models."
+        },
+        {
+          "blockIndex": 87,
+          "text": "In the future, we can expect to see more advanced semantic similarity models that can capture subtle nuances in language and provide more accurate results. These models will have a significant impact on many NLP applications and will enable machines to better understand human language."
+        },
+        {
+          "blockIndex": 89,
+          "text": "Semantic similarity is a measure of the degree of similarity between two pieces of text based on their meaning."
+        },
+        {
+          "blockIndex": 90,
+          "text": "Semantic similarity is a measure of the degree of similarity between two pieces of text based on their meaning."
+        },
+        {
+          "blockIndex": 91,
+          "text": "There are several techniques used to measure semantic similarity, including knowledge-based approaches, corpus-based approaches, and hybrid approaches."
+        },
+        {
+          "blockIndex": 92,
+          "text": "There are several techniques used to measure semantic similarity, including knowledge-based approaches, corpus-based approaches, and hybrid approaches."
+        },
+        {
+          "blockIndex": 95,
+          "text": "Measuring semantic similarity is a challenging task that requires a deep understanding of natural language and its complexities."
+        },
+        {
+          "blockIndex": 96,
+          "text": "Measuring semantic similarity is a challenging task that requires a deep understanding of natural language and its complexities."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+      "content": "How to choose the best embedding model for semantic search [2026]\n\nDiscover the best embedding model for semantic search in 2026. See our model performance, cost, and relevancy comparison for building semantic search.\n\nSemantic search transforms how we find information online by focusing on understanding the meaning behind the words and phrases in user searches rather than relying solely on word-for-word matching.\n\nUsing machine learning (ML) and natural language processing (NLP), it decodes intent, context, and relationships between words, thus allowing for more conversational queries. This makes it a vital tool for businesses needing fast, accurate, and relevant results from large or complex data sets.\n\nEmbedding models are ML techniques that render words and phrases into complex numerical representations, which are then classified based on their context and relationships. However, not all models are the same. Accuracy, speed, indexing efficiency, and pricing can vary significantly between them.\n\nChoosing the right semantic search model is crucial for delivering precise, efficient, and scalable search experiences for specific tasks.\n\nUnderstanding the trade-offs – whether for multilingual support, search latency, or computational efficiency – will help you implement a high-performing semantic search system for your brand.\n\nSemantic search is an advanced AI-powered approach to information retrieval that focuses on NLP, ML, and knowledge representation to deduce the intent and contextual meaning of user queries.\n\nTraditional keyword-based search engines match exact strings of words, but that’s not always enough. Semantic search goes further by incorporating named entity recognition, relationships between words, and contextual disambiguation to deliver more relevant results.\n\nSemantic search engines can understand synonyms, paraphrased queries, and even infer implicit meanings exclusively because they use deep learning models such as transformers.\n\nWhy is semantic search important?\n\nSemantic search is important because it improves search capability and relevance, thus helping users find information faster and with fewer irrelevant results. It also reduces uncertainty by interpreting natural language queries more clearly.\n\nLike similarity search, it allows users to phrase their questions conversationally and intuitively rather than using specific – sometimes even long-tail – keywords. Think of it like this: if you can ask a question from your neighbor on a bus, then you can ask it with a quick semantic search.\n\nAdditionally, businesses benefit from semantic search by enhancing customer experiences, improving product discovery, and optimizing knowledge management systems.\n\nFor example, e-commerce stores like Bookshop.org can boost search-based sales by up to 43% by implementing semantic search tools like Meilisearch.\n\nA core component of semantic search is embedding models through which similarity computations are made possible.\n\nEmbedding models are machine learning models that transform words, phrases, or documents into dense numerical representations called embeddings.\n\nThese vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words.\n\nFor instance, embeddings generated for words like “phone,” “mobile,” and “cell” will be more closely aligned in vector space than, say, “cell” and “bell,” even though the latter two are closer in letter-by-letter similarity.\n\nWhat’s the difference between semantic and search embeddings?\n\nSemantic and search embeddings serve distinct purposes in NLP applications, particularly in semantic search.\n\nSemantic embeddings capture the meaning and relationships between words, which is helpful for tasks like document classification, recommendation systems, language translation, and sentiment analysis. They do this by reflecting the words’ conceptual similarities, even if they are not used in the same context.\n\nOn the other hand, search embeddings are specifically optimized for retrieval tasks, thus ensuring queries and indexed documents align effectively in vector space to maximize search relevance.\n\nUnlike generic semantic embeddings, search embeddings often incorporate domain- and background-specific optimizations to fine-tune the effectiveness of the specific retrieval activity.\n\nFor example, a semantic embedding model might learn that \"mac\" is related to pasta, the makeup company, and the Apple laptop computer. However, a search embedding model trained on computers and hardware would prioritize the third meaning when processing search queries in that domain.\n\nEmbedding models serve as the backbone of semantic search by enabling similarity-based retrieval mechanisms that align with user intent.\n\nWhat is the role of embedding models in semantic search?\n\nEmbedding models power semantic search by converting text into a structured format that can be efficiently indexed and retrieved.\n\nInstead of relying on exact keyword matches, these models compare query embeddings with indexed document embeddings. This enables nearest-neighbor searches and significantly improves retrieval accuracy over traditional algorithms that depend on keyword matching.\n\nThese models often use transformer-based architectures such as BERT (Bidirectional Encoder Representations from Transformers), GPT (Generative Pre-trained Transformer), and their derivative neural networks to capture context-aware representations.\n\nThat’s how they can handle nuanced queries at scale. For instance, even though “cat” and “bat” sound (and look) similar, only one of them may be used in context as a conventional house pet.\n\nSeveral fine-tuned and pre-trained models continue to emerge as industry standards for semantic search. Each improves precision, relevance, efficiency, and/or scalability in its own way.\n\nWhat are the most commonly used models for semantic search?\n\nDifferent embedding models vary in terms of vector dimensionality, context length, and certain other performance characteristics.\n\nIn the context of LLMs, dimensionality points to the number of components in a vector, with each corresponding to an attribute of the encoded variable. Additionally, context length relates to the amount of text – usually measured in tokens – a model can “remember” and refer to at any given time.\n\nYour choice of a model for semantic search will depend on a variety of factors, including, but not limited to, its accuracy, computational efficiency, and cost.\n\nWhat factors should be considered when choosing the best model for semantic search?\n\nRelevance is the cornerstone of effective semantic search, especially in achieving optimal user experience. The right model should balance precision, recall, and speed to ensure users receive highly relevant results without excessive noise.\n\nThis balance becomes especially important when comparing hybrid approaches like vector and full-text search. When selecting an embedding model, think about the following:\n\nIn this context, bigger might not always mean better. While larger models often provide better accuracy, smaller models can offer competitive results at lower computational costs.\n\nLocal embedding models are ideal to achieve lightning-fast performance, as they eliminate the need for round trips to external services and reduce latency. If you must rely on remote models, hosting your search service close to the embedding service can minimize delays and improve user experience.\n\nThe table below showcases latency benchmarks for various local embedding models and embedding APIs. All requests originate from a Meilisearch instance hosted in the AWS London data center.\n\nEfficient indexing is another critical factor for the scalability of your search solution. As expected, the time required to process and store embeddings varies widely among models. Notable metrics influencing processing time are API rate limits, batch processing capabilities, and model dimensions.\n\nLocal models without GPUs may experience slower indexing due to limited processing power, while third-party services vary in speed based on their infrastructure and agreements.\n\nThe benchmark below compares the indexing performance of a collection of 10k e-commerce documents (with automatic embedding generation).\n\nMeilisearch benchmarks indicate that indexing times range from under a minute for optimized cloud-based solutions to several hours for certain local models without GPU acceleration.\n\nEmbedding model costs vary depending on the provider and usage model. While local models are free to run, they require computational resources, potentially necessitating GPU investment.\n\nTo maximize search performance, hybrid search approaches combining full-text and vector search can yield the best results. To refine semantic search performance, consider the following optimizations:\n\nExperiment with model presets, as some models allow tuning for query vs. document",
+      "fetchedAt": "2026-09-17T13:12:48.235Z",
+      "title": "How to choose the best embedding model for semantic search [2026] | Meilisearch",
+      "status": "ok",
+      "contentLength": 16968,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "How to choose the best embedding model for semantic search [2026]"
+        },
+        {
+          "blockIndex": 1,
+          "text": "Discover the best embedding model for semantic search in 2026. See our model performance, cost, and relevancy comparison for building semantic search."
+        },
+        {
+          "blockIndex": 5,
+          "text": "Semantic search transforms how we find information online by focusing on understanding the meaning behind the words and phrases in user searches rather than relying solely on word-for-word matching."
+        },
+        {
+          "blockIndex": 6,
+          "text": "Using machine learning (ML) and natural language processing (NLP), it decodes intent, context, and relationships between words, thus allowing for more conversational queries. This makes it a vital tool for businesses needing fast, accurate, and relevant results from large or complex data sets."
+        },
+        {
+          "blockIndex": 7,
+          "text": "Embedding models are ML techniques that render words and phrases into complex numerical representations, which are then classified based on their context and relationships. However, not all models are the same. Accuracy, speed, indexing efficiency, and pricing can vary significantly between them."
+        },
+        {
+          "blockIndex": 8,
+          "text": "Choosing the right semantic search model is crucial for delivering precise, efficient, and scalable search experiences for specific tasks."
+        },
+        {
+          "blockIndex": 9,
+          "text": "Understanding the trade-offs – whether for multilingual support, search latency, or computational efficiency – will help you implement a high-performing semantic search system for your brand."
+        },
+        {
+          "blockIndex": 11,
+          "text": "Semantic search is an advanced AI-powered approach to information retrieval that focuses on NLP, ML, and knowledge representation to deduce the intent and contextual meaning of user queries."
+        },
+        {
+          "blockIndex": 12,
+          "text": "Traditional keyword-based search engines match exact strings of words, but that’s not always enough. Semantic search goes further by incorporating named entity recognition, relationships between words, and contextual disambiguation to deliver more relevant results."
+        },
+        {
+          "blockIndex": 13,
+          "text": "Semantic search engines can understand synonyms, paraphrased queries, and even infer implicit meanings exclusively because they use deep learning models such as transformers."
+        },
+        {
+          "blockIndex": 15,
+          "text": "Why is semantic search important?"
+        },
+        {
+          "blockIndex": 16,
+          "text": "Semantic search is important because it improves search capability and relevance, thus helping users find information faster and with fewer irrelevant results. It also reduces uncertainty by interpreting natural language queries more clearly."
+        },
+        {
+          "blockIndex": 17,
+          "text": "Like similarity search, it allows users to phrase their questions conversationally and intuitively rather than using specific – sometimes even long-tail – keywords. Think of it like this: if you can ask a question from your neighbor on a bus, then you can ask it with a quick semantic search."
+        },
+        {
+          "blockIndex": 18,
+          "text": "Additionally, businesses benefit from semantic search by enhancing customer experiences, improving product discovery, and optimizing knowledge management systems."
+        },
+        {
+          "blockIndex": 19,
+          "text": "For example, e-commerce stores like Bookshop.org can boost search-based sales by up to 43% by implementing semantic search tools like Meilisearch."
+        },
+        {
+          "blockIndex": 20,
+          "text": "A core component of semantic search is embedding models through which similarity computations are made possible."
+        },
+        {
+          "blockIndex": 22,
+          "text": "Embedding models are machine learning models that transform words, phrases, or documents into dense numerical representations called embeddings."
+        },
+        {
+          "blockIndex": 23,
+          "text": "These vector representations encode word relationships, which allow search engines to compare semantic meaning and context rather than rely solely on exact similarity between words."
+        },
+        {
+          "blockIndex": 24,
+          "text": "For instance, embeddings generated for words like “phone,” “mobile,” and “cell” will be more closely aligned in vector space than, say, “cell” and “bell,” even though the latter two are closer in letter-by-letter similarity."
+        },
+        {
+          "blockIndex": 26,
+          "text": "What’s the difference between semantic and search embeddings?"
+        },
+        {
+          "blockIndex": 27,
+          "text": "Semantic and search embeddings serve distinct purposes in NLP applications, particularly in semantic search."
+        },
+        {
+          "blockIndex": 28,
+          "text": "Semantic embeddings capture the meaning and relationships between words, which is helpful for tasks like document classification, recommendation systems, language translation, and sentiment analysis. They do this by reflecting the words’ conceptual similarities, even if they are not used in the same context."
+        },
+        {
+          "blockIndex": 29,
+          "text": "On the other hand, search embeddings are specifically optimized for retrieval tasks, thus ensuring queries and indexed documents align effectively in vector space to maximize search relevance."
+        },
+        {
+          "blockIndex": 30,
+          "text": "Unlike generic semantic embeddings, search embeddings often incorporate domain- and background-specific optimizations to fine-tune the effectiveness of the specific retrieval activity."
+        },
+        {
+          "blockIndex": 31,
+          "text": "For example, a semantic embedding model might learn that \"mac\" is related to pasta, the makeup company, and the Apple laptop computer. However, a search embedding model trained on computers and hardware would prioritize the third meaning when processing search queries in that domain."
+        },
+        {
+          "blockIndex": 32,
+          "text": "Embedding models serve as the backbone of semantic search by enabling similarity-based retrieval mechanisms that align with user intent."
+        },
+        {
+          "blockIndex": 33,
+          "text": "What is the role of embedding models in semantic search?"
+        },
+        {
+          "blockIndex": 34,
+          "text": "Embedding models power semantic search by converting text into a structured format that can be efficiently indexed and retrieved."
+        },
+        {
+          "blockIndex": 35,
+          "text": "Instead of relying on exact keyword matches, these models compare query embeddings with indexed document embeddings. This enables nearest-neighbor searches and significantly improves retrieval accuracy over traditional algorithms that depend on keyword matching."
+        },
+        {
+          "blockIndex": 36,
+          "text": "These models often use transformer-based architectures such as BERT (Bidirectional Encoder Representations from Transformers), GPT (Generative Pre-trained Transformer), and their derivative neural networks to capture context-aware representations."
+        },
+        {
+          "blockIndex": 37,
+          "text": "That’s how they can handle nuanced queries at scale. For instance, even though “cat” and “bat” sound (and look) similar, only one of them may be used in context as a conventional house pet."
+        },
+        {
+          "blockIndex": 38,
+          "text": "Several fine-tuned and pre-trained models continue to emerge as industry standards for semantic search. Each improves precision, relevance, efficiency, and/or scalability in its own way."
+        },
+        {
+          "blockIndex": 39,
+          "text": "What are the most commonly used models for semantic search?"
+        },
+        {
+          "blockIndex": 40,
+          "text": "Different embedding models vary in terms of vector dimensionality, context length, and certain other performance characteristics."
+        },
+        {
+          "blockIndex": 41,
+          "text": "In the context of LLMs, dimensionality points to the number of components in a vector, with each corresponding to an attribute of the encoded variable. Additionally, context length relates to the amount of text – usually measured in tokens – a model can “remember” and refer to at any given time."
+        },
+        {
+          "blockIndex": 44,
+          "text": "Your choice of a model for semantic search will depend on a variety of factors, including, but not limited to, its accuracy, computational efficiency, and cost."
+        },
+        {
+          "blockIndex": 45,
+          "text": "What factors should be considered when choosing the best model for semantic search?"
+        },
+        {
+          "blockIndex": 47,
+          "text": "Relevance is the cornerstone of effective semantic search, especially in achieving optimal user experience. The right model should balance precision, recall, and speed to ensure users receive highly relevant results without excessive noise."
+        },
+        {
+          "blockIndex": 48,
+          "text": "This balance becomes especially important when comparing hybrid approaches like vector and full-text search. When selecting an embedding model, think about the following:"
+        },
+        {
+          "blockIndex": 52,
+          "text": "In this context, bigger might not always mean better. While larger models often provide better accuracy, smaller models can offer competitive results at lower computational costs."
+        },
+        {
+          "blockIndex": 56,
+          "text": "Local embedding models are ideal to achieve lightning-fast performance, as they eliminate the need for round trips to external services and reduce latency. If you must rely on remote models, hosting your search service close to the embedding service can minimize delays and improve user experience."
+        },
+        {
+          "blockIndex": 57,
+          "text": "The table below showcases latency benchmarks for various local embedding models and embedding APIs. All requests originate from a Meilisearch instance hosted in the AWS London data center."
+        },
+        {
+          "blockIndex": 60,
+          "text": "Efficient indexing is another critical factor for the scalability of your search solution. As expected, the time required to process and store embeddings varies widely among models. Notable metrics influencing processing time are API rate limits, batch processing capabilities, and model dimensions."
+        },
+        {
+          "blockIndex": 61,
+          "text": "Local models without GPUs may experience slower indexing due to limited processing power, while third-party services vary in speed based on their infrastructure and agreements."
+        },
+        {
+          "blockIndex": 63,
+          "text": "The benchmark below compares the indexing performance of a collection of 10k e-commerce documents (with automatic embedding generation)."
+        },
+        {
+          "blockIndex": 64,
+          "text": "Meilisearch benchmarks indicate that indexing times range from under a minute for optimized cloud-based solutions to several hours for certain local models without GPU acceleration."
+        },
+        {
+          "blockIndex": 67,
+          "text": "Embedding model costs vary depending on the provider and usage model. While local models are free to run, they require computational resources, potentially necessitating GPU investment."
+        },
+        {
+          "blockIndex": 72,
+          "text": "To maximize search performance, hybrid search approaches combining full-text and vector search can yield the best results. To refine semantic search performance, consider the following optimizations:"
+        },
+        {
+          "blockIndex": 73,
+          "text": "Experiment with model presets, as some models allow tuning for query vs. document"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://aclanthology.org/2022.gem-1.8.pdf",
+      "content": "",
+      "fetchedAt": "2026-09-17T13:12:48.236Z",
+      "title": "",
+      "status": "error",
+      "contentLength": 0,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://arxiv.org/html/2309.12697v2",
+      "tieuDe": "Semantic similarity prediction is better than other semantic similarity measures",
+      "ngayLayVe": "2026-09-17T13:12:47.564Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo trên arXiv, thảo luận chuyên sâu về các phương pháp đo lường độ tương đồng ngữ nghĩa (BERTScore, S-BERT, STSScore) và so sánh hiệu quả của chúng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/",
+      "tieuDe": "An intuitive introduction to text embeddings - Stack Overflow",
+      "ngayDang": "2023-11-09T20:22:34.075Z",
+      "ngayLayVe": "2026-09-17T13:12:47.565Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog kỹ thuật từ Stack Overflow, giải thích trực quan về vector embedding và không gian tiềm ẩn, phù hợp cho mục đích giáo dục nhưng thiếu tính chính thức của học thuật.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn cũ hơn 1 năm (2023)",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://zilliz.com/glossary/semantic-similarity",
+      "tieuDe": "Semantic Similarity",
+      "ngayLayVe": "2026-09-17T13:12:48.234Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Từ điển kỹ thuật của công ty Zilliz (chuyên về vector database), cung cấp định nghĩa chuẩn và các phương pháp biểu diễn văn bản (BoW, Word embeddings, Contextual embeddings).",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search",
+      "tieuDe": "How to choose the best embedding model for semantic search [2026] | Meilisearch",
+      "tacGia": "Maya Shin",
+      "toChuc": "Meilisearch",
+      "ngayDang": "2025-03-19T00:00:00.000Z",
+      "ngayLayVe": "2026-09-17T13:12:48.235Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Blog marketing của công ty Meilisearch, chứa các số liệu hiệu suất cụ thể (43%) có thể mang tính quảng cáo và thiếu bối cảnh học thuật cần thiết cho bài giảng nền tảng.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Nguồn thiên về marketing sản phẩm, số liệu hiệu suất cụ thể không phù hợp để làm bằng chứng cho nguyên lý hoạt động chung của tìm kiếm ngữ nghĩa trong bài giảng giáo dục.",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "For example, e-commerce stores like Bookshop.org can boost search-based sales by up to 43% by implementing semantic search tools like Meilisearch.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+      "tieuDe": "https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-text-emb-vector-search-example",
+      "ngayLayVe": "2026-09-17T13:12:47.563Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: Content-Type không phải HTML: text/markdown; charset=UTF-8",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "error",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    },
+    {
+      "id": "n06",
+      "url": "https://aclanthology.org/2022.gem-1.8.pdf",
+      "tieuDe": "https://aclanthology.org/2022.gem-1.8.pdf",
+      "ngayLayVe": "2026-09-17T13:12:48.236Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: Content-Type không phải HTML: application/pdf",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "error",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "sourcesRejected": [
+    "n04",
+    "n05",
+    "n06"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Độ tương đồng ngữ nghĩa là mức độ trùng khớp hoặc giống nhau về ý nghĩa giữa hai đoạn văn bản, ngay cả khi chúng được diễn đạt khác nhau.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.",
+          "viTri": "Đoạn mở đầu trang 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Trong không gian vector (embedding space), các văn bản có ý nghĩa tương đồng sẽ được đặt gần nhau hơn so với các văn bản ít tương đồng.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items.",
+          "viTri": "Đoạn giữa trang 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Kiến trúc Transformer cho phép tính toán các vector embedding nhạy cảm với ngữ cảnh, từ đó cải thiện khả năng đo lường độ tương đồng ngữ nghĩa so với các phương pháp trước đó.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity.",
+          "viTri": "Đoạn thứ 4 trang 1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://arxiv.org/html/2309.12697v2\",\n      \"tieuDe\": \"Semantic similarity prediction is better than other semantic similarity measures\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:12:47.564Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo trên arXiv, thảo luận chuyên sâu về các phương pháp đo lường độ tương đồng ngữ nghĩa (BERTScore, S-BERT, STSScore) và so sánh hiệu quả của chúng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/\",\n      \"tieuDe\": \"An intuitive introduction to text embeddings - Stack Overflow\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Stack Overflow\",\n      \"ngayDang\": \"2023-11-09\",\n      \"ngayLayVe\": \"2026-09-17T13:12:47.565Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog kỹ thuật từ Stack Overflow, giải thích trực quan về vector embedding và không gian tiềm ẩn, phù hợp cho mục đích giáo dục nhưng thiếu tính chính thức của học thuật.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn cũ hơn 1 năm (2023)\"\n      ],\n      \"doanTrich\": \"Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://zilliz.com/glossary/semantic-similarity\",\n      \"tieuDe\": \"Semantic Similarity\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Zilliz\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:12:48.234Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Từ điển kỹ thuật của công ty Zilliz (chuyên về vector database), cung cấp định nghĩa chuẩn và các phương pháp biểu diễn văn bản (BoW, Word embeddings, Contextual embeddings).\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search\",\n      \"tieuDe\": \"How to choose the best embedding model for semantic search [2026] | Meilisearch\",\n      \"tacGia\": \"Maya Shin\",\n      \"toChuc\": \"Meilisearch\",\n      \"ngayDang\": \"2025-03-19\",\n      \"ngayLayVe\": \"2026-09-17T13:12:48.235Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Blog marketing của công ty Meilisearch, chứa các số liệu hiệu suất cụ thể (43%) có thể mang tính quảng cáo và thiếu bối cảnh học thuật cần thiết cho bài giảng nền tảng.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn thiên về marketing sản phẩm, số liệu hiệu suất cụ thể không phù hợp để làm bằng chứng cho nguyên lý hoạt động chung của tìm kiếm ngữ nghĩa trong bài giảng giáo dục.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"For example, e-commerce stores like Bookshop.org can boost search-based sales by up to 43% by implementing semantic search tools like Meilisearch.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Độ tương đồng ngữ nghĩa là mức độ trùng khớp hoặc giống nhau về ý nghĩa giữa hai đoạn văn bản, ngay cả khi chúng được diễn đạt khác nhau.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.\",\n          \"viTri\": \"Đoạn mở đầu trang 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Trong không gian vector (embedding space), các văn bản có ý nghĩa tương đồng sẽ được đặt gần nhau hơn so với các văn bản ít tương đồng.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items.\",\n          \"viTri\": \"Đoạn giữa trang 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Kiến trúc Transformer cho phép tính toán các vector embedding nhạy cảm với ngữ cảnh, từ đó cải thiện khả năng đo lường độ tương đồng ngữ nghĩa so với các phương pháp trước đó.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity.\",\n          \"viTri\": \"Đoạn thứ 4 trang 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-921f4f0f-a3bf-406c-b8d2-d1d66e48c57e",
+      "durationMs": 4303,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://arxiv.org/html/2309.12697v2\",\n      \"tieuDe\": \"Semantic similarity prediction is better than other semantic similarity measures\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:12:47.564Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo trên arXiv, thảo luận chuyên sâu về các phương pháp đo lường độ tương đồng ngữ nghĩa (BERTScore, S-BERT, STSScore) và so sánh hiệu quả của chúng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://stackoverflow.blog/2023/11/09/an-intuitive-introduction-to-text-embeddings/\",\n      \"tieuDe\": \"An intuitive introduction to text embeddings - Stack Overflow\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Stack Overflow\",\n      \"ngayDang\": \"2023-11-09\",\n      \"ngayLayVe\": \"2026-09-17T13:12:47.565Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog kỹ thuật từ Stack Overflow, giải thích trực quan về vector embedding và không gian tiềm ẩn, phù hợp cho mục đích giáo dục nhưng thiếu tính chính thức của học thuật.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn cũ hơn 1 năm (2023)\"\n      ],\n      \"doanTrich\": \"Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://zilliz.com/glossary/semantic-similarity\",\n      \"tieuDe\": \"Semantic Similarity\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Zilliz\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:12:48.234Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Từ điển kỹ thuật của công ty Zilliz (chuyên về vector database), cung cấp định nghĩa chuẩn và các phương pháp biểu diễn văn bản (BoW, Word embeddings, Contextual embeddings).\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search\",\n      \"tieuDe\": \"How to choose the best embedding model for semantic search [2026] | Meilisearch\",\n      \"tacGia\": \"Maya Shin\",\n      \"toChuc\": \"Meilisearch\",\n      \"ngayDang\": \"2025-03-19\",\n      \"ngayLayVe\": \"2026-09-17T13:12:48.235Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Blog marketing của công ty Meilisearch, chứa các số liệu hiệu suất cụ thể (43%) có thể mang tính quảng cáo và thiếu bối cảnh học thuật cần thiết cho bài giảng nền tảng.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn thiên về marketing sản phẩm, số liệu hiệu suất cụ thể không phù hợp để làm bằng chứng cho nguyên lý hoạt động chung của tìm kiếm ngữ nghĩa trong bài giảng giáo dục.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"For example, e-commerce stores like Bookshop.org can boost search-based sales by up to 43% by implementing semantic search tools like Meilisearch.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Độ tương đồng ngữ nghĩa là mức độ trùng khớp hoặc giống nhau về ý nghĩa giữa hai đoạn văn bản, ngay cả khi chúng được diễn đạt khác nhau.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Semantic similarity refers to the degree of overlap or resemblance in meaning between two pieces of text, phrases, sentences, or larger chunks of text, even if they are phrased differently.\",\n          \"viTri\": \"Đoạn mở đầu trang 3\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Trong không gian vector (embedding space), các văn bản có ý nghĩa tương đồng sẽ được đặt gần nhau hơn so với các văn bản ít tương đồng.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Mathematically, an embedding space, or latent space, is defined as a manifold in which similar items are positioned closer to one another than less similar items.\",\n          \"viTri\": \"Đoạn giữa trang 2\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Kiến trúc Transformer cho phép tính toán các vector embedding nhạy cảm với ngữ cảnh, từ đó cải thiện khả năng đo lường độ tương đồng ngữ nghĩa so với các phương pháp trước đó.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The transformer architecture enabled the context-sensitive calculation of embeddings (Vaswani et al., 2017). Naturally, this was adopted for the calculation of the similarity.\",\n          \"viTri\": \"Đoạn thứ 4 trang 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 11768
+}

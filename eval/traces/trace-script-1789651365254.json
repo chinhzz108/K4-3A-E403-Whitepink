@@ -1,0 +1,255 @@
+{
+  "id": "trace-script-1789651365254",
+  "timestamp": "2026-09-17T13:22:45.254Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+    "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+    "targetAudience": "Giáo viên mầm non",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N21"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://hnuejs.edu.vn/es/article/view/842",
+      "tieuDe": "DEVELOPING AI LITERACY FOR PRIMARY SCHOOL TEACHERS IN CHINA AND SUGGESTIONS FOR VIETNAM\n\t\t\t\t\t\t\t| HNUE Journal of Science: Journal of Educational Science",
+      "ngayLayVe": "2026-09-17T13:21:53.766Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Đăng tải trên tạp chí khoa học của Đại học Sư phạm Hà Nội, có quy trình bình duyệt rõ ràng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nghiên cứu tập trung vào cấp tiểu học hơn là mầm non.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "On this basis, the paper proposes actionable solutions to enhance AI literacy and application in primary education in Vietnam, with these recommendations carefully adapted and grounded in the specific findings of the comparative analysis and Vietnamese contextual factors.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-to-pilot-ai-teaching-across-grades-1-12-5007313.html",
+      "tieuDe": "Vietnam to pilot AI teaching across grades 1-12 - VnExpress International",
+      "tacGia": "VnExpress",
+      "toChuc": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
+      "ngayLayVe": "2026-09-17T13:21:53.768Z",
+      "loai": "bao-chi",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Báo điện tử uy tín tại Việt Nam, trích dẫn phát biểu trực tiếp của Viện trưởng Viện Khoa học Giáo dục Việt Nam.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Đề cập đến chương trình từ lớp 1-12, không đi sâu vào mầm non.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://link.springer.com/article/10.1007/s00146-026-03306-0",
+      "tieuDe": "Investigating human-AI partnership in early childhood STEM teaching: evidence from Vietnamese preschool teachers | AI & SOCIETY | Springer Nature Link",
+      "toChuc": "SpringerLink",
+      "ngayDang": "2026-08-25",
+      "ngayLayVe": "2026-09-17T13:22:03.781Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Nghiên cứu khoa học đăng trên hệ thống Springer Nature uy tín, trực tiếp nghiên cứu về giáo viên mầm non Việt Nam.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Ứng dụng AI (Eduaide.Ai) hỗ trợ giáo viên mầm non Việt Nam thiết kế bài học STEM.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design.",
+          "viTri": "Phần tóm tắt nghiên cứu"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Giáo viên lo ngại về tính chính xác, bảo mật và an toàn dữ liệu khi ứng dụng AI.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+          "viTri": "Đoạn 4 trong bài báo"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Lo ngại về việc ứng dụng AI làm giảm đi sự tương tác trực tiếp giữa người với người trong môi trường giáo dục.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction.",
+          "viTri": "Đoạn 4 trong bài báo"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+    "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Giáo viên mầm non",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.",
+        "chuTrenManHinh": "Chào mừng",
+        "yDoHinh": "Hình ảnh giáo viên mỉm cười trước bảng",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.",
+        "chuTrenManHinh": "Eduaide.Ai trên máy tính",
+        "yDoHinh": "Màn hình máy tính hiện giao diện phần mềm thiết kế bài học",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.",
+        "chuTrenManHinh": "Lo ngại về dữ liệu",
+        "yDoHinh": "Biểu tượng khóa và dấu chấm hỏi nổi lên",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?",
+        "chuTrenManHinh": "Tương tác trực tiếp",
+        "yDoHinh": "Giáo viên và trẻ em nhìn nhau, phía sau là màn hình mờ",
+        "nguon": [
+          "t04"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.",
+        "chuTrenManHinh": "Lộ trình học tập",
+        "yDoHinh": "Bốn ô vuông đại diện cho hai ứng dụng và hai lo ngại",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] This study investigates human-AI partnership in early childhood STEM education by examining the relationships associated with Vietnamese preschool teachers’ use of artificial intelligence (Eduaide.Ai) for STEM lesson design."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?",
+      "nguon": [
+        "t04"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Though nearly 70% of teachers viewed AI positively, there were concerns about accuracy, privacy, data security, and reduced human interaction."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\",\n  \"mucTieu\": \"Nêu được hai ứng dụng thực tế và hai lo ngại\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Giáo viên mầm non\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.\",\n      \"chuTrenManHinh\": \"Chào mừng\",\n      \"yDoHinh\": \"Hình ảnh giáo viên mỉm cười trước bảng\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.\",\n      \"chuTrenManHinh\": \"Eduaide.Ai trên máy tính\",\n      \"yDoHinh\": \"Màn hình máy tính hiện giao diện phần mềm thiết kế bài học\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.\",\n      \"chuTrenManHinh\": \"Lo ngại về dữ liệu\",\n      \"yDoHinh\": \"Biểu tượng khóa và dấu chấm hỏi nổi lên\",\n      \"nguon\": [\"t03\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?\",\n      \"chuTrenManHinh\": \"Tương tác trực tiếp\",\n      \"yDoHinh\": \"Giáo viên và trẻ em nhìn nhau, phía sau là màn hình mờ\",\n      \"nguon\": [\"t04\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.\",\n      \"chuTrenManHinh\": \"Lộ trình học tập\",\n      \"yDoHinh\": \"Bốn ô vuông đại diện cho hai ứng dụng và hai lo ngại\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-98658577-5001-48ee-a7d4-c67d57b19086",
+      "durationMs": 4663,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\",\n  \"mucTieu\":\"Nêu được hai ứng dụng thực tế và hai lo ngại\",\n  \"thoiLuong\":\"bốn phút\",\n  \"nguoiHoc\":\"Giáo viên mầm non\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Xin chào các thầy cô giáo mầm non, chào mừng đến với buổi chia sẻ về trí tuệ nhân tạo trong lớp học.\",\n      \"chuTrenManHinh\":\"Chào mừng\",\n      \"yDoHinh\":\"Hình ảnh giáo viên mỉm cười trước bảng\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.\",\n      \"chuTrenManHinh\":\"Eduaide.Ai trên máy tính\",\n      \"yDoHinh\":\"Màn hình máy tính hiện giao diện phần mềm thiết kế bài học\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Hiện nay, AI đang được thử nghiệm trong nhiều lớp học ở Việt Nam, mở ra cơ hội áp dụng cho mầm non.\",\n      \"chuTrenManHinh\":\"AI trong lớp học\",\n      \"yDoHinh\":\"Giáo viên sử dụng máy tính bảng để hỗ trợ học sinh\",\n      \"nguon\":[\"n02\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Các thầy cô có lo ngại về độ chính xác và bảo mật dữ liệu khi sử dụng AI trong giảng dạy.\",\n      \"chuTrenManHinh\":\"Cảnh giáo viên suy nghĩ\",\n      \"yDoHinh\":\"Biểu tượng dấu chấm hỏi và biểu tượng khóa\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Một lo ngại khác là AI có thể làm giảm sự tương tác trực tiếp giữa giáo viên và trẻ em.\",\n      \"chuTrenManHinh\":\"Cảnh giáo viên và trẻ em giao tiếp\",\n      \"yDoHinh\":\"Hai người đang trò chuyện, phía sau là màn hình AI\",\n      \"nguon\":[\"t04\"]\n    }\n  ]\n}",
+      "validationError": "Câu 3: mẫu không hợp lệ (nguon không phải mã thongTin: [\"n02\"])"
+    },
+    {
+      "stage": "repair",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-db041cca-826a-4299-b1b4-d2f59f59165c",
+      "durationMs": 1879,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\",\n  \"mucTieu\": \"Nêu được hai ứng dụng thực tế và hai lo ngại\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Giáo viên mầm non\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Xin chào các thầy cô giáo mầm non, chúng ta cùng bắt đầu buổi chia sẻ về trí tuệ nhân tạo trong lớp học.\",\n      \"chuTrenManHinh\": \"Chào mừng\",\n      \"yDoHinh\": \"Hình ảnh giáo viên mỉm cười trước bảng\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Một công cụ trí tuệ nhân tạo mang tên Eduaide.Ai đang hỗ trợ các thầy cô thiết kế bài học STEM một cách sáng tạo.\",\n      \"chuTrenManHinh\": \"Eduaide.Ai trên máy tính\",\n      \"yDoHinh\": \"Màn hình máy tính hiện giao diện phần mềm thiết kế bài học\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Nhiều giáo viên vẫn còn lo ngại về độ chính xác và bảo mật dữ liệu khi ứng dụng công nghệ này.\",\n      \"chuTrenManHinh\": \"Lo ngại về dữ liệu\",\n      \"yDoHinh\": \"Biểu tượng khóa và dấu chấm hỏi nổi lên\",\n      \"nguon\": [\"t03\"]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Thầy cô có nghĩ rằng việc sử dụng máy móc sẽ làm giảm đi sự tương tác trực tiếp giữa người với người không?\",\n      \"chuTrenManHinh\": \"Tương tác trực tiếp\",\n      \"yDoHinh\": \"Giáo viên và trẻ em nhìn nhau, phía sau là màn hình mờ\",\n      \"nguon\": [\"t04\"]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chúng ta sẽ cùng tìm hiểu hai ứng dụng thực tế và hai lo ngại chính để cân nhắc kỹ lưỡng trước khi áp dụng.\",\n      \"chuTrenManHinh\": \"Lộ trình học tập\",\n      \"yDoHinh\": \"Bốn ô vuông đại diện cho hai ứng dụng và hai lo ngại\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 6680
+}

@@ -1,0 +1,1120 @@
+{
+  "case": {
+    "id": "N01",
+    "class": "thuong",
+    "input": {
+      "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+      "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Tìm được ≥2 nguồn đáng tin về context window. Kịch bản viết bằng văn nói, không số, có dẫn nguồn.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #1; không phải chatlog",
+    "passCriteria": "≥2 nguồn thật có URL hợp lệ; ≥3 câu có nguồn; loi không chứa chữ số",
+    "failCriteria": "Bịa nguồn; URL .test; có chữ số trong loi; không có doanTrich"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+        "tieuDe": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+        "toChuc": "Viblo",
+        "ngayLayVe": "2026-09-17T12:05:42.027Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Viblo là nền tảng chia sẻ kỹ thuật phổ biến tại Việt Nam, nội dung chi tiết và có cấu trúc tốt, tuy nhiên thiếu thông tin tác giả và ngày đăng cụ thể.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Thiếu thông tin tác giả và ngày đăng",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp",
+        "tieuDe": "What is a context window? | IBM",
+        "tacGia": "Dave Bergmann",
+        "ngayDang": "2024-11-26",
+        "ngayLayVe": "2026-09-17T12:05:42.028Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng và ngày đăng cụ thể, nội dung mang tính học thuật và kỹ thuật cao.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn gốc là bản dịch tự động từ tiếng Anh, cần kiểm tra độ chính xác của thuật ngữ nếu cần trích dẫn nguyên văn tiếng Việt.",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://vnptai.io/vi/blog/detail/context-window",
+        "tieuDe": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+        "tacGia": "VNPT AI",
+        "ngayLayVe": "2026-09-17T12:05:42.029Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "VNPT AI là đơn vị cung cấp dịch vụ AI, nội dung dễ hiểu và phù hợp với người dùng cuối, tuy nhiên thiếu ngày đăng cụ thể.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Thiếu thông tin ngày đăng",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI. Khi bạn nhập một đoạn văn bản (prompt), mô hình sẽ chỉ hiểu và phản hồi dựa trên những gì nằm trong cửa sổ ngữ cảnh đó.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.",
+            "viTri": "Đoạn mở đầu"
+          },
+          {
+            "nguonId": "n02",
+            "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+            "viTri": "Đoạn mở đầu"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Khi cuộc trò chuyện hoặc văn bản vượt quá giới hạn cửa sổ ngữ cảnh, mô hình sẽ bắt đầu quên các thông tin cũ hoặc phải cắt bớt/tóm tắt dữ liệu để tiếp tục xử lý.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ.",
+            "viTri": "Đoạn mở đầu"
+          },
+          {
+            "nguonId": "n02",
+            "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+            "viTri": "Đoạn thứ hai"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Dung lượng cửa sổ ngữ cảnh được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.",
+            "viTri": "Mục Token: đơn vị cơ bản"
+          },
+          {
+            "nguonId": "n02",
+            "doanTrich": "In real-world terms, the context length of a language model is measured not in words, but in tokens.",
+            "viTri": "Mục Context windows and tokenization"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t04",
+        "noiDung": "Mô hình ngôn ngữ lớn sử dụng cơ chế tự chú ý (self-attention) để tính trọng số mối quan hệ giữa các token, nhưng kích thước context window giới hạn phạm vi mà cơ chế này có thể quét qua cùng lúc.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản.",
+            "viTri": "Mục Cơ chế tự chú ý (self-attention)"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh"
+      }
+    ],
+    "searchQueries": [
+      "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "Cửa sổ ngữ cảnh của mô hình ngôn ngữ documentation"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789646784858",
+      "timestamp": "2026-09-17T12:06:24.858Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T12-05-18-065Z",
+        "evalCaseId": "N01"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+              "url": "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+              "snippet": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại ...",
+              "position": 1
+            },
+            {
+              "title": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng ...",
+              "url": "https://vnptai.io/vi/blog/detail/context-window",
+              "snippet": "Context Window (cửa sổ ngữ cảnh) là phạm vi văn bản mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý tại một thời điểm nhất định khi tạo ra phản ...",
+              "position": 2
+            },
+            {
+              "title": "Ngữ cảnh dài | Gemini API - Google AI for Developers",
+              "url": "https://ai.google.dev/gemini-api/docs/long-context?hl=vi",
+              "snippet": "Trang này cung cấp thông tin tổng quan ngắn gọn về cửa sổ ngữ cảnh, đồng thời khám phá cách nhà phát triển nên suy nghĩ về ngữ cảnh dài, các trường hợp sử dụng ...",
+              "position": 3
+            },
+            {
+              "title": "Context Window là gì? Sức mạnh của cửa sổ ngữ cảnh ...",
+              "url": "https://starttrain.edu.vn/context-window/",
+              "snippet": "Context Window (Cửa sổ ngữ cảnh) là lượng dữ liệu tối đa (văn bản, mã code, hình ảnh, …) mà một mô hình ngôn ngữ lớn có thể xử lý và ghi nhớ tại ...",
+              "position": 4
+            },
+            {
+              "title": "Hướng dẫn về Cửa sổ Ngữ cảnh và Độ dài Tối đa trong LLM",
+              "url": "https://tuyendung.evotek.vn/ai-agent-roadmap-huong-dan-ve-cua-so-ngu-canh-va-do-dai-toi-da-trong-llm/",
+              "snippet": "Cửa sổ Ngữ cảnh là gì và Tại sao nó Quan trọng? · Độ dài Tối đa (Max Length) được Giải thích · Những Hạn chế của Cửa sổ Ngữ cảnh · Chiến lược Quản ...",
+              "position": 5
+            }
+          ],
+          "query": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Cửa sổ ngữ cảnh là gì?",
+              "url": "https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp",
+              "snippet": "Cửa sổ ngữ cảnh (hay “độ dài ngữ cảnh”) của một mô hình ngôn ngữ lớn (LLM) là lượng văn bản, tính bằng token, mà mô hình có thể xem xét hoặc “ghi nhớ”When a prompt, conversation, document or code base exceeds an artificial intelligence model's context window, it must be truncated or summarized for the model ...",
+              "position": 1
+            },
+            {
+              "title": "Cửa sổ ngữ cảnh - Tài liệu Nền tảng Claude",
+              "url": "https://translate.google.com/translate?u=https://platform.claude.com/docs/en/build-with-claude/context-windows&hl=vi&sl=en&tl=vi&client=srp",
+              "snippet": "\"Cửa sổ ngữ cảnh\" đề cập đến toàn bộ văn bản mà mô hình ngôn ngữ có thể tham chiếu khi tạo ra phản hồi, bao gồm cả chính phản hồi đó. Điều này khác với kho dữ ...Understand how the context window works, how extended thinking and tool use count toward it, and how to manage context as conversations grow.",
+              "position": 2
+            },
+            {
+              "title": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+              "url": "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+              "snippet": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại ...",
+              "position": 3
+            },
+            {
+              "title": "🧠Hiểu về Cửa sổ ngữ cảnh LLM: Mã thông báo, Sự chú ý ...",
+              "url": "https://translate.google.com/translate?u=https://medium.com/%40tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d&hl=vi&sl=en&tl=vi&client=srp",
+              "snippet": "Cửa sổ ngữ cảnh đại diện cho “bộ nhớ làm việc” của mô hình học máy (LLM). Nó xác định lượng thông tin từ một cuộc hội thoại hoặc dữ liệu đầu vào ...Understanding context windows is crucial if you want to get the most out of LLMs. Whether you're building a chatbot, analyzing documents, or ...",
+              "position": 4
+            },
+            {
+              "title": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng ...",
+              "url": "https://vnptai.io/vi/blog/detail/context-window",
+              "snippet": "Context Window (cửa sổ ngữ cảnh) là phạm vi văn bản mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý tại một thời điểm nhất định khi tạo ra phản ...",
+              "position": 5
+            }
+          ],
+          "query": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ documentation",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+          "https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp",
+          "https://vnptai.io/vi/blog/detail/context-window",
+          "https://translate.google.com/translate?u=https://platform.claude.com/docs/en/build-with-claude/context-windows&hl=vi&sl=en&tl=vi&client=srp",
+          "https://ai.google.dev/gemini-api/docs/long-context?hl=vi",
+          "https://starttrain.edu.vn/context-window/",
+          "https://translate.google.com/translate?u=https://medium.com/%40tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d&hl=vi&sl=en&tl=vi&client=srp",
+          "https://tuyendung.evotek.vn/ai-agent-roadmap-huong-dan-ve-cua-so-ngu-canh-va-do-dai-toi-da-trong-llm/"
+        ],
+        "pagesRead": [
+          "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+          "https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp",
+          "https://vnptai.io/vi/blog/detail/context-window"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+          "content": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm. Nó lưu toàn bộ chỉ dẫn, lịch sử hội thoại và dữ liệu đính kèm để mô hình \"nhìn thấy\" khi tạo phản hồi. Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ. Với tư cách kỹ sư, bạn cần coi đây là một tài nguyên hệ thống hữu hạn cần tối ưu, chứ không phải một không gian lưu trữ vô biên. Hiểu rõ cơ chế vận hành của context window giúp bạn xây dựng ứng dụng AI ổn định, giảm chi phí API và tránh các lỗi logic do suy giảm khả năng truy xuất thông tin (recall) trong những chuỗi hội thoại phức tạp. Cửa sổ ngữ cảnh là gì? Cửa sổ ngữ cảnh là \"bộ nhớ tạm thời\" của mô hình trong quá trình suy luận (inference), phân biệt hoàn toàn với dữ liệu huấn luyện (training data) — vốn là kho tri thức tĩnh đã học từ trước. Token: đơn vị cơ bản Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ. Số liệu cụ thể: Một từ tiếng Anh trung bình tương đương khoảng 1,5 token. Như vậy, 100 từ chiếm khoảng 150 token. Ví dụ phân tách: Từ \"amoral\" có thể được tokenizer tách thành hai token: \"a\" (tiền tố làm thay đổi ý nghĩa) và \"moral\". Ngược lại, từ \"cat\" thường chỉ là một token duy nhất vì không thể chia nhỏ hơn về mặt ngữ nghĩa. Các thành phần chiếm dụng bộ nhớ Mọi dữ liệu nằm trong vòng đời của một yêu cầu đều tiêu tốn dung lượng, bao gồm: System prompt: Các chỉ dẫn cấu hình hành vi. Lịch sử hội thoại: Tin nhắn của người dùng và phản hồi trước đó của trợ lý. Tài liệu đính kèm: Mã nguồn, tệp PDF, hình ảnh. Dữ liệu từ RAG (Retrieval-Augmented Generation): Các đoạn văn bản (chunks) được truy xuất từ vector database. Cửa sổ ngữ cảnh hoạt động như thế nào? Cơ chế tự chú ý (self-attention) Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản. Tuy nhiên, kích thước context window giới hạn phạm vi mà cơ chế này có thể \"quét\" qua cùng lúc. Chu trình input-output Mỗi tương tác API là một trạng thái mới (stateless). Để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử: Giai đoạn Input: Chứa toàn bộ lịch sử trước đó cùng tin nhắn hiện tại. Giai đoạn Output: Phản hồi mới được tạo ra và sẽ cộng dồn vào Input của lượt tiếp theo. Quá trình này khiến số lượng token tăng trưởng tuyến tính, dần lấp đầy \"hộp chứa\" bộ nhớ. Đặc thù trên các dòng mô hình Claude Quy mô bộ nhớ: Các model như Claude Opus 4.8 và Mythos Preview hiện hỗ trợ context window lên tới 1 triệu token. Các dòng Sonnet 4.5/4 thường giới hạn ở 200k. Xử lý tệp tin: Cho phép đính kèm tới 600 hình ảnh hoặc trang PDF (giảm xuống 100 với các model có context window 200k). Extended Thinking (tư duy mở rộng): Các khối tư duy (thinking blocks) được tính vào giới hạn token của lượt hiện tại. API tự động lược bỏ chúng ở các lượt sau để tiết kiệm dung lượng. Lưu ý về Tool Use: Khi dùng công cụ kết hợp với extended thinking, bạn bắt buộc phải gửi lại khối tư duy nguyên vẹn (kèm chữ ký số) cùng kết quả công cụ. Nếu tự ý lược bỏ hoặc chỉnh sửa khối tư duy trong chu trình này, API sẽ trả về lỗi xác thực. Vì sao nhiều ngữ cảnh hơn không phải lúc nào cũng tốt hơn? Chi phí tính toán O(n^2): Tài nguyên xử lý tăng theo hàm bình phương so với độ dài chuỗi. Gấp đôi lượng token đầu vào tiêu tốn gấp bốn lần sức mạnh tính toán, dẫn đến độ trễ (latency) rất cao. Hiện tượng \"lost-in-the-middle\": LLM thường ưu tiên thông tin ở đầu (primacy bias) và cuối (recency bias) của prompt. Khi thông tin quan trọng nằm giữa một khối văn bản khổng lồ, mô hình dễ gặp \"context rot\" và bỏ sót chi tiết. Rủi ro an toàn: Context window lớn làm tăng bề mặt tấn công. Kẻ tấn công có thể giấu các câu lệnh đối nghịch (adversarial prompts) sâu trong tài liệu dài để thực hiện kỹ thuật jailbreaking (vượt qua các rào chắn an toàn của mô hình). Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh? Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất. Điều này dẫn đến: Ảo giác (hallucinations): Mô hình tự bịa thông tin để duy trì tính logic của câu trả lời do thiếu dữ liệu thực tế. Mất nhất quán: Mô hình quên các ràng buộc trong system prompt hoặc các thỏa thuận ở đầu phiên chat. Phản hồi từ API: Các model cũ: Trả về lỗi 400 (validation error). Các model mới (Claude 4.5+): Chấp nhận yêu cầu nhưng cắt ngang phản hồi ngay khi chạm ngưỡng, kèm mã stop_reason: \"model_context_window_exceeded\". Làm thế nào để quản lý cửa sổ ngữ cảnh hiệu quả? Token counting: Luôn dùng API đếm token để kiểm soát \"ngân sách\" trước khi gửi request. Context awareness: Các model Claude mới (4.5/4.6) có khả năng tự theo dõi ngân sách token còn lại. Thiếu tính năng này, mô hình giống như thí sinh trong show nấu ăn mà không có đồng hồ. Nhờ context awareness, mô hình điều chỉnh chiến lược suy luận để hoàn thành tác vụ trong phạm vi dung lượng cho phép. Compaction (nén ngữ cảnh): Dùng server-side summarization (có trên Claude Opus 4.8, Sonnet 4.6...) để tóm tắt các hội thoại cũ, giữ lại ý chính thay vì lưu toàn văn. Context editing: Chủ động xóa kết quả công cụ cũ (tool result clearing) hoặc xóa khối tư duy sau khi kết thúc chu trình gọi công cụ. RAG (Retrieval-Augmented Generation): Thay vì nạp toàn bộ 1000 trang tài liệu, hãy dùng vector search để chỉ lấy ra 3–5 đoạn liên quan nhất. Thực hành tốt: Thường xuyên chạy lệnh /clear để làm mới bộ nhớ của agent khi chuyển sang chủ đề mới, tránh tích tụ thông tin thừa giữa các phiên. Điểm chính Cửa sổ ngữ cảnh (context window) hoạt động như bộ nhớ làm việc hữu hạn, được đo bằng đơn vị token. Chi phí tính toán của cơ chế tự chú ý (self-attention) tăng theo hàm bình phương O(n^2). Hiện tượng \"lost-in-the-middle\" làm giảm khả năng truy xuất thông tin ở giữa văn bản. Chiến lược nén ngữ cảnh (compaction) và RAG giúp duy trì hiệu suất trong các chuỗi hội thoại dài. Tài liệu tham khảo What is a context window? | IBM What is a Context Window? Unlocking LLM Secrets Most devs don't understand how context windows work Context windows - Claude API Docs Bài viết được đăng lần đầu trên camnangai.com. LLM Claude Context Engineering All rights reserved",
+          "fetchedAt": "2026-09-17T12:05:42.027Z",
+          "title": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+          "status": "ok",
+          "contentLength": 6274,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm. Nó lưu toàn bộ chỉ dẫn, lịch sử hội thoại và dữ liệu đính kèm để mô hình \"nhìn thấy\" khi tạo phản hồi. Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ. Với tư cách kỹ sư, bạn cần coi đây là một tài nguyên hệ thống hữu hạn cần tối ưu, chứ không phải một không gian lưu trữ vô biên. Hiểu rõ cơ chế vận hành của context window giúp bạn xây dựng ứng dụng AI ổn định, giảm chi phí API và tránh các lỗi logic do suy giảm khả năng truy xuất thông tin (recall) trong những chuỗi hội thoại phức tạp. Cửa sổ ngữ cảnh là gì? Cửa sổ ngữ cảnh là \"bộ nhớ tạm thời\" của mô hình trong quá trình suy luận (inference), phân biệt hoàn toàn với dữ liệu huấn luyện (training data) — vốn là kho tri thức tĩnh đã học từ trước. Token: đơn vị cơ bản Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ. Số liệu cụ thể: Một từ tiếng Anh trung bình tương đương khoảng 1,5 token. Như vậy, 100 từ chiếm khoảng 150 token. Ví dụ phân tách: Từ \"amoral\" có thể được tokenizer tách thành hai token: \"a\" (tiền tố làm thay đổi ý nghĩa) và \"moral\". Ngược lại, từ \"cat\" thường chỉ là một token duy nhất vì không thể chia nhỏ hơn về mặt ngữ nghĩa. Các thành phần chiếm dụng bộ nhớ Mọi dữ liệu nằm trong vòng đời của một yêu cầu đều tiêu tốn dung lượng, bao gồm: System prompt: Các chỉ dẫn cấu hình hành vi. Lịch sử hội thoại: Tin nhắn của người dùng và phản hồi trước đó của trợ lý. Tài liệu đính kèm: Mã nguồn, tệp PDF, hình ảnh. Dữ liệu từ RAG (Retrieval-Augmented Generation): Các đoạn văn bản (chunks) được truy xuất từ vector database. Cửa sổ ngữ cảnh hoạt động như thế nào? Cơ chế tự chú ý (self-attention) Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản. Tuy nhiên, kích thước context window giới hạn phạm vi mà cơ chế này có thể \"quét\" qua cùng lúc. Chu trình input-output Mỗi tương tác API là một trạng thái mới (stateless). Để duy trì hội thoại, bạn phải gửi lại toàn bộ lịch sử: Giai đoạn Input: Chứa toàn bộ lịch sử trước đó cùng tin nhắn hiện tại. Giai đoạn Output: Phản hồi mới được tạo ra và sẽ cộng dồn vào Input của lượt tiếp theo. Quá trình này khiến số lượng token tăng trưởng tuyến tính, dần lấp đầy \"hộp chứa\" bộ nhớ. Đặc thù trên các dòng mô hình Claude Quy mô bộ nhớ: Các model như Claude Opus 4.8 và Mythos Preview hiện hỗ trợ context window lên tới 1 triệu token. Các dòng Sonnet 4.5/4 thường giới hạn ở 200k. Xử lý tệp tin: Cho phép đính kèm tới 600 hình ảnh hoặc trang PDF (giảm xuống 100 với các model có context window 200k). Extended Thinking (tư duy mở rộng): Các khối tư duy (thinking blocks) được tính vào giới hạn token của lượt hiện tại. API tự động lược bỏ chúng ở các lượt sau để tiết kiệm dung lượng. Lưu ý về Tool Use: Khi dùng công cụ kết hợp với extended thinking, bạn bắt buộc phải gửi lại khối tư duy nguyên vẹn (kèm chữ ký số) cùng kết quả công cụ. Nếu tự ý lược bỏ hoặc chỉnh sửa khối tư duy trong chu trình này, API sẽ trả về lỗi xác thực. Vì sao nhiều ngữ cảnh hơn không phải lúc nào cũng tốt hơn? Chi phí tính toán O(n^2): Tài nguyên xử lý tăng theo hàm bình phương so với độ dài chuỗi. Gấp đôi lượng token đầu vào tiêu tốn gấp bốn lần sức mạnh tính toán, dẫn đến độ trễ (latency) rất cao. Hiện tượng \"lost-in-the-middle\": LLM thường ưu tiên thông tin ở đầu (primacy bias) và cuối (recency bias) của prompt. Khi thông tin quan trọng nằm giữa một khối văn bản khổng lồ, mô hình dễ gặp \"context rot\" và bỏ sót chi tiết. Rủi ro an toàn: Context window lớn làm tăng bề mặt tấn công. Kẻ tấn công có thể giấu các câu lệnh đối nghịch (adversarial prompts) sâu trong tài liệu dài để thực hiện kỹ thuật jailbreaking (vượt qua các rào chắn an toàn của mô hình). Điều gì xảy ra khi vượt quá giới hạn cửa sổ ngữ cảnh? Khi chạm giới hạn, mô hình mất khả năng tham chiếu các thông tin cũ nhất. Điều này dẫn đến: Ảo giác (hallucinations): Mô hình tự bịa thông tin để duy trì tính logic của câu trả lời do thiếu dữ liệu thực tế. Mất nhất quán: Mô hình quên các ràng buộc trong system prompt hoặc các thỏa thuận ở đầu phiên chat. Phản hồi từ API: Các model cũ: Trả về lỗi 400 (validation error). Các model mới (Claude 4.5+): Chấp nhận yêu cầu nhưng cắt ngang phản hồi ngay khi chạm ngưỡng, kèm mã stop_reason: \"model_context_window_exceeded\". Làm thế nào để quản lý cửa sổ ngữ cảnh hiệu quả? Token counting: Luôn dùng API đếm token để kiểm soát \"ngân sách\" trước khi gửi request. Context awareness: Các model Claude mới (4.5/4.6) có khả năng tự theo dõi ngân sách token còn lại. Thiếu tính năng này, mô hình giống như thí sinh trong show nấu ăn mà không có đồng hồ. Nhờ context awareness, mô hình điều chỉnh chiến lược suy luận để hoàn thành tác vụ trong phạm vi dung lượng cho phép. Compaction (nén ngữ cảnh): Dùng server-side summarization (có trên Claude Opus 4.8, Sonnet 4.6...) để tóm tắt các hội thoại cũ, giữ lại ý chính thay vì lưu toàn văn. Context editing: Chủ động xóa kết quả công cụ cũ (tool result clearing) hoặc xóa khối tư duy sau khi kết thúc chu trình gọi công cụ. RAG (Retrieval-Augmented Generation): Thay vì nạp toàn bộ 1000 trang tài liệu, hãy dùng vector search để chỉ lấy ra 3–5 đoạn liên quan nhất. Thực hành tốt: Thường xuyên chạy lệnh /clear để làm mới bộ nhớ của agent khi chuyển sang chủ đề mới, tránh tích tụ thông tin thừa giữa các phiên. Điểm chính Cửa sổ ngữ cảnh (context window) hoạt động như bộ nhớ làm việc hữu hạn, được đo bằng đơn vị token. Chi phí tính toán của cơ chế tự chú ý (self-attention) tăng theo hàm bình phương O(n^2). Hiện tượng \"lost-in-the-middle\" làm giảm khả năng truy xuất thông tin ở giữa văn bản. Chiến lược nén ngữ cảnh (compaction) và RAG giúp duy trì hiệu suất trong các chuỗi hội thoại dài. Tài liệu tham khảo What is a context window? | IBM What is a Context Window? Unlocking LLM Secrets Most devs don't understand how context windows work Context windows - Claude API Docs Bài viết được đăng lần đầu trên camnangai.com. LLM Claude Context Engineering All rights reserved"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp",
+          "content": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.\n\nAn LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\n\nGenerally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks.\n\nThe latest AI trends, brought to you by experts\n\nGet curated insights on the most important—and intriguing—AI news. Subscribe to our weekly Think newsletter. See the IBM Privacy Statement.\n\nThank you! You are subscribed.\n\nContext windows and tokenization\n\nIn real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work.\n\nThe way LLMs process language is fundamentally different from the way humans do. Whereas the smallest unit of information we use to represent language is a single character—such as a letter, number or punctuation mark—the smallest unit of language that AI models use is a token. To train a model to understand language, each token is assigned an ID number; these ID numbers, rather than the words or even the tokens themselves, are used to train the model. This tokenization of language significantly reduces the computational power needed to process and learn from the text.\n\nThere is a wide variance in the amount of text that one token can represent: a token can stand in for a single character, a part of a word (such as a suffix or prefix), a whole word or even a short multiword phrase. Consider the different roles played by the letter “a ” in the following examples:\n\n“<em>Jeff drove <strong>a</strong> car.</em>”\n\nHere, “a“ is an entire word. In this situation, it would be represented by a distinct token.\n\n“<em>Jeff is <strong>a</strong>moral.”</em>\n\nHere, “a“ is not a word, but its addition to moral significantly changes the meaning of the word. Amoral would therefore be represented by two distinct tokens: a token for a and another for moral.\n\n<em>\"Jeff loves his c<strong>a</strong>t.</em>\"\n\nHere, a is simply a letter in the word “cat.” It carries no semantic meaning unto itself and would, therefore, not need to be represented by a distinct token.\n\nThere is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs.\n\nVariations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context.\n\nHow enterprises excel in the AI era\n\nMove beyond AI hype to measurable value. See how IBM is transforming into an AI-first enterprise and turning agentic AI into productivity, reinvestment and real business impact.\n\nWhy do models have a maximum context length?\n\nThough context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs.\n\nTransformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time.\n\nIt's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context.\n\nIt’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once.\n\nContext windows and computing resources\n\nEquipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it.\n\nSimilarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time.\n\nRecent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022.\n\nChallenges of long context windows\n\nEven when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications.\n\nLike people, LLMs can be overwhelmed by an abundance of extra detail. They can also get lazy and take cognitive shortcuts. A 2023 paper found that LLMs don’t “robustly make use of information in long input contexts.” More specifically, the authors observed that models perform best when relevant information is toward the beginning or end of the input context. They further observed that performance degrades when the model must carefully consider the information in the middle of long contexts.1\n\nNovel methods to improve the efficacy of the transformer’s self-attention mechanism itself, such as rotary position embedding (RoPE), aim to modify the positional encoding of tokens in attention vectors. The widespread adoption of RoPE-based methods has yielded enhanced performance and speed on tasks involving tokens at a large distance from one another.",
+          "fetchedAt": "2026-09-17T12:05:42.028Z",
+          "title": "What is a context window? | IBM",
+          "status": "ok",
+          "contentLength": 14693,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 2,
+              "text": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+            },
+            {
+              "blockIndex": 3,
+              "text": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+            },
+            {
+              "blockIndex": 4,
+              "text": "Generally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks."
+            },
+            {
+              "blockIndex": 5,
+              "text": "The latest AI trends, brought to you by experts"
+            },
+            {
+              "blockIndex": 6,
+              "text": "Get curated insights on the most important—and intriguing—AI news. Subscribe to our weekly Think newsletter. See the IBM Privacy Statement."
+            },
+            {
+              "blockIndex": 7,
+              "text": "Thank you! You are subscribed."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Context windows and tokenization"
+            },
+            {
+              "blockIndex": 9,
+              "text": "In real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work."
+            },
+            {
+              "blockIndex": 10,
+              "text": "The way LLMs process language is fundamentally different from the way humans do. Whereas the smallest unit of information we use to represent language is a single character—such as a letter, number or punctuation mark—the smallest unit of language that AI models use is a token. To train a model to understand language, each token is assigned an ID number; these ID numbers, rather than the words or even the tokens themselves, are used to train the model. This tokenization of language significantly reduces the computational power needed to process and learn from the text."
+            },
+            {
+              "blockIndex": 11,
+              "text": "There is a wide variance in the amount of text that one token can represent: a token can stand in for a single character, a part of a word (such as a suffix or prefix), a whole word or even a short multiword phrase. Consider the different roles played by the letter “a ” in the following examples:"
+            },
+            {
+              "blockIndex": 12,
+              "text": "“<em>Jeff drove <strong>a</strong> car.</em>”"
+            },
+            {
+              "blockIndex": 13,
+              "text": "Here, “a“ is an entire word. In this situation, it would be represented by a distinct token."
+            },
+            {
+              "blockIndex": 14,
+              "text": "“<em>Jeff is <strong>a</strong>moral.”</em>"
+            },
+            {
+              "blockIndex": 15,
+              "text": "Here, “a“ is not a word, but its addition to moral significantly changes the meaning of the word. Amoral would therefore be represented by two distinct tokens: a token for a and another for moral."
+            },
+            {
+              "blockIndex": 16,
+              "text": "<em>\"Jeff loves his c<strong>a</strong>t.</em>\""
+            },
+            {
+              "blockIndex": 17,
+              "text": "Here, a is simply a letter in the word “cat.” It carries no semantic meaning unto itself and would, therefore, not need to be represented by a distinct token."
+            },
+            {
+              "blockIndex": 18,
+              "text": "There is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs."
+            },
+            {
+              "blockIndex": 19,
+              "text": "Variations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context."
+            },
+            {
+              "blockIndex": 20,
+              "text": "How enterprises excel in the AI era"
+            },
+            {
+              "blockIndex": 21,
+              "text": "Move beyond AI hype to measurable value. See how IBM is transforming into an AI-first enterprise and turning agentic AI into productivity, reinvestment and real business impact."
+            },
+            {
+              "blockIndex": 22,
+              "text": "Why do models have a maximum context length?"
+            },
+            {
+              "blockIndex": 23,
+              "text": "Though context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs."
+            },
+            {
+              "blockIndex": 24,
+              "text": "Transformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time."
+            },
+            {
+              "blockIndex": 25,
+              "text": "It's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context."
+            },
+            {
+              "blockIndex": 26,
+              "text": "It’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once."
+            },
+            {
+              "blockIndex": 27,
+              "text": "Context windows and computing resources"
+            },
+            {
+              "blockIndex": 28,
+              "text": "Equipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Similarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time."
+            },
+            {
+              "blockIndex": 30,
+              "text": "Recent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022."
+            },
+            {
+              "blockIndex": 31,
+              "text": "Challenges of long context windows"
+            },
+            {
+              "blockIndex": 32,
+              "text": "Even when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications."
+            },
+            {
+              "blockIndex": 34,
+              "text": "Like people, LLMs can be overwhelmed by an abundance of extra detail. They can also get lazy and take cognitive shortcuts. A 2023 paper found that LLMs don’t “robustly make use of information in long input contexts.” More specifically, the authors observed that models perform best when relevant information is toward the beginning or end of the input context. They further observed that performance degrades when the model must carefully consider the information in the middle of long contexts.1"
+            },
+            {
+              "blockIndex": 35,
+              "text": "Novel methods to improve the efficacy of the transformer’s self-attention mechanism itself, such as rotary position embedding (RoPE), aim to modify the positional encoding of tokens in attention vectors. The widespread adoption of RoPE-based methods has yielded enhanced performance and speed on tasks involving tokens at a large distance from one another."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://vnptai.io/vi/blog/detail/context-window",
+          "content": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn\n\nContext Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI. Khi bạn nhập một đoạn văn bản (prompt), mô hình sẽ chỉ hiểu và phản hồi dựa trên những gì nằm trong cửa sổ ngữ cảnh đó.\n\nTrong quá trình tương tác với các mô hình AI như ChatGPT, Gemini hay Claude, người dùng thường nhận thấy rằng chất lượng phản hồi của AI phụ thuộc nhiều vào khả năng duy trì mạch hội thoại và ghi nhớ thông tin đã trao đổi trước đó. Đây là lý do vì sao đôi khi AI có thể theo sát nội dung trò chuyện rất tốt, nhưng ở những lúc khác lại trả lời thiếu liên kết hoặc bỏ sót thông tin quan trọng. Yếu tố tạo nên sự khác biệt này chính là Context Window, một cơ chế quan trọng trong quá trình xử lý ngôn ngữ của AI. Vậy Context Window thực chất ảnh hưởng như thế nào đến hiệu quả tương tác của AI? Hãy cùng VNPT AI tìm hiểu trong bài viết dưới đây.\n\nContext Window (cửa sổ ngữ cảnh) là phạm vi văn bản mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý tại một thời điểm nhất định khi tạo ra phản hồi. Nói cách khác, đây là một đoạn văn bản xoay quanh một từ hoặc cụm từ mục tiêu. Mô hình sẽ nhìn vào đoạn này để phân tích ngữ nghĩa, tìm ra mối liên hệ giữa các từ, và từ đó đưa ra phản hồi phù hợp.\n\nViệc xử lý này được thực hiện thông qua quá trình tokenization. Đây là bước chia nhỏ văn bản thành các đơn vị nhỏ hơn (gọi là token), để mô hình dễ dàng mã hóa, hiểu nội dung và phản hồi chính xác theo ngữ cảnh. Context Window đóng vai trò quan trọng trong việc đảm bảo độ liền mạch, nhất quán và logic trong các phản hồi của mô hình AI.\n\nContext Window hoạt động như thế nào?\n\nContext Window hoạt động như một “bộ nhớ tạm thời” của mô hình ngôn ngữ, cho phép nó truy xuất và xử lý một lượng văn bản nhất định khi tạo ra nội dung mới. Cụ thể, Context Window bao gồm toàn bộ đoạn văn bản mà mô hình có thể nhìn lại (tức là nội dung đã được cung cấp trước đó) và phần văn bản mới mà mô hình đang tạo ra. Đây là cơ chế hoàn toàn tách biệt với tập dữ liệu khổng lồ mà mô hình đã được huấn luyện trước đó. Tập dữ liệu huấn luyện giúp hình thành kiến thức nền, trong khi Context Window hỗ trợ mô hình ghi nhớ và phản hồi trong thời gian thực.\n\nKích thước của Context Window ảnh hưởng trực tiếp đến khả năng xử lý ngôn ngữ của mô hình. Một Context Window lớn giúp mô hình hiểu được các đoạn văn dài, duy trì mạch văn liền mạch và phản hồi chính xác hơn trong những cuộc hội thoại dài hoặc khi xử lý các câu hỏi phức tạp. Ngược lại, nếu Context Window quá nhỏ, mô hình có thể gặp khó khăn trong việc ghi nhớ nội dung trước đó, dẫn đến phản hồi thiếu nhất quán hoặc mất ngữ cảnh.\n\nTầm quan trọng của Context Window\n\nTrong các mô hình ngôn ngữ lớn, Context Window giúp mô hình nắm bắt sắc thái và mạch ý của một đoạn hội thoại hoặc văn bản. Nhờ khả năng ghi nhớ những phần nội dung đã xuất hiện trước đó, mô hình có thể tạo ra phản hồi phù hợp với chủ đề đang được đề cập, đồng thời duy trì dòng hội thoại liền mạch và hạn chế các câu trả lời rời rạc hoặc sai lệch ngữ cảnh.\n\nKhi Context Window có kích thước đủ lớn, mô hình có thể đưa ra các dự đoán chính xác hơn và tạo ra văn bản có chất lượng cao hơn. Điều này đặc biệt hữu ích trong các tác vụ như tóm tắt, dịch thuật hoặc sáng tạo nội dung, nơi việc hiểu đúng toàn bộ ngữ cảnh là yếu tố then chốt để đảm bảo tính mạch lạc và nhất quán trong kết quả đầu ra.\n\nƯu nhược điểm của Context Window\n\nContext Window đóng vai trò thiết yếu trong việc xử lý ngôn ngữ của mô hình AI, nhưng đồng thời cũng tồn tại những giới hạn nhất định. Tuy nhiên, hiệu quả của Context Window phụ thuộc trực tiếp vào kích thước ngắn hay dài. Việc hiểu rõ điểm mạnh và giới hạn của từng loại sẽ giúp khai thác mô hình AI hiệu quả hơn trong thực tiễn.\n\nMột số ưu điểm của Context Window bao gồm:\n\nXử lý được lượng thông tin lớn: Cho phép mô hình tiếp nhận và ghi nhớ một đoạn văn bản dài hoặc nhiều lượt trao đổi trong hội thoại mà không bị mất mạch thông tin.\n\nHiểu ngữ cảnh sâu hơn: Giúp AI duy trì tính logic xuyên suốt, đặc biệt hữu ích trong các tác vụ như phân tích tài liệu, lập trình, nghiên cứu hay xử lý dữ liệu phức tạp.\n\nPhản hồi chi tiết và chính xác hơn: Nhờ tiếp cận nhiều dữ liệu hơn trong cùng một lần xử lý, mô hình có khả năng phân tích vấn đề toàn diện hơn.\n\nKhông cần nhắc lại thông tin nhiều lần: Người dùng không cần liên tục cung cấp lại thông tin như với các mô hình có context window ngắn.\n\nBên cạnh đó, Context Window ngắn vẫn tồn tại một số nhược điểm:\n\nKhó xử lý các đoạn văn bản dài: Context window ngắn chỉ cho phép mô hình tiếp cận một phần nhỏ của dữ liệu, làm giảm khả năng phân tích và tổng hợp thông tin phức tạp.\n\nGiảm chất lượng phản hồi: Do không nắm bắt được toàn bộ bối cảnh, mô hình dễ tạo ra câu trả lời rời rạc, thiếu logic hoặc không phù hợp với mạch nội dung trước đó.\n\nHạn chế trong các tác vụ nâng cao: Những nhiệm vụ như tóm tắt tài liệu, viết báo cáo dài, hay xử lý dữ liệu nhiều lớp trở nên kém hiệu quả do giới hạn về dung lượng ngữ cảnh.\n\nSo sánh Context Window của các mô hình AI hiện tại\n\nHiện nay, các mô hình ngôn ngữ lớn ngày càng mở rộng Context Window để xử lý thông tin phức tạp và duy trì ngữ cảnh. Tuy vậy, mỗi mô hình AI lại có cách ứng dụng Context Window khác nhau.\n\n8,000 – 128,000 tokens (tùy bản)\n\nContext Window không chỉ là một khái niệm ứng dụng trong kỹ thuật mà còn giữ vai trò quan trọng trong việc nâng cao tính ứng dụng của các mô hình AI trong nhiều lĩnh vực khác nhau:\n\nContext Window đóng vai trò như bộ nhớ ngắn hạn, giúp hệ thống ghi nhớ và duy trì lịch sử cuộc trò chuyện trong các Chatbot hiện đại. Nhờ vậy, Chatbot có thể hiểu các câu hỏi tiếp theo trong ngữ cảnh, liên kết với những thông tin đã được đề cập trước đó và phản hồi một cách tự nhiên, nhất quán. Điều này không chỉ nâng cao trải nghiệm người dùng mà còn giảm thiểu tình trạng lặp lại nội dung hoặc phản hồi sai lệch. Các mô hình tiên tiến như Gemini của Google tận dụng Context Window lớn để xử lý hội thoại phức tạp với độ chính xác và logic cao hơn.\n\nPhân tích chuỗi thời gian trong dự báo tài chính\n\nTrong lĩnh vực tài chính, các mô hình AI sử dụng Context Window để phân tích chuỗi dữ liệu như giá cổ phiếu, chỉ số kinh tế hoặc khối lượng giao dịch. Việc xác định kích thước Context Window phù hợp giúp mô hình đánh giá mức độ ảnh hưởng của dữ liệu lịch sử đối với các dự đoán tương lai. Nhờ đó, AI có thể đưa ra những dự báo thị trường chính xác hơn, dựa trên các xu hướng và biến động được ghi nhận trong một khoảng thời gian nhất định.\n\nThuật toán gợi ý từ khi nhập văn bản\n\nTrên điện thoại thông minh, khi người dùng gõ văn bản, hệ thống bàn phím sẽ dựa vào các từ đã nhập trước đó trong một khoảng ngữ cảnh nhất định để dự đoán từ tiếp theo. Nhờ Context Window nhỏ nhưng hiệu quả, tính năng này tăng tốc độ gõ, cải thiện độ chính xác và mang lại trải nghiệm nhập liệu thông minh hơn.\n\n>>> Đọc thêm: Mô hình Long Short-Term Memory\n\nTóm lại, một Context Window đủ dài đóng vai trò quan trọng trong hoạt động của các mô hình ngôn ngữ hiện đại, giúp chúng duy trì mạch ngữ nghĩa, ghi nhớ thông tin trong cuộc hội thoại và tạo ra phản hồi tự nhiên, chính xác hơn. Tuy nhiên, việc mở rộng dung lượng Context Window không chỉ nâng cao hiệu suất xử lý ngôn ngữ mà còn mở ra nhiều tiềm năng ứng dụng mới trong các lĩnh vực như tài chính, chăm sóc khách hàng, sáng tạo nội dung và nhiều lĩnh vực khác. Hy vọng rằng bài viết trên của VNPT AI cung cấp thông tin hữu ích, giúp bạn đọc hiểu rõ vai trò và giới hạn của Context Window, từ đó khai thác hiệu quả hơn các công nghệ trí tuệ nhân tạo trong tương lai.\n\nAI tóm tắt cuộc họp: Giải pháp tối ưu hiệu suất làm việc\n\nVNPT iKNOW - Nền tảng tri thức thông minh cho doanh nghiệp và tổ chức\n\nChain of Thought Prompting: Kỹ thuật nâng cấp khả năng suy luận cho mô hình AI\n\nChatbot Generative AI: Bước tiến đột phá trong giao tiếp số\n\nData Extraction: Giải pháp chiến lược trong kỷ nguyên dữ liệu bùng nổ\n\nVision Transformer là gì? Giải mã sức mạnh xử lý hình ảnh của ViT\n\nHãy trở thành đối tác của chúng tôi ngay hôm nay để được sử dụng những dịch vụ hàng đầu!",
+          "fetchedAt": "2026-09-17T12:05:42.029Z",
+          "title": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+          "status": "ok",
+          "contentLength": 9361,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn"
+            },
+            {
+              "blockIndex": 2,
+              "text": "Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI. Khi bạn nhập một đoạn văn bản (prompt), mô hình sẽ chỉ hiểu và phản hồi dựa trên những gì nằm trong cửa sổ ngữ cảnh đó."
+            },
+            {
+              "blockIndex": 4,
+              "text": "Trong quá trình tương tác với các mô hình AI như ChatGPT, Gemini hay Claude, người dùng thường nhận thấy rằng chất lượng phản hồi của AI phụ thuộc nhiều vào khả năng duy trì mạch hội thoại và ghi nhớ thông tin đã trao đổi trước đó. Đây là lý do vì sao đôi khi AI có thể theo sát nội dung trò chuyện rất tốt, nhưng ở những lúc khác lại trả lời thiếu liên kết hoặc bỏ sót thông tin quan trọng. Yếu tố tạo nên sự khác biệt này chính là Context Window, một cơ chế quan trọng trong quá trình xử lý ngôn ngữ của AI. Vậy Context Window thực chất ảnh hưởng như thế nào đến hiệu quả tương tác của AI? Hãy cùng VNPT AI tìm hiểu trong bài viết dưới đây."
+            },
+            {
+              "blockIndex": 6,
+              "text": "Context Window (cửa sổ ngữ cảnh) là phạm vi văn bản mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý tại một thời điểm nhất định khi tạo ra phản hồi. Nói cách khác, đây là một đoạn văn bản xoay quanh một từ hoặc cụm từ mục tiêu. Mô hình sẽ nhìn vào đoạn này để phân tích ngữ nghĩa, tìm ra mối liên hệ giữa các từ, và từ đó đưa ra phản hồi phù hợp."
+            },
+            {
+              "blockIndex": 7,
+              "text": "Việc xử lý này được thực hiện thông qua quá trình tokenization. Đây là bước chia nhỏ văn bản thành các đơn vị nhỏ hơn (gọi là token), để mô hình dễ dàng mã hóa, hiểu nội dung và phản hồi chính xác theo ngữ cảnh. Context Window đóng vai trò quan trọng trong việc đảm bảo độ liền mạch, nhất quán và logic trong các phản hồi của mô hình AI."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Context Window hoạt động như thế nào?"
+            },
+            {
+              "blockIndex": 9,
+              "text": "Context Window hoạt động như một “bộ nhớ tạm thời” của mô hình ngôn ngữ, cho phép nó truy xuất và xử lý một lượng văn bản nhất định khi tạo ra nội dung mới. Cụ thể, Context Window bao gồm toàn bộ đoạn văn bản mà mô hình có thể nhìn lại (tức là nội dung đã được cung cấp trước đó) và phần văn bản mới mà mô hình đang tạo ra. Đây là cơ chế hoàn toàn tách biệt với tập dữ liệu khổng lồ mà mô hình đã được huấn luyện trước đó. Tập dữ liệu huấn luyện giúp hình thành kiến thức nền, trong khi Context Window hỗ trợ mô hình ghi nhớ và phản hồi trong thời gian thực."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Kích thước của Context Window ảnh hưởng trực tiếp đến khả năng xử lý ngôn ngữ của mô hình. Một Context Window lớn giúp mô hình hiểu được các đoạn văn dài, duy trì mạch văn liền mạch và phản hồi chính xác hơn trong những cuộc hội thoại dài hoặc khi xử lý các câu hỏi phức tạp. Ngược lại, nếu Context Window quá nhỏ, mô hình có thể gặp khó khăn trong việc ghi nhớ nội dung trước đó, dẫn đến phản hồi thiếu nhất quán hoặc mất ngữ cảnh."
+            },
+            {
+              "blockIndex": 11,
+              "text": "Tầm quan trọng của Context Window"
+            },
+            {
+              "blockIndex": 12,
+              "text": "Trong các mô hình ngôn ngữ lớn, Context Window giúp mô hình nắm bắt sắc thái và mạch ý của một đoạn hội thoại hoặc văn bản. Nhờ khả năng ghi nhớ những phần nội dung đã xuất hiện trước đó, mô hình có thể tạo ra phản hồi phù hợp với chủ đề đang được đề cập, đồng thời duy trì dòng hội thoại liền mạch và hạn chế các câu trả lời rời rạc hoặc sai lệch ngữ cảnh."
+            },
+            {
+              "blockIndex": 13,
+              "text": "Khi Context Window có kích thước đủ lớn, mô hình có thể đưa ra các dự đoán chính xác hơn và tạo ra văn bản có chất lượng cao hơn. Điều này đặc biệt hữu ích trong các tác vụ như tóm tắt, dịch thuật hoặc sáng tạo nội dung, nơi việc hiểu đúng toàn bộ ngữ cảnh là yếu tố then chốt để đảm bảo tính mạch lạc và nhất quán trong kết quả đầu ra."
+            },
+            {
+              "blockIndex": 14,
+              "text": "Ưu nhược điểm của Context Window"
+            },
+            {
+              "blockIndex": 15,
+              "text": "Context Window đóng vai trò thiết yếu trong việc xử lý ngôn ngữ của mô hình AI, nhưng đồng thời cũng tồn tại những giới hạn nhất định. Tuy nhiên, hiệu quả của Context Window phụ thuộc trực tiếp vào kích thước ngắn hay dài. Việc hiểu rõ điểm mạnh và giới hạn của từng loại sẽ giúp khai thác mô hình AI hiệu quả hơn trong thực tiễn."
+            },
+            {
+              "blockIndex": 16,
+              "text": "Một số ưu điểm của Context Window bao gồm:"
+            },
+            {
+              "blockIndex": 17,
+              "text": "Xử lý được lượng thông tin lớn: Cho phép mô hình tiếp nhận và ghi nhớ một đoạn văn bản dài hoặc nhiều lượt trao đổi trong hội thoại mà không bị mất mạch thông tin."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Hiểu ngữ cảnh sâu hơn: Giúp AI duy trì tính logic xuyên suốt, đặc biệt hữu ích trong các tác vụ như phân tích tài liệu, lập trình, nghiên cứu hay xử lý dữ liệu phức tạp."
+            },
+            {
+              "blockIndex": 19,
+              "text": "Phản hồi chi tiết và chính xác hơn: Nhờ tiếp cận nhiều dữ liệu hơn trong cùng một lần xử lý, mô hình có khả năng phân tích vấn đề toàn diện hơn."
+            },
+            {
+              "blockIndex": 20,
+              "text": "Không cần nhắc lại thông tin nhiều lần: Người dùng không cần liên tục cung cấp lại thông tin như với các mô hình có context window ngắn."
+            },
+            {
+              "blockIndex": 21,
+              "text": "Bên cạnh đó, Context Window ngắn vẫn tồn tại một số nhược điểm:"
+            },
+            {
+              "blockIndex": 22,
+              "text": "Khó xử lý các đoạn văn bản dài: Context window ngắn chỉ cho phép mô hình tiếp cận một phần nhỏ của dữ liệu, làm giảm khả năng phân tích và tổng hợp thông tin phức tạp."
+            },
+            {
+              "blockIndex": 23,
+              "text": "Giảm chất lượng phản hồi: Do không nắm bắt được toàn bộ bối cảnh, mô hình dễ tạo ra câu trả lời rời rạc, thiếu logic hoặc không phù hợp với mạch nội dung trước đó."
+            },
+            {
+              "blockIndex": 24,
+              "text": "Hạn chế trong các tác vụ nâng cao: Những nhiệm vụ như tóm tắt tài liệu, viết báo cáo dài, hay xử lý dữ liệu nhiều lớp trở nên kém hiệu quả do giới hạn về dung lượng ngữ cảnh."
+            },
+            {
+              "blockIndex": 25,
+              "text": "So sánh Context Window của các mô hình AI hiện tại"
+            },
+            {
+              "blockIndex": 26,
+              "text": "Hiện nay, các mô hình ngôn ngữ lớn ngày càng mở rộng Context Window để xử lý thông tin phức tạp và duy trì ngữ cảnh. Tuy vậy, mỗi mô hình AI lại có cách ứng dụng Context Window khác nhau."
+            },
+            {
+              "blockIndex": 35,
+              "text": "8,000 – 128,000 tokens (tùy bản)"
+            },
+            {
+              "blockIndex": 37,
+              "text": "Context Window không chỉ là một khái niệm ứng dụng trong kỹ thuật mà còn giữ vai trò quan trọng trong việc nâng cao tính ứng dụng của các mô hình AI trong nhiều lĩnh vực khác nhau:"
+            },
+            {
+              "blockIndex": 39,
+              "text": "Context Window đóng vai trò như bộ nhớ ngắn hạn, giúp hệ thống ghi nhớ và duy trì lịch sử cuộc trò chuyện trong các Chatbot hiện đại. Nhờ vậy, Chatbot có thể hiểu các câu hỏi tiếp theo trong ngữ cảnh, liên kết với những thông tin đã được đề cập trước đó và phản hồi một cách tự nhiên, nhất quán. Điều này không chỉ nâng cao trải nghiệm người dùng mà còn giảm thiểu tình trạng lặp lại nội dung hoặc phản hồi sai lệch. Các mô hình tiên tiến như Gemini của Google tận dụng Context Window lớn để xử lý hội thoại phức tạp với độ chính xác và logic cao hơn."
+            },
+            {
+              "blockIndex": 40,
+              "text": "Phân tích chuỗi thời gian trong dự báo tài chính"
+            },
+            {
+              "blockIndex": 41,
+              "text": "Trong lĩnh vực tài chính, các mô hình AI sử dụng Context Window để phân tích chuỗi dữ liệu như giá cổ phiếu, chỉ số kinh tế hoặc khối lượng giao dịch. Việc xác định kích thước Context Window phù hợp giúp mô hình đánh giá mức độ ảnh hưởng của dữ liệu lịch sử đối với các dự đoán tương lai. Nhờ đó, AI có thể đưa ra những dự báo thị trường chính xác hơn, dựa trên các xu hướng và biến động được ghi nhận trong một khoảng thời gian nhất định."
+            },
+            {
+              "blockIndex": 42,
+              "text": "Thuật toán gợi ý từ khi nhập văn bản"
+            },
+            {
+              "blockIndex": 43,
+              "text": "Trên điện thoại thông minh, khi người dùng gõ văn bản, hệ thống bàn phím sẽ dựa vào các từ đã nhập trước đó trong một khoảng ngữ cảnh nhất định để dự đoán từ tiếp theo. Nhờ Context Window nhỏ nhưng hiệu quả, tính năng này tăng tốc độ gõ, cải thiện độ chính xác và mang lại trải nghiệm nhập liệu thông minh hơn."
+            },
+            {
+              "blockIndex": 44,
+              "text": ">>> Đọc thêm: Mô hình Long Short-Term Memory"
+            },
+            {
+              "blockIndex": 46,
+              "text": "Tóm lại, một Context Window đủ dài đóng vai trò quan trọng trong hoạt động của các mô hình ngôn ngữ hiện đại, giúp chúng duy trì mạch ngữ nghĩa, ghi nhớ thông tin trong cuộc hội thoại và tạo ra phản hồi tự nhiên, chính xác hơn. Tuy nhiên, việc mở rộng dung lượng Context Window không chỉ nâng cao hiệu suất xử lý ngôn ngữ mà còn mở ra nhiều tiềm năng ứng dụng mới trong các lĩnh vực như tài chính, chăm sóc khách hàng, sáng tạo nội dung và nhiều lĩnh vực khác. Hy vọng rằng bài viết trên của VNPT AI cung cấp thông tin hữu ích, giúp bạn đọc hiểu rõ vai trò và giới hạn của Context Window, từ đó khai thác hiệu quả hơn các công nghệ trí tuệ nhân tạo trong tương lai."
+            },
+            {
+              "blockIndex": 48,
+              "text": "AI tóm tắt cuộc họp: Giải pháp tối ưu hiệu suất làm việc"
+            },
+            {
+              "blockIndex": 49,
+              "text": "VNPT iKNOW - Nền tảng tri thức thông minh cho doanh nghiệp và tổ chức"
+            },
+            {
+              "blockIndex": 50,
+              "text": "Chain of Thought Prompting: Kỹ thuật nâng cấp khả năng suy luận cho mô hình AI"
+            },
+            {
+              "blockIndex": 51,
+              "text": "Chatbot Generative AI: Bước tiến đột phá trong giao tiếp số"
+            },
+            {
+              "blockIndex": 52,
+              "text": "Data Extraction: Giải pháp chiến lược trong kỷ nguyên dữ liệu bùng nổ"
+            },
+            {
+              "blockIndex": 53,
+              "text": "Vision Transformer là gì? Giải mã sức mạnh xử lý hình ảnh của ViT"
+            },
+            {
+              "blockIndex": 55,
+              "text": "Hãy trở thành đối tác của chúng tôi ngay hôm nay để được sử dụng những dịch vụ hàng đầu!"
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+          "tieuDe": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+          "toChuc": "Viblo",
+          "ngayLayVe": "2026-09-17T12:05:42.027Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Viblo là nền tảng chia sẻ kỹ thuật phổ biến tại Việt Nam, nội dung chi tiết và có cấu trúc tốt, tuy nhiên thiếu thông tin tác giả và ngày đăng cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Thiếu thông tin tác giả và ngày đăng",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp",
+          "tieuDe": "What is a context window? | IBM",
+          "tacGia": "Dave Bergmann",
+          "ngayDang": "2024-11-26",
+          "ngayLayVe": "2026-09-17T12:05:42.028Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng và ngày đăng cụ thể, nội dung mang tính học thuật và kỹ thuật cao.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn gốc là bản dịch tự động từ tiếng Anh, cần kiểm tra độ chính xác của thuật ngữ nếu cần trích dẫn nguyên văn tiếng Việt.",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://vnptai.io/vi/blog/detail/context-window",
+          "tieuDe": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+          "tacGia": "VNPT AI",
+          "ngayLayVe": "2026-09-17T12:05:42.029Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "VNPT AI là đơn vị cung cấp dịch vụ AI, nội dung dễ hiểu và phù hợp với người dùng cuối, tuy nhiên thiếu ngày đăng cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Thiếu thông tin ngày đăng",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI. Khi bạn nhập một đoạn văn bản (prompt), mô hình sẽ chỉ hiểu và phản hồi dựa trên những gì nằm trong cửa sổ ngữ cảnh đó.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.",
+              "viTri": "Đoạn mở đầu"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+              "viTri": "Đoạn mở đầu"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Khi cuộc trò chuyện hoặc văn bản vượt quá giới hạn cửa sổ ngữ cảnh, mô hình sẽ bắt đầu quên các thông tin cũ hoặc phải cắt bớt/tóm tắt dữ liệu để tiếp tục xử lý.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ.",
+              "viTri": "Đoạn mở đầu"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+              "viTri": "Đoạn thứ hai"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Dung lượng cửa sổ ngữ cảnh được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.",
+              "viTri": "Mục Token: đơn vị cơ bản"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "In real-world terms, the context length of a language model is measured not in words, but in tokens.",
+              "viTri": "Mục Context windows and tokenization"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Mô hình ngôn ngữ lớn sử dụng cơ chế tự chú ý (self-attention) để tính trọng số mối quan hệ giữa các token, nhưng kích thước context window giới hạn phạm vi mà cơ chế này có thể quét qua cùng lúc.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản.",
+              "viTri": "Mục Cơ chế tự chú ý (self-attention)"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh"
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK\",\n      \"tieuDe\": \"Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Viblo\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:05:42.027Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Viblo là nền tảng chia sẻ kỹ thuật phổ biến tại Việt Nam, nội dung chi tiết và có cấu trúc tốt, tuy nhiên thiếu thông tin tác giả và ngày đăng cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Thiếu thông tin tác giả và ngày đăng\"\n      ],\n      \"doanTrich\": \"Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp\",\n      \"tieuDe\": \"What is a context window? | IBM\",\n      \"tacGia\": \"Dave Bergmann\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T12:05:42.028Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng và ngày đăng cụ thể, nội dung mang tính học thuật và kỹ thuật cao.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn gốc là bản dịch tự động từ tiếng Anh, cần kiểm tra độ chính xác của thuật ngữ nếu cần trích dẫn nguyên văn tiếng Việt.\"\n      ],\n      \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://vnptai.io/vi/blog/detail/context-window\",\n      \"tieuDe\": \"Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn\",\n      \"tacGia\": \"VNPT AI\",\n      \"toChuc\": \"VNPT AI\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:05:42.029Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"VNPT AI là đơn vị cung cấp dịch vụ AI, nội dung dễ hiểu và phù hợp với người dùng cuối, tuy nhiên thiếu ngày đăng cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Thiếu thông tin ngày đăng\"\n      ],\n      \"doanTrich\": \"Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI. Khi bạn nhập một đoạn văn bản (prompt), mô hình sẽ chỉ hiểu và phản hồi dựa trên những gì nằm trong cửa sổ ngữ cảnh đó.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Khi cuộc trò chuyện hoặc văn bản vượt quá giới hạn cửa sổ ngữ cảnh, mô hình sẽ bắt đầu quên các thông tin cũ hoặc phải cắt bớt/tóm tắt dữ liệu để tiếp tục xử lý.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\",\n          \"viTri\": \"Đoạn thứ hai\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Dung lượng cửa sổ ngữ cảnh được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.\",\n          \"viTri\": \"Mục Token: đơn vị cơ bản\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"In real-world terms, the context length of a language model is measured not in words, but in tokens.\",\n          \"viTri\": \"Mục Context windows and tokenization\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Mô hình ngôn ngữ lớn sử dụng cơ chế tự chú ý (self-attention) để tính trọng số mối quan hệ giữa các token, nhưng kích thước context window giới hạn phạm vi mà cơ chế này có thể quét qua cùng lúc.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản.\",\n          \"viTri\": \"Mục Cơ chế tự chú ý (self-attention)\"\n        }]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-460ebf90-5f02-47b7-af98-d1523cb61c36",
+          "durationMs": 4575,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK\",\n      \"tieuDe\": \"Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Viblo\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:05:42.027Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Viblo là nền tảng chia sẻ kỹ thuật phổ biến tại Việt Nam, nội dung chi tiết và có cấu trúc tốt, tuy nhiên thiếu thông tin tác giả và ngày đăng cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Thiếu thông tin tác giả và ngày đăng\"\n      ],\n      \"doanTrich\": \"Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp\",\n      \"tieuDe\": \"What is a context window? | IBM\",\n      \"tacGia\": \"Dave Bergmann\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T12:05:42.028Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng và ngày đăng cụ thể, nội dung mang tính học thuật và kỹ thuật cao.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn gốc là bản dịch tự động từ tiếng Anh, cần kiểm tra độ chính xác của thuật ngữ nếu cần trích dẫn nguyên văn tiếng Việt.\"\n      ],\n      \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://vnptai.io/vi/blog/detail/context-window\",\n      \"tieuDe\": \"Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn\",\n      \"tacGia\": \"VNPT AI\",\n      \"toChuc\": \"VNPT AI\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:05:42.029Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"VNPT AI là đơn vị cung cấp dịch vụ AI, nội dung dễ hiểu và phù hợp với người dùng cuối, tuy nhiên thiếu ngày đăng cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Thiếu thông tin ngày đăng\"\n      ],\n      \"doanTrich\": \"Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI. Khi bạn nhập một đoạn văn bản (prompt), mô hình sẽ chỉ hiểu và phản hồi dựa trên những gì nằm trong cửa sổ ngữ cảnh đó.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Khi cuộc trò chuyện hoặc văn bản vượt quá giới hạn cửa sổ ngữ cảnh, mô hình sẽ bắt đầu quên các thông tin cũ hoặc phải cắt bớt/tóm tắt dữ liệu để tiếp tục xử lý.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\",\n          \"viTri\": \"Đoạn thứ hai\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Dung lượng cửa sổ ngữ cảnh được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.\",\n          \"viTri\": \"Mục Token: đơn vị cơ bản\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"In real-world terms, the context length of a language model is measured not in words, but in tokens.\",\n          \"viTri\": \"Mục Context windows and tokenization\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Mô hình ngôn ngữ lớn sử dụng cơ chế tự chú ý (self-attention) để tính trọng số mối quan hệ giữa các token, nhưng kích thước context window giới hạn phạm vi mà cơ chế này có thể quét qua cùng lúc.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản.\",\n          \"viTri\": \"Mục Cơ chế tự chú ý (self-attention)\"\n        }]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 65192
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+      "thoiLuong": "bốn phút",
+      "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.",
+          "chuTrenManHinh": "Tiêu đề video hiện lên",
+          "yDoHinh": "Hình minh hoạ logo AI và tiêu đề video",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+          "chuTrenManHinh": "Biểu đồ cửa sổ ngữ cảnh",
+          "yDoHinh": "Minh hoạ khung cửa sổ chứa một đoạn văn bản ngắn",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.",
+          "chuTrenManHinh": "Ví dụ token trên màn hình",
+          "yDoHinh": "Hình ảnh các token được tách ra từ một câu mẫu",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.",
+          "chuTrenManHinh": "Cảnh cắt bớt nội dung",
+          "yDoHinh": "Minh hoạ quá trình cắt bớt văn bản khi vượt quá cửa sổ",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.",
+          "chuTrenManHinh": "Mô hình self‑attention",
+          "yDoHinh": "Sơ đồ self‑attention với vùng cửa sổ giới hạn",
+          "nguon": [
+            "t04"
+          ]
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789646824281",
+      "timestamp": "2026-09-17T12:07:04.282Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút",
+        "evalRunId": "2026-09-17T12-05-18-065Z",
+        "evalCaseId": "N01"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://viblo.asia/p/cua-so-ngu-canh-context-window-la-gi-va-quan-ly-ra-sao-lZL9XQkvJQK",
+          "tieuDe": "Cửa sổ ngữ cảnh (context window) là gì và quản lý ra sao?",
+          "toChuc": "Viblo",
+          "ngayLayVe": "2026-09-17T12:05:42.027Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Viblo là nền tảng chia sẻ kỹ thuật phổ biến tại Việt Nam, nội dung chi tiết và có cấu trúc tốt, tuy nhiên thiếu thông tin tác giả và ngày đăng cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Thiếu thông tin tác giả và ngày đăng",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://translate.google.com/translate?u=https://www.ibm.com/think/topics/context-window&hl=vi&sl=en&tl=vi&client=srp",
+          "tieuDe": "What is a context window? | IBM",
+          "tacGia": "Dave Bergmann",
+          "ngayDang": "2024-11-26",
+          "ngayLayVe": "2026-09-17T12:05:42.028Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "IBM là tổ chức công nghệ uy tín, bài viết có tác giả rõ ràng và ngày đăng cụ thể, nội dung mang tính học thuật và kỹ thuật cao.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn gốc là bản dịch tự động từ tiếng Anh, cần kiểm tra độ chính xác của thuật ngữ nếu cần trích dẫn nguyên văn tiếng Việt.",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://vnptai.io/vi/blog/detail/context-window",
+          "tieuDe": "Context Window trong LLMs: Cấu trúc, cơ chế và ứng dụng thực tiễn",
+          "tacGia": "VNPT AI",
+          "ngayLayVe": "2026-09-17T12:05:42.029Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "VNPT AI là đơn vị cung cấp dịch vụ AI, nội dung dễ hiểu và phù hợp với người dùng cuối, tuy nhiên thiếu ngày đăng cụ thể.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Thiếu thông tin ngày đăng",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Context Window hay cửa sổ ngữ cảnh có thể hiểu đơn giản giống như bộ nhớ ngắn hạn của các mô hình AI. Khi bạn nhập một đoạn văn bản (prompt), mô hình sẽ chỉ hiểu và phản hồi dựa trên những gì nằm trong cửa sổ ngữ cảnh đó.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.",
+              "viTri": "Đoạn mở đầu"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+              "viTri": "Đoạn mở đầu"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Khi cuộc trò chuyện hoặc văn bản vượt quá giới hạn cửa sổ ngữ cảnh, mô hình sẽ bắt đầu quên các thông tin cũ hoặc phải cắt bớt/tóm tắt dữ liệu để tiếp tục xử lý.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ.",
+              "viTri": "Đoạn mở đầu"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+              "viTri": "Đoạn thứ hai"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Dung lượng cửa sổ ngữ cảnh được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.",
+              "viTri": "Mục Token: đơn vị cơ bản"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "In real-world terms, the context length of a language model is measured not in words, but in tokens.",
+              "viTri": "Mục Context windows and tokenization"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Mô hình ngôn ngữ lớn sử dụng cơ chế tự chú ý (self-attention) để tính trọng số mối quan hệ giữa các token, nhưng kích thước context window giới hạn phạm vi mà cơ chế này có thể quét qua cùng lúc.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản.",
+              "viTri": "Mục Cơ chế tự chú ý (self-attention)"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh"
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "thoiLuong": "bốn phút",
+        "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.",
+            "chuTrenManHinh": "Tiêu đề video hiện lên",
+            "yDoHinh": "Hình minh hoạ logo AI và tiêu đề video",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+            "chuTrenManHinh": "Biểu đồ cửa sổ ngữ cảnh",
+            "yDoHinh": "Minh hoạ khung cửa sổ chứa một đoạn văn bản ngắn",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.",
+            "chuTrenManHinh": "Ví dụ token trên màn hình",
+            "yDoHinh": "Hình ảnh các token được tách ra từ một câu mẫu",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.",
+            "chuTrenManHinh": "Cảnh cắt bớt nội dung",
+            "yDoHinh": "Minh hoạ quá trình cắt bớt văn bản khi vượt quá cửa sổ",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.",
+            "chuTrenManHinh": "Mô hình self‑attention",
+            "yDoHinh": "Sơ đồ self‑attention với vùng cửa sổ giới hạn",
+            "nguon": [
+              "t04"
+            ]
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Cửa sổ ngữ cảnh (context window) là bộ nhớ làm việc (working memory) giới hạn lượng dữ liệu mà một mô hình ngôn ngữ lớn (LLM) có thể xử lý và tham chiếu tại một thời điểm.; [n02] The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Dung lượng của context window được đo bằng token. Đây là đơn vị ngôn ngữ nhỏ nhất mà LLM xử lý, có thể là một ký tự, một phần của từ hoặc cả một từ.; [n02] In real-world terms, the context length of a language model is measured not in words, but in tokens."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Hiểu đơn giản, vượt quá giới hạn này thì mô hình bắt đầu quên các thông tin cũ.; [n02] When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.",
+          "nguon": [
+            "t04"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Các mô hình Transformer dùng cơ chế self-attention để tính trọng số mối quan hệ giữa các token. Cơ chế này cho phép mô hình hiểu được sự liên quan giữa các thực thể nằm cách xa nhau trong văn bản."
+          ]
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.\",\"chuTrenManHinh\":\"Tiêu đề video hiện lên\",\"yDoHinh\":\"Hình minh hoạ logo AI và tiêu đề video\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.\",\"chuTrenManHinh\":\"Biểu đồ cửa sổ ngữ cảnh\",\"yDoHinh\":\"Minh hoạ khung cửa sổ chứa một đoạn văn bản ngắn\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.\",\"chuTrenManHinh\":\"Ví dụ token trên màn hình\",\"yDoHinh\":\"Hình ảnh các token được tách ra từ một câu mẫu\",\"nguon\":[\"t03\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.\",\"chuTrenManHinh\":\"Cảnh cắt bớt nội dung\",\"yDoHinh\":\"Minh hoạ quá trình cắt bớt văn bản khi vượt quá cửa sổ\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.\",\"chuTrenManHinh\":\"Mô hình self‑attention\",\"yDoHinh\":\"Sơ đồ self‑attention với vùng cửa sổ giới hạn\",\"nguon\":[\"t04\"]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-0350c957-f1ba-485e-a783-dc022da465dc",
+          "durationMs": 4185,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\"mucTieu\":\"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\"thoiLuong\":\"bốn phút\",\"nguoiHoc\":\"Sinh viên năm nhất, chưa học lập trình\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá một khái niệm quan trọng trong trí tuệ nhân tạo.\",\"chuTrenManHinh\":\"Tiêu đề video hiện lên\",\"yDoHinh\":\"Hình minh hoạ logo AI và tiêu đề video\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Context window, hay còn gọi là cửa sổ ngữ cảnh, là bộ nhớ làm việc giới hạn lượng dữ liệu mà mô hình ngôn ngữ lớn có thể xử lý và tham chiếu tại một thời điểm.\",\"chuTrenManHinh\":\"Biểu đồ cửa sổ ngữ cảnh\",\"yDoHinh\":\"Minh hoạ khung cửa sổ chứa một đoạn văn bản ngắn\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Độ rộng của cửa sổ được đo bằng token, đơn vị ngôn ngữ nhỏ nhất mà mô hình xử lý, có thể là một ký tự, một phần của từ hoặc một từ đầy đủ.\",\"chuTrenManHinh\":\"Ví dụ token trên màn hình\",\"yDoHinh\":\"Hình ảnh các token được tách ra từ một câu mẫu\",\"nguon\":[\"t03\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi đoạn hội thoại vượt quá giới hạn này, mô hình sẽ phải cắt bớt hoặc tóm tắt để tiếp tục, dẫn đến việc quên các thông tin đầu tiên.\",\"chuTrenManHinh\":\"Cảnh cắt bớt nội dung\",\"yDoHinh\":\"Minh hoạ quá trình cắt bớt văn bản khi vượt quá cửa sổ\",\"nguon\":[\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Do cơ chế self‑attention chỉ quét trong phạm vi cửa sổ, nên khi cuộc trò chuyện dài hơn, các token cũ không còn được tính trọng số, khiến trợ lý quên phần đầu.\",\"chuTrenManHinh\":\"Mô hình self‑attention\",\"yDoHinh\":\"Sơ đồ self‑attention với vùng cửa sổ giới hạn\",\"nguon\":[\"t04\"]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 39213
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "trace-script-1789652703408",
+  "timestamp": "2026-09-17T13:45:03.408Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+    "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+    "targetAudience": "Giáo viên mầm non",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N21"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.healthychildren.org/English/family-life/Media/Pages/how-will-artificial-intelligence-AI-affect-children.aspx",
+      "tieuDe": "How Will Artificial Intelligence (AI) Affect Children? - HealthyChildren.org",
+      "toChuc": "HealthyChildren.org",
+      "ngayLayVe": "2026-09-17T13:44:53.249Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu từ tổ chức y tế và sức khỏe trẻ em uy tín, phân tích các tác động của AI đối với trẻ nhỏ.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn không rõ ngày đăng, cần lưu ý khi sử dụng thông tin thời gian.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Young children may share personal information with AI platforms. Studies show that little ones often chat with smart speakers, telling personal stories and disclosing details that grownups might consider private.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://english.luatvietnam.vn/legal-updates/vietnam-drafts-plan-to-bring-ai-education-into-every-classroom-892-105886-article.html",
+      "tieuDe": "Vietnam drafts plan to bring AI education into every classroom",
+      "tacGia": "https://english.luatvietnam.vn/",
+      "toChuc": "LuatVietnam",
+      "ngayLayVe": "2026-09-17T13:44:53.250Z",
+      "loai": "bao-chi",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Cung cấp thông tin thời sự về kế hoạch giáo dục tại Việt Nam nhưng thiếu chi tiết tác giả cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn báo chí không rõ ngày đăng cụ thể, chỉ dẫn nguồn từ văn bản dự thảo.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The Ministry of Education and Training has drafted a plan that for the first time introduces structured AI learning across all levels of general schooling.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.unicef.org/innocenti/generative-ai-risks-and-opportunities-children",
+      "tieuDe": "Generative AI: Risks and opportunities for children | Office of Strategy and Evidence Innocenti",
+      "ngayLayVe": "2026-09-17T13:44:54.365Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Báo cáo từ văn phòng nghiên cứu chiến lược và bằng chứng, đưa ra phân tích khách quan về cơ hội và rủi ro.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không rõ ngày đăng cụ thể trên trang web.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Personalized learning systems that can explain difficult concepts and help children develop skills, tailored to a child’s specific needs.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Ứng dụng thực tế của AI trong giáo dục là cung cấp các hệ thống học tập cá nhân hóa, giúp giải thích các khái niệm khó và hỗ trợ phát triển kỹ năng phù hợp với nhu cầu riêng của từng trẻ.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Personalized learning systems that can explain difficult concepts and help children develop skills, tailored to a child’s specific needs.",
+          "viTri": "Phần cơ hội và rủi ro cho trẻ em"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Lo ngại về AI đối với trẻ nhỏ là trẻ có thể chia sẻ thông tin cá nhân hoặc trò chuyện với các thiết bị thông minh, tiết lộ những chi tiết riêng tư mà người lớn có thể coi là bảo mật.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Young children may share personal information with AI platforms. Studies show that little ones often chat with smart speakers, telling personal stories and disclosing details that grownups might consider private.",
+          "viTri": "Phần nghiên cứu về các mối lo ngại của AI đối với trẻ em"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Việt Nam có các định hướng dự thảo đưa nội dung học tập AI vào hệ thống giáo dục, bao gồm việc tiếp cận các ứng dụng đơn giản, trực quan giúp học sinh nhận diện AI trong đời sống hàng ngày.",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "The Ministry of Education and Training has drafted a plan that for the first time introduces structured AI learning across all levels of general schooling.",
+          "viTri": "Phần mở đầu nội dung dự thảo"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+    "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Giáo viên mầm non",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các cô giáo mầm non đến với buổi chia sẻ ngắn gọn về trí tuệ nhân tạo trong lớp học của chúng ta.",
+        "chuTrenManHinh": "Chào mừng cô giáo",
+        "yDoHinh": "Hình ảnh một giáo viên mầm non mỉm cười vẫy tay chào trước lớp học đầy màu sắc, nền có các biểu tượng công nghệ mờ nhạt.",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Tại Việt Nam, Bộ Giáo dục và Đào tạo đã dự thảo kế hoạch đưa nội dung học tập về trí tuệ nhân tạo vào hệ thống giáo dục phổ thông.",
+        "chuTrenManHinh": "Dự thảo giáo dục AI",
+        "yDoHinh": "Biểu tượng quốc kỳ Việt Nam kết hợp với hình ảnh một cuốn sách mở ra có các mạch điện tử phát sáng, thể hiện sự kết hợp giữa giáo dục và công nghệ.",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Một ứng dụng thực tế là hệ thống học tập cá nhân hóa giúp giải thích khái niệm khó và hỗ trợ phát triển kỹ năng phù hợp với nhu cầu riêng của từng trẻ.",
+        "chuTrenManHinh": "Học tập cá nhân hóa",
+        "yDoHinh": "Hình ảnh một đứa trẻ đang tương tác với màn hình cảm ứng, nơi các nội dung học tập thay đổi linh hoạt theo biểu cảm và tốc độ tiếp thu của trẻ.",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Tuy nhiên, liệu chúng ta đã sẵn sàng đối mặt với lo ngại khi trẻ nhỏ có thể chia sẻ thông tin cá nhân hoặc tiết lộ chi tiết riêng tư với các thiết bị thông minh?",
+        "chuTrenManHinh": "Bảo mật thông tin trẻ",
+        "yDoHinh": "Hình ảnh một chiếc loa thông minh đang phát sóng âm thanh, xung quanh là các biểu tượng khóa và dấu chấm hỏi, gợi ý về vấn đề riêng tư.",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Trong bốn phút tới, chúng ta sẽ cùng phân tích hai ứng dụng thực tế và hai lo ngại chính để đưa ra quyết định sáng suốt cho lớp học.",
+        "chuTrenManHinh": "Phân tích trong 4 phút",
+        "yDoHinh": "Đồng hồ cát đang chảy với các hạt cát có hình dạng các biểu tượng giáo dục và công nghệ, nhấn mạnh vào thời gian ngắn gọn và tập trung.",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các cô giáo mầm non đến với buổi chia sẻ ngắn gọn về trí tuệ nhân tạo trong lớp học của chúng ta.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Tại Việt Nam, Bộ Giáo dục và Đào tạo đã dự thảo kế hoạch đưa nội dung học tập về trí tuệ nhân tạo vào hệ thống giáo dục phổ thông.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] The Ministry of Education and Training has drafted a plan that for the first time introduces structured AI learning across all levels of general schooling."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Một ứng dụng thực tế là hệ thống học tập cá nhân hóa giúp giải thích khái niệm khó và hỗ trợ phát triển kỹ năng phù hợp với nhu cầu riêng của từng trẻ.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Personalized learning systems that can explain difficult concepts and help children develop skills, tailored to a child’s specific needs."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Tuy nhiên, liệu chúng ta đã sẵn sàng đối mặt với lo ngại khi trẻ nhỏ có thể chia sẻ thông tin cá nhân hoặc tiết lộ chi tiết riêng tư với các thiết bị thông minh?",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Young children may share personal information with AI platforms. Studies show that little ones often chat with smart speakers, telling personal stories and disclosing details that grownups might consider private."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Trong bốn phút tới, chúng ta sẽ cùng phân tích hai ứng dụng thực tế và hai lo ngại chính để đưa ra quyết định sáng suốt cho lớp học.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\",\n  \"mucTieu\": \"Nêu được hai ứng dụng thực tế và hai lo ngại\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Giáo viên mầm non\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các cô giáo mầm non đến với buổi chia sẻ ngắn gọn về trí tuệ nhân tạo trong lớp học của chúng ta.\",\n      \"chuTrenManHinh\": \"Chào mừng cô giáo\",\n      \"yDoHinh\": \"Hình ảnh một giáo viên mầm non mỉm cười vẫy tay chào trước lớp học đầy màu sắc, nền có các biểu tượng công nghệ mờ nhạt.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Tại Việt Nam, Bộ Giáo dục và Đào tạo đã dự thảo kế hoạch đưa nội dung học tập về trí tuệ nhân tạo vào hệ thống giáo dục phổ thông.\",\n      \"chuTrenManHinh\": \"Dự thảo giáo dục AI\",\n      \"yDoHinh\": \"Biểu tượng quốc kỳ Việt Nam kết hợp với hình ảnh một cuốn sách mở ra có các mạch điện tử phát sáng, thể hiện sự kết hợp giữa giáo dục và công nghệ.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Một ứng dụng thực tế là hệ thống học tập cá nhân hóa giúp giải thích khái niệm khó và hỗ trợ phát triển kỹ năng phù hợp với nhu cầu riêng của từng trẻ.\",\n      \"chuTrenManHinh\": \"Học tập cá nhân hóa\",\n      \"yDoHinh\": \"Hình ảnh một đứa trẻ đang tương tác với màn hình cảm ứng, nơi các nội dung học tập thay đổi linh hoạt theo biểu cảm và tốc độ tiếp thu của trẻ.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Tuy nhiên, liệu chúng ta đã sẵn sàng đối mặt với lo ngại khi trẻ nhỏ có thể chia sẻ thông tin cá nhân hoặc tiết lộ chi tiết riêng tư với các thiết bị thông minh?\",\n      \"chuTrenManHinh\": \"Bảo mật thông tin trẻ\",\n      \"yDoHinh\": \"Hình ảnh một chiếc loa thông minh đang phát sóng âm thanh, xung quanh là các biểu tượng khóa và dấu chấm hỏi, gợi ý về vấn đề riêng tư.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Trong bốn phút tới, chúng ta sẽ cùng phân tích hai ứng dụng thực tế và hai lo ngại chính để đưa ra quyết định sáng suốt cho lớp học.\",\n      \"chuTrenManHinh\": \"Phân tích trong 4 phút\",\n      \"yDoHinh\": \"Đồng hồ cát đang chảy với các hạt cát có hình dạng các biểu tượng giáo dục và công nghệ, nhấn mạnh vào thời gian ngắn gọn và tập trung.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-7deb46aa-cfa6-4480-97e7-b4913ef5037c",
+      "durationMs": 1964,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\",\n  \"mucTieu\": \"Nêu được hai ứng dụng thực tế và hai lo ngại\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Giáo viên mầm non\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các cô giáo mầm non đến với buổi chia sẻ ngắn gọn về trí tuệ nhân tạo trong lớp học của chúng ta.\",\n      \"chuTrenManHinh\": \"Chào mừng cô giáo\",\n      \"yDoHinh\": \"Hình ảnh một giáo viên mầm non mỉm cười vẫy tay chào trước lớp học đầy màu sắc, nền có các biểu tượng công nghệ mờ nhạt.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Tại Việt Nam, Bộ Giáo dục và Đào tạo đã dự thảo kế hoạch đưa nội dung học tập về trí tuệ nhân tạo vào hệ thống giáo dục phổ thông.\",\n      \"chuTrenManHinh\": \"Dự thảo giáo dục AI\",\n      \"yDoHinh\": \"Biểu tượng quốc kỳ Việt Nam kết hợp với hình ảnh một cuốn sách mở ra có các mạch điện tử phát sáng, thể hiện sự kết hợp giữa giáo dục và công nghệ.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Một ứng dụng thực tế là hệ thống học tập cá nhân hóa giúp giải thích khái niệm khó và hỗ trợ phát triển kỹ năng phù hợp với nhu cầu riêng của từng trẻ.\",\n      \"chuTrenManHinh\": \"Học tập cá nhân hóa\",\n      \"yDoHinh\": \"Hình ảnh một đứa trẻ đang tương tác với màn hình cảm ứng, nơi các nội dung học tập thay đổi linh hoạt theo biểu cảm và tốc độ tiếp thu của trẻ.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Tuy nhiên, liệu chúng ta đã sẵn sàng đối mặt với lo ngại khi trẻ nhỏ có thể chia sẻ thông tin cá nhân hoặc tiết lộ chi tiết riêng tư với các thiết bị thông minh?\",\n      \"chuTrenManHinh\": \"Bảo mật thông tin trẻ\",\n      \"yDoHinh\": \"Hình ảnh một chiếc loa thông minh đang phát sóng âm thanh, xung quanh là các biểu tượng khóa và dấu chấm hỏi, gợi ý về vấn đề riêng tư.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Trong bốn phút tới, chúng ta sẽ cùng phân tích hai ứng dụng thực tế và hai lo ngại chính để đưa ra quyết định sáng suốt cho lớp học.\",\n      \"chuTrenManHinh\": \"Phân tích trong 4 phút\",\n      \"yDoHinh\": \"Đồng hồ cát đang chảy với các hạt cát có hình dạng các biểu tượng giáo dục và công nghệ, nhấn mạnh vào thời gian ngắn gọn và tập trung.\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 2215
+}

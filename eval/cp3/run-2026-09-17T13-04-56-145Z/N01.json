@@ -1,0 +1,70 @@
+{
+  "case": {
+    "id": "N01",
+    "class": "thuong",
+    "input": {
+      "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+      "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Tìm được ≥2 nguồn đáng tin về context window. Kịch bản viết bằng văn nói, không số, có dẫn nguồn.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #1; không phải chatlog",
+    "passCriteria": "≥2 nguồn thật có URL hợp lệ; ≥3 câu có nguồn; loi không chứa chữ số",
+    "failCriteria": "Bịa nguồn; URL .test; có chữ số trong loi; không có doanTrich"
+  },
+  "research": {
+    "http": 200,
+    "sources": [],
+    "thongTin": [],
+    "searchQueries": [
+      "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+      "Cửa sổ ngữ cảnh của mô hình ngôn ngữ documentation"
+    ],
+    "pagesRead": 0,
+    "pagesOk": 0,
+    "trace": {
+      "id": "trace-research-1789650298384",
+      "timestamp": "2026-09-17T13:04:58.384Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+        "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+        "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+        "videoDuration": "4 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-04-56-145Z",
+        "evalCaseId": "N01"
+      },
+      "searchResults": [
+        {
+          "results": [],
+          "query": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+          "error": "Không tìm thấy kết quả từ các công cụ tìm kiếm web."
+        },
+        {
+          "results": [],
+          "query": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ documentation",
+          "error": "Không tìm thấy kết quả từ các công cụ tìm kiếm web."
+        }
+      ],
+      "selection": {
+        "candidates": [],
+        "pagesRead": [],
+        "supplementReasons": []
+      },
+      "pagesRead": [],
+      "sourcesEvaluated": [],
+      "sourcesSelected": [],
+      "sourcesRejected": [],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "error": "Không có trang nào đọc được",
+      "isDemo": false,
+      "durationMs": 349
+    },
+    "isDemo": false,
+    "canGenerate": false,
+    "error": "Không có trang nào đọc được"
+  }
+}

@@ -13,7 +13,7 @@ export async function POST(request: Request) {
 
   try {
     const body = await request.json();
-    const { topic, learningObjective, targetAudience, videoDuration, sources, thongTin } = body;
+    const { topic, learningObjective, targetAudience, videoDuration, sources, thongTin, evalRunId, evalCaseId } = body;
 
     if (!topic || !sources || sources.length === 0) {
       return NextResponse.json(
@@ -28,15 +28,19 @@ export async function POST(request: Request) {
       targetAudience,
       videoDuration,
       sources,
-      thongTin
+      thongTin,
+      typeof evalCaseId === 'string'
+        ? { runId: typeof evalRunId === 'string' ? evalRunId : undefined, caseId: evalCaseId, phase: 'script-generation' }
+        : undefined,
     );
 
     const trace = createScriptTrace({
-      input: { topic, learningObjective, targetAudience, videoDuration },
+      input: { topic, learningObjective, targetAudience, videoDuration, evalRunId, evalCaseId },
       sources,
       thongTin: thongTin || [],
       script: result.script,
       aiRawResponse: result.rawAiResponse,
+      aiAttempts: result.attempts,
       error: result.error,
       isDemo: result.isDemo,
       startTime,

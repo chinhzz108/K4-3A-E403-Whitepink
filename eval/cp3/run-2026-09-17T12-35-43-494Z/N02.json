@@ -1,0 +1,1189 @@
+{
+  "case": {
+    "id": "N02",
+    "class": "thuong",
+    "input": {
+      "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+      "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+      "targetAudience": "Người đi làm, dùng AI hàng ngày",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Tìm được nguồn về hallucination, confabulation. Kịch bản nêu rõ dấu hiệu.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #2; không phải chatlog",
+    "passCriteria": "≥2 nguồn; kịch bản đề cập hallucination; câu có nguồn",
+    "failCriteria": "Bịa nguồn; không dẫn nguồn; viết tắt không giải thích"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+        "tieuDe": "What are AI Hallucinations? Signs, Risks, & Prevention | AI21",
+        "toChuc": "AI21",
+        "ngayLayVe": "2026-09-17T12:37:28.034Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Nguồn từ công ty thương mại (AI21), có thiên hướng marketing nhưng cung cấp định nghĩa và ví dụ thực tế rõ ràng về các dấu hiệu hallucination.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn thương mại, cần kiểm chứng độc lập",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+        "tieuDe": "Hallucination (artificial intelligence) - Wikipedia",
+        "ngayLayVe": "2026-09-17T12:37:28.037Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Bách khoa toàn thư mở, tổng hợp nhiều nguồn học thuật và báo chí, phù hợp để định nghĩa khái niệm và lịch sử thuật ngữ.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "canhBao": [
+          "Nội dung có thể bị chỉnh sửa bởi người dùng, cần đối chiếu với nguồn gốc",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+        "tieuDe": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+        "ngayLayVe": "2026-09-17T12:37:29.026Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Bài báo khoa học được bình duyệt, đăng trên PMC, phân tích sâu về cơ chế gây ra sự tự tin sai lệch (calibration) trong các mô hình AI.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+        "tieuDe": "Teaching AI models to say “I’m not sure” | MIT News | Massachusetts Institute of Technology",
+        "toChuc": "MIT News | Massachusetts Institute of Technology",
+        "ngayDang": "2026-04-22T19:15:00Z",
+        "ngayLayVe": "2026-09-17T12:37:29.029Z",
+        "loai": "bao-chi",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Báo chí chính thức của MIT, đưa tin về nghiên cứu khoa học cụ thể với số liệu và trích dẫn từ các nhà nghiên cứu.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [],
+        "doanTrich": "Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n05",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+        "tieuDe": "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+        "ngayLayVe": "2026-09-17T12:37:28.035Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+        "tieuDe": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+        "ngayLayVe": "2026-09-17T12:37:29.028Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t02",
+        "noiDung": "Một dấu hiệu nhận biết là AI trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không tồn tại.",
+        "loai": "vi-du",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.",
+            "viTri": "Phần mô tả các dạng hallucination"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Các mô hình AI hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai, do cách huấn luyện ưu tiên sự quyết đoán.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].",
+            "viTri": "Phần thảo luận về calibration"
+          },
+          {
+            "nguonId": "n04",
+            "doanTrich": "Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.",
+            "viTri": "Đoạn mở đầu bài báo"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t04",
+        "noiDung": "Sự tự tin thái quá (overconfidence) nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ và tìm kiếm ý kiến thứ hai.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n04",
+            "doanTrich": "A model that says \"I'm 95 percent sure\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion.",
+            "viTri": "Phần phân tích hậu quả"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh"
+      }
+    ],
+    "searchQueries": [
+      "AI hallucination signs",
+      "AI overconfidence detection"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 4,
+    "trace": {
+      "id": "trace-research-1789648682909",
+      "timestamp": "2026-09-17T12:38:02.909Z",
+      "phase": "research",
+      "input": {
+        "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+        "targetAudience": "Người đi làm, dùng AI hàng ngày",
+        "videoDuration": "5 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T12-35-43-494Z",
+        "evalCaseId": "N02"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "What are AI Hallucinations? Signs, Risks, & Prevention",
+              "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+              "snippet": "Signs of AI hallucinations · Output accuracy · Context Integrity · Answer relevance · Inconsistency detection · Statistical improbability.",
+              "position": 1
+            },
+            {
+              "title": "Hallucination (artificial intelligence)",
+              "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+              "snippet": "\"a tendency to invent facts in moments of uncertainty\" (OpenAI, May 2023) · \"a model's logical mistakes\" (OpenAI, May 2023) · \"fabricating information entirely, ...",
+              "position": 2
+            },
+            {
+              "title": "AI hallucinates because it's trained to fake answers it ...",
+              "url": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+              "snippet": "AI hallucinates because it's trained to fake answers it doesn't know · Teaching chatbots to say “I don't know” could curb hallucinations. It ...",
+              "position": 3
+            },
+            {
+              "title": "8 AI hallucinations examples",
+              "url": "https://www.evidentlyai.com/blog/ai-hallucinations-examples",
+              "snippet": "AI hallucinations come in different forms: from giving factually incorrect responses to inventing nonexistent product features or even ...",
+              "position": 4
+            },
+            {
+              "title": "Spotting AI 'hallucinations': A guide for students and ...",
+              "url": "https://blogs.deakin.edu.au/article/spotting-ai-hallucinations-a-guide-for-students-and-researchers/",
+              "snippet": "What is an AI hallucination? · Made‑up facts or statistics · Incorrect summaries of sources · References to articles, books or authors that do not ...",
+              "position": 5
+            }
+          ],
+          "query": "AI hallucination signs",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Overconfident AI: how artificial intelligence navigates risk ...",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+              "snippet": "viết bởi S Hong · 2025 · Trích dẫn 6 bài viết — Our findings suggest that AI systems, when designed without adequate mechanisms to account for risk, may exhibit overconfidence in uncertain ...",
+              "position": 1
+            },
+            {
+              "title": "Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+              "snippet": "viết bởi JS Berkowitz · 2026 · Trích dẫn 8 bài viết — Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct.",
+              "position": 2
+            },
+            {
+              "title": "Teaching AI models to say “I'm not sure”",
+              "url": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+              "snippet": "MIT CSAIL's “Reinforcement Learning with Calibration Rewards” technique improves AI confidence estimates without sacrificing performance, ...",
+              "position": 3
+            },
+            {
+              "title": "Overconfident and Unconfident AI Hinder Human-AI ...",
+              "url": "https://arxiv.org/html/2402.07632v1",
+              "snippet": "Our study reveal that disclosing AI confidence levels and performance feedback facilitates better recognition of AI confidence misalignments.",
+              "position": 4
+            },
+            {
+              "title": "More certain than correct: Overconfidence in AI-Generated ...",
+              "url": "https://www.diva-portal.org/smash/record.jsf?pid=diva2:2069832",
+              "snippet": "viết bởi E Eriksson · 2026 — The study highlights the prevalence of overconfidence in tasks involving AI-detection and questions the extent to which stable personality ...",
+              "position": 5
+            }
+          ],
+          "query": "AI overconfidence detection",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.ai21.com/knowledge/ai-hallucinations/",
+          "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+          "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+          "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+          "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+          "https://www.evidentlyai.com/blog/ai-hallucinations-examples",
+          "https://arxiv.org/html/2402.07632v1"
+        ],
+        "pagesRead": [
+          "https://www.ai21.com/knowledge/ai-hallucinations/",
+          "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+          "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+          "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+          "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+          "content": "AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing.\n\nIn one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models.\n\nThat’s a serious risk for organizations across sectors. Hallucinated content can misinform\n\nIf your organization is exploring generative AI, it’s critical to recognize the signs of hallucination, assess the risks specific to your use case, and put guardrails in place. This article will show you how.\n\nAI hallucinations occur when a model generates incorrect or misleading outputs — content that may appear fact-based or coherent but is ultimately inaccurate or nonsensical.\n\nWhile hallucination is the standard term in AI, it’s sometimes discussed alongside concepts like confabulation, fabrication, or creative guessing. These aren’t technically the same — for instance, confabulation comes from psychology and refers to unintentionally filling memory gaps — but all attempt to describe the same underlying behavior: producing information that sounds plausible but isn’t grounded in fact.\n\nAI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.\n\nHow do AI hallucinations occur?\n\nAI hallucinations are a side effect of how large language models (LLMs) are built.\n\nHallucinations are likely to occur in any AI system, especially those relying on large language models. That’s why it’s critical to implement robust quality assessment processes and guardrails. Enterprises need a clear understanding of how, where, and how often hallucinations appear, so they can recognize the warning signs early.\n\nBelow are the key categories of hallucination to monitor, along with typical signs to watch for:\n\nHallucinations in relevance occur when the model’s response is factually correct but not appropriately focused on the question asked. The information may be real, but its inclusion is unwarranted or tangential.\n\nSpecific risks of AI hallucinations in the enterprise\n\nWhile hallucinations may be inconvenient in personal or low-stakes use cases, in an enterprise setting, they can lead to serious operational, legal, reputational, or even safety-related consequences. Below are examples of how these risks manifest across key industries.\n\nIn clinical applications, factual accuracy is non-negotiable. Hallucinations in diagnostic tools, medical summaries, or treatment guidance can introduce ethically unacceptable risks.\n\nIn healthcare, hallucinations don’t just erode trust — they could contribute to real-world harm or life-threatening outcomes.\n\nDialogue history-based hallucinations in retail support\n\nHow to prevent AI hallucinations\n\nSome level of hallucination is to be expected when using large language models — but the key to responsible enterprise adoption is evaluating how closely the model’s outputs align with the data and context you provide.\n\nSeveral strategies and tools can help improve AI output quality and reduce the risk of hallucinations. One of the most effective is implementing structured evaluation frameworks, supported by model tuning, grounding techniques, and human oversight.\n\nOutput Accuracy: Measures the model’s ability to provide correct answers when information is present — and to refrain from guessing when it is not. This includes tracking false positives (hallucinations) where the model confidently supplies incorrect information.\n\nFor enterprise-specific tasks, Retrieval-Augmented Generation (RAG) is a powerful method to reduce hallucination. RAG works by giving the model access only to curated enterprise data — enabling it to generate answers grounded in known, trusted content rather than relying on general web training.\n\nUse filters to detect hallucinations\n\nBy analyzing these likelihood scores, organizations can apply filters or thresholds to identify low-confidence responses that may be more prone to hallucination. These filters can act as early warning signs, helping reduce the risk of made-up or misleading information reaching end users.\n\nThat said, these detection methods aren’t foolproof. They provide useful signals, but they operate on probability rather than certainty. Keeping a human in the loop — someone who can review both the AI-generated content and any system flags — adds an important layer of oversight, particularly when accuracy is critical.\n\nWhat’s next for AI hallucinations\n\nWhile hallucinations remain a known limitation of today’s language models, progress is moving quickly. Advances in architecture, training techniques, and evaluation methods are already improving model reliability — and the development of dedicated tools to detect and reduce hallucinations continues to accelerate.\n\nCan AI hallucinations ever be completely eliminated in large language models? No. Because large language models (LLMs) work by predicting likely word sequences—not by comprehending truth—there remains an inherent risk of hallucinations even in best-trained systems. While grounding strategies, fine-tuning, retrieval of curated data and human oversight significantly reduce occurrence, organizations should plan for residual risk and ensure mitigation rather than assume elimination.\n\nNo. Because large language models (LLMs) work by predicting likely word sequences—not by comprehending truth—there remains an inherent risk of hallucinations even in best-trained systems. While grounding strategies, fine-tuning, retrieval of curated data and human oversight significantly reduce occurrence, organizations should plan for residual risk and ensure mitigation rather than assume elimination.\n\nWhat regulatory or compliance implications do AI hallucinations pose in regulated industries? In regulated sectors (e.g., healthcare, finance, legal), hallucinated outputs can lead to misinformation, legal liability, audit failures or reputational damage. Organizations must treat hallucination risk similarly to other operational risks: document model-use cases, maintain audit trails, engage relevant governance (e.g., ethics, data-privacy teams), and validate that model outputs meet regulatory standards. Prepare for external scrutiny of system reliability and traceability.\n\nIn regulated sectors (e.g., healthcare, finance, legal), hallucinated outputs can lead to misinformation, legal liability, audit failures or reputational damage. Organizations must treat hallucination risk similarly to other operational risks: document model-use cases, maintain audit trails, engage relevant governance (e.g., ethics, data-privacy teams), and validate that model outputs meet regulatory standards. Prepare for external scrutiny of system reliability and traceability.\n\nHow should organisations track and measure hallucination incidence or model fidelity over time? Useful metrics include: percentage of outputs that failed fact-check or human review, rate of fabricated citations or unsupported claims, average confidence scores of responses (where applicable), number of user corrections or escalations, and drift in model performance over time. Tracking these over time enables trend identification and early intervention when hallucination rates increase.\n\nUseful metrics include: percentage of outputs that failed fact-check or human review, rate of fabricated citations or unsupported claims, average confidence scores of responses (where applicable), number of user corrections or escalations, and drift in model performance over time. Tracking these over time enables trend identification and early intervention when hallucination rates increase.\n\nWhat role does human-in-the-loop (HITL) play in mitigating hallucinations in production systems? Human-in-the-loop offers a critical safety net: reviewers validate AI outputs, catch unsupported claims, escalate uncertain responses, and train models with corrective feedback. In high-stakes environments, flagged outputs may be routed to a human reviewer before dissemination. Integrating HITL helps ensure accountability, reduces the chance of unchecked fabrications and builds user trust in AI-augmented workflows.\n\nHow can small or medium-sized enterprises (SMEs) guard against hallucinations even with limited AI expertise or budget? SMEs should adopt a risk-based, pragmatic approach: identify high-impact AI use-cases first, restrict models to curated data sources, use retrieval-augmented approaches to ground responses, introduce lightweight reviews or approvals for critical outputs, monitor for red flags (e.g., fabricated citations), and gradually scale. Leveraging managed AI services with built-in guardrails and starting with internal use-cases (rather than customer-facing mission-critical ones) helps build competence while containing risk.",
+          "fetchedAt": "2026-09-17T12:37:28.034Z",
+          "title": "What are AI Hallucinations? Signs, Risks, & Prevention | AI21",
+          "status": "ok",
+          "contentLength": 16744,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "AI hallucinations pose a growing challenge for enterprise teams exploring generative AI. These errors can introduce false or misleading information into outputs — and often, the content appears entirely confident and convincing."
+            },
+            {
+              "blockIndex": 1,
+              "text": "In one study evaluating the legal use of AI, hallucination rates ranged from 69% to 88% when responding to specific legal queries using state-of-the-art language models."
+            },
+            {
+              "blockIndex": 2,
+              "text": "That’s a serious risk for organizations across sectors. Hallucinated content can misinform"
+            },
+            {
+              "blockIndex": 3,
+              "text": "If your organization is exploring generative AI, it’s critical to recognize the signs of hallucination, assess the risks specific to your use case, and put guardrails in place. This article will show you how."
+            },
+            {
+              "blockIndex": 5,
+              "text": "AI hallucinations occur when a model generates incorrect or misleading outputs — content that may appear fact-based or coherent but is ultimately inaccurate or nonsensical."
+            },
+            {
+              "blockIndex": 6,
+              "text": "While hallucination is the standard term in AI, it’s sometimes discussed alongside concepts like confabulation, fabrication, or creative guessing. These aren’t technically the same — for instance, confabulation comes from psychology and refers to unintentionally filling memory gaps — but all attempt to describe the same underlying behavior: producing information that sounds plausible but isn’t grounded in fact."
+            },
+            {
+              "blockIndex": 7,
+              "text": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement."
+            },
+            {
+              "blockIndex": 10,
+              "text": "How do AI hallucinations occur?"
+            },
+            {
+              "blockIndex": 11,
+              "text": "AI hallucinations are a side effect of how large language models (LLMs) are built."
+            },
+            {
+              "blockIndex": 17,
+              "text": "Hallucinations are likely to occur in any AI system, especially those relying on large language models. That’s why it’s critical to implement robust quality assessment processes and guardrails. Enterprises need a clear understanding of how, where, and how often hallucinations appear, so they can recognize the warning signs early."
+            },
+            {
+              "blockIndex": 18,
+              "text": "Below are the key categories of hallucination to monitor, along with typical signs to watch for:"
+            },
+            {
+              "blockIndex": 36,
+              "text": "Hallucinations in relevance occur when the model’s response is factually correct but not appropriately focused on the question asked. The information may be real, but its inclusion is unwarranted or tangential."
+            },
+            {
+              "blockIndex": 56,
+              "text": "Specific risks of AI hallucinations in the enterprise"
+            },
+            {
+              "blockIndex": 58,
+              "text": "While hallucinations may be inconvenient in personal or low-stakes use cases, in an enterprise setting, they can lead to serious operational, legal, reputational, or even safety-related consequences. Below are examples of how these risks manifest across key industries."
+            },
+            {
+              "blockIndex": 68,
+              "text": "In clinical applications, factual accuracy is non-negotiable. Hallucinations in diagnostic tools, medical summaries, or treatment guidance can introduce ethically unacceptable risks."
+            },
+            {
+              "blockIndex": 73,
+              "text": "In healthcare, hallucinations don’t just erode trust — they could contribute to real-world harm or life-threatening outcomes."
+            },
+            {
+              "blockIndex": 74,
+              "text": "Dialogue history-based hallucinations in retail support"
+            },
+            {
+              "blockIndex": 89,
+              "text": "How to prevent AI hallucinations"
+            },
+            {
+              "blockIndex": 90,
+              "text": "Some level of hallucination is to be expected when using large language models — but the key to responsible enterprise adoption is evaluating how closely the model’s outputs align with the data and context you provide."
+            },
+            {
+              "blockIndex": 91,
+              "text": "Several strategies and tools can help improve AI output quality and reduce the risk of hallucinations. One of the most effective is implementing structured evaluation frameworks, supported by model tuning, grounding techniques, and human oversight."
+            },
+            {
+              "blockIndex": 95,
+              "text": "Output Accuracy: Measures the model’s ability to provide correct answers when information is present — and to refrain from guessing when it is not. This includes tracking false positives (hallucinations) where the model confidently supplies incorrect information."
+            },
+            {
+              "blockIndex": 99,
+              "text": "For enterprise-specific tasks, Retrieval-Augmented Generation (RAG) is a powerful method to reduce hallucination. RAG works by giving the model access only to curated enterprise data — enabling it to generate answers grounded in known, trusted content rather than relying on general web training."
+            },
+            {
+              "blockIndex": 102,
+              "text": "Use filters to detect hallucinations"
+            },
+            {
+              "blockIndex": 104,
+              "text": "By analyzing these likelihood scores, organizations can apply filters or thresholds to identify low-confidence responses that may be more prone to hallucination. These filters can act as early warning signs, helping reduce the risk of made-up or misleading information reaching end users."
+            },
+            {
+              "blockIndex": 105,
+              "text": "That said, these detection methods aren’t foolproof. They provide useful signals, but they operate on probability rather than certainty. Keeping a human in the loop — someone who can review both the AI-generated content and any system flags — adds an important layer of oversight, particularly when accuracy is critical."
+            },
+            {
+              "blockIndex": 106,
+              "text": "What’s next for AI hallucinations"
+            },
+            {
+              "blockIndex": 107,
+              "text": "While hallucinations remain a known limitation of today’s language models, progress is moving quickly. Advances in architecture, training techniques, and evaluation methods are already improving model reliability — and the development of dedicated tools to detect and reduce hallucinations continues to accelerate."
+            },
+            {
+              "blockIndex": 111,
+              "text": "Can AI hallucinations ever be completely eliminated in large language models? No. Because large language models (LLMs) work by predicting likely word sequences—not by comprehending truth—there remains an inherent risk of hallucinations even in best-trained systems. While grounding strategies, fine-tuning, retrieval of curated data and human oversight significantly reduce occurrence, organizations should plan for residual risk and ensure mitigation rather than assume elimination."
+            },
+            {
+              "blockIndex": 112,
+              "text": "No. Because large language models (LLMs) work by predicting likely word sequences—not by comprehending truth—there remains an inherent risk of hallucinations even in best-trained systems. While grounding strategies, fine-tuning, retrieval of curated data and human oversight significantly reduce occurrence, organizations should plan for residual risk and ensure mitigation rather than assume elimination."
+            },
+            {
+              "blockIndex": 113,
+              "text": "What regulatory or compliance implications do AI hallucinations pose in regulated industries? In regulated sectors (e.g., healthcare, finance, legal), hallucinated outputs can lead to misinformation, legal liability, audit failures or reputational damage. Organizations must treat hallucination risk similarly to other operational risks: document model-use cases, maintain audit trails, engage relevant governance (e.g., ethics, data-privacy teams), and validate that model outputs meet regulatory standards. Prepare for external scrutiny of system reliability and traceability."
+            },
+            {
+              "blockIndex": 114,
+              "text": "In regulated sectors (e.g., healthcare, finance, legal), hallucinated outputs can lead to misinformation, legal liability, audit failures or reputational damage. Organizations must treat hallucination risk similarly to other operational risks: document model-use cases, maintain audit trails, engage relevant governance (e.g., ethics, data-privacy teams), and validate that model outputs meet regulatory standards. Prepare for external scrutiny of system reliability and traceability."
+            },
+            {
+              "blockIndex": 115,
+              "text": "How should organisations track and measure hallucination incidence or model fidelity over time? Useful metrics include: percentage of outputs that failed fact-check or human review, rate of fabricated citations or unsupported claims, average confidence scores of responses (where applicable), number of user corrections or escalations, and drift in model performance over time. Tracking these over time enables trend identification and early intervention when hallucination rates increase."
+            },
+            {
+              "blockIndex": 116,
+              "text": "Useful metrics include: percentage of outputs that failed fact-check or human review, rate of fabricated citations or unsupported claims, average confidence scores of responses (where applicable), number of user corrections or escalations, and drift in model performance over time. Tracking these over time enables trend identification and early intervention when hallucination rates increase."
+            },
+            {
+              "blockIndex": 117,
+              "text": "What role does human-in-the-loop (HITL) play in mitigating hallucinations in production systems? Human-in-the-loop offers a critical safety net: reviewers validate AI outputs, catch unsupported claims, escalate uncertain responses, and train models with corrective feedback. In high-stakes environments, flagged outputs may be routed to a human reviewer before dissemination. Integrating HITL helps ensure accountability, reduces the chance of unchecked fabrications and builds user trust in AI-augmented workflows."
+            },
+            {
+              "blockIndex": 119,
+              "text": "How can small or medium-sized enterprises (SMEs) guard against hallucinations even with limited AI expertise or budget? SMEs should adopt a risk-based, pragmatic approach: identify high-impact AI use-cases first, restrict models to curated data sources, use retrieval-augmented approaches to ground responses, introduce lightweight reviews or approvals for critical outputs, monitor for red flags (e.g., fabricated citations), and gradually scale. Leveraging managed AI services with built-in guardrails and starting with internal use-cases (rather than customer-facing mission-critical ones) helps build competence while containing risk."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:37:28.035Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+          "content": "In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting,[1][2] confabulation,[3] delusion[4], or mirage[5]) is a response generated by AI that contains false or misleading information presented as fact.[6] These terms draw a loose analogy with human psychology, where a hallucination typically involves false percepts.\n\nChatbots powered by large language models (LLMs), like ChatGPT, may embed plausible-sounding random falsehoods within its generated content, such as fabricated citations. Detecting and mitigating errors and hallucinations pose significant challenges for practical deployment and reliability of LLMs in high-stakes scenarios, such as chip design, supply chain logistics, and medical diagnostics.[7][8][9] Some software engineers and statisticians have criticized the specific term \"AI hallucination\" for unreasonably anthropomorphizing computers.[10][11] Symbolic artificial intelligence models generally do not produce hallucinations, unlike large language models.[12]\n\nIn computer vision, since the 2000s, hallucination is adding detail to an image to improve it. For example, the task of generating high-resolution face images from low-resolution inputs is face hallucination.[13][14] The term was introduced in the PhD thesis of Eric Mjolsness in 1986.[15] A notable work is the face hallucination algorithm by Simon Baker and Takeo Kanade published in 1999.[16]\n\nIn the 2000s, hallucinations were described in statistical machine translation as a failure mode.[17]\n\nSince the 2010s, hallucination has come to mean the generation of factually incorrect or misleading outputs by AI systems in tasks like machine translation and object detection.[13] In 2015, hallucinations were identified in visual semantic role labeling tasks by Saurabh Gupta and Jitendra Malik.[18] In 2015, computer scientist Andrej Karpathy used hallucinated in a blog post to describe his recurrent neural network (RNN) language model generating an incorrect citation link.[19] In 2017, Google researchers used it to describe the responses generated by neural machine translation (NMT) models when they are not related to the source text,[20] and in 2018, it was used in computer vision to describe the erroneous detection of non-existent objects through adversarial attacks.[21]\n\nIn July 2021, Meta warned during its release of BlenderBot 2 that the system is prone to hallucinations, defined as \"confident statements that are not true\".[22][23] Following OpenAI's ChatGPT release in beta version in November 2022, some users complained that such chatbots often seem to pointlessly embed plausible-sounding random falsehoods within their generated content.[24] Many news outlets, including The New York Times, started to use hallucinations to describe these models' frequently incorrect or inconsistent responses.[25]\n\nIn 2023, the Cambridge dictionary updated its definition of hallucination to include this new sense specific to the field of AI.[26]\n\nSome researchers have highlighted a lack of consistency in how hallucination is used, but also identified several alternative terms in the literature, such as confabulations, fabrications, and factual errors.[13]\n\nUses, definitions and characterizations of the term hallucination in the context of LLMs include:\n\nIn July 2024, a White House report on fostering public trust in AI research mentioned hallucinations only in the context of reducing them. Notably, when acknowledging David Baker's Nobel Prize-winning work with AI-generated proteins, the Nobel committee avoided it entirely, instead referring to \"imaginative protein creation\".[31]\n\nThe term mirage has been proposed as an alternative to the use of hallucination, framing false or misleading responses as predictable results of LLM data processing created by both AI training datasets and the rules engineered into the LLM rather than a mental breaking from reality.[5] This shift in language aims to increase AI literacy by using terminology that avoids anthropomorphic implications that LLMs have conscious minds with their own intent, shows that untrue outputs come from patterns in training data, and indicates that outputs are novel syntheses of training data requiring critical human judgment.\n\nIn the scientific community, some researchers avoid hallucination, as potentially misleading. Usama Fayyad, executive director of the Institute for Experimental Artificial Intelligence at Northeastern University, criticized it because it misleadingly personifies large language models and is vague.[33] The computer scientist Mary Shaw has said \"The current fashion for calling generative AI's errors 'hallucinations' is appalling. It anthropomorphizes the software, and it spins actual errors as somehow being idiosyncratic quirks of the system even when they're objectively incorrect.\"[10] The statistician Gary Smith argues that LLMs \"do not understand what words mean\" and consequently that hallucination unreasonably anthropomorphizes the machine.[11] Murray Shanahan argues that anthropomorphic framing of LLM capabilities, including terms like hallucination, encourages users and researchers to attribute cognitive processes to systems that operate through statistical pattern completion, and advocates more careful linguistic practices when discussing LLM behavior.[34] Kristina Šekrst argues that applying psychological vocabulary to LLM outputs obscures the difference between the appearance of mental properties and their genuine presence.[35] Förster & Skop assert that tech companies use the hallucination metaphor to anthropomorphize models and deflect responsibility for non-factual outputs.[36]\n\nHallucinations can stem from incomplete, inaccurate or unrepresentative data sets.[38]\n\nThe pre-training of generative pretrained transformers (GPT) involves predicting the next word. It incentivizes GPT models to \"give a guess\" about what the next word is, even when they lack information.[39] Some researchers take an anthropomorphic perspective and posit that hallucinations arise from a tension between novelty and usefulness. For instance, Amabile and Pratt define human creativity as the production of novel and useful ideas.[40] By extension, a focus on novelty in machine creativity can lead to the production of original but inaccurate responses—that is, falsehoods—whereas a focus on usefulness may result in memorized content lacking originality.[41]\n\nIn 2025, according to interpretability research by Anthropic on Claude, the LLM appears to have internal circuits that cause it to decline to answer questions unless it knows the answer. By default, the circuits are active and the LLM doesn't answer. When the LLM has sufficient information, these circuits are inhibited and the LLM answers the question. The researchers said that hallucinations were found to occur when this inhibition happens incorrectly, such as when Claude recognizes a name but lacks sufficient information about that person, causing it to generate plausible but untrue responses.[43]\n\nBy 2023, analysts considered frequent hallucination to be a major problem in LLM technology, with a Google executive identifying hallucination reduction as a \"fundamental\" task for ChatGPT competitor Google Gemini.[9][55] A 2023 demo for Microsoft's GPT-based Bing AI (now Microsoft Copilot) appeared to contain several hallucinations that went uncaught by the presenter.[9]\n\nIn October 2025, several hallucinations, including non-existent academic sources and a fake quote from a federal court judgement were discovered in an A$440,000 report written by Deloitte and submitted to the Australian government in July. The company later submitted a revised report with these errors removed, and will issue a partial\n\nVarious researchers cited by Wired have classified adversarial hallucinations as a high-dimensional statistical phenomenon, or have attributed hallucinations to insufficient training data. Some researchers believe that some \"incorrect\" AI responses classified by humans as \"hallucinations\" in the case of object detection may in fact be justified by the training data, or even that an AI may be giving the \"correct\" answer that the human reviewers are failing to see. For example, an adversarial image that looks, to a human, like an ordinary image of a dog, may in fact be seen by the AI to contain tiny patterns that (in authentic images) would only appear when viewing a cat. The AI is detecting real-world visual patterns that humans are insensitive to.[64]\n\nThe following images demonstrate an example of how an artificial neural network might make a false positive result in object detection, potentially appearing as a hallucination in the output:\n\nNvidia Guardrails, launched in 2023, can be configured to hard-code certain responses via script instead of leaving them to the LLM.[123] Furthermore, tools such as the Trustworthy Language Model have been created to attempt to aid in the detection of hallucination.[124]",
+          "fetchedAt": "2026-09-17T12:37:28.037Z",
+          "title": "Hallucination (artificial intelligence) - Wikipedia",
+          "status": "ok",
+          "contentLength": 62929,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 1,
+              "text": "In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting,[1][2] confabulation,[3] delusion[4], or mirage[5]) is a response generated by AI that contains false or misleading information presented as fact.[6] These terms draw a loose analogy with human psychology, where a hallucination typically involves false percepts."
+            },
+            {
+              "blockIndex": 2,
+              "text": "Chatbots powered by large language models (LLMs), like ChatGPT, may embed plausible-sounding random falsehoods within its generated content, such as fabricated citations. Detecting and mitigating errors and hallucinations pose significant challenges for practical deployment and reliability of LLMs in high-stakes scenarios, such as chip design, supply chain logistics, and medical diagnostics.[7][8][9] Some software engineers and statisticians have criticized the specific term \"AI hallucination\" for unreasonably anthropomorphizing computers.[10][11] Symbolic artificial intelligence models generally do not produce hallucinations, unlike large language models.[12]"
+            },
+            {
+              "blockIndex": 5,
+              "text": "In computer vision, since the 2000s, hallucination is adding detail to an image to improve it. For example, the task of generating high-resolution face images from low-resolution inputs is face hallucination.[13][14] The term was introduced in the PhD thesis of Eric Mjolsness in 1986.[15] A notable work is the face hallucination algorithm by Simon Baker and Takeo Kanade published in 1999.[16]"
+            },
+            {
+              "blockIndex": 6,
+              "text": "In the 2000s, hallucinations were described in statistical machine translation as a failure mode.[17]"
+            },
+            {
+              "blockIndex": 7,
+              "text": "Since the 2010s, hallucination has come to mean the generation of factually incorrect or misleading outputs by AI systems in tasks like machine translation and object detection.[13] In 2015, hallucinations were identified in visual semantic role labeling tasks by Saurabh Gupta and Jitendra Malik.[18] In 2015, computer scientist Andrej Karpathy used hallucinated in a blog post to describe his recurrent neural network (RNN) language model generating an incorrect citation link.[19] In 2017, Google researchers used it to describe the responses generated by neural machine translation (NMT) models when they are not related to the source text,[20] and in 2018, it was used in computer vision to describe the erroneous detection of non-existent objects through adversarial attacks.[21]"
+            },
+            {
+              "blockIndex": 8,
+              "text": "In July 2021, Meta warned during its release of BlenderBot 2 that the system is prone to hallucinations, defined as \"confident statements that are not true\".[22][23] Following OpenAI's ChatGPT release in beta version in November 2022, some users complained that such chatbots often seem to pointlessly embed plausible-sounding random falsehoods within their generated content.[24] Many news outlets, including The New York Times, started to use hallucinations to describe these models' frequently incorrect or inconsistent responses.[25]"
+            },
+            {
+              "blockIndex": 9,
+              "text": "In 2023, the Cambridge dictionary updated its definition of hallucination to include this new sense specific to the field of AI.[26]"
+            },
+            {
+              "blockIndex": 10,
+              "text": "Some researchers have highlighted a lack of consistency in how hallucination is used, but also identified several alternative terms in the literature, such as confabulations, fabrications, and factual errors.[13]"
+            },
+            {
+              "blockIndex": 12,
+              "text": "Uses, definitions and characterizations of the term hallucination in the context of LLMs include:"
+            },
+            {
+              "blockIndex": 19,
+              "text": "In July 2024, a White House report on fostering public trust in AI research mentioned hallucinations only in the context of reducing them. Notably, when acknowledging David Baker's Nobel Prize-winning work with AI-generated proteins, the Nobel committee avoided it entirely, instead referring to \"imaginative protein creation\".[31]"
+            },
+            {
+              "blockIndex": 21,
+              "text": "The term mirage has been proposed as an alternative to the use of hallucination, framing false or misleading responses as predictable results of LLM data processing created by both AI training datasets and the rules engineered into the LLM rather than a mental breaking from reality.[5] This shift in language aims to increase AI literacy by using terminology that avoids anthropomorphic implications that LLMs have conscious minds with their own intent, shows that untrue outputs come from patterns in training data, and indicates that outputs are novel syntheses of training data requiring critical human judgment."
+            },
+            {
+              "blockIndex": 23,
+              "text": "In the scientific community, some researchers avoid hallucination, as potentially misleading. Usama Fayyad, executive director of the Institute for Experimental Artificial Intelligence at Northeastern University, criticized it because it misleadingly personifies large language models and is vague.[33] The computer scientist Mary Shaw has said \"The current fashion for calling generative AI's errors 'hallucinations' is appalling. It anthropomorphizes the software, and it spins actual errors as somehow being idiosyncratic quirks of the system even when they're objectively incorrect.\"[10] The statistician Gary Smith argues that LLMs \"do not understand what words mean\" and consequently that hallucination unreasonably anthropomorphizes the machine.[11] Murray Shanahan argues that anthropomorphic framing of LLM capabilities, including terms like hallucination, encourages users and researchers to attribute cognitive processes to systems that operate through statistical pattern completion, and advocates more careful linguistic practices when discussing LLM behavior.[34] Kristina Šekrst argues that applying psychological vocabulary to LLM outputs obscures the difference between the appearance of mental properties and their genuine presence.[35] Förster & Skop assert that tech companies use the hallucination metaphor to anthropomorphize models and deflect responsibility for non-factual outputs.[36]"
+            },
+            {
+              "blockIndex": 28,
+              "text": "Hallucinations can stem from incomplete, inaccurate or unrepresentative data sets.[38]"
+            },
+            {
+              "blockIndex": 30,
+              "text": "The pre-training of generative pretrained transformers (GPT) involves predicting the next word. It incentivizes GPT models to \"give a guess\" about what the next word is, even when they lack information.[39] Some researchers take an anthropomorphic perspective and posit that hallucinations arise from a tension between novelty and usefulness. For instance, Amabile and Pratt define human creativity as the production of novel and useful ideas.[40] By extension, a focus on novelty in machine creativity can lead to the production of original but inaccurate responses—that is, falsehoods—whereas a focus on usefulness may result in memorized content lacking originality.[41]"
+            },
+            {
+              "blockIndex": 33,
+              "text": "In 2025, according to interpretability research by Anthropic on Claude, the LLM appears to have internal circuits that cause it to decline to answer questions unless it knows the answer. By default, the circuits are active and the LLM doesn't answer. When the LLM has sufficient information, these circuits are inhibited and the LLM answers the question. The researchers said that hallucinations were found to occur when this inhibition happens incorrectly, such as when Claude recognizes a name but lacks sufficient information about that person, causing it to generate plausible but untrue responses.[43]"
+            },
+            {
+              "blockIndex": 39,
+              "text": "By 2023, analysts considered frequent hallucination to be a major problem in LLM technology, with a Google executive identifying hallucination reduction as a \"fundamental\" task for ChatGPT competitor Google Gemini.[9][55] A 2023 demo for Microsoft's GPT-based Bing AI (now Microsoft Copilot) appeared to contain several hallucinations that went uncaught by the presenter.[9]"
+            },
+            {
+              "blockIndex": 42,
+              "text": "In October 2025, several hallucinations, including non-existent academic sources and a fake quote from a federal court judgement were discovered in an A$440,000 report written by Deloitte and submitted to the Australian government in July. The company later submitted a revised report with these errors removed, and will issue a partial"
+            },
+            {
+              "blockIndex": 45,
+              "text": "Various researchers cited by Wired have classified adversarial hallucinations as a high-dimensional statistical phenomenon, or have attributed hallucinations to insufficient training data. Some researchers believe that some \"incorrect\" AI responses classified by humans as \"hallucinations\" in the case of object detection may in fact be justified by the training data, or even that an AI may be giving the \"correct\" answer that the human reviewers are failing to see. For example, an adversarial image that looks, to a human, like an ordinary image of a dog, may in fact be seen by the AI to contain tiny patterns that (in authentic images) would only appear when viewing a cat. The AI is detecting real-world visual patterns that humans are insensitive to.[64]"
+            },
+            {
+              "blockIndex": 47,
+              "text": "The following images demonstrate an example of how an artificial neural network might make a false positive result in object detection, potentially appearing as a hallucination in the output:"
+            },
+            {
+              "blockIndex": 99,
+              "text": "Nvidia Guardrails, launched in 2023, can be configured to hard-code certain responses via script instead of leaving them to the LLM.[123] Furthermore, tools such as the Trustworthy Language Model have been created to attempt to aid in the detection of hallucination.[124]"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+          "content": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI\n\nCopyright and License information\n\nLanguage models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct. The alignment methods we use to make them helpful also push them toward unwarranted certainty, rewarding decisive answers over appropriate hedging. As these foundation models enter high-stakes domains such as science and medicine, this disconnect between how sure they sound and how accurate they are can become dangerous. Here, we examine why post-training degrades a model’s sense of uncertainty, and we review techniques that can bring expressed confidence back in line with actual reliability. Through this, we argue that trustworthy AI means treating calibration as a core design goal.\n\nIn a recent cross-sectional evaluation, a group of clinicians tested several large language models on routine medical questions. The models performed strongly on the evaluation set. They could fluently and correctly list drug interactions, sketch differential diagnoses, and summarize guidelines. But when the clinicians asked the same models to rate their own confidence, a more unsettling pattern emerged. The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].\n\nThat mismatch between confidence and correctness is what we call calibration. A calibrated model that claims to be 90% certain should be wrong about one out of ten times, not half the time. Humans are far from perfect at this, but we at least have ways to signal doubt (e.g. a pause, a hedge, a referral to a colleague).\n\nResearchers have noticed that language models, before alignment, tend to be well calibrated [2]. But these pre-trained models are not directly useful. They are simply trained to predict text continuations, not to answer questions or follow instructions. Post-training alignment enhances them for conversational uses. However, in modifying the model’s outputs to make them helpful, we degrade this calibration [3]. As a result, we have built a generation of aligned models that sound eloquent, well-behaved, and systematically overconfident.\n\nHow alignment inflates confidence\n\nWhy does alignment deform calibration so badly? The answer lies in how we set up our post-training loss functions and the implicit preferences encoded in human feedback.\n\nDuring pre-training, an LLM is trained to predict the next token in text. For each context, there are many plausible continuations. The model learns to approximate a distribution over those possibilities. That objective naturally leaves room for both uncertainty and multiple answers with non-trivial probability.\n\nPost-training changes the objective. In supervised fine-tuning, we give the model a prompt and a single reference answer, then optimize a cross-entropy loss on that sequence. The loss is lowest when the model puts almost all its probability mass on that reference and almost none on alternatives. There is no incentive inside this objective to leave probability for other plausible completions or to reflect ambiguity. Over time, the model learns that the safest strategy for minimizing loss is to be extremely sure.\n\nPreference-based methods such as Reinforcement Learning from Human Feedback (RLHF) and direct preference optimization (DPO) push in the same direction. Rather than matching a fixed answer, the model is updated so that its outputs align with those that a reward model scores highly. This tends to sharpen the distribution over answers and concentrate probability on a small set of “preferred” continuations that humans liked during training.\n\nRecent work on aligned models documents this effect clearly. Xiao and colleagues [3] show that pre-trained models are often reasonably calibrated, but that preference alignment pushes them into a regime where probabilities become unreliable, even as task performance improves. Once models cross this threshold, simply fine-tuning more for this type of reward no longer restores calibration.\n\nFine-tuning also interacts with what the model already knows. Wang and co-authors [4] find that when fine-tuning data repeats knowledge already present from pre-training, models tend to become overconfident on that data. When they are trained on genuinely new information, calibration is better. In other words, prior knowledge makes models versatile, but the overlap between pre-training and fine-tuning can push their confidence well beyond what performance justifies.\n\nOn top of these numerical effects, alignment injects a stylistic bias. Human raters commonly prefer answers that sound clear and decisive. Hedged or uncertain language is often scored as less helpful. Models pick up that preference and learn that a confident tone earns reward. Over time, this style bleeds into the probabilities themselves. High-confidence language and high-confidence numbers reinforce each other.\n\nWe have, unintentionally, trained our models to deploy certainty.\n\nThe simplest place to intervene is at the last step, after the model has produced logits or raw scores. Temperature scaling, introduced by Guo and colleagues [5], learns a single scalar temperature that rescales logits before the softmax, so that predicted probabilities better match observed frequencies on a held-out set. It is popular in vision and tabular settings because it is easy to implement and does not change accuracy, only the sharpness of the probabilities [6].\n\nMore flexible methods, such as Platt scaling [7, 8] and isotonic regression [9], learn a calibration map from raw scores to probabilities. In multiclass problems they are often applied per class or in a one-vs-rest fashion and can give excellent calibration when the label space is small and well-covered by data. For language models with vocabularies of tens of thousands of tokens however, it is hard to gather enough labelled examples to fit a separate non-parametric calibrator for each token, and the computational and storage costs grow quickly. In practice, post-hoc calibration works best when we reduce the problem to a modest number of options (e.g. yes/no, a handful of multiple-choice answers, or a small label set where a calibrator can be trained once and reused across models).\n\nPost-hoc fixes are helpful, but they do not change the fact that standard alignment objectives push models toward overconfidence. Some recent work takes calibration into account during training itself. Xiao and co-authors [3] show that preference alignment can move models from a “calibratable” regime into a phase where probabilities become hard to repair, and they propose calibration-aware fine-tuning that adds an explicit regularizer for expected calibration error to the loss. This allows them to keep task performance, while preventing the worst confidence inflation.\n\nWang and colleagues [4] look at how prior knowledge interacts with fine-tuning. They find that overlapping “known” data drives overconfidence and introduce a cognition-aware framework (CogCalib) that treats known and unknown examples differently and improves calibration by more than 50% in some settings.\n\nThese ideas all point in the same direction. When we design objectives and reward models, we should reward appropriate uncertainty and abstention, not only correctness\n\nOther groups report similar gains with different probes. InternalInspector [11] aggregates attention, feed-forward and activation states across layers and uses contrastive learning to estimate confidence and detect hallucinations, improving both calibration error and hallucination detection compared with methods that only look at the final layer. CCPS [12] takes a different route and perturbs the final hidden state, using the stability of that representation as a feature for a small classifier. Other work shows that internal states can signal hallucination risk even before an answer is generated, and that truthfulness information is often concentrated in specific token representations, which can be exploited by dedicated probes to detect likely errors [13].\n\nThe practical advantage is that these probes are lightweight, auditable, and task specific. They can be trained for the handful of decisions that matter in a given pipeline, while the underlying model stays frozen. In that sense, probing is not a competitor to temperature scaling or better rewards, but a complementary layer that lets us tap into what the model already knows without inheriting all of its stylistic overconfidence.\n\nAs we bring large language models into clinics, labs, and other high-stakes settings, “good on benchmarks but badly calibrated” is an unacceptable standard. An AI system that is equally sure about its hallucinations as its facts is a failure of design.\n\n13.Ji Z, Chen D, Ishii E, Cahyawijaya S, Bang Y, Wilie B et al. LLM internal States reveal hallucination risk faced with a query. 2024 Sep 29.",
+          "fetchedAt": "2026-09-17T12:37:29.026Z",
+          "title": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+          "status": "ok",
+          "contentLength": 14954,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI"
+            },
+            {
+              "blockIndex": 3,
+              "text": "Copyright and License information"
+            },
+            {
+              "blockIndex": 5,
+              "text": "Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct. The alignment methods we use to make them helpful also push them toward unwarranted certainty, rewarding decisive answers over appropriate hedging. As these foundation models enter high-stakes domains such as science and medicine, this disconnect between how sure they sound and how accurate they are can become dangerous. Here, we examine why post-training degrades a model’s sense of uncertainty, and we review techniques that can bring expressed confidence back in line with actual reliability. Through this, we argue that trustworthy AI means treating calibration as a core design goal."
+            },
+            {
+              "blockIndex": 7,
+              "text": "In a recent cross-sectional evaluation, a group of clinicians tested several large language models on routine medical questions. The models performed strongly on the evaluation set. They could fluently and correctly list drug interactions, sketch differential diagnoses, and summarize guidelines. But when the clinicians asked the same models to rate their own confidence, a more unsettling pattern emerged. The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1]."
+            },
+            {
+              "blockIndex": 8,
+              "text": "That mismatch between confidence and correctness is what we call calibration. A calibrated model that claims to be 90% certain should be wrong about one out of ten times, not half the time. Humans are far from perfect at this, but we at least have ways to signal doubt (e.g. a pause, a hedge, a referral to a colleague)."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Researchers have noticed that language models, before alignment, tend to be well calibrated [2]. But these pre-trained models are not directly useful. They are simply trained to predict text continuations, not to answer questions or follow instructions. Post-training alignment enhances them for conversational uses. However, in modifying the model’s outputs to make them helpful, we degrade this calibration [3]. As a result, we have built a generation of aligned models that sound eloquent, well-behaved, and systematically overconfident."
+            },
+            {
+              "blockIndex": 10,
+              "text": "How alignment inflates confidence"
+            },
+            {
+              "blockIndex": 11,
+              "text": "Why does alignment deform calibration so badly? The answer lies in how we set up our post-training loss functions and the implicit preferences encoded in human feedback."
+            },
+            {
+              "blockIndex": 12,
+              "text": "During pre-training, an LLM is trained to predict the next token in text. For each context, there are many plausible continuations. The model learns to approximate a distribution over those possibilities. That objective naturally leaves room for both uncertainty and multiple answers with non-trivial probability."
+            },
+            {
+              "blockIndex": 13,
+              "text": "Post-training changes the objective. In supervised fine-tuning, we give the model a prompt and a single reference answer, then optimize a cross-entropy loss on that sequence. The loss is lowest when the model puts almost all its probability mass on that reference and almost none on alternatives. There is no incentive inside this objective to leave probability for other plausible completions or to reflect ambiguity. Over time, the model learns that the safest strategy for minimizing loss is to be extremely sure."
+            },
+            {
+              "blockIndex": 14,
+              "text": "Preference-based methods such as Reinforcement Learning from Human Feedback (RLHF) and direct preference optimization (DPO) push in the same direction. Rather than matching a fixed answer, the model is updated so that its outputs align with those that a reward model scores highly. This tends to sharpen the distribution over answers and concentrate probability on a small set of “preferred” continuations that humans liked during training."
+            },
+            {
+              "blockIndex": 15,
+              "text": "Recent work on aligned models documents this effect clearly. Xiao and colleagues [3] show that pre-trained models are often reasonably calibrated, but that preference alignment pushes them into a regime where probabilities become unreliable, even as task performance improves. Once models cross this threshold, simply fine-tuning more for this type of reward no longer restores calibration."
+            },
+            {
+              "blockIndex": 16,
+              "text": "Fine-tuning also interacts with what the model already knows. Wang and co-authors [4] find that when fine-tuning data repeats knowledge already present from pre-training, models tend to become overconfident on that data. When they are trained on genuinely new information, calibration is better. In other words, prior knowledge makes models versatile, but the overlap between pre-training and fine-tuning can push their confidence well beyond what performance justifies."
+            },
+            {
+              "blockIndex": 17,
+              "text": "On top of these numerical effects, alignment injects a stylistic bias. Human raters commonly prefer answers that sound clear and decisive. Hedged or uncertain language is often scored as less helpful. Models pick up that preference and learn that a confident tone earns reward. Over time, this style bleeds into the probabilities themselves. High-confidence language and high-confidence numbers reinforce each other."
+            },
+            {
+              "blockIndex": 18,
+              "text": "We have, unintentionally, trained our models to deploy certainty."
+            },
+            {
+              "blockIndex": 20,
+              "text": "The simplest place to intervene is at the last step, after the model has produced logits or raw scores. Temperature scaling, introduced by Guo and colleagues [5], learns a single scalar temperature that rescales logits before the softmax, so that predicted probabilities better match observed frequencies on a held-out set. It is popular in vision and tabular settings because it is easy to implement and does not change accuracy, only the sharpness of the probabilities [6]."
+            },
+            {
+              "blockIndex": 21,
+              "text": "More flexible methods, such as Platt scaling [7, 8] and isotonic regression [9], learn a calibration map from raw scores to probabilities. In multiclass problems they are often applied per class or in a one-vs-rest fashion and can give excellent calibration when the label space is small and well-covered by data. For language models with vocabularies of tens of thousands of tokens however, it is hard to gather enough labelled examples to fit a separate non-parametric calibrator for each token, and the computational and storage costs grow quickly. In practice, post-hoc calibration works best when we reduce the problem to a modest number of options (e.g. yes/no, a handful of multiple-choice answers, or a small label set where a calibrator can be trained once and reused across models)."
+            },
+            {
+              "blockIndex": 22,
+              "text": "Post-hoc fixes are helpful, but they do not change the fact that standard alignment objectives push models toward overconfidence. Some recent work takes calibration into account during training itself. Xiao and co-authors [3] show that preference alignment can move models from a “calibratable” regime into a phase where probabilities become hard to repair, and they propose calibration-aware fine-tuning that adds an explicit regularizer for expected calibration error to the loss. This allows them to keep task performance, while preventing the worst confidence inflation."
+            },
+            {
+              "blockIndex": 23,
+              "text": "Wang and colleagues [4] look at how prior knowledge interacts with fine-tuning. They find that overlapping “known” data drives overconfidence and introduce a cognition-aware framework (CogCalib) that treats known and unknown examples differently and improves calibration by more than 50% in some settings."
+            },
+            {
+              "blockIndex": 24,
+              "text": "These ideas all point in the same direction. When we design objectives and reward models, we should reward appropriate uncertainty and abstention, not only correctness"
+            },
+            {
+              "blockIndex": 26,
+              "text": "Other groups report similar gains with different probes. InternalInspector [11] aggregates attention, feed-forward and activation states across layers and uses contrastive learning to estimate confidence and detect hallucinations, improving both calibration error and hallucination detection compared with methods that only look at the final layer. CCPS [12] takes a different route and perturbs the final hidden state, using the stability of that representation as a feature for a small classifier. Other work shows that internal states can signal hallucination risk even before an answer is generated, and that truthfulness information is often concentrated in specific token representations, which can be exploited by dedicated probes to detect likely errors [13]."
+            },
+            {
+              "blockIndex": 27,
+              "text": "The practical advantage is that these probes are lightweight, auditable, and task specific. They can be trained for the handful of decisions that matter in a given pipeline, while the underlying model stays frozen. In that sense, probing is not a competitor to temperature scaling or better rewards, but a complementary layer that lets us tap into what the model already knows without inheriting all of its stylistic overconfidence."
+            },
+            {
+              "blockIndex": 29,
+              "text": "As we bring large language models into clinics, labs, and other high-stakes settings, “good on benchmarks but badly calibrated” is an unacceptable standard. An AI system that is equally sure about its hallucinations as its facts is a failure of design."
+            },
+            {
+              "blockIndex": 57,
+              "text": "13.Ji Z, Chen D, Ishii E, Cahyawijaya S, Bang Y, Wilie B et al. LLM internal States reveal hallucination risk faced with a query. 2024 Sep 29."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+          "content": "",
+          "fetchedAt": "2026-09-17T12:37:29.028Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+          "content": "Breadcrumb MIT News Teaching AI models to say “I’m not sure” Teaching AI models to say “I’m not sure” A new training method improves the reliability of AI confidence estimates without sacrificing performance, addressing a root cause of hallucination in reasoning models. Rachel Gordon | MIT CSAIL Publication Date: April 22, 2026 Press Inquiries Press Contact: Rachel Gordon Email: rachelg@csail.mit.edu Phone: 617-258-0675 MIT Computer Science and Artificial Intelligence Laboratory Close Caption: The “Reinforcement Learning with Calibration Rewards” technique trains language models to produce calibrated confidence estimates alongside their answers. It could be useful in finance, medicine, and other fields where users make decisions based on AI outputs. Credits: Image: Alex Shipps/MIT CSAIL, with assets from the researchers. Previous image Next image Confidence is persuasive. In artificial intelligence systems, it is often misleading.Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing. Researchers at MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL) have now traced that overconfidence to a specific flaw in how these models are trained, and developed a method that fixes it without giving up any accuracy.The technique, called RLCR (Reinforcement Learning with Calibration Rewards), trains language models to produce calibrated confidence estimates alongside their answers. In addition to coming up with an answer, the model thinks about its uncertainty in that answer, and outputs a confidence score. In experiments across multiple benchmarks, RLCR reduced calibration error by up to 90 percent while maintaining or improving accuracy, both on the tasks the model was trained on and on entirely new ones it had never seen. The work will be presented at the International Conference on Learning Representations later this month.The problem traces to a surprisingly simple source. The reinforcement learning (RL) methods behind recent breakthroughs in AI reasoning, including the training approach used in systems like OpenAI's o1, reward models for getting the right answer, and penalize them for getting it wrong. Nothing in between. A model that arrives at the correct answer through careful reasoning receives the same reward as one that guesses correctly by chance. Over time, this trains models to confidently answer every question they are asked, whether they have strong evidence or are effectively flipping a coin.That overconfidence has consequences. When models are deployed in medicine, law, finance, or any setting where users make decisions based on AI outputs, a system that expresses high confidence regardless of its actual certainty becomes unreliable in ways that are difficult to detect from the outside. A model that says \"I'm 95 percent sure\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion.\"The standard training approach is simple and powerful, but it gives the model no incentive to express uncertainty or say I don’t know,\" says Mehul Damani, an MIT PhD student and co-lead author on the paper. \"So the model naturally learns to guess when it is unsure.\" RLCR addresses this by adding a single term to the reward function: a Brier score, a well-established measure that penalizes the gap between a model's stated confidence and its actual accuracy. During training, models learn to reason about both the problem and their own uncertainty, producing an answer and a confidence estimate together. Confidently wrong answers are penalized. So are unnecessarily uncertain correct ones.The math backs it up: the team proved formally that this type of reward structure guarantees models that are both accurate and well-calibrated. They then tested the approach on a 7-billion-parameter model across a range of question-answering and math benchmarks, including six datasets the model had never been trained on.The results showed a consistent pattern. Standard RL training actively degraded calibration compared to the base model, making models worse at estimating their own uncertainty. RLCR reversed that effect, substantially improving calibration with no loss in accuracy. The method also outperformed post-hoc approaches, in which a separate classifier is trained to assign confidence scores after the fact. \"What’s striking is that ordinary RL training doesn't just fail to help calibration. It actively hurts it,\" says Isha Puri, an MIT PhD student and co-lead author. \"The models become more capable and more overconfident at the same time.\"The team also demonstrated that the confidence estimates produced by RLCR are practically useful at inference time. When models generate multiple candidate answers, selecting the one with the highest self-reported confidence, or weighting votes by confidence in a majority-voting scheme, improves both accuracy and calibration as compute scales.An additional finding suggests that the act of reasoning about uncertainty itself has value. The researchers trained classifiers on model outputs and found that including the model's explicit uncertainty reasoning in the input improved the classifier's performance, particularly for smaller models. The model's self-reflective reasoning about what it does and doesn’t know contains real information, not just decoration.In addition to Damani and Puri, other authors on the paper are Stewart Slocum, Idan Shenfeld, Leshem Choshen, and senior authors Jacob Andreas and Yoon Kim. Share this news article on: X Facebook LinkedIn Reddit Print Paper: “Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty” Related Links Jacob AndreasMehul DamaniYoon KimIsha PuriComputer Science and Artificial Intelligence Laboratory (CSAIL)Department of Electrical Engineering and Computer Science (EECS)School of EngineeringMIT Schwarzman College of Computing Related Topics Research Artificial intelligence Algorithms Machine learning Computer science and technology Data Electrical engineering and computer science (EECS) Computer Science and Artificial Intelligence Laboratory (CSAIL) MIT Schwarzman College of Computing School of Engineering Related Articles Study could lead to LLMs that are better at complex reasoning MIT researchers advance automated interpretability in AI models Reasoning skills of large language models are often overestimated Technique improves the reasoning capabilities of large language models Previous item Next item",
+          "fetchedAt": "2026-09-17T12:37:29.029Z",
+          "title": "Teaching AI models to say “I’m not sure” | MIT News | Massachusetts Institute of Technology",
+          "status": "ok",
+          "contentLength": 6625,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Breadcrumb MIT News Teaching AI models to say “I’m not sure” Teaching AI models to say “I’m not sure” A new training method improves the reliability of AI confidence estimates without sacrificing performance, addressing a root cause of hallucination in reasoning models. Rachel Gordon | MIT CSAIL Publication Date: April 22, 2026 Press Inquiries Press Contact: Rachel Gordon Email: rachelg@csail.mit.edu Phone: 617-258-0675 MIT Computer Science and Artificial Intelligence Laboratory Close Caption: The “Reinforcement Learning with Calibration Rewards” technique trains language models to produce calibrated confidence estimates alongside their answers. It could be useful in finance, medicine, and other fields where users make decisions based on AI outputs. Credits: Image: Alex Shipps/MIT CSAIL, with assets from the researchers. Previous image Next image Confidence is persuasive. In artificial intelligence systems, it is often misleading.Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing. Researchers at MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL) have now traced that overconfidence to a specific flaw in how these models are trained, and developed a method that fixes it without giving up any accuracy.The technique, called RLCR (Reinforcement Learning with Calibration Rewards), trains language models to produce calibrated confidence estimates alongside their answers. In addition to coming up with an answer, the model thinks about its uncertainty in that answer, and outputs a confidence score. In experiments across multiple benchmarks, RLCR reduced calibration error by up to 90 percent while maintaining or improving accuracy, both on the tasks the model was trained on and on entirely new ones it had never seen. The work will be presented at the International Conference on Learning Representations later this month.The problem traces to a surprisingly simple source. The reinforcement learning (RL) methods behind recent breakthroughs in AI reasoning, including the training approach used in systems like OpenAI's o1, reward models for getting the right answer, and penalize them for getting it wrong. Nothing in between. A model that arrives at the correct answer through careful reasoning receives the same reward as one that guesses correctly by chance. Over time, this trains models to confidently answer every question they are asked, whether they have strong evidence or are effectively flipping a coin.That overconfidence has consequences. When models are deployed in medicine, law, finance, or any setting where users make decisions based on AI outputs, a system that expresses high confidence regardless of its actual certainty becomes unreliable in ways that are difficult to detect from the outside. A model that says \"I'm 95 percent sure\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion.\"The standard training approach is simple and powerful, but it gives the model no incentive to express uncertainty or say I don’t know,\" says Mehul Damani, an MIT PhD student and co-lead author on the paper. \"So the model naturally learns to guess when it is unsure.\" RLCR addresses this by adding a single term to the reward function: a Brier score, a well-established measure that penalizes the gap between a model's stated confidence and its actual accuracy. During training, models learn to reason about both the problem and their own uncertainty, producing an answer and a confidence estimate together. Confidently wrong answers are penalized. So are unnecessarily uncertain correct ones.The math backs it up: the team proved formally that this type of reward structure guarantees models that are both accurate and well-calibrated. They then tested the approach on a 7-billion-parameter model across a range of question-answering and math benchmarks, including six datasets the model had never been trained on.The results showed a consistent pattern. Standard RL training actively degraded calibration compared to the base model, making models worse at estimating their own uncertainty. RLCR reversed that effect, substantially improving calibration with no loss in accuracy. The method also outperformed post-hoc approaches, in which a separate classifier is trained to assign confidence scores after the fact. \"What’s striking is that ordinary RL training doesn't just fail to help calibration. It actively hurts it,\" says Isha Puri, an MIT PhD student and co-lead author. \"The models become more capable and more overconfident at the same time.\"The team also demonstrated that the confidence estimates produced by RLCR are practically useful at inference time. When models generate multiple candidate answers, selecting the one with the highest self-reported confidence, or weighting votes by confidence in a majority-voting scheme, improves both accuracy and calibration as compute scales.An additional finding suggests that the act of reasoning about uncertainty itself has value. The researchers trained classifiers on model outputs and found that including the model's explicit uncertainty reasoning in the input improved the classifier's performance, particularly for smaller models. The model's self-reflective reasoning about what it does and doesn’t know contains real information, not just decoration.In addition to Damani and Puri, other authors on the paper are Stewart Slocum, Idan Shenfeld, Leshem Choshen, and senior authors Jacob Andreas and Yoon Kim. Share this news article on: X Facebook LinkedIn Reddit Print Paper: “Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty” Related Links Jacob AndreasMehul DamaniYoon KimIsha PuriComputer Science and Artificial Intelligence Laboratory (CSAIL)Department of Electrical Engineering and Computer Science (EECS)School of EngineeringMIT Schwarzman College of Computing Related Topics Research Artificial intelligence Algorithms Machine learning Computer science and technology Data Electrical engineering and computer science (EECS) Computer Science and Artificial Intelligence Laboratory (CSAIL) MIT Schwarzman College of Computing School of Engineering Related Articles Study could lead to LLMs that are better at complex reasoning MIT researchers advance automated interpretability in AI models Reasoning skills of large language models are often overestimated Technique improves the reasoning capabilities of large language models Previous item Next item"
+            }
+          ],
+          "injectionExampleDetected": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+          "tieuDe": "What are AI Hallucinations? Signs, Risks, & Prevention | AI21",
+          "toChuc": "AI21",
+          "ngayLayVe": "2026-09-17T12:37:28.034Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ công ty thương mại (AI21), có thiên hướng marketing nhưng cung cấp định nghĩa và ví dụ thực tế rõ ràng về các dấu hiệu hallucination.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn thương mại, cần kiểm chứng độc lập",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+          "tieuDe": "Hallucination (artificial intelligence) - Wikipedia",
+          "ngayLayVe": "2026-09-17T12:37:28.037Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Bách khoa toàn thư mở, tổng hợp nhiều nguồn học thuật và báo chí, phù hợp để định nghĩa khái niệm và lịch sử thuật ngữ.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "canhBao": [
+            "Nội dung có thể bị chỉnh sửa bởi người dùng, cần đối chiếu với nguồn gốc",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+          "tieuDe": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+          "ngayLayVe": "2026-09-17T12:37:29.026Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo khoa học được bình duyệt, đăng trên PMC, phân tích sâu về cơ chế gây ra sự tự tin sai lệch (calibration) trong các mô hình AI.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+          "tieuDe": "Teaching AI models to say “I’m not sure” | MIT News | Massachusetts Institute of Technology",
+          "toChuc": "MIT News | Massachusetts Institute of Technology",
+          "ngayDang": "2026-04-22T19:15:00Z",
+          "ngayLayVe": "2026-09-17T12:37:29.029Z",
+          "loai": "bao-chi",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Báo chí chính thức của MIT, đưa tin về nghiên cứu khoa học cụ thể với số liệu và trích dẫn từ các nhà nghiên cứu.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n05",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+          "tieuDe": "https://www.tandfonline.com/doi/full/10.1080/29974100.2025.2486974",
+          "ngayLayVe": "2026-09-17T12:37:28.035Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+          "tieuDe": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+          "ngayLayVe": "2026-09-17T12:37:29.028Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n03",
+        "n04"
+      ],
+      "sourcesRejected": [
+        "n02",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t02",
+          "noiDung": "Một dấu hiệu nhận biết là AI trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không tồn tại.",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.",
+              "viTri": "Phần mô tả các dạng hallucination"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Các mô hình AI hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai, do cách huấn luyện ưu tiên sự quyết đoán.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].",
+              "viTri": "Phần thảo luận về calibration"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.",
+              "viTri": "Đoạn mở đầu bài báo"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Sự tự tin thái quá (overconfidence) nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ và tìm kiếm ý kiến thứ hai.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n04",
+              "doanTrich": "A model that says \"I'm 95 percent sure\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion.",
+              "viTri": "Phần phân tích hậu quả"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh"
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ai21.com/knowledge/ai-hallucinations/\",\n      \"tieuDe\": \"What are AI Hallucinations? Signs, Risks, & Prevention | AI21\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"AI21\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:37:28.034Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ công ty thương mại (AI21), có thiên hướng marketing nhưng cung cấp định nghĩa và ví dụ thực tế rõ ràng về các dấu hiệu hallucination.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn thương mại, cần kiểm chứng độc lập\"\n      ],\n      \"doanTrich\": \"AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)\",\n      \"tieuDe\": \"Hallucination (artificial intelligence) - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:37:28.037Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bách khoa toàn thư mở, tổng hợp nhiều nguồn học thuật và báo chí, phù hợp để định nghĩa khái niệm và lịch sử thuật ngữ.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nội dung có thể bị chỉnh sửa bởi người dùng, cần đối chiếu với nguồn gốc\"\n      ],\n      \"doanTrich\": \"In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting, confabulation, delusion, or mirage) is a response generated by AI that contains false or misleading information presented as fact.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/\",\n      \"tieuDe\": \"A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"PubMed Central (NIH)\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:37:29.026Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo khoa học được bình duyệt, đăng trên PMC, phân tích sâu về cơ chế gây ra sự tự tin sai lệch (calibration) trong các mô hình AI.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422\",\n      \"tieuDe\": \"Teaching AI models to say “I’m not sure” | MIT News | Massachusetts Institute of Technology\",\n      \"tacGia\": \"Rachel Gordon\",\n      \"toChuc\": \"MIT News | Massachusetts Institute of Technology\",\n      \"ngayDang\": \"2026-04-22\",\n      \"ngayLayVe\": \"2026-09-17T12:37:29.029Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Báo chí chính thức của MIT, đưa tin về nghiên cứu khoa học cụ thể với số liệu và trích dẫn từ các nhà nghiên cứu.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Định nghĩa về hallucination trong AI là việc hệ thống tạo ra thông tin sai lệch hoặc gây hiểu nhầm nhưng được trình bày như sự thật.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting, confabulation, delusion, or mirage) is a response generated by AI that contains false or misleading information presented as fact.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Một dấu hiệu nhận biết là AI trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không tồn tại.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.\",\n          \"viTri\": \"Phần mô tả các dạng hallucination\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Các mô hình AI hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai, do cách huấn luyện ưu tiên sự quyết đoán.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].\",\n          \"viTri\": \"Phần thảo luận về calibration\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.\",\n          \"viTri\": \"Đoạn mở đầu bài báo\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Sự tự tin thái quá (overconfidence) nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ và tìm kiếm ý kiến thứ hai.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"A model that says \\\"I'm 95 percent sure\\\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion.\",\n          \"viTri\": \"Phần phân tích hậu quả\"\n        }]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-fad1b963-bf2c-40ca-ac17-f62796c24159",
+          "durationMs": 5581,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ai21.com/knowledge/ai-hallucinations/\",\n      \"tieuDe\": \"What are AI Hallucinations? Signs, Risks, & Prevention | AI21\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"AI21\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:37:28.034Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Nguồn từ công ty thương mại (AI21), có thiên hướng marketing nhưng cung cấp định nghĩa và ví dụ thực tế rõ ràng về các dấu hiệu hallucination.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn thương mại, cần kiểm chứng độc lập\"\n      ],\n      \"doanTrich\": \"AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)\",\n      \"tieuDe\": \"Hallucination (artificial intelligence) - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Wikipedia\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:37:28.037Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Bách khoa toàn thư mở, tổng hợp nhiều nguồn học thuật và báo chí, phù hợp để định nghĩa khái niệm và lịch sử thuật ngữ.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nội dung có thể bị chỉnh sửa bởi người dùng, cần đối chiếu với nguồn gốc\"\n      ],\n      \"doanTrich\": \"In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting, confabulation, delusion, or mirage) is a response generated by AI that contains false or misleading information presented as fact.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/\",\n      \"tieuDe\": \"A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"PubMed Central (NIH)\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T12:37:29.026Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo khoa học được bình duyệt, đăng trên PMC, phân tích sâu về cơ chế gây ra sự tự tin sai lệch (calibration) trong các mô hình AI.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422\",\n      \"tieuDe\": \"Teaching AI models to say “I’m not sure” | MIT News | Massachusetts Institute of Technology\",\n      \"tacGia\": \"Rachel Gordon\",\n      \"toChuc\": \"MIT News | Massachusetts Institute of Technology\",\n      \"ngayDang\": \"2026-04-22\",\n      \"ngayLayVe\": \"2026-09-17T12:37:29.029Z\",\n      \"loai\": \"bao-chi\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Báo chí chính thức của MIT, đưa tin về nghiên cứu khoa học cụ thể với số liệu và trích dẫn từ các nhà nghiên cứu.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Định nghĩa về hallucination trong AI là việc hệ thống tạo ra thông tin sai lệch hoặc gây hiểu nhầm nhưng được trình bày như sự thật.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting, confabulation, delusion, or mirage) is a response generated by AI that contains false or misleading information presented as fact.\",\n          \"viTri\": \"Đoạn mở đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Một dấu hiệu nhận biết là AI trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không tồn tại.\",\n      \"loai\": \"vi-du\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.\",\n          \"viTri\": \"Phần mô tả các dạng hallucination\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Các mô hình AI hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai, do cách huấn luyện ưu tiên sự quyết đoán.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].\",\n          \"viTri\": \"Phần thảo luận về calibration\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.\",\n          \"viTri\": \"Đoạn mở đầu bài báo\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t04\",\n      \"noiDung\": \"Sự tự tin thái quá (overconfidence) nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ và tìm kiếm ý kiến thứ hai.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"A model that says \\\"I'm 95 percent sure\\\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion.\",\n          \"viTri\": \"Phần phân tích hậu quả\"\n        }]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 66558
+    },
+    "isDemo": false,
+    "modelUsed": "groq:qwen/qwen3.8-27b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+      "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?",
+          "chuTrenManHinh": "Trí tuệ nhân tạo có luôn đúng?",
+          "yDoHinh": "Hình ảnh một người đi làm đang nhìn vào màn hình máy tính với vẻ mặt nghi vấn.",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.",
+          "chuTrenManHinh": "Tự tin như nhau khi đúng và sai",
+          "yDoHinh": "Biểu đồ so sánh độ tự tin của trí tuệ nhân tạo khi đưa ra đáp án đúng và đáp án sai.",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.",
+          "chuTrenManHinh": "Sự tự tin thái quá nguy hiểm thế nào?",
+          "yDoHinh": "Minh họa người dùng gật đầu tin tưởng trước một báo cáo do trí tuệ nhân tạo tạo ra.",
+          "nguon": [
+            "t04"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.",
+          "chuTrenManHinh": "Trích dẫn nguồn không tồn tại",
+          "yDoHinh": "Hình ảnh đoạn văn bản trích dẫn nguồn tài liệu bị gạch chéo đỏ thể hiện không tồn tại.",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.",
+          "chuTrenManHinh": "Ba dấu hiệu cần kiểm chứng",
+          "yDoHinh": "Danh sách ba biểu tượng kính lúp tương ứng với ba dấu hiệu kiểm chứng câu trả lời.",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789648735512",
+      "timestamp": "2026-09-17T12:38:55.513Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+        "targetAudience": "Người đi làm, dùng AI hàng ngày",
+        "videoDuration": "5 phút",
+        "evalRunId": "2026-09-17T12-35-43-494Z",
+        "evalCaseId": "N02"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.ai21.com/knowledge/ai-hallucinations/",
+          "tieuDe": "What are AI Hallucinations? Signs, Risks, & Prevention | AI21",
+          "toChuc": "AI21",
+          "ngayLayVe": "2026-09-17T12:37:28.034Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Nguồn từ công ty thương mại (AI21), có thiên hướng marketing nhưng cung cấp định nghĩa và ví dụ thực tế rõ ràng về các dấu hiệu hallucination.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn thương mại, cần kiểm chứng độc lập",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+          "tieuDe": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+          "ngayLayVe": "2026-09-17T12:37:29.026Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo khoa học được bình duyệt, đăng trên PMC, phân tích sâu về cơ chế gây ra sự tự tin sai lệch (calibration) trong các mô hình AI.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+          "tieuDe": "Teaching AI models to say “I’m not sure” | MIT News | Massachusetts Institute of Technology",
+          "toChuc": "MIT News | Massachusetts Institute of Technology",
+          "ngayDang": "2026-04-22T19:15:00Z",
+          "ngayLayVe": "2026-09-17T12:37:29.029Z",
+          "loai": "bao-chi",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Báo chí chính thức của MIT, đưa tin về nghiên cứu khoa học cụ thể với số liệu và trích dẫn từ các nhà nghiên cứu.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n03",
+        "n04"
+      ],
+      "thongTin": [
+        {
+          "id": "t02",
+          "noiDung": "Một dấu hiệu nhận biết là AI trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không tồn tại.",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement.",
+              "viTri": "Phần mô tả các dạng hallucination"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Các mô hình AI hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai, do cách huấn luyện ưu tiên sự quyết đoán.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].",
+              "viTri": "Phần thảo luận về calibration"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing.",
+              "viTri": "Đoạn mở đầu bài báo"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t04",
+          "noiDung": "Sự tự tin thái quá (overconfidence) nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ và tìm kiếm ý kiến thứ hai.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n04",
+              "doanTrich": "A model that says \"I'm 95 percent sure\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion.",
+              "viTri": "Phần phân tích hậu quả"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh"
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?",
+            "chuTrenManHinh": "Trí tuệ nhân tạo có luôn đúng?",
+            "yDoHinh": "Hình ảnh một người đi làm đang nhìn vào màn hình máy tính với vẻ mặt nghi vấn.",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.",
+            "chuTrenManHinh": "Tự tin như nhau khi đúng và sai",
+            "yDoHinh": "Biểu đồ so sánh độ tự tin của trí tuệ nhân tạo khi đưa ra đáp án đúng và đáp án sai.",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.",
+            "chuTrenManHinh": "Sự tự tin thái quá nguy hiểm thế nào?",
+            "yDoHinh": "Minh họa người dùng gật đầu tin tưởng trước một báo cáo do trí tuệ nhân tạo tạo ra.",
+            "nguon": [
+              "t04"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.",
+            "chuTrenManHinh": "Trích dẫn nguồn không tồn tại",
+            "yDoHinh": "Hình ảnh đoạn văn bản trích dẫn nguồn tài liệu bị gạch chéo đỏ thể hiện không tồn tại.",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.",
+            "chuTrenManHinh": "Ba dấu hiệu cần kiểm chứng",
+            "yDoHinh": "Danh sách ba biểu tượng kính lúp tương ứng với ba dấu hiệu kiểm chứng câu trả lời.",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] The systems were almost always sure of themselves. They were nearly as confident when they were wrong as when they were right [1].; [n04] Today's most capable reasoning models share a trait with the loudest voice in the room: They deliver every answer with the same unshakable certainty, whether they're right or guessing."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.",
+          "nguon": [
+            "t04"
+          ],
+          "doanTrichLienQuan": [
+            "[n04] A model that says \"I'm 95 percent sure\" when it is right only half the time is more dangerous than one that simply gets the answer wrong, because users have no signal to seek a second opinion."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] AI hallucinations can take many forms: confidently citing research that doesn’t exist, inventing sources or statistics, or offering a “best guess” framed as a factual statement."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?\",\n      \"chuTrenManHinh\": \"Trí tuệ nhân tạo có luôn đúng?\",\n      \"yDoHinh\": \"Hình ảnh một người đi làm đang nhìn vào màn hình máy tính với vẻ mặt nghi vấn.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.\",\n      \"chuTrenManHinh\": \"Tự tin như nhau khi đúng và sai\",\n      \"yDoHinh\": \"Biểu đồ so sánh độ tự tin của trí tuệ nhân tạo khi đưa ra đáp án đúng và đáp án sai.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.\",\n      \"chuTrenManHinh\": \"Sự tự tin thái quá nguy hiểm thế nào?\",\n      \"yDoHinh\": \"Minh họa người dùng gật đầu tin tưởng trước một báo cáo do trí tuệ nhân tạo tạo ra.\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.\",\n      \"chuTrenManHinh\": \"Trích dẫn nguồn không tồn tại\",\n      \"yDoHinh\": \"Hình ảnh đoạn văn bản trích dẫn nguồn tài liệu bị gạch chéo đỏ thể hiện không tồn tại.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Danh sách ba biểu tượng kính lúp tương ứng với ba dấu hiệu kiểm chứng câu trả lời.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.6-flash",
+          "durationMs": 17405,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời từ trí tuệ nhân tạo A I để rồi phát hiện ra nó hoàn toàn sai chưa?\",\n      \"chuTrenManHinh\": \"Trí tuệ nhân tạo có luôn đúng?\",\n      \"yDoHinh\": \"Hình ảnh một người đi làm đang nhìn vào màn hình máy tính với vẻ mặt nghi vấn.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo nguồn thông tin chưa xác minh, các mô hình trí tuệ nhân tạo hiện đại thường thể hiện mức độ tự tin tương đương nhau dù câu trả lời đúng hay sai.\",\n      \"chuTrenManHinh\": \"Tự tin như nhau khi đúng và sai\",\n      \"yDoHinh\": \"Biểu đồ so sánh độ tự tin của trí tuệ nhân tạo khi đưa ra đáp án đúng và đáp án sai.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hiện tượng tự tin thái quá, hay còn gọi là overconfidence, nguy hiểm hơn việc trả lời sai đơn thuần vì người dùng không có tín hiệu để nghi ngờ.\",\n      \"chuTrenManHinh\": \"Sự tự tin thái quá nguy hiểm thế nào?\",\n      \"yDoHinh\": \"Minh họa người dùng gật đầu tin tưởng trước một báo cáo do trí tuệ nhân tạo tạo ra.\",\n      \"nguon\": [\n        \"t04\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Một dấu hiệu nhận biết cần lưu ý là hệ thống có thể tự tin trích dẫn các nguồn tài liệu, nghiên cứu hoặc số liệu thống kê không hề tồn tại.\",\n      \"chuTrenManHinh\": \"Trích dẫn nguồn không tồn tại\",\n      \"yDoHinh\": \"Hình ảnh đoạn văn bản trích dẫn nguồn tài liệu bị gạch chéo đỏ thể hiện không tồn tại.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu ba dấu hiệu giúp bạn nhanh chóng nhận diện một câu trả lời cần phải kiểm chứng ngay.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Danh sách ba biểu tượng kính lúp tương ứng với ba dấu hiệu kiểm chứng câu trả lời.\",\n      \"nguon\": []\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 52576
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.6-flash"
+  }
+}

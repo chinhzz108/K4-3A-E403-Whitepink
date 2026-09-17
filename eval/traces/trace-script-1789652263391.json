@@ -1,0 +1,127 @@
+{
+  "id": "trace-script-1789652263391",
+  "timestamp": "2026-09-17T13:37:43.391Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N01"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T13:36:56.333Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là công ty công nghệ uy tín; nội dung được viết bởi chuyên gia nội bộ, cập nhật gần đây.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://arxiv.org/abs/2502.18845",
+      "tieuDe": "[2502.18845] Sliding Window Attention Training for Efficient Large Language Models",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T13:37:06.336Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài báo chưa qua peer‑review nhưng được công bố trên arXiv, nền tảng uy tín cho các nghiên cứu khoa học.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "we replace softmax with the sigmoid function and utilize a balanced ALiBi and Rotary Position Embedding for efficient information compression and retention.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Context window là lượng văn bản mô hình có thể “nhớ” tại một thời điểm, quyết định độ dài hội thoại trước khi quên chi tiết đầu.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "đoạn đầu"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Khi đầu vào vượt quá context window, mô hình phải cắt ngắn hoặc tóm tắt, dẫn đến mất thông tin trước đó.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+          "viTri": "đoạn giữa"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn có bao giờ thắc mắc tại sao trợ lý ảo bỗng dưng lại quên mất những gì chúng ta đã nói ở phần đầu của một cuộc trò chuyện dài hay không?\",\n      \"chuTrenManHinh\": \"Tại sao trợ lý ảo hay quên?\",\n      \"yDoHinh\": \"Hình ảnh robot hoạt họa gãi đầu bối rối trước màn hình chat dài.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa được xác minh từ doanh nghiệp công nghệ quốc tế, điều này là do giới hạn của cửa sổ ngữ cảnh, hay còn gọi là context window, tức lượng văn bản mà mô hình có thể ghi nhớ tại một thời điểm.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh là gì?\",\n      \"yDoHinh\": \"Biểu đồ mô phỏng một khung cửa sổ quét qua các khối chữ dữ liệu.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Cũng theo nguồn tin chưa xác minh này, khi nội dung vượt quá giới hạn của cửa sổ ngữ cảnh, mô hình sẽ phải cắt ngắn hoặc tóm tắt lại văn bản.\",\n      \"chuTrenManHinh\": \"Cắt ngắn hoặc tóm tắt văn bản\",\n      \"yDoHinh\": \"Hình ảnh một chiếc kéo hoạt họa đang cắt bớt phần đầu của một cuộn giấy dài.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chính quá trình xử lý đó đã trực tiếp dẫn đến việc các thông tin quan trọng ở phần đầu cuộc trò chuyện bị mất đi.\",\n      \"chuTrenManHinh\": \"Thông tin ban đầu bị mất\",\n      \"yDoHinh\": \"Các khối chữ ở phần đầu cuộc trò chuyện mờ dần rồi biến mất.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Chúng ta hãy cùng nhau tìm hiểu kỹ hơn về cơ chế thú vị này ngay trong bài học ngày hôm nay nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học ngay\",\n      \"yDoHinh\": \"Màn hình chuyển cảnh mượt mà sang tiêu đề chính của bài học.\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "requestId": "chatcmpl-e0833bf2-813d-4174-b8f7-8acfc8e8e7a3",
+      "durationMs": 1901,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bạn có bao giờ thắc mắc tại sao trợ lý ảo lại quên mất những gì chúng ta đã nói ở phần đầu của một cuộc trò chuyện dài?\",\n      \"chuTrenManHinh\": \"Trợ lý quên nội dung cũ\",\n      \"yDoHinh\": \"Hình ảnh một nhân vật ảo đang nhìn vào một cuốn sách mở, nhưng các trang đầu tiên bị mờ đi hoặc biến mất.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Lý do nằm ở khái niệm cửa sổ ngữ cảnh, hay context window, là lượng văn bản mà mô hình có thể nhớ tại một thời điểm.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh là gì?\",\n      \"yDoHinh\": \"Một khung cửa sổ trong suốt hiển thị dòng chữ, biểu thị giới hạn nội dung mà máy tính có thể xử lý cùng lúc.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Hãy tưởng tượng bộ nhớ của máy tính giống như một cuốn sổ tay có số trang giới hạn.\",\n      \"chuTrenManHinh\": \"Sổ tay có số trang giới hạn\",\n      \"yDoHinh\": \"Một cuốn sổ tay giấy đặt trên bàn, các trang được đánh số rõ ràng, gợi ý về dung lượng lưu trữ hữu hạn.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Khi cuộc trò chuyện vượt quá giới hạn đó, hệ thống buộc phải cắt ngắn hoặc tóm tắt để tiếp tục hoạt động.\",\n      \"chuTrenManHinh\": \"Vượt quá giới hạn bộ nhớ\",\n      \"yDoHinh\": \"Hình ảnh một thanh tiến trình đầy ắp màu đỏ, kèm theo biểu tượng kéo cắt hoặc nén dữ liệu.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Vậy làm thế nào để hiểu rõ hơn về cách thức hoạt động này và tại sao nó lại ảnh hưởng đến trải nghiệm của chúng ta?\",\n      \"chuTrenManHinh\": \"Khám phá cách hoạt động\",\n      \"yDoHinh\": \"Một dấu hỏi lớn phát sáng, xung quanh là các biểu tượng nhỏ đại diện cho dữ liệu và kết nối mạng.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 3: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "durationMs": 19491,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Cửa sổ ngữ cảnh của mô hình ngôn ngữ\",\n  \"mucTieu\": \"Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài\",\n  \"thoiLuong\": \"4 phút\",\n  \"nguoiHoc\": \"Sinh viên năm nhất, chưa học lập trình\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn có bao giờ thắc mắc tại sao trợ lý ảo bỗng dưng lại quên mất những gì chúng ta đã nói ở phần đầu của một cuộc trò chuyện dài hay không?\",\n      \"chuTrenManHinh\": \"Tại sao trợ lý ảo hay quên?\",\n      \"yDoHinh\": \"Hình ảnh robot hoạt họa gãi đầu bối rối trước màn hình chat dài.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Theo tài liệu chưa được xác minh từ doanh nghiệp công nghệ quốc tế, điều này là do giới hạn của cửa sổ ngữ cảnh, hay còn gọi là context window, tức lượng văn bản mà mô hình có thể ghi nhớ tại một thời điểm.\",\n      \"chuTrenManHinh\": \"Cửa sổ ngữ cảnh là gì?\",\n      \"yDoHinh\": \"Biểu đồ mô phỏng một khung cửa sổ quét qua các khối chữ dữ liệu.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Cũng theo nguồn tin chưa xác minh này, khi nội dung vượt quá giới hạn của cửa sổ ngữ cảnh, mô hình sẽ phải cắt ngắn hoặc tóm tắt lại văn bản.\",\n      \"chuTrenManHinh\": \"Cắt ngắn hoặc tóm tắt văn bản\",\n      \"yDoHinh\": \"Hình ảnh một chiếc kéo hoạt họa đang cắt bớt phần đầu của một cuộn giấy dài.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Chính quá trình xử lý đó đã trực tiếp dẫn đến việc các thông tin quan trọng ở phần đầu cuộc trò chuyện bị mất đi.\",\n      \"chuTrenManHinh\": \"Thông tin ban đầu bị mất\",\n      \"yDoHinh\": \"Các khối chữ ở phần đầu cuộc trò chuyện mờ dần rồi biến mất.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Chúng ta hãy cùng nhau tìm hiểu kỹ hơn về cơ chế thú vị này ngay trong bài học ngày hôm nay nhé.\",\n      \"chuTrenManHinh\": \"Bắt đầu bài học ngay\",\n      \"yDoHinh\": \"Màn hình chuyển cảnh mượt mà sang tiêu đề chính của bài học.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    }
+  ],
+  "error": "Lỗi tạo kịch bản: Kịch bản AI vẫn không hợp lệ sau một lượt sửa: Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)",
+  "isDemo": false,
+  "durationMs": 26929
+}

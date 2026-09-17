@@ -1,0 +1,541 @@
+{
+  "id": "trace-research-1789650957266",
+  "timestamp": "2026-09-17T13:15:57.266Z",
+  "phase": "research",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ và biết ba cách giảm chi phí",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N09"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "LLM API Pricing Calculator | Compare OpenAI, Claude ...",
+          "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+          "snippet": "The LLM API Pricing Calculator is a tool designed to help users estimate the cost of using various Large Language Model APIs, embeddings and Fine-tuning based ...",
+          "position": 1
+        },
+        {
+          "title": "Leveraging Large Language Models for Predicting Cost ...",
+          "url": "https://arxiv.org/html/2409.09617v1",
+          "snippet": "This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost ...",
+          "position": 2
+        },
+        {
+          "title": "Computational Cost Estimation in LLMs: A Comparative ...",
+          "url": "https://www.researchgate.net/publication/400336962_Computational_Cost_Estimation_in_LLMs_A_Comparative_Study_between_Open-Chats_and_Benchmarks",
+          "snippet": "We propose EmoLASP, a framework that combines a language model with declarative reasoning via Answer Set Programming (ASP) to predict VAD scores ...",
+          "position": 3
+        },
+        {
+          "title": "LLM API Cost Estimation and Monitoring",
+          "url": "https://apxml.com/courses/prompt-engineering-llm-application-development/chapter-8-application-development-considerations/cost-estimation-monitoring",
+          "snippet": "Integrating Large Language Models via APIs introduces a direct operational cost that often scales with usage. Unlike traditional software where primary ...",
+          "position": 4
+        },
+        {
+          "title": "The Cost Estimation Of Training A Large Language Model ...",
+          "url": "https://medium.com/@ju.anirban/the-cost-of-training-a-large-language-model-from-scratch-31a832e7e8a2",
+          "snippet": "So, if we have to estimate the training cost of a LLM then we can use the formula as: (Computational Cost/MFU) x Hardware Cost.",
+          "position": 5
+        }
+      ],
+      "query": "language model cost estimation",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "The Practical Guide to LLM Cost Optimization",
+          "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+          "snippet": "Reduce costs, but not performance: incurred costs, relevant key figures, and strategies for optimizing the costs of LLMs.",
+          "position": 1
+        },
+        {
+          "title": "Optimize LLM Costs & Streamline Processes",
+          "url": "https://www.coursera.org/learn/optimize-llm-costs-and-streamline-processes",
+          "snippet": "Optimize LLM costs by analyzing spend reports and streamline ML pipelines using value-stream mapping to boost efficiency and reduce cycle times. Skills you'll ...",
+          "position": 2
+        },
+        {
+          "title": "LLM Cost Optimization: 5 Levers to Cut API Spend 70-85%",
+          "url": "https://www.morphllm.com/llm-cost-optimization",
+          "snippet": "A practical guide to reducing LLM API costs without sacrificing quality. Covers the five main levers: model routing (40-70% savings), context compaction...",
+          "position": 3
+        },
+        {
+          "title": "Optimizing LLM Performance and Cost: Squeezing Every ...",
+          "url": "https://www.zenml.io/blog/optimizing-llm-performance-and-cost-squeezing-every-drop-of-value",
+          "snippet": "This comprehensive guide explores strategies for optimizing Large Language Model (LLM) deployments in production environments, ...",
+          "position": 4
+        },
+        {
+          "title": "LLM Cost Optimization: How To Run Gen AI Apps ...",
+          "url": "https://cast.ai/blog/llm-cost-optimization-how-to-run-gen-ai-apps-cost-efficiently/",
+          "snippet": "How do you optimize LLM cost without sacrificing performance? Kimchi Inference helps with the automated optimization of LLM selection and ...",
+          "position": 5
+        }
+      ],
+      "query": "optimizing LLM expenses",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+      "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+      "https://arxiv.org/html/2409.09617v1",
+      "https://www.coursera.org/learn/optimize-llm-costs-and-streamline-processes",
+      "https://www.researchgate.net/publication/400336962_Computational_Cost_Estimation_in_LLMs_A_Comparative_Study_between_Open-Chats_and_Benchmarks",
+      "https://www.morphllm.com/llm-cost-optimization",
+      "https://apxml.com/courses/prompt-engineering-llm-application-development/chapter-8-application-development-considerations/cost-estimation-monitoring",
+      "https://www.zenml.io/blog/optimizing-llm-performance-and-cost-squeezing-every-drop-of-value"
+    ],
+    "pagesRead": [
+      "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+      "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+      "https://arxiv.org/html/2409.09617v1"
+    ],
+    "supplementReasons": []
+  },
+  "pagesRead": [
+    {
+      "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+      "content": "Calculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses.\n\nEnter your estimated usage metrics to calculate API costs.\n\nChoosing the right Large Language Model (LLM) depends on various factors including the complexity of your tasks, required performance, and budget.\n\nHere are some examples of proprietary LLMs and their strengths to help you make an informed decision:\n\nClaude 3.5 Sonnet: A faster, powerful and cost-effective model, Claude 3.5 Sonnet balances power and affordability, suitable for a wide range of use cases.\n\nGPT-4o: Known for its speed and power, GPT-4o is an excellent choice for applications requiring quick responses and robust performance.\n\nGPT-4: The most advanced openai LLM available, offers superior capabilities in understanding and generating human-like text, making it ideal for complex and high-stakes applications.\n\nInput Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing.\n\nOutput Tokens: Units of text generated by the model in response to the input. The model predicts these tokens one at a time to form the complete output.\n\nBoth input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed. Higher token usage typically results in higher costs.\n\n📈 Example: If you process 100,000 input tokens and generate 50,000 output tokens, you will be billed for 150,000 tokens.\n\nCredits are consumed based on the cost of the model being used. Different models consume different amounts of credits. For example, GPT-3.5 takes 1x credit, GPT-4o takes 5x credits, GPT-4 Turbo takes 10x credits, while GPT-4 takes 20x credits. API pricing, on the other hand, is typically based on metrics like the number of tokens or characters processed. For a detailed cost estimation using AI credits, visit our Chatbot AI Credits Calculator.\n\nReady to Turn Insights Into an AI Agent?\n\nUse these free tools to plan faster, then launch a YourGPT AI agent trained on your content, policies, and workflows.",
+      "fetchedAt": "2026-09-17T13:15:40.855Z",
+      "title": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+      "status": "ok",
+      "contentLength": 9963,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 1,
+          "text": "Calculate and compare API costs for OpenAI, Anthropic, Gemini, and other top LLMs. Estimate your token usage and optimize expenses."
+        },
+        {
+          "blockIndex": 3,
+          "text": "Enter your estimated usage metrics to calculate API costs."
+        },
+        {
+          "blockIndex": 4,
+          "text": "Choosing the right Large Language Model (LLM) depends on various factors including the complexity of your tasks, required performance, and budget."
+        },
+        {
+          "blockIndex": 5,
+          "text": "Here are some examples of proprietary LLMs and their strengths to help you make an informed decision:"
+        },
+        {
+          "blockIndex": 6,
+          "text": "Claude 3.5 Sonnet: A faster, powerful and cost-effective model, Claude 3.5 Sonnet balances power and affordability, suitable for a wide range of use cases."
+        },
+        {
+          "blockIndex": 7,
+          "text": "GPT-4o: Known for its speed and power, GPT-4o is an excellent choice for applications requiring quick responses and robust performance."
+        },
+        {
+          "blockIndex": 8,
+          "text": "GPT-4: The most advanced openai LLM available, offers superior capabilities in understanding and generating human-like text, making it ideal for complex and high-stakes applications."
+        },
+        {
+          "blockIndex": 9,
+          "text": "Input Tokens: Units of text broken down from the input prompt or query. These are fed into the model for processing."
+        },
+        {
+          "blockIndex": 10,
+          "text": "Output Tokens: Units of text generated by the model in response to the input. The model predicts these tokens one at a time to form the complete output."
+        },
+        {
+          "blockIndex": 11,
+          "text": "Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed. Higher token usage typically results in higher costs."
+        },
+        {
+          "blockIndex": 12,
+          "text": "📈 Example: If you process 100,000 input tokens and generate 50,000 output tokens, you will be billed for 150,000 tokens."
+        },
+        {
+          "blockIndex": 13,
+          "text": "Credits are consumed based on the cost of the model being used. Different models consume different amounts of credits. For example, GPT-3.5 takes 1x credit, GPT-4o takes 5x credits, GPT-4 Turbo takes 10x credits, while GPT-4 takes 20x credits. API pricing, on the other hand, is typically based on metrics like the number of tokens or characters processed. For a detailed cost estimation using AI credits, visit our Chatbot AI Credits Calculator."
+        },
+        {
+          "blockIndex": 14,
+          "text": "Ready to Turn Insights Into an AI Agent?"
+        },
+        {
+          "blockIndex": 15,
+          "text": "Use these free tools to plan faster, then launch a YourGPT AI agent trained on your content, policies, and workflows."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+      "content": "The Practical Guide to LLM Cost Optimization\n\nStrategic resource and cost reduction for language models\n\nWith the increasing prevalence of large language models (LLMs) in nearly all industries, the operating costs of these systems are becoming an increasingly important focus. Computing power, storage, model access, and maintenance mean that LLMs are not only a strategic decision from a technological perspective, but also from an economic one. Without targeted control, running costs can quickly rise and jeopardize the economic viability of applications.\n\nForward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized. This article highlights the key cost drivers in the operation of LLMs and presents practical approaches to reducing expenditures and maximizing the economic benefits of LLM applications.\n\nLLMs are fundamentally built on stacks of Transformer decoders. Therefore, the input prompt from users is first converted into tokens. A single token can represent a word, a sub-word, or even a single character. The model’s output is also generated token-by-token, which then forms a coherent text.\n\nWhen we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed. The general rule: the longer the prompt and the longer the generated response, the higher the token count would be and thus, the higher the cost.\n\nAnother important point is that output tokens are almost always much more expensive than input tokens. For example, GPT-5.1 currently costs around $1.25 per million input tokens but $10 per million output tokens. This pricing, of course, varies depending on the model that we use.\n\nThere are a lot of LLMs to choose from in the market right now, from “small” models with a few billion parameters to frontier models with hundreds of billions or even trillions of parameters. Smaller models are significantly cheaper to run but naturally less capable on complex tasks.\n\nSmaller models also have a big hidden advantage: much faster inference time and if needed, faster fine-tuning as well. As a result, the total cost of pre-training or fine-tuning a smaller model is often orders of magnitude lower than the ones with tens or even hundreds of billions of parameters.\n\nAnother key consideration is proprietary vs. open-source models:\n\nProprietary models (OpenAI, Anthropic, Google, Cohere, etc.): extremely easy to adopt, we don’t need to manage infrastructure ourselves. The costs are almost entirely tied to token usage.\n\nOpen-source models (Llama 3, Mistral, Gemma, etc., often hosted on Hugging Face): the costs are tied to the infrastructure we use, and we need to manage it ourselves. However, over time, this can be dramatically cheaper than relying on proprietary models.\n\nUse proprietary models through Amazon Bedrock (pay-per-token pricing), or\n\nHost open-source models using Amazon SageMaker, EC2, or ECS/EKS (pay for the underlying instances and GPUs).\n\nIn the cloud, the costs ultimately depend on whether we choose a managed proprietary model (billed mainly by tokens) or self-host an open-source model (billed by instance type, hours running, and data transfer).\n\nOn-premises deployment, on the other hand, shifts the cost structure entirely to hardware. Companies have to invest in their own GPU clusters, and the total expense is driven primarily by how much GPU memory (VRAM) and compute power they can afford, along with electricity, cooling, and maintenance.\n\nBatch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically. Batch processing is ideal for non-urgent tasks like content generation, data enrichment, report creation, etc.\n\nAs request volume and data size grow, these additional components can quietly become a major part of the cost. As an example, the more searches we run against a vector DB or the more external API calls the AI agents make, the more expensive the cost will be.\n\nMetrics for LLM Cost Optimizations\n\nAs we saw in the previous sections, LLM costs can balloon from multiple sources. That’s why continuously observing the system is important. In a nutshell, there are five different metrics that should be continuously observed: token usage, model quantitative performance, resource utilization, request frequency, and cost per business KPI.\n\nThe cost of LLM integration, particularly when using proprietary models, is heavily dependent on token usage, i.e., the count of input and output tokens.\n\nTo track the costs associated with the token usages, we can look at several things. As an example, we can monitor total input + output tokens per day/week/month, breakdown of token counts by model, feature, customer, or user, average input length vs. average output length, and input-to-output token ratio (lower is usually better for cost).\n\nContinuously monitoring token usage can help teams quickly identify misuse, or unintended behavior of our LLM system that may drive costs up unexpectedly.\n\nModel Quantitative Performance\n\nObserving quantitative performance of the model is particularly important since model choice has a huge impact on the overall cost of LLM integration. Observing quantitative performance of a model can be done by preparing a dataset with ground-truth labels for a specific use case. Then, we compare the LLM’s generated output against this ground truth using whatever metrics make sense for the task, such as accuracy, Levenshtein distance, embedding similarity, ROUGE, BLEU scores, etc.\n\nThese metrics would provide a solid performance benchmark to fairly compare different models against each other.\n\nObserving metrics related to resource utilization becomes critical, especially when opting for self-hosting open-source models, since companies directly pay for the underlying infrastructure.\n\nThis metric closely ties LLM spending directly to the outcomes that actually matter to the business (and these will vary depending on the specific use case). For example, we can check LLM cost per resolved customer-support ticket, per processed document or contract, per sale closed with AI-assisted customer service, per generated article, report, or piece of marketing copy, etc.\n\nTracking cost-per-KPI gives a clear view of how efficient the LLM system really is in production. More importantly, it provides hard evidence of whether the investment is paying off, or whether further optimization is needed.\n\nStrategies for LLM Cost Optimization\n\nIn this section we’re going to give you several practical tips to optimize LLM cost, starting from model selection until the utilization of knowledge base.\n\nAs mentioned in the previous section, bigger models cost more (especially with proprietary models). Therefore, the best strategy is to gradually test different models on your use case, starting from the cheapest model until the more expensive one. Here are the common steps:\n\nStart with the cheapest capable model you can find (e.g., Llama 3.1 8B, Gemma 2 9B, Mistral Small, GPT-4o-mini, Claude Haiku, Gemini Flash, etc).\n\nCalculate the performance-to-cost ratio for each model and pick the clear winner.\n\nWhen building an LLM-powered workflow, most businesses default to using a single model for everything. While it’s totally fine, using one model for all cases usually leaves a lot of room for cost optimization. By observing the metrics we’ve already discussed (request frequency and quantitative performance), the LLM workflow can be optimized in many ways, such as model routing.\n\nAs an example, let’s say that we notice that 80–90 % of user prompts are actually very simple and your current model achieves 99 % accuracy on them. In this case, model routing would actually be beneficial to reduce the cost. The procedure is simple:\n\nOptimizing the prompt can also have a direct impact on output tokens, which further save the cost. The output tokens can be controlled with explicit instructions. For example, we can add phrases like “respond in no more than two sentences.”, “give a maximum of three recommendations.”, “provide a brief, concise summary only.”, “answer in bullet points, under 100 words.”, etc.\n\nOptimizing LLM costs becomes a strategic necessity as LLM becomes more deeply embedded in business workflows. By understanding exactly where expenses come from and which metrics matter, companies can make smarter decisions about model choice, infrastructure, and overall system design. Every part of the pipeline, from prompt length to GPU utilization, offers opportunities to tighten spending without sacrificing performance.",
+      "fetchedAt": "2026-09-17T13:15:40.856Z",
+      "title": "The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]",
+      "status": "ok",
+      "contentLength": 16930,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "The Practical Guide to LLM Cost Optimization"
+        },
+        {
+          "blockIndex": 1,
+          "text": "Strategic resource and cost reduction for language models"
+        },
+        {
+          "blockIndex": 5,
+          "text": "With the increasing prevalence of large language models (LLMs) in nearly all industries, the operating costs of these systems are becoming an increasingly important focus. Computing power, storage, model access, and maintenance mean that LLMs are not only a strategic decision from a technological perspective, but also from an economic one. Without targeted control, running costs can quickly rise and jeopardize the economic viability of applications."
+        },
+        {
+          "blockIndex": 6,
+          "text": "Forward-looking cost planning is therefore crucial to making the use of language models sustainable and controllable. It enables expenditures to be made transparent, resources to be used according to need, and investments to be better prioritized. This article highlights the key cost drivers in the operation of LLMs and presents practical approaches to reducing expenditures and maximizing the economic benefits of LLM applications."
+        },
+        {
+          "blockIndex": 10,
+          "text": "LLMs are fundamentally built on stacks of Transformer decoders. Therefore, the input prompt from users is first converted into tokens. A single token can represent a word, a sub-word, or even a single character. The model’s output is also generated token-by-token, which then forms a coherent text."
+        },
+        {
+          "blockIndex": 11,
+          "text": "When we use flagship proprietary models from providers like OpenAI (GPT), Anthropic (Claude), Google (Gemini), etc., we are charged based on the total number of tokens processed. The general rule: the longer the prompt and the longer the generated response, the higher the token count would be and thus, the higher the cost."
+        },
+        {
+          "blockIndex": 12,
+          "text": "Another important point is that output tokens are almost always much more expensive than input tokens. For example, GPT-5.1 currently costs around $1.25 per million input tokens but $10 per million output tokens. This pricing, of course, varies depending on the model that we use."
+        },
+        {
+          "blockIndex": 14,
+          "text": "There are a lot of LLMs to choose from in the market right now, from “small” models with a few billion parameters to frontier models with hundreds of billions or even trillions of parameters. Smaller models are significantly cheaper to run but naturally less capable on complex tasks."
+        },
+        {
+          "blockIndex": 15,
+          "text": "Smaller models also have a big hidden advantage: much faster inference time and if needed, faster fine-tuning as well. As a result, the total cost of pre-training or fine-tuning a smaller model is often orders of magnitude lower than the ones with tens or even hundreds of billions of parameters."
+        },
+        {
+          "blockIndex": 16,
+          "text": "Another key consideration is proprietary vs. open-source models:"
+        },
+        {
+          "blockIndex": 17,
+          "text": "Proprietary models (OpenAI, Anthropic, Google, Cohere, etc.): extremely easy to adopt, we don’t need to manage infrastructure ourselves. The costs are almost entirely tied to token usage."
+        },
+        {
+          "blockIndex": 18,
+          "text": "Open-source models (Llama 3, Mistral, Gemma, etc., often hosted on Hugging Face): the costs are tied to the infrastructure we use, and we need to manage it ourselves. However, over time, this can be dramatically cheaper than relying on proprietary models."
+        },
+        {
+          "blockIndex": 22,
+          "text": "Use proprietary models through Amazon Bedrock (pay-per-token pricing), or"
+        },
+        {
+          "blockIndex": 23,
+          "text": "Host open-source models using Amazon SageMaker, EC2, or ECS/EKS (pay for the underlying instances and GPUs)."
+        },
+        {
+          "blockIndex": 24,
+          "text": "In the cloud, the costs ultimately depend on whether we choose a managed proprietary model (billed mainly by tokens) or self-host an open-source model (billed by instance type, hours running, and data transfer)."
+        },
+        {
+          "blockIndex": 25,
+          "text": "On-premises deployment, on the other hand, shifts the cost structure entirely to hardware. Companies have to invest in their own GPU clusters, and the total expense is driven primarily by how much GPU memory (VRAM) and compute power they can afford, along with electricity, cooling, and maintenance."
+        },
+        {
+          "blockIndex": 29,
+          "text": "Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically. Batch processing is ideal for non-urgent tasks like content generation, data enrichment, report creation, etc."
+        },
+        {
+          "blockIndex": 32,
+          "text": "As request volume and data size grow, these additional components can quietly become a major part of the cost. As an example, the more searches we run against a vector DB or the more external API calls the AI agents make, the more expensive the cost will be."
+        },
+        {
+          "blockIndex": 33,
+          "text": "Metrics for LLM Cost Optimizations"
+        },
+        {
+          "blockIndex": 34,
+          "text": "As we saw in the previous sections, LLM costs can balloon from multiple sources. That’s why continuously observing the system is important. In a nutshell, there are five different metrics that should be continuously observed: token usage, model quantitative performance, resource utilization, request frequency, and cost per business KPI."
+        },
+        {
+          "blockIndex": 36,
+          "text": "The cost of LLM integration, particularly when using proprietary models, is heavily dependent on token usage, i.e., the count of input and output tokens."
+        },
+        {
+          "blockIndex": 37,
+          "text": "To track the costs associated with the token usages, we can look at several things. As an example, we can monitor total input + output tokens per day/week/month, breakdown of token counts by model, feature, customer, or user, average input length vs. average output length, and input-to-output token ratio (lower is usually better for cost)."
+        },
+        {
+          "blockIndex": 38,
+          "text": "Continuously monitoring token usage can help teams quickly identify misuse, or unintended behavior of our LLM system that may drive costs up unexpectedly."
+        },
+        {
+          "blockIndex": 39,
+          "text": "Model Quantitative Performance"
+        },
+        {
+          "blockIndex": 40,
+          "text": "Observing quantitative performance of the model is particularly important since model choice has a huge impact on the overall cost of LLM integration. Observing quantitative performance of a model can be done by preparing a dataset with ground-truth labels for a specific use case. Then, we compare the LLM’s generated output against this ground truth using whatever metrics make sense for the task, such as accuracy, Levenshtein distance, embedding similarity, ROUGE, BLEU scores, etc."
+        },
+        {
+          "blockIndex": 41,
+          "text": "These metrics would provide a solid performance benchmark to fairly compare different models against each other."
+        },
+        {
+          "blockIndex": 43,
+          "text": "Observing metrics related to resource utilization becomes critical, especially when opting for self-hosting open-source models, since companies directly pay for the underlying infrastructure."
+        },
+        {
+          "blockIndex": 50,
+          "text": "This metric closely ties LLM spending directly to the outcomes that actually matter to the business (and these will vary depending on the specific use case). For example, we can check LLM cost per resolved customer-support ticket, per processed document or contract, per sale closed with AI-assisted customer service, per generated article, report, or piece of marketing copy, etc."
+        },
+        {
+          "blockIndex": 51,
+          "text": "Tracking cost-per-KPI gives a clear view of how efficient the LLM system really is in production. More importantly, it provides hard evidence of whether the investment is paying off, or whether further optimization is needed."
+        },
+        {
+          "blockIndex": 52,
+          "text": "Strategies for LLM Cost Optimization"
+        },
+        {
+          "blockIndex": 53,
+          "text": "In this section we’re going to give you several practical tips to optimize LLM cost, starting from model selection until the utilization of knowledge base."
+        },
+        {
+          "blockIndex": 55,
+          "text": "As mentioned in the previous section, bigger models cost more (especially with proprietary models). Therefore, the best strategy is to gradually test different models on your use case, starting from the cheapest model until the more expensive one. Here are the common steps:"
+        },
+        {
+          "blockIndex": 56,
+          "text": "Start with the cheapest capable model you can find (e.g., Llama 3.1 8B, Gemma 2 9B, Mistral Small, GPT-4o-mini, Claude Haiku, Gemini Flash, etc)."
+        },
+        {
+          "blockIndex": 59,
+          "text": "Calculate the performance-to-cost ratio for each model and pick the clear winner."
+        },
+        {
+          "blockIndex": 62,
+          "text": "When building an LLM-powered workflow, most businesses default to using a single model for everything. While it’s totally fine, using one model for all cases usually leaves a lot of room for cost optimization. By observing the metrics we’ve already discussed (request frequency and quantitative performance), the LLM workflow can be optimized in many ways, such as model routing."
+        },
+        {
+          "blockIndex": 63,
+          "text": "As an example, let’s say that we notice that 80–90 % of user prompts are actually very simple and your current model achieves 99 % accuracy on them. In this case, model routing would actually be beneficial to reduce the cost. The procedure is simple:"
+        },
+        {
+          "blockIndex": 69,
+          "text": "Optimizing the prompt can also have a direct impact on output tokens, which further save the cost. The output tokens can be controlled with explicit instructions. For example, we can add phrases like “respond in no more than two sentences.”, “give a maximum of three recommendations.”, “provide a brief, concise summary only.”, “answer in bullet points, under 100 words.”, etc."
+        },
+        {
+          "blockIndex": 84,
+          "text": "Optimizing LLM costs becomes a strategic necessity as LLM becomes more deeply embedded in business workflows. By understanding exactly where expenses come from and which metrics matter, companies can make smarter decisions about model choice, infrastructure, and overall system design. Every part of the pipeline, from prompt length to GPU utilization, offers opportunities to tighten spending without sacrificing performance."
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://arxiv.org/html/2409.09617v1",
+      "content": "Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects\n\nAccurate estimation of project costs and durations remains a pivotal challenge in software engineering, directly impacting budgeting and resource management. Traditional estimation techniques, although widely utilized, often fall short due to their complexity and the dynamic nature of software development projects. This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost predictions. We explore the efficacy of LLMs against traditional methods and contemporary machine learning techniques, focusing on their potential to simplify the estimation process and provide higher accuracy. Our research is structured around critical inquiries into whether LLMs can outperform existing models, the ease of their integration into current practices, outperform traditional estimation, and why traditional methods still prevail in industry settings. By applying LLMs to a range of real-world datasets and comparing their performance to both state-of-the-art and conventional methods, this study aims to demonstrate that LLMs not only yield more accurate estimates but also offer a user-friendly alternative to complex predictive models, potentially transforming project management strategies within the software industry.\n\nEffective software cost estimation has always been a focal point for most companies in the field of software engineering. However, despite the existence of many traditional methods for cost estimation, the diversity and complexity of software development often render these traditional approaches inaccurate and time-consuming. For software development organizations, accurate cost estimation is paramount. It not only helps businesses avoid exceeding budgets but also facilitates effective resource allocation and utilization, ultimately enhancing product quality. However, many current methods of cost estimation suffer from various limitations, such as applicability constraints and low accuracy. Therefore, the core question of this study is: How can we leverage Large Language Models (LLMs) to improve the accuracy and reliability of software project cost estimation? Through addressing this question, we aim to provide software development organizations with more effective and practical cost estimation tools in the future, thereby enhancing companies’ grasp and efficiency in the software development process. This question represents the primary focus of our research.\n\nIn recent years, the field of software engineering has undergone significant transformations with the widespread adoption of large language models. One key challenge in this evolution is the accurate prediction of project cost and duration. Inaccurate estimations can lead to substantial losses for businesses, highlighting the crucial importance of appropriate resource allocation in project management. This study focuses on exploring the application of large language models, investigating their potential in enhancing cost and efficiency predictions in project management within the realm of software engineering.\n\nThe more hands-on approach such as agile estimations have been more widely used in the course of software development, even with certain approaches which have been proven to be a more accurate approach. Roughly over 60% of software developers have used agile in the past, and less than 10% have used a prediction model approach [7]. By noticing, the estimation techniques chosen by most software developers do not solely rely on accuracy but on ease and understanding. This is why we propose the utilization of LLMs to allow developers to utilize an easy-to-use system in order to make an improved project cost estimation.\n\nPredicting software development effort, size, and schedule are critical for planning and managing software projects effectively. Traditional software project estimation techniques, such as Constructive Cost Model (COCOMO) [8], Delphi method [9], and agile estimations [10] have been a good starting point in many projects but have been known to be significantly off. The renowned software estimation technique, COCOMO, was originally developed by Barry Boehm in 1987. There have been numerous alternative models of COCOMO, such as COCOMO II [11], which predict the effort and duration of a project based on inputs relating to the size of the resulting systems [12].\n\nResearch studies such as those by Pospieszny et al. [13], Aljahdali [14], and Khalid et al. [15] have also demonstrated the effectiveness of Machine Learning algorithms in software project effort and duration estimation. These studies have shown that models developed using algorithms like random forest, SVM, extreme reinforcement, logistic regression, decision tree, COA-Cuckoo and KNN can offer precise predictions for various software development projects. Furthermore, Abdulmajeed et al.’s study emphasizes in methods such as the K-Nearest Neighbours algorithm, Elman Neural Networks, and Cascade Neural Networks. These approaches have brought about high accuracy rates in predicting the costs required for developing software engineering projects.\n\nIn the research conducted by Bilge Başkeleş, Burak Turhan, Ayşe Bener, and others, the use of the COCOMO model in software engineering projects has demonstrated effectiveness on multiple fronts. Firstly, as a parametric model, the COCOMO model can estimate development time and effort based on various variables, contributing to improved accuracy in predicting project costs and timelines. Secondly, the study indicates that the COCOMO model exhibits high accuracy in similar projects, but it may have limitations for projects with different characteristics. This underscores the importance of utilizing large language models, as these models can adapt more flexibly to different types of software projects, enhancing prediction accuracy and flexibility. Through the examination of the COCOMO model, it can be demonstrated that adopting emerging technologies and approaches, such as large language models, contributes to the efficiency of cost and time predictions in software engineering projects [17].\n\nResearchers V. Anandhi and R. Manicka Chezian have also conducted significant studies through the application of the COCOMO dataset, yielding important research findings [18]. By analyzing software project-related data within the COCOMO dataset, including project size, complexity, and human resource allocation, they have constructed predictive models to assess the cost and time of software engineering projects. Leveraging historical data from the COCOMO dataset and utilizing large language models, the researchers conducted comprehensive analyses and predictions. They successfully established a predictive model capable of accurately forecasting the cost and time of software engineering projects.\n\nResearchers Fernando González-Ladrón-de-Guevara et al. [19] point out that the ISBSG dataset offers a rich resource for software engineering research, particularly in the domain of effort estimation models. They utilize the ISBSG dataset to investigate and develop models for estimating software project size, effort, duration, and cost. They emphasize that one of the key advantages of the ISBSG dataset lies in its extensive repository of data from completed software projects, providing insights into industry practices, methodologies, project outcomes, and tools. These rich and comprehensive insights enhance the quality of their research process, enabling them to improve the accuracy and reliability of their models through the utilization of this data. Therefore, we also anticipate utilizing the ISBSG dataset for our research to enhance the accuracy and reliability of the research process.\n\nIn our work we will not only be focusing on traditional means to predict software cost and duration but also look at state of the art approaches that are not as commonly used due to the complexity nature of the approach. Different approaches to software project estimation, have utilized machine learning-based models which use ensemble methods and recursive feature selection for improved prediction accuracy. Some notable methods like software effort estimation (SEE) framework utilizing a\n\nThis method of prompt engineering not only allows the LLM to understand and generate meaningful predictions based on the input features but also aligns with the model’s capabilities to interpret and process natural language data. The conversion process involved meticulous formatting to ensure that the prompts are clear and structured in a way that maximizes the model’s performance during the fine-tuning phase. This preparation was critical in leveraging the advanced AI’s potential to generate accurate project cost and duration estimations, thereby enhancing the predictive accuracy of the model when applied to real-world software development scenarios.",
+      "fetchedAt": "2026-09-17T13:15:40.858Z",
+      "title": "Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects",
+      "status": "ok",
+      "contentLength": 52715,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects"
+        },
+        {
+          "blockIndex": 1,
+          "text": "Accurate estimation of project costs and durations remains a pivotal challenge in software engineering, directly impacting budgeting and resource management. Traditional estimation techniques, although widely utilized, often fall short due to their complexity and the dynamic nature of software development projects. This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost predictions. We explore the efficacy of LLMs against traditional methods and contemporary machine learning techniques, focusing on their potential to simplify the estimation process and provide higher accuracy. Our research is structured around critical inquiries into whether LLMs can outperform existing models, the ease of their integration into current practices, outperform traditional estimation, and why traditional methods still prevail in industry settings. By applying LLMs to a range of real-world datasets and comparing their performance to both state-of-the-art and conventional methods, this study aims to demonstrate that LLMs not only yield more accurate estimates but also offer a user-friendly alternative to complex predictive models, potentially transforming project management strategies within the software industry."
+        },
+        {
+          "blockIndex": 3,
+          "text": "Effective software cost estimation has always been a focal point for most companies in the field of software engineering. However, despite the existence of many traditional methods for cost estimation, the diversity and complexity of software development often render these traditional approaches inaccurate and time-consuming. For software development organizations, accurate cost estimation is paramount. It not only helps businesses avoid exceeding budgets but also facilitates effective resource allocation and utilization, ultimately enhancing product quality. However, many current methods of cost estimation suffer from various limitations, such as applicability constraints and low accuracy. Therefore, the core question of this study is: How can we leverage Large Language Models (LLMs) to improve the accuracy and reliability of software project cost estimation? Through addressing this question, we aim to provide software development organizations with more effective and practical cost estimation tools in the future, thereby enhancing companies’ grasp and efficiency in the software development process. This question represents the primary focus of our research."
+        },
+        {
+          "blockIndex": 8,
+          "text": "In recent years, the field of software engineering has undergone significant transformations with the widespread adoption of large language models. One key challenge in this evolution is the accurate prediction of project cost and duration. Inaccurate estimations can lead to substantial losses for businesses, highlighting the crucial importance of appropriate resource allocation in project management. This study focuses on exploring the application of large language models, investigating their potential in enhancing cost and efficiency predictions in project management within the realm of software engineering."
+        },
+        {
+          "blockIndex": 10,
+          "text": "The more hands-on approach such as agile estimations have been more widely used in the course of software development, even with certain approaches which have been proven to be a more accurate approach. Roughly over 60% of software developers have used agile in the past, and less than 10% have used a prediction model approach [7]. By noticing, the estimation techniques chosen by most software developers do not solely rely on accuracy but on ease and understanding. This is why we propose the utilization of LLMs to allow developers to utilize an easy-to-use system in order to make an improved project cost estimation."
+        },
+        {
+          "blockIndex": 21,
+          "text": "Predicting software development effort, size, and schedule are critical for planning and managing software projects effectively. Traditional software project estimation techniques, such as Constructive Cost Model (COCOMO) [8], Delphi method [9], and agile estimations [10] have been a good starting point in many projects but have been known to be significantly off. The renowned software estimation technique, COCOMO, was originally developed by Barry Boehm in 1987. There have been numerous alternative models of COCOMO, such as COCOMO II [11], which predict the effort and duration of a project based on inputs relating to the size of the resulting systems [12]."
+        },
+        {
+          "blockIndex": 22,
+          "text": "Research studies such as those by Pospieszny et al. [13], Aljahdali [14], and Khalid et al. [15] have also demonstrated the effectiveness of Machine Learning algorithms in software project effort and duration estimation. These studies have shown that models developed using algorithms like random forest, SVM, extreme reinforcement, logistic regression, decision tree, COA-Cuckoo and KNN can offer precise predictions for various software development projects. Furthermore, Abdulmajeed et al.’s study emphasizes in methods such as the K-Nearest Neighbours algorithm, Elman Neural Networks, and Cascade Neural Networks. These approaches have brought about high accuracy rates in predicting the costs required for developing software engineering projects."
+        },
+        {
+          "blockIndex": 24,
+          "text": "In the research conducted by Bilge Başkeleş, Burak Turhan, Ayşe Bener, and others, the use of the COCOMO model in software engineering projects has demonstrated effectiveness on multiple fronts. Firstly, as a parametric model, the COCOMO model can estimate development time and effort based on various variables, contributing to improved accuracy in predicting project costs and timelines. Secondly, the study indicates that the COCOMO model exhibits high accuracy in similar projects, but it may have limitations for projects with different characteristics. This underscores the importance of utilizing large language models, as these models can adapt more flexibly to different types of software projects, enhancing prediction accuracy and flexibility. Through the examination of the COCOMO model, it can be demonstrated that adopting emerging technologies and approaches, such as large language models, contributes to the efficiency of cost and time predictions in software engineering projects [17]."
+        },
+        {
+          "blockIndex": 25,
+          "text": "Researchers V. Anandhi and R. Manicka Chezian have also conducted significant studies through the application of the COCOMO dataset, yielding important research findings [18]. By analyzing software project-related data within the COCOMO dataset, including project size, complexity, and human resource allocation, they have constructed predictive models to assess the cost and time of software engineering projects. Leveraging historical data from the COCOMO dataset and utilizing large language models, the researchers conducted comprehensive analyses and predictions. They successfully established a predictive model capable of accurately forecasting the cost and time of software engineering projects."
+        },
+        {
+          "blockIndex": 27,
+          "text": "Researchers Fernando González-Ladrón-de-Guevara et al. [19] point out that the ISBSG dataset offers a rich resource for software engineering research, particularly in the domain of effort estimation models. They utilize the ISBSG dataset to investigate and develop models for estimating software project size, effort, duration, and cost. They emphasize that one of the key advantages of the ISBSG dataset lies in its extensive repository of data from completed software projects, providing insights into industry practices, methodologies, project outcomes, and tools. These rich and comprehensive insights enhance the quality of their research process, enabling them to improve the accuracy and reliability of their models through the utilization of this data. Therefore, we also anticipate utilizing the ISBSG dataset for our research to enhance the accuracy and reliability of the research process."
+        },
+        {
+          "blockIndex": 30,
+          "text": "In our work we will not only be focusing on traditional means to predict software cost and duration but also look at state of the art approaches that are not as commonly used due to the complexity nature of the approach. Different approaches to software project estimation, have utilized machine learning-based models which use ensemble methods and recursive feature selection for improved prediction accuracy. Some notable methods like software effort estimation (SEE) framework utilizing a"
+        },
+        {
+          "blockIndex": 36,
+          "text": "This method of prompt engineering not only allows the LLM to understand and generate meaningful predictions based on the input features but also aligns with the model’s capabilities to interpret and process natural language data. The conversion process involved meticulous formatting to ensure that the prompts are clear and structured in a way that maximizes the model’s performance during the fine-tuning phase. This preparation was critical in leveraging the advanced AI’s potential to generate accurate project cost and duration estimations, thereby enhancing the predictive accuracy of the model when applied to real-world software development scenarios."
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator",
+      "tieuDe": "LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini",
+      "tacGia": "YourGPT",
+      "toChuc": "YourGPT",
+      "ngayLayVe": "2026-09-17T13:15:40.855Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Information from a commercial tool without independent verification.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.alexanderthamm.com/en/blog/llm-cost-optimization/",
+      "tieuDe": "The Practical Guide to LLM Cost Optimization - Alexander Thamm [at]",
+      "tacGia": "[at] Editorial Team",
+      "ngayDang": "2025-12-01T13:36:09+01:00",
+      "ngayLayVe": "2026-09-17T13:15:40.856Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Published by a recognized consulting firm with recent date and detailed analysis.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://arxiv.org/html/2409.09617v1",
+      "tieuDe": "Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects",
+      "ngayLayVe": "2026-09-17T13:15:40.858Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Academic preprint but not directly about LLM usage cost; relevance limited.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Content not directly relevant to estimating LLM task cost.",
+      "canhBao": [
+        "Nội dung không liên quan trực tiếp tới chi phí sử dụng mô hình ngôn ngữ.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost predictions.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "sourcesRejected": [
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cost is calculated based on the total number of input and output tokens processed, with pricing depending on the token count.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Smaller models are significantly cheaper to run, offering lower token processing costs compared to large proprietary models.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Smaller models are significantly cheaper to run but naturally less capable on complex tasks.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Batch mode groups many requests together, sacrificing latency but dramatically lowering cost per request.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Open-source models hosted on own infrastructure can be dramatically cheaper than proprietary pay‑per‑token services.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Open-source models (Llama 3, Mistral, Gemma, etc., often hosted on Hugging Face): the costs are tied to the infrastructure we use, and we need to manage it ourselves. However, over time, this can be dramatically cheaper than relying on proprietary models.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\":[\n    {\n      \"id\":\"n01\",\n      \"url\":\"https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator\",\n      \"tieuDe\":\"LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini\",\n      \"tacGia\":\"YourGPT\",\n      \"toChuc\":\"YourGPT\",\n      \"ngayDang\":\"\",\n      \"ngayLayVe\":\"2026-09-17T13:15:40.855Z\",\n      \"loai\":\"blog-ca-nhan\",\n      \"doTinCay\":\"trung-binh\",\n      \"lyDoTinCay\":\"Information from a commercial tool without independent verification.\",\n      \"trangThai\":\"dang-dung\",\n      \"lyDoLoai\":\"\",\n      \"canhBao\":[],\n      \"doanTrich\":\"Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.\"\n    },\n    {\n      \"id\":\"n02\",\n      \"url\":\"https://www.alexanderthamm.com/en/blog/llm-cost-optimization/\",\n      \"tieuDe\":\"The Practical Guide to LLM Cost Optimization - Alexander Thamm\",\n      \"tacGia\":\"[at] Editorial Team\",\n      \"toChuc\":\"\",\n      \"ngayDang\":\"2025-12-01\",\n      \"ngayLayVe\":\"2026-09-17T13:15:40.856Z\",\n      \"loai\":\"blog-ca-nhan\",\n      \"doTinCay\":\"cao\",\n      \"lyDoTinCay\":\"Published by a recognized consulting firm with recent date and detailed analysis.\",\n      \"trangThai\":\"dang-dung\",\n      \"lyDoLoai\":\"\",\n      \"canhBao\":[],\n      \"doanTrich\":\"Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.\"\n    },\n    {\n      \"id\":\"n03\",\n      \"url\":\"https://arxiv.org/html/2409.09617v1\",\n      \"tieuDe\":\"Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects\",\n      \"tacGia\":\"Không rõ\",\n      \"toChuc\":\"Không rõ\",\n      \"ngayDang\":\"\",\n      \"ngayLayVe\":\"2026-09-17T13:15:40.858Z\",\n      \"loai\":\"bai-bao-khoa-hoc\",\n      \"doTinCay\":\"trung-binh\",\n      \"lyDoTinCay\":\"Academic preprint but not directly about LLM usage cost; relevance limited.\",\n      \"trangThai\":\"bi-loai\",\n      \"lyDoLoai\":\"Content not directly relevant to estimating LLM task cost.\",\n      \"canhBao\":[\"Nội dung không liên quan trực tiếp tới chi phí sử dụng mô hình ngôn ngữ.\"],\n      \"doanTrich\":\"This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost predictions.\"\n    }\n  ],\n  \"thongTin\":[\n    {\n      \"id\":\"t01\",\n      \"noiDung\":\"Cost is calculated based on the total number of input and output tokens processed, with pricing depending on the token count.\",\n      \"loai\":\"dinh-nghia\",\n      \"bangChung\":[\n        {\"nguonId\":\"n01\",\"doanTrich\":\"Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.\",\"viTri\":\"\"}\n      ],\n      \"soNguonXacNhan\":1,\n      \"trangThai\":\"da-xac-minh\",\n      \"moTaMauThuan\":\"\"\n    },\n    {\n      \"id\":\"t02\",\n      \"noiDung\":\"Smaller models are significantly cheaper to run, offering lower token processing costs compared to large proprietary models.\",\n      \"loai\":\"luan-diem\",\n      \"bangChung\":[\n        {\"nguonId\":\"n02\",\"doanTrich\":\"Smaller models are significantly cheaper to run but naturally less capable on complex tasks.\",\"viTri\":\"\"}\n      ],\n      \"soNguonXacNhan\":1,\n      \"trangThai\":\"da-xac-minh\",\n      \"moTaMauThuan\":\"\"\n    },\n    {\n      \"id\":\"t03\",\n      \"noiDung\":\"Batch mode groups many requests together, sacrificing latency but dramatically lowering cost per request.\",\n      \"loai\":\"luan-diem\",\n      \"bangChung\":[\n        {\"nguonId\":\"n02\",\"doanTrich\":\"Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.\",\"viTri\":\"\"}\n      ],\n      \"soNguonXacNhan\":1,\n      \"trangThai\":\"da-xac-minh\",\n      \"moTaMauThuan\":\"\"\n    },\n    {\n      \"id\":\"t04\",\n      \"noiDung\":\"Open-source models hosted on own infrastructure can be dramatically cheaper than proprietary pay‑per‑token services.\",\n      \"loai\":\"luan-diem\",\n      \"bangChung\":[\n        {\"nguonId\":\"n02\",\"doanTrich\":\"Open-source models (Llama 3, Mistral, Gemma, etc., often hosted on Hugging Face): the costs are tied to the infrastructure we use, and we need to manage it ourselves. However, over time, this can be dramatically cheaper than relying on proprietary models.\",\"viTri\":\"\"}\n      ],\n      \"soNguonXacNhan\":1,\n      \"trangThai\":\"da-xac-minh\",\n      \"moTaMauThuan\":\"\"\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-5ff736bd-4325-43d0-a018-9b57e51f8389",
+      "durationMs": 8585,
+      "rawAiResponse": "{\n  \"nguon\":[\n    {\n      \"id\":\"n01\",\n      \"url\":\"https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator\",\n      \"tieuDe\":\"LLM API Pricing Calculator | Compare OpenAI, Claude, Gemini\",\n      \"tacGia\":\"YourGPT\",\n      \"toChuc\":\"YourGPT\",\n      \"ngayDang\":\"\",\n      \"ngayLayVe\":\"2026-09-17T13:15:40.855Z\",\n      \"loai\":\"blog-ca-nhan\",\n      \"doTinCay\":\"trung-binh\",\n      \"lyDoTinCay\":\"Information from a commercial tool without independent verification.\",\n      \"trangThai\":\"dang-dung\",\n      \"lyDoLoai\":\"\",\n      \"canhBao\":[],\n      \"doanTrich\":\"Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.\"\n    },\n    {\n      \"id\":\"n02\",\n      \"url\":\"https://www.alexanderthamm.com/en/blog/llm-cost-optimization/\",\n      \"tieuDe\":\"The Practical Guide to LLM Cost Optimization - Alexander Thamm\",\n      \"tacGia\":\"[at] Editorial Team\",\n      \"toChuc\":\"\",\n      \"ngayDang\":\"2025-12-01\",\n      \"ngayLayVe\":\"2026-09-17T13:15:40.856Z\",\n      \"loai\":\"blog-ca-nhan\",\n      \"doTinCay\":\"cao\",\n      \"lyDoTinCay\":\"Published by a recognized consulting firm with recent date and detailed analysis.\",\n      \"trangThai\":\"dang-dung\",\n      \"lyDoLoai\":\"\",\n      \"canhBao\":[],\n      \"doanTrich\":\"Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.\"\n    },\n    {\n      \"id\":\"n03\",\n      \"url\":\"https://arxiv.org/html/2409.09617v1\",\n      \"tieuDe\":\"Leveraging Large Language Models for Predicting Cost and Duration in Software Engineering Projects\",\n      \"tacGia\":\"Không rõ\",\n      \"toChuc\":\"Không rõ\",\n      \"ngayDang\":\"\",\n      \"ngayLayVe\":\"2026-09-17T13:15:40.858Z\",\n      \"loai\":\"bai-bao-khoa-hoc\",\n      \"doTinCay\":\"trung-binh\",\n      \"lyDoTinCay\":\"Academic preprint but not directly about LLM usage cost; relevance limited.\",\n      \"trangThai\":\"bi-loai\",\n      \"lyDoLoai\":\"Content not directly relevant to estimating LLM task cost.\",\n      \"canhBao\":[\"Nội dung không liên quan trực tiếp tới chi phí sử dụng mô hình ngôn ngữ.\"],\n      \"doanTrich\":\"This study introduces an innovative approach using Large Language Models (LLMs) to enhance the accuracy and usability of project cost predictions.\"\n    }\n  ],\n  \"thongTin\":[\n    {\n      \"id\":\"t01\",\n      \"noiDung\":\"Cost is calculated based on the total number of input and output tokens processed, with pricing depending on the token count.\",\n      \"loai\":\"dinh-nghia\",\n      \"bangChung\":[\n        {\"nguonId\":\"n01\",\"doanTrich\":\"Both input and output tokens are used to calculate the cost of using a language model. The overall pricing depends on the total number of tokens processed.\",\"viTri\":\"\"}\n      ],\n      \"soNguonXacNhan\":1,\n      \"trangThai\":\"da-xac-minh\",\n      \"moTaMauThuan\":\"\"\n    },\n    {\n      \"id\":\"t02\",\n      \"noiDung\":\"Smaller models are significantly cheaper to run, offering lower token processing costs compared to large proprietary models.\",\n      \"loai\":\"luan-diem\",\n      \"bangChung\":[\n        {\"nguonId\":\"n02\",\"doanTrich\":\"Smaller models are significantly cheaper to run but naturally less capable on complex tasks.\",\"viTri\":\"\"}\n      ],\n      \"soNguonXacNhan\":1,\n      \"trangThai\":\"da-xac-minh\",\n      \"moTaMauThuan\":\"\"\n    },\n    {\n      \"id\":\"t03\",\n      \"noiDung\":\"Batch mode groups many requests together, sacrificing latency but dramatically lowering cost per request.\",\n      \"loai\":\"luan-diem\",\n      \"bangChung\":[\n        {\"nguonId\":\"n02\",\"doanTrich\":\"Batch mode, on the other hand, collects requests into larger groups (e.g., 100 or 1,000 requests at a time) and processes them all together in one go. We sacrifice latency (responses can take minutes or even hours), but the cost per request drops dramatically.\",\"viTri\":\"\"}\n      ],\n      \"soNguonXacNhan\":1,\n      \"trangThai\":\"da-xac-minh\",\n      \"moTaMauThuan\":\"\"\n    },\n    {\n      \"id\":\"t04\",\n      \"noiDung\":\"Open-source models hosted on own infrastructure can be dramatically cheaper than proprietary pay‑per‑token services.\",\n      \"loai\":\"luan-diem\",\n      \"bangChung\":[\n        {\"nguonId\":\"n02\",\"doanTrich\":\"Open-source models (Llama 3, Mistral, Gemma, etc., often hosted on Hugging Face): the costs are tied to the infrastructure we use, and we need to manage it ourselves. However, over time, this can be dramatically cheaper than relying on proprietary models.\",\"viTri\":\"\"}\n      ],\n      \"soNguonXacNhan\":1,\n      \"trangThai\":\"da-xac-minh\",\n      \"moTaMauThuan\":\"\"\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 19760
+}

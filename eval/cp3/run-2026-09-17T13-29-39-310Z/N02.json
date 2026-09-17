@@ -1,0 +1,911 @@
+{
+  "case": {
+    "id": "N02",
+    "class": "thuong",
+    "input": {
+      "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+      "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+      "targetAudience": "Người đi làm, dùng AI hàng ngày",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Tìm được nguồn về hallucination, confabulation. Kịch bản nêu rõ dấu hiệu.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #2; không phải chatlog",
+    "passCriteria": "≥2 nguồn; kịch bản đề cập hallucination; câu có nguồn",
+    "failCriteria": "Bịa nguồn; không dẫn nguồn; viết tắt không giải thích"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://www.chapman.edu/ai/bias-in-ai.aspx",
+        "tieuDe": "Bias in AI | Chapman University",
+        "ngayLayVe": "2026-09-17T13:29:44.509Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "trang của trường đại học, nội dung giáo dục và nghiên cứu",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://gptzero.me/hallucination-detector",
+        "tieuDe": "AI Source Finder - Check Citations From Text, Essays & More",
+        "toChuc": "GPTZero",
+        "ngayLayVe": "2026-09-17T13:29:44.511Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "công cụ thương mại, không có quy trình đánh giá học thuật độc lập",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+        "tieuDe": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+        "toChuc": "Amazon Web Services",
+        "ngayDang": "2025-05-16T08:44:40-08:00",
+        "ngayLayVe": "2026-09-17T13:29:46.171Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "blog kỹ thuật của nhà cung cấp dịch vụ đám mây, có đội ngũ kỹ sư và quy trình kiểm duyệt nội dung",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "Set the float to 1 if you are confident that the sentence is not based on the context.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://mediate.com/ai-and-confirmation-bias/",
+        "tieuDe": "https://mediate.com/ai-and-confirmation-bias/",
+        "ngayLayVe": "2026-09-17T13:29:44.512Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n05",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949882124000264",
+        "tieuDe": "https://www.sciencedirect.com/science/article/pii/S2949882124000264",
+        "ngayLayVe": "2026-09-17T13:29:46.172Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n06",
+        "url": "https://www.nature.com/articles/s41586-024-07421-0",
+        "tieuDe": "https://www.nature.com/articles/s41586-024-07421-0",
+        "ngayLayVe": "2026-09-17T13:29:46.173Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "timeout",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Một câu trả lời có thể mang bias nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch, do dữ liệu huấn luyện không đa dạng.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.",
+            "viTri": "đoạn trích"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Công cụ phát hiện hallucination có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+        "loai": "vi-du",
+        "bangChung": [
+          {
+            "nguonId": "n02",
+            "doanTrich": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+            "viTri": "đoạn trích"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Nếu điểm confidence cao (gần 1) cho thấy câu không dựa trên ngữ cảnh, đây là dấu hiệu câu trả lời có khả năng hallucinate.",
+        "loai": "vi-du",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "Set the float to 1 if you are confident that the sentence is not based on the context.",
+            "viTri": "đoạn trích"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "AI confidence bias",
+      "detect AI hallucination"
+    ],
+    "pagesRead": 6,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789651801988",
+      "timestamp": "2026-09-17T13:30:01.988Z",
+      "phase": "research",
+      "input": {
+        "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+        "targetAudience": "Người đi làm, dùng AI hàng ngày",
+        "videoDuration": "5 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-29-39-310Z",
+        "evalCaseId": "N02"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Bias in AI",
+              "url": "https://www.chapman.edu/ai/bias-in-ai.aspx",
+              "snippet": "Confirmation Bias: This occurs when an AI system is overly reliant on pre-existing patterns in the data, reinforcing historical prejudices. For instance, if ...",
+              "position": 1
+            },
+            {
+              "title": "AI and Confirmation Bias",
+              "url": "https://mediate.com/ai-and-confirmation-bias/",
+              "snippet": "This article discusses the growing use of large language models (LLMs) like ChatGPT and the associated risk of amplifying confirmation bias.",
+              "position": 2
+            },
+            {
+              "title": "Confirmation bias in AI-assisted decision-making: AI triage ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949882124000264",
+              "snippet": "viết bởi A Bashkirova · 2024 · Trích dẫn 96 bài viết — Findings showed that participants were more inclined to trust and accept AI recommendations when they aligned with their initial diagnoses and professional ...",
+              "position": 3
+            },
+            {
+              "title": "What is Data Bias?",
+              "url": "https://www.ibm.com/think/topics/data-bias",
+              "snippet": "AI bias, also called machine learning bias, is an umbrella term for the different types of bias associated with artificial intelligence systems.",
+              "position": 4
+            },
+            {
+              "title": "Bias evaluation - European Data Protection Board",
+              "url": "https://www.edpb.europa.eu/system/files/2025-01/d1-ai-bias-evaluation_en.pdf",
+              "snippet": "viết bởi K SHRISHAK · Trích dẫn 1 bài viết — In addition to bias from data, AI systems can also be biased due to the algorithm and the evaluation. These three sources of bias are discussed next. 1.1.1 Bias ...",
+              "position": 5
+            }
+          ],
+          "query": "AI confidence bias",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "Hallucination Detector - Verify Sources & Bibliographies",
+              "url": "https://gptzero.me/hallucination-detector",
+              "snippet": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays. Verify academic integrity with the most ...",
+              "position": 1
+            },
+            {
+              "title": "Detect hallucinations for RAG-based systems",
+              "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+              "snippet": "In the following sections, we discuss and implement four prominent approaches to detecting hallucinations: using an LLM prompt-based detector, ...",
+              "position": 2
+            },
+            {
+              "title": "Detecting hallucinations in large language models using ...",
+              "url": "https://www.nature.com/articles/s41586-024-07421-0",
+              "snippet": "viết bởi S Farquhar · 2024 · Trích dẫn 2288 bài viết — Here we develop new methods grounded in statistics, proposing entropy-based uncertainty estimators for LLMs to detect a subset of hallucinations ...",
+              "position": 3
+            },
+            {
+              "title": "Top Tools and Plugins to Detect AI Hallucinations in Real- ...",
+              "url": "https://www.ishir.com/blog/183214/top-tools-and-plugins-to-detect-ai-hallucinations-in-real-time.htm",
+              "snippet": "9 Tools and Plugins to Detect AI Hallucinations in 2025 · 1. Galileo AI · 2. Exa Hallucination Detector · 3. Genezio · 4. Patronus AI's Lynx · 5. Pythia · 6.",
+              "position": 4
+            },
+            {
+              "title": "AI Hallucination Checker",
+              "url": "https://minicoursegenerator.com/ai-hallucination-checker/",
+              "snippet": "Detect factual errors in AI-generated content with our Hallucination Checker. Verify accuracy, receive confidence scores, and ensure reliable outputs from ...",
+              "position": 5
+            }
+          ],
+          "query": "detect AI hallucination",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://www.chapman.edu/ai/bias-in-ai.aspx",
+          "https://gptzero.me/hallucination-detector",
+          "https://mediate.com/ai-and-confirmation-bias/",
+          "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+          "https://www.sciencedirect.com/science/article/pii/S2949882124000264",
+          "https://www.nature.com/articles/s41586-024-07421-0",
+          "https://www.ibm.com/think/topics/data-bias",
+          "https://www.ishir.com/blog/183214/top-tools-and-plugins-to-detect-ai-hallucinations-in-real-time.htm"
+        ],
+        "pagesRead": [
+          "https://www.chapman.edu/ai/bias-in-ai.aspx",
+          "https://gptzero.me/hallucination-detector",
+          "https://mediate.com/ai-and-confirmation-bias/",
+          "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+          "https://www.sciencedirect.com/science/article/pii/S2949882124000264",
+          "https://www.nature.com/articles/s41586-024-07421-0"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://www.chapman.edu/ai/bias-in-ai.aspx",
+          "content": "Skip over carousel to next section Off Chapman University Artificial Intelligence (AI) Hub Chapman University AI HubBias in AI AI Key Terms Approved AI Software Artificial Intelligence in the Classroom Chapman Considerations for Syllabus Policy on the Use of AI Generative Tools Guidelines for the use of Artificial Intelligence in Research/Scholarship/Creative Activities Follow »Bias in AI Introduction The human brain is an intricate organ that functions through conscious and unconscious connections. While we may view explicit bias as ethically incorrect, our brains automatically establish implicit associations. This is not within our control but rather a natural function of our brains. When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs. By identifying the sources of bias and creating inclusive prompts, we can strive towards developing AI systems that are more fair and just. Bias in AI is not merely a technical issue but a societal challenge. AI systems are increasingly integrated into decision-making processes in healthcare, hiring, law enforcement, and other critical areas. Therefore, addressing bias is not only about improving technology but also about fostering ethical responsibility and social justice. Stages Where Bias Can Occur It is important to recognize that bias can occur in various stages of the AI pipeline. One of the primary sources of such bias is data collection. The resulting outputs may be biased if the data used to train an AI algorithm is not diverse or representative. Data Collection: Bias often originates here. If the data used to train an AI algorithm is not diverse or representative, the resulting outputs will reflect these biases. For example, training an AI on historical hiring data from a company that favored male applicants may lead to biased hiring recommendations. Data Labeling: The process of labeling training data can introduce bias, as human annotators may have different interpretations of the same data. Subjective labels, such as sentiment analysis categories or facial expressions, can be influenced by cultural or personal biases. Model Training: If the training data is imbalanced or the model architecture is not designed to account for diverse inputs, the model may produce biased outputs. Algorithmic biases can also arise from optimization techniques that favor majority group predictions over minority groups. Deployment: Even if a model appears unbiased during training, biases can still emerge when deployed in real-world applications. If the system is not tested with diverse inputs or monitored for bias after deployment, it can lead to unintended discrimination or exclusion. Addressing bias requires a continuous feedback loop, where AI models are regularly evaluated and updated based on real-world interactions and new data. Implicit and Explicit Bias Understanding the distinction between explicit and implicit biases is crucial when discussing AI fairness. Explicit Bias: These are conscious and intentional prejudices or beliefs about certain groups of people. For example, an employer who openly favors one gender over another in hiring decisions exhibits explicit bias. Implicit Bias: These biases operate unconsciously and can influence decisions without a person realizing it. Implicit biases are shaped by social conditioning, media representation, and cultural exposure. They can be particularly harmful because they affect our behavior even when we consciously reject discriminatory beliefs. AI systems, like humans, can internalize implicit biases from their training data. If a model learns from biased language or imagery, it may unknowingly generate prejudiced or stereotypical outputs. To mitigate implicit bias in AI, it is necessary to: Diversify training datasets to include balanced representation from various groups. Implement bias detection techniques, such as fairness audits and adversarial testing. Encourage transparency in AI decision-making to help users understand potential biases. By addressing both explicit and implicit biases, we can foster AI systems that promote inclusivity and fairness. Types of Bias in AI Biases in AI can have significant real-world consequences, particularly when they reinforce discrimination or social inequalities. Below are some of the most common types of bias in AI and their impact: Selection Bias: Occurs when training data is not representative of the real-world population. For example, if a facial recognition model is trained mostly on lighter-skinned individuals, it may struggle to accurately identify people with darker skin tones, leading to discriminatory outcomes. Confirmation Bias: This occurs when an AI system is overly reliant on pre-existing patterns in the data, reinforcing historical prejudices. For instance, if a hiring algorithm learns that past successful candidates were predominantly men, it may favor male applicants in the future. Measurement Bias: Happens when the data collected systematically differs from the true variables of interest. For example, if a model predicts student success based only on those who completed an online course, it may fail to account for those who dropped out, leading to misleading conclusions. Stereotyping Bias: Occurs when AI systems reinforce harmful stereotypes. For example, a translation model that consistently associates the word \"nurse\" with female pronouns and \"doctor\" with male pronouns perpetuates gender bias. Similarly, an image-generation model that portrays engineers as predominantly male contributes to occupational stereotyping. Out-Group Homogeneity Bias: This bias causes an AI system to generalize individuals from underrepresented groups, treating them as more similar than they actually are. For instance, facial recognition systems often struggle to differentiate between individuals from racial or ethnic minorities due to insufficient diversity in training data. This can lead to misclassification and discriminatory practices, such as wrongful arrests in law enforcement. Mitigating Bias in AI Addressing bias in AI requires a multifaceted approach, including: Diverse and Representative Data: Ensuring training datasets include a wide range of perspectives and demographics. Bias Detection Tools: Using fairness metrics, adversarial testing, and explainable AI techniques to identify and rectify bias. Continuous Monitoring: Regularly auditing AI systems after deployment to detect emerging biases and improve fairness. Human Oversight: Keeping humans in the loop for critical decision-making areas where AI biases could have serious ethical or legal implications. By proactively addressing these biases, we can create AI systems that contribute to a more equitable and just society. Chapman University AI Hub Bias in AI AI Key Terms Approved AI Software Artificial Intelligence in the Classroom Chapman Considerations for Syllabus Policy on the Use of AI Generative Tools Guidelines for the use of Artificial Intelligence in Research/Scholarship/Creative Activities",
+          "fetchedAt": "2026-09-17T13:29:44.509Z",
+          "title": "Bias in AI | Chapman University",
+          "status": "ok",
+          "contentLength": 7102,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Skip over carousel to next section Off Chapman University Artificial Intelligence (AI) Hub Chapman University AI HubBias in AI AI Key Terms Approved AI Software Artificial Intelligence in the Classroom Chapman Considerations for Syllabus Policy on the Use of AI Generative Tools Guidelines for the use of Artificial Intelligence in Research/Scholarship/Creative Activities Follow »Bias in AI Introduction The human brain is an intricate organ that functions through conscious and unconscious connections. While we may view explicit bias as ethically incorrect, our brains automatically establish implicit associations. This is not within our control but rather a natural function of our brains. When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs. By identifying the sources of bias and creating inclusive prompts, we can strive towards developing AI systems that are more fair and just. Bias in AI is not merely a technical issue but a societal challenge. AI systems are increasingly integrated into decision-making processes in healthcare, hiring, law enforcement, and other critical areas. Therefore, addressing bias is not only about improving technology but also about fostering ethical responsibility and social justice. Stages Where Bias Can Occur It is important to recognize that bias can occur in various stages of the AI pipeline. One of the primary sources of such bias is data collection. The resulting outputs may be biased if the data used to train an AI algorithm is not diverse or representative. Data Collection: Bias often originates here. If the data used to train an AI algorithm is not diverse or representative, the resulting outputs will reflect these biases. For example, training an AI on historical hiring data from a company that favored male applicants may lead to biased hiring recommendations. Data Labeling: The process of labeling training data can introduce bias, as human annotators may have different interpretations of the same data. Subjective labels, such as sentiment analysis categories or facial expressions, can be influenced by cultural or personal biases. Model Training: If the training data is imbalanced or the model architecture is not designed to account for diverse inputs, the model may produce biased outputs. Algorithmic biases can also arise from optimization techniques that favor majority group predictions over minority groups. Deployment: Even if a model appears unbiased during training, biases can still emerge when deployed in real-world applications. If the system is not tested with diverse inputs or monitored for bias after deployment, it can lead to unintended discrimination or exclusion. Addressing bias requires a continuous feedback loop, where AI models are regularly evaluated and updated based on real-world interactions and new data. Implicit and Explicit Bias Understanding the distinction between explicit and implicit biases is crucial when discussing AI fairness. Explicit Bias: These are conscious and intentional prejudices or beliefs about certain groups of people. For example, an employer who openly favors one gender over another in hiring decisions exhibits explicit bias. Implicit Bias: These biases operate unconsciously and can influence decisions without a person realizing it. Implicit biases are shaped by social conditioning, media representation, and cultural exposure. They can be particularly harmful because they affect our behavior even when we consciously reject discriminatory beliefs. AI systems, like humans, can internalize implicit biases from their training data. If a model learns from biased language or imagery, it may unknowingly generate prejudiced or stereotypical outputs. To mitigate implicit bias in AI, it is necessary to: Diversify training datasets to include balanced representation from various groups. Implement bias detection techniques, such as fairness audits and adversarial testing. Encourage transparency in AI decision-making to help users understand potential biases. By addressing both explicit and implicit biases, we can foster AI systems that promote inclusivity and fairness. Types of Bias in AI Biases in AI can have significant real-world consequences, particularly when they reinforce discrimination or social inequalities. Below are some of the most common types of bias in AI and their impact: Selection Bias: Occurs when training data is not representative of the real-world population. For example, if a facial recognition model is trained mostly on lighter-skinned individuals, it may struggle to accurately identify people with darker skin tones, leading to discriminatory outcomes. Confirmation Bias: This occurs when an AI system is overly reliant on pre-existing patterns in the data, reinforcing historical prejudices. For instance, if a hiring algorithm learns that past successful candidates were predominantly men, it may favor male applicants in the future. Measurement Bias: Happens when the data collected systematically differs from the true variables of interest. For example, if a model predicts student success based only on those who completed an online course, it may fail to account for those who dropped out, leading to misleading conclusions. Stereotyping Bias: Occurs when AI systems reinforce harmful stereotypes. For example, a translation model that consistently associates the word \"nurse\" with female pronouns and \"doctor\" with male pronouns perpetuates gender bias. Similarly, an image-generation model that portrays engineers as predominantly male contributes to occupational stereotyping. Out-Group Homogeneity Bias: This bias causes an AI system to generalize individuals from underrepresented groups, treating them as more similar than they actually are. For instance, facial recognition systems often struggle to differentiate between individuals from racial or ethnic minorities due to insufficient diversity in training data. This can lead to misclassification and discriminatory practices, such as wrongful arrests in law enforcement. Mitigating Bias in AI Addressing bias in AI requires a multifaceted approach, including: Diverse and Representative Data: Ensuring training datasets include a wide range of perspectives and demographics. Bias Detection Tools: Using fairness metrics, adversarial testing, and explainable AI techniques to identify and rectify bias. Continuous Monitoring: Regularly auditing AI systems after deployment to detect emerging biases and improve fairness. Human Oversight: Keeping humans in the loop for critical decision-making areas where AI biases could have serious ethical or legal implications. By proactively addressing these biases, we can create AI systems that contribute to a more equitable and just society. Chapman University AI Hub Bias in AI AI Key Terms Approved AI Software Artificial Intelligence in the Classroom Chapman Considerations for Syllabus Policy on the Use of AI Generative Tools Guidelines for the use of Artificial Intelligence in Research/Scholarship/Creative Activities"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://gptzero.me/hallucination-detector",
+          "content": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5WT8P7X2\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>GPTZero is now a part of SuperhumanLearn moreSee our latest investigationHallucination Detectorfor Quality Information.Use our reliable source checker and AI reference finder to quickly find sources from text, essays, or research papers. A simple way for students, educators, and researchers to provide citations and evidence for their work.Paste your text orExamples:AI generated sourcesHuman generated sources0/10,000 charactersUpgradeDetectScanPrivacy GuaranteeBIBLIOGRAPHY SCANHallucination Detector - Verify Sources & BibliographiesGPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays. Verify academic integrity with the most accurate hallucination detection tool for educators.Try todayDetect Hallucinated Citations & Fake Academic SourcesAI writing tools often generate convincing but non-existent citations. Our citation checker identifies these hallucinated references instantly, helping educators maintain academic integrity without spending time on manual verification.Start gradingAdvanced Citation Verification TechnologyGet in-depth analysis highlighting specific sentences likely to contain hallucinated or incorrect citations, allowing educators to focus verification efforts on the most suspicious citations and claims rather than reviewing every source.Try todayDiscover New Sources for Missing CitationsGet AI-powered suggestions for credible academic sources to support unsupported claims and strengthen arguments.Search for sourcesTrusted by educators.Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"123AI Text Detection and Analysis Trusted by Leading OrganizationsINTEGRATIONSBuilt-in AI detection for classrooms and workspacesBring the most precise AI content checker directly into the software you use every day.ChromeGoogle DocsClassroomCanvasZapierAPIFind the plan that works for you.Annual (Save 45%)MonthlyGeneral FAQs about GPTZero's Source FinderEverything you need to know about GPTZero and our Source finder. Can’t find an answer? You can talk to our customer service team.What is GPTZero's source finder?GPTZero source finder is to detect potentially misleading claims in text and give recommendations for sources that support or contradict those claims. Our tool allows you to find any arguments or “claims” in a document that may require more scrutiny, and then links to helpful sources to dive deeper into your analysis and provide helpful context. You can pull these into your own research, or share your results to improve someone else's.How do I use GPTZero's source finder?Source finder will detect as many checkable, objective claims in your text and match those to sources from online, academic, and publicly available data coming from AI-powered search engines. You may find sources that would directly support or contradict these claims. You can cite the relevant snippet from the source, and also citations in MLA, Chicago, APA, BibTeX and IEEE. While this feature is in beta, there may be changes and improvements made to the feature that may change the functionality upon final release.Does GPTZero's source finder use AI?We use AI to detect claims and arguments and pair them with potentially relevant sources. We actively do NOT recommend AI-generated content, due to their unreliability, and filter out sources that are potentially AI-generated.Does GPTZero's source finder work as a fact checker?Our tool currently does not take a stance on whether your claims or the claims in the sources cited are true “facts” or false. We only indicate whether there is online evidence that contradicts, debates, or supports a claim. We strive to only include high-quality sources from reputable online, academic, and public sources, but do not endorse the viewpoints in any specific source.How does GPTZero select the sources in its database?We allow you to search for claims from a dataset of over 220M scholarly articles, preprints and real-time news using AI next-generation recommendation AI and large language models.What citation styles does GPTZero support?GPTZero supports major formats including MLA, APA, Chicago, IEEE, and BibTeX, making it easy to check sources across a variety of academic and professional settings.Does GPTZero support multiple languages besides English?Yes. GPTZero was trained on a diverse multilingual dataset and supports English, Spanish, French, German, and other languages. Detection is strongest in English but continues to expand across other languages.",
+          "fetchedAt": "2026-09-17T13:29:44.511Z",
+          "title": "AI Source Finder - Check Citations From Text, Essays & More",
+          "status": "ok",
+          "contentLength": 6638,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5WT8P7X2\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>GPTZero is now a part of SuperhumanLearn moreSee our latest investigationHallucination Detectorfor Quality Information.Use our reliable source checker and AI reference finder to quickly find sources from text, essays, or research papers. A simple way for students, educators, and researchers to provide citations and evidence for their work.Paste your text orExamples:AI generated sourcesHuman generated sources0/10,000 charactersUpgradeDetectScanPrivacy GuaranteeBIBLIOGRAPHY SCANHallucination Detector - Verify Sources & BibliographiesGPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays. Verify academic integrity with the most accurate hallucination detection tool for educators.Try todayDetect Hallucinated Citations & Fake Academic SourcesAI writing tools often generate convincing but non-existent citations. Our citation checker identifies these hallucinated references instantly, helping educators maintain academic integrity without spending time on manual verification.Start gradingAdvanced Citation Verification TechnologyGet in-depth analysis highlighting specific sentences likely to contain hallucinated or incorrect citations, allowing educators to focus verification efforts on the most suspicious citations and claims rather than reviewing every source.Try todayDiscover New Sources for Missing CitationsGet AI-powered suggestions for credible academic sources to support unsupported claims and strengthen arguments.Search for sourcesTrusted by educators.Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"Kristina McElheranAssistant Professor of Economics,University of Toronto\"GPTZero’s feedback aligns well with my sense of what is going on in the writing - almost line-for-line.\"Randi WeingartenPresident,American Federation of Teachers\"This tool is a magnifying glass to help teachers get a closer look behind the scenes of a document, ultimately creating a better exchange of ideas that can help kids learn and get excited about school when AI is used appropriately.\"Justin CurlJ.D. Candidate,Harvard Law School\"I'm a huge fan of the writing reports that let me verify my documents are human-written. The writing video, in particular, is a great way to visualize the writing process!\"123AI Text Detection and Analysis Trusted by Leading OrganizationsINTEGRATIONSBuilt-in AI detection for classrooms and workspacesBring the most precise AI content checker directly into the software you use every day.ChromeGoogle DocsClassroomCanvasZapierAPIFind the plan that works for you.Annual (Save 45%)MonthlyGeneral FAQs about GPTZero's Source FinderEverything you need to know about GPTZero and our Source finder. Can’t find an answer? You can talk to our customer service team.What is GPTZero's source finder?GPTZero source finder is to detect potentially misleading claims in text and give recommendations for sources that support or contradict those claims. Our tool allows you to find any arguments or “claims” in a document that may require more scrutiny, and then links to helpful sources to dive deeper into your analysis and provide helpful context. You can pull these into your own research, or share your results to improve someone else's.How do I use GPTZero's source finder?Source finder will detect as many checkable, objective claims in your text and match those to sources from online, academic, and publicly available data coming from AI-powered search engines. You may find sources that would directly support or contradict these claims. You can cite the relevant snippet from the source, and also citations in MLA, Chicago, APA, BibTeX and IEEE. While this feature is in beta, there may be changes and improvements made to the feature that may change the functionality upon final release.Does GPTZero's source finder use AI?We use AI to detect claims and arguments and pair them with potentially relevant sources. We actively do NOT recommend AI-generated content, due to their unreliability, and filter out sources that are potentially AI-generated.Does GPTZero's source finder work as a fact checker?Our tool currently does not take a stance on whether your claims or the claims in the sources cited are true “facts” or false. We only indicate whether there is online evidence that contradicts, debates, or supports a claim. We strive to only include high-quality sources from reputable online, academic, and public sources, but do not endorse the viewpoints in any specific source.How does GPTZero select the sources in its database?We allow you to search for claims from a dataset of over 220M scholarly articles, preprints and real-time news using AI next-generation recommendation AI and large language models.What citation styles does GPTZero support?GPTZero supports major formats including MLA, APA, Chicago, IEEE, and BibTeX, making it easy to check sources across a variety of academic and professional settings.Does GPTZero support multiple languages besides English?Yes. GPTZero was trained on a diverse multilingual dataset and supports English, Spanish, French, German, and other languages. Detection is strongest in English but continues to expand across other languages."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://mediate.com/ai-and-confirmation-bias/",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:29:44.512Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+          "content": "Detect hallucinations for RAG-based systems\n\nAs AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount. Most hallucination detection techniques focus on the prompt and the response alone. However, where additional context is available, such as in RAG-based applications, new techniques can be introduced to better mitigate the hallucination problem.\n\nThis post walks you through how to create a basic hallucination detection system for RAG-based applications. We also weigh the pros and cons of different methods in terms of accuracy, precision, recall, and cost.\n\nScientific literature has come up with multiple hallucination detection techniques. In the following sections, we discuss and implement four prominent approaches to detecting hallucinations: using an LLM prompt-based detector, semantic similarity detector, BERT stochastic checker, and token similarity detector. Finally, we compare approaches in terms of their performance and latency.\n\nApproach 1: LLM-based hallucination detection\n\n<code class=\"lang-python\">prompt = \"\"\"\\n\\nHuman: You are an expert assistant helping human to check if statements are based on the context. Your task is to read context and statement and indicate which sentences in the statement are based directly on the context. Provide response as a number, where the number represents a hallucination score, which is a float between 0 and 1. Set the float to 0 if you are confident that the sentence is directly based on the context. Set the float to 1 if you are confident that the sentence is not based on the context. If you are not confident, set the score to a float number between 0 and 1. Higher numbers represent higher confidence that the sentence is not based on the context. Do not include any other information except for the the score in the response. There is no need to explain your thinking. <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS is Amazon subsidiary that provides cloud computing services.' Assistant: 0.05 </example> <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS revenue in 2022 was $80 billion.' Assistant: 1 </example> <example> Context: Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians. Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, which constitutes an incomplete paraphyletic grouping; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regard to their scope. On average, monkeys are 150 cm tall. Statement:'Average monkey is 2 meters high and weights 100 kilograms.' Assistant: 0.9 </example> Context: {context} Statement: {statement} \\n\\nAssistant: [ \"\"\" ### LANGCHAIN CONSTRUCTS # prompt template prompt_template = PromptTemplate( template=prompt, input_variables=[\"context\", \"statement\"], )</code>\n\n<code class=\"lang-python\">def similarity_detector( context: str, answer: str, llm: BedrockEmbeddings, ) -> float: \"\"\" Check hallucinations using semantic similarity methods based on embeddings<br /><br /> Parameters ---------- context : str Context provided for RAG answer : str Answer from an LLM llm : BedrockEmbeddings Embeddings model Returns ------- float Semantic similarity score \"\"\" if len(context) == 0 or len(answer) == 0: return 0.0 # calculate embeddings context_emb = llm.embed_query(context) answer_emb = llm.embed_query(answer) context_emb = np.array(context_emb).reshape(1, -1) answer_emb = np.array(answer_emb).reshape(1, -1) sim_score = cosine_similarity(context_emb, answer_emb) return 1 - sim_score[0][0]</code>\n\nIn our approach, we use the BERT score as a stochastic checker for hallucination detection. The idea is that if you generate multiple answers from an LLM and there are large variations (inconsistencies) between them, then there is a good chance that these answers are hallucinated. We first generate N random samples (sentences) from the LLM. We then compute BERT scores by comparing each sentence in the original generated paragraph against its corresponding sentence across the N newly generated stochastic samples. This is done by embedding all sentences using an LLM based embedding model and calculating cosine similarity. Our hypothesis is that factual sentences will remain consistent across multiple generations, resulting in high BERT scores (indicating similarity). Conversely, hallucinated content will likely vary across different generations, resulting in low BERT scores between the original sentence and its stochastic variants. By establishing a threshold for these similarity scores, we can flag sentences with consistently low BERT scores as potential hallucinations, because they demonstrate semantic inconsistency across multiple generations from the same model.\n\n<code class=\"lang-python\">def intersection_detector( context: str, answer: str, length_cutoff: int = 3, ) -> dict[str, float]: \"\"\" Check hallucinations using token intersection metrics Parameters ---------- context : str Context provided for RAG answer : str Answer from an LLM length_cutoff : int If no. tokens in the answer is smaller than length_cutoff, return scores of 1.0 Returns ------- dict[str, float] Token intersection and BLEU scores \"\"\" # populate with relevant stopwords such as articles stopword_set = {} # remove punctuation and lowercase context = re.sub(r\"[^\\w\\s]\", \"\", context).lower() answer = re.sub(r\"[^\\w\\s]\", \"\", answer).lower() # calculate metrics if len(answer) >= length_cutoff: # calculate token intersection context_split = {term for term in context if term not in stopword_set} answer_split = re.compile(r\"\\w+\").findall(answer) answer_split = {term for term in answer_split if term not in stopword_set} intersection = sum([term in context_split for term in answer_split]) / len(answer_split) # calculate BLEU score bleu = evaluate.load(\"bleu\") bleu_score = bleu.compute(predictions=[answer], references=[context])[\"precisions\"] bleu_score = sum(bleu_score) / len(bleu_score) return { \"intersection\": 1 - intersection, \"bleu\": 1 - bleu_score, } return {\"intersection\": 0, \"bleu\": 0}</code>\n\nIn this section, we compare the hallucination detection approaches described in the post. We run an experiment on",
+          "fetchedAt": "2026-09-17T13:29:46.171Z",
+          "title": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+          "status": "ok",
+          "contentLength": 21673,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 1,
+              "text": "Detect hallucinations for RAG-based systems"
+            },
+            {
+              "blockIndex": 3,
+              "text": "As AI systems become increasingly integrated into our daily lives and critical decision-making processes, the ability to detect and mitigate hallucinations is paramount. Most hallucination detection techniques focus on the prompt and the response alone. However, where additional context is available, such as in RAG-based applications, new techniques can be introduced to better mitigate the hallucination problem."
+            },
+            {
+              "blockIndex": 4,
+              "text": "This post walks you through how to create a basic hallucination detection system for RAG-based applications. We also weigh the pros and cons of different methods in terms of accuracy, precision, recall, and cost."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Scientific literature has come up with multiple hallucination detection techniques. In the following sections, we discuss and implement four prominent approaches to detecting hallucinations: using an LLM prompt-based detector, semantic similarity detector, BERT stochastic checker, and token similarity detector. Finally, we compare approaches in terms of their performance and latency."
+            },
+            {
+              "blockIndex": 17,
+              "text": "Approach 1: LLM-based hallucination detection"
+            },
+            {
+              "blockIndex": 32,
+              "text": "<code class=\"lang-python\">prompt = \"\"\"\\n\\nHuman: You are an expert assistant helping human to check if statements are based on the context. Your task is to read context and statement and indicate which sentences in the statement are based directly on the context. Provide response as a number, where the number represents a hallucination score, which is a float between 0 and 1. Set the float to 0 if you are confident that the sentence is directly based on the context. Set the float to 1 if you are confident that the sentence is not based on the context. If you are not confident, set the score to a float number between 0 and 1. Higher numbers represent higher confidence that the sentence is not based on the context. Do not include any other information except for the the score in the response. There is no need to explain your thinking. <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS is Amazon subsidiary that provides cloud computing services.' Assistant: 0.05 </example> <example> Context: Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling (a process that allows a client to use more computing in times of high application usage, and then scale down to reduce costs when there is less traffic). These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms. This frees clients from managing, scaling, and patching hardware and operating systems. One of the foundational services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, with extremely high availability, which can be interacted with over the internet via REST APIs, a CLI or the AWS console. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM). Statement: 'AWS revenue in 2022 was $80 billion.' Assistant: 1 </example> <example> Context: Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians. Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, which constitutes an incomplete paraphyletic grouping; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regard to their scope. On average, monkeys are 150 cm tall. Statement:'Average monkey is 2 meters high and weights 100 kilograms.' Assistant: 0.9 </example> Context: {context} Statement: {statement} \\n\\nAssistant: [ \"\"\" ### LANGCHAIN CONSTRUCTS # prompt template prompt_template = PromptTemplate( template=prompt, input_variables=[\"context\", \"statement\"], )</code>"
+            },
+            {
+              "blockIndex": 47,
+              "text": "<code class=\"lang-python\">def similarity_detector( context: str, answer: str, llm: BedrockEmbeddings, ) -> float: \"\"\" Check hallucinations using semantic similarity methods based on embeddings<br /><br /> Parameters ---------- context : str Context provided for RAG answer : str Answer from an LLM llm : BedrockEmbeddings Embeddings model Returns ------- float Semantic similarity score \"\"\" if len(context) == 0 or len(answer) == 0: return 0.0 # calculate embeddings context_emb = llm.embed_query(context) answer_emb = llm.embed_query(answer) context_emb = np.array(context_emb).reshape(1, -1) answer_emb = np.array(answer_emb).reshape(1, -1) sim_score = cosine_similarity(context_emb, answer_emb) return 1 - sim_score[0][0]</code>"
+            },
+            {
+              "blockIndex": 50,
+              "text": "In our approach, we use the BERT score as a stochastic checker for hallucination detection. The idea is that if you generate multiple answers from an LLM and there are large variations (inconsistencies) between them, then there is a good chance that these answers are hallucinated. We first generate N random samples (sentences) from the LLM. We then compute BERT scores by comparing each sentence in the original generated paragraph against its corresponding sentence across the N newly generated stochastic samples. This is done by embedding all sentences using an LLM based embedding model and calculating cosine similarity. Our hypothesis is that factual sentences will remain consistent across multiple generations, resulting in high BERT scores (indicating similarity). Conversely, hallucinated content will likely vary across different generations, resulting in low BERT scores between the original sentence and its stochastic variants. By establishing a threshold for these similarity scores, we can flag sentences with consistently low BERT scores as potential hallucinations, because they demonstrate semantic inconsistency across multiple generations from the same model."
+            },
+            {
+              "blockIndex": 53,
+              "text": "<code class=\"lang-python\">def intersection_detector( context: str, answer: str, length_cutoff: int = 3, ) -> dict[str, float]: \"\"\" Check hallucinations using token intersection metrics Parameters ---------- context : str Context provided for RAG answer : str Answer from an LLM length_cutoff : int If no. tokens in the answer is smaller than length_cutoff, return scores of 1.0 Returns ------- dict[str, float] Token intersection and BLEU scores \"\"\" # populate with relevant stopwords such as articles stopword_set = {} # remove punctuation and lowercase context = re.sub(r\"[^\\w\\s]\", \"\", context).lower() answer = re.sub(r\"[^\\w\\s]\", \"\", answer).lower() # calculate metrics if len(answer) >= length_cutoff: # calculate token intersection context_split = {term for term in context if term not in stopword_set} answer_split = re.compile(r\"\\w+\").findall(answer) answer_split = {term for term in answer_split if term not in stopword_set} intersection = sum([term in context_split for term in answer_split]) / len(answer_split) # calculate BLEU score bleu = evaluate.load(\"bleu\") bleu_score = bleu.compute(predictions=[answer], references=[context])[\"precisions\"] bleu_score = sum(bleu_score) / len(bleu_score) return { \"intersection\": 1 - intersection, \"bleu\": 1 - bleu_score, } return {\"intersection\": 0, \"bleu\": 0}</code>"
+            },
+            {
+              "blockIndex": 55,
+              "text": "In this section, we compare the hallucination detection approaches described in the post. We run an experiment on"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949882124000264",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:29:46.172Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-024-07421-0",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:29:46.173Z",
+          "title": "",
+          "status": "timeout",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.chapman.edu/ai/bias-in-ai.aspx",
+          "tieuDe": "Bias in AI | Chapman University",
+          "ngayLayVe": "2026-09-17T13:29:44.509Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "trang của trường đại học, nội dung giáo dục và nghiên cứu",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://gptzero.me/hallucination-detector",
+          "tieuDe": "AI Source Finder - Check Citations From Text, Essays & More",
+          "toChuc": "GPTZero",
+          "ngayLayVe": "2026-09-17T13:29:44.511Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "công cụ thương mại, không có quy trình đánh giá học thuật độc lập",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+          "tieuDe": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+          "toChuc": "Amazon Web Services",
+          "ngayDang": "2025-05-16T08:44:40-08:00",
+          "ngayLayVe": "2026-09-17T13:29:46.171Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "blog kỹ thuật của nhà cung cấp dịch vụ đám mây, có đội ngũ kỹ sư và quy trình kiểm duyệt nội dung",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Set the float to 1 if you are confident that the sentence is not based on the context.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://mediate.com/ai-and-confirmation-bias/",
+          "tieuDe": "https://mediate.com/ai-and-confirmation-bias/",
+          "ngayLayVe": "2026-09-17T13:29:44.512Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n05",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949882124000264",
+          "tieuDe": "https://www.sciencedirect.com/science/article/pii/S2949882124000264",
+          "ngayLayVe": "2026-09-17T13:29:46.172Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n06",
+          "url": "https://www.nature.com/articles/s41586-024-07421-0",
+          "tieuDe": "https://www.nature.com/articles/s41586-024-07421-0",
+          "ngayLayVe": "2026-09-17T13:29:46.173Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Timeout sau 10 giây",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "timeout",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n04",
+        "n05",
+        "n06"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Một câu trả lời có thể mang bias nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch, do dữ liệu huấn luyện không đa dạng.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.",
+              "viTri": "đoạn trích"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Công cụ phát hiện hallucination có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+              "viTri": "đoạn trích"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Nếu điểm confidence cao (gần 1) cho thấy câu không dựa trên ngữ cảnh, đây là dấu hiệu câu trả lời có khả năng hallucinate.",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Set the float to 1 if you are confident that the sentence is not based on the context.",
+              "viTri": "đoạn trích"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.chapman.edu/ai/bias-in-ai.aspx\",\"tieuDe\":\"Bias in AI | Chapman University\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Chapman University\",\"ngayDang\":\"\",\"ngayLayVe\":\"2026-09-17T13:29:44.509Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"trang của trường đại học, nội dung giáo dục và nghiên cứu\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.\"},{\"id\":\"n02\",\"url\":\"https://gptzero.me/hallucination-detector\",\"tieuDe\":\"AI Source Finder - Check Citations From Text, Essays & More\",\"tacGia\":\"Không rõ\",\"toChuc\":\"GPTZero\",\"ngayDang\":\"\",\"ngayLayVe\":\"2026-09-17T13:29:44.511Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"công cụ thương mại, không có quy trình đánh giá học thuật độc lập\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.\"},{\"id\":\"n03\",\"url\":\"https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/\",\"tieuDe\":\"Detect hallucinations for RAG-based systems | Artificial Intelligence\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Amazon Web Services\",\"ngayDang\":\"2025-05-16\",\"ngayLayVe\":\"2026-09-17T13:29:46.171Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"blog kỹ thuật của nhà cung cấp dịch vụ đám mây, có đội ngũ kỹ sư và quy trình kiểm duyệt nội dung\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"Set the float to 1 if you are confident that the sentence is not based on the context.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Một câu trả lời có thể mang bias nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch, do dữ liệu huấn luyện không đa dạng.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.\",\"viTri\":\"đoạn trích\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t02\",\"noiDung\":\"Công cụ phát hiện hallucination có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.\",\"loai\":\"vi-du\",\"bangChung\":[{\"nguonId\":\"n02\",\"doanTrich\":\"GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.\",\"viTri\":\"đoạn trích\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t03\",\"noiDung\":\"Nếu điểm confidence cao (gần 1) cho thấy câu không dựa trên ngữ cảnh, đây là dấu hiệu câu trả lời có khả năng hallucinate.\",\"loai\":\"vi-du\",\"bangChung\":[{\"nguonId\":\"n03\",\"doanTrich\":\"Set the float to 1 if you are confident that the sentence is not based on the context.\",\"viTri\":\"đoạn trích\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-78f5d76b-dcfb-44f8-aa66-c0188ca69f78",
+          "durationMs": 5782,
+          "rawAiResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://www.chapman.edu/ai/bias-in-ai.aspx\",\"tieuDe\":\"Bias in AI | Chapman University\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Chapman University\",\"ngayDang\":\"\",\"ngayLayVe\":\"2026-09-17T13:29:44.509Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"trang của trường đại học, nội dung giáo dục và nghiên cứu\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.\"},{\"id\":\"n02\",\"url\":\"https://gptzero.me/hallucination-detector\",\"tieuDe\":\"AI Source Finder - Check Citations From Text, Essays & More\",\"tacGia\":\"Không rõ\",\"toChuc\":\"GPTZero\",\"ngayDang\":\"\",\"ngayLayVe\":\"2026-09-17T13:29:44.511Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"công cụ thương mại, không có quy trình đánh giá học thuật độc lập\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.\"},{\"id\":\"n03\",\"url\":\"https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/\",\"tieuDe\":\"Detect hallucinations for RAG-based systems | Artificial Intelligence\",\"tacGia\":\"Không rõ\",\"toChuc\":\"Amazon Web Services\",\"ngayDang\":\"2025-05-16\",\"ngayLayVe\":\"2026-09-17T13:29:46.171Z\",\"loai\":\"tai-lieu-chinh-thuc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"blog kỹ thuật của nhà cung cấp dịch vụ đám mây, có đội ngũ kỹ sư và quy trình kiểm duyệt nội dung\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"\",\"canhBao\":[],\"doanTrich\":\"Set the float to 1 if you are confident that the sentence is not based on the context.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Một câu trả lời có thể mang bias nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch, do dữ liệu huấn luyện không đa dạng.\",\"loai\":\"dinh-nghia\",\"bangChung\":[{\"nguonId\":\"n01\",\"doanTrich\":\"When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.\",\"viTri\":\"đoạn trích\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t02\",\"noiDung\":\"Công cụ phát hiện hallucination có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.\",\"loai\":\"vi-du\",\"bangChung\":[{\"nguonId\":\"n02\",\"doanTrich\":\"GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.\",\"viTri\":\"đoạn trích\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"},{\"id\":\"t03\",\"noiDung\":\"Nếu điểm confidence cao (gần 1) cho thấy câu không dựa trên ngữ cảnh, đây là dấu hiệu câu trả lời có khả năng hallucinate.\",\"loai\":\"vi-du\",\"bangChung\":[{\"nguonId\":\"n03\",\"doanTrich\":\"Set the float to 1 if you are confident that the sentence is not based on the context.\",\"viTri\":\"đoạn trích\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 21244
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+      "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?",
+          "chuTrenManHinh": "Vì sao trí tuệ nhân tạo luôn tự tin?",
+          "yDoHinh": "Một người đi làm đang nhìn màn hình máy tính với vẻ mặt bối rối hoài nghi.",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.",
+          "chuTrenManHinh": "Thiên lệch do dữ liệu huấn luyện",
+          "yDoHinh": "Sơ đồ dữ liệu huấn luyện một chiều dẫn đến kết quả đầu ra lệch hẳn sang một bên.",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+          "chuTrenManHinh": "Tự động phát hiện ảo giác",
+          "yDoHinh": "Giao diện phần mềm quét văn bản và khoanh đỏ các phần thông tin không có nguồn dẫn.",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.",
+          "chuTrenManHinh": "Cảnh báo ảo giác từ điểm tin cậy",
+          "yDoHinh": "Biểu đồ cột hiển thị mức độ tin cậy chạm mốc tối đa kèm theo tín hiệu cảnh báo màu đỏ.",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.",
+          "chuTrenManHinh": "Ba dấu hiệu cần kiểm chứng",
+          "yDoHinh": "Người nhân viên văn phòng mỉm cười tự tin, sẵn sàng làm chủ công nghệ.",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789651829729",
+      "timestamp": "2026-09-17T13:30:29.729Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+        "targetAudience": "Người đi làm, dùng AI hàng ngày",
+        "videoDuration": "5 phút",
+        "evalRunId": "2026-09-17T13-29-39-310Z",
+        "evalCaseId": "N02"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://www.chapman.edu/ai/bias-in-ai.aspx",
+          "tieuDe": "Bias in AI | Chapman University",
+          "ngayLayVe": "2026-09-17T13:29:44.509Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "trang của trường đại học, nội dung giáo dục và nghiên cứu",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://gptzero.me/hallucination-detector",
+          "tieuDe": "AI Source Finder - Check Citations From Text, Essays & More",
+          "toChuc": "GPTZero",
+          "ngayLayVe": "2026-09-17T13:29:44.511Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "công cụ thương mại, không có quy trình đánh giá học thuật độc lập",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://aws.amazon.com/blogs/machine-learning/detect-hallucinations-for-rag-based-systems/",
+          "tieuDe": "Detect hallucinations for RAG-based systems | Artificial Intelligence",
+          "toChuc": "Amazon Web Services",
+          "ngayDang": "2025-05-16T08:44:40-08:00",
+          "ngayLayVe": "2026-09-17T13:29:46.171Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "blog kỹ thuật của nhà cung cấp dịch vụ đám mây, có đội ngũ kỹ sư và quy trình kiểm duyệt nội dung",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "Set the float to 1 if you are confident that the sentence is not based on the context.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Một câu trả lời có thể mang bias nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch, do dữ liệu huấn luyện không đa dạng.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs.",
+              "viTri": "đoạn trích"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Công cụ phát hiện hallucination có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n02",
+              "doanTrich": "GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays.",
+              "viTri": "đoạn trích"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Nếu điểm confidence cao (gần 1) cho thấy câu không dựa trên ngữ cảnh, đây là dấu hiệu câu trả lời có khả năng hallucinate.",
+          "loai": "vi-du",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Set the float to 1 if you are confident that the sentence is not based on the context.",
+              "viTri": "đoạn trích"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?",
+            "chuTrenManHinh": "Vì sao trí tuệ nhân tạo luôn tự tin?",
+            "yDoHinh": "Một người đi làm đang nhìn màn hình máy tính với vẻ mặt bối rối hoài nghi.",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.",
+            "chuTrenManHinh": "Thiên lệch do dữ liệu huấn luyện",
+            "yDoHinh": "Sơ đồ dữ liệu huấn luyện một chiều dẫn đến kết quả đầu ra lệch hẳn sang một bên.",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+            "chuTrenManHinh": "Tự động phát hiện ảo giác",
+            "yDoHinh": "Giao diện phần mềm quét văn bản và khoanh đỏ các phần thông tin không có nguồn dẫn.",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.",
+            "chuTrenManHinh": "Cảnh báo ảo giác từ điểm tin cậy",
+            "yDoHinh": "Biểu đồ cột hiển thị mức độ tin cậy chạm mốc tối đa kèm theo tín hiệu cảnh báo màu đỏ.",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.",
+            "chuTrenManHinh": "Ba dấu hiệu cần kiểm chứng",
+            "yDoHinh": "Người nhân viên văn phòng mỉm cười tự tin, sẵn sàng làm chủ công nghệ.",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] When it comes to generative AI, it is essential to acknowledge how these unconscious associations can affect the model and result in biased outputs."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n02] GPTZero's Hallucination Detector automatically detects hallucinated sources and poorly supported claims in essays."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] Set the float to 1 if you are confident that the sentence is not based on the context."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?\",\n      \"chuTrenManHinh\": \"Vì sao trí tuệ nhân tạo luôn tự tin?\",\n      \"yDoHinh\": \"Một người đi làm đang nhìn màn hình máy tính với vẻ mặt bối rối hoài nghi.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.\",\n      \"chuTrenManHinh\": \"Thiên lệch do dữ liệu huấn luyện\",\n      \"yDoHinh\": \"Sơ đồ dữ liệu huấn luyện một chiều dẫn đến kết quả đầu ra lệch hẳn sang một bên.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.\",\n      \"chuTrenManHinh\": \"Tự động phát hiện ảo giác\",\n      \"yDoHinh\": \"Giao diện phần mềm quét văn bản và khoanh đỏ các phần thông tin không có nguồn dẫn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.\",\n      \"chuTrenManHinh\": \"Cảnh báo ảo giác từ điểm tin cậy\",\n      \"yDoHinh\": \"Biểu đồ cột hiển thị mức độ tin cậy chạm mốc tối đa kèm theo tín hiệu cảnh báo màu đỏ.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Người nhân viên văn phòng mỉm cười tự tin, sẵn sàng làm chủ công nghệ.\",\n      \"nguon\": []\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "qwen/qwen3.8-27b",
+          "requestId": "chatcmpl-14c3c8b2-f753-447d-9bc9-dce9b6d37fa9",
+          "durationMs": 1841,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Bạn có bao giờ nhận ra rằng các mô hình tạo sinh có thể tạo ra những đầu ra thiên lệch do các liên kết tiềm thức trong dữ liệu huấn luyện?\",\n      \"chuTrenManHinh\": \"AI thiên lệch\",\n      \"yDoHinh\": \"Biểu tượng não bộ với các đường kết nối mờ ảo, một phần bị che khuất bởi bóng tối.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Liệu bạn đã bao giờ tin tưởng tuyệt đối vào một câu trả lời mà không kiểm tra nguồn gốc của nó chưa?\",\n      \"chuTrenManHinh\": \"Kiểm tra nguồn?\",\n      \"yDoHinh\": \"Một người đang nhìn chằm chằm vào màn hình máy tính với biểu cảm nghi ngờ, phía sau là các biểu tượng dấu hỏi lơ lửng.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và tuyên bố thiếu cơ sở.\",\n      \"chuTrenManHinh\": \"Phát hiện ảo giác\",\n      \"yDoHinh\": \"Một chiếc kính lúp đang soi vào một đoạn văn bản, nơi các từ ngữ sai lệch phát sáng đỏ và bị khoanh tròn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Điểm tin cậy gần bằng một cho thấy câu đó không dựa trên ngữ cảnh, đây là dấu hiệu cần cảnh giác.\",\n      \"chuTrenManHinh\": \"Điểm tin cậy cao\",\n      \"yDoHinh\": \"Một thanh đo lường tiến gần đến vạch đỏ tối đa, với biểu tượng cảnh báo nhấp nháy bên cạnh.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy nhớ rằng sự tự tin của máy tính không đồng nghĩa với sự chính xác, bạn cần chủ động kiểm chứng thông tin.\",\n      \"chuTrenManHinh\": \"Tự tin không là đúng\",\n      \"yDoHinh\": \"Một robot đang mỉm cười tự tin nhưng phía sau lưng nó là một mớ bòng bong các sợi dây rối rắm và sai lệch.\",\n      \"nguon\": []\n    }\n  ]\n}",
+          "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+        },
+        {
+          "stage": "repair",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash",
+          "durationMs": 19874,
+          "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã bao giờ thắc mắc vì sao trí tuệ nhân tạo luôn trả lời vô cùng tự tin ngay cả khi thông tin đó hoàn toàn sai lệch hay chưa?\",\n      \"chuTrenManHinh\": \"Vì sao trí tuệ nhân tạo luôn tự tin?\",\n      \"yDoHinh\": \"Một người đi làm đang nhìn màn hình máy tính với vẻ mặt bối rối hoài nghi.\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Thực tế, một câu trả lời từ công nghệ này có thể mang độ thiên lệch, hay còn gọi là bias, nếu các liên kết tiềm thức của mô hình gây ra đầu ra thiên lệch do dữ liệu huấn luyện không đa dạng.\",\n      \"chuTrenManHinh\": \"Thiên lệch do dữ liệu huấn luyện\",\n      \"yDoHinh\": \"Sơ đồ dữ liệu huấn luyện một chiều dẫn đến kết quả đầu ra lệch hẳn sang một bên.\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Để giải quyết vấn đề này, các công cụ phát hiện ảo giác, hay còn gọi là hallucination detector, có thể tự động nhận diện các nguồn giả mạo và các tuyên bố không được hỗ trợ đầy đủ trong văn bản.\",\n      \"chuTrenManHinh\": \"Tự động phát hiện ảo giác\",\n      \"yDoHinh\": \"Giao diện phần mềm quét văn bản và khoanh đỏ các phần thông tin không có nguồn dẫn.\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Đặc biệt, khi mức độ tự tin, hay còn gọi là điểm confidence, đạt giá trị gần bằng một cho thấy câu không dựa trên ngữ cảnh, đây chính là dấu hiệu cho thấy câu trả lời có khả năng bị ảo giác, hay còn gọi là hallucinate.\",\n      \"chuTrenManHinh\": \"Cảnh báo ảo giác từ điểm tin cậy\",\n      \"yDoHinh\": \"Biểu đồ cột hiển thị mức độ tin cậy chạm mốc tối đa kèm theo tín hiệu cảnh báo màu đỏ.\",\n      \"nguon\": [\n        \"t03\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài học này, chúng ta sẽ cùng tìm hiểu về ba dấu hiệu cụ thể giúp bạn nhận ra được một câu trả lời cần kiểm chứng trước khi đưa vào công việc hằng ngày.\",\n      \"chuTrenManHinh\": \"Ba dấu hiệu cần kiểm chứng\",\n      \"yDoHinh\": \"Người nhân viên văn phòng mỉm cười tự tin, sẵn sàng làm chủ công nghệ.\",\n      \"nguon\": []\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 27542
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash"
+  }
+}

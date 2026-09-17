@@ -1,0 +1,215 @@
+{
+  "id": "trace-script-1789650851259",
+  "timestamp": "2026-09-17T13:14:11.259Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Retrieval-Augmented Generation (RAG)",
+    "learningObjective": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "targetAudience": "Sinh viên CNTT năm 3",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T13-11-19-300Z",
+    "evalCaseId": "N06"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n02",
+      "url": "https://arxiv.org/abs/2510.24476",
+      "tieuDe": "[2510.24476] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T13:13:58.074Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Preprint on arXiv with multiple authors, but not peer-reviewed yet",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Bài báo khoa học",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Hallucination remains one of the key obstacles to the reliable deployment of large language models (LLMs), particularly in real-world applications.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "tieuDe": "Retrieval-augmented generation - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:13:58.075Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Community-edited, citations present",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Wikipedia article",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "RAG reduces hallucinations by retrieving external documents to ground responses.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Hallucination remains one of the key obstacles to the reliable deployment of large language models (LLMs), particularly in real-world applications.",
+          "viTri": ""
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "RAG was first proposed in 2020 and has become widely adopted.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.",
+          "viTri": ""
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Retrieval-Augmented Generation (RAG)",
+    "mucTieu": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên CNTT năm 3",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá kỹ thuật gợi ý tìm kiếm, hay còn gọi là Retrieval‑augmented generation (RAG), một phương pháp giúp giảm hiện tượng hallucination trong mô hình ngôn ngữ lớn.",
+        "chuTrenManHinh": "Tiêu đề: RAG và giảm hallucination",
+        "yDoHinh": "Logo RAG hiện lên cùng biểu tượng não máy tính",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Kỹ thuật Retrieval‑augmented generation (RAG) hoạt động bằng cách truy xuất tài liệu bên ngoài để làm nền cho câu trả lời, nhờ đó giảm thiểu việc mô hình bịa ra thông tin không có căn cứ.",
+        "chuTrenManHinh": "Màn hình truy vấn và tài liệu",
+        "yDoHinh": "Giao diện tìm kiếm hiển thị danh sách tài liệu được lấy về",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Theo nghiên cứu, hiện tượng ảo giác, hay còn gọi là hallucination, vẫn là một trong những rào cản lớn khi triển khai mô hình ngôn ngữ lớn trong thực tế.",
+        "chuTrenManHinh": "Biểu đồ rào cản hallucination",
+        "yDoHinh": "Đồ thị minh họa tần suất hallucination trong các ứng dụng",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Các bạn có biết kỹ thuật Retrieval‑augmented generation (RAG) đã được đề xuất lần đầu vào năm hai không không, nhưng thông tin này vẫn chưa được kiểm chứng?",
+        "chuTrenManHinh": "Câu hỏi về năm đề xuất RAG",
+        "yDoHinh": "Hình ảnh đồng hồ thời gian với dấu hỏi",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng nhau thực hành một ví dụ đơn giản, nơi mô hình sẽ tìm kiếm thông tin từ một kho dữ liệu và sinh ra câu trả lời chính xác hơn.",
+        "chuTrenManHinh": "Bắt đầu ví dụ thực hành",
+        "yDoHinh": "Màn hình hiển thị quá trình truy xuất và sinh câu trả lời",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá kỹ thuật gợi ý tìm kiếm, hay còn gọi là Retrieval‑augmented generation (RAG), một phương pháp giúp giảm hiện tượng hallucination trong mô hình ngôn ngữ lớn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Kỹ thuật Retrieval‑augmented generation (RAG) hoạt động bằng cách truy xuất tài liệu bên ngoài để làm nền cho câu trả lời, nhờ đó giảm thiểu việc mô hình bịa ra thông tin không có căn cứ.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Hallucination remains one of the key obstacles to the reliable deployment of large language models (LLMs), particularly in real-world applications.; [n03] Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Theo nghiên cứu, hiện tượng ảo giác, hay còn gọi là hallucination, vẫn là một trong những rào cản lớn khi triển khai mô hình ngôn ngữ lớn trong thực tế.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Hallucination remains one of the key obstacles to the reliable deployment of large language models (LLMs), particularly in real-world applications.; [n03] Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Các bạn có biết kỹ thuật Retrieval‑augmented generation (RAG) đã được đề xuất lần đầu vào năm hai không không, nhưng thông tin này vẫn chưa được kiểm chứng?",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng nhau thực hành một ví dụ đơn giản, nơi mô hình sẽ tìm kiếm thông tin từ một kho dữ liệu và sinh ra câu trả lời chính xác hơn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Retrieval-Augmented Generation (RAG)\",\n  \"mucTieu\": \"Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Sinh viên CNTT năm 3\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào các bạn, hôm nay chúng ta sẽ khám phá kỹ thuật gợi ý tìm kiếm, hay còn gọi là Retrieval‑augmented generation (RAG), một phương pháp giúp giảm hiện tượng hallucination trong mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\": \"Tiêu đề: RAG và giảm hallucination\",\n      \"yDoHinh\": \"Logo RAG hiện lên cùng biểu tượng não máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Kỹ thuật Retrieval‑augmented generation (RAG) hoạt động bằng cách truy xuất tài liệu bên ngoài để làm nền cho câu trả lời, nhờ đó giảm thiểu việc mô hình bịa ra thông tin không có căn cứ.\",\n      \"chuTrenManHinh\": \"Màn hình truy vấn và tài liệu\",\n      \"yDoHinh\": \"Giao diện tìm kiếm hiển thị danh sách tài liệu được lấy về\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Theo nghiên cứu, hiện tượng ảo giác, hay còn gọi là hallucination, vẫn là một trong những rào cản lớn khi triển khai mô hình ngôn ngữ lớn trong thực tế.\",\n      \"chuTrenManHinh\": \"Biểu đồ rào cản hallucination\",\n      \"yDoHinh\": \"Đồ thị minh họa tần suất hallucination trong các ứng dụng\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các bạn có biết kỹ thuật Retrieval‑augmented generation (RAG) đã được đề xuất lần đầu vào năm hai không không, nhưng thông tin này vẫn chưa được kiểm chứng?\",\n      \"chuTrenManHinh\": \"Câu hỏi về năm đề xuất RAG\",\n      \"yDoHinh\": \"Hình ảnh đồng hồ thời gian với dấu hỏi\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy cùng nhau thực hành một ví dụ đơn giản, nơi mô hình sẽ tìm kiếm thông tin từ một kho dữ liệu và sinh ra câu trả lời chính xác hơn.\",\n      \"chuTrenManHinh\": \"Bắt đầu ví dụ thực hành\",\n      \"yDoHinh\": \"Màn hình hiển thị quá trình truy xuất và sinh câu trả lời\",\n      \"nguon\": []\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-5630a8f6-526e-40c8-a2c7-675d8db7d120",
+      "durationMs": 7731,
+      "rawAiResponse": "{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"Retrieval-Augmented Generation (RAG)\",\n  \"mucTieu\": \"Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination\",\n  \"thoiLuong\": \"5 phút\",\n  \"nguoiHoc\": \"Sinh viên CNTT năm 3\",\n  \"phan\": [\n    {\n      \"so\": 1,\n      \"ten\": \"Mở đầu\"\n    }\n  ],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào các bạn, hôm nay chúng ta sẽ khám phá kỹ thuật gợi ý tìm kiếm, hay còn gọi là Retrieval‑augmented generation (RAG), một phương pháp giúp giảm hiện tượng hallucination trong mô hình ngôn ngữ lớn.\",\n      \"chuTrenManHinh\": \"Tiêu đề: RAG và giảm hallucination\",\n      \"yDoHinh\": \"Logo RAG hiện lên cùng biểu tượng não máy tính\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Kỹ thuật Retrieval‑augmented generation (RAG) hoạt động bằng cách truy xuất tài liệu bên ngoài để làm nền cho câu trả lời, nhờ đó giảm thiểu việc mô hình bịa ra thông tin không có căn cứ.\",\n      \"chuTrenManHinh\": \"Màn hình truy vấn và tài liệu\",\n      \"yDoHinh\": \"Giao diện tìm kiếm hiển thị danh sách tài liệu được lấy về\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Theo nghiên cứu, hiện tượng ảo giác, hay còn gọi là hallucination, vẫn là một trong những rào cản lớn khi triển khai mô hình ngôn ngữ lớn trong thực tế.\",\n      \"chuTrenManHinh\": \"Biểu đồ rào cản hallucination\",\n      \"yDoHinh\": \"Đồ thị minh họa tần suất hallucination trong các ứng dụng\",\n      \"nguon\": [\n        \"t01\"\n      ]\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Các bạn có biết kỹ thuật Retrieval‑augmented generation (RAG) đã được đề xuất lần đầu vào năm hai không không, nhưng thông tin này vẫn chưa được kiểm chứng?\",\n      \"chuTrenManHinh\": \"Câu hỏi về năm đề xuất RAG\",\n      \"yDoHinh\": \"Hình ảnh đồng hồ thời gian với dấu hỏi\",\n      \"nguon\": [\n        \"t02\"\n      ]\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Hãy cùng nhau thực hành một ví dụ đơn giản, nơi mô hình sẽ tìm kiếm thông tin từ một kho dữ liệu và sinh ra câu trả lời chính xác hơn.\",\n      \"chuTrenManHinh\": \"Bắt đầu ví dụ thực hành\",\n      \"yDoHinh\": \"Màn hình hiển thị quá trình truy xuất và sinh câu trả lời\",\n      \"nguon\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 7735
+}

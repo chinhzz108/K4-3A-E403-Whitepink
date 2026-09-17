@@ -1,0 +1,258 @@
+{
+  "id": "trace-script-1789647434925",
+  "timestamp": "2026-09-17T12:17:14.926Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "targetAudience": "Sinh viên công nghệ thông tin",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T12-12-13-353Z",
+    "evalCaseId": "N04"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/",
+      "tieuDe": "Build Semantic Search with LLM Embeddings - MachineLearningMastery.com",
+      "tacGia": "Iván Palomares Carrascosa",
+      "toChuc": "MachineLearningMastery.com",
+      "ngayDang": "2026-03-02T13:37:01+00:00",
+      "ngayLayVe": "2026-09-17T12:16:13.861Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài viết hướng dẫn kỹ thuật sâu sắc, có tác giả rõ ràng, đăng trên trang học thuật/kỹ thuật uy tín về Machine Learning.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Large language models (LLMs) play a key role here, as some of them are trained to translate text into numerical vector representations called embeddings, which encode the semantic information behind the text.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://huggingface.co/tasks/sentence-similarity",
+      "tieuDe": "What is Sentence Similarity? - Hugging Face",
+      "ngayDang": "2025-08-19T10:14:25",
+      "ngayLayVe": "2026-09-17T12:16:14.466Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Tài liệu hướng dẫn chính thức từ nền tảng phát triển mô hình AI hàng đầu Hugging Face.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã xuất bản quá 1 năm tính đến thời điểm truy cập",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Sentence similarity models convert input texts into vectors (embeddings) that capture semantic information and calculate how close (similar) they are between them.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://arxiv.org/abs/2502.14862",
+      "tieuDe": "[2502.14862] Interpretable Text Embeddings and Text Similarity Explanation: A Survey",
+      "toChuc": "arXiv.org",
+      "ngayLayVe": "2026-09-17T12:16:14.469Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Báo cáo khoa học tổng quan được chấp nhận tại hội thảo uy tín EMNLP 2025.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã xuất bản quá 1 năm tính đến thời điểm truy cập",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Text embeddings are a fundamental component in many NLP tasks, including classification, regression, clustering, and semantic search.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Các mô hình ngôn ngữ chuyển đổi văn bản đầu vào thành biểu diễn vector số (embedding) để mã hóa thông tin ngữ nghĩa và tính toán khoảng cách/độ tương đồng giữa các câu.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Large language models (LLMs) play a key role here, as some of them are trained to translate text into numerical vector representations called embeddings, which encode the semantic information behind the text.",
+          "viTri": "Đoạn 6"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Sentence similarity models convert input texts into vectors (embeddings) that capture semantic information and calculate how close (similar) they are between them.",
+          "viTri": "Đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Tìm kiếm truyền thống dựa trên từ khóa gặp hạn chế vì chỉ phụ thuộc vào việc khớp từ chính xác, bỏ qua sự tinh tế về ngữ nghĩa như từ đồng nghĩa hoặc cách diễn đạt thay thế.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "However, this classical approach is notoriously rigid, as it largely relies on exact word matches and misses other important semantic nuances such as synonyms or alternative phrasing — for example, “young dog” instead of “puppy”.",
+          "viTri": "Đoạn 5"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Nhúng văn bản (text embeddings) là thành phần nền tảng ứng dụng trong nhiều tác vụ xử lý ngôn ngữ tự nhiên bao gồm phân loại, phân nhóm và tìm kiếm ngữ nghĩa.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Text embeddings are a fundamental component in many NLP tasks, including classification, regression, clustering, and semantic search.",
+          "viTri": "Phần Abstract"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên công nghệ thông tin",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa của câu mà không cần trùng từ.",
+        "chuTrenManHinh": "Giới thiệu chủ đề nhúng văn bản",
+        "yDoHinh": "Hình minh hoạ biểu tượng máy tính và sách mở",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Mô hình ngôn ngữ lớn chuyển đổi văn bản thành các biểu diễn vector số gọi là nhúng văn bản, mã hoá thông tin ngữ nghĩa phía sau.",
+        "chuTrenManHinh": "Biểu diễn vector nhúng văn bản",
+        "yDoHinh": "Biểu đồ vector đa chiều với nhãn nhúng",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Các mô hình đo độ tương đồng câu cũng chuyển đổi đầu vào thành các vector nhúng để tính khoảng cách và xác định mức độ gần nghĩa.",
+        "chuTrenManHinh": "Tính độ tương đồng giữa các câu",
+        "yDoHinh": "Đồ thị so sánh khoảng cách giữa hai câu",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Vậy tại sao nhúng văn bản lại là nền tảng cho nhiều tác vụ như phân loại, phân nhóm và tìm kiếm ngữ nghĩa?",
+        "chuTrenManHinh": "Nhúng văn bản trong các tác vụ NLP",
+        "yDoHinh": "Bảng liệt kê các ứng dụng NLP có nhúng",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Nhờ các vector nhúng, hệ thống có thể so sánh độ tương đồng và trả về câu gần nghĩa ngay cả khi không có từ chung.",
+        "chuTrenManHinh": "Kết quả tìm kiếm ngữ nghĩa",
+        "yDoHinh": "Màn hình hiển thị kết quả tìm kiếm gần nghĩa",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa của câu mà không cần trùng từ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Mô hình ngôn ngữ lớn chuyển đổi văn bản thành các biểu diễn vector số gọi là nhúng văn bản, mã hoá thông tin ngữ nghĩa phía sau.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Large language models (LLMs) play a key role here, as some of them are trained to translate text into numerical vector representations called embeddings, which encode the semantic information behind the text.; [n02] Sentence similarity models convert input texts into vectors (embeddings) that capture semantic information and calculate how close (similar) they are between them."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Các mô hình đo độ tương đồng câu cũng chuyển đổi đầu vào thành các vector nhúng để tính khoảng cách và xác định mức độ gần nghĩa.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] However, this classical approach is notoriously rigid, as it largely relies on exact word matches and misses other important semantic nuances such as synonyms or alternative phrasing — for example, “young dog” instead of “puppy”."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Vậy tại sao nhúng văn bản lại là nền tảng cho nhiều tác vụ như phân loại, phân nhóm và tìm kiếm ngữ nghĩa?",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Text embeddings are a fundamental component in many NLP tasks, including classification, regression, clustering, and semantic search."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Nhờ các vector nhúng, hệ thống có thể so sánh độ tương đồng và trả về câu gần nghĩa ngay cả khi không có từ chung.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Large language models (LLMs) play a key role here, as some of them are trained to translate text into numerical vector representations called embeddings, which encode the semantic information behind the text.; [n02] Sentence similarity models convert input texts into vectors (embeddings) that capture semantic information and calculate how close (similar) they are between them."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa của câu mà không cần trùng từ.\",\"chuTrenManHinh\":\"Giới thiệu chủ đề nhúng văn bản\",\"yDoHinh\":\"Hình minh hoạ biểu tượng máy tính và sách mở\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Mô hình ngôn ngữ lớn chuyển đổi văn bản thành các biểu diễn vector số gọi là nhúng văn bản, mã hoá thông tin ngữ nghĩa phía sau.\",\"chuTrenManHinh\":\"Biểu diễn vector nhúng văn bản\",\"yDoHinh\":\"Biểu đồ vector đa chiều với nhãn nhúng\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Các mô hình đo độ tương đồng câu cũng chuyển đổi đầu vào thành các vector nhúng để tính khoảng cách và xác định mức độ gần nghĩa.\",\"chuTrenManHinh\":\"Tính độ tương đồng giữa các câu\",\"yDoHinh\":\"Đồ thị so sánh khoảng cách giữa hai câu\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy tại sao nhúng văn bản lại là nền tảng cho nhiều tác vụ như phân loại, phân nhóm và tìm kiếm ngữ nghĩa?\",\"chuTrenManHinh\":\"Nhúng văn bản trong các tác vụ NLP\",\"yDoHinh\":\"Bảng liệt kê các ứng dụng NLP có nhúng\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Nhờ các vector nhúng, hệ thống có thể so sánh độ tương đồng và trả về câu gần nghĩa ngay cả khi không có từ chung.\",\"chuTrenManHinh\":\"Kết quả tìm kiếm ngữ nghĩa\",\"yDoHinh\":\"Màn hình hiển thị kết quả tìm kiếm gần nghĩa\",\"nguon\":[\"t01\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-224b23b5-1bec-47a7-a473-c67d0d920298",
+      "durationMs": 4651,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Nhúng văn bản và tìm kiếm theo ngữ nghĩa\",\"mucTieu\":\"Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Sinh viên công nghệ thông tin\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các bạn, hôm nay chúng ta sẽ khám phá cách máy tính hiểu ý nghĩa của câu mà không cần trùng từ.\",\"chuTrenManHinh\":\"Giới thiệu chủ đề nhúng văn bản\",\"yDoHinh\":\"Hình minh hoạ biểu tượng máy tính và sách mở\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Mô hình ngôn ngữ lớn chuyển đổi văn bản thành các biểu diễn vector số gọi là nhúng văn bản, mã hoá thông tin ngữ nghĩa phía sau.\",\"chuTrenManHinh\":\"Biểu diễn vector nhúng văn bản\",\"yDoHinh\":\"Biểu đồ vector đa chiều với nhãn nhúng\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Các mô hình đo độ tương đồng câu cũng chuyển đổi đầu vào thành các vector nhúng để tính khoảng cách và xác định mức độ gần nghĩa.\",\"chuTrenManHinh\":\"Tính độ tương đồng giữa các câu\",\"yDoHinh\":\"Đồ thị so sánh khoảng cách giữa hai câu\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Vậy tại sao nhúng văn bản lại là nền tảng cho nhiều tác vụ như phân loại, phân nhóm và tìm kiếm ngữ nghĩa?\",\"chuTrenManHinh\":\"Nhúng văn bản trong các tác vụ NLP\",\"yDoHinh\":\"Bảng liệt kê các ứng dụng NLP có nhúng\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Nhờ các vector nhúng, hệ thống có thể so sánh độ tương đồng và trả về câu gần nghĩa ngay cả khi không có từ chung.\",\"chuTrenManHinh\":\"Kết quả tìm kiếm ngữ nghĩa\",\"yDoHinh\":\"Màn hình hiển thị kết quả tìm kiếm gần nghĩa\",\"nguon\":[\"t01\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 16660
+}

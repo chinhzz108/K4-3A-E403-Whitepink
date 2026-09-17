@@ -1,0 +1,120 @@
+{
+  "case": {
+    "id": "N26",
+    "class": "hiem",
+    "input": {
+      "topic": "Kiểm tra nguồn không đọc được",
+      "learningObjective": "Không sử dụng trang chưa đọc",
+      "targetAudience": "Giảng viên",
+      "videoDuration": "3 phút"
+    },
+    "fixtureUrls": [
+      "http://localhost:3000/fixtures/unreadable.html"
+    ],
+    "expectedBehavior": "Đánh dấu lỗi truy cập và loại nguồn; không tạo script.",
+    "origin": "Fixture tự dựng: HTTP 403; không phải chatlog",
+    "passCriteria": "Nguồn bị loại, nội dung rỗng, không sinh script",
+    "failCriteria": "Coi trang lỗi là đã đọc hoặc sinh nội dung dựa vào nó"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "http://localhost:3000/fixtures/unreadable.html",
+        "tieuDe": "http://localhost:3000/fixtures/unreadable.html",
+        "ngayLayVe": "2026-09-17T13:25:17.145Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Trang không truy cập được (blocked)",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked"
+      }
+    ],
+    "thongTin": [],
+    "searchQueries": [
+      "fixture-only",
+      "fixture-only"
+    ],
+    "pagesRead": 1,
+    "pagesOk": 0,
+    "trace": {
+      "id": "trace-research-1789651517354",
+      "timestamp": "2026-09-17T13:25:17.354Z",
+      "phase": "research",
+      "input": {
+        "topic": "Kiểm tra nguồn không đọc được",
+        "learningObjective": "Không sử dụng trang chưa đọc",
+        "targetAudience": "Giảng viên",
+        "videoDuration": "3 phút",
+        "fixtureMode": true,
+        "fixtureUrls": [
+          "http://localhost:3000/fixtures/unreadable.html"
+        ],
+        "evalRunId": "2026-09-17T13-11-19-300Z",
+        "evalCaseId": "N26"
+      },
+      "searchResults": [
+        {
+          "results": [],
+          "query": "fixture-only"
+        },
+        {
+          "results": [],
+          "query": "fixture-only"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "http://localhost:3000/fixtures/unreadable.html"
+        ],
+        "pagesRead": [
+          "http://localhost:3000/fixtures/unreadable.html"
+        ],
+        "supplementReasons": []
+      },
+      "pagesRead": [
+        {
+          "url": "http://localhost:3000/fixtures/unreadable.html",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:25:17.145Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "http://localhost:3000/fixtures/unreadable.html",
+          "tieuDe": "http://localhost:3000/fixtures/unreadable.html",
+          "ngayLayVe": "2026-09-17T13:25:17.145Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Trang không truy cập được (blocked)",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked"
+        }
+      ],
+      "sourcesSelected": [],
+      "sourcesRejected": [
+        "n01"
+      ],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "error": "Không có trang nào đọc được",
+      "isDemo": false,
+      "durationMs": 209
+    },
+    "isDemo": false,
+    "canGenerate": false,
+    "error": "Không có trang nào đọc được"
+  }
+}

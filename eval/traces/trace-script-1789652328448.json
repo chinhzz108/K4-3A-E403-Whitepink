@@ -1,0 +1,217 @@
+{
+  "id": "trace-script-1789652328448",
+  "timestamp": "2026-09-17T13:38:48.448Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách một mô hình học từ ví dụ",
+    "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "targetAudience": "Học sinh cấp ba",
+    "videoDuration": "3 phút",
+    "evalRunId": "2026-09-17T13-36-53-362Z",
+    "evalCaseId": "N03"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://oes.vn/data-driven-learning-trong-giao-duc/",
+      "tieuDe": "Ứng dụng Data Driven Learning trong giáo dục hiệu quả",
+      "tacGia": "Thai Hai",
+      "toChuc": "OES - CÔNG TY DỊCH VỤ E-LEARNING HÀNG ĐẦU VIỆT NAM",
+      "ngayDang": "2026-02-27T02:58:14+00:00",
+      "ngayLayVe": "2026-09-17T13:38:36.789Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Nguồn từ công ty dịch vụ e-learning, mang tính thương mại và giáo dục phổ thông, không phải công trình nghiên cứu học thuật chuyên sâu về AI.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng trong tương lai (2026), có thể là lỗi hệ thống hoặc dữ liệu giả lập."
+      ],
+      "doanTrich": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-21004-4_7",
+      "tieuDe": "Rule-Based Expert Systems | Springer Nature Link",
+      "toChuc": "SpringerLink",
+      "ngayLayVe": "2026-09-17T13:38:37.493Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Nguồn xuất bản học thuật uy tín (Springer), cung cấp định nghĩa chính xác về hệ thống dựa trên quy tắc (rule-based systems), giúp phân biệt rõ với học từ dữ liệu.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn cũ (2011), nhưng kiến thức nền tảng về rule-based systems vẫn ổn định và chính xác.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Hệ thống dựa trên quy tắc (rule-based systems) biểu diễn kiến thức dưới dạng các quy tắc chỉ ra cách hành động hoặc kết luận trong các tình huống cụ thể, thay vì học từ dữ liệu.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+          "viTri": "Đoạn mở đầu của chương"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Data Driven Learning (DDL) trong giáo dục là mô hình dựa trên dữ liệu thực tế của người học, nơi mọi quyết định xuất phát từ thông tin hành vi và kết quả, thay vì cảm tính.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học.",
+          "viTri": "Đoạn giới thiệu khái niệm DDL"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "Lưu ý: Nguồn n01 dùng thuật ngữ DDL cho giáo dục, trong khi n02 dùng cho ngôn ngữ học. Tuy nhiên, cả hai đều nhấn mạnh việc dựa trên dữ liệu thực tế thay vì quy tắc cứng nhắc, phù hợp để minh họa sự khác biệt với rule-based."
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách một mô hình học từ ví dụ",
+    "mucTieu": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Học sinh cấp ba",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.",
+        "chuTrenManHinh": "Chào các em",
+        "yDoHinh": "Hình ảnh một lớp học vui vẻ",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.",
+        "chuTrenManHinh": "Rule-based system",
+        "yDoHinh": "Biểu đồ quy tắc dạng cây",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.",
+        "chuTrenManHinh": "Data Driven Learning",
+        "yDoHinh": "Biểu đồ dữ liệu học sinh",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.",
+        "chuTrenManHinh": "So sánh quy tắc vs dữ liệu",
+        "yDoHinh": "So sánh hai biểu đồ",
+        "nguon": [
+          "t01",
+          "t02"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.",
+        "chuTrenManHinh": "Ví dụ thực tế",
+        "yDoHinh": "Ví dụ thực tế: bảng dữ liệu",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] A rule based system uses rules as the knowledge representation for knowledge coded into the system"
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.",
+      "nguon": [
+        "t01",
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] A rule based system uses rules as the knowledge representation for knowledge coded into the system",
+        "[n01] Data Driven Learning (DDL) là mô hình dạy và học dựa trên dữ liệu thực tế của người học."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách một mô hình học từ ví dụ\",\"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Học sinh cấp ba\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.\",\"chuTrenManHinh\":\"Chào các em\",\"yDoHinh\":\"Hình ảnh một lớp học vui vẻ\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.\",\"chuTrenManHinh\":\"Rule-based system\",\"yDoHinh\":\"Biểu đồ quy tắc dạng cây\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.\",\"chuTrenManHinh\":\"Data Driven Learning\",\"yDoHinh\":\"Biểu đồ dữ liệu học sinh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.\",\"chuTrenManHinh\":\"So sánh quy tắc vs dữ liệu\",\"yDoHinh\":\"So sánh hai biểu đồ\",\"nguon\":[\"t01\",\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.\",\"chuTrenManHinh\":\"Ví dụ thực tế\",\"yDoHinh\":\"Ví dụ thực tế: bảng dữ liệu\",\"nguon\":[]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "requestId": "chatcmpl-917fef66-3e68-4ac1-83ad-767ff3bd5b7f",
+      "durationMs": 3148,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Cách một mô hình học từ ví dụ\",\"mucTieu\":\"Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'\",\"thoiLuong\":\"3 phút\",\"nguoiHoc\":\"Học sinh cấp ba\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào các em, hôm nay chúng ta sẽ khám phá cách một mô hình học từ ví dụ.\",\"chuTrenManHinh\":\"Chào các em\",\"yDoHinh\":\"Hình ảnh một lớp học vui vẻ\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Một hệ thống dựa trên quy tắc, hay còn gọi là rule-based system, hoạt động bằng cách áp dụng các quy tắc đã được lập trình sẵn.\",\"chuTrenManHinh\":\"Rule-based system\",\"yDoHinh\":\"Biểu đồ quy tắc dạng cây\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Ngược lại, mô hình học từ dữ liệu, hay còn gọi là Data Driven Learning, dựa trên dữ liệu thực tế của học sinh để đưa ra quyết định.\",\"chuTrenManHinh\":\"Data Driven Learning\",\"yDoHinh\":\"Biểu đồ dữ liệu học sinh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Điểm khác biệt chính là khi một mô hình học từ dữ liệu, nó sẽ tự động điều chỉnh dựa trên phản hồi, trong khi một hệ thống dựa trên quy tắc sẽ không thay đổi trừ khi người lập trình cập nhật.\",\"chuTrenManHinh\":\"So sánh quy tắc vs dữ liệu\",\"yDoHinh\":\"So sánh hai biểu đồ\",\"nguon\":[\"t01\",\"t02\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng xem ví dụ thực tế để thấy sự khác biệt rõ ràng.\",\"chuTrenManHinh\":\"Ví dụ thực tế\",\"yDoHinh\":\"Ví dụ thực tế: bảng dữ liệu\",\"nguon\":[]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 3404
+}

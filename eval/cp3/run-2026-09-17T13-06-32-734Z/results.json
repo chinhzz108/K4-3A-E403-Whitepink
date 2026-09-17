@@ -1,0 +1,22 @@
+[
+  {
+    "id": "N01",
+    "class": "thuong",
+    "automatedStatus": "not-met",
+    "reviewStatus": "not-required",
+    "finalStatus": "not-met",
+    "status": "not-met",
+    "reason": "Lỗi tạo kịch bản: Kịch bản AI không hợp lệ; lượt sửa không gọi được: Tất cả AI providers đều gặp lỗi: Groq openai/gpt-oss-120b (429): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5nec28f6gv854q78me2tam` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7981, Requested 5923. Please try again in 44.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings | Groq openai/gpt-oss-120b (429): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5nec28f6gv854q78me2tam` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5951, Requested 4671. Please try again in 19.665s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/setting | Groq qwen/qwen3.6-27b (404): The model `qwen/qwen3.6-27b` does not exist or you do not have access to it. | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "metrics": {
+      "readablePages": 4,
+      "selectedSources": 3,
+      "factsWithEvidence": 2,
+      "scriptSentences": 0,
+      "sourcedSentences": 0,
+      "researchAiAttempts": 1,
+      "scriptAiAttempts": 1
+    },
+    "trace": "N01.json",
+    "durationMs": 63831
+  }
+]

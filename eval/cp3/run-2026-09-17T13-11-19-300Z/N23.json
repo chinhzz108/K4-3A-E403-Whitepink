@@ -1,0 +1,1463 @@
+{
+  "case": {
+    "id": "N23",
+    "class": "hiem",
+    "input": {
+      "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+      "learningObjective": "Biết thực trạng và thách thức",
+      "targetAudience": "Nhà nghiên cứu",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Gần như không có tài liệu chuyên sâu. Cần nêu rõ giới hạn.",
+    "origin": "tự tạo — chủ đề cực kỳ hiếm; không phải chatlog",
+    "passCriteria": "Ghi rõ không đủ nguồn; không bịa; gợi ý chủ đề liên quan",
+    "failCriteria": "Bịa nghiên cứu không tồn tại"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://arxiv.org/abs/2311.13165",
+        "tieuDe": "[2311.13165] Multimodal Large Language Models: A Survey",
+        "toChuc": "arXiv.org",
+        "ngayLayVe": "2026-09-17T13:23:13.389Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Bài báo khoa học tổng quan được xuất bản tại hội thảo uy tín IEEE BigData 2023, đăng trên arXiv.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Đã đủ số lượng 3 nguồn tốt nhất, trực quan hơn cho bài giảng đại chúng.",
+        "canhBao": [
+          "Nguồn đã xuất bản hơn một năm.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "The exploration of multimodal language models integrates multiple data types, such as images, text, language, audio, and other heterogeneity.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://github.com/bradyfu/awesome-multimodal-large-language-models",
+        "tieuDe": "GitHub - BradyFU/Awesome-Multimodal-Large-Language-Models: :sparkles::sparkles:Latest Advances on Multimodal Large Language Models · GitHub",
+        "toChuc": "GitHub",
+        "ngayLayVe": "2026-09-17T13:23:13.391Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "Kho lưu trữ mã nguồn mở phổ biến trên GitHub nhưng chủ yếu chỉ tổng hợp liên kết tài liệu, không chứa nội dung phân tích học thuật chi tiết.",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không chứa thông tin phân tích hoặc lý thuyết chi tiết để trích xuất nội dung bài giảng.",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "You must be signed in to change notification settings Fork 1.1k Star 18k mainBranchesTags",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.ibm.com/think/topics/multimodal-llm",
+        "tieuDe": "What is a Multimodal LLM (MLLM)? | IBM",
+        "tacGia": "Jobit Varughese",
+        "ngayDang": "2025-07-30",
+        "ngayLayVe": "2026-09-17T13:23:14.389Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Tài liệu kỹ thuật chính thức từ tập đoàn công nghệ uy tín IBM, thông tin cập nhật mới nhất năm 2025.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://link.springer.com/chapter/10.1057/9781137455536_12",
+        "tieuDe": "Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities | Springer Nature Link",
+        "toChuc": "SpringerLink",
+        "ngayLayVe": "2026-09-17T13:23:14.391Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Chương sách nghiên cứu khoa học xuất bản bởi Springer Nature, cung cấp số liệu nhân khẩu học và chính sách ngôn ngữ dân tộc thiểu số tại Việt Nam.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không rõ ngày xuất bản chính xác từ siêu dữ liệu cào, thông tin có thể đã cũ.",
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n05",
+        "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+        "tieuDe": "Multimodality and Large Multimodal Models (LMMs)",
+        "tacGia": "Chip Huyen",
+        "toChuc": "Chip Huyen",
+        "ngayDang": "2023-10-10T00:00:00+00:00",
+        "ngayLayVe": "2026-09-17T13:23:21.296Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "cao",
+        "lyDoTinCay": "Blog cá nhân của chuyên gia kỹ sư AI nổi tiếng (Chip Huyen), nội dung phân tích mang tính thực tiễn và chuyên sâu về hệ thống đa phương thức.",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Nguồn đã xuất bản hơn một năm.",
+          "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+        ],
+        "doanTrich": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n06",
+        "url": "https://www.researchgate.net/publication/380751227_Languages_and_Ethnic_Minority_Students'_Access_to_Education_in_Vietnam_Problems_Turned_into_Opportunities_from_the_Perspective_of_Translanguaging",
+        "tieuDe": "https://www.researchgate.net/publication/380751227_Languages_and_Ethnic_Minority_Students'_Access_to_Education_in_Vietnam_Problems_Turned_into_Opportunities_from_the_Perspective_of_Translanguaging",
+        "ngayLayVe": "2026-09-17T13:23:13.390Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n07",
+        "url": "https://www.tandfonline.com/doi/pdf/10.1080/15348458.2026.2687419",
+        "tieuDe": "https://www.tandfonline.com/doi/pdf/10.1080/15348458.2026.2687419",
+        "ngayLayVe": "2026-09-17T13:23:14.388Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      },
+      {
+        "id": "n08",
+        "url": "https://www.globalpartnership.org/blog/viet-nam-making-education-more-inclusive",
+        "tieuDe": "https://www.globalpartnership.org/blog/viet-nam-making-education-more-inclusive",
+        "ngayLayVe": "2026-09-17T13:23:21.298Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Việt Nam có sự đa dạng ngôn ngữ lớn với khoảng 100 ngôn ngữ được nói bởi 54 dân tộc thiểu số (chiếm khoảng 11 triệu dân). Tuy nhiên, rào cản lớn nhất đối với việc xây dựng dữ liệu số hóa là nhiều ngôn ngữ trong số này vẫn chưa có hệ thống chữ viết chính thức cho đến gần đây.",
+        "loai": "so-lieu",
+        "bangChung": [
+          {
+            "nguonId": "n04",
+            "doanTrich": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people",
+            "viTri": "Dòng 1, Đoạn 1"
+          },
+          {
+            "nguonId": "n04",
+            "doanTrich": "Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently.",
+            "viTri": "Dòng 6, Đoạn 1"
+          }
+        ],
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t02",
+        "noiDung": "Mô hình ngôn ngữ đa phương thức (MLLM) đánh dấu bước chuyển dịch từ xử lý dữ liệu đơn phương thức (chỉ văn bản, chỉ âm thanh hoặc chỉ hình ảnh) sang việc xử lý và suy luận đồng thời trên nhiều dạng dữ liệu khác nhau, giúp máy tính tương tác gần giống với cách con người cảm nhận thế giới.",
+        "loai": "dinh-nghia",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.",
+            "viTri": "Dòng 1, Đoạn 1"
+          },
+          {
+            "nguonId": "n05",
+            "doanTrich": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).",
+            "viTri": "Dòng 1, Đoạn 1"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      },
+      {
+        "id": "t03",
+        "noiDung": "Thách thức kỹ thuật hàng đầu của MLLM là việc mã hóa và căn chỉnh các dạng dữ liệu có cấu trúc khác nhau (lưới điểm ảnh của hình ảnh, dạng sóng của âm thanh và chuỗi từ của văn bản) vào một không gian biểu diễn chung. Ngoài ra, việc xử lý video hiện nay phần lớn vẫn bỏ qua âm thanh, đây là một hạn chế nghiêm trọng vì âm thanh là nhân tố quan trọng cung cấp ngữ cảnh.",
+        "loai": "luan-diem",
+        "bangChung": [
+          {
+            "nguonId": "n03",
+            "doanTrich": "Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram.",
+            "viTri": "Dòng 1, Đoạn 3"
+          },
+          {
+            "nguonId": "n05",
+            "doanTrich": "ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos.",
+            "viTri": "Dòng 16, Đoạn 'Understanding Multimodal'"
+          }
+        ],
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": ""
+      }
+    ],
+    "searchQueries": [
+      "multimodal language models",
+      "Vietnamese minority language challenges"
+    ],
+    "pagesRead": 8,
+    "pagesOk": 5,
+    "trace": {
+      "id": "trace-research-1789651459189",
+      "timestamp": "2026-09-17T13:24:19.189Z",
+      "phase": "research",
+      "input": {
+        "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+        "learningObjective": "Biết thực trạng và thách thức",
+        "targetAudience": "Nhà nghiên cứu",
+        "videoDuration": "5 phút",
+        "fixtureMode": false,
+        "evalRunId": "2026-09-17T13-11-19-300Z",
+        "evalCaseId": "N23"
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "[2311.13165] Multimodal Large Language Models: A Survey",
+              "url": "https://arxiv.org/abs/2311.13165",
+              "snippet": "viết bởi J Wu · 2023 · Trích dẫn 672 bài viết — Abstract:The exploration of multimodal language models integrates multiple data types, such as images, text, language, audio, ...",
+              "position": 1
+            },
+            {
+              "title": "BradyFU/Awesome-Multimodal-Large-Language-Models: : ...",
+              "url": "https://github.com/bradyfu/awesome-multimodal-large-language-models",
+              "snippet": "... Latest Advances on Multimodal Large Language Models - BradyFU/Awesome-Multimodal-Large-Language-Models. ... Multimodal Large Language Models · GitHub ...",
+              "position": 2
+            },
+            {
+              "title": "What is a Multimodal LLM (MLLM)?",
+              "url": "https://www.ibm.com/think/topics/multimodal-llm",
+              "snippet": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as ...",
+              "position": 3
+            },
+            {
+              "title": "Multimodality and Large Multimodal Models (LMMs)",
+              "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+              "snippet": "Incorporating additional modalities to LLMs (Large Language Models) creates LMMs (Large Multimodal Models). Not all multimodal systems are LMMs.",
+              "position": 4
+            },
+            {
+              "title": "Multimodal Large Language Models",
+              "url": "https://www.geeksforgeeks.org/artificial-intelligence/multimodal-large-language-models/",
+              "snippet": "Multimodal large language models (LLMs) integrate and process various types of data such as text, images, audio and video to enhance ...",
+              "position": 5
+            }
+          ],
+          "query": "multimodal language models",
+          "engine": "serper"
+        },
+        {
+          "results": [
+            {
+              "title": "(PDF) Languages and Ethnic Minority Students' Access to ...",
+              "url": "https://www.researchgate.net/publication/380751227_Languages_and_Ethnic_Minority_Students'_Access_to_Education_in_Vietnam_Problems_Turned_into_Opportunities_from_the_Perspective_of_Translanguaging",
+              "snippet": "The findings show that a low level of Vietnamese was perceived as the major challenge to the ethnic minority students' schooling opportunities. In addition, ...",
+              "position": 1
+            },
+            {
+              "title": "Challenges and Prospects of Bilingual Education in ...",
+              "url": "https://www.tandfonline.com/doi/pdf/10.1080/15348458.2026.2687419",
+              "snippet": "viết bởi Q Hoang · 2026 — This study provides insights into the challenges and prospects of bilingual education in Vietnam's ethnic minority contexts. Data for this study were.",
+              "position": 2
+            },
+            {
+              "title": "Language Policies in Modern-day Vietnam - Springer Nature",
+              "url": "https://link.springer.com/chapter/10.1057/9781137455536_12",
+              "snippet": "viết bởi P Le Ha · Trích dẫn 82 bài viết — Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities ... The Vietnamese Constitution, of 1946 and 1992, stated that all minority ...",
+              "position": 3
+            },
+            {
+              "title": "Viet Nam: Making education more inclusive | Blog",
+              "url": "https://www.globalpartnership.org/blog/viet-nam-making-education-more-inclusive",
+              "snippet": "One of the main education barriers for ethnic minorities is that early learning does not take place in their mother tongue, but in Vietnamese, ...",
+              "position": 4
+            },
+            {
+              "title": "Technology as a crucial instrument in safeguarding Viet ...",
+              "url": "https://en.nhandan.vn/technology-as-a-crucial-instrument-in-safeguarding-viet-nams-minority-languages-post155249.html",
+              "snippet": "In many ethnic minority communities, the number of native speakers is dwindling. A 2019 socio-economic survey by the National Statistics Office ...",
+              "position": 5
+            }
+          ],
+          "query": "Vietnamese minority language challenges",
+          "engine": "serper"
+        }
+      ],
+      "selection": {
+        "candidates": [
+          "https://arxiv.org/abs/2311.13165",
+          "https://www.researchgate.net/publication/380751227_Languages_and_Ethnic_Minority_Students'_Access_to_Education_in_Vietnam_Problems_Turned_into_Opportunities_from_the_Perspective_of_Translanguaging",
+          "https://github.com/bradyfu/awesome-multimodal-large-language-models",
+          "https://www.tandfonline.com/doi/pdf/10.1080/15348458.2026.2687419",
+          "https://www.ibm.com/think/topics/multimodal-llm",
+          "https://link.springer.com/chapter/10.1057/9781137455536_12",
+          "https://huyenchip.com/2023/10/10/multimodal.html",
+          "https://www.globalpartnership.org/blog/viet-nam-making-education-more-inclusive"
+        ],
+        "pagesRead": [
+          "https://arxiv.org/abs/2311.13165",
+          "https://www.researchgate.net/publication/380751227_Languages_and_Ethnic_Minority_Students'_Access_to_Education_in_Vietnam_Problems_Turned_into_Opportunities_from_the_Perspective_of_Translanguaging",
+          "https://github.com/bradyfu/awesome-multimodal-large-language-models",
+          "https://www.tandfonline.com/doi/pdf/10.1080/15348458.2026.2687419",
+          "https://www.ibm.com/think/topics/multimodal-llm",
+          "https://link.springer.com/chapter/10.1057/9781137455536_12",
+          "https://huyenchip.com/2023/10/10/multimodal.html",
+          "https://www.globalpartnership.org/blog/viet-nam-making-education-more-inclusive"
+        ],
+        "supplementReasons": [
+          "Dưới ba trang đọc được và không có lệnh can thiệp",
+          "Bước đánh giá chọn dưới hai nguồn; đọc thêm ứng viên"
+        ]
+      },
+      "pagesRead": [
+        {
+          "url": "https://arxiv.org/abs/2311.13165",
+          "content": "Computer Science > Artificial Intelligence arXiv:2311.13165 (cs) [Submitted on 22 Nov 2023] Title:Multimodal Large Language Models: A Survey Authors:Jiayang Wu, Wensheng Gan, Zefeng Chen, Shicheng Wan, Philip S. Yu View PDF HTML (experimental) Abstract:The exploration of multimodal language models integrates multiple data types, such as images, text, language, audio, and other heterogeneity. While the latest large language models excel in text-based tasks, they often struggle to understand and process other data types. Multimodal models address this limitation by combining various modalities, enabling a more comprehensive understanding of diverse data. This paper begins by defining the concept of multimodal and examining the historical development of multimodal algorithms. Furthermore, we introduce a range of multimodal products, focusing on the efforts of major technology companies. A practical guide is provided, offering insights into the technical aspects of multimodal models. Moreover, we present a compilation of the latest algorithms and commonly used datasets, providing researchers with valuable resources for experimentation and evaluation. Lastly, we explore the applications of multimodal models and discuss the challenges associated with their development. By addressing these aspects, this paper aims to facilitate a deeper understanding of multimodal models and their potential in various domains. Comments: IEEE BigData 2023. 10 pages Subjects: Artificial Intelligence (cs.AI) Cite as: arXiv:2311.13165 [cs.AI] (or arXiv:2311.13165v1 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2311.13165 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Wensheng Gan [view email] [v1] Wed, 22 Nov 2023 05:15:12 UTC (596 KB) Full-text links: Access Paper: View PDFHTML (experimental)TeX Source view license Current browse context: cs.AI < prev | next > new | recent | 2023-11 Change to browse by: cs References & Citations NASA ADSGoogle Scholar Semantic Scholar export BibTeX citation Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer (What is the Explorer?) Connected Papers Toggle Connected Papers (What is Connected Papers?) Litmaps Toggle Litmaps (What is Litmaps?) scite.ai Toggle scite Smart Citations (What are Smart Citations?) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv (What is alphaXiv?) Links to Code Toggle CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub Toggle DagsHub (What is DagsHub?) GotitPub Toggle Gotit.pub (What is GotitPub?) Huggingface Toggle Hugging Face (What is Huggingface?) ScienceCast Toggle ScienceCast (What is ScienceCast?) Demos Demos Replicate Toggle Replicate (What is Replicate?) Spaces Toggle Hugging Face Spaces (What is Spaces?) Spaces Toggle TXYZ.AI (What is TXYZ.AI?) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower (What are Influence Flowers?) Core recommender toggle CORE Recommender (What is CORE?) About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs. Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)",
+          "fetchedAt": "2026-09-17T13:23:13.389Z",
+          "title": "[2311.13165] Multimodal Large Language Models: A Survey",
+          "status": "ok",
+          "contentLength": 3679,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "Computer Science > Artificial Intelligence arXiv:2311.13165 (cs) [Submitted on 22 Nov 2023] Title:Multimodal Large Language Models: A Survey Authors:Jiayang Wu, Wensheng Gan, Zefeng Chen, Shicheng Wan, Philip S. Yu View PDF HTML (experimental) Abstract:The exploration of multimodal language models integrates multiple data types, such as images, text, language, audio, and other heterogeneity. While the latest large language models excel in text-based tasks, they often struggle to understand and process other data types. Multimodal models address this limitation by combining various modalities, enabling a more comprehensive understanding of diverse data. This paper begins by defining the concept of multimodal and examining the historical development of multimodal algorithms. Furthermore, we introduce a range of multimodal products, focusing on the efforts of major technology companies. A practical guide is provided, offering insights into the technical aspects of multimodal models. Moreover, we present a compilation of the latest algorithms and commonly used datasets, providing researchers with valuable resources for experimentation and evaluation. Lastly, we explore the applications of multimodal models and discuss the challenges associated with their development. By addressing these aspects, this paper aims to facilitate a deeper understanding of multimodal models and their potential in various domains. Comments: IEEE BigData 2023. 10 pages Subjects: Artificial Intelligence (cs.AI) Cite as: arXiv:2311.13165 [cs.AI] (or arXiv:2311.13165v1 [cs.AI] for this version) https://doi.org/10.48550/arXiv.2311.13165 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Wensheng Gan [view email] [v1] Wed, 22 Nov 2023 05:15:12 UTC (596 KB) Full-text links: Access Paper: View PDFHTML (experimental)TeX Source view license Current browse context: cs.AI < prev | next > new | recent | 2023-11 Change to browse by: cs References & Citations NASA ADSGoogle Scholar Semantic Scholar export BibTeX citation Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer (What is the Explorer?) Connected Papers Toggle Connected Papers (What is Connected Papers?) Litmaps Toggle Litmaps (What is Litmaps?) scite.ai Toggle scite Smart Citations (What are Smart Citations?) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv (What is alphaXiv?) Links to Code Toggle CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub Toggle DagsHub (What is DagsHub?) GotitPub Toggle Gotit.pub (What is GotitPub?) Huggingface Toggle Hugging Face (What is Huggingface?) ScienceCast Toggle ScienceCast (What is ScienceCast?) Demos Demos Replicate Toggle Replicate (What is Replicate?) Spaces Toggle Hugging Face Spaces (What is Spaces?) Spaces Toggle TXYZ.AI (What is TXYZ.AI?) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower (What are Influence Flowers?) Core recommender toggle CORE Recommender (What is CORE?) About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs. Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.researchgate.net/publication/380751227_Languages_and_Ethnic_Minority_Students'_Access_to_Education_in_Vietnam_Problems_Turned_into_Opportunities_from_the_Perspective_of_Translanguaging",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:23:13.390Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://github.com/bradyfu/awesome-multimodal-large-language-models",
+          "content": "BradyFU / Awesome-Multimodal-Large-Language-Models Public Notifications You must be signed in to change notification settings Fork 1.1k Star 18k mainBranchesTagsGo to fileCodeOpen more actions menuLatest commit History943 Commits943 CommitsFolders and filesNameNameLast commit messageLast commit dateimagesimages README.mdREADME.md View all filesRepository files navigationLoadingAbout✨✨Latest Advances on Multimodal Large Language ModelsTopicschain-of-thoughtin-context-learninginstruction-followinginstruction-tuninglarge-language-modelslarge-vision-language-modellarge-vision-language-modelsmulti-modalitymultimodal-chain-of-thoughtmultimodal-in-context-learningmultimodal-instruction-tuningmultimodal-large-language-modelsvisual-instruction-tuningResourcesReadmeActivityStars18.0k starsWatchers291 watchingForks1.1k forksReport repositoryReleasesPackagesUsed byContributors",
+          "fetchedAt": "2026-09-17T13:23:13.391Z",
+          "title": "GitHub - BradyFU/Awesome-Multimodal-Large-Language-Models: :sparkles::sparkles:Latest Advances on Multimodal Large Language Models · GitHub",
+          "status": "ok",
+          "contentLength": 877,
+          "promptInjection": false,
+          "contentTruncated": false,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "BradyFU / Awesome-Multimodal-Large-Language-Models Public Notifications You must be signed in to change notification settings Fork 1.1k Star 18k mainBranchesTagsGo to fileCodeOpen more actions menuLatest commit History943 Commits943 CommitsFolders and filesNameNameLast commit messageLast commit dateimagesimages README.mdREADME.md View all filesRepository files navigationLoadingAbout✨✨Latest Advances on Multimodal Large Language ModelsTopicschain-of-thoughtin-context-learninginstruction-followinginstruction-tuninglarge-language-modelslarge-vision-language-modellarge-vision-language-modelsmulti-modalitymultimodal-chain-of-thoughtmultimodal-in-context-learningmultimodal-instruction-tuningmultimodal-large-language-modelsvisual-instruction-tuningResourcesReadmeActivityStars18.0k starsWatchers291 watchingForks1.1k forksReport repositoryReleasesPackagesUsed byContributors"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/15348458.2026.2687419",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:23:14.388Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/multimodal-llm",
+          "content": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio. MLLMs can describe images, answer questions about videos, interpret charts, perform optical character recognition (OCR) tasks or even engage in real-time conversations that involve vision and speech.\n\nIn recent years, AI models like GPT and Gemini have transformed how we interact with artificial intelligence through natural language. But human communication isn’t limited to just words. We understand the world through images, sounds, gestures and more. This space is where multimodal AI comes in.\n\nEach modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram. Combining multiple modalities in a single AI system is powerful because it mirrors how humans understand the world. We don’t look at a picture without context, we describe it with words, relate it to sounds or connect it to actions. When AI systems combine these different streams of information, they gain richer context and better reasoning skills. This capability makes it possible to describe images in natural language, answer questions about videos or follow text instructions with visual input. A multimodal approach pushes AI beyond unimodal text-only chat, helping machines see, listen and communicate more like we do.\n\nThe first step in any multimodal language model is to convert raw input data from different sources into machine-understandable features. Each type of data: text, visual data (image, videos and more), audio or sensor data has its own unique structure and requires a dedicated encoder to capture its meaning.\n\nBecause machines operate in binary, various techniques are used to translate multimedia content into a format that computers can process and understand, as outlined below. For text, tokenization breaks sentences into smaller units that are then embedded by using pretrained models like BERT (bidirectional encoder representations from transformers) or other language understanding transformer-based encoders. This approach produces dense vector representations that capture semantic information. For image inputs, advanced architectures such as vision transformers (ViT) or convolutional neural networks (CNNs) extract visual features such as shapes, colors and spatial patterns. This method is used in BLIP-2, which combines a ViT-based image encoder with a Q-Former to link vision and language.1 For audio, specialized encoders like wav2vec or HuBERT process raw waveforms to produce representations of speech or sound cues, as seen in models designed for audio-visual tasks like VideoCoCa. This modular approach ensures that each modality’s encoder is tailored to preserve the critical information needed for the next stages.\n\nFor example, frozen uses a visual encoder to transform images into embeddings, which are then concatenated with text embeddings before feeding into a frozen LLM for in-context multimodal learning. This model uses the combined inputs directly, without extra training, to generate answers or predictions based on the new context. Similarly, LLaMA-Adapter uses lightweight adapter modules to project image recognition features from a frozen encoder and integrate them with the language model without retraining the whole system.2 Projection ensures that features from text, images and audio can interact meaningfully when fused.\n\nOnce features from each modality are projected into a common or compatible space, the model combines them to form a unified multimodal representation. This step can be done by using simple strategies like concatenation, which stacks feature vectors side by side. More sophisticated approaches involve learned interactions between modalities, for example, through attention mechanisms. Cross-attention allows one modality (such as text) to selectively focus on relevant parts of another (such as an image), helping the model dynamically align and integrate information. In modern multimodal models, such mechanisms are central to representation learning, not just a final fusion step.\n\nAfter the fused features are processed, the model must produce an output that solves a specific task handled by an output decoder. For tasks like image captioning or video description, the decoder generates coherent text that describes visual or audio inputs. For example, MiniGPT-4 can create captions and follow instructions by turning combined features into natural, easy-to-understand text. Visual ChatGPT, built on OpenAI technology, uses an integrated prompt manager and multiple computer vision models. It can handle complex multistep tasks such as describing images, answering visual questions and generating new visuals from text instructions. For classification tasks, like emotion recognition or object detection, decoders map multimodal features to labels or decisions, ensuring the model’s understanding is delivered in a usable format.\n\nBehind the scenes, the power of multimodal models comes from large-scale pretraining and task-specific prompting. These systems are trained on huge paired datasets such as image-text pairs like in CLIP, video transcripts or audio-text pairs. CLIP famously uses contrastive learning to align images and captions, while LLaVA and MiniGPT-4 leverage synthetic instruction-following datasets generated by using GPT-4 to expand their understanding of how language and vision relate. Pretraining with tasks like masked modeling and contrastive matching builds broad cross-modal knowledge, while prompting and fine-tuning adapt these general skills to specific applications with little extra data. This method makes MLLMs capable of impressive zero-shot and few-shot performance, like describing images they have never seen or generating visuals from text.\n\nTraining multimodal LLMs involves carefully designing data collection processes, choosing suitable training strategies and ensuring data quality to develop models capable of understanding and reasoning across multiple modalities.\n\nData adaptation: Existing high-quality datasets, such as VQA (images with questions and answers) or image-caption corpora like COCO (common objects in context dataset), are transformed into instruction-response formats. This step is done manually or semiautomatically, for example, by using language models like GPT to expand short answers into richer instructions.\n\nData mixture: Instruction data is often blended with large-scale language-only conversation data. This ability enables models to build strong reasoning and dialog skills alongside multimodal understanding.\n\nKey challenges and limitations of multimodal LLMs\n\nDespite rapid progress, multimodal LLMs still face several critical challenges that limit their performance and practical deployment.\n\nCross-modal reasoning: Techniques like multimodal in-context learning (M-ICL) and chain of thought reasoning (M-CoT) are still in their early stages, leaving models with limited cross-modal\n\nWith organizations like OpenAI, Microsoft and the open source community leading the charge, the future of multimodal AI is incredibly exciting. Innovations like retrieval-augmented generation (RAG), in context learning (ICL) and multimodal reasoning are setting new benchmarks for advancements in robotics, image recognition and language understanding. By effectively processing and integrating diverse multimodal inputs, these models are moving beyond unimodal systems to deliver richer, more context-aware experiences. Through advanced machine learning techniques and streamlined training processes, multimodal AI models are enabling smarter interactions, whether it's through conversational chatbots, intuitive image analysis or decision-making systems powered by autoregressive architectures. These systems are becoming more intuitive, context-aware and human-like, with the potential to make a real difference in industries ranging from healthcare to automation and beyond.\n\n1 Wang, J., Jiang, H., Liu, Y., Ma, C., Zhang, X., Pan, Y., ... & Zhang, S. (2024). A comprehensive review of multimodal large language models: Performance and challenges across different tasks. arXiv preprint arXiv:2408.01319.\n\n2. Wu, J., Gan, W., Chen, Z., Wan, S., & Yu, P. S. (2023, December). Multimodal large language models: A survey. In 2023 IEEE International Conference on Big Data (BigData) (pp. 2247-2256). IEEE.\n\n3. AlSaad, R., Abd-Alrazaq, A., Boughorbel, S., Ahmed, A., Renault, M. A., Damseh, R., & Sheikh, J. (2024). Multimodal large language models in health care: applications, challenges, and future outlook. Journal of medical Internet research, 26, e59505.\n\n5. Yin, S., Fu, C., Zhao, S., Li, K., Sun, X., Xu, T., & Chen, E. (2024). A survey on multimodal large language models. National Science Review, 11(12), nwae403.",
+          "fetchedAt": "2026-09-17T13:23:14.389Z",
+          "title": "What is a Multimodal LLM (MLLM)? | IBM",
+          "status": "ok",
+          "contentLength": 21909,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 2,
+              "text": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio. MLLMs can describe images, answer questions about videos, interpret charts, perform optical character recognition (OCR) tasks or even engage in real-time conversations that involve vision and speech."
+            },
+            {
+              "blockIndex": 3,
+              "text": "In recent years, AI models like GPT and Gemini have transformed how we interact with artificial intelligence through natural language. But human communication isn’t limited to just words. We understand the world through images, sounds, gestures and more. This space is where multimodal AI comes in."
+            },
+            {
+              "blockIndex": 4,
+              "text": "Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram. Combining multiple modalities in a single AI system is powerful because it mirrors how humans understand the world. We don’t look at a picture without context, we describe it with words, relate it to sounds or connect it to actions. When AI systems combine these different streams of information, they gain richer context and better reasoning skills. This capability makes it possible to describe images in natural language, answer questions about videos or follow text instructions with visual input. A multimodal approach pushes AI beyond unimodal text-only chat, helping machines see, listen and communicate more like we do."
+            },
+            {
+              "blockIndex": 10,
+              "text": "The first step in any multimodal language model is to convert raw input data from different sources into machine-understandable features. Each type of data: text, visual data (image, videos and more), audio or sensor data has its own unique structure and requires a dedicated encoder to capture its meaning."
+            },
+            {
+              "blockIndex": 11,
+              "text": "Because machines operate in binary, various techniques are used to translate multimedia content into a format that computers can process and understand, as outlined below. For text, tokenization breaks sentences into smaller units that are then embedded by using pretrained models like BERT (bidirectional encoder representations from transformers) or other language understanding transformer-based encoders. This approach produces dense vector representations that capture semantic information. For image inputs, advanced architectures such as vision transformers (ViT) or convolutional neural networks (CNNs) extract visual features such as shapes, colors and spatial patterns. This method is used in BLIP-2, which combines a ViT-based image encoder with a Q-Former to link vision and language.1 For audio, specialized encoders like wav2vec or HuBERT process raw waveforms to produce representations of speech or sound cues, as seen in models designed for audio-visual tasks like VideoCoCa. This modular approach ensures that each modality’s encoder is tailored to preserve the critical information needed for the next stages."
+            },
+            {
+              "blockIndex": 15,
+              "text": "For example, frozen uses a visual encoder to transform images into embeddings, which are then concatenated with text embeddings before feeding into a frozen LLM for in-context multimodal learning. This model uses the combined inputs directly, without extra training, to generate answers or predictions based on the new context. Similarly, LLaMA-Adapter uses lightweight adapter modules to project image recognition features from a frozen encoder and integrate them with the language model without retraining the whole system.2 Projection ensures that features from text, images and audio can interact meaningfully when fused."
+            },
+            {
+              "blockIndex": 17,
+              "text": "Once features from each modality are projected into a common or compatible space, the model combines them to form a unified multimodal representation. This step can be done by using simple strategies like concatenation, which stacks feature vectors side by side. More sophisticated approaches involve learned interactions between modalities, for example, through attention mechanisms. Cross-attention allows one modality (such as text) to selectively focus on relevant parts of another (such as an image), helping the model dynamically align and integrate information. In modern multimodal models, such mechanisms are central to representation learning, not just a final fusion step."
+            },
+            {
+              "blockIndex": 22,
+              "text": "After the fused features are processed, the model must produce an output that solves a specific task handled by an output decoder. For tasks like image captioning or video description, the decoder generates coherent text that describes visual or audio inputs. For example, MiniGPT-4 can create captions and follow instructions by turning combined features into natural, easy-to-understand text. Visual ChatGPT, built on OpenAI technology, uses an integrated prompt manager and multiple computer vision models. It can handle complex multistep tasks such as describing images, answering visual questions and generating new visuals from text instructions. For classification tasks, like emotion recognition or object detection, decoders map multimodal features to labels or decisions, ensuring the model’s understanding is delivered in a usable format."
+            },
+            {
+              "blockIndex": 24,
+              "text": "Behind the scenes, the power of multimodal models comes from large-scale pretraining and task-specific prompting. These systems are trained on huge paired datasets such as image-text pairs like in CLIP, video transcripts or audio-text pairs. CLIP famously uses contrastive learning to align images and captions, while LLaVA and MiniGPT-4 leverage synthetic instruction-following datasets generated by using GPT-4 to expand their understanding of how language and vision relate. Pretraining with tasks like masked modeling and contrastive matching builds broad cross-modal knowledge, while prompting and fine-tuning adapt these general skills to specific applications with little extra data. This method makes MLLMs capable of impressive zero-shot and few-shot performance, like describing images they have never seen or generating visuals from text."
+            },
+            {
+              "blockIndex": 29,
+              "text": "Training multimodal LLMs involves carefully designing data collection processes, choosing suitable training strategies and ensuring data quality to develop models capable of understanding and reasoning across multiple modalities."
+            },
+            {
+              "blockIndex": 32,
+              "text": "Data adaptation: Existing high-quality datasets, such as VQA (images with questions and answers) or image-caption corpora like COCO (common objects in context dataset), are transformed into instruction-response formats. This step is done manually or semiautomatically, for example, by using language models like GPT to expand short answers into richer instructions."
+            },
+            {
+              "blockIndex": 34,
+              "text": "Data mixture: Instruction data is often blended with large-scale language-only conversation data. This ability enables models to build strong reasoning and dialog skills alongside multimodal understanding."
+            },
+            {
+              "blockIndex": 44,
+              "text": "Key challenges and limitations of multimodal LLMs"
+            },
+            {
+              "blockIndex": 45,
+              "text": "Despite rapid progress, multimodal LLMs still face several critical challenges that limit their performance and practical deployment."
+            },
+            {
+              "blockIndex": 48,
+              "text": "Cross-modal reasoning: Techniques like multimodal in-context learning (M-ICL) and chain of thought reasoning (M-CoT) are still in their early stages, leaving models with limited cross-modal"
+            },
+            {
+              "blockIndex": 55,
+              "text": "With organizations like OpenAI, Microsoft and the open source community leading the charge, the future of multimodal AI is incredibly exciting. Innovations like retrieval-augmented generation (RAG), in context learning (ICL) and multimodal reasoning are setting new benchmarks for advancements in robotics, image recognition and language understanding. By effectively processing and integrating diverse multimodal inputs, these models are moving beyond unimodal systems to deliver richer, more context-aware experiences. Through advanced machine learning techniques and streamlined training processes, multimodal AI models are enabling smarter interactions, whether it's through conversational chatbots, intuitive image analysis or decision-making systems powered by autoregressive architectures. These systems are becoming more intuitive, context-aware and human-like, with the potential to make a real difference in industries ranging from healthcare to automation and beyond."
+            },
+            {
+              "blockIndex": 80,
+              "text": "1 Wang, J., Jiang, H., Liu, Y., Ma, C., Zhang, X., Pan, Y., ... & Zhang, S. (2024). A comprehensive review of multimodal large language models: Performance and challenges across different tasks. arXiv preprint arXiv:2408.01319."
+            },
+            {
+              "blockIndex": 81,
+              "text": "2. Wu, J., Gan, W., Chen, Z., Wan, S., & Yu, P. S. (2023, December). Multimodal large language models: A survey. In 2023 IEEE International Conference on Big Data (BigData) (pp. 2247-2256). IEEE."
+            },
+            {
+              "blockIndex": 82,
+              "text": "3. AlSaad, R., Abd-Alrazaq, A., Boughorbel, S., Ahmed, A., Renault, M. A., Damseh, R., & Sheikh, J. (2024). Multimodal large language models in health care: applications, challenges, and future outlook. Journal of medical Internet research, 26, e59505."
+            },
+            {
+              "blockIndex": 84,
+              "text": "5. Yin, S., Fu, C., Zhao, S., Li, K., Sun, X., Xu, T., & Chen, E. (2024). A survey on multimodal large language models. National Science Review, 11(12), nwae403."
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1057/9781137455536_12",
+          "content": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people (13 per cent of the total population), who speak about 100 languages (Dinh 2010). Among the 11 million people, more than one million are of Chinese and Khmer descent (Kosonen 2004). Vietnamese, the language of the Kinh group, has been the common language among Vietnamese in the country, at least since 1945. Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently. Ten ethnic languages are used by over one million speakers in each group; and it was regulated by national language policy that users of these languages are entitled to bilingual education. These groups include Tay, Nung, H’mong, Muong, Cham, Khmer and Jrai, among others (Bui 2003). These languages have been put to official use at cultural events as well as being used as media for broadcasts on television and radio news. The Vietnamese Constitution, of 1946 and 1992, stated that all minority groups have the right to maintain their mother tongues in their schooling as well as to use their languages to preserve their ethnic cultures and values.\n\nDriving forces behind language choice in communication among Khmer bilinguals in Vietnam\n\nThe Voices of Vietnamese Nationalism and Informal Discourse in Language Policy\n\nLanguages and Ethnic Minority Students’ Access to Education in Vietnam: Problems Turned into Opportunities from the Perspective of Translanguaging\n\nAbhakorn, R 2003, ‘Education and language choice in Southeast Asia’, in J Lindsay & TY Ying (eds), Babel or Behemoth: language trends in Asia 2, Asia Research Institute, National University of Singapore, Singapore, pp. 77–10. Google Scholar\n\nAbhakorn, R 2003, ‘Education and language choice in Southeast Asia’, in J Lindsay & TY Ying (eds), Babel or Behemoth: language trends in Asia 2, Asia Research Institute, National University of Singapore, Singapore, pp. 77–10.\n\nBianco, J L 2003, ‘The big picture’, in J Lindsay & TY Ying (eds), Babel or Behemoth: language trends in Asia, Asia Research Institute, National University of Singapore, Singapore, pp. 21–42. Google Scholar\n\nBianco, J L 2003, ‘The big picture’, in J Lindsay & TY Ying (eds), Babel or Behemoth: language trends in Asia, Asia Research Institute, National University of Singapore, Singapore, pp. 21–42.\n\nBinh, VT 2008, Bien the mód cůa ngôn ngũ, viewed 12 May 2012, <http://www.tienphong.vn/Gioi-Tre/119427/Bien-the-moi-cua-ngon-ngu-.html>.\n\nBinh, VT 2008, Bien the mód cůa ngôn ngũ, viewed 12 May 2012, <http://www.tienphong.vn/Gioi-Tre/119427/Bien-the-moi-cua-ngon-ngu-.html>.\n\nBui, KT 2003, ‘Multilingual education in the community of minority peoples of Vietnam’, viewed 29 March 2012, <http://www.sil.org/asia/ldc/parallel_papers/bui_khanh_thea.pdf>.\n\nBui, KT 2003, ‘Multilingual education in the community of minority peoples of Vietnam’, viewed 29 March 2012, <http://www.sil.org/asia/ldc/parallel_papers/bui_khanh_thea.pdf>.\n\nDinh, PT 2010, ‘Multilingual education as a way towards achieving quality Universal Primary Education in Vietnam: good practices and policy implications’, Paper presented at the Language MDG Conference, SEMEO, viewed 29 March 2012, <http://www.seameo.org/LanguageMDGConference2010/doc/presentations/day3/DinhPhuongThao-sn.pdf>.\n\nDinh, PT 2010, ‘Multilingual education as a way towards achieving quality Universal Primary Education in Vietnam: good practices and policy implications’, Paper presented at the Language MDG Conference, SEMEO, viewed 29 March 2012, <http://www.seameo.org/LanguageMDGConference2010/doc/presentations/day3/DinhPhuongThao-sn.pdf>.\n\nDo, HT 1999, ‘Foreign language education policy in Vietnam: The emergence of English and its impact on higher education’, paper presented at the Fourth International Conference on Language and Development Proceedings, Hanoi, Vietnam. Google Scholar\n\nDo, HT 1999, ‘Foreign language education policy in Vietnam: The emergence of English and its impact on higher education’, paper presented at the Fourth International Conference on Language and Development Proceedings, Hanoi, Vietnam.\n\nDo, HT 2006, ‘The role of English in Vietnam’s foreign language policy: a brief history’ Paper presented at the 19th Annual English Australia Education Conference, viewed 29 March 2012, <http://www.englishaustralia.com.au/index.cgi?E=hcatfuncs&PT=sl&X=getdoc&Lev1=pub_c07_07&Lev2=c06_thinh>.\n\nDo, HT 2006, ‘The role of English in Vietnam’s foreign language policy: a brief history’ Paper presented at the 19th Annual English Australia Education Conference, viewed 29 March 2012, <http://www.englishaustralia.com.au/index.cgi?E=hcatfuncs&PT=sl&X=getdoc&Lev1=pub_c07_07&Lev2=c06_thinh>.\n\nGayle, JK 1994, ‘The role and status of English in Vietnam’, in A. Hassan (comp.), Language Planning in Southeast Asia, Dewan Bahasa dan Pustaka (Ministry of Education), Kuala Lumpur, pp. 283–300. Google Scholar\n\nGayle, JK 1994, ‘The role and status of English in Vietnam’, in A. Hassan (comp.), Language Planning in Southeast Asia, Dewan Bahasa dan Pustaka (Ministry of Education), Kuala Lumpur, pp. 283–300.\n\nGeographic (1996). ‘Online languages rankings by the Geographic Organization’, viewed 20 October 2013, <http://www.photius.com/rankings/languages2.html>.\n\nGeographic (1996). ‘Online languages rankings by the Geographic Organization’, viewed 20 October 2013, <http://www.photius.com/rankings/languages2.html>.\n\nKosonen, K 2004, Language in education policy and practice in Vietnam, UNICEF, Hanoi. Google Scholar\n\nKosonen, K 2004, Language in education policy and practice in Vietnam, UNICEF, Hanoi.\n\nLavoie, C 2011, ‘The educational realities of Hmong communities in Vietnam: the voices of teachers’, Critical Inquiries in Language Studies, vol. 8, no. 2, pp. 153–175.Article Google Scholar\n\nLavoie, C 2011, ‘The educational realities of Hmong communities in Vietnam: the voices of teachers’, Critical Inquiries in Language Studies, vol. 8, no. 2, pp. 153–175.\n\nLe, MH & O’Harrow, S 2007, ‘Vietnam’, in A Simpson (ed.), Language & national identity in Asia, Oxford University Press, Oxford, pp. 415–442. Google Scholar\n\nLe, MH & O’Harrow, S 2007, ‘Vietnam’, in A Simpson (ed.), Language & national identity in Asia, Oxford University Press, Oxford, pp. 415–442.\n\nLe, VC 1999, Language and Vietnamese pedagogical contexts, Paper presented at the Fourth International Conference on Language and Development, 13–15 October 1999, Hanoi, Vietnam. Google Scholar\n\nLe, VC 1999, Language and Vietnamese pedagogical contexts, Paper presented at the Fourth International Conference on Language and Development, 13–15 October 1999, Hanoi, Vietnam.\n\nMOET 2006, Review workshop of the pilot bilingual education Jrai—Vietnamese project, MOET, Hanoi. Google Scholar\n\nMOET 2006, Review workshop of the pilot bilingual education Jrai—Vietnamese project, MOET, Hanoi.\n\nNa, L & Hng, T 2011, Tho luân nhũng vn đ chung v chính sách ngôn ngđ và ngôn ngđ hoc tai Hôi tho Ngôn ngđ hoc toàn quôc, viewed 28 March 2012, <http://www.vienngonnguhoc.gov.vn/?act=Science&do=Detail&nid=132>.\n\nNa, L & Hng, T 2011, Tho luân nhũng vn đ chung v chính sách ngôn ngđ và ngôn ngđ hoc tai Hôi tho Ngôn ngđ hoc toàn quôc, viewed 28 March 2012, <http://www.vienngonnguhoc.gov.vn/?act=Science&do=Detail&nid=132>.\n\nNguyen, NH 2011, ‘The National Foreign Language Project 2020 of Vietnam’, Paper presented at the 3rd Engaging with Vietnam: an interdisciplinary dialogue conference, 4–5 December 2011, Vietnam, Hanoi. Google Scholar\n\nNguyen, NH 2011, ‘The National Foreign Language Project 2020 of Vietnam’, Paper presented at the 3rd Engaging with Vietnam: an interdisciplinary dialogue conference, 4–5 December 2011, Vietnam, Hanoi.\n\nNunan, D 2003, ‘The impact of English as a global language on policies and practices in the Asia-Pacific Region’, TESOL Quarterly, vol. 37, no. 4, pp. 589–613.Article Google Scholar\n\nNunan, D 2003, ‘The impact of English as a global language on policies and practices in the Asia-Pacific Region’, TESOL Quarterly, vol. 37,\n\nVu, HH, Le, TL, Chu, TTT, & Tran, TH 2007, ‘The acquisition of English speaking skills of Vietnamese ethnic minority children in Sapa’, University of Languages and International Studies, Vietnam National University Hanoi, Hanoi. Google Scholar\n\nVu, HH, Le, TL, Chu, TTT, & Tran, TH 2007, ‘The acquisition of English speaking skills of Vietnamese ethnic minority children in Sapa’, University of Languages and International Studies, Vietnam National University Hanoi, Hanoi.\n\nLe Ha, P., Ha, V.H., Dat, B. (2014). Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities. In: Sercombe, P., Tupas, R. (eds) Language, Education and Nation-building. Palgrave Studies in Minority Languages and Communities. Palgrave Macmillan, London. https://doi.org/10.1057/9781137455536_12",
+          "fetchedAt": "2026-09-17T13:23:14.391Z",
+          "title": "Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities | Springer Nature Link",
+          "status": "ok",
+          "contentLength": 13037,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 1,
+              "text": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people (13 per cent of the total population), who speak about 100 languages (Dinh 2010). Among the 11 million people, more than one million are of Chinese and Khmer descent (Kosonen 2004). Vietnamese, the language of the Kinh group, has been the common language among Vietnamese in the country, at least since 1945. Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently. Ten ethnic languages are used by over one million speakers in each group; and it was regulated by national language policy that users of these languages are entitled to bilingual education. These groups include Tay, Nung, H’mong, Muong, Cham, Khmer and Jrai, among others (Bui 2003). These languages have been put to official use at cultural events as well as being used as media for broadcasts on television and radio news. The Vietnamese Constitution, of 1946 and 1992, stated that all minority groups have the right to maintain their mother tongues in their schooling as well as to use their languages to preserve their ethnic cultures and values."
+            },
+            {
+              "blockIndex": 24,
+              "text": "Driving forces behind language choice in communication among Khmer bilinguals in Vietnam"
+            },
+            {
+              "blockIndex": 25,
+              "text": "The Voices of Vietnamese Nationalism and Informal Discourse in Language Policy"
+            },
+            {
+              "blockIndex": 26,
+              "text": "Languages and Ethnic Minority Students’ Access to Education in Vietnam: Problems Turned into Opportunities from the Perspective of Translanguaging"
+            },
+            {
+              "blockIndex": 36,
+              "text": "Abhakorn, R 2003, ‘Education and language choice in Southeast Asia’, in J Lindsay & TY Ying (eds), Babel or Behemoth: language trends in Asia 2, Asia Research Institute, National University of Singapore, Singapore, pp. 77–10. Google Scholar"
+            },
+            {
+              "blockIndex": 37,
+              "text": "Abhakorn, R 2003, ‘Education and language choice in Southeast Asia’, in J Lindsay & TY Ying (eds), Babel or Behemoth: language trends in Asia 2, Asia Research Institute, National University of Singapore, Singapore, pp. 77–10."
+            },
+            {
+              "blockIndex": 41,
+              "text": "Bianco, J L 2003, ‘The big picture’, in J Lindsay & TY Ying (eds), Babel or Behemoth: language trends in Asia, Asia Research Institute, National University of Singapore, Singapore, pp. 21–42. Google Scholar"
+            },
+            {
+              "blockIndex": 42,
+              "text": "Bianco, J L 2003, ‘The big picture’, in J Lindsay & TY Ying (eds), Babel or Behemoth: language trends in Asia, Asia Research Institute, National University of Singapore, Singapore, pp. 21–42."
+            },
+            {
+              "blockIndex": 44,
+              "text": "Binh, VT 2008, Bien the mód cůa ngôn ngũ, viewed 12 May 2012, <http://www.tienphong.vn/Gioi-Tre/119427/Bien-the-moi-cua-ngon-ngu-.html>."
+            },
+            {
+              "blockIndex": 45,
+              "text": "Binh, VT 2008, Bien the mód cůa ngôn ngũ, viewed 12 May 2012, <http://www.tienphong.vn/Gioi-Tre/119427/Bien-the-moi-cua-ngon-ngu-.html>."
+            },
+            {
+              "blockIndex": 46,
+              "text": "Bui, KT 2003, ‘Multilingual education in the community of minority peoples of Vietnam’, viewed 29 March 2012, <http://www.sil.org/asia/ldc/parallel_papers/bui_khanh_thea.pdf>."
+            },
+            {
+              "blockIndex": 47,
+              "text": "Bui, KT 2003, ‘Multilingual education in the community of minority peoples of Vietnam’, viewed 29 March 2012, <http://www.sil.org/asia/ldc/parallel_papers/bui_khanh_thea.pdf>."
+            },
+            {
+              "blockIndex": 51,
+              "text": "Dinh, PT 2010, ‘Multilingual education as a way towards achieving quality Universal Primary Education in Vietnam: good practices and policy implications’, Paper presented at the Language MDG Conference, SEMEO, viewed 29 March 2012, <http://www.seameo.org/LanguageMDGConference2010/doc/presentations/day3/DinhPhuongThao-sn.pdf>."
+            },
+            {
+              "blockIndex": 52,
+              "text": "Dinh, PT 2010, ‘Multilingual education as a way towards achieving quality Universal Primary Education in Vietnam: good practices and policy implications’, Paper presented at the Language MDG Conference, SEMEO, viewed 29 March 2012, <http://www.seameo.org/LanguageMDGConference2010/doc/presentations/day3/DinhPhuongThao-sn.pdf>."
+            },
+            {
+              "blockIndex": 53,
+              "text": "Do, HT 1999, ‘Foreign language education policy in Vietnam: The emergence of English and its impact on higher education’, paper presented at the Fourth International Conference on Language and Development Proceedings, Hanoi, Vietnam. Google Scholar"
+            },
+            {
+              "blockIndex": 54,
+              "text": "Do, HT 1999, ‘Foreign language education policy in Vietnam: The emergence of English and its impact on higher education’, paper presented at the Fourth International Conference on Language and Development Proceedings, Hanoi, Vietnam."
+            },
+            {
+              "blockIndex": 56,
+              "text": "Do, HT 2006, ‘The role of English in Vietnam’s foreign language policy: a brief history’ Paper presented at the 19th Annual English Australia Education Conference, viewed 29 March 2012, <http://www.englishaustralia.com.au/index.cgi?E=hcatfuncs&PT=sl&X=getdoc&Lev1=pub_c07_07&Lev2=c06_thinh>."
+            },
+            {
+              "blockIndex": 57,
+              "text": "Do, HT 2006, ‘The role of English in Vietnam’s foreign language policy: a brief history’ Paper presented at the 19th Annual English Australia Education Conference, viewed 29 March 2012, <http://www.englishaustralia.com.au/index.cgi?E=hcatfuncs&PT=sl&X=getdoc&Lev1=pub_c07_07&Lev2=c06_thinh>."
+            },
+            {
+              "blockIndex": 61,
+              "text": "Gayle, JK 1994, ‘The role and status of English in Vietnam’, in A. Hassan (comp.), Language Planning in Southeast Asia, Dewan Bahasa dan Pustaka (Ministry of Education), Kuala Lumpur, pp. 283–300. Google Scholar"
+            },
+            {
+              "blockIndex": 62,
+              "text": "Gayle, JK 1994, ‘The role and status of English in Vietnam’, in A. Hassan (comp.), Language Planning in Southeast Asia, Dewan Bahasa dan Pustaka (Ministry of Education), Kuala Lumpur, pp. 283–300."
+            },
+            {
+              "blockIndex": 64,
+              "text": "Geographic (1996). ‘Online languages rankings by the Geographic Organization’, viewed 20 October 2013, <http://www.photius.com/rankings/languages2.html>."
+            },
+            {
+              "blockIndex": 65,
+              "text": "Geographic (1996). ‘Online languages rankings by the Geographic Organization’, viewed 20 October 2013, <http://www.photius.com/rankings/languages2.html>."
+            },
+            {
+              "blockIndex": 77,
+              "text": "Kosonen, K 2004, Language in education policy and practice in Vietnam, UNICEF, Hanoi. Google Scholar"
+            },
+            {
+              "blockIndex": 78,
+              "text": "Kosonen, K 2004, Language in education policy and practice in Vietnam, UNICEF, Hanoi."
+            },
+            {
+              "blockIndex": 80,
+              "text": "Lavoie, C 2011, ‘The educational realities of Hmong communities in Vietnam: the voices of teachers’, Critical Inquiries in Language Studies, vol. 8, no. 2, pp. 153–175.Article Google Scholar"
+            },
+            {
+              "blockIndex": 81,
+              "text": "Lavoie, C 2011, ‘The educational realities of Hmong communities in Vietnam: the voices of teachers’, Critical Inquiries in Language Studies, vol. 8, no. 2, pp. 153–175."
+            },
+            {
+              "blockIndex": 83,
+              "text": "Le, MH & O’Harrow, S 2007, ‘Vietnam’, in A Simpson (ed.), Language & national identity in Asia, Oxford University Press, Oxford, pp. 415–442. Google Scholar"
+            },
+            {
+              "blockIndex": 84,
+              "text": "Le, MH & O’Harrow, S 2007, ‘Vietnam’, in A Simpson (ed.), Language & national identity in Asia, Oxford University Press, Oxford, pp. 415–442."
+            },
+            {
+              "blockIndex": 86,
+              "text": "Le, VC 1999, Language and Vietnamese pedagogical contexts, Paper presented at the Fourth International Conference on Language and Development, 13–15 October 1999, Hanoi, Vietnam. Google Scholar"
+            },
+            {
+              "blockIndex": 87,
+              "text": "Le, VC 1999, Language and Vietnamese pedagogical contexts, Paper presented at the Fourth International Conference on Language and Development, 13–15 October 1999, Hanoi, Vietnam."
+            },
+            {
+              "blockIndex": 89,
+              "text": "MOET 2006, Review workshop of the pilot bilingual education Jrai—Vietnamese project, MOET, Hanoi. Google Scholar"
+            },
+            {
+              "blockIndex": 90,
+              "text": "MOET 2006, Review workshop of the pilot bilingual education Jrai—Vietnamese project, MOET, Hanoi."
+            },
+            {
+              "blockIndex": 92,
+              "text": "Na, L & Hng, T 2011, Tho luân nhũng vn đ chung v chính sách ngôn ngđ và ngôn ngđ hoc tai Hôi tho Ngôn ngđ hoc toàn quôc, viewed 28 March 2012, <http://www.vienngonnguhoc.gov.vn/?act=Science&do=Detail&nid=132>."
+            },
+            {
+              "blockIndex": 93,
+              "text": "Na, L & Hng, T 2011, Tho luân nhũng vn đ chung v chính sách ngôn ngđ và ngôn ngđ hoc tai Hôi tho Ngôn ngđ hoc toàn quôc, viewed 28 March 2012, <http://www.vienngonnguhoc.gov.vn/?act=Science&do=Detail&nid=132>."
+            },
+            {
+              "blockIndex": 94,
+              "text": "Nguyen, NH 2011, ‘The National Foreign Language Project 2020 of Vietnam’, Paper presented at the 3rd Engaging with Vietnam: an interdisciplinary dialogue conference, 4–5 December 2011, Vietnam, Hanoi. Google Scholar"
+            },
+            {
+              "blockIndex": 95,
+              "text": "Nguyen, NH 2011, ‘The National Foreign Language Project 2020 of Vietnam’, Paper presented at the 3rd Engaging with Vietnam: an interdisciplinary dialogue conference, 4–5 December 2011, Vietnam, Hanoi."
+            },
+            {
+              "blockIndex": 97,
+              "text": "Nunan, D 2003, ‘The impact of English as a global language on policies and practices in the Asia-Pacific Region’, TESOL Quarterly, vol. 37, no. 4, pp. 589–613.Article Google Scholar"
+            },
+            {
+              "blockIndex": 98,
+              "text": "Nunan, D 2003, ‘The impact of English as a global language on policies and practices in the Asia-Pacific Region’, TESOL Quarterly, vol. 37,"
+            },
+            {
+              "blockIndex": 149,
+              "text": "Vu, HH, Le, TL, Chu, TTT, & Tran, TH 2007, ‘The acquisition of English speaking skills of Vietnamese ethnic minority children in Sapa’, University of Languages and International Studies, Vietnam National University Hanoi, Hanoi. Google Scholar"
+            },
+            {
+              "blockIndex": 150,
+              "text": "Vu, HH, Le, TL, Chu, TTT, & Tran, TH 2007, ‘The acquisition of English speaking skills of Vietnamese ethnic minority children in Sapa’, University of Languages and International Studies, Vietnam National University Hanoi, Hanoi."
+            },
+            {
+              "blockIndex": 171,
+              "text": "Le Ha, P., Ha, V.H., Dat, B. (2014). Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities. In: Sercombe, P., Tupas, R. (eds) Language, Education and Nation-building. Palgrave Studies in Minority Languages and Communities. Palgrave Macmillan, London. https://doi.org/10.1057/9781137455536_12"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+          "content": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).\n\nHowever, natural intelligence is not limited to just a single modality. Humans can read, talk, and see. We listen to music to relax and watch out for strange noises to detect danger. Being able to work with multimodal data is essential for us or any AI to operate in the real world.\n\nIncorporating additional modalities to LLMs (Large Language Models) creates LMMs (Large Multimodal Models). Not all multimodal systems are LMMs. For example, text-to-image models like Midjourney, Stable Diffusion, and Dall-E are multimodal but don’t have a language model component. Multimodal can mean one or more of the following:\n\nInputs are multimodal (e.g. a system that can process both text and images)\n\nOutputs are multimodal (e.g. a system that can generate both text and images)\n\nThis post covers multimodal systems in general, including LMMs. It consists of 3 parts.\n\nPart 1 covers the context for multimodality, including why multimodal, different data modalities, and types of multimodal tasks.\n\nPart 2 discusses the fundamentals of a multimodal system, using the examples of CLIP, which lays the foundation for many future multimodal systems, and Flamingo, whose impressive performance gave rise to LMMs.\n\nPart 3 discusses some active research areas for LMMs, including generating multimodal outputs and adapters for more efficient multimodal training, covering newer multimodal systems such as BLIP-2, LLaVA, LLaMA-Adapter V2, LAVIN, etc.\n\n⚠ Ambiguous terminology ⚠ Multimodal data can also refer to multimodal distributions, e.g. bimodal distribution, which is different from multimodal data in this post.\n\nTable of contents Part 1. Understanding Multimodal …. Why multimodal …. Data modalities …. Multimodal tasks …….. Generation …….. Vision-language understanding Part 2. Fundamentals of Multimodal Training …. CLIP: Contrastive Language-Image Pre-training …….. CLIP’s high-level architecture …….. Natural language supervision …….. Contrastive learning …….. CLIP applications …. Flamingo: the dawns of LMMs …….. Flamingo’s high-level architecture …….. Data …….. Flamingo’s vision encoder …….. Flamingo’s language model …. TL;DR: CLIP vs. Flamingo Part 3. Research Directions for LMMs …. Incorporating more data modalities …. Multimodal systems for instruction-following …. Adapters for more efficient multimodal training …. Generating multimodal outputs Conclusion Resources\n\nPart 1. Understanding Multimodal\n\nMany use cases are impossible without multimodality, especially those in industries that deal with a mixture of data modalities such as healthcare, robotics, e-commerce, retail, gaming, etc.\n\nMultimodal systems can provide a more flexible interface, allowing you to interact with them in whichever way works best for you at the moment. Imagine you can ask a question by typing, talking, or just pointing your camera at something.\n\nOne use case that I’m especially excited about, is that multimodality can also enable visually impaired people to browse the Internet and also navigate the real world.\n\nA video is a sequence of images plus audio. ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos. 88% of TikTok users shared that sound is essential for their TikTok experience.\n\nTo understand multimodal systems, it’s helpful to look at the tasks they are built to solve. In literature, I commonly see vision-language tasks divided into two groups: generation and vision-language understanding (VLU), which is the umbrella term for all tasks that don’t require generation. The line between these two groups is blurred, as being able to generate answers requires understanding too.\n\nFor generative tasks, the output can be unimodal (e.g. text, image, 3D rendering) or multimodal. While unimodal outputs are common today, multimodal outputs are still shaping up. We’ll discuss multimodal outputs at the end of this post.\n\nClassification models can only generate outputs that belong to a pre-determined list of classes. This works when you only care about a fixed number of outcomes. For example, an OCR system only needs to predict if a visual is one of the known characters (e.g. a digit or a letter).\n\nGiven the existence of so many amazing multimodal systems, a challenge of writing this post is choosing which systems to focus on. In the end, I decided to focus on two models: CLIP (2021) and Flamingo (2022) both for their significance as well as availability and clarity of public details.\n\nEven though these two models are older, many techniques they use are still relevant today. I hope they serve as the foundation to understanding newer models. The multimodal space is evolving repaidly, with many new ideas being developed. We’ll go over these newer models in Part 3.\n\n[Generative models only] A language model to generate text responses. Since inputs can contain both text and visuals, new techniques need to be developed to allow the language model to condition its responses on not just text, but also visuals.\n\nPre-CLIP, most vision-language models were trained using a classifier or language model objectives. Contrastive objective is a clever technique that allows CLIP to scale and generalize to multiple tasks.\n\nNExT-GPT: Any-to-Any Multimodal Large Language Model (Wu et al., Sep 2023)\n\nJeff Dean’s ambitious Pathways project (2021): its vision is to “enable multimodal models that encompass vision, auditory, and language understanding simultaneously.”\n\nInstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning (Salesforce, May 11, 2023)\n\nLaVIN: Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models (Luo et al., May 24, 2023)\n\nBLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models\n\n[LAVIN] Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models\n\nThe two images below are from Chunyuan Li’s Large Multimodal Models tutorial at CVPR 2023, which is, btw, an excellent tutorial.\n\nWhile models that can process multimodal inputs are becoming the norm, multimodal output is still lagging. Many use cases require multimodal outputs. For example, if we ask ChatGPT to explain RLHF, an effective explanation might require graphs, equations, and even simple animations.\n\nAnother option for intermediate output would be multimodal tokens. This is the option that Caiming Xiong, whose team at Salesforce has done a lot of awesome work on multimodality, told me. Each token will have a tag to denote whether it’s a text token or an image token. Image tokens will then be input into an image model like Diffusion to generate images. Text tokens will then be input into a language model.\n\nGenerating Images with Multimodal Language Models (Koh et al., Jun 2023) is an awesome paper that shows how LMMs can generate and retrieve images together with generating texts. See below.\n\nAs you see in part 3 of this post, we’re still in the early days of multimodal systems (so early that a friend told me he’s not sure if the LMM abbreviation would catch on). Yes, in most of my conversations, there’s little doubt that multimodal systems in general, and LMMs in particular, will be even more impactful than large language models. However, keep in mind that LMMs do not make LLMs obsolete. As LMMs extend upon LLMs, the performance of an LMM relies on the performance of its base LLM. Many labs that work on multimodal systems work on LLMs in parallel.\n\n[CLIP] Learning Transferable Visual Models From Natural Language Supervision (OpenAI, 2021)\n\nBLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models (Salesforce, Jan 30, 2023)\n\nKOSMOS-1: Language Is Not All You Need: Aligning Perception with Language Models (Microsoft, Feb 27, 2023)\n\nPaLM-E: An Embodied Multimodal Language Model (Google, Mar 10, 2023)\n\nLLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention (Zhang et al., Mar 28, 2023)\n\nmPLUG-Owl: Modularization Empowers Large Language Models with Multimodality (Ye et al., Apr 2, 2023)\n\nX-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages (Chen et al., May 7, 2023)\n\nInstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning (Salesforce, May 11, 2023)\n\nTowards Expert-Level Medical Question Answering with Large Language Models (Singhal et al., May 16, 2023)\n\nCheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models (Luo et al., May 24, 2023)\n\n[CVPR2023 Tutorial Talk] Large Multimodal Models: Towards Building and Surpassing Multimodal GPT-4 Slides: Large Multimodal Models\n\nSlides: Large Multimodal Models",
+          "fetchedAt": "2026-09-17T13:23:21.296Z",
+          "title": "Multimodality and Large Multimodal Models (LMMs)",
+          "status": "ok",
+          "contentLength": 32958,
+          "promptInjection": false,
+          "contentTruncated": true,
+          "contentSegments": [
+            {
+              "blockIndex": 0,
+              "text": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition)."
+            },
+            {
+              "blockIndex": 1,
+              "text": "However, natural intelligence is not limited to just a single modality. Humans can read, talk, and see. We listen to music to relax and watch out for strange noises to detect danger. Being able to work with multimodal data is essential for us or any AI to operate in the real world."
+            },
+            {
+              "blockIndex": 3,
+              "text": "Incorporating additional modalities to LLMs (Large Language Models) creates LMMs (Large Multimodal Models). Not all multimodal systems are LMMs. For example, text-to-image models like Midjourney, Stable Diffusion, and Dall-E are multimodal but don’t have a language model component. Multimodal can mean one or more of the following:"
+            },
+            {
+              "blockIndex": 5,
+              "text": "Inputs are multimodal (e.g. a system that can process both text and images)"
+            },
+            {
+              "blockIndex": 6,
+              "text": "Outputs are multimodal (e.g. a system that can generate both text and images)"
+            },
+            {
+              "blockIndex": 7,
+              "text": "This post covers multimodal systems in general, including LMMs. It consists of 3 parts."
+            },
+            {
+              "blockIndex": 8,
+              "text": "Part 1 covers the context for multimodality, including why multimodal, different data modalities, and types of multimodal tasks."
+            },
+            {
+              "blockIndex": 9,
+              "text": "Part 2 discusses the fundamentals of a multimodal system, using the examples of CLIP, which lays the foundation for many future multimodal systems, and Flamingo, whose impressive performance gave rise to LMMs."
+            },
+            {
+              "blockIndex": 10,
+              "text": "Part 3 discusses some active research areas for LMMs, including generating multimodal outputs and adapters for more efficient multimodal training, covering newer multimodal systems such as BLIP-2, LLaVA, LLaMA-Adapter V2, LAVIN, etc."
+            },
+            {
+              "blockIndex": 12,
+              "text": "⚠ Ambiguous terminology ⚠ Multimodal data can also refer to multimodal distributions, e.g. bimodal distribution, which is different from multimodal data in this post."
+            },
+            {
+              "blockIndex": 13,
+              "text": "Table of contents Part 1. Understanding Multimodal …. Why multimodal …. Data modalities …. Multimodal tasks …….. Generation …….. Vision-language understanding Part 2. Fundamentals of Multimodal Training …. CLIP: Contrastive Language-Image Pre-training …….. CLIP’s high-level architecture …….. Natural language supervision …….. Contrastive learning …….. CLIP applications …. Flamingo: the dawns of LMMs …….. Flamingo’s high-level architecture …….. Data …….. Flamingo’s vision encoder …….. Flamingo’s language model …. TL;DR: CLIP vs. Flamingo Part 3. Research Directions for LMMs …. Incorporating more data modalities …. Multimodal systems for instruction-following …. Adapters for more efficient multimodal training …. Generating multimodal outputs Conclusion Resources"
+            },
+            {
+              "blockIndex": 15,
+              "text": "Part 1. Understanding Multimodal"
+            },
+            {
+              "blockIndex": 17,
+              "text": "Many use cases are impossible without multimodality, especially those in industries that deal with a mixture of data modalities such as healthcare, robotics, e-commerce, retail, gaming, etc."
+            },
+            {
+              "blockIndex": 20,
+              "text": "Multimodal systems can provide a more flexible interface, allowing you to interact with them in whichever way works best for you at the moment. Imagine you can ask a question by typing, talking, or just pointing your camera at something."
+            },
+            {
+              "blockIndex": 21,
+              "text": "One use case that I’m especially excited about, is that multimodality can also enable visually impaired people to browse the Internet and also navigate the real world."
+            },
+            {
+              "blockIndex": 28,
+              "text": "A video is a sequence of images plus audio. ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos. 88% of TikTok users shared that sound is essential for their TikTok experience."
+            },
+            {
+              "blockIndex": 39,
+              "text": "To understand multimodal systems, it’s helpful to look at the tasks they are built to solve. In literature, I commonly see vision-language tasks divided into two groups: generation and vision-language understanding (VLU), which is the umbrella term for all tasks that don’t require generation. The line between these two groups is blurred, as being able to generate answers requires understanding too."
+            },
+            {
+              "blockIndex": 41,
+              "text": "For generative tasks, the output can be unimodal (e.g. text, image, 3D rendering) or multimodal. While unimodal outputs are common today, multimodal outputs are still shaping up. We’ll discuss multimodal outputs at the end of this post."
+            },
+            {
+              "blockIndex": 47,
+              "text": "Classification models can only generate outputs that belong to a pre-determined list of classes. This works when you only care about a fixed number of outcomes. For example, an OCR system only needs to predict if a visual is one of the known characters (e.g. a digit or a letter)."
+            },
+            {
+              "blockIndex": 57,
+              "text": "Given the existence of so many amazing multimodal systems, a challenge of writing this post is choosing which systems to focus on. In the end, I decided to focus on two models: CLIP (2021) and Flamingo (2022) both for their significance as well as availability and clarity of public details."
+            },
+            {
+              "blockIndex": 60,
+              "text": "Even though these two models are older, many techniques they use are still relevant today. I hope they serve as the foundation to understanding newer models. The multimodal space is evolving repaidly, with many new ideas being developed. We’ll go over these newer models in Part 3."
+            },
+            {
+              "blockIndex": 64,
+              "text": "[Generative models only] A language model to generate text responses. Since inputs can contain both text and visuals, new techniques need to be developed to allow the language model to condition its responses on not just text, but also visuals."
+            },
+            {
+              "blockIndex": 90,
+              "text": "Pre-CLIP, most vision-language models were trained using a classifier or language model objectives. Contrastive objective is a clever technique that allows CLIP to scale and generalize to multiple tasks."
+            },
+            {
+              "blockIndex": 172,
+              "text": "NExT-GPT: Any-to-Any Multimodal Large Language Model (Wu et al., Sep 2023)"
+            },
+            {
+              "blockIndex": 173,
+              "text": "Jeff Dean’s ambitious Pathways project (2021): its vision is to “enable multimodal models that encompass vision, auditory, and language understanding simultaneously.”"
+            },
+            {
+              "blockIndex": 178,
+              "text": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning (Salesforce, May 11, 2023)"
+            },
+            {
+              "blockIndex": 179,
+              "text": "LaVIN: Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models (Luo et al., May 24, 2023)"
+            },
+            {
+              "blockIndex": 185,
+              "text": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models"
+            },
+            {
+              "blockIndex": 186,
+              "text": "[LAVIN] Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models"
+            },
+            {
+              "blockIndex": 188,
+              "text": "The two images below are from Chunyuan Li’s Large Multimodal Models tutorial at CVPR 2023, which is, btw, an excellent tutorial."
+            },
+            {
+              "blockIndex": 192,
+              "text": "While models that can process multimodal inputs are becoming the norm, multimodal output is still lagging. Many use cases require multimodal outputs. For example, if we ask ChatGPT to explain RLHF, an effective explanation might require graphs, equations, and even simple animations."
+            },
+            {
+              "blockIndex": 198,
+              "text": "Another option for intermediate output would be multimodal tokens. This is the option that Caiming Xiong, whose team at Salesforce has done a lot of awesome work on multimodality, told me. Each token will have a tag to denote whether it’s a text token or an image token. Image tokens will then be input into an image model like Diffusion to generate images. Text tokens will then be input into a language model."
+            },
+            {
+              "blockIndex": 199,
+              "text": "Generating Images with Multimodal Language Models (Koh et al., Jun 2023) is an awesome paper that shows how LMMs can generate and retrieve images together with generating texts. See below."
+            },
+            {
+              "blockIndex": 203,
+              "text": "As you see in part 3 of this post, we’re still in the early days of multimodal systems (so early that a friend told me he’s not sure if the LMM abbreviation would catch on). Yes, in most of my conversations, there’s little doubt that multimodal systems in general, and LMMs in particular, will be even more impactful than large language models. However, keep in mind that LMMs do not make LLMs obsolete. As LMMs extend upon LLMs, the performance of an LMM relies on the performance of its base LLM. Many labs that work on multimodal systems work on LLMs in parallel."
+            },
+            {
+              "blockIndex": 213,
+              "text": "[CLIP] Learning Transferable Visual Models From Natural Language Supervision (OpenAI, 2021)"
+            },
+            {
+              "blockIndex": 219,
+              "text": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models (Salesforce, Jan 30, 2023)"
+            },
+            {
+              "blockIndex": 221,
+              "text": "KOSMOS-1: Language Is Not All You Need: Aligning Perception with Language Models (Microsoft, Feb 27, 2023)"
+            },
+            {
+              "blockIndex": 222,
+              "text": "PaLM-E: An Embodied Multimodal Language Model (Google, Mar 10, 2023)"
+            },
+            {
+              "blockIndex": 223,
+              "text": "LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention (Zhang et al., Mar 28, 2023)"
+            },
+            {
+              "blockIndex": 224,
+              "text": "mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality (Ye et al., Apr 2, 2023)"
+            },
+            {
+              "blockIndex": 227,
+              "text": "X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages (Chen et al., May 7, 2023)"
+            },
+            {
+              "blockIndex": 228,
+              "text": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning (Salesforce, May 11, 2023)"
+            },
+            {
+              "blockIndex": 229,
+              "text": "Towards Expert-Level Medical Question Answering with Large Language Models (Singhal et al., May 16, 2023)"
+            },
+            {
+              "blockIndex": 230,
+              "text": "Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models (Luo et al., May 24, 2023)"
+            },
+            {
+              "blockIndex": 234,
+              "text": "[CVPR2023 Tutorial Talk] Large Multimodal Models: Towards Building and Surpassing Multimodal GPT-4 Slides: Large Multimodal Models"
+            },
+            {
+              "blockIndex": 235,
+              "text": "Slides: Large Multimodal Models"
+            }
+          ],
+          "injectionExampleDetected": false
+        },
+        {
+          "url": "https://www.globalpartnership.org/blog/viet-nam-making-education-more-inclusive",
+          "content": "",
+          "fetchedAt": "2026-09-17T13:23:21.298Z",
+          "title": "",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://arxiv.org/abs/2311.13165",
+          "tieuDe": "[2311.13165] Multimodal Large Language Models: A Survey",
+          "toChuc": "arXiv.org",
+          "ngayLayVe": "2026-09-17T13:23:13.389Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Bài báo khoa học tổng quan được xuất bản tại hội thảo uy tín IEEE BigData 2023, đăng trên arXiv.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Đã đủ số lượng 3 nguồn tốt nhất, trực quan hơn cho bài giảng đại chúng.",
+          "canhBao": [
+            "Nguồn đã xuất bản hơn một năm.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The exploration of multimodal language models integrates multiple data types, such as images, text, language, audio, and other heterogeneity.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://github.com/bradyfu/awesome-multimodal-large-language-models",
+          "tieuDe": "GitHub - BradyFU/Awesome-Multimodal-Large-Language-Models: :sparkles::sparkles:Latest Advances on Multimodal Large Language Models · GitHub",
+          "toChuc": "GitHub",
+          "ngayLayVe": "2026-09-17T13:23:13.391Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "Kho lưu trữ mã nguồn mở phổ biến trên GitHub nhưng chủ yếu chỉ tổng hợp liên kết tài liệu, không chứa nội dung phân tích học thuật chi tiết.",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không chứa thông tin phân tích hoặc lý thuyết chi tiết để trích xuất nội dung bài giảng.",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "You must be signed in to change notification settings Fork 1.1k Star 18k mainBranchesTags",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.ibm.com/think/topics/multimodal-llm",
+          "tieuDe": "What is a Multimodal LLM (MLLM)? | IBM",
+          "tacGia": "Jobit Varughese",
+          "ngayDang": "2025-07-30",
+          "ngayLayVe": "2026-09-17T13:23:14.389Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Tài liệu kỹ thuật chính thức từ tập đoàn công nghệ uy tín IBM, thông tin cập nhật mới nhất năm 2025.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://link.springer.com/chapter/10.1057/9781137455536_12",
+          "tieuDe": "Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities | Springer Nature Link",
+          "toChuc": "SpringerLink",
+          "ngayLayVe": "2026-09-17T13:23:14.391Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Chương sách nghiên cứu khoa học xuất bản bởi Springer Nature, cung cấp số liệu nhân khẩu học và chính sách ngôn ngữ dân tộc thiểu số tại Việt Nam.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không rõ ngày xuất bản chính xác từ siêu dữ liệu cào, thông tin có thể đã cũ.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n05",
+          "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+          "tieuDe": "Multimodality and Large Multimodal Models (LMMs)",
+          "tacGia": "Chip Huyen",
+          "toChuc": "Chip Huyen",
+          "ngayDang": "2023-10-10T00:00:00+00:00",
+          "ngayLayVe": "2026-09-17T13:23:21.296Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Blog cá nhân của chuyên gia kỹ sư AI nổi tiếng (Chip Huyen), nội dung phân tích mang tính thực tiễn và chuyên sâu về hệ thống đa phương thức.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã xuất bản hơn một năm.",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n06",
+          "url": "https://www.researchgate.net/publication/380751227_Languages_and_Ethnic_Minority_Students'_Access_to_Education_in_Vietnam_Problems_Turned_into_Opportunities_from_the_Perspective_of_Translanguaging",
+          "tieuDe": "https://www.researchgate.net/publication/380751227_Languages_and_Ethnic_Minority_Students'_Access_to_Education_in_Vietnam_Problems_Turned_into_Opportunities_from_the_Perspective_of_Translanguaging",
+          "ngayLayVe": "2026-09-17T13:23:13.390Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n07",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/15348458.2026.2687419",
+          "tieuDe": "https://www.tandfonline.com/doi/pdf/10.1080/15348458.2026.2687419",
+          "ngayLayVe": "2026-09-17T13:23:14.388Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        },
+        {
+          "id": "n08",
+          "url": "https://www.globalpartnership.org/blog/viet-nam-making-education-more-inclusive",
+          "tieuDe": "https://www.globalpartnership.org/blog/viet-nam-making-education-more-inclusive",
+          "ngayLayVe": "2026-09-17T13:23:21.298Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n03",
+        "n04",
+        "n05"
+      ],
+      "sourcesRejected": [
+        "n01",
+        "n02",
+        "n06",
+        "n07",
+        "n08"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Việt Nam có sự đa dạng ngôn ngữ lớn với khoảng 100 ngôn ngữ được nói bởi 54 dân tộc thiểu số (chiếm khoảng 11 triệu dân). Tuy nhiên, rào cản lớn nhất đối với việc xây dựng dữ liệu số hóa là nhiều ngôn ngữ trong số này vẫn chưa có hệ thống chữ viết chính thức cho đến gần đây.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n04",
+              "doanTrich": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people",
+              "viTri": "Dòng 1, Đoạn 1"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently.",
+              "viTri": "Dòng 6, Đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Mô hình ngôn ngữ đa phương thức (MLLM) đánh dấu bước chuyển dịch từ xử lý dữ liệu đơn phương thức (chỉ văn bản, chỉ âm thanh hoặc chỉ hình ảnh) sang việc xử lý và suy luận đồng thời trên nhiều dạng dữ liệu khác nhau, giúp máy tính tương tác gần giống với cách con người cảm nhận thế giới.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.",
+              "viTri": "Dòng 1, Đoạn 1"
+            },
+            {
+              "nguonId": "n05",
+              "doanTrich": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).",
+              "viTri": "Dòng 1, Đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Thách thức kỹ thuật hàng đầu của MLLM là việc mã hóa và căn chỉnh các dạng dữ liệu có cấu trúc khác nhau (lưới điểm ảnh của hình ảnh, dạng sóng của âm thanh và chuỗi từ của văn bản) vào một không gian biểu diễn chung. Ngoài ra, việc xử lý video hiện nay phần lớn vẫn bỏ qua âm thanh, đây là một hạn chế nghiêm trọng vì âm thanh là nhân tố quan trọng cung cấp ngữ cảnh.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram.",
+              "viTri": "Dòng 1, Đoạn 3"
+            },
+            {
+              "nguonId": "n05",
+              "doanTrich": "ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos.",
+              "viTri": "Dòng 16, Đoạn 'Understanding Multimodal'"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://arxiv.org/abs/2311.13165\",\n      \"tieuDe\": \"[2311.13165] Multimodal Large Language Models: A Survey\",\n      \"tacGia\": \"Jiayang Wu, Wensheng Gan, Zefeng Chen, Shicheng Wan, Philip S. Yu\",\n      \"toChuc\": \"arXiv.org\",\n      \"ngayDang\": \"2023-11-22\",\n      \"ngayLayVe\": \"2026-09-17T13:23:13.389Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo khoa học tổng quan được xuất bản tại hội thảo uy tín IEEE BigData 2023, đăng trên arXiv.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Đã đủ số lượng 3 nguồn tốt nhất, trực quan hơn cho bài giảng đại chúng.\",\n      \"canhBao\": [\n        \"Nguồn đã xuất bản hơn một năm.\"\n      ],\n      \"doanTrich\": \"The exploration of multimodal language models integrates multiple data types, such as images, text, language, audio, and other heterogeneity.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://github.com/bradyfu/awesome-multimodal-large-language-models\",\n      \"tieuDe\": \"GitHub - BradyFU/Awesome-Multimodal-Large-Language-Models: :sparkles::sparkles:Latest Advances on Multimodal Large Language Models · GitHub\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"GitHub\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:23:13.391Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Kho lưu trữ mã nguồn mở phổ biến trên GitHub nhưng chủ yếu chỉ tổng hợp liên kết tài liệu, không chứa nội dung phân tích học thuật chi tiết.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không chứa thông tin phân tích hoặc lý thuyết chi tiết để trích xuất nội dung bài giảng.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"You must be signed in to change notification settings Fork 1.1k Star 18k mainBranchesTags\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.ibm.com/think/topics/multimodal-llm\",\n      \"tieuDe\": \"What is a Multimodal LLM (MLLM)? | IBM\",\n      \"tacGia\": \"Jobit Varughese\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2025-07-30\",\n      \"ngayLayVe\": \"2026-09-17T13:23:14.389Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu kỹ thuật chính thức từ tập đoàn công nghệ uy tín IBM, thông tin cập nhật mới nhất năm 2025.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://link.springer.com/chapter/10.1057/9781137455536_12\",\n      \"tieuDe\": \"Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities | Springer Nature Link\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"SpringerLink\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:23:14.391Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Chương sách nghiên cứu khoa học xuất bản bởi Springer Nature, cung cấp số liệu nhân khẩu học và chính sách ngôn ngữ dân tộc thiểu số tại Việt Nam.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Không rõ ngày xuất bản chính xác từ siêu dữ liệu cào, thông tin có thể đã cũ.\"\n      ],\n      \"doanTrich\": \"Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people\"\n    },\n    {\n      \"id\": \"n05\",\n      \"url\": \"https://huyenchip.com/2023/10/10/multimodal.html\",\n      \"tieuDe\": \"Multimodality and Large Multimodal Models (LMMs)\",\n      \"tacGia\": \"Chip Huyen\",\n      \"toChuc\": \"Chip Huyen\",\n      \"ngayDang\": \"2023-10-10\",\n      \"ngayLayVe\": \"2026-09-17T13:23:21.296Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Blog cá nhân của chuyên gia kỹ sư AI nổi tiếng (Chip Huyen), nội dung phân tích mang tính thực tiễn và chuyên sâu về hệ thống đa phương thức.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã xuất bản hơn một năm.\"\n      ],\n      \"doanTrich\": \"For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Việt Nam có sự đa dạng ngôn ngữ lớn với khoảng 100 ngôn ngữ được nói bởi 54 dân tộc thiểu số (chiếm khoảng 11 triệu dân). Tuy nhiên, rào cản lớn nhất đối với việc xây dựng dữ liệu số hóa là nhiều ngôn ngữ trong số này vẫn chưa có hệ thống chữ viết chính thức cho đến gần đây.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people\",\n          \"viTri\": \"Dòng 1, Đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently.\",\n          \"viTri\": \"Dòng 6, Đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Mô hình ngôn ngữ đa phương thức (MLLM) đánh dấu bước chuyển dịch từ xử lý dữ liệu đơn phương thức (chỉ văn bản, chỉ âm thanh hoặc chỉ hình ảnh) sang việc xử lý và suy luận đồng thời trên nhiều dạng dữ liệu khác nhau, giúp máy tính tương tác gần giống với cách con người cảm nhận thế giới.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.\",\n          \"viTri\": \"Dòng 1, Đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n05\",\n          \"doanTrich\": \"For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).\",\n          \"viTri\": \"Dòng 1, Đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Thách thức kỹ thuật hàng đầu của MLLM là việc mã hóa và căn chỉnh các dạng dữ liệu có cấu trúc khác nhau (lưới điểm ảnh của hình ảnh, dạng sóng của âm thanh và chuỗi từ của văn bản) vào một không gian biểu diễn chung. Ngoài ra, việc xử lý video hiện nay phần lớn vẫn bỏ qua âm thanh, đây là một hạn chế nghiêm trọng vì âm thanh là nhân tố quan trọng cung cấp ngữ cảnh.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram.\",\n          \"viTri\": \"Dòng 1, Đoạn 3\"\n        },\n        {\n          \"nguonId\": \"n05\",\n          \"doanTrich\": \"ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos.\",\n          \"viTri\": \"Dòng 16, Đoạn 'Understanding Multimodal'\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-20b",
+          "requestId": "chatcmpl-2a0ec0ac-bacd-4683-83f8-702962930533",
+          "durationMs": 3213,
+          "rawAiResponse": "{\"nguon\":[{\"id\":\"n01\",\"url\":\"https://arxiv.org/abs/2311.13165\",\"tieuDe\":\"Multimodal Large Language Models: A Survey\",\"tacGia\":\"Jiayang Wu, Wensheng Gan, Zefeng Chen, Shicheng Wan, Philip S. Yu\",\"toChuc\":\"arXiv.org\",\"ngayDang\":\"2023-11-22\",\"ngayLayVe\":\"2026-09-17T13:23:13.389Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Bài báo được đăng trên arXiv, chưa qua peer‑review\",\"trangThai\":\"bi-loai\",\"lyDoLoai\":\"Không liên quan đến ngôn ngữ dân tộc thiểu số Việt Nam\",\"canhBao\":[],\"doanTrich\":\"\"},{\"id\":\"n02\",\"url\":\"https://github.com/bradyfu/awesome-multimodal-large-language-models\",\"tieuDe\":\"Awesome-Multimodal-Large-Language-Models\",\"tacGia\":\"Không rõ\",\"toChuc\":\"GitHub\",\"ngayDang\":\"Không rõ\",\"ngayLayVe\":\"2026-09-17T13:23:13.391Z\",\"loai\":\"khong-xac-dinh\",\"doTinCay\":\"thap\",\"lyDoTinCay\":\"Repository chứa danh sách mã nguồn, không phải tài liệu học thuật\",\"trangThai\":\"bi-loai\",\"lyDoLoai\":\"Không cung cấp dữ liệu thực nghiệm hoặc phân tích\",\"canhBao\":[],\"doanTrich\":\"\"},{\"id\":\"n03\",\"url\":\"https://www.ibm.com/think/topics/multimodal-llm\",\"tieuDe\":\"What is a Multimodal LLM (MLLM)? | IBM\",\"tacGia\":\"Jobit Varughese\",\"toChuc\":\"IBM\",\"ngayDang\":\"2025-07-30\",\"ngayLayVe\":\"2026-09-17T13:23:14.389Z\",\"loai\":\"blog-ca-nhan\",\"doTinCay\":\"trung-binh\",\"lyDoTinCay\":\"Bài viết công ty, chưa được peer‑review\",\"trangThai\":\"bi-loai\",\"lyDoLoai\":\"Không liên quan đến ngôn ngữ dân tộc thiểu số Việt Nam\",\"canhBao\":[],\"doanTrich\":\"\"},{\"id\":\"n04\",\"url\":\"https://link.springer.com/chapter/10.1057/9781137455536_12\",\"tieuDe\":\"Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities\",\"tacGia\":\"Không rõ\",\"toChuc\":\"SpringerLink\",\"ngayDang\":\"Không rõ\",\"ngayLayVe\":\"2026-09-17T13:23:14.391Z\",\"loai\":\"bai-bao-khoa-hoc\",\"doTinCay\":\"cao\",\"lyDoTinCay\":\"Được xuất bản trong Springer, có tính chất học thuật và được trích dẫn trong nhiều công trình\",\"trangThai\":\"dang-dung\",\"lyDoLoai\":\"Chứa dữ liệu thực tế về dân số và ngôn ngữ dân tộc thiểu số Việt Nam\",\"canhBao\":[\"Nguồn có thể cũ hơn một năm\"],\"doanTrich\":\"Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people who speak about 100 languages.\"}],\"thongTin\":[{\"id\":\"t01\",\"noiDung\":\"Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people who speak about 100 languages.\",\"loai\":\"so-lieu\",\"bangChung\":[{\"nguonId\":\"n04\",\"doanTrich\":\"Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people who speak about 100 languages.\",\"viTri\":\"N/A\"}],\"soNguonXacNhan\":1,\"trangThai\":\"da-xac-minh\",\"moTaMauThuan\":\"\"}]}"
+        },
+        {
+          "stage": "initial",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash",
+          "durationMs": 53253,
+          "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://arxiv.org/abs/2311.13165\",\n      \"tieuDe\": \"[2311.13165] Multimodal Large Language Models: A Survey\",\n      \"tacGia\": \"Jiayang Wu, Wensheng Gan, Zefeng Chen, Shicheng Wan, Philip S. Yu\",\n      \"toChuc\": \"arXiv.org\",\n      \"ngayDang\": \"2023-11-22\",\n      \"ngayLayVe\": \"2026-09-17T13:23:13.389Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Bài báo khoa học tổng quan được xuất bản tại hội thảo uy tín IEEE BigData 2023, đăng trên arXiv.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Đã đủ số lượng 3 nguồn tốt nhất, trực quan hơn cho bài giảng đại chúng.\",\n      \"canhBao\": [\n        \"Nguồn đã xuất bản hơn một năm.\"\n      ],\n      \"doanTrich\": \"The exploration of multimodal language models integrates multiple data types, such as images, text, language, audio, and other heterogeneity.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://github.com/bradyfu/awesome-multimodal-large-language-models\",\n      \"tieuDe\": \"GitHub - BradyFU/Awesome-Multimodal-Large-Language-Models: :sparkles::sparkles:Latest Advances on Multimodal Large Language Models · GitHub\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"GitHub\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:23:13.391Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Kho lưu trữ mã nguồn mở phổ biến trên GitHub nhưng chủ yếu chỉ tổng hợp liên kết tài liệu, không chứa nội dung phân tích học thuật chi tiết.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Không chứa thông tin phân tích hoặc lý thuyết chi tiết để trích xuất nội dung bài giảng.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"You must be signed in to change notification settings Fork 1.1k Star 18k mainBranchesTags\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://www.ibm.com/think/topics/multimodal-llm\",\n      \"tieuDe\": \"What is a Multimodal LLM (MLLM)? | IBM\",\n      \"tacGia\": \"Jobit Varughese\",\n      \"toChuc\": \"IBM\",\n      \"ngayDang\": \"2025-07-30\",\n      \"ngayLayVe\": \"2026-09-17T13:23:14.389Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Tài liệu kỹ thuật chính thức từ tập đoàn công nghệ uy tín IBM, thông tin cập nhật mới nhất năm 2025.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://link.springer.com/chapter/10.1057/9781137455536_12\",\n      \"tieuDe\": \"Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities | Springer Nature Link\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"SpringerLink\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T13:23:14.391Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Chương sách nghiên cứu khoa học xuất bản bởi Springer Nature, cung cấp số liệu nhân khẩu học và chính sách ngôn ngữ dân tộc thiểu số tại Việt Nam.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Không rõ ngày xuất bản chính xác từ siêu dữ liệu cào, thông tin có thể đã cũ.\"\n      ],\n      \"doanTrich\": \"Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people\"\n    },\n    {\n      \"id\": \"n05\",\n      \"url\": \"https://huyenchip.com/2023/10/10/multimodal.html\",\n      \"tieuDe\": \"Multimodality and Large Multimodal Models (LMMs)\",\n      \"tacGia\": \"Chip Huyen\",\n      \"toChuc\": \"Chip Huyen\",\n      \"ngayDang\": \"2023-10-10\",\n      \"ngayLayVe\": \"2026-09-17T13:23:21.296Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"Blog cá nhân của chuyên gia kỹ sư AI nổi tiếng (Chip Huyen), nội dung phân tích mang tính thực tiễn và chuyên sâu về hệ thống đa phương thức.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\n        \"Nguồn đã xuất bản hơn một năm.\"\n      ],\n      \"doanTrich\": \"For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Việt Nam có sự đa dạng ngôn ngữ lớn với khoảng 100 ngôn ngữ được nói bởi 54 dân tộc thiểu số (chiếm khoảng 11 triệu dân). Tuy nhiên, rào cản lớn nhất đối với việc xây dựng dữ liệu số hóa là nhiều ngôn ngữ trong số này vẫn chưa có hệ thống chữ viết chính thức cho đến gần đây.\",\n      \"loai\": \"so-lieu\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people\",\n          \"viTri\": \"Dòng 1, Đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n04\",\n          \"doanTrich\": \"Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently.\",\n          \"viTri\": \"Dòng 6, Đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"chua-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Mô hình ngôn ngữ đa phương thức (MLLM) đánh dấu bước chuyển dịch từ xử lý dữ liệu đơn phương thức (chỉ văn bản, chỉ âm thanh hoặc chỉ hình ảnh) sang việc xử lý và suy luận đồng thời trên nhiều dạng dữ liệu khác nhau, giúp máy tính tương tác gần giống với cách con người cảm nhận thế giới.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.\",\n          \"viTri\": \"Dòng 1, Đoạn 1\"\n        },\n        {\n          \"nguonId\": \"n05\",\n          \"doanTrich\": \"For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).\",\n          \"viTri\": \"Dòng 1, Đoạn 1\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t03\",\n      \"noiDung\": \"Thách thức kỹ thuật hàng đầu của MLLM là việc mã hóa và căn chỉnh các dạng dữ liệu có cấu trúc khác nhau (lưới điểm ảnh của hình ảnh, dạng sóng của âm thanh và chuỗi từ của văn bản) vào một không gian biểu diễn chung. Ngoài ra, việc xử lý video hiện nay phần lớn vẫn bỏ qua âm thanh, đây là một hạn chế nghiêm trọng vì âm thanh là nhân tố quan trọng cung cấp ngữ cảnh.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram.\",\n          \"viTri\": \"Dòng 1, Đoạn 3\"\n        },\n        {\n          \"nguonId\": \"n05\",\n          \"doanTrich\": \"ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos.\",\n          \"viTri\": \"Dòng 16, Đoạn 'Understanding Multimodal'\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 69023
+    },
+    "isDemo": false,
+    "modelUsed": "gemini:gemini-3.5-flash",
+    "canGenerate": true
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+      "mucTieu": "Biết thực trạng và thách thức",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Nhà nghiên cứu",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Xin chào các nhà nghiên cứu, chào mừng đến với video.",
+          "chuTrenManHinh": "Chào mừng các nhà nghiên cứu",
+          "yDoHinh": "Hình ảnh người dẫn chương trình mỉm cười",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.",
+          "chuTrenManHinh": "Đa dạng ngôn ngữ dân tộc Việt Nam",
+          "yDoHinh": "Bản đồ Việt Nam với các nhóm dân tộc",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.",
+          "chuTrenManHinh": "Mô hình đa phương thức (MLLM)",
+          "yDoHinh": "Biểu tượng MLLM với biểu đồ văn bản‑hình‑âm thanh",
+          "nguon": [
+            "t02"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.",
+          "chuTrenManHinh": "Thách thức mã hoá đa dạng dữ liệu",
+          "yDoHinh": "Sơ đồ cấu trúc dữ liệu ảnh, âm thanh, văn bản",
+          "nguon": [
+            "t03"
+          ]
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.",
+          "chuTrenManHinh": "Cùng khám phá giải pháp mới",
+          "yDoHinh": "Hình ảnh nhóm nghiên cứu thảo luận",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789651463547",
+      "timestamp": "2026-09-17T13:24:23.547Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+        "learningObjective": "Biết thực trạng và thách thức",
+        "targetAudience": "Nhà nghiên cứu",
+        "videoDuration": "5 phút",
+        "evalRunId": "2026-09-17T13-11-19-300Z",
+        "evalCaseId": "N23"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n03",
+          "url": "https://www.ibm.com/think/topics/multimodal-llm",
+          "tieuDe": "What is a Multimodal LLM (MLLM)? | IBM",
+          "tacGia": "Jobit Varughese",
+          "ngayDang": "2025-07-30",
+          "ngayLayVe": "2026-09-17T13:23:14.389Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Tài liệu kỹ thuật chính thức từ tập đoàn công nghệ uy tín IBM, thông tin cập nhật mới nhất năm 2025.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://link.springer.com/chapter/10.1057/9781137455536_12",
+          "tieuDe": "Language Policies in Modern-day Vietnam: Changes, Challenges and Complexities | Springer Nature Link",
+          "toChuc": "SpringerLink",
+          "ngayLayVe": "2026-09-17T13:23:14.391Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Chương sách nghiên cứu khoa học xuất bản bởi Springer Nature, cung cấp số liệu nhân khẩu học và chính sách ngôn ngữ dân tộc thiểu số tại Việt Nam.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không rõ ngày xuất bản chính xác từ siêu dữ liệu cào, thông tin có thể đã cũ.",
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n05",
+          "url": "https://huyenchip.com/2023/10/10/multimodal.html",
+          "tieuDe": "Multimodality and Large Multimodal Models (LMMs)",
+          "tacGia": "Chip Huyen",
+          "toChuc": "Chip Huyen",
+          "ngayDang": "2023-10-10T00:00:00+00:00",
+          "ngayLayVe": "2026-09-17T13:23:21.296Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "Blog cá nhân của chuyên gia kỹ sư AI nổi tiếng (Chip Huyen), nội dung phân tích mang tính thực tiễn và chuyên sâu về hệ thống đa phương thức.",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Nguồn đã xuất bản hơn một năm.",
+            "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+          ],
+          "doanTrich": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n03",
+        "n04",
+        "n05"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Việt Nam có sự đa dạng ngôn ngữ lớn với khoảng 100 ngôn ngữ được nói bởi 54 dân tộc thiểu số (chiếm khoảng 11 triệu dân). Tuy nhiên, rào cản lớn nhất đối với việc xây dựng dữ liệu số hóa là nhiều ngôn ngữ trong số này vẫn chưa có hệ thống chữ viết chính thức cho đến gần đây.",
+          "loai": "so-lieu",
+          "bangChung": [
+            {
+              "nguonId": "n04",
+              "doanTrich": "Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people",
+              "viTri": "Dòng 1, Đoạn 1"
+            },
+            {
+              "nguonId": "n04",
+              "doanTrich": "Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently.",
+              "viTri": "Dòng 6, Đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t02",
+          "noiDung": "Mô hình ngôn ngữ đa phương thức (MLLM) đánh dấu bước chuyển dịch từ xử lý dữ liệu đơn phương thức (chỉ văn bản, chỉ âm thanh hoặc chỉ hình ảnh) sang việc xử lý và suy luận đồng thời trên nhiều dạng dữ liệu khác nhau, giúp máy tính tương tác gần giống với cách con người cảm nhận thế giới.",
+          "loai": "dinh-nghia",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.",
+              "viTri": "Dòng 1, Đoạn 1"
+            },
+            {
+              "nguonId": "n05",
+              "doanTrich": "For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).",
+              "viTri": "Dòng 1, Đoạn 1"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        },
+        {
+          "id": "t03",
+          "noiDung": "Thách thức kỹ thuật hàng đầu của MLLM là việc mã hóa và căn chỉnh các dạng dữ liệu có cấu trúc khác nhau (lưới điểm ảnh của hình ảnh, dạng sóng của âm thanh và chuỗi từ của văn bản) vào một không gian biểu diễn chung. Ngoài ra, việc xử lý video hiện nay phần lớn vẫn bỏ qua âm thanh, đây là một hạn chế nghiêm trọng vì âm thanh là nhân tố quan trọng cung cấp ngữ cảnh.",
+          "loai": "luan-diem",
+          "bangChung": [
+            {
+              "nguonId": "n03",
+              "doanTrich": "Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram.",
+              "viTri": "Dòng 1, Đoạn 3"
+            },
+            {
+              "nguonId": "n05",
+              "doanTrich": "ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos.",
+              "viTri": "Dòng 16, Đoạn 'Understanding Multimodal'"
+            }
+          ],
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": ""
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam",
+        "mucTieu": "Biết thực trạng và thách thức",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Nhà nghiên cứu",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Xin chào các nhà nghiên cứu, chào mừng đến với video.",
+            "chuTrenManHinh": "Chào mừng các nhà nghiên cứu",
+            "yDoHinh": "Hình ảnh người dẫn chương trình mỉm cười",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.",
+            "chuTrenManHinh": "Đa dạng ngôn ngữ dân tộc Việt Nam",
+            "yDoHinh": "Bản đồ Việt Nam với các nhóm dân tộc",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.",
+            "chuTrenManHinh": "Mô hình đa phương thức (MLLM)",
+            "yDoHinh": "Biểu tượng MLLM với biểu đồ văn bản‑hình‑âm thanh",
+            "nguon": [
+              "t02"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.",
+            "chuTrenManHinh": "Thách thức mã hoá đa dạng dữ liệu",
+            "yDoHinh": "Sơ đồ cấu trúc dữ liệu ảnh, âm thanh, văn bản",
+            "nguon": [
+              "t03"
+            ]
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.",
+            "chuTrenManHinh": "Cùng khám phá giải pháp mới",
+            "yDoHinh": "Hình ảnh nhóm nghiên cứu thảo luận",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Xin chào các nhà nghiên cứu, chào mừng đến với video.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n04] Vietnam has a population of approximately 87 million, consisting of 54 ethnic groups, among which the Kinh account for 87 per cent of the population, with the rest making up around 11 million people; [n04] Across all these communities it is estimated that over 100 languages are spoken (Lavoie 2011), although many of these languages did not have writing systems until recently."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.",
+          "nguon": [
+            "t02"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] A multimodal LLM, or MLLM, is a state-of-the-art large language model (LLM) that can process and reason across multiple types of data or modalities such as text, images and audio.; [n05] For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition)."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.",
+          "nguon": [
+            "t03"
+          ],
+          "doanTrichLienQuan": [
+            "[n03] Each modality has its own structure and requires different ways to represent and interpret information. For example, text is a sequence of words, an image is a grid of pixels and audio is a continuous waveform or spectrogram.; [n05] ML models today mostly treat videos as sequences of images. This is a severe limitation, as sounds have proved to be just as important as visuals for videos."
+          ]
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam\",\"mucTieu\":\"Biết thực trạng và thách thức\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Nhà nghiên cứu\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các nhà nghiên cứu, chào mừng đến với video.\",\"chuTrenManHinh\":\"Chào mừng các nhà nghiên cứu\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình mỉm cười\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.\",\"chuTrenManHinh\":\"Đa dạng ngôn ngữ dân tộc Việt Nam\",\"yDoHinh\":\"Bản đồ Việt Nam với các nhóm dân tộc\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.\",\"chuTrenManHinh\":\"Mô hình đa phương thức (MLLM)\",\"yDoHinh\":\"Biểu tượng MLLM với biểu đồ văn bản‑hình‑âm thanh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.\",\"chuTrenManHinh\":\"Thách thức mã hoá đa dạng dữ liệu\",\"yDoHinh\":\"Sơ đồ cấu trúc dữ liệu ảnh, âm thanh, văn bản\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.\",\"chuTrenManHinh\":\"Cùng khám phá giải pháp mới\",\"yDoHinh\":\"Hình ảnh nhóm nghiên cứu thảo luận\",\"nguon\":[]}]}",
+      "aiAttempts": [
+        {
+          "stage": "initial",
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "requestId": "chatcmpl-93fcd54e-2a7d-466a-b5af-e3a0930042eb",
+          "durationMs": 4334,
+          "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Mô hình ngôn ngữ đa phương thức cho tiếng dân tộc thiểu số Việt Nam\",\"mucTieu\":\"Biết thực trạng và thách thức\",\"thoiLuong\":\"5 phút\",\"nguoiHoc\":\"Nhà nghiên cứu\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Xin chào các nhà nghiên cứu, chào mừng đến với video.\",\"chuTrenManHinh\":\"Chào mừng các nhà nghiên cứu\",\"yDoHinh\":\"Hình ảnh người dẫn chương trình mỉm cười\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Việt Nam có khoảng một trăm ngôn ngữ được nói bởi khoảng mười một triệu người thuộc năm mươi bốn dân tộc thiểu số, nhưng con số này chưa được kiểm chứng.\",\"chuTrenManHinh\":\"Đa dạng ngôn ngữ dân tộc Việt Nam\",\"yDoHinh\":\"Bản đồ Việt Nam với các nhóm dân tộc\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Mô hình ngôn ngữ đa phương thức, hay còn gọi là MLLM, cho phép xử lý đồng thời văn bản, hình ảnh và âm thanh, mở ra khả năng suy luận đa dạng.\",\"chuTrenManHinh\":\"Mô hình đa phương thức (MLLM)\",\"yDoHinh\":\"Biểu tượng MLLM với biểu đồ văn bản‑hình‑âm thanh\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Thách thức kỹ thuật chính của MLLM là cách mã hoá và căn chỉnh các dạng dữ liệu như lưới điểm ảnh, sóng âm và chuỗi từ vào một không gian biểu diễn chung, đồng thời video thường bị bỏ qua âm thanh, gây hạn chế nghiêm trọng.\",\"chuTrenManHinh\":\"Thách thức mã hoá đa dạng dữ liệu\",\"yDoHinh\":\"Sơ đồ cấu trúc dữ liệu ảnh, âm thanh, văn bản\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Hãy cùng khám phá sâu hơn để hiểu thực trạng và tìm giải pháp cho ngôn ngữ dân tộc thiểu số trong thời đại đa phương thức.\",\"chuTrenManHinh\":\"Cùng khám phá giải pháp mới\",\"yDoHinh\":\"Hình ảnh nhóm nghiên cứu thảo luận\",\"nguon\":[]}]}"
+        }
+      ],
+      "isDemo": false,
+      "durationMs": 4337
+    },
+    "isDemo": false,
+    "modelUsed": "groq:openai/gpt-oss-120b"
+  }
+}

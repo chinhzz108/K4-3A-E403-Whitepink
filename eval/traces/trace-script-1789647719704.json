@@ -1,0 +1,143 @@
+{
+  "id": "trace-script-1789647719704",
+  "timestamp": "2026-09-17T12:21:59.704Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Fine-tuning so với prompt engineering",
+    "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút",
+    "evalRunId": "2026-09-17T12-12-13-353Z",
+    "evalCaseId": "N07"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/rag-vs-fine-tuning-vs-prompt-engineering",
+      "tieuDe": "RAG vs fine-tuning vs. prompt engineering | IBM",
+      "tacGia": "Ivan Belcic, Cole Stryker",
+      "ngayDang": "2025-02-07",
+      "ngayLayVe": "2026-09-17T12:20:40.198Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là tổ chức công nghệ hàng đầu, bài viết có tác giả rõ ràng, ngày đăng cụ thể và nội dung chuyên sâu, cấu trúc logic.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.linkedin.com/posts/thejessezhang_a-question-i-get-a-lot-is-how-much-we-rely-activity-7457455309498814464-NcSo",
+      "tieuDe": "Fine-tuning vs Prompting: When to Choose Each | Jesse Zhang Đăng trên chủ đề | LinkedIn",
+      "toChuc": "LinkedIn",
+      "ngayLayVe": "2026-09-17T12:20:41.403Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Đây là bài đăng cá nhân trên LinkedIn từ một kỹ sư (Decagon). Mặc dù không phải tài liệu học thuật, nhưng cung cấp góc nhìn thực tế về chi phí và rủi ro của fine-tuning so với prompting.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Ngày đăng không rõ, cần kiểm tra thêm thời điểm cụ thể để đánh giá tính cập nhật.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate. New foundation models are also being released constantly, which means you either stay locked into an older model or redo the work every few months.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://www.k2view.com/blog/prompt-engineering-vs-fine-tuning/",
+      "tieuDe": "Prompt engineering vs fine-tuning: Understanding the pros and cons",
+      "ngayLayVe": "2026-09-17T12:20:41.405Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog của công ty công nghệ (K2View). Tác giả là Product Marketing Director. Nội dung tổng hợp tốt, có bảng so sánh rõ ràng, phù hợp cho mục đích giáo dục cơ bản.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Prompt engineering là phương pháp tối ưu hóa đầu vào (input) để hướng dẫn mô hình tạo ra đầu ra mong muốn mà không thay đổi tham số của mô hình. Nó ít tốn kém và nhanh chóng hơn so với fine-tuning.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Prompt engineering is the least time-consuming and resource-intensive of the three optimization techniques. Basic prompt engineering can be done manually without any investment into extra compute.",
+          "viTri": "Đoạn 5"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "The strength of prompt engineering lies in its simplicity, in the sense that you don’t need to retrain or alter the LLM itself. This makes prompt engineering a cost-effective way to improve results.",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Fine-tuning là quá trình huấn luyện lại mô hình trên dữ liệu chuyên ngành cụ thể. Phương pháp này tốn nhiều thời gian, chi phí và tài nguyên tính toán hơn, đồng thời làm giảm tính linh hoạt của mô hình vì nó bị đặc hóa cho một nhiệm vụ cụ thể.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Fine-tuning is arguably the most demanding because the data preparation and training processes are so compute-intensive and time-consuming.",
+          "viTri": "Đoạn 6"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Fine-tuning takes time, costs more, and introduces infrastructure complexity that many teams underestimate.",
+          "viTri": "Đoạn 1"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Reduces flexibility since the model becomes specialized to a specific domain or task.",
+          "viTri": "Bảng so sánh, cột Fine-Tuning, hàng Flexibility"
+        }
+      ],
+      "soNguonXacNhan": 3,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Fine-tuning so với prompt engineering",
+    "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Quản lý sản phẩm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "aiAttempts": [],
+  "error": "Lỗi tạo kịch bản: Tất cả AI providers đều gặp lỗi: DeepSeek: The operation was aborted due to timeout | Groq openai/gpt-oss-120b (429): request rejected | Groq qwen/qwen3.8-27b (429): request rejected | Groq openai/gpt-oss-20b (400): request rejected | Gemini exception: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+  "isDemo": false,
+  "durationMs": 21889
+}

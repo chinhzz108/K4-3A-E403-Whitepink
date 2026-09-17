@@ -30,6 +30,7 @@ export async function POST(request: Request) {
       input: { sentence, removedSourceIds, remainingSources, remainingThongTin },
       sentence: result.sentence,
       aiRawResponse: result.rawAiResponse,
+      aiAttempts: result.attempts,
       error: result.error,
       isDemo: result.isDemo,
       startTime,

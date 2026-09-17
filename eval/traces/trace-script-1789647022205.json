@@ -1,0 +1,261 @@
+{
+  "id": "trace-script-1789647022205",
+  "timestamp": "2026-09-17T12:10:22.206Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút",
+    "evalRunId": "2026-09-17T12-05-18-065Z",
+    "evalCaseId": "N02"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.linkedin.com/pulse/when-ai-hallucinates-confidence-why-overconfidence-real-brown-phd-sf6pe",
+      "tieuDe": "When AI Hallucinates Confidence: Why Overconfidence Is the Real Model Risk",
+      "ngayLayVe": "2026-09-17T12:07:31.621Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Bài viết chuyên sâu về tâm lý học và kỹ thuật AI, tuy nhiên thiếu thông tin tác giả và không qua peer-review.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "A model can be wrong, profoundly wrong, and still express itself with the unwavering conviction of a seasoned expert.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12874690/",
+      "tieuDe": "A crisis of overconfidence: Why confidence, not accuracy, is the real risk in clinical AI - PMC",
+      "ngayLayVe": "2026-09-17T12:07:41.625Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "Bài báo khoa học được công bố trên PMC, có trích dẫn tài liệu tham khảo và phân tích kỹ thuật chi tiết.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Thiếu thông tin tác giả và ngày đăng cụ thể",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "AI có xu hướng trả lời sai nhưng vẫn thể hiện sự tự tin cao do cách huấn luyện tối ưu hóa xác suất.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "A model can be wrong, profoundly wrong, and still express itself with the unwavering conviction of a seasoned expert.",
+          "viTri": "Đoạn 1"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct.",
+          "viTri": "Đoạn 1"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Sự tự tin của AI thường là kết quả của việc tối ưu hóa hàm mất mát (loss function) và dữ liệu huấn luyện, không phải là niềm tin thực sự.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "But what looks like certainty is often nothing more than an artefact of optimisation. A 0.97 isn’t a measure of genuine belief.",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Quá trình huấn luyện lại (alignment) làm suy giảm khả năng đánh giá sự không chắc chắn (calibration) của mô hình.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "However, in modifying the model’s outputs to make them helpful, we degrade this calibration [3].",
+          "viTri": "Đoạn 3"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t04",
+      "noiDung": "Một mô hình được hiệu chỉnh (calibrated) với độ tin cậy 90% nên sai khoảng 1/10 lần, không phải 1/2.",
+      "loai": "so-lieu",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "A calibrated model that claims to be 90% certain should be wrong about one out of ten times, not half the time.",
+          "viTri": "Đoạn 2"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "thoiLuong": "năm phút",
+    "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn đến với buổi học hôm nay.",
+        "chuTrenManHinh": "Chào mừng",
+        "yDoHinh": "Người dẫn chương trình mỉm cười chào khán giả",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Mô hình AI có thể sai hoàn toàn nhưng vẫn phát biểu với sự tự tin như một chuyên gia dày dặn kinh nghiệm.",
+        "chuTrenManHinh": "AI tự tin sai lầm",
+        "yDoHinh": "Màn hình hiển thị câu trả lời AI kèm biểu tượng dấu chấm than",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Sự tự tin của AI thường chỉ là hiện tượng của việc tối ưu hoá hàm mất mát (loss function), không phản ánh niềm tin thực sự của mô hình.",
+        "chuTrenManHinh": "Tối ưu hàm mất mát",
+        "yDoHinh": "Đồ họa biểu đồ loss function và biểu tượng cân bằng",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Khi chúng ta hiệu chỉnh mô hình để giúp đỡ, độ hiệu chuẩn (calibration) thường bị suy giảm, làm giảm khả năng nhận biết sự không chắc chắn.",
+        "chuTrenManHinh": "Hiệu chuẩn giảm",
+        "yDoHinh": "Biểu đồ calibration trước và sau hiệu chỉnh",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Một mô hình được hiệu chỉnh với độ tin cậy chín mươi phần trăm nên sai khoảng một phần mười, không phải một nửa.",
+        "chuTrenManHinh": "Độ tin cậy chín mươi",
+        "yDoHinh": "Biểu đồ hiển thị tỷ lệ sai lệch so với độ tin cậy",
+        "nguon": [
+          "t04"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn đến với buổi học hôm nay.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Mô hình AI có thể sai hoàn toàn nhưng vẫn phát biểu với sự tự tin như một chuyên gia dày dặn kinh nghiệm.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] A model can be wrong, profoundly wrong, and still express itself with the unwavering conviction of a seasoned expert.; [n03] Language models today are trained to convey confidence in their outputs, regardless of whether those outputs are correct."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Sự tự tin của AI thường chỉ là hiện tượng của việc tối ưu hoá hàm mất mát (loss function), không phản ánh niềm tin thực sự của mô hình.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] But what looks like certainty is often nothing more than an artefact of optimisation. A 0.97 isn’t a measure of genuine belief."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Khi chúng ta hiệu chỉnh mô hình để giúp đỡ, độ hiệu chuẩn (calibration) thường bị suy giảm, làm giảm khả năng nhận biết sự không chắc chắn.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] However, in modifying the model’s outputs to make them helpful, we degrade this calibration [3]."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Một mô hình được hiệu chỉnh với độ tin cậy chín mươi phần trăm nên sai khoảng một phần mười, không phải một nửa.",
+      "nguon": [
+        "t04"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] A calibrated model that claims to be 90% certain should be wrong about one out of ten times, not half the time."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\"mucTieu\":\"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\"thoiLuong\":\"năm phút\",\"nguoiHoc\":\"Người đi làm, dùng AI hàng ngày\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn đến với buổi học hôm nay.\",\"chuTrenManHinh\":\"Chào mừng\",\"yDoHinh\":\"Người dẫn chương trình mỉm cười chào khán giả\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Mô hình AI có thể sai hoàn toàn nhưng vẫn phát biểu với sự tự tin như một chuyên gia dày dặn kinh nghiệm.\",\"chuTrenManHinh\":\"AI tự tin sai lầm\",\"yDoHinh\":\"Màn hình hiển thị câu trả lời AI kèm biểu tượng dấu chấm than\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Sự tự tin của AI thường chỉ là hiện tượng của việc tối ưu hoá hàm mất mát (loss function), không phản ánh niềm tin thực sự của mô hình.\",\"chuTrenManHinh\":\"Tối ưu hàm mất mát\",\"yDoHinh\":\"Đồ họa biểu đồ loss function và biểu tượng cân bằng\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi chúng ta hiệu chỉnh mô hình để giúp đỡ, độ hiệu chuẩn (calibration) thường bị suy giảm, làm giảm khả năng nhận biết sự không chắc chắn.\",\"chuTrenManHinh\":\"Hiệu chuẩn giảm\",\"yDoHinh\":\"Biểu đồ calibration trước và sau hiệu chỉnh\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Một mô hình được hiệu chỉnh với độ tin cậy chín mươi phần trăm nên sai khoảng một phần mười, không phải một nửa.\",\"chuTrenManHinh\":\"Độ tin cậy chín mươi\",\"yDoHinh\":\"Biểu đồ hiển thị tỷ lệ sai lệch so với độ tin cậy\",\"nguon\":[\"t04\"]}]}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-9bdb043e-4d65-4c76-97fc-f5e04179961d",
+      "durationMs": 4480,
+      "rawAiResponse": "{\n  \"schema\":\"hackathon-kich-ban/1\",\n  \"id\":\"scriptscout-output\",\n  \"tieuDe\":\"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\n  \"mucTieu\":\"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\n  \"thoiLuong\":\"năm phút\",\n  \"nguoiHoc\":\"Người đi làm, dùng AI hàng ngày\",\n  \"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\n  \"cau\":[\n    {\n      \"n\":1,\n      \"phan\":1,\n      \"kieu\":\"ke\",\n      \"loi\":\"Chào mừng các bạn đến với buổi học hôm nay.\",\n      \"chuTrenManHinh\":\"Chào mừng\",\n      \"yDoHinh\":\"Ảnh người dẫn chương trình mỉm cười chào khán giả\",\n      \"nguon\":[]\n    },\n    {\n      \"n\":2,\n      \"phan\":1,\n      \"kieu\":\"giang\",\n      \"loi\":\"Mô hình AI có thể sai hoàn toàn nhưng vẫn phát biểu với sự tự tin như một chuyên gia dày dặn kinh nghiệm.\",\n      \"chuTrenManHinh\":\"AI tự tin sai lầm\",\n      \"yDoHinh\":\"Màn hình hiển thị câu trả lời AI kèm biểu tượng dấu chấm than\",\n      \"nguon\":[\"t01\"]\n    },\n    {\n      \"n\":3,\n      \"phan\":1,\n      \"kieu\":\"nhe\",\n      \"loi\":\"Sự tự tin ấy chỉ là hiện tượng của việc tối ưu hoá hàm mất mát, không phản ánh niềm tin thực sự của mô hình.\",\n      \"chuTrenManHinh\":\"Tối ưu hàm mất mát\",\n      \"yDoHinh\":\"Đồ họa biểu đồ loss function và biểu tượng cân bằng\",\n      \"nguon\":[\"t02\"]\n    },\n    {\n      \"n\":4,\n      \"phan\":1,\n      \"kieu\":\"hoi\",\n      \"loi\":\"Khi chúng ta hiệu chỉnh mô hình để giúp đỡ, độ hiệu chuẩn (calibration) thường bị suy giảm, làm giảm khả năng nhận biết sự không chắc chắn.\",\n      \"chuTrenManHinh\":\"Hiệu chuẩn giảm\",\n      \"yDoHinh\":\"Biểu đồ calibration trước và sau hiệu chỉnh\",\n      \"nguon\":[\"t03\"]\n    },\n    {\n      \"n\":5,\n      \"phan\":1,\n      \"kieu\":\"nhan\",\n      \"loi\":\"Hãy luôn kiểm chứng ba dấu hiệu này trước khi tin vào câu trả lời của AI.\",\n      \"chuTrenManHinh\":\"Kiểm chứng câu trả lời\",\n      \"yDoHinh\":\"Danh sách ba dấu hiệu hiển thị trên màn hình\",\n      \"nguon\":[]\n    }\n  ]\n}",
+      "validationError": "Câu 5: mẫu không hợp lệ (nguon rỗng ở câu không phải lời chào, câu hỏi mở hoặc lời kết thuần túy)"
+    },
+    {
+      "stage": "repair",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-5d64105c-6f67-474f-94be-e3a04ba2f3b9",
+      "durationMs": 4755,
+      "rawAiResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\",\"mucTieu\":\"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\",\"thoiLuong\":\"năm phút\",\"nguoiHoc\":\"Người đi làm, dùng AI hàng ngày\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn đến với buổi học hôm nay.\",\"chuTrenManHinh\":\"Chào mừng\",\"yDoHinh\":\"Người dẫn chương trình mỉm cười chào khán giả\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Mô hình AI có thể sai hoàn toàn nhưng vẫn phát biểu với sự tự tin như một chuyên gia dày dặn kinh nghiệm.\",\"chuTrenManHinh\":\"AI tự tin sai lầm\",\"yDoHinh\":\"Màn hình hiển thị câu trả lời AI kèm biểu tượng dấu chấm than\",\"nguon\":[\"t01\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Sự tự tin của AI thường chỉ là hiện tượng của việc tối ưu hoá hàm mất mát (loss function), không phản ánh niềm tin thực sự của mô hình.\",\"chuTrenManHinh\":\"Tối ưu hàm mất mát\",\"yDoHinh\":\"Đồ họa biểu đồ loss function và biểu tượng cân bằng\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Khi chúng ta hiệu chỉnh mô hình để giúp đỡ, độ hiệu chuẩn (calibration) thường bị suy giảm, làm giảm khả năng nhận biết sự không chắc chắn.\",\"chuTrenManHinh\":\"Hiệu chuẩn giảm\",\"yDoHinh\":\"Biểu đồ calibration trước và sau hiệu chỉnh\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Một mô hình được hiệu chỉnh với độ tin cậy chín mươi phần trăm nên sai khoảng một phần mười, không phải một nửa.\",\"chuTrenManHinh\":\"Độ tin cậy chín mươi\",\"yDoHinh\":\"Biểu đồ hiển thị tỷ lệ sai lệch so với độ tin cậy\",\"nguon\":[\"t04\"]}]}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 79262
+}

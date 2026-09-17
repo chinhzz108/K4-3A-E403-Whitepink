@@ -1,0 +1,493 @@
+{
+  "id": "trace-research-1789650407050",
+  "timestamp": "2026-09-17T13:06:47.050Z",
+  "phase": "research",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút",
+    "fixtureMode": false,
+    "evalRunId": "2026-09-17T13-06-32-734Z",
+    "evalCaseId": "N01"
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "What is a context window?",
+          "url": "https://www.ibm.com/think/topics/context-window",
+          "snippet": "An LLM's context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting ...",
+          "position": 1
+        },
+        {
+          "title": "🧠Understanding LLM Context Windows: Tokens, Attention, ...",
+          "url": "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+          "snippet": "A context window represents the “working memory” of an LLM. It determines how much information from a conversation or input the model can retain ...",
+          "position": 2
+        },
+        {
+          "title": "Context window",
+          "url": "https://en.wikipedia.org/wiki/Context_window",
+          "snippet": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating ...",
+          "position": 3
+        },
+        {
+          "title": "The Maximum Effective Context Window for Real World ...",
+          "url": "https://arxiv.org/pdf/2509.21361",
+          "snippet": "viết bởi N Paulsen · 2025 · Trích dẫn 24 bài viết — Large language model (LLM) providers boast big numbers for maximum context window sizes. To test the real-world use of context windows, we 1) define a.",
+          "position": 4
+        },
+        {
+          "title": "What is a context window for Large Language Models?",
+          "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-context-window",
+          "snippet": "A context window is how information is entered into a large language model (LLM). The larger the context window, the more information the ...",
+          "position": 5
+        }
+      ],
+      "query": "language model context window",
+      "engine": "serper"
+    },
+    {
+      "results": [
+        {
+          "title": "LLM Limitations: Why Can't You Query Your Enterprise ...",
+          "url": "https://memgraph.com/blog/llm-limitations-query-enterprise-data",
+          "snippet": "LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens ( ...",
+          "position": 1
+        },
+        {
+          "title": "Context Window: The Memory Limits of LLMs",
+          "url": "https://medium.com/@gianluca.mondillo/context-window-the-memory-limits-of-llms-f11887390490",
+          "snippet": "If a model has a context window of 4096 tokens, it can process about 3000 words at once. This includes everything: your initial prompt, its ...",
+          "position": 2
+        },
+        {
+          "title": "Understanding LLM memory limitations and mitigations",
+          "url": "https://www.linkedin.com/posts/scottsteele_artificialintelligence-llm-aiexpertise-activity-7381790290346479617-gFhp",
+          "snippet": "Your LLM has a bad memory. It's getting better (sort of) but it's important to understand limitations and mitigations to get the best output ...",
+          "position": 3
+        },
+        {
+          "title": "Reimagining LLM Memory: Using Context as Training Data ...",
+          "url": "https://developer.nvidia.com/blog/reimagining-llm-memory-using-context-as-training-data-unlocks-models-that-learn-at-test-time/",
+          "snippet": "We can overcome this limitation by either developing a custom attention kernel that supports gradients of gradients or initializing TTT-E2E ...",
+          "position": 4
+        },
+        {
+          "title": "[D] Do you think LLM memory will ever be solved without ...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1mj3n3v/d_do_you_think_llm_memory_will_ever_be_solved/",
+          "snippet": "I’ve been running into the same issue again and again while working with LLMs: they forget. You can stuff the history into the prompt, set up a RAG pipeline, ...",
+          "position": 5
+        }
+      ],
+      "query": "LLM memory limitation",
+      "engine": "serper"
+    }
+  ],
+  "selection": {
+    "candidates": [
+      "https://www.ibm.com/think/topics/context-window",
+      "https://memgraph.com/blog/llm-limitations-query-enterprise-data",
+      "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "https://medium.com/@gianluca.mondillo/context-window-the-memory-limits-of-llms-f11887390490",
+      "https://en.wikipedia.org/wiki/Context_window",
+      "https://www.linkedin.com/posts/scottsteele_artificialintelligence-llm-aiexpertise-activity-7381790290346479617-gFhp",
+      "https://arxiv.org/pdf/2509.21361",
+      "https://developer.nvidia.com/blog/reimagining-llm-memory-using-context-as-training-data-unlocks-models-that-learn-at-test-time/"
+    ],
+    "pagesRead": [
+      "https://www.ibm.com/think/topics/context-window",
+      "https://memgraph.com/blog/llm-limitations-query-enterprise-data",
+      "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "https://medium.com/@gianluca.mondillo/context-window-the-memory-limits-of-llms-f11887390490",
+      "https://en.wikipedia.org/wiki/Context_window",
+      "https://www.linkedin.com/posts/scottsteele_artificialintelligence-llm-aiexpertise-activity-7381790290346479617-gFhp"
+    ],
+    "supplementReasons": [
+      "Dưới ba trang đọc được và không có lệnh can thiệp"
+    ]
+  },
+  "pagesRead": [
+    {
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "content": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.\n\nAn LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\n\nGenerally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks.\n\nContext windows and tokenization\n\nIn real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work.\n\nThe way LLMs process language is fundamentally different from the way humans do. Whereas the smallest unit of information we use to represent language is a single character—such as a letter, number or punctuation mark—the smallest unit of language that AI models use is a token. To train a model to understand language, each token is assigned an ID number; these ID numbers, rather than the words or even the tokens themselves, are used to train the model. This tokenization of language significantly reduces the computational power needed to process and learn from the text.\n\nThere is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs.\n\nVariations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context.\n\nWhy do models have a maximum context length?\n\nThough context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs.\n\nTransformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time.\n\nIt's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context.\n\nIt’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once.\n\nContext windows and computing resources\n\nEquipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it.\n\nSimilarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time.\n\nRecent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022.\n\nChallenges of long context windows\n\nEven when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications.\n\nA longer context window might also have the unintended effect of presenting a longer attack surface for adversarial prompts. Recent research from Anthropic demonstrated that increasing a model’s context length also increases its vulnerability to “jailbreaking” and (subsequently) being provoked to produce harmful responses.2\n\nThe average context window of a large language model has grown exponentially since the original generative pretrained transformers (GPTs) were released. To date, each successive generation of LLMs has typically entailed significantly longer context lengths. At present, the largest context window offered by a prominent commercial model is over 1 million tokens. It remains to be seen whether context windows will continue to expand or if we’re already approaching the upper limit of practical necessity.\n\nThe new o1 model family likewise offers a context window of 128,000 tokens, though they offer greater output context length.\n\nThe original Llama models had a maximum context length of 2,048 tokens, which was doubled to 4,096 tokens for Llama 2. During their launch in April 2024, Llama 3 models offered a context window of roughly 8,000 tokens.\n\nLlama’s context length was significantly increased with the launch of Llama 3.1 models, which offered 128,000-token long context windows. Llama 3.2 models likewise have a maximum context length of 128,000 tokens.\n\nMistral Large 2, the flagship model offered by Mistral AI, has a context window of 128,000 tokens.\n\nGoogle’s Gemini series of models offers what is currently the largest context window amongst commercial language models. Gemini 1.5 Pro, Google’s flagship model, offers a context length of up to 2 million tokens. Other Gemini 1.5 models, such as Gemini 1.5 Flash, have a context window of 1 million tokens.\n\nAnthropic’s latest Claude models, such as the Claude 3.5 Sonnet, offer a standard context window of about 200,000 tokens. In early September 2024, Anthropic announced that the models accessed through its new “Claude Enterprise” plan would offer an expanded 500,000 token context window.\n\n1. \"Lost in the Middle: How Language Models Use Long Contexts,\" arXiv, 6 July 2023 2 \"Many-shot jailbreaking,\" Anthropic, 2 April 2024",
+      "fetchedAt": "2026-09-17T13:06:36.165Z",
+      "title": "What is a context window? | IBM",
+      "status": "ok",
+      "contentLength": 14693,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 2,
+          "text": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time. A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output."
+        },
+        {
+          "blockIndex": 3,
+          "text": "An LLM’s context window can be thought of as the equivalent of its working memory. It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange. It also determines the maximum size of documents or code samples that it can process at once. When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed."
+        },
+        {
+          "blockIndex": 4,
+          "text": "Generally speaking, increasing an LLM’s context window size translates to increased accuracy, fewer hallucinations, more coherent model responses, longer conversations and an improved ability to analyze longer sequences of data. However, increasing context length is not without tradeoffs: it often entails increased computational power requirements—and therefore increased costs—and a potential increase in vulnerability to adversarial attacks."
+        },
+        {
+          "blockIndex": 8,
+          "text": "Context windows and tokenization"
+        },
+        {
+          "blockIndex": 9,
+          "text": "In real-world terms, the context length of a language model is measured not in words, but in tokens. To understand how context windows work in practice, it’s important to understand how these tokens work."
+        },
+        {
+          "blockIndex": 10,
+          "text": "The way LLMs process language is fundamentally different from the way humans do. Whereas the smallest unit of information we use to represent language is a single character—such as a letter, number or punctuation mark—the smallest unit of language that AI models use is a token. To train a model to understand language, each token is assigned an ID number; these ID numbers, rather than the words or even the tokens themselves, are used to train the model. This tokenization of language significantly reduces the computational power needed to process and learn from the text."
+        },
+        {
+          "blockIndex": 18,
+          "text": "There is no fixed word-to-token “exchange rate,” and different models or tokenizers—a modular subset of a larger model responsible for tokenization—might tokenize the same passage of writing differently. Efficient tokenization can help increase the actual amount of text that fits within the confines of a context window. But for general purposes, a decent estimate would be roughly 1.5 tokens per word. The Tokenizer Playgroundon Hugging Face is an easy way to see and experiment with how different models tokenize text inputs."
+        },
+        {
+          "blockIndex": 19,
+          "text": "Variations in linguistic structure and representation in training data can result in some languages being more efficiently tokenized than others. For example, an October 2024 study explored an example of the same sentence being tokenized in both English and Telugu. Despite the Telugu translation having significantly fewer characters than its English equivalent, it resulted in over 7 times the number of tokens in context."
+        },
+        {
+          "blockIndex": 22,
+          "text": "Why do models have a maximum context length?"
+        },
+        {
+          "blockIndex": 23,
+          "text": "Though context windows are usually associated with LLMs used for summarization, generating text and other natural language processing (NLP) tasks, context length as a technical consideration is not exclusive to language models. The notion of a context window is relevant to any machine learning model that uses the transformer architecture, which comprises most modern generative AI models, including nearly all LLMs."
+        },
+        {
+          "blockIndex": 24,
+          "text": "Transformer models use a self-attention mechanism to calculate the relationships and dependencies between different parts of an input (like words at the beginning and end of a paragraph). Mathematically speaking, a self-attention mechanism computes vectors of weights for each token in a sequence of text, in which each weight represents how relevant that token is to others in the sequence. An autoregressive LLM iteratively consults those weights each time it generates the next word of its output. The size of the context window determines the maximum number of tokens that the model can “pay attention to” at any one time."
+        },
+        {
+          "blockIndex": 25,
+          "text": "It's worth noting that the text of the actual user input is often not the only thing taking up space within a model’s context window. In many cases, such as with chatbots, models are also provided with a “system prompt”—often hidden from the user—that conditions their behavior and governs other aspects of the conversation. Supplementary information drawn from external data sources for retrieval augmented generation (RAG) is likewise stored within the context window during inference. Special characters, line breaks and other formatting measures also consume some portion of the available context."
+        },
+        {
+          "blockIndex": 26,
+          "text": "It’s also worth noting that language models are not the only neural networks that utilize transformers. For instance, some diffusion models used for image generation incorporate self-attention into their architecture. In their case, the context being attended to is not between tokens representing words (or parts of words) in written content, but between pixels in an image. In such a model, context length would apply to the number of pixels whose relationships the model must understand. Its context window could be exceeded by a high-resolution image containing too many pixels to process at once."
+        },
+        {
+          "blockIndex": 27,
+          "text": "Context windows and computing resources"
+        },
+        {
+          "blockIndex": 28,
+          "text": "Equipping a model with a large context window comes at a cost, both figuratively and literally. Compute requirements scale quadratically with the length of a sequence: for instance, if the number of input tokens doubles, the model needs 4 times as much processing power to handle it."
+        },
+        {
+          "blockIndex": 29,
+          "text": "Similarly, increasing context length can also slow down outputs. Each time the model autoregressively predicts the next token in a sequence, it computes the relationships between that token and every single preceding token in the sequence. Inference might be relatively fast at the beginning of a sequence or conversation but progressively become slower as the context length increases. This is problematic for use cases requiring near-instantaneous inference in real-time."
+        },
+        {
+          "blockIndex": 30,
+          "text": "Recent advancements in average context length for language models have been partially enabled by new techniques to increase inference speed and efficiency enough to sufficiently offset these inherent tradeoffs. These optimization techniques have allowed even small, open source modern LLMs to offer context windows exponentially larger than that of the original GPT-3.5 model that launched OpenAI’s ChatGPT in late 2022."
+        },
+        {
+          "blockIndex": 31,
+          "text": "Challenges of long context windows"
+        },
+        {
+          "blockIndex": 32,
+          "text": "Even when adequate measures are taken to offset the tradeoffs in computation requirements and processing speed, extending a model’s context length limit introduces additional challenges and complications."
+        },
+        {
+          "blockIndex": 38,
+          "text": "A longer context window might also have the unintended effect of presenting a longer attack surface for adversarial prompts. Recent research from Anthropic demonstrated that increasing a model’s context length also increases its vulnerability to “jailbreaking” and (subsequently) being provoked to produce harmful responses.2"
+        },
+        {
+          "blockIndex": 40,
+          "text": "The average context window of a large language model has grown exponentially since the original generative pretrained transformers (GPTs) were released. To date, each successive generation of LLMs has typically entailed significantly longer context lengths. At present, the largest context window offered by a prominent commercial model is over 1 million tokens. It remains to be seen whether context windows will continue to expand or if we’re already approaching the upper limit of practical necessity."
+        },
+        {
+          "blockIndex": 46,
+          "text": "The new o1 model family likewise offers a context window of 128,000 tokens, though they offer greater output context length."
+        },
+        {
+          "blockIndex": 48,
+          "text": "The original Llama models had a maximum context length of 2,048 tokens, which was doubled to 4,096 tokens for Llama 2. During their launch in April 2024, Llama 3 models offered a context window of roughly 8,000 tokens."
+        },
+        {
+          "blockIndex": 49,
+          "text": "Llama’s context length was significantly increased with the launch of Llama 3.1 models, which offered 128,000-token long context windows. Llama 3.2 models likewise have a maximum context length of 128,000 tokens."
+        },
+        {
+          "blockIndex": 51,
+          "text": "Mistral Large 2, the flagship model offered by Mistral AI, has a context window of 128,000 tokens."
+        },
+        {
+          "blockIndex": 53,
+          "text": "Google’s Gemini series of models offers what is currently the largest context window amongst commercial language models. Gemini 1.5 Pro, Google’s flagship model, offers a context length of up to 2 million tokens. Other Gemini 1.5 models, such as Gemini 1.5 Flash, have a context window of 1 million tokens."
+        },
+        {
+          "blockIndex": 55,
+          "text": "Anthropic’s latest Claude models, such as the Claude 3.5 Sonnet, offer a standard context window of about 200,000 tokens. In early September 2024, Anthropic announced that the models accessed through its new “Claude Enterprise” plan would offer an expanded 500,000 token context window."
+        },
+        {
+          "blockIndex": 73,
+          "text": "1. \"Lost in the Middle: How Language Models Use Long Contexts,\" arXiv, 6 July 2023 2 \"Many-shot jailbreaking,\" Anthropic, 2 April 2024"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://memgraph.com/blog/llm-limitations-query-enterprise-data",
+      "content": "Back to blogGraph tech AILLM Limitations: Why Can’t You Query Your Enterprise Knowledge with Just an LLM?By Sara Tilly4 min readMarch 27, 2025Large Language Models (LLMs) like ChatGPT and GPT-4 are incredible tools. They can write essays, generate code, and even hold surprisingly coherent conversations. But if you’ve ever thought, “Can I use this to query all my company’s data?”—the short answer is: not really. Here’s why relying solely on an LLM for enterprise knowledge querying doesn’t work and what you can do about it. LLMs Are Generalists, Not Specialists Think of LLMs like the ultimate trivia champion. They’ve read tons of books, articles, and online discussions, so they know a lot about everything. But when it comes to your company’s proprietary data—sales reports, technical documentation, or customer feedback—they’re clueless. Why? They weren’t trained on your data. LLMs like GPT are trained on publicly available information, not your internal documents. They lack context. Even if you try to feed your enterprise data into the LLM, it doesn’t “remember” it or fully grasp its importance. Key Limitations of LLMs for Enterprise Knowledge 1. The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words). Even with newer models that boast expanded context windows, there’s still a cap. Here’s the problem: Your enterprise data probably spans terabytes—way more than an LLM can store in their context window. Even if you chunk the data, the LLM can only “see” the part you’ve fed it in a single query. 2. Attention Deficit Disorder Within the context window, the LLM tries to identify the most important bits of information. But here’s the catch: Relevance is subjective. The LLM might grab onto the wrong details and miss what you actually care about. Prompt engineering is a guessing game. Crafting the perfect query to get a useful answer is more art than science—and not foolproof. For enterprise scenarios, where precision matters, this kind of hit-or-miss approach isn’t ideal. 3. LLMs Lack Reasoning LLMs don’t reason like humans. They generate responses by predicting the next word based on patterns in their training data. This works well for conversational tasks but falls short when: Deep reasoning is required. For example, understanding complex relationships between entities in your data. Fresh data is involved. LLMs can’t keep up with real-time changes in your enterprise knowledge. 4. Data Security and Privacy Concerns Your enterprise data is sensitive. Feeding it into a cloud-based LLM like ChatGPT raises questions like: Where does the data go? Is it stored? Who has access to it? Will the next version of ChatGPT be trained on it? Many organizations avoid using public LLMs for proprietary knowledge due to these risks. Why You Can’t Just “Train the LLM on My Data” You might think, “Fine, I’ll just train the LLM on my data!” Great idea in theory, but in practice, it’s not that simple. Fine-tuning is expensive. You’ll need massive compute resources, like GPUs with loads of memory, and even then, it’s slow. It’s a moving target. If your data updates frequently, you’d have to retrain the model constantly. It requires expertise. Fine-tuning isn’t plug-and-play. You need deep knowledge of neural networks and hyperparameter tuning. Watch: How to fine-tune an LLM? Getting started The Solution: Augment LLMs with Context To make LLMs work for enterprise knowledge, you need to give them superpowers. That’s where approaches like Retrieval-Augmented Generation (RAG) come in. How RAG Solves the Problem Store your data somewhere accessible. Use a graph database, vector database, or another structured data store. Find what’s relevant. Search through your data and retrieve only the pieces related to the query. Feed it to the LLM. Append the retrieved data to your prompt for added context. By combining LLMs with RAG, you get the best of both worlds: The conversational abilities of the LLM. The precision and specificity of your enterprise knowledge. TL;DR LLMs like ChatGPT are amazing at generating text but have critical limitations when it comes to querying enterprise knowledge: They don’t know your data. Their context window is small, in comparison to your data. They can’t reason like humans. Fine-tuning is expensive and impractical for dynamic data. To overcome these challenges, you need systems like RAG to augment LLMs with context from your proprietary data. It’s not about replacing the LLM but making it smarter and more relevant to your needs. Next time you ask, “Why can’t ChatGPT just know everything about my company?” you’ll know the answer. It wasn’t built for that—but with the right tools, you can make it work. Continue our GraphRAG blog series: Fine-Tuning LLMs vs. RAG: How to Solve LLM Limitations.Join us on Discord!Find other developers performing graph analytics in real time with Memgraph.Join now",
+      "fetchedAt": "2026-09-17T13:06:36.167Z",
+      "title": "LLM Limitations: Why Can’t You Query Your Enterprise Knowledge with Just an LLM?",
+      "status": "ok",
+      "contentLength": 5008,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "Back to blogGraph tech AILLM Limitations: Why Can’t You Query Your Enterprise Knowledge with Just an LLM?By Sara Tilly4 min readMarch 27, 2025Large Language Models (LLMs) like ChatGPT and GPT-4 are incredible tools. They can write essays, generate code, and even hold surprisingly coherent conversations. But if you’ve ever thought, “Can I use this to query all my company’s data?”—the short answer is: not really. Here’s why relying solely on an LLM for enterprise knowledge querying doesn’t work and what you can do about it. LLMs Are Generalists, Not Specialists Think of LLMs like the ultimate trivia champion. They’ve read tons of books, articles, and online discussions, so they know a lot about everything. But when it comes to your company’s proprietary data—sales reports, technical documentation, or customer feedback—they’re clueless. Why? They weren’t trained on your data. LLMs like GPT are trained on publicly available information, not your internal documents. They lack context. Even if you try to feed your enterprise data into the LLM, it doesn’t “remember” it or fully grasp its importance. Key Limitations of LLMs for Enterprise Knowledge 1. The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words). Even with newer models that boast expanded context windows, there’s still a cap. Here’s the problem: Your enterprise data probably spans terabytes—way more than an LLM can store in their context window. Even if you chunk the data, the LLM can only “see” the part you’ve fed it in a single query. 2. Attention Deficit Disorder Within the context window, the LLM tries to identify the most important bits of information. But here’s the catch: Relevance is subjective. The LLM might grab onto the wrong details and miss what you actually care about. Prompt engineering is a guessing game. Crafting the perfect query to get a useful answer is more art than science—and not foolproof. For enterprise scenarios, where precision matters, this kind of hit-or-miss approach isn’t ideal. 3. LLMs Lack Reasoning LLMs don’t reason like humans. They generate responses by predicting the next word based on patterns in their training data. This works well for conversational tasks but falls short when: Deep reasoning is required. For example, understanding complex relationships between entities in your data. Fresh data is involved. LLMs can’t keep up with real-time changes in your enterprise knowledge. 4. Data Security and Privacy Concerns Your enterprise data is sensitive. Feeding it into a cloud-based LLM like ChatGPT raises questions like: Where does the data go? Is it stored? Who has access to it? Will the next version of ChatGPT be trained on it? Many organizations avoid using public LLMs for proprietary knowledge due to these risks. Why You Can’t Just “Train the LLM on My Data” You might think, “Fine, I’ll just train the LLM on my data!” Great idea in theory, but in practice, it’s not that simple. Fine-tuning is expensive. You’ll need massive compute resources, like GPUs with loads of memory, and even then, it’s slow. It’s a moving target. If your data updates frequently, you’d have to retrain the model constantly. It requires expertise. Fine-tuning isn’t plug-and-play. You need deep knowledge of neural networks and hyperparameter tuning. Watch: How to fine-tune an LLM? Getting started The Solution: Augment LLMs with Context To make LLMs work for enterprise knowledge, you need to give them superpowers. That’s where approaches like Retrieval-Augmented Generation (RAG) come in. How RAG Solves the Problem Store your data somewhere accessible. Use a graph database, vector database, or another structured data store. Find what’s relevant. Search through your data and retrieve only the pieces related to the query. Feed it to the LLM. Append the retrieved data to your prompt for added context. By combining LLMs with RAG, you get the best of both worlds: The conversational abilities of the LLM. The precision and specificity of your enterprise knowledge. TL;DR LLMs like ChatGPT are amazing at generating text but have critical limitations when it comes to querying enterprise knowledge: They don’t know your data. Their context window is small, in comparison to your data. They can’t reason like humans. Fine-tuning is expensive and impractical for dynamic data. To overcome these challenges, you need systems like RAG to augment LLMs with context from your proprietary data. It’s not about replacing the LLM but making it smarter and more relevant to your needs. Next time you ask, “Why can’t ChatGPT just know everything about my company?” you’ll know the answer. It wasn’t built for that—but with the right tools, you can make it work. Continue our GraphRAG blog series: Fine-Tuning LLMs vs. RAG: How to Solve LLM Limitations.Join us on Discord!Find other developers performing graph analytics in real time with Memgraph.Join now"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "content": "",
+      "fetchedAt": "2026-09-17T13:06:36.169Z",
+      "title": "",
+      "status": "blocked",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://medium.com/@gianluca.mondillo/context-window-the-memory-limits-of-llms-f11887390490",
+      "content": "",
+      "fetchedAt": "2026-09-17T13:06:37.957Z",
+      "title": "",
+      "status": "blocked",
+      "contentLength": 0,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Context_window",
+      "content": "From Wikipedia, the free encyclopedia The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters. In practical terms, the context window is the material the model can \"see\" while producing response; anything outside that window is not directly available unless it is summarized, retrieved, or provided again. A longer context window can allow a model to work with longer prompts, conversations, documents, codebases, or retrieved passages without first compressing or discarding as much information.[1] The practical size of context windows has increased rapidly as LLM systems have developed. Some models are limited by the sequence lengths used during training, while attention variants and positional-encoding methods can allow models to operate on longer sequences than those seen during training.[2] By the mid-2020s, long-context systems had reported context windows ranging from hundreds of thousands to millions of tokens; Google researchers reported Gemini 1.5 evaluations on retrieval tasks at up to 10 million tokens.[3] A larger context window does not necessarily mean that a model can use the entire context equally well. In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.[4] Other benchmarks have assessed long- context capability using tasks that go beyond simple retrieval, including multi-document question answering, long-dialogue understanding, code repository understanding, and structured-data reasoning.[5][6] References[edit] ↑ Nir Ratner et al., \"Parallel Context Windows for Large Language Models\", Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, 2023, pp. 6383-6402, doi:10.18653/v1/2023.acl-long.352. ↑ Ofir Press et al., \"Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation\", arXiv:2108.12409, 2021. ↑ Machel Reid et al., \"Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context\", arXiv:2403.05530, 2024. ↑ Nelson F. Liu et al., \"Lost in the Middle: How Language Models Use Long Contexts\", Transactions of the Association for Computational Linguistics, 2024, vol. 12, pp. 157-173, doi:10.1162/tacl_a_00638. ↑ Cheng-Ping Hsieh et al., \"RULER: What's the Real Context Size of Your Long- Context Language Models?\", arXiv:2404.06654, 2024. ↑ Yushi Bai et al., \"LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks\", Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025, pp. 3639-3664, doi:10.18653/v1/2025.acl-long.183. This large language model-related article is a stub. You can help Wikipedia by adding missing information.vte <img src=\"https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1\" alt=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"> Retrieved from \"https://en.wikipedia.org/w/index.php?title=Context_window&oldid=1373969808\" Categories: Large language modelsNatural language processing stubsHidden categories: Articles with short descriptionShort description is different from WikidataAll stub articles",
+      "fetchedAt": "2026-09-17T13:06:37.959Z",
+      "title": "Context window - Wikipedia",
+      "status": "ok",
+      "contentLength": 3459,
+      "promptInjection": false,
+      "contentTruncated": false,
+      "contentSegments": [
+        {
+          "blockIndex": 0,
+          "text": "From Wikipedia, the free encyclopedia The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output. It is usually measured in tokens, which are units produced by the model's tokenizer rather than words or characters. In practical terms, the context window is the material the model can \"see\" while producing response; anything outside that window is not directly available unless it is summarized, retrieved, or provided again. A longer context window can allow a model to work with longer prompts, conversations, documents, codebases, or retrieved passages without first compressing or discarding as much information.[1] The practical size of context windows has increased rapidly as LLM systems have developed. Some models are limited by the sequence lengths used during training, while attention variants and positional-encoding methods can allow models to operate on longer sequences than those seen during training.[2] By the mid-2020s, long-context systems had reported context windows ranging from hundreds of thousands to millions of tokens; Google researchers reported Gemini 1.5 evaluations on retrieval tasks at up to 10 million tokens.[3] A larger context window does not necessarily mean that a model can use the entire context equally well. In \"Lost in the Middle\", Liu et al. found that performance on long-context tasks was often worse when relevant information appeared in the middle of an input rather than near the beginning or end.[4] Other benchmarks have assessed long- context capability using tasks that go beyond simple retrieval, including multi-document question answering, long-dialogue understanding, code repository understanding, and structured-data reasoning.[5][6] References[edit] ↑ Nir Ratner et al., \"Parallel Context Windows for Large Language Models\", Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, 2023, pp. 6383-6402, doi:10.18653/v1/2023.acl-long.352. ↑ Ofir Press et al., \"Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation\", arXiv:2108.12409, 2021. ↑ Machel Reid et al., \"Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context\", arXiv:2403.05530, 2024. ↑ Nelson F. Liu et al., \"Lost in the Middle: How Language Models Use Long Contexts\", Transactions of the Association for Computational Linguistics, 2024, vol. 12, pp. 157-173, doi:10.1162/tacl_a_00638. ↑ Cheng-Ping Hsieh et al., \"RULER: What's the Real Context Size of Your Long- Context Language Models?\", arXiv:2404.06654, 2024. ↑ Yushi Bai et al., \"LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks\", Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025, pp. 3639-3664, doi:10.18653/v1/2025.acl-long.183. This large language model-related article is a stub. You can help Wikipedia by adding missing information.vte <img src=\"https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1\" alt=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"> Retrieved from \"https://en.wikipedia.org/w/index.php?title=Context_window&oldid=1373969808\" Categories: Large language modelsNatural language processing stubsHidden categories: Articles with short descriptionShort description is different from WikidataAll stub articles"
+        }
+      ],
+      "injectionExampleDetected": false
+    },
+    {
+      "url": "https://www.linkedin.com/posts/scottsteele_artificialintelligence-llm-aiexpertise-activity-7381790290346479617-gFhp",
+      "content": "Your LLM has a bad memory. It's getting better (sort of) but it's important to understand limitations and mitigations to get the best output. Ever go back-forth with an LLM only to have it suddenly seem to forget what you were talking about? I know a teacher who used ChatGPT to grade a set of assignments against an answer key only to have the grading go off the rails part way through. Token limits - basically the maximum # of allowed words in the chat - were the likely culprit. LLMs have a bad (or more accurately: limited) memory within each chat thread, putting a cap not only length of chat threads but things like the amount of spreadsheet data, PDF data, or software code that the LLM can process. Recent improvements in ChatGPT 5 and Claude 4+ have implemented document stores (projects) and cross-chat memory which allows a query in one thread to automatically utilize prior documents and other chat threads as context (memory) for a new query. But these have limitations too. They give the LLM better access to prior data *but* the foundation models themselves have limits on the number of tokens they can process (input & response combined), ranging from as low as ~4,000 to as high as ~1,000,000. To balance large amounts of prior data against limited token processing capability, your LLM's \"memory\" is curated so only the most relevant parts are sent to the underlying model as part of your new query. Cursor does something similar to allow LLMs to handle very large software code bases. In either case this puts a lot of pressure on the curation engine to pick the right context, and just enough of it, to send to the LLM model along with the new query to balance how much \"memory\" is used vs. leaving enough token space for your new query and its response. Why does this matter? Understanding underlying model token limits and how vast amounts of chat and document history are curated into context for your current query are important so you get the best output and can diagnose why things go off the rails if your LLM exhausts its token buffer. If you build a local model or use a foundation model API along with your own \"memory\" or context - e.g. RAG via a vector database of your company's document repository - the same token limits will apply, necessitating clever selection of the most applicable content to send to the LLM along with a user's query. There are a lot of resources on the web describing state-of-the-art optimal context management within token limitations - very useful if you are rolling-your-own. Otherwise current LLMs like ChatGPT and Claude do the magic behind the scenes and utilize previous data well. Just be mindful of the limitations to get the best output. #ArtificialIntelligence #LLM #AIExpertise #AIInsights\n\nKushal Joseph Vallamkatt 10 tháng Đã sửa Báo cáo bài đăng này What is the difference between uploading a file as an attachment to an LLM, vs. simply copying the contents of the file into the LLM chat? Initially, I thought the underlying process was similar. However, there is a fundamental difference in how the LLM would process it (even though it would be the same exact information). Uploading an attachment triggers the LLM’s Retrieval Augmented Generation (RAG) pipeline. This term sounds complicated, but on a high level, it involves the following simple steps: 1. Extraction: Extract the file’s contents as text. Audio/Videos are usually transcribed into text. 2. Chunking: Make chunks from the text, of a certain size, say, chunks of 200-500 words. 3. Embedding: Create an ‘embedding’ out of each chunk by passing it through a text-embedding model. This is just a list of numbers that encodes the semantic meaning of the chunk. 4. Storing: Store these embeddings in a ‘Vector’ Database. With this preprocessing done, when we now ask the LLM a question, 1. Query: Our question is converted to an embedding using the same model as earlier. 2. Retrieval: The Vector DB is queried to find those “chunks” which are very similar to our question. 3. Augmentation: The LLM is now fed the following: { our question; the relevant chunks retrieved above; and an instruction like: “Only use these chunks of data to answer the question” } Hence, the LLM now only sees the data (potentially) required to answer our question, and nothing else. This is in contrast with just copy-pasting the contents (which is called ‘prompt-stuffing’), where our data is simply put into the LLM’s (small) context window. In this case, it does 'process' all the data. Is RAG always better? It obviously suits extremely large files like codebases, books, etc. However, sometimes, it may miss \"big picture\" themes if the answer requires synthesizing info from many different, non-obvious parts of the file. On the other hand, prompt-stuffing is strictly limited by the LLM's context window (eg. 128k, or 1M tokens). Performance can also degrade, not just from a full context, but from the 'Lost in the Middle' problem: even modern LLMs place the most importance on information at the very beginning and end of a prompt, often paying less attention to content 'buried' in the middle. [Image Source: Conversed AI. https://lnkd.in/gCtPVH22]. #RAG #RetrievalAugmentedGeneration #LLM #AI #VectorDB #PromptStuffing 39 1 Bình luận Thích Bình luận Chia sẻ Sao chép LinkedIn Facebook X Để xem hoặc thêm bình luận, hãy đăng nhập\n\nBo Kinloch 11 tháng Đã sửa Báo cáo bài đăng này ❗Part two of the #vibecoding #fix: hard coded data and \"hybrid 'help.'\" We started version two with a clean set of #rules (.claude/rules.md file) to keep the coding agent aligned with our design principles, which included instructions for real-time research ONLY. Everything was supposed to follow those #guardrails. But over weeks of debugging, something subtle crept in. Each time I told the coding agent, “something in the regulatory agent isn’t working, it should show [x] in the results,\" it would fix it (and fast). 🤯 In some cases, “fast” meant #fake. Realtime search means scraping data from a public website \"now.\" Claude coded the scrapers, but, when it hit blocks on real websites (like FTC or EU regulator portals), the agent \"quietly solved” the problem by inserting #hardcoded examples or falling back to #training data. It said, \"if data isn't available from the search, then I can #fallback on training data.\" Sounds good, right? I’d mentioned Google once as a test case, and soon, *only* Google was showing up in results. 💡Here’s the trap: this “hybrid” behavior of mixing live data with model memory looked smart and efficient but it was actually hiding #failure. 👉The AI optimized for “make it work,” not “make it right.” Hybrid systems sound sophisticated! But in this context, the fallback to training data let the app sidestep the hard work of true retrieval. It looked functional while quietly drifting off\n\nDevansh Goyal 10 tháng Báo cáo bài đăng này 🚀 The Future of LLM Data: Why TOON is Leaving JSON Behind (for the Right Tasks) As we continue to push the boundaries of Large Language Models (LLMs), one thing has become clear — every token counts. While JSON has long been the industry standard for structured data exchange, a new format is quietly redefining how we feed and extract data from LLMs: TOON (Token-Oriented Object Notation). Here’s why data professionals are paying attention 👇 💸 Massive Token Efficiency TOON is purpose-built for LLMs. By stripping away redundant syntax like braces, brackets, and repeated keys, it achieves 30–60% token savings for certain data types — directly reducing API costs and expanding context windows. 🧑💻 Superior Human Readability Drawing inspiration from YAML and CSV, TOON simplifies complex data into a clean, tabular layout. By declaring field names once and streaming rows, developers can easily scan, interpret, and modify structured data — making it both machine-efficient and human-friendly. ⚠️ The Critical Catch: Structure is Key This efficiency, however, comes with a major caveat that all developers must understand: TOON's advantage is limited to linear, uniform arrays and flat data structures. ✅ Works Best: When your data is a list of objects with the same fields (e.g., product catalogs, user lists, API response arrays). ❌ The Downside: If your data is deeply nested, hierarchical, or irregular, TOON quickly loses its efficiency. It relies on indentation rather than explicit delimiters, often becoming more verbose, harder to parse, and in many cases, will end up using more tokens than a well-structured JSON object. Conclusion: Don't replace JSON everywhere, but strategically deploy TOON for your flat, tabular LLM interactions to maximize cost savings and performance. For complex, nested schemas, JSON remains the gold standard for its clarity and parsing reliability. #LLMs #AI #GenerativeAI #DataEngineering #TOON #JSON #TokenEfficiency #TechInnovation #PromptEngineering 29 1 Bình luận Thích Bình luận Chia sẻ Sao chép LinkedIn Facebook X Để xem hoặc thêm bình luận, hãy đăng nhập",
+      "fetchedAt": "2026-09-17T13:06:37.961Z",
+      "title": "Understanding LLM memory limitations and mitigations | Scott Steele Đăng trên chủ đề | LinkedIn",
+      "status": "ok",
+      "contentLength": 22350,
+      "promptInjection": false,
+      "contentTruncated": true,
+      "contentSegments": [
+        {
+          "blockIndex": 2,
+          "text": "Your LLM has a bad memory. It's getting better (sort of) but it's important to understand limitations and mitigations to get the best output. Ever go back-forth with an LLM only to have it suddenly seem to forget what you were talking about? I know a teacher who used ChatGPT to grade a set of assignments against an answer key only to have the grading go off the rails part way through. Token limits - basically the maximum # of allowed words in the chat - were the likely culprit. LLMs have a bad (or more accurately: limited) memory within each chat thread, putting a cap not only length of chat threads but things like the amount of spreadsheet data, PDF data, or software code that the LLM can process. Recent improvements in ChatGPT 5 and Claude 4+ have implemented document stores (projects) and cross-chat memory which allows a query in one thread to automatically utilize prior documents and other chat threads as context (memory) for a new query. But these have limitations too. They give the LLM better access to prior data *but* the foundation models themselves have limits on the number of tokens they can process (input & response combined), ranging from as low as ~4,000 to as high as ~1,000,000. To balance large amounts of prior data against limited token processing capability, your LLM's \"memory\" is curated so only the most relevant parts are sent to the underlying model as part of your new query. Cursor does something similar to allow LLMs to handle very large software code bases. In either case this puts a lot of pressure on the curation engine to pick the right context, and just enough of it, to send to the LLM model along with the new query to balance how much \"memory\" is used vs. leaving enough token space for your new query and its response. Why does this matter? Understanding underlying model token limits and how vast amounts of chat and document history are curated into context for your current query are important so you get the best output and can diagnose why things go off the rails if your LLM exhausts its token buffer. If you build a local model or use a foundation model API along with your own \"memory\" or context - e.g. RAG via a vector database of your company's document repository - the same token limits will apply, necessitating clever selection of the most applicable content to send to the LLM along with a user's query. There are a lot of resources on the web describing state-of-the-art optimal context management within token limitations - very useful if you are rolling-your-own. Otherwise current LLMs like ChatGPT and Claude do the magic behind the scenes and utilize previous data well. Just be mindful of the limitations to get the best output. #ArtificialIntelligence #LLM #AIExpertise #AIInsights"
+        },
+        {
+          "blockIndex": 13,
+          "text": "Kushal Joseph Vallamkatt 10 tháng Đã sửa Báo cáo bài đăng này What is the difference between uploading a file as an attachment to an LLM, vs. simply copying the contents of the file into the LLM chat? Initially, I thought the underlying process was similar. However, there is a fundamental difference in how the LLM would process it (even though it would be the same exact information). Uploading an attachment triggers the LLM’s Retrieval Augmented Generation (RAG) pipeline. This term sounds complicated, but on a high level, it involves the following simple steps: 1. Extraction: Extract the file’s contents as text. Audio/Videos are usually transcribed into text. 2. Chunking: Make chunks from the text, of a certain size, say, chunks of 200-500 words. 3. Embedding: Create an ‘embedding’ out of each chunk by passing it through a text-embedding model. This is just a list of numbers that encodes the semantic meaning of the chunk. 4. Storing: Store these embeddings in a ‘Vector’ Database. With this preprocessing done, when we now ask the LLM a question, 1. Query: Our question is converted to an embedding using the same model as earlier. 2. Retrieval: The Vector DB is queried to find those “chunks” which are very similar to our question. 3. Augmentation: The LLM is now fed the following: { our question; the relevant chunks retrieved above; and an instruction like: “Only use these chunks of data to answer the question” } Hence, the LLM now only sees the data (potentially) required to answer our question, and nothing else. This is in contrast with just copy-pasting the contents (which is called ‘prompt-stuffing’), where our data is simply put into the LLM’s (small) context window. In this case, it does 'process' all the data. Is RAG always better? It obviously suits extremely large files like codebases, books, etc. However, sometimes, it may miss \"big picture\" themes if the answer requires synthesizing info from many different, non-obvious parts of the file. On the other hand, prompt-stuffing is strictly limited by the LLM's context window (eg. 128k, or 1M tokens). Performance can also degrade, not just from a full context, but from the 'Lost in the Middle' problem: even modern LLMs place the most importance on information at the very beginning and end of a prompt, often paying less attention to content 'buried' in the middle. [Image Source: Conversed AI. https://lnkd.in/gCtPVH22]. #RAG #RetrievalAugmentedGeneration #LLM #AI #VectorDB #PromptStuffing 39 1 Bình luận Thích Bình luận Chia sẻ Sao chép LinkedIn Facebook X Để xem hoặc thêm bình luận, hãy đăng nhập"
+        },
+        {
+          "blockIndex": 22,
+          "text": "Bo Kinloch 11 tháng Đã sửa Báo cáo bài đăng này ❗Part two of the #vibecoding #fix: hard coded data and \"hybrid 'help.'\" We started version two with a clean set of #rules (.claude/rules.md file) to keep the coding agent aligned with our design principles, which included instructions for real-time research ONLY. Everything was supposed to follow those #guardrails. But over weeks of debugging, something subtle crept in. Each time I told the coding agent, “something in the regulatory agent isn’t working, it should show [x] in the results,\" it would fix it (and fast). 🤯 In some cases, “fast” meant #fake. Realtime search means scraping data from a public website \"now.\" Claude coded the scrapers, but, when it hit blocks on real websites (like FTC or EU regulator portals), the agent \"quietly solved” the problem by inserting #hardcoded examples or falling back to #training data. It said, \"if data isn't available from the search, then I can #fallback on training data.\" Sounds good, right? I’d mentioned Google once as a test case, and soon, *only* Google was showing up in results. 💡Here’s the trap: this “hybrid” behavior of mixing live data with model memory looked smart and efficient but it was actually hiding #failure. 👉The AI optimized for “make it work,” not “make it right.” Hybrid systems sound sophisticated! But in this context, the fallback to training data let the app sidestep the hard work of true retrieval. It looked functional while quietly drifting off"
+        },
+        {
+          "blockIndex": 58,
+          "text": "Devansh Goyal 10 tháng Báo cáo bài đăng này 🚀 The Future of LLM Data: Why TOON is Leaving JSON Behind (for the Right Tasks) As we continue to push the boundaries of Large Language Models (LLMs), one thing has become clear — every token counts. While JSON has long been the industry standard for structured data exchange, a new format is quietly redefining how we feed and extract data from LLMs: TOON (Token-Oriented Object Notation). Here’s why data professionals are paying attention 👇 💸 Massive Token Efficiency TOON is purpose-built for LLMs. By stripping away redundant syntax like braces, brackets, and repeated keys, it achieves 30–60% token savings for certain data types — directly reducing API costs and expanding context windows. 🧑💻 Superior Human Readability Drawing inspiration from YAML and CSV, TOON simplifies complex data into a clean, tabular layout. By declaring field names once and streaming rows, developers can easily scan, interpret, and modify structured data — making it both machine-efficient and human-friendly. ⚠️ The Critical Catch: Structure is Key This efficiency, however, comes with a major caveat that all developers must understand: TOON's advantage is limited to linear, uniform arrays and flat data structures. ✅ Works Best: When your data is a list of objects with the same fields (e.g., product catalogs, user lists, API response arrays). ❌ The Downside: If your data is deeply nested, hierarchical, or irregular, TOON quickly loses its efficiency. It relies on indentation rather than explicit delimiters, often becoming more verbose, harder to parse, and in many cases, will end up using more tokens than a well-structured JSON object. Conclusion: Don't replace JSON everywhere, but strategically deploy TOON for your flat, tabular LLM interactions to maximize cost savings and performance. For complex, nested schemas, JSON remains the gold standard for its clarity and parsing reliability. #LLMs #AI #GenerativeAI #DataEngineering #TOON #JSON #TokenEfficiency #TechInnovation #PromptEngineering 29 1 Bình luận Thích Bình luận Chia sẻ Sao chép LinkedIn Facebook X Để xem hoặc thêm bình luận, hãy đăng nhập"
+        }
+      ],
+      "injectionExampleDetected": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://www.ibm.com/think/topics/context-window",
+      "tieuDe": "What is a context window? | IBM",
+      "tacGia": "Dave Bergmann",
+      "ngayDang": "2024-11-26",
+      "ngayLayVe": "2026-09-17T13:06:36.165Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "IBM là công ty công nghệ uy tín, nội dung được viết bởi chuyên gia nội bộ, ngày đăng rõ ràng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã hơn 1 năm so với ngày truy cập, cần kiểm tra tính cập nhật.",
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://memgraph.com/blog/llm-limitations-query-enterprise-data",
+      "tieuDe": "LLM Limitations: Why Can’t You Query Your Enterprise Knowledge with Just an LLM?",
+      "ngayLayVe": "2026-09-17T13:06:36.167Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Blog công nghệ của công ty Memgraph, không có tác giả cụ thể nhưng nội dung được kiểm duyệt và có ngày đăng.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn đã hơn 1 năm so với ngày truy cập, cần kiểm tra tính cập nhật.",
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Context_window",
+      "tieuDe": "Context window - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:06:37.959Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là bách khoa toàn thư mở, thông tin được cộng đồng kiểm duyệt, tuy không có tác giả cụ thể.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n04",
+      "url": "https://www.linkedin.com/posts/scottsteele_artificialintelligence-llm-aiexpertise-activity-7381790290346479617-gFhp",
+      "tieuDe": "Understanding LLM memory limitations and mitigations | Scott Steele Đăng trên chủ đề | LinkedIn",
+      "toChuc": "LinkedIn",
+      "ngayLayVe": "2026-09-17T13:06:37.961Z",
+      "loai": "blog-ca-nhan",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Bài đăng trên LinkedIn không có thông tin tác giả rõ ràng, ngày đăng không xác định, độ tin cậy thấp.",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n05",
+      "url": "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "tieuDe": "https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d",
+      "ngayLayVe": "2026-09-17T13:06:36.169Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "blocked",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    },
+    {
+      "id": "n06",
+      "url": "https://medium.com/@gianluca.mondillo/context-window-the-memory-limits-of-llms-f11887390490",
+      "tieuDe": "https://medium.com/@gianluca.mondillo/context-window-the-memory-limits-of-llms-f11887390490",
+      "ngayLayVe": "2026-09-17T13:06:37.957Z",
+      "loai": "khong-xac-dinh",
+      "doTinCay": "thap",
+      "lyDoTinCay": "Không đọc được trang: HTTP 403 — Trang yêu cầu đăng nhập hoặc bị chặn truy cập",
+      "trangThai": "bi-loai",
+      "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+      "doanTrich": "",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "blocked",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ]
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "sourcesRejected": [
+    "n04",
+    "n05",
+    "n06"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Định nghĩa cửa sổ ngữ cảnh: là lượng văn bản (token) mà mô hình có thể xem và “nhớ” trong một lần xử lý.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.",
+          "viTri": "đoạn đầu"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.",
+          "viTri": "đoạn đầu"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t02",
+      "noiDung": "Khi đoạn hội thoại vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt ngắn hoặc tóm tắt, dẫn đến việc quên thông tin phía đầu.",
+      "loai": "luan-diem",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.",
+          "viTri": "đoạn giữa"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words).",
+          "viTri": "đoạn đầu"
+        }
+      ],
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/context-window\",\n      \"tieuDe\": \"What is a context window? | IBM\",\n      \"tacGia\": \"Dave Bergmann\",\n      \"toChuc\": \"\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T13:06:36.165Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là công ty công nghệ uy tín, nội dung được viết bởi chuyên gia nội bộ, ngày đăng rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn đã hơn 1 năm so với ngày truy cập, cần kiểm tra tính cập nhật.\"],\n      \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://memgraph.com/blog/llm-limitations-query-enterprise-data\",\n      \"tieuDe\": \"LLM Limitations: Why Can’t You Query Your Enterprise Knowledge with Just an LLM?\",\n      \"tacGia\": \"\",\n      \"toChuc\": \"\",\n      \"ngayDang\": \"2025-03-27\",\n      \"ngayLayVe\": \"2026-09-17T13:06:36.167Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog công nghệ của công ty Memgraph, không có tác giả cụ thể nhưng nội dung được kiểm duyệt và có ngày đăng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn đã hơn 1 năm so với ngày truy cập, cần kiểm tra tính cập nhật.\"],\n      \"doanTrich\": \"The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words).\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Context_window\",\n      \"tieuDe\": \"Context window - Wikipedia\",\n      \"tacGia\": \"\",\n      \"toChuc\": \"\",\n      \"ngayDang\": \"\",\n      \"ngayLayVe\": \"2026-09-17T13:06:37.959Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Wikipedia là bách khoa toàn thư mở, thông tin được cộng đồng kiểm duyệt, tuy không có tác giả cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://www.linkedin.com/posts/scottsteele_artificialintelligence-llm-aiexpertise-activity-7381790290346479617-gFhp\",\n      \"tieuDe\": \"Understanding LLM memory limitations and mitigations | Scott Steele\",\n      \"tacGia\": \"\",\n      \"toChuc\": \"LinkedIn\",\n      \"ngayDang\": \"\",\n      \"ngayLayVe\": \"2026-09-17T13:06:37.961Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Bài đăng trên LinkedIn không có thông tin tác giả rõ ràng, ngày đăng không xác định, độ tin cậy thấp.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn không đáng tin, không có thông tin tác giả, ngày đăng không xác định.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Định nghĩa cửa sổ ngữ cảnh: là lượng văn bản (token) mà mô hình có thể xem và “nhớ” trong một lần xử lý.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\n          \"viTri\": \"đoạn đầu\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\",\n          \"viTri\": \"đoạn đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Khi đoạn hội thoại vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt ngắn hoặc tóm tắt, dẫn đến việc quên thông tin phía đầu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\",\n          \"viTri\": \"đoạn giữa\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words).\",\n          \"viTri\": \"đoạn đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}",
+  "aiAttempts": [
+    {
+      "stage": "initial",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "requestId": "chatcmpl-53647b96-ecd2-4852-91a4-ab6ac46be13d",
+      "durationMs": 8098,
+      "rawAiResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://www.ibm.com/think/topics/context-window\",\n      \"tieuDe\": \"What is a context window? | IBM\",\n      \"tacGia\": \"Dave Bergmann\",\n      \"toChuc\": \"\",\n      \"ngayDang\": \"2024-11-26\",\n      \"ngayLayVe\": \"2026-09-17T13:06:36.165Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"IBM là công ty công nghệ uy tín, nội dung được viết bởi chuyên gia nội bộ, ngày đăng rõ ràng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn đã hơn 1 năm so với ngày truy cập, cần kiểm tra tính cập nhật.\"],\n      \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://memgraph.com/blog/llm-limitations-query-enterprise-data\",\n      \"tieuDe\": \"LLM Limitations: Why Can’t You Query Your Enterprise Knowledge with Just an LLM?\",\n      \"tacGia\": \"\",\n      \"toChuc\": \"\",\n      \"ngayDang\": \"2025-03-27\",\n      \"ngayLayVe\": \"2026-09-17T13:06:36.167Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Blog công nghệ của công ty Memgraph, không có tác giả cụ thể nhưng nội dung được kiểm duyệt và có ngày đăng.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [\"Nguồn đã hơn 1 năm so với ngày truy cập, cần kiểm tra tính cập nhật.\"],\n      \"doanTrich\": \"The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words).\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Context_window\",\n      \"tieuDe\": \"Context window - Wikipedia\",\n      \"tacGia\": \"\",\n      \"toChuc\": \"\",\n      \"ngayDang\": \"\",\n      \"ngayLayVe\": \"2026-09-17T13:06:37.959Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"Wikipedia là bách khoa toàn thư mở, thông tin được cộng đồng kiểm duyệt, tuy không có tác giả cụ thể.\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\"\n    },\n    {\n      \"id\": \"n04\",\n      \"url\": \"https://www.linkedin.com/posts/scottsteele_artificialintelligence-llm-aiexpertise-activity-7381790290346479617-gFhp\",\n      \"tieuDe\": \"Understanding LLM memory limitations and mitigations | Scott Steele\",\n      \"tacGia\": \"\",\n      \"toChuc\": \"LinkedIn\",\n      \"ngayDang\": \"\",\n      \"ngayLayVe\": \"2026-09-17T13:06:37.961Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"Bài đăng trên LinkedIn không có thông tin tác giả rõ ràng, ngày đăng không xác định, độ tin cậy thấp.\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"Nguồn không đáng tin, không có thông tin tác giả, ngày đăng không xác định.\",\n      \"canhBao\": [],\n      \"doanTrich\": \"\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Định nghĩa cửa sổ ngữ cảnh: là lượng văn bản (token) mà mô hình có thể xem và “nhớ” trong một lần xử lý.\",\n      \"loai\": \"dinh-nghia\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The context window (or “context length”) of a large language model (LLM) is the amount of text, in tokens, that the model can consider or “remember” at any one time.\",\n          \"viTri\": \"đoạn đầu\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"The context window of a large language model (LLM) is the maximum amount of text or other tokenized input available to the model at one time when generating output.\",\n          \"viTri\": \"đoạn đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    },\n    {\n      \"id\": \"t02\",\n      \"noiDung\": \"Khi đoạn hội thoại vượt quá kích thước cửa sổ ngữ cảnh, mô hình phải cắt ngắn hoặc tóm tắt, dẫn đến việc quên thông tin phía đầu.\",\n      \"loai\": \"luan-diem\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"When a prompt, conversation, document or code base exceeds an artificial intelligence model’s context window, it must be truncated or summarized for the model to proceed.\",\n          \"viTri\": \"đoạn giữa\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"The Context Window Is a Brick Wall LLMs can only handle a limited amount of text at a time, known as the context window. For example, GPT-4 has a token limit of 8,000 tokens (around 6,000 words).\",\n          \"viTri\": \"đoạn đầu\"\n        }\n      ],\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\"\n    }\n  ]\n}"
+    }
+  ],
+  "isDemo": false,
+  "durationMs": 13866
+}

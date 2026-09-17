@@ -2,8 +2,8 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const ts = require('typescript');
 require.extensions['.ts'] = (module, filename) => module._compile(ts.transpileModule(fs.readFileSync(filename,'utf8'), {compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText,filename);
-const {reconcileEvidence,usableFacts,validateSentences,quoteMatches} = require('../lib/evidence.ts');
-const {scrapePage} = require('../lib/scraper.ts');
+const {reconcileEvidence,usableFacts,validateSentences,quoteMatches} = require('../codebase/lib/evidence.ts');
+const {scrapePage} = require('../codebase/lib/scraper.ts');
 (async()=>{
   assert.equal(quoteMatches('A completely fabricated quotation.', 'This page contains other text.'),false);
   const page={url:'https://example.org/article',title:'Title',content:'This is an exact evidence quotation for testing.',status:'ok',fetchedAt:new Date().toISOString(),promptInjectionDetected:false};
@@ -25,6 +25,6 @@ const {scrapePage} = require('../lib/scraper.ts');
   const fake=await scrapePage('https://source.test/article');
   assert.equal(fake.status,'error');
   const result={testedAt:new Date().toISOString(),assertions:11,pass:11,note:'Technical invariants only, not 11 additional golden cases',injection,blocked,missing,fake};
-  fs.writeFileSync('eval/cp3/invariants.json',JSON.stringify(result,null,2));
+  fs.writeFileSync(process.env.INVARIANT_REPORT || 'eval/cp3/invariants.json',JSON.stringify(result,null,2));
   console.log('11/11 technical invariants passed');
 })();

@@ -320,7 +320,7 @@ async function main() {
   console.log('=== ScriptScout Eval Runner ===\n');
 
   // Load golden set
-  const goldenSetPath = path.join(__dirname, 'golden-set.json');
+  const goldenSetPath = path.join(__dirname, 'golden_set.json');
   const goldenSet = JSON.parse(fs.readFileSync(goldenSetPath, 'utf-8'));
   const cases: EvalCase[] = goldenSet.cases;
 

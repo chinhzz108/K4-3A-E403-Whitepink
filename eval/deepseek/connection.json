@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-17T07:17:13.876Z",
+  "endpoint": "https://api.commandcode.ai/provider/v1",
+  "model": "deepseek/deepseek-v4-flash",
+  "modelsHttp": 200,
+  "availableDeepseek": [
+    "deepseek/deepseek-v4-pro",
+    "deepseek/deepseek-v4-flash",
+    "deepseek/deepseek-v4-flash-vision-exp",
+    "deepseek/deepseek-v4-flash-fast",
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "http": 403,
+  "response": {
+    "error": {
+      "message": "Your Go plan doesn't include API access. Upgrade to Provider or higher at https://commandcode.ai/billing to use these endpoints.",
+      "type": "permission_error",
+      "code": "upgrade_required"
+    }
+  },
+  "durationMs": 822
+}

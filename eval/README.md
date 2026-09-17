@@ -1,6 +1,8 @@
 # Eval CP3 — bản nháp để nhóm duyệt
 
-`golden-set.json`: 27 case, gồm 8 thường; 2 nguồn sự thật; 2 mơ hồ; 3 ngoài phạm vi/thẩm quyền; 2 nguồn cũ; 2 mâu thuẫn; 2 injection; 6 hiếm. Có input, kỳ vọng, nguồn gốc và điều kiện đạt/trượt từng case. Các case do nhóm/agent tự soạn, một số lấy cảm hứng từ chủ đề BTC; **không phải case từ chatlog**. Nhóm cần hỏi TA liệu nguồn gốc này phù hợp C3 hay cần bổ sung chatlog thật.
+Bảng lượt đầu theo tên BTC: [run_results.md](run_results.md). Kiểm tra sau chuyển mã vào `codebase/`: [REORGANIZATION-CHECK.md](REORGANIZATION-CHECK.md).
+
+`golden_set.json`: 27 case, gồm 8 thường; 2 nguồn sự thật; 2 mơ hồ; 3 ngoài phạm vi/thẩm quyền; 2 nguồn cũ; 2 mâu thuẫn; 2 injection; 6 hiếm. Có input, kỳ vọng, nguồn gốc và điều kiện đạt/trượt từng case. Các case do nhóm/agent tự soạn, một số lấy cảm hứng từ chủ đề BTC; **không phải case từ chatlog**. Nhóm cần hỏi TA liệu nguồn gốc này phù hợp C3 hay cần bổ sung chatlog thật.
 
 ```powershell
 npm run dev
@@ -22,7 +24,7 @@ Lượt đầy đủ đầu của lần bàn giao này: [RESULTS](cp3/run-2026-0
 
 ## Fixture
 
-- `public/fixtures/prompt-injection.html`: chỉ lệnh ẩn tự dựng; không coi là hướng dẫn hệ thống.
+- `codebase/public/fixtures/prompt-injection.html`: chỉ lệnh ẩn tự dựng; không coi là hướng dẫn hệ thống.
 - `contradicting-a.html`, `contradicting-b.html`: hai số liệu giả có **mẫu khảo sát khác nhau**. Kỳ vọng phải nêu khác phạm vi, không tự kết luận một số sai. Không dùng để giảng như số liệu thực.
 - `old-source.html`: bảng giá giả chỉ hiệu lực năm 2023.
 - `/fixtures/unreadable.html`: route HTTP 403.

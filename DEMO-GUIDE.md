@@ -6,7 +6,7 @@
 
 1. Chạy server: `npm run dev`
 2. Mở trình duyệt tại `http://localhost:3000`
-3. Đảm bảo `.env.local` có API key thật (GOOGLE_API_KEY + SERPER_API_KEY)
+3. Đảm bảo `codebase/.env.local` có API key thật (GOOGLE_API_KEY + SERPER_API_KEY)
 4. Mở phần mềm quay màn hình (OBS, Xbox Game Bar, hoặc ShareX)
 
 ## Kịch bản quay (30 giây)

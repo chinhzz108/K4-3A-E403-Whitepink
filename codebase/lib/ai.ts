@@ -115,12 +115,12 @@ function getEnv(name: string): string {
 }
 
 export function hasAIConfigured(): boolean {
-  return Boolean(getEnv('GROQ_API_KEY') || getEnv('GOOGLE_API_KEY'));
+  return Boolean(getEnv('NVIDIA_API_KEY') || getEnv('GROQ_API_KEY') || getEnv('GOOGLE_API_KEY'));
 }
 
 function safeError(err: unknown): string {
   let message = err instanceof Error ? err.message : 'AI request failed';
-  for (const name of ['GROQ_API_KEY', 'GOOGLE_API_KEY', 'SERPER_API_KEY']) {
+  for (const name of ['NVIDIA_API_KEY', 'GROQ_API_KEY', 'GOOGLE_API_KEY', 'SERPER_API_KEY']) {
     const key = getEnv(name); if (key) message = message.split(key).join('[REDACTED]');
   }
   return message.replace(/key=[^&\s]+/gi, 'key=[REDACTED]');
@@ -134,12 +134,12 @@ interface AICallOptions {
 
 interface AICallResult {
   text: string;
-  provider: 'groq' | 'gemini';
+  provider: 'deepseek' | 'groq' | 'gemini';
   model: string;
 }
 
 /**
- * Gọi AI qua Groq hoặc Google Gemini (với tự động fallback chéo khi một bên gặp sự cố/503)
+ * Ưu tiên DeepSeek qua NVIDIA, dự phòng Groq rồi Google Gemini
  */
 async function callAI(options: AICallOptions): Promise<AICallResult> {
   const groqKey = getEnv('GROQ_API_KEY');
@@ -147,7 +147,35 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
 
   const errors: string[] = [];
 
-  // 1. Thử Groq API trước
+  const deepseekKey = getEnv('NVIDIA_API_KEY');
+  if (deepseekKey) {
+    const model = getEnv('DEEPSEEK_MODEL') || 'deepseek-ai/deepseek-v4-flash-0731';
+    try {
+      const res = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { Authorization: 'Bearer ' + deepseekKey, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ model, messages: [
+          ...(options.systemPrompt ? [{ role: 'system', content: options.systemPrompt }] : []),
+          { role: 'user', content: options.prompt },
+        ], temperature: options.temperature ?? 0.2, response_format: { type: 'json_object' }, max_tokens: 4096 }),
+        signal: AbortSignal.timeout(35000),
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      const content = data.choices?.[0]?.message?.content;
+      if (typeof content !== 'string' || !content.trim()) throw new Error('Empty response');
+      parseJSONSafely(content);
+      await recordCall({ provider: 'deepseek', model, requestId: data.id, usage: data.usage,
+        calledAt: new Date().toISOString(), systemPrompt: options.systemPrompt, input: options.prompt, output: content });
+      return { text: content, provider: 'deepseek', model };
+    } catch (err) {
+      const reason = safeError(err);
+      errors.push('DeepSeek: ' + reason);
+      await recordCall({ provider: 'deepseek', model, status: 'failed', calledAt: new Date().toISOString(), error: reason });
+    }
+  }
+
+  // 2. Dự phòng Groq
   if (groqKey) {
     const models = getEnv('GROQ_MODEL') ? [getEnv('GROQ_MODEL')] : ['openai/gpt-oss-120b', 'qwen/qwen3.8-27b', 'openai/gpt-oss-20b'];
     for (const model of models) {
@@ -187,7 +215,7 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
     }
   }
 
-  // 2. Thử Google Gemini API
+  // 3. Dự phòng Google Gemini
   if (geminiKey) {
     try {
       const ai = new GoogleGenerativeAI(geminiKey);
@@ -214,7 +242,7 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
     throw new Error(`Tất cả AI providers đều gặp lỗi: ${errors.join(' | ')}`);
   }
 
-  throw new Error('Chưa cấu hình API Key (GROQ_API_KEY hoặc GOOGLE_API_KEY)');
+  throw new Error('Chưa cấu hình API Key (NVIDIA_API_KEY, GROQ_API_KEY hoặc GOOGLE_API_KEY)');
 }
 
 function parseJSONSafely(text: string) {

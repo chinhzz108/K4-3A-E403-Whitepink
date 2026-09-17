@@ -61,7 +61,7 @@ Người dùng nhập 4 thông tin → hệ thống tìm ~3 nguồn thật → h
 
 ## §7. Kiểm thử — cập nhật CP3, chưa chốt quality bar
 
-- 27 case tại `eval/golden-set.json`; phân bố, fixture, tiêu chí và phân tích lỗi: [eval/README.md](eval/README.md).
+- 27 case tại `eval/golden_set.json`; phân bố, fixture, tiêu chí và phân tích lỗi: [eval/README.md](eval/README.md).
 - Lượt đầy đủ đầu lần bàn giao: **4/27 (14,81%)** pass kỹ thuật, 22 fail, 1 needs-review. Sau đọc nội dung N05, case needs-review cũng chưa đạt. Giữ nguyên mọi trace và bảng lượt đầu.
 - Các pass là input mơ hồ/trống và HTTP 403/404; không đại diện tỷ lệ kịch bản đúng.
 - 11/11 assertions kỹ thuật riêng: kiểm tra trích dẫn giả, metadata bịa, loại nguồn, injection, URL .test, HTTP lỗi. Không cộng vào golden set.
@@ -70,9 +70,11 @@ Người dùng nhập 4 thông tin → hệ thống tìm ~3 nguồn thật → h
 
 ## §8. Cách chạy
 
+Chạy các lệnh dưới đây từ gốc repo. Mã nguồn và cấu hình ứng dụng ở `codebase/`; package/lockfile dùng chung ở gốc. Các lệnh npm tự chuyển thư mục cho Next.js. Trace vẫn ghi tại `eval/traces/`, bảng lượt đầu chuẩn tên BTC ở [eval/run_results.md](eval/run_results.md). Việc sắp xếp thư mục không thay đổi quality bar hoặc kết quả các lượt cũ.
+
 ```powershell
 npm ci
-Copy-Item .env.local.example .env.local # chỉ dùng khi CHƯA có .env.local
+if (!(Test-Path codebase/.env.local)) { Copy-Item codebase/.env.local.example codebase/.env.local }
 # Điền key ở máy cá nhân; không chia sẻ/commit file này.
 npm run dev
 # http://localhost:3000 — nhập đủ bốn trường, tìm và duyệt nguồn

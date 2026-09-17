@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-09-17T07:20:43.834Z",
+  "endpoint": "https://integrate.api.nvidia.com/v1",
+  "model": "deepseek-ai/deepseek-v4-flash-0731",
+  "modelsHttp": 200,
+  "availableDeepseek": [
+    "deepseek-ai/deepseek-coder-6.7b-instruct",
+    "deepseek-ai/deepseek-v4-flash-0731"
+  ],
+  "http": 200,
+  "response": {
+    "id": "chatcmpl-c349c33d-d0bc-40a6-876b-190b6cdb8a57",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "{\"ok\":true,\"message\":\"Xin chào ScriptScout\"}",
+          "role": "assistant",
+          "reasoning_content": "We need to return only JSON as specified. The user said \"Return only JSON: {\"ok\":true,\"message\":\"Xin chào ScriptScout\"}\". So we just output that exact JSON string. No additional text."
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "created": 1789629657,
+    "model": "deepseek-ai/deepseek-v4-flash-0731",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 23,
+      "completion_tokens": 63,
+      "total_tokens": 86,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "durationMs": 10939
+}

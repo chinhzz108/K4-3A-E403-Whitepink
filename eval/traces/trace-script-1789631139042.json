@@ -1,0 +1,206 @@
+{
+  "id": "trace-script-1789631139042",
+  "timestamp": "2026-09-17T07:45:39.042Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "học tập tìm hiểu AI Engineer",
+    "learningObjective": "Đạt điểm tối đa môn học AI Foundation",
+    "targetAudience": "Người mới học AI",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+      "tieuDe": "Prompt engineering - Wikipedia",
+      "ngayLayVe": "2026-09-17T07:45:13.751Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là nguồn mở, có thể chỉnh sửa, nên độ tin cậy trung bình.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Prompt engineering is the process of structuring natural language inputs (known as prompts) to produce specified outputs from a generative AI model. Context engineering is the related area of software engineering that focuses on the management of non-prompt and prompt contexts supplied to the GenAI model, such as system instructions, metadata, API tools and tokens.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "tieuDe": "Artificial intelligence - Wikipedia",
+      "ngayLayVe": "2026-09-17T07:45:13.751Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Wikipedia là nguồn mở, có thể chỉnh sửa, nên độ tin cậy trung bình.",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t02",
+      "noiDung": "Prompt engineering là quá trình cấu trúc đầu vào ngôn ngữ tự nhiên (prompt) để tạo ra đầu ra mong muốn từ mô hình AI sinh tạo, bao gồm các kỹ thuật như few‑shot, chain‑of‑thought và role assignment.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n02",
+          "doanTrich": "Prompt engineering is the process of structuring natural language inputs (known as prompts) to produce specified outputs from a generative AI model. Context engineering is the related area of software engineering that focuses on the management of non-prompt and prompt contexts supplied to the GenAI model, such as system instructions, metadata, API tools and tokens.",
+          "viTri": "đoạn trích"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    },
+    {
+      "id": "t03",
+      "noiDung": "Artificial intelligence (AI) là khả năng của hệ thống tính toán thực hiện các nhiệm vụ thường gắn liền với trí tuệ con người như học, lý luận, giải quyết vấn đề, nhận thức và ra quyết định.",
+      "loai": "dinh-nghia",
+      "bangChung": [
+        {
+          "nguonId": "n03",
+          "doanTrich": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+          "viTri": "đoạn trích"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "học tập tìm hiểu AI Engineer",
+    "mucTieu": "Đạt điểm tối đa môn học AI Foundation",
+    "thoiLuong": "ba phút",
+    "nguoiHoc": "Người mới học AI",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn đến với hành trình khám phá vai trò của AI Engineer!",
+        "chuTrenManHinh": "Chào mừng!",
+        "yDoHinh": "hình chào",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, là quá trình cấu trúc các đầu vào ngôn ngữ tự nhiên để tạo ra kết quả mong muốn từ mô hình AI sinh ra.",
+        "chuTrenManHinh": "Kỹ thuật gợi ý lệnh",
+        "yDoHinh": "hình prompt",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Kỹ thuật ngữ cảnh, hay còn gọi là context engineering, tập trung vào việc quản lý các ngữ cảnh không phải gợi ý và gợi ý được cung cấp cho mô hình AI.",
+        "chuTrenManHinh": "Kỹ thuật ngữ cảnh",
+        "yDoHinh": "hình context",
+        "nguon": [
+          "t02"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Trí tuệ nhân tạo, hay còn gọi là artificial intelligence, là khả năng của hệ thống tính toán thực hiện các nhiệm vụ thường liên quan đến trí tuệ con người như học hỏi, suy luận, giải quyết vấn đề, nhận thức và ra quyết định.",
+        "chuTrenManHinh": "Trí tuệ nhân tạo",
+        "yDoHinh": "hình AI",
+        "nguon": [
+          "t03"
+        ]
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Với việc hiểu rõ kỹ thuật gợi ý lệnh và trí tuệ nhân tạo, các bạn sẽ sẵn sàng bước vào vai trò kỹ sư AI, hay còn gọi là AI Engineer, và đạt điểm tối đa trong môn AI Foundation.",
+        "chuTrenManHinh": "Sẵn sàng AI Engineer",
+        "yDoHinh": "hình thành công",
+        "nguon": [
+          "t02",
+          "t03"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn đến với hành trình khám phá vai trò của AI Engineer!",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, là quá trình cấu trúc các đầu vào ngôn ngữ tự nhiên để tạo ra kết quả mong muốn từ mô hình AI sinh ra.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Prompt engineering is the process of structuring natural language inputs (known as prompts) to produce specified outputs from a generative AI model. Context engineering is the related area of software engineering that focuses on the management of non-prompt and prompt contexts supplied to the GenAI model, such as system instructions, metadata, API tools and tokens."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Kỹ thuật ngữ cảnh, hay còn gọi là context engineering, tập trung vào việc quản lý các ngữ cảnh không phải gợi ý và gợi ý được cung cấp cho mô hình AI.",
+      "nguon": [
+        "t02"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Prompt engineering is the process of structuring natural language inputs (known as prompts) to produce specified outputs from a generative AI model. Context engineering is the related area of software engineering that focuses on the management of non-prompt and prompt contexts supplied to the GenAI model, such as system instructions, metadata, API tools and tokens."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Trí tuệ nhân tạo, hay còn gọi là artificial intelligence, là khả năng của hệ thống tính toán thực hiện các nhiệm vụ thường liên quan đến trí tuệ con người như học hỏi, suy luận, giải quyết vấn đề, nhận thức và ra quyết định.",
+      "nguon": [
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n03] Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making."
+      ]
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Với việc hiểu rõ kỹ thuật gợi ý lệnh và trí tuệ nhân tạo, các bạn sẽ sẵn sàng bước vào vai trò kỹ sư AI, hay còn gọi là AI Engineer, và đạt điểm tối đa trong môn AI Foundation.",
+      "nguon": [
+        "t02",
+        "t03"
+      ],
+      "doanTrichLienQuan": [
+        "[n02] Prompt engineering is the process of structuring natural language inputs (known as prompts) to produce specified outputs from a generative AI model. Context engineering is the related area of software engineering that focuses on the management of non-prompt and prompt contexts supplied to the GenAI model, such as system instructions, metadata, API tools and tokens.",
+        "[n03] Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making."
+      ]
+    }
+  ],
+  "aiRawResponse": "{\"schema\":\"hackathon-kich-ban/1\",\"id\":\"scriptscout-output\",\"tieuDe\":\"học tập tìm hiểu AI Engineer\",\"mucTieu\":\"Đạt điểm tối đa môn học AI Foundation\",\"thoiLuong\":\"ba phút\",\"nguoiHoc\":\"Người mới học AI\",\"phan\":[{\"so\":1,\"ten\":\"Mở đầu\"}],\"cau\":[{\"n\":1,\"phan\":1,\"kieu\":\"ke\",\"loi\":\"Chào mừng các bạn đến với hành trình khám phá vai trò của AI Engineer!\",\"chuTrenManHinh\":\"Chào mừng!\",\"yDoHinh\":\"hình chào\",\"nguon\":[]},{\"n\":2,\"phan\":1,\"kieu\":\"giang\",\"loi\":\"Kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering, là quá trình cấu trúc các đầu vào ngôn ngữ tự nhiên để tạo ra kết quả mong muốn từ mô hình AI sinh ra.\",\"chuTrenManHinh\":\"Kỹ thuật gợi ý lệnh\",\"yDoHinh\":\"hình prompt\",\"nguon\":[\"t02\"]},{\"n\":3,\"phan\":1,\"kieu\":\"nhe\",\"loi\":\"Kỹ thuật ngữ cảnh, hay còn gọi là context engineering, tập trung vào việc quản lý các ngữ cảnh không phải gợi ý và gợi ý được cung cấp cho mô hình AI.\",\"chuTrenManHinh\":\"Kỹ thuật ngữ cảnh\",\"yDoHinh\":\"hình context\",\"nguon\":[\"t02\"]},{\"n\":4,\"phan\":1,\"kieu\":\"hoi\",\"loi\":\"Trí tuệ nhân tạo, hay còn gọi là artificial intelligence, là khả năng của hệ thống tính toán thực hiện các nhiệm vụ thường liên quan đến trí tuệ con người như học hỏi, suy luận, giải quyết vấn đề, nhận thức và ra quyết định.\",\"chuTrenManHinh\":\"Trí tuệ nhân tạo\",\"yDoHinh\":\"hình AI\",\"nguon\":[\"t03\"]},{\"n\":5,\"phan\":1,\"kieu\":\"nhan\",\"loi\":\"Với việc hiểu rõ kỹ thuật gợi ý lệnh và trí tuệ nhân tạo, các bạn sẽ sẵn sàng bước vào vai trò kỹ sư AI, hay còn gọi là AI Engineer, và đạt điểm tối đa trong môn AI Foundation.\",\"chuTrenManHinh\":\"Sẵn sàng AI Engineer\",\"yDoHinh\":\"hình thành công\",\"nguon\":[\"t02\",\"t03\"]}]}",
+  "isDemo": false,
+  "durationMs": 4794
+}

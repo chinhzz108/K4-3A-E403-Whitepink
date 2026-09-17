@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 const base = process.env.EVAL_BASE_URL || 'http://localhost:3000';
-const cases = JSON.parse(fs.readFileSync(new URL('./golden-set.json', import.meta.url))).cases;
+const cases = JSON.parse(fs.readFileSync(new URL('./golden_set.json', import.meta.url))).cases;
 const stamp = new Date().toISOString().replace(/[:.]/g, '-');
 const dir = `eval/cp3/run-${stamp}`;
 fs.mkdirSync(dir, { recursive: true });

@@ -1,6 +1,26 @@
+## Cấu trúc repo theo BTC — CP2/CP3
+
+```text
+codebase/           Mã ứng dụng, module AI, giao diện, cấu hình và fixture
+eval/
+  golden_set.json   27 case cùng kỳ vọng, nguồn gốc và tiêu chí
+  run_results.md   Bảng lượt đầu, liên kết trace và ghi chú đối chiếu
+  cp3/             Các lượt chạy và bằng chứng kỹ thuật đã lưu
+  traces/          Input/output AI và liên kết câu → bằng chứng
+validation/        Chỗ bổ sung kiểm chứng người dùng thật
+reflection/        Chỗ bổ sung tự đánh giá của nhóm
+spec.md            Đặc tả bản nháp; nhóm giữ quyền chốt quality bar
+DEMO-GUIDE.md      Hướng dẫn quay video thật (chưa có video)
+package.json       Lệnh chạy chung từ gốc repo
+```
+
+Chạy tại gốc: `npm ci`, cấu hình `codebase/.env.local` theo file mẫu nếu chưa có, rồi `npm run dev`. Mở http://localhost:3000 hoặc http://localhost:3000/demo. Kiểm tra: `npm run typecheck`, `npm run lint`, `npm run build`; khi server đang chạy: `npm run test:invariants`. Chạy bộ AI thật bằng `npm run eval:cp3` sẽ sử dụng dịch vụ đã cấu hình.
+
+Kết quả lượt đầu: [4/27 = 14,81%](eval/run_results.md). Không chạy lại AI khi chỉ sắp xếp thư mục. Các tài liệu BTC gốc bên dưới được giữ lại; lệnh commit/push/nộp bài trong tài liệu là việc nhóm chủ động thực hiện.
+
 ## Bàn giao CP3 — 2026-09-17
 
-Bản nháp mới nhất: [spec.md](spec.md), [kết quả eval](eval/README.md), [hướng dẫn quay thật](DEMO-GUIDE.md), [bằng chứng AI](eval/cp3/DEMO-EVIDENCE.md). Chạy npm run dev; mở / hoặc /demo. Không ghi đè .env.local đang có.
+Bản nháp mới nhất: [spec.md](spec.md), [kết quả eval](eval/run_results.md), [hướng dẫn quay thật](DEMO-GUIDE.md), [bằng chứng AI](eval/cp3/DEMO-EVIDENCE.md). Chạy npm run dev; mở / hoặc /demo. Không ghi đè codebase/.env.local đang có.
 
 # Mini Hackathon AI — Batch 04 · Lớp 3A
 

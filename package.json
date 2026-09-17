@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "typecheck": "tsc --noEmit",
+    "dev": "cd codebase && next dev",
+    "build": "cd codebase && next build",
+    "start": "cd codebase && next start",
+    "lint": "cd codebase && next lint",
+    "typecheck": "tsc --noEmit -p codebase/tsconfig.json",
     "eval:cp3": "node eval/run-cp3.mjs",
     "test:invariants": "node eval/test-invariants.cjs"
   },

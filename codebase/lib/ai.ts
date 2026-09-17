@@ -161,9 +161,9 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
           model, messages: [
             ...(options.systemPrompt ? [{ role: 'system', content: options.systemPrompt }] : []),
             { role: 'user', content: options.prompt },
-          ], temperature: options.temperature ?? 0.2, response_format: { type: 'json_object' }, max_tokens: 4096
+          ], temperature: options.temperature ?? 0.2, response_format: { type: 'json_object' }, max_tokens: 2500
         }),
-        signal: AbortSignal.timeout(35000),
+        signal: AbortSignal.timeout(90000),
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
@@ -319,7 +319,7 @@ Ngày truy cập: ${p.fetchedAt}
 Trạng thái scrape: ${p.status}
 Prompt injection phát hiện: ${p.promptInjectionDetected ? 'CÓ — ' + p.injectionContent : 'Không'}
 Nội dung:
-${p.content}
+${p.content.slice(0, 1800)}
 --- HẾT TRANG ${i + 1} ---`
     )
     .join('\n\n');

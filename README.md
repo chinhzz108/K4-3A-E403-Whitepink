@@ -1,3 +1,7 @@
+## Website
+
+Bản web: [ScriptScout trên Netlify](https://scriptscount.netlify.app/). Trang chính và API demo đã được kiểm tra hoạt động. Để sử dụng các bước tìm nguồn và viết kịch bản bằng AI, cấu hình API key trong biến môi trường của Netlify theo [`codebase/.env.local.example`](codebase/.env.local.example).
+
 ## Cấu trúc repo theo BTC — CP2/CP3
 
 ```text

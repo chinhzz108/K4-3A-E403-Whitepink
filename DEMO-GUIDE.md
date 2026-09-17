@@ -6,7 +6,7 @@
 
 1. Chạy server: `npm run dev`
 2. Mở trình duyệt tại `http://localhost:3000`
-3. Đảm bảo `codebase/.env.local` có API key thật (GOOGLE_API_KEY + SERPER_API_KEY)
+3. Đảm bảo `codebase/.env.local` có ít nhất một key AI thật (`NVIDIA_API_KEY`, `GROQ_API_KEY` hoặc `GOOGLE_API_KEY`). `SERPER_API_KEY` giúp tìm nguồn web; khi thiếu hoặc dịch vụ lỗi, ứng dụng có thể dùng Wikipedia Search.
 4. Mở phần mềm quay màn hình (OBS, Xbox Game Bar, hoặc ShareX)
 
 ## Kịch bản quay (30 giây)
@@ -49,6 +49,8 @@
 
 Nếu không có API key, hệ thống báo lỗi và không sinh kịch bản.
 Không dùng một lần chạy lỗi làm bằng chứng AI trả kết quả.
+
+Trên Netlify, thêm key vào **Project configuration → Environment variables** rồi deploy lại. Ngày 17/09/2026, `https://scriptscount.netlify.app/api/generate-script` trả về “Chưa cấu hình API Key” khi dùng dữ liệu từ `/api/demo`; trang web hiện chưa đủ điều kiện quay video AI thật. Không đưa key vào Git hoặc quay màn hình phần cấu hình key.
 
 ## Fallback
 

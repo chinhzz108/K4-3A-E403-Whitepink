@@ -12,4 +12,6 @@ Chạy từ **gốc repository**: `npm ci`, sau đó `npm run dev`. `package.jso
 
 Biến môi trường cục bộ nằm trong `codebase/.env.local` (gitignored). Chỉ sao chép `.env.local.example` nếu chưa có file cấu hình; không ghi đè key của thành viên. Trace ghi về `../eval/traces/`; dữ liệu demo đọc từ `../eval/cp3/`.
 
+Khi deploy trên Netlify/Vercel hoặc AWS Lambda, API trả trace trong response nhưng không ghi `eval/traces/` vì thư mục ứng dụng không phải nơi lưu trữ bền vững. Chạy local vẫn ghi file như trước. Nếu cần lưu trace lâu dài trên web, kết nối dịch vụ lưu trữ hoặc cơ sở dữ liệu riêng.
+
 Xem [spec](../spec.md), [eval](../eval/README.md) và [hướng dẫn quay](../DEMO-GUIDE.md). Chưa có video quay thật trong repository.

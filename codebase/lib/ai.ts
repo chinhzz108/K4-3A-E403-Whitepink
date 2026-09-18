@@ -1,6 +1,6 @@
 /**
  * lib/ai.ts — Module gọi AI cho ScriptScout
- * Ưu tiên Groq, dự phòng Google Gemini.
+ * Ưu tiên 9Router, dự phòng Groq rồi Google Gemini.
  * Mọi phản hồi AI phải qua kiểm hợp đồng và bằng chứng trước khi được dùng.
  */
 
@@ -99,7 +99,7 @@ export interface RegenerateSentenceResult {
 
 export interface AIAttempt {
   stage: 'initial' | 'repair';
-  provider?: 'groq' | 'gemini';
+  provider?: '9router' | 'groq' | 'gemini';
   model?: string;
   requestId?: string;
   rawAiResponse?: string;
@@ -131,12 +131,12 @@ function getEnv(name: string): string {
 }
 
 export function hasAIConfigured(): boolean {
-  return Boolean(getEnv('GROQ_API_KEY') || getEnv('GOOGLE_API_KEY'));
+  return Boolean(getEnv('NINE_ROUTER_API_KEY') || getEnv('GROQ_API_KEY') || getEnv('GOOGLE_API_KEY'));
 }
 
 function safeError(err: unknown): string {
   let message = err instanceof Error ? err.message : typeof err === 'string' ? err : 'AI request failed';
-  for (const name of ['GROQ_API_KEY', 'GOOGLE_API_KEY', 'SERPER_API_KEY']) {
+  for (const name of ['NINE_ROUTER_API_KEY', 'GROQ_API_KEY', 'GOOGLE_API_KEY', 'SERPER_API_KEY']) {
     const key = getEnv(name); if (key) message = message.split(key).join('[REDACTED]');
   }
   return message.replace(/key=[^&\s]+/gi, 'key=[REDACTED]');
@@ -169,16 +169,17 @@ interface AICallOptions {
 
 interface AICallResult {
   text: string;
-  provider: 'groq' | 'gemini';
+  provider: '9router' | 'groq' | 'gemini';
   model: string;
   requestId?: string;
   durationMs?: number;
 }
 
 /**
- * Ưu tiên Groq, dự phòng Google Gemini
+ * Ưu tiên 9Router, dự phòng Groq rồi Google Gemini.
  */
 async function callAI(options: AICallOptions): Promise<AICallResult> {
+  const nineRouterKey = getEnv('NINE_ROUTER_API_KEY');
   const groqKey = getEnv('GROQ_API_KEY');
   const geminiKey = getEnv('GOOGLE_API_KEY');
 
@@ -189,7 +190,62 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
     phase: options.traceContext.phase,
   } : {};
 
-  // 1. Groq — primary. Model IDs are current free/developer replacements.
+  // 1. 9Router — primary local gateway. 9Router performs its own routing first;
+  // application-level providers below remain available if the gateway fails.
+  if (nineRouterKey) {
+    const baseUrl = (getEnv('NINE_ROUTER_BASE_URL') || 'http://localhost:20128/v1').replace(/\/+$/, '');
+    const endpoint = baseUrl.endsWith('/chat/completions') ? baseUrl : `${baseUrl}/chat/completions`;
+    const configuredModel = getEnv('NINE_ROUTER_MODEL') || 'kr/auto';
+    const startedAt = Date.now();
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${nineRouterKey}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: configuredModel,
+          messages: [
+            ...(options.systemPrompt ? [{ role: 'system', content: options.systemPrompt }] : []),
+            { role: 'user', content: options.prompt },
+          ],
+          response_format: { type: 'json_object' },
+          temperature: options.temperature ?? 0.2,
+          max_tokens: 4096,
+          stream: false,
+        }),
+        signal: AbortSignal.timeout(55000),
+      });
+
+      const durationMs = Date.now() - startedAt;
+      if (res.ok) {
+        const data = await res.json();
+        const rawContent = data.choices?.[0]?.message?.content;
+        const content = typeof rawContent === 'string' ? rawContent : '';
+        const routedModel = typeof data.model === 'string' && data.model ? data.model : configuredModel;
+        if (content) {
+          await recordCall({ ...auditContext, provider: '9router', model: routedModel, configuredModel, requestId: data.id, usage: data.usage, durationMs, fallbackFrom: errors.length ? [...errors] : undefined, calledAt: new Date().toISOString(), input: options.prompt, output: content });
+          return { text: content, provider: '9router', model: routedModel, requestId: data.id, durationMs };
+        }
+        const reason = `9Router ${configuredModel} returned an empty response`;
+        errors.push(reason);
+        await recordCall({ ...auditContext, provider: '9router', model: configuredModel, status: 'failed', durationMs, calledAt: new Date().toISOString(), error: reason });
+      } else {
+        const body = await res.json().catch(() => ({}));
+        const detail = typeof body?.error?.message === 'string' ? `: ${body.error.message.slice(0, 300)}` : '';
+        const reason = safeError(`9Router ${configuredModel} (${res.status})${detail}`);
+        errors.push(reason);
+        await recordCall({ ...auditContext, provider: '9router', model: configuredModel, status: 'failed', durationMs, calledAt: new Date().toISOString(), error: reason });
+      }
+    } catch {
+      const reason = `9Router ${configuredModel} exception: network/service error`;
+      errors.push(reason);
+      await recordCall({ ...auditContext, provider: '9router', model: configuredModel, status: 'failed', durationMs: Date.now() - startedAt, calledAt: new Date().toISOString(), error: reason });
+    }
+  }
+
+  // 2. Groq — first application-level fallback. Model IDs are current free/developer replacements.
   if (groqKey) {
     // These defaults are read from the authenticated /models endpoint. Each
     // model has a separate quota, so a 429 should move to the next model
@@ -253,7 +309,7 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
     }
   }
 
-  // 2. Google Gemini — fallback
+  // 3. Google Gemini — final fallback
   if (geminiKey) {
     const configuredModel = getEnv('GOOGLE_MODEL');
     const models = configuredModel
@@ -291,7 +347,7 @@ async function callAI(options: AICallOptions): Promise<AICallResult> {
     throw new Error(`Tất cả AI providers đều gặp lỗi: ${errors.join(' | ')}`);
   }
 
-  throw new Error('Chưa cấu hình API Key (GROQ_API_KEY hoặc GOOGLE_API_KEY)');
+  throw new Error('Chưa cấu hình API Key (NINE_ROUTER_API_KEY, GROQ_API_KEY hoặc GOOGLE_API_KEY)');
 }
 
 function parseJSONSafely(text: string) {
@@ -425,7 +481,7 @@ export async function evaluateSources(
       sources: [],
       thongTin: [],
       rawAiResponse: '',
-      error: 'Chưa cấu hình API Key (GROQ_API_KEY hoặc GOOGLE_API_KEY)',
+      error: 'Chưa cấu hình API Key (NINE_ROUTER_API_KEY, GROQ_API_KEY hoặc GOOGLE_API_KEY)',
       isDemo: false,
       canGenerate: false,
     };
@@ -672,7 +728,7 @@ Cảnh báo: ${(s.canhBao || []).join('; ') || 'Không có cảnh báo được 
     return {
       script: getEmptyScript(topic, learningObjective, targetAudience, videoDuration),
       rawAiResponse: '',
-      error: 'Chưa cấu hình API Key (GROQ_API_KEY hoặc GOOGLE_API_KEY)',
+      error: 'Chưa cấu hình API Key (NINE_ROUTER_API_KEY, GROQ_API_KEY hoặc GOOGLE_API_KEY)',
       isDemo: true,
     };
   }
@@ -785,7 +841,7 @@ export async function regenerateSentence(
     return {
       sentence,
       rawAiResponse: '',
-      error: 'Chưa cấu hình API Key (GROQ_API_KEY hoặc GOOGLE_API_KEY)',
+      error: 'Chưa cấu hình API Key (NINE_ROUTER_API_KEY, GROQ_API_KEY hoặc GOOGLE_API_KEY)',
       isDemo: true,
     };
   }

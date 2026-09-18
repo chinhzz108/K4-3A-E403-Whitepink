@@ -6,7 +6,7 @@
 
 1. Chạy server: `npm run dev`
 2. Mở trình duyệt tại `http://localhost:3000`
-3. Đảm bảo `codebase/.env.local` có API key thật (GOOGLE_API_KEY + SERPER_API_KEY)
+3. Đảm bảo 9Router đang chạy tại endpoint cấu hình và `codebase/.env.local` có `NINE_ROUTER_API_KEY`; `GROQ_API_KEY` / `GOOGLE_API_KEY` là fallback, `SERPER_API_KEY` hỗ trợ tìm kiếm
 4. Mở phần mềm quay màn hình (OBS, Xbox Game Bar, hoặc ShareX)
 
 ## Kịch bản quay (30 giây)

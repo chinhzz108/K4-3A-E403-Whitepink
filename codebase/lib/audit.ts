@@ -14,7 +14,7 @@ function canWriteLocalTraces() {
 // Explicit model inputs/outputs and response metadata, never headers/credentials.
 function serialize(value: unknown) {
   let text = JSON.stringify(value, null, 2);
-  for (const name of ['NVIDIA_API_KEY', 'GROQ_API_KEY', 'GOOGLE_API_KEY', 'SERPER_API_KEY']) {
+  for (const name of ['NINE_ROUTER_API_KEY', 'NVIDIA_API_KEY', 'GROQ_API_KEY', 'GOOGLE_API_KEY', 'SERPER_API_KEY']) {
     const key = process.env[name];
     if (key) text = text.split(key).join('[REDACTED]');
   }

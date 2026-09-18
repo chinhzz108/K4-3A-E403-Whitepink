@@ -35,31 +35,75 @@ function makeContext(env, fetchImpl) {
   {
     const calls = [];
     const { context } = makeContext(
-      { GROQ_API_KEY: 'test-only', GOOGLE_API_KEY: 'test-only', GROQ_MODEL: 'test-groq', GOOGLE_MODEL: 'test-gemini' },
+      {
+        NINE_ROUTER_API_KEY: 'test-only',
+        NINE_ROUTER_BASE_URL: 'http://localhost:20128/v1',
+        NINE_ROUTER_MODEL: 'test-router',
+        GROQ_API_KEY: 'test-only',
+        GOOGLE_API_KEY: 'test-only',
+        GROQ_MODEL: 'test-groq',
+        GOOGLE_MODEL: 'test-gemini',
+      },
       async url => {
         calls.push(new URL(url).hostname);
-        return { ok: true, json: async () => ({ id: 'groq-success', choices: [{ message: { content: '{"ok":true}' } }] }) };
+        return { ok: true, json: async () => ({ id: '9router-success', model: 'routed-model', choices: [{ message: { content: '{"ok":true}' } }] }) };
       },
     );
     const result = await context.run({ prompt: 'Synthetic primary-provider test' });
+    assert.equal(result.provider, '9router');
+    assert.deepEqual(calls, ['localhost']);
+  }
+
+  {
+    const calls = [];
+    const { context, logs } = makeContext(
+      {
+        NINE_ROUTER_API_KEY: 'test-only',
+        NINE_ROUTER_BASE_URL: 'http://localhost:20128/v1',
+        NINE_ROUTER_MODEL: 'test-router',
+        GROQ_API_KEY: 'test-only',
+        GOOGLE_API_KEY: 'test-only',
+        GROQ_MODEL: 'test-groq',
+        GOOGLE_MODEL: 'test-gemini',
+      },
+      async url => {
+        const host = new URL(url).hostname;
+        calls.push(host);
+        if (host === 'localhost') {
+          return { ok: false, status: 503, headers: { get: () => null }, json: async () => ({ error: { message: 'Unavailable' } }) };
+        }
+        return { ok: true, json: async () => ({ id: 'groq-success', choices: [{ message: { content: '{"ok":true}' } }] }) };
+      },
+    );
+    const result = await context.run({ prompt: 'Synthetic fallback test' });
     assert.equal(result.provider, 'groq');
-    assert.deepEqual(calls, ['api.groq.com']);
+    assert.deepEqual(calls, ['localhost', 'api.groq.com']);
+    assert.equal(logs[0].status, 'failed');
+    assert.equal(logs[1].fallbackFrom.length, 1);
   }
 
   {
     const calls = [];
     const { context, logs, geminiModels } = makeContext(
-      { GROQ_API_KEY: 'test-only', GOOGLE_API_KEY: 'test-only', GROQ_MODEL: 'test-groq', GOOGLE_MODEL: 'test-gemini' },
+      {
+        NINE_ROUTER_API_KEY: 'test-only',
+        NINE_ROUTER_BASE_URL: 'http://localhost:20128/v1',
+        NINE_ROUTER_MODEL: 'test-router',
+        GROQ_API_KEY: 'test-only',
+        GOOGLE_API_KEY: 'test-only',
+        GROQ_MODEL: 'test-groq',
+        GOOGLE_MODEL: 'test-gemini',
+      },
       async url => {
         calls.push(new URL(url).hostname);
         return { ok: false, status: 503, headers: { get: () => null }, json: async () => ({ error: { message: 'Unavailable' } }) };
       },
     );
-    const result = await context.run({ prompt: 'Synthetic fallback test' });
+    const result = await context.run({ prompt: 'Synthetic final-fallback test' });
     assert.equal(result.provider, 'gemini');
-    assert.deepEqual(calls, ['api.groq.com']);
+    assert.deepEqual(calls, ['localhost', 'api.groq.com']);
     assert.deepEqual(geminiModels, ['test-gemini']);
-    assert.equal(logs[0].status, 'failed');
+    assert.equal(logs.filter(log => log.status === 'failed').length, 2);
   }
 
   {
@@ -85,5 +129,5 @@ function makeContext(env, fetchImpl) {
     assert.equal(logs.find(log => log.status === 'failed').retryAfterMs, 1000);
   }
 
-  console.log('3/3 offline provider-priority and bounded-retry checks passed (no live API calls)');
+  console.log('4/4 offline provider-priority, fallback-chain and bounded-retry checks passed (no live API calls)');
 })().catch(error => { console.error(error); process.exitCode = 1; });

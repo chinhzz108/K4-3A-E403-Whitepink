@@ -465,7 +465,7 @@ npm run lint
 npm run build
 ```
 
-AI: ưu tiên NVIDIA_API_KEY cho DeepSeek, sau đó GROQ_API_KEY rồi GOOGLE_API_KEY. SERPER_API_KEY là tùy chọn; nếu dịch vụ từ chối sẽ tìm qua Wikipedia API và các fallback web. Không có key thì báo lỗi, không sinh câu giả. Model override: DEEPSEEK_MODEL / GROQ_MODEL / GOOGLE_MODEL. Các key chỉ đọc trên server; không dùng next.config.env hoặc NEXT_PUBLIC_.
+AI: ưu tiên 9Router qua `NINE_ROUTER_API_KEY`, sau đó `GROQ_API_KEY` rồi `GOOGLE_API_KEY`. 9Router dùng `NINE_ROUTER_BASE_URL` (mặc định `http://localhost:20128/v1`) và model route `NINE_ROUTER_MODEL` (mặc định `kr/auto`). `SERPER_API_KEY` là tùy chọn; nếu dịch vụ từ chối sẽ tìm qua Wikipedia API và các fallback web. Không có key thì báo lỗi, không sinh câu giả. Model override fallback: `GROQ_MODEL` / `GOOGLE_MODEL`. Các key chỉ đọc trên server; không dùng `next.config.env` hoặc tiền tố `NEXT_PUBLIC_`.
 
 Chi phí: chưa có hóa đơn/đơn giá xác minh; không khẳng định miễn phí. Usage thực tế được lưu ở `eval/traces/ai-calls.jsonl`, cần đối chiếu bảng giá/tài khoản của nhóm. Giới hạn token/phút đã gây lỗi 429 trong eval.
 

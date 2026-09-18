@@ -6,9 +6,9 @@
 
 | Thành viên | Vai trò và trách nhiệm |
 |---|---|
-| Chu Minh Quân | Leader · quản lý repo, tích hợp và nộp checkpoint |
+| Chu Minh Quân | Leader · quản lý repo, tích hợp và nộp checkpoint, golden set |
 | Trần Trọng Chinh | Backend/AI · research API, model integration, debugging |
-| Đinh Thị Minh Tâm | Discovery/Eval · survey, evidence, golden set, spec |
+| Đinh Thị Minh Tâm | Discovery/Eval · survey, evidence, spec |
 | Nguyễn Văn Ước | Frontend/Demo · UX flow, prototype, validation/demo |
 
 > **CP4 FREEZE — 17/09/2026**
@@ -419,7 +419,7 @@ khả năng phát hiện mọi biến thể vẫn là giới hạn nêu ở §9.
 - Lượt đầy đủ đầu lần bàn giao **4/27 (14,81%)** và mọi trace cũ vẫn được giữ nguyên như lịch sử, không sửa ngược artifact.
 - 11/11 assertions kỹ thuật riêng: kiểm tra trích dẫn giả, metadata bịa, loại nguồn, injection, URL .test, HTTP lỗi. Không cộng vào golden set.
 - Khuyến nghị giảng viên hoặc thành viên nhóm duyệt quan hệ nghĩa câu–bằng chứng; kết quả review được báo cáo riêng với pass tự động.
-- Nguồn gốc case: tự soạn / dựa vào chủ đề BTC / fixture tự dựng, **không gán chatlog**. Nhóm hỏi TA về yêu cầu chatlog ở rubric chung.
+- Nguồn gốc case: tự soạn / dựa vào chủ đề BTC / fixture tự dựng, **không gán chatlog**.
 
 ## §8. Cách chạy
 

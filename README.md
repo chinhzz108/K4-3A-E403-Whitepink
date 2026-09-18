@@ -36,9 +36,9 @@ Bản mới nhất: [spec.md](spec.md), [biên bản nghiệm thu](eval/cp3/ACCE
 
 | Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 |---|---|---|---|
-| Chu Minh Quân | 2A202602709 | Leader | Quản lý repo, tích hợp và nộp checkpoint |
+| Chu Minh Quân | 2A202602709 | Leader | Quản lý repo, tích hợp và nộp checkpoint, golden set |
 | Trần Trọng Chinh | 2A202602720 | Backend/AI | Research API, model integration, debugging |
-| Đinh Thị Minh Tâm | 2A202602433 | Discovery/Eval | Survey, evidence, golden set, spec |
+| Đinh Thị Minh Tâm | 2A202602433 | Discovery/Eval | Survey, evidence, spec |
 | Nguyễn Văn Ước | 2A202602445 | Frontend/Demo | UX flow, prototype, validation/demo |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.

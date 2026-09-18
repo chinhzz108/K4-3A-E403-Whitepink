@@ -1,0 +1,90 @@
+{
+  "id": "trace-script-1789657026646",
+  "timestamp": "2026-09-17T14:57:06.647Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "learningObjective": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "targetAudience": "Sinh viên năm nhất, chưa học lập trình",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_Vietnam_Television_paytv",
+      "tieuDe": "List of programmes broadcast by Vietnam Television paytv - Wikipedia",
+      "ngayLayVe": "2026-09-17T14:55:23.272Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_Oanh",
+      "tieuDe": "Phương Oanh - Wikipedia",
+      "ngayLayVe": "2026-09-17T14:55:23.273Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Vietnamese actress Phương OanhOanh in 2019BornĐỗ Phương Oanh (1989-09-23) September 23, 1989 (age 36) Hà Nam, VietnamOccupationsActressModelSingerYears active2012–Height1.67 m (5 ft 6 in) Đỗ Phương Oanh (born September 23, 1989), simply known by her stage name Phương Oanh, is a Vietnamese actress, model and singer.[1] Early life[edit] Oanh was born in Phủ Lý, Hà Nam province.[2] She has three siblings: older sisters Do Phuong Dung and Do Hong Nhung, and younger brother Do Binh Minh. When Oanh was in 9th grade, her parents' business went downhill, so Oanh did not have the conditions to go to extra classes like some of her peers. To help her parents, Oanh decided not to go to extra classes and studied at home for three years of high school to avoid spend",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/H%E1%BB%93_Ng%E1%BB%8Dc_H%C3%A0",
+      "tieuDe": "Hồ Ngọc Hà - Wikipedia",
+      "ngayLayVe": "2026-09-17T14:55:23.274Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Vietnamese singer and actress (born 1984) In this Vietnamese name, the surname is Hồ. In accordance with Vietnamese custom, this person should be referred to by the given name. This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when '",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Cửa sổ ngữ cảnh của mô hình ngôn ngữ",
+    "mucTieu": "Giải thích được vì sao trợ lý quên phần đầu cuộc trò chuyện dài",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên năm nhất, chưa học lập trình",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=39, mã=[\"t01\"])",
+  "isDemo": false,
+  "durationMs": 30840
+}

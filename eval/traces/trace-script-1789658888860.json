@@ -1,0 +1,72 @@
+{
+  "id": "trace-script-1789658888860",
+  "timestamp": "2026-09-17T15:28:08.860Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+    "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+    "targetAudience": "Sinh viên luật",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Communist_Party_of_Vietnam",
+      "tieuDe": "Communist Party of Vietnam - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:26:57.910Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Sole legal party of Vietnam Communist Party of Vietnam Đảng Cộng sản Việt NamAbbreviationCPV ĐCS / ĐCSVNGoverning bodyCentral CommitteeGeneral SecretaryTô LâmExecutive SecretaryTrần Cẩm TúFounderHồ Chí MinhFounded3 February 1930; 96 years ago (1930-02-03); renamed as Indochinese Communist Party (October 1930)Merger of Communist Party of Indochina Communist Party of Annam Communist League of Indochina People's Revolutionary Party (1976) Headquarters1A, Hùng Vương Street, Ba Đình, HanoiNewspaperNhân DânThink tankCentral Theoretical CouncilStudent wingVietnam National Union of StudentsYouth wingHo Chi Minh Communist Youth Union[1]Women's wingVietnam Women's UnionPioneer organizationHo Chi Minh Young Pioneer Organization[2]Armed wingVietnam People's Armed",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_alphabet",
+      "tieuDe": "Vietnamese alphabet - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:26:57.910Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Latin script for the Vietnamese language This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese alphabet\" – news · newspapers · books · scholar · JSTOR (April 2018) (Learn how and when to remove this message) Vietnamese alphabet chữ Quốc ngữScript type Alphabet CreatorFrancisco de Pina and other JesuitsLanguagesVietnamese, other indigenous languages of VietnamRelated scriptsParent systemsEgyptian hieroglyphsProto-SinaiticPhoenician alphabetGreek alphabetLatin scriptPortuguese alphabetVietnamese alphabetChild systemsBahnar alphabet, Nùng alphabet, Tày alphabet[1] This article contains Vietnamese text. Without proper rendering",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n02",
+    "n03"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+    "mucTieu": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên luật",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 3: mẫu không hợp lệ (lời có số=false, chữ màn hình=10, mã=[\"t01\"])",
+  "isDemo": false,
+  "durationMs": 32309
+}

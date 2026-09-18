@@ -1,0 +1,128 @@
+{
+  "case": {
+    "id": "N03",
+    "class": "thuong",
+    "input": {
+      "topic": "Cách một mô hình học từ ví dụ",
+      "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+      "targetAudience": "Học sinh cấp ba",
+      "videoDuration": "3 phút"
+    },
+    "expectedBehavior": "Giải thích supervised learning bằng ví dụ đơn giản. Thuật ngữ Anh kèm nghĩa Việt.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #4; không phải chatlog",
+    "passCriteria": "Thuật ngữ Anh kèm nghĩa Việt trước; ví dụ cụ thể; ≥2 nguồn",
+    "failCriteria": "Thuật ngữ Anh không giải thích; viết quá học thuật cho cấp ba"
+  },
+  "research": {
+    "http": 200,
+    "sources": [],
+    "thongTin": [],
+    "searchQueries": [
+      "Học từ dữ liệu tự nhiên",
+      "Học từ quy tắc viết sẵn"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789654266221",
+      "timestamp": "2026-09-17T14:11:06.221Z",
+      "phase": "research",
+      "input": {
+        "topic": "Cách một mô hình học từ ví dụ",
+        "learningObjective": "Phân biệt được 'học từ dữ liệu' với 'làm theo quy tắc viết sẵn'",
+        "targetAudience": "Học sinh cấp ba",
+        "videoDuration": "3 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Ministry of Education (Nguyễn dynasty)",
+              "url": "https://en.wikipedia.org/wiki/Ministry_of_Education_(Nguy%E1%BB%85n_dynasty)",
+              "snippet": " \"Vài nét về Bộ Học qua châu bản triều Nguyễn. - 04:00 PM 26/11/2015 - Lượt xem: 482 - Có thể nói có không ít tư liệu viết về Bộ Học và những cách tân",
+              "position": 1
+            },
+            {
+              "title": "Sơn Động district",
+              "url": "https://en.wikipedia.org/wiki/S%C6%A1n_%C4%90%E1%BB%99ng_district",
+              "snippet": "\"Tay Yen Tu in Viet Nam\". Protected Planet. Archived from the original on 31 July 2018. Minh Quý Hà (2010). Khu bảo tồn thiên nhiên Tây Yên Tử: giá trị",
+              "position": 2
+            },
+            {
+              "title": "List of high schools for the gifted in Vietnam",
+              "url": "https://en.wikipedia.org/wiki/List_of_high_schools_for_the_gifted_in_Vietnam",
+              "snippet": "education, high schools for the gifted or specialized high schools (trường trung học phổ thông chuyên or trường THPT chuyên) are designated public schools for",
+              "position": 3
+            }
+          ],
+          "query": "Học từ dữ liệu tự nhiên",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "Chữ Nôm",
+              "url": "https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m",
+              "snippet": "bản Đại học quốc gia Hà Nội. p. 16. Hội Khai-trí tiến-đức (1954). Việt-nam tự-điển. Văn Mới. pp. 141, 228. Đào, Duy Anh (2005). Hán-Việt từ-điển giản",
+              "position": 1
+            },
+            {
+              "title": "Chữ Hán",
+              "url": "https://en.wikipedia.org/wiki/Ch%E1%BB%AF_H%C3%A1n",
+              "snippet": "tiên quân tử tùng tục mệnh chi, tiên độc “Tam tự kinh” cập Tam Hoàng chư sử, thứ tắc độc kinh truyện, tập thì cử nghiệp văn tự, cầu hợp trường quy, thủ thanh",
+              "position": 2
+            },
+            {
+              "title": "Mỹ Đình National Stadium",
+              "url": "https://en.wikipedia.org/wiki/M%E1%BB%B9_%C4%90%C3%ACnh_National_Stadium",
+              "snippet": "Đình National Stadium (Vietnamese: Sân vận động Quốc gia Mỹ Đình) is a multi-purpose stadium in Từ Liêm Ward (formerly Nam Từ Liêm District), Hanoi, Vietnam",
+              "position": 3
+            }
+          ],
+          "query": "Học từ quy tắc viết sẵn",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ministry_of_Education_(Nguy%E1%BB%85n_dynasty)",
+          "content": "From Wikipedia, the free encyclopedia Vietnamese government ministry (1907–1945) Ministry of (National) Education (1907–1945) Ministry of Education and Fine Arts (1945)Học Bộ (學部) (1907–1933) Bộ Quốc-dân Giáo-dục (部國民教育)[a][b] (1933–1945) Giáo-dục Mỹ-thuật Bộ (教育美術部) (1945)Học Bộ chi ấn (學部之印)Giáo dục Bộ ấn (教育部印)Giáo dục Mỹ thuật (教育美術)Agency overviewFormed09-09-Duy Tân 1 (1907)Preceding agencyMinistry of Rites and Labour (Lễ Bộ)Dissolved23 August 1945Superseding agencyMinistry of National Education of the Democratic Republic of VietnamTypeCabinet-level ministry of the government of the Southern dynastyJurisdiction Nguyễn dynastyHeadquartersTrụ sở trường Tôn Học, HuếAgency executiveThượng thư (尚書), 1907–1945Bộ trưởng (部長), 1945Parent agencyNội các (1907–1934) Ngự tiền văn phòng (1934–1945)Child agenciesQuốc sử quánQuốc tử giámInstitute of Mechanics[c]Department of Youth and SportsFootnotes ↑ In Classical Chinese the ministry was called the Quốc dân Giáo dục Bộ (國民教育部). ↑ The ministry during this period is often mistakenly referred to as the Bộ Quốc-gia Giáo-dục (部國家教育) by modern historians, see the explanation below. ↑ In Vietnamese it is known as the Cơ học Viện (剞學院) and in French as the Institut de Mécanique. During the Nguyễn dynasty period (1802–1945) of Vietnamese history its Ministry of Education was reformed a number of times, in its first iteration it was called the Học Bộ (chữ Hán: 學部;[a] French: Ministère de l'Instruction publique)[1] which was established during the reign of the Duy Tân Emperor (1907–1916) and took over a number of functions of the Lễ Bộ, one of the Lục Bộ. The Governor-General of French Indochina wished to introduce more education reforms, the Nguyễn court in Huế sent Cao Xuân Dục and Huỳnh Côn, the Thượng thư of the Hộ Bộ, to French Cochinchina to discuss these reforms with the French authorities. After their return the Học Bộ was established in the year Duy Tân 1 (1907) with Cao Xuân Dục being appointed to be its first Thượng thư (minister).[2] Despite nominally being a Nguyễn dynasty institution, actual control over the ministry fell in the hands of the French Council for the Improvement of Indigenous Education in Annam.[3] The Học Bộ also included a number of agencies like the Quốc sử quán (國史館), the official state history office.[4] And the Quốc tử giám (國子監), the national academy. During this period the country saw a transition of the traditional Confucian-based system of imperial examinations to the multi-field and specialised educational system that was being used in the West. Educational reformers who were educated in France rose to prominent positions and reformed the Nguyễn dynasty's education system from within. In the year Bảo Đại 8 (1933) the Học Bộ was reformed into the more French-style Ministry of Natio…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T14:08:36.775Z",
+          "title": "Ministry of Education (Nguyễn dynasty) - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/S%C6%A1n_%C4%90%E1%BB%99ng_district",
+          "content": "Coordinates: 21°20′00″N 106°51′00″E / 21.3333°N 106.8500°E / 21.3333; 106.8500 From Wikipedia, the free encyclopedia You can help expand this article with text translated from the corresponding article in Vietnamese. Click [show] for important translation instructions. Machine translation, like DeepL or Google Translate, is a useful starting point for translations, but translators must follow the LLM translation guideline, revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the English Wikipedia. Do not translate text that appears unreliable or low-quality. If possible, verify the text with references provided in the foreign-language article. You must provide copyright attribution in the edit summary accompanying your translation by providing an interlanguage link to the source of your translation. A model attribution edit summary is Content in this edit is translated from the existing Vietnamese Wikipedia article at [[:vi:Sơn Động (huyện)]]; see its history for attribution. You may also add the template {{Translated|vi|Sơn Động (huyện)}} to the talk page. For more guidance, see Wikipedia:Translation. District in Bắc Giang, VietnamSơn Động district Huyện Sơn ĐộngDistrict SealSơn Động districtLocation within VietnamShow map of VietnamSơn Động districtLocation within Southeast AsiaShow map of Southeast AsiaSơn Động districtLocation within AsiaShow map of AsiaCountry VietnamProvinceBắc GiangFounded1909CapitalAn ChâuGovernment • SecretaryNgụy Văn Tuyên • Party Secretary:Nghiêm Xuân Hưởng[1] • People's Council Chairman:Nguyễn Quang Ngạn Đỗ Văn Cầm [citation needed] • People's Committee Chairman:Hoàng My Ca Hoàng [citation needed] Văn TrọngArea • District32,655 sq mi (84,577 km2)Population (2018) • District72,350 • Density220/sq mi (86/km2) • Urban15,375Time zoneUTC+7 (Indochina Time)Websitesondong.bacgiang.gov.vn Sơn Động is a rural district of Bắc Giang province in the Northeast region of Vietnam. It is the easternmost district in the province. As of 2018 it had a population of 72,350.[2] The district covers an area of 844 km2. The district capital lies at An Châu.[2] There are some cultural sites here such as: Chẽ pagoda, Female King temple, Lục Liễu temple, Đặng temple and Chẽ temple. Administrative divisions[edit] The district is divided administratively into two townships, An Châu (district capital) and Tây Yên Tử, and the communes of: Hữu Sản, An Lạc, Vân Sơn, Lệ Viễn, Vĩnh An, Dương Hưu, Long Sơn, An Bá, Yên Định, Tuấn Đạo, Thanh Luận, Cẩm Đàn, Giáo Liêm, Đại Sơn and Phúc Sơn. 121.72 km² in the southern portion of the district has been designated as the Tây Yên Tử Nature Reserve.[3][4] Climate[edit] Climate data for Sơn Động Month Jan Feb Mar Apr May Jun Jul Aug Sep O…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T14:08:36.777Z",
+          "title": "Sơn Động district - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_high_schools_for_the_gifted_in_Vietnam",
+          "content": "From Wikipedia, the free encyclopedia In Vietnamese secondary education, high schools for the gifted or specialized high schools (trường trung học phổ thông chuyên or trường THPT chuyên) are designated public schools for secondary students to express gifted potentials in natural sciences, social sciences, and/or foreign languages. Schools for the gifted fall into two categories: provincial schools and university-affiliated schools. The first high schools for the gifted were initiated in 1966, and since then each province of Vietnam now has at least one high school for the gifted. Entrance to a high school for the gifted are based on test results and is extremely competitive. In the early times, schools for the gifted focused on natural sciences (mostly Mathematics, followed by Physics, Chemistry, and Information technology).[1] With the increase in competition in other fields like social sciences (History, Geography, Vietnamese literature), gifted schools nowadays are broader in terms of majors such as English, Biology, etc. Gifted schools often produce high secondary graduation rates and university entrance results, as well as numerous national and international academic prizes (including the International Science Olympiad).[2] List of high schools for the gifted in Vietnam[edit] As mentioned above, high schools for the gifted in Vietnam are divided into two categories: provincial and university-affiliated. University-affiliated schools[edit] School Vietnamese name Established Affiliation Location HNUE High School for Gifted Students Trường Trung học phổ thông chuyên Đại học Sư phạm 1966 Hanoi National University of Education Cầu Giấy district, Hanoi HUS High School for Gifted Students Trường Trung học phổ thông chuyên Khoa học Tự nhiên 1965 VNU University of Science Thanh Xuân district, Hanoi Foreign Language Specialized School Trường Trung học phổ thông chuyên Ngoại ngữ 1969 VNU University of Languages and International Studies Cầu Giấy district, Hanoi High School for Gifted Students in Social Sciences and Humanities Trường Trung học phổ thông chuyên Khoa học Xã hội và Nhân văn 2019 VNU University of Social Sciences and Humanities Thanh Xuân district, Hanoi VNU-HCM High School for the Gifted Trường Phổ thông Năng khiếu 1996 Vietnam National University, Ho Chi Minh City District 5, Ho Chi Minh City HUSC High School for Gifted Students[3] Trường Trung học phổ thông chuyên Khoa học Huế 1976 University of Science, Hue University Huế, Thừa Thiên Huế province Vinh University High School for Gifted Students,[4] Trường Trung học phổ thông chuyên Đại học Vinh 1966 Vinh University Vinh, Nghệ An province Local high schools for the gifted[edit] The following list is sorted alphabetically by location rather than name. School Established Affiliation Location Ha…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T14:08:36.778Z",
+          "title": "List of high schools for the gifted in Vietnam - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [],
+      "sourcesSelected": [],
+      "sourcesRejected": [],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: DeepSeek: Unexpected token 'a', \"[a][b] (193\"... is not valid JSON",
+      "isDemo": false,
+      "durationMs": 152655
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: DeepSeek: Unexpected token 'a', \"[a][b] (193\"... is not valid JSON"
+  }
+}

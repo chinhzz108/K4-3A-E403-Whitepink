@@ -1,0 +1,164 @@
+{
+  "id": "trace-script-1789658723029",
+  "timestamp": "2026-09-17T15:25:23.029Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách phòng chống prompt injection",
+    "learningObjective": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "targetAudience": "Lập trình viên",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_COVID-19_pandemic_in_Vietnam",
+      "tieuDe": "Timeline of the COVID-19 pandemic in Vietnam - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:24:14.353Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Timeline of ongoing pandemic in Vietnam See also: Timeline of the COVID-19 pandemic This article needs to be updated. Please help update this article to reflect recent events or newly available information. (April 2022) The following is a timeline of the COVID-19 pandemic in Vietnam. Timeline[edit] Overview[edit] Coronavirus pandemic waves in Vietnam[1] Wave Time No. of cases Description Sum Domestic Death 1 23 January – 24 July 2020 415 106 0 The first cases discovered in Ho Chi Minh City were two people from Wuhan (China), the disease then spread in 13 other localities. 2 25 July 2020 – 27 January 2021 1,136 554 35 The epicenter was in Da Nang, the source of infection may have been from Hospital C in the city. 3 28 January – 26 April 2021 1,301 910 0",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_C%C3%B4ng_Ph%C6%B0%C6%A1ng",
+      "tieuDe": "Nguyễn Công Phương - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:24:14.354Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Vietnamese footballer Not to be confused with Nguyễn Công Phượng. Nguyễn Công Phương Công Phương in 2024Personal informationFull name Nguyễn Công PhươngDate of birth (2006-06-03) 3 June 2006 (age 20)Place of birth Hải Dương, VietnamHeight 1.78 m (5 ft 10 in)[1]Position MidfielderTeam informationCurrent team Hải Phòng (on loan from Thể Công–Viettel)Youth career2015–2018 Hải Dương2018–2023 ViettelSenior career*Years Team Apps (Gls)2023–2026 Thể Công–Viettel 25 (0)2026– → Hải Phòng (loan) 0 (0)International career‡2022–2023 Vietnam U17 11 (4)2024–2025 Vietnam U20 10 (5)2025– Vietnam U23 15 (1) Medal record Men's football Representing Vietnam AFC U-23 Asian Cup Saudi Arabia 2026 ASEAN U-23 Championship WinnerIndonesia 2025 SEA Games Bangkok 2025 AFF U-16 Y",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cách phòng chống prompt injection",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "From Wikipedia, the free encyclopedia Timeline of ongoing pandemic in Vietnam See also: Timeline of the COVID-19 pandemic This article needs to be updated. Please help update this article to reflect recent events or newly available information. (April 2022) The following is a timeline of the COVID-19 pandemic in Vietnam. Timeline[edit] Overview[edit] Coronavirus pandemic waves in Vietnam[1] Wave Time No. of cases Description Sum Domestic Death 1 23 January – 24 July 2020 415 106 0 The first cases discovered in Ho Chi Minh City were two people from Wuhan (China), the disease then spread in 13 other localities. 2 25 July 2020 – 27 January 2021 1,136 554 35 The epicenter was in Da Nang, the source of infection may have been from Hospital C in the city. 3 28 January – 26 April 2021 1,301 910 0",
+          "viTri": "Trang 1"
+        }
+      ]
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách phòng chống prompt injection",
+    "mucTieu": "Biết ba cách bảo vệ hệ thống AI khỏi prompt injection",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Lập trình viên",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các lập trình viên tham gia khóa học hôm nay, chúng ta sẽ tìm hiểu về kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering.",
+        "chuTrenManHinh": "Phòng chống prompt injection",
+        "yDoHinh": "Phòng chống tấn công",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Trong quá trình xây dựng hệ thống AI, chúng ta thường xuyên phải đối mặt với vấn đề bảo mật, đặc biệt là khi sử dụng kỹ thuật gợi ý lệnh.",
+        "chuTrenManHinh": "Bảo vệ hệ thống AI",
+        "yDoHinh": "Bảo vệ hệ thống",
+        "nguon": []
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Prompt injection là một loại tấn công có thể ảnh hưởng đến hệ thống AI, làm cho nó trở nên không tin cậy và có thể gây ra thiệt hại nghiêm trọng.",
+        "chuTrenManHinh": "Tấn công hệ thống AI",
+        "yDoHinh": "Tấn công hệ thống",
+        "nguon": []
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Hôm nay, chúng ta sẽ tìm hiểu về ba cách bảo vệ hệ thống AI khỏi prompt injection, giúp chúng ta xây dựng hệ thống AI an toàn và tin cậy hơn.",
+        "chuTrenManHinh": "Bảo vệ hệ thống AI",
+        "yDoHinh": "Bảo vệ hệ thống",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Vậy, hãy cùng chúng tôi bắt đầu khóa học hôm nay và tìm hiểu về cách phòng chống prompt injection để xây dựng hệ thống AI an toàn và hiệu quả.",
+        "chuTrenManHinh": "Phòng chống prompt injection",
+        "yDoHinh": "Phòng chống tấn công",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các lập trình viên tham gia khóa học hôm nay, chúng ta sẽ tìm hiểu về kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Trong quá trình xây dựng hệ thống AI, chúng ta thường xuyên phải đối mặt với vấn đề bảo mật, đặc biệt là khi sử dụng kỹ thuật gợi ý lệnh.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Prompt injection là một loại tấn công có thể ảnh hưởng đến hệ thống AI, làm cho nó trở nên không tin cậy và có thể gây ra thiệt hại nghiêm trọng.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Hôm nay, chúng ta sẽ tìm hiểu về ba cách bảo vệ hệ thống AI khỏi prompt injection, giúp chúng ta xây dựng hệ thống AI an toàn và tin cậy hơn.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Vậy, hãy cùng chúng tôi bắt đầu khóa học hôm nay và tìm hiểu về cách phòng chống prompt injection để xây dựng hệ thống AI an toàn và hiệu quả.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{ \"schema\": \"hackathon-kich-ban/1\", \"id\": \"scriptscout-output\", \"tieuDe\": \"Cách phòng chống prompt injection\", \"mucTieu\": \"Biết ba cách bảo vệ hệ thống AI khỏi prompt injection\", \"thoiLuong\": \"5 phút\", \"nguoiHoc\": \"Lập trình viên\", \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}], \"cau\": [ { \"n\": 1, \"phan\": 1, \"kieu\": \"ke\", \"loi\": \"Chào mừng các lập trình viên tham gia khóa học hôm nay, chúng ta sẽ tìm hiểu về kỹ thuật gợi ý lệnh, hay còn gọi là prompt engineering.\", \"chuTrenManHinh\": \"Phòng chống prompt injection\", \"yDoHinh\": \"Phòng chống tấn công\", \"nguon\": [] }, { \"n\": 2, \"phan\": 1, \"kieu\": \"giang\", \"loi\": \"Trong quá trình xây dựng hệ thống AI, chúng ta thường xuyên phải đối mặt với vấn đề bảo mật, đặc biệt là khi sử dụng kỹ thuật gợi ý lệnh.\", \"chuTrenManHinh\": \"Bảo vệ hệ thống AI\", \"yDoHinh\": \"Bảo vệ hệ thống\", \"nguon\": [] }, { \"n\": 3, \"phan\": 1, \"kieu\": \"nhe\", \"loi\": \"Prompt injection là một loại tấn công có thể ảnh hưởng đến hệ thống AI, làm cho nó trở nên không tin cậy và có thể gây ra thiệt hại nghiêm trọng.\", \"chuTrenManHinh\": \"Tấn công hệ thống AI\", \"yDoHinh\": \"Tấn công hệ thống\", \"nguon\": [] }, { \"n\": 4, \"phan\": 1, \"kieu\": \"hoi\", \"loi\": \"Hôm nay, chúng ta sẽ tìm hiểu về ba cách bảo vệ hệ thống AI khỏi prompt injection, giúp chúng ta xây dựng hệ thống AI an toàn và tin cậy hơn.\", \"chuTrenManHinh\": \"Bảo vệ hệ thống AI\", \"yDoHinh\": \"Bảo vệ hệ thống\", \"nguon\": [] }, { \"n\": 5, \"phan\": 1, \"kieu\": \"nhan\", \"loi\": \"Vậy, hãy cùng chúng tôi bắt đầu khóa học hôm nay và tìm hiểu về cách phòng chống prompt injection để xây dựng hệ thống AI an toàn và hiệu quả.\", \"chuTrenManHinh\": \"Phòng chống prompt injection\", \"yDoHinh\": \"Phòng chống tấn công\", \"nguon\": [] } ] }",
+  "isDemo": false,
+  "durationMs": 23140
+}

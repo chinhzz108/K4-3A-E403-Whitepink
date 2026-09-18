@@ -1,0 +1,322 @@
+{
+  "case": {
+    "id": "N22",
+    "class": "hiem",
+    "input": {
+      "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+      "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+      "targetAudience": "Sinh viên luật",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Chủ đề rất hẹp. Có thể không tìm đủ nguồn. Phải ghi rõ giới hạn.",
+    "origin": "tự tạo — chủ đề hẹp, hiếm nguồn; không phải chatlog",
+    "passCriteria": "Ghi rõ giới hạn nguồn; không bịa; dùng nguồn liên quan gần nhất",
+    "failCriteria": "Bịa nguồn; viết như có đủ tài liệu khi thực tế không có"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n02",
+        "url": "https://en.wikipedia.org/wiki/Communist_Party_of_Vietnam",
+        "tieuDe": "Communist Party of Vietnam - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:26:57.910Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Sole legal party of Vietnam Communist Party of Vietnam Đảng Cộng sản Việt NamAbbreviationCPV ĐCS / ĐCSVNGoverning bodyCentral CommitteeGeneral SecretaryTô LâmExecutive SecretaryTrần Cẩm TúFounderHồ Chí MinhFounded3 February 1930; 96 years ago (1930-02-03); renamed as Indochinese Communist Party (October 1930)Merger of Communist Party of Indochina Communist Party of Annam Communist League of Indochina People's Revolutionary Party (1976) Headquarters1A, Hùng Vương Street, Ba Đình, HanoiNewspaperNhân DânThink tankCentral Theoretical CouncilStudent wingVietnam National Union of StudentsYouth wingHo Chi Minh Communist Youth Union[1]Women's wingVietnam Women's UnionPioneer organizationHo Chi Minh Young Pioneer Organization[2]Armed wingVietnam People's Armed",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://en.wikipedia.org/wiki/Vietnamese_alphabet",
+        "tieuDe": "Vietnamese alphabet - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:26:57.910Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Latin script for the Vietnamese language This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese alphabet\" – news · newspapers · books · scholar · JSTOR (April 2018) (Learn how and when to remove this message) Vietnamese alphabet chữ Quốc ngữScript type Alphabet CreatorFrancisco de Pina and other JesuitsLanguagesVietnamese, other indigenous languages of VietnamRelated scriptsParent systemsEgyptian hieroglyphsProto-SinaiticPhoenician alphabetGreek alphabetLatin scriptPortuguese alphabetVietnamese alphabetChild systemsBahnar alphabet, Nùng alphabet, Tày alphabet[1] This article contains Vietnamese text. Without proper rendering",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n04",
+        "url": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+        "tieuDe": "Nguyễn Phú Trọng - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:26:57.908Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "AI không chọn nguồn này",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [],
+    "searchQueries": [
+      "Đạo đức AI trong văn hóa Đông Nam Á",
+      "So sánh quan điểm đạo đức AI ASEAN"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789658856523",
+      "timestamp": "2026-09-17T15:27:36.523Z",
+      "phase": "research",
+      "input": {
+        "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+        "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+        "targetAudience": "Sinh viên luật",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Nguyễn Phú Trọng",
+              "url": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+              "snippet": "July 2024. \"Lãnh đạo các nước chia buồn Tổng Bí thư Nguyễn Phú Trọng từ trần\". VnExpress. 20 July 2024. Retrieved 20 July 2024. \"Lãnh đạo các nước gửi Thư",
+              "position": 1
+            },
+            {
+              "title": "Communist Party of Vietnam",
+              "url": "https://en.wikipedia.org/wiki/Communist_Party_of_Vietnam",
+              "snippet": "secretary and Đỗ Mười, Lê Đức Anh and Võ Văn Kiệt officially resigned from politics and were elected Advisory Council of the CC. Nông Đức Mạnh succeeded Lê Khả",
+              "position": 2
+            },
+            {
+              "title": "Vietnamese alphabet",
+              "url": "https://en.wikipedia.org/wiki/Vietnamese_alphabet",
+              "snippet": "propaganda fide, năm 1651, trang chứa cột 65, cột 191 trong phần chính văn của sách (sách không được đánh số trang). Kenneth J. Gregerson. \"A study of Middle",
+              "position": 3
+            }
+          ],
+          "query": "Đạo đức AI trong văn hóa Đông Nam Á",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "Tùng Dương",
+              "url": "https://en.wikipedia.org/wiki/T%C3%B9ng_D%C6%B0%C6%A1ng",
+              "snippet": "Vietnamese singer. He came to fame after the 2004 music contest Sao Mai điểm hẹn, in which he won first place as ranked by the judges. Songs he performed",
+              "position": 1
+            },
+            {
+              "title": "List of programmes broadcast by VTC",
+              "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_VTC",
+              "snippet": "phê tối Giai điệu ngày mới Billboard Điểm báo Bài hát của tôi Điểm đến Khám phá thế giới Con người và tự nhiên Hồ sơ vụ án Tạp chí bóng đá thế giới Tạp",
+              "position": 2
+            }
+          ],
+          "query": "So sánh quan điểm đạo đức AI ASEAN",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+          "content": "From Wikipedia, the free encyclopedia Leader of Vietnam from 2011 to 2024 In this Vietnamese name, the surname is Nguyễn. In accordance with Vietnamese custom, this person should be referred to by the given name, Trọng. You can help expand this article with text translated from the corresponding article in Vietnamese. (July 2024) Click [show] for important translation instructions. Machine translation, like DeepL or Google Translate, is a useful starting point for translations, but translators must follow the LLM translation guideline, revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the English Wikipedia. Do not translate text that appears unreliable or low-quality. If possible, verify the text with references provided in the foreign-language article. You must provide copyright attribution in the edit summary accompanying your translation by providing an interlanguage link to the source of your translation. A model attribution edit summary is Content in this edit is translated from the existing Vietnamese Wikipedia article at [[:vi:Nguyễn Phú Trọng]]; see its history for attribution. You may also add the template {{Translated|vi|Nguyễn Phú Trọng}} to the talk page. For more guidance, see Wikipedia:Translation. Nguyễn Phú TrọngTrọng in 2023General Secretary of the Communist Party of VietnamIn office 19 January 2011 – 19 July 2024Preceded byNông Đức MạnhSucceeded byTô LâmSecretary of the Central Military Commission of the Communist PartyIn office 19 January 2011 – 19 July 2024Deputy Phùng Quang Thanh (2011–2016) Ngô Xuân Lịch (2016–2021) Phan Văn Giang (2021–2024) Preceded byNông Đức MạnhSucceeded byTô Lâm10th President of VietnamIn office 23 October 2018 – 5 April 2021Prime MinisterNguyễn Xuân PhúcVice PresidentĐặng Thị Ngọc ThịnhPreceded byTrần Đại QuangSucceeded byNguyễn Xuân Phúc Additional positions Chairman of the National Assembly of VietnamIn office 26 June 2006 – 23 July 2011Preceded byNguyễn Văn AnSucceeded byNguyễn Sinh HùngSecretary of the Hanoi Party CommitteeIn office 6 January 2000 – 26 June 2006Preceded byLê Xuân TùngSucceeded byPhạm Quang Nghị Personal detailsBorn(1944-04-14)14 April 1944 Đông Anh, Tonkin, French IndochinaDied19 July 2024(2024-07-19) (aged 80) Central Military Hospital 108, Hanoi, VietnamResting placeMai Dich CemeteryPartyCPVSpouse Ngô Thị Mận ​(m. 1972)​Children Nguyễn Trọng Trường (son) Nguyễn Thị Kim Ngọc (daughter) Alma materUniversity of Hanoi National Academy of Public Administration Soviet Academy of SciencesOccupationPoliticianprofessorSignatureSupreme Leader of the Socialist Republic of Vietnam Nông Đức Mạnh (2001) → Tô Lâm (2026) Nguyễn Phú Trọng (Vietnamese: [ŋwiən˦ˀ˥ fu˧˦ t͡ɕawŋ͡m˧˨ʔ] ⓘ new-yen foo chong;[1] 14 April 1944 …[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:26:57.908Z",
+          "title": "Nguyễn Phú Trọng - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Communist_Party_of_Vietnam",
+          "content": "From Wikipedia, the free encyclopedia Sole legal party of Vietnam Communist Party of Vietnam Đảng Cộng sản Việt NamAbbreviationCPV ĐCS / ĐCSVNGoverning bodyCentral CommitteeGeneral SecretaryTô LâmExecutive SecretaryTrần Cẩm TúFounderHồ Chí MinhFounded3 February 1930; 96 years ago (1930-02-03); renamed as Indochinese Communist Party (October 1930)Merger of Communist Party of Indochina Communist Party of Annam Communist League of Indochina People's Revolutionary Party (1976) Headquarters1A, Hùng Vương Street, Ba Đình, HanoiNewspaperNhân DânThink tankCentral Theoretical CouncilStudent wingVietnam National Union of StudentsYouth wingHo Chi Minh Communist Youth Union[1]Women's wingVietnam Women's UnionPioneer organizationHo Chi Minh Young Pioneer Organization[2]Armed wingVietnam People's Armed ForcesUnion affiliationVietnam General Confederation of Labour[3]Membership (2026) 5,600,000+[4][5]IdeologyCommunism[6][7]Marxism–Leninism[6][7]Ho Chi Minh Thought[8][9][10]Political positionFar-left[9]National affiliationVietnamese Fatherland Front[11]International affiliationIMCWPColors RedSloganVô sản toàn thế giới, đoàn kết lại! Proletarians of the world, unite!Anthem\"The Internationale\"[12] (Vietnamese versionⓘ)National Assembly482 / 500Party flagPolitics of VietnamPolitical partiesElections The Communist Party of Vietnam (CPV),[a] also known as the Vietnamese Communist Party (VCP), is the sole legal party of the Socialist Republic of Vietnam (SRV). Founded in 1930 by Ho Chi Minh, the CPV dominantly established the government of Democratic Republic of Vietnam (DRV), before becoming the sole ruling party when its state was known as the North Vietnam in 1954 after the First Indochina War and all of Vietnam in 1975 after the Vietnam War. Although it nominally exists alongside the Vietnam Fatherland Front, it maintains a unitary government and has centralized control over the state, military, and media. The supremacy of the CPV is guaranteed by Article 4 of the national constitution. The Vietnamese public generally refer to the CPV as simply \"the Party\" (Đảng) or \"our Party\" (Đảng ta). The CPV is organized on the basis of democratic centralism, a principle conceived by Russian Marxist revolutionary Vladimir Lenin. The highest institution of the CPV is the party's National Congress, which elects the Central Committee (CC). The CC is the supreme organ on party affairs in between party congresses. After a party congress, the CC elects the Politburo and Secretariat, and appoints the general secretary, the highest party office. In between sessions of the CC, the Politburo is the supreme organ on party affairs. However, it can only implement decisions based on the policies which have been approved in advance by either the CC or the party's National Congress. As of 2026[u…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:26:57.910Z",
+          "title": "Communist Party of Vietnam - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vietnamese_alphabet",
+          "content": "From Wikipedia, the free encyclopedia Latin script for the Vietnamese language This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese alphabet\" – news · newspapers · books · scholar · JSTOR (April 2018) (Learn how and when to remove this message) Vietnamese alphabet chữ Quốc ngữScript type Alphabet CreatorFrancisco de Pina and other JesuitsLanguagesVietnamese, other indigenous languages of VietnamRelated scriptsParent systemsEgyptian hieroglyphsProto-SinaiticPhoenician alphabetGreek alphabetLatin scriptPortuguese alphabetVietnamese alphabetChild systemsBahnar alphabet, Nùng alphabet, Tày alphabet[1] This article contains Vietnamese text. Without proper rendering support, you may see question marks, boxes, or other symbols instead of Vietnamese scripts. The Vietnamese alphabet (Vietnamese: chữ Quốc ngữ, lit. 'script of the national language' [t͡ɕɨ˦ˀ˥ kuək̚˧˦ ŋɨ˦ˀ˥] ⓘ) is a Latin-based modern writing script for the Vietnamese language. It has spelling conventions derived from the orthography of Romance languages such as Portuguese, Italian, and French.[2] It was originally developed by the Portuguese missionary Francisco de Pina and other Jesuits in the early 17th century.[3][4][5][6] The Vietnamese alphabet contains 29 letters,[7] including 7 letters using four diacritics: ⟨ă⟩, ⟨â⟩, ⟨ê⟩, ⟨ô⟩, ⟨ơ⟩, ⟨ư⟩, and ⟨đ⟩. There are an additional 5 diacritics used to designate tone (as in ⟨à⟩, ⟨á⟩, ⟨ả⟩, ⟨ã⟩, and ⟨ạ⟩). The complex vowel system and the large number of letters with diacritics, which can stack twice on the same letter (e.g. nhất meaning 'first'), makes it easy to distinguish the Vietnamese orthography from other writing systems that use the Latin alphabet.[8] The Vietnamese system's use of diacritics produces an accurate transcription for tones despite the limitations of the Roman alphabet. On the other hand, sound changes in the spoken language have led to different letters, digraphs and trigraphs now representing the same sounds. Letter names and pronunciation[edit] This article contains phonetic transcriptions in the International Phonetic Alphabet (IPA). For an introductory guide on IPA symbols, see Help:IPA. For the distinction between [ ], / / and ⟨ ⟩, see IPA § Brackets and transcription delimiters. Vietnamese uses 22 letters of the ISO basic Latin alphabet. The 4 remaining letters aren't considered part of the Vietnamese alphabet although they are used to write loanwords, languages of other ethnic groups in the country based on Vietnamese phonetics to differentiate the meanings or even Vietnamese dialects, for example: ⟨dz⟩ or ⟨z⟩ for southerner pronunciation of ⟨v⟩ in standard Vietnamese. In total, there are 12 vo…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:26:57.910Z",
+          "title": "Vietnamese alphabet - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/Communist_Party_of_Vietnam",
+          "tieuDe": "Communist Party of Vietnam - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:26:57.910Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Sole legal party of Vietnam Communist Party of Vietnam Đảng Cộng sản Việt NamAbbreviationCPV ĐCS / ĐCSVNGoverning bodyCentral CommitteeGeneral SecretaryTô LâmExecutive SecretaryTrần Cẩm TúFounderHồ Chí MinhFounded3 February 1930; 96 years ago (1930-02-03); renamed as Indochinese Communist Party (October 1930)Merger of Communist Party of Indochina Communist Party of Annam Communist League of Indochina People's Revolutionary Party (1976) Headquarters1A, Hùng Vương Street, Ba Đình, HanoiNewspaperNhân DânThink tankCentral Theoretical CouncilStudent wingVietnam National Union of StudentsYouth wingHo Chi Minh Communist Youth Union[1]Women's wingVietnam Women's UnionPioneer organizationHo Chi Minh Young Pioneer Organization[2]Armed wingVietnam People's Armed",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://en.wikipedia.org/wiki/Vietnamese_alphabet",
+          "tieuDe": "Vietnamese alphabet - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:26:57.910Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Latin script for the Vietnamese language This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese alphabet\" – news · newspapers · books · scholar · JSTOR (April 2018) (Learn how and when to remove this message) Vietnamese alphabet chữ Quốc ngữScript type Alphabet CreatorFrancisco de Pina and other JesuitsLanguagesVietnamese, other indigenous languages of VietnamRelated scriptsParent systemsEgyptian hieroglyphsProto-SinaiticPhoenician alphabetGreek alphabetLatin scriptPortuguese alphabetVietnamese alphabetChild systemsBahnar alphabet, Nùng alphabet, Tày alphabet[1] This article contains Vietnamese text. Without proper rendering",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n04",
+          "url": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng",
+          "tieuDe": "Nguyễn Phú Trọng - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:26:57.908Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "AI không chọn nguồn này",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [
+        "n04"
+      ],
+      "thongTin": [],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BC_Tr%E1%BB%8Dng\",\n      \"tieuDe\": \"Nguyễn Phú Trọng - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:26:57.908Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Leader of Vietnam from 2011 to 2024 In this Vietnamese name, the surname is Nguyễn. In accordance with Vietnamese custom, this person should be referred to by the given name, Trọng. You can help expand this article with text translated from the corresponding article in Vietnamese. (July 2024) Click [show] for important translation instructions. Machine translation, like DeepL or Google Translate, is a useful starting point for translations, but translators must follow the LLM translation guideline, revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the English Wikipedia. Do not translate text that appears unreliable or low-quality. If possible, verify the text with reliable sources. \"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/Communist_Party_of_Vietnam\",\n      \"tieuDe\": \"Communist Party of Vietnam - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:26:57.910Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Sole legal party of Vietnam Communist Party of Vietnam Đảng Cộng sản Việt NamAbbreviationCPV ĐCS / ĐCSVNGoverning bodyCentral CommitteeGeneral SecretaryTô LâmExecutive SecretaryTrần Cẩm TúFounderHồ Chí MinhFounded3 February 1930; 96 years ago (1930-02-03); renamed as Indochinese Communist Party (October 1930)Merger of Communist Party of Indochina Communist Party of Annam Communist League of Indochina People's Revolutionary Party (1976) Headquarters1A, Hùng Vương Street, Ba Đình, HanoiNewspaperNhân DânThink tankCentral Theoretical CouncilStudent wingVietnam National Union of StudentsYouth wingHo Chi Minh Communist Youth Union[1]Women's wingVietnam Women's UnionPioneer organizationHo Chi Minh Young Pioneer Organization[2]Armed wingVietnam People's Armed\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Vietnamese_alphabet\",\n      \"tieuDe\": \"Vietnamese alphabet - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:26:57.910Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Latin script for the Vietnamese language This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \\\"Vietnamese alphabet\\\" – news · newspapers · books · scholar · JSTOR (April 2018) (Learn how and when to remove this message) Vietnamese alphabet chữ Quốc ngữScript type Alphabet CreatorFrancisco de Pina and other JesuitsLanguagesVietnamese, other indigenous languages of VietnamRelated scriptsParent systemsEgyptian hieroglyphsProto-SinaiticPhoenician alphabetGreek alphabetLatin scriptPortuguese alphabetVietnamese alphabetChild systemsBahnar alphabet, Nùng alphabet, Tày alphabet[1] This article contains Vietnamese text. Without proper rendering\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Đạo đức AI trong bối cảnh văn hóa Đông Nam Á\",\n      \"loai\": \"dinh-nghia\",\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Leader of Vietnam from 2011 to 2024 In this Vietnamese name, the surname is Nguyễn. In accordance with Vietnamese custom, this person should be referred to by the given name, Trọng. You can help expand this article with text translated from the corresponding article in Vietnamese. (July 2024) Click [show] for important translation instructions. Machine translation, like DeepL or Google Translate, is a useful starting point for translations, but translators must follow the LLM translation guideline, revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the English Wikipedia. Do not translate text that appears unreliable or low-quality. If possible, verify the text with reliable sources.\",\n          \"viTri\": \"Trang 1\"\n        }\n      ]\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 40580
+    },
+    "isDemo": false,
+    "modelUsed": "deepseek:meta/llama-3.2-11b-vision-instruct"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+      "mucTieu": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Sinh viên luật",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789658888860",
+      "timestamp": "2026-09-17T15:28:08.860Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+        "learningObjective": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+        "targetAudience": "Sinh viên luật",
+        "videoDuration": "5 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/Communist_Party_of_Vietnam",
+          "tieuDe": "Communist Party of Vietnam - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:26:57.910Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Sole legal party of Vietnam Communist Party of Vietnam Đảng Cộng sản Việt NamAbbreviationCPV ĐCS / ĐCSVNGoverning bodyCentral CommitteeGeneral SecretaryTô LâmExecutive SecretaryTrần Cẩm TúFounderHồ Chí MinhFounded3 February 1930; 96 years ago (1930-02-03); renamed as Indochinese Communist Party (October 1930)Merger of Communist Party of Indochina Communist Party of Annam Communist League of Indochina People's Revolutionary Party (1976) Headquarters1A, Hùng Vương Street, Ba Đình, HanoiNewspaperNhân DânThink tankCentral Theoretical CouncilStudent wingVietnam National Union of StudentsYouth wingHo Chi Minh Communist Youth Union[1]Women's wingVietnam Women's UnionPioneer organizationHo Chi Minh Young Pioneer Organization[2]Armed wingVietnam People's Armed",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://en.wikipedia.org/wiki/Vietnamese_alphabet",
+          "tieuDe": "Vietnamese alphabet - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:26:57.910Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Latin script for the Vietnamese language This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese alphabet\" – news · newspapers · books · scholar · JSTOR (April 2018) (Learn how and when to remove this message) Vietnamese alphabet chữ Quốc ngữScript type Alphabet CreatorFrancisco de Pina and other JesuitsLanguagesVietnamese, other indigenous languages of VietnamRelated scriptsParent systemsEgyptian hieroglyphsProto-SinaiticPhoenician alphabetGreek alphabetLatin scriptPortuguese alphabetVietnamese alphabetChild systemsBahnar alphabet, Nùng alphabet, Tày alphabet[1] This article contains Vietnamese text. Without proper rendering",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n02",
+        "n03"
+      ],
+      "thongTin": [],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Đạo đức AI trong bối cảnh văn hóa Đông Nam Á",
+        "mucTieu": "So sánh được quan điểm đạo đức AI giữa các nước ASEAN",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Sinh viên luật",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Câu 3: mẫu không hợp lệ (lời có số=false, chữ màn hình=10, mã=[\"t01\"])",
+      "isDemo": false,
+      "durationMs": 32309
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Câu 3: mẫu không hợp lệ (lời có số=false, chữ màn hình=10, mã=[\"t01\"])"
+  }
+}

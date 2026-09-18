@@ -1,0 +1,128 @@
+{
+  "case": {
+    "id": "N16",
+    "class": "nguon-cu",
+    "input": {
+      "topic": "So sánh GPT-4 và Claude 3",
+      "learningObjective": "Biết ưu nhược điểm của từng mô hình",
+      "targetAudience": "Sinh viên CNTT",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Benchmark thay đổi nhanh. Cần nguồn 2026. Nguồn 2024 phải ghi cảnh báo.",
+    "origin": "tự tạo — đặc thù C3: nguồn thay đổi nhanh; không phải chatlog",
+    "passCriteria": "Ưu tiên nguồn mới nhất; cảnh báo nguồn cũ",
+    "failCriteria": "Dùng benchmark 2024 mà ghi là hiện tại"
+  },
+  "research": {
+    "http": 200,
+    "sources": [],
+    "thongTin": [],
+    "searchQueries": [
+      "So sánh GPT-4 và Claude 3",
+      "Ưu nhược điểm của GPT-4 và Claude 3"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789658465737",
+      "timestamp": "2026-09-17T15:21:05.737Z",
+      "phase": "research",
+      "input": {
+        "topic": "So sánh GPT-4 và Claude 3",
+        "learningObjective": "Biết ưu nhược điểm của từng mô hình",
+        "targetAudience": "Sinh viên CNTT",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Transformer (deep learning)",
+              "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)",
+              "snippet": "large language models such as GPT-2, GPT-3, GPT-4, Gemini, AlbertAGPT, Claude, BERT, Grok, XLNet, RoBERTa and ChatGPT demonstrate the ability of transformers",
+              "position": 1
+            }
+          ],
+          "query": "So sánh GPT-4 và Claude 3",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "So sánh ChatGPT và Claude 2026: Ưu nhược điểm và mức giá",
+              "url": "https://fptshop.com.vn/tin-tuc/for-gamers/so-sanh-chatgpt-va-claude-197915",
+              "snippet": "So sánh ChatGPT và Claude năm 2026 chi tiết về khả năng xử lý ngôn ngữ, ưu nhược điểm, bảng giá và đối tượng sử dụng. Bài viết giúp bạn dễ dàng lựa chọn giữa ChatGPT và Claude theo nhu cầu học tập, công việc và sáng tạo nội dung.",
+              "position": 1
+            },
+            {
+              "title": "So sánh Claude 3 với GPT-4 · LobeHub",
+              "url": "https://lobehub.com/vi-VN/blog/claude-3-vs-gpt-4",
+              "snippet": "Trong bài viết này, chúng ta sẽ so sánh mô hình Claude 3 của Anthropic với mô hình GPT-4 của OpenAI, và khám phá sự tương đồng và khác biệt giữa chúng.",
+              "position": 2
+            },
+            {
+              "title": "Claude 3 hay GPT-4 là mô hình LLM tốt hơn cho các ứng dụng doanh nghiệp?",
+              "url": "https://quantrimang.com/so-sanh-claude-3-va-gpt-4-213858",
+              "snippet": "Bạn có biết nên chọn Claude 3 hay GPT-4 cho các trường hợp sử dụng trong doanh nghiệp không? Hãy cùng tìm hiểu nhé!",
+              "position": 3
+            },
+            {
+              "title": "Sự khác biệt giữa Claude và ChatGPT - QuanTriMang.com",
+              "url": "https://quantrimang.com/so-sanh-claude-va-chatgpt-213938",
+              "snippet": "Bài viết này sẽ giúp bạn hiểu rõ những điểm khác biệt giữa Claude và ChatGPT - tập trung vào các mô hình mới nhất như Claude Sonnet 4 và GPT-4o và o1 của ChatGPT - để bạn có thể chọn công cụ phù hợp nhất với quy trình làm việc của mình.",
+              "position": 4
+            },
+            {
+              "title": "Chat GPT và Claude: Ưu điểm, nhược điểm và sự kết hợp",
+              "url": "https://www.toolify.ai/vi/ai-news-vn/chat-gpt-v-claude-u-im-nhc-im-v-s-kt-hp-2422049",
+              "snippet": "Tìm hiểu về ưu điểm và nhược điểm của công nghệ Chat GPT và Claude và tại sao việc kết hợp của cả hai có thể mang lại hiệu quả cao hơn. Xem video để biết thêm chi tiết!",
+              "position": 5
+            }
+          ],
+          "query": "Ưu nhược điểm của GPT-4 và Claude 3",
+          "engine": "duckduckgo"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)",
+          "content": "From Wikipedia, the free encyclopedia Algorithm for modelling sequential data This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these messages) This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Transformer\" deep learning – news · newspapers · books · scholar · JSTOR (June 2026) (Learn how and when to remove this message)Some of this article's listed sources may not be reliable. Please help improve this article by looking for better, more reliable sources. Unreliable citations may be challenged and removed. (June 2026) (Learn how and when to remove this message) (Learn how and when to remove this message) A standard transformer architecture, showing on the left an encoder, and on the right a decoder. Note: this uses the pre-LN convention, which is different from the post-LN convention used in the original 2017 transformer. In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which input data such as text, images, or audio, is converted to a sequence of numerical representations called tokens, and each token is converted into a vector via lookup from a word embedding table.[1] At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.[1] Transformers have the advantage of having no recurrent units, therefore requiring less training time than earlier recurrent neural architectures (RNNs) such as long short-term memory (LSTM).[2] Later variations have been widely adopted for training large language models (LLMs) on large (language) datasets.[3] Modern transformer designs are commonly grouped into encoder-only, decoder-only, and encoder-decoder variants, depending on whether they are optimized for representation learning, autoregressive generation, or conditional sequence-to-sequence tasks.[4] The original version of the transformer architecture was proposed in the 2017 paper \"Attention Is All You Need\" by researchers at Google.[1] The predecessors of transformers were developed as an improvement over previous architectures for machine translation,[5][6] but have found many applications since. They are used in large-scale natural language processing, computer vision (visi…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:18:34.859Z",
+          "title": "Transformer (deep learning) - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://fptshop.com.vn/tin-tuc/for-gamers/so-sanh-chatgpt-va-claude-197915",
+          "content": "Nổi bậtTin mớiĐiện máy - Gia dụngKhuyến mãiĐánh giá - Tư vấnThủ thuậtVideo hotGiải tríKiến thức - Đời sốngHỏi đápApp & GameTin trao thưởngTin FstudioAnh Duy8 tháng trướcSo sánh ChatGPT và Claude: Khám phá ưu nhược điểm của mỗi trợ lý AI để tìm ra phiên bản phù hợpViệc so sánh ChatGPT và Claude giúp bạn hiểu rõ sự khác biệt giữa hai trợ lý AI hàng đầu của năm 2026. Bài viết phân tích chi tiết ưu nhược điểm, khả năng xử lý, mức giá và gợi ý nên chọn ChatGPT hay Claude theo từng nhu cầu học tập, làm việc và sáng tạo.Chia sẻ:Cỡ chữ nhỏCỡ chữ nhỏCỡ chữ lớnNội dung bài viếtSo sánh ChatGPT và Claude: Cuộc chạy đua giữa hai trợ lý nổi danhƯu nhược điểm của ChatGPT và ClaudeSo sánh ChatGPT và Claude về mức giáNên sử dụng ChatGPT hay Claude?Tạm kếtTrong kỷ nguyên trí tuệ nhân tạo bùng nổ mạnh mẽ, việc lựa chọn một trợ lý AI phù hợp đang trở thành mối quan tâm của rất nhiều người dùng. Trong đó, ChatGPT và Claude đang là hai cái tên nổi bật, mỗi nền tảng mang đến những trải nghiệm và thế mạnh riêng, đáp ứng đa dạng nhu cầu từ học tập, làm việc đến sáng tạo nội dung. Bài viết dưới đây sẽ giúp bạn so sánh ChatGPT và Claude để có cái nhìn tổng quan, dễ hiểu và đưa ra lựa chọn phù hợp nhất cho mình.So sánh ChatGPT và Claude: Cuộc chạy đua giữa hai trợ lý nổi danhSo sánh ChatGPT và Claude đang trở thành chủ đề nổi bật trong bối cảnh trí tuệ nhân tạo phát triển mạnh mẽ và từng bước trở thành công cụ quen thuộc trong học tập, làm việc cũng như sáng tạo nội dung. ChatGPT của OpenAI và Claude AI của Anthropic đều là những mô hình ngôn ngữ lớn tiên tiến, đại diện cho hai định hướng phát triển khác nhau nhưng cùng mục tiêu hỗ trợ con người xử lý thông tin nhanh hơn, hiệu quả hơn và thông minh hơn.Việc đặt hai nền tảng này lên bàn cân giúp người dùng hiểu rõ khả năng thực tế của từng công cụ, đồng thời phản ánh mức độ cạnh tranh ngày càng rõ nét trong thị trường AI tạo sinh giai đoạn 2025–2026.ChatGPT: Ưu thế về tốc độ và khả năng thích ứng ngữ cảnhChatGPT từ lâu đã trở thành cái tên quen thuộc trong cộng đồng công nghệ nhờ tính linh hoạt và độ phổ biến rộng rãi. Được phát triển trên nền tảng GPT và đạt tới phiên bản hiện tại là GPT 5.2, ChatGPT có khả năng xử lý đa dạng tác vụ như viết nội dung, trả lời câu hỏi, hỗ trợ lập trình, phân tích dữ liệu, tạo hình ảnh và tương tác bằng giọng nói. Lợi thế lớn nhất của ChatGPT nằm ở tốc độ phản hồi nhanh, khả năng thích ứng với nhiều ngữ cảnh khác nhau và hệ sinh thái tính năng ngày càng hoàn thiện. Nhờ đó, nền tảng này phù hợp với nhiều nhóm người dùng, từ học sinh sinh viên, người làm nội dung sáng tạo cho đến doanh nghiệp cần một trợ lý AI đa năng để tối ưu quy trình làm việc.Claude AI ưu tiên sự an toàn, minh bạch và cẩn trọngỞ chiều ngược lại, Claude AI được Anthropic phát triển theo định hướng ưu tiên sự an toàn, minh bạch v…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:18:34.860Z",
+          "title": "So sánh ChatGPT và Claude 2026: Ưu nhược điểm và mức giá",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://lobehub.com/vi-VN/blog/claude-3-vs-gpt-4",
+          "content": "Quay lại BlogDarkLightSo sánh Claude 3 và GPT-4: Mô hình nào xuất sắc hơnBài viết này cung cấp cho bạn sự so sánh chi tiết giữa Claude 3 và GPT-4, bao gồm đánh giá hiệu suất đa dạng, khả năng suy luận và xử lý ngữ cảnh.So sánh Claude 3 với GPT-4 Ngày 4 tháng 3 năm 2024, Anthropic đã công bố mô hình ngôn ngữ lớn Claude 3 và các kích thước khác nhau của nó, thách thức các mô hình tiên tiến nhất, và trong một số trường hợp vượt trội hơn họ! Mô hình ngôn ngữ lớn Claude 3 có ba kích thước khác nhau, Haiku, Sonnet và Opus, mỗi kích thước được thiết kế để cân bằng tốt nhất về thông minh, tốc độ và hiệu suất. Mô hình Claude 3 Opus là một LLM, có thể sánh ngang hoặc vượt trội GPT-4 trong hầu hết các khía cạnh hiệu suất. Trong bài viết này, chúng ta sẽ so sánh mô hình Claude 3 của Anthropic với mô hình GPT-4 của OpenAI, và khám phá sự tương đồng và khác biệt giữa chúng. Tóm tắt so sánh Claude 3 có khả năng đa dạng mạnh mẽ hơn, có thể hiểu và xử lý tốt hơn nhiều hình thức đầu vào như hình ảnh, video, biểu đồ, vượt trội rõ rệt so với GPT-4 trong việc hiểu hình ảnh và xử lý đa phương tiện. Claude 3 thể hiện khả năng giao tiếp mạnh mẽ hơn trong các ngôn ngữ không phải tiếng Anh như tiếng Tây Ban Nha, tiếng Nhật và tiếng Pháp, vượt trội trong xử lý văn bản dài, suy luận logic và hiểu biết toán học so với GPT-4. Claude 3 cung cấp ba mức độ mô hình khác nhau, người dùng có thể chọn phiên bản phù hợp theo nhu cầu, giá cả cũng thân thiện hơn. Claude 3 có khả năng xử lý ngữ cảnh 200K tokens, rõ ràng vượt trội so với giới hạn ngữ cảnh 128K tokens mà GPT-4 hỗ trợ. GPT-4 có thể có ưu thế nhất định trong một số lĩnh vực chuyên môn, ví dụ như hiệu suất trong một số kỳ thi khó như GRE và CFR. Cơ sở người dùng của GPT-4 rộng lớn hơn. Do GPT-4 đã tích luỹ một lượng lớn người dùng, so với Claude 3 mới ra mắt, trải nghiệm sử dụng và môi trường sinh thái có thể trở nên chín chắn hơn. Claude 3 là gì? Bìa Claude 3 Claude 3 là thế hệ mới nhất của mô hình trí tuệ nhân tạo do công ty Anthropic phát hành. Theo tuyên bố phát hành của Anthropic, Claude 3 đã vượt trội GPT-4 toàn diện trong nhiều bài kiểm tra chuẩn và đã có tiến bộ đáng kể trong việc phân tích dự đoán, tạo nội dung tinh tế, tạo mã, và khả năng giao tiếp bằng tiếng Tây Ban Nha, tiếng Nhật, tiếng Pháp và các ngôn ngữ không phải tiếng Anh. Ba mô hình của Claude 3 Ba mô hình Claude 3 Claude 3 Haiku Đây là mô hình cơ bản của dòng Claude 3 Hiệu quả và giá cả tương đối thấp, phù hợp cho người dùng thông thường Có khả năng hiểu và tạo ngôn ngữ mạnh mẽ, nhưng có thể hơi kém trong xử lý đa dạng và nhiệm vụ phức tạp Claude 3 Sonnet Đây là mô hình với hiệu suất trung bình của dòng Claude 3 Có cải thiện lớn về xử lý ngôn ngữ, hiểu hình ảnh và hiệu quả Trong hầu hết các nhiệm vụ làm việc, tốc độ của Sonnet nhanh gấp đôi so với Claude 2 v…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:18:34.863Z",
+          "title": "So sánh Claude 3 với GPT-4 · LobeHub",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [],
+      "sourcesSelected": [],
+      "sourcesRejected": [],
+      "thongTin": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: DeepSeek: Expected ',' or '}' after property value in JSON at position 815 (line 17 column 342)",
+      "isDemo": false,
+      "durationMs": 153889
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: DeepSeek: Expected ',' or '}' after property value in JSON at position 815 (line 17 column 342)"
+  }
+}

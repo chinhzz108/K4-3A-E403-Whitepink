@@ -1,0 +1,204 @@
+{
+  "id": "trace-script-1789657171929",
+  "timestamp": "2026-09-17T14:59:31.929Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "learningObjective": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "targetAudience": "Người đi làm, dùng AI hàng ngày",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_criminal_underworld",
+      "tieuDe": "Vietnamese criminal underworld - Wikipedia",
+      "ngayLayVe": "2026-09-17T14:57:09.398Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Vietnamese criminal organizationsThis article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese criminal underworld\" – news · newspapers · books · scholar · JSTOR (July 2025) (Learn how and when to remove this message)Vietnamese gangsters in the 1990s with gang bosses such as Dung Hà (2nd from left), Năm Cam (5th from left), and Hải Bánh (3rd from right). Xã hội đen (chữ Nôm: 社會黰, literally meaning \"black societies\") is a Vietnamese term used to describe the criminal underworld. The term is believed to have become widely used thanks to Hong Kong TV series and movies about the Chinese secret society of Heishehui (Chinese: 黑社会).[1] An",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Zalo",
+      "tieuDe": "Zalo - Wikipedia",
+      "ngayLayVe": "2026-09-17T14:57:09.400Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Vietnamese instant messaging and social media service ZaloOriginal authorVương Quang KhảiDevelopersZalo GroupVNG CorporationReleaseAugust 1, 2012; 14 years ago (2012-08-01)Operating systemWindows, macOS, Android, iOS, web applicationAvailable in2 languagesList of languagesVietnamese, EnglishTypeInstant messaging and VoIP applicationWebsitezalo.me Zalo is a Vietnamese instant messaging multi-platform service developed by VNG Corporation. Zalo is also used in other countries outside of Vietnam, including the United States, Japan, South Korea, Australia, Germany, Myanmar and Singapore.[1] As of Q1 of 2026, Zalo has approximately 83.1 million active monthly users with nearly 2.2 billion messages sent each day.[2] Zalo is currently available in all 34 provi",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Frequency_of_analog_TV_channels_in_Vietnam",
+      "tieuDe": "Frequency of analog TV channels in Vietnam - Wikipedia",
+      "ngayLayVe": "2026-09-17T14:57:09.400Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Television broadcast frequency in Vietnam This is an appendix for the article List of analog television stations in Vietnam Main article: List of analog television stations in Vietnam Here are the channel frequency tables of analog television broadcast/received in the provinces of Vietnam, divided by regions across the country.[1][2][3][4][5][6][7][8] As of 28 December, 2022, analog TV nationwide has stopped broadcasting due to the digitization of television in Vietnam.[9][10][11] Previously, analog television in Vietnam was mostly broadcast on the VHF band (from channel 6 to channel 12), and the UHF band (from channel 21 to channel 62). Only a few places broadcast at frequencies below 6 VHF, like 3 VHF in Tam Dao).[12] Northwest[edit] Channel[4]",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Vietnamese criminal organizationsThis article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese criminal underworld\" – news · newspapers · books · scholar · JSTOR (July 2025) (Learn how and when to remove this message)Vietnamese gangsters in the 1990s with gang bosses such as Dung Hà (2nd from left), Năm Cam (5th from left), and Hải Bánh (3rd from right). Xã hội đen (chữ Nôm: 社會黰, literally meaning \"black societies\") is a Vietnamese term used to describe the criminal underworld. The term is believed to have become widely used thanks to Hong Kong TV series and movies about the Chinese secret society of Heishehui (Chinese: 黑社会).[1] An",
+          "viTri": "Trang 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "From Wikipedia, the free encyclopedia Vietnamese instant messaging and social media service ZaloOriginal authorVương Quang KhảiDevelopersZalo GroupVNG CorporationReleaseAugust 1, 2012; 14 years ago (2012-08-01)Operating systemWindows, macOS, Android, iOS, web applicationAvailable in2 languagesList of languagesVietnamese, EnglishTypeInstant messaging and VoIP applicationWebsitezalo.me Zalo is a Vietnamese instant messaging multi-platform service developed by VNG Corporation. Zalo is also used in other countries outside of Vietnam, including the United States, Japan, South Korea, Australia, Germany, Myanmar and Singapore.[1] As of Q1 of 2026, Zalo has approximately 83.1 million active monthly users with nearly 2.2 billion messages sent each day.[2] Zalo is currently available in all 34 provi",
+          "viTri": "Trang 2"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "From Wikipedia, the free encyclopedia Television broadcast frequency in Vietnam This is an appendix for the article List of analog television stations in Vietnam Main article: List of analog television stations in Vietnam Here are the channel frequency tables of analog television broadcast/received in the provinces of Vietnam, divided by regions across the country.[1][2][3][4][5][6][7][8] As of 28 December, 2022, analog TV nationwide has stopped broadcasting due to the digitization of television in Vietnam.[9][10][11] Previously, analog television in Vietnam was mostly broadcast on the VHF band (from channel 6 to channel 12), and the UHF band (from channel 21 to channel 62). Only a few places broadcast at frequencies below 6 VHF, like 3 VHF in Tam Dao).[12] Northwest[edit] Channel[4]",
+          "viTri": "Trang 3"
+        }
+      ]
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+    "mucTieu": "Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Người đi làm, dùng AI hàng ngày",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng mọi người đến với buổi học hôm nay, tôi là [tên người dẫn chương trình] và chúng ta sẽ khám phá cùng nhau về những dấu hiệu của câu trả lời cần kiểm chứng.",
+        "chuTrenManHinh": "Tìm hiểu về AI",
+        "yDoHinh": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Trong cuộc sống hàng ngày, chúng ta thường xuyên sử dụng các công cụ hỗ trợ như Zalo để giao tiếp và chia sẻ thông tin. Tuy nhiên, có một vấn đề thú vị mà chúng ta cần phải khám phá: tại sao AI lại trả lời sai mà vẫn nghe rất tự tin?",
+        "chuTrenManHinh": "Tìm hiểu về AI",
+        "yDoHinh": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Một câu hỏi thú vị khác mà chúng ta cần phải khám phá là: tại sao xã hội đen lại được gọi là 'société noire' trong tiếng Pháp?",
+        "chuTrenManHinh": "Tìm hiểu về xã hội đen",
+        "yDoHinh": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Chúng ta có thể nhận ra được ba dấu hiệu của câu trả lời cần kiểm chứng khi sử dụng AI. Hãy cùng nhau khám phá và tìm hiểu về những dấu hiệu này.",
+        "chuTrenManHinh": "Tìm hiểu về AI",
+        "yDoHinh": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Cảm ơn mọi người đã tham gia buổi học hôm nay. Hy vọng rằng chúng ta đã có thể tìm hiểu và khám phá được những dấu hiệu của câu trả lời cần kiểm chứng khi sử dụng AI.",
+        "chuTrenManHinh": "Tìm hiểu về AI",
+        "yDoHinh": "Vì sao AI trả lời sai mà vẫn nghe rất tự tin",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng mọi người đến với buổi học hôm nay, tôi là [tên người dẫn chương trình] và chúng ta sẽ khám phá cùng nhau về những dấu hiệu của câu trả lời cần kiểm chứng.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Trong cuộc sống hàng ngày, chúng ta thường xuyên sử dụng các công cụ hỗ trợ như Zalo để giao tiếp và chia sẻ thông tin. Tuy nhiên, có một vấn đề thú vị mà chúng ta cần phải khám phá: tại sao AI lại trả lời sai mà vẫn nghe rất tự tin?",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Vietnamese criminal organizationsThis article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese criminal underworld\" – news · newspapers · books · scholar · JSTOR (July 2025) (Learn how and when to remove this message)Vietnamese gangsters in the 1990s with gang bosses such as Dung Hà (2nd from left), Năm Cam (5th from left), and Hải Bánh (3rd from right). Xã hội đen (chữ Nôm: 社會黰, literally meaning \"black societies\") is a Vietnamese term used to describe the criminal underworld. The term is believed to have become widely used thanks to Hong Kong TV series and movies about the Chinese secret society of Heishehui (Chinese: 黑社会).[1] An; [n02] From Wikipedia, the free encyclopedia Vietnamese instant messaging and social media service ZaloOriginal authorVương Quang KhảiDevelopersZalo GroupVNG CorporationReleaseAugust 1, 2012; 14 years ago (2012-08-01)Operating systemWindows, macOS, Android, iOS, web applicationAvailable in2 languagesList of languagesVietnamese, EnglishTypeInstant messaging and VoIP applicationWebsitezalo.me Zalo is a Vietnamese instant messaging multi-platform service developed by VNG Corporation. Zalo is also used in other countries outside of Vietnam, including the United States, Japan, South Korea, Australia, Germany, Myanmar and Singapore.[1] As of Q1 of 2026, Zalo has approximately 83.1 million active monthly users with nearly 2.2 billion messages sent each day.[2] Zalo is currently available in all 34 provi; [n03] From Wikipedia, the free encyclopedia Television broadcast frequency in Vietnam This is an appendix for the article List of analog television stations in Vietnam Main article: List of analog television stations in Vietnam Here are the channel frequency tables of analog television broadcast/received in the provinces of Vietnam, divided by regions across the country.[1][2][3][4][5][6][7][8] As of 28 December, 2022, analog TV nationwide has stopped broadcasting due to the digitization of television in Vietnam.[9][10][11] Previously, analog television in Vietnam was mostly broadcast on the VHF band (from channel 6 to channel 12), and the UHF band (from channel 21 to channel 62). Only a few places broadcast at frequencies below 6 VHF, like 3 VHF in Tam Dao).[12] Northwest[edit] Channel[4]"
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Một câu hỏi thú vị khác mà chúng ta cần phải khám phá là: tại sao xã hội đen lại được gọi là 'société noire' trong tiếng Pháp?",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Vietnamese criminal organizationsThis article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese criminal underworld\" – news · newspapers · books · scholar · JSTOR (July 2025) (Learn how and when to remove this message)Vietnamese gangsters in the 1990s with gang bosses such as Dung Hà (2nd from left), Năm Cam (5th from left), and Hải Bánh (3rd from right). Xã hội đen (chữ Nôm: 社會黰, literally meaning \"black societies\") is a Vietnamese term used to describe the criminal underworld. The term is believed to have become widely used thanks to Hong Kong TV series and movies about the Chinese secret society of Heishehui (Chinese: 黑社会).[1] An; [n02] From Wikipedia, the free encyclopedia Vietnamese instant messaging and social media service ZaloOriginal authorVương Quang KhảiDevelopersZalo GroupVNG CorporationReleaseAugust 1, 2012; 14 years ago (2012-08-01)Operating systemWindows, macOS, Android, iOS, web applicationAvailable in2 languagesList of languagesVietnamese, EnglishTypeInstant messaging and VoIP applicationWebsitezalo.me Zalo is a Vietnamese instant messaging multi-platform service developed by VNG Corporation. Zalo is also used in other countries outside of Vietnam, including the United States, Japan, South Korea, Australia, Germany, Myanmar and Singapore.[1] As of Q1 of 2026, Zalo has approximately 83.1 million active monthly users with nearly 2.2 billion messages sent each day.[2] Zalo is currently available in all 34 provi; [n03] From Wikipedia, the free encyclopedia Television broadcast frequency in Vietnam This is an appendix for the article List of analog television stations in Vietnam Main article: List of analog television stations in Vietnam Here are the channel frequency tables of analog television broadcast/received in the provinces of Vietnam, divided by regions across the country.[1][2][3][4][5][6][7][8] As of 28 December, 2022, analog TV nationwide has stopped broadcasting due to the digitization of television in Vietnam.[9][10][11] Previously, analog television in Vietnam was mostly broadcast on the VHF band (from channel 6 to channel 12), and the UHF band (from channel 21 to channel 62). Only a few places broadcast at frequencies below 6 VHF, like 3 VHF in Tam Dao).[12] Northwest[edit] Channel[4]"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Chúng ta có thể nhận ra được ba dấu hiệu của câu trả lời cần kiểm chứng khi sử dụng AI. Hãy cùng nhau khám phá và tìm hiểu về những dấu hiệu này.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Cảm ơn mọi người đã tham gia buổi học hôm nay. Hy vọng rằng chúng ta đã có thể tìm hiểu và khám phá được những dấu hiệu của câu trả lời cần kiểm chứng khi sử dụng AI.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "{ \"schema\": \"hackathon-kich-ban/1\", \"id\": \"scriptscout-output\", \"tieuDe\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\", \"mucTieu\": \"Nhận ra được ba dấu hiệu một câu trả lời cần kiểm chứng\", \"thoiLuong\": \"5 phút\", \"nguoiHoc\": \"Người đi làm, dùng AI hàng ngày\", \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}], \"cau\": [ { \"n\": 1, \"phan\": 1, \"kieu\": \"ke\", \"loi\": \"Chào mừng mọi người đến với buổi học hôm nay, tôi là [tên người dẫn chương trình] và chúng ta sẽ khám phá cùng nhau về những dấu hiệu của câu trả lời cần kiểm chứng.\", \"chuTrenManHinh\": \"Tìm hiểu về AI\", \"yDoHinh\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\", \"nguon\": [] }, { \"n\": 2, \"phan\": 1, \"kieu\": \"giang\", \"loi\": \"Trong cuộc sống hàng ngày, chúng ta thường xuyên sử dụng các công cụ hỗ trợ như Zalo để giao tiếp và chia sẻ thông tin. Tuy nhiên, có một vấn đề thú vị mà chúng ta cần phải khám phá: tại sao AI lại trả lời sai mà vẫn nghe rất tự tin?\", \"chuTrenManHinh\": \"Tìm hiểu về AI\", \"yDoHinh\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\", \"nguon\": [\"n02\"] }, { \"n\": 3, \"phan\": 1, \"kieu\": \"nhe\", \"loi\": \"Một câu hỏi thú vị khác mà chúng ta cần phải khám phá là: tại sao xã hội đen lại được gọi là 'société noire' trong tiếng Pháp?\", \"chuTrenManHinh\": \"Tìm hiểu về xã hội đen\", \"yDoHinh\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\", \"nguon\": [\"n01\"] }, { \"n\": 4, \"phan\": 1, \"kieu\": \"hoi\", \"loi\": \"Chúng ta có thể nhận ra được ba dấu hiệu của câu trả lời cần kiểm chứng khi sử dụng AI. Hãy cùng nhau khám phá và tìm hiểu về những dấu hiệu này.\", \"chuTrenManHinh\": \"Tìm hiểu về AI\", \"yDoHinh\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\", \"nguon\": [] }, { \"n\": 5, \"phan\": 1, \"kieu\": \"nhan\", \"loi\": \"Cảm ơn mọi người đã tham gia buổi học hôm nay. Hy vọng rằng chúng ta đã có thể tìm hiểu và khám phá được những dấu hiệu của câu trả lời cần kiểm chứng khi sử dụng AI.\", \"chuTrenManHinh\": \"Tìm hiểu về AI\", \"yDoHinh\": \"Vì sao AI trả lời sai mà vẫn nghe rất tự tin\", \"nguon\": [] } ] }",
+  "isDemo": false,
+  "durationMs": 26467
+}

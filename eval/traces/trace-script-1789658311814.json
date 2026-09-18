@@ -1,0 +1,72 @@
+{
+  "id": "trace-script-1789658311814",
+  "timestamp": "2026-09-17T15:18:31.814Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Chi phí khi dùng mô hình ngôn ngữ",
+    "learningObjective": "Ước lượng được chi phí một tác vụ",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/old-source.html",
+      "tieuDe": "Fixture tự dựng — bảng giá cũ",
+      "tacGia": "Nhóm kiểm thử ScriptScout (hư cấu)",
+      "ngayDang": "2023-01-01",
+      "ngayLayVe": "2026-09-17T15:18:00.346Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Nguồn hơn một năm tuổi; cần kiểm tra phiên bản mới"
+      ],
+      "doanTrich": "Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Chi phí khi dùng mô hình ngôn ngữ",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Fixture tự dựng, không phải dữ liệu thực tếBảng giá mô hình thử nghiệm năm 2023 là hai đô la cho một triệu đơn vị văn bản. Bảng giá này chỉ có hiệu lực trong năm 2023 và không được dùng làm mức giá hiện tại.",
+          "viTri": "Trang 1"
+        }
+      ]
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Chi phí khi dùng mô hình ngôn ngữ",
+    "mucTieu": "Ước lượng được chi phí một tác vụ",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Quản lý sản phẩm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=true, chữ màn hình=27, mã=[\"t01\"])",
+  "isDemo": false,
+  "durationMs": 13493
+}

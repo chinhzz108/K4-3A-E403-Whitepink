@@ -1,0 +1,180 @@
+{
+  "id": "trace-research-1789657639775",
+  "timestamp": "2026-09-17T15:07:19.775Z",
+  "phase": "research",
+  "input": {
+    "topic": "Retrieval-Augmented Generation (RAG)",
+    "learningObjective": "Hiểu cách kết hợp tìm kiếm với sinh văn bản để giảm hallucination",
+    "targetAudience": "Sinh viên CNTT năm 3",
+    "videoDuration": "5 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Retrieval-augmented generation",
+          "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "snippet": "combined hybrid text (using effective scoring or reranking scoring) into the language model for generation. RAG does not prevent hallucinations in LLMs. According",
+          "position": 1
+        },
+        {
+          "title": "Hallucination (artificial intelligence)",
+          "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+          "snippet": "In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting, confabulation, delusion, or mirage)",
+          "position": 2
+        },
+        {
+          "title": "ChatGPT",
+          "url": "https://en.wikipedia.org/wiki/ChatGPT",
+          "snippet": "nonsensical answers that sound plausible, known as hallucinations. Biases in its training data have been reflected in its responses. The chatbot can facilitate",
+          "position": 3
+        }
+      ],
+      "query": "Reducing hallucination in text generation",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    },
+    {
+      "results": [
+        {
+          "title": "Retrieval-augmented generation",
+          "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "snippet": "term retrieval-augmented generation (RAG) was introduced in a 2020 paper that described combining a parametric language model with a non-parametric external",
+          "position": 1
+        },
+        {
+          "title": "LangChain",
+          "url": "https://en.wikipedia.org/wiki/LangChain",
+          "snippet": "question answering, combining documents, and question generation; N-gram overlap scoring; PyPDF, pdfminer, fitz, and pymupdf for PDF file text extraction and",
+          "position": 2
+        },
+        {
+          "title": "IPadOS 27",
+          "url": "https://en.wikipedia.org/wiki/IPadOS_27",
+          "snippet": "Apple Pencil. Resource-heavy features, such as image generation, are subject to daily usage limits, with larger allowances available to subscribers of paid",
+          "position": 3
+        }
+      ],
+      "query": "Combining search with text generation",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "content": "From Wikipedia, the free encyclopedia Type of information retrieval using LLMs Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.[1][2] With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data.[3] This allows LLMs to use domain-specific and/or updated information that is not available in the training data.[3] For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems. RAG improves LLMs by incorporating information retrieval before generating responses.[4] Unlike LLMs that rely on static training data, RAG pulls relevant text from databases, uploaded documents, or web sources.[1] According to Ars Technica, \"RAG is a way of improving LLM performance, in essence by blending the LLM process with a web search or other document look-up process to help LLMs stick to the facts.\" This method helps reduce AI hallucinations,[4] which have caused chatbots to describe policies that don't exist, or recommend nonexistent legal cases to lawyers that are looking for citations to support their arguments.[5] RAG also reduces the need to retrain LLMs with new data, saving on computational and financial costs.[1] Beyond efficiency gains, RAG also allows LLMs to include sources in their responses, so users can verify the cited sources. This provides greater transparency, as users can cross-check retrieved content to ensure accuracy and relevance. The term retrieval-augmented generation (RAG) was introduced in a 2020 paper that described combining a parametric language model with a non-parametric external memory accessed through retrieval at inference time.[4] RAG and LLM limitations[edit] LLMs can provide incorrect information. For example, when Google first demonstrated its LLM tool \"Google Bard\" (later re-branded to Gemini), the LLM provided incorrect information about the James Webb Space Telescope. This error contributed to a $100 billion decline in Google's stock value.[5] RAG is used to prevent these errors, but it does not solve all the problems. For example, LLMs can generate misinformation even when pulling from factually correct sources if they misinterpret the context. MIT Technology Review gives the example of an AI-generated response stating, \"The United States has had one Muslim president, Barack Hussein Obama.\" The model retrieved this from the rhetorical chapter title \"Barack Hussein Obama: America's First Muslim President?\" in the book Faith in the New …[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T15:06:23.346Z",
+      "title": "Retrieval-augmented generation - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+      "content": "From Wikipedia, the free encyclopedia This article needs to be updated. Please help update this article to reflect recent events or newly available information. (July 2026) Erroneous AI-generated content presented as true This article is about AI presenting fabricated information as fact. For AI-induced psychosis in humans, see Chatbot psychosis. Not to be confused with Artificial imagination. A video of the Glenfinnan Viaduct in Scotland generated by Sora, incorrectly showing: a second track, trains running on the right instead of the left, a second chimney on its interpretation of the train The Jacobite, inconsistent carriage lengths, unnatural amounts of visual noise, and a carriage bending along its length as it rounds the turn.The real Glenfinnan Viaduct with The Jacobite on it In the field of artificial intelligence (AI), a hallucination or artificial hallucination (also called bullshitting,[1][2] confabulation,[3] delusion[4], or mirage[5]) is a response generated by AI that contains false or misleading information presented as fact.[6] These terms draw a loose analogy with human psychology, where a hallucination typically involves false percepts. Chatbots powered by large language models (LLMs), like ChatGPT, may embed plausible-sounding random falsehoods within its generated content, such as fabricated citations. Detecting and mitigating errors and hallucinations pose significant challenges for practical deployment and reliability of LLMs in high-stakes scenarios, such as chip design, supply chain logistics, and medical diagnostics.[7][8][9] Some software engineers and statisticians have criticized the specific term \"AI hallucination\" for unreasonably anthropomorphizing computers.[10][11] Symbolic artificial intelligence models generally do not produce hallucinations, unlike large language models.[12] Term[edit] Origin[edit] In computer vision, since the 2000s, hallucination is adding detail to an image to improve it. For example, the task of generating high-resolution face images from low-resolution inputs is face hallucination.[13][14] The term was introduced in the PhD thesis of Eric Mjolsness in 1986.[15] A notable work is the face hallucination algorithm by Simon Baker and Takeo Kanade published in 1999.[16] In the 2000s, hallucinations were described in statistical machine translation as a failure mode.[17] Since the 2010s, hallucination has come to mean the generation of factually incorrect or misleading outputs by AI systems in tasks like machine translation and object detection.[13] In 2015, hallucinations were identified in visual semantic role labeling tasks by Saurabh Gupta and Jitendra Malik.[18] In 2015, computer scientist Andrej Karpathy used hallucinated in a blog post to describe his recurrent neural network (RNN) language m…[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T15:06:23.347Z",
+      "title": "Hallucination (artificial intelligence) - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ChatGPT",
+      "content": "From Wikipedia, the free encyclopedia Generative AI chatbot by OpenAI ChatGPTDeveloperOpenAIReleaseNovember 30, 2022 (3 years ago) (2022-11-30)[1]Stable releaseSeptember 14, 2026 (3 days ago) (2026-09-14)[2] EngineGPT-6 AstraOperating systemWeb platformiOSAndroidmacOSWindowsiPadOSPlatformCloud computing platformsAvailable in59 languages[3]Type Chatbot Large language model Generative pre-trained transformer LicenseProprietary serviceWebsitechatgpt.com ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models—specifically generative pre-trained transformers (GPTs)—to generate text, speech, and images in response to user prompts. ChatGPT accelerated the AI boom, an ongoing period marked by rapid investment and public attention toward the field of artificial intelligence (AI). OpenAI operates the service on a freemium model. Users can interact with ChatGPT through text, audio, and image prompts. ChatGPT was quickly adopted, reaching 100 million monthly active users two months after its release and 900 million weekly active users in February 2026. Proponents say that it has the potential to transform numerous professional fields, and it has instigated public debate about the nature of creativity and the future of knowledge work. The chatbot has also been criticized for its limitations and potential for unethical use. It can generate incorrect or nonsensical answers that sound plausible, known as hallucinations. Biases in its training data have been reflected in its responses. The chatbot can facilitate academic dishonesty, generate misinformation, and create malicious code. The ethics of its development, particularly the use of copyrighted content as training data, have also drawn controversy. Features ChatGPT is a chatbot assistant based on large language model (LLM) technology.[4] It is designed to generate human-like text and can carry out a wide variety of tasks. These include, among many others, writing and debugging computer programs, composing music, scripts, stories, and essays, answering questions (sometimes at a level exceeding that of an average human test-taker),[5] and generating business concepts.[6] ChatGPT is frequently used for translation and summarization tasks,[7][8] and can simulate interactive environments such as a Linux terminal,[9] a multi-user chat room,[9] or simple text-based games such as tic-tac-toe.[9] Users interact with ChatGPT through conversations which consist of text, audio, and image inputs and outputs.[10] The user's inputs to these conversations are referred to as prompts.[11] An optional \"Memory\" feature allows users to tell ChatGPT to memorize specific information. Another option allows ChatGPT to recall old conversations.[12] GPT-based…[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T15:06:23.348Z",
+      "title": "ChatGPT - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "tieuDe": "Retrieval-augmented generation - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:06:23.346Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Type of information retrieval using LLMs Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.[1][2] With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data.[3] This allows LLMs to use domain-specific and/or updated information that is not available in the training data.[3] For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems. RAG improves LLMs by providing them with more accurate and relevant information, which can lead to better performance and more reliable results.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+      "tieuDe": "Hallucination (artificial intelligence) - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:06:23.347Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia This article needs to be updated. Please help update this article to reflect recent events or newly available information. (July 2026) Erroneous AI-generated content presented as true This article is about AI presenting fabricated information as fact. For AI-induced psychosis in humans, see Chatbot psychosis. Not to be confused with Artificial imagination. A video of the Glenfinnan Viaduct in Scotland generated by Sora, incorrectly showing: a second track, trains running on the right instead of the left, a second chimney on its interpretation of the train The Jacobite, inconsistent carriage lengths, unnatural amounts of visual noise, and a carriage bending along its length as it rounds the turn.The real Glenfinnan Viaduct with The Jacobite on it In the",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/ChatGPT",
+      "tieuDe": "ChatGPT - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:06:23.348Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Generative AI chatbot by OpenAI ChatGPTDeveloperOpenAIReleaseNovember 30, 2022 (3 years ago) (2022-11-30)[1]Stable releaseSeptember 14, 2026 (3 days ago) (2026-09-14)[2] EngineGPT-6 AstraOperating systemWeb platformiOSAndroidmacOSWindowsiPadOSPlatformCloud computing platformsAvailable in59 languages[3]Type Chatbot Large language model Generative pre-trained transformer LicenseProprietary serviceWebsitechatgpt.com ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models—specifically generative pre-trained transformers (GPTs)—to generate text, speech, and images in response to user prompts. ChatGPT accelerated the AI boom, an ongoing period marked by rapid investment and publ",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "sourcesRejected": [],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Retrieval-Augmented Generation (RAG) là một kỹ thuật cho phép các mô hình ngôn ngữ lớn (LLMs) truy cập và tích hợp thông tin mới từ các nguồn dữ liệu bên ngoài. RAG cải thiện hiệu suất của LLMs bằng cách cung cấp cho chúng thông tin chính xác và liên quan hơn, dẫn đến kết quả đáng tin cậy hơn.",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "From Wikipedia, the free encyclopedia Type of information retrieval using LLMs Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.[1][2] With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data.[3] This allows LLMs to use domain-specific and/or updated information that is not available in the training data.[3] For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems. RAG improves LLMs by providing them with more accurate and relevant information, which can lead to better performance and more reliable results.",
+          "viTri": "Trang 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "From Wikipedia, the free encyclopedia This article needs to be updated. Please help update this article to reflect recent events or newly available information. (July 2026) Erroneous AI-generated content presented as true This article is about AI presenting fabricated information as fact. For AI-induced psychosis in humans, see Chatbot psychosis. Not to be confused with Artificial imagination. A video of the Glenfinnan Viaduct in Scotland generated by Sora, incorrectly showing: a second track, trains running on the right instead of the left, a second chimney on its interpretation of the train The Jacobite, inconsistent carriage lengths, unnatural amounts of visual noise, and a carriage bending along its length as it rounds the turn.The real Glenfinnan Viaduct with The Jacobite on it In the",
+          "viTri": "Trang 2"
+        },
+        {
+          "nguonId": "n03",
+          "doanTrich": "From Wikipedia, the free encyclopedia Generative AI chatbot by OpenAI ChatGPTDeveloperOpenAIReleaseNovember 30, 2022 (3 years ago) (2022-11-30)[1]Stable releaseSeptember 14, 2026 (3 days ago) (2026-09-14)[2] EngineGPT-6 AstraOperating systemWeb platformiOSAndroidmacOSWindowsiPadOSPlatformCloud computing platformsAvailable in59 languages[3]Type Chatbot Large language model Generative pre-trained transformer LicenseProprietary serviceWebsitechatgpt.com ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models—specifically generative pre-trained transformers (GPTs)—to generate text, speech, and images in response to user prompts. ChatGPT accelerated the AI boom, an ongoing period marked by rapid investment and publ",
+          "viTri": "Trang 3"
+        }
+      ]
+    }
+  ],
+  "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://en.wikipedia.org/wiki/Retrieval-augmented_generation\",\n      \"tieuDe\": \"Retrieval-augmented generation - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:06:23.346Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"From Wikipedia, the free encyclopedia Type of information retrieval using LLMs Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.[1][2] With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data.[3] This allows LLMs to use domain-specific and/or updated information that is not available in the training data.[3] For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems. RAG improves LLMs by providing them with more accurate and relevant information, which can lead to better performance and more reliable results.\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)\",\n      \"tieuDe\": \"Hallucination (artificial intelligence) - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:06:23.347Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"From Wikipedia, the free encyclopedia This article needs to be updated. Please help update this article to reflect recent events or newly available information. (July 2026) Erroneous AI-generated content presented as true This article is about AI presenting fabricated information as fact. For AI-induced psychosis in humans, see Chatbot psychosis. Not to be confused with Artificial imagination. A video of the Glenfinnan Viaduct in Scotland generated by Sora, incorrectly showing: a second track, trains running on the right instead of the left, a second chimney on its interpretation of the train The Jacobite, inconsistent carriage lengths, unnatural amounts of visual noise, and a carriage bending along its length as it rounds the turn.The real Glenfinnan Viaduct with The Jacobite on it In the\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/ChatGPT\",\n      \"tieuDe\": \"ChatGPT - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:06:23.348Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"From Wikipedia, the free encyclopedia Generative AI chatbot by OpenAI ChatGPTDeveloperOpenAIReleaseNovember 30, 2022 (3 years ago) (2022-11-30)[1]Stable releaseSeptember 14, 2026 (3 days ago) (2026-09-14)[2] EngineGPT-6 AstraOperating systemWeb platformiOSAndroidmacOSWindowsiPadOSPlatformCloud computing platformsAvailable in59 languages[3]Type Chatbot Large language model Generative pre-trained transformer LicenseProprietary serviceWebsitechatgpt.com ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models—specifically generative pre-trained transformers (GPTs)—to generate text, speech, and images in response to user prompts. ChatGPT accelerated the AI boom, an ongoing period marked by rapid investment and publ\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Retrieval-Augmented Generation (RAG) là một kỹ thuật cho phép các mô hình ngôn ngữ lớn (LLMs) truy cập và tích hợp thông tin mới từ các nguồn dữ liệu bên ngoài. RAG cải thiện hiệu suất của LLMs bằng cách cung cấp cho chúng thông tin chính xác và liên quan hơn, dẫn đến kết quả đáng tin cậy hơn.\",\n      \"loai\": \"dinh-nghia\",\n      \"soNguonXacNhan\": 3,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"From Wikipedia, the free encyclopedia Type of information retrieval using LLMs Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources.[1][2] With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data.[3] This allows LLMs to use domain-specific and/or updated information that is not available in the training data.[3] For example, this enables LLM-based chatbots to access internal company data or generate responses based on authoritative sources. The technique was first proposed in 2020 and has since become a widely adopted approach in modern AI systems. RAG improves LLMs by providing them with more accurate and relevant information, which can lead to better performance and more reliable results.\",\n          \"viTri\": \"Trang 1\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"From Wikipedia, the free encyclopedia This article needs to be updated. Please help update this article to reflect recent events or newly available information. (July 2026) Erroneous AI-generated content presented as true This article is about AI presenting fabricated information as fact. For AI-induced psychosis in humans, see Chatbot psychosis. Not to be confused with Artificial imagination. A video of the Glenfinnan Viaduct in Scotland generated by Sora, incorrectly showing: a second track, trains running on the right instead of the left, a second chimney on its interpretation of the train The Jacobite, inconsistent carriage lengths, unnatural amounts of visual noise, and a carriage bending along its length as it rounds the turn.The real Glenfinnan Viaduct with The Jacobite on it In the\",\n          \"viTri\": \"Trang 2\"\n        },\n        {\n          \"nguonId\": \"n03\",\n          \"doanTrich\": \"From Wikipedia, the free encyclopedia Generative AI chatbot by OpenAI ChatGPTDeveloperOpenAIReleaseNovember 30, 2022 (3 years ago) (2022-11-30)[1]Stable releaseSeptember 14, 2026 (3 days ago) (2026-09-14)[2] EngineGPT-6 AstraOperating systemWeb platformiOSAndroidmacOSWindowsiPadOSPlatformCloud computing platformsAvailable in59 languages[3]Type Chatbot Large language model Generative pre-trained transformer LicenseProprietary serviceWebsitechatgpt.com ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models—specifically generative pre-trained transformers (GPTs)—to generate text, speech, and images in response to user prompts. ChatGPT accelerated the AI boom, an ongoing period marked by rapid investment and publ\",\n          \"viTri\": \"Trang 3\"\n        }\n      ]\n    }\n  ]\n}",
+  "isDemo": false,
+  "durationMs": 58759
+}

@@ -1,0 +1,99 @@
+{
+  "id": "trace-research-1789651617695",
+  "timestamp": "2026-09-17T13:26:57.695Z",
+  "phase": "research",
+  "input": {
+    "topic": "học máy",
+    "learningObjective": "tìm hiểu cây quyết định",
+    "targetAudience": "Sinh viên CNTT",
+    "videoDuration": "3 phút",
+    "fixtureMode": false
+  },
+  "searchResults": [
+    {
+      "results": [
+        {
+          "title": "Decision tree learning",
+          "url": "https://en.wikipedia.org/wiki/Decision_tree_learning",
+          "snippet": "Decision tree learning is a supervised learning approach used in statistics, data mining and machine learning. In this formalism, a classification or",
+          "position": 1
+        },
+        {
+          "title": "Decision tree",
+          "url": "https://en.wikipedia.org/wiki/Decision_tree",
+          "snippet": "most likely to reach a goal, but are also a popular tool in machine learning. A decision tree is a flowchart-like structure in which each internal node",
+          "position": 2
+        },
+        {
+          "title": "Decision tree pruning",
+          "url": "https://en.wikipedia.org/wiki/Decision_tree_pruning",
+          "snippet": "compression technique in machine learning and search algorithms that reduces the size of decision trees by removing sections of the tree that are non-critical",
+          "position": 3
+        }
+      ],
+      "query": "decision tree machine learning",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    },
+    {
+      "results": [
+        {
+          "title": "Decision tree learning",
+          "url": "https://en.wikipedia.org/wiki/Decision_tree_learning",
+          "snippet": "classification tree can be an input for decision making). Decision tree learning is a method commonly used in data mining. The goal is to create an algorithm that",
+          "position": 1
+        },
+        {
+          "title": "Decision tree",
+          "url": "https://en.wikipedia.org/wiki/Decision_tree",
+          "snippet": "an algorithm that only contains conditional control statements. Decision trees are commonly used in operations research, specifically in decision analysis",
+          "position": 2
+        },
+        {
+          "title": "ID3 algorithm",
+          "url": "https://en.wikipedia.org/wiki/ID3_algorithm",
+          "snippet": "In decision tree learning, ID3 (Iterative Dichotomiser 3) is a greedy algorithm invented by Ross Quinlan used to generate a decision tree from a dataset",
+          "position": 3
+        }
+      ],
+      "query": "decision tree algorithm",
+      "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+    }
+  ],
+  "pagesRead": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Decision_tree_learning",
+      "content": "From Wikipedia, the free encyclopedia Machine learning algorithm This article is about decision trees in machine learning. For the use of the term in decision analysis, see Decision tree. Decision tree learning is a supervised learning approach used in statistics, data mining and machine learning. In this formalism, a classification or regression decision tree is used as a predictive model to draw conclusions about a set of observations. Tree models where the target variable can take a discrete set of values are called classification trees; in these tree structures, leaves represent class labels and branches represent conjunctions of features that lead to those class labels. Decision trees where the target variable can take continuous values (typically real numbers) are called regression trees. More generally, the concept of regression tree can be extended to any kind of object equipped with pairwise dissimilarities such as categorical sequences.[1] Decision trees are among the most popular machine learning algorithms given their intelligibility and simplicity because they produce algorithms that are easy to interpret and visualize, even for users without a statistical background.[2] In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. In data mining, a decision tree describes data (but the resulting classification tree can be an input for decision making). General[edit] A tree showing survival of passengers on the Titanic (\"sibsp\" is the number of spouses or siblings aboard). The figures under the leaves show the probability of survival and the percentage of observations in the leaf. Summarizing: Your chances of survival were good if you were (i) a female or (ii) a male at most 9.5 years old with strictly fewer than 3 siblings. Decision tree learning is a method commonly used in data mining.[3] The goal is to create an algorithm that predicts the value of a target variable based on several input variables. A decision tree is a simple representation for classifying examples. For this section, assume that all of the input features have finite discrete domains, and there is a single target feature called the \"classification\". Each element of the domain of the classification is called a class. A decision tree or a classification tree is a tree in which each internal (non-leaf) node is labeled with an input feature. The arcs coming from a node labeled with an input feature are labeled with each of the possible values of the target feature or the arc leads to a subordinate decision node on a different input feature. Each leaf of the tree is labeled with a class or a probability distribution over the classes, signifying that the data set has been classified by the tree into either a specific …[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T13:25:26.118Z",
+      "title": "Decision tree learning - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Decision_tree",
+      "content": "From Wikipedia, the free encyclopedia Decision support tool This article is about decision trees in decision analysis. For the use of the term in machine learning, see Decision tree learning. Traditionally, decision trees have been created manually. A decision tree is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements. Decision trees are commonly used in operations research, specifically in decision analysis,[1] to help identify a strategy most likely to reach a goal, but are also a popular tool in machine learning. Overview[edit] A decision tree is a flowchart-like structure in which each internal node represents a test on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes). The paths from root to leaf represent classification rules. In decision analysis, a decision tree and the closely related influence diagram are used as a visual and analytical decision support tool, where the expected values (or expected utility) of competing alternatives are calculated. A decision tree consists of three types of nodes:[2] Decision nodes – typically represented by squares Chance nodes – typically represented by circles End nodes – typically represented by triangles Decision trees are commonly used in operations research and operations management. If, in practice, decisions have to be taken online with no recall under incomplete knowledge, a decision tree should be paralleled by a probability model as a best choice model or online selection model algorithm.[citation needed] Another use of decision trees is as a descriptive means for calculating conditional probabilities. Decision trees, influence diagrams, utility functions, and other decision analysis tools and methods are taught to undergraduate students in schools of business, health economics, and public health, and are examples of operations research or management science methods. These tools are also used to predict decisions of householders in normal and emergency scenarios.[3][4] Decision-tree building blocks[edit] Decision-tree elements[edit] Drawn from left to right, a decision tree has only burst nodes (splitting paths) but no sink nodes (converging paths). So used manually they can grow very big and are then often hard to draw fully by hand. Traditionally, decision trees have been created manually – as the aside example shows – although increasingly, specialized software is employed. Decision rules[edit] The decision tree can be l…[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T13:25:26.121Z",
+      "title": "Decision tree - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Decision_tree_pruning",
+      "content": "From Wikipedia, the free encyclopedia Data compression technique Before and after pruning For other uses, see Pruning (disambiguation). Pruning is a data compression technique in machine learning and search algorithms that reduces the size of decision trees by removing sections of the tree that are non-critical and redundant to classify instances. Pruning reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of overfitting. One of the questions that arises in a decision tree algorithm is the optimal size of the final tree. A tree that is too large risks overfitting the training data and poorly generalizing to new samples. A small tree might not capture important structural information about the sample space. However, it is hard to tell when a tree algorithm should stop because it is impossible to tell if the addition of a single extra node will dramatically decrease error. This problem is known as the horizon effect. A common strategy is to grow the tree until each node contains a small number of instances then use pruning to remove nodes that do not provide additional information.[1] Pruning should reduce the size of a learning tree without reducing predictive accuracy as measured by a cross-validation set. There are many techniques for tree pruning that differ in the measurement that is used to optimize performance. Techniques[edit] Pruning processes can be divided into two types (pre- and post-pruning). Pre-pruning procedures prevent a complete induction of the training set by replacing a stop () criterion in the induction algorithm (e.g. max. Tree depth or information gain (Attr)> minGain). Pre-pruning methods are considered to be more efficient because they do not induce an entire set, but rather trees remain small from the start. Prepruning methods share a common problem, the horizon effect. This is to be understood as the undesired premature termination of the induction by the stop () criterion. Post-pruning (or just pruning) is the most common way of simplifying trees. Here, nodes and subtrees are replaced with leaves to reduce complexity. Pruning can not only significantly reduce the size but also improve the classification accuracy of unseen objects. It may be the case that the accuracy of the assignment on the train set deteriorates, but the accuracy of the classification properties of the tree increases overall. The procedures are differentiated on the basis of their approach in the tree (top-down or bottom-up). Bottom-up pruning[edit] These procedures start at the last node in the tree (the lowest point). Following recursively upwards, they determine the relevance of each individual node. If the relevance for the classification is not given, the node is dropped or replaced by a leaf. The …[đã cắt bớt]",
+      "fetchedAt": "2026-09-17T13:25:26.123Z",
+      "title": "Decision tree pruning - Wikipedia",
+      "status": "ok",
+      "contentLength": 2813,
+      "promptInjection": false
+    }
+  ],
+  "sourcesEvaluated": [],
+  "sourcesSelected": [],
+  "sourcesRejected": [],
+  "thongTin": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: DeepSeek: The operation was aborted due to timeout",
+  "isDemo": false,
+  "durationMs": 115419
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "N01",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: DeepSeek: Expected ',' or '}' after property value in JSON at position 5507 (line 1 column 5508); Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N01.json",
+    "durationMs": 168342
+  },
+  {
+    "id": "N02",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: DeepSeek: Expected ',' or ']' after array element in JSON at position 4946 (line 1 column 4947); Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N02.json",
+    "durationMs": 120112
+  },
+  {
+    "id": "N03",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Tất cả AI providers đều gặp lỗi: DeepSeek: Unexpected token 'a', \"[a][b] (193\"... is not valid JSON; Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N03.json",
+    "durationMs": 152709
+  },
+  {
+    "id": "N04",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "The operation was aborted due to timeout",
+    "trace": "N04.json",
+    "durationMs": 180013
+  },
+  {
+    "id": "N05",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "The operation was aborted due to timeout",
+    "trace": "N05.json",
+    "durationMs": 180017
+  },
+  {
+    "id": "N06",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Không có nguồn đã đọc và chọn; Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N06.json",
+    "durationMs": 105074
+  },
+  {
+    "id": "N07",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Chưa đủ ba câu có liên kết bằng chứng; Dưới hai nguồn",
+    "trace": "N07.json",
+    "durationMs": 141463
+  },
+  {
+    "id": "N08",
+    "class": "thuong",
+    "status": "fail",
+    "reason": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=28, mã=[\"t01\"]); Chưa có bằng chứng AI sinh script thật; Có 0/5 câu; Chưa đủ ba câu có liên kết bằng chứng",
+    "trace": "N08.json",
+    "durationMs": 162495
+  }
+]

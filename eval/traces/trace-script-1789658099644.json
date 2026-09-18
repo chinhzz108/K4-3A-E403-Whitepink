@@ -1,0 +1,200 @@
+{
+  "id": "trace-script-1789658099644",
+  "timestamp": "2026-09-17T15:14:59.645Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Cách nấu phở Hà Nội",
+    "learningObjective": "Nấu được một tô phở chuẩn vị",
+    "targetAudience": "Nội trợ",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Pho",
+      "tieuDe": "Pho - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:14:10.296Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "PhoA bowl of meatball pho with a side of Coca-ColaTypeNoodle soupCourseMain coursePlace of originVietnamRegion or stateNorthern VietnamInvented1900–1907[1]Serving temperatureHotMain ingredientsRice noodles, bone broth, and beef or chicken Media: Pho Pho (Vietnamese: phở[a] [fɤ˧˩˧] ⓘ)[b] is a Vietnamese soup dish consisting of broth, rice noodles (bánh phở), herbs, and meat – usually beef (phở bò), and sometimes chicken (phở gà).[7][8] Pho is a popular food in Vietnam[9] where it is served in households, street-stalls, and restaurants nationwide. Residents of the city of Nam Định were the first to create Vietnamese traditional pho.[10] Pho Ly Quoc Su in",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_cuisine",
+      "tieuDe": "Vietnamese cuisine - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:14:10.297Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese cuisine\" – news · newspapers · books · scholar · JSTOR (January 2013) (Learn how and when to remove this message) Culinary traditions of Vietnam Typical Vietnamese home cooking in Hanoi Phở bò (beef noodle soup) from Hội An – different regions have different recipes for their phở. Bún chả, a dish of grilled pork and noodle and herbs Bún bò Huế, a spicy, lemongrass rice vermicelli noodle soup served with fresh herbs and vegetablesVietnamese cuisine encompasses the foods and beverages originated from Vietnam.[1] Meals feature a combination of five fundamental tastes (ngũ v",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_noodles",
+      "tieuDe": "Vietnamese noodles - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:14:10.298Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese noodles\" – news · newspapers · books · scholar · JSTOR (January 2007) (Learn how and when to remove this message) Vietnamese noodlesA bowl of phởTypeNoodlePlace of originVietnamVariationsMany Media: Vietnamese noodles Vietnamese cuisine includes many types of noodles. They come in different colors and textures and can be served wet or dry, hot or cold, and fresh, dried, or fried.[1] Types of noodles[edit] Vietnamese noodles are available in either fresh (tươi) or dried (khô) form.[1] Bánh canh – thick noodles made from a mixture of rice flour and tapioca flour or wheat f",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Cách nấu phở Hà Nội",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "PhoA bowl of meatball pho with a side of Coca-ColaTypeNoodle soupCourseMain coursePlace of originVietnamRegion or stateNorthern VietnamInvented1900–1907[1]Serving temperatureHotMain ingredientsRice noodles, bone broth, and beef or chicken Media: Pho Pho (Vietnamese: phở[a] [fɤ˧˩˧] ⓘ)[b] is a Vietnamese soup dish consisting of broth, rice noodles (bánh phở), herbs, and meat – usually beef (phở bò), and sometimes chicken (phở gà).[7][8] Pho is a popular food in Vietnam[9] where it is served in households, street-stalls, and restaurants nationwide. Residents of the city of Nam Định were the first to create Vietnamese traditional pho.[10] Pho Ly Quoc Su in",
+          "viTri": "Trang 1"
+        }
+      ]
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Cách nấu phở Hà Nội",
+    "mucTieu": "Nấu được một tô phở chuẩn vị",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Nội trợ",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các nội trợ yêu thích ẩm thực Việt Nam!",
+        "chuTrenManHinh": "Nấu phở Hà Nội",
+        "yDoHinh": "Nấu phở Hà Nội",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Hôm nay, chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị!",
+        "chuTrenManHinh": "Nấu phở Hà Nội",
+        "yDoHinh": "Nấu phở Hà Nội",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Phở Hà Nội là một món ăn yêu thích của nhiều người Việt Nam, đặc biệt là trong mùa đông lạnh.",
+        "chuTrenManHinh": "Nấu phở Hà Nội",
+        "yDoHinh": "Nấu phở Hà Nội",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã bao giờ thử nấu phở Hà Nội chưa?",
+        "chuTrenManHinh": "Nấu phở Hà Nội",
+        "yDoHinh": "Nấu phở Hà Nội",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Nếu chưa, hãy cùng chúng tôi khám phá cách nấu phở Hà Nội chuẩn vị trong video này!",
+        "chuTrenManHinh": "Nấu phở Hà Nội",
+        "yDoHinh": "Nấu phở Hà Nội",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các nội trợ yêu thích ẩm thực Việt Nam!",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Hôm nay, chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị!",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] PhoA bowl of meatball pho with a side of Coca-ColaTypeNoodle soupCourseMain coursePlace of originVietnamRegion or stateNorthern VietnamInvented1900–1907[1]Serving temperatureHotMain ingredientsRice noodles, bone broth, and beef or chicken Media: Pho Pho (Vietnamese: phở[a] [fɤ˧˩˧] ⓘ)[b] is a Vietnamese soup dish consisting of broth, rice noodles (bánh phở), herbs, and meat – usually beef (phở bò), and sometimes chicken (phở gà).[7][8] Pho is a popular food in Vietnam[9] where it is served in households, street-stalls, and restaurants nationwide. Residents of the city of Nam Định were the first to create Vietnamese traditional pho.[10] Pho Ly Quoc Su in"
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Phở Hà Nội là một món ăn yêu thích của nhiều người Việt Nam, đặc biệt là trong mùa đông lạnh.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] PhoA bowl of meatball pho with a side of Coca-ColaTypeNoodle soupCourseMain coursePlace of originVietnamRegion or stateNorthern VietnamInvented1900–1907[1]Serving temperatureHotMain ingredientsRice noodles, bone broth, and beef or chicken Media: Pho Pho (Vietnamese: phở[a] [fɤ˧˩˧] ⓘ)[b] is a Vietnamese soup dish consisting of broth, rice noodles (bánh phở), herbs, and meat – usually beef (phở bò), and sometimes chicken (phở gà).[7][8] Pho is a popular food in Vietnam[9] where it is served in households, street-stalls, and restaurants nationwide. Residents of the city of Nam Định were the first to create Vietnamese traditional pho.[10] Pho Ly Quoc Su in"
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn đã bao giờ thử nấu phở Hà Nội chưa?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Nếu chưa, hãy cùng chúng tôi khám phá cách nấu phở Hà Nội chuẩn vị trong video này!",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] PhoA bowl of meatball pho with a side of Coca-ColaTypeNoodle soupCourseMain coursePlace of originVietnamRegion or stateNorthern VietnamInvented1900–1907[1]Serving temperatureHotMain ingredientsRice noodles, bone broth, and beef or chicken Media: Pho Pho (Vietnamese: phở[a] [fɤ˧˩˧] ⓘ)[b] is a Vietnamese soup dish consisting of broth, rice noodles (bánh phở), herbs, and meat – usually beef (phở bò), and sometimes chicken (phở gà).[7][8] Pho is a popular food in Vietnam[9] where it is served in households, street-stalls, and restaurants nationwide. Residents of the city of Nam Định were the first to create Vietnamese traditional pho.[10] Pho Ly Quoc Su in"
+      ]
+    }
+  ],
+  "aiRawResponse": "{ \"schema\": \"hackathon-kich-ban/1\", \"id\": \"scriptscout-output\", \"tieuDe\": \"Cách nấu phở Hà Nội\", \"mucTieu\": \"Nấu được một tô phở chuẩn vị\", \"thoiLuong\": \"5 phút\", \"nguoiHoc\": \"Nội trợ\", \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}], \"cau\": [ { \"n\": 1, \"phan\": 1, \"kieu\": \"ke\", \"loi\": \"Chào mừng các nội trợ yêu thích ẩm thực Việt Nam!\", \"chuTrenManHinh\": \"Nấu phở Hà Nội\", \"yDoHinh\": \"Nấu phở Hà Nội\", \"nguon\": [] }, { \"n\": 2, \"phan\": 1, \"kieu\": \"giang\", \"loi\": \"Hôm nay, chúng ta sẽ khám phá cách nấu phở Hà Nội chuẩn vị!\", \"chuTrenManHinh\": \"Nấu phở Hà Nội\", \"yDoHinh\": \"Nấu phở Hà Nội\", \"nguon\": [\"n01\"] }, { \"n\": 3, \"phan\": 1, \"kieu\": \"nhe\", \"loi\": \"Phở Hà Nội là một món ăn yêu thích của nhiều người Việt Nam, đặc biệt là trong mùa đông lạnh.\", \"chuTrenManHinh\": \"Nấu phở Hà Nội\", \"yDoHinh\": \"Nấu phở Hà Nội\", \"nguon\": [\"n01\"] }, { \"n\": 4, \"phan\": 1, \"kieu\": \"hoi\", \"loi\": \"Bạn đã bao giờ thử nấu phở Hà Nội chưa?\", \"chuTrenManHinh\": \"Nấu phở Hà Nội\", \"yDoHinh\": \"Nấu phở Hà Nội\", \"nguon\": [] }, { \"n\": 5, \"phan\": 1, \"kieu\": \"nhan\", \"loi\": \"Nếu chưa, hãy cùng chúng tôi khám phá cách nấu phở Hà Nội chuẩn vị trong video này!\", \"chuTrenManHinh\": \"Nấu phở Hà Nội\", \"yDoHinh\": \"Nấu phở Hà Nội\", \"nguon\": [\"n01\"] } ] }",
+  "isDemo": false,
+  "durationMs": 18349
+}

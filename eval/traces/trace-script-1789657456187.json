@@ -1,0 +1,72 @@
+{
+  "id": "trace-script-1789657456187",
+  "timestamp": "2026-09-17T15:04:16.187Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "targetAudience": "Sinh viên công nghệ thông tin",
+    "videoDuration": "5 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Ch%E1%BB%AF_H%C3%A1n",
+      "tieuDe": "Chữ Hán - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:02:08.874Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Chinese characters used in Vietnamese writing Chù Hán Chù NhoChù Hán and chù Nho written in chù Nôm, with Vietnamese alphabet on the right.Script type Logographic Period 3rd century BC – 20th century AD Limited present use DirectionTop-to-bottom, columns from right to leftLanguagesLiterary Chinese, VietnameseRelated scriptsParent systemsOracle bone scriptSeal scriptClerical scriptRegular scriptChù HánChild systemsChù NômSister systemsKanji, Hanja, Bopomofo, traditional Chinese, simplified Chinese, Khitan script, Jurchen script, Tangut script, Yi script This article contains phonetic transcriptions in the International Phonetic Alphabet (IPA). For an introductory guide on IPA symbols, see Help:IPA. For the distinction between [ ], / / and ≪ ≪, see IPA §",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/List_of_flags_of_Vietnam",
+      "tieuDe": "List of flags of Vietnam - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:02:08.875Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "This article includes a list of general references but lacks sufficient corresponding inline citations. Please help improve this article by introducing more precise citations. (June 2020) (Learn how and when to remove this message) The following is a list of flags of Vietnam. National flag[edit] Main articles: Flag of Vietnam and Flag of South Vietnam Current[edit] Official[edit] FlagDateUse BlazonDescription July 2, 1976 – presentState flag and civil flag Gules, a mullet Or.A large yellow star centered on a red field (2:3). The red background symbolizes revolution and bloodshed. The golden star represents the five main classes in Vietnamese society — intellectuals, farmers, workers, entrepreneurs, soldiers. Diasporic[edit] FlagDateUse BlazonDescription",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+    "mucTieu": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+    "thoiLuong": "5 phút",
+    "nguoiHoc": "Sinh viên công nghệ thông tin",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=8, mã=[\"t01\"])",
+  "isDemo": false,
+  "durationMs": 33610
+}

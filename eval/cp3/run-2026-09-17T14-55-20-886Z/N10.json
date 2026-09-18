@@ -1,0 +1,376 @@
+{
+  "case": {
+    "id": "N10",
+    "class": "nguon-su-that",
+    "input": {
+      "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+      "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+      "targetAudience": "Người đi làm",
+      "videoDuration": "3 phút"
+    },
+    "expectedBehavior": "Cần nhiều nguồn xác nhận số liệu. Nếu chỉ 1 nguồn → đánh dấu chua-xac-minh.",
+    "origin": "tự tạo — đặc thù C3: số liệu; không phải chatlog",
+    "passCriteria": "Xử lý đúng khi chỉ tìm được 1 nguồn số liệu",
+    "failCriteria": "Bịa số liệu; dùng 1 nguồn mà ghi da-xac-minh"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Navy",
+        "tieuDe": "List of equipment of the Vietnam People's Navy - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:12:09.101Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://en.wikipedia.org/wiki/Seals_of_the_Nguy%E1%BB%85n_dynasty",
+        "tieuDe": "Seals of the Nguyễn dynasty - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:12:09.102Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Collection of seals made for Vietnamese emperors between 1802 and 1945 Heirloom seal of the Southern Realm (Imperial Seal of the Nguyễn dynasty) Đại Nam ngọc tỷ truyền quốcArmiger Nguyễn dynastyAdoptedThiệu Trị 5 (1846)RelinquishedBảo Đại 20 (1945)[a]MottoĐại Nam thụ thiên vĩnh mệnh truyền quốc tỷ (大南受天永命傳國璽, \"The Great South has the eternal Mandate of Heaven, jade seal for the transmission of the legacy of the Empire\") 大南受 天永命 傳國璽 Earlier version(s) (Seal of the Nguyễn lords)UseOfficial seal of the Nguyễn dynasty government[1][2] Seals of the Nguyễn dynastyVietnamese alphabetẤn triện triều Nguyễn / Ấn triện nhà NguyễnHán-Nôm印篆朝阮 印篆茹阮 The seals of the Nguyễn dynasty can refer to a collection of seals (印篆, Ấn triện or 印章, Ấn chương) specifically made fo",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://en.wikipedia.org/wiki/Hieu_Minh_Ngo",
+        "tieuDe": "Hieu Minh Ngo - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:12:09.103Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "prompt injection phát hiện",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Vietnamese hacker and identity thief (born 1989) In this Vietnamese name, the surname is Ngô. In accordance with Vietnamese custom, this person should be referred to by the given name, Hiếu. Hieu Minh NgoBorn (1989-10-08) October 8, 1989 (age 36) Gia Lai, VietnamOther nameHieuPC/Hiếu PC [1]EducationHo Chi Minh City University of ScienceOccupationCyber Security SpecialistOrganizationNational Cyber Security CentreKnown forSentenced to 13 years in U.S. federal prison for stealing user information[2] Ngo Minh Hieu (also known as Hieu PC; born October 8, 1989) is a Vietnamese cyber security specialist and a former hacker and identity thief. He was convicted in the United States of stealing millions of people's personally identifiable information and in 2015",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Nêu được con số cụ thể từ khảo sát đáng tin",
+        "loai": "dinh-nghia",
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2",
+            "viTri": "Trang 1"
+          }
+        ]
+      }
+    ],
+    "searchQueries": [
+      "Tỷ lệ doanh nghiệp Việt Nam sử dụng AI",
+      "Sử dụng AI trong doanh nghiệp Việt Nam 2026"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789658019147",
+      "timestamp": "2026-09-17T15:13:39.147Z",
+      "phase": "research",
+      "input": {
+        "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+        "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+        "targetAudience": "Người đi làm",
+        "videoDuration": "3 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "List of equipment of the Vietnam People's Navy",
+              "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Navy",
+              "snippet": "đang dùng - Tạp chí Doanh nghiệp Việt Nam\". Cơ quan ngôn luận của Hiệp hội Doanh nghiệp Khoa học và Công nghệ Việt Nam (in Vietnamese). Retrieved 16 January",
+              "position": 1
+            },
+            {
+              "title": "Seals of the Nguyễn dynasty",
+              "url": "https://en.wikipedia.org/wiki/Seals_of_the_Nguy%E1%BB%85n_dynasty",
+              "snippet": "\"bảo hộ\" Việt Nam. Từ đó, lịch sử Việt Nam bắt đầu bước vào những trang đen tối. Cổ vật Việt Nam – những hiện vật có giá trị tiêu biểu về lịch sử, văn hóa",
+              "position": 2
+            },
+            {
+              "title": "Hieu Minh Ngo",
+              "url": "https://en.wikipedia.org/wiki/Hieu_Minh_Ngo",
+              "snippet": "2024). \"Người Việt Nam bị lừa đảo qua mạng chiếm tỷ lệ hàng đầu các nước Đông Nam Á.\" Dân Việt (in Vietnamese). Archived from the original on January 14, 2024",
+              "position": 3
+            }
+          ],
+          "query": "Tỷ lệ doanh nghiệp Việt Nam sử dụng AI",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "List of equipment of the Vietnam People's Navy",
+              "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Navy",
+              "snippet": "chí Doanh nghiệp Việt Nam\". Cơ quan ngôn luận của Hiệp hội Doanh nghiệp Khoa học và Công nghệ Việt Nam (in Vietnamese). Retrieved 16 January 2026. \"Tổng",
+              "position": 1
+            },
+            {
+              "title": "List of equipment of the Vietnam People's Air Force",
+              "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Air_Force",
+              "snippet": "AZP Việt Nam tự nâng cấp - Tạp chí Doanh nghiệp Việt Nam\". Cơ quan ngôn luận của Hiệp hội Doanh nghiệp Khoa học và Công nghệ Việt Nam (in Vietnamese). Retrieved",
+              "position": 2
+            },
+            {
+              "title": "Mỹ Tâm",
+              "url": "https://en.wikipedia.org/wiki/M%E1%BB%B9_T%C3%A2m",
+              "snippet": "Retrieved 19 November 2012. \"Phan Thị Mỹ Tâm\". Cổng thông tin doanh nghiệp Việt Nam (in Vietnamese). Retrieved 29 September 2025. \"Mỹ Tâm: \"Hát bài hát SEA",
+              "position": 3
+            }
+          ],
+          "query": "Sử dụng AI trong doanh nghiệp Việt Nam 2026",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Navy",
+          "content": "From Wikipedia, the free encyclopedia The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2017.[3] Armed with 3M14E land attack and 3M54E1 or 3M54E anti-ship Klub-S missiles.[2] Yugo[2] Midget submarine[2] 41,42[4] 2[2] North Korea Delivered in 1997[5] and assigned to 196th Regiment when delivered. Used for training as of 2020.[6] TN-75[7] Midget submarine[7] 1 Vietnam 75 ton design.[7] Pluto Plus Unmanned underwater vehicle Italy Used for minesweeping and deployed from minesweepers.[8] Surface vessels[edit] Frigates[edit] Image Model Type Ship Quantity Origin Notes Gepard 3.9 (Project 11661E) Guided-missile frigate Đinh Tiên Hoàng (011) Lý Thái Tổ (012) 2[9][2] Russia Delivered in 2011.[9] Not armed with torpedoes.[2] Trần Hưng Đạo (015) Quang Trung (016) 2[10][2] Delivered in 2017–2018.[10] Armed with torpedoes.[2] Petya-II (Project 159A)[2] Anti-submarine frigate 13[11] 15[11] 17[11] 3[12][2] Soviet Union Former Soviet Navy.[11] Delivered 1983–1984.[12] Petya-III (Project 159AE)[2] Anti-submarine frigate 9[11] 11[11] 2[13][2] Soviet Union Former Soviet Navy.[11] Delivered 1978.[13] Corvettes[edit] Image Class Type Ship Quantity Origin Notes Pohang (Flight III)[2] Anti-submarine corvette HQ-18HQ-20 2 Korea Delivered in 2017,[14] 2018[15]. Armed with anti-ship missiles.[16] Pohang (Flight IV)[2] HQ-21 1 Delivered in 2025.[17] Khukri Guided-missile corvette[2] 26 1[18][2] India Former Indian Navy.[2] Delivered in 2023.[18] BPS-500[2] Guided-missile corvette[2] 381[11] 1[19][2] Vietnam Designed by the Severnoye Design Bureau based on the Pauk-class corvette.[11] Assembled in Vietnam from a Russian kit.[19][11] Became operational in 2001.[11] PS-500 upgrade[20] Guided-missile corvette[2] A2[21] A3[21] A4[21] A5[20] A6[20] 0 (+5) Vietnam The displaces is around 850t[20] Designed by the Vietnam Naval Technical Institute base on BPS-500. First ship, A2, began construction at the Ba Son Shipyard in October 2025 with an expected delivery in September 2028.[21] Tarantul-I (Project 1241.RE)[2] Corvette 371 372373374 [22] 4[22][23][2] Russia Delivered in 1996[22] a…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:12:09.101Z",
+          "title": "List of equipment of the Vietnam People's Navy - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Seals_of_the_Nguy%E1%BB%85n_dynasty",
+          "content": "From Wikipedia, the free encyclopedia Collection of seals made for Vietnamese emperors between 1802 and 1945 Heirloom seal of the Southern Realm (Imperial Seal of the Nguyễn dynasty) Đại Nam ngọc tỷ truyền quốcArmiger Nguyễn dynastyAdoptedThiệu Trị 5 (1846)RelinquishedBảo Đại 20 (1945)[a]MottoĐại Nam thụ thiên vĩnh mệnh truyền quốc tỷ (大南受天永命傳國璽, \"The Great South has the eternal Mandate of Heaven, jade seal for the transmission of the legacy of the Empire\") 大南受 天永命 傳國璽 Earlier version(s) (Seal of the Nguyễn lords)UseOfficial seal of the Nguyễn dynasty government[1][2] Seals of the Nguyễn dynastyVietnamese alphabetẤn triện triều Nguyễn / Ấn triện nhà NguyễnHán-Nôm印篆朝阮 印篆茹阮 The seals of the Nguyễn dynasty can refer to a collection of seals (印篆, Ấn triện or 印章, Ấn chương) specifically made for the emperors of the Nguyễn dynasty (chữ Hán: 寶璽朝阮 / 寶璽茹阮), who reigned over Vietnam between the years 1802 and 1945 (under French protectorates since 1883, as Annam and Tonkin), or to seals produced during this period in Vietnamese history in general (the latter are generally referred to in Vietnamese as 印信, ấn tín).[3][4][5][6] In its 143 years of existence, the government of the Nguyễn dynasty had created more than 100 imperial seals.[7] These imperial seals were made of jade, bronze, silver, gold, ivory, and meteorite. Imperial seals typically have inscriptions written in the ancient seal script, but by the later part of the Nguyễn dynasty period both Chữ Hán and Latin script were used for some scripts. According to Dr. Phan Thanh Hải, Director of the Huế Monuments Conservation Centre, at the end of the Nguyễn dynasty period the Purple Forbidden City contained a total of 93 jade and gold seals. Of these 2 seals were from the Nguyễn lords period made under Lord Nguyễn Phúc Chu (1691–1725) in 1709 12 were from the reign of Emperor Gia Long (1802–1820) 15 were from the reign of Emperor Minh Mạng (1820–1841) 10 were from the reign of Emperor Thiệu Trị (1841–1847) 15 were from the reign of Emperor Tự Đức (1847–1883) 1 was from the reign of Emperor Kiến Phúc (1883–1884) 1 was from the reign of Emperor Hàm Nghi (1884–1885) 5 were from the reign of Emperor Đồng Khánh (1885–1889) 10 were from the reign of Emperor Thành Thái (1889–1907) 12 were from the reign of Emperor Khải Định (1916–1925) 8 were from the reign of Emperor Bảo Đại (1925–1945).[7] Hải stated that as of 2016 that there were no more imperial seals left in the Nguyễn dynasty capital city of Huế with most being handed over to the government of the Democratic Republic of Vietnam by Bảo Đại following his abdication in 1945 mostly now being in the hands of the Vietnam National Museum of History in Hanoi.[7] Dr. Phan Thanh Hải further stated that no imperial seals were produced during the reigns of Emperors Dục …[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:12:09.102Z",
+          "title": "Seals of the Nguyễn dynasty - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hieu_Minh_Ngo",
+          "content": "From Wikipedia, the free encyclopedia Vietnamese hacker and identity thief (born 1989) In this Vietnamese name, the surname is Ngô. In accordance with Vietnamese custom, this person should be referred to by the given name, Hiếu. Hieu Minh NgoBorn (1989-10-08) October 8, 1989 (age 36) Gia Lai, VietnamOther nameHieuPC/Hiếu PC [1]EducationHo Chi Minh City University of ScienceOccupationCyber Security SpecialistOrganizationNational Cyber Security CentreKnown forSentenced to 13 years in U.S. federal prison for stealing user information[2] Ngo Minh Hieu (also known as Hieu PC; born October 8, 1989) is a Vietnamese cyber security specialist and a former hacker and identity thief. He was convicted in the United States of stealing millions of people's personally identifiable information and in 2015 he was sentenced to 13 years in U.S. federal prison.[2] After his early release from prison in 2020, Hieu returned to Vietnam and was recruited by the National Cyber Security Centre (NCSC) under the Ministry of Information and Communications as a technical expert.[3][4] Currently, he holds the positions of director of the social limited liability company ChongLuaDao and manager of the non-profit project ChongLuaDao, which he co-founded with his partners at the end of 2020.[5] Hacker[edit] The crime and its beginning[edit] Ngo Minh Hieu is a Vietnamese.[6] He was born in Gia Lai, Vietnam, on October 8, 1989. In his late teens, he went to New Zealand and aimed to become a network expert. By that time, he was already an administrator of several dark web hacker forums. He discovered vulnerability in the school’s network that can be exploited to steal credit card and bank accounts information. “I did contact the IT technician, but they don't care, so I hacked the whole system,” Hieu recalled. “Then I took advantage of the same vulnerability to hack other websites. I stole lots of information.” Hieu used the card data to buy concert and event tickets from Ticketmaster, then sold tickets at TradeMe. The university became aware of his act, the Auckland police got involved.[1] Hieu’s travel visa was not renewed after the first semester ended, and in retribution, he attacked the university’s site, shutting it down for at least two days.[1] From 2007 to 2013, he operated a \"massive international hacking and identity theft scheme from his home in Vietnam,\" in which he stole personally identifiable information (such as names, Social Security numbers, and bank account data) of 200 million U.S. citizens.[7] Hieu obtained this data by hacking companies' databases, then advertised and offered (on two websites he operated, which were later shuttered) the stolen information for purchase by other cybercriminals.[8] Hieu was also able to obtain data from Court Ventures, an Experian sub…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:12:09.103Z",
+          "title": "Hieu Minh Ngo - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Navy",
+          "tieuDe": "List of equipment of the Vietnam People's Navy - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:12:09.101Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/Seals_of_the_Nguy%E1%BB%85n_dynasty",
+          "tieuDe": "Seals of the Nguyễn dynasty - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:12:09.102Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Collection of seals made for Vietnamese emperors between 1802 and 1945 Heirloom seal of the Southern Realm (Imperial Seal of the Nguyễn dynasty) Đại Nam ngọc tỷ truyền quốcArmiger Nguyễn dynastyAdoptedThiệu Trị 5 (1846)RelinquishedBảo Đại 20 (1945)[a]MottoĐại Nam thụ thiên vĩnh mệnh truyền quốc tỷ (大南受天永命傳國璽, \"The Great South has the eternal Mandate of Heaven, jade seal for the transmission of the legacy of the Empire\") 大南受 天永命 傳國璽 Earlier version(s) (Seal of the Nguyễn lords)UseOfficial seal of the Nguyễn dynasty government[1][2] Seals of the Nguyễn dynastyVietnamese alphabetẤn triện triều Nguyễn / Ấn triện nhà NguyễnHán-Nôm印篆朝阮 印篆茹阮 The seals of the Nguyễn dynasty can refer to a collection of seals (印篆, Ấn triện or 印章, Ấn chương) specifically made fo",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://en.wikipedia.org/wiki/Hieu_Minh_Ngo",
+          "tieuDe": "Hieu Minh Ngo - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:12:09.103Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "prompt injection phát hiện",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Vietnamese hacker and identity thief (born 1989) In this Vietnamese name, the surname is Ngô. In accordance with Vietnamese custom, this person should be referred to by the given name, Hiếu. Hieu Minh NgoBorn (1989-10-08) October 8, 1989 (age 36) Gia Lai, VietnamOther nameHieuPC/Hiếu PC [1]EducationHo Chi Minh City University of ScienceOccupationCyber Security SpecialistOrganizationNational Cyber Security CentreKnown forSentenced to 13 years in U.S. federal prison for stealing user information[2] Ngo Minh Hieu (also known as Hieu PC; born October 8, 1989) is a Vietnamese cyber security specialist and a former hacker and identity thief. He was convicted in the United States of stealing millions of people's personally identifiable information and in 2015",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "sourcesRejected": [
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Nêu được con số cụ thể từ khảo sát đáng tin",
+          "loai": "dinh-nghia",
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2",
+              "viTri": "Trang 1"
+            }
+          ]
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Navy\",\n      \"tieuDe\": \"List of equipment of the Vietnam People's Navy - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:12:09.101Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/Seals_of_the_Nguy%E1%BB%85n_dynasty\",\n      \"tieuDe\": \"Seals of the Nguyễn dynasty - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:12:09.102Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Collection of seals made for Vietnamese emperors between 1802 and 1945 Heirloom seal of the Southern Realm (Imperial Seal of the Nguyễn dynasty) Đại Nam ngọc tỷ truyền quốcArmiger Nguyễn dynastyAdoptedThiệu Trị 5 (1846)RelinquishedBảo Đại 20 (1945)[a]MottoĐại Nam thụ thiên vĩnh mệnh truyền quốc tỷ (大南受天永命傳國璽, \\\"The Great South has the eternal Mandate of Heaven, jade seal for the transmission of the legacy of the Empire\\\") 大南受 天永命 傳國璽 Earlier version(s) (Seal of the Nguyễn lords)UseOfficial seal of the Nguyễn dynasty government[1][2] Seals of the Nguyễn dynastyVietnamese alphabetẤn triện triều Nguyễn / Ấn triện nhà NguyễnHán-Nôm印篆朝阮 印篆茹阮 The seals of the Nguyễn dynasty can refer to a collection of seals (印篆, Ấn triện or 印章, Ấn chương) specifically made fo\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/Hieu_Minh_Ngo\",\n      \"tieuDe\": \"Hieu Minh Ngo - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:12:09.103Z\",\n      \"loai\": \"khong-xac-dinh\",\n      \"doTinCay\": \"thap\",\n      \"lyDoTinCay\": \"prompt injection phát hiện\",\n      \"trangThai\": \"bi-loai\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Vietnamese hacker and identity thief (born 1989) In this Vietnamese name, the surname is Ngô. In accordance with Vietnamese custom, this person should be referred to by the given name, Hiếu. Hieu Minh NgoBorn (1989-10-08) October 8, 1989 (age 36) Gia Lai, VietnamOther nameHieuPC/Hiếu PC [1]EducationHo Chi Minh City University of ScienceOccupationCyber Security SpecialistOrganizationNational Cyber Security CentreKnown forSentenced to 13 years in U.S. federal prison for stealing user information[2] Ngo Minh Hieu (also known as Hieu PC; born October 8, 1989) is a Vietnamese cyber security specialist and a former hacker and identity thief. He was convicted in the United States of stealing millions of people's personally identifiable information and in 2015\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Nêu được con số cụ thể từ khảo sát đáng tin\",\n      \"loai\": \"dinh-nghia\",\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2\",\n          \"viTri\": \"Trang 1\"\n        }\n      ]\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 91698
+    },
+    "isDemo": false,
+    "modelUsed": "deepseek:meta/llama-3.2-11b-vision-instruct"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+      "mucTieu": "Nêu được con số cụ thể từ khảo sát đáng tin",
+      "thoiLuong": "3 phút",
+      "nguoiHoc": "Người đi làm",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789658043348",
+      "timestamp": "2026-09-17T15:14:03.348Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+        "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+        "targetAudience": "Người đi làm",
+        "videoDuration": "3 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Navy",
+          "tieuDe": "List of equipment of the Vietnam People's Navy - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:12:09.101Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/Seals_of_the_Nguy%E1%BB%85n_dynasty",
+          "tieuDe": "Seals of the Nguyễn dynasty - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:12:09.102Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Collection of seals made for Vietnamese emperors between 1802 and 1945 Heirloom seal of the Southern Realm (Imperial Seal of the Nguyễn dynasty) Đại Nam ngọc tỷ truyền quốcArmiger Nguyễn dynastyAdoptedThiệu Trị 5 (1846)RelinquishedBảo Đại 20 (1945)[a]MottoĐại Nam thụ thiên vĩnh mệnh truyền quốc tỷ (大南受天永命傳國璽, \"The Great South has the eternal Mandate of Heaven, jade seal for the transmission of the legacy of the Empire\") 大南受 天永命 傳國璽 Earlier version(s) (Seal of the Nguyễn lords)UseOfficial seal of the Nguyễn dynasty government[1][2] Seals of the Nguyễn dynastyVietnamese alphabetẤn triện triều Nguyễn / Ấn triện nhà NguyễnHán-Nôm印篆朝阮 印篆茹阮 The seals of the Nguyễn dynasty can refer to a collection of seals (印篆, Ấn triện or 印章, Ấn chương) specifically made fo",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Nêu được con số cụ thể từ khảo sát đáng tin",
+          "loai": "dinh-nghia",
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2",
+              "viTri": "Trang 1"
+            }
+          ]
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+        "mucTieu": "Nêu được con số cụ thể từ khảo sát đáng tin",
+        "thoiLuong": "3 phút",
+        "nguoiHoc": "Người đi làm",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=true, chữ màn hình=40, mã=[])",
+      "isDemo": false,
+      "durationMs": 24158
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=true, chữ màn hình=40, mã=[])"
+  }
+}

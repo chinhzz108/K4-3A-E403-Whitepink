@@ -1,0 +1,505 @@
+{
+  "case": {
+    "id": "N18",
+    "class": "nguon-mau-thuan",
+    "input": {
+      "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+      "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+      "targetAudience": "Giảng viên đại học",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Chủ đề có tranh cãi thật. Các nguồn uy tín không đồng ý với nhau. Phải nêu cả hai quan điểm.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #7 — tranh cãi thật; không phải chatlog",
+    "passCriteria": "Nêu cả hai quan điểm; dẫn nguồn cho mỗi bên",
+    "failCriteria": "Chỉ nêu một phía; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_Vietnam_Television_paytv",
+        "tieuDe": "List of programmes broadcast by Vietnam Television paytv - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:22:40.221Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://en.wikipedia.org/wiki/2025_Northern_Vietnam_floods",
+        "tieuDe": "2025 Northern Vietnam floods - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:22:40.222Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Natural disaster in Vietnam 2025 Northern Vietnam floods Map of Thái Nguyên Province after floodsCauseHeavy rains due to the impacts of tropical cyclones Ragasa, Bualoi, Matmo enhanced by tropical convergenceMeteorological historyDuration25 September – 16 October 2025 FloodMax. rainfall857 millimetres (33.7 in) Overall effectsCasualties85+ (deaths and missing)Damage$1.79 billion (2025 USD)Areas affectedVietnam (particularly Northern Vietnam and North Central Coast) The 2025 Northern Vietnam floods were a series of floods that affected Vietnam, particularly Northern Vietnam and parts of the North Central Coast, between 25 September and 16 October 2025, resulting from the combined impacts of three tropical cyclones and several other weather phenomena.",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://en.wikipedia.org/wiki/L%E1%BB%87_Quy%C3%AAn",
+        "tieuDe": "Lệ Quyên - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:22:40.222Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Lệ QuyênLệ Quyên in 2025Background informationBornVũ Lệ Quyên (1981-04-02) 2 April 1981 (age 45) Hanoi, VietnamGenrespop rock, acoustic, folkOccupationSingerYears active1999–presentLabelViết TânWebsiteOfficial Website and FacebookMusical artist Vũ Lệ Quyên (born April 2, 1981), known by her stage name Lệ Quyên, is a Vietnamese singer. In 2004, she began her professional singing career with her debut album named Giấc mơ có thật (True Dream). She is known for her series of musical activities, composed of ballad music, old music, pre-war music since the very beginning of her career in the 2000s.[1] She was born in Hanoi in a family of singing tradition. As her parents were both singers, she was exposed to her interest in singing at an early age. She enrol",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm bài.",
+        "loai": "dinh-nghia",
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b",
+            "viTri": "Trang 1"
+          }
+        ]
+      }
+    ],
+    "searchQueries": [
+      "Lợi ích của AI trong chấm bài",
+      "Rủi ro khi dùng AI hỗ trợ chấm bài"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789658628339",
+      "timestamp": "2026-09-17T15:23:48.339Z",
+      "phase": "research",
+      "input": {
+        "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+        "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "targetAudience": "Giảng viên đại học",
+        "videoDuration": "5 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "List of programmes broadcast by Vietnam Television paytv",
+              "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_Vietnam_Television_paytv",
+              "snippet": "khấu Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí",
+              "position": 1
+            }
+          ],
+          "query": "Lợi ích của AI trong chấm bài",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "2025 Northern Vietnam floods",
+              "url": "https://en.wikipedia.org/wiki/2025_Northern_Vietnam_floods",
+              "snippet": "Retrieved 18 October 2025. Phúc Hậu (16 October 2025). \"Đối tác quốc tế hỗ trợ người dân vùng bão lũ gần 5,7 triệu USD\". Báo Sài Gòn Giải Phóng (in Vietnamese)",
+              "position": 1
+            },
+            {
+              "title": "Lệ Quyên",
+              "url": "https://en.wikipedia.org/wiki/L%E1%BB%87_Quy%C3%AAn",
+              "snippet": "(in Vietnamese). Retrieved 2018-12-18. \"Lệ Quyên chấp nhận bị 'nặng lời' khi chấm 'Thần tượng Bolero' - Ngôi sao\". Ngoisao (in Vietnamese). Retrieved 2018-12-18",
+              "position": 2
+            }
+          ],
+          "query": "Rủi ro khi dùng AI hỗ trợ chấm bài",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_Vietnam_Television_paytv",
+          "content": "From Wikipedia, the free encyclopedia List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh bá[5] Fansipan TV[edit] 360 độ âm nhạc Cafe với người nổi tiếng Chuyện đàn ông Đẹp Fashion show [6] Không thể không đẹp Làm đẹp Những sắc màu nhà Việt [7] Nói ra đừng sợ[8][9] Phong cách nữ hoàng Tư vấn nội thất VIE Giải Trí (Giải Trí TV)[edit] 2 ngày 1 đêm Ai là số 1 Bí mật căn phòng Cả nhà cùng cười Các chương trình gameshow của Đông Tây Promotion Châu Úc xinh đẹp Chị ơi đi Hàn Quốc[10] Cuộc sống vui khỏe Cười đủ kiểu Đẹp Fashion Show Đêm của sao Đưa em về nhà Giây phút thảm họa Hậu trường Showbiz Khỏe đẹp cùng Yoga Muốn ăn phải lăn vào bếp Người ấy là ai? Nhà có Xine Việt Nhanh như chớp nhí Rap Việt - The Rapper Sao thế giới Sao và sự kiện Siêu thử thách - Impossible Challenge Siêu trí tuệ Việt Nam - The Brain Vietnam (phát sóng 2 mùa) Tám thời chín sự Thông tin tiêu dùng Tiếng Hàn thật vui Tin nóng 24 giờ ON Phim Việt[edit] Chuyện của sao Góc thư giãn Không gian đẹp Nhà của sao Nhịp cầu sức khỏe Phim truyện[11] Sắc màu cuộc sống Siêu sao Phim Việt ON Movies[edit] VCTV4 - Kênh văn nghệ[edit] Ca nhạc theo yêu cầu Dẫn chuyện thiếu nhi Dân ca nhạc cổ (phát lại từ VTV) Gạch nối tình yêu[12] Giao lưu âm nhạc Music 4 Me[13] Nhạc chuông 360 độ Quán âm nhạc (phát lại từ VCTV1) Sân khấu (Kịch, cải lương, tuồng, chèo) M4me[edit] Bảng xếp hạng Keeng Bình chọn nhạc QT Bình chọn nhạc Việt Bình chọn tổng hợp M - Playlist Mạng xã hội truyền hình M4me nhạc quốc tế M4me nhạc Việt M4me Top Idol M4me update nhạc quốc tế M4me update nhạc Việt MV mới – Nhạc Quốc tế MV mới – nhạc Việt Ngôi sao mùa hè Nhạc Dance Sắc màu âm nhạc Thần tượng của ngày Top 10 bình chọn nhạc Quốc tế Top 10 bình chọn nhạc Việt Top Clan Vinh danh thần tượng của ngày Vsao Voice Vũ hội tình yêu VZPlaylist Kênh 17 và Văn hoá[edit] Ánh sáng ngày mai Ẩm thực & du lịch Danh nhân đất Việt Di sản Việt Nam Giai điệu cuộc sống Góc nhìn Văn hoá Hành trang sống Hậu trường Showbiz (chuyển sóng từ VTVcab 6) Hoàn thiện bản thân Hot girl cà phê Hồn Việt Làm đẹp (chuyển sóng từ VTVcab 6) Mái ấm yêu thương Nghệ sĩ tháng Quán cà …[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:22:40.221Z",
+          "title": "List of programmes broadcast by Vietnam Television paytv - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2025_Northern_Vietnam_floods",
+          "content": "From Wikipedia, the free encyclopedia Natural disaster in Vietnam 2025 Northern Vietnam floods Map of Thái Nguyên Province after floodsCauseHeavy rains due to the impacts of tropical cyclones Ragasa, Bualoi, Matmo enhanced by tropical convergenceMeteorological historyDuration25 September – 16 October 2025 FloodMax. rainfall857 millimetres (33.7 in) Overall effectsCasualties85+ (deaths and missing)Damage$1.79 billion (2025 USD)Areas affectedVietnam (particularly Northern Vietnam and North Central Coast) The 2025 Northern Vietnam floods were a series of floods that affected Vietnam, particularly Northern Vietnam and parts of the North Central Coast, between 25 September and 16 October 2025, resulting from the combined impacts of three tropical cyclones and several other weather phenomena. Heavy rainfall began on 25 September in northern Vietnam due to the impact of Typhoon Ragasa as it made landfall in Quảng Ninh province according to the National Center for Hydro-Meteorological Forecasting (NCHMF). The rain was subsequently intensified by an intertropical convergence zone, extending southward to the North Central Coast the following day. On 28 and 29 September, Typhoon Bualoi made landfall in Hà Tĩnh province, bringing extremely heavy rain that continued over northern Vietnam and the North Central Coast until 1 October. Shortly afterward, Typhoon Matmo moved across the Vietnam–China border area, bringing widespread rainfall to northern Vietnam from 6 to 8 October before dissipating inland. The period concluded with another spell of heavy rain between 13 and 15 October, caused by a weak cold surge interacting with an easterly disturbance. Several rainfall stations recorded historic precipitation levels during these events. Prolonged heavy rain led to rapid rises in river levels across the northern and north-central regions, with many rivers reaching Alert Level 3, the highest flood warning threshold in Vietnam’s flood warning system. On the Thương and Cầu river basins, which form part of the upper Thái Bình river system, some stations registered record-breaking flood peaks. Extensive flooding occurred in many provinces, particularly Thái Nguyên, Bắc Ninh, Lạng Sơn, and Cao Bằng. In Hanoi, torrential rain on 30 September and 7 October caused widespread urban flooding. Numerous dyke and dam failures were also reported, most notably the collapse of the Bắc Khê hydropower dam in Lạng Sơn province. This flood event, combined with typhoons Ragasa, Bualoi, and Matmo, caused severe damage to both life and property. Including the effects of the storms, the total economic losses were estimated at 35.7 trillion VND (US$1.42 billion), with 85 people dead or missing. Due to the severe impacts of the disaster, the Vietnamese government called for donations and suppo…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:22:40.222Z",
+          "title": "2025 Northern Vietnam floods - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/L%E1%BB%87_Quy%C3%AAn",
+          "content": "From Wikipedia, the free encyclopedia Lệ QuyênLệ Quyên in 2025Background informationBornVũ Lệ Quyên (1981-04-02) 2 April 1981 (age 45) Hanoi, VietnamGenrespop rock, acoustic, folkOccupationSingerYears active1999–presentLabelViết TânWebsiteOfficial Website and FacebookMusical artist Vũ Lệ Quyên (born April 2, 1981), known by her stage name Lệ Quyên, is a Vietnamese singer. In 2004, she began her professional singing career with her debut album named Giấc mơ có thật (True Dream). She is known for her series of musical activities, composed of ballad music, old music, pre-war music since the very beginning of her career in the 2000s.[1] She was born in Hanoi in a family of singing tradition. As her parents were both singers, she was exposed to her interest in singing at an early age. She enrolled at Ha Noi's University of Culture, studying musical theory. In 2004, she began her profession career by releasing her first album Giấc mơ có thật, which gained much success after 6 years singing in Ha Noi and Ho Chi Minh City. She is one of the best-selling singers of all times in Vietnam.[2][3][4] In the late 2000s, she released a series of musical projects that were commercially and critically successful, including albums Lời Yêu Còn Mãi (2006), Lệ Quyên Acoustic (2009), Nếu Như Ngày Đó (2009). Since 2010, she has been releasing special editions of albums following a songwriter theme for each album: Vùng Tóc Nhớ (10 nameless songs of Vũ Thành An, 2014), Còn Trong Kỉ Niệm (Thái Thịnh, 2016), Lệ Quyên & Lam Phương (2016), Lệ Quyên & Trịnh Công Sơn (2018). In 2013, she held the liveshow Q Show, with an 11 billion Vietnam dong budget, the biggest liveshow at that time. She is well known for her serious, professional devotion in music, and for performing many different genres. She has been called the Queen of Music Tea Room or Queen of Old Songs. She was also a judge of Bolero Idol (2017), Vietnam Idol (2012), X-Factor (2014) and The Voice Vietnam (2015), and also starred in TV drama Bản Lĩnh Người Đẹp (2004), directed by Nguyen Anh Tuan. Biography[edit] She was born in Hanoi as the youngest of 4 siblings. She was born in a family with singing tradition as her parents were both singers, therefore since early ages, she knew how to sing Northern opera (also originally known as chèo).[5] In 7th grade, her family faced crisis so she and her mother moved to Thai Nguyen of where she enrolled at secondary and highschool Luong Ngoc Quyen. Therefore, many assumed that she was from Thai Nguyen but actually she was born and raised in Ha Noi.[6][7] In 1999, she passed two universities Ha Noi Music Institute and Ha Noi's University of Art. She decided to enroll at Ha Noi's University of Art.[8] In first year, she attended culture exchange among classes and won first prize. It w…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:22:40.222Z",
+          "title": "Lệ Quyên - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_Vietnam_Television_paytv",
+          "tieuDe": "List of programmes broadcast by Vietnam Television paytv - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:22:40.221Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/2025_Northern_Vietnam_floods",
+          "tieuDe": "2025 Northern Vietnam floods - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:22:40.222Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Natural disaster in Vietnam 2025 Northern Vietnam floods Map of Thái Nguyên Province after floodsCauseHeavy rains due to the impacts of tropical cyclones Ragasa, Bualoi, Matmo enhanced by tropical convergenceMeteorological historyDuration25 September – 16 October 2025 FloodMax. rainfall857 millimetres (33.7 in) Overall effectsCasualties85+ (deaths and missing)Damage$1.79 billion (2025 USD)Areas affectedVietnam (particularly Northern Vietnam and North Central Coast) The 2025 Northern Vietnam floods were a series of floods that affected Vietnam, particularly Northern Vietnam and parts of the North Central Coast, between 25 September and 16 October 2025, resulting from the combined impacts of three tropical cyclones and several other weather phenomena.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://en.wikipedia.org/wiki/L%E1%BB%87_Quy%C3%AAn",
+          "tieuDe": "Lệ Quyên - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:22:40.222Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Lệ QuyênLệ Quyên in 2025Background informationBornVũ Lệ Quyên (1981-04-02) 2 April 1981 (age 45) Hanoi, VietnamGenrespop rock, acoustic, folkOccupationSingerYears active1999–presentLabelViết TânWebsiteOfficial Website and FacebookMusical artist Vũ Lệ Quyên (born April 2, 1981), known by her stage name Lệ Quyên, is a Vietnamese singer. In 2004, she began her professional singing career with her debut album named Giấc mơ có thật (True Dream). She is known for her series of musical activities, composed of ballad music, old music, pre-war music since the very beginning of her career in the 2000s.[1] She was born in Hanoi in a family of singing tradition. As her parents were both singers, she was exposed to her interest in singing at an early age. She enrol",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm bài.",
+          "loai": "dinh-nghia",
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b",
+              "viTri": "Trang 1"
+            }
+          ]
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_Vietnam_Television_paytv\",\n      \"tieuDe\": \"List of programmes broadcast by Vietnam Television paytv - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:22:40.221Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://en.wikipedia.org/wiki/2025_Northern_Vietnam_floods\",\n      \"tieuDe\": \"2025 Northern Vietnam floods - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:22:40.222Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Natural disaster in Vietnam 2025 Northern Vietnam floods Map of Thái Nguyên Province after floodsCauseHeavy rains due to the impacts of tropical cyclones Ragasa, Bualoi, Matmo enhanced by tropical convergenceMeteorological historyDuration25 September – 16 October 2025 FloodMax. rainfall857 millimetres (33.7 in) Overall effectsCasualties85+ (deaths and missing)Damage$1.79 billion (2025 USD)Areas affectedVietnam (particularly Northern Vietnam and North Central Coast) The 2025 Northern Vietnam floods were a series of floods that affected Vietnam, particularly Northern Vietnam and parts of the North Central Coast, between 25 September and 16 October 2025, resulting from the combined impacts of three tropical cyclones and several other weather phenomena.\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://en.wikipedia.org/wiki/L%E1%BB%87_Quy%C3%AAn\",\n      \"tieuDe\": \"Lệ Quyên - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:22:40.222Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Lệ QuyênLệ Quyên in 2025Background informationBornVũ Lệ Quyên (1981-04-02) 2 April 1981 (age 45) Hanoi, VietnamGenrespop rock, acoustic, folkOccupationSingerYears active1999–presentLabelViết TânWebsiteOfficial Website and FacebookMusical artist Vũ Lệ Quyên (born April 2, 1981), known by her stage name Lệ Quyên, is a Vietnamese singer. In 2004, she began her professional singing career with her debut album named Giấc mơ có thật (True Dream). She is known for her series of musical activities, composed of ballad music, old music, pre-war music since the very beginning of her career in the 2000s.[1] She was born in Hanoi in a family of singing tradition. As her parents were both singers, she was exposed to her interest in singing at an early age. She enrol\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm bài.\",\n      \"loai\": \"dinh-nghia\",\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b\",\n          \"viTri\": \"Trang 1\"\n        }\n      ]\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 73777
+    },
+    "isDemo": false,
+    "modelUsed": "deepseek:meta/llama-3.2-11b-vision-instruct"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "AI trong chấm bài và phản hồi cho sinh viên",
+      "mucTieu": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+      "thoiLuong": "5 phút",
+      "nguoiHoc": "Giảng viên đại học",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào mừng các bạn đến với bài giảng ngày hôm nay, chúng ta sẽ khám phá về ứng dụng của AI trong chấm bài và phản hồi cho sinh viên.",
+          "chuTrenManHinh": "Chào mừng",
+          "yDoHinh": "Giảng viên đại học",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Tôi hy vọng rằng sau khi xem xong bài giảng này, các bạn sẽ hiểu rõ hơn về lợi ích và rủi ro của việc sử dụng AI trong chấm bài và phản hồi cho sinh viên.",
+          "chuTrenManHinh": "Hiểu rõ hơn",
+          "yDoHinh": "Giảng viên đại học",
+          "nguon": []
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Hôm nay, chúng ta sẽ xem xét hai lợi ích và hai rủi ro khi sử dụng AI hỗ trợ chấm bài và phản hồi cho sinh viên.",
+          "chuTrenManHinh": "Hai lợi ích và hai rủi ro",
+          "yDoHinh": "Giảng viên đại học",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Bạn đã từng nghĩ rằng AI có thể giúp chúng ta chấm bài và phản hồi cho sinh viên một cách chính xác hơn?",
+          "chuTrenManHinh": "Chính xác hơn",
+          "yDoHinh": "Giảng viên đại học",
+          "nguon": []
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Hãy cùng tôi khám phá về ứng dụng của AI trong chấm bài và phản hồi cho sinh viên trong bài giảng ngày hôm nay.",
+          "chuTrenManHinh": "Khám phá",
+          "yDoHinh": "Giảng viên đại học",
+          "nguon": []
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789658652402",
+      "timestamp": "2026-09-17T15:24:12.402Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "AI trong chấm bài và phản hồi cho sinh viên",
+        "learningObjective": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "targetAudience": "Giảng viên đại học",
+        "videoDuration": "5 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_Vietnam_Television_paytv",
+          "tieuDe": "List of programmes broadcast by Vietnam Television paytv - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:22:40.221Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://en.wikipedia.org/wiki/2025_Northern_Vietnam_floods",
+          "tieuDe": "2025 Northern Vietnam floods - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:22:40.222Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Natural disaster in Vietnam 2025 Northern Vietnam floods Map of Thái Nguyên Province after floodsCauseHeavy rains due to the impacts of tropical cyclones Ragasa, Bualoi, Matmo enhanced by tropical convergenceMeteorological historyDuration25 September – 16 October 2025 FloodMax. rainfall857 millimetres (33.7 in) Overall effectsCasualties85+ (deaths and missing)Damage$1.79 billion (2025 USD)Areas affectedVietnam (particularly Northern Vietnam and North Central Coast) The 2025 Northern Vietnam floods were a series of floods that affected Vietnam, particularly Northern Vietnam and parts of the North Central Coast, between 25 September and 16 October 2025, resulting from the combined impacts of three tropical cyclones and several other weather phenomena.",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://en.wikipedia.org/wiki/L%E1%BB%87_Quy%C3%AAn",
+          "tieuDe": "Lệ Quyên - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:22:40.222Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Lệ QuyênLệ Quyên in 2025Background informationBornVũ Lệ Quyên (1981-04-02) 2 April 1981 (age 45) Hanoi, VietnamGenrespop rock, acoustic, folkOccupationSingerYears active1999–presentLabelViết TânWebsiteOfficial Website and FacebookMusical artist Vũ Lệ Quyên (born April 2, 1981), known by her stage name Lệ Quyên, is a Vietnamese singer. In 2004, she began her professional singing career with her debut album named Giấc mơ có thật (True Dream). She is known for her series of musical activities, composed of ballad music, old music, pre-war music since the very beginning of her career in the 2000s.[1] She was born in Hanoi in a family of singing tradition. As her parents were both singers, she was exposed to her interest in singing at an early age. She enrol",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm bài.",
+          "loai": "dinh-nghia",
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b",
+              "viTri": "Trang 1"
+            }
+          ]
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "AI trong chấm bài và phản hồi cho sinh viên",
+        "mucTieu": "Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm",
+        "thoiLuong": "5 phút",
+        "nguoiHoc": "Giảng viên đại học",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào mừng các bạn đến với bài giảng ngày hôm nay, chúng ta sẽ khám phá về ứng dụng của AI trong chấm bài và phản hồi cho sinh viên.",
+            "chuTrenManHinh": "Chào mừng",
+            "yDoHinh": "Giảng viên đại học",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Tôi hy vọng rằng sau khi xem xong bài giảng này, các bạn sẽ hiểu rõ hơn về lợi ích và rủi ro của việc sử dụng AI trong chấm bài và phản hồi cho sinh viên.",
+            "chuTrenManHinh": "Hiểu rõ hơn",
+            "yDoHinh": "Giảng viên đại học",
+            "nguon": []
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Hôm nay, chúng ta sẽ xem xét hai lợi ích và hai rủi ro khi sử dụng AI hỗ trợ chấm bài và phản hồi cho sinh viên.",
+            "chuTrenManHinh": "Hai lợi ích và hai rủi ro",
+            "yDoHinh": "Giảng viên đại học",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Bạn đã từng nghĩ rằng AI có thể giúp chúng ta chấm bài và phản hồi cho sinh viên một cách chính xác hơn?",
+            "chuTrenManHinh": "Chính xác hơn",
+            "yDoHinh": "Giảng viên đại học",
+            "nguon": []
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Hãy cùng tôi khám phá về ứng dụng của AI trong chấm bài và phản hồi cho sinh viên trong bài giảng ngày hôm nay.",
+            "chuTrenManHinh": "Khám phá",
+            "yDoHinh": "Giảng viên đại học",
+            "nguon": []
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào mừng các bạn đến với bài giảng ngày hôm nay, chúng ta sẽ khám phá về ứng dụng của AI trong chấm bài và phản hồi cho sinh viên.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Tôi hy vọng rằng sau khi xem xong bài giảng này, các bạn sẽ hiểu rõ hơn về lợi ích và rủi ro của việc sử dụng AI trong chấm bài và phản hồi cho sinh viên.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Hôm nay, chúng ta sẽ xem xét hai lợi ích và hai rủi ro khi sử dụng AI hỗ trợ chấm bài và phản hồi cho sinh viên.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b"
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Bạn đã từng nghĩ rằng AI có thể giúp chúng ta chấm bài và phản hồi cho sinh viên một cách chính xác hơn?",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Hãy cùng tôi khám phá về ứng dụng của AI trong chấm bài và phản hồi cho sinh viên trong bài giảng ngày hôm nay.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        }
+      ],
+      "aiRawResponse": "{ \"schema\": \"hackathon-kich-ban/1\", \"id\": \"scriptscout-output\", \"tieuDe\": \"AI trong chấm bài và phản hồi cho sinh viên\", \"mucTieu\": \"Nêu được hai lợi ích và hai rủi ro khi dùng AI hỗ trợ chấm\", \"thoiLuong\": \"5 phút\", \"nguoiHoc\": \"Giảng viên đại học\", \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}], \"cau\": [ { \"n\": 1, \"phan\": 1, \"kieu\": \"ke\", \"loi\": \"Chào mừng các bạn đến với bài giảng ngày hôm nay, chúng ta sẽ khám phá về ứng dụng của AI trong chấm bài và phản hồi cho sinh viên.\", \"chuTrenManHinh\": \"Chào mừng\", \"yDoHinh\": \"Giảng viên đại học\", \"nguon\": [] }, { \"n\": 2, \"phan\": 1, \"kieu\": \"giang\", \"loi\": \"Tôi hy vọng rằng sau khi xem xong bài giảng này, các bạn sẽ hiểu rõ hơn về lợi ích và rủi ro của việc sử dụng AI trong chấm bài và phản hồi cho sinh viên.\", \"chuTrenManHinh\": \"Hiểu rõ hơn\", \"yDoHinh\": \"Giảng viên đại học\", \"nguon\": [] }, { \"n\": 3, \"phan\": 1, \"kieu\": \"nhe\", \"loi\": \"Hôm nay, chúng ta sẽ xem xét hai lợi ích và hai rủi ro khi sử dụng AI hỗ trợ chấm bài và phản hồi cho sinh viên.\", \"chuTrenManHinh\": \"Hai lợi ích và hai rủi ro\", \"yDoHinh\": \"Giảng viên đại học\", \"nguon\": [\"n01\"] }, { \"n\": 4, \"phan\": 1, \"kieu\": \"hoi\", \"loi\": \"Bạn đã từng nghĩ rằng AI có thể giúp chúng ta chấm bài và phản hồi cho sinh viên một cách chính xác hơn?\", \"chuTrenManHinh\": \"Chính xác hơn\", \"yDoHinh\": \"Giảng viên đại học\", \"nguon\": [] }, { \"n\": 5, \"phan\": 1, \"kieu\": \"nhan\", \"loi\": \"Hãy cùng tôi khám phá về ứng dụng của AI trong chấm bài và phản hồi cho sinh viên trong bài giảng ngày hôm nay.\", \"chuTrenManHinh\": \"Khám phá\", \"yDoHinh\": \"Giảng viên đại học\", \"nguon\": [] } ] }",
+      "isDemo": false,
+      "durationMs": 24031
+    },
+    "isDemo": false,
+    "modelUsed": "deepseek:meta/llama-3.2-11b-vision-instruct"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case": {
+    "id": "N04",
+    "class": "thuong",
+    "input": {
+      "topic": "Nhúng văn bản và tìm kiếm theo ngữ nghĩa",
+      "learningObjective": "Giải thích được vì sao máy tìm được câu gần nghĩa dù không trùng chữ",
+      "targetAudience": "Sinh viên công nghệ thông tin",
+      "videoDuration": "5 phút"
+    },
+    "expectedBehavior": "Nguồn về embeddings, semantic search. Kịch bản giải thích rõ ràng.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #5; không phải chatlog",
+    "passCriteria": "≥2 nguồn kỹ thuật; giải thích embedding bằng ví dụ; dẫn nguồn",
+    "failCriteria": "Bịa nguồn; không có ví dụ; viết như báo cáo thay vì văn nói"
+  }
+}

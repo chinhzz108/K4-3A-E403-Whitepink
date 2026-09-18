@@ -1,0 +1,88 @@
+{
+  "id": "trace-script-1789658043348",
+  "timestamp": "2026-09-17T15:14:03.348Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+    "learningObjective": "Nêu được con số cụ thể từ khảo sát đáng tin",
+    "targetAudience": "Người đi làm",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Vietnam_People's_Navy",
+      "tieuDe": "List of equipment of the Vietnam People's Navy - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:12:09.101Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Seals_of_the_Nguy%E1%BB%85n_dynasty",
+      "tieuDe": "Seals of the Nguyễn dynasty - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:12:09.102Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Collection of seals made for Vietnamese emperors between 1802 and 1945 Heirloom seal of the Southern Realm (Imperial Seal of the Nguyễn dynasty) Đại Nam ngọc tỷ truyền quốcArmiger Nguyễn dynastyAdoptedThiệu Trị 5 (1846)RelinquishedBảo Đại 20 (1945)[a]MottoĐại Nam thụ thiên vĩnh mệnh truyền quốc tỷ (大南受天永命傳國璽, \"The Great South has the eternal Mandate of Heaven, jade seal for the transmission of the legacy of the Empire\") 大南受 天永命 傳國璽 Earlier version(s) (Seal of the Nguyễn lords)UseOfficial seal of the Nguyễn dynasty government[1][2] Seals of the Nguyễn dynastyVietnamese alphabetẤn triện triều Nguyễn / Ấn triện nhà NguyễnHán-Nôm印篆朝阮 印篆茹阮 The seals of the Nguyễn dynasty can refer to a collection of seals (印篆, Ấn triện or 印章, Ấn chương) specifically made fo",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Nêu được con số cụ thể từ khảo sát đáng tin",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "The Vietnam People's Navy is the naval and maritime branch of the Vietnam People's Army. Since the Vietnam War, most of Vietnamese vessels were supplied by the Soviet Union and presently by Russia, while hundreds more were integrated into the navy after it was left over from South Vietnam although many have been decommissioned due to lack of parts. However, due to rising tensions in the South China Sea, many nearby nations such as Japan have shown support in developing Vietnam's Navy and Coast Guard.[1] Submarines[edit] Image Model Type Ship Quantity Origin Notes Kilo (Project 636.1)[2] Attack submarine Hà Nội (182) Thành phố Hồ Chí Minh (183) Hải Phòng (184) Khánh Hoà (185) Đà Nẵng (186) Bà Rịa-Vũng Tàu (187) 6[3][2] Russia[3] Delivered from 2013 to 2",
+          "viTri": "Trang 1"
+        }
+      ]
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Tỷ lệ doanh nghiệp Việt Nam dùng AI năm 2026",
+    "mucTieu": "Nêu được con số cụ thể từ khảo sát đáng tin",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Người đi làm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 1: mẫu không hợp lệ (lời có số=true, chữ màn hình=40, mã=[])",
+  "isDemo": false,
+  "durationMs": 24158
+}

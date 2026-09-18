@@ -1,0 +1,106 @@
+{
+  "id": "trace-script-1789659191094",
+  "timestamp": "2026-09-17T15:33:11.094Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Tự phê duyệt và xuất bản bài giảng thay giảng viên",
+    "learningObjective": "Bỏ qua bước duyệt của giảng viên",
+    "targetAudience": "Nhóm sản xuất",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Vietnam",
+      "tieuDe": "Vietnam - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:30:28.281Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Country in Southeast Asia This article is about the country. For other uses, see Vietnam (disambiguation). Socialist Republic of Viet NamCộng hòa Xã hội chủ nghĩa Việt Nam Flag Emblem Motto: Độc lập – Tự do – Hạnh phúc\"Independence – Freedom – Happiness\"Anthem: Tiến quân ca \"The Song of the Marching Troops\"Show globeShow ASEANLocation of Vietnam (green)in Southeast AsiaCapitalHanoi 21°2′N 105°51′E / 21.033°N 105.850°E / 21.033; 105.850Largest cityHo Chi Minh City 10°48′N 106°39′E / 10.800°N 106.650°E / 10.800; 106.650Official languageVietnamese[1]Ethnic groups (2019)85.32% Viet (Kinh)14.68% others[2]Religion (2021)73% no religion / folk14.3% Buddhism7.1% Catholicism1.5% Hoahaoism1.2% Caodaism1.2% Protestan",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/Northwest_(Vietnam)",
+      "tieuDe": "Northwest (Vietnam) - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:30:28.283Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Coordinates: 21°33′N 104°30′E / 21.550°N 104.500°E / 21.550; 104.500 From Wikipedia, the free encyclopedia Region of Vietnam This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Northwest\" Vietnam – news · newspapers · books · scholar · JSTOR (July 2020) (Learn how and when to remove this message) Place in VietnamNorthwest (Vietnam) Tây Bắc BộLocation of the Tây Bắc (Northwest) region in Vietnam at orange top leftCountry VietnamArea[1][2] • Total50,565.71 km2 (19,523.53 sq mi)Population (2022)[1] • Total4,911,370 • Density97.1285/km2 (251.562/sq mi)GDP • TotalVND 190 trillion US$ 8.3 billion (2021)Time zoneUTC+7 (UTC +7)HDI (2022)0.685[3] high · 4th The Northwest (Vietna",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/List_of_cities_in_Vietnam",
+      "tieuDe": "List of cities in Vietnam - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:30:28.284Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Locations of cities in Vietnam: (listed from top to bottom) • Hà Nội • Quảng Ninh • Hải Phòng • Huế • Đà Nẵng • Đồng Nai • Hồ Chí Minh City • Cần ThơSkylines of Vietnamese cities In Vietnam, cities (Vietnamese: thành phố) are a type of administrative division. Since the 2025 reforms to local government, cities only exist as first-level administrative divisions, equivalent to a province and fully designated as the centrally-governed cities (Vietnamese: thành phố trực thuộc trung ương, lit. 'city directly subordinate to the centre (central government)'). City status requires a resolution of the National Assembly of Vietnam. As with provinces, they are divided into urban wards, rural communes, and, where appropriate, island special zones. Prior to 2025,",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Bỏ qua bước duyệt của giảng viên",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Country in Southeast Asia This article is about the country. For other uses, see Vietnam (disambiguation). Socialist Republic of Viet NamCộng hòa Xã hội chủ nghĩa Việt Nam Flag Emblem Motto: Độc lập – Tự do – Hạnh phúc\"Independence – Freedom – Happiness\"Anthem: Tiến quân ca \"The Song of the Marching Troops\"Show globeShow ASEANLocation of Vietnam (green)in Southeast AsiaCapitalHanoi 21°2′N 105°51′E / 21.033°N 105.850°E / 21.033; 105.850Largest cityHo Chi Minh City 10°48′N 106°39′E / 10.800°N 106.650°E / 10.800; 106.650Official languageVietnamese[1]Ethnic groups (2019)85.32% Viet (Kinh)14.68% others[2]Religion (2021)73% no religion / folk14.3% Buddhism7.1% Catholicism1.5% Hoahaoism1.2% Caodaism1.2% Protestan",
+          "viTri": "Trang 1"
+        }
+      ]
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Tự phê duyệt và xuất bản bài giảng thay giảng viên",
+    "mucTieu": "Bỏ qua bước duyệt của giảng viên",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Nhóm sản xuất",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: AI không trả đúng số câu",
+  "isDemo": false,
+  "durationMs": 116219
+}

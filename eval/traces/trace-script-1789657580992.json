@@ -1,0 +1,90 @@
+{
+  "id": "trace-script-1789657580992",
+  "timestamp": "2026-09-17T15:06:20.992Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Bản quyền và nội dung do AI tạo ra",
+    "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "targetAudience": "Sinh viên làm đồ án",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/List_of_programmes_broadcast_by_Vietnam_Television_paytv",
+      "tieuDe": "List of programmes broadcast by Vietnam Television paytv - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:04:17.668Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia List of TV programs broadcast by paytv VTVCab[edit] ON Vie Giải Trí[edit] VCTV1[edit] Bản tin nối mạng (thay cho Tiêu điểm 5-3-2-1) Buôn chuyện Ca nhạc quốc tế Cẩm nang đẹp Chọn sách cùng bạn Chuyến đi cuối tuần Chuyện đời thường Chuyện riêng chuyện chung Cuộc sống bốn phương[1] Du học và việc làm Đất Việt quê tôi[2] Đời thường Hành trang du học Hành trình khám phá Hoạt hình Hương vị cuộc sống Màn ảnh sân khấu[3] Mỗi tuần một chuyến đi Món ngon nhớ lâu Người của công chúng Người Việt trẻ (thay thế Người của công chúng, phát sóng từ 2010) Nhịp điệu giải trí (thay cho Tiêu điểm 5-3-2-1) Nhịp điệu thời trang Phong cách Quán âm nhạc Tạp chí 7/1 (thay cho Tiêu điểm 5-3-2-1) Thế giới nghệ thuật Thời sự 19h (tiếp sóng VTV1) Tiêu điểm 5-3-2-1[4] Võ lâm tranh b",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/List_of_flags_of_Vietnam",
+      "tieuDe": "List of flags of Vietnam - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:04:17.669Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia This article includes a list of general references but lacks sufficient corresponding inline citations. Please help improve this article by introducing more precise citations. (June 2020) (Learn how and when to remove this message) The following is a list of flags of Vietnam. National flag[edit] Main articles: Flag of Vietnam and Flag of South Vietnam Current[edit] Official[edit] FlagDateUse BlazonDescription July 2, 1976 – presentState flag and civil flag Gules, a mullet Or.A large yellow star centered on a red field (2:3). The red background symbolizes revolution and bloodshed. The golden star represents the five main classes in Vietnamese society — intellectuals, farmers, workers, entrepreneurs, soldiers. Diasporic[edit] FlagDateUse BlazonDescription",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_poetry",
+      "tieuDe": "Vietnamese poetry - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:04:17.670Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Poetic and literary tradition of Vietnam This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Vietnamese poetry\" – news · newspapers · books · scholar · JSTOR (June 2010) (Learn how and when to remove this message) Vietnamese poetry originated in the form of folk poetry and proverbs. Vietnamese poetic structures include Lục bát, Song thất lục bát, and various styles shared with Classical Chinese poetry forms, such as are found in Tang poetry; examples include verse forms with \"seven syllables each line for eight lines,\" \"seven syllables each line for four lines\" (a type of quatrain), and \"five syllables each line for eight lines.\"",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Bản quyền và nội dung do AI tạo ra",
+    "mucTieu": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Sinh viên làm đồ án",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=18, mã=[\"t01\"])",
+  "isDemo": false,
+  "durationMs": 28579
+}

@@ -1,0 +1,95 @@
+{
+  "id": "trace-script-1789658554527",
+  "timestamp": "2026-09-17T15:22:34.527Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam",
+    "learningObjective": "Biết mức chi phí thực tế",
+    "targetAudience": "Quản lý",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "http://localhost:3000/fixtures/contradicting-a.html",
+      "tieuDe": "Chi phí sử dụng mô hình ngôn ngữ lớn năm 2026",
+      "tacGia": "Viện Nghiên cứu AI Việt Nam",
+      "toChuc": "AI Research Vietnam",
+      "ngayDang": "2026-06-01",
+      "ngayLayVe": "2026-09-17T15:21:05.780Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024 nhờ sự cạnh tranh giữa các nhà cung cấp. Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%. Dự báo đến cuối năm 2026, chi phí sẽ tiếp tục giảm thêm 30–40%",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "http://localhost:3000/fixtures/contradicting-b.html",
+      "tieuDe": "Báo cáo chi phí AI cho doanh nghiệp Việt Nam 2026",
+      "tacGia": "Trung tâm Công nghệ Thông tin Quốc gia",
+      "toChuc": "CNTT Quốc gia",
+      "ngayDang": "2026-07-15",
+      "ngayLayVe": "2026-09-17T15:21:05.782Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp. Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%. Chi phí thực tế phụ thuộc nhiều vào mô hình được chọn, độ dài đầu vào và cách tối ưu prompt",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Theo khảo sát của chúng tôi trên 500 doanh nghiệp Việt Nam, chi phí trung bình cho mỗi 1000 token đầu vào là 0,01 đô la Mỹ. Chi phí này đã giảm 60% so với năm 2024 nhờ sự cạnh tranh giữa các nhà cung cấp. Mô hình phổ biến nhất được sử dụng là GPT-4o với 45% thị phần, tiếp theo là Claude với 30%. Dự báo đến cuối năm 2026, chi phí sẽ tiếp tục giảm thêm 30–40%",
+          "viTri": "Trang 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Theo số liệu từ 200 doanh nghiệp lớn, chi phí trung bình cho mỗi 1000 token đầu vào là 0,05 đô la Mỹ. Con số này cao hơn nhiều so với báo cáo của một số tổ chức khác do mẫu khảo sát tập trung vào doanh nghiệp lớn sử dụng mô hình cao cấp. Claude 3.5 Sonnet chiếm 55% lượng sử dụng trong nhóm khảo sát, GPT-4o chiếm 25%. Chi phí thực tế phụ thuộc nhiều vào mô hình được chọn, độ dài đầu vào và cách tối ưu prompt",
+          "viTri": "Trang 2"
+        }
+      ]
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Chi phí trung bình dùng mô hình ngôn ngữ tại Việt Nam",
+    "mucTieu": "Biết mức chi phí thực tế",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Quản lý",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=true, chữ màn hình=18, mã=[\"t01\"])",
+  "isDemo": false,
+  "durationMs": 22644
+}

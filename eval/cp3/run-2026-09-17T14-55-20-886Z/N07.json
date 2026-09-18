@@ -1,0 +1,396 @@
+{
+  "case": {
+    "id": "N07",
+    "class": "thuong",
+    "input": {
+      "topic": "Fine-tuning so với prompt engineering",
+      "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+      "targetAudience": "Quản lý sản phẩm",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "So sánh hai phương pháp với ưu nhược điểm. Không quá kỹ thuật.",
+    "origin": "tự tạo — quyết định kỹ thuật phổ biến; không phải chatlog",
+    "passCriteria": "≥2 nguồn; so sánh rõ; phù hợp đối tượng quản lý",
+    "failCriteria": "Quá kỹ thuật; bịa nguồn"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://en.wikipedia.org/wiki/Batman%3A_Arkham_City",
+        "tieuDe": "Batman: Arkham City - Wikipedia",
+        "ngayLayVe": "2026-09-17T15:07:42.119Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://troisinh.com/docs/learn-ai/level-3/fine-tuning/when-to-fine-tune",
+        "tieuDe": "Khi nào nên fine-tune | Trồi Sinh",
+        "ngayLayVe": "2026-09-17T15:07:42.120Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Chuyên sâuFine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bện",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://aiprompt.vn/fine-tuning-vs-prompt-tuning/",
+        "tieuDe": "Fine-tuning vs Prompt-tuning: Đâu Là Phương Pháp Tối Ưu Cho Mô Hình Ngôn Ngữ Lớn Của Bạn? - AI Prompt",
+        "tacGia": "htpps://facebook.com/aipormpt.vn",
+        "toChuc": "AI Prompt",
+        "ngayDang": "2025-11-10T13:03:04+07:00",
+        "ngayLayVe": "2026-09-17T15:07:42.122Z",
+        "loai": "blog-ca-nhan",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [],
+        "doanTrich": "Nghề Prompt Engineer 2025: Hướng Dẫn Chi Tiết Cho Người Mới Bắt Đầu Tháng mười một 11, 2025 2.1k",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Fine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bện",
+        "loai": "dinh-nghia",
+        "soNguonXacNhan": 1,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW",
+            "viTri": "Trang 1"
+          }
+        ]
+      }
+    ],
+    "searchQueries": [
+      "Fine-tuning so với prompt engineering",
+      "Khi nào nên fine-tune và khi nào chỉ cần prompt tốt"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 3,
+    "trace": {
+      "id": "trace-research-1789657760207",
+      "timestamp": "2026-09-17T15:09:20.207Z",
+      "phase": "research",
+      "input": {
+        "topic": "Fine-tuning so với prompt engineering",
+        "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Batman: Arkham City",
+              "url": "https://en.wikipedia.org/wiki/Batman%3A_Arkham_City",
+              "snippet": "files for the Xbox 360 version of the game were being erased without prompting, resulting in players losing their progress and being unable to complete",
+              "position": 1
+            }
+          ],
+          "query": "Fine-tuning so với prompt engineering",
+          "engine": "wikipedia-en-search (secondary sources; not independent corroboration)"
+        },
+        {
+          "results": [
+            {
+              "title": "Khi nào nên fine-tune | Trồi Sinh - troisinh.com",
+              "url": "https://troisinh.com/docs/learn-ai/level-3/fine-tuning/when-to-fine-tune",
+              "snippet": "Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...",
+              "position": 1
+            },
+            {
+              "title": "Fine-tuning vs Prompt-tuning: Đâu Là Phương Pháp Tối Ưu Cho Mô Hình ...",
+              "url": "https://aiprompt.vn/fine-tuning-vs-prompt-tuning/",
+              "snippet": "Hai phương pháp phổ biến nhất hiện nay là Fine-tuning và Prompt-tuning. Vậy, chúng khác nhau như thế nào, ưu nhược điểm ra sao và nên lựa chọn phương pháp nào cho phù hợp với trường hợp cụ thể của bạn?",
+              "position": 2
+            },
+            {
+              "title": "Fine-tuning là gì? Khi nào cần tinh chỉnh AI - Khoa Bui",
+              "url": "https://khoabui.vn/fine-tuning-la-gi/",
+              "snippet": "Chỉ nên fine-tuning khi cần giọng hoặc định dạng cực nhất quán, tác vụ chuyên biệt lặp lại quy mô lớn, hoặc khi prompt và RAG đã thử kỹ mà chưa đủ tốt, và bạn có dữ liệu mẫu chất lượng.",
+              "position": 3
+            },
+            {
+              "title": "Bài 42 — Fine-tuning vs Prompt Engineering — Khi nào dùng cái nào",
+              "url": "https://vietnamcos.com/courses/lesson/ai-product-manager/bai-42-fine-tuning-vs-prompt-engineering-khi-nao-dung-cai-nao",
+              "snippet": "Trong bài này, tôi sẽ giúp bạn nhìn cả hai phương án như một dải quang phổ (spectrum) chứ không phải hai lựa chọn đối lập, và trao cho bạn một khung quyết định để biết khi nào dừng ở prompt, khi nào bước lên few-shot, và khi nào thực sự cần fine-tune.",
+              "position": 4
+            },
+            {
+              "title": "Fine-Tuning LLM Hướng Dẫn Thực Hành: Khi Nào Nên Dùng Và Cách Làm",
+              "url": "https://eragenai.com/fine-tuning-llm-huong-dan-thuc-hanh-khi-nao-nen-dung/",
+              "snippet": "Trước khi đưa quy trình vào dùng thường xuyên, hãy tạo một bộ mẫu nghiệm thu gồm trường hợp bình thường, dữ liệu thiếu, dữ liệu mâu thuẫn và tình huống người dùng yêu cầu vượt phạm vi. Mỗi mẫu cần có kết quả mong muốn, cách chấm và người chịu trách nhiệm.",
+              "position": 5
+            }
+          ],
+          "query": "Khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+          "engine": "duckduckgo"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Batman%3A_Arkham_City",
+          "content": "From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW: December 1, 2023 GenreAction-adventureModeSingle-player Batman: Arkham City is a 2011 action-adventure game developed by Rocksteady Studios and published by Warner Bros. Interactive Entertainment. Based on the DC Comics superhero Batman, it is the sequel to the 2009 video game Batman: Arkham Asylum and the second installment in the Batman: Arkham series. Written by veteran Batman writer Paul Dini with Paul Crocker and Sefton Hill, Arkham City was inspired by the long-running comic book mythos. In the game's main storyline, Bruce Wayne is incarcerated in Arkham City, a super-prison enclosing the decaying urban slums of Gotham City. He dons his alter ego, Batman, and goes on a mission to uncover the secret behind a sinister scheme orchestrated by the facility's warden, Hugo Strange. The game is presented from the third-person perspective with a primary focus on Batman's combat and stealth abilities, detective skills, and gadgets that can be used in both combat and exploration. Batman can freely move around the Arkham City prison, interacting with characters and undertaking missions, and unlocking new areas by progressing through the main story or obtaining new equipment. The player is able to complete side missions away from the main story to unlock additional content and collectible items. Batman's ally Catwoman is another playable character, featuring her own story campaign that runs parallel to the game's main plot. Rocksteady conceived ideas for a sequel while developing Arkham Asylum, commencing serious development of Arkham City's story in February 2009. The layout of Arkham City has a virtual footprint five times that of Arkham Asylum, and the city design was modified to accommodate Batman's ability to swoop and glide. Over a year and $10 million were spent on the game's marketing campaign, and its release was accompanied by two music albums; one containing the game's score, and the other featuring 11 original songs inspired by the game from various mainstrea…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:07:42.119Z",
+          "title": "Batman: Arkham City - Wikipedia",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://troisinh.com/docs/learn-ai/level-3/fine-tuning/when-to-fine-tune",
+          "content": "Chuyên sâuFine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bệnh. Prompt engineering giải quyết 80% use case thông thường. RAG giải quyết thêm 15% liên quan đến kiến thức đặc thù. Chỉ 5% còn lại thực sự cần can thiệp vào trọng số mô hình. Dấu hiệu buộc phải fine-tune Bạn cần fine-tune khi gặp một trong các tình huống sau: Định dạng output cứng nhắc: Yêu cầu mô hình trả về cấu trúc dữ liệu chính xác tuyệt đối (ví dụ: trích xuất hóa đơn điện tử theo đúng quy định JSON schema của Tổng cục Thuế Việt Nam). Prompt engineering có thể cho kết quả đúng 90% nhưng thất bại 10% còn lại do hallucination về cấu trúc. Kiến thức ngầm định: Cần mô hình \"hiểu\" sâu luật Việt Nam, y khoa Việt Nam, hoặc ngôn ngữ địa phương đặc thù (tiếng Tây Nguyên, Nam Bộ) mà không cần đưa context dài vào prompt. Fine-tune giúp mô hình internalize kiến thức này vào trọng số, giảm token usage và latency. Latency cực thấp: Ứng dụng real-time như chatbot ngân hàng yêu cầu phản hồi dưới 100ms. Việc gửi kèm few-shot examples hoặc context dài trong prompt làm tăng thời gian xử lý. Fine-tune giúp mô hình \"nhớ\" cách làm thay vì \"đọc\" hướng dẫn mỗi lần inference. Tone và style nhất quán tuyệt đối: Thương hiệu cần giọng văn cụ thể (ví dụ: tư vấn viên ngân hàng MB Bank trang trọng vs. content creator TikTok gen Z). Prompt engineering khó duy trì tính nhất quán qua hàng nghìn conversation. Rủi ro và chi phí ẩn Fine-tune không chỉ là chạy code trên GPU. Chi phí thực sự nằm ở: Catastrophic forgetting: Mô hình quên kiến thức tổng quát để học tác vụ mới. Một bệnh viện fine-tune GPT-4 trên hồ sơ bệnh án có thể thấy mô hình đột nhiên quên cách viết email công sở cơ bản. Data dependency: Cần tối thiểu 500-1000 examples chất lượng cao, được annotate bởi chuyên gia. Với dữ liệu y tế hoặc pháp lý tiếng Việt, chi phí chuẩn bị data thường đắt gấp 3 lần chi phí GPU training. Maintenance debt: Mỗi lần base model update (GPT-4 → GPT-4.5, Llama 3 → Llama 4) yêu cầu fine-tune lại toàn bộ. Tạo ra technical debt dài hạn. Overfitting: Mô hình \"học vẹt\" dữ liệu huấn luyện, thất bại trên case thực…[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:07:42.120Z",
+          "title": "Khi nào nên fine-tune | Trồi Sinh",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://aiprompt.vn/fine-tuning-vs-prompt-tuning/",
+          "content": "Nghề Prompt Engineer 2025: Hướng Dẫn Chi Tiết Cho Người Mới Bắt Đầu Tháng mười một 11, 2025 2.1k",
+          "fetchedAt": "2026-09-17T15:07:42.122Z",
+          "title": "Fine-tuning vs Prompt-tuning: Đâu Là Phương Pháp Tối Ưu Cho Mô Hình Ngôn Ngữ Lớn Của Bạn? - AI Prompt",
+          "status": "ok",
+          "contentLength": 96,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/Batman%3A_Arkham_City",
+          "tieuDe": "Batman: Arkham City - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:07:42.119Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://troisinh.com/docs/learn-ai/level-3/fine-tuning/when-to-fine-tune",
+          "tieuDe": "Khi nào nên fine-tune | Trồi Sinh",
+          "ngayLayVe": "2026-09-17T15:07:42.120Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Chuyên sâuFine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bện",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://aiprompt.vn/fine-tuning-vs-prompt-tuning/",
+          "tieuDe": "Fine-tuning vs Prompt-tuning: Đâu Là Phương Pháp Tối Ưu Cho Mô Hình Ngôn Ngữ Lớn Của Bạn? - AI Prompt",
+          "tacGia": "htpps://facebook.com/aipormpt.vn",
+          "toChuc": "AI Prompt",
+          "ngayDang": "2025-11-10T13:03:04+07:00",
+          "ngayLayVe": "2026-09-17T15:07:42.122Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Nghề Prompt Engineer 2025: Hướng Dẫn Chi Tiết Cho Người Mới Bắt Đầu Tháng mười một 11, 2025 2.1k",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "sourcesRejected": [],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Fine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bện",
+          "loai": "dinh-nghia",
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW",
+              "viTri": "Trang 1"
+            }
+          ]
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://en.wikipedia.org/wiki/Batman%3A_Arkham_City\",\n      \"tieuDe\": \"Batman: Arkham City - Wikipedia\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:07:42.119Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://troisinh.com/docs/learn-ai/level-3/fine-tuning/when-to-fine-tune\",\n      \"tieuDe\": \"Khi nào nên fine-tune | Trồi Sinh\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:07:42.120Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Chuyên sâuFine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bện\"\n    },\n    {\n      \"id\": \"n03\",\n      \"url\": \"https://aiprompt.vn/fine-tuning-vs-prompt-tuning/\",\n      \"tieuDe\": \"Fine-tuning vs Prompt-tuning: Đâu Là Phương Pháp Tối Ưu Cho Mô Hình Ngôn Ngữ Lớn Của Bạn? - AI Prompt\",\n      \"tacGia\": \"htpps://facebook.com/aipormpt.vn\",\n      \"toChuc\": \"AI Prompt\",\n      \"ngayDang\": \"2025-11-10T13:03:04+07:00\",\n      \"ngayLayVe\": \"2026-09-17T15:07:42.122Z\",\n      \"loai\": \"blog-ca-nhan\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Nghề Prompt Engineer 2025: Hướng Dẫn Chi Tiết Cho Người Mới Bắt Đầu Tháng mười một 11, 2025 2.1k\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Fine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bện\",\n      \"loai\": \"dinh-nghia\",\n      \"soNguonXacNhan\": 1,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW\",\n          \"viTri\": \"Trang 1\"\n        }\n      ]\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 100622
+    },
+    "isDemo": false,
+    "modelUsed": "deepseek:meta/llama-3.2-11b-vision-instruct"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "demo-mode",
+      "tieuDe": "Fine-tuning so với prompt engineering",
+      "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Quản lý sản phẩm",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": []
+    },
+    "trace": {
+      "id": "trace-script-1789657791219",
+      "timestamp": "2026-09-17T15:09:51.219Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Fine-tuning so với prompt engineering",
+        "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "targetAudience": "Quản lý sản phẩm",
+        "videoDuration": "4 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://en.wikipedia.org/wiki/Batman%3A_Arkham_City",
+          "tieuDe": "Batman: Arkham City - Wikipedia",
+          "ngayLayVe": "2026-09-17T15:07:42.119Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://troisinh.com/docs/learn-ai/level-3/fine-tuning/when-to-fine-tune",
+          "tieuDe": "Khi nào nên fine-tune | Trồi Sinh",
+          "ngayLayVe": "2026-09-17T15:07:42.120Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Chuyên sâuFine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bện",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://aiprompt.vn/fine-tuning-vs-prompt-tuning/",
+          "tieuDe": "Fine-tuning vs Prompt-tuning: Đâu Là Phương Pháp Tối Ưu Cho Mô Hình Ngôn Ngữ Lớn Của Bạn? - AI Prompt",
+          "tacGia": "htpps://facebook.com/aipormpt.vn",
+          "toChuc": "AI Prompt",
+          "ngayDang": "2025-11-10T13:03:04+07:00",
+          "ngayLayVe": "2026-09-17T15:07:42.122Z",
+          "loai": "blog-ca-nhan",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Nghề Prompt Engineer 2025: Hướng Dẫn Chi Tiết Cho Người Mới Bắt Đầu Tháng mười một 11, 2025 2.1k",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02",
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Fine-tuning thực chiếnKhi nào nên fine-tuneFine-tune không phải lúc nào cũng là câu trả lời đúng. Học cách nhận biết khi nào cần fine-tune, khi nào chỉ cần prompt engineering hoặc RAG để tiết kiệm chi...Copy MarkdownOpenĐịnh nghĩa Fine-tune là quá trình cập nhật trọng số mô hình để thích ứng với tác vụ cụ thể, nhưng chỉ nên thực hiện khi các phương pháp đơn giản hơn như prompt engineering và RAG không đáp ứng được yêu cầu về chất lượng, độ trễ hoặc tính nhất quán của output. Giải thích chi tiết Thứ tự ưu tiên: Prompt → RAG → Fine-tune Nhiều developer mắc lỗi nhảy thẳng vào fine-tune khi gặp vấn đề. Quy tắc vàng trong ML Ops: thử prompt engineering trước, sau đó đến RAG, cuối cùng mới fine-tune. Fine-tune là phẫu thuật chỉnh hình, không phải vitamin tổng hợp bổ sung cho mọi ca bện",
+          "loai": "dinh-nghia",
+          "soNguonXacNhan": 1,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW",
+              "viTri": "Trang 1"
+            }
+          ]
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "demo-mode",
+        "tieuDe": "Fine-tuning so với prompt engineering",
+        "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Quản lý sản phẩm",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": []
+      },
+      "sentenceSourceMap": [],
+      "aiRawResponse": "",
+      "error": "Lỗi gọi AI: Câu 4: mẫu không hợp lệ (lời có số=false, chữ màn hình=12, mã=[\"n02\"])",
+      "isDemo": false,
+      "durationMs": 30977
+    },
+    "isDemo": false,
+    "error": "Lỗi gọi AI: Câu 4: mẫu không hợp lệ (lời có số=false, chữ màn hình=12, mã=[\"n02\"])"
+  }
+}

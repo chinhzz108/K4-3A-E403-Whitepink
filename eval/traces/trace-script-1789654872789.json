@@ -1,0 +1,130 @@
+{
+  "id": "trace-script-1789654872789",
+  "timestamp": "2026-09-17T14:21:12.789Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Fine-tuning so với prompt engineering",
+    "learningObjective": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+    "targetAudience": "Quản lý sản phẩm",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/Batman%3A_Arkham_City",
+      "tieuDe": "Batman: Arkham City - Wikipedia",
+      "ngayLayVe": "2026-09-17T14:18:54.205Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Không có thông tin cụ thể",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Không có thông tin cụ thể",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia 2011 video game 2011 video gameBatman: Arkham CityDeveloperRocksteady Studios[a]PublisherWarner Bros. Interactive EntertainmentDirectorSefton HillProducersDaniel BailieNathan BurlowProgrammerBen WyattArtistDavid HegoWritersPaul DiniPaul CrockerSefton HillComposersNick ArundelRon FishSeriesBatman: ArkhamEngineUnreal Engine 3[b]PlatformsPlayStation 3Xbox 360WindowsWii UOS XPlayStation 4Xbox OneNintendo SwitchRelease October 18, 2011 PlayStation 3, Xbox 360NA: October 18, 2011[1]AU: October 19, 2011[1][2]EU: October 21, 2011[3]WindowsNA: November 22, 2011[4]AU: November 23, 2011[5]EU: November 25, 2011[4][6]Wii UNA: November 18, 2012[7]PAL: November 30, 2012[8][9]OS XWW: December 13, 2012[10]PlayStation 4, Xbox OneWW: October 18, 2016[11]Nintendo SwitchWW: December 1, 2023 GenreAction-adventureModeSingle-player Batman: Arkham City is a 2011 action-adventure game developed by Rocksteady Studios and published by Warner Bros. Interactive Entertainment. Based on the DC Comics superhero Batman, it is the sequel to the 2009 video game Batman: Arkham Asylum and the second installment in the Batman: Arkham series. Written by veteran Batman writer Paul Dini with Paul Crocker and Sefton Hill, Arkham City was inspired by the long-running comic book mythos. In the game's main storyline, Bruce Wayne is incarcerated in Arkham City, a super-prison enclosing the decaying urban slums of Gotham City. He dons his alter ego, Batman, and goes on a mission to uncover the secret behind a sinister scheme orchestrated by the facility's warden, Hugo Strange. The game is presented from the third-person perspective with a primary focus on Batman's combat and stealth abilities, detective skills, and gadgets that can be used in both combat and exploration. Batman c",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Fine-tuning so với prompt engineering",
+    "mucTieu": "Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Quản lý sản phẩm",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn đến với chủ đề Fine-tuning so với prompt engineering, một chủ đề quan trọng trong lĩnh vực học máy.",
+        "chuTrenManHinh": "Fine-tuning so với prompt engineering",
+        "yDoHinh": "Fine-tuning so với prompt engineering",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Trong quá trình học máy, chúng ta thường xuyên phải đối mặt với hai khái niệm quan trọng là fine-tuning và prompt engineering. Nhưng khi nào nên fine-tune và khi nào chỉ cần prompt tốt?",
+        "chuTrenManHinh": "Fine-tuning và prompt engineering",
+        "yDoHinh": "Fine-tuning và prompt engineering",
+        "nguon": []
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trong bài giảng này, chúng ta sẽ phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt, giúp bạn trở thành một chuyên gia hơn trong lĩnh vực học máy.",
+        "chuTrenManHinh": "Phân biệt fine-tuning và prompt engineer",
+        "yDoHinh": "Phân biệt fine-tuning và prompt engineering",
+        "nguon": []
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã bao giờ tự hỏi mình rằng khi nào nên fine-tune và khi nào chỉ cần prompt tốt?",
+        "chuTrenManHinh": "Khi nào nên fine-tune?",
+        "yDoHinh": "Khi nào nên fine-tune?",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Trong bài giảng này, chúng ta sẽ tìm hiểu về các khái niệm này và phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt.",
+        "chuTrenManHinh": "Phân biệt fine-tuning và prompt engineer",
+        "yDoHinh": "Phân biệt fine-tuning và prompt engineering",
+        "nguon": []
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn đến với chủ đề Fine-tuning so với prompt engineering, một chủ đề quan trọng trong lĩnh vực học máy.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Trong quá trình học máy, chúng ta thường xuyên phải đối mặt với hai khái niệm quan trọng là fine-tuning và prompt engineering. Nhưng khi nào nên fine-tune và khi nào chỉ cần prompt tốt?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Trong bài giảng này, chúng ta sẽ phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt, giúp bạn trở thành một chuyên gia hơn trong lĩnh vực học máy.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn đã bao giờ tự hỏi mình rằng khi nào nên fine-tune và khi nào chỉ cần prompt tốt?",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Trong bài giảng này, chúng ta sẽ tìm hiểu về các khái niệm này và phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    }
+  ],
+  "aiRawResponse": "Tôi có thể giúp bạn viết 5 câu mở đầu cho video về chủ đề Fine-tuning so với prompt engineering. Dưới đây là kết quả:\n\n{ \n  \"schema\": \"hackathon-kich-ban/1\", \n  \"id\": \"scriptscout-output\", \n  \"tieuDe\": \"Fine-tuning so với prompt engineering\", \n  \"mucTieu\": \"Phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt\", \n  \"thoiLuong\": \"4 phút\", \n  \"nguoiHoc\": \"Quản lý sản phẩm\", \n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}], \n  \"cau\": [ \n    { \n      \"n\": 1, \n      \"phan\": 1, \n      \"kieu\": \"ke\", \n      \"loi\": \"Chào mừng các bạn đến với chủ đề Fine-tuning so với prompt engineering, một chủ đề quan trọng trong lĩnh vực học máy.\", \n      \"chuTrenManHinh\": \"Fine-tuning so với prompt engineering\", \n      \"yDoHinh\": \"Fine-tuning so với prompt engineering\", \n      \"nguon\": [] \n    }, \n    { \n      \"n\": 2, \n      \"phan\": 1, \n      \"kieu\": \"giang\", \n      \"loi\": \"Trong quá trình học máy, chúng ta thường xuyên phải đối mặt với hai khái niệm quan trọng là fine-tuning và prompt engineering. Nhưng khi nào nên fine-tune và khi nào chỉ cần prompt tốt?\", \n      \"chuTrenManHinh\": \"Fine-tuning và prompt engineering\", \n      \"yDoHinh\": \"Fine-tuning và prompt engineering\", \n      \"nguon\": [] \n    }, \n    { \n      \"n\": 3, \n      \"phan\": 1, \n      \"kieu\": \"nhe\", \n      \"loi\": \"Trong bài giảng này, chúng ta sẽ phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt, giúp bạn trở thành một chuyên gia hơn trong lĩnh vực học máy.\", \n      \"chuTrenManHinh\": \"Phân biệt fine-tuning và prompt engineering\", \n      \"yDoHinh\": \"Phân biệt fine-tuning và prompt engineering\", \n      \"nguon\": [] \n    }, \n    { \n      \"n\": 4, \n      \"phan\": 1, \n      \"kieu\": \"hoi\", \n      \"loi\": \"Bạn đã bao giờ tự hỏi mình rằng khi nào nên fine-tune và khi nào chỉ cần prompt tốt?\", \n      \"chuTrenManHinh\": \"Khi nào nên fine-tune?\", \n      \"yDoHinh\": \"Khi nào nên fine-tune?\", \n      \"nguon\": [] \n    }, \n    { \n      \"n\": 5, \n      \"phan\": 1, \n      \"kieu\": \"nhan\", \n      \"loi\": \"Trong bài giảng này, chúng ta sẽ tìm hiểu về các khái niệm này và phân biệt được khi nào nên fine-tune và khi nào chỉ cần prompt tốt.\", \n      \"chuTrenManHinh\": \"Phân biệt fine-tuning và prompt engineering\", \n      \"yDoHinh\": \"Phân biệt fine-tuning và prompt engineering\", \n      \"nguon\": [] \n    } \n  ] \n}",
+  "isDemo": false,
+  "durationMs": 42959
+}

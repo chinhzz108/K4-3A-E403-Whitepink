@@ -1,0 +1,16 @@
+{
+  "case": {
+    "id": "N05",
+    "class": "thuong",
+    "input": {
+      "topic": "Bản quyền và nội dung do AI tạo ra",
+      "learningObjective": "Biết được khi nào cần ghi nguồn và khi nào không được dùng",
+      "targetAudience": "Sinh viên làm đồ án",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Tìm nguồn pháp lý về bản quyền AI. Nêu rõ khác biệt theo quốc gia.",
+    "origin": "Tự soạn từ chu-de-goi-y.md #8; không phải chatlog",
+    "passCriteria": "Nguồn thật và đoạn trích khớp; nêu phạm vi pháp lý theo quốc gia và thời điểm, không suy đoán có hay không quy định Việt Nam",
+    "failCriteria": "Khẳng định chắc chắn về pháp lý khi chưa có; bịa nguồn"
+  }
+}

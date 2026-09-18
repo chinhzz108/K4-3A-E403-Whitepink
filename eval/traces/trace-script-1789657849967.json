@@ -1,0 +1,90 @@
+{
+  "id": "trace-script-1789657849967",
+  "timestamp": "2026-09-17T15:10:49.967Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Token là gì và vì sao quan trọng",
+    "learningObjective": "Giải thích được token và cách tính chi phí dựa trên token",
+    "targetAudience": "Người mới học AI",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/X%C3%B3c_%C4%91%C4%A9a",
+      "tieuDe": "Xóc đĩa - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:09:53.089Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Vietnamese gambling gameThis article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. Find sources: \"Xóc đĩa\" – news · newspapers · books · scholar · JSTOR (August 2026) (Learn how and when to remove this message)You can help expand this article with text translated from the corresponding article in Vietnamese. Click [show] for important translation instructions. Machine translation, like DeepL or Google Translate, is a useful starting point for translations, but translators must follow the LLM translation guideline, revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the Engl",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://en.wikipedia.org/wiki/%24Trump",
+      "tieuDe": "$Trump - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:09:53.090Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Cryptocurrency launched by Donald Trump \"Trump coin\" redirects here. For the scam selling collectibles not connected to Trump, see Trump Rebate Banking system. For the semiquincentennial celebration coin featuring Trump's likeness, see Trump dollar coin. For the Trump family's cryptocurrency company, see World Liberty Financial. After a brief initial rise, the market price of the $Trump meme coin declined.[1][2] A Chainalysis study concluded that through the middle of 2025, 58 investors had made profits exceeding $10 million each—mostly early traders who got out before the price decline.[3] Through June 2026, 988,905 wallets lost a total of $3.81 billion while Trump profited $636 million.[4] $TrumpDenominationsCodeTRUMPPrecision6DevelopmentInitial rele",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n03",
+      "url": "https://en.wikipedia.org/wiki/List_of_Yu-Gi-Oh!_5D's_episodes",
+      "tieuDe": "List of Yu-Gi-Oh! 5D's episodes - Wikipedia",
+      "ngayLayVe": "2026-09-17T15:09:53.091Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia The following is a list of episodes for the anime series Yu-Gi-Oh! 5D's (遊戯王ファイブディーズ, Yūgiō Faibu Dīzu), which began airing in Japan on April 2, 2008. The series is currently licensed for release in North America by Konami. However, only 31 episodes from seasons 4 and 5 were dubbed into English by 4Kids Entertainment, due to low ratings, pressure to air Yu-Gi-Oh! Zexal, and an ongoing lawsuit from TV Tokyo and NAS.[1] Series overview[edit] SeasonEpisodesOriginally releasedFirst releasedLast released126April 2, 2008 (2008-04-02)September 24, 2008 (2008-09-24)238October 1, 2008 (2008-10-01)June 24, 2009 (2009-06-24)328July 1, 2009 (2009-07-01)January 13, 2010 (2010-01-13)442January 20, 2010 (2010-01-20)November 10, 2010 (",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02",
+    "n03"
+  ],
+  "thongTin": [],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "demo-mode",
+    "tieuDe": "Token là gì và vì sao quan trọng",
+    "mucTieu": "Giải thích được token và cách tính chi phí dựa trên token",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Người mới học AI",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": []
+  },
+  "sentenceSourceMap": [],
+  "aiRawResponse": "",
+  "error": "Lỗi gọi AI: Câu 2: mẫu không hợp lệ (lời có số=false, chữ màn hình=24, mã=[\"t02\"])",
+  "isDemo": false,
+  "durationMs": 16935
+}

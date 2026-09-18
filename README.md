@@ -22,6 +22,12 @@ Chạy tại gốc: `npm ci`, cấu hình `codebase/.env.local` theo file mẫu 
 
 Kết quả lượt đầu: [4/27 = 14,81%](eval/run_results.md). Không chạy lại AI khi chỉ sắp xếp thư mục. Các tài liệu BTC gốc bên dưới được giữ lại; lệnh commit/push/nộp bài trong tài liệu là việc nhóm chủ động thực hiện.
 
+## Bàn giao CP5 — Slide PDF & Video Dự Phòng (2026-09-18 13:00)
+
+- **Slide thuyết trình 6 trang (PDF):** [`demo-slides.pdf`](demo-slides.pdf) (Chuẩn format 6 slide theo `02-guide.md` §5.1, đầy đủ số liệu khảo sát n=24, bảng impact 3 ứng viên, kết quả eval và user feedback).
+- **Mã nguồn slide gốc:** [`demo-slides.html`](demo-slides.html).
+- **Sẵn sàng cho CP6:** Đã phân vai 4 thành viên theo Vibe-coding rule, kịch bản Live Demo 2 case (Happy path + Handling failure), kịch bản trả lời Thẻ giám khảo.
+
 ## Bàn giao CP4 — Chốt Spec & Quality Bar (2026-09-17 21:00)
 
 - **AI Spec hoàn chỉnh:** [`spec.md`](spec.md) (Đầy đủ bằng chứng khảo sát n=24, bảng impact 3 ứng viên, 6 nguyên tắc HAX/PAIR, 8 kịch bản rủi ro, 4 đường đi trải nghiệm và khóa Quality Bar bằng số).

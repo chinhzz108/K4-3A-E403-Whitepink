@@ -1,0 +1,188 @@
+{
+  "id": "trace-script-1789658815903",
+  "timestamp": "2026-09-17T15:26:55.903Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+    "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+    "targetAudience": "Giáo viên mầm non",
+    "videoDuration": "4 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://mst.gov.vn/ung-dung-ai-trong-giao-duc-mam-non-hanh-trinh-dong-hanh-cung-the-he-so-197251118031945343.htm",
+      "tieuDe": "Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số - Cổng Thông tin điện tử Bộ Khoa học và Công nghệ",
+      "tacGia": "Bộ Khoa học và Công nghệ",
+      "ngayDang": "2025-11-18T11:53:00+07:00",
+      "ngayLayVe": "2026-09-17T15:25:32.724Z",
+      "loai": "tai-lieu-chinh-thuc",
+      "doTinCay": "cao",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [],
+      "doanTrich": "Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI. Nếu như trước đây giáo viên mầm non gắn với những câu chuyện cổ tích, bài hát và đồ chơi đầy màu sắc, thì nay họ",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    },
+    {
+      "id": "n02",
+      "url": "https://www.vas.edu.vn/tin-tuc/chuong-trinh-giao-duc-mam-non-don-dau-xu-huong-va-but-pha-voi-cong-nghe-ai",
+      "tieuDe": "Áp dụng công nghệ AI trong chương trình giáo dục mầm non hiện nay",
+      "toChuc": "Vietnam Australia International School (VAS)",
+      "ngayLayVe": "2026-09-17T15:25:32.730Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ. Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01",
+    "n02"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "Ứng dụng AI trong giáo dục mầm non đang trở thành một xu hướng mới trong lĩnh vực giáo dục. Hai ứng dụng thực tế của AI trong giáo dục mầm non là hỗ trợ cá nhân hóa học tập và cải thiện giao tiếp giữa giáo viên và trẻ. Tuy nhiên, cũng có một số lo ngại về việc áp dụng AI trong giáo dục mầm non, chẳng hạn như việc mất đi tính cá nhân hóa trong học tập và sự phụ thuộc vào công nghệ.",
+      "loai": "dinh-nghia",
+      "soNguonXacNhan": 2,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": "",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+          "viTri": "Trang 1"
+        },
+        {
+          "nguonId": "n02",
+          "doanTrich": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+          "viTri": "Trang 2"
+        }
+      ]
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+    "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+    "thoiLuong": "4 phút",
+    "nguoiHoc": "Giáo viên mầm non",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các thầy cô giáo viên mầm non đến với chủ đề ứng dụng AI trong giáo dục mầm non tại Việt Nam.",
+        "chuTrenManHinh": "Chào thầy cô",
+        "yDoHinh": "Mở đầu",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ, như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+        "chuTrenManHinh": "Giáo dục mầm non",
+        "yDoHinh": "Giáo dục mầm non",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI), như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+        "chuTrenManHinh": "Sự phát triển của công nghệ",
+        "yDoHinh": "Sự phát triển của công nghệ",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Hãy cùng chúng tôi khám phá hai ứng dụng thực tế và hai lo ngại của AI trong giáo dục mầm non tại Việt Nam.",
+        "chuTrenManHinh": "Khám phá",
+        "yDoHinh": "Khám phá",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Như chúng ta đã biết, trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI, như chúng ta đã được chứng minh trong đoạn trích của trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+        "chuTrenManHinh": "Trẻ được tiếp cận hình ảnh đẹp",
+        "yDoHinh": "Trẻ được tiếp cận hình ảnh đẹp",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các thầy cô giáo viên mầm non đến với chủ đề ứng dụng AI trong giáo dục mầm non tại Việt Nam.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ, như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.; [n02] Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI), như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.; [n02] Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ."
+      ]
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Hãy cùng chúng tôi khám phá hai ứng dụng thực tế và hai lo ngại của AI trong giáo dục mầm non tại Việt Nam.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Như chúng ta đã biết, trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI, như chúng ta đã được chứng minh trong đoạn trích của trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.; [n02] Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ."
+      ]
+    }
+  ],
+  "aiRawResponse": "{ \"schema\": \"hackathon-kich-ban/1\", \"id\": \"scriptscout-output\", \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\", \"mucTieu\": \"Nêu được hai ứng dụng thực tế và hai lo ngại\", \"thoiLuong\": \"4 phút\", \"nguoiHoc\": \"Giáo viên mầm non\", \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}], \"cau\": [ { \"n\": 1, \"phan\": 1, \"kieu\": \"ke\", \"loi\": \"Chào mừng các thầy cô giáo viên mầm non đến với chủ đề ứng dụng AI trong giáo dục mầm non tại Việt Nam.\", \"chuTrenManHinh\": \"Chào thầy cô\", \"yDoHinh\": \"Mở đầu\", \"nguon\": [] }, { \"n\": 2, \"phan\": 1, \"kieu\": \"giang\", \"loi\": \"Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ, như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.\", \"chuTrenManHinh\": \"Giáo dục mầm non\", \"yDoHinh\": \"Giáo dục mầm non\", \"nguon\": [\"n02\"] }, { \"n\": 3, \"phan\": 1, \"kieu\": \"nhe\", \"loi\": \"Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI), như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).\", \"chuTrenManHinh\": \"Sự phát triển của công nghệ\", \"yDoHinh\": \"Sự phát triển của công nghệ\", \"nguon\": [\"n02\"] }, { \"n\": 4, \"phan\": 1, \"kieu\": \"hoi\", \"loi\": \"Hãy cùng chúng tôi khám phá hai ứng dụng thực tế và hai lo ngại của AI trong giáo dục mầm non tại Việt Nam.\", \"chuTrenManHinh\": \"Khám phá\", \"yDoHinh\": \"Khám phá\", \"nguon\": [] }, { \"n\": 5, \"phan\": 1, \"kieu\": \"nhan\", \"loi\": \"Như chúng ta đã biết, trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI, như chúng ta đã được chứng minh trong đoạn trích của trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.\", \"chuTrenManHinh\": \"Trẻ được tiếp cận hình ảnh đẹp\", \"yDoHinh\": \"Trẻ được tiếp cận hình ảnh đẹp\", \"nguon\": [\"n01\"] } ] }",
+  "isDemo": false,
+  "durationMs": 19820
+}

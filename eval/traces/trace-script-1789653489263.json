@@ -1,0 +1,158 @@
+{
+  "id": "trace-script-1789653489263",
+  "timestamp": "2026-09-17T13:58:09.263Z",
+  "phase": "generate-script",
+  "input": {
+    "topic": "học máy",
+    "learningObjective": "tìm hiểu cây quyết định",
+    "targetAudience": "Sinh viên CNTT",
+    "videoDuration": "3 phút"
+  },
+  "sourcesEvaluated": [
+    {
+      "id": "n01",
+      "url": "https://en.wikipedia.org/wiki/List_of_radio_stations_in_Vietnam",
+      "tieuDe": "List of radio stations in Vietnam - Wikipedia",
+      "ngayLayVe": "2026-09-17T13:49:59.281Z",
+      "loai": "bai-bao-khoa-hoc",
+      "doTinCay": "trung-binh",
+      "lyDoTinCay": "Không có thông tin cụ thể",
+      "trangThai": "dang-dung",
+      "lyDoLoai": "Không có thông tin cụ thể",
+      "canhBao": [
+        "Không tìm thấy ngày đăng"
+      ],
+      "doanTrich": "From Wikipedia, the free encyclopedia Below is a list of stations broadcasting FM radio broadcasting channels in Vietnam, including channels that are currently broadcasting, have been broadcast and channels in FM frequency old, including radio channels of Voice of Vietnam, local stations and radio stations of communes and districts of provinces/cities, and divided by regions in Vietnam.",
+      "promptInjectionDetected": false,
+      "scrapeStatus": "ok"
+    }
+  ],
+  "sourcesSelected": [
+    "n01"
+  ],
+  "thongTin": [
+    {
+      "id": "t01",
+      "noiDung": "List of radio stations in Vietnam",
+      "loai": "vi-du",
+      "bangChung": [
+        {
+          "nguonId": "n01",
+          "doanTrich": "From Wikipedia, the free encyclopedia Below is a list of stations broadcasting FM radio broadcasting channels in Vietnam, including channels that are currently broadcasting, have been broadcast and channels in FM frequency old, including radio channels of Voice of Vietnam, local stations and radio stations of communes and districts of provinces/cities, and divided by regions in Vietnam.",
+          "viTri": "1"
+        }
+      ],
+      "soNguonXacNhan": 1,
+      "trangThai": "chua-xac-minh",
+      "moTaMauThuan": ""
+    }
+  ],
+  "scriptOutput": {
+    "schema": "hackathon-kich-ban/1",
+    "id": "scriptscout-output",
+    "tieuDe": "học máy",
+    "mucTieu": "tìm hiểu cây quyết định",
+    "thoiLuong": "3 phút",
+    "nguoiHoc": "Sinh viên CNTT",
+    "phan": [
+      {
+        "so": 1,
+        "ten": "Mở đầu"
+      }
+    ],
+    "cau": [
+      {
+        "n": 1,
+        "phan": 1,
+        "kieu": "ke",
+        "loi": "Chào mừng các bạn đến với bài giảng về học máy, hôm nay chúng ta sẽ khám phá một trong những thuật toán quan trọng trong lĩnh vực này.",
+        "chuTrenManHinh": "Học máy",
+        "yDoHinh": "tìm hiểu cây quyết định",
+        "nguon": []
+      },
+      {
+        "n": 2,
+        "phan": 1,
+        "kieu": "giang",
+        "loi": "Cây quyết định là một thuật toán phân loại được sử dụng rộng rãi trong nhiều lĩnh vực, bao gồm kinh doanh, y tế và khoa học dữ liệu.",
+        "chuTrenManHinh": "Cây quyết định",
+        "yDoHinh": "tìm hiểu",
+        "nguon": [
+          "t01"
+        ]
+      },
+      {
+        "n": 3,
+        "phan": 1,
+        "kieu": "nhe",
+        "loi": "Trong bài giảng này, chúng ta sẽ tìm hiểu về cơ bản của cây quyết định, bao gồm cách thức hoạt động và ứng dụng thực tế.",
+        "chuTrenManHinh": "Tìm hiểu cây quyết định",
+        "yDoHinh": "cơ bản",
+        "nguon": []
+      },
+      {
+        "n": 4,
+        "phan": 1,
+        "kieu": "hoi",
+        "loi": "Bạn đã từng nghe về cây quyết định trước đây chưa? Hãy cùng chúng ta khám phá thêm về thuật toán này.",
+        "chuTrenManHinh": "Cây quyết định",
+        "yDoHinh": "khám phá",
+        "nguon": []
+      },
+      {
+        "n": 5,
+        "phan": 1,
+        "kieu": "nhan",
+        "loi": "Trong thời gian ngắn, chúng ta sẽ tìm hiểu về các khái niệm cơ bản của cây quyết định và cách thức áp dụng chúng trong thực tế.",
+        "chuTrenManHinh": "Tìm hiểu cây quyết định",
+        "yDoHinh": "cơ bản",
+        "nguon": [
+          "t01"
+        ]
+      }
+    ]
+  },
+  "sentenceSourceMap": [
+    {
+      "sentenceN": 1,
+      "loi": "Chào mừng các bạn đến với bài giảng về học máy, hôm nay chúng ta sẽ khám phá một trong những thuật toán quan trọng trong lĩnh vực này.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 2,
+      "loi": "Cây quyết định là một thuật toán phân loại được sử dụng rộng rãi trong nhiều lĩnh vực, bao gồm kinh doanh, y tế và khoa học dữ liệu.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] From Wikipedia, the free encyclopedia Below is a list of stations broadcasting FM radio broadcasting channels in Vietnam, including channels that are currently broadcasting, have been broadcast and channels in FM frequency old, including radio channels of Voice of Vietnam, local stations and radio stations of communes and districts of provinces/cities, and divided by regions in Vietnam."
+      ]
+    },
+    {
+      "sentenceN": 3,
+      "loi": "Trong bài giảng này, chúng ta sẽ tìm hiểu về cơ bản của cây quyết định, bao gồm cách thức hoạt động và ứng dụng thực tế.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 4,
+      "loi": "Bạn đã từng nghe về cây quyết định trước đây chưa? Hãy cùng chúng ta khám phá thêm về thuật toán này.",
+      "nguon": [],
+      "doanTrichLienQuan": []
+    },
+    {
+      "sentenceN": 5,
+      "loi": "Trong thời gian ngắn, chúng ta sẽ tìm hiểu về các khái niệm cơ bản của cây quyết định và cách thức áp dụng chúng trong thực tế.",
+      "nguon": [
+        "t01"
+      ],
+      "doanTrichLienQuan": [
+        "[n01] From Wikipedia, the free encyclopedia Below is a list of stations broadcasting FM radio broadcasting channels in Vietnam, including channels that are currently broadcasting, have been broadcast and channels in FM frequency old, including radio channels of Voice of Vietnam, local stations and radio stations of communes and districts of provinces/cities, and divided by regions in Vietnam."
+      ]
+    }
+  ],
+  "aiRawResponse": "Dưới đây là 5 câu mở đầu cho video bài giảng về học máy, chủ đề tìm hiểu cây quyết định, mục tiêu dành cho sinh viên CNTT, thời lượng 3 phút:\n\n```json\n{\n  \"schema\": \"hackathon-kich-ban/1\",\n  \"id\": \"scriptscout-output\",\n  \"tieuDe\": \"học máy\",\n  \"mucTieu\": \"tìm hiểu cây quyết định\",\n  \"thoiLuong\": \"3 phút\",\n  \"nguoiHoc\": \"Sinh viên CNTT\",\n  \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}],\n  \"cau\": [\n    {\n      \"n\": 1,\n      \"phan\": 1,\n      \"kieu\": \"ke\",\n      \"loi\": \"Chào mừng các bạn đến với bài giảng về học máy, hôm nay chúng ta sẽ khám phá một trong những thuật toán quan trọng trong lĩnh vực này.\",\n      \"chuTrenManHinh\": \"Học máy\",\n      \"yDoHinh\": \"tìm hiểu cây quyết định\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 2,\n      \"phan\": 1,\n      \"kieu\": \"giang\",\n      \"loi\": \"Cây quyết định là một thuật toán phân loại được sử dụng rộng rãi trong nhiều lĩnh vực, bao gồm kinh doanh, y tế và khoa học dữ liệu.\",\n      \"chuTrenManHinh\": \"Cây quyết định\",\n      \"yDoHinh\": \"tìm hiểu\",\n      \"nguon\": [\"t01\"]\n    },\n    {\n      \"n\": 3,\n      \"phan\": 1,\n      \"kieu\": \"nhe\",\n      \"loi\": \"Trong bài giảng này, chúng ta sẽ tìm hiểu về cơ bản của cây quyết định, bao gồm cách thức hoạt động và ứng dụng thực tế.\",\n      \"chuTrenManHinh\": \"Tìm hiểu cây quyết định\",\n      \"yDoHinh\": \"cơ bản\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 4,\n      \"phan\": 1,\n      \"kieu\": \"hoi\",\n      \"loi\": \"Bạn đã từng nghe về cây quyết định trước đây chưa? Hãy cùng chúng ta khám phá thêm về thuật toán này.\",\n      \"chuTrenManHinh\": \"Cây quyết định\",\n      \"yDoHinh\": \"khám phá\",\n      \"nguon\": []\n    },\n    {\n      \"n\": 5,\n      \"phan\": 1,\n      \"kieu\": \"nhan\",\n      \"loi\": \"Trong thời gian ngắn, chúng ta sẽ tìm hiểu về các khái niệm cơ bản của cây quyết định và cách thức áp dụng chúng trong thực tế.\",\n      \"chuTrenManHinh\": \"Tìm hiểu cây quyết định\",\n      \"yDoHinh\": \"cơ bản\",\n      \"nguon\": [\"t01\"]\n    }\n  ]\n}\n```",
+  "isDemo": false,
+  "durationMs": 75243
+}

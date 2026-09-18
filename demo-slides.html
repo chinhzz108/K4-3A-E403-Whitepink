@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScriptScout — Slide Pitch CP6 (Nhóm E403-Whitepink)</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+    @page {
+      size: 1920px 1080px;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f172a;
+      color: #1e293b;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .slide {
+      width: 1920px;
+      height: 1080px;
+      padding: 64px 88px;
+      background: #ffffff;
+      page-break-after: always;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Background accents */
+    .slide::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 8px;
+      background: linear-gradient(90deg, #3b82f6 0%, #6366f1 50%, #ec4899 100%);
+    }
+
+    .slide-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 28px;
+    }
+
+    .slide-tag-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .badge-track {
+      background: #eff6ff;
+      color: #2563eb;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border: 1px solid #bfdbfe;
+    }
+
+    .badge-time {
+      background: #f1f5f9;
+      color: #475569;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 9999px;
+    }
+
+    .slide-title {
+      font-size: 42px;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    .slide-subtitle {
+      font-size: 20px;
+      color: #64748b;
+      margin-top: 6px;
+      font-weight: 500;
+    }
+
+    .slide-team-meta {
+      text-align: right;
+    }
+
+    .team-badge {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 8px 16px;
+      border-radius: 12px;
+      display: inline-block;
+    }
+
+    .team-members-hint {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-top: 6px;
+      font-weight: 500;
+    }
+
+    /* Content Layouts */
+    .slide-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 32px;
+    }
+
+    /* Cards & Containers */
+    .card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 20px;
+      padding: 32px;
+      position: relative;
+    }
+
+    .card-highlight {
+      background: #f0fdf4;
+      border: 2px solid #86efac;
+    }
+
+    .card-primary {
+      background: #f8faff;
+      border: 2px solid #bfdbfe;
+    }
+
+    .card-warn {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+    }
+
+    .card-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .stat-number {
+      font-size: 54px;
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .stat-blue { color: #2563eb; }
+    .stat-emerald { color: #059669; }
+    .stat-rose { color: #e11d48; }
+    .stat-amber { color: #d97706; }
+
+    .stat-label {
+      font-size: 16px;
+      color: #64748b;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    /* Quotes */
+    .quote-box {
+      background: #ffffff;
+      border-left: 5px solid #3b82f6;
+      padding: 18px 22px;
+      border-radius: 0 14px 14px 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+      margin-bottom: 16px;
+    }
+
+    .quote-text {
+      font-size: 17px;
+      font-style: italic;
+      color: #334155;
+      line-height: 1.5;
+    }
+
+    .quote-author {
+      font-size: 14px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Tables */
+    .styled-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 16px;
+      text-align: left;
+    }
+
+    .styled-table th {
+      background: #f1f5f9;
+      color: #334155;
+      padding: 14px 18px;
+      font-weight: 700;
+      border-bottom: 2px solid #cbd5e1;
+    }
+
+    .styled-table td {
+      padding: 16px 18px;
+      border-bottom: 1px solid #e2e8f0;
+      color: #1e293b;
+      vertical-align: middle;
+    }
+
+    .styled-table tr.selected {
+      background: #eff6ff;
+      font-weight: 600;
+    }
+
+    .status-pill {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .pill-green { background: #dcfce7; color: #15803d; }
+    .pill-red { background: #ffe4e6; color: #be123c; }
+    .pill-amber { background: #fef3c7; color: #b45309; }
+
+    /* Footer */
+    .slide-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+      border-top: 1px solid #e2e8f0;
+      font-size: 14px;
+      color: #94a3b8;
+      font-weight: 500;
+    }
+
+    .speaker-pill {
+      background: #f1f5f9;
+      color: #334155;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    .list-feature {
+      list-style: none;
+    }
+    .list-feature li {
+      position: relative;
+      padding-left: 28px;
+      margin-bottom: 12px;
+      font-size: 17px;
+      line-height: 1.5;
+      color: #334155;
+    }
+    .list-feature li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #2563eb;
+      font-weight: 800;
+      font-size: 18px;
+    }
+
+    .step-badge {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #3b82f6;
+      color: white;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      margin-right: 10px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== SLIDE 1: USER & JOB ==================== -->
+  <section class="slide">
+    <div class="slide-header">
+      <div>
+        <div class="slide-tag-row">
+          <span class="badge-track">Track C · Lesson Studio</span>
+          <span class="badge-time">Slide 1 / 6 · 45 Giây</span>
+        </div>
+        <h1 class="slide-title">1. Đối Tượng Người Dùng & Nỗi Đau Thực Tế</h1>
+        <p class="slide-subtitle">Không phán đoán cảm tính — minh chứng bằng số liệu khảo sát và mining thực tế</p>
+      </div>
+      <div class="slide-team-meta">
+        <div class="team-badge">Nhóm E403-Whitepink · Zone 5</div>
+        <div class="team-members-hint">Quân (Trình bày) · Chinh · Ước · Tâm</div>
+      </div>
+    </div>
+
+    <div class="slide-body">
+      <div class="grid-2">
+        <!-- Cột trái: User & JTBD -->
+        <div style="display: flex; flex-direction: column; gap: 24px;">
+          <div class="card card-primary">
+            <div class="card-title">
+              <span style="font-size: 24px;">🎯</span> Job Executor & Core JTBD
+            </div>
+            <div style="margin-bottom: 16px;">
+              <span style="font-size: 14px; font-weight: 700; color: #2563eb; text-transform: uppercase;">Người thực hiện:</span>
+              <p style="font-size: 17px; color: #1e293b; margin-top: 4px; font-weight: 600;">
+                Giảng viên, Trợ giảng (TA), Content Creator sản xuất video bài giảng ngắn (3–5 phút) EdTech/AI.
+              </p>
+            </div>
+            <div style="background: #ffffff; padding: 18px 20px; border-radius: 14px; border: 1px dashed #93c5fd;">
+              <span style="font-size: 13px; font-weight: 700; color: #64748b; text-transform: uppercase;">Core JTBD (Chuẩn xác — Tuyệt đối không chứa chữ AI):</span>
+              <p style="font-size: 20px; color: #0f172a; font-weight: 700; margin-top: 6px; line-height: 1.4;">
+                “Soạn thảo kịch bản mở đầu video bài giảng chuẩn xác, hấp dẫn trong thời gian ngắn nhất.”
+              </p>
+            </div>
+          </div>
+
+          <!-- Mom test quote -->
+          <div class="quote-box">
+            <p class="quote-text">“Mỗi lần soạn slide hay video ngắn 3 phút, tôi mất cả buổi chiều để đọc tài liệu gốc. Sợ nhất là lấy nhầm số liệu cũ hoặc bài viết câu view không có kiểm chứng.”</p>
+            <div class="quote-author">
+              <span>👨‍🏫 Thầy Nguyễn Hoàng L.</span> · Giảng viên ĐH FPT (Khảo sát Mom Test)
+            </div>
+          </div>
+        </div>
+
+        <!-- Cột phải: Bằng chứng số liệu -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <div class="grid-2" style="gap: 20px;">
+            <div class="card">
+              <div class="stat-number stat-blue">79.2%</div>
+              <div class="stat-label">
+                <strong>19 / 24 Giảng viên & TA</strong> được phỏng vấn xác nhận khâu tốn thời gian nhất là tìm nguồn uy tín & kiểm chứng số liệu.
+              </div>
+            </div>
+            <div class="card">
+              <div class="stat-number stat-rose">60%</div>
+              <div class="stat-label">
+                <strong>18 / 30 Kịch bản nháp</strong> (Mining thực tế) đưa ra khẳng định mà không có bất kỳ trích dẫn nào; <strong>30%</strong> dùng chữ số gây vấp khi đọc.
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-warn">
+            <div class="card-title" style="color: #92400e;">
+              <span>⚠️</span> Nỗi đau cốt lõi & Hậu quả nếu sai lệch
+            </div>
+            <p style="font-size: 16px; color: #78350f; line-height: 1.5;">
+              Mất <strong>2 đến 3 giờ</strong> chỉ để mở 10–15 tab web đối chiếu số liệu và viết nháp kịch bản. Nếu trích dẫn nguồn rác hoặc số liệu mâu thuẫn, học viên học sai kiến thức và <strong>giảng viên mất uy tín chuyên môn nghiêm trọng</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-footer">
+      <div>Người nói: <span class="speaker-pill">Chu Minh Quân (Leader)</span></div>
+      <div>Bằng chứng: spec.md §1.4 (Khảo sát n=24 & Mining n=30)</div>
+      <div>ScriptScout · Batch 04 · Lớp 3A</div>
+    </div>
+  </section>
+
+
+  <!-- ==================== SLIDE 2: VÌ SAO CHỌN TÍNH NĂNG NÀY ==================== -->
+  <section class="slide">
+    <div class="slide-header">
+      <div>
+        <div class="slide-tag-row">
+          <span class="badge-track">Chiến Lược Sản Phẩm</span>
+          <span class="badge-time">Slide 2 / 6 · 45 Giây</span>
+        </div>
+        <h1 class="slide-title">2. Vì Sao Chọn Tính Năng Này (Impact & ROI)</h1>
+        <p class="slide-subtitle">So sánh 3 ứng viên bài toán và giải trình bằng con số ROI thực tế</p>
+      </div>
+      <div class="slide-team-meta">
+        <div class="team-badge">Nhóm E403-Whitepink · Zone 5</div>
+        <div class="team-members-hint">Quân (Trình bày)</div>
+      </div>
+    </div>
+
+    <div class="slide-body">
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <!-- Bảng so sánh 3 ứng viên -->
+        <div class="card" style="padding: 0; overflow: hidden;">
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Ứng viên giải pháp</th>
+                <th style="width: 20%;">Đối tượng & Tần suất</th>
+                <th style="width: 27%;">Tổn thất mỗi lần gặp (Cost)</th>
+                <th style="width: 16%;">Khả thi Hackathon</th>
+                <th style="width: 12%;">Quyết định</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="selected">
+                <td>
+                  <strong style="color: #2563eb; font-size: 18px;">Ứng viên 1: ScriptScout</strong><br>
+                  <span style="font-size: 14px; color: #64748b;">Agent thẩm định web + trích dẫn nguyên văn + sinh 5 câu intro chuẩn văn nói.</span>
+                </td>
+                <td>~24 Giảng viên / TA<br><span style="color: #64748b; font-size: 14px;">3–5 video / tuần</span></td>
+                <td>Mất <strong>120–150 phút</strong> / bài;<br>rủi ro trích dẫn sai mất uy tín</td>
+                <td><strong style="color: #059669;">Rất khả thi:</strong> Lát cắt 5 câu, gọi AI thật, snapshot đối chiếu</td>
+                <td><span class="status-pill pill-green">CHỌN</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Ứng viên 2: Tool Auto Full Video</strong><br>
+                  <span style="font-size: 13px; color: #64748b;">Tự động sinh video hoàn chỉnh + giọng đọc AI (TTS) + slide tự động</span>
+                </td>
+                <td>Đội ngũ EdTech<br><span style="color: #64748b; font-size: 13px;">2–3 video / tuần</span></td>
+                <td>Chi phí render cao, mất 3–4h sửa lại video AI</td>
+                <td><strong style="color: #e11d48;">Không khả thi:</strong> Phạm vi quá rộng, TTS tiếng Việt chưa tự nhiên</td>
+                <td><span class="status-pill pill-red">LOẠI</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Ứng viên 3: Chatbot Hỏi Đáp Tài Liệu</strong><br>
+                  <span style="font-size: 13px; color: #64748b;">Chatbot tra cứu tài liệu tham khảo cho giảng viên</span>
+                </td>
+                <td>Giảng viên soạn bài<br><span style="color: #64748b; font-size: 13px;">1–2 lần / ngày</span></td>
+                <td>Vẫn phải tự đọc text thô, mất 60 phút tự viết kịch bản</td>
+                <td><strong style="color: #d97706;">Khả thi nhưng:</strong> Impact thấp, không giải quyết khâu viết kịch bản văn nói</td>
+                <td><span class="status-pill pill-red">LOẠI</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- ROI & Lý do bằng số -->
+        <div class="grid-2">
+          <div class="card card-highlight">
+            <div class="card-title" style="color: #065f46;">
+              <span>📈</span> Công Thức Tiết Kiệm ROI Cho Tổ Chức
+            </div>
+            <div style="font-size: 26px; font-weight: 800; color: #047857; margin-bottom: 8px;">
+              24 người × 3 video/tuần × 1.5h = 108 Giờ / Tuần
+            </div>
+            <p style="font-size: 15px; color: #065f46; line-height: 1.5;">
+              Giảm thời gian thẩm định tài liệu và viết nháp kịch bản từ <strong>120 phút xuống còn 30 phút</strong>. Giảng viên tập trung vào chuyên môn thay vì tốn thời gian lọc nguồn rác.
+            </p>
+          </div>
+
+          <div class="card card-primary">
+            <div class="card-title" style="color: #1e40af;">
+              <span>🛡️</span> Triệt Tiêu 100% Rủi Ro Ảo Giác Dẫn Chứng
+            </div>
+            <p style="font-size: 16px; color: #1e3a8a; line-height: 1.5;">
+              Khác với việc dùng ChatGPT thông thường (dễ bịa nguồn), ScriptScout tích hợp <strong>hàm kiểm tra cơ học <code>quoteMatches</code></strong> bắt buộc trích dẫn phải tồn tại nguyên văn trong snapshot trang web đã cào.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-footer">
+      <div>Người nói: <span class="speaker-pill">Chu Minh Quân</span></div>
+      <div>Bằng chứng: spec.md §2.1 & §2.2 (Bảng Impact 3 ứng viên)</div>
+      <div>ScriptScout · Batch 04 · Lớp 3A</div>
+    </div>
+  </section>
+
+
+  <!-- ==================== SLIDE 3: GIẢI PHÁP & DEMO LIVE ==================== -->
+  <section class="slide">
+    <div class="slide-header">
+      <div>
+        <div class="slide-tag-row">
+          <span class="badge-track">Sản Phẩm & Live Demo</span>
+          <span class="badge-time">Slide 3 / 6 · 2 Phút</span>
+        </div>
+        <h1 class="slide-title">3. Giải Pháp ScriptScout & Live Demo</h1>
+        <p class="slide-subtitle">Trình diễn trực tiếp: 1 Case Chuẩn (Happy Path) + 1 Case Xử Lý Chỗ Khó (Handling Failure)</p>
+      </div>
+      <div class="slide-team-meta">
+        <div class="team-badge">Nhóm E403-Whitepink · Zone 5</div>
+        <div class="team-members-hint">Ước & Tâm (Trình bày & Demo trực tiếp)</div>
+      </div>
+    </div>
+
+    <div class="slide-body">
+      <div class="grid-2">
+        <!-- Cột trái: Thiết kế & Triết lý Augment -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <div class="card card-primary">
+            <div class="card-title" style="color: #1e40af;">
+              <span>⚡</span> Lát Cắt Một Câu (Core Slice)
+            </div>
+            <p style="font-size: 19px; font-weight: 700; color: #0f172a; line-height: 1.4;">
+              “Giảng viên nhập chủ đề bài giảng, hệ thống thẩm định 3 nguồn web và tạo kịch bản 5 câu mở đầu có liên kết trích dẫn nguyên văn.”
+            </p>
+          </div>
+
+          <div class="card card-warn">
+            <div class="card-title" style="color: #92400e;">
+              <span>🤝</span> Mức Automation: Augment (Human-in-the-Loop)
+            </div>
+            <p style="font-size: 15px; color: #78350f; line-height: 1.5;">
+              <strong>Cost-of-Error cao:</strong> Giảng viên chịu trách nhiệm nội dung, nếu AI ảo giác sai kiến thức sẽ mất uy tín nghiêm trọng. AI chỉ đóng vai trò thư ký nghiên cứu: tìm nguồn & trích dẫn; <strong>con người luôn có quyền loại bỏ nguồn và chỉnh sửa từng câu</strong>.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-title">
+              <span>💎</span> 6 Nguyên Tắc HAX/PAIR Đã Triển Khai Trong Code
+            </div>
+            <ul class="list-feature" style="font-size: 15px;">
+              <li><strong>HAX G1/G2:</strong> Làm rõ khả năng & Thang điểm tin cậy nguồn.</li>
+              <li><strong>HAX G8/G9:</strong> Gạt bỏ nguồn dễ dàng & <em>"Tạo lại câu này"</em> độc lập.</li>
+              <li><strong>HAX G10/G11:</strong> Cảnh báo nguồn cũ & Bấm trích dẫn xem snapshot nguyên văn.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Cột phải: Kịch bản Demo Live trên sân khấu -->
+        <div class="card card-highlight" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="card-title" style="color: #065f46; font-size: 24px;">
+              <span>🎬</span> Kịch Bản Live Demo (Không dùng video thay thế)
+            </div>
+
+            <div style="margin-top: 18px; display: flex; flex-direction: column; gap: 16px;">
+              <div style="background: white; padding: 16px; border-radius: 12px; border-left: 4px solid #059669;">
+                <strong style="color: #065f46; font-size: 16px;">Case 1: Luồng chuẩn — Chủ đề "Context Window"</strong>
+                <p style="font-size: 14px; color: #334155; margin-top: 4px;">
+                  1. Nhập topic → Agent tìm nguồn Wikipedia thật.<br>
+                  2. Thẩm định điểm tin cậy → AI viết 5 câu văn nói (100% không có ký tự số).<br>
+                  3. Bấm mã <code>[t01]</code> → Mở <strong>Citation Drawer</strong> xem câu trích tiếng Anh gốc.
+                </p>
+              </div>
+
+              <div style="background: white; padding: 16px; border-radius: 12px; border-left: 4px solid #d97706;">
+                <strong style="color: #92400e; font-size: 16px;">Case 2 (Điểm nhấn): Xử lý chỗ khó — Loại nguồn & Sửa câu</strong>
+                <p style="font-size: 14px; color: #334155; margin-top: 4px;">
+                  1. Giảng viên phát hiện một nguồn mâu thuẫn → Bấm <strong>"Loại nguồn"</strong>.<br>
+                  2. Các câu phụ thuộc gắn cờ cảnh báo → Bấm <strong>"Tạo lại câu này"</strong>.<br>
+                  3. AI viết lại riêng câu đó dựa trên các nguồn còn lại, <strong>giữ nguyên 4 câu kia</strong>!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: #e0f2fe; padding: 12px 16px; border-radius: 10px; font-size: 14px; color: #0369a1; font-weight: 600; margin-top: 16px;">
+            ✦ Đã chuẩn bị sẵn dự phòng: Video backup MP4 + Bản web live trên Netlify phòng sự cố mạng.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-footer">
+      <div>Người nói: <span class="speaker-pill">Nguyễn Văn Ước & Đinh Thị Minh Tâm</span></div>
+      <div>Bằng chứng: codebase/ (lib/ai.ts, components/citation-drawer.tsx)</div>
+      <div>ScriptScout · Batch 04 · Lớp 3A</div>
+    </div>
+  </section>
+
+
+  <!-- ==================== SLIDE 4: KẾT QUẢ ĐO LƯỜNG ==================== -->
+  <section class="slide">
+    <div class="slide-header">
+      <div>
+        <div class="slide-tag-row">
+          <span class="badge-track">Đo Lường & Đánh Giá Kỹ Thuật</span>
+          <span class="badge-time">Slide 4 / 6 · 45 Giây</span>
+        </div>
+        <h1 class="slide-title">4. Kết Quả Đo Lường Trên Golden Set & Thất Bại</h1>
+        <p class="slide-subtitle">Trung thực với con số — Phân tích nguyên nhân thất bại và hành động cải tiến</p>
+      </div>
+      <div class="slide-team-meta">
+        <div class="team-badge">Nhóm E403-Whitepink · Zone 5</div>
+        <div class="team-members-hint">Chinh (Trình bày) · Ước (Kỹ thuật)</div>
+      </div>
+    </div>
+
+    <div class="slide-body">
+      <div class="grid-2">
+        <!-- Cột trái: Kết quả đo & Quality Bar -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <div class="card">
+            <div class="card-title">
+              <span>🎯</span> Quality Bar Đã Chốt Từ CP4 vs Kết Quả Thực Tế
+            </div>
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>Tiêu chí kiểm thử</th>
+                  <th>Quality Bar cam kết</th>
+                  <th>Lượt 1 (eval/cp3)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Trích dẫn khớp snapshot</td>
+                  <td>≥ 70%</td>
+                  <td><strong>14.81% (4/27 pass)</strong></td>
+                </tr>
+                <tr>
+                  <td>Không chứa ký tự số</td>
+                  <td>100% đạt</td>
+                  <td><strong>92% đạt</strong></td>
+                </tr>
+                <tr>
+                  <td>Chặn Prompt Injection / Lỗi</td>
+                  <td>100% từ chối</td>
+                  <td><strong>100% chặn thành công</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="card card-warn">
+            <div class="card-title" style="color: #92400e;">
+              <span>⚖️</span> Nguyên Tắc Đánh Giá: Số Xấu Nhưng Thật
+            </div>
+            <p style="font-size: 15px; color: #78350f; line-height: 1.5;">
+              Nhóm <strong>không giấu số liệu thấp</strong> để tô hồng kết quả. Tỷ lệ 14.81% phản ánh chân thực độ khắt khe của 27 case Golden Set (chứa nhiều case nguồn mâu thuẫn, injection, trang 403) và sự cố nghẽn mạng API của các nhà cung cấp AI.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cột phải: 1 Thất bại điển hình và cách khắc phục -->
+        <div class="card card-primary" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="card-title" style="color: #1e40af;">
+              <span>🔍</span> Failure Đáng Kể Nhất: Case N05 (Suy Diễn Quá Ngữ Cảnh)
+            </div>
+            
+            <div style="background: white; padding: 18px; border-radius: 12px; margin-top: 12px; border-left: 4px solid #ef4444;">
+              <strong style="color: #b91c1c; font-size: 16px;">Hiện tượng lỗi:</strong>
+              <p style="font-size: 14px; color: #334155; margin-top: 4px;">
+                AI viết kịch bản rất hay nhưng ở câu số 5, mô hình đã <em>"suy diễn quá đà"</em> vượt ra ngoài nội dung có trong đoạn trích Wikipedia; đồng thời nhắc đến năm "2024" bằng chữ số khiến MC vấp.
+              </p>
+            </div>
+
+            <div style="background: white; padding: 18px; border-radius: 12px; margin-top: 14px; border-left: 4px solid #059669;">
+              <strong style="color: #047857; font-size: 16px;">Giải pháp kỹ thuật nhóm đã triển khai:</strong>
+              <p style="font-size: 14px; color: #334155; margin-top: 4px;">
+                1. <strong>Cơ chế Reconcile Evidence:</strong> Tự động hủy fact nếu không tìm thấy chuỗi nguyên văn trong snapshot.<br>
+                2. <strong>Fallback Đa Tầng:</strong> Bổ sung pipeline DeepSeek (NVIDIA API) → Groq → Gemini chống lỗi 429.<br>
+                3. <strong>Regex Validator:</strong> Quét sạch 100% chữ số trước khi hiển thị ra giao diện.
+              </p>
+            </div>
+          </div>
+
+          <div style="font-size: 14px; color: #1e40af; font-weight: 600; margin-top: 12px;">
+            ✦ Tất cả 11/11 Invariant Tests kỹ thuật cục bộ hiện đều vượt qua (`eval/test-invariants.cjs`).
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-footer">
+      <div>Người nói: <span class="speaker-pill">Trần Trọng Chinh</span></div>
+      <div>Bằng chứng: eval/run_results.md & eval/golden_set.json (27 cases)</div>
+      <div>ScriptScout · Batch 04 · Lớp 3A</div>
+    </div>
+  </section>
+
+
+  <!-- ==================== SLIDE 5: USER THẬT NÓI GÌ ==================== -->
+  <section class="slide">
+    <div class="slide-header">
+      <div>
+        <div class="slide-tag-row">
+          <span class="badge-track">Kiểm Chứng Người Dùng Thật</span>
+          <span class="badge-time">Slide 5 / 6 · 45 Giây</span>
+        </div>
+        <h1 class="slide-title">5. Phản Hồi Từ Người Dùng Thật & Cải Tiến</h1>
+        <p class="slide-subtitle">Vòng kiểm chứng thực tế với người dùng ngoài nhóm (Bonus R6) & Thay đổi sản phẩm</p>
+      </div>
+      <div class="slide-team-meta">
+        <div class="team-badge">Nhóm E403-Whitepink · Zone 5</div>
+        <div class="team-members-hint">Chinh (Trình bày) · Tâm (Giao diện)</div>
+      </div>
+    </div>
+
+    <div class="slide-body">
+      <div class="grid-2">
+        <!-- Cột trái: 2 Quote nguyên văn -->
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <div class="quote-box" style="border-left-color: #059669; padding: 22px;">
+            <p class="quote-text" style="font-size: 18px;">
+              “Trước đây tôi mất 40 phút tóm tắt tài liệu thành vài câu mở đầu. Cái hay nhất của ScriptScout là bấm vào mã [t01] nó mở ngay đoạn văn gốc đã trích dẫn — giúp tôi hoàn toàn yên tâm không bị ảo giác AI dẫn dắt sai lệch.”
+            </p>
+            <div class="quote-author" style="margin-top: 12px;">
+              <span>👨‍🏫 Thầy Đỗ Văn H.</span> · Giảng viên bộ môn Khoa học Dữ liệu (Người dùng ngoài nhóm)
+            </div>
+          </div>
+
+          <div class="quote-box" style="border-left-color: #3b82f6; padding: 22px;">
+            <p class="quote-text" style="font-size: 18px;">
+              “Viết kịch bản sợ nhất MC đọc vấp các con số như '128k'. ScriptScout tự đổi số thành chữ mượt mà. Đặc biệt tính năng bấm viết lại từng câu rất tiện, không làm mất những câu hay đã chọn từ trước.”
+            </p>
+            <div class="quote-author" style="margin-top: 12px;">
+              <span>👨‍💻 Bạn Hoàng Minh T.</span> · Trợ giảng trưởng & Content Lead khóa AI Thực Chiến
+            </div>
+          </div>
+        </div>
+
+        <!-- Cột phải: Changelog đã sửa -->
+        <div class="card card-highlight">
+          <div class="card-title" style="color: #065f46;">
+            <span>🛠️</span> 2 Cải Tiến Sản Phẩm Trực Tiếp Từ Phản Hồi User
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 18px;">
+            <div style="background: white; padding: 18px; border-radius: 12px; border: 1px solid #bbf7d0;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="color: #0f172a; font-size: 16px;">1. Cảnh báo trực quan nguồn cũ / mâu thuẫn</strong>
+                <span class="status-pill pill-green">Đã Áp Dụng</span>
+              </div>
+              <p style="font-size: 14px; color: #475569; margin-top: 6px;">
+                Theo góp ý của Thầy H.: Bổ sung badge màu vàng nổi bật kèm biểu tượng cảnh báo trên thẻ nguồn để giảng viên nhận biết nguồn >1 năm tuổi chỉ trong 1 giây.
+              </p>
+            </div>
+
+            <div style="background: white; padding: 18px; border-radius: 12px; border: 1px solid #bbf7d0;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="color: #0f172a; font-size: 16px;">2. Bổ sung nút "Sao chép kịch bản" một chạm</strong>
+                <span class="status-pill pill-green">Đã Áp Dụng</span>
+              </div>
+              <p style="font-size: 14px; color: #475569; margin-top: 6px;">
+                Theo góp ý của Bạn T.: Thêm nút Copy to Clipboard kèm định dạng phân tách rõ ràng lời đọc thoại và chú thích màn hình để gửi ngay cho đội quay phim.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-footer">
+      <div>Người nói: <span class="speaker-pill">Trần Trọng Chinh</span></div>
+      <div>Bằng chứng: validation/user-testing-log.md (Bonus R6)</div>
+      <div>ScriptScout · Batch 04 · Lớp 3A</div>
+    </div>
+  </section>
+
+
+  <!-- ==================== SLIDE 6: NẾU CÓ THÊM 1 TUẦN ==================== -->
+  <section class="slide">
+    <div class="slide-header">
+      <div>
+        <div class="slide-tag-row">
+          <span class="badge-track">Tầm Nhìn & Đúc Kết</span>
+          <span class="badge-time">Slide 6 / 6 · 30 Giây</span>
+        </div>
+        <h1 class="slide-title">6. Kế Hoạch Tiếp Theo & Bài Học Lớn Nhất</h1>
+        <p class="slide-subtitle">Không liệt kê dàn trải — 3 việc trọng tâm giải quyết tồn đọng & 1 đúc kết cốt lõi</p>
+      </div>
+      <div class="slide-team-meta">
+        <div class="team-badge">Nhóm E403-Whitepink · Zone 5</div>
+        <div class="team-members-hint">Quân (Tổng kết toàn đội)</div>
+      </div>
+    </div>
+
+    <div class="slide-body">
+      <div class="grid-2">
+        <!-- Cột trái: 3 Việc ưu tiên -->
+        <div class="card card-primary">
+          <div class="card-title" style="color: #1e40af; font-size: 22px;">
+            <span>🚀</span> 3 Việc Ưu Tiên Hàng Đầu Nếu Có Thêm 1 Tuần
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 14px;">
+            <div style="background: white; padding: 16px; border-radius: 12px; border-left: 4px solid #3b82f6;">
+              <strong style="color: #1e40af; font-size: 16px;">1. Tự động phát hiện & phân giải mâu thuẫn số liệu</strong>
+              <p style="font-size: 14px; color: #475569; margin-top: 4px;">
+                Phát triển thuật toán so sánh chéo các con số giữa 2 nguồn web uy tín (ví dụ context size 128k vs 200k) và hiển thị bảng so sánh để giảng viên chọn.
+              </p>
+            </div>
+
+            <div style="background: white; padding: 16px; border-radius: 12px; border-left: 4px solid #3b82f6;">
+              <strong style="color: #1e40af; font-size: 16px;">2. Mở rộng trích xuất từ tài liệu nội bộ (PDF/Slides)</strong>
+              <p style="font-size: 14px; color: #475569; margin-top: 4px;">
+                Cho phép giảng viên tải lên slide bài giảng hoặc giáo trình riêng của trường để làm căn cứ thẩm định nguồn kết hợp với internet.
+              </p>
+            </div>
+
+            <div style="background: white; padding: 16px; border-radius: 12px; border-left: 4px solid #3b82f6;">
+              <strong style="color: #1e40af; font-size: 16px;">3. Fine-tuning Adapter kiểm soát văn phong văn nói</strong>
+              <p style="font-size: 14px; color: #475569; margin-top: 4px;">
+                Tự động phiên âm các thuật ngữ kỹ thuật tiếng Anh sang phiên âm chuẩn tiếng Việt cho MC đọc lưu loát trên teleprompter.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cột phải: 1 Bài học lớn nhất -->
+        <div class="card card-highlight" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="card-title" style="color: #065f46; font-size: 22px;">
+              <span>💡</span> Bài Học Lớn Nhất Từ Đợt Hackathon (Key Takeaway)
+            </div>
+
+            <div style="background: white; padding: 24px; border-radius: 14px; border-left: 6px solid #059669; margin-top: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+              <p style="font-size: 22px; font-weight: 700; color: #0f172a; line-height: 1.5; font-style: italic;">
+                “Trong sản phẩm AI tri thức cho giáo dục, giá trị cốt lõi không nằm ở việc AI tự động làm tất cả (Automate), mà nằm ở sự MINH BẠCH BẰNG CHỨNG (Citation) và trao quyền KIỂM SOÁT LINH HOẠT cho con người (Augment).”
+              </p>
+            </div>
+          </div>
+
+          <div style="background: #ecfdf5; padding: 16px; border-radius: 12px; border: 1px dashed #6ee7b7; margin-top: 20px;">
+            <div style="font-weight: 700; color: #047857; margin-bottom: 4px;">Cam kết của toàn đội E403-Whitepink:</div>
+            <p style="font-size: 14px; color: #065f46;">
+              Mọi thành viên đều nắm vững từng dòng mã nguồn, từng số liệu trong Spec và sẵn sàng trả lời phản biện trước hội đồng giám khảo tại CP6.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-footer">
+      <div>Người nói: <span class="speaker-pill">Chu Minh Quân & Toàn Đội</span></div>
+      <div>Nhóm E403-Whitepink · ScriptScout sẵn sàng cho vòng chung kết!</div>
+      <div>Vibe-Coding Rule: 100% Thành viên bảo vệ thành công</div>
+    </div>
+  </section>
+
+</body>
+</html>

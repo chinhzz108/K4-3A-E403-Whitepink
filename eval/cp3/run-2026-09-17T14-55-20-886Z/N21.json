@@ -1,0 +1,564 @@
+{
+  "case": {
+    "id": "N21",
+    "class": "hiem",
+    "input": {
+      "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+      "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+      "targetAudience": "Giáo viên mầm non",
+      "videoDuration": "4 phút"
+    },
+    "expectedBehavior": "Rất ít tài liệu tiếng Việt. Phải xoay sang nguồn ngoại ngữ và nói rõ.",
+    "origin": "tự tạo — chủ đề ít tài liệu tiếng Việt; không phải chatlog",
+    "passCriteria": "Ghi rõ thiếu nguồn tiếng Việt; dùng nguồn tiếng Anh và nêu rõ",
+    "failCriteria": "Bịa nguồn tiếng Việt; không nói rõ nguồn ngoại ngữ"
+  },
+  "research": {
+    "http": 200,
+    "sources": [
+      {
+        "id": "n01",
+        "url": "https://mst.gov.vn/ung-dung-ai-trong-giao-duc-mam-non-hanh-trinh-dong-hanh-cung-the-he-so-197251118031945343.htm",
+        "tieuDe": "Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số - Cổng Thông tin điện tử Bộ Khoa học và Công nghệ",
+        "tacGia": "Bộ Khoa học và Công nghệ",
+        "ngayDang": "2025-11-18T11:53:00+07:00",
+        "ngayLayVe": "2026-09-17T15:25:32.724Z",
+        "loai": "tai-lieu-chinh-thuc",
+        "doTinCay": "cao",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [],
+        "doanTrich": "Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI. Nếu như trước đây giáo viên mầm non gắn với những câu chuyện cổ tích, bài hát và đồ chơi đầy màu sắc, thì nay họ",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n02",
+        "url": "https://www.vas.edu.vn/tin-tuc/chuong-trinh-giao-duc-mam-non-don-dau-xu-huong-va-but-pha-voi-cong-nghe-ai",
+        "tieuDe": "Áp dụng công nghệ AI trong chương trình giáo dục mầm non hiện nay",
+        "toChuc": "Vietnam Australia International School (VAS)",
+        "ngayLayVe": "2026-09-17T15:25:32.730Z",
+        "loai": "bai-bao-khoa-hoc",
+        "doTinCay": "trung-binh",
+        "lyDoTinCay": "",
+        "trangThai": "dang-dung",
+        "lyDoLoai": "",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ],
+        "doanTrich": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ. Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "ok"
+      },
+      {
+        "id": "n03",
+        "url": "https://www.msn.com/vi-vn/news/education/%E1%BB%A9ng-d%E1%BB%A5ng-ai-trong-gi%C3%A1o-d%E1%BB%A5c-m%E1%BA%A7m-non/ar-AA1MqG6e",
+        "tieuDe": "MSN",
+        "ngayLayVe": "2026-09-17T15:25:32.733Z",
+        "loai": "khong-xac-dinh",
+        "doTinCay": "thap",
+        "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+        "trangThai": "bi-loai",
+        "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+        "doanTrich": "",
+        "promptInjectionDetected": false,
+        "scrapeStatus": "blocked",
+        "canhBao": [
+          "Không tìm thấy ngày đăng"
+        ]
+      }
+    ],
+    "thongTin": [
+      {
+        "id": "t01",
+        "noiDung": "Ứng dụng AI trong giáo dục mầm non đang trở thành một xu hướng mới trong lĩnh vực giáo dục. Hai ứng dụng thực tế của AI trong giáo dục mầm non là hỗ trợ cá nhân hóa học tập và cải thiện giao tiếp giữa giáo viên và trẻ. Tuy nhiên, cũng có một số lo ngại về việc áp dụng AI trong giáo dục mầm non, chẳng hạn như việc mất đi tính cá nhân hóa trong học tập và sự phụ thuộc vào công nghệ.",
+        "loai": "dinh-nghia",
+        "soNguonXacNhan": 2,
+        "trangThai": "chua-xac-minh",
+        "moTaMauThuan": "",
+        "bangChung": [
+          {
+            "nguonId": "n01",
+            "doanTrich": "Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+            "viTri": "Trang 1"
+          },
+          {
+            "nguonId": "n02",
+            "doanTrich": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+            "viTri": "Trang 2"
+          }
+        ]
+      }
+    ],
+    "searchQueries": [
+      "Ứng dụng AI trong giáo dục mầm non",
+      "Ứng dụng AI trong giáo dục mầm non tại Việt Nam"
+    ],
+    "pagesRead": 3,
+    "pagesOk": 2,
+    "trace": {
+      "id": "trace-research-1789658796056",
+      "timestamp": "2026-09-17T15:26:36.056Z",
+      "phase": "research",
+      "input": {
+        "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "targetAudience": "Giáo viên mầm non",
+        "videoDuration": "4 phút",
+        "fixtureMode": false
+      },
+      "searchResults": [
+        {
+          "results": [
+            {
+              "title": "Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số",
+              "url": "https://mst.gov.vn/ung-dung-ai-trong-giao-duc-mam-non-hanh-trinh-dong-hanh-cung-the-he-so-197251118031945343.htm",
+              "snippet": "Với sự đồng hành của AI, những bài học trong lớp mầm non sẽ ngày càng sinh động, giàu cảm hứng và phù hợp hơn với từng trẻ, tạo nền tảng vững chắc cho một thế hệ công dân số tương lai.",
+              "position": 1
+            },
+            {
+              "title": "Áp dụng công nghệ AI trong chương trình giáo dục mầm non hiện nay",
+              "url": "https://www.vas.edu.vn/tin-tuc/chuong-trinh-giao-duc-mam-non-don-dau-xu-huong-va-but-pha-voi-cong-nghe-ai",
+              "snippet": "Chương trình giáo dục mầm non hiện đại đang thay đổi nhanh chóng nhờ xu hướng mới và sự hỗ trợ của công nghệ AI, tạo nền tảng vượt trội cho trẻ phát triển toàn diện.",
+              "position": 2
+            },
+            {
+              "title": "Ứng dụng AI trong giáo dục mầm non - MSN",
+              "url": "https://www.msn.com/vi-vn/news/education/%E1%BB%A9ng-d%E1%BB%A5ng-ai-trong-gi%C3%A1o-d%E1%BB%A5c-m%E1%BA%A7m-non/ar-AA1MqG6e",
+              "snippet": "Nhiều giải pháp giáo dục thông minh, ứng dụng công nghệ, AI đã được các trường học đưa vào giảng dạy để đổi mới phương pháp học tập, nâng cao hiệu quả giáo dục.",
+              "position": 3
+            },
+            {
+              "title": "Ứng dụng AI trong giáo dục mầm non: Nền tảng cho sự phát toàn diện",
+              "url": "https://thaytiep.edu.vn/ung-dung-ai-trong-giao-duc-mam-non-nen-tang-cho-su-phat-toan-dien",
+              "snippet": "Trí tuệ nhân tạo (AI) đang nổi lên như một công cụ hỗ trợ đắc lực cho giáo viên mầm non, giúp nâng cao chất lượng giáo dục và khơi dậy tiềm năng của trẻ. Bài viết này sẽ phân tích chi tiết về ứng dụng AI trong giáo dục mầm non, bao gồm lợi ích, ứng dụng cụ thể và tiềm năng phát triển trong tương lai.",
+              "position": 4
+            },
+            {
+              "title": "Top 5 SKKN: Ứng dụng trí tuệ nhân tạo AI trong dạy học mầm non hay nhất ...",
+              "url": "https://toplist.vn/top-list/skkn-ung-dung-tri-tue-nhan-tao-ai-trong-day-hoc-mam-non-hay-nhat-65900.htm",
+              "snippet": "Các sáng kiến kinh nghiệm (SKKN) không chỉ giúp giáo viên đổi mới phương pháp dạy học mà còn mang lại môi trường học tập sinh động, hiện đại. Bài viết này sẽ tổng hợp những SKKN hay nhất về ứng dụng AI trong dạy học mầm non..",
+              "position": 5
+            }
+          ],
+          "query": "Ứng dụng AI trong giáo dục mầm non",
+          "engine": "duckduckgo"
+        },
+        {
+          "results": [
+            {
+              "title": "Áp dụng công nghệ AI trong chương trình giáo dục mầm non hiện nay",
+              "url": "https://www.vas.edu.vn/tin-tuc/chuong-trinh-giao-duc-mam-non-don-dau-xu-huong-va-but-pha-voi-cong-nghe-ai",
+              "snippet": "Chương trình giáo dục mầm non hiện đại đang thay đổi nhanh chóng nhờ xu hướng mới và sự hỗ trợ của công nghệ AI, tạo nền tảng vượt trội cho trẻ phát triển toàn diện.",
+              "position": 1
+            },
+            {
+              "title": "Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số",
+              "url": "https://mst.gov.vn/ung-dung-ai-trong-giao-duc-mam-non-hanh-trinh-dong-hanh-cung-the-he-so-197251118031945343.htm",
+              "snippet": "Từ hỗ trợ giáo viên giảng dạy, đánh giá trẻ đến tạo nội dung số hay tự động hóa công việc hành chính, AI đang mở ra một tương lai mới cho giáo dục lứa tuổi nhỏ nhất.",
+              "position": 2
+            },
+            {
+              "title": "Trí tuệ nhân tạo trong giáo dục mầm non: Hiệu quả, triển vọng và khuyến ...",
+              "url": "https://tapchigiaoduc.edu.vn/article/90145/222/tri-tue-nhan-tao-trong-giao-duc-mam-non-hieu-qua-trien-vong-va-khuyen-nghi-chinh-sach-cho-viet-nam/",
+              "snippet": "Trong bối cảnh giáo dục toàn cầu đang chuyển mình mạnh mẽ dưới tác động của công nghệ, trí tuệ nhân tạo (AI) nổi lên như một công cụ chiến lược có khả năng định hình lại quá trình dạy - học.",
+              "position": 3
+            },
+            {
+              "title": "Đẩy mạnh ứng dụng trí tuệ nhân tạo trong giáo dục mầm non",
+              "url": "https://baophutho.vn/day-manh-ung-dung-tri-tue-nhan-tao-trong-giao-duc-mam-non-253504.htm",
+              "snippet": "Trong thời gian tới, việc ứng dụng công nghệ và trí tuệ nhân tạo trở thành yêu cầu tất yếu nhằm nâng cao chất lượng giáo dục, tạo dựng môi trường giáo dục hiện đại, sáng tạo và hiệu quả.",
+              "position": 4
+            },
+            {
+              "title": "Trường mầm non tại TP.HCM ứng dụng AI, đưa robot vào giảng dạy",
+              "url": "https://tuoitre.vn/khoahocphothong/truong-mam-non-tai-tp-hcm-ung-dung-ai-dua-robot-vao-giang-day-104263980.htm",
+              "snippet": "Sáng 3/2, Trường Mầm non Họa Mi (phường An Nhơn, TP.HCM) chính thức công bố và ra mắt mô hình giải pháp ứng dụng Trí tuệ nhân tạo (AI) trong giáo dục mầm non.",
+              "position": 5
+            }
+          ],
+          "query": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+          "engine": "duckduckgo"
+        }
+      ],
+      "pagesRead": [
+        {
+          "url": "https://mst.gov.vn/ung-dung-ai-trong-giao-duc-mam-non-hanh-trinh-dong-hanh-cung-the-he-so-197251118031945343.htm",
+          "content": "Aa Tin tức Sự kiện Chuyển đổi số Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số Thứ ba, 18/11/2025 11:53 Giáo dục mầm non, nền móng đầu tiên của hệ thống giáo dục đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI). Công nghệ không còn là yếu tố xa vời hay chỉ xuất hiện ở bậc phổ thông, đại học, mà đang len lỏi vào từng hoạt động nhỏ nhất trong lớp học. Từ hỗ trợ giáo viên giảng dạy, đánh giá trẻ đến tạo nội dung số hay tự động hóa công việc hành chính, AI đang mở ra một tương lai mới cho giáo dục lứa tuổi nhỏ nhất. Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.Nếu như trước đây giáo viên mầm non gắn với những câu chuyện cổ tích, bài hát và đồ chơi đầy màu sắc, thì nay họ đang dần trở thành những “nhà sư phạm công nghệ”. Với ChatGPT và các công cụ sinh nội dung tự động, giáo viên có thể tạo ra câu đố, truyện kể, hoạt động tương tác phù hợp từng độ tuổi và mức độ nhận thức của trẻ. AI còn hỗ trợ đánh giá sự phát triển của từng trẻ, phân tích hành vi, ngôn ngữ và khả năng nhận thức, giúp giáo viên đưa ra biện pháp can thiệp sớm và hiệu quả, nhất là với trẻ có nhu cầu đặc biệt hoặc tài năng tiềm ẩn.Ở lứa tuổi mầm non, trực quan là chìa khóa vàng để kích thích sự chú ý và phát triển nhận thức. Nhờ các công cụ như Canva AI, giáo viên dễ dàng tạo học liệu sinh động mà không cần kỹ năng đồ họa. Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn. Cùng với đó, Quizizz tích hợp AI biến mỗi lần kiểm tra thành một trải nghiệm vui nhộn: cuộc thi nhỏ, nhân vật hoạt hình, phần thưởng ảo… Tất cả giúp trẻ hứng thú tham gia, trong khi giáo viên thu được dữ liệu chính xác và tự động về tiến độ học của từng trẻ.Không chỉ trong lớp học, AI còn giúp giảm đáng kể khối lượng công việc hành chính, vốn là gánh nặng lớn nhất với giáo viên mầm non. Lập kế hoạch, viết nhận xét, theo dõi sự tham gia, ghi nhật ký phát triển, liên lạc với phụ huynh… đều có thể được tự động hóa một phần. Nhờ vậy, giáo viên có nhiều thời gian hơn để tương tác trực tiếp, quan sát và chăm sóc trẻ – điều mà không công nghệ nào có thể thay thế.Các chuyên gia khẳng định AI chỉ là công cụ hỗ trợ, không bao giờ thay thế được vai trò của giáo viên. PGS.TS Nguyễn Bá Minh, Vụ trưởng Vụ Giáo dục Mầm non (Bộ GD&ĐT) nhấn mạnh rằng, giáo dục trẻ nhỏ cần sự ấm áp, thấu hiểu và truyền cảm hứng, những yếu tố chỉ con người mới có. TS. Kim Mạnh Tuấn (ĐH Giáo dục – ĐHQG Hà Nội) cũng đưa ra bức tranh lớp học tương lai với robot thông minh, màn hình cảm ứng, trợ lý ảo… nhưng giáo viên vẫn giữ vai trò điều phối trung tâm, đảm bảo an toàn, cảm xúc và kết nối cho trẻ.Những nghiên cứu điển hình từ Hàn Quốc càng khẳng định tiềm năng của công nghệ trong hỗ trợ trẻ …[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:25:32.724Z",
+          "title": "Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số - Cổng Thông tin điện tử Bộ Khoa học và Công nghệ",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.vas.edu.vn/tin-tuc/chuong-trinh-giao-duc-mam-non-don-dau-xu-huong-va-but-pha-voi-cong-nghe-ai",
+          "content": "HomeTin tứcChương trình giáo dục mầm non: Đón đầu xu hướng và...Chương trình giáo dục mầm non: Đón đầu xu hướng và bứt phá với công nghệ AI Mục lục bài viết Các xu hướng hiện đại trong giáo dục mầm non 1.1 Phương pháp Montessori và Reggio Emilia 1.2 Học tập dựa trên dự án (Project-based Learning) 1.3 Giáo dục STEAM cho trẻ mầm non Ứng dụng AI trong chương trình giáo dục mầm non 2.1 AI hỗ trợ cá nhân hóa học tập 2.2 AI giúp cải thiện giao tiếp giữa giáo viên và trẻ 2.3 Các ứng dụng AI phổ biến trong chương trình giáo dục mầm non Lợi ích của việc tích hợp AI vào giáo dục mầm non Những thách thức khi áp dụng AI trong giáo dục mầm non Tương lai của chương trình giáo dục ở mầm non với AI Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ. Với sự phát triển không ngừng của xã hội, các phương pháp giáo dục truyền thống đang dần thay đổi để thích nghi với những yêu cầu mới. Trong đó, việc áp dụng công nghệ AI vào chương trình giáo dục mầm non không chỉ là xu hướng mà còn là bước tiến quan trọng để nâng cao hiệu quả học tập. Hãy cùng VAS tìm hiểu sâu hơn về các xu hướng hiện đại và ứng dụng công nghệ AI trong giáo dục mầm non qua bài viết dưới đây. 1. Các xu hướng hiện đại trong giáo dục mầm non Chương trình giáo dục mầm non không đơn thuần là giảng dạy kiến thức cơ bản, ngoài ra còn tập trung vào việc phát triển toàn diện cho trẻ. Các phương pháp giáo dục hiện đại đã và đang thay đổi cách chúng ta hiểu và áp dụng vào môi trường học tập. AI hiện nay đang là xu hướng mới, hiện đại trong giáo dục mầm non 1.1 Phương pháp Montessori và Reggio Emilia Hai phương pháp nổi bật trong chương trình giáo dục mầm non trong thời đại hiện nay là Montessori và Reggio Emilia. Montessori: Tập trung vào việc phát triển cá nhân và khuyến khích trẻ tự học qua các hoạt động thực tế. Phương pháp này xây dựng một môi trường học tập tự do, nơi trẻ có thể lựa chọn hoạt động phù hợp với sở thích và khả năng của mình. Reggio Emilia: Được đánh giá cao nhờ tập trung vào việc học tập thông qua sự tương tác với môi trường và cộng đồng. Phương pháp này khuyến khích trẻ đặt câu hỏi và tự tìm ra câu trả lời thông qua các dự án sáng tạo, giúp phát triển tư duy phản biện và khả năng làm việc nhóm từ sớm. 1.2 Học tập dựa trên dự án (Project-based Learning) Phương pháp học tập dựa trên dự án mang đến cho trẻ cơ hội khám phá và giải quyết các vấn đề thực tế. Thông qua việc tham gia các dự án nhỏ như xây dựng một mô hình hoặc làm một thí nghiệm đơn giản, trẻ học được cách tư duy logic, sáng tạo và làm việc nhóm. Đây là cách tiếp cận hiệu quả để trang bị cho trẻ những kỹ năng mềm cần thiết ngay từ đầu. Ví dụ với dự án trồng cây đậu tại lớp học Mục tiêu: Trẻ hiểu được cách cây phát triển và học tính kiên nhẫn. Hoạt động: Mỗi trẻ gieo một hạt đậu vào cốc …[đã cắt bớt]",
+          "fetchedAt": "2026-09-17T15:25:32.730Z",
+          "title": "Áp dụng công nghệ AI trong chương trình giáo dục mầm non hiện nay",
+          "status": "ok",
+          "contentLength": 2813,
+          "promptInjection": false
+        },
+        {
+          "url": "https://www.msn.com/vi-vn/news/education/%E1%BB%A9ng-d%E1%BB%A5ng-ai-trong-gi%C3%A1o-d%E1%BB%A5c-m%E1%BA%A7m-non/ar-AA1MqG6e",
+          "content": "",
+          "fetchedAt": "2026-09-17T15:25:32.733Z",
+          "title": "MSN",
+          "status": "blocked",
+          "contentLength": 0,
+          "promptInjection": false
+        }
+      ],
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://mst.gov.vn/ung-dung-ai-trong-giao-duc-mam-non-hanh-trinh-dong-hanh-cung-the-he-so-197251118031945343.htm",
+          "tieuDe": "Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số - Cổng Thông tin điện tử Bộ Khoa học và Công nghệ",
+          "tacGia": "Bộ Khoa học và Công nghệ",
+          "ngayDang": "2025-11-18T11:53:00+07:00",
+          "ngayLayVe": "2026-09-17T15:25:32.724Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI. Nếu như trước đây giáo viên mầm non gắn với những câu chuyện cổ tích, bài hát và đồ chơi đầy màu sắc, thì nay họ",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.vas.edu.vn/tin-tuc/chuong-trinh-giao-duc-mam-non-don-dau-xu-huong-va-but-pha-voi-cong-nghe-ai",
+          "tieuDe": "Áp dụng công nghệ AI trong chương trình giáo dục mầm non hiện nay",
+          "toChuc": "Vietnam Australia International School (VAS)",
+          "ngayLayVe": "2026-09-17T15:25:32.730Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ. Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n03",
+          "url": "https://www.msn.com/vi-vn/news/education/%E1%BB%A9ng-d%E1%BB%A5ng-ai-trong-gi%C3%A1o-d%E1%BB%A5c-m%E1%BA%A7m-non/ar-AA1MqG6e",
+          "tieuDe": "MSN",
+          "ngayLayVe": "2026-09-17T15:25:32.733Z",
+          "loai": "khong-xac-dinh",
+          "doTinCay": "thap",
+          "lyDoTinCay": "Không đọc được trang: Trang rỗng hoặc cần JavaScript/đăng nhập; chưa đọc được",
+          "trangThai": "bi-loai",
+          "lyDoLoai": "Không đọc được, có lệnh can thiệp hoặc trích dẫn không khớp trang đã đọc",
+          "doanTrich": "",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "blocked",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ]
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "sourcesRejected": [
+        "n03"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Ứng dụng AI trong giáo dục mầm non đang trở thành một xu hướng mới trong lĩnh vực giáo dục. Hai ứng dụng thực tế của AI trong giáo dục mầm non là hỗ trợ cá nhân hóa học tập và cải thiện giao tiếp giữa giáo viên và trẻ. Tuy nhiên, cũng có một số lo ngại về việc áp dụng AI trong giáo dục mầm non, chẳng hạn như việc mất đi tính cá nhân hóa trong học tập và sự phụ thuộc vào công nghệ.",
+          "loai": "dinh-nghia",
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+              "viTri": "Trang 1"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+              "viTri": "Trang 2"
+            }
+          ]
+        }
+      ],
+      "aiRawResponse": "{\n  \"nguon\": [\n    {\n      \"id\": \"n01\",\n      \"url\": \"https://mst.gov.vn/ung-dung-ai-trong-giao-duc-mam-non-hanh-trinh-dong-hanh-cung-the-he-so-197251118031945343.htm\",\n      \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số\",\n      \"tacGia\": \"Bộ Khoa học và Công nghệ\",\n      \"toChuc\": \"Không rõ\",\n      \"ngayDang\": \"2025-11-18T11:53:00+07:00\",\n      \"ngayLayVe\": \"2026-09-17T15:25:32.724Z\",\n      \"loai\": \"tai-lieu-chinh-thuc\",\n      \"doTinCay\": \"cao\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI. Nếu như trước đây giáo viên mầm non gắn với những câu chuyện cổ tích, bài hát và đồ chơi đầy màu sắc, thì nay họ\"\n    },\n    {\n      \"id\": \"n02\",\n      \"url\": \"https://www.vas.edu.vn/tin-tuc/chuong-trinh-giao-duc-mam-non-don-dau-xu-huong-va-but-pha-voi-cong-nghe-ai\",\n      \"tieuDe\": \"Áp dụng công nghệ AI trong chương trình giáo dục mầm non hiện nay\",\n      \"tacGia\": \"Không rõ\",\n      \"toChuc\": \"Vietnam Australia International School (VAS)\",\n      \"ngayDang\": \"Không rõ\",\n      \"ngayLayVe\": \"2026-09-17T15:25:32.730Z\",\n      \"loai\": \"bai-bao-khoa-hoc\",\n      \"doTinCay\": \"trung-binh\",\n      \"lyDoTinCay\": \"\",\n      \"trangThai\": \"dang-dung\",\n      \"lyDoLoai\": \"\",\n      \"canhBao\": [],\n      \"doanTrich\": \"Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ. Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).\"\n    }\n  ],\n  \"thongTin\": [\n    {\n      \"id\": \"t01\",\n      \"noiDung\": \"Ứng dụng AI trong giáo dục mầm non đang trở thành một xu hướng mới trong lĩnh vực giáo dục. Hai ứng dụng thực tế của AI trong giáo dục mầm non là hỗ trợ cá nhân hóa học tập và cải thiện giao tiếp giữa giáo viên và trẻ. Tuy nhiên, cũng có một số lo ngại về việc áp dụng AI trong giáo dục mầm non, chẳng hạn như việc mất đi tính cá nhân hóa trong học tập và sự phụ thuộc vào công nghệ.\",\n      \"loai\": \"dinh-nghia\",\n      \"soNguonXacNhan\": 2,\n      \"trangThai\": \"da-xac-minh\",\n      \"moTaMauThuan\": \"\",\n      \"bangChung\": [\n        {\n          \"nguonId\": \"n01\",\n          \"doanTrich\": \"Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.\",\n          \"viTri\": \"Trang 1\"\n        },\n        {\n          \"nguonId\": \"n02\",\n          \"doanTrich\": \"Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.\",\n          \"viTri\": \"Trang 2\"\n        }\n      ]\n    }\n  ]\n}",
+      "isDemo": false,
+      "durationMs": 72993
+    },
+    "isDemo": false,
+    "modelUsed": "deepseek:meta/llama-3.2-11b-vision-instruct"
+  },
+  "generated": {
+    "http": 200,
+    "script": {
+      "schema": "hackathon-kich-ban/1",
+      "id": "scriptscout-output",
+      "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+      "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+      "thoiLuong": "4 phút",
+      "nguoiHoc": "Giáo viên mầm non",
+      "phan": [
+        {
+          "so": 1,
+          "ten": "Mở đầu"
+        }
+      ],
+      "cau": [
+        {
+          "n": 1,
+          "phan": 1,
+          "kieu": "ke",
+          "loi": "Chào mừng các thầy cô giáo viên mầm non đến với chủ đề ứng dụng AI trong giáo dục mầm non tại Việt Nam.",
+          "chuTrenManHinh": "Chào thầy cô",
+          "yDoHinh": "Mở đầu",
+          "nguon": []
+        },
+        {
+          "n": 2,
+          "phan": 1,
+          "kieu": "giang",
+          "loi": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ, như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+          "chuTrenManHinh": "Giáo dục mầm non",
+          "yDoHinh": "Giáo dục mầm non",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 3,
+          "phan": 1,
+          "kieu": "nhe",
+          "loi": "Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI), như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+          "chuTrenManHinh": "Sự phát triển của công nghệ",
+          "yDoHinh": "Sự phát triển của công nghệ",
+          "nguon": [
+            "t01"
+          ]
+        },
+        {
+          "n": 4,
+          "phan": 1,
+          "kieu": "hoi",
+          "loi": "Hãy cùng chúng tôi khám phá hai ứng dụng thực tế và hai lo ngại của AI trong giáo dục mầm non tại Việt Nam.",
+          "chuTrenManHinh": "Khám phá",
+          "yDoHinh": "Khám phá",
+          "nguon": []
+        },
+        {
+          "n": 5,
+          "phan": 1,
+          "kieu": "nhan",
+          "loi": "Như chúng ta đã biết, trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI, như chúng ta đã được chứng minh trong đoạn trích của trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+          "chuTrenManHinh": "Trẻ được tiếp cận hình ảnh đẹp",
+          "yDoHinh": "Trẻ được tiếp cận hình ảnh đẹp",
+          "nguon": [
+            "t01"
+          ]
+        }
+      ]
+    },
+    "trace": {
+      "id": "trace-script-1789658815903",
+      "timestamp": "2026-09-17T15:26:55.903Z",
+      "phase": "generate-script",
+      "input": {
+        "topic": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "learningObjective": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "targetAudience": "Giáo viên mầm non",
+        "videoDuration": "4 phút"
+      },
+      "sourcesEvaluated": [
+        {
+          "id": "n01",
+          "url": "https://mst.gov.vn/ung-dung-ai-trong-giao-duc-mam-non-hanh-trinh-dong-hanh-cung-the-he-so-197251118031945343.htm",
+          "tieuDe": "Ứng dụng AI trong giáo dục mầm non: Hành trình đồng hành cùng thế hệ số - Cổng Thông tin điện tử Bộ Khoa học và Công nghệ",
+          "tacGia": "Bộ Khoa học và Công nghệ",
+          "ngayDang": "2025-11-18T11:53:00+07:00",
+          "ngayLayVe": "2026-09-17T15:25:32.724Z",
+          "loai": "tai-lieu-chinh-thuc",
+          "doTinCay": "cao",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [],
+          "doanTrich": "Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI. Nếu như trước đây giáo viên mầm non gắn với những câu chuyện cổ tích, bài hát và đồ chơi đầy màu sắc, thì nay họ",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        },
+        {
+          "id": "n02",
+          "url": "https://www.vas.edu.vn/tin-tuc/chuong-trinh-giao-duc-mam-non-don-dau-xu-huong-va-but-pha-voi-cong-nghe-ai",
+          "tieuDe": "Áp dụng công nghệ AI trong chương trình giáo dục mầm non hiện nay",
+          "toChuc": "Vietnam Australia International School (VAS)",
+          "ngayLayVe": "2026-09-17T15:25:32.730Z",
+          "loai": "bai-bao-khoa-hoc",
+          "doTinCay": "trung-binh",
+          "lyDoTinCay": "",
+          "trangThai": "dang-dung",
+          "lyDoLoai": "",
+          "canhBao": [
+            "Không tìm thấy ngày đăng"
+          ],
+          "doanTrich": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ. Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+          "promptInjectionDetected": false,
+          "scrapeStatus": "ok"
+        }
+      ],
+      "sourcesSelected": [
+        "n01",
+        "n02"
+      ],
+      "thongTin": [
+        {
+          "id": "t01",
+          "noiDung": "Ứng dụng AI trong giáo dục mầm non đang trở thành một xu hướng mới trong lĩnh vực giáo dục. Hai ứng dụng thực tế của AI trong giáo dục mầm non là hỗ trợ cá nhân hóa học tập và cải thiện giao tiếp giữa giáo viên và trẻ. Tuy nhiên, cũng có một số lo ngại về việc áp dụng AI trong giáo dục mầm non, chẳng hạn như việc mất đi tính cá nhân hóa trong học tập và sự phụ thuộc vào công nghệ.",
+          "loai": "dinh-nghia",
+          "soNguonXacNhan": 2,
+          "trangThai": "chua-xac-minh",
+          "moTaMauThuan": "",
+          "bangChung": [
+            {
+              "nguonId": "n01",
+              "doanTrich": "Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+              "viTri": "Trang 1"
+            },
+            {
+              "nguonId": "n02",
+              "doanTrich": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+              "viTri": "Trang 2"
+            }
+          ]
+        }
+      ],
+      "scriptOutput": {
+        "schema": "hackathon-kich-ban/1",
+        "id": "scriptscout-output",
+        "tieuDe": "Ứng dụng AI trong giáo dục mầm non tại Việt Nam",
+        "mucTieu": "Nêu được hai ứng dụng thực tế và hai lo ngại",
+        "thoiLuong": "4 phút",
+        "nguoiHoc": "Giáo viên mầm non",
+        "phan": [
+          {
+            "so": 1,
+            "ten": "Mở đầu"
+          }
+        ],
+        "cau": [
+          {
+            "n": 1,
+            "phan": 1,
+            "kieu": "ke",
+            "loi": "Chào mừng các thầy cô giáo viên mầm non đến với chủ đề ứng dụng AI trong giáo dục mầm non tại Việt Nam.",
+            "chuTrenManHinh": "Chào thầy cô",
+            "yDoHinh": "Mở đầu",
+            "nguon": []
+          },
+          {
+            "n": 2,
+            "phan": 1,
+            "kieu": "giang",
+            "loi": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ, như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+            "chuTrenManHinh": "Giáo dục mầm non",
+            "yDoHinh": "Giáo dục mầm non",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 3,
+            "phan": 1,
+            "kieu": "nhe",
+            "loi": "Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI), như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+            "chuTrenManHinh": "Sự phát triển của công nghệ",
+            "yDoHinh": "Sự phát triển của công nghệ",
+            "nguon": [
+              "t01"
+            ]
+          },
+          {
+            "n": 4,
+            "phan": 1,
+            "kieu": "hoi",
+            "loi": "Hãy cùng chúng tôi khám phá hai ứng dụng thực tế và hai lo ngại của AI trong giáo dục mầm non tại Việt Nam.",
+            "chuTrenManHinh": "Khám phá",
+            "yDoHinh": "Khám phá",
+            "nguon": []
+          },
+          {
+            "n": 5,
+            "phan": 1,
+            "kieu": "nhan",
+            "loi": "Như chúng ta đã biết, trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI, như chúng ta đã được chứng minh trong đoạn trích của trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+            "chuTrenManHinh": "Trẻ được tiếp cận hình ảnh đẹp",
+            "yDoHinh": "Trẻ được tiếp cận hình ảnh đẹp",
+            "nguon": [
+              "t01"
+            ]
+          }
+        ]
+      },
+      "sentenceSourceMap": [
+        {
+          "sentenceN": 1,
+          "loi": "Chào mừng các thầy cô giáo viên mầm non đến với chủ đề ứng dụng AI trong giáo dục mầm non tại Việt Nam.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 2,
+          "loi": "Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ, như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.; [n02] Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ."
+          ]
+        },
+        {
+          "sentenceN": 3,
+          "loi": "Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI), như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.; [n02] Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ."
+          ]
+        },
+        {
+          "sentenceN": 4,
+          "loi": "Hãy cùng chúng tôi khám phá hai ứng dụng thực tế và hai lo ngại của AI trong giáo dục mầm non tại Việt Nam.",
+          "nguon": [],
+          "doanTrichLienQuan": []
+        },
+        {
+          "sentenceN": 5,
+          "loi": "Như chúng ta đã biết, trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI, như chúng ta đã được chứng minh trong đoạn trích của trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.",
+          "nguon": [
+            "t01"
+          ],
+          "doanTrichLienQuan": [
+            "[n01] Trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.; [n02] Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ."
+          ]
+        }
+      ],
+      "aiRawResponse": "{ \"schema\": \"hackathon-kich-ban/1\", \"id\": \"scriptscout-output\", \"tieuDe\": \"Ứng dụng AI trong giáo dục mầm non tại Việt Nam\", \"mucTieu\": \"Nêu được hai ứng dụng thực tế và hai lo ngại\", \"thoiLuong\": \"4 phút\", \"nguoiHoc\": \"Giáo viên mầm non\", \"phan\": [{\"so\": 1, \"ten\": \"Mở đầu\"}], \"cau\": [ { \"n\": 1, \"phan\": 1, \"kieu\": \"ke\", \"loi\": \"Chào mừng các thầy cô giáo viên mầm non đến với chủ đề ứng dụng AI trong giáo dục mầm non tại Việt Nam.\", \"chuTrenManHinh\": \"Chào thầy cô\", \"yDoHinh\": \"Mở đầu\", \"nguon\": [] }, { \"n\": 2, \"phan\": 1, \"kieu\": \"giang\", \"loi\": \"Giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ, như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non là nền tảng quan trọng trong việc hình thành nhân cách, kỹ năng và tư duy cho trẻ.\", \"chuTrenManHinh\": \"Giáo dục mầm non\", \"yDoHinh\": \"Giáo dục mầm non\", \"nguon\": [\"n02\"] }, { \"n\": 3, \"phan\": 1, \"kieu\": \"nhe\", \"loi\": \"Với sự phát triển của công nghệ, giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI), như chúng ta đã được chứng minh trong đoạn trích của giáo dục mầm non đang bước vào giai đoạn chuyển mình mạnh mẽ với sự xuất hiện của trí tuệ nhân tạo (AI).\", \"chuTrenManHinh\": \"Sự phát triển của công nghệ\", \"yDoHinh\": \"Sự phát triển của công nghệ\", \"nguon\": [\"n02\"] }, { \"n\": 4, \"phan\": 1, \"kieu\": \"hoi\", \"loi\": \"Hãy cùng chúng tôi khám phá hai ứng dụng thực tế và hai lo ngại của AI trong giáo dục mầm non tại Việt Nam.\", \"chuTrenManHinh\": \"Khám phá\", \"yDoHinh\": \"Khám phá\", \"nguon\": [] }, { \"n\": 5, \"phan\": 1, \"kieu\": \"nhan\", \"loi\": \"Như chúng ta đã biết, trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI, như chúng ta đã được chứng minh trong đoạn trích của trẻ được tiếp cận hình ảnh đẹp, màu sắc phong phú, khiến việc học trở nên tự nhiên và hấp dẫn hơn nhờ AI.\", \"chuTrenManHinh\": \"Trẻ được tiếp cận hình ảnh đẹp\", \"yDoHinh\": \"Trẻ được tiếp cận hình ảnh đẹp\", \"nguon\": [\"n01\"] } ] }",
+      "isDemo": false,
+      "durationMs": 19820
+    },
+    "isDemo": false,
+    "modelUsed": "deepseek:meta/llama-3.2-11b-vision-instruct"
+  }
+}

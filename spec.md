@@ -425,12 +425,25 @@ khả năng phát hiện mọi biến thể vẫn là giới hạn nêu ở §9.
 
 ### 8.1 Validation với người dùng
 
-Hiện `validation/` chưa có log dùng thử đủ chuẩn từ hai người ngoài nhóm,
-nên nhóm chưa khai bonus validation. Bước tiếp theo là giao cùng một tác vụ
-viết 5 câu và kiểm nguồn cho ít nhất hai người thuộc vai trò người viết hoặc
-reviewer; lưu task, quan sát, câu nói nguyên văn và thay đổi rút ra trong
-`validation/`, sau khi họ đồng ý chia sẻ và đã bỏ thông tin nhạy cảm. Không
-coi 6/11 người đồng ý *thử* trong khảo sát là đã dùng thử prototype.
+**PHẢN HỒI NGƯỜI DÙNG THẬT & CẢI TIẾN KỸ THUẬT**
+
+Theo thông tin nhóm cung cấp, hai người ngoài nhóm đã thử prototype với hai
+tác vụ: đối chiếu bằng chứng và sửa chọn lọc khi loại nguồn. Nhóm mô tả cách
+hỏi là theo Mom Test. Bảng dưới giữ nguyên câu nói do nhóm cung cấp; hiện
+repo chưa có biên bản quan sát độc lập để xác minh thời điểm, diễn biến thao
+tác hoặc việc hai người đã đồng ý công bố tên và lời nói.
+
+| Người thử / vai trò | Tác vụ | Trích dẫn do nhóm cung cấp | Vấn đề và hướng xử lý |
+|---|---|---|---|
+| **Tạ Quang Dũng** — Sinh viên khoá 4 AI Vin thực chiến | Kiểm tra câu kịch bản và đối chiếu bằng chứng ở side-drawer | “Hệ thống highlight đúng chữ, nhưng nguồn là mệnh đề giả định còn kịch bản lại khẳng định chắc nịch. Nếu drawer chỉ cắt một mẩu câu ngắn mà không cho xem ngữ cảnh xung quanh, tôi vẫn phải tự mở link gốc đọc lại.” | Khớp chuỗi chưa đủ để kết luận claim được chứng minh. Cần hiển thị ngữ cảnh trước/sau đoạn trích và bổ sung bước đối chiếu ngữ nghĩa trước khi reviewer tin câu viết. |
+| **Nguyễn Khắc Quang** — vai trò chưa được cung cấp | Thử Reject nguồn lỗi thời `[SRC-03]` và kích hoạt Selective Rewrite | “Chỉ sửa đúng câu mất nguồn là điểm cộng rất lớn, đỡ mất công đọc lại từ đầu. Nhưng câu mới viết lại đang bị gãy nhịp nối với câu trước vì câu trước bị đóng băng cứng ngắc, đọc không còn tự nhiên.” | Viết lại chọn lọc giảm phần cần đọc lại, nhưng cần kiểm độ liền mạch với câu đứng trước/sau. Giữ câu không phụ thuộc nguồn, đồng thời cho reviewer xem và sửa câu nối nếu cần. |
+
+**Trạng thái R6:** Đây là hai quote và mô tả tác vụ do nhóm bổ sung, chưa phải
+log validation đầy đủ theo rubric. `validation/` hiện chưa có task log, quan
+sát thao tác, thời điểm, mức độ nghiêm trọng và bằng chứng về thay đổi code
+sau phản hồi. Vì vậy chưa khai bonus R6 hoặc nói hai cải tiến trên đã triển
+khai. Cần bổ sung log sau khi đối chiếu với người thử; không coi 6/11 người
+đồng ý *thử* trong khảo sát là đã dùng prototype.
 
 ### 8.2 Chạy prototype và eval
 
@@ -466,7 +479,7 @@ Chi phí: chưa có hóa đơn/đơn giá xác minh; không khẳng định mi�
 - Chỉ đọc đoạn đầu tối đa 2.800 ký tự, chưa hỗ trợ PDF/trang cần đăng nhập; không coi snippet tìm kiếm là đã đọc.
 - Chưa có video quay màn hình được tạo; xem DEMO-GUIDE.md. Cần người quay thật.
 - Chưa có DOCX/PDF; hiện xuất JSON. Bản local prototype, chưa phải dịch vụ public có auth và lưu trữ nhiều người.
-- Chưa có human validation đầy đủ; quality bar phiên bản 7 đo mức đạt kiểm tra tự động. Không push, không nộp form.
+- Đã ghi hai quote người thử do nhóm cung cấp ở §8.1, nhưng chưa có log quan sát và thay đổi code theo phản hồi để xác nhận R6; quality bar phiên bản 7 đo mức đạt kiểm tra tự động. Không push, không nộp form.
 
 ## §10. Changelog
 
@@ -477,3 +490,4 @@ Chi phí: chưa có hóa đơn/đơn giá xác minh; không khẳng định mi�
 | 2026-09-17 | Lượt đầy đủ 27 case theo tiêu chí v6 ghi 8 pass, 14 needs-review, 5 not-met; bản v7 tái phân loại cùng dữ liệu thành 22/27 pass, không chạy lại API toàn bộ |
 | 2026-09-17 | Loại model không truy cập được, thêm chuyển model khi gặp 429, sửa trích đoạn và kiểm tra evidence; xem `eval/cp3/ACCEPTANCE-2026-09-17.md` |
 | 2026-09-18 | Bổ sung §5–§6, định nghĩa chiều kiểm ở §7 và kế hoạch validation theo case/code hiện có; giữ nguyên quality bar CP4 và kết quả lịch sử |
+| 2026-09-18 | Ghi hai quote và tác vụ validation do nhóm cung cấp vào §8.1; đưa kiểm ngữ nghĩa/ngữ cảnh citation và độ liền mạch sau selective rewrite vào hướng xử lý, chưa ghi là đã sửa code |

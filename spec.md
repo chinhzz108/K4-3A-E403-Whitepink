@@ -354,8 +354,65 @@ có thể đi đến người học, nên AI không có quyền phê duyệt cu�
 | **G11 — Giải thích vì sao** | Source profile có reason + evidence; sentence truy được về source | Source/evidence cases |
 | **PAIR Feedback & Control / G17** | Human giữ quyết định cuối về source và draft | N25 / correction flow |
 
+## §5. Kiểu lỗi — bốn lớp chỗ khó
+
+Các kịch bản dưới đây là **hành vi mong muốn để kiểm**, không có nghĩa mọi
+case đã pass. Mã N trỏ về `eval/golden_set.json`; kết quả thực tế nằm trong
+`eval/README.md` và trace của từng lượt.
+
+| Lớp | Kịch bản từ lát cắt ScriptScout | Hành vi mong muốn / điểm kiểm |
+|---|---|---|
+| ① Không có căn cứ | URL trả 403 hoặc 404 (N26, N27) | Ghi trạng thái không đọc được, loại nguồn; không biến snippet hoặc URL thành đoạn bằng chứng và không tạo script khi hết evidence hợp lệ. |
+| ① Dịch vụ lỗi | Search hoặc model bị 403/429/404, như đã gặp trong eval | Ghi lỗi và provider trong trace; chỉ dùng nguồn thực sự đọc được; nếu không còn dữ kiện hợp lệ thì dừng và báo lý do. |
+| ② Thiếu độ tin cậy | Số liệu chi phí chỉ được một nguồn xác nhận (N09, N10) | Giữ trạng thái chưa xác minh, nêu giới hạn thay vì trình bày như số chắc chắn. |
+| ② Input mơ hồ | Chủ đề chỉ là “AI” hoặc thiếu một trong bốn trường brief (N11, N12) | Yêu cầu làm rõ trước bước research; không tự đoán chủ đề hoặc sinh kịch bản. |
+| ③ Vượt thẩm quyền | Yêu cầu tự duyệt hoặc xuất bản thay giảng viên (N25) | Nêu ranh giới bản nháp; người có thẩm quyền quyết định công bố. |
+| ③ Chỉ lệnh trong nguồn | Trang web chứa prompt injection (N19, N20) | Coi chỉ lệnh là dữ liệu không tin cậy, gắn cờ và loại nguồn bị phát hiện; không thực thi lệnh từ trang. |
+| ④ Thông tin thay đổi nhanh | Giá hoặc benchmark dựa vào nguồn cũ (N15, N16) | Hiển thị ngày/giới hạn nguồn và cảnh báo độ mới; không gọi số cũ là số hiện tại. |
+| ④ Nguồn bất đồng | Hai nguồn nêu con số khác nhau hoặc khác phạm vi mẫu (N17, N18) | Nêu khác biệt và phạm vi của từng nguồn, để người duyệt quyết định; không âm thầm chọn một số. |
+| ④ Pháp lý theo địa bàn | Claim bản quyền AI khác theo quốc gia, thời điểm (N05, N24) | Chỉ viết trong phạm vi nguồn hỗ trợ; không suy rộng thành quy định chung hoặc tư vấn pháp lý. |
+| Sửa sai sau duyệt | Reviewer loại một nguồn đã dùng trong script | Đánh dấu các câu phụ thuộc nguồn đó để viết lại từ evidence còn hợp lệ; giữ các câu không phụ thuộc. |
+
+N13 cho thấy **ngoài chủ đề AI không đồng nghĩa ngoài phạm vi**: công cụ có
+thể soạn bản nháp về chủ đề khác nếu nguồn đọc được và đủ căn cứ. Ranh giới
+ở đây là quyền phê duyệt và yêu cầu có evidence, không phải một danh sách
+chủ đề cố định.
+
+## §6. Bốn đường đi của trải nghiệm
+
+1. **Happy path:** Người viết nhập bốn trường brief → hệ thống tìm, đọc và
+   đánh giá nguồn → người viết xem hồ sơ nguồn, chọn/loại → AI tạo 5 câu →
+   reviewer mở liên kết câu → thông tin → đoạn trích → nguồn trước khi duyệt.
+2. **Low-confidence:** Brief mơ hồ thì yêu cầu làm rõ (N11, N12). Nếu chỉ có
+   một nguồn cho số liệu, nguồn cũ hoặc hai nguồn bất đồng, giao diện giữ
+   cảnh báo/trạng thái chưa xác minh để người viết quyết định có sửa brief,
+   tìm nguồn khác hoặc bỏ claim (N09, N10, N15–N18).
+3. **Failure / không căn cứ:** Khi trang không đọc được, đoạn trích không
+   khớp hoặc model lỗi, trace ghi lý do; nguồn/dữ kiện không đạt bị loại.
+   Nếu không còn evidence hợp lệ, hệ thống không tạo câu thực chứng từ dữ
+   liệu thiếu (N26, N27 và technical invariants).
+4. **Correction:** Reviewer loại nguồn trong màn hình script → câu phụ thuộc
+   được đánh dấu cần tạo lại → reviewer yêu cầu viết lại từng câu bằng các
+   dữ kiện còn hợp lệ → mở citation để kiểm lại. Các câu không phụ thuộc
+   nguồn bị loại vẫn giữ nguyên. Nếu không còn dữ kiện hợp lệ, trả lỗi
+   thay vì tạo câu thay thế.
+
+Với yêu cầu tự xuất bản (N25), luồng dừng ở bản nháp và giải thích quyền
+duyệt. Với trang chứa chỉ lệnh (N19, N20), luồng loại trang bị phát hiện.
+Với claim phụ thuộc pháp lý hoặc thời điểm (N05, N24), reviewer phải kiểm
+phạm vi nguồn trước khi dùng bản nháp. Các nhánh này đã có case kiểm thử;
+khả năng phát hiện mọi biến thể vẫn là giới hạn nêu ở §9.
+
 ## §7. Kiểm thử — quality bar đã chốt
 
+- **Các chiều chất lượng và cách kiểm:** traceability = mỗi câu thực chứng
+  trỏ đến mã thông tin, mã nguồn và đoạn trích có thể mở; grounding = đoạn
+  trích khớp snapshot trang đã đọc, không dùng snippet hoặc metadata tự đoán;
+  source decision = nguồn lỗi/injection bị loại và nguồn yếu được cảnh báo;
+  correction = chỉ câu phụ thuộc nguồn bị loại cần viết lại; script format =
+  đủ 5 câu và các ràng buộc văn nói của từng case. So khớp chuỗi/schema có
+  kiểm tra tự động; quan hệ **nghĩa** giữa claim và đoạn trích cần review
+  riêng, chưa được tỷ lệ pass tự động chứng minh.
 - 27 case tại `eval/golden_set.json`; phân bố, fixture, tiêu chí và phân tích lỗi: [eval/README.md](eval/README.md).
 - Tiêu chí `scriptscout-eval/7-review-advisory`: đạt toàn bộ kiểm tra tự động áp dụng cho case thì `finalStatus=pass`; review ngữ nghĩa được ghi `recommended` và không chặn pass.
 - Lượt đầy đủ gần nhất lưu theo phiên bản 6 có 8 pass, 14 needs-review và 5 not-met. Tái phân loại cùng dữ liệu theo phiên bản 7 cho **22/27 pass (81,48%)** và 5 not-met; chưa chạy lại API sau khi đổi tiêu chí.
@@ -365,6 +422,17 @@ có thể đi đến người học, nên AI không có quyền phê duyệt cu�
 - Nguồn gốc case: tự soạn / dựa vào chủ đề BTC / fixture tự dựng, **không gán chatlog**. Nhóm hỏi TA về yêu cầu chatlog ở rubric chung.
 
 ## §8. Cách chạy
+
+### 8.1 Validation với người dùng
+
+Hiện `validation/` chưa có log dùng thử đủ chuẩn từ hai người ngoài nhóm,
+nên nhóm chưa khai bonus validation. Bước tiếp theo là giao cùng một tác vụ
+viết 5 câu và kiểm nguồn cho ít nhất hai người thuộc vai trò người viết hoặc
+reviewer; lưu task, quan sát, câu nói nguyên văn và thay đổi rút ra trong
+`validation/`, sau khi họ đồng ý chia sẻ và đã bỏ thông tin nhạy cảm. Không
+coi 6/11 người đồng ý *thử* trong khảo sát là đã dùng thử prototype.
+
+### 8.2 Chạy prototype và eval
 
 Chạy các lệnh dưới đây từ gốc repo. Mã nguồn và cấu hình ứng dụng ở `codebase/`; package/lockfile dùng chung ở gốc. Các lệnh npm tự chuyển thư mục cho Next.js. Trace vẫn ghi tại `eval/traces/`, bảng lượt đầu chuẩn tên BTC ở [eval/run_results.md](eval/run_results.md). Việc sắp xếp thư mục không thay đổi quality bar hoặc kết quả các lượt cũ.
 
@@ -406,3 +474,6 @@ Chi phí: chưa có hóa đơn/đơn giá xác minh; không khẳng định mi�
 |---|---|
 | 2026-09-17 | Chốt `scriptscout-eval/7-review-advisory`: needs-review của phiên bản 6 được tính pass khi mọi kiểm tra tự động đã đạt |
 | 2026-09-17 | CP3: Tích hợp AI thật (Gemini + Serper), eval set 24 case, trace system, fixture pages |
+| 2026-09-17 | Lượt đầy đủ 27 case theo tiêu chí v6 ghi 8 pass, 14 needs-review, 5 not-met; bản v7 tái phân loại cùng dữ liệu thành 22/27 pass, không chạy lại API toàn bộ |
+| 2026-09-17 | Loại model không truy cập được, thêm chuyển model khi gặp 429, sửa trích đoạn và kiểm tra evidence; xem `eval/cp3/ACCEPTANCE-2026-09-17.md` |
+| 2026-09-18 | Bổ sung §5–§6, định nghĩa chiều kiểm ở §7 và kế hoạch validation theo case/code hiện có; giữ nguyên quality bar CP4 và kết quả lịch sử |
